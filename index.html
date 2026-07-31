@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dietro il testo</title>
+<meta name="description" content="28 schede su brani reali (grandi classici, metal, canzone d'autore italiana), ognuna nei colori della propria band o album — niente testi riprodotti, solo contesto e fonti verificate.">
+<style>
+  :root {
+    --bg: #FDFCFF;
+    --surface: #FFFFFF;
+    --surface-alt: #F3F1FA;
+    --text: #201C2B;
+    --text-muted: #6B637A;
+    --accent: #B8631A;
+    --accent-2: #2E6B65;
+    --border: #E4E0EE;
+    --on-accent: #FFFFFF;
+
+    --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 28px 110px;
+  }
+
+  header.hero {
+    padding: 76px 0 44px;
+    position: relative;
+  }
+
+  .grooves {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    width: 128px;
+    height: 128px;
+    pointer-events: none;
+    opacity: 0.45;
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-2);
+    margin: 0 0 14px;
+  }
+
+  h1.title {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 700;
+    font-size: clamp(38px, 6vw, 56px);
+    line-height: 1.08;
+    margin: 0 0 20px;
+    text-wrap: balance;
+    max-width: 11ch;
+  }
+
+  .lede {
+    font-size: 18px;
+    color: var(--text-muted);
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  .approach-note {
+    margin-top: 30px;
+    padding: 18px 20px;
+    background: var(--surface-alt);
+    border-left: 3px solid var(--accent);
+    border-radius: 2px;
+    font-size: 14.5px;
+    color: var(--text-muted);
+  }
+  .approach-note strong { color: var(--text); }
+
+  /* --- Index: filters + card grid --- */
+
+  #indice { scroll-margin-top: 24px; }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 52px 0 26px;
+  }
+  .filters button {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 9px 18px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+  }
+  .filters button:hover { color: var(--text); border-color: var(--text-muted); }
+  .filters button.is-active {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .card {
+    display: block;
+    text-decoration: none;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--card-accent);
+    border-radius: 6px;
+    padding: 18px 18px 20px;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .card:hover, .card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(32,28,43,0.08);
+    outline: none;
+  }
+  .card .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--card-accent);
+    display: inline-block;
+    margin-bottom: 11px;
+  }
+  .card .card-artist {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+  }
+  .card .card-title {
+    display: block;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.25;
+  }
+
+  .card.is-hidden { display: none; }
+
+  /* --- Category dividers --- */
+
+  .category-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 60px 0 26px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .category-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+  main .category-divider:first-of-type { margin-top: 12px; }
+
+  /* --- Song sections --- */
+
+  section.song {
+    padding: 52px 0;
+    border-top: 1px solid var(--border);
+    scroll-margin-top: 24px;
+  }
+  section.song.first-in-group { border-top: none; padding-top: 0; }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+  .meta-row span { white-space: nowrap; }
+  .meta-row .artist { color: var(--accent-2); font-weight: 600; }
+
+  h2.song-title {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 36px);
+    margin: 0 0 22px;
+    text-wrap: balance;
+    color: var(--accent);
+  }
+
+  .song-body p {
+    margin: 0 0 17px;
+    max-width: 64ch;
+    font-size: 16px;
+  }
+  .song-body h3 {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 26px 0 11px;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 26px;
+  }
+  .links a {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    text-decoration: none;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .links a:hover, .links a:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+    outline: none;
+  }
+  .links a.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+  }
+  .links a.primary:hover { opacity: 0.88; color: var(--on-accent); }
+
+  .sources {
+    margin-top: 16px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+  }
+  .sources a { color: var(--text-muted); }
+  .sources a:hover { color: var(--accent-2); }
+
+  .back-to-index {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  .back-to-index:hover { color: var(--accent-2); }
+
+  footer {
+    padding-top: 52px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="hero">
+    <svg class="grooves" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="none" stroke="var(--accent-2)" stroke-width="1"/>
+      <circle cx="64" cy="64" r="46" fill="none" stroke="var(--accent-2)" stroke-width="1"/>
+      <circle cx="64" cy="64" r="32" fill="none" stroke="var(--accent-2)" stroke-width="1"/>
+      <circle cx="64" cy="64" r="6" fill="var(--accent)"/>
+    </svg>
+    <p class="eyebrow">28 brani, tre mondi: grandi classici, metal, canzone d'autore italiana</p>
+    <h1 class="title">Dietro il testo</h1>
+    <p class="lede">Schede su canzoni reali: contesto, genesi, significato e fonti verificate. Ogni brano porta i colori della propria band o del proprio album — niente testi riprodotti, solo la storia dietro le parole.</p>
+    <div class="approach-note">
+      <strong>Perché non trovi i testi qui.</strong> I testi delle canzoni sono opere protette da copyright. Questo sito racconta il contesto e il significato dei brani a parole nostre, verificato su fonti pubbliche, e rimanda a Wikipedia o Spotify per ascoltare o leggere il testo integrale in modo legale.
+    </div>
+  </header>
+
+  <nav id="indice" class="filters" aria-label="Filtra per categoria">
+    <button type="button" data-filter="all" class="is-active">Tutti · 28</button>
+    <button type="button" data-filter="mondo">Grandi classici · 9</button>
+    <button type="button" data-filter="metal">Metal · 10</button>
+    <button type="button" data-filter="italiano">Italiano · 9</button>
+  </nav>
+
+  <div class="card-grid" id="card-grid">
+    <a class="card" data-category="mondo" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
+      <span class="dot"></span><span class="card-artist">Queen</span><span class="card-title">Bohemian Rhapsody</span>
+    </a>
+    <a class="card" data-category="mondo" href="#hey-jude" style="--card-accent:#3E7A2C">
+      <span class="dot"></span><span class="card-artist">The Beatles</span><span class="card-title">Hey Jude</span>
+    </a>
+    <a class="card" data-category="mondo" href="#thriller" style="--card-accent:#A31F27">
+      <span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Thriller</span>
+    </a>
+    <a class="card" data-category="mondo" href="#teen-spirit" style="--card-accent:#B89B1F">
+      <span class="dot"></span><span class="card-artist">Nirvana</span><span class="card-title">Smells Like Teen Spirit</span>
+    </a>
+    <a class="card" data-category="mondo" href="#lose-yourself" style="--card-accent:#5C3D80">
+      <span class="dot"></span><span class="card-artist">Eminem</span><span class="card-title">Lose Yourself</span>
+    </a>
+    <a class="card" data-category="mondo" href="#creep" style="--card-accent:#4F6B49">
+      <span class="dot"></span><span class="card-artist">Radiohead</span><span class="card-title">Creep</span>
+    </a>
+    <a class="card" data-category="mondo" href="#imagine" style="--card-accent:#2E6E9E">
+      <span class="dot"></span><span class="card-artist">John Lennon</span><span class="card-title">Imagine</span>
+    </a>
+    <a class="card" data-category="mondo" href="#sweet-child" style="--card-accent:#8A1A2E">
+      <span class="dot"></span><span class="card-artist">Guns N' Roses</span><span class="card-title">Sweet Child O' Mine</span>
+    </a>
+    <a class="card" data-category="mondo" href="#hotel-california" style="--card-accent:#A65A22">
+      <span class="dot"></span><span class="card-artist">Eagles</span><span class="card-title">Hotel California</span>
+    </a>
+
+    <a class="card" data-category="metal" href="#darkside" style="--card-accent:#C23B7A">
+      <span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Darkside</span>
+    </a>
+    <a class="card" data-category="metal" href="#paranoid" style="--card-accent:#B2266E">
+      <span class="dot"></span><span class="card-artist">Black Sabbath</span><span class="card-title">Paranoid</span>
+    </a>
+    <a class="card" data-category="metal" href="#run-to-the-hills" style="--card-accent:#B3221F">
+      <span class="dot"></span><span class="card-artist">Iron Maiden</span><span class="card-title">Run to the Hills</span>
+    </a>
+    <a class="card" data-category="metal" href="#enter-sandman" style="--card-accent:#6B6B6E">
+      <span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Enter Sandman</span>
+    </a>
+    <a class="card" data-category="metal" href="#walk" style="--card-accent:#8F1616">
+      <span class="dot"></span><span class="card-artist">Pantera</span><span class="card-title">Walk</span>
+    </a>
+    <a class="card" data-category="metal" href="#chop-suey" style="--card-accent:#6E7A2E">
+      <span class="dot"></span><span class="card-artist">System of a Down</span><span class="card-title">Chop Suey!</span>
+    </a>
+    <a class="card" data-category="metal" href="#du-hast" style="--card-accent:#8A1418">
+      <span class="dot"></span><span class="card-artist">Rammstein</span><span class="card-title">Du Hast</span>
+    </a>
+    <a class="card" data-category="metal" href="#breaking-the-law" style="--card-accent:#6B6B6E">
+      <span class="dot"></span><span class="card-artist">Judas Priest</span><span class="card-title">Breaking the Law</span>
+    </a>
+    <a class="card" data-category="metal" href="#raining-blood" style="--card-accent:#8F1616">
+      <span class="dot"></span><span class="card-artist">Slayer</span><span class="card-title">Raining Blood</span>
+    </a>
+    <a class="card" data-category="metal" href="#freak-on-a-leash" style="--card-accent:#7A4A1E">
+      <span class="dot"></span><span class="card-artist">Korn</span><span class="card-title">Freak on a Leash</span>
+    </a>
+
+    <a class="card" data-category="italiano" href="#albachiara" style="--card-accent:#A6272A">
+      <span class="dot"></span><span class="card-artist">Vasco Rossi</span><span class="card-title">Albachiara</span>
+    </a>
+    <a class="card" data-category="italiano" href="#marinella" style="--card-accent:#7A5A2E">
+      <span class="dot"></span><span class="card-artist">Fabrizio De André</span><span class="card-title">La canzone di Marinella</span>
+    </a>
+    <a class="card" data-category="italiano" href="#canto-libero" style="--card-accent:#A6691E">
+      <span class="dot"></span><span class="card-artist">Lucio Battisti</span><span class="card-title">Il mio canto libero</span>
+    </a>
+    <a class="card" data-category="italiano" href="#certe-notti" style="--card-accent:#A6331F">
+      <span class="dot"></span><span class="card-artist">Ligabue</span><span class="card-title">Certe notti</span>
+    </a>
+    <a class="card" data-category="italiano" href="#caruso" style="--card-accent:#2E6480">
+      <span class="dot"></span><span class="card-artist">Lucio Dalla</span><span class="card-title">Caruso</span>
+    </a>
+    <a class="card" data-category="italiano" href="#solitudine" style="--card-accent:#A6386A">
+      <span class="dot"></span><span class="card-artist">Laura Pausini</span><span class="card-title">La solitudine</span>
+    </a>
+    <a class="card" data-category="italiano" href="#la-cura" style="--card-accent:#7A4A6E">
+      <span class="dot"></span><span class="card-artist">Franco Battiato</span><span class="card-title">La cura</span>
+    </a>
+    <a class="card" data-category="italiano" href="#bello-impossibile" style="--card-accent:#A6225A">
+      <span class="dot"></span><span class="card-artist">Gianna Nannini</span><span class="card-title">Bello e impossibile</span>
+    </a>
+    <a class="card" data-category="italiano" href="#cielo-blu" style="--card-accent:#2E6EA6">
+      <span class="dot"></span><span class="card-artist">Rino Gaetano</span><span class="card-title">Ma il cielo è sempre più blu</span>
+    </a>
+  </div>
+
+  <main>
+
+    <h2 class="category-divider">Grandi classici</h2>
+
+    <section class="song first-in-group" id="bohemian-rhapsody" style="--accent:#A6192E; --accent-2:#A6821A;">
+      <div class="meta-row">
+        <span class="artist">Queen</span><span>1975</span><span>A Night at the Opera</span><span>Rock progressivo</span>
+      </div>
+      <h2 class="song-title">Bohemian Rhapsody</h2>
+      <div class="song-body">
+        <p>Pubblicata il 31 ottobre 1975, è una "mock opera" nata dalla fusione di tre brani separati scritti da Freddie Mercury, con un coro bombastico, un recitativo teatrale e frasi in italiano storpiato che parodiano l'opera lirica classica.</p>
+        <p>Mercury non ha mai rivelato ufficialmente il significato del testo, lasciando convivere diverse interpretazioni dei fan. Il chitarrista Brian May ha ipotizzato che riguardi le lotte personali di Mercury contro le aspettative della società; altri vi hanno letto un racconto velato sul percorso di accettazione della propria omosessualità.</p>
+        <p>Il brano restò per nove settimane al numero 1 della classifica singoli britannica, vendendo oltre un milione di copie in poche settimane, e nel dicembre 2018 è diventato il brano del XX secolo più ascoltato in streaming di sempre.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Bohemian_Rhapsody" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Bohemian_Rhapsody" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/" target="_blank" rel="noopener">uDiscoverMusic</a>, <a href="https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Bohemian-Rhapsody_Breithaupt.pdf" target="_blank" rel="noopener">Library of Congress</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="hey-jude" style="--accent:#3E7A2C; --accent-2:#8A6A2E;">
+      <div class="meta-row">
+        <span class="artist">The Beatles</span><span>1968</span><span>Singolo (poi in Hey Jude, 1970)</span><span>Pop rock</span>
+      </div>
+      <h2 class="song-title">Hey Jude</h2>
+      <div class="song-body">
+        <p>Paul McCartney lo scrisse come "Hey Jules" per confortare Julian Lennon, il figlio di cinque anni di John Lennon, mentre i suoi genitori stavano divorziando. Il nome divenne poi "Jude", ispirato al personaggio Jud del musical <em>Oklahoma!</em>.</p>
+        <p>Con i suoi 7 minuti e 12 secondi era, all'epoca, il brano più lungo ad arrivare al numero 1 delle classifiche britanniche. Fu anche il primo singolo pubblicato dalla neonata etichetta Apple dei Beatles, e restò nove settimane in vetta alla classifica statunitense: il più grande successo numero 1 nella storia della band.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Hey_Jude" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Hey_Jude" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/the-beatles/hey-jude" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.beatlesbible.com/songs/hey-jude/" target="_blank" rel="noopener">The Beatles Bible</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="thriller" style="--accent:#A31F27; --accent-2:#A6791E;">
+      <div class="meta-row">
+        <span class="artist">Michael Jackson</span><span>1982</span><span>Thriller</span><span>Pop / R&amp;B</span>
+      </div>
+      <h2 class="song-title">Thriller</h2>
+      <div class="song-body">
+        <p>Scritta da Rod Temperton (titolo di lavorazione "Starlight"), fu Quincy Jones a chiedere un titolo più "misterioso", capace di accompagnare l'evoluzione della persona artistica di Jackson. Il brano racconta, in chiave horror, una notte a mezzanotte popolata da mostri e terrore, restando da allora indissolubilmente legato all'immaginario di Halloween.</p>
+        <p>Il celebre video, uscito il 2 dicembre 1983, raddoppiò le vendite dell'album e segnò la storia della giovane MTV; la parte parlata è interpretata dall'attore horror Vincent Price.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Thriller_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Thriller_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/" target="_blank" rel="noopener">Song Meanings and Facts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="teen-spirit" style="--accent:#B89B1F; --accent-2:#4A5A6A;">
+      <div class="meta-row">
+        <span class="artist">Nirvana</span><span>1991</span><span>Nevermind</span><span>Grunge</span>
+      </div>
+      <h2 class="song-title">Smells Like Teen Spirit</h2>
+      <div class="song-body">
+        <p>Brano d'apertura e primo singolo di <em>Nevermind</em>, uscito il 10 settembre 1991. Kurt Cobain lo definì un pezzo dai "temi rivoluzionari", legato all'apatia della sua generazione e al rifiuto di seguire le regole imposte dal diventare adulti.</p>
+        <p>Cobain ammise di aver cercato di scrivere "la canzone pop definitiva", ispirandosi apertamente ai Pixies per la dinamica di alternanza tra strofe sommesse e ritornelli esplosivi.</p>
+        <h3>Curiosità</h3>
+        <p>Il titolo nasce da una scritta scherzosa lasciata da un'amica sul muro di casa di Cobain: lui pensò si riferisse a un concetto di "spirito ribelle adolescenziale", scoprendo solo mesi dopo l'uscita del singolo che si trattava in realtà del nome di un deodorante che non conosceva.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/nirvana/smells-like-teen-spirit" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="lose-yourself" style="--accent:#5C3D80; --accent-2:#6B6F76;">
+      <div class="meta-row">
+        <span class="artist">Eminem</span><span>2002</span><span>8 Mile (Colonna sonora)</span><span>Hip-hop</span>
+      </div>
+      <h2 class="song-title">Lose Yourself</h2>
+      <div class="song-body">
+        <p>Pubblicato il 28 ottobre 2002 come tema portante del film <em>8 Mile</em>, è diventato il primo numero 1 di Eminem nella Billboard Hot 100, restandoci per dodici settimane consecutive. Il primo verso ricalca da vicino la trama del film, riassumendo il percorso del personaggio B-Rabbit interpretato dallo stesso Eminem.</p>
+        <p>Il tema centrale è cogliere l'occasione della vita quando si presenta, prima che sfumi per sempre: fame di riscatto, paura di fallire e coraggio di rischiare tutto per un'unica possibilità. Nel 2003 il brano ha vinto l'Oscar per la Miglior Canzone Originale, primo brano hip-hop della storia a riuscirci.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Lose_Yourself" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Lose_Yourself" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/behind-the-song-eminem-lose-yourself/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="creep" style="--accent:#4F6B49; --accent-2:#A65C6C;">
+      <div class="meta-row">
+        <span class="artist">Radiohead</span><span>1992 / 1993</span><span>Pablo Honey</span><span>Alternative rock</span>
+      </div>
+      <h2 class="song-title">Creep</h2>
+      <div class="song-body">
+        <p>Uscito come singolo il 21 settembre 1992, un anno prima dell'album d'esordio <em>Pablo Honey</em>. Thom Yorke lo scrisse a fine anni '80 da studente all'Università di Exeter: il testo è in parte autobiografico, costruito attorno all'autodisprezzo di chi è troppo insicuro per avvicinarsi a una persona di cui è invaghito.</p>
+        <p>Musicalmente segue lo stesso schema quieto/esplosivo ispirato ai Pixies che caratterizza anche "Smells Like Teen Spirit" dei Nirvana. Per anni la band ha rifiutato di eseguirla dal vivo, ritenendola non rappresentativa del proprio suono.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Creep_(Radiohead_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Creep_(Radiohead_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/radiohead/creep" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="imagine" style="--accent:#2E6E9E; --accent-2:#8A8578;">
+      <div class="meta-row">
+        <span class="artist">John Lennon</span><span>1971</span><span>Imagine</span><span>Rock / Pop</span>
+      </div>
+      <h2 class="song-title">Imagine</h2>
+      <div class="song-body">
+        <p>Scritta come appello per la pace nel mondo, la canzone invita ad "immaginare" un'umanità senza confini religiosi o nazionali capace di vivere in unità. Lennon si ispirò ad alcune poesie del libro <em>Grapefruit</em> di Yoko Ono, e la scrisse a New York mentre seguiva con angoscia le notizie quotidiane sulla guerra del Vietnam.</p>
+        <p>Nelle sue stesse parole, il messaggio pacifista nascondeva anche una critica più dura, quasi anticapitalista, di quanto suggerisca la melodia rassicurante. È diventata la canzone simbolo di Lennon e una delle più reinterpretate di sempre.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Imagine_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Imagine_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/john-lennon/imagine" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.udiscovermusic.com/stories/imagine-john-lennons-provocative-anthem-became-hymn-peace/" target="_blank" rel="noopener">uDiscoverMusic</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="sweet-child" style="--accent:#8A1A2E; --accent-2:#A6821A;">
+      <div class="meta-row">
+        <span class="artist">Guns N' Roses</span><span>1987 / 1988</span><span>Appetite for Destruction</span><span>Hard rock</span>
+      </div>
+      <h2 class="song-title">Sweet Child O' Mine</h2>
+      <div class="song-body">
+        <p>Nata quasi per caso durante una session di prove, quando Slash iniziò a suonare per gioco il celebre riff ritenendolo "sciocco", prima che Axl Rose se ne innamorasse e Izzy Stradlin aggiungesse gli accordi. Il testo, scritto da Rose in onore della compagna dell'epoca Erin Everly, è — parole dello stesso Axl — "la prima canzone d'amore positiva" mai scritta dal gruppo.</p>
+        <p>Divenne l'unico singolo dei Guns N' Roses ad arrivare al numero 1 della Billboard Hot 100, e il suo riff compare ancora oggi in cima a molte classifiche dei migliori assoli/riff della storia del rock.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/meaning-behind-the-spontaneous-guns-n-roses-hit-sweet-child-o-mine/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="hotel-california" style="--accent:#A65A22; --accent-2:#6E4A80;">
+      <div class="meta-row">
+        <span class="artist">Eagles</span><span>1976 / 1977</span><span>Hotel California</span><span>Rock</span>
+      </div>
+      <h2 class="song-title">Hotel California</h2>
+      <div class="song-body">
+        <p>Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), racconta — nelle parole della band — un viaggio "dall'innocenza all'esperienza", usando l'immagine di un hotel labirintico e senza uscita come metafora dell'eccesso e del lato oscuro del sogno americano. La California è lo scenario, ma il significato è applicabile ovunque.</p>
+        <p>Vinse il Grammy Award come Record of the Year nel 1978 ed è rimasta nella scaletta dal vivo della band per decenni, nonostante i suoi sei minuti e mezzo di durata.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Hotel_California" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Hotel_California" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/eagles/hotel-california" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/the-real-meaning-behind-the-eagles-most-popular-single/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <h2 class="category-divider">Metal</h2>
+
+    <section class="song first-in-group" id="darkside" style="--accent:#C23B7A; --accent-2:#1D8FA6;">
+      <div class="meta-row">
+        <span class="artist">Bring Me the Horizon</span><span>2023</span><span>Post Human: Nex Gen</span><span>Rock / Nu-metal</span>
+      </div>
+      <h2 class="song-title">Darkside</h2>
+      <div class="song-body">
+        <p>Uscito il 13 ottobre 2023, il brano affronta la depressione e l'insonnia del frontman Oli Sykes, usando la metafora di un "lato oscuro" interiore che prende il sopravvento durante gli episodi più bui. La data di uscita non è casuale: arriva tre giorni dopo la Giornata Mondiale della Salute Mentale.</p>
+        <p>Musicalmente segna l'ennesima svolta di suono della band verso territori più accessibili, con richiami al nu-metal e all'alternative rock degli anni 2000. Alcuni ascoltatori hanno accostato il brano a "Last Resort" dei Papa Roach per il tema condiviso del "grido d'aiuto" legato al disagio psicologico.</p>
+        <h3>Crediti</h3>
+        <dl style="display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px;max-width:62ch;">
+          <dt style="color:var(--text-muted);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px;">Autori</dt><dd style="margin:0;">Oli Sykes, Jordan Fish, Lee Malia, Matt Nicholls, Andrew Goldstein, Zakk Cervini, Gianni Taylor</dd>
+          <dt style="color:var(--text-muted);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px;">Classifiche</dt><dd style="margin:0;">#31 UK Singles · #2 UK Rock &amp; Metal</dd>
+        </dl>
+      </div>
+      <div class="links">
+        <a class="primary" href="https://open.spotify.com/track/7mczLeiFeYKRb7vtiPjuMb" target="_blank" rel="noopener">Ascolta su Spotify</a>
+        <a href="https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a>
+      </div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/darkside" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="paranoid" style="--accent:#B2266E; --accent-2:#5C8A2E;">
+      <div class="meta-row">
+        <span class="artist">Black Sabbath</span><span>1970</span><span>Paranoid</span><span>Heavy metal</span>
+      </div>
+      <h2 class="song-title">Paranoid</h2>
+      <div class="song-body">
+        <p>Scritta da Geezer Butler quasi come "riempitivo" dell'album, nata da un riff improvvisato da Tony Iommi in pochi minuti, il brano affronta — nelle parole dello stesso Butler — la sottile linea tra depressione e paranoia. Curiosamente, la parola "paranoid" non compare mai nel testo.</p>
+        <p>La casa discografica preferì questo titolo a "War Pigs", ritenuto troppo controverso per l'epoca. Il singolo raggiunse il numero 4 della classifica britannica ed è considerato tra i brani fondativi dell'intero heavy metal.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/black-sabbath/paranoid" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/behind-the-meaning-of-black-sabbaths-paranoid/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="run-to-the-hills" style="--accent:#B3221F; --accent-2:#7A6E4E;">
+      <div class="meta-row">
+        <span class="artist">Iron Maiden</span><span>1982</span><span>The Number of the Beast</span><span>Heavy metal</span>
+      </div>
+      <h2 class="song-title">Run to the Hills</h2>
+      <div class="song-body">
+        <p>Racconta la conquista europea del Nord America dal punto di vista delle pianure insanguinate, alternando la prospettiva dei coloni e quella dei popoli nativi sterminati e privati delle proprie terre.</p>
+        <p>Fu il primo singolo della band con Bruce Dickinson alla voce e il primo Top 10 britannico della band (#7). Nel tour successivo, la nipote di un capo Apache viaggiò dal Nevada fino a una tappa in Texas per ringraziare la band con un dono, in segno di riconoscenza per il tema del brano.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Run_to_the_Hills" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Run_to_the_Hills" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/the-anti-colonialist-message-in-the-meaning-behind-iron-maidens-run-to-the-hills/" target="_blank" rel="noopener">American Songwriter</a>, <a href="https://www.songfacts.com/facts/iron-maiden/run-to-the-hills" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="enter-sandman" style="--accent:#6B6B6E; --accent-2:#7A1A1A;">
+      <div class="meta-row">
+        <span class="artist">Metallica</span><span>1991</span><span>Metallica ("Black Album")</span><span>Heavy metal</span>
+      </div>
+      <h2 class="song-title">Enter Sandman</h2>
+      <div class="song-body">
+        <p>Racconta gli incubi infantili legati a una figura minacciosa, il "Sandman", intrecciando la celebre preghiera della buonanotte con immagini più cupe. Fu il primo brano scritto per l'album omonimo del 1991, nato nella casa di Lars Ulrich a Berkeley; il riff fu in parte ispirato da <em>Louder Than Love</em> dei Soundgarden.</p>
+        <p>Segnò la svolta della band verso un suono più accessibile, contribuendo a oltre 30 milioni di copie vendute dell'album e raggiungendo il #16 della Billboard Hot 100.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Enter_Sandman" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Enter_Sandman" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/" target="_blank" rel="noopener">American Songwriter</a>, <a href="https://www.songfacts.com/facts/metallica/enter-sandman" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="walk" style="--accent:#8F1616; --accent-2:#8A6414;">
+      <div class="meta-row">
+        <span class="artist">Pantera</span><span>1992</span><span>Vulgar Display of Power</span><span>Groove metal</span>
+      </div>
+      <h2 class="song-title">Walk</h2>
+      <div class="song-body">
+        <p>Nato da un riff in un insolito tempo di 12/8 suonato da Dimebag Darrell durante un soundcheck, il brano parla di rispetto, autenticità e rifiuto delle relazioni insincere, invitando ad allontanarsi da chi non merita fiducia.</p>
+        <p>Uscito senza alcun passaggio radiofonico negli Stati Uniti, l'album <em>Vulgar Display of Power</em> vendette comunque oltre due milioni di copie; "Walk" resta oggi il brano più visto dei Pantera su YouTube.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Walk_(Pantera_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Walk_(Pantera_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://songtell.com/pantera/walk" target="_blank" rel="noopener">Songtell</a>, <a href="https://www.songfacts.com/facts/pantera/walk" target="_blank" rel="noopener">Songfacts</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="chop-suey" style="--accent:#6E7A2E; --accent-2:#A65A22;">
+      <div class="meta-row">
+        <span class="artist">System of a Down</span><span>2001</span><span>Toxicity</span><span>Alternative / Nu metal</span>
+      </div>
+      <h2 class="song-title">Chop Suey!</h2>
+      <div class="song-body">
+        <p>Il brano affronta il modo in cui la morte viene giudicata diversamente a seconda delle circostanze, mettendo in discussione l'idea che chi soccombe a fragilità personali "meriti" condanna anziché comprensione. Il titolo originale doveva essere "Suicide", poi trasformato per gioco di parole in "Chop Suey!".</p>
+        <p>Uscito pochi giorni prima dell'11 settembre 2001, comparve in una lista interna di brani "sensibili" diffusa da una grande emittente radiofonica statunitense; nonostante ciò l'album <em>Toxicity</em> vendette oltre tre milioni di copie e valse alla band la prima nomination ai Grammy.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Chop_Suey!" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Chop_Suey!" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/system-of-a-down/chop-suey" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.loudersound.com/music/tracks-singles/the-story-of-chop-suey-system-of-a-down" target="_blank" rel="noopener">Louder</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="du-hast" style="--accent:#8A1418; --accent-2:#5C5C5C;">
+      <div class="meta-row">
+        <span class="artist">Rammstein</span><span>1997</span><span>Sehnsucht</span><span>Industrial metal</span>
+      </div>
+      <h2 class="song-title">Du Hast</h2>
+      <div class="song-body">
+        <p>Il brano gioca sull'ambiguità fonetica tedesca tra "du hast" (tu hai) e "du hasst" (tu odi), costruendo un testo che si presta a una doppia lettura legata ai voti matrimoniali e al rifiuto del protagonista di sposarsi. Il chitarrista Richard Kruspe lo ha letto anche come metafora della fedeltà tra i membri della band.</p>
+        <p>Diventato celebre a livello internazionale anche grazie alla colonna sonora di <em>Matrix</em>, resta la canzone in lingua tedesca ad aver raggiunto la posizione più alta di sempre in classifica negli Stati Uniti (#20).</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Du_hast" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Du_hast" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/the-double-entendre-meaning-of-du-hast-by-rammstein/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="breaking-the-law" style="--accent:#6B6B6E; --accent-2:#C23B3B;">
+      <div class="meta-row">
+        <span class="artist">Judas Priest</span><span>1980</span><span>British Steel</span><span>Heavy metal</span>
+      </div>
+      <h2 class="song-title">Breaking the Law</h2>
+      <div class="song-body">
+        <p>Scritta dal cantante Rob Halford, racconta di chi si stanca di una vita ordinaria fatta di noia e decide di infrangere la legge pur di rompere la routine. Il testo nasconde un commento sociale preciso: fu scritto nel clima di crisi industriale e disoccupazione di massa della Gran Bretagna di fine anni '70, proprio nei mesi in cui saliva al governo Margaret Thatcher, con migliaia di operai dell'acciaio in sciopero.</p>
+        <p>Musicalmente è breve, diretta, quasi punk, con tanto di sirena della polizia e vetri infranti in sottofondo, e priva di assolo di chitarra.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Breaking_the_Law" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Breaking_the_Law" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/judas-priest/breaking-the-law" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/the-meaning-behind-judas-priests-ode-to-solidarity-breaking-the-law/" target="_blank" rel="noopener">American Songwriter</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="raining-blood" style="--accent:#8F1616; --accent-2:#4A4A52;">
+      <div class="meta-row">
+        <span class="artist">Slayer</span><span>1986</span><span>Reign in Blood</span><span>Thrash metal</span>
+      </div>
+      <h2 class="song-title">Raining Blood</h2>
+      <div class="song-body">
+        <p>Nata da un incubo raccontato dal cantante Tom Araya al chitarrista Jeff Hanneman — che sognò letteralmente una pioggia di sangue — il brano immagina la caduta di un angelo ribelle intrappolato in un limbo di punizione e vendetta, in una rilettura oscura del mito della rivolta contro il Paradiso.</p>
+        <p>Il celebre riff d'apertura, originariamente pensato da Hanneman come colonna sonora per un film horror, è considerato uno dei momenti più influenti della storia del metal estremo.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Raining_Blood" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Raining_Blood" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/slayer/raining-blood" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.revolvermag.com/music/raining-blood-jeff-hanneman-origin-legacy-slayers-defining-song/" target="_blank" rel="noopener">Revolver</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="freak-on-a-leash" style="--accent:#7A4A1E; --accent-2:#4A5A3E;">
+      <div class="meta-row">
+        <span class="artist">Korn</span><span>1998 / 1999</span><span>Follow the Leader</span><span>Nu metal</span>
+      </div>
+      <h2 class="song-title">Freak on a Leash</h2>
+      <div class="song-body">
+        <p>Uno dei primi brani scritti dalla band per l'album <em>Follow the Leader</em> nell'estate del 1997, diventato da subito un favorito del gruppo. Il cantante Jonathan Davis lo ha descritto come una critica diretta all'industria discografica, colpevole — nella sua visione — di aver tolto agli artisti il controllo sulla propria arte e di aver trasformato in profitto il dolore e i sacrifici che stavano dietro alla musica dei Korn.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Freak_on_a_Leash" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Freak_on_a_Leash" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/korn/freak-on-a-leash" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.loudersound.com/features/korn-story-behind-freak-on-a-leash" target="_blank" rel="noopener">Louder</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <h2 class="category-divider">Italiano</h2>
+
+    <section class="song first-in-group" id="albachiara" style="--accent:#A6272A; --accent-2:#2E4E6E;">
+      <div class="meta-row">
+        <span class="artist">Vasco Rossi</span><span>1979</span><span>Non siamo mica gli americani</span><span>Rock italiano</span>
+      </div>
+      <h2 class="song-title">Albachiara</h2>
+      <div class="song-body">
+        <p>Contenuta nel secondo album di Vasco Rossi, uscito il 30 aprile 1979, e pubblicata come singolo nel maggio dello stesso anno. Il successo del brano fu tale che l'album venne poi ristampato con il titolo <em>Albachiara</em> al posto di quello originale.</p>
+        <p>Vasco raccontò di averla scritta di getto, mentre la madre cucinava, ispirandosi a una ragazzina tredicenne che vedeva spesso passare alla fermata della corriera nella sua Zocca. Il brano gioca sul contrasto tra la timidezza esteriore della ragazza e la ricchezza del suo mondo interiore.</p>
+        <h3>Genesi</h3>
+        <p>Il giro di accordi è opera di Massimo Riva. Secondo il racconto dello stesso Vasco, fu Gaetano Curreri a proporre una prima versione al pianoforte, ma dopo tre strofe Vasco chiese di renderla "più rock", dando origine all'arrangiamento diventato poi celebre.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Albachiara" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Albachiara" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.noidegli8090.com/albachiara-compie-41-anni-storia-e-significato-del-brano-di-vasco-rossi/" target="_blank" rel="noopener">Noi degli 80-90</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="marinella" style="--accent:#7A5A2E; --accent-2:#2E6B68;">
+      <div class="meta-row">
+        <span class="artist">Fabrizio De André</span><span>1964</span><span>Volume 3 (raccolta)</span><span>Cantautorato</span>
+      </div>
+      <h2 class="song-title">La canzone di Marinella</h2>
+      <div class="song-body">
+        <p>Ispirata a un fatto di cronaca nera letto da De André da ragazzo — l'omicidio di una giovane costretta a prostituirsi e poi uccisa — il brano trasforma la tragedia in una storia "senza tempo di gente senza storia", intrecciando amore e morte con una delicatezza che diventerà cifra stilistica dell'autore.</p>
+        <p>Pubblicata nel 1964 senza particolare successo, la canzone conquistò il grande pubblico solo nel 1967 grazie a una versione interpretata da Mina, aprendo a De André la strada della popolarità.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/La_canzone_di_Marinella" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/La_canzone_di_Marinella" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html" target="_blank" rel="noopener">Sololibri</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="canto-libero" style="--accent:#A6691E; --accent-2:#3E6B4E;">
+      <div class="meta-row">
+        <span class="artist">Lucio Battisti</span><span>1972</span><span>Il mio canto libero</span><span>Musica leggera / Pop italiano</span>
+      </div>
+      <h2 class="song-title">Il mio canto libero</h2>
+      <div class="song-body">
+        <p>Scritta da Mogol dopo l'inizio di una nuova relazione, la canzone è insieme una dichiarazione d'amore e una difesa della libertà di scegliere i propri sentimenti al di là delle convenzioni sociali, in un linguaggio ricco di immagini allegoriche tipico della coppia Battisti-Mogol.</p>
+        <p>Dà il titolo al settimo album di Battisti, pubblicato nel novembre 1972, considerato una pietra miliare della musica leggera italiana.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Il_mio_canto_libero_(brano_musicale)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Il_mio_canto_libero_(brano_musicale)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/" target="_blank" rel="noopener">Fanpage</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="certe-notti" style="--accent:#A6331F; --accent-2:#3A4650;">
+      <div class="meta-row">
+        <span class="artist">Ligabue</span><span>1995</span><span>Buon compleanno Elvis</span><span>Rock italiano</span>
+      </div>
+      <h2 class="song-title">Certe notti</h2>
+      <div class="song-body">
+        <p>Ligabue l'ha descritta come un'ideale continuazione del brano "Sogni di rock 'n' roll", ispirata anche al romanzo <em>Altri libertini</em> di Pier Vittorio Tondelli. Più che raccontare una semplice serata tra amici, il testo parla della solitudine che si può provare anche in mezzo agli altri, e degli eccessi come via di fuga.</p>
+        <p>Uscita nel 1995 come primo singolo dall'album <em>Buon compleanno Elvis</em>, ha vinto la Targa Tenco come migliore canzone dell'anno nel 1996.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Certe_notti" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Certe_notti" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.ilgiunco.net/2021/08/25/unacanzonealgiorno-26-anni-fa-usciva-certe-notti-di-ligabue/" target="_blank" rel="noopener">Il Giunco</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="caruso" style="--accent:#2E6480; --accent-2:#A6791E;">
+      <div class="meta-row">
+        <span class="artist">Lucio Dalla</span><span>1986</span><span>DallAmeriCaruso</span><span>Cantautorato / Musica melodica</span>
+      </div>
+      <h2 class="song-title">Caruso</h2>
+      <div class="song-body">
+        <p>Nato per caso, dopo che un guasto alla barca costrinse Dalla a fermarsi in un albergo di Sorrento nella stessa stanza in cui, decenni prima, aveva soggiornato il tenore Enrico Caruso, il brano immagina gli ultimi giorni di vita del cantante lirico, sospeso tra i ricordi dei successi in America e la consapevolezza che solo l'amore sia stato realmente importante.</p>
+        <p>Contenuto nell'album <em>DallAmeriCaruso</em> del 1986, è probabilmente la canzone italiana più reinterpretata al mondo, da Pavarotti a innumerevoli altri artisti internazionali.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Caruso_(brano_musicale)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Caruso_(brano_musicale)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/" target="_blank" rel="noopener">Fanpage</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="solitudine" style="--accent:#A6386A; --accent-2:#4A4A6E;">
+      <div class="meta-row">
+        <span class="artist">Laura Pausini</span><span>1993</span><span>Laura Pausini (debutto)</span><span>Pop italiano</span>
+      </div>
+      <h2 class="song-title">La solitudine</h2>
+      <div class="song-body">
+        <p>Racconta, in prima persona, il dolore adolescenziale della protagonista dopo che Marco, il ragazzo che ama, è costretto a trasferirsi in un'altra città al seguito del padre per motivi di lavoro, lasciandola sola con il ricordo del loro legame.</p>
+        <p>Scritta da Angelo Valsiglio e Pietro Cremonesi (musica) e da Cremonesi con Federico Cavalli (testo), la canzone vinse la sezione Novità del Festival di Sanremo 1993, lanciando la carriera internazionale di Laura Pausini appena diciottenne.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno" target="_blank" rel="noopener">Soundsblog</a>, <a href="https://www.ilrestodelcarlino.it/ravenna/cultura/chi-e-marco-laura-pausini-significato-la-solitudine-af1f3qej" target="_blank" rel="noopener">Il Resto del Carlino</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="la-cura" style="--accent:#7A4A6E; --accent-2:#3E6B6B;">
+      <div class="meta-row">
+        <span class="artist">Franco Battiato</span><span>1996 / 1997</span><span>L'imboscata</span><span>Cantautorato</span>
+      </div>
+      <h2 class="song-title">La cura</h2>
+      <div class="song-body">
+        <p>Scritta insieme al filosofo Manlio Sgalambro per l'album <em>L'imboscata</em>, resta uno dei brani più discussi della discografia di Battiato proprio per l'ambiguità della sua interpretazione: c'è chi vi legge un canto d'amore assoluto e incondizionato verso una persona, e chi invece un dialogo tra l'uomo e il divino.</p>
+        <p>Il testo, molto poetico, promette protezione e cura totale di fronte alle ferite dell'anima. Vinse il Premio Tenco nel 1997.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/" target="_blank" rel="noopener">Fanpage</a>, <a href="https://www.sololibri.net/La-cura-di-Franco-Battiato-analisi-riferimenti-canzone.html" target="_blank" rel="noopener">Sololibri</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="bello-impossibile" style="--accent:#A6225A; --accent-2:#4A4A6E;">
+      <div class="meta-row">
+        <span class="artist">Gianna Nannini</span><span>1986</span><span>Profumo</span><span>Pop rock italiano</span>
+      </div>
+      <h2 class="song-title">Bello e impossibile</h2>
+      <div class="song-body">
+        <p>Primo singolo estratto dall'album <em>Profumo</em>, scritto dalla stessa Nannini con Fabio Pianigiani, racconta l'attrazione travolgente per un uomo affascinante ma irraggiungibile. Nonostante l'alone poetico del testo, la cantante ha rivelato in seguito che l'ispirazione reale fu molto più prosaica: "un uomo bello ma dall'odore sgradevole".</p>
+        <p>Il brano fu un enorme successo commerciale, restando per circa sei mesi nella classifica italiana dei singoli più venduti e ottenendo dischi di platino in Italia, Austria e Svizzera.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Bello_e_impossibile" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Bello_e_impossibile" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.soundsblog.it/post/bello-e-impossibile-gianna-nannini-testo-significato-anno-autore" target="_blank" rel="noopener">Soundsblog</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+    <section class="song" id="cielo-blu" style="--accent:#2E6EA6; --accent-2:#A67A2E;">
+      <div class="meta-row">
+        <span class="artist">Rino Gaetano</span><span>1975</span><span>Singolo</span><span>Cantautorato</span>
+      </div>
+      <h2 class="song-title">Ma il cielo è sempre più blu</h2>
+      <div class="song-body">
+        <p>Il brano che rivelò Rino Gaetano al grande pubblico, uscito come singolo nell'estate del 1975. Dietro una melodia orecchiabile e un ritornello quasi consolatorio, il testo elenca situazioni di ingiustizia e disparità dell'Italia degli anni Settanta, rivolgendosi in particolare ai colleghi cantautori che continuano a scrivere canzoni d'amore fingendo che tutto vada per il meglio.</p>
+        <p>Il messaggio di fondo è che, nonostante tutto, il cielo resta lo stesso sopra la testa di chiunque.</p>
+      </div>
+      <div class="links"><a class="primary" href="https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
+      <p class="sources">Fonti: <a href="https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html" target="_blank" rel="noopener">Sololibri</a>, <a href="https://libreriamo.it/intrattenimento/ma-il-cielo-e-sempre-piu-blu-un-inno-alla-vita-e-alla-rinascita-che-ci-attende/" target="_blank" rel="noopener">Libreriamo</a></p>
+      <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
+    </section>
+
+  </main>
+
+  <footer>
+    Tutti i contenuti sono riassunti e verificati a partire da fonti pubbliche citate in ciascuna scheda. Nessun testo di canzone è riprodotto su questa pagina. I colori di ogni scheda richiamano quelli dell'immaginario visivo della band o dell'album, non i loghi originali.
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.filters button');
+    var cards = document.querySelectorAll('.card');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        buttons.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        var filter = btn.getAttribute('data-filter');
+        cards.forEach(function (card) {
+          var show = filter === 'all' || card.getAttribute('data-category') === filter;
+          card.classList.toggle('is-hidden', !show);
+        });
+      });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var id = link.getAttribute('href').slice(1);
+        var target = id && document.getElementById(id);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.replaceState(null, '', '#' + id);
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
