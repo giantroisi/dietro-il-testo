@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dietro il testo</title>
-<meta name="description" content="28 schede su brani reali (grandi classici, metal, canzone d'autore italiana), ognuna nei colori della propria band o album — niente testi riprodotti, solo contesto e fonti verificate.">
+<meta name="description" content="28 schede su brani reali, dai più famosi in poi, ognuna nei colori della propria band o album — niente testi riprodotti, solo contesto e fonti verificate.">
 <style>
   :root {
     --bg: #FDFCFF;
@@ -92,35 +92,9 @@
   }
   .approach-note strong { color: var(--text); }
 
-  /* --- Index: filters + card grid --- */
+  /* --- Index: card grid --- */
 
-  #indice { scroll-margin-top: 24px; }
-
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 52px 0 26px;
-  }
-  .filters button {
-    font-family: var(--font-mono);
-    font-size: 12.5px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    background: transparent;
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 9px 18px;
-    cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, background 0.15s;
-  }
-  .filters button:hover { color: var(--text); border-color: var(--text-muted); }
-  .filters button.is-active {
-    background: var(--text);
-    border-color: var(--text);
-    color: var(--bg);
-  }
+  #indice { scroll-margin-top: 24px; margin-top: 52px; }
 
   .card-grid {
     display: grid;
@@ -171,29 +145,6 @@
     line-height: 1.25;
   }
 
-  .card.is-hidden { display: none; }
-
-  /* --- Category dividers --- */
-
-  .category-divider {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin: 60px 0 26px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-  .category-divider::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-  main .category-divider:first-of-type { margin-top: 12px; }
-
   /* --- Song sections --- */
 
   section.song {
@@ -201,7 +152,7 @@
     border-top: 1px solid var(--border);
     scroll-margin-top: 24px;
   }
-  section.song.first-in-group { border-top: none; padding-top: 0; }
+  main section.song:first-of-type { border-top: none; padding-top: 0; }
 
   .meta-row {
     display: flex;
@@ -315,7 +266,7 @@
       <circle cx="64" cy="64" r="32" fill="none" stroke="var(--accent-2)" stroke-width="1"/>
       <circle cx="64" cy="64" r="6" fill="var(--accent)"/>
     </svg>
-    <p class="eyebrow">28 brani, tre mondi: grandi classici, metal, canzone d'autore italiana</p>
+    <p class="eyebrow">28 canzoni reali, dalle più famose in poi</p>
     <h1 class="title">Dietro il testo</h1>
     <p class="lede">Schede su canzoni reali: contesto, genesi, significato e fonti verificate. Ogni brano porta i colori della propria band o del proprio album — niente testi riprodotti, solo la storia dietro le parole.</p>
     <div class="approach-note">
@@ -323,107 +274,98 @@
     </div>
   </header>
 
-  <nav id="indice" class="filters" aria-label="Filtra per categoria">
-    <button type="button" data-filter="all" class="is-active">Tutti · 28</button>
-    <button type="button" data-filter="mondo">Grandi classici · 9</button>
-    <button type="button" data-filter="metal">Metal · 10</button>
-    <button type="button" data-filter="italiano">Italiano · 9</button>
-  </nav>
-
-  <div class="card-grid" id="card-grid">
-    <a class="card" data-category="mondo" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
+  <div class="card-grid" id="indice">
+    <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
       <span class="dot"></span><span class="card-artist">Queen</span><span class="card-title">Bohemian Rhapsody</span>
     </a>
-    <a class="card" data-category="mondo" href="#hey-jude" style="--card-accent:#3E7A2C">
+    <a class="card" href="#hey-jude" style="--card-accent:#3E7A2C">
       <span class="dot"></span><span class="card-artist">The Beatles</span><span class="card-title">Hey Jude</span>
     </a>
-    <a class="card" data-category="mondo" href="#thriller" style="--card-accent:#A31F27">
+    <a class="card" href="#thriller" style="--card-accent:#A31F27">
       <span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Thriller</span>
     </a>
-    <a class="card" data-category="mondo" href="#teen-spirit" style="--card-accent:#B89B1F">
+    <a class="card" href="#teen-spirit" style="--card-accent:#B89B1F">
       <span class="dot"></span><span class="card-artist">Nirvana</span><span class="card-title">Smells Like Teen Spirit</span>
     </a>
-    <a class="card" data-category="mondo" href="#lose-yourself" style="--card-accent:#5C3D80">
+    <a class="card" href="#lose-yourself" style="--card-accent:#5C3D80">
       <span class="dot"></span><span class="card-artist">Eminem</span><span class="card-title">Lose Yourself</span>
     </a>
-    <a class="card" data-category="mondo" href="#creep" style="--card-accent:#4F6B49">
+    <a class="card" href="#creep" style="--card-accent:#4F6B49">
       <span class="dot"></span><span class="card-artist">Radiohead</span><span class="card-title">Creep</span>
     </a>
-    <a class="card" data-category="mondo" href="#imagine" style="--card-accent:#2E6E9E">
+    <a class="card" href="#imagine" style="--card-accent:#2E6E9E">
       <span class="dot"></span><span class="card-artist">John Lennon</span><span class="card-title">Imagine</span>
     </a>
-    <a class="card" data-category="mondo" href="#sweet-child" style="--card-accent:#8A1A2E">
+    <a class="card" href="#sweet-child" style="--card-accent:#8A1A2E">
       <span class="dot"></span><span class="card-artist">Guns N' Roses</span><span class="card-title">Sweet Child O' Mine</span>
     </a>
-    <a class="card" data-category="mondo" href="#hotel-california" style="--card-accent:#A65A22">
+    <a class="card" href="#hotel-california" style="--card-accent:#A65A22">
       <span class="dot"></span><span class="card-artist">Eagles</span><span class="card-title">Hotel California</span>
     </a>
 
-    <a class="card" data-category="metal" href="#darkside" style="--card-accent:#C23B7A">
+    <a class="card" href="#darkside" style="--card-accent:#C23B7A">
       <span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Darkside</span>
     </a>
-    <a class="card" data-category="metal" href="#paranoid" style="--card-accent:#B2266E">
+    <a class="card" href="#paranoid" style="--card-accent:#B2266E">
       <span class="dot"></span><span class="card-artist">Black Sabbath</span><span class="card-title">Paranoid</span>
     </a>
-    <a class="card" data-category="metal" href="#run-to-the-hills" style="--card-accent:#B3221F">
+    <a class="card" href="#run-to-the-hills" style="--card-accent:#B3221F">
       <span class="dot"></span><span class="card-artist">Iron Maiden</span><span class="card-title">Run to the Hills</span>
     </a>
-    <a class="card" data-category="metal" href="#enter-sandman" style="--card-accent:#6B6B6E">
+    <a class="card" href="#enter-sandman" style="--card-accent:#6B6B6E">
       <span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Enter Sandman</span>
     </a>
-    <a class="card" data-category="metal" href="#walk" style="--card-accent:#8F1616">
+    <a class="card" href="#walk" style="--card-accent:#8F1616">
       <span class="dot"></span><span class="card-artist">Pantera</span><span class="card-title">Walk</span>
     </a>
-    <a class="card" data-category="metal" href="#chop-suey" style="--card-accent:#6E7A2E">
+    <a class="card" href="#chop-suey" style="--card-accent:#6E7A2E">
       <span class="dot"></span><span class="card-artist">System of a Down</span><span class="card-title">Chop Suey!</span>
     </a>
-    <a class="card" data-category="metal" href="#du-hast" style="--card-accent:#8A1418">
+    <a class="card" href="#du-hast" style="--card-accent:#8A1418">
       <span class="dot"></span><span class="card-artist">Rammstein</span><span class="card-title">Du Hast</span>
     </a>
-    <a class="card" data-category="metal" href="#breaking-the-law" style="--card-accent:#6B6B6E">
+    <a class="card" href="#breaking-the-law" style="--card-accent:#6B6B6E">
       <span class="dot"></span><span class="card-artist">Judas Priest</span><span class="card-title">Breaking the Law</span>
     </a>
-    <a class="card" data-category="metal" href="#raining-blood" style="--card-accent:#8F1616">
+    <a class="card" href="#raining-blood" style="--card-accent:#8F1616">
       <span class="dot"></span><span class="card-artist">Slayer</span><span class="card-title">Raining Blood</span>
     </a>
-    <a class="card" data-category="metal" href="#freak-on-a-leash" style="--card-accent:#7A4A1E">
+    <a class="card" href="#freak-on-a-leash" style="--card-accent:#7A4A1E">
       <span class="dot"></span><span class="card-artist">Korn</span><span class="card-title">Freak on a Leash</span>
     </a>
 
-    <a class="card" data-category="italiano" href="#albachiara" style="--card-accent:#A6272A">
+    <a class="card" href="#albachiara" style="--card-accent:#A6272A">
       <span class="dot"></span><span class="card-artist">Vasco Rossi</span><span class="card-title">Albachiara</span>
     </a>
-    <a class="card" data-category="italiano" href="#marinella" style="--card-accent:#7A5A2E">
+    <a class="card" href="#marinella" style="--card-accent:#7A5A2E">
       <span class="dot"></span><span class="card-artist">Fabrizio De André</span><span class="card-title">La canzone di Marinella</span>
     </a>
-    <a class="card" data-category="italiano" href="#canto-libero" style="--card-accent:#A6691E">
+    <a class="card" href="#canto-libero" style="--card-accent:#A6691E">
       <span class="dot"></span><span class="card-artist">Lucio Battisti</span><span class="card-title">Il mio canto libero</span>
     </a>
-    <a class="card" data-category="italiano" href="#certe-notti" style="--card-accent:#A6331F">
+    <a class="card" href="#certe-notti" style="--card-accent:#A6331F">
       <span class="dot"></span><span class="card-artist">Ligabue</span><span class="card-title">Certe notti</span>
     </a>
-    <a class="card" data-category="italiano" href="#caruso" style="--card-accent:#2E6480">
+    <a class="card" href="#caruso" style="--card-accent:#2E6480">
       <span class="dot"></span><span class="card-artist">Lucio Dalla</span><span class="card-title">Caruso</span>
     </a>
-    <a class="card" data-category="italiano" href="#solitudine" style="--card-accent:#A6386A">
+    <a class="card" href="#solitudine" style="--card-accent:#A6386A">
       <span class="dot"></span><span class="card-artist">Laura Pausini</span><span class="card-title">La solitudine</span>
     </a>
-    <a class="card" data-category="italiano" href="#la-cura" style="--card-accent:#7A4A6E">
+    <a class="card" href="#la-cura" style="--card-accent:#7A4A6E">
       <span class="dot"></span><span class="card-artist">Franco Battiato</span><span class="card-title">La cura</span>
     </a>
-    <a class="card" data-category="italiano" href="#bello-impossibile" style="--card-accent:#A6225A">
+    <a class="card" href="#bello-impossibile" style="--card-accent:#A6225A">
       <span class="dot"></span><span class="card-artist">Gianna Nannini</span><span class="card-title">Bello e impossibile</span>
     </a>
-    <a class="card" data-category="italiano" href="#cielo-blu" style="--card-accent:#2E6EA6">
+    <a class="card" href="#cielo-blu" style="--card-accent:#2E6EA6">
       <span class="dot"></span><span class="card-artist">Rino Gaetano</span><span class="card-title">Ma il cielo è sempre più blu</span>
     </a>
   </div>
 
   <main>
 
-    <h2 class="category-divider">Grandi classici</h2>
-
-    <section class="song first-in-group" id="bohemian-rhapsody" style="--accent:#A6192E; --accent-2:#A6821A;">
+    <section class="song" id="bohemian-rhapsody" style="--accent:#A6192E; --accent-2:#A6821A;">
       <div class="meta-row">
         <span class="artist">Queen</span><span>1975</span><span>A Night at the Opera</span><span>Rock progressivo</span>
       </div>
@@ -552,9 +494,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <h2 class="category-divider">Metal</h2>
-
-    <section class="song first-in-group" id="darkside" style="--accent:#C23B7A; --accent-2:#1D8FA6;">
+    <section class="song" id="darkside" style="--accent:#C23B7A; --accent-2:#1D8FA6;">
       <div class="meta-row">
         <span class="artist">Bring Me the Horizon</span><span>2023</span><span>Post Human: Nex Gen</span><span>Rock / Nu-metal</span>
       </div>
@@ -701,9 +641,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <h2 class="category-divider">Italiano</h2>
-
-    <section class="song first-in-group" id="albachiara" style="--accent:#A6272A; --accent-2:#2E4E6E;">
+    <section class="song" id="albachiara" style="--accent:#A6272A; --accent-2:#2E4E6E;">
       <div class="meta-row">
         <span class="artist">Vasco Rossi</span><span>1979</span><span>Non siamo mica gli americani</span><span>Rock italiano</span>
       </div>
@@ -841,20 +779,6 @@
 
 <script>
   (function () {
-    var buttons = document.querySelectorAll('.filters button');
-    var cards = document.querySelectorAll('.card');
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        buttons.forEach(function (b) { b.classList.remove('is-active'); });
-        btn.classList.add('is-active');
-        var filter = btn.getAttribute('data-filter');
-        cards.forEach(function (card) {
-          var show = filter === 'all' || card.getAttribute('data-category') === filter;
-          card.classList.toggle('is-hidden', !show);
-        });
-      });
-    });
-
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
       link.addEventListener('click', function (e) {
         var id = link.getAttribute('href').slice(1);
