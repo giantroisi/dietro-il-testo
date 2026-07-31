@@ -92,9 +92,41 @@
   }
   .approach-note strong { color: var(--text); }
 
+  /* --- Search --- */
+
+  .search-bar {
+    margin: 52px 0 20px;
+  }
+  .search-bar input {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    box-sizing: border-box;
+    transition: border-color 0.15s;
+  }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-bar input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .search-count {
+    margin: 10px 2px 0;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    min-height: 1.4em;
+  }
+
   /* --- Index: card grid --- */
 
-  #indice { scroll-margin-top: 24px; margin-top: 52px; }
+  #indice { scroll-margin-top: 24px; margin-top: 8px; }
 
   .card-grid {
     display: grid;
@@ -102,6 +134,7 @@
     gap: 16px;
     margin-bottom: 8px;
   }
+  .card.is-hidden { display: none; }
 
   .card {
     display: block;
@@ -285,6 +318,11 @@
       <strong>Perché non trovi i testi qui.</strong> I testi delle canzoni sono opere protette da copyright. Questo sito racconta il contesto e il significato dei brani a parole nostre, verificato su fonti pubbliche, e rimanda a Wikipedia o Spotify per ascoltare o leggere il testo integrale in modo legale.
     </div>
   </header>
+
+  <div class="search-bar">
+    <input type="search" id="site-search" placeholder="Cerca per autore, titolo, parola o frase…" aria-label="Cerca tra le canzoni">
+    <p class="search-count" id="search-count"></p>
+  </div>
 
   <div class="card-grid" id="indice">
     <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
@@ -970,6 +1008,36 @@
         }
       });
     });
+
+    var searchInput = document.getElementById('site-search');
+    var searchCount = document.getElementById('search-count');
+    var cardEntries = Array.prototype.map.call(document.querySelectorAll('.card'), function (card) {
+      var id = card.getAttribute('href').slice(1);
+      var section = document.getElementById(id);
+      var haystack = (card.textContent + ' ' + (section ? section.textContent : '')).toLowerCase();
+      return { card: card, haystack: haystack };
+    });
+
+    function runSearch() {
+      var query = searchInput.value.trim().toLowerCase();
+      var visible = 0;
+      cardEntries.forEach(function (entry) {
+        var match = query === '' || entry.haystack.indexOf(query) !== -1;
+        entry.card.classList.toggle('is-hidden', !match);
+        if (match) visible++;
+      });
+      if (query === '') {
+        searchCount.textContent = '';
+      } else if (visible === 0) {
+        searchCount.textContent = 'Nessun risultato per "' + searchInput.value.trim() + '"';
+      } else {
+        searchCount.textContent = visible + (visible === 1 ? ' risultato' : ' risultati') + ' per "' + searchInput.value.trim() + '"';
+      }
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', runSearch);
+    }
   })();
 </script>
 
