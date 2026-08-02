@@ -188,6 +188,17 @@
     line-height: 1.25;
     max-width: 88%;
   }
+  .card .card-streams {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-top: 12px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  .card .card-streams .note { color: var(--card-accent); font-size: 13px; line-height: 1; }
 
   /* --- Song sections --- */
 
@@ -219,10 +230,22 @@
     font-style: italic;
     font-weight: 700;
     font-size: clamp(28px, 4vw, 36px);
-    margin: 0 0 22px;
+    margin: 0 0 14px;
     text-wrap: balance;
     color: var(--accent);
   }
+
+  .streams {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin: 0 0 22px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text-muted);
+  }
+  .streams .note { color: var(--accent); font-size: 15px; line-height: 1; }
+  .streams strong { color: var(--text); font-weight: 600; }
 
   .song-body p {
     margin: 0 0 17px;
@@ -327,117 +350,155 @@
   <div class="card-grid" id="indice">
     <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
       <span class="rank">1</span><span class="dot"></span><span class="card-artist">Queen</span><span class="card-title">Bohemian Rhapsody</span>
+      <span class="card-streams"><span class="note">♫</span> 3,2 mld</span>
     </a>
     <a class="card" href="#in-the-end" style="--card-accent:#8F1A1A">
       <span class="rank">2</span><span class="dot"></span><span class="card-artist">Linkin Park</span><span class="card-title">In the End</span>
+      <span class="card-streams"><span class="note">♫</span> 3,1 mld</span>
     </a>
     <a class="card" href="#teen-spirit" style="--card-accent:#B89B1F">
       <span class="rank">3</span><span class="dot"></span><span class="card-artist">Nirvana</span><span class="card-title">Smells Like Teen Spirit</span>
+      <span class="card-streams"><span class="note">♫</span> 3,0 mld</span>
     </a>
     <a class="card" href="#billie-jean" style="--card-accent:#4A2E6E">
       <span class="rank">4</span><span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Billie Jean</span>
+      <span class="card-streams"><span class="note">♫</span> 2,9 mld</span>
     </a>
     <a class="card" href="#sweet-child" style="--card-accent:#8A1A2E">
       <span class="rank">5</span><span class="dot"></span><span class="card-artist">Guns N' Roses</span><span class="card-title">Sweet Child O' Mine</span>
+      <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
     </a>
     <a class="card" href="#creep" style="--card-accent:#4F6B49">
       <span class="rank">6</span><span class="dot"></span><span class="card-artist">Radiohead</span><span class="card-title">Creep</span>
+      <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
     </a>
     <a class="card" href="#someone-like-you" style="--card-accent:#3E4A5C">
       <span class="rank">7</span><span class="dot"></span><span class="card-artist">Adele</span><span class="card-title">Someone Like You</span>
+      <span class="card-streams"><span class="note">♫</span> 2,7 mld</span>
     </a>
     <a class="card" href="#highway-to-hell" style="--card-accent:#8A1414">
       <span class="rank">8</span><span class="dot"></span><span class="card-artist">AC/DC</span><span class="card-title">Highway to Hell</span>
+      <span class="card-streams"><span class="note">♫</span> 2,3 mld</span>
     </a>
     <a class="card" href="#hotel-california" style="--card-accent:#A65A22">
       <span class="rank">9</span><span class="dot"></span><span class="card-artist">Eagles</span><span class="card-title">Hotel California</span>
+      <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
     </a>
     <a class="card" href="#enter-sandman" style="--card-accent:#6B6B6E">
       <span class="rank">10</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Enter Sandman</span>
+      <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
     </a>
     <a class="card" href="#chop-suey" style="--card-accent:#6E7A2E">
       <span class="rank">11</span><span class="dot"></span><span class="card-artist">System of a Down</span><span class="card-title">Chop Suey!</span>
+      <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
     </a>
     <a class="card" href="#paranoid" style="--card-accent:#B2266E">
       <span class="rank">12</span><span class="dot"></span><span class="card-artist">Black Sabbath</span><span class="card-title">Paranoid</span>
+      <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
     </a>
     <a class="card" href="#nothing-else-matters" style="--card-accent:#4A4A6E">
       <span class="rank">13</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Nothing Else Matters</span>
+      <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
     </a>
     <a class="card" href="#stairway-to-heaven" style="--card-accent:#4A6E3E">
       <span class="rank">14</span><span class="dot"></span><span class="card-artist">Led Zeppelin</span><span class="card-title">Stairway to Heaven</span>
+      <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
     </a>
     <a class="card" href="#killing-in-the-name" style="--card-accent:#8A1A1A">
       <span class="rank">15</span><span class="dot"></span><span class="card-artist">Rage Against the Machine</span><span class="card-title">Killing in the Name</span>
+      <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
     </a>
     <a class="card" href="#wonderwall" style="--card-accent:#2E4A8A">
       <span class="rank">16</span><span class="dot"></span><span class="card-artist">Oasis</span><span class="card-title">Wonderwall</span>
+      <span class="card-streams"><span class="note">♫</span> 1,2 mld</span>
     </a>
     <a class="card" href="#lose-yourself" style="--card-accent:#5C3D80">
       <span class="rank">17</span><span class="dot"></span><span class="card-artist">Eminem</span><span class="card-title">Lose Yourself</span>
+      <span class="card-streams"><span class="note">♫</span> 1,1 mld</span>
     </a>
     <a class="card" href="#thriller" style="--card-accent:#A31F27">
       <span class="rank">18</span><span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Thriller</span>
+      <span class="card-streams"><span class="note">♫</span> 916 mln</span>
     </a>
     <a class="card" href="#du-hast" style="--card-accent:#8A1418">
       <span class="rank">19</span><span class="dot"></span><span class="card-artist">Rammstein</span><span class="card-title">Du Hast</span>
+      <span class="card-streams"><span class="note">♫</span> 855 mln</span>
     </a>
     <a class="card" href="#freak-on-a-leash" style="--card-accent:#7A4A1E">
       <span class="rank">20</span><span class="dot"></span><span class="card-artist">Korn</span><span class="card-title">Freak on a Leash</span>
+      <span class="card-streams"><span class="note">♫</span> 817 mln</span>
     </a>
     <a class="card" href="#imagine" style="--card-accent:#2E6E9E">
       <span class="rank">21</span><span class="dot"></span><span class="card-artist">John Lennon</span><span class="card-title">Imagine</span>
+      <span class="card-streams"><span class="note">♫</span> ~750 mln</span>
     </a>
     <a class="card" href="#hey-jude" style="--card-accent:#3E7A2C">
       <span class="rank">22</span><span class="dot"></span><span class="card-artist">The Beatles</span><span class="card-title">Hey Jude</span>
+      <span class="card-streams"><span class="note">♫</span> ~626 mln</span>
     </a>
     <a class="card" href="#walk" style="--card-accent:#8F1616">
       <span class="rank">23</span><span class="dot"></span><span class="card-artist">Pantera</span><span class="card-title">Walk</span>
+      <span class="card-streams"><span class="note">♫</span> 613 mln</span>
     </a>
     <a class="card" href="#run-to-the-hills" style="--card-accent:#B3221F">
       <span class="rank">24</span><span class="dot"></span><span class="card-artist">Iron Maiden</span><span class="card-title">Run to the Hills</span>
+      <span class="card-streams"><span class="note">♫</span> 477 mln</span>
     </a>
     <a class="card" href="#breaking-the-law" style="--card-accent:#6B6B6E">
       <span class="rank">25</span><span class="dot"></span><span class="card-artist">Judas Priest</span><span class="card-title">Breaking the Law</span>
+      <span class="card-streams"><span class="note">♫</span> 365 mln</span>
     </a>
     <a class="card" href="#raining-blood" style="--card-accent:#8F1616">
       <span class="rank">26</span><span class="dot"></span><span class="card-artist">Slayer</span><span class="card-title">Raining Blood</span>
+      <span class="card-streams"><span class="note">♫</span> 272 mln</span>
     </a>
     <a class="card" href="#darkside" style="--card-accent:#C23B7A">
       <span class="rank">27</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Darkside</span>
+      <span class="card-streams"><span class="note">♫</span> 191 mln</span>
     </a>
     <a class="card" href="#solitudine" style="--card-accent:#A6386A">
       <span class="rank">28</span><span class="dot"></span><span class="card-artist">Laura Pausini</span><span class="card-title">La solitudine</span>
+      <span class="card-streams"><span class="note">♫</span> 89,4 mln</span>
     </a>
     <a class="card" href="#albachiara" style="--card-accent:#A6272A">
       <span class="rank">29</span><span class="dot"></span><span class="card-artist">Vasco Rossi</span><span class="card-title">Albachiara</span>
+      <span class="card-streams"><span class="note">♫</span> 88,5 mln</span>
     </a>
     <a class="card" href="#certe-notti" style="--card-accent:#A6331F">
       <span class="rank">30</span><span class="dot"></span><span class="card-artist">Ligabue</span><span class="card-title">Certe notti</span>
+      <span class="card-streams"><span class="note">♫</span> 88,4 mln</span>
     </a>
     <a class="card" href="#volare" style="--card-accent:#1F5FA8">
       <span class="rank">31</span><span class="dot"></span><span class="card-artist">Domenico Modugno</span><span class="card-title">Nel blu dipinto di blu</span>
+      <span class="card-streams"><span class="note">♫</span> 87,6 mln</span>
     </a>
     <a class="card" href="#cielo-blu" style="--card-accent:#2E6EA6">
       <span class="rank">32</span><span class="dot"></span><span class="card-artist">Rino Gaetano</span><span class="card-title">Ma il cielo è sempre più blu</span>
+      <span class="card-streams"><span class="note">♫</span> 80,8 mln</span>
     </a>
     <a class="card" href="#azzurro" style="--card-accent:#3E6EA8">
       <span class="rank">33</span><span class="dot"></span><span class="card-artist">Adriano Celentano</span><span class="card-title">Azzurro</span>
+      <span class="card-streams"><span class="note">♫</span> 78,4 mln</span>
     </a>
     <a class="card" href="#canto-libero" style="--card-accent:#A6691E">
       <span class="rank">34</span><span class="dot"></span><span class="card-artist">Lucio Battisti</span><span class="card-title">Il mio canto libero</span>
+      <span class="card-streams"><span class="note">♫</span> 75,8 mln</span>
     </a>
     <a class="card" href="#la-cura" style="--card-accent:#7A4A6E">
       <span class="rank">35</span><span class="dot"></span><span class="card-artist">Franco Battiato</span><span class="card-title">La cura</span>
+      <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
     </a>
     <a class="card" href="#caruso" style="--card-accent:#2E6480">
       <span class="rank">36</span><span class="dot"></span><span class="card-artist">Lucio Dalla</span><span class="card-title">Caruso</span>
+      <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
     </a>
     <a class="card" href="#bello-impossibile" style="--card-accent:#A6225A">
       <span class="rank">37</span><span class="dot"></span><span class="card-artist">Gianna Nannini</span><span class="card-title">Bello e impossibile</span>
+      <span class="card-streams"><span class="note">♫</span> 66,2 mln</span>
     </a>
     <a class="card" href="#marinella" style="--card-accent:#7A5A2E">
       <span class="rank">38</span><span class="dot"></span><span class="card-artist">Fabrizio De André</span><span class="card-title">La canzone di Marinella</span>
+      <span class="card-streams"><span class="note">♫</span> 14,9 mln</span>
     </a>
   </div>
 
@@ -448,6 +509,7 @@
         <span class="rank-badge">#1</span><span class="artist">Queen</span><span>1975</span><span>A Night at the Opera</span><span>Rock progressivo</span>
       </div>
       <h2 class="song-title">Bohemian Rhapsody</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>3,2 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Pubblicata il 31 ottobre 1975, è una "mock opera" nata dalla fusione di tre brani separati scritti da Freddie Mercury, con un coro bombastico, un recitativo teatrale e frasi in italiano storpiato che parodiano l'opera lirica classica.</p>
         <p>Mercury non ha mai rivelato ufficialmente il significato del testo, lasciando convivere diverse interpretazioni dei fan. Il chitarrista Brian May ha ipotizzato che riguardi le lotte personali di Mercury contro le aspettative della società; altri vi hanno letto un racconto velato sul percorso di accettazione della propria omosessualità.</p>
@@ -463,6 +525,7 @@
         <span class="rank-badge">#2</span><span class="artist">Linkin Park</span><span>2000 / 2001</span><span>Hybrid Theory</span><span>Nu metal / Rock alternativo</span>
       </div>
       <h2 class="song-title">In the End</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>3,1 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Ottavo brano e quarto singolo dell'album d'esordio <em>Hybrid Theory</em>, uscito l'11 settembre 2001. Racconta la frustrazione di chi ha dato tutto se stesso per un obiettivo, una relazione o un sogno, senza ottenere il risultato sperato.</p>
         <p>Il cantante Chester Bennington inizialmente non voleva includerlo nell'album; fu il produttore Mike Shinoda a scriverne il nucleo in una notte insonne al pianoforte in camera sua. Nel 2021 è diventato il primo brano nu-metal a superare il miliardo di ascolti su Spotify, e oggi ne conta oltre 3 miliardi.</p>
@@ -477,6 +540,7 @@
         <span class="rank-badge">#3</span><span class="artist">Nirvana</span><span>1991</span><span>Nevermind</span><span>Grunge</span>
       </div>
       <h2 class="song-title">Smells Like Teen Spirit</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>3,0 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Brano d'apertura e primo singolo di <em>Nevermind</em>, uscito il 10 settembre 1991. Kurt Cobain lo definì un pezzo dai "temi rivoluzionari", legato all'apatia della sua generazione e al rifiuto di seguire le regole imposte dal diventare adulti.</p>
         <p>Cobain ammise di aver cercato di scrivere "la canzone pop definitiva", ispirandosi apertamente ai Pixies per la dinamica di alternanza tra strofe sommesse e ritornelli esplosivi.</p>
@@ -493,6 +557,7 @@
         <span class="rank-badge">#4</span><span class="artist">Michael Jackson</span><span>1983</span><span>Thriller</span><span>Pop / R&amp;B</span>
       </div>
       <h2 class="song-title">Billie Jean</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,9 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Pubblicata il 2 gennaio 1983 come secondo singolo di <em>Thriller</em>, esplora temi di accuse false, ossessione dei fan e conseguenze della vita sotto i riflettori. Jackson raccontò che non esisteva una vera "Billie Jean": il personaggio nasce dalla fusione di diverse fan ossessive che avevano tormentato lui e i suoi fratelli nel corso degli anni.</p>
         <p>Il celebre basso fu suonato da Louis Johnson dei Brothers Johnson, sotto la produzione di Quincy Jones. Vinse due Grammy Award e resta oggi il brano di Michael Jackson più ascoltato su Spotify.</p>
@@ -507,6 +572,7 @@
         <span class="rank-badge">#5</span><span class="artist">Guns N' Roses</span><span>1987 / 1988</span><span>Appetite for Destruction</span><span>Hard rock</span>
       </div>
       <h2 class="song-title">Sweet Child O' Mine</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,8 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Nata quasi per caso durante una session di prove, quando Slash iniziò a suonare per gioco il celebre riff ritenendolo "sciocco", prima che Axl Rose se ne innamorasse e Izzy Stradlin aggiungesse gli accordi. Il testo, scritto da Rose in onore della compagna dell'epoca Erin Everly, è — parole dello stesso Axl — "la prima canzone d'amore positiva" mai scritta dal gruppo.</p>
         <p>Divenne l'unico singolo dei Guns N' Roses ad arrivare al numero 1 della Billboard Hot 100, e il suo riff compare ancora oggi in cima a molte classifiche dei migliori assoli/riff della storia del rock.</p>
@@ -521,6 +587,7 @@
         <span class="rank-badge">#6</span><span class="artist">Radiohead</span><span>1992 / 1993</span><span>Pablo Honey</span><span>Alternative rock</span>
       </div>
       <h2 class="song-title">Creep</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,8 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Uscito come singolo il 21 settembre 1992, un anno prima dell'album d'esordio <em>Pablo Honey</em>. Thom Yorke lo scrisse a fine anni '80 da studente all'Università di Exeter: il testo è in parte autobiografico, costruito attorno all'autodisprezzo di chi è troppo insicuro per avvicinarsi a una persona di cui è invaghito.</p>
         <p>Musicalmente segue lo stesso schema quieto/esplosivo ispirato ai Pixies che caratterizza anche "Smells Like Teen Spirit" dei Nirvana. Per anni la band ha rifiutato di eseguirla dal vivo, ritenendola non rappresentativa del proprio suono.</p>
@@ -535,6 +602,7 @@
         <span class="rank-badge">#7</span><span class="artist">Adele</span><span>2011</span><span>21</span><span>Pop / Soul</span>
       </div>
       <h2 class="song-title">Someone Like You</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,7 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Secondo singolo dell'album <em>21</em>, uscito nel gennaio 2011 nel Regno Unito. Accompagnata solo dal pianoforte, Adele saluta un ex compagno che nel frattempo si è sposato con un'altra persona, riflettendo sulla fine della sua prima vera relazione importante.</p>
         <p>Scritta con Dan Wilson, con cui Adele non si era mai incontrata prima — fu il produttore Rick Rubin ad accostarli. Fu la prima ballata solo piano e voce a raggiungere il numero 1 della Billboard Hot 100 dal 1958.</p>
@@ -549,6 +617,7 @@
         <span class="rank-badge">#8</span><span class="artist">AC/DC</span><span>1979</span><span>Highway to Hell</span><span>Hard rock</span>
       </div>
       <h2 class="song-title">Highway to Hell</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,3 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Title track del sesto album della band, uscito il 27 luglio 1979. Il titolo nacque quasi per scherzo, quando il chitarrista Angus Young descrisse la massacrante tournée del 1978 come "un'autostrada per l'inferno"; secondo il futuro cantante Brian Johnson, il testo fu scritto da Bon Scott durante le lunghe ore morte sul pullman della band.</p>
         <p>Fu l'ultimo album inciso con Scott, morto nel 1980, e resta oggi il brano di gran lunga più ascoltato di sempre degli AC/DC su Spotify.</p>
@@ -563,6 +632,7 @@
         <span class="rank-badge">#9</span><span class="artist">Eagles</span><span>1976 / 1977</span><span>Hotel California</span><span>Rock</span>
       </div>
       <h2 class="song-title">Hotel California</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,2 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), racconta — nelle parole della band — un viaggio "dall'innocenza all'esperienza", usando l'immagine di un hotel labirintico e senza uscita come metafora dell'eccesso e del lato oscuro del sogno americano. La California è lo scenario, ma il significato è applicabile ovunque.</p>
         <p>Vinse il Grammy Award come Record of the Year nel 1978 ed è rimasta nella scaletta dal vivo della band per decenni, nonostante i suoi sei minuti e mezzo di durata.</p>
@@ -577,6 +647,7 @@
         <span class="rank-badge">#10</span><span class="artist">Metallica</span><span>1991</span><span>Metallica ("Black Album")</span><span>Heavy metal</span>
       </div>
       <h2 class="song-title">Enter Sandman</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,2 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Racconta gli incubi infantili legati a una figura minacciosa, il "Sandman", intrecciando la celebre preghiera della buonanotte con immagini più cupe. Fu il primo brano scritto per l'album omonimo del 1991, nato nella casa di Lars Ulrich a Berkeley; il riff fu in parte ispirato da <em>Louder Than Love</em> dei Soundgarden.</p>
         <p>Segnò la svolta della band verso un suono più accessibile, contribuendo a oltre 30 milioni di copie vendute dell'album e restando la canzone più ascoltata di Metallica su Spotify.</p>
@@ -591,6 +662,7 @@
         <span class="rank-badge">#11</span><span class="artist">System of a Down</span><span>2001</span><span>Toxicity</span><span>Alternative / Nu metal</span>
       </div>
       <h2 class="song-title">Chop Suey!</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>2,1 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Il brano affronta il modo in cui la morte viene giudicata diversamente a seconda delle circostanze, mettendo in discussione l'idea che chi soccombe a fragilità personali "meriti" condanna anziché comprensione. Il titolo originale doveva essere "Suicide", poi trasformato per gioco di parole in "Chop Suey!".</p>
         <p>Uscito pochi giorni prima dell'11 settembre 2001, comparve in una lista interna di brani "sensibili" diffusa da una grande emittente radiofonica statunitense; nonostante ciò resta il brano di gran lunga più ascoltato della band su Spotify, con oltre 2 miliardi di stream.</p>
@@ -605,6 +677,7 @@
         <span class="rank-badge">#12</span><span class="artist">Black Sabbath</span><span>1970</span><span>Paranoid</span><span>Heavy metal</span>
       </div>
       <h2 class="song-title">Paranoid</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,7 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta da Geezer Butler quasi come "riempitivo" dell'album, nata da un riff improvvisato da Tony Iommi in pochi minuti, il brano affronta — nelle parole dello stesso Butler — la sottile linea tra depressione e paranoia. Curiosamente, la parola "paranoid" non compare mai nel testo.</p>
         <p>La casa discografica preferì questo titolo a "War Pigs", ritenuto troppo controverso per l'epoca. Considerato tra i brani fondativi dell'intero heavy metal, ha superato il miliardo di ascolti su Spotify nel marzo 2024.</p>
@@ -619,6 +692,7 @@
         <span class="rank-badge">#13</span><span class="artist">Metallica</span><span>1991 / 1992</span><span>Metallica ("Black Album")</span><span>Heavy metal / Ballata</span>
       </div>
       <h2 class="song-title">Nothing Else Matters</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,7 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Terzo singolo dell'omonimo album, uscito il 20 aprile 1992. James Hetfield lo scrisse pensando alla nostalgia per la propria compagna durante un lungo tour, componendo parti del testo direttamente sul pullman e in camere d'albergo. Le orchestrazioni furono curate dal compositore Michael Kamen.</p>
         <p>È una delle tre canzoni di Metallica ad aver superato il miliardo di ascolti su Spotify, insieme a "Enter Sandman" e "Master of Puppets".</p>
@@ -633,6 +707,7 @@
         <span class="rank-badge">#14</span><span class="artist">Led Zeppelin</span><span>1971</span><span>Led Zeppelin IV</span><span>Rock progressivo</span>
       </div>
       <h2 class="song-title">Stairway to Heaven</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,3 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Uscita l'8 novembre 1971 nel quarto album (senza titolo) della band, racconta di una donna convinta che il denaro possa comprare la felicità, per poi scoprire che la vera pace non si acquista. Robert Plant si ispirò al libro <em>Magic Arts in Celtic Britain</em> dell'antiquario Lewis Spence.</p>
         <p>Lunga quasi otto minuti e priva di un vero ritornello, non fu mai pubblicata come singolo eppure divenne il brano più richiesto nella storia della radio FM statunitense.</p>
@@ -647,6 +722,7 @@
         <span class="rank-badge">#15</span><span class="artist">Rage Against the Machine</span><span>1992</span><span>Rage Against the Machine</span><span>Rap metal</span>
       </div>
       <h2 class="song-title">Killing in the Name</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,3 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Singolo di apertura dell'album d'esordio omonimo, uscito nel 1992. È un brano di protesta contro gli abusi di potere della polizia, ispirato al pestaggio di Rodney King da parte degli agenti di Los Angeles nel 1991, e paragona esplicitamente le forze dell'ordine al Ku Klux Klan.</p>
         <p>Il riff nacque quasi per caso, quando il chitarrista Tom Morello lo suonò per mostrare a un allievo l'accordatura in "Drop D". Una campagna social nel dicembre 2009 lo riportò al numero 1 delle classifiche britanniche, 17 anni dopo l'uscita.</p>
@@ -661,6 +737,7 @@
         <span class="rank-badge">#16</span><span class="artist">Oasis</span><span>1995</span><span>(What's the Story) Morning Glory?</span><span>Britpop</span>
       </div>
       <h2 class="song-title">Wonderwall</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,2 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Uscita il 30 ottobre 1995, scritta da Noel Gallagher, che la descrisse come una canzone su "un amico immaginario che viene a salvarti da te stesso". Il titolo fu ispirato da <em>Wonderwall Music</em>, colonna sonora strumentale scritta da George Harrison nel 1968, di cui Gallagher era un appassionato.</p>
         <p>Raggiunse il #2 in Gran Bretagna e il #8 negli Stati Uniti, aprendo per la prima volta al pubblico pop americano la strada degli Oasis; nel 2025 ha superato il miliardo di ascolti su Spotify.</p>
@@ -675,6 +752,7 @@
         <span class="rank-badge">#17</span><span class="artist">Eminem</span><span>2002</span><span>8 Mile (Colonna sonora)</span><span>Hip-hop</span>
       </div>
       <h2 class="song-title">Lose Yourself</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>1,1 mld</strong> ascolti</p>
       <div class="song-body">
         <p>Pubblicato il 28 ottobre 2002 come tema portante del film <em>8 Mile</em>, è diventato il primo numero 1 di Eminem nella Billboard Hot 100, restandoci per dodici settimane consecutive. Il primo verso ricalca da vicino la trama del film, riassumendo il percorso del personaggio B-Rabbit interpretato dallo stesso Eminem.</p>
         <p>Il tema centrale è cogliere l'occasione della vita quando si presenta, prima che sfumi per sempre. Nel 2003 il brano ha vinto l'Oscar per la Miglior Canzone Originale, primo brano hip-hop della storia a riuscirci.</p>
@@ -689,6 +767,7 @@
         <span class="rank-badge">#18</span><span class="artist">Michael Jackson</span><span>1982</span><span>Thriller</span><span>Pop / R&amp;B</span>
       </div>
       <h2 class="song-title">Thriller</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>916 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta da Rod Temperton (titolo di lavorazione "Starlight"), fu Quincy Jones a chiedere un titolo più "misterioso", capace di accompagnare l'evoluzione della persona artistica di Jackson. Il brano racconta, in chiave horror, una notte a mezzanotte popolata da mostri e terrore, restando da allora indissolubilmente legato all'immaginario di Halloween.</p>
         <p>Il celebre video, uscito il 2 dicembre 1983, raddoppiò le vendite dell'album e segnò la storia della giovane MTV; la parte parlata è interpretata dall'attore horror Vincent Price.</p>
@@ -703,6 +782,7 @@
         <span class="rank-badge">#19</span><span class="artist">Rammstein</span><span>1997</span><span>Sehnsucht</span><span>Industrial metal</span>
       </div>
       <h2 class="song-title">Du Hast</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>855 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Il brano gioca sull'ambiguità fonetica tedesca tra "du hast" (tu hai) e "du hasst" (tu odi), costruendo un testo che si presta a una doppia lettura legata ai voti matrimoniali e al rifiuto del protagonista di sposarsi. Il chitarrista Richard Kruspe lo ha letto anche come metafora della fedeltà tra i membri della band.</p>
         <p>Diventato celebre a livello internazionale anche grazie alla colonna sonora di <em>Matrix</em>, resta la canzone in lingua tedesca ad aver raggiunto la posizione più alta di sempre in classifica negli Stati Uniti (#20), ed è oggi il secondo brano più ascoltato di Rammstein su Spotify.</p>
@@ -717,6 +797,7 @@
         <span class="rank-badge">#20</span><span class="artist">Korn</span><span>1998 / 1999</span><span>Follow the Leader</span><span>Nu metal</span>
       </div>
       <h2 class="song-title">Freak on a Leash</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>817 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Uno dei primi brani scritti dalla band per l'album <em>Follow the Leader</em> nell'estate del 1997, diventato da subito un favorito del gruppo. Il cantante Jonathan Davis lo ha descritto come una critica diretta all'industria discografica, colpevole — nella sua visione — di aver tolto agli artisti il controllo sulla propria arte e di aver trasformato in profitto il dolore e i sacrifici che stavano dietro alla musica dei Korn. Resta di gran lunga il loro brano più ascoltato su Spotify.</p>
       </div>
@@ -730,6 +811,7 @@
         <span class="rank-badge">#21</span><span class="artist">John Lennon</span><span>1971</span><span>Imagine</span><span>Rock / Pop</span>
       </div>
       <h2 class="song-title">Imagine</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>~750 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta come appello per la pace nel mondo, la canzone invita ad "immaginare" un'umanità senza confini religiosi o nazionali capace di vivere in unità. Lennon si ispirò ad alcune poesie del libro <em>Grapefruit</em> di Yoko Ono, e la scrisse a New York mentre seguiva con angoscia le notizie quotidiane sulla guerra del Vietnam.</p>
         <p>Nelle sue stesse parole, il messaggio pacifista nascondeva anche una critica più dura, quasi anticapitalista, di quanto suggerisca la melodia rassicurante. È diventata la canzone simbolo di Lennon e una delle più reinterpretate di sempre.</p>
@@ -744,6 +826,7 @@
         <span class="rank-badge">#22</span><span class="artist">The Beatles</span><span>1968</span><span>Singolo (poi in Hey Jude, 1970)</span><span>Pop rock</span>
       </div>
       <h2 class="song-title">Hey Jude</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>~626 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Paul McCartney lo scrisse come "Hey Jules" per confortare Julian Lennon, il figlio di cinque anni di John Lennon, mentre i suoi genitori stavano divorziando. Il nome divenne poi "Jude", ispirato al personaggio Jud del musical <em>Oklahoma!</em>.</p>
         <p>Con i suoi 7 minuti e 12 secondi era, all'epoca, il brano più lungo ad arrivare al numero 1 delle classifiche britanniche. Fu anche il primo singolo pubblicato dalla neonata etichetta Apple dei Beatles, e restò nove settimane in vetta alla classifica statunitense: il più grande successo numero 1 nella storia della band.</p>
@@ -758,6 +841,7 @@
         <span class="rank-badge">#23</span><span class="artist">Pantera</span><span>1992</span><span>Vulgar Display of Power</span><span>Groove metal</span>
       </div>
       <h2 class="song-title">Walk</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>613 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Nato da un riff in un insolito tempo di 12/8 suonato da Dimebag Darrell durante un soundcheck, il brano parla di rispetto, autenticità e rifiuto delle relazioni insincere, invitando ad allontanarsi da chi non merita fiducia.</p>
         <p>Uscito senza alcun passaggio radiofonico negli Stati Uniti, l'album <em>Vulgar Display of Power</em> vendette comunque oltre due milioni di copie; "Walk" resta il brano di gran lunga più ascoltato di Pantera su Spotify e il più visto su YouTube.</p>
@@ -772,6 +856,7 @@
         <span class="rank-badge">#24</span><span class="artist">Iron Maiden</span><span>1982</span><span>The Number of the Beast</span><span>Heavy metal</span>
       </div>
       <h2 class="song-title">Run to the Hills</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>477 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Racconta la conquista europea del Nord America dal punto di vista delle pianure insanguinate, alternando la prospettiva dei coloni e quella dei popoli nativi sterminati e privati delle proprie terre.</p>
         <p>Fu il primo singolo della band con Bruce Dickinson alla voce e il primo Top 10 britannico della band (#7). Nel tour successivo, la nipote di un capo Apache viaggiò dal Nevada fino a una tappa in Texas per ringraziare la band con un dono, in segno di riconoscenza per il tema del brano.</p>
@@ -786,6 +871,7 @@
         <span class="rank-badge">#25</span><span class="artist">Judas Priest</span><span>1980</span><span>British Steel</span><span>Heavy metal</span>
       </div>
       <h2 class="song-title">Breaking the Law</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>365 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta dal cantante Rob Halford, racconta di chi si stanca di una vita ordinaria fatta di noia e decide di infrangere la legge pur di rompere la routine. Il testo nasconde un commento sociale preciso: fu scritto nel clima di crisi industriale e disoccupazione di massa della Gran Bretagna di fine anni '70, proprio nei mesi in cui saliva al governo Margaret Thatcher, con migliaia di operai dell'acciaio in sciopero.</p>
         <p>Musicalmente è breve, diretta, quasi punk, con tanto di sirena della polizia e vetri infranti in sottofondo, e priva di assolo di chitarra.</p>
@@ -800,6 +886,7 @@
         <span class="rank-badge">#26</span><span class="artist">Slayer</span><span>1986</span><span>Reign in Blood</span><span>Thrash metal</span>
       </div>
       <h2 class="song-title">Raining Blood</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>272 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Nata da un incubo raccontato dal cantante Tom Araya al chitarrista Jeff Hanneman — che sognò letteralmente una pioggia di sangue — il brano immagina la caduta di un angelo ribelle intrappolato in un limbo di punizione e vendetta, in una rilettura oscura del mito della rivolta contro il Paradiso.</p>
         <p>Il celebre riff d'apertura, originariamente pensato da Hanneman come colonna sonora per un film horror, è considerato uno dei momenti più influenti della storia del metal estremo, ed è oggi il brano più ascoltato di Slayer su Spotify.</p>
@@ -814,6 +901,7 @@
         <span class="rank-badge">#27</span><span class="artist">Bring Me the Horizon</span><span>2023</span><span>Post Human: Nex Gen</span><span>Rock / Nu-metal</span>
       </div>
       <h2 class="song-title">Darkside</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>191 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Uscito il 13 ottobre 2023, il brano affronta la depressione e l'insonnia del frontman Oli Sykes, usando la metafora di un "lato oscuro" interiore che prende il sopravvento durante gli episodi più bui. La data di uscita non è casuale: arriva tre giorni dopo la Giornata Mondiale della Salute Mentale.</p>
         <p>Musicalmente segna l'ennesima svolta di suono della band verso territori più accessibili, con richiami al nu-metal e all'alternative rock degli anni 2000. Alcuni ascoltatori hanno accostato il brano a "Last Resort" dei Papa Roach per il tema condiviso del "grido d'aiuto" legato al disagio psicologico.</p>
@@ -836,6 +924,7 @@
         <span class="rank-badge">#28</span><span class="artist">Laura Pausini</span><span>1993</span><span>Laura Pausini (debutto)</span><span>Pop italiano</span>
       </div>
       <h2 class="song-title">La solitudine</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>89,4 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Racconta, in prima persona, il dolore adolescenziale della protagonista dopo che Marco, il ragazzo che ama, è costretto a trasferirsi in un'altra città al seguito del padre per motivi di lavoro, lasciandola sola con il ricordo del loro legame.</p>
         <p>Scritta da Angelo Valsiglio e Pietro Cremonesi (musica) e da Cremonesi con Federico Cavalli (testo), la canzone vinse la sezione Novità del Festival di Sanremo 1993, lanciando la carriera internazionale di Laura Pausini appena diciottenne. È il brano italiano più ascoltato di questa lista su Spotify.</p>
@@ -850,6 +939,7 @@
         <span class="rank-badge">#29</span><span class="artist">Vasco Rossi</span><span>1979</span><span>Non siamo mica gli americani</span><span>Rock italiano</span>
       </div>
       <h2 class="song-title">Albachiara</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>88,5 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Contenuta nel secondo album di Vasco Rossi, uscito il 30 aprile 1979, e pubblicata come singolo nel maggio dello stesso anno. Il successo del brano fu tale che l'album venne poi ristampato con il titolo <em>Albachiara</em> al posto di quello originale.</p>
         <p>Vasco raccontò di averla scritta di getto, mentre la madre cucinava, ispirandosi a una ragazzina tredicenne che vedeva spesso passare alla fermata della corriera nella sua Zocca. Il brano gioca sul contrasto tra la timidezza esteriore della ragazza e la ricchezza del suo mondo interiore.</p>
@@ -866,6 +956,7 @@
         <span class="rank-badge">#30</span><span class="artist">Ligabue</span><span>1995</span><span>Buon compleanno Elvis</span><span>Rock italiano</span>
       </div>
       <h2 class="song-title">Certe notti</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>88,4 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Ligabue l'ha descritta come un'ideale continuazione del brano "Sogni di rock 'n' roll", ispirata anche al romanzo <em>Altri libertini</em> di Pier Vittorio Tondelli. Più che raccontare una semplice serata tra amici, il testo parla della solitudine che si può provare anche in mezzo agli altri, e degli eccessi come via di fuga.</p>
         <p>Uscita nel 1995 come primo singolo dall'album <em>Buon compleanno Elvis</em>, ha vinto la Targa Tenco come migliore canzone dell'anno nel 1996.</p>
@@ -880,6 +971,7 @@
         <span class="rank-badge">#31</span><span class="artist">Domenico Modugno</span><span>1958</span><span>Singolo</span><span>Canzone italiana</span>
       </div>
       <h2 class="song-title">Nel blu dipinto di blu</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>87,6 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Vincitrice del Festival di Sanremo 1958, scritta da Modugno con Franco Migliacci, nasce — secondo lo stesso paroliere — da un sogno messo su carta in uno dei giorni più tristi della sua vita. Rivoluzionaria per l'epoca, ruppe con la tradizione delle canzoni d'amore italiane grazie a una melodia innovativa e a un testo dal tono onirico.</p>
         <p>Ribattezzato negli Stati Uniti "Mister Volare", Modugno incise il brano in tredici lingue diverse, vendendo oltre 22 milioni di copie nel mondo e vincendo due Grammy Award nel 1959: resta la canzone italiana più famosa di sempre.</p>
@@ -894,6 +986,7 @@
         <span class="rank-badge">#32</span><span class="artist">Rino Gaetano</span><span>1975</span><span>Singolo</span><span>Cantautorato</span>
       </div>
       <h2 class="song-title">Ma il cielo è sempre più blu</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>80,8 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Il brano che rivelò Rino Gaetano al grande pubblico, uscito come singolo nell'estate del 1975. Dietro una melodia orecchiabile e un ritornello quasi consolatorio, il testo elenca situazioni di ingiustizia e disparità dell'Italia degli anni Settanta, rivolgendosi in particolare ai colleghi cantautori che continuano a scrivere canzoni d'amore fingendo che tutto vada per il meglio.</p>
         <p>Il messaggio di fondo è che, nonostante tutto, il cielo resta lo stesso sopra la testa di chiunque.</p>
@@ -908,6 +1001,7 @@
         <span class="rank-badge">#33</span><span class="artist">Adriano Celentano</span><span>1968</span><span>Singolo</span><span>Canzone italiana</span>
       </div>
       <h2 class="song-title">Azzurro</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>78,4 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta da Paolo Conte (musica) e Vito Pallavicini (testo), racconta la malinconia di un uomo che osserva il mondo dalla propria solitudine dopo che la persona amata è partita per il mare, lasciandolo solo in città durante un pomeriggio d'estate.</p>
         <p>Nonostante la scarsa promozione iniziale, entrò in classifica il 15 giugno 1968 e vi rimase per tutta l'estate, risultando il singolo più venduto dell'anno in Italia.</p>
@@ -922,6 +1016,7 @@
         <span class="rank-badge">#34</span><span class="artist">Lucio Battisti</span><span>1972</span><span>Il mio canto libero</span><span>Musica leggera / Pop italiano</span>
       </div>
       <h2 class="song-title">Il mio canto libero</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>75,8 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta da Mogol dopo l'inizio di una nuova relazione, la canzone è insieme una dichiarazione d'amore e una difesa della libertà di scegliere i propri sentimenti al di là delle convenzioni sociali, in un linguaggio ricco di immagini allegoriche tipico della coppia Battisti-Mogol.</p>
         <p>Dà il titolo al settimo album di Battisti, pubblicato nel novembre 1972, considerato una pietra miliare della musica leggera italiana.</p>
@@ -936,6 +1031,7 @@
         <span class="rank-badge">#35</span><span class="artist">Franco Battiato</span><span>1996 / 1997</span><span>L'imboscata</span><span>Cantautorato</span>
       </div>
       <h2 class="song-title">La cura</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>67,0 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Scritta insieme al filosofo Manlio Sgalambro per l'album <em>L'imboscata</em>, resta uno dei brani più discussi della discografia di Battiato proprio per l'ambiguità della sua interpretazione: c'è chi vi legge un canto d'amore assoluto e incondizionato verso una persona, e chi invece un dialogo tra l'uomo e il divino.</p>
         <p>Il testo, molto poetico, promette protezione e cura totale di fronte alle ferite dell'anima. Vinse il Premio Tenco nel 1997.</p>
@@ -950,6 +1046,7 @@
         <span class="rank-badge">#36</span><span class="artist">Lucio Dalla</span><span>1986</span><span>DallAmeriCaruso</span><span>Cantautorato / Musica melodica</span>
       </div>
       <h2 class="song-title">Caruso</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>67,0 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Nato per caso, dopo che un guasto alla barca costrinse Dalla a fermarsi in un albergo di Sorrento nella stessa stanza in cui, decenni prima, aveva soggiornato il tenore Enrico Caruso, il brano immagina gli ultimi giorni di vita del cantante lirico, sospeso tra i ricordi dei successi in America e la consapevolezza che solo l'amore sia stato realmente importante.</p>
         <p>Contenuto nell'album <em>DallAmeriCaruso</em> del 1986, è probabilmente la canzone italiana più reinterpretata al mondo, da Pavarotti a innumerevoli altri artisti internazionali.</p>
@@ -964,6 +1061,7 @@
         <span class="rank-badge">#37</span><span class="artist">Gianna Nannini</span><span>1986</span><span>Profumo</span><span>Pop rock italiano</span>
       </div>
       <h2 class="song-title">Bello e impossibile</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>66,2 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Primo singolo estratto dall'album <em>Profumo</em>, scritto dalla stessa Nannini con Fabio Pianigiani, racconta l'attrazione travolgente per un uomo affascinante ma irraggiungibile. Nonostante l'alone poetico del testo, la cantante ha rivelato in seguito che l'ispirazione reale fu molto più prosaica: "un uomo bello ma dall'odore sgradevole".</p>
         <p>Il brano fu un enorme successo commerciale, restando per circa sei mesi nella classifica italiana dei singoli più venduti e ottenendo dischi di platino in Italia, Austria e Svizzera.</p>
@@ -978,6 +1076,7 @@
         <span class="rank-badge">#38</span><span class="artist">Fabrizio De André</span><span>1964</span><span>Volume 3 (raccolta)</span><span>Cantautorato</span>
       </div>
       <h2 class="song-title">La canzone di Marinella</h2>
+      <p class="streams"><span class="note">♫</span> Spotify · <strong>14,9 mln</strong> ascolti</p>
       <div class="song-body">
         <p>Ispirata a un fatto di cronaca nera letto da De André da ragazzo — l'omicidio di una giovane costretta a prostituirsi e poi uccisa — il brano trasforma la tragedia in una storia "senza tempo di gente senza storia", intrecciando amore e morte con una delicatezza che diventerà cifra stilistica dell'autore.</p>
         <p>Pubblicata nel 1964 senza particolare successo, la canzone conquistò il grande pubblico solo nel 1967 grazie a una versione interpretata da Mina, aprendo a De André la strada della popolarità.</p>
@@ -990,7 +1089,7 @@
   </main>
 
   <footer>
-    Tutti i contenuti sono riassunti e verificati a partire da fonti pubbliche citate in ciascuna scheda. Nessun testo di canzone è riprodotto su questa pagina. I colori di ogni scheda richiamano quelli dell'immaginario visivo della band o dell'album, non i loghi originali. L'ordine dei brani riflette gli ascolti totali su Spotify rilevati a fine luglio 2026 (fonte: kworb.net) e cambierà nel tempo.
+    Tutti i contenuti sono riassunti e verificati a partire da fonti pubbliche citate in ciascuna scheda. Nessun testo di canzone è riprodotto su questa pagina. I colori di ogni scheda richiamano quelli dell'immaginario visivo della band o dell'album, non i loghi originali. L'ordine dei brani e gli ascolti Spotify mostrati riflettono un rilevamento manuale di fine luglio/inizio agosto 2026 (fonte: kworb.net): non sono dati in tempo reale — Spotify non li rende disponibili pubblicamente in questa forma — ma un'istantanea aggiornata periodicamente.
   </footer>
 
 </div>
