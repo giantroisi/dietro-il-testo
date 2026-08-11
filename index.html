@@ -49,28 +49,36 @@
     min-height: 100vh;
     min-height: 100svh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px 28px 110px;
+    background: #150D1E;
+    overflow: hidden;
   }
 
   .intro-hero .site-logo {
     width: 100%;
-    max-width: min(94vw, 1400px);
-    max-height: 64vh;
+    height: 100%;
     object-fit: contain;
-    margin: 0 0 22px;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .intro-tag {
+    position: absolute;
+    left: 50%;
+    bottom: 90px;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0 24px;
     font-family: var(--font-mono);
     font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--text-muted);
+    color: #C9BFAE;
     margin: 0;
+    z-index: 2;
   }
 
   .scroll-cue {
@@ -82,10 +90,11 @@
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    color: var(--text-muted);
+    color: #C9BFAE;
     text-decoration: none;
     font-family: var(--font-mono);
     font-size: 11px;
+    z-index: 2;
     letter-spacing: 0.14em;
     text-transform: uppercase;
   }
