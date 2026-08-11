@@ -53,12 +53,14 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px 28px;
+    padding: 40px 28px 110px;
   }
 
   .intro-hero .site-logo {
     width: 100%;
-    max-width: 620px;
+    max-width: min(94vw, 1400px);
+    max-height: 64vh;
+    object-fit: contain;
     margin: 0 0 22px;
   }
 
@@ -391,17 +393,17 @@
 </head>
 <body>
 
-<div class="page">
+<section class="intro-hero">
+  <img class="site-logo" src="logo.png" alt="Dietro il testo" width="1024" height="472">
+  <h1 class="visually-hidden">Dietro il testo</h1>
+  <p class="intro-tag">Contesto, genesi e fonti verificate — senza mai riprodurre i testi</p>
+  <a class="scroll-cue" href="#content-start">
+    Scorri
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+  </a>
+</section>
 
-  <section class="intro-hero">
-    <img class="site-logo" src="logo.png" alt="Dietro il testo" width="1024" height="472">
-    <h1 class="visually-hidden">Dietro il testo</h1>
-    <p class="intro-tag">Contesto, genesi e fonti verificate — senza mai riprodurre i testi</p>
-    <a class="scroll-cue" href="#content-start">
-      Scorri
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
-    </a>
-  </section>
+<div class="page">
 
   <header class="hero" id="content-start">
     <p class="eyebrow">65 canzoni reali · le ultime in fondo, in attesa di riordino</p>
