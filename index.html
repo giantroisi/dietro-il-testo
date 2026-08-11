@@ -46,8 +46,8 @@
 
   .intro-hero {
     position: relative;
-    min-height: 100vh;
-    min-height: 100svh;
+    height: 100vh;
+    height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,10 +59,22 @@
   .intro-hero .site-logo {
     width: 100%;
     height: 100%;
+    max-width: none;
     object-fit: contain;
     margin: 0;
     border-radius: 0;
     box-shadow: none;
+  }
+
+  .intro-scrim {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 220px;
+    background: linear-gradient(to top, rgba(21,13,30,0.92), rgba(21,13,30,0));
+    z-index: 1;
+    pointer-events: none;
   }
 
   .intro-tag {
@@ -405,6 +417,7 @@
 <section class="intro-hero">
   <img class="site-logo" src="logo.png" alt="Dietro il testo" width="1024" height="472">
   <h1 class="visually-hidden">Dietro il testo</h1>
+  <div class="intro-scrim" aria-hidden="true"></div>
   <p class="intro-tag">Contesto, genesi e fonti verificate — senza mai riprodurre i testi</p>
   <a class="scroll-cue" href="#content-start">
     Scorri
