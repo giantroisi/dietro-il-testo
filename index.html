@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dietro il testo</title>
-<meta name="description" content="38 schede su brani reali, in ordine di ascolti su Spotify, ognuna nei colori della propria band o album — niente testi riprodotti, solo contesto e fonti verificate.">
+<meta name="description" content="138 schede su brani reali, ognuna nei colori della propria band o album — niente testi riprodotti, solo contesto, genesi e fonti verificate.">
 <style>
   :root {
     --bg: #FDFCFF;
@@ -203,6 +203,35 @@
     text-transform: uppercase;
     color: var(--text-muted);
     min-height: 1.4em;
+  }
+
+  .genre-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 14px 2px 0;
+  }
+  .genre-chip {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .genre-chip:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .genre-chip.is-active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
   }
 
   /* --- Index: card grid --- */
@@ -428,7 +457,7 @@
 <div class="page">
 
   <header class="hero" id="content-start">
-    <p class="eyebrow">138 canzoni reali · le ultime in fondo, in attesa di riordino</p>
+    <p class="eyebrow">138 canzoni reali · cerca o filtra per genere qui sotto</p>
     <p class="lede">Schede su canzoni reali: contesto, genesi, significato e fonti verificate. Ogni brano porta i colori della propria band o del proprio album — niente testi riprodotti, solo la storia dietro le parole.</p>
     <div class="approach-note">
       <strong>Perché non trovi i testi qui.</strong> I testi delle canzoni sono opere protette da copyright. Questo sito racconta il contesto e il significato dei brani a parole nostre, verificato su fonti pubbliche, e rimanda a Wikipedia o Spotify per ascoltare o leggere il testo integrale in modo legale.
@@ -438,6 +467,15 @@
   <div class="search-bar">
     <input type="search" id="site-search" placeholder="Cerca per autore, titolo, parola o frase…" aria-label="Cerca tra le canzoni">
     <p class="search-count" id="search-count"></p>
+    <div class="genre-chips" id="genre-chips" role="group" aria-label="Filtra per genere">
+      <button type="button" class="genre-chip" data-genre="rock,britpop,grunge">Rock</button>
+      <button type="button" class="genre-chip" data-genre="metal">Metal</button>
+      <button type="button" class="genre-chip" data-genre="pop">Pop</button>
+      <button type="button" class="genre-chip" data-genre="punk">Punk</button>
+      <button type="button" class="genre-chip" data-genre="rap,hip hop">Rap / Hip hop</button>
+      <button type="button" class="genre-chip" data-genre="elettronic,electronic,dance,disco,synth,house">Elettronica</button>
+      <button type="button" class="genre-chip" data-genre="italian">Italiana</button>
+    </div>
   </div>
 
   <div class="card-grid" id="indice">
@@ -2947,6 +2985,8 @@
 
     var searchInput = document.getElementById('site-search');
     var searchCount = document.getElementById('search-count');
+    var genreChips = Array.prototype.slice.call(document.querySelectorAll('.genre-chip'));
+    var activeChip = null;
     var cardEntries = Array.prototype.map.call(document.querySelectorAll('.card'), function (card) {
       var id = card.getAttribute('href').slice(1);
       var section = document.getElementById(id);
@@ -2956,24 +2996,42 @@
 
     function runSearch() {
       var query = searchInput.value.trim().toLowerCase();
+      var keywords = activeChip ? activeChip.getAttribute('data-genre').split(',') : null;
       var visible = 0;
       cardEntries.forEach(function (entry) {
-        var match = query === '' || entry.haystack.indexOf(query) !== -1;
+        var matchesQuery = query === '' || entry.haystack.indexOf(query) !== -1;
+        var matchesGenre = !keywords || keywords.some(function (kw) { return entry.haystack.indexOf(kw) !== -1; });
+        var match = matchesQuery && matchesGenre;
         entry.card.classList.toggle('is-hidden', !match);
         if (match) visible++;
       });
-      if (query === '') {
+      if (query === '' && !activeChip) {
         searchCount.textContent = '';
       } else if (visible === 0) {
-        searchCount.textContent = 'Nessun risultato per "' + searchInput.value.trim() + '"';
+        searchCount.textContent = query === '' ? 'Nessun risultato' : 'Nessun risultato per "' + searchInput.value.trim() + '"';
       } else {
-        searchCount.textContent = visible + (visible === 1 ? ' risultato' : ' risultati') + ' per "' + searchInput.value.trim() + '"';
+        var label = query === '' ? '' : ' per "' + searchInput.value.trim() + '"';
+        searchCount.textContent = visible + (visible === 1 ? ' risultato' : ' risultati') + label;
       }
     }
 
     if (searchInput) {
       searchInput.addEventListener('input', runSearch);
     }
+
+    genreChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        if (activeChip === chip) {
+          activeChip = null;
+          chip.classList.remove('is-active');
+        } else {
+          if (activeChip) activeChip.classList.remove('is-active');
+          activeChip = chip;
+          chip.classList.add('is-active');
+        }
+        runSearch();
+      });
+    });
   })();
 </script>
 
