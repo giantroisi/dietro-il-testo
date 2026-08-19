@@ -203,6 +203,57 @@
     color: var(--on-accent);
   }
 
+  .sort-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 2px 0;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .sort-row select {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .sort-row select:focus { outline: none; border-color: var(--accent); }
+
+  .back-to-top {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 20;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+    transition: opacity 0.15s, transform 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .back-to-top.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .back-to-top:hover { border-color: var(--accent); color: var(--accent); }
+
   /* --- Index: card grid --- */
 
   #indice { scroll-margin-top: 24px; margin-top: 8px; }
@@ -267,6 +318,15 @@
     line-height: 1.25;
     max-width: 88%;
   }
+  .card .card-genre {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    color: var(--text-muted);
+    opacity: 0.8;
+    margin-top: 6px;
+  }
   .card .card-streams {
     display: flex;
     align-items: center;
@@ -287,6 +347,8 @@
     scroll-margin-top: 24px;
   }
   main section.song:first-of-type { border-top: none; padding-top: 0; }
+  main section.song.is-hidden { display: none; }
+  main section.song.is-first-visible { border-top: none; padding-top: 0; }
 
   .meta-row {
     display: flex;
@@ -436,6 +498,10 @@
   <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
 </button>
 
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Torna in cima">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <div class="page">
 
   <header class="hero">
@@ -457,471 +523,618 @@
       <button type="button" class="genre-chip" data-genre="elettronic,electronic,dance,disco,synth,house">Elettronica</button>
       <button type="button" class="genre-chip" data-genre="italian">Italiana</button>
     </div>
+    <div class="sort-row">
+      <label for="sort-select">Ordina per</label>
+      <select id="sort-select">
+        <option value="default">In ordine di aggiunta</option>
+        <option value="streams">Ascolti Spotify</option>
+        <option value="artist">Artista (A-Z)</option>
+        <option value="title">Titolo (A-Z)</option>
+      </select>
+    </div>
   </div>
 
   <div class="card-grid" id="indice">
-    <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E">
+    <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E" data-streams="3200000000">
       <span class="rank">1</span><span class="dot"></span><span class="card-artist">Queen</span><span class="card-title">Bohemian Rhapsody</span>
+      <span class="card-genre">Rock progressivo</span>
       <span class="card-streams"><span class="note">♫</span> 3,2 mld</span>
     </a>
-    <a class="card" href="#in-the-end" style="--card-accent:#8F1A1A">
+    <a class="card" href="#in-the-end" style="--card-accent:#8F1A1A" data-streams="3100000000">
       <span class="rank">2</span><span class="dot"></span><span class="card-artist">Linkin Park</span><span class="card-title">In the End</span>
+      <span class="card-genre">Nu metal / Rock alternativo</span>
       <span class="card-streams"><span class="note">♫</span> 3,1 mld</span>
     </a>
-    <a class="card" href="#teen-spirit" style="--card-accent:#B89B1F">
+    <a class="card" href="#teen-spirit" style="--card-accent:#B89B1F" data-streams="3000000000">
       <span class="rank">3</span><span class="dot"></span><span class="card-artist">Nirvana</span><span class="card-title">Smells Like Teen Spirit</span>
+      <span class="card-genre">Grunge</span>
       <span class="card-streams"><span class="note">♫</span> 3,0 mld</span>
     </a>
-    <a class="card" href="#billie-jean" style="--card-accent:#4A2E6E">
+    <a class="card" href="#billie-jean" style="--card-accent:#4A2E6E" data-streams="2900000000">
       <span class="rank">4</span><span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Billie Jean</span>
+      <span class="card-genre">Pop / R&amp;B</span>
       <span class="card-streams"><span class="note">♫</span> 2,9 mld</span>
     </a>
-    <a class="card" href="#sweet-child" style="--card-accent:#8A1A2E">
+    <a class="card" href="#sweet-child" style="--card-accent:#8A1A2E" data-streams="2800000000">
       <span class="rank">5</span><span class="dot"></span><span class="card-artist">Guns N' Roses</span><span class="card-title">Sweet Child O' Mine</span>
+      <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
     </a>
-    <a class="card" href="#creep" style="--card-accent:#4F6B49">
+    <a class="card" href="#creep" style="--card-accent:#4F6B49" data-streams="2800000000">
       <span class="rank">6</span><span class="dot"></span><span class="card-artist">Radiohead</span><span class="card-title">Creep</span>
+      <span class="card-genre">Alternative rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
     </a>
-    <a class="card" href="#someone-like-you" style="--card-accent:#3E4A5C">
+    <a class="card" href="#someone-like-you" style="--card-accent:#3E4A5C" data-streams="2700000000">
       <span class="rank">7</span><span class="dot"></span><span class="card-artist">Adele</span><span class="card-title">Someone Like You</span>
+      <span class="card-genre">Pop / Soul</span>
       <span class="card-streams"><span class="note">♫</span> 2,7 mld</span>
     </a>
-    <a class="card" href="#highway-to-hell" style="--card-accent:#8A1414">
+    <a class="card" href="#highway-to-hell" style="--card-accent:#8A1414" data-streams="2300000000">
       <span class="rank">8</span><span class="dot"></span><span class="card-artist">AC/DC</span><span class="card-title">Highway to Hell</span>
+      <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,3 mld</span>
     </a>
-    <a class="card" href="#hotel-california" style="--card-accent:#A65A22">
+    <a class="card" href="#hotel-california" style="--card-accent:#A65A22" data-streams="2200000000">
       <span class="rank">9</span><span class="dot"></span><span class="card-artist">Eagles</span><span class="card-title">Hotel California</span>
+      <span class="card-genre">Rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
     </a>
-    <a class="card" href="#enter-sandman" style="--card-accent:#6B6B6E">
+    <a class="card" href="#enter-sandman" style="--card-accent:#6B6B6E" data-streams="2200000000">
       <span class="rank">10</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Enter Sandman</span>
+      <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
     </a>
-    <a class="card" href="#chop-suey" style="--card-accent:#6E7A2E">
+    <a class="card" href="#chop-suey" style="--card-accent:#6E7A2E" data-streams="2100000000">
       <span class="rank">11</span><span class="dot"></span><span class="card-artist">System of a Down</span><span class="card-title">Chop Suey!</span>
+      <span class="card-genre">Alternative / Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
     </a>
-    <a class="card" href="#paranoid" style="--card-accent:#B2266E">
+    <a class="card" href="#paranoid" style="--card-accent:#B2266E" data-streams="1700000000">
       <span class="rank">12</span><span class="dot"></span><span class="card-artist">Black Sabbath</span><span class="card-title">Paranoid</span>
+      <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
     </a>
-    <a class="card" href="#nothing-else-matters" style="--card-accent:#4A4A6E">
+    <a class="card" href="#nothing-else-matters" style="--card-accent:#4A4A6E" data-streams="1700000000">
       <span class="rank">13</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Nothing Else Matters</span>
+      <span class="card-genre">Heavy metal / Ballata</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
     </a>
-    <a class="card" href="#stairway-to-heaven" style="--card-accent:#4A6E3E">
+    <a class="card" href="#stairway-to-heaven" style="--card-accent:#4A6E3E" data-streams="1300000000">
       <span class="rank">14</span><span class="dot"></span><span class="card-artist">Led Zeppelin</span><span class="card-title">Stairway to Heaven</span>
+      <span class="card-genre">Rock progressivo</span>
       <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
     </a>
-    <a class="card" href="#killing-in-the-name" style="--card-accent:#8A1A1A">
+    <a class="card" href="#killing-in-the-name" style="--card-accent:#8A1A1A" data-streams="1300000000">
       <span class="rank">15</span><span class="dot"></span><span class="card-artist">Rage Against the Machine</span><span class="card-title">Killing in the Name</span>
+      <span class="card-genre">Rap metal</span>
       <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
     </a>
-    <a class="card" href="#wonderwall" style="--card-accent:#2E4A8A">
+    <a class="card" href="#wonderwall" style="--card-accent:#2E4A8A" data-streams="1200000000">
       <span class="rank">16</span><span class="dot"></span><span class="card-artist">Oasis</span><span class="card-title">Wonderwall</span>
+      <span class="card-genre">Britpop</span>
       <span class="card-streams"><span class="note">♫</span> 1,2 mld</span>
     </a>
-    <a class="card" href="#lose-yourself" style="--card-accent:#5C3D80">
+    <a class="card" href="#lose-yourself" style="--card-accent:#5C3D80" data-streams="1100000000">
       <span class="rank">17</span><span class="dot"></span><span class="card-artist">Eminem</span><span class="card-title">Lose Yourself</span>
+      <span class="card-genre">Hip-hop</span>
       <span class="card-streams"><span class="note">♫</span> 1,1 mld</span>
     </a>
-    <a class="card" href="#thriller" style="--card-accent:#A31F27">
+    <a class="card" href="#thriller" style="--card-accent:#A31F27" data-streams="916000000">
       <span class="rank">18</span><span class="dot"></span><span class="card-artist">Michael Jackson</span><span class="card-title">Thriller</span>
+      <span class="card-genre">Pop / R&amp;B</span>
       <span class="card-streams"><span class="note">♫</span> 916 mln</span>
     </a>
-    <a class="card" href="#du-hast" style="--card-accent:#8A1418">
+    <a class="card" href="#du-hast" style="--card-accent:#8A1418" data-streams="855000000">
       <span class="rank">19</span><span class="dot"></span><span class="card-artist">Rammstein</span><span class="card-title">Du Hast</span>
+      <span class="card-genre">Industrial metal</span>
       <span class="card-streams"><span class="note">♫</span> 855 mln</span>
     </a>
-    <a class="card" href="#freak-on-a-leash" style="--card-accent:#7A4A1E">
+    <a class="card" href="#freak-on-a-leash" style="--card-accent:#7A4A1E" data-streams="817000000">
       <span class="rank">20</span><span class="dot"></span><span class="card-artist">Korn</span><span class="card-title">Freak on a Leash</span>
+      <span class="card-genre">Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 817 mln</span>
     </a>
     <a class="card" href="#imagine" style="--card-accent:#2E6E9E">
       <span class="rank">21</span><span class="dot"></span><span class="card-artist">John Lennon</span><span class="card-title">Imagine</span>
+      <span class="card-genre">Rock / Pop</span>
       <span class="card-streams"><span class="note">♫</span> ~750 mln</span>
     </a>
     <a class="card" href="#hey-jude" style="--card-accent:#3E7A2C">
       <span class="rank">22</span><span class="dot"></span><span class="card-artist">The Beatles</span><span class="card-title">Hey Jude</span>
+      <span class="card-genre">Pop rock</span>
       <span class="card-streams"><span class="note">♫</span> ~626 mln</span>
     </a>
-    <a class="card" href="#walk" style="--card-accent:#8F1616">
+    <a class="card" href="#walk" style="--card-accent:#8F1616" data-streams="613000000">
       <span class="rank">23</span><span class="dot"></span><span class="card-artist">Pantera</span><span class="card-title">Walk</span>
+      <span class="card-genre">Groove metal</span>
       <span class="card-streams"><span class="note">♫</span> 613 mln</span>
     </a>
-    <a class="card" href="#run-to-the-hills" style="--card-accent:#B3221F">
+    <a class="card" href="#run-to-the-hills" style="--card-accent:#B3221F" data-streams="477000000">
       <span class="rank">24</span><span class="dot"></span><span class="card-artist">Iron Maiden</span><span class="card-title">Run to the Hills</span>
+      <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 477 mln</span>
     </a>
-    <a class="card" href="#breaking-the-law" style="--card-accent:#6B6B6E">
+    <a class="card" href="#breaking-the-law" style="--card-accent:#6B6B6E" data-streams="365000000">
       <span class="rank">25</span><span class="dot"></span><span class="card-artist">Judas Priest</span><span class="card-title">Breaking the Law</span>
+      <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 365 mln</span>
     </a>
-    <a class="card" href="#raining-blood" style="--card-accent:#8F1616">
+    <a class="card" href="#raining-blood" style="--card-accent:#8F1616" data-streams="272000000">
       <span class="rank">26</span><span class="dot"></span><span class="card-artist">Slayer</span><span class="card-title">Raining Blood</span>
+      <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> 272 mln</span>
     </a>
-    <a class="card" href="#darkside" style="--card-accent:#C23B7A">
+    <a class="card" href="#darkside" style="--card-accent:#C23B7A" data-streams="191000000">
       <span class="rank">27</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Darkside</span>
+      <span class="card-genre">Rock / Nu-metal</span>
       <span class="card-streams"><span class="note">♫</span> 191 mln</span>
     </a>
-    <a class="card" href="#solitudine" style="--card-accent:#A6386A">
+    <a class="card" href="#solitudine" style="--card-accent:#A6386A" data-streams="89400000">
       <span class="rank">28</span><span class="dot"></span><span class="card-artist">Laura Pausini</span><span class="card-title">La solitudine</span>
+      <span class="card-genre">Pop italiano</span>
       <span class="card-streams"><span class="note">♫</span> 89,4 mln</span>
     </a>
-    <a class="card" href="#albachiara" style="--card-accent:#A6272A">
+    <a class="card" href="#albachiara" style="--card-accent:#A6272A" data-streams="88500000">
       <span class="rank">29</span><span class="dot"></span><span class="card-artist">Vasco Rossi</span><span class="card-title">Albachiara</span>
+      <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 88,5 mln</span>
     </a>
-    <a class="card" href="#certe-notti" style="--card-accent:#A6331F">
+    <a class="card" href="#certe-notti" style="--card-accent:#A6331F" data-streams="88400000">
       <span class="rank">30</span><span class="dot"></span><span class="card-artist">Ligabue</span><span class="card-title">Certe notti</span>
+      <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 88,4 mln</span>
     </a>
-    <a class="card" href="#volare" style="--card-accent:#1F5FA8">
+    <a class="card" href="#volare" style="--card-accent:#1F5FA8" data-streams="87600000">
       <span class="rank">31</span><span class="dot"></span><span class="card-artist">Domenico Modugno</span><span class="card-title">Nel blu dipinto di blu</span>
+      <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 87,6 mln</span>
     </a>
-    <a class="card" href="#cielo-blu" style="--card-accent:#2E6EA6">
+    <a class="card" href="#cielo-blu" style="--card-accent:#2E6EA6" data-streams="80800000">
       <span class="rank">32</span><span class="dot"></span><span class="card-artist">Rino Gaetano</span><span class="card-title">Ma il cielo è sempre più blu</span>
+      <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 80,8 mln</span>
     </a>
-    <a class="card" href="#azzurro" style="--card-accent:#3E6EA8">
+    <a class="card" href="#azzurro" style="--card-accent:#3E6EA8" data-streams="78400000">
       <span class="rank">33</span><span class="dot"></span><span class="card-artist">Adriano Celentano</span><span class="card-title">Azzurro</span>
+      <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 78,4 mln</span>
     </a>
-    <a class="card" href="#canto-libero" style="--card-accent:#A6691E">
+    <a class="card" href="#canto-libero" style="--card-accent:#A6691E" data-streams="75800000">
       <span class="rank">34</span><span class="dot"></span><span class="card-artist">Lucio Battisti</span><span class="card-title">Il mio canto libero</span>
+      <span class="card-genre">Musica leggera / Pop italiano</span>
       <span class="card-streams"><span class="note">♫</span> 75,8 mln</span>
     </a>
-    <a class="card" href="#la-cura" style="--card-accent:#7A4A6E">
+    <a class="card" href="#la-cura" style="--card-accent:#7A4A6E" data-streams="67000000">
       <span class="rank">35</span><span class="dot"></span><span class="card-artist">Franco Battiato</span><span class="card-title">La cura</span>
+      <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
     </a>
-    <a class="card" href="#caruso" style="--card-accent:#2E6480">
+    <a class="card" href="#caruso" style="--card-accent:#2E6480" data-streams="67000000">
       <span class="rank">36</span><span class="dot"></span><span class="card-artist">Lucio Dalla</span><span class="card-title">Caruso</span>
+      <span class="card-genre">Cantautorato / Musica melodica</span>
       <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
     </a>
-    <a class="card" href="#bello-impossibile" style="--card-accent:#A6225A">
+    <a class="card" href="#bello-impossibile" style="--card-accent:#A6225A" data-streams="66200000">
       <span class="rank">37</span><span class="dot"></span><span class="card-artist">Gianna Nannini</span><span class="card-title">Bello e impossibile</span>
+      <span class="card-genre">Pop rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 66,2 mln</span>
     </a>
-    <a class="card" href="#marinella" style="--card-accent:#7A5A2E">
+    <a class="card" href="#marinella" style="--card-accent:#7A5A2E" data-streams="14900000">
       <span class="rank">38</span><span class="dot"></span><span class="card-artist">Fabrizio De André</span><span class="card-title">La canzone di Marinella</span>
+      <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 14,9 mln</span>
     </a>
-    <a class="card" href="#numb" style="--card-accent:#6B5A4A">
+    <a class="card" href="#numb" style="--card-accent:#6B5A4A" data-streams="2800000000">
       <span class="rank">39</span><span class="dot"></span><span class="card-artist">Linkin Park</span><span class="card-title">Numb</span>
+      <span class="card-genre">Nu metal / Rock alternativo</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
     </a>
-    <a class="card" href="#africa" style="--card-accent:#C2822E">
+    <a class="card" href="#africa" style="--card-accent:#C2822E" data-streams="2100000000">
       <span class="rank">40</span><span class="dot"></span><span class="card-artist">Toto</span><span class="card-title">Africa</span>
+      <span class="card-genre">Rock / Pop</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
     </a>
-    <a class="card" href="#bring-me-to-life" style="--card-accent:#4A3E5C">
+    <a class="card" href="#bring-me-to-life" style="--card-accent:#4A3E5C" data-streams="2100000000">
       <span class="rank">41</span><span class="dot"></span><span class="card-artist">Evanescence</span><span class="card-title">Bring Me to Life</span>
+      <span class="card-genre">Rock / Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
     </a>
-    <a class="card" href="#sweet-home-alabama" style="--card-accent:#A64A2E">
+    <a class="card" href="#sweet-home-alabama" style="--card-accent:#A64A2E" data-streams="1700000000">
       <span class="rank">42</span><span class="dot"></span><span class="card-artist">Lynyrd Skynyrd</span><span class="card-title">Sweet Home Alabama</span>
+      <span class="card-genre">Southern rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
     </a>
-    <a class="card" href="#basket-case" style="--card-accent:#4A6E2E">
+    <a class="card" href="#basket-case" style="--card-accent:#4A6E2E" data-streams="1600000000">
       <span class="rank">43</span><span class="dot"></span><span class="card-artist">Green Day</span><span class="card-title">Basket Case</span>
+      <span class="card-genre">Punk rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,6 mld</span>
     </a>
     <a class="card" href="#master-of-puppets" style="--card-accent:#5A4A6E">
       <span class="rank">44</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">Master of Puppets</span>
+      <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> ~1,1 mld</span>
     </a>
-    <a class="card" href="#litaliano" style="--card-accent:#2E6E4A">
+    <a class="card" href="#litaliano" style="--card-accent:#2E6E4A" data-streams="209000000">
       <span class="rank">45</span><span class="dot"></span><span class="card-artist">Toto Cutugno</span><span class="card-title">L'italiano</span>
+      <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 209 mln</span>
     </a>
-    <a class="card" href="#sally" style="--card-accent:#C2453A">
+    <a class="card" href="#sally" style="--card-accent:#C2453A" data-streams="98300000">
       <span class="rank">46</span><span class="dot"></span><span class="card-artist">Vasco Rossi</span><span class="card-title">Sally</span>
+      <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 98,3 mln</span>
     </a>
-    <a class="card" href="#generale" style="--card-accent:#6E6E4A">
+    <a class="card" href="#generale" style="--card-accent:#6E6E4A" data-streams="48700000">
       <span class="rank">47</span><span class="dot"></span><span class="card-artist">Francesco De Gregori</span><span class="card-title">Generale</span>
+      <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 48,7 mln</span>
     </a>
-    <a class="card" href="#cielo-stanza" style="--card-accent:#6E4A8A">
+    <a class="card" href="#cielo-stanza" style="--card-accent:#6E4A8A" data-streams="14300000">
       <span class="rank">48</span><span class="dot"></span><span class="card-artist">Mina</span><span class="card-title">Il cielo in una stanza</span>
+      <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 14,3 mln</span>
     </a>
-    <a class="card" href="#zombie-cranberries" style="--card-accent:#5C6B3E">
+    <a class="card" href="#zombie-cranberries" style="--card-accent:#5C6B3E" data-streams="1800000000">
       <span class="rank">49</span><span class="dot"></span><span class="card-artist">The Cranberries</span><span class="card-title">Zombie</span>
+      <span class="card-genre">Alternative rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,8 mld</span>
     </a>
     <a class="card" href="#livin-on-a-prayer" style="--card-accent:#4A5E8A">
       <span class="rank">50</span><span class="dot"></span><span class="card-artist">Bon Jovi</span><span class="card-title">Livin' on a Prayer</span>
+      <span class="card-genre">Rock</span>
     </a>
     <a class="card" href="#smoke-on-the-water" style="--card-accent:#5C4A6E">
       <span class="rank">51</span><span class="dot"></span><span class="card-artist">Deep Purple</span><span class="card-title">Smoke on the Water</span>
+      <span class="card-genre">Hard rock</span>
     </a>
     <a class="card" href="#crazy-train" style="--card-accent:#2E5A8A">
       <span class="rank">52</span><span class="dot"></span><span class="card-artist">Ozzy Osbourne</span><span class="card-title">Crazy Train</span>
+      <span class="card-genre">Heavy metal</span>
     </a>
     <a class="card" href="#seven-nation-army" style="--card-accent:#A6231F">
       <span class="rank">53</span><span class="dot"></span><span class="card-artist">The White Stripes</span><span class="card-title">Seven Nation Army</span>
+      <span class="card-genre">Rock alternativo</span>
     </a>
     <a class="card" href="#piccolo-grande-amore" style="--card-accent:#A66B3E">
       <span class="rank">54</span><span class="dot"></span><span class="card-artist">Claudio Baglioni</span><span class="card-title">Questo piccolo grande amore</span>
+      <span class="card-genre">Cantautorato</span>
     </a>
     <a class="card" href="#felicita" style="--card-accent:#A6821E">
       <span class="rank">55</span><span class="dot"></span><span class="card-artist">Al Bano e Romina Power</span><span class="card-title">Felicità</span>
+      <span class="card-genre">Pop italiano</span>
     </a>
     <a class="card" href="#4-marzo-1943" style="--card-accent:#3E5A8A">
       <span class="rank">56</span><span class="dot"></span><span class="card-artist">Lucio Dalla</span><span class="card-title">4 marzo 1943</span>
+      <span class="card-genre">Cantautorato</span>
     </a>
     <a class="card" href="#black-hole-sun" style="--card-accent:#4A3E6E">
       <span class="rank">57</span><span class="dot"></span><span class="card-artist">Soundgarden</span><span class="card-title">Black Hole Sun</span>
+      <span class="card-genre">Grunge</span>
     </a>
     <a class="card" href="#iron-man" style="--card-accent:#5C5C6B">
       <span class="rank">58</span><span class="dot"></span><span class="card-artist">Black Sabbath</span><span class="card-title">Iron Man</span>
+      <span class="card-genre">Heavy metal</span>
     </a>
     <a class="card" href="#should-i-stay" style="--card-accent:#A6231F">
       <span class="rank">59</span><span class="dot"></span><span class="card-artist">The Clash</span><span class="card-title">Should I Stay or Should I Go</span>
+      <span class="card-genre">Punk rock</span>
     </a>
     <a class="card" href="#rimmel" style="--card-accent:#6E2E4A">
       <span class="rank">60</span><span class="dot"></span><span class="card-artist">Francesco De Gregori</span><span class="card-title">Rimmel</span>
+      <span class="card-genre">Cantautorato</span>
     </a>
     <a class="card" href="#vivo-per-lei" style="--card-accent:#8A6B2E">
       <span class="rank">61</span><span class="dot"></span><span class="card-artist">Andrea Bocelli e Giorgia</span><span class="card-title">Vivo per lei</span>
+      <span class="card-genre">Pop / Musica melodica</span>
     </a>
     <a class="card" href="#purple-rain" style="--card-accent:#5E2A7E">
       <span class="rank">62</span><span class="dot"></span><span class="card-artist">Prince</span><span class="card-title">Purple Rain</span>
+      <span class="card-genre">Rock / Soul / Gospel</span>
     </a>
     <a class="card" href="#wish-you-were-here" style="--card-accent:#B5451D">
       <span class="rank">63</span><span class="dot"></span><span class="card-artist">Pink Floyd</span><span class="card-title">Wish You Were Here</span>
+      <span class="card-genre">Rock progressivo</span>
     </a>
     <a class="card" href="#hurt" style="--card-accent:#8C1D1D">
       <span class="rank">64</span><span class="dot"></span><span class="card-artist">Nine Inch Nails</span><span class="card-title">Hurt</span>
+      <span class="card-genre">Industrial / Alternative</span>
     </a>
     <a class="card" href="#take-on-me" style="--card-accent:#2A4B7C">
       <span class="rank">65</span><span class="dot"></span><span class="card-artist">a-ha</span><span class="card-title">Take On Me</span>
+      <span class="card-genre">Synth-pop / New Wave</span>
     </a>
     <a class="card" href="#dreams" style="--card-accent:#4A3F52">
       <span class="rank">66</span><span class="dot"></span><span class="card-artist">Fleetwood Mac</span><span class="card-title">Dreams</span>
+      <span class="card-genre">Rock / Soft Rock</span>
     </a>
     <a class="card" href="#heroes" style="--card-accent:#2A2A2E">
       <span class="rank">67</span><span class="dot"></span><span class="card-artist">David Bowie</span><span class="card-title">Heroes</span>
+      <span class="card-genre">Art rock / Glam rock</span>
     </a>
     <a class="card" href="#senza-una-donna" style="--card-accent:#3E5A72">
       <span class="rank">68</span><span class="dot"></span><span class="card-artist">Zucchero</span><span class="card-title">Senza una donna</span>
+      <span class="card-genre">Blues / Pop italiana</span>
     </a>
     <a class="card" href="#under-the-bridge" style="--card-accent:#8A2E1F">
       <span class="rank">69</span><span class="dot"></span><span class="card-artist">Red Hot Chili Peppers</span><span class="card-title">Under the Bridge</span>
+      <span class="card-genre">Alternative rock</span>
     </a>
     <a class="card" href="#every-breath-you-take" style="--card-accent:#4A5E3E">
       <span class="rank">70</span><span class="dot"></span><span class="card-artist">The Police</span><span class="card-title">Every Breath You Take</span>
+      <span class="card-genre">Rock / New Wave</span>
     </a>
     <a class="card" href="#fast-car" style="--card-accent:#5C4A3E">
       <span class="rank">71</span><span class="dot"></span><span class="card-artist">Tracy Chapman</span><span class="card-title">Fast Car</span>
+      <span class="card-genre">Folk rock</span>
     </a>
     <a class="card" href="#losing-my-religion" style="--card-accent:#8A4A1F">
       <span class="rank">72</span><span class="dot"></span><span class="card-artist">R.E.M.</span><span class="card-title">Losing My Religion</span>
+      <span class="card-genre">Alternative rock / Jangle pop</span>
     </a>
     <a class="card" href="#i-will-always-love-you" style="--card-accent:#6E1F2E">
       <span class="rank">73</span><span class="dot"></span><span class="card-artist">Whitney Houston</span><span class="card-title">I Will Always Love You</span>
+      <span class="card-genre">Pop / R&B / Soul</span>
     </a>
     <a class="card" href="#yes-i-know-my-way" style="--card-accent:#1F6B7A">
       <span class="rank">74</span><span class="dot"></span><span class="card-artist">Pino Daniele</span><span class="card-title">Yes I Know My Way</span>
+      <span class="card-genre">Blues / Funk / Napoletano</span>
     </a>
     <a class="card" href="#the-sound-of-silence" style="--card-accent:#2E3A4A">
       <span class="rank">75</span><span class="dot"></span><span class="card-artist">Simon & Garfunkel</span><span class="card-title">The Sound of Silence</span>
+      <span class="card-genre">Folk rock</span>
     </a>
     <a class="card" href="#paint-it-black" style="--card-accent:#1C1C1C">
       <span class="rank">76</span><span class="dot"></span><span class="card-artist">The Rolling Stones</span><span class="card-title">Paint It Black</span>
+      <span class="card-genre">Rock / Psichedelia</span>
     </a>
     <a class="card" href="#piu-bella-cosa" style="--card-accent:#B3661F">
       <span class="rank">77</span><span class="dot"></span><span class="card-artist">Eros Ramazzotti</span><span class="card-title">Più bella cosa</span>
+      <span class="card-genre">Pop italiana</span>
     </a>
     <a class="card" href="#rocket-man" style="--card-accent:#2E3A5C">
       <span class="rank">78</span><span class="dot"></span><span class="card-artist">Elton John</span><span class="card-title">Rocket Man</span>
+      <span class="card-genre">Pop rock</span>
     </a>
     <a class="card" href="#yellow" style="--card-accent:#A68A1F">
       <span class="rank">79</span><span class="dot"></span><span class="card-artist">Coldplay</span><span class="card-title">Yellow</span>
+      <span class="card-genre">Alternative rock / Britpop</span>
     </a>
     <a class="card" href="#il-carrozzone" style="--card-accent:#6E1F5C">
       <span class="rank">80</span><span class="dot"></span><span class="card-artist">Renato Zero</span><span class="card-title">Il carrozzone</span>
+      <span class="card-genre">Pop italiana / Cantautorato</span>
     </a>
     <a class="card" href="#can-you-feel-my-heart" style="--card-accent:#6E1FA6">
       <span class="rank">81</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Can You Feel My Heart</span>
+      <span class="card-genre">Metalcore / Electronicore</span>
     </a>
     <a class="card" href="#drown" style="--card-accent:#1D5C8A">
       <span class="rank">82</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Drown</span>
+      <span class="card-genre">Metalcore / Alternative rock</span>
     </a>
     <a class="card" href="#throne" style="--card-accent:#5C1F8A">
       <span class="rank">83</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Throne</span>
+      <span class="card-genre">Metalcore / Alternative rock</span>
     </a>
     <a class="card" href="#mantra" style="--card-accent:#8A1F2E">
       <span class="rank">84</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">MANTRA</span>
+      <span class="card-genre">Rock alternativo / Pop rock</span>
     </a>
     <a class="card" href="#sleepwalking" style="--card-accent:#2E1F4A">
       <span class="rank">85</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Sleepwalking</span>
+      <span class="card-genre">Metalcore / Alternative rock</span>
     </a>
     <a class="card" href="#antivist" style="--card-accent:#3E1F1F">
       <span class="rank">86</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Antivist</span>
+      <span class="card-genre">Metalcore</span>
     </a>
     <a class="card" href="#chelsea-smile" style="--card-accent:#3E1F2E">
       <span class="rank">87</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Chelsea Smile</span>
+      <span class="card-genre">Metalcore / Deathcore</span>
     </a>
     <a class="card" href="#doomed" style="--card-accent:#4A3E2E">
       <span class="rank">88</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Doomed</span>
+      <span class="card-genre">Alternative rock</span>
     </a>
     <a class="card" href="#follow-you" style="--card-accent:#8A2E4A">
       <span class="rank">89</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Follow You</span>
+      <span class="card-genre">Pop rock / Electronic rock</span>
     </a>
     <a class="card" href="#parasite-eve" style="--card-accent:#3E5C1F">
       <span class="rank">90</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Parasite Eve</span>
+      <span class="card-genre">Metalcore / Nu metal</span>
     </a>
     <a class="card" href="#lost" style="--card-accent:#3E4A6E">
       <span class="rank">91</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Lost</span>
+      <span class="card-genre">Alternative rock / Emo</span>
     </a>
     <a class="card" href="#die4u" style="--card-accent:#5C1F3E">
       <span class="rank">92</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Die4U</span>
+      <span class="card-genre">Alternative rock / Pop punk</span>
     </a>
     <a class="card" href="#riders-on-the-storm" style="--card-accent:#1F2E3E">
       <span class="rank">93</span><span class="dot"></span><span class="card-artist">The Doors</span><span class="card-title">Riders on the Storm</span>
+      <span class="card-genre">Psichedelia / Rock</span>
     </a>
     <a class="card" href="#personal-jesus" style="--card-accent:#6E1F1F">
       <span class="rank">94</span><span class="dot"></span><span class="card-artist">Depeche Mode</span><span class="card-title">Personal Jesus</span>
+      <span class="card-genre">Synth rock</span>
     </a>
     <a class="card" href="#sono-solo-canzonette" style="--card-accent:#1F6B8A">
       <span class="rank">95</span><span class="dot"></span><span class="card-artist">Edoardo Bennato</span><span class="card-title">Sono solo canzonette</span>
+      <span class="card-genre">Cantautorato / Rock italiano</span>
     </a>
     <a class="card" href="#shadow-moses" style="--card-accent:#2E1F1F">
       <span class="rank">96</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Shadow Moses</span>
+      <span class="card-genre">Metalcore</span>
     </a>
     <a class="card" href="#wonderful-life" style="--card-accent:#1F3E2E">
       <span class="rank">97</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Wonderful Life</span>
+      <span class="card-genre">Alternative rock / Metalcore</span>
     </a>
     <a class="card" href="#nihilist-blues" style="--card-accent:#1F1F3E">
       <span class="rank">98</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Nihilist Blues</span>
+      <span class="card-genre">Pop rock / Electronic rock</span>
     </a>
     <a class="card" href="#one" style="--card-accent:#2E2E2E">
       <span class="rank">99</span><span class="dot"></span><span class="card-artist">Metallica</span><span class="card-title">One</span>
+      <span class="card-genre">Thrash metal</span>
     </a>
     <a class="card" href="#ace-of-spades" style="--card-accent:#1A1A1A">
       <span class="rank">100</span><span class="dot"></span><span class="card-artist">Motörhead</span><span class="card-title">Ace of Spades</span>
+      <span class="card-genre">Heavy metal</span>
     </a>
     <a class="card" href="#psychosocial" style="--card-accent:#3E3E3E">
       <span class="rank">101</span><span class="dot"></span><span class="card-artist">Slipknot</span><span class="card-title">Psychosocial</span>
+      <span class="card-genre">Nu metal / Alternative metal</span>
     </a>
     <a class="card" href="#symphony-of-destruction" style="--card-accent:#4A1F1F">
       <span class="rank">102</span><span class="dot"></span><span class="card-artist">Megadeth</span><span class="card-title">Symphony of Destruction</span>
+      <span class="card-genre">Thrash metal</span>
     </a>
     <a class="card" href="#sober" style="--card-accent:#1F1F1F">
       <span class="rank">103</span><span class="dot"></span><span class="card-artist">Tool</span><span class="card-title">Sober</span>
+      <span class="card-genre">Progressive metal / Alternative metal</span>
     </a>
     <a class="card" href="#square-hammer" style="--card-accent:#1F1F2E">
       <span class="rank">104</span><span class="dot"></span><span class="card-artist">Ghost</span><span class="card-title">Square Hammer</span>
+      <span class="card-genre">Heavy metal / Occult rock</span>
     </a>
     <a class="card" href="#american-idiot" style="--card-accent:#8A1F1F">
       <span class="rank">105</span><span class="dot"></span><span class="card-artist">Green Day</span><span class="card-title">American Idiot</span>
+      <span class="card-genre">Punk rock</span>
     </a>
     <a class="card" href="#boulevard-of-broken-dreams" style="--card-accent:#3E3E4A">
       <span class="rank">106</span><span class="dot"></span><span class="card-artist">Green Day</span><span class="card-title">Boulevard of Broken Dreams</span>
+      <span class="card-genre">Punk rock / Alternative rock</span>
     </a>
     <a class="card" href="#fat-lip" style="--card-accent:#B37A1F">
       <span class="rank">107</span><span class="dot"></span><span class="card-artist">Sum 41</span><span class="card-title">Fat Lip</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#in-too-deep" style="--card-accent:#1F5C8A">
       <span class="rank">108</span><span class="dot"></span><span class="card-artist">Sum 41</span><span class="card-title">In Too Deep</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#crawling" style="--card-accent:#4A1F4A">
       <span class="rank">109</span><span class="dot"></span><span class="card-artist">Linkin Park</span><span class="card-title">Crawling</span>
+      <span class="card-genre">Nu metal</span>
     </a>
     <a class="card" href="#one-step-closer" style="--card-accent:#8A1F2E">
       <span class="rank">110</span><span class="dot"></span><span class="card-artist">Linkin Park</span><span class="card-title">One Step Closer</span>
+      <span class="card-genre">Nu metal</span>
     </a>
     <a class="card" href="#uprising" style="--card-accent:#1F3E6E">
       <span class="rank">111</span><span class="dot"></span><span class="card-artist">Muse</span><span class="card-title">Uprising</span>
+      <span class="card-genre">Rock alternativo</span>
     </a>
     <a class="card" href="#starlight" style="--card-accent:#2E3E6E">
       <span class="rank">112</span><span class="dot"></span><span class="card-artist">Muse</span><span class="card-title">Starlight</span>
+      <span class="card-genre">Rock alternativo</span>
     </a>
     <a class="card" href="#all-the-small-things" style="--card-accent:#B3661F">
       <span class="rank">113</span><span class="dot"></span><span class="card-artist">Blink-182</span><span class="card-title">All the Small Things</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#i-miss-you" style="--card-accent:#3E1F5C">
       <span class="rank">114</span><span class="dot"></span><span class="card-artist">Blink-182</span><span class="card-title">I Miss You</span>
+      <span class="card-genre">Pop punk / Alternative rock</span>
     </a>
     <a class="card" href="#she-looks-so-perfect" style="--card-accent:#2E6E8A">
       <span class="rank">115</span><span class="dot"></span><span class="card-artist">5 Seconds of Summer</span><span class="card-title">She Looks So Perfect</span>
+      <span class="card-genre">Pop punk / Pop rock</span>
     </a>
     <a class="card" href="#still-waiting" style="--card-accent:#4A4A1F">
       <span class="rank">116</span><span class="dot"></span><span class="card-artist">Sum 41</span><span class="card-title">Still Waiting</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#whats-my-age-again" style="--card-accent:#1F6E4A">
       <span class="rank">117</span><span class="dot"></span><span class="card-artist">Blink-182</span><span class="card-title">What's My Age Again?</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#happy-song" style="--card-accent:#B3A61F">
       <span class="rank">118</span><span class="dot"></span><span class="card-artist">Bring Me the Horizon</span><span class="card-title">Happy Song</span>
+      <span class="card-genre">Alternative rock</span>
     </a>
     <a class="card" href="#ho-messo-via" style="--card-accent:#5C4A2E">
       <span class="rank">119</span><span class="dot"></span><span class="card-artist">Ligabue</span><span class="card-title">Ho messo via</span>
+      <span class="card-genre">Rock italiano</span>
     </a>
     <a class="card" href="#hanno-ucciso-luomo-ragno" style="--card-accent:#8A1F1F">
       <span class="rank">120</span><span class="dot"></span><span class="card-artist">883</span><span class="card-title">Hanno ucciso l'Uomo Ragno</span>
+      <span class="card-genre">Pop rock italiano</span>
     </a>
     <a class="card" href="#wake-me-up" style="--card-accent:#1F6E6E">
       <span class="rank">121</span><span class="dot"></span><span class="card-artist">Avicii</span><span class="card-title">Wake Me Up</span>
+      <span class="card-genre">Dance / Folk house</span>
     </a>
     <a class="card" href="#hypa-hypa" style="--card-accent:#6E1F8A">
       <span class="rank">122</span><span class="dot"></span><span class="card-artist">Electric Callboy</span><span class="card-title">Hypa Hypa</span>
+      <span class="card-genre">Metalcore / Electronicore</span>
     </a>
     <a class="card" href="#diventerai-una-star" style="--card-accent:#B3821F">
       <span class="rank">123</span><span class="dot"></span><span class="card-artist">Finley</span><span class="card-title">Diventerai una star</span>
+      <span class="card-genre">Pop punk italiano</span>
     </a>
     <a class="card" href="#vieni-a-ballare-in-puglia" style="--card-accent:#1F6B8A">
       <span class="rank">124</span><span class="dot"></span><span class="card-artist">Caparezza</span><span class="card-title">Vieni a ballare in Puglia</span>
+      <span class="card-genre">Rap / Hip hop italiano</span>
     </a>
     <a class="card" href="#marmellata-25" style="--card-accent:#8A3E1F">
       <span class="rank">125</span><span class="dot"></span><span class="card-artist">Cesare Cremonini</span><span class="card-title">Marmellata #25</span>
+      <span class="card-genre">Pop rock italiano</span>
     </a>
     <a class="card" href="#get-lucky" style="--card-accent:#B3821F">
       <span class="rank">126</span><span class="dot"></span><span class="card-artist">Daft Punk</span><span class="card-title">Get Lucky</span>
+      <span class="card-genre">Disco / Electronic</span>
     </a>
     <a class="card" href="#shape-of-you" style="--card-accent:#1F5C8A">
       <span class="rank">127</span><span class="dot"></span><span class="card-artist">Ed Sheeran</span><span class="card-title">Shape of You</span>
+      <span class="card-genre">Pop</span>
     </a>
     <a class="card" href="#sugar-were-goin-down" style="--card-accent:#5C1F3E">
       <span class="rank">128</span><span class="dot"></span><span class="card-artist">Fall Out Boy</span><span class="card-title">Sugar, We're Goin Down</span>
+      <span class="card-genre">Pop punk / Emo</span>
     </a>
     <a class="card" href="#ragu" style="--card-accent:#8A2E1F">
       <span class="rank">129</span><span class="dot"></span><span class="card-artist">Fulminacci</span><span class="card-title">Ragù</span>
+      <span class="card-genre">Cantautorato italiano</span>
     </a>
     <a class="card" href="#21-guns" style="--card-accent:#2E2E2E">
       <span class="rank">130</span><span class="dot"></span><span class="card-artist">Green Day</span><span class="card-title">21 Guns</span>
+      <span class="card-genre">Punk rock</span>
     </a>
     <a class="card" href="#mr-brightside" style="--card-accent:#8A1F2E">
       <span class="rank">131</span><span class="dot"></span><span class="card-artist">The Killers</span><span class="card-title">Mr. Brightside</span>
+      <span class="card-genre">Indie rock</span>
     </a>
     <a class="card" href="#cattiva" style="--card-accent:#5C1F5C">
       <span class="rank">132</span><span class="dot"></span><span class="card-artist">Naska</span><span class="card-title">Cattiva</span>
+      <span class="card-genre">Pop punk italiano</span>
     </a>
     <a class="card" href="#break-stuff" style="--card-accent:#1A1A1A">
       <span class="rank">133</span><span class="dot"></span><span class="card-artist">Limp Bizkit</span><span class="card-title">Break Stuff</span>
+      <span class="card-genre">Nu metal</span>
     </a>
     <a class="card" href="#my-exs-best-friend" style="--card-accent:#3E1F5C">
       <span class="rank">134</span><span class="dot"></span><span class="card-artist">Machine Gun Kelly</span><span class="card-title">my ex's best friend</span>
+      <span class="card-genre">Pop punk</span>
     </a>
     <a class="card" href="#welcome-to-the-black-parade" style="--card-accent:#1A1A1A">
       <span class="rank">135</span><span class="dot"></span><span class="card-artist">My Chemical Romance</span><span class="card-title">Welcome to the Black Parade</span>
+      <span class="card-genre">Emo / Rock alternativo</span>
     </a>
     <a class="card" href="#supermassive-black-hole" style="--card-accent:#1F1F3E">
       <span class="rank">136</span><span class="dot"></span><span class="card-artist">Muse</span><span class="card-title">Supermassive Black Hole</span>
+      <span class="card-genre">Rock alternativo</span>
     </a>
     <a class="card" href="#dont-look-back-in-anger" style="--card-accent:#3E5C8A">
       <span class="rank">137</span><span class="dot"></span><span class="card-artist">Oasis</span><span class="card-title">Don't Look Back in Anger</span>
+      <span class="card-genre">Britpop</span>
     </a>
     <a class="card" href="#ringo-starr" style="--card-accent:#4A5C8A">
       <span class="rank">138</span><span class="dot"></span><span class="card-artist">Pinguini Tattici Nucleari</span><span class="card-title">Ringo Starr</span>
+      <span class="card-genre">Pop rock italiano</span>
     </a>
   </div>
 
@@ -950,7 +1163,7 @@
       </div>
       <h2 class="song-title">In the End</h2>
       <p class="streams"><span class="note">♫</span> Spotify · <strong>3,1 mld</strong> ascolti</p>
-      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/2xeUMQwfX5ya5xQQ0iLkSm?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="In the End su Spotify"></iframe></div>
+      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/5qnlh7u60H8KwUvGF4cBDz?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="In the End su Spotify"></iframe></div>
       <div class="song-body">
         <p>Ottavo brano e quarto singolo dell'album d'esordio <em>Hybrid Theory</em>, uscito l'11 settembre 2001. Racconta la frustrazione di chi ha dato tutto se stesso per un obiettivo, una relazione o un sogno, senza ottenere il risultato sperato.</p>
         <p>Il cantante Chester Bennington inizialmente non voleva includerlo nell'album; fu il produttore Mike Shinoda a scriverne il nucleo in una notte insonne al pianoforte in camera sua. Nel 2021 è diventato il primo brano nu-metal a superare il miliardo di ascolti su Spotify, e oggi ne conta oltre 3 miliardi.</p>
@@ -1048,7 +1261,7 @@
       </div>
       <h2 class="song-title">Highway to Hell</h2>
       <p class="streams"><span class="note">♫</span> Spotify · <strong>2,3 mld</strong> ascolti</p>
-      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/1OIYK9Ya6EgwJ4fMngrPcK?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Highway to Hell su Spotify"></iframe></div>
+      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/2zYzyRzz6pRmhPzyfMEC8s?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Highway to Hell su Spotify"></iframe></div>
       <div class="song-body">
         <p>Title track del sesto album della band, uscito il 27 luglio 1979. Il titolo nacque quasi per scherzo, quando il chitarrista Angus Young descrisse la massacrante tournée del 1978 come "un'autostrada per l'inferno"; secondo il futuro cantante Brian Johnson, il testo fu scritto da Bon Scott durante le lunghe ore morte sul pullman della band.</p>
         <p>Fu l'ultimo album inciso con Scott, morto nel 1980, e resta oggi il brano di gran lunga più ascoltato di sempre degli AC/DC su Spotify.</p>
@@ -1112,7 +1325,7 @@
       </div>
       <h2 class="song-title">Paranoid</h2>
       <p class="streams"><span class="note">♫</span> Spotify · <strong>1,7 mld</strong> ascolti</p>
-      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/7nVxwYcdX9bG18qA9k74ID?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Paranoid su Spotify"></iframe></div>
+      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/3L8WgDYS5TtwbyxOPSAiFf?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Paranoid su Spotify"></iframe></div>
       <div class="song-body">
         <p>Scritta da Geezer Butler quasi come "riempitivo" dell'album, nata da un riff improvvisato da Tony Iommi in pochi minuti, il brano affronta — nelle parole dello stesso Butler — la sottile linea tra depressione e paranoia. Curiosamente, la parola "paranoid" non compare mai nel testo.</p>
         <p>La casa discografica preferì questo titolo a "War Pigs", ritenuto troppo controverso per l'epoca. Considerato tra i brani fondativi dell'intero heavy metal, ha superato il miliardo di ascolti su Spotify nel marzo 2024.</p>
@@ -1192,7 +1405,7 @@
       </div>
       <h2 class="song-title">Lose Yourself</h2>
       <p class="streams"><span class="note">♫</span> Spotify · <strong>1,1 mld</strong> ascolti</p>
-      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/1v7L65Lzy0j0vdpRjJewt1?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Lose Yourself su Spotify"></iframe></div>
+      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/6GkTKjv1XbFVdI2D8vvDPu?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Lose Yourself su Spotify"></iframe></div>
       <div class="song-body">
         <p>Pubblicato il 28 ottobre 2002 come tema portante del film <em>8 Mile</em>, è diventato il primo numero 1 di Eminem nella Billboard Hot 100, restandoci per dodici settimane consecutive. Il primo verso ricalca da vicino la trama del film, riassumendo il percorso del personaggio B-Rabbit interpretato dallo stesso Eminem.</p>
         <p>Il tema centrale è cogliere l'occasione della vita quando si presenta, prima che sfumi per sempre. Nel 2003 il brano ha vinto l'Oscar per la Miglior Canzone Originale, primo brano hip-hop della storia a riuscirci.</p>
@@ -1208,7 +1421,7 @@
       </div>
       <h2 class="song-title">Thriller</h2>
       <p class="streams"><span class="note">♫</span> Spotify · <strong>916 mln</strong> ascolti</p>
-      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/4CUG02j3SDmn8Cf6EjbmdP?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Thriller su Spotify"></iframe></div>
+      <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/3mCHHqfRktiCRetZ1KiJHE?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Thriller su Spotify"></iframe></div>
       <div class="song-body">
         <p>Scritta da Rod Temperton (titolo di lavorazione "Starlight"), fu Quincy Jones a chiedere un titolo più "misterioso", capace di accompagnare l'evoluzione della persona artistica di Jackson. Il brano racconta, in chiave horror, una notte a mezzanotte popolata da mostri e terrore, restando da allora indissolubilmente legato all'immaginario di Halloween.</p>
         <p>Il celebre video, uscito il 2 dicembre 1983, raddoppiò le vendite dell'album e segnò la storia della giovane MTV; la parte parlata è interpretata dall'attore horror Vincent Price.</p>
@@ -2968,12 +3181,33 @@
     var searchCount = document.getElementById('search-count');
     var genreChips = Array.prototype.slice.call(document.querySelectorAll('.genre-chip'));
     var activeChip = null;
-    var cardEntries = Array.prototype.map.call(document.querySelectorAll('.card'), function (card) {
+    var cardGrid = document.getElementById('indice');
+    var mainEl = document.querySelector('main');
+    var cardEntries = Array.prototype.map.call(document.querySelectorAll('.card'), function (card, index) {
       var id = card.getAttribute('href').slice(1);
       var section = document.getElementById(id);
       var haystack = (card.textContent + ' ' + (section ? section.textContent : '')).toLowerCase();
-      return { card: card, haystack: haystack };
+      var streamsAttr = card.getAttribute('data-streams');
+      return {
+        card: card,
+        section: section,
+        haystack: haystack,
+        order: index,
+        streams: streamsAttr ? parseInt(streamsAttr, 10) : -1,
+        artist: (card.querySelector('.card-artist') || {}).textContent || '',
+        title: (card.querySelector('.card-title') || {}).textContent || ''
+      };
     });
+
+    function updateFirstVisibleSection() {
+      var prevFirst = mainEl && mainEl.querySelector('section.song.is-first-visible');
+      if (prevFirst) prevFirst.classList.remove('is-first-visible');
+      if (!mainEl) return;
+      var firstVisible = Array.prototype.find.call(mainEl.querySelectorAll('section.song'), function (s) {
+        return !s.classList.contains('is-hidden');
+      });
+      if (firstVisible) firstVisible.classList.add('is-first-visible');
+    }
 
     function runSearch() {
       var query = searchInput.value.trim().toLowerCase();
@@ -2984,8 +3218,10 @@
         var matchesGenre = !keywords || keywords.some(function (kw) { return entry.haystack.indexOf(kw) !== -1; });
         var match = matchesQuery && matchesGenre;
         entry.card.classList.toggle('is-hidden', !match);
+        if (entry.section) entry.section.classList.toggle('is-hidden', !match);
         if (match) visible++;
       });
+      updateFirstVisibleSection();
       if (query === '' && !activeChip) {
         searchCount.textContent = '';
       } else if (visible === 0) {
@@ -3013,6 +3249,34 @@
         runSearch();
       });
     });
+
+    var sortSelect = document.getElementById('sort-select');
+    if (sortSelect && cardGrid) {
+      sortSelect.addEventListener('change', function () {
+        var mode = sortSelect.value;
+        var sorted = cardEntries.slice();
+        if (mode === 'streams') {
+          sorted.sort(function (a, b) { return b.streams - a.streams || a.order - b.order; });
+        } else if (mode === 'artist') {
+          sorted.sort(function (a, b) { return a.artist.localeCompare(b.artist, 'it') || a.order - b.order; });
+        } else if (mode === 'title') {
+          sorted.sort(function (a, b) { return a.title.localeCompare(b.title, 'it') || a.order - b.order; });
+        } else {
+          sorted.sort(function (a, b) { return a.order - b.order; });
+        }
+        sorted.forEach(function (entry) { cardGrid.appendChild(entry.card); });
+      });
+    }
+
+    var backToTop = document.getElementById('back-to-top');
+    if (backToTop) {
+      window.addEventListener('scroll', function () {
+        backToTop.classList.toggle('is-visible', window.scrollY > 600);
+      }, { passive: true });
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
 
     var themeToggle = document.getElementById('theme-toggle');
     if (themeToggle) {
