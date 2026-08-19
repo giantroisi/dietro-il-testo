@@ -175,11 +175,18 @@
     min-height: 1.4em;
   }
 
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 16px;
+    margin: 10px 2px 0;
+  }
   .genre-chips {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 10px 2px 0;
   }
   .genre-chip {
     font-family: var(--font-mono);
@@ -204,29 +211,35 @@
     color: var(--on-accent);
   }
 
-  .sort-row {
+  .sort-control {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin: 10px 2px 0;
     font-family: var(--font-mono);
     font-size: 11px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-muted);
+    white-space: nowrap;
   }
-  .sort-row select {
+  .sort-control select {
+    appearance: none;
+    -webkit-appearance: none;
     font-family: var(--font-mono);
     font-size: 11px;
     letter-spacing: 0.04em;
-    color: var(--text);
-    background: var(--surface);
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238A8398' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center;
+    background-size: 11px;
     border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 6px 10px;
+    border-radius: 999px;
+    padding: 7px 32px 7px 14px;
     cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
   }
-  .sort-row select:focus { outline: none; border-color: var(--accent); }
+  .sort-control select:hover { border-color: var(--accent); color: var(--text); }
+  .sort-control select:focus { outline: none; border-color: var(--accent); }
 
   .back-to-top {
     position: fixed;
@@ -515,23 +528,25 @@
   <div class="search-bar">
     <input type="search" id="site-search" placeholder="Cerca per autore, titolo, parola o frase…" aria-label="Cerca tra le canzoni">
     <p class="search-count" id="search-count"></p>
-    <div class="genre-chips" id="genre-chips" role="group" aria-label="Filtra per genere">
-      <button type="button" class="genre-chip" data-genre="rock,britpop,grunge">Rock</button>
-      <button type="button" class="genre-chip" data-genre="metal">Metal</button>
-      <button type="button" class="genre-chip" data-genre="pop">Pop</button>
-      <button type="button" class="genre-chip" data-genre="punk">Punk</button>
-      <button type="button" class="genre-chip" data-genre="rap,hip hop">Rap / Hip hop</button>
-      <button type="button" class="genre-chip" data-genre="elettronic,electronic,dance,disco,synth,house">Elettronica</button>
-      <button type="button" class="genre-chip" data-genre="italian">Italiana</button>
-    </div>
-    <div class="sort-row">
-      <label for="sort-select">Ordina per</label>
-      <select id="sort-select">
-        <option value="default">In ordine di aggiunta</option>
-        <option value="streams">Ascolti Spotify</option>
-        <option value="artist">Artista (A-Z)</option>
-        <option value="title">Titolo (A-Z)</option>
-      </select>
+    <div class="filter-bar">
+      <div class="genre-chips" id="genre-chips" role="group" aria-label="Filtra per genere">
+        <button type="button" class="genre-chip" data-genre="rock,britpop,grunge">Rock</button>
+        <button type="button" class="genre-chip" data-genre="metal">Metal</button>
+        <button type="button" class="genre-chip" data-genre="pop">Pop</button>
+        <button type="button" class="genre-chip" data-genre="punk">Punk</button>
+        <button type="button" class="genre-chip" data-genre="rap,hip hop">Rap / Hip hop</button>
+        <button type="button" class="genre-chip" data-genre="elettronic,electronic,dance,disco,synth,house">Elettronica</button>
+        <button type="button" class="genre-chip" data-genre="italian">Italiana</button>
+      </div>
+      <div class="sort-control">
+        <label for="sort-select">Ordina</label>
+        <select id="sort-select">
+          <option value="default">Data aggiunta</option>
+          <option value="streams">Ascolti Spotify</option>
+          <option value="artist">Artista A-Z</option>
+          <option value="title">Titolo A-Z</option>
+        </select>
+      </div>
     </div>
   </div>
 
