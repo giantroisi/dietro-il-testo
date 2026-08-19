@@ -397,7 +397,8 @@
     :root:not([data-theme="light"]) .meta-row .rank-badge {
       color: color-mix(in srgb, var(--accent) 55%, white 45%);
     }
-    :root:not([data-theme="light"]) .meta-row .artist {
+    :root:not([data-theme="light"]) .meta-row .artist,
+    :root:not([data-theme="light"]) .artist-more a {
       color: color-mix(in srgb, var(--accent-2) 55%, white 45%);
     }
   }
@@ -405,7 +406,8 @@
   :root[data-theme="dark"] .meta-row .rank-badge {
     color: color-mix(in srgb, var(--accent) 55%, white 45%);
   }
-  :root[data-theme="dark"] .meta-row .artist {
+  :root[data-theme="dark"] .meta-row .artist,
+  :root[data-theme="dark"] .artist-more a {
     color: color-mix(in srgb, var(--accent-2) 55%, white 45%);
   }
 
@@ -480,6 +482,18 @@
   }
   .sources a { color: var(--text-muted); }
   .sources a:hover { color: var(--accent-2); }
+
+  .artist-more {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    font-size: 13.5px;
+    line-height: 1.8;
+    color: var(--text-muted);
+  }
+  .artist-more strong { color: var(--text); font-weight: 600; }
+  .artist-more a { color: var(--accent-2); text-decoration: none; }
+  .artist-more a:hover { text-decoration: underline; }
 
   .back-to-index {
     display: inline-block;
@@ -1186,6 +1200,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/In_the_End" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/In_the_End" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/linkin-park/in-the-end" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Linkin Park su questo sito:</strong> <a href="#numb">Numb</a> · <a href="#crawling">Crawling</a> · <a href="#one-step-closer">One Step Closer</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1220,6 +1236,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Billie_Jean" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Billie_Jean" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/michael-jackson/billie-jean" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Michael Jackson su questo sito:</strong> <a href="#thriller">Thriller</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1316,6 +1334,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Enter_Sandman" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Enter_Sandman" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/" target="_blank" rel="noopener">American Songwriter</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Metallica su questo sito:</strong> <a href="#nothing-else-matters">Nothing Else Matters</a> · <a href="#master-of-puppets">Master of Puppets</a> · <a href="#one">One</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1348,6 +1368,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/black-sabbath/paranoid" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Black Sabbath su questo sito:</strong> <a href="#iron-man">Iron Man</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1364,6 +1386,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Nothing_Else_Matters" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Nothing_Else_Matters" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://americansongwriter.com/behind-metallicas-vulnerable-hit-nothing-else-matters/" target="_blank" rel="noopener">American Songwriter</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Metallica su questo sito:</strong> <a href="#enter-sandman">Enter Sandman</a> · <a href="#master-of-puppets">Master of Puppets</a> · <a href="#one">One</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1412,6 +1436,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Wonderwall" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Wonderwall" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/oasis/wonderwall" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Oasis su questo sito:</strong> <a href="#dont-look-back-in-anger">Don't Look Back in Anger</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1444,6 +1470,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Thriller_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Thriller_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/" target="_blank" rel="noopener">Song Meanings and Facts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Michael Jackson su questo sito:</strong> <a href="#billie-jean">Billie Jean</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1587,6 +1615,8 @@
         <a href="https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a>
       </div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/darkside" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1619,6 +1649,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Albachiara" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Albachiara" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.noidegli8090.com/albachiara-compie-41-anni-storia-e-significato-del-brano-di-vasco-rossi/" target="_blank" rel="noopener">Noi degli 80-90</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Vasco Rossi su questo sito:</strong> <a href="#sally">Sally</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1634,6 +1666,8 @@
       </div>
       <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Certe_notti" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Certe_notti" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.ilgiunco.net/2021/08/25/unacanzonealgiorno-26-anni-fa-usciva-certe-notti-di-ligabue/" target="_blank" rel="noopener">Il Giunco</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Ligabue su questo sito:</strong> <a href="#ho-messo-via">Ho messo via</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1724,6 +1758,8 @@
       </div>
       <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Caruso_(brano_musicale)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Caruso_(brano_musicale)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/" target="_blank" rel="noopener">Fanpage</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Lucio Dalla su questo sito:</strong> <a href="#4-marzo-1943">4 marzo 1943</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1769,6 +1805,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/linkin-park/numb" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Linkin Park su questo sito:</strong> <a href="#in-the-end">In the End</a> · <a href="#crawling">Crawling</a> · <a href="#one-step-closer">One Step Closer</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1830,6 +1868,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Basket_Case_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Basket_Case_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/green-day/basket-case" target="_blank" rel="noopener">Songfacts</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Green Day su questo sito:</strong> <a href="#american-idiot">American Idiot</a> · <a href="#boulevard-of-broken-dreams">Boulevard of Broken Dreams</a> · <a href="#21-guns">21 Guns</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1845,6 +1885,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Master_of_Puppets_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Master_of_Puppets_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Metallica su questo sito:</strong> <a href="#enter-sandman">Enter Sandman</a> · <a href="#nothing-else-matters">Nothing Else Matters</a> · <a href="#one">One</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1875,6 +1917,8 @@
       </div>
       <div class="links"><a class="primary" href="https://music.fanpage.it/il-significato-di-sally-canzone-di-vasco-rossi-diventata-un-classico/" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://music.fanpage.it/il-significato-di-sally-canzone-di-vasco-rossi-diventata-un-classico/" target="_blank" rel="noopener">Fanpage</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Vasco Rossi su questo sito:</strong> <a href="#albachiara">Albachiara</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -1890,6 +1934,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Generale_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Generale_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.soundsblog.it/post/generale-francesco-de-gregori-testo-significato-canzone" target="_blank" rel="noopener">Soundsblog</a>, <a href="https://kworb.net/spotify/" target="_blank" rel="noopener">kworb.net (ascolti Spotify)</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Francesco De Gregori su questo sito:</strong> <a href="#rimmel">Rimmel</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2018,6 +2064,8 @@
       </div>
       <div class="links"><a class="primary" href="https://www.soundsblog.it/post/4-marzo-1943-lucio-dalla-testo-significato-canzone-sanremo" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://www.soundsblog.it/post/4-marzo-1943-lucio-dalla-testo-significato-canzone-sanremo" target="_blank" rel="noopener">Soundsblog</a>, <a href="https://www.tag24.it/521864-lucio-dalla-4-marzo-1943-significato-censure" target="_blank" rel="noopener">Tag24</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Lucio Dalla su questo sito:</strong> <a href="#caruso">Caruso</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2046,6 +2094,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Iron_Man_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Iron_Man_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/black-sabbath/iron-man" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Black Sabbath su questo sito:</strong> <a href="#paranoid">Paranoid</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2074,6 +2124,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Rimmel_(album)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Rimmel_(album)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.rockol.it/news-696003/francesco-de-gregori-la-storia-di-rimmel" target="_blank" rel="noopener">Rockol</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Francesco De Gregori su questo sito:</strong> <a href="#generale">Generale</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2370,6 +2422,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Can_You_Feel_My_Heart" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Can_You_Feel_My_Heart" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/can-you-feel-my-heart" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2384,6 +2438,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Drown_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Drown_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://songtell.com/bring-me-the-horizon/drown" target="_blank" rel="noopener">Songtell</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2398,6 +2454,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Throne_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Throne_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/throne" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.songtell.com/bring-me-the-horizon/throne" target="_blank" rel="noopener">Songtell</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2412,6 +2470,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/mantra" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra" target="_blank" rel="noopener">Louder</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2426,6 +2486,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/sleepwalking" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2440,6 +2502,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Antivist" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Antivist" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://helpmeiaminhell.fandom.com/wiki/Antivist" target="_blank" rel="noopener">Help Me I Am In Hell Wiki</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2454,6 +2518,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Chelsea_Smile_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Chelsea_Smile_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songtell.com/bring-me-the-horizon/chelsea-smile" target="_blank" rel="noopener">Songtell</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2468,6 +2534,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/doomed" target="_blank" rel="noopener">Songfacts</a>, <a href="https://songtell.com/bring-me-the-horizon/doomed" target="_blank" rel="noopener">Songtell</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2482,6 +2550,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.musicianwages.com/the-meaning-behind-the-song-follow-you-by-bring-me-the-horizon/" target="_blank" rel="noopener">Musician Wages</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2496,6 +2566,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Parasite_Eve_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Parasite_Eve_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/parasite-eve" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2510,6 +2582,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Lost_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Lost_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.loudersound.com/reviews/bring-me-the-horizon-post-human-nex-gen" target="_blank" rel="noopener">Louder</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2524,6 +2598,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Die4U" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Die4U" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/die4u" target="_blank" rel="noopener">Songfacts</a>, <a href="https://loudwire.com/bring-me-the-horizon-new-song-die4u-video-lyrics/" target="_blank" rel="noopener">Loudwire</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2580,6 +2656,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Shadow_Moses_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Shadow_Moses_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/shadow-moses" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2594,6 +2672,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Wonderful_Life_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Wonderful_Life_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/wonderful-life" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.therockpit.net/2018/bring-me-the-horizon-announce-new-single-wonderful-life-featuring-dani-filth/" target="_blank" rel="noopener">The Rockpit</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#nihilist-blues">Nihilist Blues</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2608,6 +2688,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Nihilist_Blues" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Nihilist_Blues" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/nihilist-blues" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.songtell.com/bring-me-the-horizon-ft-grimes/nihilist-blues" target="_blank" rel="noopener">Songtell</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#happy-song">Happy Song</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2622,6 +2704,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/One_(Metallica_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/One_(Metallica_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/metallica/one" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.loudersound.com/features/the-real-story-behind-one-by-metallica" target="_blank" rel="noopener">Louder</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Metallica su questo sito:</strong> <a href="#enter-sandman">Enter Sandman</a> · <a href="#nothing-else-matters">Nothing Else Matters</a> · <a href="#master-of-puppets">Master of Puppets</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2706,6 +2790,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/American_Idiot_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/American_Idiot_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/green-day/american-idiot" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/meaning-american-idiot-green-day-song-lyrics/" target="_blank" rel="noopener">American Songwriter</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Green Day su questo sito:</strong> <a href="#basket-case">Basket Case</a> · <a href="#boulevard-of-broken-dreams">Boulevard of Broken Dreams</a> · <a href="#21-guns">21 Guns</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2720,6 +2806,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams" target="_blank" rel="noopener">Songfacts</a>, <a href="https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/" target="_blank" rel="noopener">Extra Chill</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Green Day su questo sito:</strong> <a href="#basket-case">Basket Case</a> · <a href="#american-idiot">American Idiot</a> · <a href="#21-guns">21 Guns</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2734,6 +2822,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Fat_Lip" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Fat_Lip" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/sum-41/fat-lip" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.musicianwages.com/the-meaning-behind-the-song-fat-lip-by-sum-41/" target="_blank" rel="noopener">Musician Wages</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Sum 41 su questo sito:</strong> <a href="#in-too-deep">In Too Deep</a> · <a href="#still-waiting">Still Waiting</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2748,6 +2838,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/In_Too_Deep_(Sum_41_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/In_Too_Deep_(Sum_41_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/sum-41/in-too-deep" target="_blank" rel="noopener">Songfacts</a>, <a href="https://extrachill.com/the-meaning-of-sum-41s-in-too-deep/" target="_blank" rel="noopener">Extra Chill</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Sum 41 su questo sito:</strong> <a href="#fat-lip">Fat Lip</a> · <a href="#still-waiting">Still Waiting</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2762,6 +2854,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Crawling_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Crawling_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/linkin-park/crawling" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Linkin Park su questo sito:</strong> <a href="#in-the-end">In the End</a> · <a href="#numb">Numb</a> · <a href="#one-step-closer">One Step Closer</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2776,6 +2870,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/linkin-park/one-step-closer" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Linkin Park su questo sito:</strong> <a href="#in-the-end">In the End</a> · <a href="#numb">Numb</a> · <a href="#crawling">Crawling</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2790,6 +2886,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Uprising_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Uprising_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/muse/uprising" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Muse su questo sito:</strong> <a href="#starlight">Starlight</a> · <a href="#supermassive-black-hole">Supermassive Black Hole</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2804,6 +2902,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Starlight_(Muse_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Starlight_(Muse_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.radiox.co.uk/artists/muse/starlight-meaning-lyrics-story/" target="_blank" rel="noopener">Radio X</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Muse su questo sito:</strong> <a href="#uprising">Uprising</a> · <a href="#supermassive-black-hole">Supermassive Black Hole</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2818,6 +2918,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/All_the_Small_Things" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/All_the_Small_Things" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/blink-182/all-the-small-things" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/" target="_blank" rel="noopener">American Songwriter</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Blink-182 su questo sito:</strong> <a href="#i-miss-you">I Miss You</a> · <a href="#whats-my-age-again">What's My Age Again?</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2832,6 +2934,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/I_Miss_You_(Blink-182_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/I_Miss_You_(Blink-182_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/blink-182/i-miss-you" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Blink-182 su questo sito:</strong> <a href="#all-the-small-things">All the Small Things</a> · <a href="#whats-my-age-again">What's My Age Again?</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2860,6 +2964,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/sum-41/still-waiting" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.altpress.com/sum-41-still-waiting-oral-history/" target="_blank" rel="noopener">Alternative Press</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Sum 41 su questo sito:</strong> <a href="#fat-lip">Fat Lip</a> · <a href="#in-too-deep">In Too Deep</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2874,6 +2980,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/What%27s_My_Age_Again%3F" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/What%27s_My_Age_Again%3F" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/blink-182/whats-my-age-again" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Blink-182 su questo sito:</strong> <a href="#all-the-small-things">All the Small Things</a> · <a href="#i-miss-you">I Miss You</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2888,6 +2996,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/bring-me-the-horizon/happy-song" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Bring Me the Horizon su questo sito:</strong> <a href="#darkside">Darkside</a> · <a href="#can-you-feel-my-heart">Can You Feel My Heart</a> · <a href="#drown">Drown</a> · <a href="#throne">Throne</a> · <a href="#mantra">MANTRA</a> · <a href="#sleepwalking">Sleepwalking</a> · <a href="#antivist">Antivist</a> · <a href="#chelsea-smile">Chelsea Smile</a> · <a href="#doomed">Doomed</a> · <a href="#follow-you">Follow You</a> · <a href="#parasite-eve">Parasite Eve</a> · <a href="#lost">Lost</a> · <a href="#die4u">Die4U</a> · <a href="#shadow-moses">Shadow Moses</a> · <a href="#wonderful-life">Wonderful Life</a> · <a href="#nihilist-blues">Nihilist Blues</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -2902,6 +3012,8 @@
       </div>
       <div class="links"><a class="primary" href="https://it.wikipedia.org/wiki/Ho_messo_via" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://it.wikipedia.org/wiki/Ho_messo_via" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.ilpitagora.it/canzone/ho-messo-via-ligabue/204/" target="_blank" rel="noopener">Il Pitagora</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Ligabue su questo sito:</strong> <a href="#certe-notti">Certe notti</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -3056,6 +3168,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/21_Guns_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/21_Guns_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/green-day/21-guns" target="_blank" rel="noopener">Songfacts</a>, <a href="https://americansongwriter.com/the-story-behind-21-guns-by-green-day/" target="_blank" rel="noopener">American Songwriter</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Green Day su questo sito:</strong> <a href="#basket-case">Basket Case</a> · <a href="#american-idiot">American Idiot</a> · <a href="#boulevard-of-broken-dreams">Boulevard of Broken Dreams</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -3140,6 +3254,8 @@
       </div>
       <div class="links"><a class="primary" href="https://en.wikipedia.org/wiki/Supermassive_Black_Hole_(song)" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://en.wikipedia.org/wiki/Supermassive_Black_Hole_(song)" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.songfacts.com/facts/muse/supermassive-black-hole" target="_blank" rel="noopener">Songfacts</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Muse su questo sito:</strong> <a href="#uprising">Uprising</a> · <a href="#starlight">Starlight</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
@@ -3154,6 +3270,8 @@
       </div>
       <div class="links"><a class="primary" href="https://www.songfacts.com/facts/oasis/dont-look-back-in-anger" target="_blank" rel="noopener">Leggi il testo (fonte esterna)</a></div>
       <p class="sources">Fonti: <a href="https://www.songfacts.com/facts/oasis/dont-look-back-in-anger" target="_blank" rel="noopener">Songfacts</a>, <a href="https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/" target="_blank" rel="noopener">Radio X</a></p>
+
+      <div class="artist-more"><strong>Altri brani di Oasis su questo sito:</strong> <a href="#wonderwall">Wonderwall</a></div>
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
