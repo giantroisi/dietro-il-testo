@@ -69,7 +69,7 @@
   }
 
   header.hero {
-    padding: 76px 0 44px;
+    padding: 56px 0 40px;
     position: relative;
   }
 
@@ -102,81 +102,6 @@
   :root[data-theme="light"] .theme-toggle .icon-sun { display: none; }
   :root[data-theme="light"] .theme-toggle .icon-moon { display: block; }
 
-  .intro-hero {
-    position: relative;
-    height: 100vh;
-    height: 100svh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: var(--bg);
-    overflow: hidden;
-    transition: background 0.2s;
-  }
-
-  .intro-hero .site-logo {
-    width: 82%;
-    height: 82%;
-    max-width: none;
-    object-fit: contain;
-    margin: 0;
-    border-radius: 0;
-    box-shadow: none;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .intro-hero .site-logo { filter: invert(1); }
-  }
-  :root[data-theme="dark"] .intro-hero .site-logo { filter: invert(1); }
-
-  .intro-tag {
-    position: absolute;
-    left: 50%;
-    bottom: 90px;
-    transform: translateX(-50%);
-    width: 100%;
-    padding: 0 24px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin: 0;
-    z-index: 2;
-  }
-
-  .scroll-cue {
-    position: absolute;
-    left: 50%;
-    bottom: 34px;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    color: var(--text-muted);
-    text-decoration: none;
-    font-family: var(--font-mono);
-    font-size: 11px;
-    z-index: 2;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-  }
-
-  .scroll-cue svg {
-    animation: scroll-bounce 1.8s ease-in-out infinite;
-  }
-
-  @keyframes scroll-bounce {
-    0%, 100% { transform: translateY(0); opacity: 0.55; }
-    50% { transform: translateY(7px); opacity: 1; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .scroll-cue svg { animation: none; }
-  }
-
   .eyebrow {
     font-family: var(--font-mono);
     font-size: 12px;
@@ -189,12 +114,14 @@
   .site-logo {
     display: block;
     width: 100%;
-    max-width: 460px;
+    max-width: 240px;
     height: auto;
-    border-radius: 14px;
-    margin: 0 0 24px;
-    box-shadow: 0 10px 30px rgba(20,15,30,0.18);
+    margin: 0 0 26px;
   }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .site-logo { filter: invert(1); }
+  }
+  :root[data-theme="dark"] .site-logo { filter: invert(1); }
 
   .visually-hidden {
     position: absolute;
@@ -509,19 +436,11 @@
   <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
 </button>
 
-<section class="intro-hero">
-  <img class="site-logo" src="logo.png" alt="Dietro il testo" width="1061" height="245">
-  <h1 class="visually-hidden">Dietro il testo</h1>
-  <p class="intro-tag">Contesto, genesi e fonti verificate — senza mai riprodurre i testi</p>
-  <a class="scroll-cue" href="#content-start">
-    Scorri
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
-  </a>
-</section>
-
 <div class="page">
 
-  <header class="hero" id="content-start">
+  <header class="hero">
+    <img class="site-logo" src="logo.png" alt="Dietro il testo" width="1061" height="245">
+    <h1 class="visually-hidden">Dietro il testo</h1>
     <p class="eyebrow">138 canzoni reali · cerca o filtra per genere qui sotto</p>
     <p class="lede">Un archivio di schede su canzoni reali, per capire cosa c'è dietro ogni brano: chi l'ha scritto, in che contesto, cosa significa davvero. Ogni scheda è scritta con parole nostre e verificata su fonti pubbliche, mai copiando i testi originali delle canzoni: per ascoltarli o leggerli per intero, ogni scheda rimanda a Spotify o Wikipedia.</p>
   </header>
