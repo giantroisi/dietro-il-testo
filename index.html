@@ -553,6 +553,12 @@
         <button type="button" class="genre-chip" data-genre="italian">Italiana</button>
       </div>
       <div class="sort-control">
+        <label for="artist-select">Artista</label>
+        <select id="artist-select">
+          <option value="">Tutti</option>
+        </select>
+      </div>
+      <div class="sort-control">
         <label for="sort-select">Ordina</label>
         <select id="sort-select">
           <option value="default">Data aggiunta</option>
@@ -3333,6 +3339,21 @@
       };
     });
 
+    var artistSelect = document.getElementById('artist-select');
+    if (artistSelect) {
+      var artists = [];
+      cardEntries.forEach(function (entry) {
+        if (entry.artist && artists.indexOf(entry.artist) === -1) artists.push(entry.artist);
+      });
+      artists.sort(function (a, b) { return a.localeCompare(b, 'it'); });
+      artists.forEach(function (name) {
+        var opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = name;
+        artistSelect.appendChild(opt);
+      });
+    }
+
     function updateFirstVisibleSection() {
       var prevFirst = mainEl && mainEl.querySelector('section.song.is-first-visible');
       if (prevFirst) prevFirst.classList.remove('is-first-visible');
@@ -3346,17 +3367,19 @@
     function runSearch() {
       var query = searchInput.value.trim().toLowerCase();
       var keywords = activeChip ? activeChip.getAttribute('data-genre').split(',') : null;
+      var artistFilter = artistSelect ? artistSelect.value : '';
       var visible = 0;
       cardEntries.forEach(function (entry) {
         var matchesQuery = query === '' || entry.haystack.indexOf(query) !== -1;
         var matchesGenre = !keywords || keywords.some(function (kw) { return entry.haystack.indexOf(kw) !== -1; });
-        var match = matchesQuery && matchesGenre;
+        var matchesArtist = artistFilter === '' || entry.artist === artistFilter;
+        var match = matchesQuery && matchesGenre && matchesArtist;
         entry.card.classList.toggle('is-hidden', !match);
         if (entry.section) entry.section.classList.toggle('is-hidden', !match);
         if (match) visible++;
       });
       updateFirstVisibleSection();
-      if (query === '' && !activeChip) {
+      if (query === '' && !activeChip && !artistFilter) {
         searchCount.textContent = '';
       } else if (visible === 0) {
         searchCount.textContent = query === '' ? 'Nessun risultato' : 'Nessun risultato per "' + searchInput.value.trim() + '"';
@@ -3368,6 +3391,10 @@
 
     if (searchInput) {
       searchInput.addEventListener('input', runSearch);
+    }
+
+    if (artistSelect) {
+      artistSelect.addEventListener('change', runSearch);
     }
 
     genreChips.forEach(function (chip) {
