@@ -300,13 +300,30 @@
     padding-top: 16px;
     border-top: 1px solid var(--border);
   }
-  .artist-bio ul { margin: 0; padding: 0; list-style: none; }
+  .artist-bio ul {
+    margin: 0;
+    padding: 0 8px 0 0;
+    list-style: none;
+    max-height: 380px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-2) transparent;
+  }
+  .artist-bio ul::-webkit-scrollbar { width: 6px; }
+  .artist-bio ul::-webkit-scrollbar-thumb { background: var(--accent-2); border-radius: 3px; }
   .artist-bio li {
-    margin: 0 0 10px;
+    margin: 0 0 12px;
     padding-left: 18px;
     position: relative;
   }
   .artist-bio li:last-child { margin-bottom: 0; }
+  .artist-bio .cover-note {
+    display: block;
+    margin-top: 5px;
+    font-size: 12.5px;
+    font-style: italic;
+    opacity: 0.85;
+  }
   .artist-bio li::before {
     content: '♫';
     position: absolute;
@@ -3421,111 +3438,259 @@
       'Bring Me the Horizon': {
         story: `Formatasi a Sheffield nel 2004 attorno al cantante Oliver Sykes, ha attraversato una delle evoluzioni sonore più radicali della musica rock contemporanea: dal deathcore aggressivo del debutto "Count Your Blessings" (2006) a un rock sempre più melodico ed elettronico. La formazione storica — Sykes, il chitarrista Lee Malia, il bassista Matt Kean e il batterista Matt Nicholls — è rimasta stabile dal 2004, mentre il tastierista Jordan Fish, entrato nel 2012, ha lasciato la band nel dicembre 2023.`,
         albums: [
-          ['Sempiternal', '2013', 'primo album per una major, oro in Australia e argento nel Regno Unito'],
-          ['Amo', '2019', 'primo numero 1 della band nella classifica britannica, candidato al Grammy per Best Rock Album'],
-          ['4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band']
+          [`Count Your Blessings`, `2006`, `album di debutto, certificato argento nel Regno Unito`],
+          [`Suicide Season`, `2008`, `certificato argento nel Regno Unito`],
+          [`There Is a Hell Believe Me I've Seen It. There Is a Heaven Let's Keep It a Secret.`, `2010`, `certificato oro nel Regno Unito`],
+          [`Sempiternal`, `2013`, `primo album per una major, certificato platino nel Regno Unito e in Australia, oro negli USA`, `La copertina, disegnata dal cantante Oli Sykes, riprende il "Fiore della Vita", un antico simbolo geometrico legato a eternità e interconnessione — in linea col titolo dell'album.`],
+          [`That's the Spirit`, `2015`, `certificato platino nel Regno Unito e in Australia, oro negli USA e in diversi paesi europei`, `Sykes ha descritto il concept dell'album attingendo alla psicologia junghiana dell'"ombra" — la parte di sé che si preferirebbe non riconoscere — proponendo l'opera come una celebrazione del lato oscuro invece che la sua negazione.`],
+          [`Amo`, `2019`, `primo numero 1 della band nella classifica britannica, candidato al Grammy per Best Rock Album`],
+          [`Post Human: Nex Gen`, `2024`, `certificato oro nel Regno Unito, in Australia e in Brasile`],
+          [`4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band`]
         ]
       },
       'Linkin Park': {
         story: `Formati ad Agoura Hills, in California, nel 1996 da un gruppo di amici di scuola superiore (Mike Shinoda, Brad Delson, Rob Bourdon, a cui si unirono Joe Hahn e Dave "Phoenix" Farrell), trovarono la voce che li avrebbe resi celebri nel 1999, quando reclutarono Chester Bennington. Con oltre 100 milioni di dischi venduti, sono stati una delle band più importanti degli anni 2000, prima che la morte di Bennington, il 20 luglio 2017, portasse a una lunga pausa. Nel 2024 la band è tornata con una nuova cantante, Emily Armstrong, e un nuovo batterista, Colin Brittain.`,
         albums: [
-          ['Hybrid Theory', '2000', 'certificato Diamond RIAA (11+ milioni di copie negli USA), candidato al Grammy per Best Rock Album'],
-          ['Il singolo "Crawling" ha vinto il Grammy per Best Hard Rock Performance nel 2002'],
-          ['Oltre 100 milioni di dischi venduti nel mondo']
+          [`Hybrid Theory`, `2000`, `certificato Diamond RIAA (11+ milioni di copie negli USA), Grammy Best Hard Rock Performance per "Crawling" nel 2002, album più venduto negli USA nel 2001`, `Il soldato alato in stile stencil fu disegnato da Mike Shinoda e realizzato da Frank Maddocks, ispirato all'arte da graffiti in stile Banksy; le ali di libellula, sovrapposte digitalmente, rappresentano la fusione di elementi duri e morbidi del disco, come spiegato da Chester Bennington.`],
+          [`Meteora`, `2003`, `certificato 8x Platino RIAA, debuttò al numero 1 della Billboard 200`],
+          [`Minutes to Midnight`, `2007`, `certificato 5x Platino RIAA, debuttò al numero 1 con le vendite di apertura più alte del 2007`],
+          [`A Thousand Suns`, `2010`, `certificato Platino RIAA, debuttò al numero 1 della Billboard 200`],
+          [`Living Things`, `2012`, `certificato Platino RIAA, debuttò al numero 1 della Billboard 200`],
+          [`The Hunting Party`, `2014`, `certificato Platino RIAA`],
+          [`One More Light`, `2017`, `certificato Oro RIAA, sesto album della band a debuttare al numero 1; ultimo pubblicato con Chester Bennington`],
+          [`From Zero`, `2024`, `certificato 2x Platino in Francia e 3x Platino in Brasile, debuttò al numero 1 in oltre 14 paesi`],
+          [`Oltre 100 milioni di dischi venduti nel mondo nel corso della carriera`]
         ]
       },
       'Metallica': {
         story: `Fondati a Los Angeles nell'ottobre 1981 dal chitarrista James Hetfield e dal batterista danese Lars Ulrich, dopo che quest'ultimo aveva pubblicato un annuncio su un giornale in cerca di musicisti metal. Insieme al chitarrista Kirk Hammett e al bassista Robert Trujillo, entrati rispettivamente nel 1983 e nel 2003, formano da decenni una delle formazioni più stabili e influenti della storia dell'heavy metal, considerati tra i fondatori del thrash metal insieme a Megadeth, Slayer e Anthrax.`,
         albums: [
-          ['Master of Puppets', '1986', 'certificato 6x Platino, considerato il loro capolavoro dalla critica'],
-          ['Metallica ("Black Album")', '1991', 'certificato 2x Diamond RIAA, oltre 20 milioni di copie negli USA, vincitore del Grammy Best Metal Performance nel 1992'],
-          ['9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo']
+          [`Kill 'Em All`, `1983`, `certificato 3x Platino RIAA`],
+          [`Ride the Lightning`, `1984`, `certificato 6x Platino RIAA`],
+          [`Master of Puppets`, `1986`, `certificato 8x Platino RIAA, inserito nel National Recording Registry della Biblioteca del Congresso USA nel 2016`, `Basata su uno schizzo di James Hetfield e dipinta dall'illustratore Don Brautigam, raffigura file di lapidi controllate da fili manovrati da un burattinaio nel cielo, a rappresentare i temi di dipendenza e manipolazione dell'album.`],
+          [`...And Justice for All`, `1988`, `certificato 8x Platino RIAA`],
+          [`Metallica ("Black Album")`, `1991`, `certificato 2x Diamond RIAA, oltre 20 milioni di copie negli USA, Grammy Best Metal Performance nel 1992, debuttò al numero 1`, `Il design minimalista fu voluto da Lars Ulrich, stanco della somiglianza tra le copertine metal dell'epoca; il serpente arrotolato richiama la bandiera "Don't Tread on Me" del 1776, in linea col messaggio di sfida dell'album, come spiegato da Hetfield.`],
+          [`Load`, `1996`, `certificato 5x Platino RIAA, debuttò al numero 1`],
+          [`Reload`, `1997`, `certificato 4x Platino RIAA, debuttò al numero 1`],
+          [`St. Anger`, `2003`, `certificato 2x Platino RIAA; la title track vinse il Grammy Best Metal Performance nonostante l'accoglienza critica controversa dell'album`],
+          [`Death Magnetic`, `2008`, `certificato 2x Platino RIAA, tre Grammy legati all'album, incluso Best Metal Performance`],
+          [`Hardwired... to Self-Destruct`, `2016`, `certificato Platino RIAA, debuttò al numero 1, candidato al Grammy per Best Rock Song`],
+          [`72 Seasons`, `2023`, `primo album della band dal 1988 a non debuttare al numero 1 della Billboard 200 (arrivò secondo)`],
+          [`9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo`]
         ]
       },
       'Green Day': {
         story: `Nati come Sweet Children nel 1986-87 a Rodeo, in California, per iniziativa dei quattordicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena punk della Gilman Street di Berkeley. Presero il nome definitivo nel 1989 e, con l'arrivo del batterista Tré Cool nel 1990, completarono la formazione che li avrebbe portati al successo mondiale con "Dookie" (1994) e, un decennio dopo, con il concept album "American Idiot" (2004).`,
         albums: [
-          ['Dookie', '1994', 'certificato Double Diamond RIAA nel 2024 (20+ milioni negli USA), vincitore del Grammy Best Alternative Music Album'],
-          ['American Idiot', '2004', 'certificato 6x Platino, vincitore del Grammy Best Rock Album; il singolo "Boulevard of Broken Dreams" ha vinto il Grammy Record of the Year'],
-          ['5 Grammy Awards vinti in carriera']
+          [`39/Smooth`, `1990`, `album di debutto ufficiale`],
+          [`Kerplunk`, `1991`, `certificato Platino RIAA`],
+          [`Dookie`, `1994`, `certificato Double Diamond RIAA nel 2024 (20+ milioni negli USA), Grammy Best Alternative Music Album 1995`, `Illustrata dall'artista punk Richie Bucher, ambientata su Telegraph Avenue a Berkeley: raffigura cani e scimmie che lanciano escrementi sulla folla, ispirata ai fumetti "Fabulous Furry Freak Brothers" e alla copertina "Shakedown Street" dei Grateful Dead, piena di riferimenti a personaggi locali di Berkeley.`],
+          [`Insomniac`, `1995`, `certificato 2x Platino RIAA`],
+          [`Nimrod`, `1997`, `certificato 2x Platino RIAA`],
+          [`Warning`, `2000`, `certificato Oro RIAA`],
+          [`American Idiot`, `2004`, `certificato 6x Platino RIAA, Grammy Best Rock Album 2005; il singolo "Boulevard of Broken Dreams" vinse il Grammy Record of the Year`, `Il designer Chris Bilheimer creò la granata a forma di cuore dopo aver ascoltato il verso "she's holding on my heart like a hand grenade" (da "She's a Rebel"), ispirandosi al poster di Saul Bass per "L'uomo dal braccio d'oro"; la band citò come influenza anche la propaganda comunista cinese.`],
+          [`21st Century Breakdown`, `2009`, `certificato Platino RIAA, Grammy Best Rock Album 2010`],
+          [`¡Uno!`, `2012`, `primo dei tre album della trilogia, primo della band a non ottenere certificazioni RIAA`],
+          [`¡Dos!`, `2012`],
+          [`¡Tré!`, `2012`],
+          [`Revolution Radio`, `2016`, `debuttò al numero 1 della Billboard 200, certificato oro nel Regno Unito e in Italia`],
+          [`Father of All Motherfuckers`, `2020`, `debuttò al numero 1 nel Regno Unito e in Australia`],
+          [`Saviors`, `2024`, `certificato argento nel Regno Unito, candidato al Grammy Best Rock Album 2025, prima candidatura della band in oltre un decennio`],
+          [`5 Grammy Awards vinti in carriera`]
         ]
       },
       'Sum 41': {
         story: `Formatisi ad Ajax, in Ontario, nel 1996 — il nome deriva dal 41° giorno di quell'estate — attorno al cantante e chitarrista Deryck Whibley, arrivarono al successo con l'album d'esordio "All Killer No Filler" (2001), diventando una delle band di punta del pop punk nordamericano dei primi anni 2000. Nel 2023 la band ha annunciato lo scioglimento, concludendo l'attività l'anno successivo dopo un ultimo album e un tour d'addio.`,
         albums: [
-          ['All Killer No Filler', '2001', 'certificato platino negli USA e Regno Unito, triplo platino in Canada'],
-          ['Chuck', '2004', 'vincitore del Juno Award Rock Album of the Year nel 2005'],
-          ['Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature']
+          [`All Killer No Filler`, `2001`, `certificato platino RIAA, 3x platino in Canada, 2x platino nel Regno Unito`],
+          [`Does This Look Infected?`, `2002`, `certificato oro RIAA, platino in Canada e Giappone`],
+          [`Chuck`, `2004`, `certificato oro RIAA, 2x platino in Canada, vincitore del Juno Award Rock Album of the Year 2005`, `Il titolo omaggia Chuck Pelletier, ufficiale di pace ONU che aiutò a evacuare la band durante scontri armati nella Repubblica Democratica del Congo; la copertina raffigura caccia bombardieri che sganciano televisori su dei bambini, metafora del "bombardamento" mediatico sull'infanzia.`],
+          [`Underclass Hero`, `2007`, `debuttò al numero 1 in Canada, prima volta per la band; oro in Canada e Giappone`],
+          [`Screaming Bloody Murder`, `2011`, `candidato al Grammy Best Hard Rock/Metal Performance per "Blood in My Eyes"`],
+          [`13 Voices`, `2016`, `certificato oro IMPALA in Europa`],
+          [`Order in Decline`, `2019`],
+          [`Heaven :x: Hell`, `2024`, `ultimo album in studio della band, sciolta nel 2024; il singolo "Landmines" diede alla band il primo numero 1 nella classifica Alternative Airplay in oltre vent'anni`],
+          [`Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature in carriera`]
         ]
       },
       'Muse': {
         story: `Formati nella cittadina di Teignmouth, nel Devon, dai compagni di scuola Matt Bellamy, Chris Wolstenholme e Dominic Howard, che a metà degli anni '90 suonavano insieme sotto vari nomi prima di scegliere "Muse" nel 1994. Rimasta invariata per oltre trent'anni, la formazione è nota per uno stile che fonde rock alternativo, elementi progressive e sonorità elettroniche.`,
         albums: [
-          ['Black Holes and Revelations', '2006', 'certificato platino negli USA, candidato al Mercury Prize'],
-          ['The Resistance', '2009', 'vincitore del Grammy Best Rock Album nel 2011'],
-          ['Drones', '2015', 'primo album della band al numero 1 negli USA, vincitore del Grammy Best Rock Album nel 2016']
+          [`Showbiz`, `1999`, `certificato platino nel Regno Unito (BPI)`],
+          [`Origin of Symmetry`, `2001`, `certificato 2x platino nel Regno Unito (BPI)`],
+          [`Absolution`, `2003`, `primo numero 1 della band nel Regno Unito, certificato 3x platino nel Regno Unito e platino RIAA`],
+          [`Black Holes and Revelations`, `2006`, `certificato 4x platino nel Regno Unito e platino RIAA`, `Disegnata da Storm Thorgerson (celebre per "The Dark Side of the Moon" dei Pink Floyd), reimmagina i quattro cavalieri dell'Apocalisse come mali moderni — paranoia, intolleranza, narcisismo e avidità — seduti su Marte a osservare la Terra.`],
+          [`The Resistance`, `2009`, `certificato 2x platino nel Regno Unito e platino RIAA, Grammy Best Rock Album 2011`, `Disegnata da Scott Bendall (studio La Boca), ispirata al lavoro dell'illustratore spaziale Jon Lomberg: raffigura una figura solitaria in un caleidoscopio di esagoni che osserva la Terra dallo spazio, a evocare il senso della vita e i temi politico-fantascientifici dell'album; ha vinto il Best Art Vinyl 2010.`],
+          [`The 2nd Law`, `2012`, `certificato platino nel Regno Unito e oro RIAA`],
+          [`Drones`, `2015`, `primo numero 1 della band negli USA, certificato oro nel Regno Unito, Grammy Best Rock Album 2016`, `Illustrata da Matt Mahurin, raffigura il percorso di un essere umano da abbandonato a "drone umano" indottrinato e infine disertore, riferendosi anche al programma di droni militari dell'era Obama, come spiegato da Matt Bellamy.`],
+          [`Simulation Theory`, `2018`, `debuttò al numero 1 nel Regno Unito`],
+          [`Will of the People`, `2022`, `debuttò al numero 1 nel Regno Unito, certificato oro (BPI)`],
+          [`The Wow! Signal`, `2026`, `ottavo numero 1 consecutivo nel Regno Unito, record di gruppo pari a quello di ABBA e Led Zeppelin`]
         ]
       },
       'Blink-182': {
         story: `Nati a Poway, vicino San Diego, nel 1992 dall'incontro tra Tom DeLonge e Mark Hoppus: con il batterista Scott Raynor formavano il trio che avrebbe reinventato il pop punk americano. Raynor fu sostituito nel 1998 da Travis Barker, completando la formazione che con "Enema of the State" (1999) portò il genere al successo mainstream.`,
         albums: [
-          ['Dude Ranch', '1997', 'primo ingresso in classifica della band'],
-          ['Enema of the State', '1999', `certificato 5x Platino, contiene "What's My Age Again?", "All the Small Things" e "Adam's Song"`]
+          [`Cheshire Cat`, `1995`, `certificato argento nel Regno Unito (BPI)`],
+          [`Dude Ranch`, `1997`, `certificato platino RIAA, platino ARIA, oro BPI, 2x platino in Canada`, `Collage dell'artista Lou Beach: un toro marchiato col nome della band, con immagini a tema cowboy che citano ironicamente sia le cartoline kitsch sia la copertina di "Greetings from Asbury Park, N.J." di Bruce Springsteen.`],
+          [`Enema of the State`, `1999`, `certificato 5x Platino RIAA, circa 15 milioni di copie vendute nel mondo, il loro album di maggior successo; contiene "What's My Age Again?", "All the Small Things" e "Adam's Song"`, `Concept del fotografo David Goldman con la modella e infermiera Janine Lindemulder; Mark Hoppus dichiarò a CMJ New Music Monthly di aver voluto "un'infermiera sexy" in copertina. La croce rossa dovette essere modificata digitalmente dopo le proteste della Croce Rossa Americana.`],
+          [`Take Off Your Pants and Jacket`, `2001`, `debuttò al numero 1 negli USA, certificato 2x platino RIAA`],
+          [`Blink-182`, `2003`, `certificato platino RIAA, 2x platino ARIA`],
+          [`Neighborhoods`, `2011`, `certificato oro ARIA e oro BPI`],
+          [`California`, `2016`, `primo numero 1 della band nel Regno Unito, certificato oro RIAA`],
+          [`Nine`, `2019`],
+          [`One More Time...`, `2023`, `debuttò al numero 1 negli USA, certificato argento BPI, oro in Canada`]
         ]
       },
       'Michael Jackson': {
         story: `Nato a Gary, in Indiana, nel 1958, esordì giovanissimo come voce solista dei Jackson 5, il gruppo familiare che negli anni '70 conquistò le classifiche Motown. Da solista, la collaborazione con il produttore Quincy Jones a partire da "Off the Wall" (1979) lo consacrò come "King of Pop", ruolo che ha mantenuto fino alla morte nel 2009.`,
         albums: [
-          ['Off the Wall', '1979', 'certificato Diamond RIAA, oltre 20 milioni di copie nel mondo'],
-          ['Thriller', '1982', `l'album più venduto della storia (~66 milioni nel mondo), 33x Platino RIAA, 8 Grammy vinti nel 1984 incluso Album of the Year`],
-          ['Bad', '1987', 'certificato Diamond RIAA']
+          [`Got to Be There`, `1972`, `certificato oro RIAA`],
+          [`Ben`, `1972`, `il brano omonimo fu il suo primo numero 1 da solista nella Billboard Hot 100`],
+          [`Music & Me`, `1973`],
+          [`Forever, Michael`, `1975`],
+          [`Off the Wall`, `1979`, `certificato Diamond RIAA, oltre 20 milioni di copie nel mondo, un solo Grammy vinto nonostante l'acclamazione della critica`, `Diretta creativamente da Mike Salisbury e fotografata da Stephen Harvey su un muro di Beverly Boulevard a Los Angeles; Jackson indossa uno smoking di taglio femminile adattato a lui e mocassini ispirati a Gene Kelly in "Un americano a Parigi", per segnare la transizione verso un'immagine più adulta e sofisticata.`],
+          [`Thriller`, `1982`, `l'album più venduto della storia (circa 66-70 milioni di copie nel mondo), 33x Platino RIAA, 8 Grammy vinti nel 1984 incluso Album of the Year`, `Scattata dal fotografo Dick Zimmerman: il celebre completo bianco non era previsto, ma apparteneva allo stesso fotografo — Jackson lo notò e chiese di indossarlo dopo essere rimasto insoddisfatto degli abiti preparati.`],
+          [`Bad`, `1987`, `certificato Diamond RIAA, cinque singoli numero 1, record ancora imbattuto per un solo album`],
+          [`Dangerous`, `1991`, `certificato 8x platino RIAA`],
+          [`HIStory: Past, Present and Future, Book I`, `1995`, `certificato 8x platino RIAA (doppio disco: uno di inediti, uno di greatest hits)`],
+          [`Invincible`, `2001`, `certificato 2x platino RIAA`]
         ]
       },
       'Black Sabbath': {
         story: `Formati a Birmingham nel 1968 da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, presero il nome nel 1969 ispirandosi a un film horror di Boris Karloff. Con testi ispirati all'occulto e un suono pesante dalle accordature ribassate, sono considerati tra i principali fondatori dell'heavy metal; Iommi è rimasto l'unico membro costante nonostante i numerosi cambi di formazione nel corso dei decenni.`,
         albums: [
-          ['Paranoid', '1970', 'oltre 35 milioni di copie vendute nel mondo, certificazioni multi-platino in diversi paesi'],
-          ['Master of Reality', '1971', 'certificato doppio platino, loro unico Top 10 USA per 42 anni'],
-          ['2 Grammy Awards vinti in carriera']
+          [`Black Sabbath`, `1970`, `certificato platino RIAA`],
+          [`Paranoid`, `1970`, `numero 1 nel Regno Unito, certificato 4x platino RIAA`, `Il fotografo Keith McMillan ritrasse il suo assistente Roger Brown vestito di rosa e giallo con spada e scudo — immagine pensata per il titolo originale "War Pigs"; quando l'etichetta impose il titolo "Paranoid" per motivi legati alla guerra in Vietnam, la copertina non fu cambiata e non ha quindi alcun legame reale con la canzone, come ammesso dallo stesso Ozzy Osbourne.`],
+          [`Master of Reality`, `1971`, `certificato 2x platino RIAA`],
+          [`Vol. 4`, `1972`, `certificato platino RIAA`],
+          [`Sabbath Bloody Sabbath`, `1973`, `certificato platino RIAA`],
+          [`Sabotage`, `1975`, `certificato oro RIAA`],
+          [`Technical Ecstasy`, `1976`, `certificato oro RIAA`],
+          [`Never Say Die!`, `1978`, `certificato oro RIAA, ultimo album di questo ciclo con Ozzy Osbourne`],
+          [`Heaven and Hell`, `1980`, `certificato platino RIAA, primo album con Ronnie James Dio alla voce`],
+          [`Mob Rules`, `1981`, `certificato oro RIAA`],
+          [`Born Again`, `1983`, `unico album con Ian Gillan alla voce, primo della band senza certificazione RIAA`],
+          [`Seventh Star`, `1986`, `nato come album solista di Tony Iommi, pubblicato poi come Black Sabbath su pressione dell'etichetta`],
+          [`The Eternal Idol`, `1987`, `certificato oro RIAA nel 1997, primo album con Tony Martin alla voce`],
+          [`Headless Cross`, `1989`],
+          [`Tyr`, `1990`],
+          [`Dehumanizer`, `1992`, `ritorno di Ronnie James Dio alla voce`],
+          [`Cross Purposes`, `1994`],
+          [`Forbidden`, `1995`, `certificato oro RIAA nel 1997`],
+          [`13`, `2013`, `primo numero 1 della band negli USA, formazione originale riunita (Osbourne, Iommi, Butler), Grammy Best Metal Performance per "God Is Dead?"`],
+          [`2 Grammy Awards vinti in carriera`]
         ]
       },
       'Oasis': {
         story: `Formati a Manchester nel 1991 attorno al chitarrista Paul "Bonehead" Arthurs, la band trovò la propria identità quando Liam Gallagher coinvolse il fratello maggiore Noel come chitarrista e principale compositore. Le tensioni tra i due fratelli portarono allo scioglimento nel 2009; nel 2025 si sono riuniti per un tour mondiale.`,
         albums: [
-          ['Definitely Maybe', '1994', 'certificato 7x Platino nel Regno Unito, Album of the Year ai Brit Awards 1995'],
-          [`(What's the Story) Morning Glory?`, '1995', 'oltre 22 milioni di copie nel mondo, il loro album più venduto, "Best Album of 30 Years" ai Brit Awards 2010'],
-          ['Tutti e sette gli album in studio hanno raggiunto il numero 1 nel Regno Unito']
+          [`Definitely Maybe`, `1994`, `numero 1 nel Regno Unito, certificato 10x platino nel Regno Unito e platino RIAA, circa 16 milioni di copie vendute`, `Fotografata da Michael Spencer Jones a casa del chitarrista Bonehead a Manchester, con un'idea di Noel Gallagher ispirata a una foto dei Beatles in Giappone; i membri della band portarono oggetti personali, dalla foto di Rodney Marsh a quella di George Best.`],
+          [`(What's the Story) Morning Glory?`, `1995`, `numero 1 nel Regno Unito, certificato 19x platino nel Regno Unito e 4x platino RIAA, circa 22-23 milioni di copie vendute, il loro album più venduto`, `Scattata da Michael Spencer Jones su Berwick Street a Soho; le figure sfocate sullo sfondo non sono i fratelli Gallagher ma l'art director Brian Cannon e il DJ Sean Rowley.`],
+          [`Be Here Now`, `1997`, `numero 1 nel Regno Unito, all'epoca l'album dalla vendita più rapida nella storia delle classifiche britanniche, certificato 7x platino nel Regno Unito`],
+          [`Standing on the Shoulder of Giants`, `2000`, `numero 1 nel Regno Unito, certificato 2x platino`],
+          [`Heathen Chemistry`, `2002`, `numero 1 nel Regno Unito, quinto consecutivo per la band; certificato 4x platino`],
+          [`Don't Believe the Truth`, `2005`, `numero 1 nel Regno Unito, certificato 3x platino`],
+          [`Dig Out Your Soul`, `2008`, `numero 1 nel Regno Unito, certificato 2x platino`]
         ]
       },
       'Vasco Rossi': {
         story: `Nato a Zocca, in provincia di Modena, nel 1952, muove i primi passi nella musica giovanissimo e nel 1977 pubblica il primo singolo. La svolta arriva nel 1983, quando "Vita spericolata" lo consacra a Sanremo come icona generazionale.`,
         albums: [
-          ['Bollicine', '1983', 'oltre un milione di copie vendute, lo consacra come fenomeno nazionale'],
-          ['Gli spari sopra', '1993', 'uno dei suoi album più iconici, premiato con dieci dischi di platino'],
+          [`...Ma cosa vuoi che sia una canzone...`, `1978`, `album di debutto`],
+          [`Non siamo mica gli americani!`, `1979`],
+          [`Colpa d'Alfredo`, `1980`, `disco di platino`],
+          [`Siamo solo noi`, `1981`, `disco d'oro`],
+          [`Vado al massimo`, `1982`, `disco di platino, certificazione ottenuta solo nel 2009`],
+          [`Bollicine`, `1983`, `disco d'oro, contiene "Vita spericolata"`, `Vasco ha spiegato il titolo come riferimento alla Coca-Cola, con la pausa dopo "coca" pensata deliberatamente per provocare i benpensanti dell'epoca.`],
+          [`Cosa succede in città`, `1985`],
+          [`C'è chi dice no`, `1987`],
+          [`Liberi liberi`, `1989`, `4x disco di platino, disco d'oro in Svizzera`],
+          [`Gli spari sopra`, `1993`, `10x disco di platino, uno dei suoi album più iconici`],
+          [`Nessun pericolo... per te`, `1996`, `6x disco di platino`],
+          [`Canzoni per me`, `1998`, `10x disco di platino`],
+          [`Stupido hotel`, `2001`, `8x disco di platino, disco d'oro in Svizzera`],
+          [`Buoni o cattivi`, `2004`, `12x disco di platino, disco d'oro in Svizzera`],
+          [`Il mondo che vorrei`, `2008`],
+          [`Vivere o niente`, `2011`, `disco di diamante, disco d'oro in Svizzera`],
+          [`Sono innocente`, `2014`, `6x disco di platino`],
+          [`Siamo qui`, `2021`, `2x disco di platino, ultimo album in studio pubblicato`],
           [`Artista italiano con più album certificati FIMI: 2 dischi di diamante, 63 di platino, 36 d'oro; record mondiale di pubblico pagante per un concerto solista (Modena Park, 2017, 225 mila spettatori)`]
         ]
       },
       'Ligabue': {
         story: `Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen. Dopo aver scritto un brano per Pierangelo Bertoli, debutta nel 1990 con l'album omonimo "Ligabue"; nel 1998 esordisce anche alla regia cinematografica con "Radiofreccia", vincitore di tre David di Donatello.`,
         albums: [
-          ['Buon compleanno Elvis', '1995', 'lo consacra superstar in Italia: 10 dischi di platino, oltre 1.025.000 copie vendute'],
-          ['Nome e cognome', '2005'],
-          ['La canzone "Certe notti" ha vinto la Targa Tenco per la migliore canzone']
+          [`Ligabue`, `1990`, `disco d'oro`],
+          [`Lambrusco coltelli rose & pop corn`, `1991`, `5x disco di platino`],
+          [`Sopravvissuti e sopravviventi`, `1993`, `3x disco di platino`],
+          [`A che ora è la fine del mondo?`, `1994`, `3x disco di platino`],
+          [`Buon compleanno Elvis`, `1995`, `10x disco di platino, disco di platino anche in Europa, uno dei suoi maggiori successi commerciali`, `Elvis Presley viene descritto dallo stesso Ligabue come simbolo delle notti da bar, delle chitarre e delle storie sussurrate — non nostalgia, ma un'icona.`],
+          [`Miss Mondo`, `1999`, `5x disco di platino`],
+          [`Fuori come va?`, `2002`, `5x disco di platino e disco d'oro`],
+          [`Nome e cognome`, `2005`, `5x disco di platino e disco d'oro`, `Descritto dalla stampa come un autoritratto: la foto tipo tessera di Ligabue è mescolata tra molte altre in copertina, in linea col tema introspettivo e autobiografico dell'album.`],
+          [`Arrivederci, mostro!`, `2010`, `disco di diamante`],
+          [`Mondovisione`, `2013`, `7x disco di platino`],
+          [`Made in Italy`, `2016`, `3x disco di platino`],
+          [`Start`, `2019`, `2x disco di platino`],
+          [`7`, `2020`, `disco di platino`],
+          [`Dedicato a noi`, `2023`, `disco d'oro, ultimo album in studio pubblicato`],
+          [`La canzone "Certe notti" ha vinto la Targa Tenco per la migliore canzone`]
         ]
       },
       'Lucio Dalla': {
         story: `Nato a Bologna nel 1943, bambino prodigio capace di suonare fisarmonica e clarinetto, iniziò la carriera musicale nel jazz prima di passare alla canzone d'autore sotto la guida di Gino Paoli. È morto improvvisamente a Montreux, in Svizzera, il 1° marzo 2012, tre giorni prima del suo 69esimo compleanno.`,
         albums: [
-          ['4/3/1943', 'Sanremo 1971', 'terzo classificato al Festival con il brano poi ribattezzato "Gesù Bambino" dal pubblico'],
-          ['Come è profondo il mare', '1977', `primo album scritto interamente da lui (testi e musica), considerato una pietra miliare della canzone d'autore italiana`]
+          [`1999`, `1966`, `primo album da solista`],
+          [`Terra di Gaibola`, `1970`],
+          [`Storie di casa mia`, `1971`],
+          [`Il giorno aveva cinque teste`, `1973`],
+          [`Anidride solforosa`, `1975`],
+          [`Automobili`, `1976`],
+          [`Come è profondo il mare`, `1977`, `circa 200.000 copie vendute in Italia, considerato uno dei suoi capolavori artistici`, `L'illustrazione, firmata da Antonio Dojmi e Francesco Logoluso su concept di Alessandro Colombini, raffigura un "doppio pianeta" diviso sopra e sotto la superficie del mare, a richiamare la metafora oceanica del disco sulla storia umana.`],
+          [`Lucio Dalla`, `1979`],
+          [`Dalla`, `1980`, `circa 600.000 copie vendute in Italia`],
+          [`1983`, `1983`, `circa 300.000 copie vendute in Italia`],
+          [`Viaggi organizzati`, `1984`, `disco di platino`],
+          [`Lucio Dalla Marco Di Marco`, `1985`, `album jazz strumentale realizzato con il pianista Marco Di Marco`],
+          [`Bugie`, `1986`, `disco di platino`],
+          [`Dalla/Morandi`, `1988`, `con Gianni Morandi, 5x disco di platino, circa 1.000.000 di copie vendute`],
+          [`Cambio`, `1990`, `7x disco di platino, circa 1.500.000 di copie vendute`],
+          [`Blues for Love`, `1992`, `album jazz strumentale realizzato con il pianista Marco Di Marco`],
+          [`Henna`, `1993`, `3x disco di platino, circa 300.000 copie vendute`],
+          [`Canzoni`, `1996`, `3x disco di diamante, circa 1.800.000 copie vendute, disco d'oro in Svizzera, platino europeo — uno dei suoi maggiori successi commerciali`],
+          [`Ciao`, `1999`, `2x disco di platino`],
+          [`Luna Matana`, `2001`, `2x disco di platino`],
+          [`Lucio`, `2003`],
+          [`Il contrario di me`, `2007`],
+          [`Angoli nel cielo`, `2009`, `ultimo album in studio pubblicato in vita`]
         ]
       },
       'Francesco De Gregori': {
         story: `Nato a Roma nel 1951, muove i primi passi nella scena del Folkstudio romano insieme ad artisti come Antonello Venditti, con cui firma l'album d'esordio "Theorius Campus" (1972). Dopo il debutto da solista con "Alice non lo sa" (1973), il successo arriva nel 1975 con "Rimmel".`,
         albums: [
-          ['Rimmel', '1975', `l'album che lo consacra, tra i capolavori della canzone d'autore italiana`],
-          ['Amore nel pomeriggio', '2001', `Targa Tenco come miglior album dell'anno`],
-          ['Pezzi', '2005', `Targa Tenco come miglior album dell'anno`]
+          [`Theorius Campus`, `1972`, `con Antonello Venditti, esordio condiviso tra i due artisti`],
+          [`Alice non lo sa`, `1973`, `primo vero album da solista`],
+          [`Francesco De Gregori`, `1974`],
+          [`Rimmel`, `1975`, `oltre 500.000 copie vendute, 20° posto tra i 100 migliori album italiani secondo Rolling Stone Italia (2012), considerato il suo capolavoro`, `Copertina firmata da Francesco Logoluso su concept condiviso con De Gregori: un ritratto ovale in stile cartolina d'epoca inserito tra fitte righe verticali bianche e nere che creano un effetto di disagio visivo, a rispecchiare il tema del disco — il "trucco" (rimmel) contrapposto alla verità nascosta. De Gregori: "Rimmel nel senso di trucco, di qualcosa di artefatto, ma questo disco è per smascherarli."`],
+          [`Bufalo Bill`, `1976`, `oltre 150.000 copie vendute`],
+          [`De Gregori`, `1978`],
+          [`Viva l'Italia`, `1979`],
+          [`Titanic`, `1982`],
+          [`Scacchi e tarocchi`, `1985`],
+          [`Terra di nessuno`, `1987`, `Targa Tenco`],
+          [`Mira Mare 19.4.89`, `1989`, `Targa Tenco`],
+          [`Canzoni d'amore`, `1992`, `oltre 480.000 copie vendute`],
+          [`Prendere e lasciare`, `1996`],
+          [`Amore nel pomeriggio`, `2001`, `oltre 250.000 copie vendute, Targa Tenco (condivisa)`],
+          [`Il fischio del vapore`, `2002`, `con Giovanna Marini, oltre 150.000 copie vendute`],
+          [`Pezzi`, `2005`, `oltre 100.000 copie vendute, Targa Tenco`, `Secondo De Gregori, la copertina raffigura "un puzzle senza disegno: una volta risolto, non si trova nulla in mano" — metafora del titolo, che evoca sia un mosaico da ricomporre sia macerie, con riferimenti a eventi come l'11 settembre e la strage di Beslan toccati nei testi dell'album.`],
+          [`Calypsos`, `2006`],
+          [`Per brevità chiamato artista`, `2008`, `oltre 70.000 copie vendute`],
+          [`Sulla strada`, `2012`, `disco d'oro FIMI, Wind Music Award, Premio Medimex`],
+          [`Vivavoce`, `2014`, `2x disco di platino FIMI, Wind Music Award`],
+          [`De Gregori canta Bob Dylan - Amore e furto`, `2015`, `disco di platino FIMI`],
+          [`Pastiche`, `2024`, `con Checco Zalone`]
         ]
       }
     };
@@ -3536,13 +3701,16 @@
       if (data) {
         var albumsHtml = data.albums.map(function (item) {
           if (item.length === 1) return '<li>' + item[0] + '</li>';
-          var title = item[0], year = item[1], note = item[2];
-          return '<li><strong>' + title + '</strong> (' + year + ')' + (note ? ' — ' + note : '') + '</li>';
+          var title = item[0], year = item[1], note = item[2], cover = item[3];
+          var html = '<li><strong>' + title + '</strong> (' + year + ')' + (note ? ' — ' + note : '');
+          if (cover) html += '<span class="cover-note">' + cover + '</span>';
+          html += '</li>';
+          return html;
         }).join('');
         artistBioBox.innerHTML =
           '<h3>' + artistSelect.value + '</h3>' +
           '<p>' + data.story + '</p>' +
-          '<h4>Album principali</h4>' +
+          '<h4>Discografia in studio</h4>' +
           '<ul>' + albumsHtml + '</ul>';
         artistBioBox.hidden = false;
       } else {
