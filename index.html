@@ -268,6 +268,18 @@
   }
   .back-to-top:hover { border-color: var(--accent); color: var(--accent); }
 
+  .artist-bio {
+    margin: 4px 2px 18px;
+    padding: 16px 18px;
+    background: var(--surface-alt);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+  .artist-bio strong { color: var(--text); }
+  .artist-bio[hidden] { display: none; }
+
   /* --- Index: card grid --- */
 
   #indice { scroll-margin-top: 24px; margin-top: 12px; }
@@ -570,6 +582,8 @@
       </div>
     </div>
   </div>
+
+  <div class="artist-bio" id="artist-bio" hidden></div>
 
   <div class="card-grid" id="indice">
     <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E" data-streams="3200000000" data-year="1975">
@@ -3357,6 +3371,35 @@
       });
     }
 
+    var artistBios = {
+      'Bring Me the Horizon': `Formatasi a Sheffield nel 2004 attorno al cantante Oliver Sykes, ha attraversato una delle evoluzioni sonore più radicali della musica rock contemporanea: dal deathcore aggressivo del debutto "Count Your Blessings" (2006) a un rock sempre più melodico ed elettronico, passando per "Sempiternal" (2013) e "amo" (2019). La formazione storica — Sykes, il chitarrista Lee Malia, il bassista Matt Kean e il batterista Matt Nicholls — è rimasta stabile dal 2004, mentre il tastierista Jordan Fish, entrato nel 2012, ha lasciato la band nel dicembre 2023.`,
+      'Linkin Park': `Formati ad Agoura Hills, in California, nel 1996 da un gruppo di amici di scuola superiore (Mike Shinoda, Brad Delson, Rob Bourdon, a cui si unirono Joe Hahn e Dave "Phoenix" Farrell), trovarono la voce che li avrebbe resi celebri nel 1999, quando reclutarono Chester Bennington. Con oltre 100 milioni di dischi venduti, sono stati una delle band più importanti degli anni 2000, prima che la morte di Bennington, il 20 luglio 2017, portasse a una lunga pausa. Nel 2024 la band è tornata con una nuova cantante, Emily Armstrong, e un nuovo batterista, Colin Brittain.`,
+      'Metallica': `Fondati a Los Angeles nell'ottobre 1981 dal chitarrista James Hetfield e dal batterista danese Lars Ulrich, dopo che quest'ultimo aveva pubblicato un annuncio su un giornale in cerca di musicisti metal. Insieme al chitarrista Kirk Hammett e al bassista Robert Trujillo, entrati rispettivamente nel 1983 e nel 2003, formano da decenni una delle formazioni più stabili e influenti della storia dell'heavy metal, considerati tra i fondatori del thrash metal insieme a Megadeth, Slayer e Anthrax.`,
+      'Green Day': `Nati come Sweet Children nel 1986-87 a Rodeo, in California, per iniziativa dei quattordicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena punk della Gilman Street di Berkeley. Presero il nome definitivo nel 1989 e, con l'arrivo del batterista Tré Cool nel 1990, completarono la formazione che li avrebbe portati al successo mondiale con "Dookie" (1994) e, un decennio dopo, con il concept album "American Idiot" (2004).`,
+      'Sum 41': `Formatisi ad Ajax, in Ontario, nel 1996 — il nome deriva dal 41° giorno di quell'estate — attorno al cantante e chitarrista Deryck Whibley, arrivarono al successo con l'album d'esordio "All Killer No Filler" (2001), diventando una delle band di punta del pop punk nordamericano dei primi anni 2000. Nel 2023 la band ha annunciato lo scioglimento, concludendo l'attività l'anno successivo dopo un ultimo album e un tour d'addio.`,
+      'Muse': `Formati nella cittadina di Teignmouth, nel Devon, dai compagni di scuola Matt Bellamy, Chris Wolstenholme e Dominic Howard, che a metà degli anni '90 suonavano insieme sotto vari nomi prima di scegliere "Muse" nel 1994. Rimasta invariata per oltre trent'anni, la formazione è nota per uno stile che fonde rock alternativo, elementi progressive e sonorità elettroniche, con album come "Black Holes and Revelations" (2006) e "The Resistance" (2009).`,
+      'Blink-182': `Nati a Poway, vicino San Diego, nel 1992 dall'incontro tra Tom DeLonge e Mark Hoppus: con il batterista Scott Raynor formavano il trio che avrebbe reinventato il pop punk americano. Raynor fu sostituito nel 1998 da Travis Barker, completando la formazione che con "Enema of the State" (1999) portò il genere al successo mainstream.`,
+      'Michael Jackson': `Nato a Gary, in Indiana, nel 1958, esordì giovanissimo come voce solista dei Jackson 5, il gruppo familiare che negli anni '70 conquistò le classifiche Motown. Da solista, la collaborazione con il produttore Quincy Jones a partire da "Off the Wall" (1979) e proseguita con "Thriller" (1982) — tra gli album più venduti di sempre — lo consacrò come "King of Pop", ruolo che ha mantenuto fino alla morte nel 2009.`,
+      'Black Sabbath': `Formati a Birmingham nel 1968 da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, presero il nome nel 1969 ispirandosi a un film horror di Boris Karloff. Con testi ispirati all'occulto e un suono pesante dalle accordature ribassate, sono considerati tra i principali fondatori dell'heavy metal; Iommi è rimasto l'unico membro costante nonostante i numerosi cambi di formazione nel corso dei decenni.`,
+      'Oasis': `Formati a Manchester nel 1991 attorno al chitarrista Paul "Bonehead" Arthurs, la band trovò la propria identità quando Liam Gallagher coinvolse il fratello maggiore Noel come chitarrista e principale compositore. Con "Definitely Maybe" (1994) e "(What's the Story) Morning Glory?" (1995) divennero il gruppo simbolo del Britpop, prima che le tensioni tra i due fratelli portassero allo scioglimento nel 2009; nel 2025 si sono riuniti per un tour mondiale.`,
+      'Vasco Rossi': `Nato a Zocca, in provincia di Modena, nel 1952, muove i primi passi nella musica giovanissimo e nel 1977 pubblica il primo singolo. La svolta arriva nel 1983, quando "Vita spericolata" lo consacra a Sanremo come icona generazionale; da allora è diventato il rocker italiano di maggior successo commerciale, con oltre 35 milioni di copie vendute e il record mondiale di pubblico pagante per un concerto da solista, stabilito nel 2017 a Modena Park con oltre 225 mila spettatori.`,
+      'Ligabue': `Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen. Dopo aver scritto un brano per Pierangelo Bertoli, debutta nel 1990 con l'album omonimo "Ligabue"; nel 1998 esordisce anche alla regia cinematografica con "Radiofreccia", vincitore di tre David di Donatello.`,
+      'Lucio Dalla': `Nato a Bologna nel 1943, bambino prodigio capace di suonare fisarmonica e clarinetto, iniziò la carriera musicale nel jazz prima di passare alla canzone d'autore sotto la guida di Gino Paoli. Dopo il terzo posto a Sanremo 1971 con "4/3/1943", raggiunse la piena consacrazione nel 1977 con l'album "Come è profondo il mare". È morto improvvisamente a Montreux, in Svizzera, il 1° marzo 2012, tre giorni prima del suo 69esimo compleanno.`,
+      'Francesco De Gregori': `Nato a Roma nel 1951, muove i primi passi nella scena del Folkstudio romano insieme ad artisti come Antonello Venditti, con cui firma l'album d'esordio "Theorius Campus" (1972). Dopo il debutto da solista con "Alice non lo sa" (1973), il successo arriva nel 1975 con "Rimmel", disco che consacra il suo stile fatto di testi criptici e melodie essenziali, diventando uno dei cantautori più influenti della musica italiana.`
+    };
+    var artistBioBox = document.getElementById('artist-bio');
+    function updateArtistBio() {
+      if (!artistBioBox || !artistSelect) return;
+      var bio = artistBios[artistSelect.value];
+      if (bio) {
+        artistBioBox.innerHTML = '<strong>' + artistSelect.value + '.</strong> ' + bio;
+        artistBioBox.hidden = false;
+      } else {
+        artistBioBox.hidden = true;
+        artistBioBox.innerHTML = '';
+      }
+    }
+
     function updateFirstVisibleSection() {
       var prevFirst = mainEl && mainEl.querySelector('section.song.is-first-visible');
       if (prevFirst) prevFirst.classList.remove('is-first-visible');
@@ -3397,7 +3440,10 @@
     }
 
     if (artistSelect) {
-      artistSelect.addEventListener('change', runSearch);
+      artistSelect.addEventListener('change', function () {
+        updateArtistBio();
+        runSearch();
+      });
     }
 
     genreChips.forEach(function (chip) {
