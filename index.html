@@ -690,12 +690,6 @@
         <button type="button" class="genre-chip" data-paese="it" aria-pressed="false">Artisti italiani</button>
       </div>
       <div class="sort-control">
-        <label for="artist-select">Artista</label>
-        <select id="artist-select">
-          <option value="">Tutti</option>
-        </select>
-      </div>
-      <div class="sort-control">
         <label for="sort-select">Ordina</label>
         <select id="sort-select">
           <option value="default">Data aggiunta</option>
@@ -4387,20 +4381,12 @@
       };
     });
 
-    var artistSelect = document.getElementById('artist-select');
-    if (artistSelect) {
-      var artists = [];
-      cardEntries.forEach(function (entry) {
-        if (entry.artist && artists.indexOf(entry.artist) === -1) artists.push(entry.artist);
-      });
-      artists.sort(function (a, b) { return a.localeCompare(b, 'it'); });
-      artists.forEach(function (name) {
-        var opt = document.createElement('option');
-        opt.value = name;
-        opt.textContent = name;
-        artistSelect.appendChild(opt);
-      });
-    }
+    var artists = [];
+    var activeArtist = '';
+    cardEntries.forEach(function (entry) {
+      if (entry.artist && artists.indexOf(entry.artist) === -1) artists.push(entry.artist);
+    });
+    artists.sort(function (a, b) { return a.localeCompare(b, 'it'); });
 
     var artistBios = {
       'Bring Me the Horizon': {
@@ -4963,8 +4949,8 @@
     };
     var artistBioBox = document.getElementById('artist-bio');
     function updateArtistBio() {
-      if (!artistBioBox || !artistSelect) return;
-      var data = artistBios[artistSelect.value];
+      if (!artistBioBox) return;
+      var data = artistBios[activeArtist];
       if (data) {
         var albumsHtml = data.albums.map(function (item) {
           if (item.length === 1) return '<li>' + item[0] + '</li>';
@@ -4975,7 +4961,7 @@
           return html;
         }).join('');
         artistBioBox.innerHTML =
-          '<h3>' + artistSelect.value + '</h3>' +
+          '<h3>' + activeArtist + '</h3>' +
           '<p>' + data.story + '</p>' +
           '<h4>Discografia in studio</h4>' +
           '<ul>' + albumsHtml + '</ul>';
@@ -5000,7 +4986,7 @@
       var query = normalizeSearchValue(searchInput.value.trim());
       var genreFilter = activeChip ? activeChip.getAttribute('data-genere') : null;
       var countryFilter = activeChip ? activeChip.getAttribute('data-paese') : null;
-      var artistFilter = artistSelect ? artistSelect.value : '';
+      var artistFilter = activeArtist;
       var visible = 0;
       cardEntries.forEach(function (entry) {
         var matchesQuery = query === '' || entry.haystack.indexOf(query) !== -1;
@@ -5024,19 +5010,19 @@
     }
 
     if (searchInput) {
-      searchInput.addEventListener('input', runSearch);
-    }
-
-    if (artistSelect) {
-      artistSelect.addEventListener('change', function () {
+      searchInput.addEventListener('input', function () {
+        var typed = normalizeSearchValue(searchInput.value.trim());
+        activeArtist = artists.find(function (name) {
+          return normalizeSearchValue(name) === typed;
+        }) || '';
         updateArtistBio();
         runSearch();
       });
     }
 
     function selectArtistFilter(name) {
-      if (!artistSelect) return;
-      artistSelect.value = name;
+      activeArtist = name;
+      searchInput.value = name;
       updateArtistBio();
       runSearch();
       var hasBio = !!artistBios[name];

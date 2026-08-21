@@ -31,6 +31,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **21 agosto 2026 — F3 avviato:** iniziata la correzione della struttura delle card e dei collegamenti artista/canzone.
 - **21 agosto 2026 — F3 completato:** convertite tutte le 157 card da collegamenti contenitori a elementi semantici; il titolo è ora il collegamento alla canzone e il nome dell'artista è un'azione indipendente. Eliminati tutti gli elementi interattivi annidati, aggiunti focus visibile e destinazioni distinguibili. Verificati click separati, filtro artista, apertura canzone e assenza di errori.
 - **21 agosto 2026 — F4 avviato:** iniziato il lavoro su URL, cronologia e ripristino della posizione.
+- **21 agosto 2026 — Ricerca artista unificata:** eliminato il menu separato “Artista”. La barra principale cerca già titolo, artista, album, genere e momento iconico; quando il nome digitato corrisponde esattamente a un artista, mostra anche storia e discografia disponibili. Il click sul nome di una band compila la stessa barra e filtra i suoi brani. Verificati ricerca diretta, ricerca parziale, click artista, chiusura della biografia, desktop e mobile. F4 resta in corso per URL e cronologia.
 - **21 agosto 2026 — Destinazione Sites approvata:** la nuova architettura verrà pubblicata su Sites; la versione Vercel non sarà rimossa finché contenuti, navigazione e indirizzi non saranno stati verificati.
 
 ### Regola di aggiornamento
