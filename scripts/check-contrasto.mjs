@@ -52,7 +52,7 @@ const TITLE_LIGHT_MIX = (accent) => colorMixSrgb(accent, 70, '#000000', 30);
 const DARK_ACCENT_MIX = (accent) => colorMixSrgb(accent, 55, '#FFFFFF', 45);
 
 const sectionRe =
-  /<section class="song" id="([^"]+)" style="--accent:(#[0-9A-Fa-f]{6}); --accent-2:(#[0-9A-Fa-f]{6}); --btn-fg-light:(#[0-9A-Fa-f]{6}); --btn-fg-dark:(#[0-9A-Fa-f]{6});">/g;
+  /<section class="song" id="([^"]+)" style="--accent:(#[0-9A-Fa-f]{6}); --accent-2:(#[0-9A-Fa-f]{6}); --btn-fg-light:(#[0-9A-Fa-f]{6}); --btn-fg-dark:(#[0-9A-Fa-f]{6});"[^>]*>/g;
 
 const sections = [];
 let m;
