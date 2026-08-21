@@ -20,7 +20,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F8 — Pagine album e registro immagini | da fare | 21 agosto 2026 | Nessuna immagine senza base d'uso documentata |
 | F9 — Homepage orientata a ricerca e scoperta | da fare | 21 agosto 2026 | Ridurre introduzione e griglia iniziale |
 | F10 — Uniformazione del catalogo | da fare | 21 agosto 2026 | Portare tutte le schede allo standard editoriale completo |
-| F11 — Nuova architettura e pubblicazione su Sites | in verifica | 21 agosto 2026 | Architettura e prototipo BMTH completati; build superata, pubblicazione privata in preparazione; Vercel resta online |
+| F11 — Nuova architettura e pubblicazione su Sites | in verifica | 21 agosto 2026 | Prototipo BMTH pubblicato privatamente; in attesa della valutazione dell'autore; Vercel resta online |
 
 ### Registro degli interventi
 
