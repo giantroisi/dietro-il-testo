@@ -20,7 +20,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F8 — Pagine album e registro immagini | da fare | 21 agosto 2026 | Nessuna immagine senza base d'uso documentata |
 | F9 — Homepage orientata a ricerca e scoperta | da fare | 21 agosto 2026 | Ridurre introduzione e griglia iniziale |
 | F10 — Uniformazione del catalogo | da fare | 21 agosto 2026 | Portare tutte le schede allo standard editoriale completo |
-| F11 — Migrazione e pubblicazione su Sites | da fare | 21 agosto 2026 | Avverrà dopo la separazione dei dati e le pagine autonome; Vercel resta online fino alla verifica finale |
+| F11 — Nuova architettura e pubblicazione su Sites | in verifica | 21 agosto 2026 | Architettura e prototipo BMTH completati; build superata, pubblicazione privata in preparazione; Vercel resta online |
 
 ### Registro degli interventi
 
@@ -32,6 +32,14 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **21 agosto 2026 — F3 completato:** convertite tutte le 157 card da collegamenti contenitori a elementi semantici; il titolo è ora il collegamento alla canzone e il nome dell'artista è un'azione indipendente. Eliminati tutti gli elementi interattivi annidati, aggiunti focus visibile e destinazioni distinguibili. Verificati click separati, filtro artista, apertura canzone e assenza di errori.
 - **21 agosto 2026 — F4 avviato:** iniziato il lavoro su URL, cronologia e ripristino della posizione.
 - **21 agosto 2026 — Ricerca artista unificata:** eliminato il menu separato “Artista”. La barra principale cerca già titolo, artista, album, genere e momento iconico; quando il nome digitato corrisponde esattamente a un artista, mostra anche storia e discografia disponibili. Il click sul nome di una band compila la stessa barra e filtra i suoi brani. Verificati ricerca diretta, ricerca parziale, click artista, chiusura della biografia, desktop e mobile. F4 resta in corso per URL e cronologia.
+- **21 agosto 2026 — Nuova struttura approvata:** confermata la trasformazione da archivio in pagina unica a enciclopedia musicale tascabile, con homepage di ricerca/scoperta e pagine autonome per canzoni, artisti e album.
+- **21 agosto 2026 — Prototipo Sites avviato:** creato un progetto parallelo per validare la nuova struttura senza interrompere il sito Vercel. Su indicazione dell'autore, il primo campione è dedicato ai Bring Me the Horizon: homepage, ricerca, Can You Feel My Heart, pagina artista, Sempiternal e Drown come seconda canzone di controllo.
+- **21 agosto 2026 — Architettura del prototipo completata:** realizzate homepage editoriale, ricerca unica per tipologia, pagina artista con storia e discografia completa, pagina album con spiegazione della copertina, due pagine canzone allo standard Everlong e pagina del metodo. Navigazione e contenuti sono collegati tramite URL autonomi.
+- **21 agosto 2026 — Immagini del prototipo conformi:** nessuna copertina o fotografia esterna è stata scaricata o ri-ospitata. Il logo è un file fornito dal titolare del progetto; le illustrazioni sono originali in CSS; la copertina di Sempiternal compare soltanto nel player ufficiale Spotify.
+- **21 agosto 2026 — Prima validazione tecnica:** build di produzione superata per tutte le cinque tipologie di pagina; corretta la resa del logo nel tema scuro durante il controllo visivo. Restano controllo finale dei collegamenti, prova su versione pubblicata e valutazione del prototipo da parte dell'autore.
+- **21 agosto 2026 — Prototipo pubblicato privatamente su Sites:** la prima versione è disponibile all'indirizzo `https://dietro-il-testo.g-prizio.chatgpt.site`. L'accesso richiede l'autenticazione ChatGPT del titolare. La versione Vercel resta invariata e online; nessuna migrazione del dominio è stata eseguita.
+- **21 agosto 2026 — Prima revisione visuale dell'autore:** aumentata la presenza del logo e ridotta la scala della promessa “Capire una canzone”, ora disposta in una composizione più compatta che porta prima alla ricerca.
+- **21 agosto 2026 — Policy immagini rafforzata:** oltre a provenienza e verifica, ogni immagine deve avere un'autorizzazione, licenza o base d'uso documentata. Nel prototipo non verranno ospitate copertine o fotografie di terzi; si useranno grafica originale ed embed ufficiali.
 - **21 agosto 2026 — Destinazione Sites approvata:** la nuova architettura verrà pubblicata su Sites; la versione Vercel non sarà rimossa finché contenuti, navigazione e indirizzi non saranno stati verificati.
 
 ### Regola di aggiornamento
@@ -156,7 +164,88 @@ La struttura ideale è: **gancio → momento iconico → spiegazione → storia 
 - Il conteggio dei risultati non è ancora annunciato tramite `aria-live`.
 - Qualità e completezza non sono uniformi: non tutte le schede raggiungono lo standard di Everlong.
 
-## 4. Standard editoriale di una scheda completa
+## 4. Architettura editoriale approvata
+
+La nuova versione non riproduce la struttura dell'archivio attuale. È organizzata intorno a tre entità collegate: **canzone**, **artista**, **album**.
+
+### Homepage
+
+- Logo compatto, promessa editoriale e ricerca come elemento principale.
+- Testo guida: “Le storie, i significati e le curiosità dietro la musica che ami. In breve, con fonti verificabili.”
+- Non mostra l'intero catalogo: propone 8–12 contenuti selezionati.
+- Percorsi di scoperta: “Una storia in 60 secondi”, “Dietro una frase iconica”, “Cosa significa questa copertina?”, “Album che hanno cambiato un genere”, “Appena verificato”, “Scopri qualcosa a caso”.
+- La ricerca raggruppa i risultati per canzoni, artisti, album e curiosità.
+
+### Pagina canzone
+
+Ordine approvato:
+
+1. artista, anno, album e genere;
+2. titolo e sintesi di 2–3 frasi;
+3. blocco “In breve”;
+4. momento iconico parafrasato;
+5. nascita, significato, registrazione, curiosità e impatto;
+6. Spotify e collegamento esterno autorizzato al testo;
+7. fonti vicine alle affermazioni;
+8. ultima verifica, stato editoriale e segnalazione errori;
+9. canzoni, artista e album correlati.
+
+### Pagina artista
+
+- Presentazione sintetica.
+- Cronologia visiva dell'evoluzione artistica.
+- Storia completa, quando verificata.
+- Discografia in studio organizzata per album.
+- Canzoni raccontate sul sito.
+- Momenti fondamentali, premi e riconoscimenti.
+- Fonti e data di verifica.
+
+La pagina viene generata per ogni artista anche quando la biografia estesa non è ancora pronta; in quel caso mostra dati verificati, cronologia e brani disponibili senza inventare contenuti mancanti.
+
+### Pagina album
+
+- Perché l'album è importante.
+- Contesto nella carriera dell'artista.
+- Registrazione e produzione.
+- Significato del titolo.
+- Spiegazione della copertina soltanto quando documentata.
+- Premi, certificazioni e rilevanza.
+- Tracce presenti nel sito e collegamenti correlati.
+- Formula esplicita “Non risulta disponibile una spiegazione ufficiale verificabile” quando il significato della copertina non è documentato.
+
+### Linguaggio visivo
+
+- Impostazione da rivista musicale contemporanea, non da database tecnico.
+- Cornice neutra e un solo colore identitario per pagina.
+- Titoli serif espressivi, testo molto leggibile, metadati monospaziati.
+- Meno riquadri e bordi, più spazio tra concetti.
+- Card sintetiche; il colore completo dell'album vive sulla pagina individuale.
+- Nessuna immagine decorativa senza autorizzazione.
+
+### Segnali di attendibilità
+
+Le informazioni possono essere accompagnate da una delle seguenti etichette:
+
+- `Dichiarato dall'artista`;
+- `Fatto documentato`;
+- `Interpretazione accreditata`.
+
+Queste etichette non sostituiscono le fonti: rendono immediatamente comprensibile la natura dell'affermazione.
+
+### Prototipo di riferimento
+
+Prima dell'importazione dell'intero catalogo devono essere approvati:
+
+- nuova homepage;
+- ricerca raggruppata;
+- pagina Can You Feel My Heart;
+- pagina Bring Me the Horizon;
+- pagina Sempiternal;
+- pagina Drown, come seconda canzone che dimostri la riutilizzabilità del modello.
+
+Il prototipo diventa modello definitivo soltanto dopo verifica editoriale, visuale, mobile, accessibile e legale.
+
+## 4A. Standard editoriale di una scheda completa
 
 Una canzone è pubblicabile solo quando possiede:
 
