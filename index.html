@@ -471,7 +471,9 @@
     font-size: clamp(28px, 4vw, 36px);
     margin: 0 0 14px;
     text-wrap: balance;
-    color: var(--accent);
+    /* F1: mix uniforme verso il nero cosi' tutte le 157 combinazioni restano
+       sopra 4.5:1 su sfondo chiaro, senza alterare il colore in tema scuro. */
+    color: color-mix(in srgb, var(--accent) 70%, black 30%);
   }
 
   /* Per-song --accent/--accent-2 were picked for legibility on a light surface;
@@ -485,6 +487,14 @@
     :root:not([data-theme="light"]) .artist-more a {
       color: color-mix(in srgb, var(--accent-2) 55%, white 45%);
     }
+    :root:not([data-theme="light"]) .links a.primary {
+      background: color-mix(in srgb, var(--accent) 55%, white 45%);
+      border-color: color-mix(in srgb, var(--accent) 55%, white 45%);
+      color: var(--btn-fg-dark, var(--on-accent));
+    }
+    :root:not([data-theme="light"]) .links a.primary:hover {
+      color: var(--btn-fg-dark, var(--on-accent));
+    }
   }
   :root[data-theme="dark"] h2.song-title,
   :root[data-theme="dark"] .meta-row .rank-badge {
@@ -493,6 +503,14 @@
   :root[data-theme="dark"] .meta-row .artist,
   :root[data-theme="dark"] .artist-more a {
     color: color-mix(in srgb, var(--accent-2) 55%, white 45%);
+  }
+  :root[data-theme="dark"] .links a.primary {
+    background: color-mix(in srgb, var(--accent) 55%, white 45%);
+    border-color: color-mix(in srgb, var(--accent) 55%, white 45%);
+    color: var(--btn-fg-dark, var(--on-accent));
+  }
+  :root[data-theme="dark"] .links a.primary:hover {
+    color: var(--btn-fg-dark, var(--on-accent));
   }
 
   .streams {
@@ -576,12 +594,15 @@
     color: var(--accent);
     outline: none;
   }
+  /* F1: sfondo = colore della scheda, testo bianco o nero scelto per scheda
+     (--btn-fg-light/--btn-fg-dark, calcolati in scripts/check-contrasto.mjs)
+     in modo che ognuna delle 157 combinazioni superi 4.5:1. */
   .links a.primary {
     background: var(--accent);
     border-color: var(--accent);
-    color: var(--on-accent);
+    color: var(--btn-fg-light, var(--on-accent));
   }
-  .links a.primary:hover { opacity: 0.88; color: var(--on-accent); }
+  .links a.primary:hover { opacity: 0.88; color: var(--btn-fg-light, var(--on-accent)); }
 
   .sources {
     margin-top: 16px;
@@ -1382,7 +1403,7 @@
 
   <main>
 
-    <section class="song" id="bohemian-rhapsody" style="--accent:#A6192E; --accent-2:#A6821A;">
+    <section class="song" id="bohemian-rhapsody" style="--accent:#A6192E; --accent-2:#A6821A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#1</span><a href="#filter-bar" class="artist" data-artist="Queen">Queen</a><span>1975</span><span>A Night at the Opera</span><span>Rock progressivo</span>
       </div>
@@ -1403,7 +1424,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="in-the-end" style="--accent:#8F1A1A; --accent-2:#4A4A4A;">
+    <section class="song" id="in-the-end" style="--accent:#8F1A1A; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#2</span><a href="#filter-bar" class="artist" data-artist="Linkin Park">Linkin Park</a><span>2000 / 2001</span><span>Hybrid Theory</span><span>Nu metal / Rock alternativo</span>
       </div>
@@ -1425,7 +1446,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="teen-spirit" style="--accent:#B89B1F; --accent-2:#4A5A6A;">
+    <section class="song" id="teen-spirit" style="--accent:#B89B1F; --accent-2:#4A5A6A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#3</span><a href="#filter-bar" class="artist" data-artist="Nirvana">Nirvana</a><span>1991</span><span>Nevermind</span><span>Grunge</span>
       </div>
@@ -1447,7 +1468,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="billie-jean" style="--accent:#4A2E6E; --accent-2:#A6791E;">
+    <section class="song" id="billie-jean" style="--accent:#4A2E6E; --accent-2:#A6791E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#4</span><a href="#filter-bar" class="artist" data-artist="Michael Jackson">Michael Jackson</a><span>1983</span><span>Thriller</span><span>Pop / R&amp;B</span>
       </div>
@@ -1469,7 +1490,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sweet-child" style="--accent:#8A1A2E; --accent-2:#A6821A;">
+    <section class="song" id="sweet-child" style="--accent:#8A1A2E; --accent-2:#A6821A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#5</span><a href="#filter-bar" class="artist" data-artist="Guns N' Roses">Guns N' Roses</a><span>1987 / 1988</span><span>Appetite for Destruction</span><span>Hard rock</span>
       </div>
@@ -1491,7 +1512,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="creep" style="--accent:#4F6B49; --accent-2:#A65C6C;">
+    <section class="song" id="creep" style="--accent:#4F6B49; --accent-2:#A65C6C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#6</span><a href="#filter-bar" class="artist" data-artist="Radiohead">Radiohead</a><span>1992 / 1993</span><span>Pablo Honey</span><span>Alternative rock</span>
       </div>
@@ -1511,7 +1532,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="someone-like-you" style="--accent:#3E4A5C; --accent-2:#6E2E3E;">
+    <section class="song" id="someone-like-you" style="--accent:#3E4A5C; --accent-2:#6E2E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#7</span><a href="#filter-bar" class="artist" data-artist="Adele">Adele</a><span>2011</span><span>21</span><span>Pop / Soul</span>
       </div>
@@ -1531,7 +1552,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="highway-to-hell" style="--accent:#8A1414; --accent-2:#4A4A4A;">
+    <section class="song" id="highway-to-hell" style="--accent:#8A1414; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#8</span><a href="#filter-bar" class="artist" data-artist="AC/DC">AC/DC</a><span>1979</span><span>Highway to Hell</span><span>Hard rock</span>
       </div>
@@ -1551,7 +1572,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="hotel-california" style="--accent:#A65A22; --accent-2:#6E4A80;">
+    <section class="song" id="hotel-california" style="--accent:#A65A22; --accent-2:#6E4A80; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#9</span><a href="#filter-bar" class="artist" data-artist="Eagles">Eagles</a><span>1976 / 1977</span><span>Hotel California</span><span>Rock</span>
       </div>
@@ -1571,7 +1592,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="enter-sandman" style="--accent:#6B6B6E; --accent-2:#7A1A1A;">
+    <section class="song" id="enter-sandman" style="--accent:#6B6B6E; --accent-2:#7A1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#10</span><a href="#filter-bar" class="artist" data-artist="Metallica">Metallica</a><span>1991</span><span>Metallica ("Black Album")</span><span>Heavy metal</span>
       </div>
@@ -1593,7 +1614,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="chop-suey" style="--accent:#6E7A2E; --accent-2:#A65A22;">
+    <section class="song" id="chop-suey" style="--accent:#6E7A2E; --accent-2:#A65A22; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#11</span><a href="#filter-bar" class="artist" data-artist="System of a Down">System of a Down</a><span>2001</span><span>Toxicity</span><span>Alternative / Nu metal</span>
       </div>
@@ -1615,7 +1636,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="paranoid" style="--accent:#B2266E; --accent-2:#5C8A2E;">
+    <section class="song" id="paranoid" style="--accent:#B2266E; --accent-2:#5C8A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#12</span><a href="#filter-bar" class="artist" data-artist="Black Sabbath">Black Sabbath</a><span>1970</span><span>Paranoid</span><span>Heavy metal</span>
       </div>
@@ -1637,7 +1658,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="nothing-else-matters" style="--accent:#4A4A6E; --accent-2:#6B1A1A;">
+    <section class="song" id="nothing-else-matters" style="--accent:#4A4A6E; --accent-2:#6B1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#13</span><a href="#filter-bar" class="artist" data-artist="Metallica">Metallica</a><span>1991 / 1992</span><span>Metallica ("Black Album")</span><span>Heavy metal / Ballata</span>
       </div>
@@ -1659,7 +1680,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="stairway-to-heaven" style="--accent:#4A6E3E; --accent-2:#6E5A2E;">
+    <section class="song" id="stairway-to-heaven" style="--accent:#4A6E3E; --accent-2:#6E5A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#14</span><a href="#filter-bar" class="artist" data-artist="Led Zeppelin">Led Zeppelin</a><span>1971</span><span>Led Zeppelin IV</span><span>Rock progressivo</span>
       </div>
@@ -1679,7 +1700,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="killing-in-the-name" style="--accent:#8A1A1A; --accent-2:#2E2E2E;">
+    <section class="song" id="killing-in-the-name" style="--accent:#8A1A1A; --accent-2:#2E2E2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#15</span><a href="#filter-bar" class="artist" data-artist="Rage Against the Machine">Rage Against the Machine</a><span>1992</span><span>Rage Against the Machine</span><span>Rap metal</span>
       </div>
@@ -1701,7 +1722,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="wonderwall" style="--accent:#2E4A8A; --accent-2:#6E4A2E;">
+    <section class="song" id="wonderwall" style="--accent:#2E4A8A; --accent-2:#6E4A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#16</span><a href="#filter-bar" class="artist" data-artist="Oasis">Oasis</a><span>1995</span><span>(What's the Story) Morning Glory?</span><span>Britpop</span>
       </div>
@@ -1723,7 +1744,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="lose-yourself" style="--accent:#5C3D80; --accent-2:#6B6F76;">
+    <section class="song" id="lose-yourself" style="--accent:#5C3D80; --accent-2:#6B6F76; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#17</span><a href="#filter-bar" class="artist" data-artist="Eminem">Eminem</a><span>2002</span><span>8 Mile (Colonna sonora)</span><span>Hip-hop</span>
       </div>
@@ -1743,7 +1764,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="thriller" style="--accent:#A31F27; --accent-2:#A6791E;">
+    <section class="song" id="thriller" style="--accent:#A31F27; --accent-2:#A6791E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#18</span><a href="#filter-bar" class="artist" data-artist="Michael Jackson">Michael Jackson</a><span>1982</span><span>Thriller</span><span>Pop / R&amp;B</span>
       </div>
@@ -1765,7 +1786,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="du-hast" style="--accent:#8A1418; --accent-2:#5C5C5C;">
+    <section class="song" id="du-hast" style="--accent:#8A1418; --accent-2:#5C5C5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#19</span><a href="#filter-bar" class="artist" data-artist="Rammstein">Rammstein</a><span>1997</span><span>Sehnsucht</span><span>Industrial metal</span>
       </div>
@@ -1786,7 +1807,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="freak-on-a-leash" style="--accent:#7A4A1E; --accent-2:#4A5A3E;">
+    <section class="song" id="freak-on-a-leash" style="--accent:#7A4A1E; --accent-2:#4A5A3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#20</span><a href="#filter-bar" class="artist" data-artist="Korn">Korn</a><span>1998 / 1999</span><span>Follow the Leader</span><span>Nu metal</span>
       </div>
@@ -1806,7 +1827,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="imagine" style="--accent:#2E6E9E; --accent-2:#8A8578;">
+    <section class="song" id="imagine" style="--accent:#2E6E9E; --accent-2:#8A8578; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#21</span><a href="#filter-bar" class="artist" data-artist="John Lennon">John Lennon</a><span>1971</span><span>Imagine</span><span>Rock / Pop</span>
       </div>
@@ -1825,7 +1846,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="hey-jude" style="--accent:#3E7A2C; --accent-2:#8A6A2E;">
+    <section class="song" id="hey-jude" style="--accent:#3E7A2C; --accent-2:#8A6A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#22</span><a href="#filter-bar" class="artist" data-artist="The Beatles">The Beatles</a><span>1968</span><span>Singolo (poi in Hey Jude, 1970)</span><span>Pop rock</span>
       </div>
@@ -1844,7 +1865,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="walk" style="--accent:#8F1616; --accent-2:#8A6414;">
+    <section class="song" id="walk" style="--accent:#8F1616; --accent-2:#8A6414; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#23</span><a href="#filter-bar" class="artist" data-artist="Pantera">Pantera</a><span>1992</span><span>Vulgar Display of Power</span><span>Groove metal</span>
       </div>
@@ -1865,7 +1886,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="run-to-the-hills" style="--accent:#B3221F; --accent-2:#7A6E4E;">
+    <section class="song" id="run-to-the-hills" style="--accent:#B3221F; --accent-2:#7A6E4E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#24</span><a href="#filter-bar" class="artist" data-artist="Iron Maiden">Iron Maiden</a><span>1982</span><span>The Number of the Beast</span><span>Heavy metal</span>
       </div>
@@ -1886,7 +1907,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="breaking-the-law" style="--accent:#6B6B6E; --accent-2:#C23B3B;">
+    <section class="song" id="breaking-the-law" style="--accent:#6B6B6E; --accent-2:#C23B3B; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#25</span><a href="#filter-bar" class="artist" data-artist="Judas Priest">Judas Priest</a><span>1980</span><span>British Steel</span><span>Heavy metal</span>
       </div>
@@ -1907,7 +1928,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="raining-blood" style="--accent:#8F1616; --accent-2:#4A4A52;">
+    <section class="song" id="raining-blood" style="--accent:#8F1616; --accent-2:#4A4A52; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#26</span><a href="#filter-bar" class="artist" data-artist="Slayer">Slayer</a><span>1986</span><span>Reign in Blood</span><span>Thrash metal</span>
       </div>
@@ -1928,7 +1949,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="darkside" style="--accent:#C23B7A; --accent-2:#1D8FA6;">
+    <section class="song" id="darkside" style="--accent:#C23B7A; --accent-2:#1D8FA6; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#27</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2023</span><span>Post Human: Nex Gen</span><span>Rock / Nu-metal</span>
       </div>
@@ -1953,7 +1974,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="solitudine" style="--accent:#A6386A; --accent-2:#4A4A6E;">
+    <section class="song" id="solitudine" style="--accent:#A6386A; --accent-2:#4A4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#28</span><a href="#filter-bar" class="artist" data-artist="Laura Pausini">Laura Pausini</a><span>1993</span><span>Laura Pausini (debutto)</span><span>Pop italiano</span>
       </div>
@@ -1972,7 +1993,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="albachiara" style="--accent:#A6272A; --accent-2:#2E4E6E;">
+    <section class="song" id="albachiara" style="--accent:#A6272A; --accent-2:#2E4E6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#29</span><a href="#filter-bar" class="artist" data-artist="Vasco Rossi">Vasco Rossi</a><span>1979</span><span>Non siamo mica gli americani</span><span>Rock italiano</span>
       </div>
@@ -1995,7 +2016,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="certe-notti" style="--accent:#A6331F; --accent-2:#3A4650;">
+    <section class="song" id="certe-notti" style="--accent:#A6331F; --accent-2:#3A4650; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#30</span><a href="#filter-bar" class="artist" data-artist="Ligabue">Ligabue</a><span>1995</span><span>Buon compleanno Elvis</span><span>Rock italiano</span>
       </div>
@@ -2016,7 +2037,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="volare" style="--accent:#1F5FA8; --accent-2:#A67A2E;">
+    <section class="song" id="volare" style="--accent:#1F5FA8; --accent-2:#A67A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#31</span><a href="#filter-bar" class="artist" data-artist="Domenico Modugno">Domenico Modugno</a><span>1958</span><span>Singolo</span><span>Canzone italiana</span>
       </div>
@@ -2035,7 +2056,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="cielo-blu" style="--accent:#2E6EA6; --accent-2:#A67A2E;">
+    <section class="song" id="cielo-blu" style="--accent:#2E6EA6; --accent-2:#A67A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#32</span><a href="#filter-bar" class="artist" data-artist="Rino Gaetano">Rino Gaetano</a><span>1975</span><span>Singolo</span><span>Cantautorato</span>
       </div>
@@ -2054,7 +2075,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="azzurro" style="--accent:#3E6EA8; --accent-2:#C29A3E;">
+    <section class="song" id="azzurro" style="--accent:#3E6EA8; --accent-2:#C29A3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#33</span><a href="#filter-bar" class="artist" data-artist="Adriano Celentano">Adriano Celentano</a><span>1968</span><span>Singolo</span><span>Canzone italiana</span>
       </div>
@@ -2073,7 +2094,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="canto-libero" style="--accent:#A6691E; --accent-2:#3E6B4E;">
+    <section class="song" id="canto-libero" style="--accent:#A6691E; --accent-2:#3E6B4E; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#34</span><a href="#filter-bar" class="artist" data-artist="Lucio Battisti">Lucio Battisti</a><span>1972</span><span>Il mio canto libero</span><span>Musica leggera / Pop italiano</span>
       </div>
@@ -2092,7 +2113,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="la-cura" style="--accent:#7A4A6E; --accent-2:#3E6B6B;">
+    <section class="song" id="la-cura" style="--accent:#7A4A6E; --accent-2:#3E6B6B; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#35</span><a href="#filter-bar" class="artist" data-artist="Franco Battiato">Franco Battiato</a><span>1996 / 1997</span><span>L'imboscata</span><span>Cantautorato</span>
       </div>
@@ -2111,7 +2132,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="caruso" style="--accent:#2E6480; --accent-2:#A6791E;">
+    <section class="song" id="caruso" style="--accent:#2E6480; --accent-2:#A6791E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#36</span><a href="#filter-bar" class="artist" data-artist="Lucio Dalla">Lucio Dalla</a><span>1986</span><span>DallAmeriCaruso</span><span>Cantautorato / Musica melodica</span>
       </div>
@@ -2132,7 +2153,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="bello-impossibile" style="--accent:#A6225A; --accent-2:#4A4A6E;">
+    <section class="song" id="bello-impossibile" style="--accent:#A6225A; --accent-2:#4A4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#37</span><a href="#filter-bar" class="artist" data-artist="Gianna Nannini">Gianna Nannini</a><span>1986</span><span>Profumo</span><span>Pop rock italiano</span>
       </div>
@@ -2151,7 +2172,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="marinella" style="--accent:#7A5A2E; --accent-2:#2E6B68;">
+    <section class="song" id="marinella" style="--accent:#7A5A2E; --accent-2:#2E6B68; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#38</span><a href="#filter-bar" class="artist" data-artist="Fabrizio De André">Fabrizio De André</a><span>1964</span><span>Volume 3 (raccolta)</span><span>Cantautorato</span>
       </div>
@@ -2170,7 +2191,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="numb" style="--accent:#6B5A4A; --accent-2:#4A4A52;">
+    <section class="song" id="numb" style="--accent:#6B5A4A; --accent-2:#4A4A52; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#39</span><a href="#filter-bar" class="artist" data-artist="Linkin Park">Linkin Park</a><span>2003</span><span>Meteora</span><span>Nu metal / Rock alternativo</span>
       </div>
@@ -2191,7 +2212,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="africa" style="--accent:#C2822E; --accent-2:#3E6E5A;">
+    <section class="song" id="africa" style="--accent:#C2822E; --accent-2:#3E6E5A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#40</span><a href="#filter-bar" class="artist" data-artist="Toto">Toto</a><span>1982</span><span>Toto IV</span><span>Rock / Pop</span>
       </div>
@@ -2211,7 +2232,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="bring-me-to-life" style="--accent:#4A3E5C; --accent-2:#8A8578;">
+    <section class="song" id="bring-me-to-life" style="--accent:#4A3E5C; --accent-2:#8A8578; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#41</span><a href="#filter-bar" class="artist" data-artist="Evanescence">Evanescence</a><span>2003</span><span>Fallen</span><span>Rock / Nu metal</span>
       </div>
@@ -2230,7 +2251,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sweet-home-alabama" style="--accent:#A64A2E; --accent-2:#2E4A6E;">
+    <section class="song" id="sweet-home-alabama" style="--accent:#A64A2E; --accent-2:#2E4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#42</span><a href="#filter-bar" class="artist" data-artist="Lynyrd Skynyrd">Lynyrd Skynyrd</a><span>1974</span><span>Second Helping</span><span>Southern rock</span>
       </div>
@@ -2249,7 +2270,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="basket-case" style="--accent:#4A6E2E; --accent-2:#3A3A3A;">
+    <section class="song" id="basket-case" style="--accent:#4A6E2E; --accent-2:#3A3A3A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#43</span><a href="#filter-bar" class="artist" data-artist="Green Day">Green Day</a><span>1994</span><span>Dookie</span><span>Punk rock</span>
       </div>
@@ -2270,7 +2291,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="master-of-puppets" style="--accent:#5A4A6E; --accent-2:#6B6B6E;">
+    <section class="song" id="master-of-puppets" style="--accent:#5A4A6E; --accent-2:#6B6B6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#44</span><a href="#filter-bar" class="artist" data-artist="Metallica">Metallica</a><span>1986</span><span>Master of Puppets</span><span>Thrash metal</span>
       </div>
@@ -2291,7 +2312,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="litaliano" style="--accent:#2E6E4A; --accent-2:#8A1F22;">
+    <section class="song" id="litaliano" style="--accent:#2E6E4A; --accent-2:#8A1F22; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#45</span><a href="#filter-bar" class="artist" data-artist="Toto Cutugno">Toto Cutugno</a><span>1983</span><span>Singolo</span><span>Canzone italiana</span>
       </div>
@@ -2310,7 +2331,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sally" style="--accent:#C2453A; --accent-2:#2E4E6E;">
+    <section class="song" id="sally" style="--accent:#C2453A; --accent-2:#2E4E6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#46</span><a href="#filter-bar" class="artist" data-artist="Vasco Rossi">Vasco Rossi</a><span>1996</span><span>Nessun pericolo... per te</span><span>Rock italiano</span>
       </div>
@@ -2331,7 +2352,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="generale" style="--accent:#6E6E4A; --accent-2:#4A4A4A;">
+    <section class="song" id="generale" style="--accent:#6E6E4A; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#47</span><a href="#filter-bar" class="artist" data-artist="Francesco De Gregori">Francesco De Gregori</a><span>1978</span><span>De Gregori</span><span>Cantautorato</span>
       </div>
@@ -2352,7 +2373,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="cielo-stanza" style="--accent:#6E4A8A; --accent-2:#3E7AA6;">
+    <section class="song" id="cielo-stanza" style="--accent:#6E4A8A; --accent-2:#3E7AA6; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#48</span><a href="#filter-bar" class="artist" data-artist="Mina">Mina</a><span>1960</span><span>Singolo (scritta da Gino Paoli, 1959)</span><span>Canzone italiana</span>
       </div>
@@ -2371,7 +2392,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="zombie-cranberries" style="--accent:#5C6B3E; --accent-2:#7A1F1F;">
+    <section class="song" id="zombie-cranberries" style="--accent:#5C6B3E; --accent-2:#7A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#49</span><a href="#filter-bar" class="artist" data-artist="The Cranberries">The Cranberries</a><span>1994</span><span>No Need to Argue</span><span>Alternative rock</span>
       </div>
@@ -2390,7 +2411,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="livin-on-a-prayer" style="--accent:#4A5E8A; --accent-2:#8A2E3E;">
+    <section class="song" id="livin-on-a-prayer" style="--accent:#4A5E8A; --accent-2:#8A2E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#50</span><a href="#filter-bar" class="artist" data-artist="Bon Jovi">Bon Jovi</a><span>1986</span><span>Slippery When Wet</span><span>Rock</span>
       </div>
@@ -2408,7 +2429,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="smoke-on-the-water" style="--accent:#5C4A6E; --accent-2:#6B6B6B;">
+    <section class="song" id="smoke-on-the-water" style="--accent:#5C4A6E; --accent-2:#6B6B6B; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#51</span><a href="#filter-bar" class="artist" data-artist="Deep Purple">Deep Purple</a><span>1972</span><span>Machine Head</span><span>Hard rock</span>
       </div>
@@ -2428,7 +2449,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="crazy-train" style="--accent:#2E5A8A; --accent-2:#6E2E8A;">
+    <section class="song" id="crazy-train" style="--accent:#2E5A8A; --accent-2:#6E2E8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#52</span><a href="#filter-bar" class="artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</a><span>1980</span><span>Blizzard of Ozz</span><span>Heavy metal</span>
       </div>
@@ -2448,7 +2469,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="seven-nation-army" style="--accent:#A6231F; --accent-2:#4A4A4A;">
+    <section class="song" id="seven-nation-army" style="--accent:#A6231F; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#53</span><a href="#filter-bar" class="artist" data-artist="The White Stripes">The White Stripes</a><span>2003</span><span>Elephant</span><span>Rock alternativo</span>
       </div>
@@ -2466,7 +2487,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="piccolo-grande-amore" style="--accent:#A66B3E; --accent-2:#3E6B8A;">
+    <section class="song" id="piccolo-grande-amore" style="--accent:#A66B3E; --accent-2:#3E6B8A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#54</span><a href="#filter-bar" class="artist" data-artist="Claudio Baglioni">Claudio Baglioni</a><span>1972</span><span>Questo piccolo grande amore</span><span>Cantautorato</span>
       </div>
@@ -2484,7 +2505,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="felicita" style="--accent:#A6821E; --accent-2:#3E8A6B;">
+    <section class="song" id="felicita" style="--accent:#A6821E; --accent-2:#3E8A6B; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#55</span><a href="#filter-bar" class="artist" data-artist="Al Bano e Romina Power">Al Bano e Romina Power</a><span>1982</span><span>Singolo</span><span>Pop italiano</span>
       </div>
@@ -2502,7 +2523,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="4-marzo-1943" style="--accent:#3E5A8A; --accent-2:#8A6B3E;">
+    <section class="song" id="4-marzo-1943" style="--accent:#3E5A8A; --accent-2:#8A6B3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#56</span><a href="#filter-bar" class="artist" data-artist="Lucio Dalla">Lucio Dalla</a><span>1971</span><span>Storie di casa mia</span><span>Cantautorato</span>
       </div>
@@ -2522,7 +2543,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="black-hole-sun" style="--accent:#4A3E6E; --accent-2:#A6821E;">
+    <section class="song" id="black-hole-sun" style="--accent:#4A3E6E; --accent-2:#A6821E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#57</span><a href="#filter-bar" class="artist" data-artist="Soundgarden">Soundgarden</a><span>1994</span><span>Superunknown</span><span>Grunge</span>
       </div>
@@ -2540,7 +2561,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="iron-man" style="--accent:#5C5C6B; --accent-2:#6E2E2E;">
+    <section class="song" id="iron-man" style="--accent:#5C5C6B; --accent-2:#6E2E2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#58</span><a href="#filter-bar" class="artist" data-artist="Black Sabbath">Black Sabbath</a><span>1970</span><span>Paranoid</span><span>Heavy metal</span>
       </div>
@@ -2560,7 +2581,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="should-i-stay" style="--accent:#A6231F; --accent-2:#3E3E3E;">
+    <section class="song" id="should-i-stay" style="--accent:#A6231F; --accent-2:#3E3E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#59</span><a href="#filter-bar" class="artist" data-artist="The Clash">The Clash</a><span>1982</span><span>Combat Rock</span><span>Punk rock</span>
       </div>
@@ -2578,7 +2599,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="rimmel" style="--accent:#6E2E4A; --accent-2:#4A4A4A;">
+    <section class="song" id="rimmel" style="--accent:#6E2E4A; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#60</span><a href="#filter-bar" class="artist" data-artist="Francesco De Gregori">Francesco De Gregori</a><span>1975</span><span>Rimmel</span><span>Cantautorato</span>
       </div>
@@ -2598,7 +2619,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="vivo-per-lei" style="--accent:#8A6B2E; --accent-2:#3E5A8A;">
+    <section class="song" id="vivo-per-lei" style="--accent:#8A6B2E; --accent-2:#3E5A8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#61</span><a href="#filter-bar" class="artist" data-artist="Andrea Bocelli e Giorgia">Andrea Bocelli e Giorgia</a><span>1995</span><span>Bocelli (album)</span><span>Pop / Musica melodica</span>
       </div>
@@ -2616,7 +2637,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="purple-rain" style="--accent:#5E2A7E; --accent-2:#B8901F;">
+    <section class="song" id="purple-rain" style="--accent:#5E2A7E; --accent-2:#B8901F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#62</span><a href="#filter-bar" class="artist" data-artist="Prince">Prince</a><span>1984</span><span>Purple Rain (colonna sonora)</span><span>Rock / Soul / Gospel</span>
       </div>
@@ -2636,7 +2657,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="wish-you-were-here" style="--accent:#B5451D; --accent-2:#2E2A26;">
+    <section class="song" id="wish-you-were-here" style="--accent:#B5451D; --accent-2:#2E2A26; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#63</span><a href="#filter-bar" class="artist" data-artist="Pink Floyd">Pink Floyd</a><span>1975</span><span>Wish You Were Here</span><span>Rock progressivo</span>
       </div>
@@ -2654,7 +2675,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="hurt" style="--accent:#1A1A1A; --accent-2:#8C1D1D;">
+    <section class="song" id="hurt" style="--accent:#1A1A1A; --accent-2:#8C1D1D; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#64</span><a href="#filter-bar" class="artist" data-artist="Nine Inch Nails">Nine Inch Nails</a><span>1994</span><span>The Downward Spiral</span><span>Industrial / Alternative</span>
       </div>
@@ -2674,7 +2695,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="take-on-me" style="--accent:#2A4B7C; --accent-2:#C98A3B;">
+    <section class="song" id="take-on-me" style="--accent:#2A4B7C; --accent-2:#C98A3B; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#65</span><a href="#filter-bar" class="artist" data-artist="a-ha">a-ha</a><span>1985</span><span>Hunting High and Low</span><span>Synth-pop / New Wave</span>
       </div>
@@ -2692,7 +2713,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="dreams" style="--accent:#4A3F52; --accent-2:#8C6E3E;">
+    <section class="song" id="dreams" style="--accent:#4A3F52; --accent-2:#8C6E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#66</span><a href="#filter-bar" class="artist" data-artist="Fleetwood Mac">Fleetwood Mac</a><span>1977</span><span>Rumours</span><span>Rock / Soft Rock</span>
       </div>
@@ -2710,7 +2731,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="heroes" style="--accent:#2A2A2E; --accent-2:#7A8A94;">
+    <section class="song" id="heroes" style="--accent:#2A2A2E; --accent-2:#7A8A94; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#67</span><a href="#filter-bar" class="artist" data-artist="David Bowie">David Bowie</a><span>1977</span><span>"Heroes"</span><span>Art rock / Glam rock</span>
       </div>
@@ -2728,7 +2749,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="senza-una-donna" style="--accent:#3E5A72; --accent-2:#A6691E;">
+    <section class="song" id="senza-una-donna" style="--accent:#3E5A72; --accent-2:#A6691E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#68</span><a href="#filter-bar" class="artist" data-artist="Zucchero">Zucchero</a><span>1987 / 1991</span><span>Blue's</span><span>Blues / Pop italiana</span>
       </div>
@@ -2746,7 +2767,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="under-the-bridge" style="--accent:#8A2E1F; --accent-2:#3E5A72;">
+    <section class="song" id="under-the-bridge" style="--accent:#8A2E1F; --accent-2:#3E5A72; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#69</span><a href="#filter-bar" class="artist" data-artist="Red Hot Chili Peppers">Red Hot Chili Peppers</a><span>1991</span><span>Blood Sugar Sex Magik</span><span>Alternative rock</span>
       </div>
@@ -2764,7 +2785,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="every-breath-you-take" style="--accent:#4A5E3E; --accent-2:#8A6B2E;">
+    <section class="song" id="every-breath-you-take" style="--accent:#4A5E3E; --accent-2:#8A6B2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#70</span><a href="#filter-bar" class="artist" data-artist="The Police">The Police</a><span>1983</span><span>Synchronicity</span><span>Rock / New Wave</span>
       </div>
@@ -2782,7 +2803,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="fast-car" style="--accent:#5C4A3E; --accent-2:#3E6B5A;">
+    <section class="song" id="fast-car" style="--accent:#5C4A3E; --accent-2:#3E6B5A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#71</span><a href="#filter-bar" class="artist" data-artist="Tracy Chapman">Tracy Chapman</a><span>1988</span><span>Tracy Chapman</span><span>Folk rock</span>
       </div>
@@ -2800,7 +2821,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="losing-my-religion" style="--accent:#8A4A1F; --accent-2:#3E5A6E;">
+    <section class="song" id="losing-my-religion" style="--accent:#8A4A1F; --accent-2:#3E5A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#72</span><a href="#filter-bar" class="artist" data-artist="R.E.M.">R.E.M.</a><span>1991</span><span>Out of Time</span><span>Alternative rock / Jangle pop</span>
       </div>
@@ -2818,7 +2839,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="i-will-always-love-you" style="--accent:#6E1F2E; --accent-2:#8A6B2E;">
+    <section class="song" id="i-will-always-love-you" style="--accent:#6E1F2E; --accent-2:#8A6B2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#73</span><a href="#filter-bar" class="artist" data-artist="Whitney Houston">Whitney Houston</a><span>1992</span><span>The Bodyguard</span><span>Pop / R&B / Soul</span>
       </div>
@@ -2836,7 +2857,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="yes-i-know-my-way" style="--accent:#1F6B7A; --accent-2:#B37A2E;">
+    <section class="song" id="yes-i-know-my-way" style="--accent:#1F6B7A; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#74</span><a href="#filter-bar" class="artist" data-artist="Pino Daniele">Pino Daniele</a><span>1981</span><span>Vai mo'</span><span>Blues / Funk / Napoletano</span>
       </div>
@@ -2854,7 +2875,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="the-sound-of-silence" style="--accent:#2E3A4A; --accent-2:#5C6B78;">
+    <section class="song" id="the-sound-of-silence" style="--accent:#2E3A4A; --accent-2:#5C6B78; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#75</span><a href="#filter-bar" class="artist" data-artist="Simon &amp; Garfunkel">Simon & Garfunkel</a><span>1964 / 1965</span><span>Wednesday Morning, 3 A.M. / Sounds of Silence</span><span>Folk rock</span>
       </div>
@@ -2872,7 +2893,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="paint-it-black" style="--accent:#1C1C1C; --accent-2:#8A1F1F;">
+    <section class="song" id="paint-it-black" style="--accent:#1C1C1C; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#76</span><a href="#filter-bar" class="artist" data-artist="The Rolling Stones">The Rolling Stones</a><span>1966</span><span>Aftermath</span><span>Rock / Psichedelia</span>
       </div>
@@ -2890,7 +2911,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="piu-bella-cosa" style="--accent:#B3661F; --accent-2:#5C3E6E;">
+    <section class="song" id="piu-bella-cosa" style="--accent:#B3661F; --accent-2:#5C3E6E; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#77</span><a href="#filter-bar" class="artist" data-artist="Eros Ramazzotti">Eros Ramazzotti</a><span>1996</span><span>Dove c'è musica</span><span>Pop italiana</span>
       </div>
@@ -2908,7 +2929,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="rocket-man" style="--accent:#2E3A5C; --accent-2:#B37A2E;">
+    <section class="song" id="rocket-man" style="--accent:#2E3A5C; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#78</span><a href="#filter-bar" class="artist" data-artist="Elton John">Elton John</a><span>1972</span><span>Honky Château</span><span>Pop rock</span>
       </div>
@@ -2926,7 +2947,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="yellow" style="--accent:#A68A1F; --accent-2:#3E4A5C;">
+    <section class="song" id="yellow" style="--accent:#A68A1F; --accent-2:#3E4A5C; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#79</span><a href="#filter-bar" class="artist" data-artist="Coldplay">Coldplay</a><span>2000</span><span>Parachutes</span><span>Alternative rock / Britpop</span>
       </div>
@@ -2944,7 +2965,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="il-carrozzone" style="--accent:#6E1F5C; --accent-2:#B37A2E;">
+    <section class="song" id="il-carrozzone" style="--accent:#6E1F5C; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#80</span><a href="#filter-bar" class="artist" data-artist="Renato Zero">Renato Zero</a><span>1979</span><span>EroZero</span><span>Pop italiana / Cantautorato</span>
       </div>
@@ -2962,7 +2983,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="can-you-feel-my-heart" style="--accent:#1F2E3E; --accent-2:#6E1FA6;">
+    <section class="song" id="can-you-feel-my-heart" style="--accent:#1F2E3E; --accent-2:#6E1FA6; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#81</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2013</span><span>Sempiternal</span><span>Metalcore / Electronicore</span>
       </div>
@@ -2982,7 +3003,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="drown" style="--accent:#1D5C8A; --accent-2:#8A1F3E;">
+    <section class="song" id="drown" style="--accent:#1D5C8A; --accent-2:#8A1F3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#82</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2014 / 2015</span><span>That's the Spirit</span><span>Metalcore / Alternative rock</span>
       </div>
@@ -3002,7 +3023,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="throne" style="--accent:#5C1F8A; --accent-2:#B37A2E;">
+    <section class="song" id="throne" style="--accent:#5C1F8A; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#83</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2015</span><span>That's the Spirit</span><span>Metalcore / Alternative rock</span>
       </div>
@@ -3022,7 +3043,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="mantra" style="--accent:#8A1F2E; --accent-2:#1F2E4A;">
+    <section class="song" id="mantra" style="--accent:#8A1F2E; --accent-2:#1F2E4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#84</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2018</span><span>amo</span><span>Rock alternativo / Pop rock</span>
       </div>
@@ -3042,7 +3063,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sleepwalking" style="--accent:#2E1F4A; --accent-2:#4A6E8A;">
+    <section class="song" id="sleepwalking" style="--accent:#2E1F4A; --accent-2:#4A6E8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#85</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2013</span><span>Sempiternal</span><span>Metalcore / Alternative rock</span>
       </div>
@@ -3062,7 +3083,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="antivist" style="--accent:#3E1F1F; --accent-2:#6E6E1F;">
+    <section class="song" id="antivist" style="--accent:#3E1F1F; --accent-2:#6E6E1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#86</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2013</span><span>Sempiternal</span><span>Metalcore</span>
       </div>
@@ -3078,7 +3099,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="chelsea-smile" style="--accent:#3E1F2E; --accent-2:#1F1F1F;">
+    <section class="song" id="chelsea-smile" style="--accent:#3E1F2E; --accent-2:#1F1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#87</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2008</span><span>Suicide Season</span><span>Metalcore / Deathcore</span>
       </div>
@@ -3094,7 +3115,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="doomed" style="--accent:#4A3E2E; --accent-2:#6E5A8A;">
+    <section class="song" id="doomed" style="--accent:#4A3E2E; --accent-2:#6E5A8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#88</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2015</span><span>That's the Spirit</span><span>Alternative rock</span>
       </div>
@@ -3110,7 +3131,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="follow-you" style="--accent:#8A2E4A; --accent-2:#2E4A6E;">
+    <section class="song" id="follow-you" style="--accent:#8A2E4A; --accent-2:#2E4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#89</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2019</span><span>amo</span><span>Pop rock / Electronic rock</span>
       </div>
@@ -3126,7 +3147,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="parasite-eve" style="--accent:#3E5C1F; --accent-2:#6E1F1F;">
+    <section class="song" id="parasite-eve" style="--accent:#3E5C1F; --accent-2:#6E1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#90</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2020</span><span>POST HUMAN: Survival Horror</span><span>Metalcore / Nu metal</span>
       </div>
@@ -3142,7 +3163,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="lost" style="--accent:#3E4A6E; --accent-2:#8A6E8A;">
+    <section class="song" id="lost" style="--accent:#3E4A6E; --accent-2:#8A6E8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#91</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2023 / 2024</span><span>POST HUMAN: NeX GEn</span><span>Alternative rock / Emo</span>
       </div>
@@ -3158,7 +3179,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="die4u" style="--accent:#5C1F3E; --accent-2:#1F3E5C;">
+    <section class="song" id="die4u" style="--accent:#5C1F3E; --accent-2:#1F3E5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#92</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2021 / 2024</span><span>POST HUMAN: NeX GEn</span><span>Alternative rock / Pop punk</span>
       </div>
@@ -3174,7 +3195,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="riders-on-the-storm" style="--accent:#1F2E3E; --accent-2:#3E4A4A;">
+    <section class="song" id="riders-on-the-storm" style="--accent:#1F2E3E; --accent-2:#3E4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#93</span><a href="#filter-bar" class="artist" data-artist="The Doors">The Doors</a><span>1971</span><span>L.A. Woman</span><span>Psichedelia / Rock</span>
       </div>
@@ -3188,7 +3209,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="personal-jesus" style="--accent:#6E1F1F; --accent-2:#1A1A1A;">
+    <section class="song" id="personal-jesus" style="--accent:#6E1F1F; --accent-2:#1A1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#94</span><a href="#filter-bar" class="artist" data-artist="Depeche Mode">Depeche Mode</a><span>1989</span><span>Violator</span><span>Synth rock</span>
       </div>
@@ -3202,7 +3223,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sono-solo-canzonette" style="--accent:#1F6B8A; --accent-2:#B37A2E;">
+    <section class="song" id="sono-solo-canzonette" style="--accent:#1F6B8A; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#95</span><a href="#filter-bar" class="artist" data-artist="Edoardo Bennato">Edoardo Bennato</a><span>1980</span><span>Sono solo canzonette</span><span>Cantautorato / Rock italiano</span>
       </div>
@@ -3216,7 +3237,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="shadow-moses" style="--accent:#2E1F1F; --accent-2:#8A6E1F;">
+    <section class="song" id="shadow-moses" style="--accent:#2E1F1F; --accent-2:#8A6E1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#96</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2013</span><span>Sempiternal</span><span>Metalcore</span>
       </div>
@@ -3232,7 +3253,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="wonderful-life" style="--accent:#1F3E2E; --accent-2:#8A1F1F;">
+    <section class="song" id="wonderful-life" style="--accent:#1F3E2E; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#97</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2018</span><span>amo</span><span>Alternative rock / Metalcore</span>
       </div>
@@ -3248,7 +3269,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="nihilist-blues" style="--accent:#1F1F3E; --accent-2:#8A1F6E;">
+    <section class="song" id="nihilist-blues" style="--accent:#1F1F3E; --accent-2:#8A1F6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#98</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2019</span><span>amo</span><span>Pop rock / Electronic rock</span>
       </div>
@@ -3264,7 +3285,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="one" style="--accent:#2E2E2E; --accent-2:#6E1F1F;">
+    <section class="song" id="one" style="--accent:#2E2E2E; --accent-2:#6E1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#99</span><a href="#filter-bar" class="artist" data-artist="Metallica">Metallica</a><span>1988</span><span>...And Justice for All</span><span>Thrash metal</span>
       </div>
@@ -3280,7 +3301,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="ace-of-spades" style="--accent:#1A1A1A; --accent-2:#B37A2E;">
+    <section class="song" id="ace-of-spades" style="--accent:#1A1A1A; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#100</span><a href="#filter-bar" class="artist" data-artist="Motörhead">Motörhead</a><span>1980</span><span>Ace of Spades</span><span>Heavy metal</span>
       </div>
@@ -3296,7 +3317,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="psychosocial" style="--accent:#3E3E3E; --accent-2:#8A1F1F;">
+    <section class="song" id="psychosocial" style="--accent:#3E3E3E; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#101</span><a href="#filter-bar" class="artist" data-artist="Slipknot">Slipknot</a><span>2008</span><span>All Hope Is Gone</span><span>Nu metal / Alternative metal</span>
       </div>
@@ -3312,7 +3333,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="symphony-of-destruction" style="--accent:#4A1F1F; --accent-2:#3E3E1F;">
+    <section class="song" id="symphony-of-destruction" style="--accent:#4A1F1F; --accent-2:#3E3E1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#102</span><a href="#filter-bar" class="artist" data-artist="Megadeth">Megadeth</a><span>1992</span><span>Countdown to Extinction</span><span>Thrash metal</span>
       </div>
@@ -3328,7 +3349,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sober" style="--accent:#1F1F1F; --accent-2:#3E5C5C;">
+    <section class="song" id="sober" style="--accent:#1F1F1F; --accent-2:#3E5C5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#103</span><a href="#filter-bar" class="artist" data-artist="Tool">Tool</a><span>1993</span><span>Undertow</span><span>Progressive metal / Alternative metal</span>
       </div>
@@ -3342,7 +3363,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="square-hammer" style="--accent:#1F1F2E; --accent-2:#8A1F1F;">
+    <section class="song" id="square-hammer" style="--accent:#1F1F2E; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#104</span><a href="#filter-bar" class="artist" data-artist="Ghost">Ghost</a><span>2016</span><span>Popestar</span><span>Heavy metal / Occult rock</span>
       </div>
@@ -3356,7 +3377,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="american-idiot" style="--accent:#8A1F1F; --accent-2:#1A1A1A;">
+    <section class="song" id="american-idiot" style="--accent:#8A1F1F; --accent-2:#1A1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#105</span><a href="#filter-bar" class="artist" data-artist="Green Day">Green Day</a><span>2004</span><span>American Idiot</span><span>Punk rock</span>
       </div>
@@ -3372,7 +3393,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="boulevard-of-broken-dreams" style="--accent:#3E3E4A; --accent-2:#6E1F1F;">
+    <section class="song" id="boulevard-of-broken-dreams" style="--accent:#3E3E4A; --accent-2:#6E1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#106</span><a href="#filter-bar" class="artist" data-artist="Green Day">Green Day</a><span>2004</span><span>American Idiot</span><span>Punk rock / Alternative rock</span>
       </div>
@@ -3388,7 +3409,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="fat-lip" style="--accent:#B37A1F; --accent-2:#1A1A1A;">
+    <section class="song" id="fat-lip" style="--accent:#B37A1F; --accent-2:#1A1A1A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#107</span><a href="#filter-bar" class="artist" data-artist="Sum 41">Sum 41</a><span>2001</span><span>All Killer No Filler</span><span>Pop punk</span>
       </div>
@@ -3404,7 +3425,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="in-too-deep" style="--accent:#1F5C8A; --accent-2:#3E3E3E;">
+    <section class="song" id="in-too-deep" style="--accent:#1F5C8A; --accent-2:#3E3E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#108</span><a href="#filter-bar" class="artist" data-artist="Sum 41">Sum 41</a><span>2001</span><span>All Killer No Filler</span><span>Pop punk</span>
       </div>
@@ -3420,7 +3441,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="crawling" style="--accent:#4A1F4A; --accent-2:#6E6E6E;">
+    <section class="song" id="crawling" style="--accent:#4A1F4A; --accent-2:#6E6E6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#109</span><a href="#filter-bar" class="artist" data-artist="Linkin Park">Linkin Park</a><span>2000 / 2001</span><span>Hybrid Theory</span><span>Nu metal</span>
       </div>
@@ -3436,7 +3457,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="one-step-closer" style="--accent:#8A1F2E; --accent-2:#2E2E2E;">
+    <section class="song" id="one-step-closer" style="--accent:#8A1F2E; --accent-2:#2E2E2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#110</span><a href="#filter-bar" class="artist" data-artist="Linkin Park">Linkin Park</a><span>2000</span><span>Hybrid Theory</span><span>Nu metal</span>
       </div>
@@ -3452,7 +3473,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="uprising" style="--accent:#1F3E6E; --accent-2:#B37A1F;">
+    <section class="song" id="uprising" style="--accent:#1F3E6E; --accent-2:#B37A1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#111</span><a href="#filter-bar" class="artist" data-artist="Muse">Muse</a><span>2009</span><span>The Resistance</span><span>Rock alternativo</span>
       </div>
@@ -3468,7 +3489,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="starlight" style="--accent:#2E3E6E; --accent-2:#8A8A6E;">
+    <section class="song" id="starlight" style="--accent:#2E3E6E; --accent-2:#8A8A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#112</span><a href="#filter-bar" class="artist" data-artist="Muse">Muse</a><span>2006</span><span>Black Holes and Revelations</span><span>Rock alternativo</span>
       </div>
@@ -3484,7 +3505,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="all-the-small-things" style="--accent:#B3661F; --accent-2:#3E6B8A;">
+    <section class="song" id="all-the-small-things" style="--accent:#B3661F; --accent-2:#3E6B8A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#113</span><a href="#filter-bar" class="artist" data-artist="Blink-182">Blink-182</a><span>1999</span><span>Enema of the State</span><span>Pop punk</span>
       </div>
@@ -3500,7 +3521,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="i-miss-you" style="--accent:#3E1F5C; --accent-2:#6E6E8A;">
+    <section class="song" id="i-miss-you" style="--accent:#3E1F5C; --accent-2:#6E6E8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#114</span><a href="#filter-bar" class="artist" data-artist="Blink-182">Blink-182</a><span>2003</span><span>blink-182</span><span>Pop punk / Alternative rock</span>
       </div>
@@ -3516,7 +3537,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="she-looks-so-perfect" style="--accent:#2E6E8A; --accent-2:#B34A6E;">
+    <section class="song" id="she-looks-so-perfect" style="--accent:#2E6E8A; --accent-2:#B34A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#115</span><a href="#filter-bar" class="artist" data-artist="5 Seconds of Summer">5 Seconds of Summer</a><span>2014</span><span>5 Seconds of Summer</span><span>Pop punk / Pop rock</span>
       </div>
@@ -3530,7 +3551,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="still-waiting" style="--accent:#4A4A1F; --accent-2:#8A1F1F;">
+    <section class="song" id="still-waiting" style="--accent:#4A4A1F; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#116</span><a href="#filter-bar" class="artist" data-artist="Sum 41">Sum 41</a><span>2002</span><span>Does This Look Infected?</span><span>Pop punk</span>
       </div>
@@ -3546,7 +3567,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="whats-my-age-again" style="--accent:#1F6E4A; --accent-2:#3E3E3E;">
+    <section class="song" id="whats-my-age-again" style="--accent:#1F6E4A; --accent-2:#3E3E3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#117</span><a href="#filter-bar" class="artist" data-artist="Blink-182">Blink-182</a><span>1999</span><span>Enema of the State</span><span>Pop punk</span>
       </div>
@@ -3562,7 +3583,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="happy-song" style="--accent:#B3A61F; --accent-2:#3E1F1F;">
+    <section class="song" id="happy-song" style="--accent:#B3A61F; --accent-2:#3E1F1F; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#118</span><a href="#filter-bar" class="artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</a><span>2015</span><span>That's the Spirit</span><span>Alternative rock</span>
       </div>
@@ -3578,7 +3599,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="ho-messo-via" style="--accent:#5C4A2E; --accent-2:#3E5C6E;">
+    <section class="song" id="ho-messo-via" style="--accent:#5C4A2E; --accent-2:#3E5C6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#119</span><a href="#filter-bar" class="artist" data-artist="Ligabue">Ligabue</a><span>1993</span><span>Sopravvissuti e sopravviventi</span><span>Rock italiano</span>
       </div>
@@ -3594,7 +3615,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="hanno-ucciso-luomo-ragno" style="--accent:#8A1F1F; --accent-2:#1F1F3E;">
+    <section class="song" id="hanno-ucciso-luomo-ragno" style="--accent:#8A1F1F; --accent-2:#1F1F3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#120</span><a href="#filter-bar" class="artist" data-artist="883">883</a><span>1992</span><span>Hanno ucciso l'Uomo Ragno</span><span>Pop rock italiano</span>
       </div>
@@ -3608,7 +3629,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="wake-me-up" style="--accent:#1F6E6E; --accent-2:#B37A2E;">
+    <section class="song" id="wake-me-up" style="--accent:#1F6E6E; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#121</span><a href="#filter-bar" class="artist" data-artist="Avicii">Avicii</a><span>2013</span><span>True</span><span>Dance / Folk house</span>
       </div>
@@ -3622,7 +3643,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="hypa-hypa" style="--accent:#6E1F8A; --accent-2:#1FB3B3;">
+    <section class="song" id="hypa-hypa" style="--accent:#6E1F8A; --accent-2:#1FB3B3; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#122</span><a href="#filter-bar" class="artist" data-artist="Electric Callboy">Electric Callboy</a><span>2020</span><span>MMXX</span><span>Metalcore / Electronicore</span>
       </div>
@@ -3636,7 +3657,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="diventerai-una-star" style="--accent:#B3821F; --accent-2:#3E1F5C;">
+    <section class="song" id="diventerai-una-star" style="--accent:#B3821F; --accent-2:#3E1F5C; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#123</span><a href="#filter-bar" class="artist" data-artist="Finley">Finley</a><span>2007</span><span>Tutto è possibile</span><span>Pop punk italiano</span>
       </div>
@@ -3650,7 +3671,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="vieni-a-ballare-in-puglia" style="--accent:#1F6B8A; --accent-2:#8A6B1F;">
+    <section class="song" id="vieni-a-ballare-in-puglia" style="--accent:#1F6B8A; --accent-2:#8A6B1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#124</span><a href="#filter-bar" class="artist" data-artist="Caparezza">Caparezza</a><span>2008</span><span>Le dimensioni del mio caos</span><span>Rap / Hip hop italiano</span>
       </div>
@@ -3664,7 +3685,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="marmellata-25" style="--accent:#8A3E1F; --accent-2:#3E3E5C;">
+    <section class="song" id="marmellata-25" style="--accent:#8A3E1F; --accent-2:#3E3E5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#125</span><a href="#filter-bar" class="artist" data-artist="Cesare Cremonini">Cesare Cremonini</a><span>2005</span><span>Maggese</span><span>Pop rock italiano</span>
       </div>
@@ -3678,7 +3699,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="get-lucky" style="--accent:#B3821F; --accent-2:#1A1A1A;">
+    <section class="song" id="get-lucky" style="--accent:#B3821F; --accent-2:#1A1A1A; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#126</span><a href="#filter-bar" class="artist" data-artist="Daft Punk">Daft Punk</a><span>2013</span><span>Random Access Memories</span><span>Disco / Electronic</span>
       </div>
@@ -3692,7 +3713,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="shape-of-you" style="--accent:#1F5C8A; --accent-2:#B3661F;">
+    <section class="song" id="shape-of-you" style="--accent:#1F5C8A; --accent-2:#B3661F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#127</span><a href="#filter-bar" class="artist" data-artist="Ed Sheeran">Ed Sheeran</a><span>2017</span><span>÷ (Divide)</span><span>Pop</span>
       </div>
@@ -3706,7 +3727,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sugar-were-goin-down" style="--accent:#5C1F3E; --accent-2:#3E3E6E;">
+    <section class="song" id="sugar-were-goin-down" style="--accent:#5C1F3E; --accent-2:#3E3E6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#128</span><a href="#filter-bar" class="artist" data-artist="Fall Out Boy">Fall Out Boy</a><span>2005</span><span>From Under the Cork Tree</span><span>Pop punk / Emo</span>
       </div>
@@ -3720,7 +3741,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="ragu" style="--accent:#8A2E1F; --accent-2:#3E5C2E;">
+    <section class="song" id="ragu" style="--accent:#8A2E1F; --accent-2:#3E5C2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#129</span><a href="#filter-bar" class="artist" data-artist="Fulminacci">Fulminacci</a><span>2023</span><span>Infinito +1</span><span>Cantautorato italiano</span>
       </div>
@@ -3734,7 +3755,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="21-guns" style="--accent:#2E2E2E; --accent-2:#8A1F1F;">
+    <section class="song" id="21-guns" style="--accent:#2E2E2E; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#130</span><a href="#filter-bar" class="artist" data-artist="Green Day">Green Day</a><span>2009</span><span>21st Century Breakdown</span><span>Punk rock</span>
       </div>
@@ -3750,7 +3771,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="mr-brightside" style="--accent:#8A1F2E; --accent-2:#1F1F3E;">
+    <section class="song" id="mr-brightside" style="--accent:#8A1F2E; --accent-2:#1F1F3E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#131</span><a href="#filter-bar" class="artist" data-artist="The Killers">The Killers</a><span>2003</span><span>Hot Fuss</span><span>Indie rock</span>
       </div>
@@ -3764,7 +3785,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="cattiva" style="--accent:#5C1F5C; --accent-2:#1A1A1A;">
+    <section class="song" id="cattiva" style="--accent:#5C1F5C; --accent-2:#1A1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#132</span><a href="#filter-bar" class="artist" data-artist="Naska">Naska</a><span>2023</span><span>La mia stanza</span><span>Pop punk italiano</span>
       </div>
@@ -3778,7 +3799,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="break-stuff" style="--accent:#1A1A1A; --accent-2:#B3661F;">
+    <section class="song" id="break-stuff" style="--accent:#1A1A1A; --accent-2:#B3661F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#133</span><a href="#filter-bar" class="artist" data-artist="Limp Bizkit">Limp Bizkit</a><span>2000</span><span>Significant Other</span><span>Nu metal</span>
       </div>
@@ -3792,7 +3813,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="my-exs-best-friend" style="--accent:#3E1F5C; --accent-2:#B34A6E;">
+    <section class="song" id="my-exs-best-friend" style="--accent:#3E1F5C; --accent-2:#B34A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#134</span><a href="#filter-bar" class="artist" data-artist="Machine Gun Kelly">Machine Gun Kelly</a><span>2020</span><span>Tickets to My Downfall</span><span>Pop punk</span>
       </div>
@@ -3806,7 +3827,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="welcome-to-the-black-parade" style="--accent:#1A1A1A; --accent-2:#8A1F1F;">
+    <section class="song" id="welcome-to-the-black-parade" style="--accent:#1A1A1A; --accent-2:#8A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#135</span><a href="#filter-bar" class="artist" data-artist="My Chemical Romance">My Chemical Romance</a><span>2006</span><span>The Black Parade</span><span>Emo / Rock alternativo</span>
       </div>
@@ -3820,7 +3841,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="supermassive-black-hole" style="--accent:#1F1F3E; --accent-2:#6E1F8A;">
+    <section class="song" id="supermassive-black-hole" style="--accent:#1F1F3E; --accent-2:#6E1F8A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#136</span><a href="#filter-bar" class="artist" data-artist="Muse">Muse</a><span>2006</span><span>Black Holes and Revelations</span><span>Rock alternativo</span>
       </div>
@@ -3836,7 +3857,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="dont-look-back-in-anger" style="--accent:#3E5C8A; --accent-2:#B37A2E;">
+    <section class="song" id="dont-look-back-in-anger" style="--accent:#3E5C8A; --accent-2:#B37A2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#137</span><a href="#filter-bar" class="artist" data-artist="Oasis">Oasis</a><span>1995</span><span>(What's the Story) Morning Glory?</span><span>Britpop</span>
       </div>
@@ -3852,7 +3873,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="ringo-starr" style="--accent:#4A5C8A; --accent-2:#6E6E6E;">
+    <section class="song" id="ringo-starr" style="--accent:#4A5C8A; --accent-2:#6E6E6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#138</span><a href="#filter-bar" class="artist" data-artist="Pinguini Tattici Nucleari">Pinguini Tattici Nucleari</a><span>2020</span><span>Sanremo 2020 / Fuori dall'hype</span><span>Pop rock italiano</span>
       </div>
@@ -3866,7 +3887,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="everlong" style="--accent:#C23B1F; --accent-2:#2E4A6E;">
+    <section class="song" id="everlong" style="--accent:#C23B1F; --accent-2:#2E4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#139</span><a href="#filter-bar" class="artist" data-artist="Foo Fighters">Foo Fighters</a><span>1997</span><span>The Colour and the Shape</span><span>Alternative rock</span>
       </div>
@@ -3888,7 +3909,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="the-trooper" style="--accent:#7A1F1F; --accent-2:#8A8A5C;">
+    <section class="song" id="the-trooper" style="--accent:#7A1F1F; --accent-2:#8A8A5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#140</span><a href="#filter-bar" class="artist" data-artist="Iron Maiden">Iron Maiden</a><span>1983</span><span>Piece of Mind</span><span>Heavy metal</span>
       </div>
@@ -3911,7 +3932,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="angel-of-death" style="--accent:#5C1A1A; --accent-2:#6B6B6B;">
+    <section class="song" id="angel-of-death" style="--accent:#5C1A1A; --accent-2:#6B6B6B; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#141</span><a href="#filter-bar" class="artist" data-artist="Slayer">Slayer</a><span>1986</span><span>Reign in Blood</span><span>Thrash metal</span>
       </div>
@@ -3934,7 +3955,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="cowboys-from-hell" style="--accent:#A6541F; --accent-2:#4A4A4A;">
+    <section class="song" id="cowboys-from-hell" style="--accent:#A6541F; --accent-2:#4A4A4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#142</span><a href="#filter-bar" class="artist" data-artist="Pantera">Pantera</a><span>1990</span><span>Cowboys from Hell</span><span>Groove metal</span>
       </div>
@@ -3957,7 +3978,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="byob" style="--accent:#7A2E1F; --accent-2:#2E6E5C;">
+    <section class="song" id="byob" style="--accent:#7A2E1F; --accent-2:#2E6E5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#143</span><a href="#filter-bar" class="artist" data-artist="System of a Down">System of a Down</a><span>2005</span><span>Mezmerize</span><span>Alternative / Nu metal</span>
       </div>
@@ -3980,7 +4001,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="wait-and-bleed" style="--accent:#3A3A3A; --accent-2:#7A1F1F;">
+    <section class="song" id="wait-and-bleed" style="--accent:#3A3A3A; --accent-2:#7A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#144</span><a href="#filter-bar" class="artist" data-artist="Slipknot">Slipknot</a><span>1999</span><span>Slipknot</span><span>Nu metal / Alternative metal</span>
       </div>
@@ -4003,7 +4024,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sonne" style="--accent:#B3901F; --accent-2:#2E2E2E;">
+    <section class="song" id="sonne" style="--accent:#B3901F; --accent-2:#2E2E2E; --btn-fg-light:#000000; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#145</span><a href="#filter-bar" class="artist" data-artist="Rammstein">Rammstein</a><span>2001</span><span>Mutter</span><span>Industrial metal</span>
       </div>
@@ -4026,7 +4047,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="youve-got-another-thing-comin" style="--accent:#5C5C5C; --accent-2:#B3221F;">
+    <section class="song" id="youve-got-another-thing-comin" style="--accent:#5C5C5C; --accent-2:#B3221F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#146</span><a href="#filter-bar" class="artist" data-artist="Judas Priest">Judas Priest</a><span>1982</span><span>Screaming for Vengeance</span><span>Heavy metal</span>
       </div>
@@ -4049,7 +4070,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="overkill" style="--accent:#2E2E2E; --accent-2:#B3221F;">
+    <section class="song" id="overkill" style="--accent:#2E2E2E; --accent-2:#B3221F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#147</span><a href="#filter-bar" class="artist" data-artist="Motörhead">Motörhead</a><span>1979</span><span>Overkill</span><span>Heavy metal</span>
       </div>
@@ -4072,7 +4093,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="peace-sells" style="--accent:#2E4A2E; --accent-2:#8A8A1F;">
+    <section class="song" id="peace-sells" style="--accent:#2E4A2E; --accent-2:#8A8A1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#148</span><a href="#filter-bar" class="artist" data-artist="Megadeth">Megadeth</a><span>1986</span><span>Peace Sells... but Who's Buying?</span><span>Thrash metal</span>
       </div>
@@ -4095,7 +4116,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="november-rain" style="--accent:#6E1F3A; --accent-2:#8A6B1F;">
+    <section class="song" id="november-rain" style="--accent:#6E1F3A; --accent-2:#8A6B1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#149</span><a href="#filter-bar" class="artist" data-artist="Guns N' Roses">Guns N' Roses</a><span>1991</span><span>Use Your Illusion I</span><span>Hard rock</span>
       </div>
@@ -4118,7 +4139,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="highway-star" style="--accent:#4A1F6E; --accent-2:#B3221F;">
+    <section class="song" id="highway-star" style="--accent:#4A1F6E; --accent-2:#B3221F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#150</span><a href="#filter-bar" class="artist" data-artist="Deep Purple">Deep Purple</a><span>1972</span><span>Machine Head</span><span>Hard rock</span>
       </div>
@@ -4141,7 +4162,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="closer" style="--accent:#1A1A1A; --accent-2:#7A1F1F;">
+    <section class="song" id="closer" style="--accent:#1A1A1A; --accent-2:#7A1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#151</span><a href="#filter-bar" class="artist" data-artist="Nine Inch Nails">Nine Inch Nails</a><span>1994</span><span>The Downward Spiral</span><span>Industrial / Alternative</span>
       </div>
@@ -4164,7 +4185,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="blind" style="--accent:#1F3A5C; --accent-2:#5C1A1A;">
+    <section class="song" id="blind" style="--accent:#1F3A5C; --accent-2:#5C1A1A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#152</span><a href="#filter-bar" class="artist" data-artist="Korn">Korn</a><span>1994</span><span>Korn</span><span>Nu metal</span>
       </div>
@@ -4187,7 +4208,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="bark-at-the-moon" style="--accent:#2E2E4A; --accent-2:#8A8A5C;">
+    <section class="song" id="bark-at-the-moon" style="--accent:#2E2E4A; --accent-2:#8A8A5C; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#153</span><a href="#filter-bar" class="artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</a><span>1983</span><span>Bark at the Moon</span><span>Heavy metal</span>
       </div>
@@ -4210,7 +4231,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="bulls-on-parade" style="--accent:#6E1414; --accent-2:#2E2E2E;">
+    <section class="song" id="bulls-on-parade" style="--accent:#6E1414; --accent-2:#2E2E2E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#154</span><a href="#filter-bar" class="artist" data-artist="Rage Against the Machine">Rage Against the Machine</a><span>1996</span><span>Evil Empire</span><span>Rap metal</span>
       </div>
@@ -4233,7 +4254,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="alive" style="--accent:#4A3A1F; --accent-2:#5C6E4A;">
+    <section class="song" id="alive" style="--accent:#4A3A1F; --accent-2:#5C6E4A; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#155</span><a href="#filter-bar" class="artist" data-artist="Pearl Jam">Pearl Jam</a><span>1991</span><span>Ten</span><span>Grunge</span>
       </div>
@@ -4255,7 +4276,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="man-in-the-box" style="--accent:#2E2E2E; --accent-2:#6E1F1F;">
+    <section class="song" id="man-in-the-box" style="--accent:#2E2E2E; --accent-2:#6E1F1F; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#156</span><a href="#filter-bar" class="artist" data-artist="Alice in Chains">Alice in Chains</a><span>1990</span><span>Facelift</span><span>Grunge</span>
       </div>
@@ -4277,7 +4298,7 @@
       <a class="back-to-index" href="#indice">↑ Torna all'indice</a>
     </section>
 
-    <section class="song" id="sound-of-silence-disturbed" style="--accent:#1A1A2E; --accent-2:#4A4A6E;">
+    <section class="song" id="sound-of-silence-disturbed" style="--accent:#1A1A2E; --accent-2:#4A4A6E; --btn-fg-light:#FFFFFF; --btn-fg-dark:#000000;">
       <div class="meta-row">
         <span class="rank-badge">#157</span><a href="#filter-bar" class="artist" data-artist="Disturbed">Disturbed</a><span>2015</span><span>Immortalized</span><span>Alternative metal</span>
       </div>
