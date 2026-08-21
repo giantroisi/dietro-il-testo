@@ -39,6 +39,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **21 agosto 2026 — Prima validazione tecnica:** build di produzione superata per tutte le cinque tipologie di pagina; corretta la resa del logo nel tema scuro durante il controllo visivo. Restano controllo finale dei collegamenti, prova su versione pubblicata e valutazione del prototipo da parte dell'autore.
 - **21 agosto 2026 — Prototipo pubblicato privatamente su Sites:** la prima versione è disponibile all'indirizzo `https://dietro-il-testo.g-prizio.chatgpt.site`. L'accesso richiede l'autenticazione ChatGPT del titolare. La versione Vercel resta invariata e online; nessuna migrazione del dominio è stata eseguita.
 - **21 agosto 2026 — Prima revisione visuale dell'autore:** aumentata la presenza del logo e ridotta la scala della promessa “Capire una canzone”, ora disposta in una composizione più compatta che porta prima alla ricerca.
+- **21 agosto 2026 — Revisione UX dopo prova reale:** il prototipo risultava ancora dispersivo e meccanico nell'accesso ai contenuti. La homepage è stata ricostruita attorno al tempo necessario per arrivare alla risposta: ricerca immediata con sintesi nei risultati, una spiegazione già leggibile senza click e tre soli accessi diretti. La ricerca è ora disponibile anche nell'intestazione di artista, album e canzone; le introduzioni delle pagine sono state compattate. La revisione è pubblicata come seconda versione privata su Sites.
 - **21 agosto 2026 — Policy immagini rafforzata:** oltre a provenienza e verifica, ogni immagine deve avere un'autorizzazione, licenza o base d'uso documentata. Nel prototipo non verranno ospitate copertine o fotografie di terzi; si useranno grafica originale ed embed ufficiali.
 - **21 agosto 2026 — Destinazione Sites approvata:** la nuova architettura verrà pubblicata su Sites; la versione Vercel non sarà rimossa finché contenuti, navigazione e indirizzi non saranno stati verificati.
 
@@ -170,11 +171,12 @@ La nuova versione non riproduce la struttura dell'archivio attuale. È organizza
 
 ### Homepage
 
-- Logo compatto, promessa editoriale e ricerca come elemento principale.
-- Testo guida: “Le storie, i significati e le curiosità dietro la musica che ami. In breve, con fonti verificabili.”
-- Non mostra l'intero catalogo: propone 8–12 contenuti selezionati.
-- Percorsi di scoperta: “Una storia in 60 secondi”, “Dietro una frase iconica”, “Cosa significa questa copertina?”, “Album che hanno cambiato un genere”, “Appena verificato”, “Scopri qualcosa a caso”.
-- La ricerca raggruppa i risultati per canzoni, artisti, album e curiosità.
+- Logo riconoscibile, promessa breve e ricerca nella prima schermata.
+- Il primo contenuto utile è già leggibile senza aprire una nuova pagina.
+- La ricerca mostra titolo, tipo e una sintesi del contenuto prima del click; Invio apre il primo risultato pertinente.
+- Non mostra l'intero catalogo e non moltiplica le categorie: propone una risposta in evidenza e tre accessi diretti ad artista, album e canzone.
+- La stessa ricerca resta disponibile nelle pagine interne, evitando il ritorno obbligato alla homepage.
+- Obiettivo misurabile: una risposta pertinente deve essere raggiungibile con una ricerca e un solo click, o con ricerca più Invio.
 
 ### Pagina canzone
 
