@@ -282,6 +282,11 @@
     line-height: 1.7;
     color: var(--text-muted);
   }
+  .jump-flash { animation: jumpFlash 1s ease-out; border-radius: 4px; }
+  @keyframes jumpFlash {
+    0% { box-shadow: 0 0 0 3px var(--accent-2); }
+    100% { box-shadow: 0 0 0 3px transparent; }
+  }
   .artist-bio[hidden] { display: none; }
   .artist-bio strong { color: var(--text); }
   .artist-bio h3 {
@@ -4990,6 +4995,15 @@
       artistSelect.value = name;
       updateArtistBio();
       runSearch();
+      var hasBio = !!artistBios[name];
+      var target = hasBio ? artistBioBox : (cardGrid && cardGrid.querySelector('.card:not(.is-hidden)'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target.classList.remove('jump-flash');
+        void target.offsetWidth;
+        target.classList.add('jump-flash');
+        setTimeout(function () { target.classList.remove('jump-flash'); }, 1000);
+      }
     }
 
     document.querySelectorAll('.card .card-artist[data-artist]').forEach(function (btn) {
@@ -4997,13 +5011,13 @@
         e.preventDefault();
         e.stopPropagation();
         selectArtistFilter(btn.getAttribute('data-artist'));
-        var target = document.getElementById('filter-bar');
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
 
     document.querySelectorAll('.meta-row .artist[data-artist]').forEach(function (link) {
-      link.addEventListener('click', function () {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
         selectArtistFilter(link.getAttribute('data-artist'));
       });
     });
