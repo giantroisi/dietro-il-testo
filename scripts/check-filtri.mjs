@@ -1,12 +1,13 @@
 import fs from 'node:fs';
 
 const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
-const cards = [...html.matchAll(/<a class="card" href="#([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g)].map((match) => {
-  const [, id, attributes, body] = match;
+const cards = [...html.matchAll(/<article class="card"([^>]*)>([\s\S]*?)<\/article>/g)].map((match) => {
+  const [, attributes, body] = match;
+  const id = (body.match(/class="card-title" href="#([^"]+)"/) || [])[1];
   return {
     id,
     artist: (body.match(/data-artist="([^"]+)"/) || [])[1]?.replaceAll('&amp;', '&'),
-    title: (body.match(/class="card-title">([^<]+)</) || [])[1]?.replaceAll('&amp;', '&'),
+    title: (body.match(/class="card-title"[^>]*>([^<]+)</) || [])[1]?.replaceAll('&amp;', '&'),
     genres: ((attributes.match(/data-generi="([^"]+)"/) || [])[1] || '').split(/\s+/).filter(Boolean),
     country: (attributes.match(/data-paese="([^"]+)"/) || [])[1] || ''
   };

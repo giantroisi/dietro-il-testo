@@ -32,10 +32,13 @@ function categoriesFor(label) {
 }
 
 const records = new Map();
-const cardPattern = /<a class="card" href="#([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g;
-html = html.replace(cardPattern, (block, id, attributes, body) => {
+const cardPattern = /<article class="card"([^>]*)>([\s\S]*?)<\/article>/g;
+html = html.replace(cardPattern, (block, attributes, body) => {
+  const idMatch = body.match(/class="card-title" href="#([^"]+)"/);
   const artistMatch = body.match(/class="card-artist" data-artist="([^"]+)"/);
   const genreMatch = body.match(/<span class="card-genre">([^<]+)<\/span>/);
+  if (!idMatch) throw new Error('Card senza destinazione canzone');
+  const id = idMatch[1];
   if (!artistMatch || !genreMatch) throw new Error(`Card incompleta: ${id}`);
   const artist = decode(artistMatch[1]);
   const categories = categoriesFor(genreMatch[1]);
@@ -45,7 +48,7 @@ html = html.replace(cardPattern, (block, id, attributes, body) => {
   const cleanAttributes = attributes
     .replace(/\sdata-generi="[^"]*"/g, '')
     .replace(/\sdata-paese="[^"]*"/g, '');
-  return `<a class="card" href="#${id}"${cleanAttributes} data-generi="${categories.join(' ')}"${country}>${body}</a>`;
+  return `<article class="card"${cleanAttributes} data-generi="${categories.join(' ')}"${country}>${body}</article>`;
 });
 
 const sectionPattern = /<section class="song" id="([^"]+)"([^>]*)>/g;

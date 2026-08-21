@@ -12,8 +12,8 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 |---|---|---|---|
 | F1 — Contrasto chiaro/scuro | completato | 21 agosto 2026 | 157 schede controllate automaticamente; zero valori sotto 4,5:1 |
 | F2 — Generi e provenienza normalizzati | completato | 21 agosto 2026 | 157 schede allineate; conteggi e casi critici verificati automaticamente, desktop e mobile |
-| F3 — Card, link e semantica corretti | in corso | 21 agosto 2026 | Prossimo intervento: eliminare 157 controlli interattivi annidati |
-| F4 — URL, cronologia e ritorno contestuale | da fare | 21 agosto 2026 | Ricerca, filtri, artista, ordinamento e posizione devono essere ripristinabili |
+| F3 — Card, link e semantica corretti | completato | 21 agosto 2026 | 157 card convertite: titolo e artista sono azioni separate; zero controlli interattivi annidati |
+| F4 — URL, cronologia e ritorno contestuale | in corso | 21 agosto 2026 | Prossimo intervento: rendere stato e posizione ripristinabili |
 | F5 — Report di completezza editoriale | da fare | 21 agosto 2026 | Standard Everlong applicato come controllo a tutte le schede |
 | F6 — Separazione dei dati dal documento HTML | da fare | 21 agosto 2026 | Prerequisito per pagine autonome e manutenzione sostenibile |
 | F7 — Pagine canzone e artista autonome | da fare | 21 agosto 2026 | URL condivisibili, SEO, navigazione e fonti contestuali |
@@ -29,6 +29,8 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **21 agosto 2026 — Roadmap creata:** definiti missione, principi non negoziabili, standard editoriale, gerarchia delle fonti, fasi di lavoro e policy prudenziale per immagini e copertine.
 - **21 agosto 2026 — F2 completato:** assegnati generi normalizzati e provenienza esplicita a tutte le 157 card e schede; sostituito il filtro testuale con confronti esatti; “Artisti italiani” separato dai generi; ricerca limitata a titolo, artista, album, genere e momento iconico; aggiunti stato accessibile dei pulsanti e annuncio dei risultati. Verificati 74 rock, 52 metal, 58 pop, 17 punk, 4 rap/hip-hop, 9 elettroniche e 33 di artisti italiani. Nessun errore in console e nessuna fuoriuscita orizzontale su mobile.
 - **21 agosto 2026 — F3 avviato:** iniziata la correzione della struttura delle card e dei collegamenti artista/canzone.
+- **21 agosto 2026 — F3 completato:** convertite tutte le 157 card da collegamenti contenitori a elementi semantici; il titolo è ora il collegamento alla canzone e il nome dell'artista è un'azione indipendente. Eliminati tutti gli elementi interattivi annidati, aggiunti focus visibile e destinazioni distinguibili. Verificati click separati, filtro artista, apertura canzone e assenza di errori.
+- **21 agosto 2026 — F4 avviato:** iniziato il lavoro su URL, cronologia e ripristino della posizione.
 - **21 agosto 2026 — Destinazione Sites approvata:** la nuova architettura verrà pubblicata su Sites; la versione Vercel non sarà rimossa finché contenuti, navigazione e indirizzi non saranno stati verificati.
 
 ### Regola di aggiornamento

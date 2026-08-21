@@ -366,10 +366,9 @@
     transition: transform 0.15s, box-shadow 0.15s;
     position: relative;
   }
-  .card:hover, .card:focus-visible {
+  .card:hover, .card:focus-within {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(32,28,43,0.08);
-    outline: none;
   }
   .card .rank {
     position: absolute;
@@ -408,12 +407,21 @@
   .card .card-artist:hover { color: var(--accent); text-decoration: underline; }
   .card .card-title {
     display: block;
+    color: var(--text);
+    text-decoration: none;
     font-family: var(--font-display);
     font-style: italic;
     font-weight: 700;
     font-size: 19px;
     line-height: 1.25;
     max-width: 88%;
+  }
+  .card .card-title:hover { color: var(--card-accent); text-decoration: underline; }
+  .card .card-title:focus-visible,
+  .card .card-artist:focus-visible {
+    outline: 2px solid var(--accent-2);
+    outline-offset: 3px;
+    border-radius: 2px;
   }
   .card .card-genre {
     display: block;
@@ -703,702 +711,702 @@
   <div class="artist-bio" id="artist-bio" hidden></div>
 
   <div class="card-grid" id="indice">
-    <a class="card" href="#bohemian-rhapsody" style="--card-accent:#A6192E" data-streams="3200000000" data-year="1975" data-generi="rock">
-      <span class="rank">1</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Queen">Queen</button><span class="card-title">Bohemian Rhapsody</span>
+    <article class="card" style="--card-accent:#A6192E" data-streams="3200000000" data-year="1975" data-generi="rock">
+      <span class="rank">1</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Queen">Queen</button><a class="card-title" href="#bohemian-rhapsody">Bohemian Rhapsody</a>
       <span class="card-genre">Rock progressivo</span>
       <span class="card-streams"><span class="note">♫</span> 3,2 mld</span>
-    </a>
-    <a class="card" href="#in-the-end" style="--card-accent:#8F1A1A" data-streams="3100000000" data-year="2000" data-generi="rock metal">
-      <span class="rank">2</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><span class="card-title">In the End</span>
+    </article>
+    <article class="card" style="--card-accent:#8F1A1A" data-streams="3100000000" data-year="2000" data-generi="rock metal">
+      <span class="rank">2</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><a class="card-title" href="#in-the-end">In the End</a>
       <span class="card-genre">Nu metal / Rock alternativo</span>
       <span class="card-streams"><span class="note">♫</span> 3,1 mld</span>
-    </a>
-    <a class="card" href="#teen-spirit" style="--card-accent:#B89B1F" data-streams="3000000000" data-year="1991" data-generi="rock">
-      <span class="rank">3</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nirvana">Nirvana</button><span class="card-title">Smells Like Teen Spirit</span>
+    </article>
+    <article class="card" style="--card-accent:#B89B1F" data-streams="3000000000" data-year="1991" data-generi="rock">
+      <span class="rank">3</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nirvana">Nirvana</button><a class="card-title" href="#teen-spirit">Smells Like Teen Spirit</a>
       <span class="card-genre">Grunge</span>
       <span class="card-streams"><span class="note">♫</span> 3,0 mld</span>
-    </a>
-    <a class="card" href="#billie-jean" style="--card-accent:#4A2E6E" data-streams="2900000000" data-year="1983" data-generi="pop">
-      <span class="rank">4</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Michael Jackson">Michael Jackson</button><span class="card-title">Billie Jean</span>
+    </article>
+    <article class="card" style="--card-accent:#4A2E6E" data-streams="2900000000" data-year="1983" data-generi="pop">
+      <span class="rank">4</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Michael Jackson">Michael Jackson</button><a class="card-title" href="#billie-jean">Billie Jean</a>
       <span class="card-genre">Pop / R&amp;B</span>
       <span class="card-streams"><span class="note">♫</span> 2,9 mld</span>
-    </a>
-    <a class="card" href="#sweet-child" style="--card-accent:#8A1A2E" data-streams="2800000000" data-year="1987" data-generi="rock">
-      <span class="rank">5</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Guns N' Roses">Guns N' Roses</button><span class="card-title">Sweet Child O' Mine</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1A2E" data-streams="2800000000" data-year="1987" data-generi="rock">
+      <span class="rank">5</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Guns N' Roses">Guns N' Roses</button><a class="card-title" href="#sweet-child">Sweet Child O' Mine</a>
       <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
-    </a>
-    <a class="card" href="#creep" style="--card-accent:#4F6B49" data-streams="2800000000" data-year="1992" data-generi="rock">
-      <span class="rank">6</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Radiohead">Radiohead</button><span class="card-title">Creep</span>
+    </article>
+    <article class="card" style="--card-accent:#4F6B49" data-streams="2800000000" data-year="1992" data-generi="rock">
+      <span class="rank">6</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Radiohead">Radiohead</button><a class="card-title" href="#creep">Creep</a>
       <span class="card-genre">Alternative rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
-    </a>
-    <a class="card" href="#someone-like-you" style="--card-accent:#3E4A5C" data-streams="2700000000" data-year="2011" data-generi="pop">
-      <span class="rank">7</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Adele">Adele</button><span class="card-title">Someone Like You</span>
+    </article>
+    <article class="card" style="--card-accent:#3E4A5C" data-streams="2700000000" data-year="2011" data-generi="pop">
+      <span class="rank">7</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Adele">Adele</button><a class="card-title" href="#someone-like-you">Someone Like You</a>
       <span class="card-genre">Pop / Soul</span>
       <span class="card-streams"><span class="note">♫</span> 2,7 mld</span>
-    </a>
-    <a class="card" href="#highway-to-hell" style="--card-accent:#8A1414" data-streams="2300000000" data-year="1979" data-generi="rock">
-      <span class="rank">8</span><span class="dot"></span><button type="button" class="card-artist" data-artist="AC/DC">AC/DC</button><span class="card-title">Highway to Hell</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1414" data-streams="2300000000" data-year="1979" data-generi="rock">
+      <span class="rank">8</span><span class="dot"></span><button type="button" class="card-artist" data-artist="AC/DC">AC/DC</button><a class="card-title" href="#highway-to-hell">Highway to Hell</a>
       <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,3 mld</span>
-    </a>
-    <a class="card" href="#hotel-california" style="--card-accent:#A65A22" data-streams="2200000000" data-year="1976" data-generi="rock">
-      <span class="rank">9</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eagles">Eagles</button><span class="card-title">Hotel California</span>
+    </article>
+    <article class="card" style="--card-accent:#A65A22" data-streams="2200000000" data-year="1976" data-generi="rock">
+      <span class="rank">9</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eagles">Eagles</button><a class="card-title" href="#hotel-california">Hotel California</a>
       <span class="card-genre">Rock</span>
       <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
-    </a>
-    <a class="card" href="#enter-sandman" style="--card-accent:#6B6B6E" data-streams="2200000000" data-year="1991" data-generi="metal">
-      <span class="rank">10</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><span class="card-title">Enter Sandman</span>
+    </article>
+    <article class="card" style="--card-accent:#6B6B6E" data-streams="2200000000" data-year="1991" data-generi="metal">
+      <span class="rank">10</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><a class="card-title" href="#enter-sandman">Enter Sandman</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,2 mld</span>
-    </a>
-    <a class="card" href="#chop-suey" style="--card-accent:#6E7A2E" data-streams="2100000000" data-year="2001" data-generi="metal">
-      <span class="rank">11</span><span class="dot"></span><button type="button" class="card-artist" data-artist="System of a Down">System of a Down</button><span class="card-title">Chop Suey!</span>
+    </article>
+    <article class="card" style="--card-accent:#6E7A2E" data-streams="2100000000" data-year="2001" data-generi="metal">
+      <span class="rank">11</span><span class="dot"></span><button type="button" class="card-artist" data-artist="System of a Down">System of a Down</button><a class="card-title" href="#chop-suey">Chop Suey!</a>
       <span class="card-genre">Alternative / Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
-    </a>
-    <a class="card" href="#paranoid" style="--card-accent:#B2266E" data-streams="1700000000" data-year="1970" data-generi="metal">
-      <span class="rank">12</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Black Sabbath">Black Sabbath</button><span class="card-title">Paranoid</span>
+    </article>
+    <article class="card" style="--card-accent:#B2266E" data-streams="1700000000" data-year="1970" data-generi="metal">
+      <span class="rank">12</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Black Sabbath">Black Sabbath</button><a class="card-title" href="#paranoid">Paranoid</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
-    </a>
-    <a class="card" href="#nothing-else-matters" style="--card-accent:#4A4A6E" data-streams="1700000000" data-year="1991" data-generi="metal">
-      <span class="rank">13</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><span class="card-title">Nothing Else Matters</span>
+    </article>
+    <article class="card" style="--card-accent:#4A4A6E" data-streams="1700000000" data-year="1991" data-generi="metal">
+      <span class="rank">13</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><a class="card-title" href="#nothing-else-matters">Nothing Else Matters</a>
       <span class="card-genre">Heavy metal / Ballata</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
-    </a>
-    <a class="card" href="#stairway-to-heaven" style="--card-accent:#4A6E3E" data-streams="1300000000" data-year="1971" data-generi="rock">
-      <span class="rank">14</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Led Zeppelin">Led Zeppelin</button><span class="card-title">Stairway to Heaven</span>
+    </article>
+    <article class="card" style="--card-accent:#4A6E3E" data-streams="1300000000" data-year="1971" data-generi="rock">
+      <span class="rank">14</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Led Zeppelin">Led Zeppelin</button><a class="card-title" href="#stairway-to-heaven">Stairway to Heaven</a>
       <span class="card-genre">Rock progressivo</span>
       <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
-    </a>
-    <a class="card" href="#killing-in-the-name" style="--card-accent:#8A1A1A" data-streams="1300000000" data-year="1992" data-generi="metal rap">
-      <span class="rank">15</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rage Against the Machine">Rage Against the Machine</button><span class="card-title">Killing in the Name</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1A1A" data-streams="1300000000" data-year="1992" data-generi="metal rap">
+      <span class="rank">15</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rage Against the Machine">Rage Against the Machine</button><a class="card-title" href="#killing-in-the-name">Killing in the Name</a>
       <span class="card-genre">Rap metal</span>
       <span class="card-streams"><span class="note">♫</span> 1,3 mld</span>
-    </a>
-    <a class="card" href="#wonderwall" style="--card-accent:#2E4A8A" data-streams="1200000000" data-year="1995" data-generi="rock pop">
-      <span class="rank">16</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Oasis">Oasis</button><span class="card-title">Wonderwall</span>
+    </article>
+    <article class="card" style="--card-accent:#2E4A8A" data-streams="1200000000" data-year="1995" data-generi="rock pop">
+      <span class="rank">16</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Oasis">Oasis</button><a class="card-title" href="#wonderwall">Wonderwall</a>
       <span class="card-genre">Britpop</span>
       <span class="card-streams"><span class="note">♫</span> 1,2 mld</span>
-    </a>
-    <a class="card" href="#lose-yourself" style="--card-accent:#5C3D80" data-streams="1100000000" data-year="2002" data-generi="rap">
-      <span class="rank">17</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eminem">Eminem</button><span class="card-title">Lose Yourself</span>
+    </article>
+    <article class="card" style="--card-accent:#5C3D80" data-streams="1100000000" data-year="2002" data-generi="rap">
+      <span class="rank">17</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eminem">Eminem</button><a class="card-title" href="#lose-yourself">Lose Yourself</a>
       <span class="card-genre">Hip-hop</span>
       <span class="card-streams"><span class="note">♫</span> 1,1 mld</span>
-    </a>
-    <a class="card" href="#thriller" style="--card-accent:#A31F27" data-streams="916000000" data-year="1982" data-generi="pop">
-      <span class="rank">18</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Michael Jackson">Michael Jackson</button><span class="card-title">Thriller</span>
+    </article>
+    <article class="card" style="--card-accent:#A31F27" data-streams="916000000" data-year="1982" data-generi="pop">
+      <span class="rank">18</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Michael Jackson">Michael Jackson</button><a class="card-title" href="#thriller">Thriller</a>
       <span class="card-genre">Pop / R&amp;B</span>
       <span class="card-streams"><span class="note">♫</span> 916 mln</span>
-    </a>
-    <a class="card" href="#du-hast" style="--card-accent:#8A1418" data-streams="855000000" data-year="1997" data-generi="metal">
-      <span class="rank">19</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rammstein">Rammstein</button><span class="card-title">Du Hast</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1418" data-streams="855000000" data-year="1997" data-generi="metal">
+      <span class="rank">19</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rammstein">Rammstein</button><a class="card-title" href="#du-hast">Du Hast</a>
       <span class="card-genre">Industrial metal</span>
       <span class="card-streams"><span class="note">♫</span> 855 mln</span>
-    </a>
-    <a class="card" href="#freak-on-a-leash" style="--card-accent:#7A4A1E" data-streams="817000000" data-year="1998" data-generi="metal">
-      <span class="rank">20</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Korn">Korn</button><span class="card-title">Freak on a Leash</span>
+    </article>
+    <article class="card" style="--card-accent:#7A4A1E" data-streams="817000000" data-year="1998" data-generi="metal">
+      <span class="rank">20</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Korn">Korn</button><a class="card-title" href="#freak-on-a-leash">Freak on a Leash</a>
       <span class="card-genre">Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 817 mln</span>
-    </a>
-    <a class="card" href="#imagine" style="--card-accent:#2E6E9E" data-year="1971" data-generi="rock pop">
-      <span class="rank">21</span><span class="dot"></span><button type="button" class="card-artist" data-artist="John Lennon">John Lennon</button><span class="card-title">Imagine</span>
+    </article>
+    <article class="card" style="--card-accent:#2E6E9E" data-year="1971" data-generi="rock pop">
+      <span class="rank">21</span><span class="dot"></span><button type="button" class="card-artist" data-artist="John Lennon">John Lennon</button><a class="card-title" href="#imagine">Imagine</a>
       <span class="card-genre">Rock / Pop</span>
       <span class="card-streams"><span class="note">♫</span> ~750 mln</span>
-    </a>
-    <a class="card" href="#hey-jude" style="--card-accent:#3E7A2C" data-year="1968" data-generi="rock pop">
-      <span class="rank">22</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Beatles">The Beatles</button><span class="card-title">Hey Jude</span>
+    </article>
+    <article class="card" style="--card-accent:#3E7A2C" data-year="1968" data-generi="rock pop">
+      <span class="rank">22</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Beatles">The Beatles</button><a class="card-title" href="#hey-jude">Hey Jude</a>
       <span class="card-genre">Pop rock</span>
       <span class="card-streams"><span class="note">♫</span> ~626 mln</span>
-    </a>
-    <a class="card" href="#walk" style="--card-accent:#8F1616" data-streams="613000000" data-year="1992" data-generi="metal">
-      <span class="rank">23</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pantera">Pantera</button><span class="card-title">Walk</span>
+    </article>
+    <article class="card" style="--card-accent:#8F1616" data-streams="613000000" data-year="1992" data-generi="metal">
+      <span class="rank">23</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pantera">Pantera</button><a class="card-title" href="#walk">Walk</a>
       <span class="card-genre">Groove metal</span>
       <span class="card-streams"><span class="note">♫</span> 613 mln</span>
-    </a>
-    <a class="card" href="#run-to-the-hills" style="--card-accent:#B3221F" data-streams="477000000" data-year="1982" data-generi="metal">
-      <span class="rank">24</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Iron Maiden">Iron Maiden</button><span class="card-title">Run to the Hills</span>
+    </article>
+    <article class="card" style="--card-accent:#B3221F" data-streams="477000000" data-year="1982" data-generi="metal">
+      <span class="rank">24</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Iron Maiden">Iron Maiden</button><a class="card-title" href="#run-to-the-hills">Run to the Hills</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 477 mln</span>
-    </a>
-    <a class="card" href="#breaking-the-law" style="--card-accent:#6B6B6E" data-streams="365000000" data-year="1980" data-generi="metal">
-      <span class="rank">25</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Judas Priest">Judas Priest</button><span class="card-title">Breaking the Law</span>
+    </article>
+    <article class="card" style="--card-accent:#6B6B6E" data-streams="365000000" data-year="1980" data-generi="metal">
+      <span class="rank">25</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Judas Priest">Judas Priest</button><a class="card-title" href="#breaking-the-law">Breaking the Law</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 365 mln</span>
-    </a>
-    <a class="card" href="#raining-blood" style="--card-accent:#8F1616" data-streams="272000000" data-year="1986" data-generi="metal">
-      <span class="rank">26</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slayer">Slayer</button><span class="card-title">Raining Blood</span>
+    </article>
+    <article class="card" style="--card-accent:#8F1616" data-streams="272000000" data-year="1986" data-generi="metal">
+      <span class="rank">26</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slayer">Slayer</button><a class="card-title" href="#raining-blood">Raining Blood</a>
       <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> 272 mln</span>
-    </a>
-    <a class="card" href="#darkside" style="--card-accent:#C23B7A" data-streams="191000000" data-year="2023" data-generi="rock metal">
-      <span class="rank">27</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Darkside</span>
+    </article>
+    <article class="card" style="--card-accent:#C23B7A" data-streams="191000000" data-year="2023" data-generi="rock metal">
+      <span class="rank">27</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#darkside">Darkside</a>
       <span class="card-genre">Rock / Nu-metal</span>
       <span class="card-streams"><span class="note">♫</span> 191 mln</span>
-    </a>
-    <a class="card" href="#solitudine" style="--card-accent:#A6386A" data-streams="89400000" data-year="1993" data-generi="pop" data-paese="it">
-      <span class="rank">28</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Laura Pausini">Laura Pausini</button><span class="card-title">La solitudine</span>
+    </article>
+    <article class="card" style="--card-accent:#A6386A" data-streams="89400000" data-year="1993" data-generi="pop" data-paese="it">
+      <span class="rank">28</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Laura Pausini">Laura Pausini</button><a class="card-title" href="#solitudine">La solitudine</a>
       <span class="card-genre">Pop italiano</span>
       <span class="card-streams"><span class="note">♫</span> 89,4 mln</span>
-    </a>
-    <a class="card" href="#albachiara" style="--card-accent:#A6272A" data-streams="88500000" data-year="1979" data-generi="rock" data-paese="it">
-      <span class="rank">29</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Vasco Rossi">Vasco Rossi</button><span class="card-title">Albachiara</span>
+    </article>
+    <article class="card" style="--card-accent:#A6272A" data-streams="88500000" data-year="1979" data-generi="rock" data-paese="it">
+      <span class="rank">29</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Vasco Rossi">Vasco Rossi</button><a class="card-title" href="#albachiara">Albachiara</a>
       <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 88,5 mln</span>
-    </a>
-    <a class="card" href="#certe-notti" style="--card-accent:#A6331F" data-streams="88400000" data-year="1995" data-generi="rock" data-paese="it">
-      <span class="rank">30</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ligabue">Ligabue</button><span class="card-title">Certe notti</span>
+    </article>
+    <article class="card" style="--card-accent:#A6331F" data-streams="88400000" data-year="1995" data-generi="rock" data-paese="it">
+      <span class="rank">30</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ligabue">Ligabue</button><a class="card-title" href="#certe-notti">Certe notti</a>
       <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 88,4 mln</span>
-    </a>
-    <a class="card" href="#volare" style="--card-accent:#1F5FA8" data-streams="87600000" data-year="1958" data-generi="pop" data-paese="it">
-      <span class="rank">31</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Domenico Modugno">Domenico Modugno</button><span class="card-title">Nel blu dipinto di blu</span>
+    </article>
+    <article class="card" style="--card-accent:#1F5FA8" data-streams="87600000" data-year="1958" data-generi="pop" data-paese="it">
+      <span class="rank">31</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Domenico Modugno">Domenico Modugno</button><a class="card-title" href="#volare">Nel blu dipinto di blu</a>
       <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 87,6 mln</span>
-    </a>
-    <a class="card" href="#cielo-blu" style="--card-accent:#2E6EA6" data-streams="80800000" data-year="1975" data-generi="pop" data-paese="it">
-      <span class="rank">32</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rino Gaetano">Rino Gaetano</button><span class="card-title">Ma il cielo è sempre più blu</span>
+    </article>
+    <article class="card" style="--card-accent:#2E6EA6" data-streams="80800000" data-year="1975" data-generi="pop" data-paese="it">
+      <span class="rank">32</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rino Gaetano">Rino Gaetano</button><a class="card-title" href="#cielo-blu">Ma il cielo è sempre più blu</a>
       <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 80,8 mln</span>
-    </a>
-    <a class="card" href="#azzurro" style="--card-accent:#3E6EA8" data-streams="78400000" data-year="1968" data-generi="pop" data-paese="it">
-      <span class="rank">33</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Adriano Celentano">Adriano Celentano</button><span class="card-title">Azzurro</span>
+    </article>
+    <article class="card" style="--card-accent:#3E6EA8" data-streams="78400000" data-year="1968" data-generi="pop" data-paese="it">
+      <span class="rank">33</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Adriano Celentano">Adriano Celentano</button><a class="card-title" href="#azzurro">Azzurro</a>
       <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 78,4 mln</span>
-    </a>
-    <a class="card" href="#canto-libero" style="--card-accent:#A6691E" data-streams="75800000" data-year="1972" data-generi="pop" data-paese="it">
-      <span class="rank">34</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Battisti">Lucio Battisti</button><span class="card-title">Il mio canto libero</span>
+    </article>
+    <article class="card" style="--card-accent:#A6691E" data-streams="75800000" data-year="1972" data-generi="pop" data-paese="it">
+      <span class="rank">34</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Battisti">Lucio Battisti</button><a class="card-title" href="#canto-libero">Il mio canto libero</a>
       <span class="card-genre">Musica leggera / Pop italiano</span>
       <span class="card-streams"><span class="note">♫</span> 75,8 mln</span>
-    </a>
-    <a class="card" href="#la-cura" style="--card-accent:#7A4A6E" data-streams="67000000" data-year="1996" data-generi="pop" data-paese="it">
-      <span class="rank">35</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Franco Battiato">Franco Battiato</button><span class="card-title">La cura</span>
+    </article>
+    <article class="card" style="--card-accent:#7A4A6E" data-streams="67000000" data-year="1996" data-generi="pop" data-paese="it">
+      <span class="rank">35</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Franco Battiato">Franco Battiato</button><a class="card-title" href="#la-cura">La cura</a>
       <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
-    </a>
-    <a class="card" href="#caruso" style="--card-accent:#2E6480" data-streams="67000000" data-year="1986" data-generi="pop" data-paese="it">
-      <span class="rank">36</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Dalla">Lucio Dalla</button><span class="card-title">Caruso</span>
+    </article>
+    <article class="card" style="--card-accent:#2E6480" data-streams="67000000" data-year="1986" data-generi="pop" data-paese="it">
+      <span class="rank">36</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Dalla">Lucio Dalla</button><a class="card-title" href="#caruso">Caruso</a>
       <span class="card-genre">Cantautorato / Musica melodica</span>
       <span class="card-streams"><span class="note">♫</span> 67,0 mln</span>
-    </a>
-    <a class="card" href="#bello-impossibile" style="--card-accent:#A6225A" data-streams="66200000" data-year="1986" data-generi="rock pop" data-paese="it">
-      <span class="rank">37</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Gianna Nannini">Gianna Nannini</button><span class="card-title">Bello e impossibile</span>
+    </article>
+    <article class="card" style="--card-accent:#A6225A" data-streams="66200000" data-year="1986" data-generi="rock pop" data-paese="it">
+      <span class="rank">37</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Gianna Nannini">Gianna Nannini</button><a class="card-title" href="#bello-impossibile">Bello e impossibile</a>
       <span class="card-genre">Pop rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 66,2 mln</span>
-    </a>
-    <a class="card" href="#marinella" style="--card-accent:#7A5A2E" data-streams="14900000" data-year="1964" data-generi="pop" data-paese="it">
-      <span class="rank">38</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fabrizio De André">Fabrizio De André</button><span class="card-title">La canzone di Marinella</span>
+    </article>
+    <article class="card" style="--card-accent:#7A5A2E" data-streams="14900000" data-year="1964" data-generi="pop" data-paese="it">
+      <span class="rank">38</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fabrizio De André">Fabrizio De André</button><a class="card-title" href="#marinella">La canzone di Marinella</a>
       <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 14,9 mln</span>
-    </a>
-    <a class="card" href="#numb" style="--card-accent:#6B5A4A" data-streams="2800000000" data-year="2003" data-generi="rock metal">
-      <span class="rank">39</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><span class="card-title">Numb</span>
+    </article>
+    <article class="card" style="--card-accent:#6B5A4A" data-streams="2800000000" data-year="2003" data-generi="rock metal">
+      <span class="rank">39</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><a class="card-title" href="#numb">Numb</a>
       <span class="card-genre">Nu metal / Rock alternativo</span>
       <span class="card-streams"><span class="note">♫</span> 2,8 mld</span>
-    </a>
-    <a class="card" href="#africa" style="--card-accent:#C2822E" data-streams="2100000000" data-year="1982" data-generi="rock pop">
-      <span class="rank">40</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Toto">Toto</button><span class="card-title">Africa</span>
+    </article>
+    <article class="card" style="--card-accent:#C2822E" data-streams="2100000000" data-year="1982" data-generi="rock pop">
+      <span class="rank">40</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Toto">Toto</button><a class="card-title" href="#africa">Africa</a>
       <span class="card-genre">Rock / Pop</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
-    </a>
-    <a class="card" href="#bring-me-to-life" style="--card-accent:#4A3E5C" data-streams="2100000000" data-year="2003" data-generi="rock metal">
-      <span class="rank">41</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Evanescence">Evanescence</button><span class="card-title">Bring Me to Life</span>
+    </article>
+    <article class="card" style="--card-accent:#4A3E5C" data-streams="2100000000" data-year="2003" data-generi="rock metal">
+      <span class="rank">41</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Evanescence">Evanescence</button><a class="card-title" href="#bring-me-to-life">Bring Me to Life</a>
       <span class="card-genre">Rock / Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 2,1 mld</span>
-    </a>
-    <a class="card" href="#sweet-home-alabama" style="--card-accent:#A64A2E" data-streams="1700000000" data-year="1974" data-generi="rock">
-      <span class="rank">42</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lynyrd Skynyrd">Lynyrd Skynyrd</button><span class="card-title">Sweet Home Alabama</span>
+    </article>
+    <article class="card" style="--card-accent:#A64A2E" data-streams="1700000000" data-year="1974" data-generi="rock">
+      <span class="rank">42</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lynyrd Skynyrd">Lynyrd Skynyrd</button><a class="card-title" href="#sweet-home-alabama">Sweet Home Alabama</a>
       <span class="card-genre">Southern rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,7 mld</span>
-    </a>
-    <a class="card" href="#basket-case" style="--card-accent:#4A6E2E" data-streams="1600000000" data-year="1994" data-generi="rock punk">
-      <span class="rank">43</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><span class="card-title">Basket Case</span>
+    </article>
+    <article class="card" style="--card-accent:#4A6E2E" data-streams="1600000000" data-year="1994" data-generi="rock punk">
+      <span class="rank">43</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><a class="card-title" href="#basket-case">Basket Case</a>
       <span class="card-genre">Punk rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,6 mld</span>
-    </a>
-    <a class="card" href="#master-of-puppets" style="--card-accent:#5A4A6E" data-year="1986" data-generi="metal">
-      <span class="rank">44</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><span class="card-title">Master of Puppets</span>
+    </article>
+    <article class="card" style="--card-accent:#5A4A6E" data-year="1986" data-generi="metal">
+      <span class="rank">44</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><a class="card-title" href="#master-of-puppets">Master of Puppets</a>
       <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> ~1,1 mld</span>
-    </a>
-    <a class="card" href="#litaliano" style="--card-accent:#2E6E4A" data-streams="209000000" data-year="1983" data-generi="pop" data-paese="it">
-      <span class="rank">45</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Toto Cutugno">Toto Cutugno</button><span class="card-title">L'italiano</span>
+    </article>
+    <article class="card" style="--card-accent:#2E6E4A" data-streams="209000000" data-year="1983" data-generi="pop" data-paese="it">
+      <span class="rank">45</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Toto Cutugno">Toto Cutugno</button><a class="card-title" href="#litaliano">L'italiano</a>
       <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 209 mln</span>
-    </a>
-    <a class="card" href="#sally" style="--card-accent:#C2453A" data-streams="98300000" data-year="1996" data-generi="rock" data-paese="it">
-      <span class="rank">46</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Vasco Rossi">Vasco Rossi</button><span class="card-title">Sally</span>
+    </article>
+    <article class="card" style="--card-accent:#C2453A" data-streams="98300000" data-year="1996" data-generi="rock" data-paese="it">
+      <span class="rank">46</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Vasco Rossi">Vasco Rossi</button><a class="card-title" href="#sally">Sally</a>
       <span class="card-genre">Rock italiano</span>
       <span class="card-streams"><span class="note">♫</span> 98,3 mln</span>
-    </a>
-    <a class="card" href="#generale" style="--card-accent:#6E6E4A" data-streams="48700000" data-year="1978" data-generi="pop" data-paese="it">
-      <span class="rank">47</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Francesco De Gregori">Francesco De Gregori</button><span class="card-title">Generale</span>
+    </article>
+    <article class="card" style="--card-accent:#6E6E4A" data-streams="48700000" data-year="1978" data-generi="pop" data-paese="it">
+      <span class="rank">47</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Francesco De Gregori">Francesco De Gregori</button><a class="card-title" href="#generale">Generale</a>
       <span class="card-genre">Cantautorato</span>
       <span class="card-streams"><span class="note">♫</span> 48,7 mln</span>
-    </a>
-    <a class="card" href="#cielo-stanza" style="--card-accent:#6E4A8A" data-streams="14300000" data-year="1960" data-generi="pop" data-paese="it">
-      <span class="rank">48</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Mina">Mina</button><span class="card-title">Il cielo in una stanza</span>
+    </article>
+    <article class="card" style="--card-accent:#6E4A8A" data-streams="14300000" data-year="1960" data-generi="pop" data-paese="it">
+      <span class="rank">48</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Mina">Mina</button><a class="card-title" href="#cielo-stanza">Il cielo in una stanza</a>
       <span class="card-genre">Canzone italiana</span>
       <span class="card-streams"><span class="note">♫</span> 14,3 mln</span>
-    </a>
-    <a class="card" href="#zombie-cranberries" style="--card-accent:#5C6B3E" data-streams="1800000000" data-year="1994" data-generi="rock">
-      <span class="rank">49</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Cranberries">The Cranberries</button><span class="card-title">Zombie</span>
+    </article>
+    <article class="card" style="--card-accent:#5C6B3E" data-streams="1800000000" data-year="1994" data-generi="rock">
+      <span class="rank">49</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Cranberries">The Cranberries</button><a class="card-title" href="#zombie-cranberries">Zombie</a>
       <span class="card-genre">Alternative rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,8 mld</span>
-    </a>
-    <a class="card" href="#livin-on-a-prayer" style="--card-accent:#4A5E8A" data-year="1986" data-generi="rock">
-      <span class="rank">50</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bon Jovi">Bon Jovi</button><span class="card-title">Livin' on a Prayer</span>
+    </article>
+    <article class="card" style="--card-accent:#4A5E8A" data-year="1986" data-generi="rock">
+      <span class="rank">50</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bon Jovi">Bon Jovi</button><a class="card-title" href="#livin-on-a-prayer">Livin' on a Prayer</a>
       <span class="card-genre">Rock</span>
-    </a>
-    <a class="card" href="#smoke-on-the-water" style="--card-accent:#5C4A6E" data-year="1972" data-generi="rock">
-      <span class="rank">51</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Deep Purple">Deep Purple</button><span class="card-title">Smoke on the Water</span>
+    </article>
+    <article class="card" style="--card-accent:#5C4A6E" data-year="1972" data-generi="rock">
+      <span class="rank">51</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Deep Purple">Deep Purple</button><a class="card-title" href="#smoke-on-the-water">Smoke on the Water</a>
       <span class="card-genre">Hard rock</span>
-    </a>
-    <a class="card" href="#crazy-train" style="--card-accent:#2E5A8A" data-year="1980" data-generi="metal">
-      <span class="rank">52</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</button><span class="card-title">Crazy Train</span>
+    </article>
+    <article class="card" style="--card-accent:#2E5A8A" data-year="1980" data-generi="metal">
+      <span class="rank">52</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</button><a class="card-title" href="#crazy-train">Crazy Train</a>
       <span class="card-genre">Heavy metal</span>
-    </a>
-    <a class="card" href="#seven-nation-army" style="--card-accent:#A6231F" data-year="2003" data-generi="rock">
-      <span class="rank">53</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The White Stripes">The White Stripes</button><span class="card-title">Seven Nation Army</span>
+    </article>
+    <article class="card" style="--card-accent:#A6231F" data-year="2003" data-generi="rock">
+      <span class="rank">53</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The White Stripes">The White Stripes</button><a class="card-title" href="#seven-nation-army">Seven Nation Army</a>
       <span class="card-genre">Rock alternativo</span>
-    </a>
-    <a class="card" href="#piccolo-grande-amore" style="--card-accent:#A66B3E" data-year="1972" data-generi="pop" data-paese="it">
-      <span class="rank">54</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Claudio Baglioni">Claudio Baglioni</button><span class="card-title">Questo piccolo grande amore</span>
+    </article>
+    <article class="card" style="--card-accent:#A66B3E" data-year="1972" data-generi="pop" data-paese="it">
+      <span class="rank">54</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Claudio Baglioni">Claudio Baglioni</button><a class="card-title" href="#piccolo-grande-amore">Questo piccolo grande amore</a>
       <span class="card-genre">Cantautorato</span>
-    </a>
-    <a class="card" href="#felicita" style="--card-accent:#A6821E" data-year="1982" data-generi="pop" data-paese="it">
-      <span class="rank">55</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Al Bano e Romina Power">Al Bano e Romina Power</button><span class="card-title">Felicità</span>
+    </article>
+    <article class="card" style="--card-accent:#A6821E" data-year="1982" data-generi="pop" data-paese="it">
+      <span class="rank">55</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Al Bano e Romina Power">Al Bano e Romina Power</button><a class="card-title" href="#felicita">Felicità</a>
       <span class="card-genre">Pop italiano</span>
-    </a>
-    <a class="card" href="#4-marzo-1943" style="--card-accent:#3E5A8A" data-year="1971" data-generi="pop" data-paese="it">
-      <span class="rank">56</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Dalla">Lucio Dalla</button><span class="card-title">4 marzo 1943</span>
+    </article>
+    <article class="card" style="--card-accent:#3E5A8A" data-year="1971" data-generi="pop" data-paese="it">
+      <span class="rank">56</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Lucio Dalla">Lucio Dalla</button><a class="card-title" href="#4-marzo-1943">4 marzo 1943</a>
       <span class="card-genre">Cantautorato</span>
-    </a>
-    <a class="card" href="#black-hole-sun" style="--card-accent:#4A3E6E" data-year="1994" data-generi="rock">
-      <span class="rank">57</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Soundgarden">Soundgarden</button><span class="card-title">Black Hole Sun</span>
+    </article>
+    <article class="card" style="--card-accent:#4A3E6E" data-year="1994" data-generi="rock">
+      <span class="rank">57</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Soundgarden">Soundgarden</button><a class="card-title" href="#black-hole-sun">Black Hole Sun</a>
       <span class="card-genre">Grunge</span>
-    </a>
-    <a class="card" href="#iron-man" style="--card-accent:#5C5C6B" data-year="1970" data-generi="metal">
-      <span class="rank">58</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Black Sabbath">Black Sabbath</button><span class="card-title">Iron Man</span>
+    </article>
+    <article class="card" style="--card-accent:#5C5C6B" data-year="1970" data-generi="metal">
+      <span class="rank">58</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Black Sabbath">Black Sabbath</button><a class="card-title" href="#iron-man">Iron Man</a>
       <span class="card-genre">Heavy metal</span>
-    </a>
-    <a class="card" href="#should-i-stay" style="--card-accent:#A6231F" data-year="1982" data-generi="rock punk">
-      <span class="rank">59</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Clash">The Clash</button><span class="card-title">Should I Stay or Should I Go</span>
+    </article>
+    <article class="card" style="--card-accent:#A6231F" data-year="1982" data-generi="rock punk">
+      <span class="rank">59</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Clash">The Clash</button><a class="card-title" href="#should-i-stay">Should I Stay or Should I Go</a>
       <span class="card-genre">Punk rock</span>
-    </a>
-    <a class="card" href="#rimmel" style="--card-accent:#6E2E4A" data-year="1975" data-generi="pop" data-paese="it">
-      <span class="rank">60</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Francesco De Gregori">Francesco De Gregori</button><span class="card-title">Rimmel</span>
+    </article>
+    <article class="card" style="--card-accent:#6E2E4A" data-year="1975" data-generi="pop" data-paese="it">
+      <span class="rank">60</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Francesco De Gregori">Francesco De Gregori</button><a class="card-title" href="#rimmel">Rimmel</a>
       <span class="card-genre">Cantautorato</span>
-    </a>
-    <a class="card" href="#vivo-per-lei" style="--card-accent:#8A6B2E" data-year="1995" data-generi="pop" data-paese="it">
-      <span class="rank">61</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Andrea Bocelli e Giorgia">Andrea Bocelli e Giorgia</button><span class="card-title">Vivo per lei</span>
+    </article>
+    <article class="card" style="--card-accent:#8A6B2E" data-year="1995" data-generi="pop" data-paese="it">
+      <span class="rank">61</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Andrea Bocelli e Giorgia">Andrea Bocelli e Giorgia</button><a class="card-title" href="#vivo-per-lei">Vivo per lei</a>
       <span class="card-genre">Pop / Musica melodica</span>
-    </a>
-    <a class="card" href="#purple-rain" style="--card-accent:#5E2A7E" data-year="1984" data-generi="rock pop">
-      <span class="rank">62</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Prince">Prince</button><span class="card-title">Purple Rain</span>
+    </article>
+    <article class="card" style="--card-accent:#5E2A7E" data-year="1984" data-generi="rock pop">
+      <span class="rank">62</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Prince">Prince</button><a class="card-title" href="#purple-rain">Purple Rain</a>
       <span class="card-genre">Rock / Soul / Gospel</span>
-    </a>
-    <a class="card" href="#wish-you-were-here" style="--card-accent:#B5451D" data-year="1975" data-generi="rock">
-      <span class="rank">63</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pink Floyd">Pink Floyd</button><span class="card-title">Wish You Were Here</span>
+    </article>
+    <article class="card" style="--card-accent:#B5451D" data-year="1975" data-generi="rock">
+      <span class="rank">63</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pink Floyd">Pink Floyd</button><a class="card-title" href="#wish-you-were-here">Wish You Were Here</a>
       <span class="card-genre">Rock progressivo</span>
-    </a>
-    <a class="card" href="#hurt" style="--card-accent:#8C1D1D" data-year="1994" data-generi="metal">
-      <span class="rank">64</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nine Inch Nails">Nine Inch Nails</button><span class="card-title">Hurt</span>
+    </article>
+    <article class="card" style="--card-accent:#8C1D1D" data-year="1994" data-generi="metal">
+      <span class="rank">64</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nine Inch Nails">Nine Inch Nails</button><a class="card-title" href="#hurt">Hurt</a>
       <span class="card-genre">Industrial / Alternative</span>
-    </a>
-    <a class="card" href="#take-on-me" style="--card-accent:#2A4B7C" data-year="1985" data-generi="pop elettronica">
-      <span class="rank">65</span><span class="dot"></span><button type="button" class="card-artist" data-artist="a-ha">a-ha</button><span class="card-title">Take On Me</span>
+    </article>
+    <article class="card" style="--card-accent:#2A4B7C" data-year="1985" data-generi="pop elettronica">
+      <span class="rank">65</span><span class="dot"></span><button type="button" class="card-artist" data-artist="a-ha">a-ha</button><a class="card-title" href="#take-on-me">Take On Me</a>
       <span class="card-genre">Synth-pop / New Wave</span>
-    </a>
-    <a class="card" href="#dreams" style="--card-accent:#4A3F52" data-year="1977" data-generi="rock">
-      <span class="rank">66</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fleetwood Mac">Fleetwood Mac</button><span class="card-title">Dreams</span>
+    </article>
+    <article class="card" style="--card-accent:#4A3F52" data-year="1977" data-generi="rock">
+      <span class="rank">66</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fleetwood Mac">Fleetwood Mac</button><a class="card-title" href="#dreams">Dreams</a>
       <span class="card-genre">Rock / Soft Rock</span>
-    </a>
-    <a class="card" href="#heroes" style="--card-accent:#2A2A2E" data-year="1977" data-generi="rock">
-      <span class="rank">67</span><span class="dot"></span><button type="button" class="card-artist" data-artist="David Bowie">David Bowie</button><span class="card-title">Heroes</span>
+    </article>
+    <article class="card" style="--card-accent:#2A2A2E" data-year="1977" data-generi="rock">
+      <span class="rank">67</span><span class="dot"></span><button type="button" class="card-artist" data-artist="David Bowie">David Bowie</button><a class="card-title" href="#heroes">Heroes</a>
       <span class="card-genre">Art rock / Glam rock</span>
-    </a>
-    <a class="card" href="#senza-una-donna" style="--card-accent:#3E5A72" data-year="1987" data-generi="pop" data-paese="it">
-      <span class="rank">68</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Zucchero">Zucchero</button><span class="card-title">Senza una donna</span>
+    </article>
+    <article class="card" style="--card-accent:#3E5A72" data-year="1987" data-generi="pop" data-paese="it">
+      <span class="rank">68</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Zucchero">Zucchero</button><a class="card-title" href="#senza-una-donna">Senza una donna</a>
       <span class="card-genre">Blues / Pop italiana</span>
-    </a>
-    <a class="card" href="#under-the-bridge" style="--card-accent:#8A2E1F" data-year="1991" data-generi="rock">
-      <span class="rank">69</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Red Hot Chili Peppers">Red Hot Chili Peppers</button><span class="card-title">Under the Bridge</span>
+    </article>
+    <article class="card" style="--card-accent:#8A2E1F" data-year="1991" data-generi="rock">
+      <span class="rank">69</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Red Hot Chili Peppers">Red Hot Chili Peppers</button><a class="card-title" href="#under-the-bridge">Under the Bridge</a>
       <span class="card-genre">Alternative rock</span>
-    </a>
-    <a class="card" href="#every-breath-you-take" style="--card-accent:#4A5E3E" data-year="1983" data-generi="rock elettronica">
-      <span class="rank">70</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Police">The Police</button><span class="card-title">Every Breath You Take</span>
+    </article>
+    <article class="card" style="--card-accent:#4A5E3E" data-year="1983" data-generi="rock elettronica">
+      <span class="rank">70</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Police">The Police</button><a class="card-title" href="#every-breath-you-take">Every Breath You Take</a>
       <span class="card-genre">Rock / New Wave</span>
-    </a>
-    <a class="card" href="#fast-car" style="--card-accent:#5C4A3E" data-year="1988" data-generi="rock">
-      <span class="rank">71</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Tracy Chapman">Tracy Chapman</button><span class="card-title">Fast Car</span>
+    </article>
+    <article class="card" style="--card-accent:#5C4A3E" data-year="1988" data-generi="rock">
+      <span class="rank">71</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Tracy Chapman">Tracy Chapman</button><a class="card-title" href="#fast-car">Fast Car</a>
       <span class="card-genre">Folk rock</span>
-    </a>
-    <a class="card" href="#losing-my-religion" style="--card-accent:#8A4A1F" data-year="1991" data-generi="rock pop">
-      <span class="rank">72</span><span class="dot"></span><button type="button" class="card-artist" data-artist="R.E.M.">R.E.M.</button><span class="card-title">Losing My Religion</span>
+    </article>
+    <article class="card" style="--card-accent:#8A4A1F" data-year="1991" data-generi="rock pop">
+      <span class="rank">72</span><span class="dot"></span><button type="button" class="card-artist" data-artist="R.E.M.">R.E.M.</button><a class="card-title" href="#losing-my-religion">Losing My Religion</a>
       <span class="card-genre">Alternative rock / Jangle pop</span>
-    </a>
-    <a class="card" href="#i-will-always-love-you" style="--card-accent:#6E1F2E" data-year="1992" data-generi="pop">
-      <span class="rank">73</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Whitney Houston">Whitney Houston</button><span class="card-title">I Will Always Love You</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1F2E" data-year="1992" data-generi="pop">
+      <span class="rank">73</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Whitney Houston">Whitney Houston</button><a class="card-title" href="#i-will-always-love-you">I Will Always Love You</a>
       <span class="card-genre">Pop / R&B / Soul</span>
-    </a>
-    <a class="card" href="#yes-i-know-my-way" style="--card-accent:#1F6B7A" data-year="1981" data-generi="pop" data-paese="it">
-      <span class="rank">74</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pino Daniele">Pino Daniele</button><span class="card-title">Yes I Know My Way</span>
+    </article>
+    <article class="card" style="--card-accent:#1F6B7A" data-year="1981" data-generi="pop" data-paese="it">
+      <span class="rank">74</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pino Daniele">Pino Daniele</button><a class="card-title" href="#yes-i-know-my-way">Yes I Know My Way</a>
       <span class="card-genre">Blues / Funk / Napoletano</span>
-    </a>
-    <a class="card" href="#the-sound-of-silence" style="--card-accent:#2E3A4A" data-year="1964" data-generi="rock">
-      <span class="rank">75</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Simon &amp; Garfunkel">Simon & Garfunkel</button><span class="card-title">The Sound of Silence</span>
+    </article>
+    <article class="card" style="--card-accent:#2E3A4A" data-year="1964" data-generi="rock">
+      <span class="rank">75</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Simon &amp; Garfunkel">Simon & Garfunkel</button><a class="card-title" href="#the-sound-of-silence">The Sound of Silence</a>
       <span class="card-genre">Folk rock</span>
-    </a>
-    <a class="card" href="#paint-it-black" style="--card-accent:#1C1C1C" data-year="1966" data-generi="rock">
-      <span class="rank">76</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Rolling Stones">The Rolling Stones</button><span class="card-title">Paint It Black</span>
+    </article>
+    <article class="card" style="--card-accent:#1C1C1C" data-year="1966" data-generi="rock">
+      <span class="rank">76</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Rolling Stones">The Rolling Stones</button><a class="card-title" href="#paint-it-black">Paint It Black</a>
       <span class="card-genre">Rock / Psichedelia</span>
-    </a>
-    <a class="card" href="#piu-bella-cosa" style="--card-accent:#B3661F" data-year="1996" data-generi="pop" data-paese="it">
-      <span class="rank">77</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eros Ramazzotti">Eros Ramazzotti</button><span class="card-title">Più bella cosa</span>
+    </article>
+    <article class="card" style="--card-accent:#B3661F" data-year="1996" data-generi="pop" data-paese="it">
+      <span class="rank">77</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Eros Ramazzotti">Eros Ramazzotti</button><a class="card-title" href="#piu-bella-cosa">Più bella cosa</a>
       <span class="card-genre">Pop italiana</span>
-    </a>
-    <a class="card" href="#rocket-man" style="--card-accent:#2E3A5C" data-year="1972" data-generi="rock pop">
-      <span class="rank">78</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Elton John">Elton John</button><span class="card-title">Rocket Man</span>
+    </article>
+    <article class="card" style="--card-accent:#2E3A5C" data-year="1972" data-generi="rock pop">
+      <span class="rank">78</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Elton John">Elton John</button><a class="card-title" href="#rocket-man">Rocket Man</a>
       <span class="card-genre">Pop rock</span>
-    </a>
-    <a class="card" href="#yellow" style="--card-accent:#A68A1F" data-year="2000" data-generi="rock pop">
-      <span class="rank">79</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Coldplay">Coldplay</button><span class="card-title">Yellow</span>
+    </article>
+    <article class="card" style="--card-accent:#A68A1F" data-year="2000" data-generi="rock pop">
+      <span class="rank">79</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Coldplay">Coldplay</button><a class="card-title" href="#yellow">Yellow</a>
       <span class="card-genre">Alternative rock / Britpop</span>
-    </a>
-    <a class="card" href="#il-carrozzone" style="--card-accent:#6E1F5C" data-year="1979" data-generi="pop" data-paese="it">
-      <span class="rank">80</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Renato Zero">Renato Zero</button><span class="card-title">Il carrozzone</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1F5C" data-year="1979" data-generi="pop" data-paese="it">
+      <span class="rank">80</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Renato Zero">Renato Zero</button><a class="card-title" href="#il-carrozzone">Il carrozzone</a>
       <span class="card-genre">Pop italiana / Cantautorato</span>
-    </a>
-    <a class="card" href="#can-you-feel-my-heart" style="--card-accent:#6E1FA6" data-year="2013" data-generi="metal elettronica">
-      <span class="rank">81</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Can You Feel My Heart</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1FA6" data-year="2013" data-generi="metal elettronica">
+      <span class="rank">81</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#can-you-feel-my-heart">Can You Feel My Heart</a>
       <span class="card-genre">Metalcore / Electronicore</span>
-    </a>
-    <a class="card" href="#drown" style="--card-accent:#1D5C8A" data-year="2014" data-generi="rock metal">
-      <span class="rank">82</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Drown</span>
+    </article>
+    <article class="card" style="--card-accent:#1D5C8A" data-year="2014" data-generi="rock metal">
+      <span class="rank">82</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#drown">Drown</a>
       <span class="card-genre">Metalcore / Alternative rock</span>
-    </a>
-    <a class="card" href="#throne" style="--card-accent:#5C1F8A" data-year="2015" data-generi="rock metal">
-      <span class="rank">83</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Throne</span>
+    </article>
+    <article class="card" style="--card-accent:#5C1F8A" data-year="2015" data-generi="rock metal">
+      <span class="rank">83</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#throne">Throne</a>
       <span class="card-genre">Metalcore / Alternative rock</span>
-    </a>
-    <a class="card" href="#mantra" style="--card-accent:#8A1F2E" data-year="2018" data-generi="rock pop">
-      <span class="rank">84</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">MANTRA</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1F2E" data-year="2018" data-generi="rock pop">
+      <span class="rank">84</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#mantra">MANTRA</a>
       <span class="card-genre">Rock alternativo / Pop rock</span>
-    </a>
-    <a class="card" href="#sleepwalking" style="--card-accent:#2E1F4A" data-year="2013" data-generi="rock metal">
-      <span class="rank">85</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Sleepwalking</span>
+    </article>
+    <article class="card" style="--card-accent:#2E1F4A" data-year="2013" data-generi="rock metal">
+      <span class="rank">85</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#sleepwalking">Sleepwalking</a>
       <span class="card-genre">Metalcore / Alternative rock</span>
-    </a>
-    <a class="card" href="#antivist" style="--card-accent:#3E1F1F" data-year="2013" data-generi="metal">
-      <span class="rank">86</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Antivist</span>
+    </article>
+    <article class="card" style="--card-accent:#3E1F1F" data-year="2013" data-generi="metal">
+      <span class="rank">86</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#antivist">Antivist</a>
       <span class="card-genre">Metalcore</span>
-    </a>
-    <a class="card" href="#chelsea-smile" style="--card-accent:#3E1F2E" data-year="2008" data-generi="metal">
-      <span class="rank">87</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Chelsea Smile</span>
+    </article>
+    <article class="card" style="--card-accent:#3E1F2E" data-year="2008" data-generi="metal">
+      <span class="rank">87</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#chelsea-smile">Chelsea Smile</a>
       <span class="card-genre">Metalcore / Deathcore</span>
-    </a>
-    <a class="card" href="#doomed" style="--card-accent:#4A3E2E" data-year="2015" data-generi="rock">
-      <span class="rank">88</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Doomed</span>
+    </article>
+    <article class="card" style="--card-accent:#4A3E2E" data-year="2015" data-generi="rock">
+      <span class="rank">88</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#doomed">Doomed</a>
       <span class="card-genre">Alternative rock</span>
-    </a>
-    <a class="card" href="#follow-you" style="--card-accent:#8A2E4A" data-year="2019" data-generi="rock pop elettronica">
-      <span class="rank">89</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Follow You</span>
+    </article>
+    <article class="card" style="--card-accent:#8A2E4A" data-year="2019" data-generi="rock pop elettronica">
+      <span class="rank">89</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#follow-you">Follow You</a>
       <span class="card-genre">Pop rock / Electronic rock</span>
-    </a>
-    <a class="card" href="#parasite-eve" style="--card-accent:#3E5C1F" data-year="2020" data-generi="metal">
-      <span class="rank">90</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Parasite Eve</span>
+    </article>
+    <article class="card" style="--card-accent:#3E5C1F" data-year="2020" data-generi="metal">
+      <span class="rank">90</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#parasite-eve">Parasite Eve</a>
       <span class="card-genre">Metalcore / Nu metal</span>
-    </a>
-    <a class="card" href="#lost" style="--card-accent:#3E4A6E" data-year="2023" data-generi="rock">
-      <span class="rank">91</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Lost</span>
+    </article>
+    <article class="card" style="--card-accent:#3E4A6E" data-year="2023" data-generi="rock">
+      <span class="rank">91</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#lost">Lost</a>
       <span class="card-genre">Alternative rock / Emo</span>
-    </a>
-    <a class="card" href="#die4u" style="--card-accent:#5C1F3E" data-year="2021" data-generi="rock pop punk">
-      <span class="rank">92</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Die4U</span>
+    </article>
+    <article class="card" style="--card-accent:#5C1F3E" data-year="2021" data-generi="rock pop punk">
+      <span class="rank">92</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#die4u">Die4U</a>
       <span class="card-genre">Alternative rock / Pop punk</span>
-    </a>
-    <a class="card" href="#riders-on-the-storm" style="--card-accent:#1F2E3E" data-year="1971" data-generi="rock">
-      <span class="rank">93</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Doors">The Doors</button><span class="card-title">Riders on the Storm</span>
+    </article>
+    <article class="card" style="--card-accent:#1F2E3E" data-year="1971" data-generi="rock">
+      <span class="rank">93</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Doors">The Doors</button><a class="card-title" href="#riders-on-the-storm">Riders on the Storm</a>
       <span class="card-genre">Psichedelia / Rock</span>
-    </a>
-    <a class="card" href="#personal-jesus" style="--card-accent:#6E1F1F" data-year="1989" data-generi="rock pop elettronica">
-      <span class="rank">94</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Depeche Mode">Depeche Mode</button><span class="card-title">Personal Jesus</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1F1F" data-year="1989" data-generi="rock pop elettronica">
+      <span class="rank">94</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Depeche Mode">Depeche Mode</button><a class="card-title" href="#personal-jesus">Personal Jesus</a>
       <span class="card-genre">Synth rock</span>
-    </a>
-    <a class="card" href="#sono-solo-canzonette" style="--card-accent:#1F6B8A" data-year="1980" data-generi="rock pop" data-paese="it">
-      <span class="rank">95</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Edoardo Bennato">Edoardo Bennato</button><span class="card-title">Sono solo canzonette</span>
+    </article>
+    <article class="card" style="--card-accent:#1F6B8A" data-year="1980" data-generi="rock pop" data-paese="it">
+      <span class="rank">95</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Edoardo Bennato">Edoardo Bennato</button><a class="card-title" href="#sono-solo-canzonette">Sono solo canzonette</a>
       <span class="card-genre">Cantautorato / Rock italiano</span>
-    </a>
-    <a class="card" href="#shadow-moses" style="--card-accent:#2E1F1F" data-year="2013" data-generi="metal">
-      <span class="rank">96</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Shadow Moses</span>
+    </article>
+    <article class="card" style="--card-accent:#2E1F1F" data-year="2013" data-generi="metal">
+      <span class="rank">96</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#shadow-moses">Shadow Moses</a>
       <span class="card-genre">Metalcore</span>
-    </a>
-    <a class="card" href="#wonderful-life" style="--card-accent:#1F3E2E" data-year="2018" data-generi="rock metal">
-      <span class="rank">97</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Wonderful Life</span>
+    </article>
+    <article class="card" style="--card-accent:#1F3E2E" data-year="2018" data-generi="rock metal">
+      <span class="rank">97</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#wonderful-life">Wonderful Life</a>
       <span class="card-genre">Alternative rock / Metalcore</span>
-    </a>
-    <a class="card" href="#nihilist-blues" style="--card-accent:#1F1F3E" data-year="2019" data-generi="rock pop elettronica">
-      <span class="rank">98</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Nihilist Blues</span>
+    </article>
+    <article class="card" style="--card-accent:#1F1F3E" data-year="2019" data-generi="rock pop elettronica">
+      <span class="rank">98</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#nihilist-blues">Nihilist Blues</a>
       <span class="card-genre">Pop rock / Electronic rock</span>
-    </a>
-    <a class="card" href="#one" style="--card-accent:#2E2E2E" data-year="1988" data-generi="metal">
-      <span class="rank">99</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><span class="card-title">One</span>
+    </article>
+    <article class="card" style="--card-accent:#2E2E2E" data-year="1988" data-generi="metal">
+      <span class="rank">99</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Metallica">Metallica</button><a class="card-title" href="#one">One</a>
       <span class="card-genre">Thrash metal</span>
-    </a>
-    <a class="card" href="#ace-of-spades" style="--card-accent:#1A1A1A" data-year="1980" data-generi="metal">
-      <span class="rank">100</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Motörhead">Motörhead</button><span class="card-title">Ace of Spades</span>
+    </article>
+    <article class="card" style="--card-accent:#1A1A1A" data-year="1980" data-generi="metal">
+      <span class="rank">100</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Motörhead">Motörhead</button><a class="card-title" href="#ace-of-spades">Ace of Spades</a>
       <span class="card-genre">Heavy metal</span>
-    </a>
-    <a class="card" href="#psychosocial" style="--card-accent:#3E3E3E" data-year="2008" data-generi="metal">
-      <span class="rank">101</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slipknot">Slipknot</button><span class="card-title">Psychosocial</span>
+    </article>
+    <article class="card" style="--card-accent:#3E3E3E" data-year="2008" data-generi="metal">
+      <span class="rank">101</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slipknot">Slipknot</button><a class="card-title" href="#psychosocial">Psychosocial</a>
       <span class="card-genre">Nu metal / Alternative metal</span>
-    </a>
-    <a class="card" href="#symphony-of-destruction" style="--card-accent:#4A1F1F" data-year="1992" data-generi="metal">
-      <span class="rank">102</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Megadeth">Megadeth</button><span class="card-title">Symphony of Destruction</span>
+    </article>
+    <article class="card" style="--card-accent:#4A1F1F" data-year="1992" data-generi="metal">
+      <span class="rank">102</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Megadeth">Megadeth</button><a class="card-title" href="#symphony-of-destruction">Symphony of Destruction</a>
       <span class="card-genre">Thrash metal</span>
-    </a>
-    <a class="card" href="#sober" style="--card-accent:#1F1F1F" data-year="1993" data-generi="metal">
-      <span class="rank">103</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Tool">Tool</button><span class="card-title">Sober</span>
+    </article>
+    <article class="card" style="--card-accent:#1F1F1F" data-year="1993" data-generi="metal">
+      <span class="rank">103</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Tool">Tool</button><a class="card-title" href="#sober">Sober</a>
       <span class="card-genre">Progressive metal / Alternative metal</span>
-    </a>
-    <a class="card" href="#square-hammer" style="--card-accent:#1F1F2E" data-year="2016" data-generi="rock metal">
-      <span class="rank">104</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ghost">Ghost</button><span class="card-title">Square Hammer</span>
+    </article>
+    <article class="card" style="--card-accent:#1F1F2E" data-year="2016" data-generi="rock metal">
+      <span class="rank">104</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ghost">Ghost</button><a class="card-title" href="#square-hammer">Square Hammer</a>
       <span class="card-genre">Heavy metal / Occult rock</span>
-    </a>
-    <a class="card" href="#american-idiot" style="--card-accent:#8A1F1F" data-year="2004" data-generi="rock punk">
-      <span class="rank">105</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><span class="card-title">American Idiot</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1F1F" data-year="2004" data-generi="rock punk">
+      <span class="rank">105</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><a class="card-title" href="#american-idiot">American Idiot</a>
       <span class="card-genre">Punk rock</span>
-    </a>
-    <a class="card" href="#boulevard-of-broken-dreams" style="--card-accent:#3E3E4A" data-year="2004" data-generi="rock punk">
-      <span class="rank">106</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><span class="card-title">Boulevard of Broken Dreams</span>
+    </article>
+    <article class="card" style="--card-accent:#3E3E4A" data-year="2004" data-generi="rock punk">
+      <span class="rank">106</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><a class="card-title" href="#boulevard-of-broken-dreams">Boulevard of Broken Dreams</a>
       <span class="card-genre">Punk rock / Alternative rock</span>
-    </a>
-    <a class="card" href="#fat-lip" style="--card-accent:#B37A1F" data-year="2001" data-generi="pop punk">
-      <span class="rank">107</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><span class="card-title">Fat Lip</span>
+    </article>
+    <article class="card" style="--card-accent:#B37A1F" data-year="2001" data-generi="pop punk">
+      <span class="rank">107</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><a class="card-title" href="#fat-lip">Fat Lip</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#in-too-deep" style="--card-accent:#1F5C8A" data-year="2001" data-generi="pop punk">
-      <span class="rank">108</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><span class="card-title">In Too Deep</span>
+    </article>
+    <article class="card" style="--card-accent:#1F5C8A" data-year="2001" data-generi="pop punk">
+      <span class="rank">108</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><a class="card-title" href="#in-too-deep">In Too Deep</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#crawling" style="--card-accent:#4A1F4A" data-year="2000" data-generi="metal">
-      <span class="rank">109</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><span class="card-title">Crawling</span>
+    </article>
+    <article class="card" style="--card-accent:#4A1F4A" data-year="2000" data-generi="metal">
+      <span class="rank">109</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><a class="card-title" href="#crawling">Crawling</a>
       <span class="card-genre">Nu metal</span>
-    </a>
-    <a class="card" href="#one-step-closer" style="--card-accent:#8A1F2E" data-year="2000" data-generi="metal">
-      <span class="rank">110</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><span class="card-title">One Step Closer</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1F2E" data-year="2000" data-generi="metal">
+      <span class="rank">110</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Linkin Park">Linkin Park</button><a class="card-title" href="#one-step-closer">One Step Closer</a>
       <span class="card-genre">Nu metal</span>
-    </a>
-    <a class="card" href="#uprising" style="--card-accent:#1F3E6E" data-year="2009" data-generi="rock">
-      <span class="rank">111</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><span class="card-title">Uprising</span>
+    </article>
+    <article class="card" style="--card-accent:#1F3E6E" data-year="2009" data-generi="rock">
+      <span class="rank">111</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><a class="card-title" href="#uprising">Uprising</a>
       <span class="card-genre">Rock alternativo</span>
-    </a>
-    <a class="card" href="#starlight" style="--card-accent:#2E3E6E" data-year="2006" data-generi="rock">
-      <span class="rank">112</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><span class="card-title">Starlight</span>
+    </article>
+    <article class="card" style="--card-accent:#2E3E6E" data-year="2006" data-generi="rock">
+      <span class="rank">112</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><a class="card-title" href="#starlight">Starlight</a>
       <span class="card-genre">Rock alternativo</span>
-    </a>
-    <a class="card" href="#all-the-small-things" style="--card-accent:#B3661F" data-year="1999" data-generi="pop punk">
-      <span class="rank">113</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><span class="card-title">All the Small Things</span>
+    </article>
+    <article class="card" style="--card-accent:#B3661F" data-year="1999" data-generi="pop punk">
+      <span class="rank">113</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><a class="card-title" href="#all-the-small-things">All the Small Things</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#i-miss-you" style="--card-accent:#3E1F5C" data-year="2003" data-generi="rock pop punk">
-      <span class="rank">114</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><span class="card-title">I Miss You</span>
+    </article>
+    <article class="card" style="--card-accent:#3E1F5C" data-year="2003" data-generi="rock pop punk">
+      <span class="rank">114</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><a class="card-title" href="#i-miss-you">I Miss You</a>
       <span class="card-genre">Pop punk / Alternative rock</span>
-    </a>
-    <a class="card" href="#she-looks-so-perfect" style="--card-accent:#2E6E8A" data-year="2014" data-generi="rock pop punk">
-      <span class="rank">115</span><span class="dot"></span><button type="button" class="card-artist" data-artist="5 Seconds of Summer">5 Seconds of Summer</button><span class="card-title">She Looks So Perfect</span>
+    </article>
+    <article class="card" style="--card-accent:#2E6E8A" data-year="2014" data-generi="rock pop punk">
+      <span class="rank">115</span><span class="dot"></span><button type="button" class="card-artist" data-artist="5 Seconds of Summer">5 Seconds of Summer</button><a class="card-title" href="#she-looks-so-perfect">She Looks So Perfect</a>
       <span class="card-genre">Pop punk / Pop rock</span>
-    </a>
-    <a class="card" href="#still-waiting" style="--card-accent:#4A4A1F" data-year="2002" data-generi="pop punk">
-      <span class="rank">116</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><span class="card-title">Still Waiting</span>
+    </article>
+    <article class="card" style="--card-accent:#4A4A1F" data-year="2002" data-generi="pop punk">
+      <span class="rank">116</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Sum 41">Sum 41</button><a class="card-title" href="#still-waiting">Still Waiting</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#whats-my-age-again" style="--card-accent:#1F6E4A" data-year="1999" data-generi="pop punk">
-      <span class="rank">117</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><span class="card-title">What's My Age Again?</span>
+    </article>
+    <article class="card" style="--card-accent:#1F6E4A" data-year="1999" data-generi="pop punk">
+      <span class="rank">117</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Blink-182">Blink-182</button><a class="card-title" href="#whats-my-age-again">What's My Age Again?</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#happy-song" style="--card-accent:#B3A61F" data-year="2015" data-generi="rock">
-      <span class="rank">118</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><span class="card-title">Happy Song</span>
+    </article>
+    <article class="card" style="--card-accent:#B3A61F" data-year="2015" data-generi="rock">
+      <span class="rank">118</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Bring Me the Horizon">Bring Me the Horizon</button><a class="card-title" href="#happy-song">Happy Song</a>
       <span class="card-genre">Alternative rock</span>
-    </a>
-    <a class="card" href="#ho-messo-via" style="--card-accent:#5C4A2E" data-year="1993" data-generi="rock" data-paese="it">
-      <span class="rank">119</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ligabue">Ligabue</button><span class="card-title">Ho messo via</span>
+    </article>
+    <article class="card" style="--card-accent:#5C4A2E" data-year="1993" data-generi="rock" data-paese="it">
+      <span class="rank">119</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ligabue">Ligabue</button><a class="card-title" href="#ho-messo-via">Ho messo via</a>
       <span class="card-genre">Rock italiano</span>
-    </a>
-    <a class="card" href="#hanno-ucciso-luomo-ragno" style="--card-accent:#8A1F1F" data-year="1992" data-generi="rock pop" data-paese="it">
-      <span class="rank">120</span><span class="dot"></span><button type="button" class="card-artist" data-artist="883">883</button><span class="card-title">Hanno ucciso l'Uomo Ragno</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1F1F" data-year="1992" data-generi="rock pop" data-paese="it">
+      <span class="rank">120</span><span class="dot"></span><button type="button" class="card-artist" data-artist="883">883</button><a class="card-title" href="#hanno-ucciso-luomo-ragno">Hanno ucciso l'Uomo Ragno</a>
       <span class="card-genre">Pop rock italiano</span>
-    </a>
-    <a class="card" href="#wake-me-up" style="--card-accent:#1F6E6E" data-year="2013" data-generi="pop elettronica">
-      <span class="rank">121</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Avicii">Avicii</button><span class="card-title">Wake Me Up</span>
+    </article>
+    <article class="card" style="--card-accent:#1F6E6E" data-year="2013" data-generi="pop elettronica">
+      <span class="rank">121</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Avicii">Avicii</button><a class="card-title" href="#wake-me-up">Wake Me Up</a>
       <span class="card-genre">Dance / Folk house</span>
-    </a>
-    <a class="card" href="#hypa-hypa" style="--card-accent:#6E1F8A" data-year="2020" data-generi="metal elettronica">
-      <span class="rank">122</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Electric Callboy">Electric Callboy</button><span class="card-title">Hypa Hypa</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1F8A" data-year="2020" data-generi="metal elettronica">
+      <span class="rank">122</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Electric Callboy">Electric Callboy</button><a class="card-title" href="#hypa-hypa">Hypa Hypa</a>
       <span class="card-genre">Metalcore / Electronicore</span>
-    </a>
-    <a class="card" href="#diventerai-una-star" style="--card-accent:#B3821F" data-year="2007" data-generi="pop punk" data-paese="it">
-      <span class="rank">123</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Finley">Finley</button><span class="card-title">Diventerai una star</span>
+    </article>
+    <article class="card" style="--card-accent:#B3821F" data-year="2007" data-generi="pop punk" data-paese="it">
+      <span class="rank">123</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Finley">Finley</button><a class="card-title" href="#diventerai-una-star">Diventerai una star</a>
       <span class="card-genre">Pop punk italiano</span>
-    </a>
-    <a class="card" href="#vieni-a-ballare-in-puglia" style="--card-accent:#1F6B8A" data-year="2008" data-generi="rap" data-paese="it">
-      <span class="rank">124</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Caparezza">Caparezza</button><span class="card-title">Vieni a ballare in Puglia</span>
+    </article>
+    <article class="card" style="--card-accent:#1F6B8A" data-year="2008" data-generi="rap" data-paese="it">
+      <span class="rank">124</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Caparezza">Caparezza</button><a class="card-title" href="#vieni-a-ballare-in-puglia">Vieni a ballare in Puglia</a>
       <span class="card-genre">Rap / Hip hop italiano</span>
-    </a>
-    <a class="card" href="#marmellata-25" style="--card-accent:#8A3E1F" data-year="2005" data-generi="rock pop" data-paese="it">
-      <span class="rank">125</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Cesare Cremonini">Cesare Cremonini</button><span class="card-title">Marmellata #25</span>
+    </article>
+    <article class="card" style="--card-accent:#8A3E1F" data-year="2005" data-generi="rock pop" data-paese="it">
+      <span class="rank">125</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Cesare Cremonini">Cesare Cremonini</button><a class="card-title" href="#marmellata-25">Marmellata #25</a>
       <span class="card-genre">Pop rock italiano</span>
-    </a>
-    <a class="card" href="#get-lucky" style="--card-accent:#B3821F" data-year="2013" data-generi="elettronica">
-      <span class="rank">126</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Daft Punk">Daft Punk</button><span class="card-title">Get Lucky</span>
+    </article>
+    <article class="card" style="--card-accent:#B3821F" data-year="2013" data-generi="elettronica">
+      <span class="rank">126</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Daft Punk">Daft Punk</button><a class="card-title" href="#get-lucky">Get Lucky</a>
       <span class="card-genre">Disco / Electronic</span>
-    </a>
-    <a class="card" href="#shape-of-you" style="--card-accent:#1F5C8A" data-year="2017" data-generi="pop">
-      <span class="rank">127</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ed Sheeran">Ed Sheeran</button><span class="card-title">Shape of You</span>
+    </article>
+    <article class="card" style="--card-accent:#1F5C8A" data-year="2017" data-generi="pop">
+      <span class="rank">127</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ed Sheeran">Ed Sheeran</button><a class="card-title" href="#shape-of-you">Shape of You</a>
       <span class="card-genre">Pop</span>
-    </a>
-    <a class="card" href="#sugar-were-goin-down" style="--card-accent:#5C1F3E" data-year="2005" data-generi="pop punk">
-      <span class="rank">128</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fall Out Boy">Fall Out Boy</button><span class="card-title">Sugar, We're Goin Down</span>
+    </article>
+    <article class="card" style="--card-accent:#5C1F3E" data-year="2005" data-generi="pop punk">
+      <span class="rank">128</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fall Out Boy">Fall Out Boy</button><a class="card-title" href="#sugar-were-goin-down">Sugar, We're Goin Down</a>
       <span class="card-genre">Pop punk / Emo</span>
-    </a>
-    <a class="card" href="#ragu" style="--card-accent:#8A2E1F" data-year="2023" data-generi="pop" data-paese="it">
-      <span class="rank">129</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fulminacci">Fulminacci</button><span class="card-title">Ragù</span>
+    </article>
+    <article class="card" style="--card-accent:#8A2E1F" data-year="2023" data-generi="pop" data-paese="it">
+      <span class="rank">129</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Fulminacci">Fulminacci</button><a class="card-title" href="#ragu">Ragù</a>
       <span class="card-genre">Cantautorato italiano</span>
-    </a>
-    <a class="card" href="#21-guns" style="--card-accent:#2E2E2E" data-year="2009" data-generi="rock punk">
-      <span class="rank">130</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><span class="card-title">21 Guns</span>
+    </article>
+    <article class="card" style="--card-accent:#2E2E2E" data-year="2009" data-generi="rock punk">
+      <span class="rank">130</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Green Day">Green Day</button><a class="card-title" href="#21-guns">21 Guns</a>
       <span class="card-genre">Punk rock</span>
-    </a>
-    <a class="card" href="#mr-brightside" style="--card-accent:#8A1F2E" data-year="2003" data-generi="rock">
-      <span class="rank">131</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Killers">The Killers</button><span class="card-title">Mr. Brightside</span>
+    </article>
+    <article class="card" style="--card-accent:#8A1F2E" data-year="2003" data-generi="rock">
+      <span class="rank">131</span><span class="dot"></span><button type="button" class="card-artist" data-artist="The Killers">The Killers</button><a class="card-title" href="#mr-brightside">Mr. Brightside</a>
       <span class="card-genre">Indie rock</span>
-    </a>
-    <a class="card" href="#cattiva" style="--card-accent:#5C1F5C" data-year="2023" data-generi="pop punk" data-paese="it">
-      <span class="rank">132</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Naska">Naska</button><span class="card-title">Cattiva</span>
+    </article>
+    <article class="card" style="--card-accent:#5C1F5C" data-year="2023" data-generi="pop punk" data-paese="it">
+      <span class="rank">132</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Naska">Naska</button><a class="card-title" href="#cattiva">Cattiva</a>
       <span class="card-genre">Pop punk italiano</span>
-    </a>
-    <a class="card" href="#break-stuff" style="--card-accent:#1A1A1A" data-year="2000" data-generi="metal">
-      <span class="rank">133</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Limp Bizkit">Limp Bizkit</button><span class="card-title">Break Stuff</span>
+    </article>
+    <article class="card" style="--card-accent:#1A1A1A" data-year="2000" data-generi="metal">
+      <span class="rank">133</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Limp Bizkit">Limp Bizkit</button><a class="card-title" href="#break-stuff">Break Stuff</a>
       <span class="card-genre">Nu metal</span>
-    </a>
-    <a class="card" href="#my-exs-best-friend" style="--card-accent:#3E1F5C" data-year="2020" data-generi="pop punk">
-      <span class="rank">134</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Machine Gun Kelly">Machine Gun Kelly</button><span class="card-title">my ex's best friend</span>
+    </article>
+    <article class="card" style="--card-accent:#3E1F5C" data-year="2020" data-generi="pop punk">
+      <span class="rank">134</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Machine Gun Kelly">Machine Gun Kelly</button><a class="card-title" href="#my-exs-best-friend">my ex's best friend</a>
       <span class="card-genre">Pop punk</span>
-    </a>
-    <a class="card" href="#welcome-to-the-black-parade" style="--card-accent:#1A1A1A" data-year="2006" data-generi="rock">
-      <span class="rank">135</span><span class="dot"></span><button type="button" class="card-artist" data-artist="My Chemical Romance">My Chemical Romance</button><span class="card-title">Welcome to the Black Parade</span>
+    </article>
+    <article class="card" style="--card-accent:#1A1A1A" data-year="2006" data-generi="rock">
+      <span class="rank">135</span><span class="dot"></span><button type="button" class="card-artist" data-artist="My Chemical Romance">My Chemical Romance</button><a class="card-title" href="#welcome-to-the-black-parade">Welcome to the Black Parade</a>
       <span class="card-genre">Emo / Rock alternativo</span>
-    </a>
-    <a class="card" href="#supermassive-black-hole" style="--card-accent:#1F1F3E" data-year="2006" data-generi="rock">
-      <span class="rank">136</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><span class="card-title">Supermassive Black Hole</span>
+    </article>
+    <article class="card" style="--card-accent:#1F1F3E" data-year="2006" data-generi="rock">
+      <span class="rank">136</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Muse">Muse</button><a class="card-title" href="#supermassive-black-hole">Supermassive Black Hole</a>
       <span class="card-genre">Rock alternativo</span>
-    </a>
-    <a class="card" href="#dont-look-back-in-anger" style="--card-accent:#3E5C8A" data-year="1995" data-generi="rock pop">
-      <span class="rank">137</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Oasis">Oasis</button><span class="card-title">Don't Look Back in Anger</span>
+    </article>
+    <article class="card" style="--card-accent:#3E5C8A" data-year="1995" data-generi="rock pop">
+      <span class="rank">137</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Oasis">Oasis</button><a class="card-title" href="#dont-look-back-in-anger">Don't Look Back in Anger</a>
       <span class="card-genre">Britpop</span>
-    </a>
-    <a class="card" href="#ringo-starr" style="--card-accent:#4A5C8A" data-year="2020" data-generi="rock pop" data-paese="it">
-      <span class="rank">138</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pinguini Tattici Nucleari">Pinguini Tattici Nucleari</button><span class="card-title">Ringo Starr</span>
+    </article>
+    <article class="card" style="--card-accent:#4A5C8A" data-year="2020" data-generi="rock pop" data-paese="it">
+      <span class="rank">138</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pinguini Tattici Nucleari">Pinguini Tattici Nucleari</button><a class="card-title" href="#ringo-starr">Ringo Starr</a>
       <span class="card-genre">Pop rock italiano</span>
-    </a>
-    <a class="card" href="#everlong" style="--card-accent:#C23B1F" data-streams="1809000000" data-year="1997" data-generi="rock">
-      <span class="rank">139</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Foo Fighters">Foo Fighters</button><span class="card-title">Everlong</span>
+    </article>
+    <article class="card" style="--card-accent:#C23B1F" data-streams="1809000000" data-year="1997" data-generi="rock">
+      <span class="rank">139</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Foo Fighters">Foo Fighters</button><a class="card-title" href="#everlong">Everlong</a>
       <span class="card-genre">Alternative rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,81 mld</span>
-    </a>
-    <a class="card" href="#the-trooper" style="--card-accent:#7A1F1F" data-streams="635800000" data-year="1983" data-generi="metal">
-      <span class="rank">140</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Iron Maiden">Iron Maiden</button><span class="card-title">The Trooper</span>
+    </article>
+    <article class="card" style="--card-accent:#7A1F1F" data-streams="635800000" data-year="1983" data-generi="metal">
+      <span class="rank">140</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Iron Maiden">Iron Maiden</button><a class="card-title" href="#the-trooper">The Trooper</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 636 mln</span>
-    </a>
-    <a class="card" href="#angel-of-death" style="--card-accent:#5C1A1A" data-streams="142000000" data-year="1986" data-generi="metal">
-      <span class="rank">141</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slayer">Slayer</button><span class="card-title">Angel of Death</span>
+    </article>
+    <article class="card" style="--card-accent:#5C1A1A" data-streams="142000000" data-year="1986" data-generi="metal">
+      <span class="rank">141</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slayer">Slayer</button><a class="card-title" href="#angel-of-death">Angel of Death</a>
       <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> 142 mln</span>
-    </a>
-    <a class="card" href="#cowboys-from-hell" style="--card-accent:#A6541F" data-streams="466000000" data-year="1990" data-generi="metal">
-      <span class="rank">142</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pantera">Pantera</button><span class="card-title">Cowboys from Hell</span>
+    </article>
+    <article class="card" style="--card-accent:#A6541F" data-streams="466000000" data-year="1990" data-generi="metal">
+      <span class="rank">142</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pantera">Pantera</button><a class="card-title" href="#cowboys-from-hell">Cowboys from Hell</a>
       <span class="card-genre">Groove metal</span>
       <span class="card-streams"><span class="note">♫</span> 466 mln</span>
-    </a>
-    <a class="card" href="#byob" style="--card-accent:#7A2E1F" data-streams="869000000" data-year="2005" data-generi="metal">
-      <span class="rank">143</span><span class="dot"></span><button type="button" class="card-artist" data-artist="System of a Down">System of a Down</button><span class="card-title">B.Y.O.B.</span>
+    </article>
+    <article class="card" style="--card-accent:#7A2E1F" data-streams="869000000" data-year="2005" data-generi="metal">
+      <span class="rank">143</span><span class="dot"></span><button type="button" class="card-artist" data-artist="System of a Down">System of a Down</button><a class="card-title" href="#byob">B.Y.O.B.</a>
       <span class="card-genre">Alternative / Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 869 mln</span>
-    </a>
-    <a class="card" href="#wait-and-bleed" style="--card-accent:#3A3A3A" data-streams="676000000" data-year="1999" data-generi="metal">
-      <span class="rank">144</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slipknot">Slipknot</button><span class="card-title">Wait and Bleed</span>
+    </article>
+    <article class="card" style="--card-accent:#3A3A3A" data-streams="676000000" data-year="1999" data-generi="metal">
+      <span class="rank">144</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Slipknot">Slipknot</button><a class="card-title" href="#wait-and-bleed">Wait and Bleed</a>
       <span class="card-genre">Nu metal / Alternative metal</span>
       <span class="card-streams"><span class="note">♫</span> 676 mln</span>
-    </a>
-    <a class="card" href="#sonne" style="--card-accent:#B3901F" data-streams="869070277" data-year="2001" data-generi="metal">
-      <span class="rank">145</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rammstein">Rammstein</button><span class="card-title">Sonne</span>
+    </article>
+    <article class="card" style="--card-accent:#B3901F" data-streams="869070277" data-year="2001" data-generi="metal">
+      <span class="rank">145</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rammstein">Rammstein</button><a class="card-title" href="#sonne">Sonne</a>
       <span class="card-genre">Industrial metal</span>
       <span class="card-streams"><span class="note">♫</span> 869 mln</span>
-    </a>
-    <a class="card" href="#youve-got-another-thing-comin" style="--card-accent:#5C5C5C" data-streams="183000000" data-year="1982" data-generi="metal">
-      <span class="rank">146</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Judas Priest">Judas Priest</button><span class="card-title">You've Got Another Thing Comin'</span>
+    </article>
+    <article class="card" style="--card-accent:#5C5C5C" data-streams="183000000" data-year="1982" data-generi="metal">
+      <span class="rank">146</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Judas Priest">Judas Priest</button><a class="card-title" href="#youve-got-another-thing-comin">You've Got Another Thing Comin'</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 183 mln</span>
-    </a>
-    <a class="card" href="#overkill" style="--card-accent:#2E2E2E" data-streams="90000000" data-year="1979" data-generi="metal">
-      <span class="rank">147</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Motörhead">Motörhead</button><span class="card-title">Overkill</span>
+    </article>
+    <article class="card" style="--card-accent:#2E2E2E" data-streams="90000000" data-year="1979" data-generi="metal">
+      <span class="rank">147</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Motörhead">Motörhead</button><a class="card-title" href="#overkill">Overkill</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 90 mln</span>
-    </a>
-    <a class="card" href="#peace-sells" style="--card-accent:#2E4A2E" data-streams="54000000" data-year="1986" data-generi="metal">
-      <span class="rank">148</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Megadeth">Megadeth</button><span class="card-title">Peace Sells</span>
+    </article>
+    <article class="card" style="--card-accent:#2E4A2E" data-streams="54000000" data-year="1986" data-generi="metal">
+      <span class="rank">148</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Megadeth">Megadeth</button><a class="card-title" href="#peace-sells">Peace Sells</a>
       <span class="card-genre">Thrash metal</span>
       <span class="card-streams"><span class="note">♫</span> 54 mln</span>
-    </a>
-    <a class="card" href="#november-rain" style="--card-accent:#6E1F3A" data-streams="1390000000" data-year="1991" data-generi="rock">
-      <span class="rank">149</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Guns N' Roses">Guns N' Roses</button><span class="card-title">November Rain</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1F3A" data-streams="1390000000" data-year="1991" data-generi="rock">
+      <span class="rank">149</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Guns N' Roses">Guns N' Roses</button><a class="card-title" href="#november-rain">November Rain</a>
       <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 1,39 mld</span>
-    </a>
-    <a class="card" href="#highway-star" style="--card-accent:#4A1F6E" data-streams="279000000" data-year="1972" data-generi="rock">
-      <span class="rank">150</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Deep Purple">Deep Purple</button><span class="card-title">Highway Star</span>
+    </article>
+    <article class="card" style="--card-accent:#4A1F6E" data-streams="279000000" data-year="1972" data-generi="rock">
+      <span class="rank">150</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Deep Purple">Deep Purple</button><a class="card-title" href="#highway-star">Highway Star</a>
       <span class="card-genre">Hard rock</span>
       <span class="card-streams"><span class="note">♫</span> 279 mln</span>
-    </a>
-    <a class="card" href="#closer" style="--card-accent:#1A1A1A" data-streams="421000000" data-year="1994" data-generi="metal">
-      <span class="rank">151</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nine Inch Nails">Nine Inch Nails</button><span class="card-title">Closer</span>
+    </article>
+    <article class="card" style="--card-accent:#1A1A1A" data-streams="421000000" data-year="1994" data-generi="metal">
+      <span class="rank">151</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Nine Inch Nails">Nine Inch Nails</button><a class="card-title" href="#closer">Closer</a>
       <span class="card-genre">Industrial / Alternative</span>
       <span class="card-streams"><span class="note">♫</span> 421 mln</span>
-    </a>
-    <a class="card" href="#blind" style="--card-accent:#1F3A5C" data-streams="356000000" data-year="1994" data-generi="metal">
-      <span class="rank">152</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Korn">Korn</button><span class="card-title">Blind</span>
+    </article>
+    <article class="card" style="--card-accent:#1F3A5C" data-streams="356000000" data-year="1994" data-generi="metal">
+      <span class="rank">152</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Korn">Korn</button><a class="card-title" href="#blind">Blind</a>
       <span class="card-genre">Nu metal</span>
       <span class="card-streams"><span class="note">♫</span> 356 mln</span>
-    </a>
-    <a class="card" href="#bark-at-the-moon" style="--card-accent:#2E2E4A" data-streams="193000000" data-year="1983" data-generi="metal">
-      <span class="rank">153</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</button><span class="card-title">Bark at the Moon</span>
+    </article>
+    <article class="card" style="--card-accent:#2E2E4A" data-streams="193000000" data-year="1983" data-generi="metal">
+      <span class="rank">153</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Ozzy Osbourne">Ozzy Osbourne</button><a class="card-title" href="#bark-at-the-moon">Bark at the Moon</a>
       <span class="card-genre">Heavy metal</span>
       <span class="card-streams"><span class="note">♫</span> 193 mln</span>
-    </a>
-    <a class="card" href="#bulls-on-parade" style="--card-accent:#6E1414" data-streams="578000000" data-year="1996" data-generi="metal rap">
-      <span class="rank">154</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rage Against the Machine">Rage Against the Machine</button><span class="card-title">Bulls on Parade</span>
+    </article>
+    <article class="card" style="--card-accent:#6E1414" data-streams="578000000" data-year="1996" data-generi="metal rap">
+      <span class="rank">154</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Rage Against the Machine">Rage Against the Machine</button><a class="card-title" href="#bulls-on-parade">Bulls on Parade</a>
       <span class="card-genre">Rap metal</span>
       <span class="card-streams"><span class="note">♫</span> 578 mln</span>
-    </a>
-    <a class="card" href="#alive" style="--card-accent:#4A3A1F" data-streams="722700000" data-year="1991" data-generi="rock">
-      <span class="rank">155</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pearl Jam">Pearl Jam</button><span class="card-title">Alive</span>
+    </article>
+    <article class="card" style="--card-accent:#4A3A1F" data-streams="722700000" data-year="1991" data-generi="rock">
+      <span class="rank">155</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Pearl Jam">Pearl Jam</button><a class="card-title" href="#alive">Alive</a>
       <span class="card-genre">Grunge</span>
       <span class="card-streams"><span class="note">♫</span> 723 mln</span>
-    </a>
-    <a class="card" href="#man-in-the-box" style="--card-accent:#2E2E2E" data-streams="691200000" data-year="1990" data-generi="rock">
-      <span class="rank">156</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Alice in Chains">Alice in Chains</button><span class="card-title">Man in the Box</span>
+    </article>
+    <article class="card" style="--card-accent:#2E2E2E" data-streams="691200000" data-year="1990" data-generi="rock">
+      <span class="rank">156</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Alice in Chains">Alice in Chains</button><a class="card-title" href="#man-in-the-box">Man in the Box</a>
       <span class="card-genre">Grunge</span>
       <span class="card-streams"><span class="note">♫</span> 691 mln</span>
-    </a>
-    <a class="card" href="#sound-of-silence-disturbed" style="--card-accent:#1A1A2E" data-streams="1040000000" data-year="2015" data-generi="metal">
-      <span class="rank">157</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Disturbed">Disturbed</button><span class="card-title">The Sound of Silence</span>
+    </article>
+    <article class="card" style="--card-accent:#1A1A2E" data-streams="1040000000" data-year="2015" data-generi="metal">
+      <span class="rank">157</span><span class="dot"></span><button type="button" class="card-artist" data-artist="Disturbed">Disturbed</button><a class="card-title" href="#sound-of-silence-disturbed">The Sound of Silence</a>
       <span class="card-genre">Alternative metal</span>
       <span class="card-streams"><span class="note">♫</span> 1,04 mld</span>
-    </a>
+    </article>
   </div>
 
   <main>
@@ -4352,7 +4360,8 @@
       return (value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     }
     var cardEntries = Array.prototype.map.call(document.querySelectorAll('.card'), function (card, index) {
-      var id = card.getAttribute('href').slice(1);
+      var titleLink = card.querySelector('.card-title[href^="#"]');
+      var id = titleLink.getAttribute('href').slice(1);
       var section = document.getElementById(id);
       var metaChildren = section ? section.querySelector('.meta-row').children : [];
       var album = metaChildren[3] ? metaChildren[3].textContent : '';
