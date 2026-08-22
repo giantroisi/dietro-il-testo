@@ -1,6 +1,6 @@
 # Dietro il testo — Roadmap di prodotto e patto editoriale
 
-Documento guida del progetto. Aggiornato il 21 agosto 2026 dopo un audit della versione pubblicata e del sorgente.
+Documento guida del progetto. Aggiornato il 22 agosto 2026 dopo un audit della versione pubblicata e del sorgente.
 
 Questo documento stabilisce **la direzione**, **l'ordine del lavoro** e soprattutto i principi che non possono essere sacrificati per aggiungere più contenuti o pubblicare più rapidamente.
 
@@ -20,7 +20,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F8 — Pagine album e registro immagini | da fare | 21 agosto 2026 | Nessuna immagine senza base d'uso documentata |
 | F9 — Homepage orientata a ricerca e scoperta | da fare | 21 agosto 2026 | Ridurre introduzione e griglia iniziale |
 | F10 — Uniformazione del catalogo | da fare | 21 agosto 2026 | Portare tutte le schede allo standard editoriale completo |
-| F11 — Nuova architettura e pubblicazione su Sites | in verifica | 21 agosto 2026 | Prototipo BMTH pubblicato privatamente; in attesa della valutazione dell'autore; Vercel resta online |
+| F11 — Nuova architettura e pubblicazione su Sites | in verifica | 22 agosto 2026 | Prototipo BMTH pubblicato privatamente; gerarchia tipografica compattata dopo la prova dell'autore; Vercel resta online |
 
 ### Registro degli interventi
 
@@ -44,6 +44,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **21 agosto 2026 — Navigazione Sites resa nativa:** dopo la segnalazione che i click sulla versione pubblicata non producevano alcun cambio pagina, tutti i collegamenti interni del prototipo sono stati convertiti in normali collegamenti HTML con ricaricamento completo. Anche Invio nella ricerca usa una navigazione diretta. Eliminata così la dipendenza dal router client per i passaggi essenziali; build superata e quarta versione privata pubblicata.
 - **21 agosto 2026 — Policy immagini rafforzata:** oltre a provenienza e verifica, ogni immagine deve avere un'autorizzazione, licenza o base d'uso documentata. Nel prototipo non verranno ospitate copertine o fotografie di terzi; si useranno grafica originale ed embed ufficiali.
 - **21 agosto 2026 — Destinazione Sites approvata:** la nuova architettura verrà pubblicata su Sites; la versione Vercel non sarà rimossa finché contenuti, navigazione e indirizzi non saranno stati verificati.
+- **22 agosto 2026 — Interfaccia resa più rapida:** aumentata ulteriormente la rilevanza del logo e ridotta la scala dei titoli in homepage, pagine canzone, artista, album e metodo. Accorciati spazi verticali, pannelli e blocchi editoriali per mostrare più informazioni nel primo colpo d'occhio, senza rimuovere contenuti o collegamenti. Principio adottato: la dimensione tipografica deve esprimere la gerarchia, non sostituire il contenuto né costringere l'utente a scorrere per comprenderla.
 
 ### Regola di aggiornamento
 
