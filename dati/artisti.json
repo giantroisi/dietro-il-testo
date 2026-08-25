@@ -509,6 +509,13 @@
         "slug": "amo"
       },
       {
+        "titolo": "POST HUMAN: Survival Horror",
+        "anno": "2020",
+        "nota": "primo dei quattro progetti della serie \"Post Human\", certificato oro nel Regno Unito e in Polonia, debuttato numero 1 nella classifica britannica (formato fisico)",
+        "copertina": null,
+        "slug": "post-human-survival-horror"
+      },
+      {
         "titolo": "Post Human: Nex Gen",
         "anno": "2024",
         "nota": "certificato oro nel Regno Unito, in Australia e in Brasile",
@@ -2354,6 +2361,13 @@
         "nota": "disco di platino",
         "copertina": null,
         "slug": "bugie"
+      },
+      {
+        "titolo": "DallAmeriCaruso",
+        "anno": "1986",
+        "nota": "album dal vivo registrato al Village Gate di New York, pubblicato con l'aggiunta dell'inedito in studio \"Caruso\"",
+        "copertina": null,
+        "slug": "dallamericaruso"
       },
       {
         "titolo": "Dalla/Morandi",
