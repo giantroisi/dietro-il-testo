@@ -30,7 +30,7 @@ const SCRIPT_TEMA = `
 })();
 `;
 
-function testata(r, { conRicerca = true } = {}) {
+function testata(r, { conRicerca = true, conMarchio = true } = {}) {
   return `
   <header class="testata">
     <div class="col testata-in">
@@ -38,9 +38,13 @@ function testata(r, { conRicerca = true } = {}) {
         <svg class="sole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M5.9 5.9 4.4 4.4M19.6 19.6l-1.5-1.5M18.1 5.9l1.5-1.5M4.4 19.6l1.5-1.5"/></svg>
         <svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 13.4A8.2 8.2 0 1 1 10.6 4a6.6 6.6 0 0 0 9.4 9.4Z"/></svg>
       </button>
-      <a class="marchio" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
+      ${
+        conMarchio
+          ? `<a class="marchio" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
         <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
-      </a>
+      </a>`
+          : ''
+      }
       ${
         conRicerca
           ? `<div class="testata-cerca">
@@ -131,7 +135,7 @@ ${identita}
 </head>
 <body>
 <a class="salta" href="#contenuto">Vai al contenuto</a>
-${testata(r, { conRicerca: o.ricercaInTestata !== false })}
+${testata(r, { conRicerca: o.ricercaInTestata !== false, conMarchio: o.marchioInTestata !== false })}
 <main id="contenuto">
 ${o.corpo}
 </main>

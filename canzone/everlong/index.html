@@ -127,13 +127,13 @@ a { color: inherit; }
   padding: 12px 0; min-height: 62px;
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
-.marchio img { width: 168px; display: block; }
-:root:not([data-theme="light"]) .marchio img { filter: invert(1); }
+.marchio img, .marchio-apertura img { width: 168px; display: block; }
+:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .marchio img { filter: none; }
+  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
 }
-:root[data-theme="dark"] .marchio img { filter: invert(1); }
-:root[data-theme="light"] .marchio img { filter: none; }
+:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img { filter: invert(1); }
+:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img { filter: none; }
 
 .testata-cerca { flex: 1 1 auto; max-width: 420px; }
 .testata-nav {
@@ -222,20 +222,20 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 68px 0 12px; }
+.apertura { padding: 56px 0 12px; }
+.marchio-apertura { display: block; margin: 0 0 22px; }
+.marchio-apertura img { width: clamp(190px, 24vw, 300px); }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
-}
-.apertura h1 {
-  font-family: var(--font-display); font-weight: 400; font-style: italic;
-  font-size: clamp(38px, 6.4vw, 62px); line-height: 1.04;
-  margin: 0 0 16px; letter-spacing: -.015em; text-wrap: balance;
+  display: flex; align-items: center; gap: 8px;
 }
 .apertura p.promessa {
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }
+.segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
+.segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .suggerimenti {
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
   margin-top: 14px; font-family: var(--font-mono); font-size: 11.5px;
@@ -593,11 +593,11 @@ a { color: inherit; }
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">Foo Fighters · 1997 · The Colour and the Shape</p>
+        <p class="sopratitolo">Foo Fighters <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1997 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> The Colour and the Shape</p>
         <h1>Everlong</h1>
         <p class="sintesi">Dave Grohl scrisse il brano nel Natale del 1996, in uno dei periodi più difficili della sua vita: dormiva nel sacco a…</p>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 25 agosto 2026</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi

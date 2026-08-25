@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La musica che ami, spiegata davvero | Dietro il testo</title>
+<title>Cerca una canzone, un album o una band | Dietro il testo</title>
 <script>
 (function () {
   try {
@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
-<meta property="og:title" content="La musica che ami, spiegata davvero">
+<meta property="og:title" content="Cerca una canzone, un album o una band">
 <meta property="og:description" content="157 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
 <meta property="og:url" content="https://www.dietroiltesto.it/">
 <meta property="og:locale" content="it_IT">
@@ -123,13 +123,13 @@ a { color: inherit; }
   padding: 12px 0; min-height: 62px;
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
-.marchio img { width: 168px; display: block; }
-:root:not([data-theme="light"]) .marchio img { filter: invert(1); }
+.marchio img, .marchio-apertura img { width: 168px; display: block; }
+:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .marchio img { filter: none; }
+  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
 }
-:root[data-theme="dark"] .marchio img { filter: invert(1); }
-:root[data-theme="light"] .marchio img { filter: none; }
+:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img { filter: invert(1); }
+:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img { filter: none; }
 
 .testata-cerca { flex: 1 1 auto; max-width: 420px; }
 .testata-nav {
@@ -218,20 +218,20 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 68px 0 12px; }
+.apertura { padding: 56px 0 12px; }
+.marchio-apertura { display: block; margin: 0 0 22px; }
+.marchio-apertura img { width: clamp(190px, 24vw, 300px); }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
-}
-.apertura h1 {
-  font-family: var(--font-display); font-weight: 400; font-style: italic;
-  font-size: clamp(38px, 6.4vw, 62px); line-height: 1.04;
-  margin: 0 0 16px; letter-spacing: -.015em; text-wrap: balance;
+  display: flex; align-items: center; gap: 8px;
 }
 .apertura p.promessa {
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }
+.segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
+.segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .suggerimenti {
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
   margin-top: 14px; font-family: var(--font-mono); font-size: 11.5px;
@@ -561,9 +561,7 @@ a { color: inherit; }
         <svg class="sole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M5.9 5.9 4.4 4.4M19.6 19.6l-1.5-1.5M18.1 5.9l1.5-1.5M4.4 19.6l1.5-1.5"/></svg>
         <svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 13.4A8.2 8.2 0 1 1 10.6 4a6.6 6.6 0 0 0 9.4 9.4Z"/></svg>
       </button>
-      <a class="marchio" href="./" aria-label="Dietro il testo — home">
-        <img src="logo.png" alt="Dietro il testo" width="1061" height="245">
-      </a>
+      
       
       <nav class="testata-nav" aria-label="Principale">
         <a href="archivio/">Archivio</a>
@@ -574,9 +572,11 @@ a { color: inherit; }
 <main id="contenuto">
 
   <div class="col apertura">
-    <p class="occhiello">Un solo posto · fonti verificabili</p>
-    <h1>La musica che ami,<br>spiegata davvero.</h1>
-    <p class="promessa">Una canzone, un album o una band: cerca e arriva subito a cosa c’è dietro, con le fonti sotto mano.</p>
+    <a class="marchio-apertura" href="./" aria-label="Dietro il testo — home">
+      <img src="logo.png" alt="Dietro il testo" width="1061" height="245">
+    </a>
+    <p class="occhiello">Un solo posto <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> fonti verificabili</p>
+    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c’è dietro, con le fonti sotto mano.</p>
 
     <div class="cerca grande" data-cerca style="max-width:640px">
       <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -587,10 +587,10 @@ a { color: inherit; }
 
     <div class="suggerimenti">
       <span class="etichetta">Prova</span>
-      <button type="button" data-esempio="Bohemian Rhapsody">Bohemian Rhapsody</button>
-      <button type="button" data-esempio="Metallica">Metallica</button>
-      <button type="button" data-esempio="Nirvana">Nirvana</button>
-      <button type="button" data-esempio="Vasco Rossi">Vasco Rossi</button>
+      <button type="button" data-esempio="Bohemian Rhapsody"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Bohemian Rhapsody</button>
+      <button type="button" data-esempio="Metallica"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Metallica</button>
+      <button type="button" data-esempio="Nirvana"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Nirvana</button>
+      <button type="button" data-esempio="Vasco Rossi"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Vasco Rossi</button>
       <button type="button" data-sorprendimi>Sorprendimi ✦</button>
     </div>
   </div>
@@ -604,7 +604,7 @@ a { color: inherit; }
     </div>
     <article class="pillola" style="--identita:#B3901F">
       <div>
-        <p class="occhiello" style="color:var(--identita-testo)">Rammstein · 2001</p>
+        <p class="occhiello" style="color:var(--identita-testo)">Rammstein <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</p>
         <p class="gancio">Sonne</p>
         <p class="estratto">Il grido che apre il ritornello — &quot;here comes the sun&quot;, in tedesco — nacque come sigla d'ingresso per un pugile e resta l'immagine centrale del brano: una forza travolgente, capace di dare vita ma anche di bruciare chi le sta troppo vicino.</p>
         <div class="azioni">
@@ -631,32 +631,32 @@ a { color: inherit; }
       <a class="riga" href="artista/bring-me-the-horizon/">
         <span class="meta">rock</span>
         <span class="nome">Bring Me the Horizon</span>
-        <span class="conta">17 canzoni · 8 album →</span>
+        <span class="conta">17 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 album →</span>
       </a>
       <a class="riga" href="artista/green-day/">
         <span class="meta">rock</span>
         <span class="nome">Green Day</span>
-        <span class="conta">4 canzoni · 14 album →</span>
+        <span class="conta">4 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 14 album →</span>
       </a>
       <a class="riga" href="artista/linkin-park/">
         <span class="meta">rock</span>
         <span class="nome">Linkin Park</span>
-        <span class="conta">4 canzoni · 8 album →</span>
+        <span class="conta">4 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 album →</span>
       </a>
       <a class="riga" href="artista/metallica/">
         <span class="meta">metal</span>
         <span class="nome">Metallica</span>
-        <span class="conta">4 canzoni · 11 album →</span>
+        <span class="conta">4 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 11 album →</span>
       </a>
       <a class="riga" href="artista/blink-182/">
         <span class="meta">pop</span>
         <span class="nome">Blink-182</span>
-        <span class="conta">3 canzoni · 9 album →</span>
+        <span class="conta">3 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 9 album →</span>
       </a>
       <a class="riga" href="artista/muse/">
         <span class="meta">rock</span>
         <span class="nome">Muse</span>
-        <span class="conta">3 canzoni · 10 album →</span>
+        <span class="conta">3 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 10 album →</span>
       </a>
     </div>
   </div>
@@ -671,32 +671,32 @@ a { color: inherit; }
     </div>
     <div class="griglia">
       <a class="scheda" href="canzone/sound-of-silence-disturbed/" style="--identita:#1A1A2E">
-          <span class="sopra">Immortalized · 2015</span>
+          <span class="sopra">Immortalized <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">The Sound of Silence</span>
           <span class="gancio">Cover della celebre canzone di Simon &amp; Garfunkel del 1964, reinterpretata dai Disturbed per l'album &quot;Immortalized&quot;…</span>
         </a>
       <a class="scheda" href="canzone/man-in-the-box/" style="--identita:#2E2E2E">
-          <span class="sopra">Facelift · 1990</span>
+          <span class="sopra">Facelift <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
           <span class="titolo">Man in the Box</span>
           <span class="gancio">Layne Staley iniziò a scrivere il testo pensando alla censura, ma l'idea prese una piega diversa durante una cena con…</span>
         </a>
       <a class="scheda" href="canzone/alive/" style="--identita:#4A3A1F">
-          <span class="sopra">Ten · 1991</span>
+          <span class="sopra">Ten <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>
           <span class="titolo">Alive</span>
           <span class="gancio">Eddie Vedder scrisse il testo partendo da un episodio della propria vita: da adolescente sua madre gli rivelò che…</span>
         </a>
       <a class="scheda" href="canzone/bulls-on-parade/" style="--identita:#6E1414">
-          <span class="sopra">Evil Empire · 1996</span>
+          <span class="sopra">Evil Empire <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1996</span>
           <span class="titolo">Bulls on Parade</span>
           <span class="gancio">Primo singolo da &quot;Evil Empire&quot;, scritto da Zack de la Rocha, Tom Morello, Tim Commerford e Brad Wilk, prodotto con…</span>
         </a>
       <a class="scheda" href="canzone/bark-at-the-moon/" style="--identita:#2E2E4A">
-          <span class="sopra">Bark at the Moon · 1983</span>
+          <span class="sopra">Bark at the Moon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983</span>
           <span class="titolo">Bark at the Moon</span>
           <span class="gancio">Un brano a tema licantropo nato, secondo lo stesso Ozzy, dalla battuta finale di una barzelletta che raccontava…</span>
         </a>
       <a class="scheda" href="canzone/blind/" style="--identita:#1F3A5C">
-          <span class="sopra">Korn · 1994</span>
+          <span class="sopra">Korn <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
           <span class="titolo">Blind</span>
           <span class="gancio">Il brano nacque come pezzo suonato da Jonathan Davis nella sua band precedente, i SexArt, nel 1992; entrato nei Korn,…</span>
         </a>

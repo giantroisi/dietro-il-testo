@@ -127,13 +127,13 @@ a { color: inherit; }
   padding: 12px 0; min-height: 62px;
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
-.marchio img { width: 168px; display: block; }
-:root:not([data-theme="light"]) .marchio img { filter: invert(1); }
+.marchio img, .marchio-apertura img { width: 168px; display: block; }
+:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .marchio img { filter: none; }
+  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
 }
-:root[data-theme="dark"] .marchio img { filter: invert(1); }
-:root[data-theme="light"] .marchio img { filter: none; }
+:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img { filter: invert(1); }
+:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img { filter: none; }
 
 .testata-cerca { flex: 1 1 auto; max-width: 420px; }
 .testata-nav {
@@ -222,20 +222,20 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 68px 0 12px; }
+.apertura { padding: 56px 0 12px; }
+.marchio-apertura { display: block; margin: 0 0 22px; }
+.marchio-apertura img { width: clamp(190px, 24vw, 300px); }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
-}
-.apertura h1 {
-  font-family: var(--font-display); font-weight: 400; font-style: italic;
-  font-size: clamp(38px, 6.4vw, 62px); line-height: 1.04;
-  margin: 0 0 16px; letter-spacing: -.015em; text-wrap: balance;
+  display: flex; align-items: center; gap: 8px;
 }
 .apertura p.promessa {
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }
+.segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
+.segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .suggerimenti {
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
   margin-top: 14px; font-family: var(--font-mono); font-size: 11.5px;
@@ -593,11 +593,11 @@ a { color: inherit; }
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">Bring Me the Horizon · 2020 · POST HUMAN: Survival Horror</p>
+        <p class="sopratitolo">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> POST HUMAN: Survival Horror</p>
         <h1>Parasite Eve</h1>
         <p class="sintesi">Pubblicata il 25 giugno 2020 come singolo di apertura di &quot;POST HUMAN: Survival Horror&quot;, il primo dei quattro EP che…</p>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 25 agosto 2026</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi
@@ -654,32 +654,32 @@ a { color: inherit; }
       <h2>Altre canzoni di Bring Me the Horizon</h2>
       <div class="griglia">
         <a class="scheda" href="../../canzone/darkside/" style="--identita:#C23B7A">
-          <span class="sopra">Post Human: Nex Gen · 2023</span>
+          <span class="sopra">Post Human: Nex Gen <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2023</span>
           <span class="titolo">Darkside</span>
           <span class="gancio">Uscito il 13 ottobre 2023, il brano affronta la depressione e l'insonnia del frontman Oli Sykes, usando la metafora…</span>
         </a>
         <a class="scheda" href="../../canzone/can-you-feel-my-heart/" style="--identita:#1F2E3E">
-          <span class="sopra">Sempiternal · 2013</span>
+          <span class="sopra">Sempiternal <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
           <span class="titolo">Can You Feel My Heart</span>
           <span class="gancio">Scritta dal cantante Oliver Sykes insieme al chitarrista Lee Malia e al tastierista Jordan Fish, apre l'album…</span>
         </a>
         <a class="scheda" href="../../canzone/drown/" style="--identita:#1D5C8A">
-          <span class="sopra">That's the Spirit · 2014</span>
+          <span class="sopra">That's the Spirit <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2014</span>
           <span class="titolo">Drown</span>
           <span class="gancio">Pubblicata come singolo autonomo il 21 ottobre 2014, &quot;Drown&quot; nacque appositamente per il concerto della band alla…</span>
         </a>
         <a class="scheda" href="../../canzone/throne/" style="--identita:#5C1F8A">
-          <span class="sopra">That's the Spirit · 2015</span>
+          <span class="sopra">That's the Spirit <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">Throne</span>
           <span class="gancio">Prodotta dal tastierista Jordan Fish e dal cantante Oliver Sykes, &quot;Throne&quot; è stata pubblicata il 23 luglio 2015 come…</span>
         </a>
         <a class="scheda" href="../../canzone/mantra/" style="--identita:#8A1F2E">
-          <span class="sopra">amo · 2018</span>
+          <span class="sopra">amo <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2018</span>
           <span class="titolo">MANTRA</span>
           <span class="gancio">Pubblicata il 21 agosto 2018 come singolo dell'album &quot;amo&quot;, &quot;MANTRA&quot; fu prodotta da Oliver Sykes e Jordan Fish.</span>
         </a>
         <a class="scheda" href="../../canzone/sleepwalking/" style="--identita:#2E1F4A">
-          <span class="sopra">Sempiternal · 2013</span>
+          <span class="sopra">Sempiternal <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
           <span class="titolo">Sleepwalking</span>
           <span class="gancio">Pubblicata il 1° marzo 2013 come secondo singolo dell'album &quot;Sempiternal&quot;, fu scritta dal cantante Oliver Sykes…</span>
         </a>

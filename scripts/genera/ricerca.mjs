@@ -1,13 +1,17 @@
 // Genera ricerca.js: indice compatto + comportamento di ricerca, tema e archivio.
 // Nessuna dipendenza esterna, nessuna richiesta di rete.
 
+// Stesso segno tipografico di scripts/genera/pagine.mjs (F24): duplicato qui
+// perché ricerca.js è un modulo a sé, servito come script statico separato.
+const SEGNO = '<svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg>';
+
 export function generaRicerca(ctx) {
   const indice = [
     ...ctx.canzoni.map((c) => ({
       t: 0, // canzone
       n: c.titolo,
       s: `canzone/${c.slug}/`,
-      d: [c.artista, String(c.anno || '').match(/\d{4}/)?.[0]].filter(Boolean).join(' · '),
+      d: [c.artista, String(c.anno || '').match(/\d{4}/)?.[0]].filter(Boolean).join(` ${SEGNO} `),
       k: [c.titolo, c.artista, c.album, c.genereTesto].filter(Boolean).join(' ').toLowerCase(),
     })),
     ...ctx.artisti.map((a) => ({
@@ -21,7 +25,7 @@ export function generaRicerca(ctx) {
       t: 2, // album
       n: al.titolo,
       s: `album/${al.artistaSlug}/${al.slug}/`,
-      d: [ctx.artistiPerSlug.get(al.artistaSlug)?.nome, al.anno].filter(Boolean).join(' · '),
+      d: [ctx.artistiPerSlug.get(al.artistaSlug)?.nome, al.anno].filter(Boolean).join(` ${SEGNO} `),
       k: [al.titolo, ctx.artistiPerSlug.get(al.artistaSlug)?.nome].filter(Boolean).join(' ').toLowerCase(),
     })),
   ];

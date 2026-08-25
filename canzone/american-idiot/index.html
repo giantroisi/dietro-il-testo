@@ -127,13 +127,13 @@ a { color: inherit; }
   padding: 12px 0; min-height: 62px;
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
-.marchio img { width: 168px; display: block; }
-:root:not([data-theme="light"]) .marchio img { filter: invert(1); }
+.marchio img, .marchio-apertura img { width: 168px; display: block; }
+:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .marchio img { filter: none; }
+  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
 }
-:root[data-theme="dark"] .marchio img { filter: invert(1); }
-:root[data-theme="light"] .marchio img { filter: none; }
+:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img { filter: invert(1); }
+:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img { filter: none; }
 
 .testata-cerca { flex: 1 1 auto; max-width: 420px; }
 .testata-nav {
@@ -222,20 +222,20 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 68px 0 12px; }
+.apertura { padding: 56px 0 12px; }
+.marchio-apertura { display: block; margin: 0 0 22px; }
+.marchio-apertura img { width: clamp(190px, 24vw, 300px); }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
-}
-.apertura h1 {
-  font-family: var(--font-display); font-weight: 400; font-style: italic;
-  font-size: clamp(38px, 6.4vw, 62px); line-height: 1.04;
-  margin: 0 0 16px; letter-spacing: -.015em; text-wrap: balance;
+  display: flex; align-items: center; gap: 8px;
 }
 .apertura p.promessa {
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }
+.segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
+.segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .suggerimenti {
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
   margin-top: 14px; font-family: var(--font-mono); font-size: 11.5px;
@@ -593,11 +593,11 @@ a { color: inherit; }
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">Green Day · 2004 · American Idiot</p>
+        <p class="sopratitolo">Green Day <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2004 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> American Idiot</p>
         <h1>American Idiot</h1>
         <p class="sintesi">Scritta da Billie Joe Armstrong con Mike Dirnt e Tré Cool, &quot;American Idiot&quot; uscì nell'agosto 2004 come singolo di…</p>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 25 agosto 2026</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi
@@ -654,17 +654,17 @@ a { color: inherit; }
       <h2>Altre canzoni di Green Day</h2>
       <div class="griglia">
         <a class="scheda" href="../../canzone/basket-case/" style="--identita:#4A6E2E">
-          <span class="sopra">Dookie · 1994</span>
+          <span class="sopra">Dookie <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
           <span class="titolo">Basket Case</span>
           <span class="gancio">Secondo singolo di Dookie, terzo album della band, uscito il 1° agosto 1994.</span>
         </a>
         <a class="scheda" href="../../canzone/boulevard-of-broken-dreams/" style="--identita:#3E3E4A">
-          <span class="sopra">American Idiot · 2004</span>
+          <span class="sopra">American Idiot <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2004</span>
           <span class="titolo">Boulevard of Broken Dreams</span>
           <span class="gancio">Scritta da Billie Joe Armstrong insieme a Mike Dirnt e Tré Cool, nacque durante la pre-produzione di &quot;American Idiot&quot;…</span>
         </a>
         <a class="scheda" href="../../canzone/21-guns/" style="--identita:#2E2E2E">
-          <span class="sopra">21st Century Breakdown · 2009</span>
+          <span class="sopra">21st Century Breakdown <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
           <span class="titolo">21 Guns</span>
           <span class="gancio">Pubblicata il 26 maggio 2009 come secondo singolo di &quot;21st Century Breakdown&quot;, concept album che segue la storia di…</span>
         </a>

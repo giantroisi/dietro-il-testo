@@ -5,6 +5,20 @@ import { pagina, esc, radice, SITO } from './guscio.mjs';
 
 // ------------------------------------------------------------- utilità
 
+// Segno tipografico ripreso dalle righe musicali del logo (F24): due tratti
+// di penna, non una nota disegnata. Sostituisce il punto medio come
+// separatore tra i metadati e come marcatore prima dei suggerimenti — così
+// che una pagina si riconosca anche ritagliata, senza il logo in vista.
+const SEGNO = '<svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg>';
+
+/** Unisce pezzi di metadato col segno tipografico, invece del punto medio. Esegue l'escape internamente: passare testo grezzo, non già escapato. */
+function conSegno(parti) {
+  return parti
+    .filter(Boolean)
+    .map((p) => esc(p))
+    .join(` ${SEGNO} `);
+}
+
 function hexToRgb(h) {
   const s = h.replace('#', '');
   return [parseInt(s.slice(0, 2), 16), parseInt(s.slice(2, 4), 16), parseInt(s.slice(4, 6), 16)];
@@ -118,11 +132,11 @@ export function paginaCanzone(c, ctx) {
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">${esc(c.artista)}${annoDi(c) ? ` · ${esc(annoDi(c))}` : ''}${c.album ? ` · ${esc(c.album)}` : ''}</p>
+        <p class="sopratitolo">${conSegno([c.artista, annoDi(c), c.album])}</p>
         <h1>${esc(c.titolo)}</h1>
         ${richiamo(c) ? `<p class="sintesi">${esc(richiamo(c))}</p>` : ''}
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione · ${esc(ctx.dataRevisione)}</span>
+          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi
@@ -230,26 +244,23 @@ export function paginaCanzone(c, ctx) {
 
 export function schedaCanzone(c, r) {
   if (!c) return '';
-  const meta = [c.album, annoDi(c)].filter(Boolean).join(' · ');
   return `<a class="scheda" href="${r}canzone/${c.slug}/" style="--identita:${c.colore || 'var(--sistema)'}">
-          <span class="sopra">${esc(meta)}</span>
+          <span class="sopra">${conSegno([c.album, annoDi(c)])}</span>
           <span class="titolo">${esc(c.titolo)}</span>
           ${richiamo(c) ? `<span class="gancio">${esc(richiamo(c))}</span>` : ''}
         </a>`;
 }
 
 function rigaArtista(a, r) {
-  const conta = [
+  const conta = conSegno([
     `${a.canzoni.length} ${a.canzoni.length === 1 ? 'canzone' : 'canzoni'}`,
     a.album.length ? `${a.album.filter((x) => x.titolo).length} album` : null,
-  ]
-    .filter(Boolean)
-    .join(' · ');
-  const meta = [a.generi[0], a.paese === 'it' ? 'Italia' : null].filter(Boolean).join(' · ');
+  ]);
+  const meta = conSegno([a.generi[0], a.paese === 'it' ? 'Italia' : null]);
   return `<a class="riga" href="${r}artista/${a.slug}/">
-        <span class="meta">${esc(meta || '—')}</span>
+        <span class="meta">${meta || '—'}</span>
         <span class="nome">${esc(a.nome)}</span>
-        <span class="conta">${esc(conta)} →</span>
+        <span class="conta">${conta} →</span>
       </a>`;
 }
 
@@ -279,12 +290,12 @@ export function paginaArtista(a, ctx) {
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">${esc(a.paese === 'it' ? 'Italia' : 'Artista')}${a.annoPrimo ? ` · brani dal ${a.annoPrimo}` : ''}</p>
+        <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', a.annoPrimo ? `brani dal ${a.annoPrimo}` : null])}</p>
         <h1>${esc(a.nome)}</h1>
         ${a.storia ? `<p class="sintesi">${esc(primaFrase(a.storia, 210))}</p>` : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
         <div class="affidabilita">
           <span class="bollo${a.storia ? '' : ' attesa'}">${a.storia ? 'Storia documentata' : 'Storia da scrivere'}</span>
-          <span class="verifica">Ultima revisione · ${esc(ctx.dataRevisione)}</span>
+          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
       </div>
       ${riquadroVisivo(a.nome)}
@@ -323,7 +334,7 @@ export function paginaArtista(a, ctx) {
           )
           .join('\n        ')}
       </div>
-      ${note.length ? `<p class="vuoto" style="margin-top:18px">${note.map((n) => esc(n.nota)).join(' · ')}</p>` : ''}
+      ${note.length ? `<p class="vuoto" style="margin-top:18px">${note.map((n) => esc(n.nota)).join(` ${SEGNO} `)}</p>` : ''}
     </section>`
         : ''
     }
@@ -388,12 +399,12 @@ export function paginaAlbum(al, ctx) {
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">${esc(a?.nome || '')}${al.anno ? ` · ${esc(al.anno)}` : ''} · Album in studio</p>
+        <p class="sopratitolo">${conSegno([a?.nome, al.anno])} ${SEGNO} Album in studio</p>
         <h1>${esc(al.titolo)}</h1>
         ${al.nota ? `<p class="sintesi">${esc(al.nota[0].toUpperCase() + al.nota.slice(1))}.</p>` : ''}
         <div class="affidabilita">
           <span class="bollo${al.copertina ? '' : ' attesa'}">${al.copertina ? 'Copertina documentata' : 'Copertina non documentata'}</span>
-          <span class="verifica">Ultima revisione · ${esc(ctx.dataRevisione)}</span>
+          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
       </div>
       ${riquadroVisivo(al.titolo)}
@@ -472,9 +483,11 @@ export function paginaHome(ctx) {
 
   const corpo = `
   <div class="col apertura">
-    <p class="occhiello">Un solo posto · fonti verificabili</p>
-    <h1>La musica che ami,<br>spiegata davvero.</h1>
-    <p class="promessa">Una canzone, un album o una band: cerca e arriva subito a cosa c’è dietro, con le fonti sotto mano.</p>
+    <a class="marchio-apertura" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
+      <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
+    </a>
+    <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
+    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c’è dietro, con le fonti sotto mano.</p>
 
     <div class="cerca grande" data-cerca style="max-width:640px">
       <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -486,7 +499,7 @@ export function paginaHome(ctx) {
     <div class="suggerimenti">
       <span class="etichetta">Prova</span>
       ${['Bohemian Rhapsody', 'Metallica', 'Nirvana', 'Vasco Rossi']
-        .map((q) => `<button type="button" data-esempio="${esc(q)}">${esc(q)}</button>`)
+        .map((q) => `<button type="button" data-esempio="${esc(q)}">${SEGNO} ${esc(q)}</button>`)
         .join('\n      ')}
       <button type="button" data-sorprendimi>Sorprendimi ✦</button>
     </div>
@@ -503,7 +516,7 @@ export function paginaHome(ctx) {
     </div>
     <article class="pillola" style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
       <div>
-        <p class="occhiello" style="color:var(--identita-testo)">${esc(inEvidenza.artista)}${annoDi(inEvidenza) ? ` · ${esc(annoDi(inEvidenza))}` : ''}</p>
+        <p class="occhiello" style="color:var(--identita-testo)">${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
         <p class="gancio">${esc(inEvidenza.titolo)}</p>
         <p class="estratto">${esc(primaFrase(inEvidenza.fraseIconica, 260))}</p>
         <div class="azioni">
@@ -546,10 +559,11 @@ export function paginaHome(ctx) {
   return pagina({
     profondita: 0,
     percorso: '',
-    titolo: 'La musica che ami, spiegata davvero',
+    titolo: 'Cerca una canzone, un album o una band',
     descrizione: `${canzoni.length} canzoni e ${artisti.length} artisti: contesto, significato e fonti verificate. Mai i testi.`,
     totali: ctx.totali,
     ricercaInTestata: false,
+    marchioInTestata: false,
     corpo,
     datiStrutturati: {
       '@context': 'https://schema.org',
@@ -600,7 +614,7 @@ export function paginaArchivio(ctx) {
           .map(
             (c) =>
               `<a class="scheda" href="${r}canzone/${c.slug}/" style="--identita:${c.colore || 'var(--sistema)'}" data-generi="${esc(c.generi.join(' '))}" data-paese="${esc(c.paese || '')}">
-          <span class="sopra">${esc([c.artista, annoDi(c)].filter(Boolean).join(' · '))}</span>
+          <span class="sopra">${conSegno([c.artista, annoDi(c)])}</span>
           <span class="titolo">${esc(c.titolo)}</span>
           ${richiamo(c) ? `<span class="gancio">${esc(richiamo(c))}</span>` : ''}
         </a>`
