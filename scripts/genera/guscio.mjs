@@ -5,7 +5,7 @@ import { STILE } from './stile.mjs';
 export const SITO = {
   nome: 'Dietro il testo',
   descrizione: 'Cosa c’è dietro le canzoni che ami: contesto, significato e fonti verificate. Mai i testi.',
-  base: 'https://dietro-il-testo.vercel.app',
+  base: 'https://www.dietroiltesto.it',
 };
 
 export function esc(s) {

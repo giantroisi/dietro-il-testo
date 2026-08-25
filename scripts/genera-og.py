@@ -178,7 +178,7 @@ def genera_immagine(c, destinazione):
         y += 40
 
     # dominio, in basso a destra
-    dominio = "dietro-il-testo.vercel.app"
+    dominio = "dietroiltesto.it"
     font_piede = ImageFont.truetype(FONT_MONO, 18)
     larghezza_piede = draw.textlength(dominio, font=font_piede)
     draw.text((W - marg - larghezza_piede, H - 46), dominio, font=font_piede, fill=(255, 255, 255, 200))
