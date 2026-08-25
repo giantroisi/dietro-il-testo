@@ -66,10 +66,20 @@ export function richiamo(c) {
   return primaFrase(c.corpo[0] || '', 118);
 }
 
-function statoEditoriale(c) {
-  const completa =
-    !!c.fraseIconica && !!c.spotifyId && !!c.testoUrl && (c.fonti || []).length >= 2 && (c.corpo || []).length >= 2;
-  return completa ? 'completa' : 'da integrare';
+/**
+ * Cosa manca per lo standard 4A della Costituzione, scheda per scheda.
+ * Uso interno (scripts/check-completezza.mjs): non è più mostrato in pagina —
+ * un lettore non deve vedere un giudizio sul processo editoriale, solo,
+ * dove serve, la dichiarazione onesta di cosa manca (F22).
+ */
+export function dettagliCompletezza(c) {
+  const manca = [];
+  if (!c.fraseIconica) manca.push('fraseIconica');
+  if (!c.spotifyId) manca.push('spotifyId');
+  if (!c.testoUrl) manca.push('testoUrl');
+  if ((c.fonti || []).length < 2) manca.push('fonti (almeno 2)');
+  if ((c.corpo || []).length < 2) manca.push('corpo (almeno 2 paragrafi)');
+  return { completa: manca.length === 0, manca };
 }
 
 function annoDi(c) {
@@ -83,7 +93,6 @@ export function paginaCanzone(c, ctx) {
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
   const altre = (artista?.canzoni || []).filter((s) => s !== c.slug).slice(0, 6).map((s) => ctx.canzoniPerSlug.get(s));
   const albumNoto = c.albumSlug && ctx.albumPerSlug.has(`${c.artistaSlug}/${c.albumSlug}`);
-  const stato = statoEditoriale(c);
 
   const corpoHtml = c.corpo.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
 
@@ -113,7 +122,6 @@ export function paginaCanzone(c, ctx) {
         <h1>${esc(c.titolo)}</h1>
         ${richiamo(c) ? `<p class="sintesi">${esc(richiamo(c))}</p>` : ''}
         <div class="affidabilita">
-          <span class="bollo${stato === 'completa' ? '' : ' attesa'}">${stato === 'completa' ? 'Scheda completa' : 'Da integrare'}</span>
           <span class="verifica">Ultima revisione · ${esc(ctx.dataRevisione)}</span>
         </div>
         <div class="condividi">
@@ -128,17 +136,17 @@ export function paginaCanzone(c, ctx) {
       ${riquadroVisivo(c.titolo)}
     </header>
 
-    ${
-      c.fraseIconica
-        ? `<section class="blocco" id="momento" style="border-top:0;padding-top:0">
-      <figure class="momento">
+    <section class="blocco" id="momento" style="border-top:0;padding-top:0">
+      ${
+        c.fraseIconica
+          ? `<figure class="momento">
         <span class="etichetta">Momento iconico</span>
         <p>${esc(c.fraseIconica)}</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
-      </figure>
-    </section>`
-        : ''
-    }
+      </figure>`
+          : `<p class="vuoto">Il momento iconico di questa canzone non è stato ancora individuato.</p>`
+      }
+    </section>
 
     <section class="blocco" id="storia">
       <h2>La storia</h2>
@@ -157,6 +165,7 @@ export function paginaCanzone(c, ctx) {
             ? `<iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${esc(c.titolo)} su Spotify"></iframe>`
             : `<p class="assente">Il player ufficiale per questo brano non è ancora stato collegato.</p>`
         }
+        ${c.testoUrl ? '' : `<p class="assente">Il link a un testo verificato non è ancora stato collegato.</p>`}
       </div>
       <div class="azioni">
         ${c.testoUrl ? `<a class="bottone pieno" href="${esc(c.testoUrl)}" target="_blank" rel="noopener">Leggi il testo su ${esc(c.testoFonte || 'fonte esterna')}</a>` : ''}
