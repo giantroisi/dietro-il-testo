@@ -4,7 +4,7 @@ import { STILE } from './stile.mjs';
 
 export const SITO = {
   nome: 'Dietro il testo',
-  descrizione: 'Cosa c’è dietro le canzoni che ami: contesto, significato e fonti verificate. Mai i testi.',
+  descrizione: 'Cosa c\'è dietro le canzoni che ami: contesto, significato e fonti verificate. Mai i testi.',
   base: 'https://www.dietroiltesto.it',
 };
 
@@ -75,7 +75,7 @@ function piede(r, totali) {
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
         ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità.
-        I colori richiamano l’immaginario visivo di band e album, non i loro loghi.</p>
+        I colori richiamano l'immaginario visivo di band e album, non i loro loghi.</p>
       </div>
       <nav aria-label="Piede">
         <a href="${r}archivio/">Archivio completo</a>

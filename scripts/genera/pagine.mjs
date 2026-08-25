@@ -141,9 +141,9 @@ export function paginaCanzone(c, ctx) {
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi
             data-titolo="${esc(`${c.titolo} — ${c.artista}`)}"
-            data-testo="${esc(richiamo(c) || `${c.titolo} di ${c.artista}: cosa c’è dietro questa canzone.`)}"
+            data-testo="${esc(richiamo(c) || `${c.titolo} di ${c.artista}: cosa c'è dietro questa canzone.`)}"
             data-url="${SITO.base}/canzone/${c.slug}/">Condividi</button>
-          <a class="bottone" href="${r}og/${c.slug}.png" download>Scarica l’immagine</a>
+          <a class="bottone" href="${r}og/${c.slug}.png" download>Scarica l'immagine</a>
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
@@ -184,7 +184,7 @@ export function paginaCanzone(c, ctx) {
       <div class="azioni">
         ${c.testoUrl ? `<a class="bottone pieno" href="${esc(c.testoUrl)}" target="_blank" rel="noopener">Leggi il testo su ${esc(c.testoFonte || 'fonte esterna')}</a>` : ''}
         <a class="bottone" href="${r}artista/${c.artistaSlug}/">Tutto su ${esc(c.artista)}</a>
-        ${albumNoto ? `<a class="bottone" href="${r}album/${c.artistaSlug}/${c.albumSlug}/">L’album ${esc(c.album)}</a>` : ''}
+        ${albumNoto ? `<a class="bottone" href="${r}album/${c.artistaSlug}/${c.albumSlug}/">L'album ${esc(c.album)}</a>` : ''}
       </div>
     </section>
 
@@ -353,7 +353,7 @@ export function paginaArtista(a, ctx) {
 
     <section class="blocco">
       <div class="azioni">
-        <a class="bottone" href="${r}archivio/">Sfoglia tutto l’archivio</a>
+        <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
         <a class="bottone" href="mailto:g.prizio@icloud.com?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
       </div>
     </section>
@@ -487,7 +487,7 @@ export function paginaHome(ctx) {
       <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
     </a>
     <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
-    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c’è dietro, con le fonti sotto mano.</p>
+    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
 
     <div class="cerca grande" data-cerca style="max-width:640px">
       <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -597,8 +597,8 @@ export function paginaArchivio(ctx) {
     <nav class="briciole" aria-label="Percorso"><a href="${r}">Home</a><span>/</span>Archivio</nav>
 
     <header class="intestazione">
-      <p class="sopratitolo">Tutto quello che c’è</p>
-      <h1>L’archivio completo.</h1>
+      <p class="sopratitolo">Tutto quello che c'è</p>
+      <h1>L'archivio completo.</h1>
       <p class="sintesi">${canzoni.length} canzoni e ${artisti.length} artisti. Filtra per genere o cerca direttamente.</p>
     </header>
 
@@ -652,21 +652,21 @@ export function paginaMetodo(ctx) {
     <header class="intestazione">
       <p class="sopratitolo">Come lavoriamo</p>
       <h1>Metodo e fonti.</h1>
-      <p class="sintesi">Questo sito esiste per una ragione sola: dire cosa c’è dietro una canzone senza inventare nulla. Ecco come.</p>
+      <p class="sintesi">Questo sito esiste per una ragione sola: dire cosa c'è dietro una canzone senza inventare nulla. Ecco come.</p>
     </header>
 
     <section class="blocco" style="border-top:0;padding-top:0">
       <h2>Cosa pubblichiamo</h2>
       <div class="prosa">
-        <p>Pubblichiamo un fatto solo se è riconducibile a una fonte che lo sostenga davvero: un’intervista all’artista, i crediti di un disco, un ente di certificazione, un archivio ufficiale o una testata musicale con responsabilità editoriale.</p>
-        <p>Quando una spiegazione è un’interpretazione diffusa ma non confermata dall’autore, lo scriviamo. Quando non troviamo una fonte affidabile, non riempiamo lo spazio: preferiamo una scheda più corta a una scheda più fragile. È il motivo per cui alcune pagine dicono apertamente che una spiegazione non risulta documentata.</p>
+        <p>Pubblichiamo un fatto solo se è riconducibile a una fonte che lo sostenga davvero: un'intervista all'artista, i crediti di un disco, un ente di certificazione, un archivio ufficiale o una testata musicale con responsabilità editoriale.</p>
+        <p>Quando una spiegazione è un'interpretazione diffusa ma non confermata dall'autore, lo scriviamo. Quando non troviamo una fonte affidabile, non riempiamo lo spazio: preferiamo una scheda più corta a una scheda più fragile. È il motivo per cui alcune pagine dicono apertamente che una spiegazione non risulta documentata.</p>
       </div>
     </section>
 
     <section class="blocco">
       <h2>Perché non trovi i testi</h2>
       <div class="prosa">
-        <p>Non riproduciamo versi, ritornelli o traduzioni, nemmeno parziali. Il “momento iconico” di ogni scheda è descritto con parole nostre: raccontiamo cosa dice quel passaggio e da dove nasce, senza copiarlo.</p>
+        <p>Non riproduciamo versi, ritornelli o traduzioni, nemmeno parziali. Il "momento iconico" di ogni scheda è descritto con parole nostre: raccontiamo cosa dice quel passaggio e da dove nasce, senza copiarlo.</p>
         <p>Per leggere un testo per intero ogni scheda rimanda a una fonte esterna, che se ne assume la responsabilità editoriale. Prima di pubblicare un collegamento verifichiamo che porti davvero alla canzone giusta.</p>
       </div>
     </section>
@@ -674,17 +674,17 @@ export function paginaMetodo(ctx) {
     <section class="blocco">
       <h2>Le immagini</h2>
       <div class="prosa">
-        <p>Non ospitiamo copertine, fotografie o loghi di cui non abbiamo una licenza o un’autorizzazione documentata: il fatto che un’immagine sia reperibile online non la rende riutilizzabile. Gli spazi colorati che vedi nelle pagine sono grafica originale, e restano pronti ad accogliere un’immagine il giorno in cui i diritti saranno chiari.</p>
-        <p>I colori di ogni pagina richiamano l’immaginario visivo di una band o di un album; non riproducono i loro marchi.</p>
+        <p>Non ospitiamo copertine, fotografie o loghi di cui non abbiamo una licenza o un'autorizzazione documentata: il fatto che un'immagine sia reperibile online non la rende riutilizzabile. Gli spazi colorati che vedi nelle pagine sono grafica originale, e restano pronti ad accogliere un'immagine il giorno in cui i diritti saranno chiari.</p>
+        <p>I colori di ogni pagina richiamano l'immaginario visivo di una band o di un album; non riproducono i loro marchi.</p>
       </div>
     </section>
 
     <section class="blocco">
       <h2>Gerarchia delle fonti</h2>
       <div class="prosa">
-        <p><strong>Preferite:</strong> canali ufficiali dell’artista o dell’etichetta, interviste dirette, libretti e crediti, enti come Grammy, FIMI, RIAA e BPI, archivi e istituzioni pubbliche.</p>
+        <p><strong>Preferite:</strong> canali ufficiali dell'artista o dell'etichetta, interviste dirette, libretti e crediti, enti come Grammy, FIMI, RIAA e BPI, archivi e istituzioni pubbliche.</p>
         <p><strong>Affidabili con attribuzione:</strong> testate musicali riconoscibili con firma e data, quotidiani e periodici con controllo editoriale, libri e documentari identificabili.</p>
-        <p><strong>Solo come pista di ricerca:</strong> Wikipedia, database collaborativi e siti di interpretazione. Da soli non bastano per fatti controversi, intenzioni attribuite all’autore, spiegazioni di copertine o numeri di vendita.</p>
+        <p><strong>Solo come pista di ricerca:</strong> Wikipedia, database collaborativi e siti di interpretazione. Da soli non bastano per fatti controversi, intenzioni attribuite all'autore, spiegazioni di copertine o numeri di vendita.</p>
       </div>
     </section>
 
@@ -695,7 +695,7 @@ export function paginaMetodo(ctx) {
       </div>
       <div class="azioni">
         <a class="bottone pieno" href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Scrivici</a>
-        <a class="bottone" href="${r}archivio/">Torna all’archivio</a>
+        <a class="bottone" href="${r}archivio/">Torna all'archivio</a>
       </div>
     </section>
   </div>`;
