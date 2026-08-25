@@ -151,7 +151,7 @@ export function paginaCanzone(c, ctx) {
         }
       </div>
       <div class="azioni">
-        ${c.testoUrl ? `<a class="bottone pieno" href="${esc(c.testoUrl)}" target="_blank" rel="noopener">Leggi il testo su una fonte esterna</a>` : ''}
+        ${c.testoUrl ? `<a class="bottone pieno" href="${esc(c.testoUrl)}" target="_blank" rel="noopener">Leggi il testo su ${esc(c.testoFonte || 'fonte esterna')}</a>` : ''}
         <a class="bottone" href="${r}artista/${c.artistaSlug}/">Tutto su ${esc(c.artista)}</a>
         ${albumNoto ? `<a class="bottone" href="${r}album/${c.artistaSlug}/${c.albumSlug}/">L’album ${esc(c.album)}</a>` : ''}
       </div>
