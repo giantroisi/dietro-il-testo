@@ -243,3 +243,5 @@ Non si pubblica una scheda “completa” se manca la storia dell'artista richie
 Le fonti di livello C non bastano da sole per fatti controversi, intenzioni attribuite all'autore, spiegazioni di copertine, numeri di vendita o accuse personali.
 
 ### Fonti da non usare come prova
+
+Post social non verificati, forum, commenti, video senza provenienza, testi generati automaticamente, pagine che si copiano a vicenda e siti privi di autore/data.

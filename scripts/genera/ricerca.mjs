@@ -250,13 +250,34 @@ export function generaRicerca(ctx) {
       }
     }
 
+    // F4: il filtro attivo vive nell'URL (?genere= / ?paese=), così ricaricare,
+    // tornare indietro o condividere il link restituisce la stessa vista.
+    function applicaFiltro(genere, paese, aggiornaUrl) {
+      filtra(genere, paese);
+      bottoni.forEach(function (b) {
+        var attivo = (b.getAttribute('data-genere') || '') === genere && (b.getAttribute('data-paese') || '') === paese;
+        b.setAttribute('aria-pressed', attivo ? 'true' : 'false');
+      });
+      if (aggiornaUrl) {
+        var url = new URL(location.href);
+        url.searchParams.delete('genere');
+        url.searchParams.delete('paese');
+        if (genere) url.searchParams.set('genere', genere);
+        if (paese) url.searchParams.set('paese', paese);
+        history.replaceState(null, '', url.pathname + url.search);
+      }
+    }
+
     bottoni.forEach(function (b) {
       b.addEventListener('click', function () {
-        bottoni.forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
-        b.setAttribute('aria-pressed', 'true');
-        filtra(b.getAttribute('data-genere') || '', b.getAttribute('data-paese') || '');
+        applicaFiltro(b.getAttribute('data-genere') || '', b.getAttribute('data-paese') || '', true);
       });
     });
+
+    var parametriIniziali = new URLSearchParams(location.search);
+    var genereIniziale = parametriIniziali.get('genere') || '';
+    var paeseIniziale = parametriIniziali.get('paese') || '';
+    if (genereIniziale || paeseIniziale) applicaFiltro(genereIniziale, paeseIniziale, false);
   }
 })();
 `;

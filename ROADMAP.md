@@ -1,19 +1,19 @@
 # Dietro il testo — Roadmap di prodotto e patto editoriale
 
-Documento guida del progetto. Aggiornato il 25 agosto 2026 dopo la verifica del selettore chiaro/scuro nella testata.
+Documento guida del progetto. Aggiornato il 25 agosto 2026 dopo la chiusura del brief F20-F27, la separazione definitiva da `COSTITUZIONE.md` (F26) e i filtri archivio nell'URL (F4).
 
 Questo documento stabilisce **la direzione**, **l'ordine del lavoro** e soprattutto i principi che non possono essere sacrificati per aggiungere più contenuti o pubblicare più rapidamente.
 
 ## Stato del progetto
 
-Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da fare`, `in corso`, `da verificare`, `completato`, `bloccato`.
+Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da fare`, `in corso`, `da verificare`, `completato`, `bloccato`, `superato` (l'obiettivo è stato raggiunto per un'altra strada), `lavoro editoriale continuo` (non un blocco da chiudere, ma un ampliamento graduale già in corso).
 
 | Intervento | Stato | Ultimo aggiornamento | Verifica / nota |
 |---|---|---|---|
 | F1 — Contrasto chiaro/scuro | completato | 21 agosto 2026 | 157 schede controllate automaticamente; zero valori sotto 4,5:1 |
 | F2 — Generi e provenienza normalizzati | completato | 21 agosto 2026 | 157 schede allineate; conteggi e casi critici verificati automaticamente, desktop e mobile |
 | F3 — Card, link e semantica corretti | completato | 21 agosto 2026 | 157 card convertite: titolo e artista sono azioni separate; zero controlli interattivi annidati |
-| F4 — URL, cronologia e ritorno contestuale | in corso | 21 agosto 2026 | Prossimo intervento: rendere stato e posizione ripristinabili |
+| F4 — URL, cronologia e ritorno contestuale | completato | 25 agosto 2026 | Risolto in gran parte dalla ricostruzione (F6-F10: ogni canzone/artista/album ha un URL vero). Ultimo pezzo: i filtri di genere/paese nell'archivio ora vivono in `?genere=`/`?paese=`, ripristinati al caricamento |
 | F5 — Report di completezza editoriale | da fare | 21 agosto 2026 | Standard Everlong applicato come controllo a tutte le schede |
 | F6 — Separazione dei dati dal documento HTML | completato | 23 agosto 2026 | 157 canzoni e 104 artisti estratti in `dati/*.json`; generatore in `scripts/genera-sito.mjs`, zero dipendenze |
 | F7 — Pagine canzone e artista autonome | completato | 23 agosto 2026 | 157 pagine canzone + 104 pagine artista generate, URL propri, dati strutturati, verificate su desktop e mobile, chiaro e scuro |
@@ -24,8 +24,8 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F12 — Ricerca per intenzione e risultati prioritari | completato | 22 agosto 2026 | Sinonimi per canzone, artista e album; massimo sei risultati; contenuti con copertina documentata prioritari |
 | F13 — Homepage orientata alla scoperta | completato | 22 agosto 2026 | I tre artisti vengono prima dell’esempio editoriale; ricerca e percorsi sono il primo contenuto operativo |
 | F14 — Risposta prima della grafica su mobile | completato | 22 agosto 2026 | Grafica decorativa rimossa dalle pagine interne sotto 760 px; “In breve” interamente visibile a 390×844 |
-| F15 — Pagine album complete e non ripetitive | in corso | 22 agosto 2026 | Formato compatto applicato; otto album hanno una copertina documentata con fonte specifica; estensione prudenziale ancora in corso |
-| F16 — Pillole-curiosità autonome | da fare | 22 agosto 2026 | Copertine, frasi iconiche, premi, formazione e retroscena con URL condivisibile |
+| F15 — Pagine album complete e non ripetitive | lavoro editoriale continuo | 25 agosto 2026 | Obiettivo di formato raggiunto (F8); resta l'ampliamento delle copertine documentate (8 su ~391), volutamente graduale — non un blocco da chiudere |
+| F16 — Pillole-curiosità autonome | superato | 25 agosto 2026 | L'obiettivo (canzoni come pagine autonome condivisibili) è realizzato da F7 + F23. Il residuo editoriale (curiosità mancanti su alcune schede) è lo stesso lavoro già misurato da `scripts/check-completezza.mjs` |
 | F17 — Fonti collegate alle singole affermazioni | da fare | 22 agosto 2026 | Eliminare certificazioni generiche di interi blocchi e uniformare le date di verifica |
 | F18 — Identità visiva autorizzata per artista | da fare | 22 agosto 2026 | Asset soltanto con licenza o autorizzazione registrata; alternativa grafica originale specifica |
 | F19 — Selettore chiaro/scuro manuale | completato | 25 agosto 2026 | Preferenza del dispositivo rispettata, scelta persistente, stato e nome accessibile aggiornati senza ricaricare |
@@ -35,7 +35,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F23 — Pillole condivisibili | completato | 25 agosto 2026 | Pulsante "Condividi" (`navigator.share` con ricaduta su copia link) su ogni canzone; `og:image` generata per tutte le 157 schede con `scripts/genera-og.py`, verificata 1200×630 |
 | F24 — Identità visiva riconoscibile | completato | 25 agosto 2026 | Proposte presentate e approvate dall'autore ("Frontespizio"): logo nell'apertura homepage (300px), segno tipografico sui metadati in tutto il sito, immagine condivisibile già in produzione da F23 |
 | F25 — Selettore del tema a sinistra | completato | 25 agosto 2026 | Primo elemento della testata su tutte le 655 pagine; nessuna sovrapposizione su desktop e mobile |
-| F26 — Costituzione separata dalla roadmap | in corso | 24 agosto 2026 | `COSTITUZIONE.md` estratto; resta da rimuovere le sezioni duplicate qui |
+| F26 — Costituzione separata dalla roadmap | completato | 25 agosto 2026 | Rimosse da qui le sezioni 1-5 (missione, principi, diagnosi, architettura, gerarchia fonti), ora solo in `COSTITUZIONE.md`, con rimando esplicito. Trovato e corretto un principio perso nel taglio originale ("Fonti da non usare come prova" era senza contenuto in `COSTITUZIONE.md`) |
 | F27 — Dominio proprio collegato | completato | 25 agosto 2026 | `dietroiltesto.it` collegato su Hostinger/Vercel dall'autore; dominio canonico del sito spostato da `dietro-il-testo.vercel.app` a `https://www.dietroiltesto.it` |
 
 ### Registro degli interventi
@@ -92,6 +92,9 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 - **25 agosto 2026 — F27 completato, dominio proprio:** l'autore ha collegato `dietroiltesto.it` (acquistato su Hostinger) al progetto Vercel. Verificato che `www.dietroiltesto.it` risponda 200 e serva il sito reale (non una pagina segnaposto) e che l'apex `dietroiltesto.it` reindirizzi con 308 a `www`. Spostato il dominio canonico in `scripts/genera/guscio.mjs` (`SITO.base`) da `dietro-il-testo.vercel.app` a `https://www.dietroiltesto.it`: cambia `canonical`, `og:url`, `og:image`, i dati strutturati e `sitemap.xml` su tutte le 655 pagine. Aggiornato anche il dominio scritto in calce alle 157 immagini di anteprima generate da `scripts/genera-og.py`, e rigenerate tutte. `dietro-il-testo.vercel.app` resta comunque raggiungibile e serve lo stesso sito. Verificato nel browser che canonical, og:url, og:image e l'URL del pulsante "Condividi" puntino tutti al nuovo dominio. `check-link.mjs`, `check-coerenza.mjs` e `check-contrasto-v2.mjs` restano puliti.
 - **25 agosto 2026 — Protezione temporanea con password:** l'autore ha chiesto di rendere il sito privato perché è ancora in costruzione, segnalando però il conflitto con F23 (le anteprime social e l'indicizzazione richiedono che il sito sia raggiungibile senza login). Aggiunto `middleware.js` (Vercel Edge Middleware, Basic Auth): nessuna password nel codice, si attiva impostando `SITE_USER`/`SITE_PASSWORD` come variabili d'ambiente nel progetto Vercel — finché non sono impostate il sito resta pubblico come prima. Non verificabile in locale (funziona solo sull'infrastruttura Vercel): la verifica in produzione spetta all'autore dopo aver impostato le variabili. Da rimuovere quando il sito è pronto per essere annunciato pubblicamente, altrimenti condivisione e SEO restano di fatto inutilizzabili.
 - **25 agosto 2026 — F24 completato, "Frontespizio":** presentate due proposte in un artifact interattivo (non nel sito pubblico) prima di scrivere codice, come richiesto dal brief. L'autore ha scelto "Frontespizio" — il logo sostituisce il titolo in apertura di homepage — e ha chiesto di eliminare la frase "La musica che ami, spiegata davvero" ovunque, non solo dal titolo. Implementato: in `paginaHome` (`scripts/genera/pagine.mjs`) il logo (300px desktop, 190px mobile via `clamp()`) sostituisce l'`<h1>`; la promessa diventa "Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano"; `<title>` e `og:title` aggiornati a "Cerca una canzone, un album o una band". Il logo compatto sparisce dalla testata solo in home (nuovo parametro `marchioInTestata`), per non avere due marchi in pagina — nelle pagine interne resta invariato. Aggiunto il secondo pezzo della proposta, il segno tipografico ripreso dalle righe musicali del logo (due tratti di penna, non una nota disegnata): sostituisce il punto medio come separatore dei metadati (sopratitolo di canzoni/artisti/album, "Ultima revisione", schede e righe nell'archivio, risultati di ricerca) e come marcatore prima dei suggerimenti "Prova" in home — su tutte le 655 pagine e nel motore di ricerca (`ricerca.js`). Il terzo pezzo (immagine condivisibile marchiata) era già in produzione da F23. Verificato nel browser: ricerca raggiungibile senza scorrere a 1280px e 375px, tema chiaro e scuro, pagine interne invariate, dropdown di ricerca con i nuovi separatori, nessun errore console. `check-link.mjs`, `check-coerenza.mjs`, `check-contrasto-v2.mjs` e `check-testi.mjs` restano puliti.
+- **25 agosto 2026 — Riesame dei punti aperti pre-rebuild (F4, F15-F18):** su richiesta dell'autore ("fai tutto, nessun punto in sospeso?"), riverificati contro il sito attuale i cinque punti rimasti aperti dalle sessioni del 21-22 agosto, scritti prima della ricostruzione F6-F10. F15 e F16 avevano l'obiettivo di fondo già raggiunto (rispettivamente: formato album non ripetitivo da F8, canzoni come pagine autonome condivisibili da F7+F23); riclassificati con stati onesti (`lavoro editoriale continuo`, `superato`) invece di lasciarli genericamente aperti. F17 (fonti per singola affermazione) e F18 (immagini autorizzate per artista) restano gap reali: F17 richiede un brief dedicato per lo sforzo che comporta su 157 schede; F18 non è completabile senza licenze vere, che non posso procurare da solo — segnalato esplicitamente, non eseguito a metà.
+- **25 agosto 2026 — F26 completato:** rimosse da qui le sezioni 1-5 (missione, principi P1-P9, diagnosi, architettura editoriale, standard 4A, gerarchia delle fonti), ora presenti solo in `COSTITUZIONE.md`, con un rimando esplicito al loro posto. Nel confronto riga per riga tra le due versioni, trovato un principio andato perso nella separazione originale del 24 agosto: la sezione "Fonti da non usare come prova" era rimasta senza contenuto in `COSTITUZIONE.md` (solo il titolo) — corretto aggiungendo il testo mancante prima di cancellare la copia da qui, così da non perderlo davvero. Aggiunta una nota alla sezione 10 (ordine immediato), completata da tempo, che ora rimanda a `BRIEF-F20-F26.md` per le priorità correnti. Ampliato l'elenco degli stati ammessi con `superato` e `lavoro editoriale continuo`, già in uso ma non documentati.
+- **25 agosto 2026 — F4 completato:** il problema originale (nessun URL reale, stato perso a ogni navigazione) era già in gran parte risolto dalla ricostruzione F6-F10. L'unico pezzo rimasto — i filtri di genere/paese dell'archivio, gestiti solo in memoria — ora si riflettono nell'URL (`?genere=metal`, `?paese=it`) tramite `history.replaceState` a ogni click, e vengono riletti e riapplicati al caricamento della pagina. Verificato nel browser: click su un filtro aggiorna l'URL senza ricaricare, apertura diretta di un URL con parametro applica il filtro corretto (conteggio e pillola attiva coerenti), il pulsante "Tutti" pulisce l'URL. Nessun errore console. `check-link.mjs`, `check-coerenza.mjs` e `check-contrasto-v2.mjs` restano puliti.
 
 ### Regola di aggiornamento
 
@@ -106,243 +109,9 @@ Per ogni intervento eseguito devono essere registrati:
 
 Nessun punto passa a `completato` prima della verifica locale, mobile, accessibile e online prevista dalla sua definizione di fatto.
 
-## 1. Missione
+## 1–5. Missione, principi, diagnosi, architettura editoriale, gerarchia delle fonti
 
-Dietro il testo deve diventare il luogo italiano più semplice e affidabile per capire cosa c'è dietro una canzone, un album e un artista.
-
-Il sito non è un archivio di testi e non è un'enciclopedia generalista. Il suo valore è raccogliere in un solo posto pillole verificabili che normalmente sono disperse tra interviste, archivi, testate musicali e fonti ufficiali.
-
-La promessa all'utente è:
-
-> Trovi rapidamente una risposta interessante, capisci da dove arriva e puoi verificarla.
-
-## 2. Principi non negoziabili
-
-### P1 — La verità viene prima della quantità
-
-- Nessuna informazione viene pubblicata perché “probabile”, ripetuta da molti siti o coerente con un'interpretazione diffusa.
-- Se una tesi non è verificabile, viene presentata esplicitamente come interpretazione, ipotesi o racconto non confermato.
-- È preferibile una scheda più corta a una scheda riempita con dettagli fragili.
-- Una data, certificazione, citazione indiretta, attribuzione o spiegazione della copertina senza fonte affidabile non entra nel sito.
-- Una nuova canzone non giustifica mai l'abbassamento dello standard delle schede già pubblicate.
-
-### P2 — Le fonti devono essere visibili e pertinenti
-
-- Ogni affermazione sostanziale deve essere riconducibile a una fonte che la supporti davvero.
-- Una fonte generica sull'artista non prova automaticamente una tesi sulla singola canzone.
-- Le fonti primarie hanno priorità: interviste dirette, siti ufficiali, crediti dell'album, enti di certificazione, archivi e premi ufficiali.
-- Le fonti secondarie devono essere testate musicali riconoscibili o pubblicazioni con responsabilità editoriale.
-- Wikipedia e Songfacts possono orientare la ricerca, ma le affermazioni delicate vanno incrociate.
-- Le fonti devono essere chiamate per nome; non basta una lista anonima di URL.
-- Ogni scheda mostra la data dell'ultima verifica e offre un modo semplice per segnalare un errore.
-
-### P3 — Mai testi o traduzioni delle canzoni
-
-- Non si riproducono versi, ritornelli o traduzioni, neppure parziali.
-- La “frase iconica” viene descritta o parafrasata con parole originali.
-- Se il valore del passaggio dipende dalla formulazione letterale, si rimanda a una fonte autorizzata senza copiarla.
-- Il pulsante verso il testo integrale resta esterno e deve portare alla canzone corretta.
-
-### P4 — Il premio arriva prima del contesto
-
-Ogni pagina canzone deve rispondere entro pochi secondi a tre domande:
-
-1. Perché questa canzone è interessante?
-2. Qual è il suo momento o concetto iconico?
-3. Come sappiamo che questa spiegazione è attendibile?
-
-La struttura ideale è: **gancio → momento iconico → spiegazione → storia completa → ascolto → fonti**.
-
-### P5 — Ogni click deve essere prevedibile e reversibile
-
-- Titolo della canzone, artista, album e fonte sono destinazioni diverse e riconoscibili.
-- Il tasto Indietro deve riportare al punto precedente, con ricerca e filtri intatti.
-- Ricerca, artista, genere, ordinamento e pagina aperta devono avere uno stato condivisibile nell'URL.
-- Un click sbagliato non deve costringere l'utente a ricominciare dall'alto.
-- Nessun controllo interattivo può essere annidato dentro un altro controllo interattivo.
-
-### P6 — La canzone è l'unità fondamentale
-
-- Ogni canzone deve avere un proprio indirizzo, titolo pagina, descrizione e dati strutturati.
-- Ogni artista deve avere una propria pagina generata anche quando non possiede ancora una biografia editoriale completa.
-- Ogni album citato deve diventare una destinazione autonoma quando dispone di abbastanza dati verificati.
-- La homepage serve a cercare e scoprire; non deve contenere integralmente tutte le pagine del sito.
-
-### P7 — L'accessibilità è parte della qualità editoriale
-
-- Contrasto minimo WCAG AA, navigazione completa da tastiera, focus visibile e struttura dei titoli corretta.
-- Stato dei filtri e numero dei risultati vengono annunciati alle tecnologie assistive.
-- L'interfaccia non dipende soltanto dal colore.
-- Animazioni e caricamenti rispettano le preferenze dell'utente.
-
-### P8 — Le immagini non sono decorazione gratuita
-
-- Un'immagine viene usata solo se aggiunge informazione, riconoscibilità o contesto.
-- Ogni immagine deve avere provenienza, titolare/licenza quando nota, attribuzione richiesta e testo alternativo.
-- Se i diritti non sono chiari, l'immagine non viene ospitata dal sito.
-- La disponibilità su Google, Wikipedia, social network o sito di una band non equivale a una licenza di riuso.
-
-### P9 — La crescita deve essere sostenibile
-
-- I dati editoriali devono essere separati dalla presentazione.
-- Ogni nuova scheda deve essere validata automaticamente prima della pubblicazione.
-- Gli automatismi possono proporre e preparare contenuti, ma non devono inventare né trasformare una fonte debole in certezza.
-- Il numero totale delle schede deve essere generato dai dati, mai scritto manualmente in più punti.
-
-## 3. Diagnosi della versione attuale
-
-### Punti di forza da preservare
-
-- Identità visiva riconoscibile e coerente con il pubblico rock/metal.
-- Modalità chiara e scura ben impostate.
-- Ricerca semplice da comprendere.
-- Catalogo già significativo: 157 canzoni e oltre cento artisti.
-- Schede migliori, come Everlong, con un buon livello di approfondimento.
-- Collegamenti esterni aperti in sicurezza e player Spotify ufficiali.
-- Colore specifico per artista/album: ottimo elemento identitario sulle pagine individuali.
-
-### Problemi strutturali osservati
-
-- Homepage e 157 schede complete convivono nello stesso documento: circa 149.000 pixel di altezza nella prova desktop.
-- La pagina contiene oltre 1.400 link e 157 coppie di elementi interattivi annidati in modo non valido.
-- Il click sull'artista mostra un filtro arricchito, non una vera pagina artista condivisibile.
-- La biografia e la discografia occupano molto spazio senza indice interno o sezioni richiudibili.
-- Ricerca, filtri e artista non sono ancora uno stato affidabile della cronologia e dell'URL.
-- Le informazioni più gratificanti arrivano spesso dopo il player e dopo lunghi paragrafi.
-- La descrizione per i motori di ricerca dichiara ancora 138 schede invece di 157.
-- Mancano URL canonici e pagine indicizzabili per canzoni, artisti e album.
-- Sono presenti 39 player Spotify: il caricamento può essere ulteriormente rimandato fino alla reale necessità.
-- Il conteggio dei risultati non è ancora annunciato tramite `aria-live`.
-- Qualità e completezza non sono uniformi: non tutte le schede raggiungono lo standard di Everlong.
-
-## 4. Architettura editoriale approvata
-
-La nuova versione non riproduce la struttura dell'archivio attuale. È organizzata intorno a tre entità collegate: **canzone**, **artista**, **album**.
-
-### Homepage
-
-- Logo riconoscibile, promessa breve e ricerca nella prima schermata.
-- Il primo contenuto utile è già leggibile senza aprire una nuova pagina.
-- La ricerca mostra titolo, tipo e una sintesi del contenuto prima del click; Invio apre il primo risultato pertinente.
-- Non mostra l'intero catalogo e non moltiplica le categorie: propone una risposta in evidenza e tre accessi diretti ad artista, album e canzone.
-- La stessa ricerca resta disponibile nelle pagine interne, evitando il ritorno obbligato alla homepage.
-- Obiettivo misurabile: una risposta pertinente deve essere raggiungibile con una ricerca e un solo click, o con ricerca più Invio.
-
-### Pagina canzone
-
-Ordine approvato:
-
-1. artista, anno, album e genere;
-2. titolo e sintesi di 2–3 frasi;
-3. blocco “In breve”;
-4. momento iconico parafrasato;
-5. nascita, significato, registrazione, curiosità e impatto;
-6. Spotify e collegamento esterno autorizzato al testo;
-7. fonti vicine alle affermazioni;
-8. ultima verifica, stato editoriale e segnalazione errori;
-9. canzoni, artista e album correlati.
-
-### Pagina artista
-
-- Presentazione sintetica.
-- Cronologia visiva dell'evoluzione artistica.
-- Storia completa, quando verificata.
-- Discografia in studio organizzata per album.
-- Canzoni raccontate sul sito.
-- Momenti fondamentali, premi e riconoscimenti.
-- Fonti e data di verifica.
-
-La pagina viene generata per ogni artista anche quando la biografia estesa non è ancora pronta; in quel caso mostra dati verificati, cronologia e brani disponibili senza inventare contenuti mancanti.
-
-### Pagina album
-
-- Perché l'album è importante.
-- Contesto nella carriera dell'artista.
-- Registrazione e produzione.
-- Significato del titolo.
-- Spiegazione della copertina soltanto quando documentata.
-- Premi, certificazioni e rilevanza.
-- Tracce presenti nel sito e collegamenti correlati.
-- Formula esplicita “Non risulta disponibile una spiegazione ufficiale verificabile” quando il significato della copertina non è documentato.
-
-### Linguaggio visivo
-
-- Impostazione da rivista musicale contemporanea, non da database tecnico.
-- Cornice neutra e un solo colore identitario per pagina.
-- Titoli serif espressivi, testo molto leggibile, metadati monospaziati.
-- Meno riquadri e bordi, più spazio tra concetti.
-- Card sintetiche; il colore completo dell'album vive sulla pagina individuale.
-- Nessuna immagine decorativa senza autorizzazione.
-
-### Segnali di attendibilità
-
-Le informazioni possono essere accompagnate da una delle seguenti etichette:
-
-- `Dichiarato dall'artista`;
-- `Fatto documentato`;
-- `Interpretazione accreditata`.
-
-Queste etichette non sostituiscono le fonti: rendono immediatamente comprensibile la natura dell'affermazione.
-
-### Prototipo di riferimento
-
-Prima dell'importazione dell'intero catalogo devono essere approvati:
-
-- nuova homepage;
-- ricerca raggruppata;
-- pagina Can You Feel My Heart;
-- pagina Bring Me the Horizon;
-- pagina Sempiternal;
-- pagina Drown, come seconda canzone che dimostri la riutilizzabilità del modello.
-
-Il prototipo diventa modello definitivo soltanto dopo verifica editoriale, visuale, mobile, accessibile e legale.
-
-## 4A. Standard editoriale di una scheda completa
-
-Una canzone è pubblicabile solo quando possiede:
-
-1. Titolo, artista, anno, album e generi normalizzati.
-2. Una sintesi iniziale originale di massimo 2–3 frasi.
-3. Storia della composizione o della pubblicazione, se verificabile.
-4. Spiegazione del significato, distinguendo fatti, dichiarazioni dell'artista e interpretazioni.
-5. Momento o frase iconica descritta senza riprodurre il testo.
-6. Almeno una curiosità concreta, se esiste e se è verificata.
-7. Crediti essenziali: autori e produttore, quando reperibili.
-8. Collegamento Spotify corretto e verificato.
-9. Collegamento esterno al testo corretto e verificato.
-10. Fonti pertinenti, nominate e associate alle affermazioni.
-11. Data di ultima verifica.
-12. Collegamento all'artista, all'album e alle canzoni correlate.
-13. Stato editoriale: `completa`, `da integrare` o `da riverificare`.
-
-Non si pubblica una scheda “completa” se manca la storia dell'artista richiesta dal formato, se il player riguarda una versione diversa non dichiarata o se una fonte non porta all'informazione citata.
-
-## 5. Gerarchia delle fonti
-
-### Livello A — Preferite
-
-- Sito e canali ufficiali dell'artista o dell'etichetta.
-- Interviste audio/video o testuali dirette.
-- Libretti, crediti e comunicati ufficiali.
-- Grammy, BRIT Awards, FIMI, RIAA, BPI e altri enti ufficiali.
-- Archivi pubblici, biblioteche, musei e istituzioni.
-
-### Livello B — Affidabili con attribuzione
-
-- Testate musicali riconoscibili con firma e data.
-- Quotidiani e periodici con controllo editoriale.
-- Libri e documentari identificabili.
-
-### Livello C — Solo come pista di ricerca
-
-- Wikipedia, Songfacts e database collaborativi.
-- Blog specialistici e siti di interpretazione.
-
-Le fonti di livello C non bastano da sole per fatti controversi, intenzioni attribuite all'autore, spiegazioni di copertine, numeri di vendita o accuse personali.
-
-### Fonti da non usare come prova
-
-- Post social non verificati, forum, commenti, video senza provenienza, testi generati automaticamente, pagine che si copiano a vicenda e siti privi di autore/data.
+Questi contenuti vivono ora in [COSTITUZIONE.md](COSTITUZIONE.md) — missione, i nove principi non negoziabili (P1–P9), la diagnosi della versione precedente, l'architettura editoriale approvata, lo standard 4A e la gerarchia delle fonti. Cambiano solo per decisione esplicita dell'autore, non a ogni intervento: per questo non sono più duplicati qui.
 
 ## 6. Roadmap operativa
 
@@ -530,6 +299,8 @@ Un intervento è concluso solo quando:
 7. la versione online è stata verificata dopo il deploy.
 
 ## 10. Ordine immediato consigliato
+
+*Elenco storico: tutti i dieci punti sono stati completati. Le priorità correnti vivono in `BRIEF-F20-F26.md`, aggiornato a ogni intervento.*
 
 1. Completare la normalizzazione dei generi e della provenienza.
 2. Correggere semantica e destinazioni delle card.
