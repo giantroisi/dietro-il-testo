@@ -23,7 +23,11 @@
 <meta property="og:description" content="Nacque da una jam session in studio in cui i Doors stavano rielaborando &quot;(Ghost) Riders in the Sky&quot;, un classico…">
 <meta property="og:url" content="https://dietro-il-testo.vercel.app/canzone/riders-on-the-storm/">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://dietro-il-testo.vercel.app/og/riders-on-the-storm.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dietro-il-testo.vercel.app/og/riders-on-the-storm.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicRecording","name":"Riders on the Storm","byArtist":{"@type":"MusicGroup","name":"The Doors","url":"https://dietro-il-testo.vercel.app/artista/the-doors/"},"inAlbum":{"@type":"MusicAlbum","name":"L.A. Woman"},"datePublished":"1971","url":"https://dietro-il-testo.vercel.app/canzone/riders-on-the-storm/","description":"Nacque da una jam session in studio in cui i Doors stavano rielaborando \"(Ghost) Riders in the Sky\", un classico…"}</script>
 <style>
 :root {
@@ -393,6 +397,12 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--text-muted);
 }
 
+.condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+.condividi .conferma {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ok);
+}
+
 /* barra "vai subito a" */
 .snodi {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
@@ -589,6 +599,14 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="bollo attesa">Da integrare</span>
           <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+        </div>
+        <div class="condividi">
+          <button type="button" class="bottone pieno" data-condividi
+            data-titolo="Riders on the Storm — The Doors"
+            data-testo="Nacque da una jam session in studio in cui i Doors stavano rielaborando &quot;(Ghost) Riders in the Sky&quot;, un classico…"
+            data-url="https://dietro-il-testo.vercel.app/canzone/riders-on-the-storm/">Condividi</button>
+          <a class="bottone" href="../../og/riders-on-the-storm.png" download>Scarica l’immagine</a>
+          <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
       <div class="visivo" role="img" aria-label="Riders on the Storm">

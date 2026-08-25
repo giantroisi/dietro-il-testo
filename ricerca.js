@@ -167,6 +167,29 @@
     });
   });
 
+  /* ------------------------------------------------------------ condividi */
+
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-condividi]');
+    if (!b) return;
+    var dati = { title: b.getAttribute('data-titolo') || document.title, url: b.getAttribute('data-url') || location.href };
+    var testo = b.getAttribute('data-testo');
+    if (testo) dati.text = testo;
+    if (navigator.share) {
+      navigator.share(dati).catch(function () {});
+      return;
+    }
+    var conferma = b.parentElement && b.parentElement.querySelector('[data-condividi-conferma]');
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(dati.url).then(function () {
+        if (!conferma) return;
+        conferma.hidden = false;
+        clearTimeout(b._condividiTimer);
+        b._condividiTimer = setTimeout(function () { conferma.hidden = true; }, 2500);
+      }).catch(function () {});
+    }
+  });
+
   /* ------------------------------------------------------ filtri archivio */
 
   var elenco = document.querySelector('[data-elenco]');

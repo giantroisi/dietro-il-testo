@@ -116,6 +116,14 @@ export function paginaCanzone(c, ctx) {
           <span class="bollo${stato === 'completa' ? '' : ' attesa'}">${stato === 'completa' ? 'Scheda completa' : 'Da integrare'}</span>
           <span class="verifica">Ultima revisione · ${esc(ctx.dataRevisione)}</span>
         </div>
+        <div class="condividi">
+          <button type="button" class="bottone pieno" data-condividi
+            data-titolo="${esc(`${c.titolo} — ${c.artista}`)}"
+            data-testo="${esc(richiamo(c) || `${c.titolo} di ${c.artista}: cosa c’è dietro questa canzone.`)}"
+            data-url="${SITO.base}/canzone/${c.slug}/">Condividi</button>
+          <a class="bottone" href="${r}og/${c.slug}.png" download>Scarica l’immagine</a>
+          <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
+        </div>
       </div>
       ${riquadroVisivo(c.titolo)}
     </header>
@@ -193,6 +201,7 @@ export function paginaCanzone(c, ctx) {
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
+    ogImage: `og/${c.slug}.png`,
     totali: ctx.totali,
     corpo,
     datiStrutturati: {

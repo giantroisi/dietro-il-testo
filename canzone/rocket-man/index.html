@@ -23,7 +23,11 @@
 <meta property="og:description" content="Scritta da Elton John su testo di Bernie Taupin, uscì il 31 marzo 1972 come singolo di lancio dell'album &quot;Honky…">
 <meta property="og:url" content="https://dietro-il-testo.vercel.app/canzone/rocket-man/">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://dietro-il-testo.vercel.app/og/rocket-man.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dietro-il-testo.vercel.app/og/rocket-man.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicRecording","name":"Rocket Man","byArtist":{"@type":"MusicGroup","name":"Elton John","url":"https://dietro-il-testo.vercel.app/artista/elton-john/"},"inAlbum":{"@type":"MusicAlbum","name":"Honky Château"},"datePublished":"1972","url":"https://dietro-il-testo.vercel.app/canzone/rocket-man/","description":"Scritta da Elton John su testo di Bernie Taupin, uscì il 31 marzo 1972 come singolo di lancio dell'album \"Honky…"}</script>
 <style>
 :root {
@@ -393,6 +397,12 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--text-muted);
 }
 
+.condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+.condividi .conferma {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ok);
+}
+
 /* barra "vai subito a" */
 .snodi {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
@@ -589,6 +599,14 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="bollo attesa">Da integrare</span>
           <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+        </div>
+        <div class="condividi">
+          <button type="button" class="bottone pieno" data-condividi
+            data-titolo="Rocket Man — Elton John"
+            data-testo="Scritta da Elton John su testo di Bernie Taupin, uscì il 31 marzo 1972 come singolo di lancio dell'album &quot;Honky…"
+            data-url="https://dietro-il-testo.vercel.app/canzone/rocket-man/">Condividi</button>
+          <a class="bottone" href="../../og/rocket-man.png" download>Scarica l’immagine</a>
+          <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
       <div class="visivo" role="img" aria-label="Rocket Man">

@@ -23,7 +23,11 @@
 <meta property="og:description" content="Nasce nel 1994 come &quot;Vivo per...&quot;, brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani e presentato…">
 <meta property="og:url" content="https://dietro-il-testo.vercel.app/canzone/vivo-per-lei/">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://dietro-il-testo.vercel.app/og/vivo-per-lei.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dietro-il-testo.vercel.app/og/vivo-per-lei.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicRecording","name":"Vivo per lei","byArtist":{"@type":"MusicGroup","name":"Andrea Bocelli e Giorgia","url":"https://dietro-il-testo.vercel.app/artista/andrea-bocelli-e-giorgia/"},"inAlbum":{"@type":"MusicAlbum","name":"Bocelli (album)"},"datePublished":"1995","url":"https://dietro-il-testo.vercel.app/canzone/vivo-per-lei/","description":"Nasce nel 1994 come \"Vivo per...\", brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani e presentato…"}</script>
 <style>
 :root {
@@ -393,6 +397,12 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--text-muted);
 }
 
+.condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+.condividi .conferma {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ok);
+}
+
 /* barra "vai subito a" */
 .snodi {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
@@ -589,6 +599,14 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="bollo attesa">Da integrare</span>
           <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+        </div>
+        <div class="condividi">
+          <button type="button" class="bottone pieno" data-condividi
+            data-titolo="Vivo per lei — Andrea Bocelli e Giorgia"
+            data-testo="Nasce nel 1994 come &quot;Vivo per...&quot;, brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani e presentato…"
+            data-url="https://dietro-il-testo.vercel.app/canzone/vivo-per-lei/">Condividi</button>
+          <a class="bottone" href="../../og/vivo-per-lei.png" download>Scarica l’immagine</a>
+          <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
       <div class="visivo" role="img" aria-label="Vivo per lei">

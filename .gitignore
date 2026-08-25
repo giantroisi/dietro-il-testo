@@ -2,3 +2,4 @@
 .netlify
 /sito
 .DS_Store
+__pycache__/

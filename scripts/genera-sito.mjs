@@ -84,6 +84,8 @@ scrivi('ricerca.js', generaRicerca(ctx));
 for (const f of ['logo.png', 'favicon.ico', 'favicon-32.png', 'favicon-192.png', 'apple-touch-icon.png']) {
   if (existsSync(join(ROOT, f))) cpSync(join(ROOT, f), join(OUT, f));
 }
+// immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
+if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
 
 // ------------------------------------------------------- sitemap e robots
 

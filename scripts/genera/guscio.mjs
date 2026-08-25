@@ -116,7 +116,15 @@ export function pagina(o) {
 <meta property="og:description" content="${esc(o.descrizione)}">
 <meta property="og:url" content="${SITO.base}/${o.percorso || ''}">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
+${
+  o.ogImage
+    ? `<meta property="og:image" content="${SITO.base}/${o.ogImage}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${SITO.base}/${o.ogImage}">`
+    : `<meta name="twitter:card" content="summary">`
+}
 ${o.datiStrutturati ? `<script type="application/ld+json">${JSON.stringify(o.datiStrutturati)}</script>` : ''}
 <style>${STILE}</style>
 ${identita}

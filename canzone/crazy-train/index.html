@@ -23,7 +23,11 @@
 <meta property="og:description" content="Singolo di debutto della carriera solista di Ozzy Osbourne, tratto dal suo primo album Blizzard of Ozz del 1980,…">
 <meta property="og:url" content="https://dietro-il-testo.vercel.app/canzone/crazy-train/">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://dietro-il-testo.vercel.app/og/crazy-train.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dietro-il-testo.vercel.app/og/crazy-train.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicRecording","name":"Crazy Train","byArtist":{"@type":"MusicGroup","name":"Ozzy Osbourne","url":"https://dietro-il-testo.vercel.app/artista/ozzy-osbourne/"},"inAlbum":{"@type":"MusicAlbum","name":"Blizzard of Ozz"},"datePublished":"1980","url":"https://dietro-il-testo.vercel.app/canzone/crazy-train/","description":"Singolo di debutto della carriera solista di Ozzy Osbourne, tratto dal suo primo album Blizzard of Ozz del 1980,…"}</script>
 <style>
 :root {
@@ -393,6 +397,12 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--text-muted);
 }
 
+.condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+.condividi .conferma {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ok);
+}
+
 /* barra "vai subito a" */
 .snodi {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
@@ -589,6 +599,14 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="bollo">Scheda completa</span>
           <span class="verifica">Ultima revisione · 25 agosto 2026</span>
+        </div>
+        <div class="condividi">
+          <button type="button" class="bottone pieno" data-condividi
+            data-titolo="Crazy Train — Ozzy Osbourne"
+            data-testo="Singolo di debutto della carriera solista di Ozzy Osbourne, tratto dal suo primo album Blizzard of Ozz del 1980,…"
+            data-url="https://dietro-il-testo.vercel.app/canzone/crazy-train/">Condividi</button>
+          <a class="bottone" href="../../og/crazy-train.png" download>Scarica l’immagine</a>
+          <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
       <div class="visivo" role="img" aria-label="Crazy Train">

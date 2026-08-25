@@ -370,6 +370,12 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--text-muted);
 }
 
+.condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+.condividi .conferma {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ok);
+}
+
 /* barra "vai subito a" */
 .snodi {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
