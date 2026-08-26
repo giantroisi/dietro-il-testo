@@ -197,7 +197,10 @@ a { color: inherit; }
 
 .apertura { padding: 48px 0 12px; }
 .marchio-apertura { display: block; margin: 0 0 28px; }
-.marchio-apertura img { width: clamp(260px, 32vw, 440px); }
+.marchio-apertura img { width: min(466px, 100%); }
+@media (max-width: 820px) {
+  .marchio-apertura img { width: min(319px, 100%); }
+}
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
