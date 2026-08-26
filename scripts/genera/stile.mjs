@@ -142,9 +142,12 @@ a { color: inherit; }
 :root[data-theme="light"] .tema .luna { display: none; }
 
 @media (max-width: 820px) {
-  .testata-in { flex-wrap: wrap; gap: 12px; min-height: 0; }
+  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; }
+  .tema { order: 1; }
+  .testata-nav { order: 2; }
+  .marchio { order: 3; flex-basis: 100%; justify-content: center; margin-top: 2px; }
   .marchio img { width: 176px; }
-  .testata-cerca { order: 3; flex-basis: 100%; max-width: none; }
+  .testata-cerca { order: 4; flex-basis: 100%; max-width: none; }
   .testata-nav { font-size: 11px; }
 }
 
