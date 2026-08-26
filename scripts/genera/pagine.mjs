@@ -167,7 +167,6 @@ export function paginaCanzone(c, ctx) {
       <div>
         <p class="sopratitolo">${conSegno([c.artista, annoDi(c), c.album])}</p>
         <h1>${esc(c.titolo)}</h1>
-        ${richiamo(c) ? `<p class="sintesi">${esc(richiamo(c))}</p>` : ''}
         <div class="affidabilita">
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
