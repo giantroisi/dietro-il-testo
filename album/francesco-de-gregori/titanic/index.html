@@ -120,10 +120,10 @@ a { color: inherit; }
 }
 .testata-in {
   display: flex; align-items: center; gap: 20px;
-  padding: 12px 0; min-height: 62px;
+  padding: 18px 0; min-height: 62px;
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
-.marchio img, .marchio-apertura img { width: 168px; display: block; }
+.marchio img, .marchio-apertura img { width: 224px; display: block; }
 :root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
@@ -166,7 +166,7 @@ a { color: inherit; }
 
 @media (max-width: 820px) {
   .testata-in { flex-wrap: wrap; gap: 12px; min-height: 0; }
-  .marchio img { width: 128px; }
+  .marchio img { width: 176px; }
   .testata-cerca { order: 3; flex-basis: 100%; max-width: none; }
   .testata-nav { font-size: 11px; }
 }
@@ -218,9 +218,9 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 56px 0 12px; }
-.marchio-apertura { display: block; margin: 0 0 22px; }
-.marchio-apertura img { width: clamp(190px, 24vw, 300px); }
+.apertura { padding: 48px 0 12px; }
+.marchio-apertura { display: block; margin: 0 0 28px; }
+.marchio-apertura img { width: clamp(260px, 32vw, 440px); }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
@@ -594,7 +594,7 @@ a { color: inherit; }
         
         <div class="affidabilita">
           <span class="bollo attesa">Copertina non documentata</span>
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 25 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 26 agosto 2026</span>
         </div>
       </div>
       <div class="visivo" role="img" aria-label="Titanic">
