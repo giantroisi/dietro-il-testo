@@ -32,12 +32,42 @@ export function generaRicerca(ctx) {
 
   const percorsiCanzoni = ctx.canzoni.map((c) => `canzone/${c.slug}/`);
 
+  // F36: la pillola del giorno ruota nel browser, non in fase di build — la
+  // formula (giorno % candidate.length) resta identica a quella server-side
+  // in pagine.mjs, così la scelta del giorno corrente coincide con quella già
+  // renderizzata e non "salta" al primo caricamento. Stesso ordine dei
+  // candidati di paginaHome (ctx.canzoni con fraseIconica), stesso motivo per
+  // cui l'estratto è già troncato qui: mai testo non parafrasato al client.
+  function primaFraseBuild(testo, max) {
+    if (!testo) return '';
+    const t = String(testo).trim();
+    const fine = t.search(/[.!?](\s|$)/);
+    let s = fine > 0 && fine < max ? t.slice(0, fine + 1) : t;
+    if (s.length > max) {
+      s = s.slice(0, max);
+      s = s.slice(0, s.lastIndexOf(' ')) + '…';
+    }
+    return s;
+  }
+  const pillole = ctx.canzoni
+    .filter((c) => c.fraseIconica)
+    .map((c) => ({
+      s: c.slug,
+      a: c.artistaSlug,
+      t: c.titolo,
+      n: c.artista,
+      y: String(c.anno || '').match(/\d{4}/)?.[0] || '',
+      c: c.colore || '',
+      e: primaFraseBuild(c.fraseIconica, 260),
+    }));
+
   return `/* Generato da scripts/genera-sito.mjs — non modificare a mano. */
 (function () {
   'use strict';
 
   var INDICE = ${JSON.stringify(indice)};
   var CANZONI = ${JSON.stringify(percorsiCanzoni)};
+  var PILLOLE = ${JSON.stringify(pillole)};
   var GRUPPI = ['Canzoni', 'Artisti', 'Album'];
 
   /* Radice del sito calcolata dalla profondità della pagina corrente. */
@@ -185,6 +215,44 @@ export function generaRicerca(ctx) {
       campo.dispatchEvent(new Event('input'));
     });
   });
+
+  /* --------------------------------------------------- pillola del giorno */
+
+  var elementoPillola = document.querySelector('[data-pillola]');
+  if (elementoPillola && PILLOLE.length) {
+    var mostraPillola = function (indice) {
+      var p = PILLOLE[indice];
+      elementoPillola.style.setProperty('--identita', p.c || 'var(--sistema)');
+      var meta = elementoPillola.querySelector('[data-pillola-meta]');
+      if (meta) meta.innerHTML = p.y ? (p.n + ' ${SEGNO} ' + p.y) : p.n;
+      var titolo = elementoPillola.querySelector('[data-pillola-titolo]');
+      if (titolo) titolo.textContent = p.t;
+      var estratto = elementoPillola.querySelector('[data-pillola-estratto]');
+      if (estratto) estratto.textContent = p.e;
+      var link = elementoPillola.querySelector('[data-pillola-link]');
+      if (link) link.href = RADICE + 'canzone/' + p.s + '/';
+      var artistaLink = elementoPillola.querySelector('[data-pillola-artista]');
+      if (artistaLink) { artistaLink.href = RADICE + 'artista/' + p.a + '/'; artistaLink.textContent = p.n; }
+    };
+
+    mostraPillola(Math.floor(Date.now() / 86400000) % PILLOLE.length);
+
+    var bottoneAltraPillola = elementoPillola.querySelector('[data-altra-pillola]');
+    if (bottoneAltraPillola) {
+      bottoneAltraPillola.addEventListener('click', function () {
+        var attuale = null;
+        try { attuale = sessionStorage.getItem('ultimaPillola'); } catch (e) {}
+        var indice = Math.floor(Math.random() * PILLOLE.length);
+        var tentativi = 0;
+        while (PILLOLE[indice].s === attuale && tentativi < 8) {
+          indice = Math.floor(Math.random() * PILLOLE.length);
+          tentativi++;
+        }
+        mostraPillola(indice);
+        try { sessionStorage.setItem('ultimaPillola', PILLOLE[indice].s); } catch (e) {}
+      });
+    }
+  }
 
   Array.prototype.forEach.call(document.querySelectorAll('[data-sorprendimi]'), function (b) {
     b.addEventListener('click', function () {

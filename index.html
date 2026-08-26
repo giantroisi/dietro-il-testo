@@ -616,13 +616,14 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">La pillola di oggi</p>
-      <article class="pillola" style="--identita:#5C5C5C">
-        <p class="occhiello" style="color:var(--identita-testo)">Judas Priest <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1982</p>
-        <p class="gancio">You've Got Another Thing Comin'</p>
-        <p class="estratto">Il titolo stesso, ripreso come ammonimento nel ritornello, è diventato un modo di dire entrato nel linguaggio comune anglosassone per intimare a qualcuno di ricredersi — Halford lo ha sempre interpretato come un invito a rialzarsi di fronte alle difficoltà,…</p>
+      <article class="pillola" data-pillola style="--identita:#5C5C5C">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Judas Priest <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1982</p>
+        <p class="gancio" data-pillola-titolo>You've Got Another Thing Comin'</p>
+        <p class="estratto" data-pillola-estratto>Il titolo stesso, ripreso come ammonimento nel ritornello, è diventato un modo di dire entrato nel linguaggio comune anglosassone per intimare a qualcuno di ricredersi — Halford lo ha sempre interpretato come un invito a rialzarsi di fronte alle difficoltà,…</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/youve-got-another-thing-comin/">Leggi la scheda</a>
-          <a class="bottone" href="artista/judas-priest/">Judas Priest</a>
+          <a class="bottone pieno" href="canzone/youve-got-another-thing-comin/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/judas-priest/" data-pillola-artista>Judas Priest</a>
+          <button type="button" class="bottone" data-altra-pillola>Un'altra canzone <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>
     </div>

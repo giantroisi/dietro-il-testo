@@ -537,13 +537,14 @@ export function paginaHome(ctx) {
       inEvidenza
         ? `<div class="pillola-riquadro">
       <p class="occhiello">La pillola di oggi</p>
-      <article class="pillola" style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
-        <p class="occhiello" style="color:var(--identita-testo)">${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
-        <p class="gancio">${esc(inEvidenza.titolo)}</p>
-        <p class="estratto">${esc(primaFrase(inEvidenza.fraseIconica, 260))}</p>
+      <article class="pillola" data-pillola style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
+        <p class="gancio" data-pillola-titolo>${esc(inEvidenza.titolo)}</p>
+        <p class="estratto" data-pillola-estratto>${esc(primaFrase(inEvidenza.fraseIconica, 260))}</p>
         <div class="azioni">
-          <a class="bottone pieno" href="${r}canzone/${inEvidenza.slug}/">Leggi la scheda</a>
-          <a class="bottone" href="${r}artista/${inEvidenza.artistaSlug}/">${esc(inEvidenza.artista)}</a>
+          <a class="bottone pieno" href="${r}canzone/${inEvidenza.slug}/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="${r}artista/${inEvidenza.artistaSlug}/" data-pillola-artista>${esc(inEvidenza.artista)}</a>
+          <button type="button" class="bottone" data-altra-pillola>Un'altra canzone ${SEGNO}</button>
         </div>
       </article>
     </div>`
