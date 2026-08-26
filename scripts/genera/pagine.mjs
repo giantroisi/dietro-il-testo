@@ -318,7 +318,7 @@ export function paginaArtista(a, ctx) {
       <div>
         <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', a.annoPrimo ? `brani dal ${a.annoPrimo}` : null])}</p>
         <h1>${esc(a.nome)}</h1>
-        ${a.storia ? `<p class="sintesi">${esc(primaFrase(a.storia, 210))}</p>` : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
+        ${a.storia ? '' : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
         <div class="affidabilita">
           <span class="bollo${a.storia ? '' : ' attesa'}">${a.storia ? 'Storia documentata' : 'Storia da scrivere'}</span>
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
