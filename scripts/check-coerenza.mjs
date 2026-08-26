@@ -78,6 +78,16 @@ for (const c of canzoni) {
   }
 }
 
+// 5. ruolo di una fonte fuori dai valori ammessi (F17)
+const RUOLI_AMMESSI = ['storia', 'ascolti', 'crediti', 'curiosità'];
+for (const c of canzoni) {
+  for (const f of c.fonti || []) {
+    if (f.ruolo && !RUOLI_AMMESSI.includes(f.ruolo)) {
+      segnala('ruolo fonte non ammesso', `${c.slug}: la fonte "${f.nome}" ha ruolo "${f.ruolo}", non tra ${RUOLI_AMMESSI.join(', ')}`);
+    }
+  }
+}
+
 console.log(`Canzoni controllate: ${canzoni.length}`);
 console.log(`Artisti controllati: ${artisti.length}`);
 console.log(`Problemi trovati: ${problemi.length}`);

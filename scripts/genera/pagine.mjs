@@ -40,6 +40,39 @@ export function suColore(hex) {
   return contrasto('#FFFFFF', hex) >= contrasto('#000000', hex) ? '#FFFFFF' : '#000000';
 }
 
+// F17: valori ammessi per il ruolo di una fonte, e come si etichetta ogni
+// gruppo in pagina. Una fonte senza `ruolo` esplicito resta "storia" — non
+// peggiora nulla rispetto a prima, si limita a dire cosa già si sapeva.
+const RUOLI_FONTE = {
+  storia: 'Sulla storia',
+  ascolti: 'Sugli ascolti',
+  crediti: 'Sui crediti',
+  curiosità: 'Sulle curiosità',
+};
+
+/** Raggruppa le fonti per ruolo invece di un elenco unico indistinto (F17). */
+function gruppiFonti(fonti) {
+  const gruppi = new Map();
+  for (const f of fonti) {
+    const ruolo = RUOLI_FONTE[f.ruolo] ? f.ruolo : 'storia';
+    if (!gruppi.has(ruolo)) gruppi.set(ruolo, []);
+    gruppi.get(ruolo).push(f);
+  }
+  return Object.keys(RUOLI_FONTE)
+    .filter((ruolo) => gruppi.has(ruolo))
+    .map((ruolo) => {
+      const elenco = gruppi
+        .get(ruolo)
+        .map((f, i) => `<li><span class="num">${String(i + 1).padStart(2, '0')}</span><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)}</a></li>`)
+        .join('');
+      return `<div class="fonti-gruppo">
+        <span class="fonti-etichetta">${esc(RUOLI_FONTE[ruolo])}</span>
+        <ol class="fonti">${elenco}</ol>
+      </div>`;
+    })
+    .join('\n      ');
+}
+
 /** Iniziali per il riquadro identitario (spazio previsto per immagini autorizzate). */
 function sigla(nome) {
   const parole = String(nome)
@@ -190,13 +223,7 @@ export function paginaCanzone(c, ctx) {
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
-      ${
-        c.fonti.length
-          ? `<ol class="fonti">${c.fonti
-              .map((f, i) => `<li><span class="num">${String(i + 1).padStart(2, '0')}</span><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)}</a></li>`)
-              .join('')}</ol>`
-          : `<p class="vuoto">Fonti da collegare.</p>`
-      }
+      ${c.fonti.length ? gruppiFonti(c.fonti) : `<p class="vuoto">Fonti da collegare.</p>`}
       <div class="azioni" style="margin-top:22px">
         <a class="bottone" href="${r}metodo/">Come verifichiamo</a>
         <a class="bottone" href="mailto:g.prizio@icloud.com?subject=${encodeURIComponent(`Dietro il testo — correzione: ${c.titolo}`)}">Segnala un errore</a>
