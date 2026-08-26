@@ -482,40 +482,35 @@ export function paginaHome(ctx) {
   const recenti = [...canzoni].slice(-6).reverse();
 
   const corpo = `
-  <div class="col apertura">
-    <a class="marchio-apertura" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
-      <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
-    </a>
-    <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
-    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
+  <div class="col apertura-riga">
+    <div class="apertura">
+      <a class="marchio-apertura" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
+        <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
+      </a>
+      <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
+      <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
 
-    <div class="cerca grande" data-cerca style="max-width:640px">
-      <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
-      <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
-             autocomplete="off" spellcheck="false" data-campo>
-      <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
-    </div>
+      <div class="cerca grande" data-cerca>
+        <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
+               autocomplete="off" spellcheck="false" data-campo>
+        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+      </div>
 
-    <div class="suggerimenti">
-      <span class="etichetta">Prova</span>
-      ${['Bohemian Rhapsody', 'Metallica', 'Nirvana', 'Vasco Rossi']
-        .map((q) => `<button type="button" data-esempio="${esc(q)}">${SEGNO} ${esc(q)}</button>`)
-        .join('\n      ')}
-      <button type="button" data-sorprendimi>Sorprendimi ✦</button>
-    </div>
-  </div>
-
-  ${
-    inEvidenza
-      ? `<div class="col sezione">
-    <div class="sezione-testa">
-      <div>
-        <p class="occhiello">La pillola di oggi</p>
-        <h2>Se hai un minuto, questa.</h2>
+      <div class="suggerimenti">
+        <span class="etichetta">Prova</span>
+        ${['Bohemian Rhapsody', 'Metallica', 'Nirvana', 'Vasco Rossi']
+          .map((q) => `<button type="button" data-esempio="${esc(q)}">${SEGNO} ${esc(q)}</button>`)
+          .join('\n        ')}
+        <button type="button" data-sorprendimi>Sorprendimi ✦</button>
       </div>
     </div>
-    <article class="pillola" style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
-      <div>
+
+    ${
+      inEvidenza
+        ? `<div class="pillola-riquadro">
+      <p class="occhiello">La pillola di oggi</p>
+      <article class="pillola" style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
         <p class="occhiello" style="color:var(--identita-testo)">${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
         <p class="gancio">${esc(inEvidenza.titolo)}</p>
         <p class="estratto">${esc(primaFrase(inEvidenza.fraseIconica, 260))}</p>
@@ -523,12 +518,11 @@ export function paginaHome(ctx) {
           <a class="bottone pieno" href="${r}canzone/${inEvidenza.slug}/">Leggi la scheda</a>
           <a class="bottone" href="${r}artista/${inEvidenza.artistaSlug}/">${esc(inEvidenza.artista)}</a>
         </div>
-      </div>
-      ${riquadroVisivo(inEvidenza.titolo)}
-    </article>
-  </div>`
-      : ''
-  }
+      </article>
+    </div>`
+        : ''
+    }
+  </div>
 
   <div class="col sezione">
     <div class="sezione-testa">

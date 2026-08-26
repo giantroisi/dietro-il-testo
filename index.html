@@ -218,11 +218,21 @@ a { color: inherit; }
 
 /* ------------------------------------------------------------- home */
 
-.apertura { padding: 48px 0 12px; }
+.apertura-riga {
+  display: flex; gap: 40px; align-items: flex-start;
+  padding: 48px 0 12px;
+}
+.apertura { flex: 1 1 466px; min-width: 0; }
+.pillola-riquadro { flex: 1 1 380px; min-width: 0; max-width: 480px; }
+.pillola-riquadro > .occhiello { margin-bottom: 14px; }
+@media (max-width: 860px) {
+  .apertura-riga { flex-direction: column; padding: 40px 0 12px; }
+  .pillola-riquadro { max-width: none; width: 100%; }
+}
 .marchio-apertura { display: block; margin: 0 0 28px; }
 .marchio-apertura img { width: min(466px, 100%); }
 @media (max-width: 820px) {
-  .marchio-apertura img { width: min(319px, 100%); }
+  .marchio-apertura img { width: min(319px, 100%); margin-inline: auto; }
 }
 .occhiello {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .13em;
@@ -265,9 +275,7 @@ a { color: inherit; }
 
 /* pillola in evidenza */
 .pillola {
-  display: grid; grid-template-columns: 1fr minmax(260px, 340px); gap: 34px;
-  align-items: start;
-  padding: 30px; border-radius: 14px;
+  padding: 28px 30px; border-radius: 14px;
   background: var(--surface); border: 1px solid var(--border);
   border-left: 3px solid var(--identita);
 }
@@ -277,7 +285,6 @@ a { color: inherit; }
   margin: 10px 0 14px; text-wrap: balance;
 }
 .pillola .estratto { color: var(--text-muted); font-size: 15px; margin: 0 0 20px; }
-@media (max-width: 860px) { .pillola { grid-template-columns: 1fr; gap: 22px; } }
 
 /* ----------------------------------------------------------- elenchi */
 
@@ -574,39 +581,34 @@ a { color: inherit; }
   </header>
 <main id="contenuto">
 
-  <div class="col apertura">
-    <a class="marchio-apertura" href="./" aria-label="Dietro il testo — home">
-      <img src="logo.png" alt="Dietro il testo" width="1061" height="245">
-    </a>
-    <p class="occhiello">Un solo posto <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> fonti verificabili</p>
-    <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
+  <div class="col apertura-riga">
+    <div class="apertura">
+      <a class="marchio-apertura" href="./" aria-label="Dietro il testo — home">
+        <img src="logo.png" alt="Dietro il testo" width="1061" height="245">
+      </a>
+      <p class="occhiello">Un solo posto <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> fonti verificabili</p>
+      <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
 
-    <div class="cerca grande" data-cerca style="max-width:640px">
-      <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
-      <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
-             autocomplete="off" spellcheck="false" data-campo>
-      <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
-    </div>
+      <div class="cerca grande" data-cerca>
+        <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
+               autocomplete="off" spellcheck="false" data-campo>
+        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+      </div>
 
-    <div class="suggerimenti">
-      <span class="etichetta">Prova</span>
-      <button type="button" data-esempio="Bohemian Rhapsody"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Bohemian Rhapsody</button>
-      <button type="button" data-esempio="Metallica"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Metallica</button>
-      <button type="button" data-esempio="Nirvana"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Nirvana</button>
-      <button type="button" data-esempio="Vasco Rossi"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Vasco Rossi</button>
-      <button type="button" data-sorprendimi>Sorprendimi ✦</button>
-    </div>
-  </div>
-
-  <div class="col sezione">
-    <div class="sezione-testa">
-      <div>
-        <p class="occhiello">La pillola di oggi</p>
-        <h2>Se hai un minuto, questa.</h2>
+      <div class="suggerimenti">
+        <span class="etichetta">Prova</span>
+        <button type="button" data-esempio="Bohemian Rhapsody"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Bohemian Rhapsody</button>
+        <button type="button" data-esempio="Metallica"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Metallica</button>
+        <button type="button" data-esempio="Nirvana"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Nirvana</button>
+        <button type="button" data-esempio="Vasco Rossi"><svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Vasco Rossi</button>
+        <button type="button" data-sorprendimi>Sorprendimi ✦</button>
       </div>
     </div>
-    <article class="pillola" style="--identita:#5C5C5C">
-      <div>
+
+    <div class="pillola-riquadro">
+      <p class="occhiello">La pillola di oggi</p>
+      <article class="pillola" style="--identita:#5C5C5C">
         <p class="occhiello" style="color:var(--identita-testo)">Judas Priest <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1982</p>
         <p class="gancio">You've Got Another Thing Comin'</p>
         <p class="estratto">Il titolo stesso, ripreso come ammonimento nel ritornello, è diventato un modo di dire entrato nel linguaggio comune anglosassone per intimare a qualcuno di ricredersi — Halford lo ha sempre interpretato come un invito a rialzarsi di fronte alle difficoltà,…</p>
@@ -614,12 +616,8 @@ a { color: inherit; }
           <a class="bottone pieno" href="canzone/youve-got-another-thing-comin/">Leggi la scheda</a>
           <a class="bottone" href="artista/judas-priest/">Judas Priest</a>
         </div>
-      </div>
-      <div class="visivo" role="img" aria-label="You've Got Another Thing Comin'">
-        <span class="sigla" aria-hidden="true">YGA</span>
-        <span class="nota" aria-hidden="true">Spazio immagine</span>
-      </div>
-    </article>
+      </article>
+    </div>
   </div>
 
   <div class="col sezione">
