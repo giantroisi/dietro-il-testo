@@ -165,13 +165,12 @@ a { color: inherit; }
 :root[data-theme="light"] .tema .luna { display: none; }
 
 @media (max-width: 820px) {
-  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; }
-  .tema { order: 1; }
-  .testata-nav { order: 2; }
-  .marchio { order: 3; flex-basis: 100%; justify-content: center; margin-top: 2px; }
+  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; position: relative; }
+  .testata-nav { display: none; }
+  .tema { position: absolute; left: 0; top: 18px; }
+  .marchio { flex-basis: 100%; justify-content: center; }
   .marchio img { width: 176px; }
-  .testata-cerca { order: 4; flex-basis: 100%; max-width: none; }
-  .testata-nav { font-size: 11px; }
+  .testata-cerca { flex-basis: 100%; max-width: none; }
 }
 
 /* ---------------------------------------------------------------- ricerca */
