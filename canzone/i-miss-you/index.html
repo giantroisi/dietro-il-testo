@@ -373,7 +373,11 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .testa-doppia { grid-template-columns: 1fr; gap: 24px; }
   .testa-doppia .visivo { order: -1; max-width: 200px; }
+  .testa-doppia .player-intestazione { order: -1; }
 }
+
+.player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
+.player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
 .visivo {
@@ -614,7 +618,7 @@ a { color: inherit; }
         <p class="sopratitolo">Blink-182 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> blink-182</p>
         <h1>I Miss You</h1>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 26 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 27 agosto 2026</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi

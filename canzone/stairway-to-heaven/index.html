@@ -373,7 +373,11 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .testa-doppia { grid-template-columns: 1fr; gap: 24px; }
   .testa-doppia .visivo { order: -1; max-width: 200px; }
+  .testa-doppia .player-intestazione { order: -1; }
 }
+
+.player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
+.player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
 .visivo {
@@ -614,7 +618,7 @@ a { color: inherit; }
         <p class="sopratitolo">Led Zeppelin <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Led Zeppelin IV</p>
         <h1>Stairway to Heaven</h1>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 26 agosto 2026</span>
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 27 agosto 2026</span>
         </div>
         <div class="condividi">
           <button type="button" class="bottone pieno" data-condividi
@@ -625,9 +629,8 @@ a { color: inherit; }
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-      <div class="visivo" role="img" aria-label="Stairway to Heaven">
-        <span class="sigla" aria-hidden="true">SH</span>
-        <span class="nota" aria-hidden="true">Spazio immagine</span>
+      <div class="player-intestazione">
+        <iframe src="https://open.spotify.com/embed/track/5qrBMEsCQPTsev7yAnMR2U?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Stairway to Heaven su Spotify"></iframe>
       </div>
     </header>
 
@@ -650,9 +653,9 @@ a { color: inherit; }
     
 
     <section class="blocco" id="ascolta">
-      <h2>Ascolta</h2>
+      <h2>Continua</h2>
       <div class="ascolto">
-        <iframe src="https://open.spotify.com/embed/track/5qrBMEsCQPTsev7yAnMR2U?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Stairway to Heaven su Spotify"></iframe>
+        
         
       </div>
       <div class="azioni">

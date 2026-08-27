@@ -90,6 +90,13 @@ function riquadroVisivo(nome, nota = 'Spazio immagine') {
       </div>`;
 }
 
+/** F34: il player Spotify in apertura, al posto del segnaposto, quando c'è un ID verificato. */
+function playerIntestazione(c) {
+  return `<div class="player-intestazione">
+        <iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${esc(c.titolo)} su Spotify"></iframe>
+      </div>`;
+}
+
 /** Taglia a una frase intera, senza mai spezzare una parola. */
 function primaFrase(testo, max = 130) {
   if (!testo) return '';
@@ -179,7 +186,7 @@ export function paginaCanzone(c, ctx) {
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-      ${riquadroVisivo(c.titolo)}
+      ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
     </header>
 
     <section class="blocco" id="momento" style="border-top:0;padding-top:0">
@@ -204,13 +211,9 @@ export function paginaCanzone(c, ctx) {
     ${extra}
 
     <section class="blocco" id="ascolta">
-      <h2>Ascolta</h2>
+      <h2>${c.spotifyId ? 'Continua' : 'Ascolta'}</h2>
       <div class="ascolto">
-        ${
-          c.spotifyId
-            ? `<iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${esc(c.titolo)} su Spotify"></iframe>`
-            : `<p class="assente">Il player ufficiale per questo brano non è ancora stato collegato.</p>`
-        }
+        ${c.spotifyId ? '' : `<p class="assente">Il player ufficiale per questo brano non è ancora stato collegato.</p>`}
         ${c.testoUrl ? '' : `<p class="assente">Il link a un testo verificato non è ancora stato collegato.</p>`}
       </div>
       <div class="azioni">

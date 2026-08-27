@@ -369,7 +369,11 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .testa-doppia { grid-template-columns: 1fr; gap: 24px; }
   .testa-doppia .visivo { order: -1; max-width: 200px; }
+  .testa-doppia .player-intestazione { order: -1; }
 }
+
+.player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
+.player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
 .visivo {
