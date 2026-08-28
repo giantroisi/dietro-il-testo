@@ -166,16 +166,35 @@ export function paginaCanzone(c, ctx) {
   const corpoHtml = c.corpo.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
 
   const extra = (c.sezioniExtra || [])
-    .map((s) => {
+    .map((s, i) => {
       const par = s.paragrafi.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
       const dl = s.coppie.length
         ? `<dl class="crediti">${s.coppie
             .map((k) => `<dt>${esc(k.etichetta)}</dt><dd>${esc(k.valore)}</dd>`)
             .join('')}</dl>`
         : '';
-      return `<section class="blocco"><h2>${esc(s.titolo)}</h2><div class="prosa">${par}${dl}</div></section>`;
+      return `<section class="blocco" id="extra-${i}"><h2>${esc(s.titolo)}</h2><div class="prosa">${par}${dl}</div></section>`;
     })
     .join('\n      ');
+
+  // F29: un sommario cliccabile solo sulle schede con sezioniExtra — sono le
+  // uniche significativamente più lunghe delle altre (che hanno quasi tutte
+  // lo stesso numero di paragrafi). Sulle schede normali sarebbe rumore, non
+  // un aiuto: niente indice se non c'è davvero un percorso lungo da saltare.
+  const snodi = (c.sezioniExtra || []).length
+    ? [
+        { id: 'momento', nome: 'Momento iconico' },
+        { id: 'storia', nome: 'La storia' },
+        ...c.sezioniExtra.map((s, i) => ({ id: `extra-${i}`, nome: s.titolo })),
+        { id: 'ascolta', nome: c.spotifyId ? 'Continua' : 'Ascolta' },
+        { id: 'fonti', nome: 'Fonti' },
+      ]
+    : [];
+  const indiceHtml = snodi.length
+    ? `<nav class="snodi" aria-label="Sezioni della pagina">
+      ${snodi.map((s) => `<a class="voce" href="#${s.id}">${esc(s.nome)}</a>`).join('\n      ')}
+    </nav>`
+    : '';
 
   const corpo = `
   <div class="col">
@@ -203,6 +222,8 @@ export function paginaCanzone(c, ctx) {
       </div>
       ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
     </header>
+
+    ${indiceHtml}
 
     <section class="blocco" id="momento" style="border-top:0;padding-top:0">
       ${
