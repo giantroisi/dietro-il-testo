@@ -1,0 +1,6418 @@
+[
+  {
+    "id": "album:bring-me-the-horizon:thats-the-spirit:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "bring-me-the-horizon/thats-the-spirit",
+    "raccoglie": 5,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:sempiternal:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "bring-me-the-horizon/sempiternal",
+    "raccoglie": 4,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:hybrid-theory:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "linkin-park/hybrid-theory",
+    "raccoglie": 3,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:paranoid:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "black-sabbath/paranoid",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:enema-of-the-state:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "blink-182/enema-of-the-state",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:american-idiot:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "green-day/american-idiot",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:metallica-black-album:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "metallica/metallica-black-album",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:thriller:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "michael-jackson/thriller",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:black-holes-and-revelations:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "muse/black-holes-and-revelations",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:whats-the-story-morning-glory:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "oasis/whats-the-story-morning-glory",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "francesco-de-gregori/rimmel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:dookie:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "green-day/dookie",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:buon-compleanno-elvis:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/buon-compleanno-elvis",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:master-of-puppets:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "metallica/master-of-puppets",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:the-resistance:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "muse/the-resistance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:freak-on-a-leash:completezza",
+    "classe": "C1",
+    "tipo": "scheda-incompleta",
+    "soggetto": "freak-on-a-leash",
+    "raccoglie": 1,
+    "manca": [
+      "corpo (almeno 2 paragrafi)"
+    ],
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hey-jude:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "hey-jude",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:imagine:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "imagine",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:master-of-puppets:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "master-of-puppets",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:the-sound-of-silence:completezza",
+    "classe": "C1",
+    "tipo": "scheda-incompleta",
+    "soggetto": "the-sound-of-silence",
+    "raccoglie": 1,
+    "manca": [
+      "spotifyId"
+    ],
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:dude-ranch:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "blink-182/dude-ranch",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "francesco-de-gregori/pezzi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:nome-e-cognome:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/nome-e-cognome",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:come-e-profondo-il-mare:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "lucio-dalla/come-e-profondo-il-mare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:off-the-wall:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "michael-jackson/off-the-wall",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:drones:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "muse/drones",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:definitely-maybe:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "oasis/definitely-maybe",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:chuck:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "sum-41/chuck",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:bollicine:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "vasco-rossi/bollicine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:black-sabbath:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "black-sabbath",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:bring-me-the-horizon:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "bring-me-the-horizon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:green-day:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "green-day",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ligabue:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "ligabue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:linkin-park:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "linkin-park",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:metallica:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "metallica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:sum-41:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "sum-41",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:vasco-rossi:nota-carriera:0",
+    "classe": "C1",
+    "tipo": "nota-da-separare",
+    "soggetto": "vasco-rossi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:5-seconds-of-summer:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "5-seconds-of-summer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:883:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "883",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:a-ha:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "a-ha",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ac-dc:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "ac-dc",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:adele:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "adele",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:adriano-celentano:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "adriano-celentano",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:al-bano-e-romina-power:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "al-bano-e-romina-power",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:andrea-bocelli-e-giorgia:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "andrea-bocelli-e-giorgia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:avicii:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "avicii",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:bon-jovi:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "bon-jovi",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:caparezza:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "caparezza",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:cesare-cremonini:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "cesare-cremonini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:claudio-baglioni:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "claudio-baglioni",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:coldplay:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "coldplay",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:daft-punk:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "daft-punk",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:david-bowie:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "david-bowie",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:depeche-mode:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "depeche-mode",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:domenico-modugno:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "domenico-modugno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eagles:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "eagles",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ed-sheeran:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "ed-sheeran",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:edoardo-bennato:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "edoardo-bennato",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:electric-callboy:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "electric-callboy",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:elton-john:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "elton-john",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eminem:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "eminem",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eros-ramazzotti:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "eros-ramazzotti",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:evanescence:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "evanescence",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fabrizio-de-andre:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "fabrizio-de-andre",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fall-out-boy:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "fall-out-boy",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:finley:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "finley",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fleetwood-mac:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "fleetwood-mac",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:foo-fighters:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "foo-fighters",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:franco-battiato:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "franco-battiato",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fulminacci:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "fulminacci",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ghost:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "ghost",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:gianna-nannini:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "gianna-nannini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:john-lennon:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "john-lennon",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:laura-pausini:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "laura-pausini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:led-zeppelin:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "led-zeppelin",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:limp-bizkit:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "limp-bizkit",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:lucio-battisti:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "lucio-battisti",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:lynyrd-skynyrd:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "lynyrd-skynyrd",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:machine-gun-kelly:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "machine-gun-kelly",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:mina:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "mina",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:my-chemical-romance:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "my-chemical-romance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:naska:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "naska",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:nirvana:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "nirvana",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pinguini-tattici-nucleari:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "pinguini-tattici-nucleari",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pink-floyd:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "pink-floyd",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pino-daniele:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "pino-daniele",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:prince:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "prince",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:queen:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "queen",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:r-e-m:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "r-e-m",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:radiohead:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "radiohead",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:red-hot-chili-peppers:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "red-hot-chili-peppers",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:renato-zero:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "renato-zero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:rino-gaetano:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "rino-gaetano",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:simon-garfunkel:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "simon-garfunkel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:soundgarden:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "soundgarden",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-beatles:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-beatles",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-clash:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-clash",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-cranberries:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-cranberries",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-doors:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-doors",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-killers:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-killers",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-police:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-police",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-rolling-stones:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-rolling-stones",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-white-stripes:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "the-white-stripes",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:tool:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "tool",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:toto-cutugno:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "toto-cutugno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:toto:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "toto",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:tracy-chapman:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "tracy-chapman",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:whitney-houston:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "whitney-houston",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:zucchero:storia",
+    "classe": "C2",
+    "tipo": "storia-artista",
+    "soggetto": "zucchero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:5-seconds-of-summer:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "5-seconds-of-summer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:883:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "883",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:a-ha:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "a-ha",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ac-dc:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "ac-dc",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:adele:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "adele",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:adriano-celentano:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "adriano-celentano",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:al-bano-e-romina-power:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "al-bano-e-romina-power",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:andrea-bocelli-e-giorgia:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "andrea-bocelli-e-giorgia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:avicii:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "avicii",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:bon-jovi:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "bon-jovi",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:caparezza:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "caparezza",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:cesare-cremonini:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "cesare-cremonini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:claudio-baglioni:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "claudio-baglioni",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:coldplay:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "coldplay",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:daft-punk:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "daft-punk",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:david-bowie:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "david-bowie",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:depeche-mode:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "depeche-mode",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:domenico-modugno:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "domenico-modugno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eagles:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "eagles",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ed-sheeran:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "ed-sheeran",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:edoardo-bennato:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "edoardo-bennato",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:electric-callboy:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "electric-callboy",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:elton-john:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "elton-john",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eminem:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "eminem",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:eros-ramazzotti:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "eros-ramazzotti",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:evanescence:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "evanescence",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fabrizio-de-andre:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "fabrizio-de-andre",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fall-out-boy:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "fall-out-boy",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:finley:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "finley",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fleetwood-mac:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "fleetwood-mac",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:foo-fighters:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "foo-fighters",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:franco-battiato:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "franco-battiato",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:fulminacci:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "fulminacci",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:ghost:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "ghost",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:gianna-nannini:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "gianna-nannini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:john-lennon:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "john-lennon",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:laura-pausini:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "laura-pausini",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:led-zeppelin:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "led-zeppelin",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:limp-bizkit:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "limp-bizkit",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:lucio-battisti:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "lucio-battisti",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:lynyrd-skynyrd:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "lynyrd-skynyrd",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:machine-gun-kelly:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "machine-gun-kelly",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:mina:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "mina",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:my-chemical-romance:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "my-chemical-romance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:naska:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "naska",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:nirvana:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "nirvana",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pinguini-tattici-nucleari:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "pinguini-tattici-nucleari",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pink-floyd:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "pink-floyd",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:pino-daniele:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "pino-daniele",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:prince:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "prince",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:queen:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "queen",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:r-e-m:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "r-e-m",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:radiohead:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "radiohead",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:red-hot-chili-peppers:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "red-hot-chili-peppers",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:renato-zero:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "renato-zero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:rino-gaetano:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "rino-gaetano",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:simon-garfunkel:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "simon-garfunkel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:soundgarden:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "soundgarden",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-beatles:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-beatles",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-clash:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-clash",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-cranberries:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-cranberries",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-doors:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-doors",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-killers:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-killers",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-police:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-police",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-rolling-stones:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-rolling-stones",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:the-white-stripes:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "the-white-stripes",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:tool:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "tool",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:toto-cutugno:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "toto-cutugno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:toto:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "toto",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:tracy-chapman:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "tracy-chapman",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:whitney-houston:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "whitney-houston",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "artista:zucchero:discografia",
+    "classe": "C3",
+    "tipo": "discografia-artista",
+    "soggetto": "zucchero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:amo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/amo",
+    "raccoglie": 3,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:post-human-nex-gen:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/post-human-nex-gen",
+    "raccoglie": 3,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:machine-head:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/machine-head",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:the-downward-spiral:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/the-downward-spiral",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:reign-in-blood:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/reign-in-blood",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:all-killer-no-filler:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/all-killer-no-filler",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:facelift:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/facelift",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:blink-182:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/blink-182",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:post-human-survival-horror:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/post-human-survival-horror",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:suicide-season:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/suicide-season",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:immortalized:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/immortalized",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:de-gregori:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/de-gregori",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:21st-century-breakdown:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/21st-century-breakdown",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:appetite-for-destruction:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/appetite-for-destruction",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:use-your-illusion-i:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/use-your-illusion-i",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:piece-of-mind:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/piece-of-mind",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:the-number-of-the-beast:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/the-number-of-the-beast",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:british-steel:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/british-steel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:screaming-for-vengeance:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/screaming-for-vengeance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:follow-the-leader:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "korn/follow-the-leader",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:korn:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "korn/korn",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:sopravvissuti-e-sopravviventi:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/sopravvissuti-e-sopravviventi",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:meteora:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/meteora",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:dallamericaruso:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/dallamericaruso",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:storie-di-casa-mia:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/storie-di-casa-mia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:countdown-to-extinction:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/countdown-to-extinction",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:peace-sells-but-whos-buying:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/peace-sells-but-whos-buying",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:and-justice-for-all:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/and-justice-for-all",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:ace-of-spades:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/ace-of-spades",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:overkill:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/overkill",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:bark-at-the-moon:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/bark-at-the-moon",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:blizzard-of-ozz:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/blizzard-of-ozz",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:cowboys-from-hell:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/cowboys-from-hell",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:vulgar-display-of-power:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/vulgar-display-of-power",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:ten:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/ten",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rage-against-the-machine:evil-empire:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "rage-against-the-machine/evil-empire",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rage-against-the-machine:rage-against-the-machine:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "rage-against-the-machine/rage-against-the-machine",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:mutter:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/mutter",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:sehnsucht:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/sehnsucht",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:all-hope-is-gone:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/all-hope-is-gone",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:slipknot:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/slipknot",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:does-this-look-infected:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/does-this-look-infected",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:mezmerize:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/mezmerize",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:toxicity:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/toxicity",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:nessun-pericolo-per-te:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/nessun-pericolo-per-te",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:non-siamo-mica-gli-americani:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/non-siamo-mica-gli-americani",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:alice-in-chains:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/alice-in-chains",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:black-gives-way-to-blue:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/black-gives-way-to-blue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:dirt:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/dirt",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:rainier-fog:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/rainier-fog",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:alice-in-chains:the-devil-put-dinosaurs-here:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "alice-in-chains/the-devil-put-dinosaurs-here",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:13:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/13",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:black-sabbath:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/black-sabbath",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:born-again:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/born-again",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:cross-purposes:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/cross-purposes",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:dehumanizer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/dehumanizer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:forbidden:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/forbidden",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:headless-cross:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/headless-cross",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:heaven-and-hell:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/heaven-and-hell",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:master-of-reality:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/master-of-reality",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:mob-rules:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/mob-rules",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:never-say-die:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/never-say-die",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:sabbath-bloody-sabbath:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/sabbath-bloody-sabbath",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:sabotage:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/sabotage",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:seventh-star:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/seventh-star",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:technical-ecstasy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/technical-ecstasy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:the-eternal-idol:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/the-eternal-idol",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:tyr:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/tyr",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:black-sabbath:vol-4:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "black-sabbath/vol-4",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:california:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/california",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:cheshire-cat:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/cheshire-cat",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:neighborhoods:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/neighborhoods",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:nine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/nine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:one-more-time:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/one-more-time",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:take-off-your-pants-and-jacket:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/take-off-your-pants-and-jacket",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:count-your-blessings:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/count-your-blessings",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bring-me-the-horizon:there-is-a-hell-believe-me-ive-seen-it-there-is-a-heaven-lets-keep-it-a-secret:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bring-me-the-horizon/there-is-a-hell-believe-me-ive-seen-it-there-is-a-heaven-lets-keep-it-a-secret",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:1:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/1",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:abandon:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/abandon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:bananas:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/bananas",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:burn:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/burn",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:come-taste-the-band:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/come-taste-the-band",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:deep-purple-in-rock:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/deep-purple-in-rock",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:deep-purple:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/deep-purple",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:fireball:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/fireball",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:infinite:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/infinite",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:now-what:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/now-what",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:perfect-strangers:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/perfect-strangers",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:purpendicular:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/purpendicular",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:rapture-of-the-deep:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/rapture-of-the-deep",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:shades-of-deep-purple:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/shades-of-deep-purple",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:slaves-and-masters:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/slaves-and-masters",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:splat:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/splat",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:stormbringer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/stormbringer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:the-battle-rages-on:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/the-battle-rages-on",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:the-book-of-taliesyn:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/the-book-of-taliesyn",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:the-house-of-blue-light:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/the-house-of-blue-light",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:turning-to-crime:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/turning-to-crime",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:who-do-we-think-we-are:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/who-do-we-think-we-are",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:deep-purple:whoosh:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "deep-purple/whoosh",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:asylum:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/asylum",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:believe:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/believe",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:divisive:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/divisive",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:evolution:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/evolution",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:indestructible:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/indestructible",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:ten-thousand-fists:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/ten-thousand-fists",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:disturbed:the-sickness:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/the-sickness",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:alice-non-lo-sa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/alice-non-lo-sa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:amore-nel-pomeriggio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/amore-nel-pomeriggio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:bufalo-bill:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/bufalo-bill",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:calypsos:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/calypsos",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:canzoni-damore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/canzoni-damore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:de-gregori-canta-bob-dylan-amore-e-furto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/de-gregori-canta-bob-dylan-amore-e-furto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:francesco-de-gregori:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/francesco-de-gregori",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:il-fischio-del-vapore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/il-fischio-del-vapore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:mira-mare-19-4-89:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/mira-mare-19-4-89",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:pastiche:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/pastiche",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:per-brevita-chiamato-artista:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/per-brevita-chiamato-artista",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:prendere-e-lasciare:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/prendere-e-lasciare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:scacchi-e-tarocchi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/scacchi-e-tarocchi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:sulla-strada:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/sulla-strada",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:terra-di-nessuno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/terra-di-nessuno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:theorius-campus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/theorius-campus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:titanic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/titanic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:viva-litalia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/viva-litalia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:francesco-de-gregori:vivavoce:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "francesco-de-gregori/vivavoce",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:39-smooth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/39-smooth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:dos:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/dos",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:father-of-all-motherfuckers:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/father-of-all-motherfuckers",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:insomniac:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/insomniac",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:kerplunk:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/kerplunk",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:nimrod:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/nimrod",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:revolution-radio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/revolution-radio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:saviors:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/saviors",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:tre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/tre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:uno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/uno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:green-day:warning:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "green-day/warning",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:chinese-democracy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/chinese-democracy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:g-n-r-lies:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/g-n-r-lies",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:the-spaghetti-incident:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/the-spaghetti-incident",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:guns-n-roses:use-your-illusion-ii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/use-your-illusion-ii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:a-matter-of-life-and-death:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/a-matter-of-life-and-death",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:brave-new-world:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/brave-new-world",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:dance-of-death:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/dance-of-death",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:fear-of-the-dark:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/fear-of-the-dark",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:iron-maiden:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/iron-maiden",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:killers:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/killers",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:no-prayer-for-the-dying:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/no-prayer-for-the-dying",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:powerslave:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/powerslave",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:senjutsu:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/senjutsu",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:seventh-son-of-a-seventh-son:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/seventh-son-of-a-seventh-son",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:somewhere-in-time:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/somewhere-in-time",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:the-book-of-souls:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/the-book-of-souls",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:the-final-frontier:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/the-final-frontier",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:the-x-factor:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/the-x-factor",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:iron-maiden:virtual-xi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/virtual-xi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:angel-of-retribution:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/angel-of-retribution",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:defenders-of-the-faith:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/defenders-of-the-faith",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:demolition:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/demolition",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:firepower:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/firepower",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:invincible-shield:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/invincible-shield",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:jugulator:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/jugulator",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:killing-machine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/killing-machine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:nostradamus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/nostradamus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:painkiller:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/painkiller",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:point-of-entry:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/point-of-entry",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:ram-it-down:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/ram-it-down",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:redeemer-of-souls:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/redeemer-of-souls",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:rocka-rolla:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/rocka-rolla",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:sad-wings-of-destiny:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/sad-wings-of-destiny",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:sin-after-sin:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/sin-after-sin",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:stained-class:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/stained-class",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:judas-priest:turbo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "judas-priest/turbo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:issues:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/issues",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:korn-2007:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/korn-2007",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:korn-iii-remember-who-you-are:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/korn-iii-remember-who-you-are",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:life-is-peachy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/life-is-peachy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:requiem:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/requiem",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:see-you-on-the-other-side:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/see-you-on-the-other-side",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:take-a-look-in-the-mirror:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/take-a-look-in-the-mirror",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:the-nothing:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/the-nothing",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:the-paradigm-shift:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/the-paradigm-shift",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:the-path-of-totality:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/the-path-of-totality",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:the-serenity-of-suffering:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/the-serenity-of-suffering",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:korn:untouchables:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "korn/untouchables",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:7:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/7",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:a-che-ora-e-la-fine-del-mondo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/a-che-ora-e-la-fine-del-mondo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:arrivederci-mostro:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/arrivederci-mostro",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:dedicato-a-noi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/dedicato-a-noi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:fuori-come-va:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/fuori-come-va",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:lambrusco-coltelli-rose-pop-corn:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/lambrusco-coltelli-rose-pop-corn",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:ligabue:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/ligabue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:made-in-italy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/made-in-italy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:miss-mondo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/miss-mondo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:mondovisione:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/mondovisione",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:start:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/start",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:a-thousand-suns:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/a-thousand-suns",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:from-zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/from-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:living-things:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/living-things",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:minutes-to-midnight:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/minutes-to-midnight",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:one-more-light:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/one-more-light",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:linkin-park:the-hunting-party:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "linkin-park/the-hunting-party",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:1983:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/1983",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:1999:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/1999",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:angoli-nel-cielo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/angoli-nel-cielo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:anidride-solforosa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/anidride-solforosa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:automobili:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/automobili",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:blues-for-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/blues-for-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:bugie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/bugie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:cambio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/cambio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:canzoni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/canzoni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:ciao:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/ciao",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:dalla-morandi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/dalla-morandi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:dalla:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/dalla",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:henna:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/henna",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:il-contrario-di-me:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/il-contrario-di-me",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:il-giorno-aveva-cinque-teste:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/il-giorno-aveva-cinque-teste",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:lucio-dalla-marco-di-marco:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/lucio-dalla-marco-di-marco",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:lucio-dalla:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/lucio-dalla",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:lucio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/lucio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:luna-matana:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/luna-matana",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:terra-di-gaibola:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/terra-di-gaibola",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-dalla:viaggi-organizzati:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-dalla/viaggi-organizzati",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:cryptic-writings:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/cryptic-writings",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:dystopia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/dystopia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:endgame:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/endgame",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:killing-is-my-business-and-business-is-good:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/killing-is-my-business-and-business-is-good",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:risk:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/risk",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:rust-in-peace:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/rust-in-peace",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:so-far-so-good-so-what:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/so-far-so-good-so-what",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:super-collider:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/super-collider",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:the-sick-the-dying-and-the-dead:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/the-sick-the-dying-and-the-dead",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:the-system-has-failed:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/the-system-has-failed",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:the-world-needs-a-hero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/the-world-needs-a-hero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:thirteen:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/thirteen",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:united-abominations:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/united-abominations",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:megadeth:youthanasia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "megadeth/youthanasia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:72-seasons:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/72-seasons",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:death-magnetic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/death-magnetic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:hardwired-to-self-destruct:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/hardwired-to-self-destruct",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:kill-em-all:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/kill-em-all",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:load:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/load",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:reload:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/reload",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:ride-the-lightning:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/ride-the-lightning",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:st-anger:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/st-anger",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:bad:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/bad",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:ben:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/ben",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:dangerous:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/dangerous",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:forever-michael:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/forever-michael",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:got-to-be-there:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/got-to-be-there",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:history-past-present-and-future-book-i:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/history-past-present-and-future-book-i",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:invincible:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/invincible",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:michael-jackson:music-me:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "michael-jackson/music-me",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:1916:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/1916",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:aftershock:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/aftershock",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:another-perfect-day:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/another-perfect-day",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:bad-magic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/bad-magic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:bastards:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/bastards",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:bomber:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/bomber",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:hammered:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/hammered",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:inferno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/inferno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:iron-fist:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/iron-fist",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:kiss-of-death:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/kiss-of-death",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:march-or-die:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/march-or-die",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:motorhead:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/motorhead",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:motorizer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/motorizer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:orgasmatron:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/orgasmatron",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:overnight-sensation:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/overnight-sensation",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:rock-n-roll:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/rock-n-roll",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:sacrifice:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/sacrifice",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:snake-bite-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/snake-bite-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:the-world-is-yours:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/the-world-is-yours",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:motorhead:we-are-motorhead:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "motorhead/we-are-motorhead",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:absolution:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/absolution",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:origin-of-symmetry:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/origin-of-symmetry",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:showbiz:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/showbiz",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:simulation-theory:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/simulation-theory",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:the-2nd-law:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/the-2nd-law",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:the-wow-signal:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/the-wow-signal",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:will-of-the-people:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "muse/will-of-the-people",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:bad-witch:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/bad-witch",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:hesitation-marks:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/hesitation-marks",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:pretty-hate-machine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/pretty-hate-machine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:the-fragile:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/the-fragile",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:with-teeth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/with-teeth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nine-inch-nails:year-zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nine-inch-nails/year-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:be-here-now:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "oasis/be-here-now",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:dig-out-your-soul:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "oasis/dig-out-your-soul",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:dont-believe-the-truth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "oasis/dont-believe-the-truth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:heathen-chemistry:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "oasis/heathen-chemistry",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:oasis:standing-on-the-shoulder-of-giants:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "oasis/standing-on-the-shoulder-of-giants",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:black-rain:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/black-rain",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:diary-of-a-madman:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/diary-of-a-madman",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:down-to-earth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/down-to-earth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:no-more-tears:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/no-more-tears",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:no-rest-for-the-wicked:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/no-rest-for-the-wicked",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:ordinary-man:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/ordinary-man",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:ozzmosis:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/ozzmosis",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:patient-number-9:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/patient-number-9",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:scream:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/scream",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:the-ultimate-sin:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/the-ultimate-sin",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ozzy-osbourne:under-cover:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ozzy-osbourne/under-cover",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:far-beyond-driven:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/far-beyond-driven",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:i-am-the-night:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/i-am-the-night",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:metal-magic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/metal-magic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:power-metal:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/power-metal",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:projects-in-the-jungle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/projects-in-the-jungle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:reinventing-the-steel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/reinventing-the-steel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pantera:the-great-southern-trendkill:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pantera/the-great-southern-trendkill",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:backspacer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/backspacer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:binaural:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/binaural",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:dark-matter:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/dark-matter",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:gigaton:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/gigaton",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:lightning-bolt:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/lightning-bolt",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:no-code:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/no-code",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:pearl-jam:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/pearl-jam",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:riot-act:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/riot-act",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:vitalogy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/vitalogy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:vs:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/vs",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pearl-jam:yield:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/yield",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rage-against-the-machine:renegades:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rage-against-the-machine/renegades",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rage-against-the-machine:the-battle-of-los-angeles:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rage-against-the-machine/the-battle-of-los-angeles",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:herzeleid:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/herzeleid",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:liebe-ist-fur-alle-da:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/liebe-ist-fur-alle-da",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:rammstein:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/rammstein",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:reise-reise:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/reise-reise",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:rosenrot:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/rosenrot",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rammstein:zeit:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rammstein/zeit",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:christ-illusion:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/christ-illusion",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:diabolus-in-musica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/diabolus-in-musica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:divine-intervention:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/divine-intervention",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:god-hates-us-all:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/god-hates-us-all",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:hell-awaits:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/hell-awaits",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:repentless:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/repentless",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:seasons-in-the-abyss:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/seasons-in-the-abyss",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:show-no-mercy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/show-no-mercy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:south-of-heaven:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/south-of-heaven",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:undisputed-attitude:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/undisputed-attitude",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slayer:world-painted-blood:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slayer/world-painted-blood",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:5-the-gray-chapter:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/5-the-gray-chapter",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:iowa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/iowa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:the-end-so-far:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/the-end-so-far",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:vol-3-the-subliminal-verses:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/vol-3-the-subliminal-verses",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:slipknot:we-are-not-your-kind:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "slipknot/we-are-not-your-kind",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:13-voices:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/13-voices",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:heaven-x-hell:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/heaven-x-hell",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:order-in-decline:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/order-in-decline",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:screaming-bloody-murder:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/screaming-bloody-murder",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:sum-41:underclass-hero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "sum-41/underclass-hero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:hypnotize:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/hypnotize",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:steal-this-album:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/steal-this-album",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:system-of-a-down:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/system-of-a-down",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:buoni-o-cattivi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/buoni-o-cattivi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:canzoni-per-me:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/canzoni-per-me",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:ce-chi-dice-no:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/ce-chi-dice-no",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:colpa-dalfredo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/colpa-dalfredo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:cosa-succede-in-citta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/cosa-succede-in-citta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:gli-spari-sopra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/gli-spari-sopra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:il-mondo-che-vorrei:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/il-mondo-che-vorrei",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:liberi-liberi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/liberi-liberi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:ma-cosa-vuoi-che-sia-una-canzone:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/ma-cosa-vuoi-che-sia-una-canzone",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:siamo-qui:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/siamo-qui",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:siamo-solo-noi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/siamo-solo-noi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:sono-innocente:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/sono-innocente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:stupido-hotel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/stupido-hotel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:vado-al-massimo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/vado-al-massimo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:vasco-rossi:vivere-o-niente:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "vasco-rossi/vivere-o-niente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:21-guns:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "21-guns",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:4-marzo-1943:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "4-marzo-1943",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:ace-of-spades:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "ace-of-spades",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:all-the-small-things:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "all-the-small-things",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:american-idiot:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "american-idiot",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:antivist:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "antivist",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:black-hole-sun:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "black-hole-sun",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:boulevard-of-broken-dreams:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "boulevard-of-broken-dreams",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:break-stuff:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "break-stuff",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:can-you-feel-my-heart:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "can-you-feel-my-heart",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:cattiva:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "cattiva",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:chelsea-smile:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "chelsea-smile",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:crawling:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "crawling",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:crazy-train:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "crazy-train",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:die4u:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "die4u",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:diventerai-una-star:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "diventerai-una-star",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:dont-look-back-in-anger:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "dont-look-back-in-anger",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:doomed:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "doomed",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:dreams:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "dreams",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:drown:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "drown",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:every-breath-you-take:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "every-breath-you-take",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:fast-car:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "fast-car",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:fat-lip:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "fat-lip",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:felicita:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "felicita",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:follow-you:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "follow-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:get-lucky:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "get-lucky",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hanno-ucciso-luomo-ragno:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "hanno-ucciso-luomo-ragno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:happy-song:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "happy-song",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:heroes:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "heroes",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hey-jude:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "hey-jude",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:ho-messo-via:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "ho-messo-via",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hurt:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "hurt",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hypa-hypa:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "hypa-hypa",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:i-miss-you:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "i-miss-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:i-will-always-love-you:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "i-will-always-love-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:il-carrozzone:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "il-carrozzone",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:imagine:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "imagine",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:in-too-deep:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "in-too-deep",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:iron-man:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "iron-man",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:livin-on-a-prayer:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "livin-on-a-prayer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:losing-my-religion:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "losing-my-religion",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:lost:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "lost",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:mantra:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "mantra",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:marmellata-25:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "marmellata-25",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:master-of-puppets:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "master-of-puppets",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:mr-brightside:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "mr-brightside",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:my-exs-best-friend:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "my-exs-best-friend",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:nihilist-blues:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "nihilist-blues",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:one-step-closer:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "one-step-closer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:one:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "one",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:paint-it-black:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "paint-it-black",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:parasite-eve:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "parasite-eve",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:personal-jesus:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "personal-jesus",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:piccolo-grande-amore:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "piccolo-grande-amore",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:piu-bella-cosa:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "piu-bella-cosa",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:psychosocial:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "psychosocial",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:purple-rain:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "purple-rain",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:ragu:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "ragu",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:riders-on-the-storm:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "riders-on-the-storm",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:rimmel:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "rimmel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:ringo-starr:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "ringo-starr",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:rocket-man:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "rocket-man",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:senza-una-donna:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "senza-una-donna",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:seven-nation-army:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "seven-nation-army",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:shadow-moses:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "shadow-moses",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:shape-of-you:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "shape-of-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:she-looks-so-perfect:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "she-looks-so-perfect",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:should-i-stay:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "should-i-stay",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:sleepwalking:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "sleepwalking",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:smoke-on-the-water:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "smoke-on-the-water",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:sober:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "sober",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:sono-solo-canzonette:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "sono-solo-canzonette",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:square-hammer:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "square-hammer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:starlight:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "starlight",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:still-waiting:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "still-waiting",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:sugar-were-goin-down:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "sugar-were-goin-down",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:supermassive-black-hole:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "supermassive-black-hole",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:symphony-of-destruction:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "symphony-of-destruction",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:take-on-me:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "take-on-me",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:the-sound-of-silence:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "the-sound-of-silence",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:the-sound-of-silence:spotify-id",
+    "classe": "C6",
+    "tipo": "spotify-id-canzone",
+    "soggetto": "the-sound-of-silence",
+    "raccoglie": 1,
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-08-25",
+    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
+  },
+  {
+    "id": "canzone:throne:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "throne",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:under-the-bridge:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "under-the-bridge",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:uprising:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "uprising",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:vieni-a-ballare-in-puglia:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "vieni-a-ballare-in-puglia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:vivo-per-lei:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "vivo-per-lei",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:wake-me-up:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "wake-me-up",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:welcome-to-the-black-parade:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "welcome-to-the-black-parade",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:whats-my-age-again:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "whats-my-age-again",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:wish-you-were-here:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "wish-you-were-here",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:wonderful-life:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "wonderful-life",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:yellow:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "yellow",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:yes-i-know-my-way:ascolti",
+    "classe": "C6",
+    "tipo": "ascolti-canzone",
+    "soggetto": "yes-i-know-my-way",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  }
+]

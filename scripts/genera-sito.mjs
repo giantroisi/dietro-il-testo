@@ -56,7 +56,7 @@ for (const c of canzoni) {
   if (!extraPerArtista.has(c.artistaSlug)) extraPerArtista.set(c.artistaSlug, new Map());
   const mappa = extraPerArtista.get(c.artistaSlug);
   if (!mappa.has(c.albumSlug)) {
-    mappa.set(c.albumSlug, { titolo: c.album, anno: primoAnno(c.anno), nota: null, copertina: null, slug: c.albumSlug });
+    mappa.set(c.albumSlug, { titolo: c.album, anno: primoAnno(c.anno), nota: null, copertina: null, slug: c.albumSlug, sintetico: true });
   }
 }
 
@@ -67,7 +67,7 @@ for (const c of canzoni) {
 // "-{anno}". Deterministico per anno, mai per ordine nel file.
 const albumPerArtista = new Map(); // artistaSlug -> [voci arricchite con slugPagina/slugOriginale]
 for (const a of artisti) {
-  const originali = a.album.filter((d) => d.titolo).map((d) => ({ ...d }));
+  const originali = a.album.filter((d) => d.titolo).map((d) => ({ ...d, sintetico: false }));
   const extra = [...(extraPerArtista.get(a.slug)?.values() || [])];
   const gruppi = new Map();
   for (const d of [...originali, ...extra]) {
@@ -112,6 +112,10 @@ for (const c of canzoni) {
 // lettore vede che il disco esiste senza finire in un vicolo cieco.
 const album = [];
 const albumRimossi = [];
+// F65: ogni voce disambiguata (esistente o no), con `nCanzoni` già calcolato —
+// così lacune.mjs non deve reimplementare la disambiguazione di F51/F53 per
+// sapere quante canzoni sblocca ciascuna copertina mancante.
+const albumComputati = [];
 for (const [artistaSlug, voci] of albumPerArtista) {
   for (const v of voci) {
     const chiave = `${artistaSlug}/${v.slugPagina}`;
@@ -121,6 +125,21 @@ for (const [artistaSlug, voci] of albumPerArtista) {
     v.indicizzabile = v.nCanzoni >= 3 || haCopertina;
     v.slug = v.slugPagina;
     v.artistaSlug = artistaSlug;
+    albumComputati.push({
+      artistaSlug,
+      slug: v.slugPagina,
+      titolo: v.titolo,
+      anno: v.anno,
+      copertina: haCopertina,
+      nCanzoni: v.nCanzoni,
+      esiste: v.esiste,
+      indicizzabile: v.indicizzabile,
+      // F65/C4: una voce sintetica (nata solo perché una canzone citava un
+      // album assente dalla discografia dichiarata, F51) non ha ancora una
+      // vera identità di album — cercarne la copertina è prematuro finché
+      // C3 non completa la discografia reale dell'artista.
+      sintetico: Boolean(v.sintetico),
+    });
     if (!v.esiste) {
       albumRimossi.push({ artistaSlug, slug: v.slugPagina, titolo: v.titolo });
       continue;
@@ -133,6 +152,7 @@ for (const [artistaSlug, voci] of albumPerArtista) {
 }
 const albumPerSlug = new Map(album.map((al) => [`${al.artistaSlug}/${al.slug}`, al]));
 writeFileSync(join(ROOT, 'dati', 'album-rimossi.json'), JSON.stringify(albumRimossi, null, 2) + '\n', 'utf8');
+writeFileSync(join(ROOT, 'dati', 'album-computati.json'), JSON.stringify(albumComputati, null, 2) + '\n', 'utf8');
 
 // F52: stessa soglia applicata agli artisti — indicizzabile con una storia
 // scritta o almeno tre canzoni raccontate, non "più di una", che creerebbe
