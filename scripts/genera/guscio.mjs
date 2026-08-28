@@ -65,7 +65,7 @@ function testata(r, { conRicerca = true, conMarchio = true } = {}) {
   </header>`;
 }
 
-function piede(r, totali) {
+function piede(r, totali, raccolte = []) {
   return `
   <footer class="piede">
     <div class="col piede-in">
@@ -80,6 +80,7 @@ function piede(r, totali) {
       <nav aria-label="Piede">
         <a href="${r}archivio/">Archivio completo</a>
         <a href="${r}metodo/">Metodo e fonti</a>
+        ${raccolte.map((x) => `<a href="${r}${x.percorso}">${esc(x.nome)}</a>`).join('\n        ')}
         <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
         <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
       </nav>
@@ -141,7 +142,7 @@ ${testata(r, { conRicerca: o.ricercaInTestata !== false, conMarchio: o.marchioIn
 <main id="contenuto">
 ${o.corpo}
 </main>
-${piede(r, o.totali)}
+${piede(r, o.totali, o.raccolte)}
 <script src="${r}ricerca.js" defer></script>
 </body>
 </html>

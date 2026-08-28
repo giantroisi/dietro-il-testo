@@ -40,6 +40,35 @@ export function suColore(hex) {
   return contrasto('#FFFFFF', hex) >= contrasto('#000000', hex) ? '#FFFFFF' : '#000000';
 }
 
+// F54/F56: nomi leggibili dei generi, unica fonte per archivio, schede e
+// raccolte — un genere futuro senza voce qui usa lo slug capitalizzato,
+// non blocca la pubblicazione automatica quando supera la soglia.
+export const NOMI_GENERE = {
+  rock: 'Rock',
+  metal: 'Metal',
+  pop: 'Pop',
+  punk: 'Punk',
+  rap: 'Rap / Hip hop',
+  elettronica: 'Elettronica',
+};
+export function nomeGenere(slug) {
+  return NOMI_GENERE[slug] || slug[0].toUpperCase() + slug.slice(1);
+}
+
+// F55: formulazione italiana dei decenni, usata in h1, briciole e chip —
+// mai inventata caso per caso. Le chiavi sono l'anno iniziale come stringa
+// (coerente con lo slug di pagina "/anni/1990/").
+export const NOMI_DECENNIO = {
+  1950: 'anni Cinquanta',
+  1960: 'anni Sessanta',
+  1970: 'anni Settanta',
+  1980: 'anni Ottanta',
+  1990: 'anni Novanta',
+  2000: 'anni Duemila',
+  2010: 'anni Duemiladieci',
+  2020: 'anni Venti',
+};
+
 // F17: valori ammessi per il ruolo di una fonte, e come si etichetta ogni
 // gruppo in pagina. Una fonte senza `ruolo` esplicito resta "storia" — non
 // peggiora nulla rispetto a prima, si limita a dire cosa già si sapeva.
@@ -173,6 +202,23 @@ export function paginaCanzone(c, ctx) {
   const albumSlugPagina = c._albumSlugPagina;
   const albumNoto = albumSlugPagina && ctx.albumPerSlug.has(`${c.artistaSlug}/${albumSlugPagina}`);
 
+  // F56: le briciole passano dall'artista al genere principale — il primo
+  // genere della canzone che sia anche una raccolta pubblicata. Senza un
+  // genere pubblicato ricadono sull'archivio, mai su un genere sotto soglia
+  // che porterebbe a un collegamento verso una pagina inesistente.
+  const generePrincipale = c._generePrincipale;
+  const briciolaMedia = generePrincipale
+    ? { nome: nomeGenere(generePrincipale), percorso: `genere/${generePrincipale}/` }
+    : { nome: 'Archivio', percorso: 'archivio/' };
+
+  const etichette = generePrincipale || c._decennioPubblicato
+    ? `<div class="suggerimenti">
+          <span class="etichetta">Raccolte</span>
+          ${generePrincipale ? `<a href="${r}genere/${generePrincipale}/">${esc(nomeGenere(generePrincipale))}</a>` : ''}
+          ${c._decennioPubblicato ? `<a href="${r}anni/${c._decennioPubblicato}/">${esc(NOMI_DECENNIO[c._decennioPubblicato] || `anni ${c._decennioPubblicato}`)}</a>` : ''}
+        </div>`
+    : '';
+
   const corpoHtml = c.corpo.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
 
   const extra = (c.sezioniExtra || [])
@@ -210,7 +256,7 @@ export function paginaCanzone(c, ctx) {
   <div class="col">
     <nav class="briciole" aria-label="Percorso">
       <a href="${r}">Home</a><span>/</span>
-      <a href="${r}artista/${c.artistaSlug}/">${esc(c.artista)}</a><span>/</span>
+      <a href="${r}${briciolaMedia.percorso}">${esc(briciolaMedia.nome)}</a><span>/</span>
       ${esc(c.titolo)}
     </nav>
 
@@ -218,6 +264,7 @@ export function paginaCanzone(c, ctx) {
       <div>
         <p class="sopratitolo">${conSegno([c.artista, annoDi(c), c.album])}</p>
         <h1>${esc(c.titolo)}</h1>
+        ${etichette}
         <div class="affidabilita">
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
@@ -301,6 +348,7 @@ export function paginaCanzone(c, ctx) {
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
     ogImage: `og/${c.slug}.png`,
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     corpo,
     datiStrutturati: conBreadcrumb(
       {
@@ -314,7 +362,7 @@ export function paginaCanzone(c, ctx) {
       },
       [
         { nome: 'Home', url: `${SITO.base}/` },
-        { nome: c.artista, url: `${SITO.base}/artista/${c.artistaSlug}/` },
+        { nome: briciolaMedia.nome, url: `${SITO.base}/${briciolaMedia.percorso}` },
         { nome: c.titolo, url: `${SITO.base}/canzone/${c.slug}/` },
       ]
     ),
@@ -456,6 +504,7 @@ export function paginaArtista(a, ctx) {
     identita: a.colore || undefined,
     identitaContrasto: a.colore ? suColore(a.colore) : undefined,
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     // F52: senza storia e con meno di tre canzoni raccontate, la pagina resta
     // pubblicata (P6 impone che esista) ma fuori dall'indice dei motori.
     noindexFollow: !a._indicizzabile,
@@ -552,6 +601,7 @@ export function paginaAlbum(al, ctx) {
     identita: al.colore || undefined,
     identitaContrasto: al.colore ? suColore(al.colore) : undefined,
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     // F50: con meno di tre canzoni raccontate e nessuna copertina documentata,
     // la pagina esiste (chi ha il link diretto la trova) ma resta fuori
     // dall'indice dei motori.
@@ -569,6 +619,93 @@ export function paginaAlbum(al, ctx) {
         { nome: 'Home', url: `${SITO.base}/` },
         { nome: a?.nome || '', url: `${SITO.base}/artista/${al.artistaSlug}/` },
         { nome: al.titolo, url: `${SITO.base}/album/${al.artistaSlug}/${al.slug}/` },
+      ]
+    ),
+  });
+}
+
+// -------------------------------------------------------- pagina raccolta
+
+/**
+ * F54/F55: pagina di genere o decennio. Pubblicata solo quando la raccolta
+ * supera la soglia definita in genera-sito.mjs (≥12 canzoni) e ha
+ * un'introduzione approvata in dati/raccolte.json — mai una pagina vuota o
+ * con un testo generico non verificato.
+ */
+export function paginaRaccolta(rac, ctx) {
+  const r = radice(2);
+  const brani = rac.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
+  // I decenni si leggono meglio in ordine cronologico; i generi, troppo
+  // numerosi per un ordine naturale, in ordine alfabetico di titolo.
+  const ordinate =
+    rac.tipo === 'decennio'
+      ? [...brani].sort((x, y) => (primoAnno(x.anno) || 0) - (primoAnno(y.anno) || 0) || x.titolo.localeCompare(y.titolo, 'it'))
+      : [...brani].sort((x, y) => x.titolo.localeCompare(y.titolo, 'it'));
+
+  const altre = ctx.raccolte.filter((x) => x.percorso !== rac.percorso);
+
+  const corpo = `
+  <div class="col">
+    <nav class="briciole" aria-label="Percorso">
+      <a href="${r}">Home</a><span>/</span>
+      <a href="${r}archivio/">Archivio</a><span>/</span>
+      ${esc(rac.nome)}
+    </nav>
+
+    <header class="intestazione">
+      <p class="sopratitolo">${rac.tipo === 'genere' ? 'Raccolta per genere' : 'Raccolta per decennio'}</p>
+      <h1>${esc(rac.titoloH1)}</h1>
+      <p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>
+    </header>
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <div class="prosa"><p>${esc(rac.introduzione)}</p></div>
+    </section>
+
+    <section class="blocco" id="canzoni">
+      <h2>${esc(rac.titoloH1)}</h2>
+      <div class="griglia">
+        ${ordinate.map((b) => schedaCanzone(b, r)).join('\n        ')}
+      </div>
+    </section>
+
+    ${
+      altre.length
+        ? `<section class="blocco">
+      <div class="suggerimenti">
+        <span class="etichetta">Altre raccolte</span>
+        ${altre.map((x) => `<a href="${r}${x.percorso}">${esc(x.nome)}</a>`).join('\n        ')}
+      </div>
+    </section>`
+        : ''
+    }
+
+    <section class="blocco">
+      <div class="azioni">
+        <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
+      </div>
+    </section>
+  </div>`;
+
+  return pagina({
+    profondita: 2,
+    percorso: rac.percorso,
+    titolo: rac.titoloH1,
+    descrizione: primaFrase(rac.introduzione, 155),
+    totali: ctx.totali,
+    raccolte: ctx.raccolte,
+    corpo,
+    datiStrutturati: conBreadcrumb(
+      {
+        '@type': 'CollectionPage',
+        name: rac.titoloH1,
+        url: `${SITO.base}/${rac.percorso}`,
+        description: primaFrase(rac.introduzione, 300),
+      },
+      [
+        { nome: 'Home', url: `${SITO.base}/` },
+        { nome: 'Archivio', url: `${SITO.base}/archivio/` },
+        { nome: rac.nome, url: `${SITO.base}/${rac.percorso}` },
       ]
     ),
   });
@@ -668,6 +805,7 @@ export function paginaHome(ctx) {
     titolo: 'Cerca una canzone, un album o una band',
     descrizione: `${canzoni.length} canzoni e ${artisti.length} artisti: contesto, significato e fonti verificate. Mai i testi.`,
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     ricercaInTestata: false,
     marchioInTestata: false,
     ogImage: 'og/home.png',
@@ -727,7 +865,18 @@ export function paginaArchivio(ctx) {
       <p class="sintesi">${canzoni.length} canzoni e ${artisti.length} artisti. Filtra per genere o cerca direttamente.</p>
     </header>
 
-    <section class="blocco" id="canzoni" style="border-top:0;padding-top:0">
+    ${
+      ctx.raccolte.length
+        ? `<section class="blocco" style="border-top:0;padding-top:0">
+      <div class="suggerimenti">
+        <span class="etichetta">Sfoglia le raccolte</span>
+        ${ctx.raccolte.map((x) => `<a href="${r}${x.percorso}">${esc(x.nome)} <b>${x.canzoni.length}</b></a>`).join('\n        ')}
+      </div>
+    </section>`
+        : ''
+    }
+
+    <section class="blocco" id="canzoni" style="${ctx.raccolte.length ? '' : 'border-top:0;padding-top:0'}">
       <div class="filtri" role="group" aria-label="Filtra per genere">
         <button class="filtro" type="button" data-genere="" aria-pressed="true">Tutti</button>
         ${generi.map(([k, n]) => `<button class="filtro" type="button" data-genere="${k}" aria-pressed="false">${esc(n)}</button>`).join('\n        ')}
@@ -762,6 +911,7 @@ export function paginaArchivio(ctx) {
     titolo: 'Archivio completo',
     descrizione: `Tutte le ${canzoni.length} canzoni e i ${artisti.length} artisti raccontati su Dietro il testo.`,
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     ogImage: 'og/archivio.png',
     corpo,
     datiStrutturati: {
@@ -840,6 +990,7 @@ export function paginaMetodo(ctx) {
     titolo: 'Metodo e fonti',
     descrizione: 'Come verifichiamo le informazioni, perché non pubblichiamo i testi delle canzoni e quali fonti consideriamo attendibili.',
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     ogImage: 'og/metodo.png',
     corpo,
     datiStrutturati: {
@@ -886,6 +1037,7 @@ export function paginaErrore404(ctx) {
     titolo: 'Pagina non trovata',
     descrizione: 'La pagina che cerchi non esiste su Dietro il testo. Cerca una canzone, un artista o un album, oppure torna alla home.',
     totali: ctx.totali,
+    raccolte: ctx.raccolte,
     noindex: true,
     ricercaInTestata: false,
     corpo,

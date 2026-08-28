@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { SITO } from './genera/guscio.mjs';
-import { paginaCanzone, paginaArtista, paginaAlbum, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404 } from './genera/pagine.mjs';
+import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404, nomeGenere, NOMI_DECENNIO } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -142,12 +142,81 @@ for (const a of artisti) {
   a._indicizzabile = Boolean(a.storia) || a.canzoni.length >= 3;
 }
 
+// ------------------------------------------------- F54/F55: generi e decenni
+
+const raccolteTesti = JSON.parse(readFileSync(join(ROOT, 'dati', 'raccolte.json'), 'utf8'));
+
+// La soglia nasce dal codice, non da un elenco fisso di generi o decenni:
+// una raccolta futura che superi undici canzoni e abbia un'introduzione
+// approvata in dati/raccolte.json si pubblica da sola, senza toccare questo file.
+const SOGLIA_RACCOLTA = 12;
+
+const canzoniPerGenere = new Map();
+for (const c of canzoni) {
+  for (const g of c.generi || []) {
+    if (!canzoniPerGenere.has(g)) canzoniPerGenere.set(g, []);
+    canzoniPerGenere.get(g).push(c.slug);
+  }
+}
+const generiPubblicati = [...canzoniPerGenere.entries()]
+  .filter(([slug, elenco]) => elenco.length >= SOGLIA_RACCOLTA && raccolteTesti.generi?.[slug])
+  .map(([slug, elenco]) => ({
+    tipo: 'genere',
+    slug,
+    percorso: `genere/${slug}/`,
+    nome: nomeGenere(slug),
+    titoloH1: `Canzoni ${nomeGenere(slug).toLowerCase()}`,
+    introduzione: raccolteTesti.generi[slug],
+    canzoni: elenco,
+  }));
+
+// F55: decennio = il primo gruppo di quattro cifre nel campo anno, mai un
+// parsing posizionale — 18 canzoni hanno un formato doppio anno non sempre
+// nello stesso ordine.
+function decennioDi(annoRaw) {
+  const anno = primoAnno(annoRaw);
+  return anno === null ? null : Math.floor(anno / 10) * 10;
+}
+const canzoniPerDecennio = new Map();
+for (const c of canzoni) {
+  const d = decennioDi(c.anno);
+  c._decennioNumero = d;
+  if (d === null) continue;
+  if (!canzoniPerDecennio.has(d)) canzoniPerDecennio.set(d, []);
+  canzoniPerDecennio.get(d).push(c.slug);
+}
+const decenniPubblicati = [...canzoniPerDecennio.entries()]
+  .filter(([d, elenco]) => elenco.length >= SOGLIA_RACCOLTA && raccolteTesti.decenni?.[String(d)])
+  .map(([d, elenco]) => ({
+    tipo: 'decennio',
+    slug: String(d),
+    percorso: `anni/${d}/`,
+    nome: NOMI_DECENNIO[d] || `anni ${d}`,
+    titoloH1: `Canzoni degli ${NOMI_DECENNIO[d] || `anni ${d}`}`,
+    introduzione: raccolteTesti.decenni[String(d)],
+    canzoni: elenco,
+  }));
+
+const raccolte = [...generiPubblicati, ...decenniPubblicati];
+const generiPubblicatiSlug = new Set(generiPubblicati.map((g) => g.slug));
+const decenniPubblicatiSlug = new Set(decenniPubblicati.map((d) => d.slug));
+
+// F56: il genere principale è il primo genere della canzone che sia anche
+// una raccolta pubblicata — mai il primo genere in assoluto, altrimenti si
+// linkerebbe una raccolta inesistente (es. "rap" o "elettronica", sotto
+// soglia). Stesso principio per il decennio.
+for (const c of canzoni) {
+  c._generePrincipale = (c.generi || []).find((g) => generiPubblicatiSlug.has(g)) || null;
+  c._decennioPubblicato = c._decennioNumero !== null && decenniPubblicatiSlug.has(String(c._decennioNumero)) ? String(c._decennioNumero) : null;
+}
+
 const dataRevisione = new Date().toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
 const ctx = {
   canzoni,
   artisti,
   album,
+  raccolte,
   canzoniPerSlug,
   artistiPerSlug,
   albumPerSlug,
@@ -192,6 +261,12 @@ for (const al of album) {
   const html = paginaAlbum(al, ctx);
   htmlAlbum.set(`${al.artistaSlug}/${al.slug}`, html);
   scrivi(`album/${al.artistaSlug}/${al.slug}/index.html`, html);
+}
+const htmlRaccolte = new Map();
+for (const rac of raccolte) {
+  const html = paginaRaccolta(rac, ctx);
+  htmlRaccolte.set(rac.percorso, html);
+  scrivi(`${rac.percorso}index.html`, html);
 }
 
 scrivi('ricerca.js', generaRicerca(ctx));
@@ -272,9 +347,10 @@ const sitemapAlbum = urlset(
       url(`album/${al.artistaSlug}/${al.slug}/`, lastmodDi(`album/${al.artistaSlug}/${al.slug}/index.html`, `album/${al.artistaSlug}/${al.slug}/`, htmlAlbum.get(`${al.artistaSlug}/${al.slug}`)))
     )
 );
-// F54/F55 non ancora costruite: il file esiste già, vuoto, così la struttura
-// non cambia quando le raccolte arriveranno.
-const sitemapRaccolte = urlset([]);
+// F54/F55: solo le raccolte che hanno superato la soglia entrano in sitemap.
+const sitemapRaccolte = urlset(
+  raccolte.map((rac) => url(rac.percorso, lastmodDi(`${rac.percorso}index.html`, rac.percorso, htmlRaccolte.get(rac.percorso))))
+);
 
 scrivi('sitemap-pagine.xml', sitemapPagine);
 scrivi('sitemap-canzoni.xml', sitemapCanzoni);
@@ -333,12 +409,13 @@ scrivi('vercel.json', JSON.stringify(vercelJson, null, 2) + '\n');
 // -------------------------------------------------------------- riepilogo
 
 const conGancio = canzoni.filter((c) => c.gancio).length;
-const totale = 3 + canzoni.length + artisti.length + album.length;
+const totale = 3 + canzoni.length + artisti.length + album.length + raccolte.length;
 
 console.log(`Pagine generate:   ${totale}`);
 console.log(`  canzoni          ${canzoni.length}`);
 console.log(`  artisti          ${artisti.length}`);
 console.log(`  album            ${album.length}`);
+console.log(`  raccolte         ${raccolte.length} (${generiPubblicati.length} generi, ${decenniPubblicati.length} decenni)`);
 console.log(`  fisse            3 (home, archivio, metodo)`);
 console.log('');
 console.log(`Ganci scritti:     ${conGancio}/${canzoni.length}`);
