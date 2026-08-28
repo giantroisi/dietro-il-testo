@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Band thrash metal formata a Huntington Park, in California, nel 1981 dai chitarristi Kerry King e Jeff Hanneman, dal bassista/cantante Tom Araya e dal…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/slayer/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,66 +663,54 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/slayer/show-no-mercy/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Show No Mercy</span><span class="nota">album di debutto</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/slayer/hell-awaits/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Hell Awaits</span></span>
-          <span class="anno">1985</span>
-        </a>
+          <span class="anno">1985</span></div>
         <a class="disco" href="../../album/slayer/reign-in-blood/">
           <span class="indice">03</span>
           <span><span class="titolo">Reign in Blood</span><span class="nota">certificato oro RIAA, considerato tra gli album thrash metal più influenti di sempre</span></span>
-          <span class="anno">1986</span>
-        </a>
-        <a class="disco" href="../../album/slayer/south-of-heaven/">
+          <span class="anno">1986</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">South of Heaven</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1988</span>
-        </a>
-        <a class="disco" href="../../album/slayer/seasons-in-the-abyss/">
+          <span class="anno">1988</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Seasons in the Abyss</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/slayer/divine-intervention/">
+          <span class="anno">1990</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Divine Intervention</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/slayer/undisputed-attitude/">
+          <span class="anno">1994</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Undisputed Attitude</span><span class="nota">album di cover</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/slayer/diabolus-in-musica/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Diabolus in Musica</span></span>
-          <span class="anno">1998</span>
-        </a>
-        <a class="disco" href="../../album/slayer/god-hates-us-all/">
+          <span class="anno">1998</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">God Hates Us All</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/slayer/christ-illusion/">
+          <span class="anno">2001</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Christ Illusion</span><span class="nota">Grammy Best Metal Performance per &quot;Eyes of the Insane&quot; (2007), primo Grammy vinto dalla band</span></span>
-          <span class="anno">2006</span>
-        </a>
-        <a class="disco" href="../../album/slayer/world-painted-blood/">
+          <span class="anno">2006</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">World Painted Blood</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/slayer/repentless/">
+          <span class="anno">2009</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Repentless</span><span class="nota">ultimo album in studio della band</span></span>
-          <span class="anno">2015</span>
-        </a>
+          <span class="anno">2015</span></div>
       </div>
       
     </section>

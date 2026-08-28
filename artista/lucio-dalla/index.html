@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Nato a Bologna nel 1943, bambino prodigio capace di suonare fisarmonica e clarinetto, iniziò la carriera musicale nel jazz prima di passare alla canzone…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/lucio-dalla/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,126 +663,102 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/lucio-dalla/1999/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">1999</span><span class="nota">primo album da solista</span></span>
-          <span class="anno">1966</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/terra-di-gaibola/">
+          <span class="anno">1966</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Terra di Gaibola</span></span>
-          <span class="anno">1970</span>
-        </a>
+          <span class="anno">1970</span></div>
         <a class="disco" href="../../album/lucio-dalla/storie-di-casa-mia/">
           <span class="indice">03</span>
           <span><span class="titolo">Storie di casa mia</span></span>
-          <span class="anno">1971</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/il-giorno-aveva-cinque-teste/">
+          <span class="anno">1971</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Il giorno aveva cinque teste</span></span>
-          <span class="anno">1973</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/anidride-solforosa/">
+          <span class="anno">1973</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Anidride solforosa</span></span>
-          <span class="anno">1975</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/automobili/">
+          <span class="anno">1975</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Automobili</span></span>
-          <span class="anno">1976</span>
-        </a>
+          <span class="anno">1976</span></div>
         <a class="disco" href="../../album/lucio-dalla/come-e-profondo-il-mare/">
           <span class="indice">07</span>
           <span><span class="titolo">Come è profondo il mare</span><span class="nota">circa 200.000 copie vendute in Italia, considerato uno dei suoi capolavori artistici</span></span>
-          <span class="anno">1977</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/lucio-dalla/">
+          <span class="anno">1977</span></a>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Lucio Dalla</span></span>
-          <span class="anno">1979</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/dalla/">
+          <span class="anno">1979</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Dalla</span><span class="nota">circa 600.000 copie vendute in Italia</span></span>
-          <span class="anno">1980</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/1983/">
+          <span class="anno">1980</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">1983</span><span class="nota">circa 300.000 copie vendute in Italia</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/viaggi-organizzati/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Viaggi organizzati</span><span class="nota">disco di platino</span></span>
-          <span class="anno">1984</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/lucio-dalla-marco-di-marco/">
+          <span class="anno">1984</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Lucio Dalla Marco Di Marco</span><span class="nota">album jazz strumentale realizzato con il pianista Marco Di Marco</span></span>
-          <span class="anno">1985</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/bugie/">
+          <span class="anno">1985</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Bugie</span><span class="nota">disco di platino</span></span>
-          <span class="anno">1986</span>
-        </a>
+          <span class="anno">1986</span></div>
         <a class="disco" href="../../album/lucio-dalla/dallamericaruso/">
           <span class="indice">14</span>
           <span><span class="titolo">DallAmeriCaruso</span><span class="nota">album dal vivo registrato al Village Gate di New York, pubblicato con l'aggiunta dell'inedito in studio &quot;Caruso&quot;</span></span>
-          <span class="anno">1986</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/dalla-morandi/">
+          <span class="anno">1986</span></a>
+        <div class="disco disco-assente">
           <span class="indice">15</span>
           <span><span class="titolo">Dalla/Morandi</span><span class="nota">con Gianni Morandi, 5x disco di platino, circa 1.000.000 di copie vendute</span></span>
-          <span class="anno">1988</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/cambio/">
+          <span class="anno">1988</span></div>
+        <div class="disco disco-assente">
           <span class="indice">16</span>
           <span><span class="titolo">Cambio</span><span class="nota">7x disco di platino, circa 1.500.000 di copie vendute</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/blues-for-love/">
+          <span class="anno">1990</span></div>
+        <div class="disco disco-assente">
           <span class="indice">17</span>
           <span><span class="titolo">Blues for Love</span><span class="nota">album jazz strumentale realizzato con il pianista Marco Di Marco</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/henna/">
+          <span class="anno">1992</span></div>
+        <div class="disco disco-assente">
           <span class="indice">18</span>
           <span><span class="titolo">Henna</span><span class="nota">3x disco di platino, circa 300.000 copie vendute</span></span>
-          <span class="anno">1993</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/canzoni/">
+          <span class="anno">1993</span></div>
+        <div class="disco disco-assente">
           <span class="indice">19</span>
           <span><span class="titolo">Canzoni</span><span class="nota">3x disco di diamante, circa 1.800.000 copie vendute, disco d'oro in Svizzera, platino europeo — uno dei suoi maggiori successi commerciali</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/ciao/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">20</span>
           <span><span class="titolo">Ciao</span><span class="nota">2x disco di platino</span></span>
-          <span class="anno">1999</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/luna-matana/">
+          <span class="anno">1999</span></div>
+        <div class="disco disco-assente">
           <span class="indice">21</span>
           <span><span class="titolo">Luna Matana</span><span class="nota">2x disco di platino</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/lucio/">
+          <span class="anno">2001</span></div>
+        <div class="disco disco-assente">
           <span class="indice">22</span>
           <span><span class="titolo">Lucio</span></span>
-          <span class="anno">2003</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/il-contrario-di-me/">
+          <span class="anno">2003</span></div>
+        <div class="disco disco-assente">
           <span class="indice">23</span>
           <span><span class="titolo">Il contrario di me</span></span>
-          <span class="anno">2007</span>
-        </a>
-        <a class="disco" href="../../album/lucio-dalla/angoli-nel-cielo/">
+          <span class="anno">2007</span></div>
+        <div class="disco disco-assente">
           <span class="indice">24</span>
           <span><span class="titolo">Angoli nel cielo</span><span class="nota">ultimo album in studio pubblicato in vita</span></span>
-          <span class="anno">2009</span>
-        </a>
+          <span class="anno">2009</span></div>
       </div>
       
     </section>

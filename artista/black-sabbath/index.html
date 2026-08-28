@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Birmingham nel 1968 da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, presero il nome nel 1969 ispirandosi a un film horror di Boris…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/black-sabbath/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,101 +663,82 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/black-sabbath/black-sabbath/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Black Sabbath</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1970</span>
-        </a>
+          <span class="anno">1970</span></div>
         <a class="disco" href="../../album/black-sabbath/paranoid/">
           <span class="indice">02</span>
           <span><span class="titolo">Paranoid</span><span class="nota">numero 1 nel Regno Unito, certificato 4x platino RIAA</span></span>
-          <span class="anno">1970</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/master-of-reality/">
+          <span class="anno">1970</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Master of Reality</span><span class="nota">certificato 2x platino RIAA</span></span>
-          <span class="anno">1971</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/vol-4/">
+          <span class="anno">1971</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Vol. 4</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1972</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/sabbath-bloody-sabbath/">
+          <span class="anno">1972</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Sabbath Bloody Sabbath</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1973</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/sabotage/">
+          <span class="anno">1973</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Sabotage</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1975</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/technical-ecstasy/">
+          <span class="anno">1975</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Technical Ecstasy</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1976</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/never-say-die/">
+          <span class="anno">1976</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Never Say Die!</span><span class="nota">certificato oro RIAA, ultimo album di questo ciclo con Ozzy Osbourne</span></span>
-          <span class="anno">1978</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/heaven-and-hell/">
+          <span class="anno">1978</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Heaven and Hell</span><span class="nota">certificato platino RIAA, primo album con Ronnie James Dio alla voce</span></span>
-          <span class="anno">1980</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/mob-rules/">
+          <span class="anno">1980</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Mob Rules</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1981</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/born-again/">
+          <span class="anno">1981</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Born Again</span><span class="nota">unico album con Ian Gillan alla voce, primo della band senza certificazione RIAA</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/seventh-star/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Seventh Star</span><span class="nota">nato come album solista di Tony Iommi, pubblicato poi come Black Sabbath su pressione dell'etichetta</span></span>
-          <span class="anno">1986</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/the-eternal-idol/">
+          <span class="anno">1986</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">The Eternal Idol</span><span class="nota">certificato oro RIAA nel 1997, primo album con Tony Martin alla voce</span></span>
-          <span class="anno">1987</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/headless-cross/">
+          <span class="anno">1987</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Headless Cross</span></span>
-          <span class="anno">1989</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/tyr/">
+          <span class="anno">1989</span></div>
+        <div class="disco disco-assente">
           <span class="indice">15</span>
           <span><span class="titolo">Tyr</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/dehumanizer/">
+          <span class="anno">1990</span></div>
+        <div class="disco disco-assente">
           <span class="indice">16</span>
           <span><span class="titolo">Dehumanizer</span><span class="nota">ritorno di Ronnie James Dio alla voce</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/cross-purposes/">
+          <span class="anno">1992</span></div>
+        <div class="disco disco-assente">
           <span class="indice">17</span>
           <span><span class="titolo">Cross Purposes</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/forbidden/">
+          <span class="anno">1994</span></div>
+        <div class="disco disco-assente">
           <span class="indice">18</span>
           <span><span class="titolo">Forbidden</span><span class="nota">certificato oro RIAA nel 1997</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/black-sabbath/13/">
+          <span class="anno">1995</span></div>
+        <div class="disco disco-assente">
           <span class="indice">19</span>
           <span><span class="titolo">13</span><span class="nota">primo numero 1 della band negli USA, formazione originale riunita (Osbourne, Iommi, Butler), Grammy Best Metal Performance per &quot;God Is Dead?&quot;</span></span>
-          <span class="anno">2013</span>
-        </a>
+          <span class="anno">2013</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">2 Grammy Awards vinti in carriera</p>
     </section>

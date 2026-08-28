@@ -59,6 +59,24 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F47 — H1 assente sulla home | completato | 28 agosto 2026 | `<p class="promessa">` diventato `<h1 class="promessa">`, CSS aggiornata di conseguenza (`font: inherit` + stesso `font-size`/colore di prima): nessun cambiamento visivo, verificato mobile/desktop, chiaro/scuro |
 | F48 — 9 coppie di `<title>` identici canzone/album omonimo | completato | 28 agosto 2026 | Il `<title>` delle pagine album ora è sempre `"{titolo} (album) — {artista}"`, non solo per le 9 coppie in conflitto: coerenza su tutte le 391 pagine invece di un caso speciale. Verificato che canzone e album omonimo (es. Paranoid) abbiano ora title distinti |
 | F49 — Nessuno schema Organization / `@id` | completato | 28 agosto 2026 | Home: `WebSite` e nuovo `Organization` collegati via `@id`/`publisher` in un `@graph`. Deliberatamente nessun `SearchAction`: il sito non ha una vera pagina di risultati raggiungibile da URL, solo ricerca lato client — dichiararne una finta avrebbe violato P1 |
+| F50 — Pagine album solo dove c'è qualcosa da dire | completato | 28 agosto 2026 | `genera-sito.mjs` costruisce l'elenco album con la soglia a due gradini: 142 pagine generate (era 390), 26 indicizzabili, 116 `noindex, follow`, 321 escluse e registrate in `dati/album-rimossi.json`. Tutti i numeri ricalcolati dai dati coincidono con quelli attesi in sezione 11 |
+| F51 — Album delle canzoni raccontate senza pagina | completato | 28 agosto 2026 | L'elenco album nasce ora dall'unione fra la discografia dichiarata e gli album citati dalle 157 canzoni: verificato via script che le 157 canzoni con `albumSlug` abbiano tutte un file `album/.../index.html` esistente e il collegamento nella scheda — 0 mancanti |
+| F52 — Pagine artista povere fuori dall'indice | completato | 28 agosto 2026 | 32 artisti indicizzabili (storia o ≥3 canzoni), 72 con `noindex, follow` e fuori sitemap — verificato via `grep` sull'HTML generato, coincide esattamente col numero atteso |
+| F53 — Sitemap divisa, senza `priority`, con un URL duplicato da togliere | completato | 28 agosto 2026 | *Korn* (1994) e *Korn* (2007) disambiguati: il più vecchio conserva lo slug `korn`, l'altro diventa `korn-2007` (poi escluso comunque da F50 per mancanza di contenuto). Sitemap divisa in `sitemap-pagine/canzoni/artisti/album/raccolte.xml` più un `sitemap.xml` indice; zero `<priority>`; 218 `<loc>` totali, verificato uguale al numero di pagine senza `noindex`; zero duplicati |
+| F54 — Pagine di genere con URL proprio | da fare | 28 agosto 2026 | Audit SEO 2: fra l'archivio e le 157 schede non esiste nessun livello intermedio; nessun indirizzo può posizionarsi per "canzoni rock". Deciso dall'autore: quattro pagine (rock 74, pop 58, metal 52, punk 17), ognuna con introduzione originale scritta. Elettronica (9) e rap (4) restano filtri finché non hanno massa. Chiude il lato SEO di F44 |
+| F55 — Pagine di decennio con URL proprio | da fare | 28 agosto 2026 | Audit SEO 2: cinque pagine (anni 70: 24, 80: 30, 90: 38, 2000: 30, 2010: 19), ognuna con introduzione originale scritta. Anni 50 (1), 60 (6) e 2020 (9) restano fuori finché non hanno massa |
+| F56 — I nuovi livelli collegati davvero | da fare | 28 agosto 2026 | Una pagina che nessuno collega non esiste: genere e decennio vanno raggiunti dall'archivio, dal piede e da ogni scheda canzone, e devono comparire nel percorso `nav.briciole` |
+| F57 — Titoli che contengono la domanda dell'utente | da fare | 28 agosto 2026 | Audit SEO 2: il titolo dice `Bohemian Rhapsody — Queen | Dietro il testo`, ma la domanda digitata in italiano è "bohemian rhapsody significato". Deciso dall'autore: "{Titolo} ({Artista}): significato e storia", suffisso di marca solo se il titolo resta sotto i 60 caratteri |
+| F58 — Descrizioni scritte, mai troncate a metà | da fare | 28 agosto 2026 | Audit SEO 2: la `meta description` è oggi il primo pezzo del corpo tagliato a lunghezza fissa e chiuso con "…", spesso a metà parola. Va costruita su una frase intera, o presa da un campo editoriale dedicato quando la frase automatica non regge |
+| F59 — Dati strutturati completi e onesti | da fare | 28 agosto 2026 | Audit SEO 2: manca l'autore su ogni scheda, manca `dateModified` (la data di revisione esiste nel testo ma non nei dati), `og:type` è `website` anche sulle canzoni, le nuove pagine di genere e decennio non hanno schema. Nessuno schema ricco sulle pagine povere |
+| F60 — Rete di collegamenti fra le schede | da fare | 28 agosto 2026 | Audit SEO 2: una scheda canzone collega solo verso l'alto (home, artista, metodo, archivio). Nessun collegamento orizzontale fra le 157 schede: il sito è una stella, non una rete. Quattro collegamenti per scheda, scelti da una regola deterministica che bilancia anche i collegamenti in entrata |
+| F61 — Chi scrive questo sito | da fare | 28 agosto 2026 | Audit SEO 2: nessuna pagina dice chi c'è dietro, con quale competenza e con quale responsabilità. È il segnale di affidabilità che oggi manca del tutto, e serve tanto al lettore quanto ai motori |
+| F62 — Contatti, privacy e note legali | da fare | 28 agosto 2026 | Audit SEO 2: esistono solo indirizzi `mailto:`. Prerequisito obbligatorio prima di installare qualunque strumento di misura che usi cookie o identificatori |
+| F63 — `vercel.json`: redirect, cache, un solo salto | completato | 28 agosto 2026 | Nuovo `vercel.json`, generato da `dati/album-rimossi.json`: 321 redirect 301 verso la pagina artista, header di cache lunga+immutable per logo/favicon/og, breve+revalidate per il resto. **F46 non chiuso da qui**: il doppio salto è a livello di configurazione domini (quale dominio è primario), non di rotte applicative — resta necessario il pannello Vercel |
+| F64 — Controllo automatico SEO prima di pubblicare | da fare | 28 agosto 2026 | Nessuno dei controlli di sezione 8 guarda titoli, descrizioni, canonical, orfani o soglia di contenuto. `scripts/check-seo.mjs` deve impedire che gli errori appena corretti rientrino |
+| F65 — Motore delle lacune (`scripts/lacune.mjs`) | da fare | 28 agosto 2026 | Una routine di completamento ha bisogno di una coda calcolata dai dati, ordinata per quanto ciascuna lacuna sblocca e con quattro stati chiusi (`da-cercare`, `fatto`, `accertato-assente`, `sospeso`). Senza `accertato-assente` ogni sessione ricomincerebbe a cercare le stesse 367 copertine inesistenti |
+| F66 — Routine di completamento verificata | da fare | 28 agosto 2026 | Ciclo ripetibile su lotti di otto voci: ricerca secondo la gerarchia delle fonti, prova di ammissibilità (frase della fonte incollata, altrimenti l'affermazione non entra), verifica indipendente a occhi chiusi, controlli automatici, commit e quattro numeri nel registro. Include il campo `copertinaFonte`, oggi assente: le 24 copertine documentate sono affermazioni sostanziali senza fonte registrata, violazione di P2 già in atto |
+| F67 — Freno alle aggiunte nuove | da fare | 28 agosto 2026 | Deciso dall'autore: hanno priorità le cose che mancano nelle pagine esistenti, non i contenuti nuovi. Finché il debito delle classi prioritarie (oggi 227 voci mai tentate, da ricalcolare dopo F53) supera 50 non si aggiungono canzoni, artisti o album: ogni canzone nuova porta con sé un artista da raccontare e un album da documentare |
 
 ### Target di performance dichiarato (F31)
 
@@ -183,6 +201,15 @@ Non incluso in questo obiettivo: il tempo di caricamento del player Spotify (dom
 - **28 agosto 2026 — F29 completato, indice interno sulle schede con sezioniExtra:** controllati prima i dati reali invece di supporre: 155 canzoni su 157 hanno esattamente 2 paragrafi nel campo `corpo`, quindi la vera differenza di lunghezza non è lì ma nelle 4 schede con `sezioniExtra` (teen-spirit, darkside, albachiara, purple-rain), esplicitamente le più lunghe. Aggiunto un `id` a ogni sezione extra (`extra-0`, `extra-1`...) e un sommario cliccabile `nav.snodi` (stesso stile CSS già usato in pagina artista, riusato senza modifiche) mostrato **solo** quando `c.sezioniExtra.length > 0` — sulle altre 153 schede sarebbe stato un elemento in più senza contenuto da saltare davvero, contro lo spirito di essenzialità della Costituzione. Verificato nel browser su Smells Like Teen Spirit (5 voci: Momento iconico, La storia, Curiosità, Continua, Fonti) e su Purple Rain, mobile e desktop, chiaro e scuro; confermato che una scheda normale (Creep) non mostra l'indice. **Limite onesto**: non sono riuscito a verificare visivamente lo scroll-to-anchor in questo ambiente di test (`window.scrollY` non si è mai mosso nemmeno forzandolo via JS o navigando con l'hash già nell'URL) — sintomo di un problema del tool di anteprima in questa sessione, non del codice: gli `href="#id"` e gli `id` nel DOM corrispondono esattamente, verificato via grep sull'HTML generato, e lo scroll-to-anchor è comportamento nativo del browser senza alcun JavaScript custom che possa intercettarlo. `check-link.mjs`, `check-coerenza.mjs` e `check-contrasto-v2.mjs` restano puliti.
 - **28 agosto 2026 — F5 valutato onestamente, non forzato a "completato":** lo script che F5 chiedeva (`check-completezza.mjs`) esisteva già da F22, quindi non c'era codice da scrivere — solo da eseguire e guardare i numeri reali invece di dare per scontato che il lavoro fosse fatto. Risultato: **101/157 complete, 56 da integrare** (era 73/157 il 25 agosto: il salto è un effetto collaterale di F39, che aggiungendo lo `spotifyId` a 81 schede ne ha automaticamente completate molte). Guardati anche i dettagli: 54 delle 56 mancanze sono per la sola `fraseIconica`, 3 per fonti insufficienti, 1 per corpo troppo corto (`freak-on-a-leash`), 1 per lo `spotifyId` di `the-sound-of-silence` già noto da F39. Controllato inoltre che i 13 punti dello standard 4A della Costituzione non sono tutti coperti dallo script: 3 sono strutturalmente garantiti dal generatore per ogni pagina (normalizzazione, correlate, data di revisione) e non hanno bisogno di un controllo per-scheda; 4 sono giudizi qualitativi sul contenuto (sintesi, spiegazione del significato, curiosità, crediti) che uno script non può verificare meccanicamente. **Deciso di non dichiarare F5 "completato"**: scrivere le 54 frasi iconiche mancanti è lavoro editoriale creativo — scegliere il passaggio giusto e parafrasarlo senza riprodurre il testo — non un intervento di codice, e improvvisarle in blocco per far tornare un numero avrebbe abbassato lo standard delle schede esistenti (P1). Passato a "lavoro editoriale continuo", stesso trattamento onesto già riservato a F15. Nessun codice toccato: solo esecuzione dello script esistente e aggiornamento di questa roadmap.
 - **28 agosto 2026 — F5 completato davvero, 54 frasi iconiche scritte con lo stesso rigore di F39:** l'autore ha dato il via esplicito, con l'istruzione di scartare invece di indovinare dove non ci fossero prove. Scritto `BRIEF-F5.md`. Per ognuna delle 54 canzoni, cercata (via ricerca web reale, non a memoria) qual è il passaggio più citato/discusso secondo una fonte nominabile — Songfacts, Wikipedia, testate come Rolling Stone, Louder, American Songwriter, Radio X, Rockol, Fanpage — e scritta una parafrasi originale di quel momento, mai un verso riprodotto: verificato a mano, cercando ogni frammento tra virgolette nelle 54 frasi, che nessuna citazione fosse un verso in lingua originale (solo titoli di album/film/libri, o dichiarazioni d'intervista dell'artista, mai testo cantato). Per 16 canzoni Bring Me the Horizon la frase è stata derivata dal `corpo` già scritto e già dotato di fonti in una sessione precedente, senza necessità di nuova ricerca. Trovate e aggiunte due fonti mancanti durante il lavoro (Songfacts per `psychosocial`, Songtell per `hypa-hypa`, Rockol per `diventerai-una-star`), portando anche queste tre schede sotto lo standard delle "almeno 2 fonti". **Risultato su `check-completezza.mjs`: 101/157 → 155/157**, un salto verificato con lo script reale, non dichiarato a parole. Restano solo `freak-on-a-leash` (corpo troppo corto, fuori scope di questo intervento) e `the-sound-of-silence` (`spotifyId`, già dichiarato irrisolvibile in F39 per lo stesso motivo: nessuna prova chiara, meglio lasciare vuoto che indovinare). Verificato nel browser "One" (Metallica) e "Hanno ucciso l'Uomo Ragno" (883), nessun errore console. `check-link.mjs`, `check-coerenza.mjs`, `check-testi.mjs` e `check-contrasto-v2.mjs` restano puliti.
+
+- **28 agosto 2026 — Secondo audit SEO, questa volta sui file:** analizzati i 654 file HTML generati e i dati di origine invece delle sole pagine pubblicate. Trovati quattro difetti non emersi dal primo audit: 320 pagine album su 390 dichiarano di non avere né canzoni raccontate né copertina documentata (violazione già in atto di P6); 72 canzoni su 157 — fra cui Bohemian Rhapsody, Creep e Smells Like Teen Spirit — citano un album che non ha pagina né collegamento, mentre esistono 320 pagine per album di cui non raccontiamo nulla; 72 pagine artista su 104 ripetono il riassunto della loro unica canzone; la sitemap contiene un indirizzo duplicato (`/album/korn/korn/`). Aggiunta la sezione 11 con l'architettura obiettivo e gli interventi F50-F64 scritti come comando eseguibile. Tre decisioni prese dall'autore: generare le pagine album solo dove c'è contenuto con 301 per le altre; portare "significato e storia" nei titoli delle schede; aprire le raccolte per genere e per decennio, lasciando fuori temi/mood e musica italiana. La sezione è stata poi sottoposta a un revisore indipendente che ha ricalcolato ogni numero sui file: ha corretto quattro numeri sbagliati e otto contraddizioni interne, fra cui una che avrebbe bloccato il piano (il controllo di F64 avrebbe fatto fallire 25 delle 26 pagine album che F50 mantiene, perché applicava una soglia in caratteri a pagine che valgono per ciò che aggregano). Nessuna modifica al sito in questo intervento: solo diagnosi e piano.
+
+- **28 agosto 2026 — Routine di completamento (sezione 12):** su richiesta dell'autore, definito un meccanismo ripetibile per colmare ciò che manca nelle pagine esistenti invece di aggiungere contenuti nuovi. Misurato prima il debito reale: le schede canzone sono quasi tutte a posto (155/157 secondo `check-completezza.mjs`), il debito sta altrove — 72 storie d'artista assenti su 104, 72 discografie vuote, 367 copertine non documentate su 391 album veri (l'array `album` ne contiene 399: 8 voci non sono album ma note di carriera, ed è il primo difetto da separare), e un difetto di struttura non ancora notato: **le 24 copertine già scritte non hanno un campo fonte**, pur essendo affermazioni sostanziali che P2 impone di attribuire e che la sezione 5 vieta di poggiare su fonti di livello C. Scritti tre interventi: F65 (la coda calcolata dai dati, ordinata per classi e non per punteggio — la prima stesura usava un punteggio numerico che, simulato sui dati veri, degenerava: 435 voci su 522 sugli stessi due valori, e il primo lotto risultava composto solo da voci non chiudibili —, con lo stato `accertato-assente` che impedisce di ricercare all'infinito ciò che non esiste), F66 (il ciclo su lotti di otto, con la prova di ammissibilità — la frase della fonte va incollata, altrimenti l'affermazione non entra — e la verifica indipendente a occhi chiusi), F67 (il freno alle aggiunte nuove finché il debito delle classi prioritarie — oggi 227 voci, circa 38 lotti — supera 50). Dichiarato anche il tasso di successo atteso per tipo di lacuna, perché su questo lavoro **un tasso alto è un segnale d'allarme, non di successo**. Nessuna modifica al sito: solo il meccanismo.
+
+- **28 agosto 2026 — Verifica indipendente della sezione 11, prima di eseguirla:** su richiesta dell'autore, ricalcolato con script propri — non fidandosi del testo — ogni numero chiave della sezione 11/12 (F50-F67) sui dati e sui file reali: le 390/61/24/70/320 pagine album, i 72 artisti senza storia, le 72 canzoni con album orfano, i conteggi di genere e decennio, la mediana di 1.731 caratteri di testo proprio, le 8 voci non-album, le 367 copertine mancanti, le 3 fonti "ascolti" orfane. **Tutti confermati esatti**, incluso il caso Korn/Korn e l'identità letterale delle voci senza slug. Nessuna correzione necessaria: il documento ha retto alla verifica indipendente.
+
+- **28 agosto 2026 — Blocco A eseguito (F50, F51, F52, F53, F63):** l'autore ha dato il via a eseguire il blocco, come indicato "tutto insieme" perché F50/F51/F63 sono parti dello stesso intervento. In `scripts/genera-sito.mjs`: l'elenco album nasce ora dall'unione fra la discografia dichiarata e gli album citati dalle canzoni (F51), con disambiguazione dello slug quando due album dello stesso artista collidono — il più vecchio conserva lo slug originale, gli altri ricevono `-{anno}` (F53: *Korn* 1994 resta `korn`, *Korn* 2007 diventa `korn-2007`, poi comunque escluso da F50 per mancanza di contenuto). Applicata la soglia a due gradini di F50: **142 pagine album generate (era 390), 26 indicizzabili, 116 `noindex, follow`, 321 escluse** e registrate in `dati/album-rimossi.json` (mai scritto a mano). Stessa soglia sugli artisti (F52): **32 indicizzabili, 72 `noindex, follow`**. In `guscio.mjs` aggiunto il supporto a `noindexFollow` distinto dal `noindex` puro della 404: mantiene il `canonical` e l'`og:url`, perché la pagina ha un indirizzo reale anche se fuori dall'indice. In `pagine.mjs`: la discografia della pagina artista mostra ora tutte le voci (comprese quelle emerse dalle canzoni), con link solo se la pagina esiste — le altre restano testo semplice (classe `.disco-assente`) invece di un link morto; il collegamento "L'album" nella scheda canzone usa lo slug di pagina disambiguato, non quello originale della canzone. Sitemap divisa (F53): `sitemap-pagine/canzoni/artisti/album/raccolte.xml` (quest'ultima vuota, in attesa di F54/F55) più un `sitemap.xml` indice; zero `<priority>`; solo pagine indicizzabili. `vercel.json` nuovo (F63): 321 redirect 301 (generati da `dati/album-rimossi.json`) dagli indirizzi album rimossi verso la pagina artista, header di cache lunga e immutabile per logo/favicon/immagini di anteprima, breve e rivalidata per il resto — il meccanismo di `lastmod` di F40 resta intatto, letto ora da tutti i file `sitemap*.xml` invece che da uno solo.
+**Verificato, non solo scritto**: ogni numero sopra ricontrollato con script indipendenti dopo la generazione (non solo confidato nel log del generatore); zero collegamenti interni rotti verso un album (`check-link.mjs` più uno script dedicato); zero pagine indicizzabili con doppia dichiarazione di assenza; le 157 canzoni con `albumSlug` hanno tutte pagina e collegamento (0 mancanti); 218 `<loc>` totali nei sitemap, uguali al numero di pagine senza `noindex`; zero duplicati. Verificato nel browser: la pagina artista Korn mostra 14 album, con *Korn* 1994 e *Follow the Leader* cliccabili e gli altri 12 come testo semplice; una pagina album esclusa (`life-is-peachy`) risponde 404; una pagina album esistente ma non indicizzabile (`highway-to-hell` di AC/DC) ha `noindex, follow` col `canonical` intatto. **F46 non risolto da `vercel.json`**: il doppio salto di redirect dipende dalla configurazione dei domini nel pannello Vercel (quale dominio è primario), non da una regola di routing applicativo — dichiarato esplicitamente invece di lasciarlo implicito, come richiesto dal criterio di accettazione di F63. `check-link.mjs`, `check-coerenza.mjs`, `check-testi.mjs` e `check-contrasto-v2.mjs` restano puliti.
 
 ### Regola di aggiornamento
 
@@ -402,3 +429,416 @@ Un intervento è concluso solo quando:
 10. Portare progressivamente tutte le schede allo standard Everlong.
 
 Fino al completamento dei primi quattro punti, nuove aggiunte massive aumenterebbero il debito editoriale e tecnico. Sono ammesse solo nuove schede complete e già conformi allo standard.
+
+---
+
+## 11. Architettura SEO — la base da costruire (F50–F64)
+
+Sezione scritta il 28 agosto 2026 dopo il secondo audit, condotto sui file reali e non solo sulle pagine pubblicate. Ogni numero qui sotto è stato ricalcolato dai dati e poi passato **tre volte a un revisore indipendente**, che ha ricalcolato tutto sui file: sono stati corretti **sette numeri sbagliati e oltre venti** fra contraddizioni e ambiguità, fra cui una che avrebbe bloccato il piano. Restano numeri destinati a cambiare appena il catalogo cresce: **ricalcolali sempre, non fidarti di quelli scritti qui** (punto 2 di 11.4). Le decisioni marcate *(scelta dell'autore)* sono già prese: vanno eseguite, non ridiscusse.
+
+### 11.1 Il difetto di fondo, in numeri verificati
+
+Il sito pubblica **654 pagine distinte** (più `404.html`, che è già `noindex`). Solo 157 contengono un testo originale sostanzioso: una scheda canzone porta fra **1.328 e 2.879 caratteri** di testo proprio, mediana **1.731**. Tutto il resto è quasi tutto struttura vuota:
+
+| Cosa | Numero | Verificato come |
+|---|---|---|
+| Pagine album totali | 390 | `find album -name index.html` |
+| …di cui con almeno una canzone raccontata | **61** | incrocio `dati/canzoni.json` ↔ cartelle album |
+| …di cui con copertina documentata | **24** | assenza della frase "Non risulta disponibile una spiegazione" |
+| …unione delle due (album con qualcosa da dire) | **70** | — |
+| **Pagine album che dichiarano di non avere nulla** | **320** | 390 − 70 |
+| Pagine artista senza storia e con una sola canzone | **72** su 104 | `dati/artisti.json` |
+| Canzoni il cui album non ha né pagina né collegamento | **72** su 157 | incrocio slug album ↔ file su disco |
+| URL duplicati nella sitemap | **1** (`/album/korn/korn/`) | 655 `<loc>` per 654 pagine |
+
+**Definizione di "testo proprio", valida per tutta la sezione:** il testo visibile compreso fra `<main>` e `<footer>`, tolti i tag `<style>` e `<script>`, **decodificate le entità HTML** (`&quot;` vale un carattere, non sei) e normalizzati gli spazi. La decodifica non è un dettaglio: su una scheda con sedici virgolette fa una differenza di 80 caratteri su una soglia di 1.200, e due implementazioni che la trattano diversamente danno esiti diversi sullo stesso sito. Esclude quindi testata, navigazione e piede, che sono identici ovunque. È la definizione che lo script di F64 deve implementare alla lettera: non una sottrazione di numeri fissi, che dà risultati diversi a seconda che si conti o no il `<title>`.
+
+Il conto è brutale: **circa 390 pagine su 654 — il 60% del sito — non danno al lettore nessuna risposta che non stia già altrove.** Una pagina come `/album/ligabue/ligabue/` ha **430 caratteri di testo proprio** contro i 492 del solo piede: più della metà della pagina è il piede del sito. E di quei 430, la parte più lunga è la dichiarazione di assenza della copertina, identica su 366 pagine. Ripetuta 320 volte.
+
+Questo non è anzitutto un problema di posizionamento: **è una violazione di P6 già in atto**, che ammette la pagina album *«quando dispone di abbastanza dati verificati»*. F8 ha generato 390 destinazioni senza applicare quella condizione. Dal lato dei motori il danno è che Google valuta la qualità **a livello di sito intero**: mezzo dominio di pagine-modello abbassa il giudizio anche sulle 157 schede buone, che sono l'unica cosa per cui vale la pena esistere.
+
+E c'è il rovescio, più assurdo del primo: **72 canzoni su 157 citano un album che non ha né pagina né collegamento.** Bohemian Rhapsody non collega *A Night at the Opera*; Creep non collega *Pablo Honey*; Smells Like Teen Spirit non collega *Nevermind*. Abbiamo 320 pagine per dischi di cui non raccontiamo niente e solo 61 per i dischi delle canzoni che raccontiamo. **La copertura degli album è distribuita al contrario rispetto al valore.** La causa è tecnica e va corretta alla radice: le pagine album nascono dalla discografia dell'artista (`artisti.json`) e mai dalle canzoni.
+
+### 11.2 La regola che governa tutto: la soglia di pubblicazione
+
+Prima di ogni intervento va accettata una sola regola, da cui discende il resto:
+
+> **Una pagina entra nell'indice dei motori solo se risponde a una domanda a cui nessun'altra pagina del sito risponde già.**
+
+Non "se è stata generata". Non "se è coerente col modello". Se non aggiunge una risposta, o non esiste, o esiste per il lettore ma resta fuori dall'indice (`noindex, follow`) finché non ha qualcosa da dire.
+
+**La soglia si misura in due modi diversi, secondo il tipo di pagina.** È la distinzione che tiene in piedi tutto il piano, ed è il punto in cui la prima stesura di questa sezione si contraddiceva:
+
+- **Pagine-articolo** (le 157 schede canzone). Il loro valore è il testo. Si misurano in caratteri: soglia **1.200 caratteri di testo proprio**. La scheda più povera oggi ne ha 1.328, quindi passano tutte, con un margine di 128 caratteri.
+- **Pagine-indice** (album, artista, genere, decennio, archivio). Il loro valore non è il testo ma **ciò che aggregano**: nessuna soglia in caratteri, che le boccerebbe tutte. Si misurano così: una pagina-indice è indicizzabile se **raccoglie almeno tre schede canzone**, oppure se contiene **testo editoriale proprio** — cioè, nei termini già usati dai dati, una copertina documentata (F50) o una storia scritta (F52). Altrimenti esiste con `noindex, follow`. Le due formulazioni devono restare identiche: 21 delle 26 pagine album indicizzabili passano *solo* grazie alla copertina, e bastava scrivere "con fonte citata" invece di "documentata" per farle fallire tutte e ventuno, riaprendo la contraddizione da un'altra porta.
+
+Applicando la regola l'indice scende da 654 a circa **230 pagine, tutte con una ragione d'essere**: 157 canzoni, 32 artisti, 26 album, 9 raccolte nuove e le pagine di servizio. Non è una perdita: è la differenza fra un sito di 157 schede curate e un sito che sembra generato in serie.
+
+### 11.3 L'architettura obiettivo: tre livelli e una rete
+
+Oggi il sito ha forma **a stella**: home e archivio al centro, 157 schede intorno, nessun filo fra loro. Ogni scheda riceve collegamenti solo dall'alto e non ne manda a nessuna pari. La forma da raggiungere è **tre livelli più una rete orizzontale**.
+
+**Livello 1 — Ingresso.** `/` e `/archivio/`. Servono a cercare e sfogliare. Non cambiano.
+
+**Livello 2 — Raccolta.** È il livello che oggi manca quasi del tutto. Pagine che aggregano, catturano la domanda ampia e distribuiscono autorevolezza verso il basso:
+
+```
+/genere/rock/     /anni/1970/     /artista/{slug}/          /album/{artista}/{album}/
+/genere/pop/      /anni/1980/     104 esistenti,            142 esistenti,
+/genere/metal/    /anni/1990/     32 nell'indice            26 nell'indice
+/genere/punk/     /anni/2000/     (F52)                     (F50)
+                  /anni/2010/
+```
+
+**Livello 3 — Risposta.** Le 157 `/canzone/{slug}/`. È dove sta il valore, ed è dove deve atterrare la ricerca specifica.
+
+**La rete.** Quattro collegamenti orizzontali per scheda, generati da una regola sui dati. È l'intervento col miglior rapporto fra costo e resa dell'intero elenco: costa un'ora di codice e cambia la forma del sito.
+
+Due vincoli architetturali da non violare mai:
+
+1. **Ogni pagina raggiungibile in tre clic dalla home.** Oggi è rispettato; con le pagine di raccolta resterà vero anche a 500 canzoni.
+2. **Solo tassonomie a una dimensione.** Niente `/genere/rock/anni/1990/`. Le combinazioni moltiplicano gli indirizzi e riproducono su scala peggiore l'errore delle 320 pagine album. Se un giorno servono, si aprono una alla volta e solo con massa critica.
+
+### 11.4 Come deve lavorare l'esecutore
+
+Questa sezione è un **comando operativo**, non una lista di suggerimenti. Chi la esegue lavora così:
+
+1. **Un intervento alla volta, nell'ordine scritto.** L'ordine non è arbitrario: F50 senza F63 lascia 320 indirizzi morti; F56 prima di F54 e F55 crea collegamenti verso pagine inesistenti.
+2. **Nessun numero scritto a mano.** Ogni conteggio nasce dai dati (P9). Se un numero compare in questo documento e la realtà lo smentisce, **vince la realtà**: si corregge il documento e si dichiara la correzione nel registro.
+3. **Il criterio di accettazione va eseguito, non dichiarato.** "Fatto" significa che il comando di verifica è stato lanciato e ha dato il risultato atteso, sul sito generato e poi online (sezione 9).
+4. **Nel dubbio ci si ferma e si chiede.** Vale P1: meglio un intervento non fatto che uno fatto indovinando. In particolare **non si inventa mai un contenuto per far superare a una pagina la soglia di pubblicazione**.
+5. **Un commit piccolo per intervento**, messaggio nella forma `F50: cosa è cambiato` (col numero reale dell'intervento), e registro aggiornato secondo la *Regola di aggiornamento*.
+6. **Prima di iniziare**, si rileggono `COSTITUZIONE.md` (P1, P3, P6, P8, P9) e la sezione 8 di questo documento.
+
+### 11.5 Blocco A — Sanare l'indice (F50, F51, F52, F53, F63)
+
+Va fatto per primo e tutto insieme, perché F50, F51 e F63 sono parti dello stesso intervento. È il blocco che decide se il dominio parte con un giudizio buono o cattivo: **il dominio è collegato dal 25 agosto 2026, ha pochi giorni di vita e quasi nulla è ancora consolidato nell'indice. Questa finestra non si ripresenta.**
+
+**F50 — Pagine album solo dove c'è qualcosa da dire.**
+In `scripts/genera-sito.mjs`, dove oggi si costruisce l'elenco `album` scorrendo `a.album` di ogni artista, applica la condizione di P6. La soglia ha **due gradini**, non uno *(scelta dell'autore: «qualsiasi cosa ci sia — a quelle pagine verranno aggiunte altre canzoni o informazioni»)*, ed è la stessa regola dinamica che F52 applica agli artisti:
+
+| | Condizione, ricalcolata dai dati a ogni generazione | Oggi |
+|---|---|---|
+| **La pagina esiste** | almeno una canzone raccontata **oppure** copertina documentata | **142** (una volta applicato anche F51) |
+| **La pagina entra nell'indice** | almeno **tre** canzoni raccontate **oppure** copertina documentata | **26** |
+| **La pagina non si genera** | nessuna delle due | **321** → 301 verso l'artista |
+
+Le 116 pagine che esistono ma non sono ancora indicizzabili portano `noindex, follow` e restano fuori dalla sitemap. Non è una bocciatura: è il rispetto dell'intenzione dichiarata dall'autore. Quelle pagine esistono perché cresceranno, e **appena una arriva alla terza canzone entra da sola nell'indice**, senza che nessuno debba ricordarsene. Nessun elenco fisso, nessuna manutenzione a mano: solo dati.
+Gli album esclusi restano voci di testo nella discografia dell'artista, senza collegamento: il lettore vede che il disco esiste e non finisce in un vicolo cieco.
+Scrivi accanto l'elenco degli indirizzi esclusi in un file generato (`dati/album-rimossi.json`), che serve a F63 per i 301.
+*Criterio di accettazione:* il numero di pagine album generate è uguale al numero calcolato dai dati col primo gradino, e il numero di quelle senza `noindex` è uguale al numero calcolato col secondo (**ricalcola i numeri sui dati: se i dati sono cambiati, cambiano**). Nessuna pagina indicizzabile contiene insieme le frasi "Non risulta disponibile una spiegazione" e "Nessuna canzone di questo album è ancora raccontata". Zero collegamenti interni verso un indirizzo album non generato, verificato con `scripts/check-link.mjs`.
+
+**F51 — Gli album delle canzoni raccontate devono avere una pagina.**
+Correzione alla radice: **l'insieme degli album non si costruisce dalla discografia dell'artista, ma dall'unione fra la discografia e gli album citati dalle 157 canzoni.** Oggi 72 canzoni puntano a un album inesistente, e nella scheda l'album è solo testo. Dopo F51 ogni canzone ha l'album come destinazione raggiungibile e collegata.
+Le due regole non si contraddicono: l'album di una canzone raccontata soddisfa sempre il primo gradino di F50, quindi F51 fa entrare 72 pagine nuove mentre F50 ne fa uscire 320 povere.
+*Criterio di accettazione:* uno script verifica, per ognuna delle 157 canzoni, l'esistenza del file `sito/album/{artistaSlug}/{albumSlug}/index.html` e la presenza del collegamento nella scheda: **0 mancanti**. Ogni pagina album elenca tutte e sole le canzoni che le appartengono.
+
+**F52 — Le pagine artista povere restano, ma fuori dall'indice.**
+P6 impone che ogni artista abbia una pagina anche senza biografia: la pagina resta. Ma una pagina che ripete il riassunto dell'unica canzone non ha niente da offrire ai motori. Una pagina artista è indicizzabile se ha **una storia scritta oppure almeno tre canzoni raccontate** — la stessa identica soglia che 11.2 e F50 applicano agli album, e non "più di una canzone", che creerebbe una pagina indicizzabile bocciata da F64 appena una delle 72 povere ricevesse la seconda canzone. Alle altre aggiungi `<meta name="robots" content="noindex, follow">` (oggi 72: tutti gli artisti senza storia hanno una sola canzone, quindi la soglia più severa non cambia il conteggio) e togli quegli indirizzi dalla sitemap. `follow` è essenziale: la pagina continua a trasmettere il collegamento verso la canzone.
+La condizione va ricalcolata dai dati a ogni generazione, mai scritta in un elenco fisso: appena un artista riceve una storia o la terza canzone, la sua pagina rientra da sola nell'indice.
+*Criterio di accettazione:* il conteggio delle pagine artista con `noindex` è uguale a quello calcolato dai dati, e nessuna di esse compare nella sitemap. Sulle pagine indicizzabili non compare mai `noindex`.
+
+**F53 — Sitemap divisa, pulita, senza segnali inutili.**
+Tre correzioni.
+*Primo, il duplicato.* `/album/korn/korn/` compare due volte, e **la causa non è un difetto del generatore: sono due album realmente distinti e omonimi**, *Korn* (1994) e *Korn* (2007, l'album senza titolo), che collidono sullo stesso slug. Non va quindi "tolto" un album: va disambiguato lo slug. Regola generale, da applicare a qualunque collisione futura: **quando due album dello stesso artista producono lo stesso slug, il più vecchio lo conserva e i successivi ricevono `-{anno}`** (`korn` e `korn-2007`). L'ordine per anno è deterministico e non dipende dall'ordine nel file. Verificato che non rompe nulla: l'unica canzone che punta a `korn` è `blind`, che sta sull'album del 1994, cioè quello che conserva lo slug.
+**Attenzione a non confondere due numeri diversi.** Le pagine album che oggi esistono e non hanno nulla sono **320** (su 390 esistenti); gli indirizzi da mandare in 301 con F63 sono **321**, perché la disambiguazione fa comparire `korn-2007` fra i candidati portandoli a 391. Il primo numero descrive lo stato di oggi, il secondo la regola da applicare: usali dove serve ciascuno, e comunque ricalcolali.
+*Secondo, `priority`.* Toglilo da tutti gli URL: Google dichiara di ignorarlo, e tenerlo dà solo l'illusione di un controllo.
+*Terzo, la divisione.* `sitemap-canzoni.xml`, `sitemap-artisti.xml`, `sitemap-album.xml`, `sitemap-raccolte.xml`, `sitemap-pagine.xml`, raccolte da un `sitemap.xml` indice.
+Conserva intatto il meccanismo di `lastmod` di F40, che funziona ed è stato provato empiricamente.
+*Criterio di accettazione:* il numero di `<loc>` totali è uguale al numero di indirizzi distinti (nessun duplicato) ed è uguale al numero di pagine generate **senza** `noindex`. Nessun `<priority>` nei file. Ogni indirizzo elencato risponde 200 online dopo la pubblicazione. Le due pagine Korn hanno indirizzi diversi e titoli diversi.
+
+**F63 — `vercel.json`: i 301, la cache, un solo salto.**
+Crea `vercel.json` nella radice con: un `redirects` a 301 permanente da ognuno dei 321 indirizzi album rimossi verso la pagina dell'artista corrispondente (generato da `dati/album-rimossi.json`, mai scritto a mano; Vercel accetta fino a 1.024 regole, 321 stanno larghe); gli header di cache (lunga durata e `immutable` per `logo.png`, le `og/*.png` e le icone; durata breve o rivalidazione per l'HTML); e la configurazione che elimina il doppio salto di F46 — verifica se è risolvibile qui o se resta necessario intervenire nel pannello Vercel, e **dichiaralo nel registro invece di lasciarlo implicito**.
+*Criterio di accettazione:* dopo la pubblicazione, `curl -sI` su un campione di dieci indirizzi album rimossi restituisce `301` verso la pagina artista **in un solo salto**; `curl -sI http://dietroiltesto.it` arriva a `https://www.dietroiltesto.it/` con un solo `301`, oppure il motivo per cui non è possibile è scritto nel registro.
+
+### 11.6 Blocco B — Costruire il livello che manca (F54, F55, F56)
+
+*(scelta dell'autore: si aprono genere e decennio. "Musica italiana" e i temi/mood restano fuori; i temi restano F30.)*
+
+La regola che governa questo blocco, da scrivere nel codice come condizione e non applicare a occhio:
+
+> **Una pagina di raccolta si pubblica solo se raccoglie almeno 12 canzoni (12 incluso) e ha un'introduzione originale di 150–250 parole.** Sotto una delle due condizioni resta un filtro dell'archivio, non un indirizzo.
+
+Senza questa regola si ricostruisce in tre giorni lo stesso errore delle 320 pagine album, stavolta peggiore perché in cima alla struttura.
+
+**Sull'introduzione, e su chi la scrive.** Le introduzioni le scrive l'esecutore, ma **non le pubblica**: le sottopone all'autore e attende l'approvazione, esattamente come per ogni testo editoriale del sito. Devono spiegare *cosa questo sito racconta di quel genere o di quel decennio* — non cos'è il rock o cosa sono stati gli anni Novanta, che Wikipedia fa già meglio. Se un'introduzione non è stata approvata, quella pagina non si pubblica: l'intervento resta aperto. Vale P1, e vale anche quando il testo parla di noi.
+
+**F54 — Pagine di genere.**
+Crea `/genere/rock/`, `/genere/pop/`, `/genere/metal/`, `/genere/punk/` (oggi 74, 58, 52, 17 canzoni). Elettronica (9) e rap (4) **non** si pubblicano: restano filtri, e la regola le farà entrare da sole quando arriveranno a 12.
+Struttura di ogni pagina: `<h1>` con la formulazione naturale in italiano ("Canzoni rock"), l'introduzione approvata, l'elenco completo delle canzoni con la stessa card dell'archivio, i collegamenti alle altre raccolte.
+**Attenzione: 51 canzoni su 157 hanno più di un genere.** Una canzone compare nell'elenco di *ogni* genere pubblicato a cui appartiene — è corretto e non è duplicazione, perché le pagine restano distinte. Ma dove serve **un solo** genere (le briciole di F56, il collegamento nella scheda, la regola di F60) vale la definizione di **genere principale**: il primo dell'array `generi` che sia fra quelli pubblicati; se nessuno lo è, la canzone non ha genere principale e il collegamento non si mette.
+*Criterio di accettazione:* quattro pagine generate; il conteggio mostrato su ognuna coincide con quello calcolato dai dati; nessuna pagina di genere sotto le 12 canzoni esiste; ogni introduzione ha almeno 150 parole, è approvata e non compare altrove nel sito.
+
+**F55 — Pagine di decennio.**
+Crea `/anni/1970/`, `/anni/1980/`, `/anni/1990/`, `/anni/2000/`, `/anni/2010/` (oggi 24, 30, 38, 30, 19). Anni 50 (1), 60 (6) e 2020 (9) restano fuori.
+**Attenzione tecnica:** il campo `anno` non è sempre un numero — **18 canzoni** portano una data doppia (formato introdotto da F21). Non dare per scontato l'ordine dei due anni: la convenzione dichiarata in F21 è "album / singolo", ma almeno un caso (`creep`, `1992 / 1993`) sembra avere il singolo per primo. Non serve risolvere l'incoerenza qui — serve non farci affidamento. Estrai il decennio prendendo il **primo gruppo di quattro cifre** e verifica che la somma dei conteggi di tutti i decenni sia esattamente **157**: se non lo è hai perso delle canzoni e devi capire quali prima di proseguire.
+Formulazione da usare in `<h1>` e nei titoli, senza inventarne altre: **"anni Settanta", "anni Ottanta", "anni Novanta", "anni Duemila", "anni Duemiladieci"**. L'indirizzo resta numerico (`/anni/1990/`), il testo resta in lettere.
+Stessa struttura e stessa regola dell'introduzione di F54.
+*Criterio di accettazione:* cinque pagine generate; la somma delle canzoni su tutti i decenni, pubblicati e non, è **157**; nessuna canzone finisce in due decenni.
+
+**F56 — I nuovi livelli collegati davvero.**
+Una pagina che nessuno collega non serve a nulla. Dopo F54 e F55:
+- l'archivio mostra le raccolte come **collegamenti veri**, non solo come filtri JavaScript (chiude il lato SEO di F44);
+- il piede elenca le raccolte pubblicate, generate dai dati;
+- ogni scheda canzone collega il proprio genere principale e il proprio decennio, nella zona dei metadati;
+- le briciole della scheda diventano `Home / {Genere principale} / {Canzone}`, e il `BreadcrumbList` in JSON-LD le segue esattamente (F45 ha stabilito che i due devono coincidere: non rompere quella regola).
+
+**Il caso che manda tutto a sbattere, e va gestito esplicitamente:** non tutte le canzoni hanno una raccolta pubblicata. Oggi **3 canzoni** (`lose-yourself`, `vieni-a-ballare-in-puglia`, `get-lucky`) non hanno nessun genere fra i quattro pubblicati, e **16 canzoni** stanno negli anni 50, 60 o 2020, che non hanno pagina. Regola: **un collegamento a una raccolta si genera solo se quella raccolta è pubblicata.** Se manca il genere principale, le briciole ricadono su `Home / Archivio / {Canzone}` e il collegamento al genere non compare. Mai un collegamento verso una pagina che non esiste.
+*Criterio di accettazione:* `scripts/check-link.mjs` non trova nessun collegamento interno rotto — in particolare zero collegamenti verso raccolte non pubblicate — e nessuna pagina **indicizzabile** è raggiungibile da meno di due collegamenti interni. Ogni raccolta pubblicata è raggiungibile dalla home in al massimo due clic.
+
+### 11.7 Blocco C — Rendere leggibili le pagine che contano (F57, F58, F59)
+
+**F57 — Titoli che contengono la domanda dell'utente.** *(scelta dell'autore)*
+Oggi: `Bohemian Rhapsody — Queen | Dietro il testo`. La domanda che gli italiani digitano è "bohemian rhapsody significato": la parola che l'utente cerca non compare nel titolo, e stiamo competendo in svantaggio contro Genius, Wikipedia e i siti di testi.
+Modello, con **una regola di accorciamento a gradini** — necessaria perché il modello pieno sfora su 5 titoli canzone (fino a 71 caratteri) e su 7 dei 26 album indicizzabili (fino a 75):
+
+| Pagina | Forma piena | Ripiego se supera 65 caratteri |
+|---|---|---|
+| Canzone | `{Titolo} ({Artista}): significato e storia` | `{Titolo}: significato e storia` |
+| Artista | `{Nome}: le canzoni raccontate e la storia` | `{Nome}: le canzoni raccontate` |
+| Album | `{Titolo} ({Artista}): l'album e le canzoni raccontate` | `{Titolo} (album, {Artista})`, e se supera ancora: `{Titolo} (album)` |
+| Genere | `Canzoni {genere}: significato e storia dei testi` | — |
+| Decennio | `Canzoni {anni in lettere}: significato e storia dei testi` | — |
+
+Il suffisso ` | Dietro il testo` si aggiunge **solo se il titolo risultante resta sotto i 60 caratteri**: oltre quella soglia Google lo taglia e il marchio si perde comunque, mangiando spazio alle parole che contano.
+Verificato sui titoli reali che i gradini bastano: il caso peggiore fra le canzoni, *Welcome to the Black Parade*, scende da 71 a 49 caratteri; fra gli album il caso peggiore è *Wednesday Morning, 3 A.M. / Sounds of Silence*, che al secondo gradino sta ancora a 72 e solo al terzo scende a 53 — è la ragione per cui il terzo gradino esiste. Il controllo di F64 sui titoli non è limitato alle pagine indicizzabili, quindi la regola deve reggere su tutte e 142 le pagine album, non solo sulle 26.
+Il titolo resta veritiero: la scheda spiega davvero momento iconico e storia. Non promettiamo il testo della canzone, che P3 vieta e che infatti non pubblichiamo.
+F48 resta valido: canzone e album omonimo devono continuare ad avere titoli distinti — il ripiego dell'album conserva "(album, {Artista})" proprio per questo.
+*Criterio di accettazione:* **nessun `<title>` del sito supera 65 caratteri, dopo l'applicazione della regola di ripiego** (è il controllo che serve: sulla forma piena il limite sarebbe già garantito per costruzione e non verificherebbe nulla); i 157 titoli canzone sono tutti distinti fra loro e distinti da quelli di album e artisti.
+
+**F58 — Descrizioni scritte, mai troncate a metà.**
+Oggi la `meta description` è il primo pezzo del `corpo` tagliato a lunghezza fissa e chiuso con "…", spesso a metà parola (`«…scritti da Freddie…»`). È il testo che il lettore legge in Google prima di decidere se entrare: tagliarlo a metà parola è il modo più economico per perdere una visita.
+Correzione in due tempi:
+1. **Automatico, subito:** la descrizione si costruisce prendendo frasi intere finché si sta sotto i 155 caratteri, e si chiude col punto della frase. Mai a metà parola, mai coi puntini.
+2. **Editoriale, dove serve:** aggiungi il campo facoltativo `descrizioneSeo` in `dati/canzoni.json`. Quando c'è, vince sulla frase automatica. Serve dove la prima frase è debole o burocratica. Non va riempito per tutte e 157: va riempito dove la frase automatica non regge, e si decide leggendo.
+*Criterio di accettazione:* nessuna descrizione del sito finisce con "…" o con una parola spezzata; nessuna supera 160 caratteri; le 157 descrizioni canzone sono tutte distinte fra loro.
+
+**F59 — Dati strutturati completi e onesti.**
+F45 e F49 hanno fatto la parte facile. Mancano quattro cose:
+- **L'autore.** Nessuna pagina dice chi ha scritto. Aggiungi `author` collegato a un `Person` con `@id` stabile, definito una volta sola e richiamato ovunque (dipende da F61, che crea la pagina a cui punta).
+- **La data di revisione.** "Ultima revisione 28 agosto 2026" esiste nel testo visibile ma non nei dati strutturati: aggiungi `dateModified` prendendo **la stessa identica data già calcolata per il `lastmod` di F40**, così non possono divergere.
+- **Il tipo giusto.** La scheda è un articolo che parla di una canzone: modellala come `Article` (o `WebPage`) con `about` verso il `MusicRecording` esistente, `isPartOf` verso il `WebSite` e `publisher` verso l'`Organization` già definiti in F49. Correggi `og:type`: `music.song` sulle canzoni, `profile` sugli artisti, `article` sulle raccolte — oggi è `website` ovunque.
+- **Le nuove raccolte:** `CollectionPage` con `ItemList` delle canzoni contenute, su F54 e F55.
+**Vincolo:** nessuno schema ricco sulle pagine povere. Una pagina artista o album con `noindex` non deve dichiarare un'entità piena di proprietà vuote, e una pagina album senza copertina non deve fingere di descriverla. Dichiarare più di quello che si ha è la versione tecnica della bugia che P1 vieta.
+*Criterio di accettazione:* ogni tipo di pagina passa il Rich Results Test di Google senza errori; nessun campo dello schema contiene un valore vuoto, `null` o inventato; `dateModified` coincide col `lastmod` della sitemap per la stessa pagina, su un campione di dieci pagine.
+
+### 11.8 Blocco D — La rete (F60)
+
+**F60 — Quattro collegamenti fra le schede.**
+È l'intervento col miglior rapporto fra costo e resa dell'elenco. Oggi una scheda canzone collega solo verso l'alto: le 157 schede non si parlano.
+Aggiungi in fondo alla scheda, prima delle fonti, un blocco "Continua da qui" con **esattamente quattro** canzoni (157 × 4 = 628 collegamenti, media 4 in entrata per scheda).
+
+*Come si scelgono, in modo davvero deterministico.* Per ogni canzone si costruisce la lista dei candidati ordinata per **affinità decrescente**:
+
+1. altre canzoni **dello stesso album**;
+2. altre canzoni **dello stesso artista**;
+3. canzoni con **almeno un genere in comune e lo stesso decennio**;
+4. canzoni con **almeno un genere in comune**;
+5. canzoni **dello stesso decennio**.
+
+**Dentro ogni livello** — ed è il punto che la prima stesura lasciava scoperto, rendendo la regola non deterministica — i candidati si ordinano per **numero di collegamenti in entrata già assegnati, crescente**, e a parità per slug alfabetico. Si assegnano le canzoni scorrendo le 157 in ordine alfabetico di slug e prendendo i primi quattro candidati liberi da duplicati.
+Questo ordinamento non è un dettaglio estetico: **è il meccanismo che distribuisce i collegamenti in entrata.** Senza di esso, una regola che fissa solo le uscite lascia decine di schede con zero collegamenti in entrata — provato in simulazione: 25 schede a zero e 65 sotto tre.
+
+**Ma l'ordinamento da solo non basta, ed è stato misurato.** Simulando la regola qui sopra sulle 157 canzoni reali: 628 collegamenti, quattro uscite per scheda, il 94,3% delle schede con almeno tre collegamenti in entrata — ma **tre schede restano sotto due e una resta a zero** (`volare`, `lose-yourself`, `vieni-a-ballare-in-puglia`). La causa è strutturale e non si risolve aumentando i posti: provato a 5, 6 e 7 posti, il minimo resta 1. `volare` è l'unica canzone degli anni Cinquanta e le altre due sono rap (quattro canzoni in tutto): entrano nelle liste altrui solo al quarto o quinto livello, che quasi nessuna scheda raggiunge.
+
+Serve quindi **una passata di riequilibrio dopo l'assegnazione**, ed è provata: ogni scheda rimasta sotto due collegamenti in entrata viene inserita nel blocco del suo candidato più affine, al posto del bersaglio con più collegamenti in entrata di quel blocco, purché quel bersaglio resti a due o più. Risultato misurato: **minimo 2, nessuna scheda sotto due, 94,3% a tre o più, uscite sempre esattamente quattro.**
+Altri vincoli: il testo del collegamento è il titolo della canzone e il nome dell'artista, mai "leggi di più" o "clicca qui"; nessun duplicato nello stesso blocco; nessuna auto-referenza; il blocco è generato, non scritto a mano, e si aggiorna da solo quando il catalogo cresce.
+*Criterio di accettazione:* ogni scheda ha **esattamente quattro** collegamenti in uscita verso altre schede; dopo la passata di riequilibrio **nessuna scheda ha meno di due collegamenti in entrata e almeno il 90% ne ha tre o più** — è il numero che conta davvero, perché misura se la rete è connessa o se poche canzoni popolari si prendono tutto. **Misura il minimo e la distribuzione reali e scrivili nel registro**, non limitarti a fidarti dei numeri qui sopra: cambiano appena il catalogo cresce. Se il minimo resta sotto due, il rimedio è correggere la passata di riequilibrio — aumentare i posti non funziona, è già stato provato. Nessun collegamento punta a una pagina inesistente.
+
+### 11.9 Blocco E — Chi risponde di quello che c'è scritto (F61, F62)
+
+Il sito fa un'affermazione forte — "ogni scheda è verificata su fonti citate" — e non dice chi la garantisce. Per il lettore e per i motori è lo stesso problema: un'affermazione senza qualcuno che ne risponda vale meno.
+
+**F61 — "Chi c'è dietro".**
+Nuova pagina `/chi-siamo/` (o `/chi-scrive/`): chi cura il sito, con che competenza, perché, quanto tempo ci mette, come si può contestare quello che scrive. Scritta in prima persona, senza gonfiare: se è una persona sola che lo fa per passione, lo dica — è più credibile di un "noi" istituzionale finto, ed è quello che P1 impone anche quando si parla di sé.
+Collegata dal piede di tutte le pagine e da ogni scheda ("scritta e verificata da …"), e usata come `Person` con `@id` in F59.
+*Criterio di accettazione:* la pagina esiste, è collegata da tutte le 157 schede, ed è raggiungibile in un clic da qualunque pagina.
+
+**F62 — Contatti, privacy, note legali.**
+Oggi esistono solo indirizzi `mailto:`. Servono: una pagina contatti vera; un'informativa privacy; una pagina di note legali che spieghi in forma legale la posizione già presa in `metodo` su testi e immagini (P3 e P8) — è una posizione corretta e prudente, e va detta anche lì, non solo editorialmente.
+**Vincolo di ordine:** è un prerequisito obbligatorio prima di installare qualunque strumento di misura che usi cookie o identificatori. Nessuna eccezione, nemmeno "solo per una settimana di prova".
+*Criterio di accettazione:* le tre pagine esistono, sono collegate dal piede, e sono incluse nella sitemap (sono pagine reali).
+
+### 11.10 Blocco F — Impedire che tutto questo si sfaldi (F64)
+
+**F64 — `scripts/check-seo.mjs`.**
+Nessuno dei controlli della sezione 8 guarda titoli, descrizioni, canonical, orfani o soglia di contenuto. Senza un controllo automatico, gli errori appena corretti rientrano alla prima aggiunta di canzoni.
+
+Lo script deve fallire — uscire con codice diverso da zero — se anche solo una di queste condizioni si verifica sul sito generato:
+
+- un `<title>` duplicato, vuoto, o oltre 65 caratteri;
+- una `meta description` duplicata, vuota, oltre 160 caratteri, o che finisce con "…";
+- una pagina con zero o più di un `<h1>`;
+- un `canonical` assente o diverso dall'indirizzo reale della pagina;
+- un indirizzo nella sitemap che non corrisponde a una pagina generata, o una pagina indicizzabile assente dalla sitemap, o un indirizzo duplicato nella sitemap;
+- **una pagina-articolo indicizzabile con meno di 1.200 caratteri di testo proprio.** Le tre categorie vanno assegnate esplicitamente nel generatore, non indovinate dallo script: *pagina-articolo* = le schede canzone; *pagina-indice* = artista, album, genere, decennio, archivio; *pagina di servizio* = home, metodo, chi-siamo, contatti, privacy, note legali e la 404, che sono brevi per natura e **non hanno soglia di contenuto**. Una pagina contatti classificata per sbaglio come pagina-articolo farebbe fallire la build. "Testo proprio" ha la definizione data in 11.1 e va implementata così, non come sottrazione di numeri fissi: il testo fra `<main>` e `<footer>`, tolti `<style>` e `<script>`, spazi normalizzati. La soglia è tarata sui numeri reali: la scheda canzone più povera ne ha 1.328 e passa con 128 caratteri di margine, e il controllo impedisce che una scheda scritta male entri nell'indice;
+- **una pagina-indice indicizzabile che non raccoglie almeno tre schede canzone e non ha testo editoriale proprio** — dove "testo editoriale proprio" significa esattamente ciò che significa in F50 e F52: una copertina documentata o una storia scritta. Non "con fonte citata": il campo della copertina nei dati è una stringa senza campo fonte, e pretendere la fonte qui boccerebbe le 21 pagine album che passano proprio grazie alla copertina; È la seconda metà della soglia di 11.2, ed è ciò che impedisce alle 320 pagine album di tornare sotto un altro nome. **Alle pagine-indice non si applica la soglia in caratteri**: la pagina album mediana ne ha 482 e 25 delle 26 indicizzabili starebbero sotto 1.200 — applicare loro il criterio delle pagine-articolo farebbe fallire il piano appena eseguito;
+- una pagina **indicizzabile** orfana, cioè raggiungibile da meno di due collegamenti interni (le pagine `noindex` sono escluse dal controllo: sono fuori dall'indice per scelta, non per errore — stessa definizione usata in F56);
+- un collegamento interno rotto, incluso un collegamento verso una raccolta non pubblicata;
+- un JSON-LD non valido o con un campo vuoto.
+
+Aggiungilo all'elenco della sezione 8 di questo documento, che diventa così vincolante anche per la SEO.
+*Criterio di accettazione:* lo script gira su tutto il sito generato in meno di trenta secondi, e al termine di tutti gli interventi da F50 a F63 restituisce **zero segnalazioni**. Prima di quel momento è normale — e utile — che ne restituisca molte: sono l'elenco del lavoro rimasto.
+
+### 11.11 Quello che resta fuori, e perché
+
+Onestà sui limiti di questo piano, come impone P1:
+
+- **Senza Search Console, questo lavoro procede alla cieca.** F41 è aperto dal 27 agosto e richiede l'autore: nessuno può sapere quante delle 654 pagine siano davvero indicizzate, con quali parole il sito venga trovato, quali pagine Google abbia scartato. Tutte le diagnosi di questa sezione nascono dai file, che è il livello più solido disponibile, ma il verdetto di Google resta invisibile finché F41 non è chiuso. **È il primo intervento in assoluto per importanza, e non lo può fare l'esecutore.**
+- **I temi/mood (F30) restano fuori** *(scelta dell'autore)*. Dal lato SEO sono la singola opportunità più grossa del progetto — "canzoni sulla depressione", "canzoni di protesta" sono ricerche molto frequenti ed esattamente ciò che questo sito sa fare — ma richiedono un campo editoriale nuovo assegnato a mano su 157 canzoni, con lo stesso rigore di F5 e F39. Quando si farà, si applicheranno le regole di 11.6.
+- **"Musica italiana" (33 canzoni) resta fuori** *(scelta dell'autore)*, pur avendo la massa critica e poca concorrenza.
+- **Nessun intervento su prestazioni.** F31 ha misurato numeri buoni e li ha dichiarati: non si tocca. L'unica cosa nota e non risolta resta `logo.png` a 120 KB, già documentata lì.
+- **Nessun collegamento in entrata da altri siti.** Questa sezione costruisce la base tecnica ed editoriale. Che il sito venga poi citato da altri è un lavoro diverso, che ha senso iniziare solo dopo F64 — quando il sito che gli altri troveranno è quello giusto.
+
+---
+
+## 12. La routine di completamento (F65–F67)
+
+Sezione scritta il 28 agosto 2026 su richiesta dell'autore: **una routine ripetibile che colmi ciò che manca nelle pagine che già esistono, seguendo la Costituzione, con ogni aggiunta verificata.** Non è un elenco di contenuti da scrivere: è un meccanismo che si può rilanciare a ogni sessione e che sa da solo cosa fare, in che ordine, e quando fermarsi.
+
+La sezione 11 sistema l'architettura. Questa la riempie. Vanno in quest'ordine: riempire pagine che stanno per essere ristrutturate è lavoro fatto due volte.
+
+### 12.1 Cosa manca davvero, misurato
+
+Contrariamente all'impressione, **le 157 schede canzone sono quasi tutte a posto**: `check-completezza.mjs` ne dà 155 su 157 complete secondo lo standard 4A. Il debito editoriale non sta nelle canzoni: sta negli artisti e negli album.
+
+| Lacuna | Quantità | Cosa sblocca |
+|---|---|---|
+| **Storia dell'artista** assente | **72** su 104 | fa uscire 72 pagine dal `noindex` di F52: è la lacuna con l'effetto più grande |
+| **Discografia dell'artista** vuota | **72** su 104 | contesto e pagine album |
+| **Copertina non documentata** | **367** su 391 | fa **esistere** 321 pagine album (primo gradino di F50) e ne fa entrare 46 nell'indice (secondo gradino) |
+| **Fonte della copertina non registrata** | **24** su 24 | conformità a P2 — è un difetto di struttura, non di contenuto |
+| Voci nell'array `album` che non sono album | **8** | difetto di struttura: vanno separate |
+| Introduzioni delle raccolte | 9 | pubblicazione di F54 e F55 — **restano dentro F54/F55, fuori da questa coda** |
+| Schede canzone incomplete | 2 su 157 | residuo dichiarato di F5 e F39 |
+| Canzoni senza `ascolti` | 92 (di cui 89 anche senza fonte) | dato secondario, nessuno sblocco |
+| Fonti `ruolo: "ascolti"` senza il valore corrispondente | **3** | difetto di struttura: fonte orfana |
+
+**Convenzione sui dati, da fissare prima di contare qualunque cosa.** L'array `album` di ogni artista contiene **399 voci, ma solo 391 sono album**: le altre 8 sono note di carriera infilate nello stesso array, senza `slug` e senza `titolo` (per esempio `{"nota": "9 Grammy Awards vinti in carriera"}` su Metallica; le altre sono Black Sabbath, Bring Me the Horizon, Green Day, Ligabue, Linkin Park, Sum 41, Vasco Rossi). **Ogni conteggio di questa sezione considera album solo le voci con `slug`**: chi itera l'array senza filtrare ottiene 375 copertine mancanti invece di 367 e fa fallire il criterio di accettazione di F65. Le 8 voci vanno spostate in un campo proprio dell'artista: è la prima classe di lavoro della coda.
+
+**Il difetto di struttura da correggere per primo.** Le 24 copertine già documentate sono affermazioni sostanziali — chi ha fotografato cosa, perché, con quale intenzione — e nei dati **non hanno un campo fonte**: la voce album ha `titolo`, `anno`, `nota`, `copertina`, `slug` e nient'altro. È una violazione di P2 già in atto, ed è la stessa che il revisore della sezione 11 aveva individuato dal lato tecnico. Scrivere altre 367 copertine senza correggere prima la struttura significa moltiplicare la violazione per sedici. Sezione 5 della Costituzione è esplicita: le spiegazioni di copertina **non possono poggiare su fonti di livello C** — niente Wikipedia o Songfacts da soli.
+
+**Cosa non è una lacuna, e non va "riempito":** il campo `paese` vale `it` o niente, perché marca gli artisti italiani e non la nazionalità di tutti (33 canzoni, 29 artisti); `sezioniExtra` è facoltativo per definizione (4 schede su 157); un `corpo` di due paragrafi è lo standard, non una carenza (155 schede su 157 lo hanno). Riempirli sarebbe lavoro inventato.
+
+### 12.2 Il principio: si completa ciò che esiste
+
+*(scelta dell'autore)*
+
+> **Finché la coda delle lacune non è chiusa o dichiarata inesauribile, non si aggiungono canzoni, artisti o album nuovi.**
+
+È la sezione 10 di questo documento applicata di nuovo: *«nuove aggiunte massive aumenterebbero il debito editoriale e tecnico»*. Là quella frase era condizionata al completamento dei primi quattro punti, tutti chiusi da tempo: qui vale come principio riconosciuto, non come vincolo ancora vigente. Ogni canzone nuova porta con sé un artista da raccontare e un album da documentare: aggiungere mentre il debito è aperto lo fa crescere più in fretta di quanto lo si ripaga.
+
+### 12.3 F65 — Il motore: `scripts/lacune.mjs`
+
+Una routine automatica ha bisogno di una coda che si calcoli da sola. Scrivi `scripts/lacune.mjs`, che legge `dati/*.json` e produce `dati/lacune.json`: l'elenco di ciò che manca, **ordinato per quanto sblocca**.
+
+**L'ordine è dato da classi, non da un punteggio.** La prima stesura usava un punteggio numerico additivo: simulato sui dati reali degenerava — 435 voci su 522 finivano sugli stessi due valori, le 72 storie d'artista pareggiavano con 41 copertine pur essendo dichiarate la priorità più alta, e le 2 schede residue di F5/F39 finivano in fondo alla coda perché il loro bonus era il più basso. Un punteggio che non ordina è peggio di nessun ordine, perché sembra averlo.
+
+Le classi si svuotano in sequenza: nessuna voce di una classe si tocca finché la precedente non è chiusa (cioè non contiene più voci `da-cercare`).
+
+| Classe | Contenuto | Oggi | Perché prima |
+|---|---|---|---|
+| **C1 — Struttura** | le 24 `copertinaFonte` mancanti, le 8 voci non-album da separare, le 3 fonti ascolti orfane, le 2 schede residue di F5/F39 | **37** | rendono verificabile tutto il resto. Attenzione: 24 delle 37 sono `copertinaFonte`, e ricostruire la fonte di una spiegazione scritta tempo fa **è ricerca a tutti gli effetti e può fallire** — non contare su cinque lotti secchi |
+| **C2 — Storie d'artista** | i 72 artisti senza storia | **72** | ognuna fa uscire una pagina dal `noindex` di F52: è l'effetto singolo più grande |
+| **C3 — Discografie** | i 72 artisti con `album` vuoto | **72** | fanno esistere le pagine album e portano in coda le copertine che contano |
+| **C4 — Copertine di album che avranno una pagina** | album con almeno una canzone raccontata e senza copertina | **46** oggi, più quelle che C3 farà emergere | il secondo gradino di F50: fanno entrare la pagina nell'indice |
+| **C5 — Copertine di album senza pagina** | le restanti | **321** | la copertina qui *fa nascere* la pagina invece di indicizzarla: valore reale ma minore |
+| **C6 — Dati secondari** | `ascolti` mancanti | **92** | nessuno sblocco |
+
+**Dentro una classe** l'ordine è: numero di schede canzone raccolte, decrescente; a parità, `id` alfabetico. Deterministico, senza margini di scelta.
+
+**I conteggi di C4 e C5 vanno ricalcolati dopo F53, non prima.** Finché i due album omonimi dei Korn condividono lo slug, la canzone `blind` risulta attribuita a entrambi e si ottiene 47/320 invece di 46/321. Il secondo è il numero giusto, ed è quello coerente con i 321 indirizzi di F50 e F63.
+
+**La coda si ricalcola a ogni passata, e cambia.** C3 e C4 sono legate: completare la discografia di un artista fa comparire album nuovi, e quindi copertine nuove in C4. È voluto — per questo l'ordine è per classi e non un elenco congelato all'inizio.
+
+**Le 9 introduzioni delle raccolte non stanno in questa coda.** Restano dentro F54 e F55, dove sono già disciplinate e dove è già scritto che le approva l'autore. Se stessero qui occuperebbero i primi nove posti — il primo lotto sarebbe fatto interamente di voci che la routine non ha il diritto di chiudere da sola.
+
+Ogni voce ha questa forma, e nient'altro:
+
+```json
+{
+  "id": "artista:nirvana:storia",
+  "classe": "C2",
+  "tipo": "storia-artista",
+  "soggetto": "nirvana",
+  "raccoglie": 3,
+  "stato": "da-cercare",
+  "ultimoTentativo": null,
+  "motivo": null
+}
+```
+
+**Gli stati ammessi sono quattro, e sono chiusi:**
+
+| Stato | Significato | Quando si rilegge |
+|---|---|---|
+| `da-cercare` | mai tentata | subito |
+| `fatto` | trovata, verificata, scritta nei dati con la fonte | mai più, salvo riverifica programmata |
+| `accertato-assente` | **cercata sul serio e non esiste una fonte ammissibile** | dopo sei mesi |
+| `sospeso` | trovata una pista ma resta un dubbio reale, col motivo scritto per esteso | quando arriva l'informazione mancante |
+
+**Le voci già dichiarate irrisolvibili nascono `accertato-assente`, non `da-cercare`.** Oggi ce n'è una: lo `spotifyId` di `the-sound-of-silence`, che F39 ha chiuso il 25 agosto dopo una ricerca reale, con il motivo scritto. Farla ripartire da `da-cercare` significherebbe rifare un lavoro già fatto e già dichiarato — cioè esattamente ciò che questo stato esiste per impedire.
+
+`accertato-assente` è il pezzo che rende la routine ripetibile invece che circolare: senza, ogni sessione ricomincerebbe a cercare le stesse 367 copertine inesistenti. È anche il campo che tiene onesta la statistica: dice quanto si è cercato, non quanto si è trovato.
+
+*Criterio di accettazione:* `node scripts/lacune.mjs` produce la coda in meno di cinque secondi; i conteggi per classe coincidono con quelli **ricalcolati dai dati con la convenzione di 12.1** (voci con `slug`); rilanciandolo due volte senza toccare nulla il file è **byte-identico**; nessuna voce ha uno stato o una classe fuori da quelli ammessi; nessuna voce di tipo introduzione compare in coda.
+
+### 12.4 F66 — La routine: come si esegue un lotto
+
+Una passata della routine lavora su **otto voci**, non di più. Il lotto piccolo non è prudenza eccessiva: è ciò che permette di rileggere davvero ogni fonte, e di buttare via poco lavoro quando qualcosa va storto.
+
+**Passo 1 — Prendere il lotto.** Le prime otto voci `da-cercare` nell'ordine di F65: classe più bassa per prima, e dentro la classe per numero di schede raccolte. Nessuna scelta discrezionale su cosa lavorare: se l'ordine è sbagliato si corregge l'ordinamento in F65, non si salta una voce.
+
+**Passo 2 — Cercare, con la gerarchia delle fonti in mano.** Per ogni voce si cercano fonti secondo la sezione 5 della Costituzione. Per storie d'artista e copertine servono livello A o B: **il livello C (Wikipedia, Songfacts, database collaborativi) serve solo come pista per arrivare alla fonte vera, e non può mai essere la prova.** Se la ricerca porta solo a pagine che si copiano a vicenda, l'esito è `accertato-assente`, non una sintesi di quelle pagine.
+
+**Passo 3 — La prova di ammissibilità.** È la regola che distingue una routine verificata da una che indovina con eleganza:
+
+> **Ogni affermazione nuova deve essere accompagnata, nel brief del lotto, dall'indirizzo della fonte e dalla frase testuale della fonte che la sostiene, copiata alla lettera.** Se quella frase non si può incollare, l'affermazione non entra nei dati.
+
+Non "ho consultato la fonte X". Non "secondo Rolling Stone". La frase. Questo vale per ogni data, cifra, attribuzione, intenzione dichiarata dall'artista e spiegazione di copertina. Vale P1: *«è preferibile una scheda più corta a una scheda riempita con dettagli fragili»*.
+
+**Passo 4 — Scrivere.** Il testo va scritto con parole proprie (P3: mai versi né traduzioni, nemmeno parziali) e registrato nei dati insieme alla fonte. Per le copertine questo richiede **prima** il campo nuovo: aggiungi `copertinaFonte` (indirizzo e nome della testata) alla voce album, e **riempilo anche per le 24 copertine già scritte** — se per una di quelle la fonte non è più ricostruibile, il suo stato diventa `sospeso` e la copertina va tolta dalla pagina finché non lo è. Una copertina senza fonte non è una copertina documentata: è un'affermazione.
+
+**Due conseguenze da non dimenticare, perché toccano la sezione 11.**
+*Primo:* F64 oggi dice espressamente che il criterio deve restare "copertina documentata" e **non** "con fonte citata", e lo motiva col fatto che nei dati non esiste un campo fonte. Appena la classe C1 è chiusa quella motivazione decade: **allora, e solo allora, si aggiorna F64 portando il criterio a "copertina documentata e con fonte"**, e lo si dichiara nel registro. Non prima: farlo prima boccerebbe 21 delle 26 pagine album indicizzabili.
+*Secondo:* togliere una copertina può togliere una pagina. **Nove pagine album esistono soltanto grazie alla copertina**, senza nessuna canzone raccontata: se per una di quelle la fonte non è ricostruibile, la pagina smette di generarsi e il suo indirizzo va aggiunto ai 301. Perciò ogni lotto che tocca le copertine **rigenera `dati/album-rimossi.json` e `vercel.json`**, e il passo 7 lo verifica.
+
+**Passo 5 — Verifica indipendente, a occhi chiusi.** Ogni lotto viene ricontrollato da un secondo passaggio che riceve **solo le fonti e le affermazioni**, senza vedere il ragionamento che le ha prodotte, e per ognuna risponde *confermata* o *non confermata dalla fonte*. Le non confermate tornano a `da-cercare` e il testo non si pubblica.
+Non è un formalismo: la sezione 11 di questo documento è passata tre volte da un revisore indipendente, che ha trovato **sette numeri sbagliati e oltre venti** fra contraddizioni e ambiguità in un testo che a chi l'aveva scritto sembrava corretto. Su un lavoro di ricerca il margine d'errore è più alto, non più basso.
+
+**Passo 6 — I controlli automatici.** Nell'ordine: `check-coerenza.mjs`, `check-completezza.mjs`, `check-link.mjs`, `check-testi.mjs` e `check-seo.mjs` (quando F64 esisterà). Un controllo che fallisce ferma il lotto: non si pubblica e non si passa al successivo.
+
+**Passo 7 — Chiudere.** Rigenera il sito; se il lotto ha toccato copertine, rigenera anche `dati/album-rimossi.json` e `vercel.json` e verifica che nessun indirizzo pubblicato sia rimasto senza pagina né senza 301. Verifica le pagine toccate su desktop e mobile nei due temi (sezione 9), un commit piccolo nella forma `F66: lotto N — cosa è entrato`, e **una riga nel registro con i quattro numeri del lotto**: quante cercate, quante trovate, quante accertate assenti, quante sospese.
+
+**Il segnale d'allarme, da guardare a ogni lotto.** Un tasso di successo alto non è una buona notizia: su questo lavoro significa quasi sempre che si sta accettando come prova qualcosa che prova meno di quanto sembra.
+
+**Attenzione a come vanno letti i numeri che seguono: non sono misure, sono un'attesa dichiarata a priori.** Nessun lotto è ancora stato eseguito, quindi nessuno li ha calcolati — e questo documento impone altrove che i numeri nascano dai dati (11.4 punto 2, P9). Servono solo finché non esiste il dato vero: **dopo i primi cinque lotti per tipo, si sostituiscono col tasso misurato e si dichiara la sostituzione nel registro.**
+L'attesa è che sulle copertine si trovi poco (fra un decimo e un terzo dei casi), perché la maggior parte delle copertine non ha una spiegazione ufficiale documentata — è esattamente ciò che le pagine attuali già dichiarano — e che sulle storie d'artista si trovi molto di più, perché un artista con una discografia ha quasi sempre una copertura giornalistica reale. **Se un lotto di copertine va molto oltre l'attesa, fermati e rileggi le fonti una per una prima di pubblicare: è più probabile che sia entrato del livello C travestito che non un colpo di fortuna.** Questa soglia è un'euristica provvisoria, non una regola misurata: va sostituita, non difesa.
+
+*Criterio di accettazione di ogni lotto:* zero affermazioni senza frase-fonte incollata; zero fonti di livello C usate come prova per copertine, intenzioni dell'artista o cifre; tutti i controlli automatici verdi; i quattro numeri scritti nel registro; nessuna voce lasciata in uno stato diverso dai quattro ammessi.
+
+### 12.5 F67 — Il freno: niente contenuti nuovi finché la coda è aperta
+
+Traduci in codice la regola di 12.2, perché una regola scritta solo a parole non regge alla tentazione di aggiungere una canzone bella. `scripts/lacune.mjs` calcola e stampa in testa al report il **debito aperto**.
+
+**Il debito aperto conta le voci mai tentate delle classi C1–C4** — cioè con `ultimoTentativo: null` — e non C5 né C6. Oggi vale **227**: 37 di struttura, 72 storie, 72 discografie, 46 copertine di album che avranno una pagina (numeri da ricalcolare dopo F53).
+
+**Il debito cresce mentre lo si paga, ed è stato quantificato.** I 72 artisti senza discografia sono esattamente i 72 senza storia, hanno esattamente una canzone ciascuno, e i loro album sono i 72 che oggi mancano: completare una discografia aggiunge quindi **esattamente una voce in C4** e tutto il resto va in C5. Traiettoria reale: 227 → 190 (chiusa C1) → 118 (C2) → 118 (C3: 72 pagate, 72 nuove in C4) → 0. In tutto circa **299 voci e ~38 passate**, non 29. Il debito **non risale mai sopra il valore di partenza**, quindi il freno non si riarma.
+**C5 invece esploderà, ed è normale:** completare 72 discografie porterà in coda dell'ordine di ottocento nuove copertine, e C5 passerà da 321 a più di mille. Non è un errore dello script: è la ragione per cui C5 sta fuori dal debito.
+Attenzione, `da-cercare` e "mai tentata" non sono lo stesso insieme: una voce bocciata al passo 5 o rientrata dopo i sei mesi torna `da-cercare` ma ha `ultimoTentativo` valorizzato. **F66 la rimette in lavorazione, F67 non la conta nel debito.** È voluto.
+La restrizione a "mai tentate" non è un cavillo: senza di essa, le voci `accertato-assente` che tornano in coda dopo sei mesi rialzerebbero il debito sopra la soglia e **riarmerebbero il freno ogni sei mesi, per sempre**. Una voce cercata sul serio e non trovata è lavoro fatto, non debito.
+
+Finché quel numero è sopra **50**, l'aggiunta di canzoni, artisti o album nuovi non si fa. Sotto 50, si può aggiungere, ma solo schede già conformi allo standard 4A e con l'artista già raccontato: cioè aggiunte che non creano nuovo debito.
+Il numero non è sacro e può essere cambiato dall'autore, ma va cambiato **esplicitamente e nel documento**, non aggirato una volta sola.
+
+*Criterio di accettazione:* il report mostra il debito aperto come primo numero; una nota nel registro dichiara il valore del debito ogni volta che si aggiunge contenuto nuovo, così la deroga resta visibile.
+
+### 12.6 Quello che la routine non deve fare
+
+- **Non deve mai riempire un campo per non lasciarlo vuoto.** Le pagine dichiarano già l'assenza in modo onesto ("Non risulta disponibile una spiegazione ufficiale verificabile"): quella frase è un contenuto corretto, non un buco da tappare. Sostituirla con una spiegazione plausibile è il modo più veloce di distruggere l'unica cosa che questo sito ha da vendere.
+- **Non deve trattare una fonte trovata come una fonte letta.** Se non si riesce ad aprire la pagina e a copiarne la frase, la fonte non c'è.
+- **Non deve inventare le 9 introduzioni delle raccolte** senza l'approvazione dell'autore (regola già scritta in 11.6).
+- **Non deve riempire i campi che non sono lacune** (`paese`, `sezioniExtra`, terzo paragrafo del corpo).
+- **Non deve accorpare i lotti** per andare più veloce. Otto voci per volta, verificate, sono più di ottanta scritte e da ricontrollare.
+- **Non deve chiudere una voce come `fatto` senza il passo 5.** La verifica indipendente non è la parte facoltativa: è quella che ha trovato gli errori tutte le volte che è stata fatta.
+

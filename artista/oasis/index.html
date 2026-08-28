@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Manchester nel 1991 attorno al chitarrista Paul &quot;Bonehead&quot; Arthurs, la band trovò la propria identità quando Liam Gallagher coinvolse il…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/oasis/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -661,38 +666,31 @@ a { color: inherit; }
         <a class="disco" href="../../album/oasis/definitely-maybe/">
           <span class="indice">01</span>
           <span><span class="titolo">Definitely Maybe</span><span class="nota">numero 1 nel Regno Unito, certificato 10x platino nel Regno Unito e platino RIAA, circa 16 milioni di copie vendute</span></span>
-          <span class="anno">1994</span>
-        </a>
+          <span class="anno">1994</span></a>
         <a class="disco" href="../../album/oasis/whats-the-story-morning-glory/">
           <span class="indice">02</span>
           <span><span class="titolo">(What's the Story) Morning Glory?</span><span class="nota">numero 1 nel Regno Unito, certificato 19x platino nel Regno Unito e 4x platino RIAA, circa 22-23 milioni di copie vendute, il loro album più venduto</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/oasis/be-here-now/">
+          <span class="anno">1995</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Be Here Now</span><span class="nota">numero 1 nel Regno Unito, all'epoca l'album dalla vendita più rapida nella storia delle classifiche britanniche, certificato 7x platino nel Regno Unito</span></span>
-          <span class="anno">1997</span>
-        </a>
-        <a class="disco" href="../../album/oasis/standing-on-the-shoulder-of-giants/">
+          <span class="anno">1997</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Standing on the Shoulder of Giants</span><span class="nota">numero 1 nel Regno Unito, certificato 2x platino</span></span>
-          <span class="anno">2000</span>
-        </a>
-        <a class="disco" href="../../album/oasis/heathen-chemistry/">
+          <span class="anno">2000</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Heathen Chemistry</span><span class="nota">numero 1 nel Regno Unito, quinto consecutivo per la band; certificato 4x platino</span></span>
-          <span class="anno">2002</span>
-        </a>
-        <a class="disco" href="../../album/oasis/dont-believe-the-truth/">
+          <span class="anno">2002</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Don't Believe the Truth</span><span class="nota">numero 1 nel Regno Unito, certificato 3x platino</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/oasis/dig-out-your-soul/">
+          <span class="anno">2005</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Dig Out Your Soul</span><span class="nota">numero 1 nel Regno Unito, certificato 2x platino</span></span>
-          <span class="anno">2008</span>
-        </a>
+          <span class="anno">2008</span></div>
       </div>
       
     </section>

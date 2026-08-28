@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Seattle nel 1990 sulle ceneri dei Mother Love Bone, sciolti dopo la morte per overdose del cantante Andrew Wood.">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/pearl-jam/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -656,63 +661,51 @@ a { color: inherit; }
         <a class="disco" href="../../album/pearl-jam/ten/">
           <span class="indice">01</span>
           <span><span class="titolo">Ten</span><span class="nota">certificato 13x platino RIAA, album di debutto</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/vs/">
+          <span class="anno">1991</span></a>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Vs.</span><span class="nota">certificato 7x platino RIAA</span></span>
-          <span class="anno">1993</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/vitalogy/">
+          <span class="anno">1993</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Vitalogy</span><span class="nota">certificato 5x platino RIAA</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/no-code/">
+          <span class="anno">1994</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">No Code</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/yield/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Yield</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1998</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/binaural/">
+          <span class="anno">1998</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Binaural</span><span class="nota">certificato oro RIAA, primo album della band a non raggiungere il platino</span></span>
-          <span class="anno">2000</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/riot-act/">
+          <span class="anno">2000</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Riot Act</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">2002</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/pearl-jam/">
+          <span class="anno">2002</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Pearl Jam</span></span>
-          <span class="anno">2006</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/backspacer/">
+          <span class="anno">2006</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Backspacer</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/lightning-bolt/">
+          <span class="anno">2009</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Lightning Bolt</span></span>
-          <span class="anno">2013</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/gigaton/">
+          <span class="anno">2013</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Gigaton</span></span>
-          <span class="anno">2020</span>
-        </a>
-        <a class="disco" href="../../album/pearl-jam/dark-matter/">
+          <span class="anno">2020</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Dark Matter</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></div>
       </div>
       
     </section>

@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Rino Gaetano: le 1 canzoni raccontate su Dietro il testo, con contesto e fonti verificate.">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/rino-gaetano/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -628,12 +633,13 @@ a { color: inherit; }
 
     <nav class="snodi" aria-label="Sezioni della pagina">
       <a class="voce" href="#canzoni">Canzoni <b>1</b></a>
+      <a class="voce" href="#dischi">Album <b>1</b></a>
     </nav>
 
     <dl class="fatti">
       <div class="fatto"><dt>Canzoni sul sito</dt><dd>1</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1975</dd></div>
-      <div class="fatto"><dt>Album in studio</dt><dd>—</dd></div>
+      <div class="fatto"><dt>Album in studio</dt><dd>1</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>pop</dd></div>
     </dl>
 
@@ -648,7 +654,16 @@ a { color: inherit; }
       </div>
     </section>
 
-    
+    <section class="blocco" id="dischi">
+      <h2>Discografia in studio</h2>
+      <div class="dischi">
+        <a class="disco" href="../../album/rino-gaetano/singolo/">
+          <span class="indice">01</span>
+          <span><span class="titolo">Singolo</span></span>
+          <span class="anno">1975</span></a>
+      </div>
+      
+    </section>
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>

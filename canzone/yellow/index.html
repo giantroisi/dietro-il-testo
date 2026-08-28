@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Scritta da Chris Martin insieme al resto dei Coldplay, nacque quasi per caso durante una session in studio: mentre il…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/canzone/yellow/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -537,6 +538,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -664,7 +669,7 @@ a { color: inherit; }
       <div class="azioni">
         <a class="bottone pieno" href="https://www.letras.com/coldplay/yellow/" target="_blank" rel="noopener">Leggi il testo su Letras</a>
         <a class="bottone" href="../../artista/coldplay/">Tutto su Coldplay</a>
-        
+        <a class="bottone" href="../../album/coldplay/parachutes/">L'album Parachutes</a>
       </div>
     </section>
 

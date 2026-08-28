@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati ad Agoura Hills, in California, nel 1996 da un gruppo di amici di scuola superiore (Mike Shinoda, Brad Delson, Rob Bourdon, a cui si unirono Joe…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/linkin-park/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -671,43 +676,35 @@ a { color: inherit; }
         <a class="disco" href="../../album/linkin-park/hybrid-theory/">
           <span class="indice">01</span>
           <span><span class="titolo">Hybrid Theory</span><span class="nota">certificato Diamond RIAA (11+ milioni di copie negli USA), Grammy Best Hard Rock Performance per &quot;Crawling&quot; nel 2002, album più venduto negli USA nel 2001</span></span>
-          <span class="anno">2000</span>
-        </a>
+          <span class="anno">2000</span></a>
         <a class="disco" href="../../album/linkin-park/meteora/">
           <span class="indice">02</span>
           <span><span class="titolo">Meteora</span><span class="nota">certificato 8x Platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2003</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/minutes-to-midnight/">
+          <span class="anno">2003</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Minutes to Midnight</span><span class="nota">certificato 5x Platino RIAA, debuttò al numero 1 con le vendite di apertura più alte del 2007</span></span>
-          <span class="anno">2007</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/a-thousand-suns/">
+          <span class="anno">2007</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">A Thousand Suns</span><span class="nota">certificato Platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2010</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/living-things/">
+          <span class="anno">2010</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Living Things</span><span class="nota">certificato Platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2012</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/the-hunting-party/">
+          <span class="anno">2012</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">The Hunting Party</span><span class="nota">certificato Platino RIAA</span></span>
-          <span class="anno">2014</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/one-more-light/">
+          <span class="anno">2014</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">One More Light</span><span class="nota">certificato Oro RIAA, sesto album della band a debuttare al numero 1; ultimo pubblicato con Chester Bennington</span></span>
-          <span class="anno">2017</span>
-        </a>
-        <a class="disco" href="../../album/linkin-park/from-zero/">
+          <span class="anno">2017</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">From Zero</span><span class="nota">certificato 2x Platino in Francia e 3x Platino in Brasile, debuttò al numero 1 in oltre 14 paesi</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">Oltre 100 milioni di dischi venduti nel mondo nel corso della carriera</p>
     </section>

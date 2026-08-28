@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Chicago nel 1994, trovarono la formazione decisiva nel 1996 con l'arrivo del cantante David Draiman, che si unì al chitarrista Dan Donegan, al…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/disturbed/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -653,46 +658,38 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/disturbed/the-sickness/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">The Sickness</span><span class="nota">certificato 5x platino RIAA, album di debutto</span></span>
-          <span class="anno">2000</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/believe/">
+          <span class="anno">2000</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Believe</span><span class="nota">certificato 2x platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2002</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/ten-thousand-fists/">
+          <span class="anno">2002</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Ten Thousand Fists</span><span class="nota">certificato platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/indestructible/">
+          <span class="anno">2005</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Indestructible</span><span class="nota">certificato 3x platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2008</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/asylum/">
+          <span class="anno">2008</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Asylum</span><span class="nota">certificato oro RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2010</span>
-        </a>
+          <span class="anno">2010</span></div>
         <a class="disco" href="../../album/disturbed/immortalized/">
           <span class="indice">06</span>
           <span><span class="titolo">Immortalized</span><span class="nota">certificato 2x platino RIAA, debuttò al numero 1 della Billboard 200, contiene la cover di &quot;The Sound of Silence&quot;</span></span>
-          <span class="anno">2015</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/evolution/">
+          <span class="anno">2015</span></a>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Evolution</span></span>
-          <span class="anno">2018</span>
-        </a>
-        <a class="disco" href="../../album/disturbed/divisive/">
+          <span class="anno">2018</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Divisive</span></span>
-          <span class="anno">2022</span>
-        </a>
+          <span class="anno">2022</span></div>
       </div>
       
     </section>

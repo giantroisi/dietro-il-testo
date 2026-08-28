@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Los Angeles nel 1983 dal chitarrista e cantante Dave Mustaine, licenziato dai Metallica pochi giorni prima della registrazione del loro primo…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/megadeth/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,86 +663,70 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/megadeth/killing-is-my-business-and-business-is-good/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Killing Is My Business... and Business Is Good!</span><span class="nota">album di debutto</span></span>
-          <span class="anno">1985</span>
-        </a>
+          <span class="anno">1985</span></div>
         <a class="disco" href="../../album/megadeth/peace-sells-but-whos-buying/">
           <span class="indice">02</span>
           <span><span class="titolo">Peace Sells... but Who's Buying?</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1986</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/so-far-so-good-so-what/">
+          <span class="anno">1986</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">So Far, So Good... So What!</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1988</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/rust-in-peace/">
+          <span class="anno">1988</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Rust in Peace</span><span class="nota">certificato platino RIAA, considerato una pietra miliare del thrash metal</span></span>
-          <span class="anno">1990</span>
-        </a>
+          <span class="anno">1990</span></div>
         <a class="disco" href="../../album/megadeth/countdown-to-extinction/">
           <span class="indice">05</span>
           <span><span class="titolo">Countdown to Extinction</span><span class="nota">certificato 2x platino RIAA, il loro album di maggior successo commerciale</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/youthanasia/">
+          <span class="anno">1992</span></a>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Youthanasia</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/cryptic-writings/">
+          <span class="anno">1994</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Cryptic Writings</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1997</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/risk/">
+          <span class="anno">1997</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Risk</span></span>
-          <span class="anno">1999</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/the-world-needs-a-hero/">
+          <span class="anno">1999</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">The World Needs a Hero</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/the-system-has-failed/">
+          <span class="anno">2001</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">The System Has Failed</span></span>
-          <span class="anno">2004</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/united-abominations/">
+          <span class="anno">2004</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">United Abominations</span></span>
-          <span class="anno">2007</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/endgame/">
+          <span class="anno">2007</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Endgame</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/thirteen/">
+          <span class="anno">2009</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Thirteen</span></span>
-          <span class="anno">2011</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/super-collider/">
+          <span class="anno">2011</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Super Collider</span></span>
-          <span class="anno">2013</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/dystopia/">
+          <span class="anno">2013</span></div>
+        <div class="disco disco-assente">
           <span class="indice">15</span>
           <span><span class="titolo">Dystopia</span><span class="nota">Grammy Best Metal Performance nel 2017</span></span>
-          <span class="anno">2016</span>
-        </a>
-        <a class="disco" href="../../album/megadeth/the-sick-the-dying-and-the-dead/">
+          <span class="anno">2016</span></div>
+        <div class="disco disco-assente">
           <span class="indice">16</span>
           <span><span class="titolo">The Sick, the Dying... and the Dead!</span></span>
-          <span class="anno">2022</span>
-        </a>
+          <span class="anno">2022</span></div>
       </div>
       
     </section>

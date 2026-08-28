@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formatasi a Sheffield nel 2004 attorno al cantante Oliver Sykes, ha attraversato una delle evoluzioni sonore più radicali della musica rock contemporanea:…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/bring-me-the-horizon/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -733,46 +738,38 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/bring-me-the-horizon/count-your-blessings/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Count Your Blessings</span><span class="nota">album di debutto, certificato argento nel Regno Unito</span></span>
-          <span class="anno">2006</span>
-        </a>
+          <span class="anno">2006</span></div>
         <a class="disco" href="../../album/bring-me-the-horizon/suicide-season/">
           <span class="indice">02</span>
           <span><span class="titolo">Suicide Season</span><span class="nota">certificato argento nel Regno Unito</span></span>
-          <span class="anno">2008</span>
-        </a>
-        <a class="disco" href="../../album/bring-me-the-horizon/there-is-a-hell-believe-me-ive-seen-it-there-is-a-heaven-lets-keep-it-a-secret/">
+          <span class="anno">2008</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">There Is a Hell Believe Me I've Seen It. There Is a Heaven Let's Keep It a Secret.</span><span class="nota">certificato oro nel Regno Unito</span></span>
-          <span class="anno">2010</span>
-        </a>
+          <span class="anno">2010</span></div>
         <a class="disco" href="../../album/bring-me-the-horizon/sempiternal/">
           <span class="indice">04</span>
           <span><span class="titolo">Sempiternal</span><span class="nota">primo album per una major, certificato platino nel Regno Unito e in Australia, oro negli USA</span></span>
-          <span class="anno">2013</span>
-        </a>
+          <span class="anno">2013</span></a>
         <a class="disco" href="../../album/bring-me-the-horizon/thats-the-spirit/">
           <span class="indice">05</span>
           <span><span class="titolo">That's the Spirit</span><span class="nota">certificato platino nel Regno Unito e in Australia, oro negli USA e in diversi paesi europei</span></span>
-          <span class="anno">2015</span>
-        </a>
+          <span class="anno">2015</span></a>
         <a class="disco" href="../../album/bring-me-the-horizon/amo/">
           <span class="indice">06</span>
           <span><span class="titolo">amo</span><span class="nota">primo numero 1 della band nella classifica britannica, candidato al Grammy per Best Rock Album</span></span>
-          <span class="anno">2019</span>
-        </a>
+          <span class="anno">2019</span></a>
         <a class="disco" href="../../album/bring-me-the-horizon/post-human-survival-horror/">
           <span class="indice">07</span>
           <span><span class="titolo">POST HUMAN: Survival Horror</span><span class="nota">primo dei quattro progetti della serie &quot;Post Human&quot;, certificato oro nel Regno Unito e in Polonia, debuttato numero 1 nella classifica britannica (formato fisico)</span></span>
-          <span class="anno">2020</span>
-        </a>
+          <span class="anno">2020</span></a>
         <a class="disco" href="../../album/bring-me-the-horizon/post-human-nex-gen/">
           <span class="indice">08</span>
           <span><span class="titolo">POST HUMAN: NeX GEn</span><span class="nota">certificato oro nel Regno Unito, in Australia e in Brasile</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></a>
       </div>
       <p class="vuoto" style="margin-top:18px">4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band</p>
     </section>

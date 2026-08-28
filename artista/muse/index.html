@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati nella cittadina di Teignmouth, nel Devon, dai compagni di scuola Matt Bellamy, Chris Wolstenholme e Dominic Howard, che a metà degli anni '90…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/muse/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -663,56 +668,46 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/muse/showbiz/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Showbiz</span><span class="nota">certificato platino nel Regno Unito (BPI)</span></span>
-          <span class="anno">1999</span>
-        </a>
-        <a class="disco" href="../../album/muse/origin-of-symmetry/">
+          <span class="anno">1999</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Origin of Symmetry</span><span class="nota">certificato 2x platino nel Regno Unito (BPI)</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/muse/absolution/">
+          <span class="anno">2001</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Absolution</span><span class="nota">primo numero 1 della band nel Regno Unito, certificato 3x platino nel Regno Unito e platino RIAA</span></span>
-          <span class="anno">2003</span>
-        </a>
+          <span class="anno">2003</span></div>
         <a class="disco" href="../../album/muse/black-holes-and-revelations/">
           <span class="indice">04</span>
           <span><span class="titolo">Black Holes and Revelations</span><span class="nota">certificato 4x platino nel Regno Unito e platino RIAA</span></span>
-          <span class="anno">2006</span>
-        </a>
+          <span class="anno">2006</span></a>
         <a class="disco" href="../../album/muse/the-resistance/">
           <span class="indice">05</span>
           <span><span class="titolo">The Resistance</span><span class="nota">certificato 2x platino nel Regno Unito e platino RIAA, Grammy Best Rock Album 2011</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/muse/the-2nd-law/">
+          <span class="anno">2009</span></a>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">The 2nd Law</span><span class="nota">certificato platino nel Regno Unito e oro RIAA</span></span>
-          <span class="anno">2012</span>
-        </a>
+          <span class="anno">2012</span></div>
         <a class="disco" href="../../album/muse/drones/">
           <span class="indice">07</span>
           <span><span class="titolo">Drones</span><span class="nota">primo numero 1 della band negli USA, certificato oro nel Regno Unito, Grammy Best Rock Album 2016</span></span>
-          <span class="anno">2015</span>
-        </a>
-        <a class="disco" href="../../album/muse/simulation-theory/">
+          <span class="anno">2015</span></a>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Simulation Theory</span><span class="nota">debuttò al numero 1 nel Regno Unito</span></span>
-          <span class="anno">2018</span>
-        </a>
-        <a class="disco" href="../../album/muse/will-of-the-people/">
+          <span class="anno">2018</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Will of the People</span><span class="nota">debuttò al numero 1 nel Regno Unito, certificato oro (BPI)</span></span>
-          <span class="anno">2022</span>
-        </a>
-        <a class="disco" href="../../album/muse/the-wow-signal/">
+          <span class="anno">2022</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">The Wow! Signal</span><span class="nota">ottavo numero 1 consecutivo nel Regno Unito, record di gruppo pari a quello di ABBA e Led Zeppelin</span></span>
-          <span class="anno">2026</span>
-        </a>
+          <span class="anno">2026</span></div>
       </div>
       
     </section>

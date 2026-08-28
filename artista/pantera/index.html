@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati ad Arlington, in Texas, nel 1981 dai fratelli Abbott — il chitarrista &quot;Diamond&quot; Darrell (poi Dimebag Darrell) e il batterista Vinnie Paul —…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/pantera/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,51 +663,42 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/pantera/metal-magic/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Metal Magic</span><span class="nota">album indipendente, non riconosciuto dalla band come parte della propria discografia &quot;ufficiale&quot;</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/pantera/projects-in-the-jungle/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Projects in the Jungle</span><span class="nota">album indipendente</span></span>
-          <span class="anno">1984</span>
-        </a>
-        <a class="disco" href="../../album/pantera/i-am-the-night/">
+          <span class="anno">1984</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">I Am the Night</span><span class="nota">album indipendente</span></span>
-          <span class="anno">1985</span>
-        </a>
-        <a class="disco" href="../../album/pantera/power-metal/">
+          <span class="anno">1985</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Power Metal</span><span class="nota">album indipendente, debutto di Phil Anselmo alla voce</span></span>
-          <span class="anno">1988</span>
-        </a>
+          <span class="anno">1988</span></div>
         <a class="disco" href="../../album/pantera/cowboys-from-hell/">
           <span class="indice">05</span>
           <span><span class="titolo">Cowboys from Hell</span><span class="nota">certificato platino RIAA, debutto per una major, considerato la nascita del groove metal</span></span>
-          <span class="anno">1990</span>
-        </a>
+          <span class="anno">1990</span></a>
         <a class="disco" href="../../album/pantera/vulgar-display-of-power/">
           <span class="indice">06</span>
           <span><span class="titolo">Vulgar Display of Power</span><span class="nota">certificato 2x platino RIAA, considerato il loro album più importante</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/pantera/far-beyond-driven/">
+          <span class="anno">1992</span></a>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Far Beyond Driven</span><span class="nota">certificato platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/pantera/the-great-southern-trendkill/">
+          <span class="anno">1994</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">The Great Southern Trendkill</span><span class="nota">certificato platino RIAA</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/pantera/reinventing-the-steel/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Reinventing the Steel</span><span class="nota">certificato oro RIAA, ultimo album in studio prima dello scioglimento</span></span>
-          <span class="anno">2000</span>
-        </a>
+          <span class="anno">2000</span></div>
       </div>
       
     </section>

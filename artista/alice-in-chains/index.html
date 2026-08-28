@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Seattle nel 1987 dal chitarrista e cantante Jerry Cantrell e dal batterista Sean Kinney, che reclutarono il bassista Mike Starr e il cantante…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/alice-in-chains/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -656,33 +661,27 @@ a { color: inherit; }
         <a class="disco" href="../../album/alice-in-chains/facelift/">
           <span class="indice">01</span>
           <span><span class="titolo">Facelift</span><span class="nota">certificato 2x platino RIAA, album di debutto</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/alice-in-chains/dirt/">
+          <span class="anno">1990</span></a>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Dirt</span><span class="nota">certificato 4x platino RIAA</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/alice-in-chains/alice-in-chains/">
+          <span class="anno">1992</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Alice in Chains</span><span class="nota">certificato 2x platino RIAA</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/alice-in-chains/black-gives-way-to-blue/">
+          <span class="anno">1995</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Black Gives Way to Blue</span><span class="nota">certificato oro RIAA, primo album con William DuVall dopo la morte di Layne Staley</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/alice-in-chains/the-devil-put-dinosaurs-here/">
+          <span class="anno">2009</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">The Devil Put Dinosaurs Here</span><span class="nota">debuttò al numero 2 della Billboard 200</span></span>
-          <span class="anno">2013</span>
-        </a>
-        <a class="disco" href="../../album/alice-in-chains/rainier-fog/">
+          <span class="anno">2013</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Rainier Fog</span></span>
-          <span class="anno">2018</span>
-        </a>
+          <span class="anno">2018</span></div>
       </div>
       
     </section>

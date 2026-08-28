@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formatisi ad Ajax, in Ontario, nel 1996 — il nome deriva dal 41° giorno di quell'estate — attorno al cantante e chitarrista Deryck Whibley, arrivarono al…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/sum-41/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -666,43 +671,35 @@ a { color: inherit; }
         <a class="disco" href="../../album/sum-41/all-killer-no-filler/">
           <span class="indice">01</span>
           <span><span class="titolo">All Killer No Filler</span><span class="nota">certificato platino RIAA, 3x platino in Canada, 2x platino nel Regno Unito</span></span>
-          <span class="anno">2001</span>
-        </a>
+          <span class="anno">2001</span></a>
         <a class="disco" href="../../album/sum-41/does-this-look-infected/">
           <span class="indice">02</span>
           <span><span class="titolo">Does This Look Infected?</span><span class="nota">certificato oro RIAA, platino in Canada e Giappone</span></span>
-          <span class="anno">2002</span>
-        </a>
+          <span class="anno">2002</span></a>
         <a class="disco" href="../../album/sum-41/chuck/">
           <span class="indice">03</span>
           <span><span class="titolo">Chuck</span><span class="nota">certificato oro RIAA, 2x platino in Canada, vincitore del Juno Award Rock Album of the Year 2005</span></span>
-          <span class="anno">2004</span>
-        </a>
-        <a class="disco" href="../../album/sum-41/underclass-hero/">
+          <span class="anno">2004</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Underclass Hero</span><span class="nota">debuttò al numero 1 in Canada, prima volta per la band; oro in Canada e Giappone</span></span>
-          <span class="anno">2007</span>
-        </a>
-        <a class="disco" href="../../album/sum-41/screaming-bloody-murder/">
+          <span class="anno">2007</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Screaming Bloody Murder</span><span class="nota">candidato al Grammy Best Hard Rock/Metal Performance per &quot;Blood in My Eyes&quot;</span></span>
-          <span class="anno">2011</span>
-        </a>
-        <a class="disco" href="../../album/sum-41/13-voices/">
+          <span class="anno">2011</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">13 Voices</span><span class="nota">certificato oro IMPALA in Europa</span></span>
-          <span class="anno">2016</span>
-        </a>
-        <a class="disco" href="../../album/sum-41/order-in-decline/">
+          <span class="anno">2016</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Order in Decline</span></span>
-          <span class="anno">2019</span>
-        </a>
-        <a class="disco" href="../../album/sum-41/heaven-x-hell/">
+          <span class="anno">2019</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Heaven :x: Hell</span><span class="nota">ultimo album in studio della band, sciolta nel 2024; il singolo &quot;Landmines&quot; diede alla band il primo numero 1 nella classifica Alternative Airplay in oltre vent'anni</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature in carriera</p>
     </section>

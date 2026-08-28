@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Nato a Roma nel 1951, muove i primi passi nella scena del Folkstudio romano insieme ad artisti come Antonello Venditti, con cui firma l'album d'esordio…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/francesco-de-gregori/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,116 +663,94 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/francesco-de-gregori/theorius-campus/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Theorius Campus</span><span class="nota">con Antonello Venditti, esordio condiviso tra i due artisti</span></span>
-          <span class="anno">1972</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/alice-non-lo-sa/">
+          <span class="anno">1972</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Alice non lo sa</span><span class="nota">primo vero album da solista</span></span>
-          <span class="anno">1973</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/francesco-de-gregori/">
+          <span class="anno">1973</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Francesco De Gregori</span></span>
-          <span class="anno">1974</span>
-        </a>
+          <span class="anno">1974</span></div>
         <a class="disco" href="../../album/francesco-de-gregori/rimmel/">
           <span class="indice">04</span>
           <span><span class="titolo">Rimmel</span><span class="nota">oltre 500.000 copie vendute, 20° posto tra i 100 migliori album italiani secondo Rolling Stone Italia (2012), considerato il suo capolavoro</span></span>
-          <span class="anno">1975</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/bufalo-bill/">
+          <span class="anno">1975</span></a>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Bufalo Bill</span><span class="nota">oltre 150.000 copie vendute</span></span>
-          <span class="anno">1976</span>
-        </a>
+          <span class="anno">1976</span></div>
         <a class="disco" href="../../album/francesco-de-gregori/de-gregori/">
           <span class="indice">06</span>
           <span><span class="titolo">De Gregori</span></span>
-          <span class="anno">1978</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/viva-litalia/">
+          <span class="anno">1978</span></a>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Viva l'Italia</span></span>
-          <span class="anno">1979</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/titanic/">
+          <span class="anno">1979</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Titanic</span></span>
-          <span class="anno">1982</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/scacchi-e-tarocchi/">
+          <span class="anno">1982</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Scacchi e tarocchi</span></span>
-          <span class="anno">1985</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/terra-di-nessuno/">
+          <span class="anno">1985</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Terra di nessuno</span><span class="nota">Targa Tenco</span></span>
-          <span class="anno">1987</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/mira-mare-19-4-89/">
+          <span class="anno">1987</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Mira Mare 19.4.89</span><span class="nota">Targa Tenco</span></span>
-          <span class="anno">1989</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/canzoni-damore/">
+          <span class="anno">1989</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Canzoni d'amore</span><span class="nota">oltre 480.000 copie vendute</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/prendere-e-lasciare/">
+          <span class="anno">1992</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Prendere e lasciare</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/amore-nel-pomeriggio/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Amore nel pomeriggio</span><span class="nota">oltre 250.000 copie vendute, Targa Tenco (condivisa)</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/il-fischio-del-vapore/">
+          <span class="anno">2001</span></div>
+        <div class="disco disco-assente">
           <span class="indice">15</span>
           <span><span class="titolo">Il fischio del vapore</span><span class="nota">con Giovanna Marini, oltre 150.000 copie vendute</span></span>
-          <span class="anno">2002</span>
-        </a>
+          <span class="anno">2002</span></div>
         <a class="disco" href="../../album/francesco-de-gregori/pezzi/">
           <span class="indice">16</span>
           <span><span class="titolo">Pezzi</span><span class="nota">oltre 100.000 copie vendute, Targa Tenco</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/calypsos/">
+          <span class="anno">2005</span></a>
+        <div class="disco disco-assente">
           <span class="indice">17</span>
           <span><span class="titolo">Calypsos</span></span>
-          <span class="anno">2006</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/per-brevita-chiamato-artista/">
+          <span class="anno">2006</span></div>
+        <div class="disco disco-assente">
           <span class="indice">18</span>
           <span><span class="titolo">Per brevità chiamato artista</span><span class="nota">oltre 70.000 copie vendute</span></span>
-          <span class="anno">2008</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/sulla-strada/">
+          <span class="anno">2008</span></div>
+        <div class="disco disco-assente">
           <span class="indice">19</span>
           <span><span class="titolo">Sulla strada</span><span class="nota">disco d'oro FIMI, Wind Music Award, Premio Medimex</span></span>
-          <span class="anno">2012</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/vivavoce/">
+          <span class="anno">2012</span></div>
+        <div class="disco disco-assente">
           <span class="indice">20</span>
           <span><span class="titolo">Vivavoce</span><span class="nota">2x disco di platino FIMI, Wind Music Award</span></span>
-          <span class="anno">2014</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/de-gregori-canta-bob-dylan-amore-e-furto/">
+          <span class="anno">2014</span></div>
+        <div class="disco disco-assente">
           <span class="indice">21</span>
           <span><span class="titolo">De Gregori canta Bob Dylan - Amore e furto</span><span class="nota">disco di platino FIMI</span></span>
-          <span class="anno">2015</span>
-        </a>
-        <a class="disco" href="../../album/francesco-de-gregori/pastiche/">
+          <span class="anno">2015</span></div>
+        <div class="disco disco-assente">
           <span class="indice">22</span>
           <span><span class="titolo">Pastiche</span><span class="nota">con Checco Zalone</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></div>
       </div>
       
     </section>

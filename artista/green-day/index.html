@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Nati come Sweet Children nel 1986-87 a Rodeo, in California, per iniziativa dei quattordicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/green-day/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -668,76 +673,62 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/green-day/39-smooth/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">39/Smooth</span><span class="nota">album di debutto ufficiale</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/green-day/kerplunk/">
+          <span class="anno">1990</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Kerplunk</span><span class="nota">certificato Platino RIAA</span></span>
-          <span class="anno">1991</span>
-        </a>
+          <span class="anno">1991</span></div>
         <a class="disco" href="../../album/green-day/dookie/">
           <span class="indice">03</span>
           <span><span class="titolo">Dookie</span><span class="nota">certificato Double Diamond RIAA nel 2024 (20+ milioni negli USA), Grammy Best Alternative Music Album 1995</span></span>
-          <span class="anno">1994</span>
-        </a>
-        <a class="disco" href="../../album/green-day/insomniac/">
+          <span class="anno">1994</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Insomniac</span><span class="nota">certificato 2x Platino RIAA</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/green-day/nimrod/">
+          <span class="anno">1995</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Nimrod</span><span class="nota">certificato 2x Platino RIAA</span></span>
-          <span class="anno">1997</span>
-        </a>
-        <a class="disco" href="../../album/green-day/warning/">
+          <span class="anno">1997</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Warning</span><span class="nota">certificato Oro RIAA</span></span>
-          <span class="anno">2000</span>
-        </a>
+          <span class="anno">2000</span></div>
         <a class="disco" href="../../album/green-day/american-idiot/">
           <span class="indice">07</span>
           <span><span class="titolo">American Idiot</span><span class="nota">certificato 6x Platino RIAA, Grammy Best Rock Album 2005; il singolo &quot;Boulevard of Broken Dreams&quot; vinse il Grammy Record of the Year</span></span>
-          <span class="anno">2004</span>
-        </a>
+          <span class="anno">2004</span></a>
         <a class="disco" href="../../album/green-day/21st-century-breakdown/">
           <span class="indice">08</span>
           <span><span class="titolo">21st Century Breakdown</span><span class="nota">certificato Platino RIAA, Grammy Best Rock Album 2010</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/green-day/uno/">
+          <span class="anno">2009</span></a>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">¡Uno!</span><span class="nota">primo dei tre album della trilogia, primo della band a non ottenere certificazioni RIAA</span></span>
-          <span class="anno">2012</span>
-        </a>
-        <a class="disco" href="../../album/green-day/dos/">
+          <span class="anno">2012</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">¡Dos!</span></span>
-          <span class="anno">2012</span>
-        </a>
-        <a class="disco" href="../../album/green-day/tre/">
+          <span class="anno">2012</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">¡Tré!</span></span>
-          <span class="anno">2012</span>
-        </a>
-        <a class="disco" href="../../album/green-day/revolution-radio/">
+          <span class="anno">2012</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Revolution Radio</span><span class="nota">debuttò al numero 1 della Billboard 200, certificato oro nel Regno Unito e in Italia</span></span>
-          <span class="anno">2016</span>
-        </a>
-        <a class="disco" href="../../album/green-day/father-of-all-motherfuckers/">
+          <span class="anno">2016</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Father of All Motherfuckers</span><span class="nota">debuttò al numero 1 nel Regno Unito e in Australia</span></span>
-          <span class="anno">2020</span>
-        </a>
-        <a class="disco" href="../../album/green-day/saviors/">
+          <span class="anno">2020</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Saviors</span><span class="nota">certificato argento nel Regno Unito, candidato al Grammy Best Rock Album 2025, prima candidatura della band in oltre un decennio</span></span>
-          <span class="anno">2024</span>
-        </a>
+          <span class="anno">2024</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">5 Grammy Awards vinti in carriera</p>
     </section>

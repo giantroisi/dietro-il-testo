@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Glendale, in California, nel 1994 dal cantante Serj Tankian e dal chitarrista/co-vocalist Daron Malakian, con il bassista Shavo Odadjian e il…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/system-of-a-down/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,31 +663,26 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/system-of-a-down/system-of-a-down/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">System of a Down</span><span class="nota">certificato 2x platino RIAA, album di debutto</span></span>
-          <span class="anno">1998</span>
-        </a>
+          <span class="anno">1998</span></div>
         <a class="disco" href="../../album/system-of-a-down/toxicity/">
           <span class="indice">02</span>
           <span><span class="titolo">Toxicity</span><span class="nota">certificato 6x platino RIAA, debuttò al numero 1 della Billboard 200</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/system-of-a-down/steal-this-album/">
+          <span class="anno">2001</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Steal This Album!</span><span class="nota">certificato platino RIAA, materiale extra dell'era Toxicity, considerato dalla band un vero album in studio</span></span>
-          <span class="anno">2002</span>
-        </a>
+          <span class="anno">2002</span></div>
         <a class="disco" href="../../album/system-of-a-down/mezmerize/">
           <span class="indice">04</span>
           <span><span class="titolo">Mezmerize</span><span class="nota">certificato 2x platino RIAA, numero 1 in nove paesi</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/system-of-a-down/hypnotize/">
+          <span class="anno">2005</span></a>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Hypnotize</span><span class="nota">certificato platino RIAA, numero 1 negli USA — primi dai Beatles ad avere due album al numero 1 nello stesso anno; &quot;B.Y.O.B.&quot; (da Mezmerize) vinse il Grammy Best Hard Rock Performance nel 2006</span></span>
-          <span class="anno">2005</span>
-        </a>
+          <span class="anno">2005</span></div>
       </div>
       
     </section>

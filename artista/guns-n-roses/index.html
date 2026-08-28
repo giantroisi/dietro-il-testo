@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Los Angeles nel 1985 dalla fusione tra i membri di Hollywood Rose (Axl Rose, Izzy Stradlin) e L.A.">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/guns-n-roses/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -661,33 +666,27 @@ a { color: inherit; }
         <a class="disco" href="../../album/guns-n-roses/appetite-for-destruction/">
           <span class="indice">01</span>
           <span><span class="titolo">Appetite for Destruction</span><span class="nota">certificato disco di diamante RIAA (18x platino), tra gli album di debutto più venduti di sempre con oltre 30 milioni di copie nel mondo</span></span>
-          <span class="anno">1987</span>
-        </a>
-        <a class="disco" href="../../album/guns-n-roses/g-n-r-lies/">
+          <span class="anno">1987</span></a>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">G N' R Lies</span><span class="nota">certificato 5x platino RIAA</span></span>
-          <span class="anno">1988</span>
-        </a>
+          <span class="anno">1988</span></div>
         <a class="disco" href="../../album/guns-n-roses/use-your-illusion-i/">
           <span class="indice">03</span>
           <span><span class="titolo">Use Your Illusion I</span><span class="nota">certificato 7x platino RIAA</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/guns-n-roses/use-your-illusion-ii/">
+          <span class="anno">1991</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Use Your Illusion II</span><span class="nota">certificato 7x platino RIAA, numero 1 della Billboard 200</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/guns-n-roses/the-spaghetti-incident/">
+          <span class="anno">1991</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">&quot;The Spaghetti Incident?&quot;</span><span class="nota">certificato platino RIAA, album di cover</span></span>
-          <span class="anno">1993</span>
-        </a>
-        <a class="disco" href="../../album/guns-n-roses/chinese-democracy/">
+          <span class="anno">1993</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Chinese Democracy</span><span class="nota">certificato platino RIAA, circa 2,5 milioni di copie vendute nel mondo dopo oltre un decennio di lavorazione</span></span>
-          <span class="anno">2008</span>
-        </a>
+          <span class="anno">2008</span></div>
       </div>
       
     </section>

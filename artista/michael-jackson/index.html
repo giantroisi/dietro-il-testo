@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Nato a Gary, in Indiana, nel 1958, esordì giovanissimo come voce solista dei Jackson 5, il gruppo familiare che negli anni '70 conquistò le classifiche…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/michael-jackson/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,56 +663,46 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/michael-jackson/got-to-be-there/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Got to Be There</span><span class="nota">certificato oro RIAA</span></span>
-          <span class="anno">1972</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/ben/">
+          <span class="anno">1972</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Ben</span><span class="nota">il brano omonimo fu il suo primo numero 1 da solista nella Billboard Hot 100</span></span>
-          <span class="anno">1972</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/music-me/">
+          <span class="anno">1972</span></div>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Music &amp; Me</span></span>
-          <span class="anno">1973</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/forever-michael/">
+          <span class="anno">1973</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Forever, Michael</span></span>
-          <span class="anno">1975</span>
-        </a>
+          <span class="anno">1975</span></div>
         <a class="disco" href="../../album/michael-jackson/off-the-wall/">
           <span class="indice">05</span>
           <span><span class="titolo">Off the Wall</span><span class="nota">certificato Diamond RIAA, oltre 20 milioni di copie nel mondo, un solo Grammy vinto nonostante l'acclamazione della critica</span></span>
-          <span class="anno">1979</span>
-        </a>
+          <span class="anno">1979</span></a>
         <a class="disco" href="../../album/michael-jackson/thriller/">
           <span class="indice">06</span>
           <span><span class="titolo">Thriller</span><span class="nota">l'album più venduto della storia (circa 66-70 milioni di copie nel mondo), 33x Platino RIAA, 8 Grammy vinti nel 1984 incluso Album of the Year</span></span>
-          <span class="anno">1982</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/bad/">
+          <span class="anno">1982</span></a>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Bad</span><span class="nota">certificato Diamond RIAA, cinque singoli numero 1, record ancora imbattuto per un solo album</span></span>
-          <span class="anno">1987</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/dangerous/">
+          <span class="anno">1987</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Dangerous</span><span class="nota">certificato 8x platino RIAA</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/history-past-present-and-future-book-i/">
+          <span class="anno">1991</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">HIStory: Past, Present and Future, Book I</span><span class="nota">certificato 8x platino RIAA (doppio disco: uno di inediti, uno di greatest hits)</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/michael-jackson/invincible/">
+          <span class="anno">1995</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Invincible</span><span class="nota">certificato 2x platino RIAA</span></span>
-          <span class="anno">2001</span>
-        </a>
+          <span class="anno">2001</span></div>
       </div>
       
     </section>

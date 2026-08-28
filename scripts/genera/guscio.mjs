@@ -111,7 +111,8 @@ export function pagina(o) {
 <title>${esc(o.titolo)} | ${esc(SITO.nome)}</title>
 <script>${SCRIPT_TEMA}</script>
 <meta name="description" content="${esc(o.descrizione)}">
-${o.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${SITO.base}/${o.percorso || ''}">`}
+${o.noindex ? '<meta name="robots" content="noindex">' : o.noindexFollow ? '<meta name="robots" content="noindex, follow">' : ''}
+${o.noindex ? '' : `<link rel="canonical" href="${SITO.base}/${o.percorso || ''}">`}
 <link rel="icon" href="${r}favicon.ico" sizes="any">
 <link rel="icon" href="${r}favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="${r}apple-touch-icon.png">

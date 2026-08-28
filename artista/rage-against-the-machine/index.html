@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Los Angeles nel 1991 da Zack de la Rocha (voce), Tom Morello (chitarra), Tim Commerford (basso) e Brad Wilk (batteria), senza mai un cambio di…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/rage-against-the-machine/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -661,23 +666,19 @@ a { color: inherit; }
         <a class="disco" href="../../album/rage-against-the-machine/rage-against-the-machine/">
           <span class="indice">01</span>
           <span><span class="titolo">Rage Against the Machine</span><span class="nota">certificato 3x platino RIAA, album di debutto</span></span>
-          <span class="anno">1992</span>
-        </a>
+          <span class="anno">1992</span></a>
         <a class="disco" href="../../album/rage-against-the-machine/evil-empire/">
           <span class="indice">02</span>
           <span><span class="titolo">Evil Empire</span><span class="nota">certificato 3x platino RIAA, primo numero 1 della band sulla Billboard 200; &quot;Tire Me&quot; vinse il loro primo Grammy (Best Metal Performance)</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/rage-against-the-machine/the-battle-of-los-angeles/">
+          <span class="anno">1996</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">The Battle of Los Angeles</span><span class="nota">certificato 2x platino RIAA, Grammy Best Hard Rock Performance per &quot;Guerrilla Radio&quot;; nominato disco dell'anno da Time e Rolling Stone</span></span>
-          <span class="anno">1999</span>
-        </a>
-        <a class="disco" href="../../album/rage-against-the-machine/renegades/">
+          <span class="anno">1999</span></div>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Renegades</span><span class="nota">certificato platino RIAA, album di cover, ultimo pubblicato con de la Rocha prima dello scioglimento</span></span>
-          <span class="anno">2000</span>
-        </a>
+          <span class="anno">2000</span></div>
       </div>
       
     </section>

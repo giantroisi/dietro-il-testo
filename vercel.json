@@ -1,0 +1,1674 @@
+{
+  "redirects": [
+    {
+      "source": "/album/alice-in-chains/dirt/",
+      "destination": "/artista/alice-in-chains/",
+      "permanent": true
+    },
+    {
+      "source": "/album/alice-in-chains/alice-in-chains/",
+      "destination": "/artista/alice-in-chains/",
+      "permanent": true
+    },
+    {
+      "source": "/album/alice-in-chains/black-gives-way-to-blue/",
+      "destination": "/artista/alice-in-chains/",
+      "permanent": true
+    },
+    {
+      "source": "/album/alice-in-chains/the-devil-put-dinosaurs-here/",
+      "destination": "/artista/alice-in-chains/",
+      "permanent": true
+    },
+    {
+      "source": "/album/alice-in-chains/rainier-fog/",
+      "destination": "/artista/alice-in-chains/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/black-sabbath/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/master-of-reality/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/vol-4/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/sabbath-bloody-sabbath/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/sabotage/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/technical-ecstasy/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/never-say-die/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/heaven-and-hell/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/mob-rules/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/born-again/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/seventh-star/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/the-eternal-idol/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/headless-cross/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/tyr/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/dehumanizer/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/cross-purposes/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/forbidden/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/black-sabbath/13/",
+      "destination": "/artista/black-sabbath/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/cheshire-cat/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/take-off-your-pants-and-jacket/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/neighborhoods/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/california/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/nine/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/blink-182/one-more-time/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
+      "source": "/album/bring-me-the-horizon/count-your-blessings/",
+      "destination": "/artista/bring-me-the-horizon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/bring-me-the-horizon/there-is-a-hell-believe-me-ive-seen-it-there-is-a-heaven-lets-keep-it-a-secret/",
+      "destination": "/artista/bring-me-the-horizon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/shades-of-deep-purple/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/the-book-of-taliesyn/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/deep-purple/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/deep-purple-in-rock/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/fireball/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/who-do-we-think-we-are/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/burn/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/stormbringer/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/come-taste-the-band/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/perfect-strangers/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/the-house-of-blue-light/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/slaves-and-masters/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/the-battle-rages-on/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/purpendicular/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/abandon/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/bananas/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/rapture-of-the-deep/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/now-what/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/infinite/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/whoosh/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/turning-to-crime/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/1/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/deep-purple/splat/",
+      "destination": "/artista/deep-purple/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/the-sickness/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/believe/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/ten-thousand-fists/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/indestructible/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/asylum/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/evolution/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/disturbed/divisive/",
+      "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/theorius-campus/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/alice-non-lo-sa/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/francesco-de-gregori/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/bufalo-bill/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/viva-litalia/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/titanic/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/scacchi-e-tarocchi/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/terra-di-nessuno/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/mira-mare-19-4-89/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/canzoni-damore/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/prendere-e-lasciare/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/amore-nel-pomeriggio/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/il-fischio-del-vapore/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/calypsos/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/per-brevita-chiamato-artista/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/sulla-strada/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/vivavoce/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/de-gregori-canta-bob-dylan-amore-e-furto/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/francesco-de-gregori/pastiche/",
+      "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/39-smooth/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/kerplunk/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/insomniac/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/nimrod/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/warning/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/uno/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/dos/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/tre/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/revolution-radio/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/father-of-all-motherfuckers/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/green-day/saviors/",
+      "destination": "/artista/green-day/",
+      "permanent": true
+    },
+    {
+      "source": "/album/guns-n-roses/g-n-r-lies/",
+      "destination": "/artista/guns-n-roses/",
+      "permanent": true
+    },
+    {
+      "source": "/album/guns-n-roses/use-your-illusion-ii/",
+      "destination": "/artista/guns-n-roses/",
+      "permanent": true
+    },
+    {
+      "source": "/album/guns-n-roses/the-spaghetti-incident/",
+      "destination": "/artista/guns-n-roses/",
+      "permanent": true
+    },
+    {
+      "source": "/album/guns-n-roses/chinese-democracy/",
+      "destination": "/artista/guns-n-roses/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/iron-maiden/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/killers/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/powerslave/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/somewhere-in-time/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/seventh-son-of-a-seventh-son/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/no-prayer-for-the-dying/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/fear-of-the-dark/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/the-x-factor/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/virtual-xi/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/brave-new-world/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/dance-of-death/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/a-matter-of-life-and-death/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/the-final-frontier/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/the-book-of-souls/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/iron-maiden/senjutsu/",
+      "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/rocka-rolla/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/sad-wings-of-destiny/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/sin-after-sin/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/stained-class/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/killing-machine/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/point-of-entry/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/defenders-of-the-faith/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/turbo/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/ram-it-down/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/painkiller/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/jugulator/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/demolition/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/angel-of-retribution/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/nostradamus/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/redeemer-of-souls/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/firepower/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/judas-priest/invincible-shield/",
+      "destination": "/artista/judas-priest/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/korn-2007/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/life-is-peachy/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/issues/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/untouchables/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/take-a-look-in-the-mirror/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/see-you-on-the-other-side/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/korn-iii-remember-who-you-are/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/the-path-of-totality/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/the-paradigm-shift/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/the-serenity-of-suffering/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/the-nothing/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/korn/requiem/",
+      "destination": "/artista/korn/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/ligabue/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/lambrusco-coltelli-rose-pop-corn/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/a-che-ora-e-la-fine-del-mondo/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/miss-mondo/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/fuori-come-va/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/arrivederci-mostro/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/mondovisione/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/made-in-italy/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/start/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/7/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ligabue/dedicato-a-noi/",
+      "destination": "/artista/ligabue/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/minutes-to-midnight/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/a-thousand-suns/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/living-things/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/the-hunting-party/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/one-more-light/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/linkin-park/from-zero/",
+      "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/1999/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/terra-di-gaibola/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/il-giorno-aveva-cinque-teste/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/anidride-solforosa/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/automobili/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/lucio-dalla/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/dalla/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/1983/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/viaggi-organizzati/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/lucio-dalla-marco-di-marco/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/bugie/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/dalla-morandi/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/cambio/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/blues-for-love/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/henna/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/canzoni/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/ciao/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/luna-matana/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/lucio/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/il-contrario-di-me/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-dalla/angoli-nel-cielo/",
+      "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/killing-is-my-business-and-business-is-good/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/so-far-so-good-so-what/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/rust-in-peace/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/youthanasia/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/cryptic-writings/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/risk/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/the-world-needs-a-hero/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/the-system-has-failed/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/united-abominations/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/endgame/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/thirteen/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/super-collider/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/dystopia/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/megadeth/the-sick-the-dying-and-the-dead/",
+      "destination": "/artista/megadeth/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/kill-em-all/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/ride-the-lightning/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/load/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/reload/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/st-anger/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/death-magnetic/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/hardwired-to-self-destruct/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/metallica/72-seasons/",
+      "destination": "/artista/metallica/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/got-to-be-there/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/ben/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/music-me/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/forever-michael/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/bad/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/dangerous/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/history-past-present-and-future-book-i/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/michael-jackson/invincible/",
+      "destination": "/artista/michael-jackson/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/motorhead/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/bomber/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/iron-fist/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/another-perfect-day/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/orgasmatron/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/rock-n-roll/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/1916/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/march-or-die/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/bastards/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/sacrifice/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/overnight-sensation/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/snake-bite-love/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/we-are-motorhead/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/hammered/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/inferno/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/kiss-of-death/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/motorizer/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/the-world-is-yours/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/aftershock/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/motorhead/bad-magic/",
+      "destination": "/artista/motorhead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/showbiz/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/origin-of-symmetry/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/absolution/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/the-2nd-law/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/simulation-theory/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/will-of-the-people/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/muse/the-wow-signal/",
+      "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/pretty-hate-machine/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/the-fragile/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/with-teeth/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/year-zero/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/hesitation-marks/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nine-inch-nails/bad-witch/",
+      "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/oasis/be-here-now/",
+      "destination": "/artista/oasis/",
+      "permanent": true
+    },
+    {
+      "source": "/album/oasis/standing-on-the-shoulder-of-giants/",
+      "destination": "/artista/oasis/",
+      "permanent": true
+    },
+    {
+      "source": "/album/oasis/heathen-chemistry/",
+      "destination": "/artista/oasis/",
+      "permanent": true
+    },
+    {
+      "source": "/album/oasis/dont-believe-the-truth/",
+      "destination": "/artista/oasis/",
+      "permanent": true
+    },
+    {
+      "source": "/album/oasis/dig-out-your-soul/",
+      "destination": "/artista/oasis/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/diary-of-a-madman/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/the-ultimate-sin/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/no-rest-for-the-wicked/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/no-more-tears/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/ozzmosis/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/down-to-earth/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/under-cover/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/black-rain/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/scream/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/ordinary-man/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ozzy-osbourne/patient-number-9/",
+      "destination": "/artista/ozzy-osbourne/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/metal-magic/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/projects-in-the-jungle/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/i-am-the-night/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/power-metal/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/far-beyond-driven/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/the-great-southern-trendkill/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pantera/reinventing-the-steel/",
+      "destination": "/artista/pantera/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/vs/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/vitalogy/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/no-code/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/yield/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/binaural/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/riot-act/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/pearl-jam/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/backspacer/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/lightning-bolt/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/gigaton/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pearl-jam/dark-matter/",
+      "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rage-against-the-machine/the-battle-of-los-angeles/",
+      "destination": "/artista/rage-against-the-machine/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rage-against-the-machine/renegades/",
+      "destination": "/artista/rage-against-the-machine/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/herzeleid/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/reise-reise/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/rosenrot/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/liebe-ist-fur-alle-da/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/rammstein/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rammstein/zeit/",
+      "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/show-no-mercy/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/hell-awaits/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/south-of-heaven/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/seasons-in-the-abyss/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/divine-intervention/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/undisputed-attitude/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/diabolus-in-musica/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/god-hates-us-all/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/christ-illusion/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/world-painted-blood/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slayer/repentless/",
+      "destination": "/artista/slayer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slipknot/iowa/",
+      "destination": "/artista/slipknot/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slipknot/vol-3-the-subliminal-verses/",
+      "destination": "/artista/slipknot/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slipknot/5-the-gray-chapter/",
+      "destination": "/artista/slipknot/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slipknot/we-are-not-your-kind/",
+      "destination": "/artista/slipknot/",
+      "permanent": true
+    },
+    {
+      "source": "/album/slipknot/the-end-so-far/",
+      "destination": "/artista/slipknot/",
+      "permanent": true
+    },
+    {
+      "source": "/album/sum-41/underclass-hero/",
+      "destination": "/artista/sum-41/",
+      "permanent": true
+    },
+    {
+      "source": "/album/sum-41/screaming-bloody-murder/",
+      "destination": "/artista/sum-41/",
+      "permanent": true
+    },
+    {
+      "source": "/album/sum-41/13-voices/",
+      "destination": "/artista/sum-41/",
+      "permanent": true
+    },
+    {
+      "source": "/album/sum-41/order-in-decline/",
+      "destination": "/artista/sum-41/",
+      "permanent": true
+    },
+    {
+      "source": "/album/sum-41/heaven-x-hell/",
+      "destination": "/artista/sum-41/",
+      "permanent": true
+    },
+    {
+      "source": "/album/system-of-a-down/system-of-a-down/",
+      "destination": "/artista/system-of-a-down/",
+      "permanent": true
+    },
+    {
+      "source": "/album/system-of-a-down/steal-this-album/",
+      "destination": "/artista/system-of-a-down/",
+      "permanent": true
+    },
+    {
+      "source": "/album/system-of-a-down/hypnotize/",
+      "destination": "/artista/system-of-a-down/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/ma-cosa-vuoi-che-sia-una-canzone/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/colpa-dalfredo/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/siamo-solo-noi/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/vado-al-massimo/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/cosa-succede-in-citta/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/ce-chi-dice-no/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/liberi-liberi/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/gli-spari-sopra/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/canzoni-per-me/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/stupido-hotel/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/buoni-o-cattivi/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/il-mondo-che-vorrei/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/vivere-o-niente/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/sono-innocente/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/vasco-rossi/siamo-qui/",
+      "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/logo.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/favicon.ico",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/favicon-32.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/favicon-192.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/og/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

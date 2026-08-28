@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen.">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/ligabue/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,76 +663,62 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/ligabue/ligabue/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Ligabue</span><span class="nota">disco d'oro</span></span>
-          <span class="anno">1990</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/lambrusco-coltelli-rose-pop-corn/">
+          <span class="anno">1990</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Lambrusco coltelli rose &amp; pop corn</span><span class="nota">5x disco di platino</span></span>
-          <span class="anno">1991</span>
-        </a>
+          <span class="anno">1991</span></div>
         <a class="disco" href="../../album/ligabue/sopravvissuti-e-sopravviventi/">
           <span class="indice">03</span>
           <span><span class="titolo">Sopravvissuti e sopravviventi</span><span class="nota">3x disco di platino</span></span>
-          <span class="anno">1993</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/a-che-ora-e-la-fine-del-mondo/">
+          <span class="anno">1993</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">A che ora è la fine del mondo?</span><span class="nota">3x disco di platino</span></span>
-          <span class="anno">1994</span>
-        </a>
+          <span class="anno">1994</span></div>
         <a class="disco" href="../../album/ligabue/buon-compleanno-elvis/">
           <span class="indice">05</span>
           <span><span class="titolo">Buon compleanno Elvis</span><span class="nota">10x disco di platino, disco di platino anche in Europa, uno dei suoi maggiori successi commerciali</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/miss-mondo/">
+          <span class="anno">1995</span></a>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Miss Mondo</span><span class="nota">5x disco di platino</span></span>
-          <span class="anno">1999</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/fuori-come-va/">
+          <span class="anno">1999</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Fuori come va?</span><span class="nota">5x disco di platino e disco d'oro</span></span>
-          <span class="anno">2002</span>
-        </a>
+          <span class="anno">2002</span></div>
         <a class="disco" href="../../album/ligabue/nome-e-cognome/">
           <span class="indice">08</span>
           <span><span class="titolo">Nome e cognome</span><span class="nota">5x disco di platino e disco d'oro</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/arrivederci-mostro/">
+          <span class="anno">2005</span></a>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Arrivederci, mostro!</span><span class="nota">disco di diamante</span></span>
-          <span class="anno">2010</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/mondovisione/">
+          <span class="anno">2010</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Mondovisione</span><span class="nota">7x disco di platino</span></span>
-          <span class="anno">2013</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/made-in-italy/">
+          <span class="anno">2013</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Made in Italy</span><span class="nota">3x disco di platino</span></span>
-          <span class="anno">2016</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/start/">
+          <span class="anno">2016</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Start</span><span class="nota">2x disco di platino</span></span>
-          <span class="anno">2019</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/7/">
+          <span class="anno">2019</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">7</span><span class="nota">disco di platino</span></span>
-          <span class="anno">2020</span>
-        </a>
-        <a class="disco" href="../../album/ligabue/dedicato-a-noi/">
+          <span class="anno">2020</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Dedicato a noi</span><span class="nota">disco d'oro, ultimo album in studio pubblicato</span></span>
-          <span class="anno">2023</span>
-        </a>
+          <span class="anno">2023</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">La canzone &quot;Certe notti&quot; ha vinto la Targa Tenco per la migliore canzone</p>
     </section>

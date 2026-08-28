@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Fondati a Los Angeles nell'ottobre 1981 dal chitarrista James Hetfield e dal batterista danese Lars Ulrich, dopo che quest'ultimo aveva pubblicato un…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/metallica/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -668,61 +673,50 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/metallica/kill-em-all/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Kill 'Em All</span><span class="nota">certificato 3x Platino RIAA</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/metallica/ride-the-lightning/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">02</span>
           <span><span class="titolo">Ride the Lightning</span><span class="nota">certificato 6x Platino RIAA</span></span>
-          <span class="anno">1984</span>
-        </a>
+          <span class="anno">1984</span></div>
         <a class="disco" href="../../album/metallica/master-of-puppets/">
           <span class="indice">03</span>
           <span><span class="titolo">Master of Puppets</span><span class="nota">certificato 8x Platino RIAA, inserito nel National Recording Registry della Biblioteca del Congresso USA nel 2016</span></span>
-          <span class="anno">1986</span>
-        </a>
+          <span class="anno">1986</span></a>
         <a class="disco" href="../../album/metallica/and-justice-for-all/">
           <span class="indice">04</span>
           <span><span class="titolo">...And Justice for All</span><span class="nota">certificato 8x Platino RIAA</span></span>
-          <span class="anno">1988</span>
-        </a>
+          <span class="anno">1988</span></a>
         <a class="disco" href="../../album/metallica/metallica-black-album/">
           <span class="indice">05</span>
           <span><span class="titolo">Metallica (&quot;Black Album&quot;)</span><span class="nota">certificato 2x Diamond RIAA, oltre 20 milioni di copie negli USA, Grammy Best Metal Performance nel 1992, debuttò al numero 1</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/metallica/load/">
+          <span class="anno">1991</span></a>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Load</span><span class="nota">certificato 5x Platino RIAA, debuttò al numero 1</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/metallica/reload/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Reload</span><span class="nota">certificato 4x Platino RIAA, debuttò al numero 1</span></span>
-          <span class="anno">1997</span>
-        </a>
-        <a class="disco" href="../../album/metallica/st-anger/">
+          <span class="anno">1997</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">St. Anger</span><span class="nota">certificato 2x Platino RIAA; la title track vinse il Grammy Best Metal Performance nonostante l'accoglienza critica controversa dell'album</span></span>
-          <span class="anno">2003</span>
-        </a>
-        <a class="disco" href="../../album/metallica/death-magnetic/">
+          <span class="anno">2003</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">Death Magnetic</span><span class="nota">certificato 2x Platino RIAA, tre Grammy legati all'album, incluso Best Metal Performance</span></span>
-          <span class="anno">2008</span>
-        </a>
-        <a class="disco" href="../../album/metallica/hardwired-to-self-destruct/">
+          <span class="anno">2008</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">Hardwired... to Self-Destruct</span><span class="nota">certificato Platino RIAA, debuttò al numero 1, candidato al Grammy per Best Rock Song</span></span>
-          <span class="anno">2016</span>
-        </a>
-        <a class="disco" href="../../album/metallica/72-seasons/">
+          <span class="anno">2016</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">72 Seasons</span><span class="nota">primo album della band dal 1988 a non debuttare al numero 1 della Billboard 200 (arrivò secondo)</span></span>
-          <span class="anno">2023</span>
-        </a>
+          <span class="anno">2023</span></div>
       </div>
       <p class="vuoto" style="margin-top:18px">9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo</p>
     </section>

@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Berlino nel 1994, con una formazione rimasta invariata da allora: Till Lindemann (voce), Richard Kruspe e Paul Landers (chitarre), Oliver Riedel…">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/rammstein/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,46 +663,38 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/rammstein/herzeleid/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Herzeleid</span><span class="nota">certificato 2x platino in Germania, argento nel Regno Unito</span></span>
-          <span class="anno">1995</span>
-        </a>
+          <span class="anno">1995</span></div>
         <a class="disco" href="../../album/rammstein/sehnsucht/">
           <span class="indice">02</span>
           <span><span class="titolo">Sehnsucht</span><span class="nota">certificato platino RIAA — unico album interamente in tedesco certificato platino negli USA</span></span>
-          <span class="anno">1997</span>
-        </a>
+          <span class="anno">1997</span></a>
         <a class="disco" href="../../album/rammstein/mutter/">
           <span class="indice">03</span>
           <span><span class="titolo">Mutter</span><span class="nota">certificato 3x platino in Germania, numero 1 in Germania e Svizzera</span></span>
-          <span class="anno">2001</span>
-        </a>
-        <a class="disco" href="../../album/rammstein/reise-reise/">
+          <span class="anno">2001</span></a>
+        <div class="disco disco-assente">
           <span class="indice">04</span>
           <span><span class="titolo">Reise, Reise</span><span class="nota">certificato 7x oro in Germania, numero 1 in Austria, Finlandia, Germania e Svizzera</span></span>
-          <span class="anno">2004</span>
-        </a>
-        <a class="disco" href="../../album/rammstein/rosenrot/">
+          <span class="anno">2004</span></div>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Rosenrot</span><span class="nota">certificato 3x platino in Germania, numero 1 in Germania, Austria e Finlandia</span></span>
-          <span class="anno">2005</span>
-        </a>
-        <a class="disco" href="../../album/rammstein/liebe-ist-fur-alle-da/">
+          <span class="anno">2005</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Liebe ist für alle da</span><span class="nota">certificato 7x oro in Germania</span></span>
-          <span class="anno">2009</span>
-        </a>
-        <a class="disco" href="../../album/rammstein/rammstein/">
+          <span class="anno">2009</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Rammstein</span><span class="nota">certificato disco di diamante in Germania (oltre 750.000 copie)</span></span>
-          <span class="anno">2019</span>
-        </a>
-        <a class="disco" href="../../album/rammstein/zeit/">
+          <span class="anno">2019</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Zeit</span><span class="nota">certificato 2x platino in Germania</span></span>
-          <span class="anno">2022</span>
-        </a>
+          <span class="anno">2022</span></div>
       </div>
       
     </section>

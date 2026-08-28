@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Formati a Londra nel 1975 dal bassista e cantante Lemmy Kilmister, unico membro costante della band, dopo il suo allontanamento dagli Hawkwind.">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/artista/motorhead/">
 <link rel="icon" href="../../favicon.ico" sizes="any">
 <link rel="icon" href="../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
@@ -658,116 +663,94 @@ a { color: inherit; }
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
       <div class="dischi">
-        <a class="disco" href="../../album/motorhead/motorhead/">
+        <div class="disco disco-assente">
           <span class="indice">01</span>
           <span><span class="titolo">Motörhead</span><span class="nota">certificato argento nel Regno Unito, album di debutto</span></span>
-          <span class="anno">1977</span>
-        </a>
+          <span class="anno">1977</span></div>
         <a class="disco" href="../../album/motorhead/overkill/">
           <span class="indice">02</span>
           <span><span class="titolo">Overkill</span><span class="nota">certificato argento nel Regno Unito</span></span>
-          <span class="anno">1979</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/bomber/">
+          <span class="anno">1979</span></a>
+        <div class="disco disco-assente">
           <span class="indice">03</span>
           <span><span class="titolo">Bomber</span><span class="nota">certificato argento nel Regno Unito</span></span>
-          <span class="anno">1979</span>
-        </a>
+          <span class="anno">1979</span></div>
         <a class="disco" href="../../album/motorhead/ace-of-spades/">
           <span class="indice">04</span>
           <span><span class="titolo">Ace of Spades</span><span class="nota">certificato oro nel Regno Unito, considerato il loro album più iconico e influente (citato da Metallica, Megadeth, Slayer e Anthrax tra le proprie influenze)</span></span>
-          <span class="anno">1980</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/iron-fist/">
+          <span class="anno">1980</span></a>
+        <div class="disco disco-assente">
           <span class="indice">05</span>
           <span><span class="titolo">Iron Fist</span><span class="nota">certificato argento nel Regno Unito</span></span>
-          <span class="anno">1982</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/another-perfect-day/">
+          <span class="anno">1982</span></div>
+        <div class="disco disco-assente">
           <span class="indice">06</span>
           <span><span class="titolo">Another Perfect Day</span></span>
-          <span class="anno">1983</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/orgasmatron/">
+          <span class="anno">1983</span></div>
+        <div class="disco disco-assente">
           <span class="indice">07</span>
           <span><span class="titolo">Orgasmatron</span></span>
-          <span class="anno">1986</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/rock-n-roll/">
+          <span class="anno">1986</span></div>
+        <div class="disco disco-assente">
           <span class="indice">08</span>
           <span><span class="titolo">Rock 'n' Roll</span></span>
-          <span class="anno">1987</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/1916/">
+          <span class="anno">1987</span></div>
+        <div class="disco disco-assente">
           <span class="indice">09</span>
           <span><span class="titolo">1916</span></span>
-          <span class="anno">1991</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/march-or-die/">
+          <span class="anno">1991</span></div>
+        <div class="disco disco-assente">
           <span class="indice">10</span>
           <span><span class="titolo">March ör Die</span></span>
-          <span class="anno">1992</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/bastards/">
+          <span class="anno">1992</span></div>
+        <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Bastards</span></span>
-          <span class="anno">1993</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/sacrifice/">
+          <span class="anno">1993</span></div>
+        <div class="disco disco-assente">
           <span class="indice">12</span>
           <span><span class="titolo">Sacrifice</span></span>
-          <span class="anno">1995</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/overnight-sensation/">
+          <span class="anno">1995</span></div>
+        <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Overnight Sensation</span></span>
-          <span class="anno">1996</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/snake-bite-love/">
+          <span class="anno">1996</span></div>
+        <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Snake Bite Love</span></span>
-          <span class="anno">1998</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/we-are-motorhead/">
+          <span class="anno">1998</span></div>
+        <div class="disco disco-assente">
           <span class="indice">15</span>
           <span><span class="titolo">We Are Motörhead</span></span>
-          <span class="anno">2000</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/hammered/">
+          <span class="anno">2000</span></div>
+        <div class="disco disco-assente">
           <span class="indice">16</span>
           <span><span class="titolo">Hammered</span></span>
-          <span class="anno">2002</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/inferno/">
+          <span class="anno">2002</span></div>
+        <div class="disco disco-assente">
           <span class="indice">17</span>
           <span><span class="titolo">Inferno</span></span>
-          <span class="anno">2004</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/kiss-of-death/">
+          <span class="anno">2004</span></div>
+        <div class="disco disco-assente">
           <span class="indice">18</span>
           <span><span class="titolo">Kiss of Death</span></span>
-          <span class="anno">2006</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/motorizer/">
+          <span class="anno">2006</span></div>
+        <div class="disco disco-assente">
           <span class="indice">19</span>
           <span><span class="titolo">Motörizer</span></span>
-          <span class="anno">2008</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/the-world-is-yours/">
+          <span class="anno">2008</span></div>
+        <div class="disco disco-assente">
           <span class="indice">20</span>
           <span><span class="titolo">The Wörld Is Yours</span></span>
-          <span class="anno">2010</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/aftershock/">
+          <span class="anno">2010</span></div>
+        <div class="disco disco-assente">
           <span class="indice">21</span>
           <span><span class="titolo">Aftershock</span><span class="nota">certificato oro in Germania (BVMI)</span></span>
-          <span class="anno">2013</span>
-        </a>
-        <a class="disco" href="../../album/motorhead/bad-magic/">
+          <span class="anno">2013</span></div>
+        <div class="disco disco-assente">
           <span class="indice">22</span>
           <span><span class="titolo">Bad Magic</span><span class="nota">certificato oro in Germania (BVMI), ultimo album pubblicato prima della morte di Lemmy</span></span>
-          <span class="anno">2015</span>
-        </a>
+          <span class="anno">2015</span></div>
       </div>
       
     </section>

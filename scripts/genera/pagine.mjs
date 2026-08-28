@@ -140,6 +140,13 @@ function annoDi(c) {
   return String(c.anno || '').match(/\d{4}/)?.[0] || c.anno || '';
 }
 
+/** F53/F55: il primo gruppo di quattro cifre, mai un parsing posizionale su
+ * formati "singolo / album" che non sono sempre nello stesso ordine. */
+function primoAnno(annoRaw) {
+  const m = String(annoRaw || '').match(/\d{4}/);
+  return m ? parseInt(m[0], 10) : null;
+}
+
 /** F45: unisce l'entità principale della pagina ai dati strutturati BreadcrumbList,
  * nello stesso ordine del percorso visibile (`nav.briciole`). */
 function conBreadcrumb(entita, voci) {
@@ -161,7 +168,10 @@ export function paginaCanzone(c, ctx) {
   const r = radice(2);
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
   const altre = (artista?.canzoni || []).filter((s) => s !== c.slug).slice(0, 6).map((s) => ctx.canzoniPerSlug.get(s));
-  const albumNoto = c.albumSlug && ctx.albumPerSlug.has(`${c.artistaSlug}/${c.albumSlug}`);
+  // F51: il link usa lo slug di pagina disambiguato (F53), non lo slug
+  // originale della canzone — nei rari casi di collisione non sono lo stesso.
+  const albumSlugPagina = c._albumSlugPagina;
+  const albumNoto = albumSlugPagina && ctx.albumPerSlug.has(`${c.artistaSlug}/${albumSlugPagina}`);
 
   const corpoHtml = c.corpo.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
 
@@ -255,7 +265,7 @@ export function paginaCanzone(c, ctx) {
       <div class="azioni">
         ${c.testoUrl ? `<a class="bottone pieno" href="${esc(c.testoUrl)}" target="_blank" rel="noopener">Leggi il testo su ${esc(c.testoFonte || 'fonte esterna')}</a>` : ''}
         <a class="bottone" href="${r}artista/${c.artistaSlug}/">Tutto su ${esc(c.artista)}</a>
-        ${albumNoto ? `<a class="bottone" href="${r}album/${c.artistaSlug}/${c.albumSlug}/">L'album ${esc(c.album)}</a>` : ''}
+        ${albumNoto ? `<a class="bottone" href="${r}album/${c.artistaSlug}/${albumSlugPagina}/">L'album ${esc(c.album)}</a>` : ''}
       </div>
     </section>
 
@@ -340,7 +350,10 @@ function rigaArtista(a, r) {
 export function paginaArtista(a, ctx) {
   const r = radice(2);
   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
-  const albumVeri = a.album.filter((x) => x.titolo);
+  // F50/F51: la discografia mostra tutte le voci (originali + quelle emerse
+  // dalle canzoni raccontate), ordinate per anno; quelle senza pagina restano
+  // testo semplice invece di un link morto — il disco esiste, la pagina no.
+  const albumVeri = [...(ctx.albumPerArtista.get(a.slug) || [])].sort((x, y) => (primoAnno(x.anno) || 0) - (primoAnno(y.anno) || 0));
   const note = a.album.filter((x) => !x.titolo && x.nota);
 
   const arco = a.annoPrimo ? (a.annoPrimo === a.annoUltimo ? `${a.annoPrimo}` : `${a.annoPrimo}–${a.annoUltimo}`) : '—';
@@ -396,13 +409,16 @@ export function paginaArtista(a, ctx) {
       <h2>Discografia in studio</h2>
       <div class="dischi">
         ${albumVeri
-          .map(
-            (d, i) => `<a class="disco" href="${r}album/${a.slug}/${d.slug}/">
+          .map((d, i) => {
+            const interno = `
           <span class="indice">${String(i + 1).padStart(2, '0')}</span>
           <span><span class="titolo">${esc(d.titolo)}</span>${d.nota ? `<span class="nota">${esc(d.nota)}</span>` : ''}</span>
-          <span class="anno">${esc(d.anno || '')}</span>
-        </a>`
-          )
+          <span class="anno">${esc(d.anno || '')}</span>`;
+            // F50: senza pagina propria il disco resta testo, non un link morto.
+            return d.esiste
+              ? `<a class="disco" href="${r}album/${a.slug}/${d.slug}/">${interno}</a>`
+              : `<div class="disco disco-assente">${interno}</div>`;
+          })
           .join('\n        ')}
       </div>
       ${note.length ? `<p class="vuoto" style="margin-top:18px">${note.map((n) => esc(n.nota)).join(` ${SEGNO} `)}</p>` : ''}
@@ -440,6 +456,9 @@ export function paginaArtista(a, ctx) {
     identita: a.colore || undefined,
     identitaContrasto: a.colore ? suColore(a.colore) : undefined,
     totali: ctx.totali,
+    // F52: senza storia e con meno di tre canzoni raccontate, la pagina resta
+    // pubblicata (P6 impone che esista) ma fuori dall'indice dei motori.
+    noindexFollow: !a._indicizzabile,
     corpo,
     datiStrutturati: conBreadcrumb(
       {
@@ -462,9 +481,12 @@ export function paginaArtista(a, ctx) {
 export function paginaAlbum(al, ctx) {
   const r = radice(3);
   const a = ctx.artistiPerSlug.get(al.artistaSlug);
+  // F53: confronta lo slug di pagina disambiguato, non lo slug originale della
+  // canzone — nel caso di due album omonimi (es. Korn 1994/2007) i due slug
+  // divergono per tutte le voci tranne la più vecchia, che li conserva uguali.
   const brani = (a?.canzoni || [])
     .map((s) => ctx.canzoniPerSlug.get(s))
-    .filter((c) => c && c.albumSlug === al.slug);
+    .filter((c) => c && c._albumSlugPagina === al.slug);
 
   const corpo = `
   <div class="col">
@@ -530,6 +552,10 @@ export function paginaAlbum(al, ctx) {
     identita: al.colore || undefined,
     identitaContrasto: al.colore ? suColore(al.colore) : undefined,
     totali: ctx.totali,
+    // F50: con meno di tre canzoni raccontate e nessuna copertina documentata,
+    // la pagina esiste (chi ha il link diretto la trova) ma resta fuori
+    // dall'indice dei motori.
+    noindexFollow: !al.indicizzabile,
     corpo,
     datiStrutturati: conBreadcrumb(
       {

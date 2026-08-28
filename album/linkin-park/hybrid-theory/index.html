@@ -13,6 +13,7 @@
 })();
 </script>
 <meta name="description" content="Hybrid Theory di Linkin Park (2000): certificato Diamond RIAA (11+ milioni di copie negli USA), Grammy Best Hard Rock Performance per &quot;Crawling&quot; nel 2002, album più venduto negli USA nel 2001.">
+
 <link rel="canonical" href="https://www.dietroiltesto.it/album/linkin-park/hybrid-theory/">
 <link rel="icon" href="../../../favicon.ico" sizes="any">
 <link rel="icon" href="../../../favicon-32.png" type="image/png" sizes="32x32">
@@ -533,6 +534,10 @@ a { color: inherit; }
 .disco .titolo { font-family: var(--font-display); font-style: italic; font-size: 19px; }
 .disco .nota { display: block; color: var(--text-muted); font-size: 13.5px; margin-top: 3px; max-width: 74ch; }
 .disco .anno { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+/* F50: album senza pagina propria — il disco esiste, il link no */
+.disco-assente { cursor: default; opacity: .65; }
+.disco-assente:hover { background: none; }
+.disco-assente .titolo { font-style: normal; }
 @media (max-width: 720px) {
   .disco { grid-template-columns: 26px 1fr; }
   .disco .anno { grid-column: 2; }
