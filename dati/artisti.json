@@ -224,6 +224,12 @@
         "anno": "1970",
         "nota": "numero 1 nel Regno Unito, certificato 4x platino RIAA",
         "copertina": "Il fotografo Keith McMillan ritrasse il suo assistente Roger Brown vestito di rosa e giallo con spada e scudo — immagine pensata per il titolo originale \"War Pigs\"; quando l'etichetta impose il titolo \"Paranoid\" per motivi legati alla guerra in Vietnam, la copertina non fu cambiata e non ha quindi alcun legame reale con la canzone, come ammesso dallo stesso Ozzy Osbourne.",
+        "copertinaFonte": [
+          {
+            "url": "https://au.rollingstone.com/music/music-features/black-sabbath-cover-art-keef-keith-macmillan-interview-7490",
+            "nome": "Rolling Stone"
+          }
+        ],
         "slug": "paranoid"
       },
       {
@@ -384,7 +390,13 @@
         "titolo": "Enema of the State",
         "anno": "1999",
         "nota": "certificato 5x Platino RIAA, circa 15 milioni di copie vendute nel mondo, il loro album di maggior successo; contiene \"What's My Age Again?\", \"All the Small Things\" e \"Adam's Song\"",
-        "copertina": "Concept del fotografo David Goldman con la modella e infermiera Janine Lindemulder; Mark Hoppus dichiarò a CMJ New Music Monthly di aver voluto \"un'infermiera sexy\" in copertina. La croce rossa dovette essere modificata digitalmente dopo le proteste della Croce Rossa Americana.",
+        "copertina": "Concept del fotografo David Goldman con la modella e infermiera Janine Lindemulder; Mark Hoppus dichiarò a CMJ New Music Monthly di aver voluto \"un'infermiera sexy\" in copertina.",
+        "copertinaFonte": [
+          {
+            "url": "https://americansongwriter.com/behind-blink-182s-suggestive-enema-of-the-state-album-cover/",
+            "nome": "American Songwriter"
+          }
+        ],
         "slug": "enema-of-the-state"
       },
       {
@@ -491,7 +503,17 @@
         "titolo": "Sempiternal",
         "anno": "2013",
         "nota": "primo album per una major, certificato platino nel Regno Unito e in Australia, oro negli USA",
-        "copertina": "La copertina, disegnata dal cantante Oli Sykes, riprende il \"Fiore della Vita\", un antico simbolo geometrico legato a eternità e interconnessione — in linea col titolo dell'album.",
+        "copertina": "La copertina riprende il \"Fiore della Vita\", un antico simbolo geometrico legato a eternità e interconnessione che il cantante Oli Sykes ha raccontato di aver scoperto e voluto per l'album, pur riconoscendo di non esserne l'autore (\"non è il nostro simbolo, è un simbolo molto antico\"); la grafica fu realizzata dal designer Arn Gyssels su incarico dell'etichetta.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.nme.com/news/music/bring-me-the-horizon-16-1199173",
+            "nome": "NME"
+          },
+          {
+            "url": "https://www.behance.net/gallery/36296189/Sempiternal-Bring-Me-The-Horizon",
+            "nome": "Behance (portfolio di Arn Gyssels)"
+          }
+        ],
         "slug": "sempiternal"
       },
       {
@@ -499,6 +521,12 @@
         "anno": "2015",
         "nota": "certificato platino nel Regno Unito e in Australia, oro negli USA e in diversi paesi europei",
         "copertina": "Sykes ha descritto il concept dell'album attingendo alla psicologia junghiana dell'\"ombra\" — la parte di sé che si preferirebbe non riconoscere — proponendo l'opera come una celebrazione del lato oscuro invece che la sua negazione.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.theprp.com/2015/09/10/news/bring-me-the-horizons-oli-sykes-explains-thats-the-spirit-concept-artwork/",
+            "nome": "The PRP"
+          }
+        ],
         "slug": "thats-the-spirit"
       },
       {
@@ -1451,7 +1479,13 @@
         "titolo": "American Idiot",
         "anno": "2004",
         "nota": "certificato 6x Platino RIAA, Grammy Best Rock Album 2005; il singolo \"Boulevard of Broken Dreams\" vinse il Grammy Record of the Year",
-        "copertina": "Il designer Chris Bilheimer creò la granata a forma di cuore dopo aver ascoltato il verso \"she's holding on my heart like a hand grenade\" (da \"She's a Rebel\"), ispirandosi al poster di Saul Bass per \"L'uomo dal braccio d'oro\"; la band citò come influenza anche la propaganda comunista cinese.",
+        "copertina": "Il designer Chris Bilheimer creò la granata a forma di cuore ispirandosi ai vecchi poster cinematografici di Saul Bass che Billie Joe Armstrong gli mostrò al telefono; il disegno fu completato in circa mezz'ora.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.greendayauthority.com/news/4876/",
+            "nome": "Green Day Authority (intervista WWD)"
+          }
+        ],
         "slug": "american-idiot"
       },
       {
@@ -2179,7 +2213,13 @@
         "titolo": "Hybrid Theory",
         "anno": "2000",
         "nota": "certificato Diamond RIAA (11+ milioni di copie negli USA), Grammy Best Hard Rock Performance per \"Crawling\" nel 2002, album più venduto negli USA nel 2001",
-        "copertina": "Il soldato alato in stile stencil fu disegnato da Mike Shinoda e realizzato da Frank Maddocks, ispirato all'arte da graffiti in stile Banksy; le ali di libellula, sovrapposte digitalmente, rappresentano la fusione di elementi duri e morbidi del disco, come spiegato da Chester Bennington.",
+        "copertina": "Il soldato alato in stile stencil fu disegnato dallo stesso Mike Shinoda; le ali di libellula rappresentano la fusione di elementi duri e morbidi del disco, come spiegato da Chester Bennington.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.nme.com/blogs/nme-blogs/linkin-parks-hybrid-theory-turns-15-the-story-behind-nu-metals-breakthrough-moment-760711",
+            "nome": "NME"
+          }
+        ],
         "slug": "hybrid-theory"
       },
       {
@@ -2652,7 +2692,13 @@
         "titolo": "Metallica (\"Black Album\")",
         "anno": "1991",
         "nota": "certificato 2x Diamond RIAA, oltre 20 milioni di copie negli USA, Grammy Best Metal Performance nel 1992, debuttò al numero 1",
-        "copertina": "Il design minimalista fu voluto da Lars Ulrich, stanco della somiglianza tra le copertine metal dell'epoca; il serpente arrotolato richiama la bandiera \"Don't Tread on Me\" del 1776, in linea col messaggio di sfida dell'album, come spiegato da Hetfield.",
+        "copertina": "Il design minimalista fu voluto da Lars Ulrich, stanco dell'estetica \"cartoni animati, acciaio e sangue\" delle copertine metal dell'epoca; il serpente arrotolato richiama la bandiera \"Don't Tread on Me\" del 1776, tema condiviso anche da un brano dell'album.",
+        "copertinaFonte": [
+          {
+            "url": "https://ultimateclassicrock.com/metallica-black-album-cover/",
+            "nome": "Ultimate Classic Rock"
+          }
+        ],
         "slug": "metallica-black-album"
       },
       {
@@ -2760,6 +2806,12 @@
         "anno": "1982",
         "nota": "l'album più venduto della storia (circa 66-70 milioni di copie nel mondo), 33x Platino RIAA, 8 Grammy vinti nel 1984 incluso Album of the Year",
         "copertina": "Scattata dal fotografo Dick Zimmerman: il celebre completo bianco non era previsto, ma apparteneva allo stesso fotografo — Jackson lo notò e chiese di indossarlo dopo essere rimasto insoddisfatto degli abiti preparati.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.yahoo.com/entertainment/music/articles/unbelievable-story-behind-thriller-album-220000349.html",
+            "nome": "Yahoo Entertainment (intervista Art of Design)"
+          }
+        ],
         "slug": "thriller"
       },
       {
