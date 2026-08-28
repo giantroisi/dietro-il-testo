@@ -319,6 +319,10 @@ export function paginaCanzone(c, ctx) {
   const r = radice(2);
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
   const altre = (artista?.canzoni || []).filter((s) => s !== c.slug).slice(0, 6).map((s) => ctx.canzoniPerSlug.get(s));
+  // F60: esattamente quattro collegamenti orizzontali, scelti da una regola
+  // deterministica per affinità (album, artista, genere+decennio, genere,
+  // decennio) e riequilibrati perché nessuna scheda resti isolata.
+  const collegate = (c._collegamenti || []).map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
   // F51: il link usa lo slug di pagina disambiguato (F53), non lo slug
   // originale della canzone — nei rari casi di collisione non sono lo stesso.
   const albumSlugPagina = c._albumSlugPagina;
@@ -438,6 +442,17 @@ export function paginaCanzone(c, ctx) {
       </div>
     </section>
 
+    ${
+      collegate.length
+        ? `<section class="blocco" id="continua">
+      <h2>Continua da qui</h2>
+      <div class="griglia">
+        ${collegate.map((x) => schedaCanzone(x, r, { conArtista: true })).join('\n        ')}
+      </div>
+    </section>`
+        : ''
+    }
+
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
       ${c.fonti.length ? gruppiFonti(c.fonti) : `<p class="vuoto">Fonti da collegare.</p>`}
@@ -513,10 +528,13 @@ export function paginaCanzone(c, ctx) {
 
 // ------------------------------------------------------------ schede/righe
 
-export function schedaCanzone(c, r) {
+// F60: il testo del collegamento è sempre titolo e artista, mai "leggi di
+// più" — `conArtista` mostra l'artista al posto dell'album, utile dove
+// l'album sarebbe ambiguo o assente (i collegamenti fra artisti diversi).
+export function schedaCanzone(c, r, { conArtista = false } = {}) {
   if (!c) return '';
   return `<a class="scheda" href="${r}canzone/${c.slug}/" style="--identita:${c.colore || 'var(--sistema)'}">
-          <span class="sopra">${conSegno([c.album, annoDi(c)])}</span>
+          <span class="sopra">${conSegno(conArtista ? [c.artista, annoDi(c)] : [c.album, annoDi(c)])}</span>
           <span class="titolo">${esc(c.titolo)}</span>
           ${richiamo(c) ? `<span class="gancio">${esc(richiamo(c))}</span>` : ''}
         </a>`;

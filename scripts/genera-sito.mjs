@@ -214,6 +214,94 @@ for (const c of canzoni) {
   c._decennioPubblicato = c._decennioNumero !== null && decenniPubblicatiSlug.has(String(c._decennioNumero)) ? String(c._decennioNumero) : null;
 }
 
+// -------------------------------------------------------- F60: la rete
+
+// Cinque livelli di affinità decrescente (ROADMAP.md, sezione 11.8): stesso
+// album, poi stesso artista, poi genere e decennio insieme, poi solo genere,
+// poi solo decennio. L'ordine non è arbitrario — è quello che rende la scelta
+// deterministica e riproducibile a ogni rigenerazione, mai a discrezione.
+function livelloAffinita(a, b) {
+  if (a.artistaSlug === b.artistaSlug && a._albumSlugPagina && a._albumSlugPagina === b._albumSlugPagina) return 1;
+  if (a.artistaSlug === b.artistaSlug) return 2;
+  const genereComune = (a.generi || []).some((g) => (b.generi || []).includes(g));
+  const stessoDecennio = a._decennioNumero !== null && a._decennioNumero === b._decennioNumero;
+  if (genereComune && stessoDecennio) return 3;
+  if (genereComune) return 4;
+  if (stessoDecennio) return 5;
+  return null; // nessuna affinità: non diventa mai un candidato
+}
+
+const canzoniOrdinateSlug = [...canzoni].sort((a, b) => a.slug.localeCompare(b.slug, 'it'));
+const inboundCount = new Map(canzoni.map((c) => [c.slug, 0]));
+const collegamentiPerSlug = new Map(canzoni.map((c) => [c.slug, []]));
+
+// Dentro ogni livello, i candidati si ordinano per collegamenti in entrata
+// già assegnati (crescente) e a parità per slug — è il meccanismo che
+// distribuisce gli ingressi, non solo le uscite: senza questa regola metà
+// del catalogo resterebbe con zero collegamenti in entrata (provato).
+function candidatiOrdinati(c) {
+  const perLivello = [[], [], [], [], []];
+  for (const altra of canzoni) {
+    if (altra.slug === c.slug) continue;
+    const lvl = livelloAffinita(c, altra);
+    if (lvl === null) continue;
+    perLivello[lvl - 1].push(altra);
+  }
+  const risultato = [];
+  for (const gruppo of perLivello) {
+    gruppo.sort((x, y) => inboundCount.get(x.slug) - inboundCount.get(y.slug) || x.slug.localeCompare(y.slug, 'it'));
+    risultato.push(...gruppo);
+  }
+  return risultato;
+}
+
+// Assegnazione iniziale: si scorrono le canzoni in ordine alfabetico di slug,
+// prendendo i primi quattro candidati liberi da duplicati.
+for (const c of canzoniOrdinateSlug) {
+  const scelti = [];
+  const esclusi = new Set();
+  for (const candidato of candidatiOrdinati(c)) {
+    if (scelti.length >= 4) break;
+    if (esclusi.has(candidato.slug)) continue;
+    scelti.push(candidato.slug);
+    esclusi.add(candidato.slug);
+    inboundCount.set(candidato.slug, inboundCount.get(candidato.slug) + 1);
+  }
+  collegamentiPerSlug.set(c.slug, scelti);
+}
+
+// Passata di riequilibrio: ogni scheda rimasta sotto due collegamenti in
+// entrata viene inserita nel blocco del suo candidato più affine, al posto
+// del bersaglio con più collegamenti in entrata di quel blocco — solo se
+// quel bersaglio ne resta con almeno due dopo la rimozione. Aumentare i
+// posti non risolve (provato a 5/6/7): il problema è strutturale (`volare`
+// è l'unica canzone degli anni '50, rap ha solo quattro brani in tutto).
+let cambiato = true;
+while (cambiato) {
+  cambiato = false;
+  for (const s of canzoniOrdinateSlug) {
+    if (inboundCount.get(s.slug) >= 2) continue;
+    for (const x of candidatiOrdinati(s)) {
+      const bloccoX = collegamentiPerSlug.get(x.slug);
+      if (bloccoX.includes(s.slug)) continue;
+      let bersaglio = null;
+      for (const t of bloccoX) {
+        if (!bersaglio || inboundCount.get(t) > inboundCount.get(bersaglio)) bersaglio = t;
+      }
+      if (bersaglio && inboundCount.get(bersaglio) >= 3) {
+        bloccoX[bloccoX.indexOf(bersaglio)] = s.slug;
+        inboundCount.set(bersaglio, inboundCount.get(bersaglio) - 1);
+        inboundCount.set(s.slug, inboundCount.get(s.slug) + 1);
+        cambiato = true;
+        break;
+      }
+    }
+    if (inboundCount.get(s.slug) >= 2) continue;
+  }
+}
+
+for (const c of canzoni) c._collegamenti = collegamentiPerSlug.get(c.slug);
+
 const dataRevisione = new Date().toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
 const ctx = {
