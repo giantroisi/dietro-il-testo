@@ -140,6 +140,21 @@ function annoDi(c) {
   return String(c.anno || '').match(/\d{4}/)?.[0] || c.anno || '';
 }
 
+/** F45: unisce l'entità principale della pagina ai dati strutturati BreadcrumbList,
+ * nello stesso ordine del percorso visibile (`nav.briciole`). */
+function conBreadcrumb(entita, voci) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      entita,
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: voci.map((v, i) => ({ '@type': 'ListItem', position: i + 1, name: v.nome, item: v.url })),
+      },
+    ],
+  };
+}
+
 // --------------------------------------------------------- pagina canzone
 
 export function paginaCanzone(c, ctx) {
@@ -256,16 +271,22 @@ export function paginaCanzone(c, ctx) {
     ogImage: `og/${c.slug}.png`,
     totali: ctx.totali,
     corpo,
-    datiStrutturati: {
-      '@context': 'https://schema.org',
-      '@type': 'MusicRecording',
-      name: c.titolo,
-      byArtist: { '@type': 'MusicGroup', name: c.artista, url: `${SITO.base}/artista/${c.artistaSlug}/` },
-      ...(c.album ? { inAlbum: { '@type': 'MusicAlbum', name: c.album } } : {}),
-      ...(annoDi(c) ? { datePublished: annoDi(c) } : {}),
-      url: `${SITO.base}/canzone/${c.slug}/`,
-      description: descr,
-    },
+    datiStrutturati: conBreadcrumb(
+      {
+        '@type': 'MusicRecording',
+        name: c.titolo,
+        byArtist: { '@type': 'MusicGroup', name: c.artista, url: `${SITO.base}/artista/${c.artistaSlug}/` },
+        ...(c.album ? { inAlbum: { '@type': 'MusicAlbum', name: c.album } } : {}),
+        ...(annoDi(c) ? { datePublished: annoDi(c) } : {}),
+        url: `${SITO.base}/canzone/${c.slug}/`,
+        description: descr,
+      },
+      [
+        { nome: 'Home', url: `${SITO.base}/` },
+        { nome: c.artista, url: `${SITO.base}/artista/${c.artistaSlug}/` },
+        { nome: c.titolo, url: `${SITO.base}/canzone/${c.slug}/` },
+      ]
+    ),
   });
 }
 
@@ -399,13 +420,19 @@ export function paginaArtista(a, ctx) {
     identitaContrasto: a.colore ? suColore(a.colore) : undefined,
     totali: ctx.totali,
     corpo,
-    datiStrutturati: {
-      '@context': 'https://schema.org',
-      '@type': 'MusicGroup',
-      name: a.nome,
-      url: `${SITO.base}/artista/${a.slug}/`,
-      ...(a.storia ? { description: primaFrase(a.storia, 300) } : {}),
-    },
+    datiStrutturati: conBreadcrumb(
+      {
+        '@type': 'MusicGroup',
+        name: a.nome,
+        url: `${SITO.base}/artista/${a.slug}/`,
+        ...(a.storia ? { description: primaFrase(a.storia, 300) } : {}),
+      },
+      [
+        { nome: 'Home', url: `${SITO.base}/` },
+        { nome: 'Archivio', url: `${SITO.base}/archivio/` },
+        { nome: a.nome, url: `${SITO.base}/artista/${a.slug}/` },
+      ]
+    ),
   });
 }
 
@@ -473,7 +500,9 @@ export function paginaAlbum(al, ctx) {
   return pagina({
     profondita: 3,
     percorso: `album/${al.artistaSlug}/${al.slug}/`,
-    titolo: `${al.titolo} — ${a?.nome || ''}`,
+    // F48: "(album)" evita un <title> identico a quello della canzone omonima
+    // (es. Paranoid il brano vs Paranoid l'album di Black Sabbath).
+    titolo: `${al.titolo} (album) — ${a?.nome || ''}`,
     descrizione: al.nota
       ? `${al.titolo} di ${a?.nome}${al.anno ? ` (${al.anno})` : ''}: ${al.nota}.`
       : `${al.titolo} di ${a?.nome}${al.anno ? ` (${al.anno})` : ''} su Dietro il testo.`,
@@ -481,14 +510,20 @@ export function paginaAlbum(al, ctx) {
     identitaContrasto: al.colore ? suColore(al.colore) : undefined,
     totali: ctx.totali,
     corpo,
-    datiStrutturati: {
-      '@context': 'https://schema.org',
-      '@type': 'MusicAlbum',
-      name: al.titolo,
-      byArtist: { '@type': 'MusicGroup', name: a?.nome, url: `${SITO.base}/artista/${al.artistaSlug}/` },
-      ...(al.anno ? { datePublished: String(al.anno) } : {}),
-      url: `${SITO.base}/album/${al.artistaSlug}/${al.slug}/`,
-    },
+    datiStrutturati: conBreadcrumb(
+      {
+        '@type': 'MusicAlbum',
+        name: al.titolo,
+        byArtist: { '@type': 'MusicGroup', name: a?.nome, url: `${SITO.base}/artista/${al.artistaSlug}/` },
+        ...(al.anno ? { datePublished: String(al.anno) } : {}),
+        url: `${SITO.base}/album/${al.artistaSlug}/${al.slug}/`,
+      },
+      [
+        { nome: 'Home', url: `${SITO.base}/` },
+        { nome: a?.nome || '', url: `${SITO.base}/artista/${al.artistaSlug}/` },
+        { nome: al.titolo, url: `${SITO.base}/album/${al.artistaSlug}/${al.slug}/` },
+      ]
+    ),
   });
 }
 
@@ -517,7 +552,7 @@ export function paginaHome(ctx) {
         <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
       </a>
       <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
-      <p class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</p>
+      <h1 class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</h1>
 
       <div class="cerca grande" data-cerca>
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -588,13 +623,32 @@ export function paginaHome(ctx) {
     totali: ctx.totali,
     ricercaInTestata: false,
     marchioInTestata: false,
+    ogImage: 'og/home.png',
     corpo,
+    // F49: WebSite e Organization collegati via @id, così un motore di ricerca
+    // può attribuire il sito a un editore invece che a un'entità isolata.
+    // Nessun potentialAction/SearchAction: il sito non ha una vera pagina di
+    // risultati raggiungibile da URL, solo una ricerca lato client — dichiararne
+    // una finta violerebbe il principio "verità prima della quantità" (P1).
     datiStrutturati: {
       '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      name: SITO.nome,
-      url: SITO.base + '/',
-      description: SITO.descrizione,
+      '@graph': [
+        {
+          '@type': 'WebSite',
+          '@id': `${SITO.base}/#sito`,
+          name: SITO.nome,
+          url: SITO.base + '/',
+          description: SITO.descrizione,
+          publisher: { '@id': `${SITO.base}/#editore` },
+        },
+        {
+          '@type': 'Organization',
+          '@id': `${SITO.base}/#editore`,
+          name: SITO.nome,
+          url: SITO.base + '/',
+          logo: { '@type': 'ImageObject', url: `${SITO.base}/logo.png` },
+        },
+      ],
     },
   });
 }
@@ -661,7 +715,16 @@ export function paginaArchivio(ctx) {
     titolo: 'Archivio completo',
     descrizione: `Tutte le ${canzoni.length} canzoni e i ${artisti.length} artisti raccontati su Dietro il testo.`,
     totali: ctx.totali,
+    ogImage: 'og/archivio.png',
     corpo,
+    datiStrutturati: {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITO.base}/` },
+        { '@type': 'ListItem', position: 2, name: 'Archivio', item: `${SITO.base}/archivio/` },
+      ],
+    },
   });
 }
 
@@ -730,6 +793,54 @@ export function paginaMetodo(ctx) {
     titolo: 'Metodo e fonti',
     descrizione: 'Come verifichiamo le informazioni, perché non pubblichiamo i testi delle canzoni e quali fonti consideriamo attendibili.',
     totali: ctx.totali,
+    ogImage: 'og/metodo.png',
+    corpo,
+    datiStrutturati: {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITO.base}/` },
+        { '@type': 'ListItem', position: 2, name: 'Metodo', item: `${SITO.base}/metodo/` },
+      ],
+    },
+  });
+}
+
+// ------------------------------------------------------------ errore 404
+
+/** F43: pagina 404 del sito invece di quella generica di Vercel. `noindex`
+ * perché una pagina d'errore non è un contenuto da posizionare. */
+export function paginaErrore404(ctx) {
+  const r = radice(0);
+  const corpo = `
+  <div class="col">
+    <header class="intestazione" style="border-top:0;padding-top:0">
+      <p class="sopratitolo">Errore 404</p>
+      <h1>Questa pagina non esiste.</h1>
+      <p class="sintesi">Il collegamento è sbagliato o la scheda non c'è più. Cerca quello che ti serve, o torna all'archivio.</p>
+    </header>
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <div class="cerca grande" data-cerca>
+        <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input type="search" placeholder="Canzone, artista o band…" aria-label="Cerca nel sito"
+               autocomplete="off" spellcheck="false" data-campo>
+        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+      </div>
+      <div class="azioni" style="margin-top:22px">
+        <a class="bottone pieno" href="${r}">Torna alla home</a>
+        <a class="bottone" href="${r}archivio/">Sfoglia l'archivio</a>
+      </div>
+    </section>
+  </div>`;
+
+  return pagina({
+    profondita: 0,
+    titolo: 'Pagina non trovata',
+    descrizione: 'La pagina che cerchi non esiste su Dietro il testo. Cerca una canzone, un artista o un album, oppure torna alla home.',
+    totali: ctx.totali,
+    noindex: true,
+    ricercaInTestata: false,
     corpo,
   });
 }

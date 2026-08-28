@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { SITO } from './genera/guscio.mjs';
-import { paginaCanzone, paginaArtista, paginaAlbum, paginaHome, paginaArchivio, paginaMetodo } from './genera/pagine.mjs';
+import { paginaCanzone, paginaArtista, paginaAlbum, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404 } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -70,13 +70,32 @@ function scrivi(percorsoRelativo, contenuto) {
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 
-scrivi('index.html', paginaHome(ctx));
-scrivi('archivio/index.html', paginaArchivio(ctx));
-scrivi('metodo/index.html', paginaMetodo(ctx));
+const htmlHome = paginaHome(ctx);
+const htmlArchivio = paginaArchivio(ctx);
+const htmlMetodo = paginaMetodo(ctx);
+scrivi('index.html', htmlHome);
+scrivi('archivio/index.html', htmlArchivio);
+scrivi('metodo/index.html', htmlMetodo);
+scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
 
-for (const c of canzoni) scrivi(`canzone/${c.slug}/index.html`, paginaCanzone(c, ctx));
-for (const a of artisti) scrivi(`artista/${a.slug}/index.html`, paginaArtista(a, ctx));
-for (const al of album) scrivi(`album/${al.artistaSlug}/${al.slug}/index.html`, paginaAlbum(al, ctx));
+const htmlCanzoni = new Map();
+for (const c of canzoni) {
+  const html = paginaCanzone(c, ctx);
+  htmlCanzoni.set(c.slug, html);
+  scrivi(`canzone/${c.slug}/index.html`, html);
+}
+const htmlArtisti = new Map();
+for (const a of artisti) {
+  const html = paginaArtista(a, ctx);
+  htmlArtisti.set(a.slug, html);
+  scrivi(`artista/${a.slug}/index.html`, html);
+}
+const htmlAlbum = new Map();
+for (const al of album) {
+  const html = paginaAlbum(al, ctx);
+  htmlAlbum.set(`${al.artistaSlug}/${al.slug}`, html);
+  scrivi(`album/${al.artistaSlug}/${al.slug}/index.html`, html);
+}
 
 scrivi('ricerca.js', generaRicerca(ctx));
 
@@ -90,17 +109,46 @@ if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { re
 // ------------------------------------------------------- sitemap e robots
 
 const oggi = new Date().toISOString().slice(0, 10);
-const url = (p, priorita) =>
-  `  <url><loc>${SITO.base}/${p}</loc><lastmod>${oggi}</lastmod><priority>${priorita}</priority></url>`;
+
+// F40: `lastmod` riflette una vera modifica di contenuto, non la data di build.
+// Confronta l'HTML appena generato con quello già pubblicato in ROOT (l'ultima
+// versione online, copiata lì dal rituale di pubblicazione) ignorando la sola
+// riga "Ultima revisione" — l'unica che cambierebbe comunque ogni giorno anche
+// a contenuto identico. Se il resto coincide, la pagina riusa il lastmod già
+// presente nella sitemap precedente; altrimenti prende la data di oggi.
+const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
+const senzaRevisione = (html) => html.replace(RIGA_REVISIONE, '');
+
+const vecchiaSitemap = existsSync(join(ROOT, 'sitemap.xml')) ? readFileSync(join(ROOT, 'sitemap.xml'), 'utf8') : '';
+const vecchiLastmod = new Map();
+const prefissoBase = SITO.base + '/';
+for (const m of vecchiaSitemap.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)) {
+  const percorso = m[1].startsWith(prefissoBase) ? m[1].slice(prefissoBase.length) : m[1];
+  vecchiLastmod.set(percorso, m[2]);
+}
+
+function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
+  const fileVecchio = join(ROOT, percorsoFile);
+  if (existsSync(fileVecchio)) {
+    const contenutoVecchio = readFileSync(fileVecchio, 'utf8');
+    if (senzaRevisione(contenutoVecchio) === senzaRevisione(contenutoNuovo) && vecchiLastmod.has(percorsoUrl)) {
+      return vecchiLastmod.get(percorsoUrl);
+    }
+  }
+  return oggi;
+}
+
+const url = (p, priorita, lastmod) =>
+  `  <url><loc>${SITO.base}/${p}</loc><lastmod>${lastmod}</lastmod><priority>${priorita}</priority></url>`;
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${url('', '1.0')}
-${url('archivio/', '0.8')}
-${url('metodo/', '0.5')}
-${canzoni.map((c) => url(`canzone/${c.slug}/`, '0.9')).join('\n')}
-${artisti.map((a) => url(`artista/${a.slug}/`, '0.7')).join('\n')}
-${album.map((al) => url(`album/${al.artistaSlug}/${al.slug}/`, '0.6')).join('\n')}
+${url('', '1.0', lastmodDi('index.html', '', htmlHome))}
+${url('archivio/', '0.8', lastmodDi('archivio/index.html', 'archivio/', htmlArchivio))}
+${url('metodo/', '0.5', lastmodDi('metodo/index.html', 'metodo/', htmlMetodo))}
+${canzoni.map((c) => url(`canzone/${c.slug}/`, '0.9', lastmodDi(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, htmlCanzoni.get(c.slug)))).join('\n')}
+${artisti.map((a) => url(`artista/${a.slug}/`, '0.7', lastmodDi(`artista/${a.slug}/index.html`, `artista/${a.slug}/`, htmlArtisti.get(a.slug)))).join('\n')}
+${album.map((al) => url(`album/${al.artistaSlug}/${al.slug}/`, '0.6', lastmodDi(`album/${al.artistaSlug}/${al.slug}/index.html`, `album/${al.artistaSlug}/${al.slug}/`, htmlAlbum.get(`${al.artistaSlug}/${al.slug}`)))).join('\n')}
 </urlset>
 `;
 scrivi('sitemap.xml', sitemap);

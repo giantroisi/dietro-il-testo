@@ -110,7 +110,7 @@ export function pagina(o) {
 <title>${esc(o.titolo)} | ${esc(SITO.nome)}</title>
 <script>${SCRIPT_TEMA}</script>
 <meta name="description" content="${esc(o.descrizione)}">
-<link rel="canonical" href="${SITO.base}/${o.percorso || ''}">
+${o.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${SITO.base}/${o.percorso || ''}">`}
 <link rel="icon" href="${r}favicon.ico" sizes="any">
 <link rel="icon" href="${r}favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="${r}apple-touch-icon.png">
@@ -118,7 +118,7 @@ export function pagina(o) {
 <meta property="og:site_name" content="${esc(SITO.nome)}">
 <meta property="og:title" content="${esc(o.titolo)}">
 <meta property="og:description" content="${esc(o.descrizione)}">
-<meta property="og:url" content="${SITO.base}/${o.percorso || ''}">
+${o.noindex ? '' : `<meta property="og:url" content="${SITO.base}/${o.percorso || ''}">`}
 <meta property="og:locale" content="it_IT">
 ${
   o.ogImage

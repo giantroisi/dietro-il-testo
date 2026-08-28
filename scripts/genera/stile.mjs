@@ -218,7 +218,8 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
   display: flex; align-items: center; gap: 8px;
 }
-.apertura p.promessa {
+.apertura h1.promessa {
+  font: inherit; font-weight: 400;
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }

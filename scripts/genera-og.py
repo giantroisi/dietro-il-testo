@@ -187,22 +187,92 @@ def genera_immagine(c, destinazione):
     base.convert("RGB").save(destinazione, "PNG", optimize=True)
 
 
+def genera_immagine_generica(titolo, sottotitolo, occhiello, destinazione):
+    """F42 — anteprima social per le pagine senza una canzone dietro (home,
+    archivio, metodo): stesso disegno delle schede canzone ma col colore
+    identitario del sito (--sistema) invece di quello di un artista."""
+    colore, colore2 = "#6B4FD8", "#4B2FB0"
+
+    base = gradiente_diagonale(W, H, colore, colore2).convert("RGBA")
+    base.alpha_composite(scrim_verticale(W, H))
+    draw = ImageDraw.Draw(base)
+
+    testo_col = "#FFFFFF"
+    marg = 72
+
+    logo = logo_tinto(testo_col, larghezza=228)
+    base.alpha_composite(logo, (marg, 54))
+
+    font_mono = ImageFont.truetype(FONT_MONO, 24)
+    draw.text((marg, 150), occhiello.upper(), font=font_mono, fill=(255, 255, 255, 235))
+
+    larghezza_max = W - marg * 2
+    font_titolo, righe_titolo = adatta_titolo(draw, titolo, larghezza_max)
+    y = 196
+    interlinea = int(font_titolo.size * 1.14)
+    for riga in righe_titolo:
+        draw.text((marg, y), riga, font=font_titolo, fill=testo_col)
+        y += interlinea
+    y += 14
+
+    draw.text((marg, y), "♪", font=ImageFont.truetype(FONT_CORSIVO, 30), fill=(255, 255, 255, 190))
+    y += 46
+
+    font_frase = ImageFont.truetype(FONT_CORSIVO, 30)
+    righe_frase = tronca_righe(avvolgi(draw, sottotitolo, font_frase, larghezza_max), 3)
+    for riga in righe_frase:
+        draw.text((marg, y), riga, font=font_frase, fill=(255, 255, 255, 235))
+        y += 40
+
+    dominio = "dietroiltesto.it"
+    font_piede = ImageFont.truetype(FONT_MONO, 18)
+    larghezza_piede = draw.textlength(dominio, font=font_piede)
+    draw.text((W - marg - larghezza_piede, H - 46), dominio, font=font_piede, fill=(255, 255, 255, 200))
+
+    destinazione.parent.mkdir(parents=True, exist_ok=True)
+    base.convert("RGB").save(destinazione, "PNG", optimize=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", default=None)
+    ap.add_argument("--solo-generiche", action="store_true", help="Genera solo home/archivio/metodo (F42), salta le canzoni")
     args = ap.parse_args()
 
-    canzoni = json.loads((ROOT / "dati" / "canzoni.json").read_text(encoding="utf-8"))
-    if args.slug:
-        canzoni = [c for c in canzoni if c["slug"] == args.slug]
-        if not canzoni:
-            raise SystemExit(f"Nessuna canzone con slug '{args.slug}'")
-
+    canzoni_tutte = json.loads((ROOT / "dati" / "canzoni.json").read_text(encoding="utf-8"))
+    artisti = json.loads((ROOT / "dati" / "artisti.json").read_text(encoding="utf-8"))
     out_dir = ROOT / "og"
-    for c in canzoni:
-        genera_immagine(c, out_dir / f"{c['slug']}.png")
 
-    print(f"Immagini generate: {len(canzoni)} in {out_dir}")
+    if not args.solo_generiche:
+        canzoni = canzoni_tutte
+        if args.slug:
+            canzoni = [c for c in canzoni if c["slug"] == args.slug]
+            if not canzoni:
+                raise SystemExit(f"Nessuna canzone con slug '{args.slug}'")
+        for c in canzoni:
+            genera_immagine(c, out_dir / f"{c['slug']}.png")
+        print(f"Immagini generate: {len(canzoni)} in {out_dir}")
+
+    if not args.slug:
+        genera_immagine_generica(
+            "Dietro il testo",
+            "Cosa c'è dietro le canzoni che ami: contesto, significato e fonti verificate. Mai i testi.",
+            "Un solo posto, fonti verificabili",
+            out_dir / "home.png",
+        )
+        genera_immagine_generica(
+            "L'archivio completo",
+            f"{len(canzoni_tutte)} canzoni e {len(artisti)} artisti raccontati su Dietro il testo.",
+            "Tutto quello che c'è",
+            out_dir / "archivio.png",
+        )
+        genera_immagine_generica(
+            "Metodo e fonti",
+            "Come verifichiamo le informazioni, perché non pubblichiamo i testi e quali fonti consideriamo attendibili.",
+            "Come lavoriamo",
+            out_dir / "metodo.png",
+        )
+        print(f"Immagini generiche generate: home.png, archivio.png, metodo.png in {out_dir}")
 
 
 if __name__ == "__main__":

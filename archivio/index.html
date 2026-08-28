@@ -23,8 +23,12 @@
 <meta property="og:description" content="Tutte le 157 canzoni e i 104 artisti raccontati su Dietro il testo.">
 <meta property="og:url" content="https://www.dietroiltesto.it/archivio/">
 <meta property="og:locale" content="it_IT">
-<meta name="twitter:card" content="summary">
-
+<meta property="og:image" content="https://www.dietroiltesto.it/og/archivio.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.dietroiltesto.it/og/archivio.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -241,7 +245,8 @@ a { color: inherit; }
   text-transform: uppercase; color: var(--sistema); margin: 0 0 14px;
   display: flex; align-items: center; gap: 8px;
 }
-.apertura p.promessa {
+.apertura h1.promessa {
+  font: inherit; font-weight: 400;
   font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
   max-width: 46ch; margin: 0 0 30px;
 }
