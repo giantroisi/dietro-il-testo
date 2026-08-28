@@ -383,7 +383,6 @@
         "titolo": "Dude Ranch",
         "anno": "1997",
         "nota": "certificato platino RIAA, platino ARIA, oro BPI, 2x platino in Canada",
-        "copertina": "Collage dell'artista Lou Beach: un toro marchiato col nome della band, con immagini a tema cowboy che citano ironicamente sia le cartoline kitsch sia la copertina di \"Greetings from Asbury Park, N.J.\" di Bruce Springsteen.",
         "slug": "dude-ranch"
       },
       {
@@ -1311,6 +1310,12 @@
         "anno": "2005",
         "nota": "oltre 100.000 copie vendute, Targa Tenco",
         "copertina": "Secondo De Gregori, la copertina raffigura \"un puzzle senza disegno: una volta risolto, non si trova nulla in mano\" — metafora del titolo, che evoca sia un mosaico da ricomporre sia macerie, con riferimenti a eventi come l'11 settembre e la strage di Beslan toccati nei testi dell'album.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rockol.it/news-70211/i-pezzi-di-de-gregori-non-faccio-cronaca-ma-non-scappo-dalla-realta",
+            "nome": "Rockol"
+          }
+        ],
         "slug": "pezzi"
       },
       {
@@ -2139,6 +2144,12 @@
         "anno": "2005",
         "nota": "5x disco di platino e disco d'oro",
         "copertina": "Descritto dalla stampa come un autoritratto: la foto tipo tessera di Ligabue è mescolata tra molte altre in copertina, in linea col tema introspettivo e autobiografico dell'album.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rockit.it/ligabue/album/nome-e-cognome/11454",
+            "nome": "Rockit"
+          }
+        ],
         "slug": "nome-e-cognome"
       },
       {
@@ -2369,6 +2380,12 @@
         "anno": "1977",
         "nota": "circa 200.000 copie vendute in Italia, considerato uno dei suoi capolavori artistici",
         "copertina": "L'illustrazione, firmata da Antonio Dojmi e Francesco Logoluso su concept di Alessandro Colombini, raffigura un \"doppio pianeta\" diviso sopra e sotto la superficie del mare, a richiamare la metafora oceanica del disco sulla storia umana.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rockol.it/news-729530/lucio-dalla-la-storia-dell-album-come-e-profondo-il-mare",
+            "nome": "Rockol"
+          }
+        ],
         "slug": "come-e-profondo-il-mare"
       },
       {
@@ -2816,6 +2833,12 @@
         "anno": "1979",
         "nota": "certificato Diamond RIAA, oltre 20 milioni di copie nel mondo, un solo Grammy vinto nonostante l'acclamazione della critica",
         "copertina": "Diretta creativamente da Mike Salisbury e fotografata da Stephen Harvey su un muro di Beverly Boulevard a Los Angeles; Jackson indossa uno smoking di taglio femminile adattato a lui e mocassini ispirati a Gene Kelly in \"Un americano a Parigi\", per segnare la transizione verso un'immagine più adulta e sofisticata.",
+        "copertinaFonte": [
+          {
+            "url": "https://andscape.com/features/michael-jackson-off-the-wall-album-cover/",
+            "nome": "Andscape"
+          }
+        ],
         "slug": "off-the-wall"
       },
       {

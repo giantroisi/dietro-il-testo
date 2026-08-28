@@ -389,10 +389,10 @@
     "slug": "dude-ranch",
     "titolo": "Dude Ranch",
     "anno": "1997",
-    "copertina": true,
+    "copertina": false,
     "nCanzoni": 0,
-    "esiste": true,
-    "indicizzabile": true,
+    "esiste": false,
+    "indicizzabile": false,
     "sintetico": false
   },
   {

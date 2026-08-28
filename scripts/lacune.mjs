@@ -182,9 +182,15 @@ for (const c of canzoni) {
 // già dichiarata (F39, 25 agosto 2026) — esattamente ciò che questo stato
 // esiste per impedire. Seminato qui, non nel file precedente, perché al
 // primo avvio di questo script non esiste ancora nessun file da cui ereditarlo.
+const MOTIVO_SOUND_OF_SILENCE =
+  "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)";
 const SEMI_ACCERTATO_ASSENTE = {
-  'canzone:the-sound-of-silence:spotify-id':
-    "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)",
+  // Lo stesso fatto (spotifyId assente) genera due voci in due classi
+  // diverse (C1 dallo standard 4A, C6 dal controllo dedicato): entrambe
+  // vanno seminate, altrimenti una delle due tornerebbe `da-cercare` e
+  // rifarebbe una ricerca già fatta e già dichiarata.
+  'canzone:the-sound-of-silence:completezza': MOTIVO_SOUND_OF_SILENCE,
+  'canzone:the-sound-of-silence:spotify-id': MOTIVO_SOUND_OF_SILENCE,
 };
 
 // --------------------------------------------------- ordinamento per classi
@@ -214,12 +220,15 @@ const precedenti = existsSync(percorsoLacune) ? JSON.parse(readFileSync(percorso
 const precedentiPerId = new Map(precedenti.map((v) => [v.id, v]));
 
 const coda = voci.map((v) => {
+  // Il seme ha priorità sul file precedente: rappresenta un fatto già
+  // accertato una volta per tutte, non va lasciato `da-cercare` solo perché
+  // la voce esisteva già nella coda prima che il seme fosse aggiunto qui.
+  if (SEMI_ACCERTATO_ASSENTE[v.id]) {
+    return { ...v, stato: 'accertato-assente', ultimoTentativo: '2026-08-25', motivo: SEMI_ACCERTATO_ASSENTE[v.id] };
+  }
   const prima = precedentiPerId.get(v.id);
   if (prima) {
     return { ...v, stato: prima.stato, ultimoTentativo: prima.ultimoTentativo, motivo: prima.motivo };
-  }
-  if (SEMI_ACCERTATO_ASSENTE[v.id]) {
-    return { ...v, stato: 'accertato-assente', ultimoTentativo: '2026-08-25', motivo: SEMI_ACCERTATO_ASSENTE[v.id] };
   }
   return { ...v, stato: 'da-cercare', ultimoTentativo: null, motivo: null };
 });

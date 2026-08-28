@@ -135,29 +135,9 @@
     "tipo": "fonte-ascolti-orfana",
     "soggetto": "hey-jude",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:imagine:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "imagine",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:master-of-puppets:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "master-of-puppets",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
     "id": "canzone:the-sound-of-silence:completezza",
@@ -168,19 +148,9 @@
     "manca": [
       "spotifyId"
     ],
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:blink-182:dude-ranch:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "blink-182/dude-ranch",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-08-25",
+    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
   },
   {
     "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
@@ -188,9 +158,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "francesco-de-gregori/pezzi",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata: Rockol cita la stessa dichiarazione di De Gregori già presente nei dati parola per parola"
   },
   {
     "id": "album:ligabue:nome-e-cognome:fonte-copertina",
@@ -198,9 +168,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "ligabue/nome-e-cognome",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata da fonti convergenti (Rockit); il testo già diceva 'descritto dalla stampa', non una citazione diretta di Ligabue"
   },
   {
     "id": "album:lucio-dalla:come-e-profondo-il-mare:fonte-copertina",
@@ -208,9 +178,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "lucio-dalla/come-e-profondo-il-mare",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata: Rockol nomina esattamente le stesse tre persone (Colombini, Dojmi, Logoluso) e la stessa immagine del doppio pianeta"
   },
   {
     "id": "album:michael-jackson:off-the-wall:fonte-copertina",
@@ -218,9 +188,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "michael-jackson/off-the-wall",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata integralmente: Andscape riporta citazioni dirette del fotografo Stephen Harvey e del direttore creativo Mike Salisbury"
   },
   {
     "id": "album:muse:drones:fonte-copertina",
@@ -2507,6 +2477,16 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "blink-182/cheshire-cat",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:blink-182:dude-ranch:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "blink-182/dude-ranch",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -5833,16 +5813,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:imagine:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "imagine",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:in-too-deep:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -5907,16 +5877,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "marmellata-25",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:master-of-puppets:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "master-of-puppets",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,

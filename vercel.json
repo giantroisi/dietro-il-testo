@@ -121,6 +121,11 @@
       "permanent": true
     },
     {
+      "source": "/album/blink-182/dude-ranch/",
+      "destination": "/artista/blink-182/",
+      "permanent": true
+    },
+    {
       "source": "/album/blink-182/take-off-your-pants-and-jacket/",
       "destination": "/artista/blink-182/",
       "permanent": true
