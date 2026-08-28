@@ -80,6 +80,22 @@ def logo_tinto(colore_rgba="#FFFFFF", larghezza=252):
     return tinta
 
 
+def disegna_marchio(base, draw, testo_col, marg):
+    """F38 — logo e dominio come un solo blocco. Prima il logo era a 228px
+    (i righi musicali disegnati nelle lettere si perdevano a quella scala)
+    e "dietroiltesto.it" viveva isolato in basso a destra, scollegato dal
+    logo. Ora il logo è più grande e il dominio sta subito sotto, come
+    un'unica firma. Restituisce la y da cui continuare il resto del layout."""
+    logo = logo_tinto(testo_col, larghezza=320)
+    base.alpha_composite(logo, (marg, 54))
+
+    y_dominio = 54 + logo.height + 14
+    font_dominio = ImageFont.truetype(FONT_MONO, 20)
+    draw.text((marg, y_dominio), "dietroiltesto.it", font=font_dominio, fill=(255, 255, 255, 200))
+
+    return y_dominio + 30
+
+
 def avvolgi(draw, testo, font, larghezza_max):
     righe = []
     for paragrafo in testo.split("\n"):
@@ -147,19 +163,17 @@ def genera_immagine(c, destinazione):
     testo_col = "#FFFFFF"
     marg = 72
 
-    # marchio, in alto a sinistra
-    logo = logo_tinto(testo_col, larghezza=228)
-    base.alpha_composite(logo, (marg, 54))
+    y_eyebrow = disegna_marchio(base, draw, testo_col, marg)
 
     # sopratitolo: artista · anno
     eyebrow = " · ".join(filter(None, [c.get("artista", "").upper(), anno_breve(c)]))
     font_mono = ImageFont.truetype(FONT_MONO, 24)
-    draw.text((marg, 150), eyebrow, font=font_mono, fill=(255, 255, 255, 235))
+    draw.text((marg, y_eyebrow), eyebrow, font=font_mono, fill=(255, 255, 255, 235))
 
     # titolo, adattato per stare in due righe
     larghezza_max = W - marg * 2
     font_titolo, righe_titolo = adatta_titolo(draw, c["titolo"], larghezza_max)
-    y = 196
+    y = y_eyebrow + 46
     interlinea = int(font_titolo.size * 1.14)
     for riga in righe_titolo:
         draw.text((marg, y), riga, font=font_titolo, fill=testo_col)
@@ -176,12 +190,6 @@ def genera_immagine(c, destinazione):
     for riga in righe_frase:
         draw.text((marg, y), riga, font=font_frase, fill=(255, 255, 255, 235))
         y += 40
-
-    # dominio, in basso a destra
-    dominio = "dietroiltesto.it"
-    font_piede = ImageFont.truetype(FONT_MONO, 18)
-    larghezza_piede = draw.textlength(dominio, font=font_piede)
-    draw.text((W - marg - larghezza_piede, H - 46), dominio, font=font_piede, fill=(255, 255, 255, 200))
 
     destinazione.parent.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(destinazione, "PNG", optimize=True)
@@ -200,15 +208,14 @@ def genera_immagine_generica(titolo, sottotitolo, occhiello, destinazione):
     testo_col = "#FFFFFF"
     marg = 72
 
-    logo = logo_tinto(testo_col, larghezza=228)
-    base.alpha_composite(logo, (marg, 54))
+    y_eyebrow = disegna_marchio(base, draw, testo_col, marg)
 
     font_mono = ImageFont.truetype(FONT_MONO, 24)
-    draw.text((marg, 150), occhiello.upper(), font=font_mono, fill=(255, 255, 255, 235))
+    draw.text((marg, y_eyebrow), occhiello.upper(), font=font_mono, fill=(255, 255, 255, 235))
 
     larghezza_max = W - marg * 2
     font_titolo, righe_titolo = adatta_titolo(draw, titolo, larghezza_max)
-    y = 196
+    y = y_eyebrow + 46
     interlinea = int(font_titolo.size * 1.14)
     for riga in righe_titolo:
         draw.text((marg, y), riga, font=font_titolo, fill=testo_col)
@@ -223,11 +230,6 @@ def genera_immagine_generica(titolo, sottotitolo, occhiello, destinazione):
     for riga in righe_frase:
         draw.text((marg, y), riga, font=font_frase, fill=(255, 255, 255, 235))
         y += 40
-
-    dominio = "dietroiltesto.it"
-    font_piede = ImageFont.truetype(FONT_MONO, 18)
-    larghezza_piede = draw.textlength(dominio, font=font_piede)
-    draw.text((W - marg - larghezza_piede, H - 46), dominio, font=font_piede, fill=(255, 255, 255, 200))
 
     destinazione.parent.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(destinazione, "PNG", optimize=True)
