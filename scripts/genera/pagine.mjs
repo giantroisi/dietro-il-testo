@@ -698,6 +698,12 @@ export function paginaAlbum(al, ctx) {
   const brani = (a?.canzoni || [])
     .map((s) => ctx.canzoniPerSlug.get(s))
     .filter((c) => c && c._albumSlugPagina === al.slug);
+  // F64: senza questo, un album con copertina documentata ma zero canzoni
+  // raccontate resta raggiungibile da un solo collegamento (la discografia
+  // dell'artista) — sotto la soglia di due richiesta per le pagine indicizzabili.
+  const altriAlbum = (ctx.albumPerArtista.get(al.artistaSlug) || [])
+    .filter((d) => d.esiste && d.slug !== al.slug)
+    .sort((x, y) => (primoAnno(x.anno) || 0) - (primoAnno(y.anno) || 0));
 
   const corpo = `
   <div class="col">
@@ -741,6 +747,24 @@ export function paginaAlbum(al, ctx) {
       <h2>Canzoni da questo album</h2>
       <p class="vuoto">Nessuna canzone di questo album è ancora raccontata sul sito.</p>
     </section>`
+    }
+
+    ${
+      altriAlbum.length
+        ? `<section class="blocco" id="altri-album">
+      <h2>Altri album di ${esc(a?.nome || '')}</h2>
+      <div class="dischi">
+        ${altriAlbum
+          .map(
+            (d) => `<a class="disco" href="${r}album/${al.artistaSlug}/${d.slug}/">
+          <span><span class="titolo">${esc(d.titolo)}</span></span>
+          <span class="anno">${esc(d.anno || '')}</span>
+        </a>`
+          )
+          .join('\n        ')}
+      </div>
+    </section>`
+        : ''
     }
 
     <section class="blocco">

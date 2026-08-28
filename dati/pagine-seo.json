@@ -1,0 +1,2594 @@
+[
+  {
+    "percorso": "",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "archivio/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 157,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "metodo/",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "404.html",
+    "categoria": "servizio",
+    "indicizzabile": false
+  },
+  {
+    "percorso": "canzone/bohemian-rhapsody/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/in-the-end/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/teen-spirit/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/billie-jean/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sweet-child/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/creep/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/someone-like-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/highway-to-hell/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hotel-california/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/enter-sandman/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/chop-suey/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/paranoid/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/nothing-else-matters/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/stairway-to-heaven/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/killing-in-the-name/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wonderwall/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/lose-yourself/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/thriller/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/du-hast/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/freak-on-a-leash/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/imagine/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hey-jude/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/walk/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/run-to-the-hills/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/breaking-the-law/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/raining-blood/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/darkside/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/solitudine/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/albachiara/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/certe-notti/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/volare/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/cielo-blu/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/azzurro/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/canto-libero/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/la-cura/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/caruso/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bello-impossibile/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/marinella/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/numb/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/africa/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bring-me-to-life/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sweet-home-alabama/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/basket-case/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/master-of-puppets/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/litaliano/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sally/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/generale/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/cielo-stanza/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/zombie-cranberries/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/livin-on-a-prayer/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/smoke-on-the-water/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/crazy-train/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/seven-nation-army/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/piccolo-grande-amore/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/felicita/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/4-marzo-1943/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/black-hole-sun/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/iron-man/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/should-i-stay/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/rimmel/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/vivo-per-lei/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/purple-rain/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wish-you-were-here/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hurt/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/take-on-me/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/dreams/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/heroes/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/senza-una-donna/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/under-the-bridge/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/every-breath-you-take/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/fast-car/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/losing-my-religion/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/i-will-always-love-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/yes-i-know-my-way/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/the-sound-of-silence/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/paint-it-black/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/piu-bella-cosa/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/rocket-man/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/yellow/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/il-carrozzone/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/can-you-feel-my-heart/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/drown/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/throne/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/mantra/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sleepwalking/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/antivist/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/chelsea-smile/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/doomed/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/follow-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/parasite-eve/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/lost/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/die4u/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/riders-on-the-storm/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/personal-jesus/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sono-solo-canzonette/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/shadow-moses/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wonderful-life/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/nihilist-blues/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/one/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/ace-of-spades/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/psychosocial/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/symphony-of-destruction/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sober/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/square-hammer/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/american-idiot/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/boulevard-of-broken-dreams/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/fat-lip/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/in-too-deep/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/crawling/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/one-step-closer/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/uprising/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/starlight/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/all-the-small-things/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/i-miss-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/she-looks-so-perfect/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/still-waiting/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/whats-my-age-again/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/happy-song/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/ho-messo-via/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hanno-ucciso-luomo-ragno/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wake-me-up/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hypa-hypa/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/diventerai-una-star/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/vieni-a-ballare-in-puglia/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/marmellata-25/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/get-lucky/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/shape-of-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sugar-were-goin-down/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/ragu/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/21-guns/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/mr-brightside/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/cattiva/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/break-stuff/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/my-exs-best-friend/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/welcome-to-the-black-parade/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/supermassive-black-hole/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/dont-look-back-in-anger/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/ringo-starr/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/everlong/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/the-trooper/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/angel-of-death/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/cowboys-from-hell/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/byob/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wait-and-bleed/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sonne/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/youve-got-another-thing-comin/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/overkill/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/peace-sells/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/november-rain/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/highway-star/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/closer/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/blind/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bark-at-the-moon/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bulls-on-parade/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/alive/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/man-in-the-box/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sound-of-silence-disturbed/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "artista/5-seconds-of-summer/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/883/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/a-ha/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/ac-dc/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/adele/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/adriano-celentano/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/al-bano-e-romina-power/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/alice-in-chains/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/andrea-bocelli-e-giorgia/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/avicii/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/black-sabbath/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/blink-182/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/bon-jovi/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/bring-me-the-horizon/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 17,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/caparezza/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/cesare-cremonini/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/claudio-baglioni/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/coldplay/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/daft-punk/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/david-bowie/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/deep-purple/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/depeche-mode/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/disturbed/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/domenico-modugno/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/eagles/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/ed-sheeran/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/edoardo-bennato/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/electric-callboy/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/elton-john/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/eminem/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/eros-ramazzotti/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/evanescence/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/fabrizio-de-andre/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/fall-out-boy/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/finley/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/fleetwood-mac/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/foo-fighters/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/francesco-de-gregori/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/franco-battiato/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/fulminacci/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/ghost/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/gianna-nannini/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/green-day/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 4,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/guns-n-roses/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/iron-maiden/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/john-lennon/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/judas-priest/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/korn/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/laura-pausini/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/led-zeppelin/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/ligabue/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/limp-bizkit/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/linkin-park/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 4,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/lucio-battisti/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/lucio-dalla/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/lynyrd-skynyrd/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/machine-gun-kelly/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/megadeth/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/metallica/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 4,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/michael-jackson/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/mina/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/motorhead/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/muse/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/my-chemical-romance/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/naska/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/nine-inch-nails/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/nirvana/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/oasis/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/ozzy-osbourne/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/pantera/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/pearl-jam/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/pinguini-tattici-nucleari/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/pink-floyd/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/pino-daniele/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/prince/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/queen/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/r-e-m/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/radiohead/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/rage-against-the-machine/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/rammstein/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/red-hot-chili-peppers/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/renato-zero/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/rino-gaetano/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/simon-garfunkel/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/slayer/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/slipknot/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/soundgarden/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/sum-41/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/system-of-a-down/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/the-beatles/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-clash/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-cranberries/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-doors/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-killers/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-police/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-rolling-stones/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/the-white-stripes/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/tool/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/toto/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/toto-cutugno/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/tracy-chapman/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/vasco-rossi/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "artista/whitney-houston/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "artista/zucchero/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/5-seconds-of-summer/5-seconds-of-summer/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/hanno-ucciso-luomo-ragno/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/hunting-high-and-low/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/highway-to-hell/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adele/21/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/al-bano-e-romina-power/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/alice-in-chains/facelift/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/andrea-bocelli-e-giorgia/bocelli-album/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/avicii/true/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/black-sabbath/paranoid/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/blink-182/dude-ranch/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/blink-182/enema-of-the-state/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/blink-182/blink-182/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/bon-jovi/slippery-when-wet/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/suicide-season/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/sempiternal/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 4,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/thats-the-spirit/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 5,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/amo/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/post-human-survival-horror/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/bring-me-the-horizon/post-human-nex-gen/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/caparezza/le-dimensioni-del-mio-caos/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/cesare-cremonini/maggese/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/coldplay/parachutes/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/daft-punk/random-access-memories/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/david-bowie/heroes/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/deep-purple/machine-head/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/depeche-mode/violator/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/disturbed/immortalized/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/domenico-modugno/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/eagles/hotel-california/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ed-sheeran/divide/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/edoardo-bennato/sono-solo-canzonette/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/electric-callboy/mmxx/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/elton-john/honky-chateau/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/eminem/8-mile-colonna-sonora/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/eros-ramazzotti/dove-ce-musica/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/evanescence/fallen/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/fabrizio-de-andre/volume-3-raccolta/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/fall-out-boy/from-under-the-cork-tree/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/finley/tutto-e-possibile/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/fleetwood-mac/rumours/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/foo-fighters/the-colour-and-the-shape/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/francesco-de-gregori/rimmel/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/francesco-de-gregori/de-gregori/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/francesco-de-gregori/pezzi/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/franco-battiato/limboscata/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/fulminacci/infinito-1/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ghost/popestar/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/gianna-nannini/profumo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/green-day/dookie/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/green-day/american-idiot/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/green-day/21st-century-breakdown/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/guns-n-roses/appetite-for-destruction/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/guns-n-roses/use-your-illusion-i/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/iron-maiden/the-number-of-the-beast/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/iron-maiden/piece-of-mind/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/john-lennon/imagine/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/judas-priest/british-steel/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/judas-priest/screaming-for-vengeance/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/korn/korn/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/korn/follow-the-leader/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/laura-pausini/laura-pausini-debutto/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/led-zeppelin/led-zeppelin-iv/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ligabue/sopravvissuti-e-sopravviventi/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ligabue/buon-compleanno-elvis/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/ligabue/nome-e-cognome/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/limp-bizkit/significant-other/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/linkin-park/hybrid-theory/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 3,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/linkin-park/meteora/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/lucio-battisti/il-mio-canto-libero/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/lucio-dalla/storie-di-casa-mia/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/lucio-dalla/come-e-profondo-il-mare/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/lucio-dalla/dallamericaruso/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/lynyrd-skynyrd/second-helping/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/machine-gun-kelly/tickets-to-my-downfall/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/megadeth/peace-sells-but-whos-buying/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/megadeth/countdown-to-extinction/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/metallica/master-of-puppets/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/metallica/and-justice-for-all/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/metallica/metallica-black-album/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/michael-jackson/off-the-wall/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/michael-jackson/thriller/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/mina/singolo-scritta-da-gino-paoli-1959/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/motorhead/overkill/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/motorhead/ace-of-spades/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/muse/black-holes-and-revelations/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/muse/the-resistance/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 1,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/muse/drones/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/my-chemical-romance/the-black-parade/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/naska/la-mia-stanza/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/nine-inch-nails/the-downward-spiral/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/nirvana/nevermind/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/oasis/definitely-maybe/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/oasis/whats-the-story-morning-glory/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 2,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/ozzy-osbourne/blizzard-of-ozz/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ozzy-osbourne/bark-at-the-moon/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pantera/cowboys-from-hell/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pantera/vulgar-display-of-power/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pearl-jam/ten/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pink-floyd/wish-you-were-here/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pino-daniele/vai-mo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/prince/purple-rain-colonna-sonora/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/queen/a-night-at-the-opera/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/r-e-m/out-of-time/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/radiohead/pablo-honey/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/rage-against-the-machine/rage-against-the-machine/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/rage-against-the-machine/evil-empire/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/rammstein/sehnsucht/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/rammstein/mutter/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/renato-zero/erozero/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/rino-gaetano/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/slayer/reign-in-blood/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/slipknot/slipknot/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/slipknot/all-hope-is-gone/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/soundgarden/superunknown/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/sum-41/all-killer-no-filler/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/sum-41/does-this-look-infected/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/sum-41/chuck/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/system-of-a-down/toxicity/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/system-of-a-down/mezmerize/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-beatles/singolo-poi-in-hey-jude-1970/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-clash/combat-rock/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-cranberries/no-need-to-argue/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-doors/l-a-woman/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-killers/hot-fuss/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-police/synchronicity/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-rolling-stones/aftermath/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-white-stripes/elephant/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/tool/undertow/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/toto/toto-iv/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/toto-cutugno/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/tracy-chapman/tracy-chapman/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/vasco-rossi/non-siamo-mica-gli-americani/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/vasco-rossi/bollicine/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 0,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/vasco-rossi/nessun-pericolo-per-te/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/whitney-houston/the-bodyguard/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/zucchero/blues/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "genere/rock/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 74,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "genere/metal/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 52,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "genere/pop/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 58,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "genere/punk/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 17,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "anni/1970/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 24,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "anni/2000/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 30,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "anni/1990/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 38,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "anni/1980/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 30,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "anni/2010/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 19,
+    "haTestoEditoriale": true
+  }
+]

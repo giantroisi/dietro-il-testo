@@ -380,6 +380,11 @@ function scriviConLastmod(percorsoFile, percorsoUrl, html) {
   return { html: finale, lastmod };
 }
 
+// F64: le tre categorie di pagina si assegnano qui, dal generatore che sa
+// davvero cos'è ogni pagina — mai indovinate dallo script di controllo a
+// partire dall'URL, che potrebbe disallinearsi dalla struttura reale.
+const manifestoPagine = [];
+
 const htmlHome = paginaHome(ctx);
 const htmlArchivio = paginaArchivio(ctx);
 const htmlMetodo = paginaMetodo(ctx);
@@ -387,31 +392,61 @@ const lastmodHome = scriviConLastmod('index.html', '', htmlHome).lastmod;
 const lastmodArchivio = scriviConLastmod('archivio/index.html', 'archivio/', htmlArchivio).lastmod;
 const lastmodMetodo = scriviConLastmod('metodo/index.html', 'metodo/', htmlMetodo).lastmod;
 scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
+manifestoPagine.push(
+  { percorso: '', categoria: 'servizio', indicizzabile: true },
+  // L'archivio raccoglie sempre tutte le canzoni: la massa non è mai il problema.
+  { percorso: 'archivio/', categoria: 'indice', indicizzabile: true, nCanzoni: canzoni.length, haTestoEditoriale: true },
+  { percorso: 'metodo/', categoria: 'servizio', indicizzabile: true },
+  { percorso: '404.html', categoria: 'servizio', indicizzabile: false }
+);
 
 const lastmodCanzoni = new Map();
 for (const c of canzoni) {
   const html = paginaCanzone(c, ctx);
   const { lastmod } = scriviConLastmod(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, html);
   lastmodCanzoni.set(c.slug, lastmod);
+  manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
 }
 const lastmodArtisti = new Map();
 for (const a of artisti) {
   const html = paginaArtista(a, ctx);
   const { lastmod } = scriviConLastmod(`artista/${a.slug}/index.html`, `artista/${a.slug}/`, html);
   lastmodArtisti.set(a.slug, lastmod);
+  manifestoPagine.push({
+    percorso: `artista/${a.slug}/`,
+    categoria: 'indice',
+    indicizzabile: a._indicizzabile,
+    nCanzoni: a.canzoni.length,
+    haTestoEditoriale: Boolean(a.storia),
+  });
 }
 const lastmodAlbum = new Map();
 for (const al of album) {
   const html = paginaAlbum(al, ctx);
   const { lastmod } = scriviConLastmod(`album/${al.artistaSlug}/${al.slug}/index.html`, `album/${al.artistaSlug}/${al.slug}/`, html);
   lastmodAlbum.set(`${al.artistaSlug}/${al.slug}`, lastmod);
+  manifestoPagine.push({
+    percorso: `album/${al.artistaSlug}/${al.slug}/`,
+    categoria: 'indice',
+    indicizzabile: al.indicizzabile,
+    nCanzoni: al.nCanzoni,
+    haTestoEditoriale: Boolean(al.copertina),
+  });
 }
 const lastmodRaccolte = new Map();
 for (const rac of raccolte) {
   const html = paginaRaccolta(rac, ctx);
   const { lastmod } = scriviConLastmod(`${rac.percorso}index.html`, rac.percorso, html);
   lastmodRaccolte.set(rac.percorso, lastmod);
+  manifestoPagine.push({
+    percorso: rac.percorso,
+    categoria: 'indice',
+    indicizzabile: true,
+    nCanzoni: rac.canzoni.length,
+    haTestoEditoriale: Boolean(rac.introduzione),
+  });
 }
+writeFileSync(join(ROOT, 'dati', 'pagine-seo.json'), JSON.stringify(manifestoPagine, null, 2) + '\n', 'utf8');
 
 scrivi('ricerca.js', generaRicerca(ctx));
 
