@@ -6893,5 +6893,140 @@
     "temi": [
       "alienazione"
     ]
+  },
+  {
+    "slug": "war-pigs",
+    "titolo": "War Pigs",
+    "artista": "Black Sabbath",
+    "artistaSlug": "black-sabbath",
+    "anno": "1970",
+    "album": "Paranoid",
+    "albumSlug": "paranoid",
+    "genereTesto": "Heavy metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#5C6B2E",
+    "colore2": "#8A1E1E",
+    "ascolti": 512141966,
+    "ascoltiTesto": "512 mln ascolti",
+    "spotifyId": "1mnXT8zNssefzrRkeuD8Ov",
+    "corpo": [
+      "Scritta da Geezer Butler con il titolo originale \"Walpurgis\" — una festa pagana legata alla stregoneria — il brano fu rinominato \"War Pigs\" su richiesta dell'etichetta Vertigo, preoccupata dalle connotazioni sataniche del titolo; il testo restò invariato. Butler ha raccontato che l'immagine dei generali paragonati a stregoni non era un riferimento letterale all'occulto ma una metafora politica: \"per me la guerra era il grande Satana\".",
+      "Il pezzo nacque nel clima di proteste contro la guerra del Vietnam nel Regno Unito di fine anni '60, mentre Butler temeva di essere richiamato nonostante la leva obbligatoria fosse stata abolita. Il bassista ha definito il brano un'accusa diretta contro \"politici e ricchi che iniziano le guerre a proprio vantaggio e mandano i poveri a morire per loro\"; Ozzy Osbourne ha invece dichiarato che la band \"non sapeva nulla del Vietnam\", descrivendolo più genericamente come un pezzo contro la guerra."
+    ],
+    "fraseIconica": "Il verso più citato è quello d'apertura, che paragona i generali riuniti a pianificare la distruzione a streghe radunate per un rito oscuro — un'immagine che per anni ha alimentato la fama sinistra della band, nonostante il messaggio fosse politico e non occulto. Geezer Butler ha spiegato che l'accostamento fra guerra e satanismo era intenzionale, per rendere ancora più netta l'accusa contro chi decide le guerre senza combatterle.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/black-sabbath/4252/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/War_Pigs",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://primordialradio.com/black-sabbath-war-pigs-lyrics-meaning/",
+        "nome": "Primordial Radio"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "guerra"
+    ]
+  },
+  {
+    "slug": "number-of-the-beast",
+    "titolo": "The Number of the Beast",
+    "artista": "Iron Maiden",
+    "artistaSlug": "iron-maiden",
+    "anno": "1982",
+    "album": "The Number of the Beast",
+    "albumSlug": "the-number-of-the-beast",
+    "genereTesto": "Heavy metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#7A1F1F",
+    "colore2": "#2E2E4A",
+    "ascolti": 317702396,
+    "ascoltiTesto": "318 mln ascolti",
+    "spotifyId": "47FmjOhMMPiCsqLD6nbIgZ",
+    "corpo": [
+      "Il bassista Steve Harris scrisse il brano dopo un incubo influenzato in parte dal film horror \"Damien: Omen II\" (1978) e in parte dal poema settecentesco \"Tam o' Shanter\" di Robert Burns. Harris ha respinto più volte le accuse di satanismo rivolte alla band: \"fondamentalmente quella canzone parla di un sogno, non riguarda l'adorazione del diavolo\", dichiarò nel 1983; a Rolling Stone nel 2019 ha aggiunto che l'ispirazione veniva più dai film horror e dalla lettura che da un reale interesse per l'occulto.",
+      "Il brano si apre con una citazione recitata tratta dall'Apocalisse di Giovanni. La band avrebbe voluto l'attore horror Vincent Price come voce recitante, ma — come ha raccontato il cantante Bruce Dickinson — \"il signor Price non si alzava dal letto per meno di 10.000 dollari\": al suo posto fu ingaggiato l'attore Barry Clayton per 300 sterline."
+    ],
+    "fraseIconica": "Il momento più discusso è la citazione biblica recitata in apertura, tratta dall'Apocalisse, che introduce il numero simbolo della bestia come immagine di terrore prima ancora che entri la voce cantata. Steve Harris ha sempre respinto le accuse di satanismo legate al brano, insistendo che il testo nasce da un incubo e da suggestioni horror e letterarie, non da un interesse reale per l'occulto — una precisazione che non ha impedito al numero del titolo di restare per anni al centro di controversie religiose attorno alla band.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/iron-maiden/19281/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Number_of_the_Beast_(song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.yahoo.com/entertainment/music/articles/1982-rock-classic-partly-inspired-204914207.html",
+        "nome": "Yahoo Entertainment"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "fade-to-black",
+    "titolo": "Fade to Black",
+    "artista": "Metallica",
+    "artistaSlug": "metallica",
+    "anno": "1984",
+    "album": "Ride the Lightning",
+    "albumSlug": "ride-the-lightning",
+    "genereTesto": "Heavy metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#3A2E4A",
+    "colore2": "#4A1A1A",
+    "ascolti": 459492428,
+    "ascoltiTesto": "459 mln ascolti",
+    "spotifyId": "4kBsYpQBUbSIQNLTDF7es2",
+    "corpo": [
+      "James Hetfield scrisse il brano a casa di un amico nel New Jersey in un periodo di forte depressione, dopo che il furgone con tutta l'attrezzatura della band era stato rubato a Boston nel gennaio 1984, costringendo a cancellare un concerto e a rimandare una tournée europea. Hetfield ha raccontato a Guitar World (1991): \"ero piuttosto depresso in quel periodo perché ci avevano appena rubato l'attrezzatura, ed eravamo stati cacciati di casa del nostro manager\".",
+      "Fu la prima ballata della band, con un'apertura di chitarra acustica insolita per il loro repertorio dell'epoca: \"sapevamo che avrebbe spiazzato la gente\", ha detto Hetfield. Il testo, incentrato sulla scelta di lasciarsi morire, gli valse accuse di istigazione al suicidio e tentativi di censura contro il gruppo; a distanza di anni Hetfield ha ribaltato quel giudizio dichiarando a Rolling Stone che \"Fade to Black mi ha salvato la vita\"."
+    ],
+    "fraseIconica": "Il momento più discusso è la parte conclusiva del brano, in cui il narratore smette di lottare e sceglie di lasciarsi andare — un'immagine di resa che ha portato molti ascoltatori a leggere il testo come un vero racconto di suicidio. James Hetfield ha sempre distinto il personaggio della canzone dalla propria esperienza diretta, pur riconoscendo di averla scritta in un momento di profonda depressione personale.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/metallica/25918/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fade_to_Black_(Metallica_song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://storyofsong.com/story/fade-to-black/",
+        "nome": "Story of Song"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "morte-lutto"
+    ]
   }
 ]

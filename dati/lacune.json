@@ -20,6 +20,16 @@
     "motivo": "testo corretto: la copertina non fu 'disegnata da Sykes' come scritto in precedenza — NME conferma solo che Sykes scoprì/scelse il simbolo, Behance attribuisce la grafica al designer Arn Gyssels su incarico dell'etichetta"
   },
   {
+    "id": "album:black-sabbath:paranoid:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "black-sabbath/paranoid",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata integralmente: Rolling Stone cita direttamente sia Macmillan sia Ozzy Osbourne"
+  },
+  {
     "id": "album:linkin-park:hybrid-theory:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -28,16 +38,6 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermato solo il ruolo di Shinoda e il significato delle ali (fonte: NME); tolto il dettaglio su Frank Maddocks/Banksy, non verificabile con una fonte incollabile in questo lotto (MTV e Medium hanno bloccato l'accesso)"
-  },
-  {
-    "id": "album:black-sabbath:paranoid:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "black-sabbath/paranoid",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-28",
-    "motivo": "confermata integralmente: Rolling Stone cita direttamente sia Macmillan sia Ozzy Osbourne"
   },
   {
     "id": "album:blink-182:enema-of-the-state:fonte-copertina",
@@ -1783,6 +1783,16 @@
     "motivo": null
   },
   {
+    "id": "album:iron-maiden:the-number-of-the-beast:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "iron-maiden/the-number-of-the-beast",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:nine-inch-nails:the-downward-spiral:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1913,16 +1923,6 @@
     "motivo": null
   },
   {
-    "id": "album:iron-maiden:the-number-of-the-beast:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "iron-maiden/the-number-of-the-beast",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:judas-priest:british-steel:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -2037,6 +2037,16 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "metallica/and-justice-for-all",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:metallica:ride-the-lightning:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "metallica/ride-the-lightning",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -4207,16 +4217,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "metallica/reload",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:metallica:ride-the-lightning:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "metallica/ride-the-lightning",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

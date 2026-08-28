@@ -181,7 +181,7 @@
     "titolo": "Paranoid",
     "anno": "1970",
     "copertina": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -1688,7 +1688,7 @@
     "titolo": "The Number of the Beast",
     "anno": "1982",
     "copertina": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": false,
     "sintetico": false
@@ -2986,8 +2986,8 @@
     "titolo": "Ride the Lightning",
     "anno": "1984",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

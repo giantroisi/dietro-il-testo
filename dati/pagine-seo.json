@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 157,
+    "nCanzoni": 160,
     "haTestoEditoriale": true
   },
   {
@@ -807,6 +807,21 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/war-pigs/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/number-of-the-beast/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/fade-to-black/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -880,7 +895,7 @@
     "percorso": "artista/black-sabbath/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1118,7 +1133,7 @@
     "percorso": "artista/iron-maiden/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1216,7 +1231,7 @@
     "percorso": "artista/metallica/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -1608,7 +1623,7 @@
     "percorso": "album/black-sabbath/paranoid/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1923,7 +1938,7 @@
     "percorso": "album/iron-maiden/the-number-of-the-beast/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2075,6 +2090,13 @@
   },
   {
     "percorso": "album/megadeth/countdown-to-extinction/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/metallica/ride-the-lightning/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -2532,7 +2554,7 @@
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 52,
+    "nCanzoni": 55,
     "haTestoEditoriale": true
   },
   {
@@ -2553,7 +2575,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 24,
+    "nCanzoni": 25,
     "haTestoEditoriale": true
   },
   {
@@ -2574,7 +2596,7 @@
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 30,
+    "nCanzoni": 32,
     "haTestoEditoriale": true
   },
   {

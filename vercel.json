@@ -966,11 +966,6 @@
       "permanent": true
     },
     {
-      "source": "/album/metallica/ride-the-lightning/",
-      "destination": "/artista/metallica/",
-      "permanent": true
-    },
-    {
       "source": "/album/metallica/load/",
       "destination": "/artista/metallica/",
       "permanent": true
