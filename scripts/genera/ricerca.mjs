@@ -12,7 +12,10 @@ export function generaRicerca(ctx) {
       n: c.titolo,
       s: `canzone/${c.slug}/`,
       d: [c.artista, String(c.anno || '').match(/\d{4}/)?.[0]].filter(Boolean).join(` ${SEGNO} `),
-      k: [c.titolo, c.artista, c.album, c.genereTesto].filter(Boolean).join(' ').toLowerCase(),
+      // F28: include anche la frase iconica (già una parafrasi originale, mai
+      // il testo della canzone — coerente con P3) così un verso ricordato a
+      // memoria e riformulato dall'utente può comunque portare alla scheda.
+      k: [c.titolo, c.artista, c.album, c.genereTesto, c.fraseIconica].filter(Boolean).join(' ').toLowerCase(),
     })),
     ...ctx.artisti.map((a) => ({
       t: 1, // artista
@@ -80,6 +83,40 @@ export function generaRicerca(ctx) {
     return String(s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
   }
 
+  /* F28: due parole sono "vicine" se differiscono per al massimo un refuso
+   * (un carattere sbagliato, uno in più o uno mancante). Basta per tollerare
+   * un errore di battitura senza aprire un vero motore fuzzy. */
+  function vicine(a, b) {
+    if (a === b) return true;
+    var la = a.length, lb = b.length;
+    if (la === lb) {
+      var diff = 0;
+      for (var i = 0; i < la; i++) { if (a[i] !== b[i]) diff++; if (diff > 1) return false; }
+      return diff <= 1;
+    }
+    if (Math.abs(la - lb) !== 1) return false;
+    var corta = la < lb ? a : b, lunga = la < lb ? b : a;
+    var i = 0, j = 0, salti = 0;
+    while (i < corta.length && j < lunga.length) {
+      if (corta[i] === lunga[j]) { i++; j++; continue; }
+      if (salti > 0) return false;
+      salti++; j++;
+    }
+    return true;
+  }
+
+  /* Un termine trova corrispondenza tollerante se una parola della chiave gli
+   * è "vicina" (vedi sopra) — solo da 4 caratteri in su, per non generare
+   * falsi positivi su termini troppo corti come "il" o "un". */
+  function corrispondeApprox(termine, chiave) {
+    if (termine.length < 4) return false;
+    var parole = chiave.split(/\\s+/);
+    for (var i = 0; i < parole.length; i++) {
+      if (Math.abs(parole[i].length - termine.length) <= 1 && vicine(termine, parole[i])) return true;
+    }
+    return false;
+  }
+
   /* ------------------------------------------------------------- tema */
 
   function applicaTema() {
@@ -118,13 +155,20 @@ export function generaRicerca(ctx) {
       var v = INDICE[i];
       var chiave = senzaAccenti(v.k);
       var ok = true;
+      var approssimato = false;
       for (var j = 0; j < termini.length; j++) {
-        if (chiave.indexOf(termini[j]) === -1) { ok = false; break; }
+        if (chiave.indexOf(termini[j]) !== -1) continue;
+        // F28: un termine non trovato alla lettera può comunque corrispondere
+        // a un refuso di una parola della chiave — un solo carattere di
+        // differenza, non un vero motore di ricerca fuzzy.
+        if (corrispondeApprox(termini[j], chiave)) { approssimato = true; continue; }
+        ok = false;
+        break;
       }
       if (!ok) continue;
       var nome = senzaAccenti(v.n);
-      /* esatto > inizia con > contiene; a parità gli artisti vengono prima */
-      var punti = nome === n ? 0 : nome.indexOf(n) === 0 ? 1 : chiave.indexOf(n) === 0 ? 2 : 3;
+      /* esatto > inizia con > contiene > approssimato; a parità gli artisti vengono prima */
+      var punti = approssimato ? 4 : nome === n ? 0 : nome.indexOf(n) === 0 ? 1 : chiave.indexOf(n) === 0 ? 2 : 3;
       esiti.push({ v: v, p: punti * 10 + (v.t === 1 ? 0 : v.t === 0 ? 1 : 2) });
     }
     esiti.sort(function (a, b) { return a.p - b.p || a.v.n.localeCompare(b.v.n, 'it'); });
