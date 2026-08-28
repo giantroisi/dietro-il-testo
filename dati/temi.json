@@ -1,0 +1,58 @@
+{
+  "amore": {
+    "nome": "Amore",
+    "descrizione": "canzoni su un sentimento d'amore vissuto, dichiarato o desiderato verso un'altra persona"
+  },
+  "rottura": {
+    "nome": "Rotture",
+    "descrizione": "canzoni sulla fine di una relazione, l'assenza della persona amata o la difficoltà a staccarsene"
+  },
+  "ossessione-gelosia": {
+    "nome": "Ossessione e gelosia",
+    "descrizione": "canzoni su un attaccamento possessivo, geloso o ossessivo verso un'altra persona, anche quando il rapporto è tossico o non corrisposto"
+  },
+  "alienazione": {
+    "nome": "Alienazione",
+    "descrizione": "canzoni sul sentirsi diversi, inadeguati, isolati o incapaci di comunicare davvero con gli altri"
+  },
+  "critica-sociale": {
+    "nome": "Critica sociale",
+    "descrizione": "canzoni di denuncia o critica verso politica, potere, guerre decise da altri, disuguaglianza, media o ipocrisia sociale"
+  },
+  "guerra": {
+    "nome": "Guerra",
+    "descrizione": "canzoni che raccontano direttamente conflitti, battaglie, genocidi o violenze storiche e il loro costo umano"
+  },
+  "morte-lutto": {
+    "nome": "Morte e lutto",
+    "descrizione": "canzoni sulla morte, la perdita di una persona cara, il lutto o l'accettazione della propria mortalità"
+  },
+  "salute-mentale": {
+    "nome": "Salute mentale",
+    "descrizione": "canzoni su depressione, ansia, panico o un disagio psicologico vissuto in prima persona"
+  },
+  "dipendenza": {
+    "nome": "Dipendenza",
+    "descrizione": "canzoni sull'essere controllati da una sostanza, un'abitudine o un legame emotivo distruttivo da cui non ci si riesce a liberare"
+  },
+  "ribellione": {
+    "nome": "Ribellione",
+    "descrizione": "canzoni di sfida, anti-conformismo o rifiuto delle regole e delle aspettative imposte da altri"
+  },
+  "industria-musicale": {
+    "nome": "Industria musicale",
+    "descrizione": "canzoni che riflettono esplicitamente sul mondo della musica, la fama o lo spettacolo come tema del testo — non un semplice aneddoto su come fu scritto o registrato il brano"
+  },
+  "nostalgia": {
+    "nome": "Nostalgia",
+    "descrizione": "canzoni che guardano con malinconia al passato, all'infanzia, all'adolescenza o a un tempo ormai trascorso"
+  },
+  "identita": {
+    "nome": "Identità",
+    "descrizione": "canzoni sulla scoperta, l'affermazione, la trasformazione o l'accettazione di sé"
+  },
+  "liberta-evasione": {
+    "nome": "Libertà ed evasione",
+    "descrizione": "canzoni sul desiderio di fuga, libertà o di vivere il momento presente senza vincoli"
+  }
+}

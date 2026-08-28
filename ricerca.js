@@ -278,51 +278,71 @@
     var conteggio = document.querySelector('[data-conteggio]');
     var bottoni = Array.prototype.slice.call(document.querySelectorAll('.filtro'));
 
-    function filtra(genere, paese) {
+    function filtra(genere, paese, tema) {
       var visibili = 0;
       schede.forEach(function (s) {
         var gen = (s.getAttribute('data-generi') || '').split(/\s+/);
         var pae = s.getAttribute('data-paese') || '';
+        var tem = (s.getAttribute('data-temi') || '').split(/\s+/);
         var ok = true;
         if (genere) ok = gen.indexOf(genere) !== -1;
         if (ok && paese) ok = pae === paese;
+        if (ok && tema) ok = tem.indexOf(tema) !== -1;
         s.classList.toggle('is-nascosto', !ok);
         if (ok) visibili++;
       });
       if (conteggio) {
-        conteggio.textContent = (genere || paese)
+        conteggio.textContent = (genere || paese || tema)
           ? visibili + ' di ' + schede.length + ' canzoni'
           : schede.length + ' canzoni';
       }
     }
 
-    // F4: il filtro attivo vive nell'URL (?genere= / ?paese=), così ricaricare,
-    // tornare indietro o condividere il link restituisce la stessa vista.
-    function applicaFiltro(genere, paese, aggiornaUrl) {
-      filtra(genere, paese);
+    // F4/F30: il filtro attivo vive nell'URL (?genere= / ?paese= / ?tema=),
+    // così ricaricare, tornare indietro o condividere il link restituisce
+    // la stessa vista. Genere e tema sono due gruppi indipendenti (ognuno
+    // ha il proprio "Tutti"/"Ogni tema"), combinabili fra loro e con paese.
+    var statoGenere = '';
+    var statoPaese = '';
+    var statoTema = '';
+
+    function applicaFiltro(genere, paese, tema, aggiornaUrl) {
+      statoGenere = genere;
+      statoPaese = paese;
+      statoTema = tema;
+      filtra(genere, paese, tema);
       bottoni.forEach(function (b) {
-        var attivo = (b.getAttribute('data-genere') || '') === genere && (b.getAttribute('data-paese') || '') === paese;
+        var attivo = b.hasAttribute('data-tema')
+          ? (b.getAttribute('data-tema') || '') === tema
+          : (b.getAttribute('data-genere') || '') === genere && (b.getAttribute('data-paese') || '') === paese;
         b.setAttribute('aria-pressed', attivo ? 'true' : 'false');
       });
       if (aggiornaUrl) {
         var url = new URL(location.href);
         url.searchParams.delete('genere');
         url.searchParams.delete('paese');
+        url.searchParams.delete('tema');
         if (genere) url.searchParams.set('genere', genere);
         if (paese) url.searchParams.set('paese', paese);
+        if (tema) url.searchParams.set('tema', tema);
         history.replaceState(null, '', url.pathname + url.search);
       }
     }
 
     bottoni.forEach(function (b) {
       b.addEventListener('click', function () {
-        applicaFiltro(b.getAttribute('data-genere') || '', b.getAttribute('data-paese') || '', true);
+        if (b.hasAttribute('data-tema')) {
+          applicaFiltro(statoGenere, statoPaese, b.getAttribute('data-tema') || '', true);
+        } else {
+          applicaFiltro(b.getAttribute('data-genere') || '', b.getAttribute('data-paese') || '', statoTema, true);
+        }
       });
     });
 
     var parametriIniziali = new URLSearchParams(location.search);
     var genereIniziale = parametriIniziali.get('genere') || '';
     var paeseIniziale = parametriIniziali.get('paese') || '';
-    if (genereIniziale || paeseIniziale) applicaFiltro(genereIniziale, paeseIniziale, false);
+    var temaIniziale = parametriIniziali.get('tema') || '';
+    if (genereIniziale || paeseIniziale || temaIniziale) applicaFiltro(genereIniziale, paeseIniziale, temaIniziale, false);
   }
 })();

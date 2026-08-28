@@ -40,7 +40,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "morte-lutto"
+    ]
   },
   {
     "slug": "in-the-end",
@@ -83,7 +87,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "morte-lutto"
+    ]
   },
   {
     "slug": "teen-spirit",
@@ -133,7 +141,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "ribellione"
+    ]
   },
   {
     "slug": "billie-jean",
@@ -175,7 +187,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "sweet-child",
@@ -217,7 +232,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "creep",
@@ -259,7 +277,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "identita"
+    ]
   },
   {
     "slug": "someone-like-you",
@@ -301,7 +323,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "highway-to-hell",
@@ -343,7 +368,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
   },
   {
     "slug": "hotel-california",
@@ -385,7 +413,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "enter-sandman",
@@ -427,7 +458,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
   },
   {
     "slug": "chop-suey",
@@ -469,7 +503,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "identita"
+    ]
   },
   {
     "slug": "paranoid",
@@ -511,7 +549,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "rottura"
+    ]
   },
   {
     "slug": "nothing-else-matters",
@@ -553,7 +595,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "stairway-to-heaven",
@@ -595,7 +640,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "killing-in-the-name",
@@ -638,7 +686,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "ribellione"
+    ]
   },
   {
     "slug": "wonderwall",
@@ -681,7 +733,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "lose-yourself",
@@ -723,7 +778,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "thriller",
@@ -765,7 +823,8 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": []
   },
   {
     "slug": "du-hast",
@@ -807,7 +866,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura",
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "freak-on-a-leash",
@@ -848,7 +911,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "imagine",
@@ -891,7 +957,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "hey-jude",
@@ -934,7 +1003,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "walk",
@@ -976,7 +1048,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "run-to-the-hills",
@@ -1018,7 +1093,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "breaking-the-law",
@@ -1060,7 +1139,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "raining-blood",
@@ -1102,7 +1185,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Dork"
+    "testoFonte": "Dork",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "darkside",
@@ -1160,7 +1246,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "solitudine",
@@ -1203,7 +1292,10 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Racconta il dolore adolescenziale della protagonista dopo che Marco, il ragazzo che ama, è costretto a trasferirsi in un'altra città."
+    "descrizioneSeo": "Racconta il dolore adolescenziale della protagonista dopo che Marco, il ragazzo che ama, è costretto a trasferirsi in un'altra città.",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "albachiara",
@@ -1253,7 +1345,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "certe-notti",
@@ -1295,7 +1390,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "nostalgia"
+    ]
   },
   {
     "slug": "volare",
@@ -1337,7 +1435,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
   },
   {
     "slug": "cielo-blu",
@@ -1379,7 +1480,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "azzurro",
@@ -1421,7 +1525,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "nostalgia",
+      "amore"
+    ]
   },
   {
     "slug": "canto-libero",
@@ -1463,7 +1571,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "la-cura",
@@ -1505,7 +1616,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "caruso",
@@ -1548,7 +1662,10 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Nato per caso in un albergo di Sorrento dove decenni prima aveva soggiornato Enrico Caruso, il brano immagina gli ultimi giorni del tenore."
+    "descrizioneSeo": "Nato per caso in un albergo di Sorrento dove decenni prima aveva soggiornato Enrico Caruso, il brano immagina gli ultimi giorni del tenore.",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "bello-impossibile",
@@ -1591,7 +1708,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "marinella",
@@ -1634,7 +1754,10 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Ispirata a un fatto di cronaca nera letto da De André da ragazzo, trasforma una tragedia in una storia \"senza tempo di gente senza storia\"."
+    "descrizioneSeo": "Ispirata a un fatto di cronaca nera letto da De André da ragazzo, trasforma una tragedia in una storia \"senza tempo di gente senza storia\".",
+    "temi": [
+      "morte-lutto"
+    ]
   },
   {
     "slug": "numb",
@@ -1677,7 +1800,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "africa",
@@ -1716,7 +1843,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
   },
   {
     "slug": "bring-me-to-life",
@@ -1755,7 +1885,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "sweet-home-alabama",
@@ -1793,7 +1926,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "basket-case",
@@ -1836,7 +1972,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "master-of-puppets",
@@ -1874,7 +2013,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza"
+    ]
   },
   {
     "slug": "litaliano",
@@ -1916,7 +2058,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "nostalgia"
+    ]
   },
   {
     "slug": "sally",
@@ -1954,7 +2100,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "generale",
@@ -1996,7 +2145,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "cielo-stanza",
@@ -2038,7 +2191,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "zombie-cranberries",
@@ -2080,7 +2236,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "livin-on-a-prayer",
@@ -2117,7 +2277,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "smoke-on-the-water",
@@ -2154,7 +2317,8 @@
         "nome": "Virgin Radio"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": []
   },
   {
     "slug": "crazy-train",
@@ -2191,7 +2355,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "guerra"
+    ]
   },
   {
     "slug": "seven-nation-army",
@@ -2228,7 +2396,8 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": []
   },
   {
     "slug": "piccolo-grande-amore",
@@ -2265,7 +2434,11 @@
         "nome": "Il Pitagora"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore",
+      "nostalgia"
+    ]
   },
   {
     "slug": "felicita",
@@ -2302,7 +2475,10 @@
         "nome": "Fanpage"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "4-marzo-1943",
@@ -2339,7 +2515,11 @@
         "nome": "Tag24"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra",
+      "morte-lutto"
+    ]
   },
   {
     "slug": "black-hole-sun",
@@ -2376,7 +2556,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "iron-man",
@@ -2413,7 +2596,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "ribellione"
+    ]
   },
   {
     "slug": "should-i-stay",
@@ -2451,7 +2638,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "rimmel",
@@ -2488,7 +2678,10 @@
         "nome": "Rockol"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "vivo-per-lei",
@@ -2525,7 +2718,11 @@
         "nome": "Donna Glamour"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore",
+      "industria-musicale"
+    ]
   },
   {
     "slug": "purple-rain",
@@ -2575,7 +2772,10 @@
         "nome": "NME"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "wish-you-were-here",
@@ -2612,7 +2812,11 @@
         "nome": "Far Out Magazine"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "nostalgia",
+      "alienazione"
+    ]
   },
   {
     "slug": "hurt",
@@ -2653,7 +2857,11 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "take-on-me",
@@ -2695,7 +2903,10 @@
         "nome": "Washington Post"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "dreams",
@@ -2736,7 +2947,10 @@
         "nome": "Far Out Magazine"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "heroes",
@@ -2777,7 +2991,10 @@
         "nome": "Ultimate Classic Rock"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "senza-una-donna",
@@ -2814,7 +3031,10 @@
         "nome": "zucchero.it"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "under-the-bridge",
@@ -2855,7 +3075,11 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza",
+      "alienazione"
+    ]
   },
   {
     "slug": "every-breath-you-take",
@@ -2897,7 +3121,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "fast-car",
@@ -2934,7 +3161,11 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "losing-my-religion",
@@ -2976,7 +3207,10 @@
         "nome": "Loudwire"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "i-will-always-love-you",
@@ -3013,7 +3247,10 @@
         "nome": "whitneyhouston.com"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "yes-i-know-my-way",
@@ -3050,7 +3287,11 @@
         "nome": "Wonderchannel"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "ribellione"
+    ]
   },
   {
     "slug": "the-sound-of-silence",
@@ -3091,7 +3332,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
   },
   {
     "slug": "paint-it-black",
@@ -3132,7 +3376,11 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "piu-bella-cosa",
@@ -3169,7 +3417,10 @@
         "nome": "Fanpage"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "rocket-man",
@@ -3211,7 +3462,11 @@
         "nome": "Hello Rayo"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "industria-musicale"
+    ]
   },
   {
     "slug": "yellow",
@@ -3253,7 +3508,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "il-carrozzone",
@@ -3290,7 +3548,10 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
   },
   {
     "slug": "can-you-feel-my-heart",
@@ -3328,7 +3589,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "drown",
@@ -3366,7 +3631,11 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "dipendenza"
+    ]
   },
   {
     "slug": "throne",
@@ -3408,7 +3677,10 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "mantra",
@@ -3450,7 +3722,11 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "sleepwalking",
@@ -3488,7 +3764,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale",
+      "dipendenza"
+    ]
   },
   {
     "slug": "antivist",
@@ -3525,7 +3805,10 @@
         "nome": "Help Me I Am In Hell Wiki"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "chelsea-smile",
@@ -3562,7 +3845,11 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "doomed",
@@ -3603,7 +3890,10 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "follow-you",
@@ -3642,7 +3932,10 @@
         "nome": "Musician Wages"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "parasite-eve",
@@ -3679,7 +3972,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "lost",
@@ -3716,7 +4012,11 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "die4u",
@@ -3759,7 +4059,11 @@
         "nome": "Loudwire"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza",
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "riders-on-the-storm",
@@ -3800,7 +4104,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
   },
   {
     "slug": "personal-jesus",
@@ -3843,7 +4150,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "sono-solo-canzonette",
@@ -3881,7 +4191,10 @@
         "nome": "AllMusicItalia"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "shadow-moses",
@@ -3918,7 +4231,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "wonderful-life",
@@ -3960,7 +4276,10 @@
         "nome": "The Rockpit"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "nihilist-blues",
@@ -4003,7 +4322,11 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "one",
@@ -4044,7 +4367,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra"
+    ]
   },
   {
     "slug": "ace-of-spades",
@@ -4081,7 +4407,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto",
+      "liberta-evasione"
+    ]
   },
   {
     "slug": "psychosocial",
@@ -4118,7 +4448,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "symphony-of-destruction",
@@ -4159,7 +4493,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "sober",
@@ -4200,7 +4537,10 @@
         "nome": "Far Out Magazine"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza"
+    ]
   },
   {
     "slug": "square-hammer",
@@ -4238,7 +4578,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "american-idiot",
@@ -4280,7 +4623,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "boulevard-of-broken-dreams",
@@ -4322,7 +4668,10 @@
         "nome": "Extra Chill"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
   },
   {
     "slug": "fat-lip",
@@ -4364,7 +4713,10 @@
         "nome": "Musician Wages"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "in-too-deep",
@@ -4406,7 +4758,10 @@
         "nome": "Extra Chill"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "crawling",
@@ -4444,7 +4799,11 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Nato da un pezzo scartato chiamato \"Blue\", di cui la band riprese solo la parte vocale finale per scrivere un testo completamente nuovo."
+    "descrizioneSeo": "Nato da un pezzo scartato chiamato \"Blue\", di cui la band riprese solo la parte vocale finale per scrivere un testo completamente nuovo.",
+    "temi": [
+      "dipendenza",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "one-step-closer",
@@ -4481,7 +4840,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "uprising",
@@ -4518,7 +4880,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "ribellione"
+    ]
   },
   {
     "slug": "starlight",
@@ -4555,7 +4921,11 @@
         "nome": "Radio X"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore",
+      "rottura"
+    ]
   },
   {
     "slug": "all-the-small-things",
@@ -4597,7 +4967,10 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "i-miss-you",
@@ -4636,7 +5009,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura",
+      "amore"
+    ]
   },
   {
     "slug": "she-looks-so-perfect",
@@ -4675,7 +5052,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "still-waiting",
@@ -4717,7 +5097,11 @@
         "nome": "Alternative Press"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione",
+      "alienazione"
+    ]
   },
   {
     "slug": "whats-my-age-again",
@@ -4756,7 +5140,10 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Scritta da Mark Hoppus in circa cinque minuti, nacque dopo che diverse persone gli fecero notare quanto fosse immaturo per la sua età."
+    "descrizioneSeo": "Scritta da Mark Hoppus in circa cinque minuti, nacque dopo che diverse persone gli fecero notare quanto fosse immaturo per la sua età.",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "happy-song",
@@ -4793,7 +5180,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
   },
   {
     "slug": "ho-messo-via",
@@ -4830,7 +5220,10 @@
         "nome": "Il Pitagora"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "hanno-ucciso-luomo-ragno",
@@ -4868,7 +5261,10 @@
         "nome": "Fanpage"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "nostalgia"
+    ]
   },
   {
     "slug": "wake-me-up",
@@ -4910,7 +5306,11 @@
         "nome": "Today.com"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione",
+      "identita"
+    ]
   },
   {
     "slug": "hypa-hypa",
@@ -4948,7 +5348,11 @@
         "nome": "Songtell"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia",
+      "dipendenza"
+    ]
   },
   {
     "slug": "diventerai-una-star",
@@ -4986,7 +5390,10 @@
         "nome": "Rockol"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "vieni-a-ballare-in-puglia",
@@ -5023,7 +5430,10 @@
         "nome": "eHabitat"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "marmellata-25",
@@ -5061,7 +5471,11 @@
         "nome": "Libreriamo"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura",
+      "identita"
+    ]
   },
   {
     "slug": "get-lucky",
@@ -5098,7 +5512,10 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
   },
   {
     "slug": "shape-of-you",
@@ -5139,7 +5556,10 @@
         "nome": "Billboard"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
   },
   {
     "slug": "sugar-were-goin-down",
@@ -5181,7 +5601,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "ragu",
@@ -5218,7 +5641,11 @@
         "nome": "Soundsblog"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "industria-musicale"
+    ]
   },
   {
     "slug": "21-guns",
@@ -5260,7 +5687,11 @@
         "nome": "American Songwriter"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "guerra"
+    ]
   },
   {
     "slug": "mr-brightside",
@@ -5301,7 +5732,10 @@
         "nome": "Rolling Stone"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "cattiva",
@@ -5339,7 +5773,10 @@
         "nome": "Cromosomi"
       }
     ],
-    "testoFonte": "AngoloTesti"
+    "testoFonte": "AngoloTesti",
+    "temi": [
+      "rottura"
+    ]
   },
   {
     "slug": "break-stuff",
@@ -5380,7 +5817,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "my-exs-best-friend",
@@ -5418,7 +5858,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia",
+      "rottura"
+    ]
   },
   {
     "slug": "welcome-to-the-black-parade",
@@ -5459,7 +5903,10 @@
         "nome": "Louder"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
   },
   {
     "slug": "supermassive-black-hole",
@@ -5496,7 +5943,11 @@
         "nome": "Songfacts"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia",
+      "dipendenza"
+    ]
   },
   {
     "slug": "dont-look-back-in-anger",
@@ -5534,7 +5985,10 @@
         "nome": "Radio X"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita"
+    ]
   },
   {
     "slug": "ringo-starr",
@@ -5572,7 +6026,11 @@
         "nome": "Fanpage"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "identita"
+    ]
   },
   {
     "slug": "everlong",
@@ -5614,7 +6072,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "amore",
+      "morte-lutto"
+    ]
   },
   {
     "slug": "the-trooper",
@@ -5656,7 +6118,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "guerra"
+    ]
   },
   {
     "slug": "angel-of-death",
@@ -5698,7 +6163,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Dork"
+    "testoFonte": "Dork",
+    "temi": [
+      "guerra"
+    ]
   },
   {
     "slug": "cowboys-from-hell",
@@ -5740,7 +6208,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "industria-musicale"
+    ]
   },
   {
     "slug": "byob",
@@ -5782,7 +6253,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "guerra"
+    ]
   },
   {
     "slug": "wait-and-bleed",
@@ -5824,7 +6299,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "sonne",
@@ -5866,7 +6345,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza"
+    ]
   },
   {
     "slug": "youve-got-another-thing-comin",
@@ -5908,7 +6390,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "overkill",
@@ -5950,7 +6435,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ribellione"
+    ]
   },
   {
     "slug": "peace-sells",
@@ -5992,7 +6480,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "november-rain",
@@ -6034,7 +6525,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
   },
   {
     "slug": "highway-star",
@@ -6076,7 +6570,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "ossessione-gelosia"
+    ]
   },
   {
     "slug": "closer",
@@ -6118,7 +6615,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "dipendenza",
+      "salute-mentale"
+    ]
   },
   {
     "slug": "blind",
@@ -6161,7 +6662,10 @@
       }
     ],
     "testoFonte": "Letras",
-    "descrizioneSeo": "Nata come pezzo suonato da Jonathan Davis nella sua band precedente, i SexArt, fu rielaborata dopo il suo ingresso nei Korn nel 1992."
+    "descrizioneSeo": "Nata come pezzo suonato da Jonathan Davis nella sua band precedente, i SexArt, fu rielaborata dopo il suo ingresso nei Korn nel 1992.",
+    "temi": [
+      "dipendenza"
+    ]
   },
   {
     "slug": "bark-at-the-moon",
@@ -6203,7 +6707,8 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": []
   },
   {
     "slug": "bulls-on-parade",
@@ -6246,7 +6751,10 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale"
+    ]
   },
   {
     "slug": "alive",
@@ -6288,7 +6796,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "morte-lutto"
+    ]
   },
   {
     "slug": "man-in-the-box",
@@ -6330,7 +6842,11 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "critica-sociale"
+    ]
   },
   {
     "slug": "sound-of-silence-disturbed",
@@ -6372,6 +6888,9 @@
         "ruolo": "ascolti"
       }
     ],
-    "testoFonte": "Letras"
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
   }
 ]

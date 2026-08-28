@@ -302,6 +302,17 @@ while (cambiato) {
 
 for (const c of canzoni) c._collegamenti = collegamentiPerSlug.get(c.slug);
 
+// ------------------------------------------------------------------ F30
+
+// Tassonomia derivata dai dati reali (frase iconica di ogni canzone), non
+// da un elenco di mood astratto: solo i temi con almeno una canzone
+// compaiono come filtro, l'ordine segue la diffusione reale nel catalogo.
+const temiTesti = JSON.parse(readFileSync(join(ROOT, 'dati', 'temi.json'), 'utf8'));
+const temi = Object.entries(temiTesti)
+  .map(([slug, info]) => ({ slug, nome: info.nome, n: canzoni.filter((c) => (c.temi || []).includes(slug)).length }))
+  .filter((t) => t.n > 0)
+  .sort((a, b) => b.n - a.n || a.nome.localeCompare(b.nome, 'it'));
+
 const dataRevisione = new Date().toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
 const ctx = {
@@ -309,6 +320,7 @@ const ctx = {
   artisti,
   album,
   raccolte,
+  temi,
   canzoniPerSlug,
   artistiPerSlug,
   albumPerSlug,

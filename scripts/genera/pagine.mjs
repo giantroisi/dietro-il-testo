@@ -1096,12 +1096,20 @@ export function paginaArchivio(ctx) {
         ${generi.map(([k, n]) => `<button class="filtro" type="button" data-genere="${k}" aria-pressed="false">${esc(n)}</button>`).join('\n        ')}
         <button class="filtro" type="button" data-paese="it" aria-pressed="false">Artisti italiani</button>
       </div>
+      ${
+        ctx.temi.length
+          ? `<div class="filtri" role="group" aria-label="Filtra per tema" style="margin-top:10px">
+        <button class="filtro" type="button" data-tema="" aria-pressed="true">Ogni tema</button>
+        ${ctx.temi.map((t) => `<button class="filtro" type="button" data-tema="${t.slug}" aria-pressed="false">${esc(t.nome)}</button>`).join('\n        ')}
+      </div>`
+          : ''
+      }
       <p class="conteggio" data-conteggio aria-live="polite">${canzoni.length} canzoni</p>
       <div class="griglia" data-elenco>
         ${ordinate
           .map(
             (c) =>
-              `<a class="scheda" href="${r}canzone/${c.slug}/" style="--identita:${c.colore || 'var(--sistema)'}" data-generi="${esc(c.generi.join(' '))}" data-paese="${esc(c.paese || '')}">
+              `<a class="scheda" href="${r}canzone/${c.slug}/" style="--identita:${c.colore || 'var(--sistema)'}" data-generi="${esc(c.generi.join(' '))}" data-paese="${esc(c.paese || '')}" data-temi="${esc((c.temi || []).join(' '))}">
           <span class="sopra">${conSegno([c.artista, annoDi(c)])}</span>
           <span class="titolo">${esc(c.titolo)}</span>
           ${richiamo(c) ? `<span class="gancio">${esc(richiamo(c))}</span>` : ''}
