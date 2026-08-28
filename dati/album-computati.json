@@ -2292,10 +2292,10 @@
     "slug": "buon-compleanno-elvis",
     "titolo": "Buon compleanno Elvis",
     "anno": "1995",
-    "copertina": true,
+    "copertina": false,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": true,
+    "indicizzabile": false,
     "sintetico": false
   },
   {
@@ -3502,10 +3502,10 @@
     "slug": "the-resistance",
     "titolo": "The Resistance",
     "anno": "2009",
-    "copertina": true,
+    "copertina": false,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": true,
+    "indicizzabile": false,
     "sintetico": false
   },
   {

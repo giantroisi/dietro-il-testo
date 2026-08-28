@@ -85,9 +85,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "muse/black-holes-and-revelations",
     "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata integralmente: Gigwise cita direttamente Storm Thorgerson sui mali moderni (paranoia, intolleranza, narcisismo, avidità) e i quattro cavalieri"
   },
   {
     "id": "album:oasis:whats-the-story-morning-glory:fonte-copertina",
@@ -95,9 +95,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "oasis/whats-the-story-morning-glory",
     "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata: Pixartprinting conferma fotografo, data (23 luglio 1995), luogo e identità delle due figure sfocate (Brian Cannon, Sean Rowley)"
   },
   {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
@@ -105,9 +105,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "francesco-de-gregori/rimmel",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata solo la descrizione visiva (Libreriamo); tolti l'attribuzione a Francesco Logoluso e la citazione di De Gregori sul 'trucco', non verificabili con una fonte incollabile nonostante 5 fonti diverse tentate (Rockol, Fanpage, Treccani, doppiojazz, sandrodandria — tutte bloccate o senza la citazione)"
   },
   {
     "id": "album:green-day:dookie:fonte-copertina",
@@ -115,19 +115,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "green-day/dookie",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:buon-compleanno-elvis:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "ligabue/buon-compleanno-elvis",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata integralmente: intervista diretta a Richie Bucher su KQED conferma le influenze (Fabulous Furry Freak Brothers, Shakedown Street dei Grateful Dead)"
   },
   {
     "id": "album:metallica:master-of-puppets:fonte-copertina",
@@ -135,32 +125,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "metallica/master-of-puppets",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:muse:the-resistance:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "muse/the-resistance",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:freak-on-a-leash:completezza",
-    "classe": "C1",
-    "tipo": "scheda-incompleta",
-    "soggetto": "freak-on-a-leash",
-    "raccoglie": 1,
-    "manca": [
-      "corpo (almeno 2 paragrafi)"
-    ],
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata: Loudersound conferma lo schizzo di Hetfield e il tema di dipendenza/futilità; il dettaglio sui fili del burattinaio è descrizione visiva diretta dell'opera, non un'attribuzione da fonte"
   },
   {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
@@ -2026,6 +1993,16 @@
     "motivo": null
   },
   {
+    "id": "album:ligabue:buon-compleanno-elvis:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/buon-compleanno-elvis",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:sopravvissuti-e-sopravviventi:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -2110,6 +2087,16 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "motorhead/overkill",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:muse:the-resistance:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "muse/the-resistance",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,

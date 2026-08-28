@@ -1999,9 +1999,9 @@
   {
     "percorso": "album/ligabue/buon-compleanno-elvis/",
     "categoria": "indice",
-    "indicizzabile": true,
+    "indicizzabile": false,
     "nCanzoni": 1,
-    "haTestoEditoriale": true
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/ligabue/nome-e-cognome/",
@@ -2153,9 +2153,9 @@
   {
     "percorso": "album/muse/the-resistance/",
     "categoria": "indice",
-    "indicizzabile": true,
+    "indicizzabile": false,
     "nCanzoni": 1,
-    "haTestoEditoriale": true
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/muse/drones/",

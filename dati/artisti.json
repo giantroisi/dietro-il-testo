@@ -1220,7 +1220,13 @@
         "titolo": "Rimmel",
         "anno": "1975",
         "nota": "oltre 500.000 copie vendute, 20° posto tra i 100 migliori album italiani secondo Rolling Stone Italia (2012), considerato il suo capolavoro",
-        "copertina": "Copertina firmata da Francesco Logoluso su concept condiviso con De Gregori: un ritratto ovale in stile cartolina d'epoca inserito tra fitte righe verticali bianche e nere che creano un effetto di disagio visivo, a rispecchiare il tema del disco — il \"trucco\" (rimmel) contrapposto alla verità nascosta. De Gregori: \"Rimmel nel senso di trucco, di qualcosa di artefatto, ma questo disco è per smascherarli.\"",
+        "copertina": "Un ritratto femminile elegante in stile cartolina d'epoca, accostato a uno sfondo a righe verticali bianche e nere dal carattere forte e dissonante.",
+        "copertinaFonte": [
+          {
+            "url": "https://libreriamo.it/intrattenimento/rimmel-francesco-de-gregori/",
+            "nome": "Libreriamo"
+          }
+        ],
         "slug": "rimmel"
       },
       {
@@ -1452,6 +1458,12 @@
         "anno": "1994",
         "nota": "certificato Double Diamond RIAA nel 2024 (20+ milioni negli USA), Grammy Best Alternative Music Album 1995",
         "copertina": "Illustrata dall'artista punk Richie Bucher, ambientata su Telegraph Avenue a Berkeley: raffigura cani e scimmie che lanciano escrementi sulla folla, ispirata ai fumetti \"Fabulous Furry Freak Brothers\" e alla copertina \"Shakedown Street\" dei Grateful Dead, piena di riferimenti a personaggi locali di Berkeley.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.kqed.org/arts/13844052/vince-staples-and-green-day-talking-with-dookie-cover-artist-richie-bucher",
+            "nome": "KQED"
+          }
+        ],
         "slug": "dookie"
       },
       {
@@ -2106,7 +2118,6 @@
         "titolo": "Buon compleanno Elvis",
         "anno": "1995",
         "nota": "10x disco di platino, disco di platino anche in Europa, uno dei suoi maggiori successi commerciali",
-        "copertina": "Elvis Presley viene descritto dallo stesso Ligabue come simbolo delle notti da bar, delle chitarre e delle storie sussurrate — non nostalgia, ma un'icona.",
         "slug": "buon-compleanno-elvis"
       },
       {
@@ -2679,6 +2690,12 @@
         "anno": "1986",
         "nota": "certificato 8x Platino RIAA, inserito nel National Recording Registry della Biblioteca del Congresso USA nel 2016",
         "copertina": "Basata su uno schizzo di James Hetfield e dipinta dall'illustratore Don Brautigam, raffigura file di lapidi controllate da fili manovrati da un burattinaio nel cielo, a rappresentare i temi di dipendenza e manipolazione dell'album.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/metallica-master-of-puppets-artwork-don-brautigam-1986-album-cover",
+            "nome": "Louder"
+          }
+        ],
         "slug": "master-of-puppets"
       },
       {
@@ -3074,13 +3091,18 @@
         "anno": "2006",
         "nota": "certificato 4x platino nel Regno Unito e platino RIAA",
         "copertina": "Disegnata da Storm Thorgerson (celebre per \"The Dark Side of the Moon\" dei Pink Floyd), reimmagina i quattro cavalieri dell'Apocalisse come mali moderni — paranoia, intolleranza, narcisismo e avidità — seduti su Marte a osservare la Terra.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.gigwise.com/blogs/106427/black-holes-and-revelations-album-artwork/",
+            "nome": "Gigwise"
+          }
+        ],
         "slug": "black-holes-and-revelations"
       },
       {
         "titolo": "The Resistance",
         "anno": "2009",
         "nota": "certificato 2x platino nel Regno Unito e platino RIAA, Grammy Best Rock Album 2011",
-        "copertina": "Disegnata da Scott Bendall (studio La Boca), ispirata al lavoro dell'illustratore spaziale Jon Lomberg: raffigura una figura solitaria in un caleidoscopio di esagoni che osserva la Terra dallo spazio, a evocare il senso della vita e i temi politico-fantascientifici dell'album; ha vinto il Best Art Vinyl 2010.",
         "slug": "the-resistance"
       },
       {
@@ -3265,6 +3287,12 @@
         "anno": "1995",
         "nota": "numero 1 nel Regno Unito, certificato 19x platino nel Regno Unito e 4x platino RIAA, circa 22-23 milioni di copie vendute, il loro album più venduto",
         "copertina": "Scattata da Michael Spencer Jones su Berwick Street a Soho; le figure sfocate sullo sfondo non sono i fratelli Gallagher ma l'art director Brian Cannon e il DJ Sean Rowley.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.pixartprinting.co.uk/blog/morning-glory-album-cover-oasis/",
+            "nome": "Pixartprinting"
+          }
+        ],
         "slug": "whats-the-story-morning-glory"
       },
       {
