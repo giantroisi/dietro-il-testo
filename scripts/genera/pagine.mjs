@@ -126,6 +126,116 @@ function playerIntestazione(c) {
       </div>`;
 }
 
+// F58: parole che non possono mai essere l'ultima di una descrizione tagliata
+// — congiunzioni, preposizioni, pronomi relativi — perché lasciano la frase
+// evidentemente a metà anche quando non tagliano una parola a metà.
+const PAROLE_DEBOLI = new Set(
+  'che cui chi quando mentre dove come se perché poiché affinché sebbene benché nonostante e ed o od ma però quindi dunque anche ancora già non di a da in con su per tra fra il lo la i gli le un uno una suo sua suoi sue del dello della dei degli delle al allo alla ai agli alle dal dallo dalla dai dagli dalle nel nello nella nei negli nelle col coi'.split(
+    ' '
+  )
+);
+
+/** L'ultima parola di una stringa, o null se la stringa non finisce con una lettera vera (es. un'iniziale puntata come "K."). */
+function ultimaParolaValida(s) {
+  const m = s.match(/([A-Za-zÀ-ÖØ-öø-ÿ']+)$/);
+  return m ? m[1].toLowerCase() : null;
+}
+
+function virgoletteBilanciate(s) {
+  return (s.match(/"/g) || []).length % 2 === 0;
+}
+
+/** Un punto preceduto da una sigla puntata ("E.", "K.K.") non è mai fine frase. */
+function eIniziale(testo, posPunto) {
+  let inizio = posPunto;
+  while (inizio > 0 && !/\s/.test(testo[inizio - 1])) inizio--;
+  const token = testo.slice(inizio, posPunto);
+  return /^[A-Z](\.[A-Z])*$/.test(token);
+}
+
+/**
+ * F58: spezza un testo in frasi intere, ignorando la punteggiatura dentro le
+ * virgolette (un titolo come "Vivo per..." o "Infected?" non deve rompere la
+ * frase) e le sigle puntate. Usata sia per costruire le descrizioni sia,
+ * indirettamente, per capire dove si può tagliare senza spezzare un pensiero.
+ */
+function frasiComplete(testo) {
+  const frasi = [];
+  let start = 0;
+  let dentroVirgolette = false;
+  let i = 0;
+  const n = testo.length;
+  while (i < n) {
+    const ch = testo[i];
+    if (ch === '"') dentroVirgolette = !dentroVirgolette;
+    if (!dentroVirgolette && '.!?'.includes(ch)) {
+      if (ch === '.' && eIniziale(testo, i)) {
+        i++;
+        continue;
+      }
+      let j = i + 1;
+      while (j < n && '.!?'.includes(testo[j])) j++;
+      if (j < n && testo[j] === '"') j++;
+      if (j >= n || /\s/.test(testo[j])) {
+        frasi.push(testo.slice(start, j).trim());
+        start = j;
+        i = j;
+        continue;
+      }
+    }
+    i++;
+  }
+  if (start < n) {
+    const resto = testo.slice(start).trim();
+    if (resto) frasi.push(resto);
+  }
+  return frasi.filter(Boolean);
+}
+
+/**
+ * F58: la meta description si costruisce da frasi intere finché si sta sotto
+ * `max` caratteri, chiudendo sempre col punto della frase — mai "…", mai a
+ * metà parola. Quando la prima frase da sola supera già `max` (la norma in
+ * questo corpus, non l'eccezione: verificato che succede per 103 canzoni su
+ * 157), si scende di livello: si taglia all'ultima clausola (virgola) la cui
+ * parola finale non è una congiunzione/preposizione debole, e in ultima
+ * istanza all'ultima parola intera con la stessa regola. Non produce mai un
+ * frammento evidentemente monco per un motivo meccanico (parola spezzata,
+ * virgolette sbilanciate): i pochi casi che restano comunque incompleti nel
+ * senso (non nella forma) si risolvono col campo editoriale `descrizioneSeo`.
+ */
+export function costruisciDescrizione(testo, max = 155) {
+  const pulito = String(testo || '').trim();
+  if (!pulito) return '';
+  const frasi = frasiComplete(pulito).length ? frasiComplete(pulito) : [pulito];
+  let acc = '';
+  for (const f of frasi) {
+    const candidato = acc ? `${acc} ${f}` : f;
+    if (candidato.length <= max) acc = candidato;
+    else break;
+  }
+  if (acc) return acc;
+
+  const prima = frasi[0];
+  const posizioni = [...prima.matchAll(/[,;]/g)].map((m) => m.index);
+  for (let k = posizioni.length - 1; k >= 0; k--) {
+    const cand = prima.slice(0, posizioni[k]).trim();
+    if (cand.length + 1 > max) continue;
+    const uv = ultimaParolaValida(cand);
+    if (uv !== null && !PAROLE_DEBOLI.has(uv) && virgoletteBilanciate(cand)) return `${cand}.`;
+  }
+
+  let tagliato = prima.slice(0, max - 1);
+  while (true) {
+    const ultimoSpazio = tagliato.lastIndexOf(' ');
+    if (ultimoSpazio <= 0) break;
+    tagliato = tagliato.slice(0, ultimoSpazio);
+    const uv = ultimaParolaValida(tagliato);
+    if (uv !== null && !PAROLE_DEBOLI.has(uv) && virgoletteBilanciate(tagliato)) return `${tagliato.trim()}.`;
+  }
+  return `${prima.slice(0, max - 1).trim()}.`;
+}
+
 /** Taglia a una frase intera, senza mai spezzare una parola. */
 function primaFrase(testo, max = 130) {
   if (!testo) return '';
@@ -176,9 +286,15 @@ function primoAnno(annoRaw) {
   return m ? parseInt(m[0], 10) : null;
 }
 
+/** F57: la prima forma che sta entro 65 caratteri, mai la forma piena a occhio — verificato che senza ripiego 5 titoli canzone superano il limite (fino a 71 caratteri). */
+function titoloConRipiego(forme) {
+  for (const f of forme) if (f.length <= 65) return f;
+  return forme[forme.length - 1];
+}
+
 /** F45: unisce l'entità principale della pagina ai dati strutturati BreadcrumbList,
  * nello stesso ordine del percorso visibile (`nav.briciole`). */
-function conBreadcrumb(entita, voci) {
+function conBreadcrumb(entita, voci, extra = []) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -187,9 +303,15 @@ function conBreadcrumb(entita, voci) {
         '@type': 'BreadcrumbList',
         itemListElement: voci.map((v, i) => ({ '@type': 'ListItem', position: i + 1, name: v.nome, item: v.url })),
       },
+      ...extra,
     ],
   };
 }
+
+// F59: segnaposto per `dateModified`, sostituito col vero valore da
+// `genera-sito.mjs` DOPO che il lastmod di F40 è stato calcolato — è la
+// stessa identica data della sitemap, non può divergere per costruzione.
+export const SEGNAPOSTO_DATA_MODIFICA = '__DATA_MODIFICA__';
 
 // --------------------------------------------------------- pagina canzone
 
@@ -337,22 +459,29 @@ export function paginaCanzone(c, ctx) {
     }
   </div>`;
 
-  const descr = richiamo(c) || `${c.titolo} di ${c.artista}: contesto, significato e fonti verificate.`;
+  // F58: mai il primo pezzo del corpo tagliato a lunghezza fissa — frasi
+  // intere finché si sta sotto soglia, e solo dove serve (`descrizioneSeo`,
+  // §11.7) una descrizione scritta a mano perché quella automatica non regge.
+  const descr = c.descrizioneSeo || costruisciDescrizione(c.corpo.join(' '), 155) || `${c.titolo} di ${c.artista}: contesto, significato e fonti verificate.`;
 
   return pagina({
     profondita: 2,
     percorso: `canzone/${c.slug}/`,
-    titolo: `${c.titolo} — ${c.artista}`,
+    // F57: la domanda che si digita in italiano è "{titolo} significato", non
+    // il nome dell'artista da solo — il ripiego scende a soli 5 titoli su 157.
+    titolo: titoloConRipiego([`${c.titolo} (${c.artista}): significato e storia`, `${c.titolo}: significato e storia`]),
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
     ogImage: `og/${c.slug}.png`,
+    ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     corpo,
     datiStrutturati: conBreadcrumb(
       {
         '@type': 'MusicRecording',
+        '@id': `${SITO.base}/canzone/${c.slug}/#brano`,
         name: c.titolo,
         byArtist: { '@type': 'MusicGroup', name: c.artista, url: `${SITO.base}/artista/${c.artistaSlug}/` },
         ...(c.album ? { inAlbum: { '@type': 'MusicAlbum', name: c.album } } : {}),
@@ -364,6 +493,19 @@ export function paginaCanzone(c, ctx) {
         { nome: 'Home', url: `${SITO.base}/` },
         { nome: briciolaMedia.nome, url: `${SITO.base}/${briciolaMedia.percorso}` },
         { nome: c.titolo, url: `${SITO.base}/canzone/${c.slug}/` },
+      ],
+      // F59: la scheda è un articolo che parla di un MusicRecording, non il
+      // MusicRecording stesso — da qui `about`, non un doppione delle stesse proprietà.
+      [
+        {
+          '@type': 'Article',
+          headline: c.titolo,
+          about: { '@id': `${SITO.base}/canzone/${c.slug}/#brano` },
+          isPartOf: { '@id': `${SITO.base}/#sito` },
+          publisher: { '@id': `${SITO.base}/#editore` },
+          url: `${SITO.base}/canzone/${c.slug}/`,
+          dateModified: SEGNAPOSTO_DATA_MODIFICA,
+        },
       ]
     ),
   });
@@ -497,12 +639,13 @@ export function paginaArtista(a, ctx) {
   return pagina({
     profondita: 2,
     percorso: `artista/${a.slug}/`,
-    titolo: `${a.nome} — storia, album e canzoni`,
+    titolo: titoloConRipiego([`${a.nome}: le canzoni raccontate e la storia`, `${a.nome}: le canzoni raccontate`]),
     descrizione: a.storia
-      ? primaFrase(a.storia, 155)
+      ? costruisciDescrizione(a.storia, 155)
       : `${a.nome}: le ${brani.length} canzoni raccontate su Dietro il testo, con contesto e fonti verificate.`,
     identita: a.colore || undefined,
     identitaContrasto: a.colore ? suColore(a.colore) : undefined,
+    ogType: 'profile',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     // F52: senza storia e con meno di tre canzoni raccontate, la pagina resta
@@ -514,7 +657,8 @@ export function paginaArtista(a, ctx) {
         '@type': 'MusicGroup',
         name: a.nome,
         url: `${SITO.base}/artista/${a.slug}/`,
-        ...(a.storia ? { description: primaFrase(a.storia, 300) } : {}),
+        dateModified: SEGNAPOSTO_DATA_MODIFICA,
+        ...(a.storia ? { description: costruisciDescrizione(a.storia, 300) } : {}),
       },
       [
         { nome: 'Home', url: `${SITO.base}/` },
@@ -592,11 +736,24 @@ export function paginaAlbum(al, ctx) {
   return pagina({
     profondita: 3,
     percorso: `album/${al.artistaSlug}/${al.slug}/`,
-    // F48: "(album)" evita un <title> identico a quello della canzone omonima
-    // (es. Paranoid il brano vs Paranoid l'album di Black Sabbath).
-    titolo: `${al.titolo} (album) — ${a?.nome || ''}`,
+    // F48: la forma piena resta distinta da quella della canzone omonima
+    // (es. Paranoid il brano vs Paranoid l'album) perché il testo dopo i due
+    // punti è sempre diverso; i ripieghi mantengono "(album" esplicito per lo
+    // stesso motivo, verificato sul caso peggiore (*Wednesday Morning, 3
+    // A.M. / Sounds of Silence*, che serve il terzo gradino per stare sotto 65).
+    titolo: titoloConRipiego([
+      `${al.titolo} (${a?.nome || ''}): l'album e le canzoni raccontate`,
+      `${al.titolo} (album, ${a?.nome || ''})`,
+      `${al.titolo} (album)`,
+    ]),
+    // F58: il prefisso (titolo, artista, anno) è fisso e breve; solo la
+    // nota — a volte lunga oltre 200 caratteri — passa dal costruttore di
+    // frasi intere, col budget ridotto di quanto il prefisso ha già usato.
     descrizione: al.nota
-      ? `${al.titolo} di ${a?.nome}${al.anno ? ` (${al.anno})` : ''}: ${al.nota}.`
+      ? (() => {
+          const prefisso = `${al.titolo} di ${a?.nome || ''}${al.anno ? ` (${al.anno})` : ''}: `;
+          return `${prefisso}${costruisciDescrizione(`${al.nota}.`, Math.max(155 - prefisso.length, 40))}`;
+        })()
       : `${al.titolo} di ${a?.nome}${al.anno ? ` (${al.anno})` : ''} su Dietro il testo.`,
     identita: al.colore || undefined,
     identitaContrasto: al.colore ? suColore(al.colore) : undefined,
@@ -614,6 +771,7 @@ export function paginaAlbum(al, ctx) {
         byArtist: { '@type': 'MusicGroup', name: a?.nome, url: `${SITO.base}/artista/${al.artistaSlug}/` },
         ...(al.anno ? { datePublished: String(al.anno) } : {}),
         url: `${SITO.base}/album/${al.artistaSlug}/${al.slug}/`,
+        dateModified: SEGNAPOSTO_DATA_MODIFICA,
       },
       [
         { nome: 'Home', url: `${SITO.base}/` },
@@ -690,8 +848,9 @@ export function paginaRaccolta(rac, ctx) {
   return pagina({
     profondita: 2,
     percorso: rac.percorso,
-    titolo: rac.titoloH1,
-    descrizione: primaFrase(rac.introduzione, 155),
+    titolo: rac.titoloSeo,
+    descrizione: costruisciDescrizione(rac.introduzione, 155),
+    ogType: 'article',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     corpo,
@@ -700,7 +859,20 @@ export function paginaRaccolta(rac, ctx) {
         '@type': 'CollectionPage',
         name: rac.titoloH1,
         url: `${SITO.base}/${rac.percorso}`,
-        description: primaFrase(rac.introduzione, 300),
+        description: costruisciDescrizione(rac.introduzione, 300),
+        dateModified: SEGNAPOSTO_DATA_MODIFICA,
+        // F59: le canzoni contenute, non solo il conteggio — coerente col
+        // conteggio già mostrato in pagina, non un numero scritto due volte a mano.
+        mainEntity: {
+          '@type': 'ItemList',
+          numberOfItems: ordinate.length,
+          itemListElement: ordinate.map((b, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${SITO.base}/canzone/${b.slug}/`,
+            name: b.titolo,
+          })),
+        },
       },
       [
         { nome: 'Home', url: `${SITO.base}/` },

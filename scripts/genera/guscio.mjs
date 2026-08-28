@@ -104,12 +104,18 @@ export function pagina(o) {
     ? `<style>:root{--identita:${o.identita};--identita-testo:${o.identitaTesto || o.identita};--identita-contrasto:${o.identitaContrasto || '#FFFFFF'}}</style>`
     : '';
 
+  // F57: il suffisso di marca si aggiunge solo se il risultato resta sotto i
+  // 60 caratteri — oltre quella soglia Google lo taglia comunque, e il
+  // marchio ruberebbe solo spazio alle parole che contano.
+  const conSuffisso = `${o.titolo} | ${SITO.nome}`;
+  const titoloCompleto = conSuffisso.length < 60 ? conSuffisso : o.titolo;
+
   return `<!doctype html>
 <html lang="it">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(o.titolo)} | ${esc(SITO.nome)}</title>
+<title>${esc(titoloCompleto)}</title>
 <script>${SCRIPT_TEMA}</script>
 <meta name="description" content="${esc(o.descrizione)}">
 ${o.noindex ? '<meta name="robots" content="noindex">' : o.noindexFollow ? '<meta name="robots" content="noindex, follow">' : ''}
@@ -117,7 +123,7 @@ ${o.noindex ? '' : `<link rel="canonical" href="${SITO.base}/${o.percorso || ''}
 <link rel="icon" href="${r}favicon.ico" sizes="any">
 <link rel="icon" href="${r}favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="${r}apple-touch-icon.png">
-<meta property="og:type" content="website">
+<meta property="og:type" content="${esc(o.ogType || 'website')}">
 <meta property="og:site_name" content="${esc(SITO.nome)}">
 <meta property="og:title" content="${esc(o.titolo)}">
 <meta property="og:description" content="${esc(o.descrizione)}">

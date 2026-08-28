@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { SITO } from './genera/guscio.mjs';
-import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404, nomeGenere, NOMI_DECENNIO } from './genera/pagine.mjs';
+import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -166,6 +166,9 @@ const generiPubblicati = [...canzoniPerGenere.entries()]
     percorso: `genere/${slug}/`,
     nome: nomeGenere(slug),
     titoloH1: `Canzoni ${nomeGenere(slug).toLowerCase()}`,
+    // F57: formula fissa per il <title>, distinta dall'h1 — qui conta la
+    // domanda digitata su Google, non la formulazione naturale in pagina.
+    titoloSeo: `Canzoni ${nomeGenere(slug).toLowerCase()}: significato e storia dei testi`,
     introduzione: raccolteTesti.generi[slug],
     canzoni: elenco,
   }));
@@ -193,6 +196,7 @@ const decenniPubblicati = [...canzoniPerDecennio.entries()]
     percorso: `anni/${d}/`,
     nome: NOMI_DECENNIO[d] || `anni ${d}`,
     titoloH1: `Canzoni degli ${NOMI_DECENNIO[d] || `anni ${d}`}`,
+    titoloSeo: `Canzoni ${NOMI_DECENNIO[d] || `anni ${d}`}: significato e storia dei testi`,
     introduzione: raccolteTesti.decenni[String(d)],
     canzoni: elenco,
   }));
@@ -236,60 +240,19 @@ function scrivi(percorsoRelativo, contenuto) {
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 
-const htmlHome = paginaHome(ctx);
-const htmlArchivio = paginaArchivio(ctx);
-const htmlMetodo = paginaMetodo(ctx);
-scrivi('index.html', htmlHome);
-scrivi('archivio/index.html', htmlArchivio);
-scrivi('metodo/index.html', htmlMetodo);
-scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
-
-const htmlCanzoni = new Map();
-for (const c of canzoni) {
-  const html = paginaCanzone(c, ctx);
-  htmlCanzoni.set(c.slug, html);
-  scrivi(`canzone/${c.slug}/index.html`, html);
-}
-const htmlArtisti = new Map();
-for (const a of artisti) {
-  const html = paginaArtista(a, ctx);
-  htmlArtisti.set(a.slug, html);
-  scrivi(`artista/${a.slug}/index.html`, html);
-}
-const htmlAlbum = new Map();
-for (const al of album) {
-  const html = paginaAlbum(al, ctx);
-  htmlAlbum.set(`${al.artistaSlug}/${al.slug}`, html);
-  scrivi(`album/${al.artistaSlug}/${al.slug}/index.html`, html);
-}
-const htmlRaccolte = new Map();
-for (const rac of raccolte) {
-  const html = paginaRaccolta(rac, ctx);
-  htmlRaccolte.set(rac.percorso, html);
-  scrivi(`${rac.percorso}index.html`, html);
-}
-
-scrivi('ricerca.js', generaRicerca(ctx));
-
-// risorse statiche riusate dal sito attuale
-for (const f of ['logo.png', 'favicon.ico', 'favicon-32.png', 'favicon-192.png', 'apple-touch-icon.png']) {
-  if (existsSync(join(ROOT, f))) cpSync(join(ROOT, f), join(OUT, f));
-}
-// immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
-if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
-
-// ------------------------------------------------------- sitemap e robots
-
 const oggi = new Date().toISOString().slice(0, 10);
 
 // F40: `lastmod` riflette una vera modifica di contenuto, non la data di build.
 // Confronta l'HTML appena generato con quello già pubblicato in ROOT (l'ultima
-// versione online, copiata lì dal rituale di pubblicazione) ignorando la sola
-// riga "Ultima revisione" — l'unica che cambierebbe comunque ogni giorno anche
-// a contenuto identico. Se il resto coincide, la pagina riusa il lastmod già
-// presente nella sitemap precedente; altrimenti prende la data di oggi.
+// versione online, copiata lì dal rituale di pubblicazione) ignorando la riga
+// "Ultima revisione" e il campo `dateModified` (F59) — gli unici due che
+// cambierebbero comunque ogni giorno anche a contenuto identico, il secondo
+// proprio perché DEVE valere quanto il lastmod che stiamo ancora calcolando.
+// Se il resto coincide, la pagina riusa il lastmod già presente nella sitemap
+// precedente; altrimenti prende la data di oggi.
 const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
-const senzaRevisione = (html) => html.replace(RIGA_REVISIONE, '');
+const RIGA_DATA_MODIFICA = /,?"dateModified":"[^"]*"/g;
+const normalizza = (html) => html.replace(RIGA_REVISIONE, '').replace(RIGA_DATA_MODIFICA, '');
 
 // F53: la sitemap è ora divisa in più file. I lastmod pregressi si leggono
 // da qualunque file "sitemap*.xml" già pubblicato in ROOT — sia il vecchio
@@ -310,12 +273,68 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
   const fileVecchio = join(ROOT, percorsoFile);
   if (existsSync(fileVecchio)) {
     const contenutoVecchio = readFileSync(fileVecchio, 'utf8');
-    if (senzaRevisione(contenutoVecchio) === senzaRevisione(contenutoNuovo) && vecchiLastmod.has(percorsoUrl)) {
+    if (normalizza(contenutoVecchio) === normalizza(contenutoNuovo) && vecchiLastmod.has(percorsoUrl)) {
       return vecchiLastmod.get(percorsoUrl);
     }
   }
   return oggi;
 }
+
+// F59: la pagina viene generata con un segnaposto al posto di `dateModified`
+// (il vero lastmod non è ancora noto: dipende dal confronto qui sopra, che a
+// sua volta ha bisogno dell'HTML già generato). Calcolato il lastmod, lo si
+// sostituisce nella stringa già in memoria prima di scriverla — mai due
+// generazioni della stessa pagina, un solo confronto, la stessa identica data.
+function scriviConLastmod(percorsoFile, percorsoUrl, html) {
+  const lastmod = lastmodDi(percorsoFile, percorsoUrl, html);
+  const finale = html.includes(SEGNAPOSTO_DATA_MODIFICA) ? html.replaceAll(SEGNAPOSTO_DATA_MODIFICA, lastmod) : html;
+  scrivi(percorsoFile, finale);
+  return { html: finale, lastmod };
+}
+
+const htmlHome = paginaHome(ctx);
+const htmlArchivio = paginaArchivio(ctx);
+const htmlMetodo = paginaMetodo(ctx);
+const lastmodHome = scriviConLastmod('index.html', '', htmlHome).lastmod;
+const lastmodArchivio = scriviConLastmod('archivio/index.html', 'archivio/', htmlArchivio).lastmod;
+const lastmodMetodo = scriviConLastmod('metodo/index.html', 'metodo/', htmlMetodo).lastmod;
+scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
+
+const lastmodCanzoni = new Map();
+for (const c of canzoni) {
+  const html = paginaCanzone(c, ctx);
+  const { lastmod } = scriviConLastmod(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, html);
+  lastmodCanzoni.set(c.slug, lastmod);
+}
+const lastmodArtisti = new Map();
+for (const a of artisti) {
+  const html = paginaArtista(a, ctx);
+  const { lastmod } = scriviConLastmod(`artista/${a.slug}/index.html`, `artista/${a.slug}/`, html);
+  lastmodArtisti.set(a.slug, lastmod);
+}
+const lastmodAlbum = new Map();
+for (const al of album) {
+  const html = paginaAlbum(al, ctx);
+  const { lastmod } = scriviConLastmod(`album/${al.artistaSlug}/${al.slug}/index.html`, `album/${al.artistaSlug}/${al.slug}/`, html);
+  lastmodAlbum.set(`${al.artistaSlug}/${al.slug}`, lastmod);
+}
+const lastmodRaccolte = new Map();
+for (const rac of raccolte) {
+  const html = paginaRaccolta(rac, ctx);
+  const { lastmod } = scriviConLastmod(`${rac.percorso}index.html`, rac.percorso, html);
+  lastmodRaccolte.set(rac.percorso, lastmod);
+}
+
+scrivi('ricerca.js', generaRicerca(ctx));
+
+// risorse statiche riusate dal sito attuale
+for (const f of ['logo.png', 'favicon.ico', 'favicon-32.png', 'favicon-192.png', 'apple-touch-icon.png']) {
+  if (existsSync(join(ROOT, f))) cpSync(join(ROOT, f), join(OUT, f));
+}
+// immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
+if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
+
+// ------------------------------------------------------- sitemap e robots
 
 // F53: niente più `priority` — Google dichiara di ignorarlo, tenerlo dava
 // solo l'illusione di un controllo che non esiste.
@@ -325,32 +344,18 @@ function urlset(righe) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${righe.join('\n')}\n</urlset>\n`;
 }
 
-const sitemapPagine = urlset([
-  url('', lastmodDi('index.html', '', htmlHome)),
-  url('archivio/', lastmodDi('archivio/index.html', 'archivio/', htmlArchivio)),
-  url('metodo/', lastmodDi('metodo/index.html', 'metodo/', htmlMetodo)),
-]);
-const sitemapCanzoni = urlset(
-  canzoni.map((c) => url(`canzone/${c.slug}/`, lastmodDi(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, htmlCanzoni.get(c.slug))))
-);
+// F59: gli stessi lastmod già calcolati sopra, non un secondo confronto —
+// è esattamente il valore scritto nel `dateModified` di ogni pagina.
+const sitemapPagine = urlset([url('', lastmodHome), url('archivio/', lastmodArchivio), url('metodo/', lastmodMetodo)]);
+const sitemapCanzoni = urlset(canzoni.map((c) => url(`canzone/${c.slug}/`, lastmodCanzoni.get(c.slug))));
 // F52: solo gli artisti indicizzabili entrano in sitemap.
-const sitemapArtisti = urlset(
-  artisti
-    .filter((a) => a._indicizzabile)
-    .map((a) => url(`artista/${a.slug}/`, lastmodDi(`artista/${a.slug}/index.html`, `artista/${a.slug}/`, htmlArtisti.get(a.slug))))
-);
+const sitemapArtisti = urlset(artisti.filter((a) => a._indicizzabile).map((a) => url(`artista/${a.slug}/`, lastmodArtisti.get(a.slug))));
 // F50: solo gli album indicizzabili entrano in sitemap.
 const sitemapAlbum = urlset(
-  album
-    .filter((al) => al.indicizzabile)
-    .map((al) =>
-      url(`album/${al.artistaSlug}/${al.slug}/`, lastmodDi(`album/${al.artistaSlug}/${al.slug}/index.html`, `album/${al.artistaSlug}/${al.slug}/`, htmlAlbum.get(`${al.artistaSlug}/${al.slug}`)))
-    )
+  album.filter((al) => al.indicizzabile).map((al) => url(`album/${al.artistaSlug}/${al.slug}/`, lastmodAlbum.get(`${al.artistaSlug}/${al.slug}`)))
 );
 // F54/F55: solo le raccolte che hanno superato la soglia entrano in sitemap.
-const sitemapRaccolte = urlset(
-  raccolte.map((rac) => url(rac.percorso, lastmodDi(`${rac.percorso}index.html`, rac.percorso, htmlRaccolte.get(rac.percorso))))
-);
+const sitemapRaccolte = urlset(raccolte.map((rac) => url(rac.percorso, lastmodRaccolte.get(rac.percorso))));
 
 scrivi('sitemap-pagine.xml', sitemapPagine);
 scrivi('sitemap-canzoni.xml', sitemapCanzoni);
