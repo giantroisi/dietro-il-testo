@@ -301,6 +301,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 181 a **173**.
 **Verificato, non solo scritto**: rigenerato il sito; `check-testi.mjs` ha segnalato un 502 transitorio su Letras per "All the Small Things" (non toccata in questo lotto), confermato non riproducibile ripetendo il controllo dopo pochi secondi — nessuna azione necessaria, esito di rete e non un problema nei dati. Gli altri cinque controlli automatici puliti, verificato nel browser la pagina di David Bowie (storia visibile, bollo "Storia documentata", nessun errore console).
 
+- **29 agosto 2026 — Ottavo lotto F66 (8 voci C2): storie di Edoardo Bennato, Electric Callboy, Elton John, Eminem, Eros Ramazzotti, Evanescence, Fabrizio De André, Fall Out Boy.** Stesso standard dei lotti precedenti.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 173 a **165**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Fabrizio De André (storia visibile, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
