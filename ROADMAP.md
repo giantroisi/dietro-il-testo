@@ -289,6 +289,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 197 a **189** — le voci C1 migrate e le voci C2 con la storia scritta escono dalla coda alla rigenerazione successiva senza bisogno di marcarle a mano in `dati/lacune.json` (stesso meccanismo già visto per le copertine rimosse: la condizione che genera la voce smette di verificarsi).
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, confermato con uno script Python che nessun artista ha più la forma vecchia di riconoscimento, verificato nel browser la pagina di AC/DC (bollo passato da "Storia da scrivere" a "Storia documentata", storia visibile, nessun errore console).
 
+- **29 agosto 2026 — Sesto lotto F66 (8 voci C2): storie di Adele, Adriano Celentano, Al Bano e Romina Power, Andrea Bocelli e Giorgia, Avicii, Bon Jovi, Caparezza, Cesare Cremonini.** Stesso standard delle prime quattro: fatti biografici di base incrociati su più fonti indipendenti, nessuna cronaca recente non consolidata.
+**Trovato un errore vero nei dati già pubblicati, non nel mio lavoro nuovo**: scrivendo la storia per "Andrea Bocelli e Giorgia" (una voce che non è un duo stabile ma una coppia creata per un unico duetto, "Vivo per lei"), la ricerca ha riportato che il brano originale del gruppo O.R.O. è del **1995**, mentre la scheda della canzone, già pubblicata, diceva "Nasce nel 1994" — in contraddizione anche con la sua stessa `fraseIconica`, che riportava già 1995. Verificato con una fonte indipendente aggiuntiva (Discogs, che colloca la pubblicazione dell'album di O.R.O. nel 1995) prima di correggere: **il 1994 in `corpo[0]` era l'errore**, corretto in `dati/canzoni.json`.
+**Un mio stesso errore, corretto prima di pubblicare**: la prima stesura della storia per la stessa voce diceva che O.R.O. presentò il brano al Festival di Sanremo — smentito controllando la scheda canzone già esistente, che riporta correttamente il concorso "Un disco per l'estate"; corretto per coerenza tra le due pagine prima di chiudere il lotto, non dopo che un lettore se ne fosse accorto.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 189 a **181**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti (due volte, prima e dopo la correzione dell'anno), verificato nel browser sia la pagina artista di Andrea Bocelli e Giorgia sia la scheda della canzone "Vivo per lei": ora raccontano lo stesso anno e lo stesso concorso.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
