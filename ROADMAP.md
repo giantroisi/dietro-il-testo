@@ -306,6 +306,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 173 a **165**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Fabrizio De André (storia visibile, nessun errore console).
 
+- **29 agosto 2026 — Nono lotto F66 (8 voci C2): storie di Finley, Fleetwood Mac, Foo Fighters, Franco Battiato, Fulminacci, Ghost, Gianna Nannini, John Lennon.** Stesso standard dei lotti precedenti.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 165 a **157**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Ghost (storia visibile, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
