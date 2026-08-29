@@ -311,6 +311,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 165 a **157**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Ghost (storia visibile, nessun errore console).
 
+- **29 agosto 2026 — Decimo lotto F66 (8 voci C2): storie di Laura Pausini, Led Zeppelin, Limp Bizkit, Lucio Battisti, Lynyrd Skynyrd, Machine Gun Kelly, Mina, My Chemical Romance.** Stesso standard dei lotti precedenti.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 157 a **149**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Mina (storia visibile, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
