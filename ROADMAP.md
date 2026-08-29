@@ -321,6 +321,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 149 a **141**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di Queen (storia visibile, nessun errore console).
 
+- **29 agosto 2026 — Dodicesimo lotto F66 (8 voci C2): storie di Radiohead, Red Hot Chili Peppers, Renato Zero, Rino Gaetano, Simon & Garfunkel, Soundgarden, The Beatles, The Clash.** Stesso standard dei lotti precedenti. Restano solo 12 voci C2, l'ultimo lotto della classe prima di passare a C3 (discografie).
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 141 a **133**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di The Beatles (storia visibile, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
