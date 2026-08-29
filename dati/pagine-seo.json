@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 160,
+    "nCanzoni": 163,
     "haTestoEditoriale": true
   },
   {
@@ -822,6 +822,21 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/jeremy/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/paradise-city/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/toxicity/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -1126,7 +1141,7 @@
     "percorso": "artista/guns-n-roses/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1315,7 +1330,7 @@
     "percorso": "artista/pearl-jam/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1441,7 +1456,7 @@
     "percorso": "artista/system-of-a-down/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1924,7 +1939,7 @@
     "percorso": "album/guns-n-roses/appetite-for-destruction/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2253,7 +2268,7 @@
     "percorso": "album/pearl-jam/ten/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2414,7 +2429,7 @@
     "percorso": "album/system-of-a-down/toxicity/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2547,14 +2562,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 74,
+    "nCanzoni": 76,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 55,
+    "nCanzoni": 56,
     "haTestoEditoriale": true
   },
   {
@@ -2582,21 +2597,21 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 30,
+    "nCanzoni": 31,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 38,
+    "nCanzoni": 39,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 32,
+    "nCanzoni": 33,
     "haTestoEditoriale": true
   },
   {

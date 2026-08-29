@@ -7028,5 +7028,146 @@
       "salute-mentale",
       "morte-lutto"
     ]
+  },
+  {
+    "slug": "jeremy",
+    "titolo": "Jeremy",
+    "artista": "Pearl Jam",
+    "artistaSlug": "pearl-jam",
+    "anno": "1991",
+    "album": "Ten",
+    "albumSlug": "ten",
+    "genereTesto": "Grunge",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#5C4A2E",
+    "colore2": "#3A4A5C",
+    "ascolti": 445155933,
+    "ascoltiTesto": "445 mln ascolti",
+    "spotifyId": "62nQ8OyaLDLAERlOCBhmPA",
+    "corpo": [
+      "Eddie Vedder scrisse il testo dopo aver letto un breve trafiletto di cronaca su Jeremy Wade Delle, un quindicenne di Richardson, in Texas, che nel 1991 si tolse la vita davanti alla propria classe. Vedder ha raccontato che il brano è \"un po' su questo ragazzo di nome Jeremy\" ma anche \"su un ragazzo di nome Brian\" che conosceva alle medie a San Diego, che una volta portò una pistola in classe e sparò in un acquario durante un'ora di scienze, senza fare del male a nessuno.",
+      "Vedder ha spiegato di aver voluto \"prendere quel piccolo articolo e farne qualcosa\", perché un gesto così estremo non restasse solo \"un paragrafo su un giornale\". Il video musicale, diretto da Mark Pellington, mostrava originariamente il ragazzo puntarsi la pistola alla bocca; MTV impose il taglio di quel fotogramma, lasciando ambiguo il finale — tanto che per anni molti spettatori credettero che Jeremy avesse sparato ai compagni invece che a se stesso. La versione integra fu pubblicata solo nel 2020, in occasione della giornata nazionale contro la violenza armata."
+    ],
+    "fraseIconica": "Il momento più discusso è il finale del video, in cui i volti dei compagni di classe restano immobili e coperti di sangue — un'immagine che il regista Mark Pellington ha sempre voluto leggere come il sangue di Jeremy su di loro, non come una sparatoria verso gli altri. La censura di MTV, che tagliò il fotogramma in cui il ragazzo si punta l'arma alla bocca, rese quel finale ambiguo per decenni: Pellington ha definito \"la più grande frustrazione\" della sua carriera il fatto che il pubblico continuasse a fraintendere la scena come una strage verso i compagni.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pearl-jam/30324/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jeremy_(song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://americansongwriter.com/behind-the-tragic-true-stories-that-inspired-the-pearl-jam-song-jeremy/",
+        "nome": "American Songwriter"
+      },
+      {
+        "url": "https://rockcellarmagazine.com/pearl-jam-jeremy-uncensored-music-video-gun-violence-watch/",
+        "nome": "Rock Cellar Magazine"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione",
+      "morte-lutto"
+    ]
+  },
+  {
+    "slug": "paradise-city",
+    "titolo": "Paradise City",
+    "artista": "Guns N' Roses",
+    "artistaSlug": "guns-n-roses",
+    "anno": "1987",
+    "album": "Appetite for Destruction",
+    "albumSlug": "appetite-for-destruction",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E4A8A",
+    "colore2": "#6E8A2E",
+    "ascolti": 1501320853,
+    "ascoltiTesto": "1,5 mld ascolti",
+    "spotifyId": "3YBZIN3rekqsKxbJc9FZko",
+    "corpo": [
+      "Nato quasi per caso su un furgone a noleggio, mentre la band tornava da un concerto suonando chitarre acustiche e bevendo: Slash ha raccontato nella sua autobiografia del 2008 di aver improvvisato \"l'intro tintinnante\" che sarebbe poi diventata il brano, mentre Duff McKagan e Izzy Stradlin lo seguivano e Slash sviluppava i cambi d'accordo. Axl Rose aggiunse sul momento la melodia e le prime parole del ritornello.",
+      "Fu la prima canzone accreditata a tutti e cinque i membri della formazione originale. Slash ha raccontato di aver proposto un'alternativa al testo del ritornello, respinta dal resto della band a favore della versione più orecchiabile poi diventata celebre; ha descritto il processo come un'improvvisazione corale, \"come se fossimo su un autobus diretti a un campo estivo del rock and roll\". Il contrasto fra le strofe, che raccontano la vita di strada, e il ritornello, quasi un'evasione sognante, resta uno degli elementi più citati del pezzo."
+    ],
+    "fraseIconica": "Il momento più citato è il ritornello, che immagina un altrove idilliaco fatto di erba verde e spensieratezza, in netto contrasto con la vita di strada raccontata nelle strofe. Slash ha raccontato che quella parte nacque quasi per caso durante l'improvvisazione collettiva sul furgone, e che una sua proposta alternativa per il testo fu respinta dal resto della band in favore della versione poi diventata l'inno di chiusura di ogni concerto del gruppo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/guns-n-roses/17095/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paradise_City",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://americansongwriter.com/in-the-back-of-a-van-the-story-behind-paradise-city-by-guns-n-roses/",
+        "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
+  },
+  {
+    "slug": "toxicity",
+    "titolo": "Toxicity",
+    "artista": "System of a Down",
+    "artistaSlug": "system-of-a-down",
+    "anno": "2001",
+    "album": "Toxicity",
+    "albumSlug": "toxicity",
+    "genereTesto": "Alternative / Nu metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#4A6E5A",
+    "colore2": "#2E3A4A",
+    "ascolti": 1619346446,
+    "ascoltiTesto": "1,6 mld ascolti",
+    "spotifyId": "0snQkGI5qnAmohLE7jTsTn",
+    "corpo": [
+      "Title track dell'album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per il disco finale. Serj Tankian ha spiegato in un'intervista a NME che il riferimento al \"silenzio sacro\" nel testo rimanda alla spiritualità dei nativi americani: \"il silenzio sacro allude alla comprensione nativa americana della spiritualità, ed è il luogo in cui si va quando si medita\".",
+      "Tankian ha descritto quello spazio meditativo come un momento in cui \"tutto si perde e tutto si ritrova attraverso i diversi veli del silenzio sacro\", paragonandolo a un istante del sonno REM in cui, senza accorgersene, si finisce per meditare. Il titolo del brano è stato letto in senso più ampio come un commento sulla \"città tossica\" di Los Angeles e sullo stile di vita di Hollywood, ma anche, secondo alcune letture, sull'industria musicale e sulla corruzione in generale."
+    ],
+    "fraseIconica": "Il momento più discusso è il passaggio sul \"silenzio sacro\", che Serj Tankian ha ricollegato esplicitamente alla spiritualità meditativa dei nativi americani piuttosto che a un'immagine puramente poetica. Tankian ha spiegato che quel silenzio è lo spazio in cui, come nel sonno REM, ci si ritrova a meditare senza rendersene conto — un'interpretazione che aggiunge un livello spirituale a un brano spesso letto anche come una critica più ampia alla tossicità della vita moderna.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/system-of-a-down/39424/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/system-of-a-downs-serj-tankian-explains-the-meaning-of-toxicity-lyrics-3772175",
+        "nome": "NME"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "identita"
+    ]
   }
 ]

@@ -1783,6 +1783,16 @@
     "motivo": null
   },
   {
+    "id": "album:guns-n-roses:appetite-for-destruction:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "guns-n-roses/appetite-for-destruction",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:iron-maiden:the-number-of-the-beast:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1803,6 +1813,16 @@
     "motivo": null
   },
   {
+    "id": "album:pearl-jam:ten:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pearl-jam/ten",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:slayer:reign-in-blood:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1817,6 +1837,16 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "sum-41/all-killer-no-filler",
+    "raccoglie": 2,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:system-of-a-down:toxicity:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "system-of-a-down/toxicity",
     "raccoglie": 2,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1887,16 +1917,6 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "green-day/21st-century-breakdown",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:guns-n-roses:appetite-for-destruction:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "guns-n-roses/appetite-for-destruction",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2123,16 +2143,6 @@
     "motivo": null
   },
   {
-    "id": "album:pearl-jam:ten:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pearl-jam/ten",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:rage-against-the-machine:evil-empire:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -2207,16 +2217,6 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "system-of-a-down/mezmerize",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:system-of-a-down:toxicity:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "system-of-a-down/toxicity",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
