@@ -1,6 +1,181 @@
 {
   "redirects": [
     {
+      "source": "/album/5-seconds-of-summer/sounds-good-feels-good/",
+      "destination": "/artista/5-seconds-of-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/5-seconds-of-summer/youngblood/",
+      "destination": "/artista/5-seconds-of-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/5-seconds-of-summer/calm/",
+      "destination": "/artista/5-seconds-of-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/5-seconds-of-summer/5sos5/",
+      "destination": "/artista/5-seconds-of-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/5-seconds-of-summer/everyones-a-star/",
+      "destination": "/artista/5-seconds-of-summer/",
+      "permanent": true
+    },
+    {
+      "source": "/album/883/nord-sud-ovest-est/",
+      "destination": "/artista/883/",
+      "permanent": true
+    },
+    {
+      "source": "/album/883/la-donna-il-sogno-e-il-grande-incubo/",
+      "destination": "/artista/883/",
+      "permanent": true
+    },
+    {
+      "source": "/album/883/la-dura-legge-del-gol/",
+      "destination": "/artista/883/",
+      "permanent": true
+    },
+    {
+      "source": "/album/883/grazie-mille/",
+      "destination": "/artista/883/",
+      "permanent": true
+    },
+    {
+      "source": "/album/883/uno-in-piu/",
+      "destination": "/artista/883/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/scoundrel-days/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/stay-on-these-roads/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/east-of-the-sun-west-of-the-moon/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/memorial-beach/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/minor-earth-major-sky/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/lifelines/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/analogue/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/foot-of-the-mountain/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/cast-in-steel/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/a-ha/true-north/",
+      "destination": "/artista/a-ha/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/high-voltage/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/dirty-deeds-done-dirt-cheap/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/let-there-be-rock/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/powerage/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/back-in-black/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/for-those-about-to-rock-we-salute-you/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/flick-of-the-switch/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/fly-on-the-wall/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/blow-up-your-video/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/the-razors-edge/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/ballbreaker/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/stiff-upper-lip/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/black-ice/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/rock-or-bust/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ac-dc/power-up/",
+      "destination": "/artista/ac-dc/",
+      "permanent": true
+    },
+    {
       "source": "/album/alice-in-chains/dirt/",
       "destination": "/artista/alice-in-chains/",
       "permanent": true

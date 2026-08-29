@@ -1525,9 +1525,9 @@
   {
     "percorso": "artista/toto/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/toto-cutugno/",
@@ -1539,9 +1539,9 @@
   {
     "percorso": "artista/tracy-chapman/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/vasco-rossi/",
@@ -1553,16 +1553,16 @@
   {
     "percorso": "artista/whitney-houston/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/zucchero/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/5-seconds-of-summer/5-seconds-of-summer/",

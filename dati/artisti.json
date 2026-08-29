@@ -3,7 +3,50 @@
     "slug": "5-seconds-of-summer",
     "nome": "5 Seconds of Summer",
     "storia": "Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò nel 2013, quando la band aprì le date del tour europeo dei One Direction. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "5 Seconds of Summer",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "5-seconds-of-summer"
+      },
+      {
+        "titolo": "Sounds Good Feels Good",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "sounds-good-feels-good"
+      },
+      {
+        "titolo": "Youngblood",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "youngblood"
+      },
+      {
+        "titolo": "CALM",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "calm"
+      },
+      {
+        "titolo": "5SOS5",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "5sos5"
+      },
+      {
+        "titolo": "Everyone's a Star!",
+        "anno": "2025",
+        "nota": null,
+        "copertina": null,
+        "slug": "everyones-a-star"
+      }
+    ],
     "canzoni": [
       "she-looks-so-perfect"
     ],
@@ -21,7 +64,50 @@
     "slug": "883",
     "nome": "883",
     "storia": "Formati a Pavia nel 1988 da Max Pezzali e Mauro Repetto, compagni di classe al liceo Copernico dal 1984, scelsero il nome in omaggio alla cilindrata della Harley-Davidson Sportster 883. Mauro Repetto lasciò il gruppo nel 1994; Max Pezzali continuò a incidere come 883 fino al 2002, abbandonando il nome del duo nel 2003 per proseguire la carriera da solista.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Hanno ucciso l'Uomo Ragno",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "hanno-ucciso-luomo-ragno"
+      },
+      {
+        "titolo": "Nord sud ovest est",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "nord-sud-ovest-est"
+      },
+      {
+        "titolo": "La donna, il sogno & il grande incubo",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-donna-il-sogno-e-il-grande-incubo"
+      },
+      {
+        "titolo": "La dura legge del gol!",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-dura-legge-del-gol"
+      },
+      {
+        "titolo": "Grazie mille",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "grazie-mille"
+      },
+      {
+        "titolo": "Uno in più",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "uno-in-piu"
+      }
+    ],
     "canzoni": [
       "hanno-ucciso-luomo-ragno"
     ],
@@ -38,7 +124,85 @@
     "slug": "a-ha",
     "nome": "a-ha",
     "storia": "Formati a Oslo nel 1982 dal chitarrista Pål Waaktaar e dal tastierista Magne Furuholmen, che chiamarono a unirsi come cantante Morten Harket dopo avergli fatto ascoltare una prima versione di \"Take on Me\"; il nome del gruppo nacque da un titolo trovato per caso nel quaderno di appunti di Waaktaar. Annunciarono lo scioglimento nel 2009 e tennero l'ultimo concerto a Oslo nel dicembre 2010, per poi riunirsi nel 2015 e pubblicare un nuovo album lo stesso anno.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Hunting High and Low",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "hunting-high-and-low"
+      },
+      {
+        "titolo": "Scoundrel Days",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "scoundrel-days"
+      },
+      {
+        "titolo": "Stay on These Roads",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "stay-on-these-roads"
+      },
+      {
+        "titolo": "East of the Sun, West of the Moon",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "east-of-the-sun-west-of-the-moon"
+      },
+      {
+        "titolo": "Memorial Beach",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "memorial-beach"
+      },
+      {
+        "titolo": "Minor Earth Major Sky",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "minor-earth-major-sky"
+      },
+      {
+        "titolo": "Lifelines",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "lifelines"
+      },
+      {
+        "titolo": "Analogue",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "analogue"
+      },
+      {
+        "titolo": "Foot of the Mountain",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "foot-of-the-mountain"
+      },
+      {
+        "titolo": "Cast in Steel",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "cast-in-steel"
+      },
+      {
+        "titolo": "True North",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "true-north"
+      }
+    ],
     "canzoni": [
       "take-on-me"
     ],
@@ -55,7 +219,120 @@
     "slug": "ac-dc",
     "nome": "AC/DC",
     "storia": "Formati a Sydney nel novembre 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, debuttarono dal vivo il 31 dicembre dello stesso anno. Il cantante Bon Scott si unì nel 1974 e guidò la band fino alla morte improvvisa nel 1980; gli succedette Brian Johnson, con cui la band pubblicò lo stesso anno Back in Black, uno degli album più venduti nella storia della musica. Pionieri dell'hard rock, sono rimasti in attività per oltre cinquant'anni nonostante lutti e cambi di formazione.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "High Voltage",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "high-voltage"
+      },
+      {
+        "titolo": "Dirty Deeds Done Dirt Cheap",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "dirty-deeds-done-dirt-cheap"
+      },
+      {
+        "titolo": "Let There Be Rock",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "let-there-be-rock"
+      },
+      {
+        "titolo": "Powerage",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "powerage"
+      },
+      {
+        "titolo": "Highway to Hell",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "highway-to-hell"
+      },
+      {
+        "titolo": "Back in Black",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "back-in-black"
+      },
+      {
+        "titolo": "For Those About to Rock We Salute You",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "for-those-about-to-rock-we-salute-you"
+      },
+      {
+        "titolo": "Flick of the Switch",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "flick-of-the-switch"
+      },
+      {
+        "titolo": "Fly on the Wall",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "fly-on-the-wall"
+      },
+      {
+        "titolo": "Blow Up Your Video",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "blow-up-your-video"
+      },
+      {
+        "titolo": "The Razors Edge",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-razors-edge"
+      },
+      {
+        "titolo": "Ballbreaker",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "ballbreaker"
+      },
+      {
+        "titolo": "Stiff Upper Lip",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "stiff-upper-lip"
+      },
+      {
+        "titolo": "Black Ice",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "black-ice"
+      },
+      {
+        "titolo": "Rock or Bust",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "rock-or-bust"
+      },
+      {
+        "titolo": "Power Up",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "power-up"
+      }
+    ],
     "canzoni": [
       "highway-to-hell"
     ],
@@ -4453,7 +4730,7 @@
   {
     "slug": "toto",
     "nome": "Toto",
-    "storia": null,
+    "storia": "Formati a Los Angeles nel 1977 da un gruppo di turnisti già attivi insieme negli studi di registrazione californiani degli anni '70, in particolare il tastierista David Paich e il batterista Jeff Porcaro, conosciutisi al liceo; completarono la formazione il bassista David Hungate, il chitarrista Steve Lukather, il tastierista Steve Porcaro e il cantante Bobby Kimball. A differenza della maggior parte dei gruppi, non si fecero conoscere nei locali ma arrivarono al successo forti della reputazione già costruita come session men, esordendo con l'album omonimo nel 1978.",
     "album": [],
     "canzoni": [
       "africa"
@@ -4486,7 +4763,7 @@
   {
     "slug": "tracy-chapman",
     "nome": "Tracy Chapman",
-    "storia": null,
+    "storia": "Nata a Cleveland, in Ohio, nel 1964 e cresciuta in Connecticut, iniziò a esibirsi a Boston mentre studiava antropologia alla Tufts University. Ottenne un contratto discografico nel 1986 grazie al padre di un'amica; l'album di debutto omonimo del 1988, trainato dal singolo \"Fast Car\", le valse tre Grammy Award, incluso quello per la miglior nuova artista. Tornò al successo alcuni anni dopo con l'album \"New Beginning\" e il singolo \"Give Me One Reason\".",
     "album": [],
     "canzoni": [
       "fast-car"
@@ -4655,7 +4932,7 @@
   {
     "slug": "whitney-houston",
     "nome": "Whitney Houston",
-    "storia": null,
+    "storia": "Nata a Newark, nel New Jersey, nel 1963, figlia della cantante gospel e soul Cissy Houston e cugina di Dionne Warwick, pubblicò il primo album a 22 anni, ottenendo tre singoli al numero uno; il successivo \"Whitney\" (1987) ne produsse altri quattro. Vendette in carriera oltre 200 milioni di dischi e vinse otto Grammy Award, con album come \"I'm Your Baby Tonight\" (1990) e colonne sonore di successo come \"The Bodyguard\" (1992). Morì l'11 febbraio 2012 in un hotel di Beverly Hills per annegamento accidentale, con malattia cardiaca e uso di cocaina tra i fattori concomitanti.",
     "album": [],
     "canzoni": [
       "i-will-always-love-you"
@@ -4671,7 +4948,7 @@
   {
     "slug": "zucchero",
     "nome": "Zucchero",
-    "storia": null,
+    "storia": "Adelmo Fornaciari, in arte Zucchero, nasce a Roncocesi, frazione di Reggio Emilia, nel 1955. Tra il 1970 e il 1978, trasferitosi a Forte dei Marmi, formò le sue prime band R&B (Le Nuove Luci, Sugar & Daniel, Sugar & Candies); nel 1981 vinse il Festival di Castrocaro, ottenendo un contratto con la Polygram. Il vero successo arrivò nel 1985 con \"Donne\", presentata al Festival di Sanremo; ha venduto in carriera circa 60 milioni di dischi, portando blues e soul nel mainstream della musica italiana.",
     "album": [],
     "canzoni": [
       "senza-una-donna"

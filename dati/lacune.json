@@ -233,86 +233,6 @@
     "motivo": "confermata: citazione di Vasco dai suoi libri riportata da Capocronaca, 14/4/2023"
   },
   {
-    "id": "artista:toto:storia",
-    "classe": "C2",
-    "tipo": "storia-artista",
-    "soggetto": "toto",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:tracy-chapman:storia",
-    "classe": "C2",
-    "tipo": "storia-artista",
-    "soggetto": "tracy-chapman",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:whitney-houston:storia",
-    "classe": "C2",
-    "tipo": "storia-artista",
-    "soggetto": "whitney-houston",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:zucchero:storia",
-    "classe": "C2",
-    "tipo": "storia-artista",
-    "soggetto": "zucchero",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:5-seconds-of-summer:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "5-seconds-of-summer",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:883:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "883",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:a-ha:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "a-ha",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:ac-dc:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "ac-dc",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:adele:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1093,6 +1013,46 @@
     "motivo": null
   },
   {
+    "id": "album:5-seconds-of-summer:5-seconds-of-summer:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/5-seconds-of-summer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:hanno-ucciso-luomo-ragno:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/hanno-ucciso-luomo-ragno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:hunting-high-and-low:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/hunting-high-and-low",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:highway-to-hell:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/highway-to-hell",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:alice-in-chains:facelift:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1478,6 +1438,356 @@
     "tipo": "copertina-album",
     "soggetto": "vasco-rossi/non-siamo-mica-gli-americani",
     "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:5sos5:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/5sos5",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:calm:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/calm",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:everyones-a-star:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/everyones-a-star",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:sounds-good-feels-good:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/sounds-good-feels-good",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:youngblood:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/youngblood",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:grazie-mille:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "883/grazie-mille",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:la-donna-il-sogno-e-il-grande-incubo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "883/la-donna-il-sogno-e-il-grande-incubo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:la-dura-legge-del-gol:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "883/la-dura-legge-del-gol",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:nord-sud-ovest-est:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "883/nord-sud-ovest-est",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:uno-in-piu:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "883/uno-in-piu",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:analogue:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/analogue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:cast-in-steel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/cast-in-steel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:east-of-the-sun-west-of-the-moon:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/east-of-the-sun-west-of-the-moon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:foot-of-the-mountain:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/foot-of-the-mountain",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:lifelines:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/lifelines",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:memorial-beach:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/memorial-beach",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:minor-earth-major-sky:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/minor-earth-major-sky",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:scoundrel-days:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/scoundrel-days",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:stay-on-these-roads:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/stay-on-these-roads",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:true-north:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/true-north",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:back-in-black:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/back-in-black",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:ballbreaker:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/ballbreaker",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:black-ice:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/black-ice",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:blow-up-your-video:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/blow-up-your-video",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:flick-of-the-switch:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/flick-of-the-switch",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:fly-on-the-wall:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/fly-on-the-wall",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:for-those-about-to-rock-we-salute-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/for-those-about-to-rock-we-salute-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:high-voltage:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/high-voltage",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:let-there-be-rock:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/let-there-be-rock",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:power-up:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/power-up",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:powerage:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/powerage",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:rock-or-bust:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/rock-or-bust",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:stiff-upper-lip:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/stiff-upper-lip",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:the-razors-edge:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/the-razors-edge",
+    "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null
