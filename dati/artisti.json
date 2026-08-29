@@ -350,9 +350,6 @@
         "nota": "primo numero 1 della band negli USA, formazione originale riunita (Osbourne, Iommi, Butler), Grammy Best Metal Performance per \"God Is Dead?\"",
         "copertina": null,
         "slug": "13"
-      },
-      {
-        "nota": "2 Grammy Awards vinti in carriera"
       }
     ],
     "canzoni": [
@@ -366,7 +363,10 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#B2266E"
+    "colore": "#B2266E",
+    "riconoscimenti": [
+      "2 Grammy Awards vinti in carriera"
+    ]
   },
   {
     "slug": "blink-182",
@@ -549,9 +549,6 @@
         "nota": "certificato oro nel Regno Unito, in Australia e in Brasile",
         "copertina": null,
         "slug": "post-human-nex-gen"
-      },
-      {
-        "nota": "4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band"
       }
     ],
     "canzoni": [
@@ -583,7 +580,10 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#C23B7A"
+    "colore": "#C23B7A",
+    "riconoscimenti": [
+      "4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band"
+    ]
   },
   {
     "slug": "caparezza",
@@ -1554,9 +1554,6 @@
         "nota": "certificato argento nel Regno Unito, candidato al Grammy Best Rock Album 2025, prima candidatura della band in oltre un decennio",
         "copertina": null,
         "slug": "saviors"
-      },
-      {
-        "nota": "5 Grammy Awards vinti in carriera"
       }
     ],
     "canzoni": [
@@ -1572,7 +1569,10 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#4A6E2E"
+    "colore": "#4A6E2E",
+    "riconoscimenti": [
+      "5 Grammy Awards vinti in carriera"
+    ]
   },
   {
     "slug": "guns-n-roses",
@@ -2196,9 +2196,6 @@
         "nota": "disco d'oro, ultimo album in studio pubblicato",
         "copertina": null,
         "slug": "dedicato-a-noi"
-      },
-      {
-        "nota": "La canzone \"Certe notti\" ha vinto la Targa Tenco per la migliore canzone"
       }
     ],
     "canzoni": [
@@ -2211,7 +2208,10 @@
       "rock"
     ],
     "paese": "it",
-    "colore": "#A6331F"
+    "colore": "#A6331F",
+    "riconoscimenti": [
+      "La canzone \"Certe notti\" ha vinto la Targa Tenco per la migliore canzone"
+    ]
   },
   {
     "slug": "limp-bizkit",
@@ -3143,7 +3143,13 @@
         "titolo": "Drones",
         "anno": "2015",
         "nota": "primo numero 1 della band negli USA, certificato oro nel Regno Unito, Grammy Best Rock Album 2016",
-        "copertina": "Illustrata da Matt Mahurin, raffigura il percorso di un essere umano da abbandonato a \"drone umano\" indottrinato e infine disertore, riferendosi anche al programma di droni militari dell'era Obama, come spiegato da Matt Bellamy.",
+        "copertina": "Illustrata da Matt Mahurin, si lega al concept dell'album descritto da Matt Bellamy come il percorso di un essere umano dall'abbandono e la perdita di speranza, attraverso l'indottrinamento del sistema per diventare un \"drone umano\", fino alla defezione dai propri oppressori; lo stesso Bellamy ha collegato il tema alla guerra condotta con i droni, che permette di agire senza sentirne le conseguenze.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.nme.com/news/music/muse-65-1209518",
+            "nome": "NME"
+          }
+        ],
         "slug": "drones"
       },
       {
@@ -3306,7 +3312,17 @@
         "titolo": "Definitely Maybe",
         "anno": "1994",
         "nota": "numero 1 nel Regno Unito, certificato 10x platino nel Regno Unito e platino RIAA, circa 16 milioni di copie vendute",
-        "copertina": "Fotografata da Michael Spencer Jones a casa del chitarrista Bonehead a Manchester, con un'idea di Noel Gallagher ispirata a una foto dei Beatles in Giappone; i membri della band portarono oggetti personali, dalla foto di Rodney Marsh a quella di George Best.",
+        "copertina": "Fotografata da Michael Spencer Jones a casa del chitarrista Bonehead a Manchester, con un'idea dello stesso fotografo ispirata alla copertina posteriore della raccolta dei Beatles \"A Collection of Beatles Oldies\"; i membri della band portarono oggetti personali, tra cui una foto di Rodney Marsh (i tifosi del Manchester City in formazione) e una di George Best (concessa da Bonehead, tifoso United).",
+        "copertinaFonte": [
+          {
+            "url": "https://www.clashmusic.com/features/oasis-definitely-maybe-five-crucial-facts/",
+            "nome": "Clash Magazine"
+          },
+          {
+            "url": "https://twitter.com/oasis/status/989923446971944960",
+            "nome": "Oasis (account ufficiale)"
+          }
+        ],
         "slug": "definitely-maybe"
       },
       {
@@ -4171,7 +4187,13 @@
         "titolo": "Chuck",
         "anno": "2004",
         "nota": "certificato oro RIAA, 2x platino in Canada, vincitore del Juno Award Rock Album of the Year 2005",
-        "copertina": "Il titolo omaggia Chuck Pelletier, ufficiale di pace ONU che aiutò a evacuare la band durante scontri armati nella Repubblica Democratica del Congo; la copertina raffigura caccia bombardieri che sganciano televisori su dei bambini, metafora del \"bombardamento\" mediatico sull'infanzia.",
+        "copertina": "Il titolo omaggia Chuck Pelletier, funzionario di pace dell'ONU che nel 2004 aiutò a evacuare la band da un hotel della Repubblica Democratica del Congo durante scontri a fuoco, mentre girava un documentario per War Child Canada.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.phoenixnewtimes.com/music/sum-41-tell-the-story-behind-chuck-11375550/",
+            "nome": "Phoenix New Times"
+          }
+        ],
         "slug": "chuck"
       },
       {
@@ -4521,7 +4543,13 @@
         "titolo": "Bollicine",
         "anno": "1983",
         "nota": "disco d'oro, contiene \"Vita spericolata\"",
-        "copertina": "Vasco ha spiegato il titolo come riferimento alla Coca-Cola, con la pausa dopo \"coca\" pensata deliberatamente per provocare i benpensanti dell'epoca.",
+        "copertina": "Vasco ha raccontato nei suoi libri che con la pausa dopo \"coca\" nel ritornello si divertiva a spaventare i benpensanti, in un testo che prende in giro gli slogan pubblicitari dell'epoca, tra cui quello della Coca-Cola.",
+        "copertinaFonte": [
+          {
+            "url": "https://capocronaca.it/accadde-oggi/coca-cosa-coca-cola-bollicine-di-vasco-compie-quarantanni/",
+            "nome": "Capocronaca"
+          }
+        ],
         "slug": "bollicine"
       },
       {

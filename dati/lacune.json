@@ -198,9 +198,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "muse/drones",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-29",
+    "motivo": "confermata con correzione: la fonte (Bellamy, NME 12/3/2015) descrive il concept dell'album, non un'attribuzione esplicita del riferimento a Obama fatta dallo stesso Bellamy — rimosso il dettaglio 'Obama' non riscontrato, tenuto il riferimento a Bellamy sulla guerra dei droni"
   },
   {
     "id": "album:oasis:definitely-maybe:fonte-copertina",
@@ -208,9 +208,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "oasis/definitely-maybe",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-29",
+    "motivo": "confermata con correzione: l'idea della copertina è del fotografo Michael Spencer Jones, non di Noel Gallagher come scritto — corretta l'attribuzione (Clash Magazine); Rodney Marsh/George Best confermati dall'account ufficiale Oasis"
   },
   {
     "id": "album:sum-41:chuck:fonte-copertina",
@@ -218,9 +218,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "sum-41/chuck",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-29",
+    "motivo": "confermato il titolo (Pelletier, Phoenix New Times); rimossa la descrizione della grafica di copertina (bombardieri/televisori), trovata solo su un blog non firmato, non ammissibile come fonte"
   },
   {
     "id": "album:vasco-rossi:bollicine:fonte-copertina",
@@ -228,49 +228,9 @@
     "tipo": "fonte-copertina-mancante",
     "soggetto": "vasco-rossi/bollicine",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:black-sabbath:nota-carriera:0",
-    "classe": "C1",
-    "tipo": "nota-da-separare",
-    "soggetto": "black-sabbath",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:bring-me-the-horizon:nota-carriera:0",
-    "classe": "C1",
-    "tipo": "nota-da-separare",
-    "soggetto": "bring-me-the-horizon",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:green-day:nota-carriera:0",
-    "classe": "C1",
-    "tipo": "nota-da-separare",
-    "soggetto": "green-day",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:ligabue:nota-carriera:0",
-    "classe": "C1",
-    "tipo": "nota-da-separare",
-    "soggetto": "ligabue",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-29",
+    "motivo": "confermata: citazione di Vasco dai suoi libri riportata da Capocronaca, 14/4/2023"
   },
   {
     "id": "artista:linkin-park:nota-carriera:0",
