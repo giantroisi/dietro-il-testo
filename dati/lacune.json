@@ -233,84 +233,14 @@
     "motivo": "confermata: citazione di Vasco dai suoi libri riportata da Capocronaca, 14/4/2023"
   },
   {
-    "id": "artista:adele:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "adele",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:adriano-celentano:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "adriano-celentano",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:al-bano-e-romina-power:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "al-bano-e-romina-power",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:andrea-bocelli-e-giorgia:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
     "soggetto": "andrea-bocelli-e-giorgia",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:avicii:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "avicii",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:bon-jovi:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "bon-jovi",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:caparezza:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "caparezza",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:cesare-cremonini:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "cesare-cremonini",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-08-29",
+    "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
     "id": "artista:claudio-baglioni:discografia",
@@ -1053,6 +983,36 @@
     "motivo": null
   },
   {
+    "id": "album:adele:21:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adele/21",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:azzurro-una-carezza-in-un-pugno:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/azzurro-una-carezza-in-un-pugno",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:felicita:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/felicita",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:alice-in-chains:facelift:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1063,10 +1023,30 @@
     "motivo": null
   },
   {
+    "id": "album:avicii:true:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "avicii/true",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:blink-182:blink-182:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "blink-182/blink-182",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:slippery-when-wet:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/slippery-when-wet",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1087,6 +1067,26 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "bring-me-the-horizon/suicide-season",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:le-dimensioni-del-mio-caos:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/le-dimensioni-del-mio-caos",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:maggese:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/maggese",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1793,6 +1793,516 @@
     "motivo": null
   },
   {
+    "id": "album:adele:19:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adele/19",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adele:25:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adele/25",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adele:30:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adele/30",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:a-new-orleans:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/a-new-orleans",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:adrian:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/adrian",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:adriano-celentano-con-giulio-libano-e-la-sua-orchestra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:adriano-rock:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/adriano-rock",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:arrivano-gli-uomini:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/arrivano-gli-uomini",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:atmosfera:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/atmosfera",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:c-e-sempre-un-motivo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/c-e-sempre-un-motivo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:deus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/deus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:disco-dance:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/disco-dance",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:dormi-amore-la-situazione-non-e-buona:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/dormi-amore-la-situazione-non-e-buona",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:er-piu-storia-d-amore-e-di-coltello:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/er-piu-storia-d-amore-e-di-coltello",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:esco-di-rado-e-parlo-ancora-meno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/esco-di-rado-e-parlo-ancora-meno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:facciamo-finta-che-sia-vero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/facciamo-finta-che-sia-vero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:furore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/furore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:geppo-il-folle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/geppo-il-folle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:i-mali-del-secolo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/i-mali-del-secolo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:i-miei-americani-tre-puntini-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/i-miei-americani-tre-puntini-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:i-miei-americani-tre-puntini:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/i-miei-americani-tre-puntini",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:il-forestiero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/il-forestiero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/il-ragazzo-della-via-gluck",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:il-re-degli-ignoranti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/il-re-degli-ignoranti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:io-non-so-parlar-d-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/io-non-so-parlar-d-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:joan-lui:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/joan-lui",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:la-festa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/la-festa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:la-pubblica-ottusita:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/la-pubblica-ottusita",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:mina-celentano:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/mina-celentano",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:non-mi-dir:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/non-mi-dir",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:nostalrock:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/nostalrock",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:peppermint-twist:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/peppermint-twist",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:per-sempre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/per-sempre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:quel-punto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/quel-punto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:soli:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/soli",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:svalutation:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/svalutation",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:tecadisk:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/tecadisk",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:ti-avro:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/ti-avro",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:uh-uh:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/uh-uh",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:un-po-artista-un-po-no:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/un-po-artista-un-po-no",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:yuppi-du:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/yuppi-du",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:aria-pura:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/aria-pura",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:atto-i:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/atto-i",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:che-angelo-sei:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/che-angelo-sei",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:effetto-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/effetto-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:emozionale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/emozionale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:fotografia-di-un-momento:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/fotografia-di-un-momento",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:fragile:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/fragile",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:liberta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/liberta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:notte-e-giorno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/notte-e-giorno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:al-bano-e-romina-power:sempre-sempre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "al-bano-e-romina-power/sempre-sempre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:alice-in-chains:alice-in-chains:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -1837,6 +2347,26 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "alice-in-chains/the-devil-put-dinosaurs-here",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:avicii:stories:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "avicii/stories",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:avicii:tim:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "avicii/tim",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2093,6 +2623,156 @@
     "motivo": null
   },
   {
+    "id": "album:bon-jovi:2020:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/2020",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:7800-fahrenheit:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/7800-fahrenheit",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:bon-jovi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/bon-jovi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:bounce:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/bounce",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:burning-bridges:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/burning-bridges",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:crush:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/crush",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:forever:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/forever",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:have-a-nice-day:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/have-a-nice-day",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:keep-the-faith:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/keep-the-faith",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:lost-highway:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/lost-highway",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:new-jersey:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/new-jersey",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:the-circle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/the-circle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:these-days:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/these-days",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:this-house-is-not-for-sale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/this-house-is-not-for-sale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:bon-jovi:what-about-now:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "bon-jovi/what-about-now",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:bring-me-the-horizon:count-your-blessings:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -2107,6 +2787,146 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "bring-me-the-horizon/there-is-a-hell-believe-me-ive-seen-it-there-is-a-heaven-lets-keep-it-a-secret",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza::copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:exuvia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/exuvia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:habemus-capa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/habemus-capa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:il-sogno-eretico:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/il-sogno-eretico",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:museica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/museica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:prisoner-709:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/prisoner-709",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:verita-supposte:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/verita-supposte",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:alaska-baby:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/alaska-baby",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:bagus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/bagus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:il-primo-bacio-sulla-luna:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/il-primo-bacio-sulla-luna",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:la-ragazza-del-futuro:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/la-ragazza-del-futuro",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:la-teoria-dei-colori:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/la-teoria-dei-colori",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:logico:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/logico",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:possibili-scenari:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/possibili-scenari",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

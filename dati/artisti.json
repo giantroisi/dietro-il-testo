@@ -348,7 +348,36 @@
     "slug": "adele",
     "nome": "Adele",
     "storia": "Nata a Tottenham, Londra, nel 1988, si diplomò alla BRIT School nel 2006 e firmò subito un contratto con la XL Recordings. Con il primo album, 19 (2008), si fece conoscere per la voce potente e per canzoni ispirate a vicende personali, soprattutto di cuore; il successo esplose con 21 (2011) e proseguì con 25 (2015). È una delle artiste con più dischi venduti al mondo, oltre 120 milioni di copie.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "19",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "19"
+      },
+      {
+        "titolo": "21",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "21"
+      },
+      {
+        "titolo": "25",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "25"
+      },
+      {
+        "titolo": "30",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "30"
+      }
+    ],
     "canzoni": [
       "someone-like-you"
     ],
@@ -364,7 +393,281 @@
     "slug": "adriano-celentano",
     "nome": "Adriano Celentano",
     "storia": "Nato a Milano nel 1938, esordì nel 1957 con la sua prima band, i Rock Boys, diventando uno dei primi interpreti del rock and roll in Italia; il modo di muoversi sul palco, dinoccolato e scattante, gli valse il soprannome di \"Molleggiato\". Ha affiancato alla carriera di cantante e cantautore quella di attore e regista fin dagli anni '60. Nel corso dei decenni ha venduto oltre 150 milioni di dischi, diventando una delle figure più popolari della musica e dello spettacolo italiani del dopoguerra.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Adriano Celentano con Giulio Libano e la sua orchestra",
+        "anno": "1960",
+        "nota": null,
+        "copertina": null,
+        "slug": "adriano-celentano-con-giulio-libano-e-la-sua-orchestra"
+      },
+      {
+        "titolo": "Furore",
+        "anno": "1961",
+        "nota": null,
+        "copertina": null,
+        "slug": "furore"
+      },
+      {
+        "titolo": "Peppermint Twist",
+        "anno": "1962",
+        "nota": null,
+        "copertina": null,
+        "slug": "peppermint-twist"
+      },
+      {
+        "titolo": "A New Orleans",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-new-orleans"
+      },
+      {
+        "titolo": "Non mi dir",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-mi-dir"
+      },
+      {
+        "titolo": "La festa",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-festa"
+      },
+      {
+        "titolo": "Il ragazzo della via Gluck",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-ragazzo-della-via-gluck"
+      },
+      {
+        "titolo": "Azzurro / Una carezza in un pugno",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "azzurro-una-carezza-in-un-pugno"
+      },
+      {
+        "titolo": "Adriano rock",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "adriano-rock"
+      },
+      {
+        "titolo": "Il forestiero",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-forestiero"
+      },
+      {
+        "titolo": "Er più - Storia d'amore e di coltello",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "er-piu-storia-d-amore-e-di-coltello"
+      },
+      {
+        "titolo": "I mali del secolo",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-mali-del-secolo"
+      },
+      {
+        "titolo": "Nostalrock",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "nostalrock"
+      },
+      {
+        "titolo": "Yuppi du",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "yuppi-du"
+      },
+      {
+        "titolo": "Svalutation",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "svalutation"
+      },
+      {
+        "titolo": "Disco dance",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "disco-dance"
+      },
+      {
+        "titolo": "Tecadisk",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "tecadisk"
+      },
+      {
+        "titolo": "Ti avrò",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "ti-avro"
+      },
+      {
+        "titolo": "Geppo il folle",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "geppo-il-folle"
+      },
+      {
+        "titolo": "Soli",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "soli"
+      },
+      {
+        "titolo": "Un po' artista un po' no",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "un-po-artista-un-po-no"
+      },
+      {
+        "titolo": "Deus",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "deus"
+      },
+      {
+        "titolo": "Uh... uh...",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "uh-uh"
+      },
+      {
+        "titolo": "Atmosfera",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "atmosfera"
+      },
+      {
+        "titolo": "I miei americani (tre puntini)",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-miei-americani-tre-puntini"
+      },
+      {
+        "titolo": "Joan Lui",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "joan-lui"
+      },
+      {
+        "titolo": "I miei americani (tre puntini) 2",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-miei-americani-tre-puntini-2"
+      },
+      {
+        "titolo": "La pubblica ottusità",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-pubblica-ottusita"
+      },
+      {
+        "titolo": "Il re degli ignoranti",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-re-degli-ignoranti"
+      },
+      {
+        "titolo": "Quel punto",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "quel-punto"
+      },
+      {
+        "titolo": "Arrivano gli uomini",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "arrivano-gli-uomini"
+      },
+      {
+        "titolo": "Mina Celentano",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-celentano"
+      },
+      {
+        "titolo": "Io non so parlar d'amore",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "io-non-so-parlar-d-amore"
+      },
+      {
+        "titolo": "Esco di rado e parlo ancora meno",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "esco-di-rado-e-parlo-ancora-meno"
+      },
+      {
+        "titolo": "Per sempre",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "per-sempre"
+      },
+      {
+        "titolo": "C'è sempre un motivo",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "c-e-sempre-un-motivo"
+      },
+      {
+        "titolo": "Dormi amore, la situazione non è buona",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "dormi-amore-la-situazione-non-e-buona"
+      },
+      {
+        "titolo": "Facciamo finta che sia vero",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "facciamo-finta-che-sia-vero"
+      },
+      {
+        "titolo": "Adrian",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "adrian"
+      }
+    ],
     "canzoni": [
       "azzurro"
     ],
@@ -380,7 +683,85 @@
     "slug": "al-bano-e-romina-power",
     "nome": "Al Bano e Romina Power",
     "storia": "Al Bano Carrisi e Romina Power si conobbero sul set del film Nel sole (1967) e si sposarono nel 1970, formando negli anni successivi un duo musicale attivo fino alla separazione del 1999 e poi di nuovo dal 2013. Hanno rappresentato l'Italia all'Eurovision Song Contest 1976 e vinto il Festival di Sanremo 1984 con \"Ci sarà\"; tra i loro maggiori successi anche \"Sharazan\" e \"Felicità\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Atto I",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "atto-i"
+      },
+      {
+        "titolo": "Aria pura",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "aria-pura"
+      },
+      {
+        "titolo": "Felicità",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "felicita"
+      },
+      {
+        "titolo": "Che angelo sei",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "che-angelo-sei"
+      },
+      {
+        "titolo": "Effetto amore",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "effetto-amore"
+      },
+      {
+        "titolo": "Sempre sempre",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "sempre-sempre"
+      },
+      {
+        "titolo": "Libertà!",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "liberta"
+      },
+      {
+        "titolo": "Fragile",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "fragile"
+      },
+      {
+        "titolo": "Fotografia di un momento",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "fotografia-di-un-momento"
+      },
+      {
+        "titolo": "Notte e giorno",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "notte-e-giorno"
+      },
+      {
+        "titolo": "Emozionale",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "emozionale"
+      }
+    ],
     "canzoni": [
       "felicita"
     ],
@@ -471,7 +852,29 @@
     "slug": "avicii",
     "nome": "Avicii",
     "storia": "Nato a Stoccolma nel 1989 come Tim Bergling, iniziò a pubblicare i propri remix online da adolescente, arrivando al primo contratto discografico e alla popolarità internazionale nel 2011 con \"Levels\". L'album di debutto True (2013) e singoli come \"Wake Me Up\" lo resero una delle figure di punta della musica elettronica mondiale, nonostante le difficoltà di salute legate al ritmo delle tournée. Morì a Mascate, in Oman, nel 2018, a 28 anni; la famiglia ha poi fondato la Tim Bergling Foundation per la prevenzione del disagio psichico.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "True",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "true"
+      },
+      {
+        "titolo": "Stories",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "stories"
+      },
+      {
+        "titolo": "Tim",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "tim"
+      }
+    ],
     "canzoni": [
       "wake-me-up"
     ],
@@ -738,7 +1141,120 @@
     "slug": "bon-jovi",
     "nome": "Bon Jovi",
     "storia": "Formati nel 1983 a Sayreville, nel New Jersey, da Jon Bon Jovi, si completarono con il chitarrista Richie Sambora, il tastierista David Bryan, il bassista Alec John Such e il batterista Tico Torres. Dopo i primi due album di modesto successo, Slippery When Wet (1986) e New Jersey (1988) li portarono al successo internazionale, vendendo insieme oltre 19 milioni di copie solo negli Stati Uniti. Such lasciò la band nel 1994, sostituito informalmente da Hugh McDonald; Sambora se ne andò nel 2013.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Bon Jovi",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "bon-jovi"
+      },
+      {
+        "titolo": "7800° Fahrenheit",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "7800-fahrenheit"
+      },
+      {
+        "titolo": "Slippery When Wet",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "slippery-when-wet"
+      },
+      {
+        "titolo": "New Jersey",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "new-jersey"
+      },
+      {
+        "titolo": "Keep the Faith",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "keep-the-faith"
+      },
+      {
+        "titolo": "These Days",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "these-days"
+      },
+      {
+        "titolo": "Crush",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "crush"
+      },
+      {
+        "titolo": "Bounce",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "bounce"
+      },
+      {
+        "titolo": "Have a Nice Day",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "have-a-nice-day"
+      },
+      {
+        "titolo": "Lost Highway",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "lost-highway"
+      },
+      {
+        "titolo": "The Circle",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-circle"
+      },
+      {
+        "titolo": "What About Now",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "what-about-now"
+      },
+      {
+        "titolo": "Burning Bridges",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "burning-bridges"
+      },
+      {
+        "titolo": "This House Is Not for Sale",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "this-house-is-not-for-sale"
+      },
+      {
+        "titolo": "2020",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "2020"
+      },
+      {
+        "titolo": "Forever",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "forever"
+      }
+    ],
     "canzoni": [
       "livin-on-a-prayer"
     ],
@@ -866,7 +1382,64 @@
     "slug": "caparezza",
     "nome": "Caparezza",
     "storia": "Nato a Molfetta, in Puglia, nel 1973, esordì a metà anni '90 come cantautore melodico con lo pseudonimo Mikimix, partecipando a Sanremo Giovani nel 1995 senza ottenere particolare successo. Tornato a Molfetta, cambiò il proprio nome d'arte in Caparezza (\"testa riccia\" in dialetto locale) ed esordì nel 2000 con l'album \"?!\". Il successo arrivò nel 2003 con \"Verità supposte\", da cui furono estratti i singoli \"Fuori dal tunnel\" e \"Vengo dalla luna\", affermandolo come una delle voci più originali del rap e rock alternativo italiano.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "?!",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": ""
+      },
+      {
+        "titolo": "Verità supposte",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "verita-supposte"
+      },
+      {
+        "titolo": "Habemus Capa",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "habemus-capa"
+      },
+      {
+        "titolo": "Le dimensioni del mio caos",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-dimensioni-del-mio-caos"
+      },
+      {
+        "titolo": "Il sogno eretico",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-sogno-eretico"
+      },
+      {
+        "titolo": "Museica",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "museica"
+      },
+      {
+        "titolo": "Prisoner 709",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "prisoner-709"
+      },
+      {
+        "titolo": "Exuvia",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "exuvia"
+      }
+    ],
     "canzoni": [
       "vieni-a-ballare-in-puglia"
     ],
@@ -882,7 +1455,64 @@
     "slug": "cesare-cremonini",
     "nome": "Cesare Cremonini",
     "storia": "Nato a Bologna nel 1980, si fece conoscere alla fine degli anni '90 come fondatore e voce dei Lùnapop, con cui pubblicò l'album \"...Squérez?\" (1999) e singoli come \"50 Special\", vendendo oltre un milione e mezzo di copie. Sciolti i Lùnapop nel 2001, iniziò nel 2002 una carriera da solista di successo, a partire dall'album \"Bagùs\". Da oltre vent'anni è una delle voci centrali della musica pop italiana, con testi dal taglio narrativo e il pianoforte come strumento identitario.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Bagùs",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "bagus"
+      },
+      {
+        "titolo": "Maggese",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "maggese"
+      },
+      {
+        "titolo": "Il primo bacio sulla Luna",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-primo-bacio-sulla-luna"
+      },
+      {
+        "titolo": "La teoria dei colori",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-teoria-dei-colori"
+      },
+      {
+        "titolo": "Logico",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "logico"
+      },
+      {
+        "titolo": "Possibili scenari",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "possibili-scenari"
+      },
+      {
+        "titolo": "La ragazza del futuro",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-ragazza-del-futuro"
+      },
+      {
+        "titolo": "Alaska Baby",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "alaska-baby"
+      }
+    ],
     "canzoni": [
       "marmellata-25"
     ],

@@ -532,6 +532,17 @@ scrivi('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${SITO.base}/sitemap.x
 
 // -------------------------------------------------------------- vercel.json
 
+// F66/C3: quando una canzone smette di citare un album segnaposto ("Singolo")
+// per puntare all'album reale appena documentato, la vecchia pagina sintetica
+// non finisce in `albumRimossi` — semplicemente non viene più generata da
+// nessuna voce, quindi F63 non la vedrebbe mai. Va dichiarata qui a mano,
+// una volta per tutte: non è un caso che si ripeta spesso, non merita un
+// meccanismo generico.
+const REDIRECT_STORICI = [
+  { da: '/album/adriano-celentano/singolo/', a: '/album/adriano-celentano/azzurro-una-carezza-in-un-pugno/' },
+  { da: '/album/al-bano-e-romina-power/singolo/', a: '/album/al-bano-e-romina-power/felicita/' },
+];
+
 // F63: un 301 permanente da ogni indirizzo album rimosso (F50) verso la
 // pagina dell'artista corrispondente, generato da dati/album-rimossi.json —
 // mai scritto a mano. Più gli header di cache: lunga durata e immutabile per
@@ -541,11 +552,14 @@ const vercelJson = {
   // Con lo slash finale: è così che ogni link e la sitemap generano questi
   // indirizzi, ed è quindi la forma con cui arriva davvero il traffico da
   // reindirizzare (link già condivisi, cache di Google sulle vecchie pagine).
-  redirects: albumRimossi.map((al) => ({
-    source: `/album/${al.artistaSlug}/${al.slug}/`,
-    destination: `/artista/${al.artistaSlug}/`,
-    permanent: true,
-  })),
+  redirects: [
+    ...albumRimossi.map((al) => ({
+      source: `/album/${al.artistaSlug}/${al.slug}/`,
+      destination: `/artista/${al.artistaSlug}/`,
+      permanent: true,
+    })),
+    ...REDIRECT_STORICI.map((r) => ({ source: r.da, destination: r.a, permanent: true })),
+  ],
   headers: [
     // Regola generale prima (HTML e tutto il resto, sempre rivalidato: F40
     // decide da solo quando una pagina è davvero cambiata, il browser non
