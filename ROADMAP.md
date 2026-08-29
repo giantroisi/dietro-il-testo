@@ -296,6 +296,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 189 a **181**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti (due volte, prima e dopo la correzione dell'anno), verificato nel browser sia la pagina artista di Andrea Bocelli e Giorgia sia la scheda della canzone "Vivo per lei": ora raccontano lo stesso anno e lo stesso concorso.
 
+- **29 agosto 2026 — Settimo lotto F66 (8 voci C2): storie di Claudio Baglioni, Coldplay, Daft Punk, David Bowie, Depeche Mode, Domenico Modugno, Eagles, Ed Sheeran.** Stesso standard dei lotti precedenti: fatti biografici di base incrociati su più fonti indipendenti (formazione, membri fondatori, opere e cronologia chiave), nessun dettaglio interpretativo non riscontrato.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 181 a **173**.
+**Verificato, non solo scritto**: rigenerato il sito; `check-testi.mjs` ha segnalato un 502 transitorio su Letras per "All the Small Things" (non toccata in questo lotto), confermato non riproducibile ripetendo il controllo dopo pochi secondi — nessuna azione necessaria, esito di rete e non un problema nei dati. Gli altri cinque controlli automatici puliti, verificato nel browser la pagina di David Bowie (storia visibile, bollo "Storia documentata", nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
