@@ -2,7 +2,7 @@
   {
     "slug": "5-seconds-of-summer",
     "nome": "5 Seconds of Summer",
-    "storia": null,
+    "storia": "Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò nel 2013, quando la band aprì le date del tour europeo dei One Direction. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.",
     "album": [],
     "canzoni": [
       "she-looks-so-perfect"
@@ -20,7 +20,7 @@
   {
     "slug": "883",
     "nome": "883",
-    "storia": null,
+    "storia": "Formati a Pavia nel 1988 da Max Pezzali e Mauro Repetto, compagni di classe al liceo Copernico dal 1984, scelsero il nome in omaggio alla cilindrata della Harley-Davidson Sportster 883. Mauro Repetto lasciò il gruppo nel 1994; Max Pezzali continuò a incidere come 883 fino al 2002, abbandonando il nome del duo nel 2003 per proseguire la carriera da solista.",
     "album": [],
     "canzoni": [
       "hanno-ucciso-luomo-ragno"
@@ -37,7 +37,7 @@
   {
     "slug": "a-ha",
     "nome": "a-ha",
-    "storia": null,
+    "storia": "Formati a Oslo nel 1982 dal chitarrista Pål Waaktaar e dal tastierista Magne Furuholmen, che chiamarono a unirsi come cantante Morten Harket dopo avergli fatto ascoltare una prima versione di \"Take on Me\"; il nome del gruppo nacque da un titolo trovato per caso nel quaderno di appunti di Waaktaar. Annunciarono lo scioglimento nel 2009 e tennero l'ultimo concerto a Oslo nel dicembre 2010, per poi riunirsi nel 2015 e pubblicare un nuovo album lo stesso anno.",
     "album": [],
     "canzoni": [
       "take-on-me"
@@ -54,7 +54,7 @@
   {
     "slug": "ac-dc",
     "nome": "AC/DC",
-    "storia": null,
+    "storia": "Formati a Sydney nel novembre 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, debuttarono dal vivo il 31 dicembre dello stesso anno. Il cantante Bon Scott si unì nel 1974 e guidò la band fino alla morte improvvisa nel 1980; gli succedette Brian Johnson, con cui la band pubblicò lo stesso anno Back in Black, uno degli album più venduti nella storia della musica. Pionieri dell'hard rock, sono rimasti in attività per oltre cinquant'anni nonostante lutti e cambi di formazione.",
     "album": [],
     "canzoni": [
       "highway-to-hell"
@@ -2295,9 +2295,6 @@
         "nota": "certificato 2x Platino in Francia e 3x Platino in Brasile, debuttò al numero 1 in oltre 14 paesi",
         "copertina": null,
         "slug": "from-zero"
-      },
-      {
-        "nota": "Oltre 100 milioni di dischi venduti nel mondo nel corso della carriera"
       }
     ],
     "canzoni": [
@@ -2313,7 +2310,10 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#8F1A1A"
+    "colore": "#8F1A1A",
+    "riconoscimenti": [
+      "Oltre 100 milioni di dischi venduti nel mondo nel corso della carriera"
+    ]
   },
   {
     "slug": "lucio-battisti",
@@ -2779,9 +2779,6 @@
         "nota": "primo album della band dal 1988 a non debuttare al numero 1 della Billboard 200 (arrivò secondo)",
         "copertina": null,
         "slug": "72-seasons"
-      },
-      {
-        "nota": "9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo"
       }
     ],
     "canzoni": [
@@ -2797,7 +2794,10 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#6B6B6E"
+    "colore": "#6B6B6E",
+    "riconoscimenti": [
+      "9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo"
+    ]
   },
   {
     "slug": "michael-jackson",
@@ -4230,9 +4230,6 @@
         "nota": "ultimo album in studio della band, sciolta nel 2024; il singolo \"Landmines\" diede alla band il primo numero 1 nella classifica Alternative Airplay in oltre vent'anni",
         "copertina": null,
         "slug": "heaven-x-hell"
-      },
-      {
-        "nota": "Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature in carriera"
       }
     ],
     "canzoni": [
@@ -4247,7 +4244,10 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#B37A1F"
+    "colore": "#B37A1F",
+    "riconoscimenti": [
+      "Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature in carriera"
+    ]
   },
   {
     "slug": "system-of-a-down",
@@ -4635,9 +4635,6 @@
         "nota": "2x disco di platino, ultimo album in studio pubblicato",
         "copertina": null,
         "slug": "siamo-qui"
-      },
-      {
-        "nota": "Artista italiano con più album certificati FIMI: 2 dischi di diamante, 63 di platino, 36 d'oro; record mondiale di pubblico pagante per un concerto solista (Modena Park, 2017, 225 mila spettatori)"
       }
     ],
     "canzoni": [
@@ -4650,7 +4647,10 @@
       "rock"
     ],
     "paese": "it",
-    "colore": "#A6272A"
+    "colore": "#A6272A",
+    "riconoscimenti": [
+      "Artista italiano con più album certificati FIMI: 2 dischi di diamante, 63 di platino, 36 d'oro; record mondiale di pubblico pagante per un concerto solista (Modena Park, 2017, 225 mila spettatori)"
+    ]
   },
   {
     "slug": "whitney-houston",

@@ -562,10 +562,7 @@ export function paginaArtista(a, ctx) {
   // dalle canzoni raccontate), ordinate per anno; quelle senza pagina restano
   // testo semplice invece di un link morto — il disco esiste, la pagina no.
   const albumVeri = [...(ctx.albumPerArtista.get(a.slug) || [])].sort((x, y) => (primoAnno(x.anno) || 0) - (primoAnno(y.anno) || 0));
-  // F66: la migrazione a `riconoscimenti` procede un lotto alla volta (F65
-  // C1 "nota-da-separare") — finché non è completa, alcuni artisti hanno
-  // ancora la vecchia forma (`{nota}` senza slug/titolo dentro `album`).
-  const riconoscimenti = [...(a.riconoscimenti || []), ...a.album.filter((x) => !x.titolo && x.nota).map((x) => x.nota)];
+  const riconoscimenti = a.riconoscimenti || [];
 
   const arco = a.annoPrimo ? (a.annoPrimo === a.annoUltimo ? `${a.annoPrimo}` : `${a.annoPrimo}–${a.annoUltimo}`) : '—';
 
