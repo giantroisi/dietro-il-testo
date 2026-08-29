@@ -1476,51 +1476,51 @@
   {
     "percorso": "artista/the-cranberries/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/the-doors/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/the-killers/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/the-police/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/the-rolling-stones/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/the-white-stripes/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/tool/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/toto/",
@@ -1532,9 +1532,9 @@
   {
     "percorso": "artista/toto-cutugno/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "artista/tracy-chapman/",

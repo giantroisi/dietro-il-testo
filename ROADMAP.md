@@ -326,6 +326,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 141 a **133**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di The Beatles (storia visibile, nessun errore console).
 
+- **29 agosto 2026 — Tredicesimo lotto F66 (8 voci C2): storie di The Cranberries, The Doors, The Killers, The Police, The Rolling Stones, The White Stripes, Tool, Toto Cutugno.** Stesso standard dei lotti precedenti. Restano solo 4 voci C2 (Toto, Tracy Chapman, Whitney Houston, Zucchero): il prossimo lotto le chiuderà tutte e passerà a C3.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: sceso da 133 a **125**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, verificato nel browser la pagina di The Rolling Stones (storia visibile, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
