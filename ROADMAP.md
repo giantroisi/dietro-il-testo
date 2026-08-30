@@ -427,6 +427,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 112 a **104**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Toxicity" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Ventiseiesimo lotto F66 (8 voci C4): copertine di Bon Jovi/Slippery When Wet, Bring Me the Horizon/POST HUMAN: Survival Horror, Alice in Chains/Facelift, Caparezza/Le dimensioni del mio caos — quattro sospese.**
+**Quattro copertine documentate**, tutte con citazione diretta verificata (Ultimate Classic Rock, NME, Wikipedia con nota a piè di pagina).
+**Quattro voci lasciate sospese, non forzate**: Al Bano e Romina Power/Felicità e Avicii/True (nessuna fonte trovata sulla copertina in sé), Blink-182 (album omonimo, 2003 — trovata una fonte con dettagli plausibili ma senza alcuna citazione diretta né fonte primaria rintracciabile) e Bring Me the Horizon/Suicide Season (trovata una descrizione attribuita a un'intervista della band, ma senza riuscire a rintracciarne la fonte primaria con URL verificabile).
+**Un errore di ricerca corretto durante il lavoro, non dopo**: un primo tentativo aveva attribuito a "Suicide Season" una citazione di Oli Sykes che, verificata con un fetch diretto, apparteneva in realtà a un album diverso dei BMTH ("There Is A Hell...") — scartata prima di scrivere, non dopo la pubblicazione.
+**I quattro numeri del lotto**: 8 cercate, 4 trovate, 0 accertate assenti, 4 sospese.
+**Debito aperto**: sceso da 104 a **96** — per la prima volta sotto quota 100.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Slippery When Wet" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

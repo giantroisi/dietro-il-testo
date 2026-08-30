@@ -220,6 +220,46 @@
     "motivo": "confermata: Wikipedia, fatto descrittivo semplice (cosa raffigura), non un'interpretazione"
   },
   {
+    "id": "album:alice-in-chains:facelift:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "alice-in-chains/facelift",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Wikipedia, con citazione diretta e nota a piè di pagina"
+  },
+  {
+    "id": "album:bon-jovi:slippery-when-wet:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "bon-jovi/slippery-when-wet",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Ultimate Classic Rock, con citazione diretta di Jon Bon Jovi e del fotografo Mark Weiss"
+  },
+  {
+    "id": "album:bring-me-the-horizon:post-human-survival-horror:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "bring-me-the-horizon/post-human-survival-horror",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: NME, con citazione diretta di Oli Sykes"
+  },
+  {
+    "id": "album:caparezza:le-dimensioni-del-mio-caos:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "caparezza/le-dimensioni-del-mio-caos",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, descrizione visiva corroborata da più fonti indipendenti"
+  },
+  {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -408,19 +448,9 @@
     "tipo": "copertina-album",
     "soggetto": "al-bano-e-romina-power/felicita",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:alice-in-chains:facelift:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "alice-in-chains/facelift",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata sulla copertina dell'album (solo materiale sulla canzone e sul contesto della sua registrazione a Monaco), nonostante ricerche mirate."
   },
   {
     "id": "album:avicii:true:copertina",
@@ -428,9 +458,9 @@
     "tipo": "copertina-album",
     "soggetto": "avicii/true",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata solo la storia del lancio promozionale (una lastra di vetro nero fatta esplodere via tweet dei fan), non una descrizione di cosa raffiguri effettivamente la copertina."
   },
   {
     "id": "album:blink-182:blink-182:copertina",
@@ -438,29 +468,9 @@
     "tipo": "copertina-album",
     "soggetto": "blink-182/blink-182",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:bon-jovi:slippery-when-wet:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "bon-jovi/slippery-when-wet",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:bring-me-the-horizon:post-human-survival-horror:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "bring-me-the-horizon/post-human-survival-horror",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata una fonte (cdunity.com) con dettagli plausibili su Travis Barker, Mister Cartoon ed Estevan Oriol, ma senza alcuna citazione diretta né fonte primaria verificabile — non abbastanza per lo standard del sito."
   },
   {
     "id": "album:bring-me-the-horizon:suicide-season:copertina",
@@ -468,19 +478,9 @@
     "tipo": "copertina-album",
     "soggetto": "bring-me-the-horizon/suicide-season",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:le-dimensioni-del-mio-caos:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/le-dimensioni-del-mio-caos",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata una descrizione (una ragazza con le budella fuori) attribuita a un'intervista della band, ma senza riuscire a rintracciare la fonte primaria con URL verificabile — non pubblicata senza poter controllare la citazione alla fonte."
   },
   {
     "id": "album:cesare-cremonini:maggese:copertina",

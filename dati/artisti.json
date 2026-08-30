@@ -806,7 +806,13 @@
         "titolo": "Facelift",
         "anno": "1990",
         "nota": "certificato 2x platino RIAA, album di debutto",
-        "copertina": null,
+        "copertina": "Fotografata da Rocky Schenck il 2 maggio 1990 nella piscina degli Oakwood Apartments di Burbank, ricoperta di plastica sottile per dare l'idea di una band che emerge da un occhio; il volto scelto per la copertina, tra le foto in esposizione multipla di ogni membro, fu quello del bassista Mike Starr.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Facelift_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "facelift"
       },
       {
@@ -1184,7 +1190,13 @@
         "titolo": "Slippery When Wet",
         "anno": "1986",
         "nota": null,
-        "copertina": null,
+        "copertina": "La copertina definitiva, con il titolo scritto a mano su un sacco di plastica nera spruzzato con una miscela di olio e acqua, nacque all'ultimo momento: Jon Bon Jovi, insoddisfatto della prima versione (una modella con una maglietta bagnata), si presentò nello studio del fotografo Mark Weiss chiedendo un sacco della spazzatura e uno spruzzino. La versione con la modella restò in uso solo in Giappone e in alcuni altri mercati.",
+        "copertinaFonte": [
+          {
+            "url": "https://ultimateclassicrock.com/bon-jovi-slippery-when-wet-album-covers/",
+            "nome": "Ultimate Classic Rock"
+          }
+        ],
         "slug": "slippery-when-wet"
       },
       {
@@ -1357,7 +1369,13 @@
         "titolo": "POST HUMAN: Survival Horror",
         "anno": "2020",
         "nota": "primo dei quattro progetti della serie \"Post Human\", certificato oro nel Regno Unito e in Polonia, debuttato numero 1 nella classifica britannica (formato fisico)",
-        "copertina": null,
+        "copertina": "Disegnata da Alissa Salls, moglie del cantante Oli Sykes, si ispira a un dipinto religioso raffigurante la divinità indù Krishna mentre pranza con gli amici nella foresta, reinterpretato in chiave contemporanea e apocalittica come riflessione su cosa si trovi ancora piacevole in un'epoca \"post-umana\".",
+        "copertinaFonte": [
+          {
+            "url": "https://www.nme.com/big-reads/bring-me-the-horizon-cover-interview-2020-post-human-survival-horror-2804768",
+            "nome": "NME"
+          }
+        ],
         "slug": "post-human-survival-horror"
       },
       {
@@ -1432,7 +1450,13 @@
         "titolo": "Le dimensioni del mio caos",
         "anno": "2008",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura Caparezza sulla luna, vestito come Jimi Hendrix e pronto a distruggere una chitarra Fender Stratocaster contro il suolo, circondato dai personaggi del concept album — Ilaria, Luigi delle bicocche e un bonobo.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Le_dimensioni_del_mio_caos",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "le-dimensioni-del-mio-caos"
       },
       {

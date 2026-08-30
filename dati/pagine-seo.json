@@ -1631,9 +1631,9 @@
   {
     "percorso": "album/alice-in-chains/facelift/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/andrea-bocelli-e-giorgia/bocelli-album/",
@@ -1673,9 +1673,9 @@
   {
     "percorso": "album/bon-jovi/slippery-when-wet/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/bring-me-the-horizon/suicide-season/",
@@ -1708,9 +1708,9 @@
   {
     "percorso": "album/bring-me-the-horizon/post-human-survival-horror/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/bring-me-the-horizon/post-human-nex-gen/",
@@ -1722,9 +1722,9 @@
   {
     "percorso": "album/caparezza/le-dimensioni-del-mio-caos/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/cesare-cremonini/maggese/",

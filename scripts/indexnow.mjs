@@ -93,7 +93,20 @@ for (let i = 0; i < indirizzi.length; i += LOTTO) {
     inviati += urlList.length;
     console.log(`  lotto ${i / LOTTO + 1}: ${urlList.length} indirizzi accettati (HTTP ${risposta.status})`);
   } else {
-    console.error(`  lotto ${i / LOTTO + 1}: RIFIUTATO — HTTP ${risposta.status} ${await risposta.text()}`);
+    const corpo = await risposta.text();
+    // 403 SiteVerificationNotCompleted non è un fallimento: è IndexNow che non
+    // ha ancora letto il file della chiave sul sito. Succede sempre al primo
+    // invio con una chiave appena pubblicata, e si risolve da solo aspettando.
+    // Trattarlo come errore secco farebbe pensare a un problema che non c'è.
+    if (risposta.status === 403 && corpo.includes('SiteVerificationNotCompleted')) {
+      console.log('');
+      console.log('IndexNow non ha ancora verificato la chiave sul sito.');
+      console.log(`Il file esiste (${BASE}/${chiave}.txt): manca solo che IndexNow vada a leggerlo.`);
+      console.log('Succede sempre al primo invio con una chiave appena pubblicata.');
+      console.log('Non c\'è niente da correggere: riprova fra un\'ora con lo stesso comando.');
+      process.exit(0);
+    }
+    console.error(`  lotto ${i / LOTTO + 1}: RIFIUTATO — HTTP ${risposta.status} ${corpo}`);
     process.exit(1);
   }
 }

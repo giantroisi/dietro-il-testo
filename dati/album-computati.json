@@ -1027,10 +1027,10 @@
     "slug": "facelift",
     "titolo": "Facelift",
     "anno": "1990",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1467,10 +1467,10 @@
     "slug": "slippery-when-wet",
     "titolo": "Slippery When Wet",
     "anno": "1986",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1687,10 +1687,10 @@
     "slug": "post-human-survival-horror",
     "titolo": "POST HUMAN: Survival Horror",
     "anno": "2020",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1742,10 +1742,10 @@
     "slug": "le-dimensioni-del-mio-caos",
     "titolo": "Le dimensioni del mio caos",
     "anno": "2008",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
