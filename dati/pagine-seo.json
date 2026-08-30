@@ -17,6 +17,21 @@
     "indicizzabile": true
   },
   {
+    "percorso": "chi-siamo/",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "privacy/",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "note-legali/",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
     "percorso": "404.html",
     "categoria": "servizio",
     "indicizzabile": false

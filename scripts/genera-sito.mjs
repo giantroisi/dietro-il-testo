@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { SITO } from './genera/guscio.mjs';
-import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
+import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -432,12 +432,21 @@ const htmlMetodo = paginaMetodo(ctx);
 const lastmodHome = scriviConLastmod('index.html', '', htmlHome).lastmod;
 const lastmodArchivio = scriviConLastmod('archivio/index.html', 'archivio/', htmlArchivio).lastmod;
 const lastmodMetodo = scriviConLastmod('metodo/index.html', 'metodo/', htmlMetodo).lastmod;
+// F61/F62: chi c'è dietro, privacy e note legali. Sono pagine di servizio —
+// brevi per natura, senza soglia di contenuto (ROADMAP 11.2) — ma indicizzabili
+// e in sitemap: sono pagine vere, non scarti.
+const lastmodChiSiamo = scriviConLastmod('chi-siamo/index.html', 'chi-siamo/', paginaChiSiamo(ctx)).lastmod;
+const lastmodPrivacy = scriviConLastmod('privacy/index.html', 'privacy/', paginaPrivacy(ctx)).lastmod;
+const lastmodNoteLegali = scriviConLastmod('note-legali/index.html', 'note-legali/', paginaNoteLegali(ctx)).lastmod;
 scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
 manifestoPagine.push(
   { percorso: '', categoria: 'servizio', indicizzabile: true },
   // L'archivio raccoglie sempre tutte le canzoni: la massa non è mai il problema.
   { percorso: 'archivio/', categoria: 'indice', indicizzabile: true, nCanzoni: canzoni.length, haTestoEditoriale: true },
   { percorso: 'metodo/', categoria: 'servizio', indicizzabile: true },
+  { percorso: 'chi-siamo/', categoria: 'servizio', indicizzabile: true },
+  { percorso: 'privacy/', categoria: 'servizio', indicizzabile: true },
+  { percorso: 'note-legali/', categoria: 'servizio', indicizzabile: true },
   { percorso: '404.html', categoria: 'servizio', indicizzabile: false }
 );
 
@@ -517,7 +526,14 @@ function urlset(righe) {
 
 // F59: gli stessi lastmod già calcolati sopra, non un secondo confronto —
 // è esattamente il valore scritto nel `dateModified` di ogni pagina.
-const sitemapPagine = urlset([url('', lastmodHome), url('archivio/', lastmodArchivio), url('metodo/', lastmodMetodo)]);
+const sitemapPagine = urlset([
+  url('', lastmodHome),
+  url('archivio/', lastmodArchivio),
+  url('metodo/', lastmodMetodo),
+  url('chi-siamo/', lastmodChiSiamo),
+  url('privacy/', lastmodPrivacy),
+  url('note-legali/', lastmodNoteLegali),
+]);
 const sitemapCanzoni = urlset(canzoni.map((c) => url(`canzone/${c.slug}/`, lastmodCanzoni.get(c.slug))));
 // F52: solo gli artisti indicizzabili entrano in sitemap.
 const sitemapArtisti = urlset(artisti.filter((a) => a._indicizzabile).map((a) => url(`artista/${a.slug}/`, lastmodArtisti.get(a.slug))));
@@ -601,14 +617,17 @@ scrivi('vercel.json', JSON.stringify(vercelJson, null, 2) + '\n');
 // -------------------------------------------------------------- riepilogo
 
 const conGancio = canzoni.filter((c) => c.gancio).length;
-const totale = 3 + canzoni.length + artisti.length + album.length + raccolte.length;
+// F61/F62: sei pagine fisse, non più tre — il numero nasce da qui e da nessun
+// altro posto (P9).
+const PAGINE_FISSE = ['', 'archivio/', 'metodo/', 'chi-siamo/', 'privacy/', 'note-legali/'];
+const totale = PAGINE_FISSE.length + canzoni.length + artisti.length + album.length + raccolte.length;
 
 console.log(`Pagine generate:   ${totale}`);
 console.log(`  canzoni          ${canzoni.length}`);
 console.log(`  artisti          ${artisti.length}`);
 console.log(`  album            ${album.length}`);
 console.log(`  raccolte         ${raccolte.length} (${generiPubblicati.length} generi, ${decenniPubblicati.length} decenni)`);
-console.log(`  fisse            3 (home, archivio, metodo)`);
+console.log(`  fisse            ${PAGINE_FISSE.length} (home, archivio, metodo, chi c'è dietro, privacy, note legali)`);
 console.log('');
 console.log(`Ganci scritti:     ${conGancio}/${canzoni.length}`);
 console.log(`Destinazione:      ${OUT.replace(ROOT + '/', '')}/`);
