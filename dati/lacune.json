@@ -850,6 +850,56 @@
     "motivo": "confermata: That Eric Alper, con citazione diretta di Jack White"
   },
   {
+    "id": "album:tool:undertow:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "tool/undertow",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, dettagli completi su artwork, censura e retro copertina"
+  },
+  {
+    "id": "album:toto:toto-iv:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "toto/toto-iv",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, attribuzione a Philip Garris"
+  },
+  {
+    "id": "album:tracy-chapman:tracy-chapman:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "tracy-chapman/tracy-chapman",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con credit fotografico Matt Mahurin"
+  },
+  {
+    "id": "album:vasco-rossi:non-siamo-mica-gli-americani:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "vasco-rossi/non-siamo-mica-gli-americani",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia — corretto un errore di ricerca (un riassunto iniziale descriveva erroneamente un acquerello con una ragazza, smentito dalla fonte diretta)"
+  },
+  {
+    "id": "album:zucchero:blues:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "zucchero/blues",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Velletri Life, con dettagli su Neal Slavin e la serie fotografica Britons"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1363,44 +1413,14 @@
     "motivo": "sospeso: le fonti confermano solo l'intento generale (schiarire l'estetica rispetto al debutto) ma nessuna descrive concretamente il soggetto della foto di copertina"
   },
   {
-    "id": "album:tool:undertow:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "tool/undertow",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:toto-cutugno:l-italiano:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "toto-cutugno/l-italiano",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:toto:toto-iv:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "toto/toto-iv",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:tracy-chapman:tracy-chapman:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "tracy-chapman/tracy-chapman",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina"
   },
   {
     "id": "album:vasco-rossi:nessun-pericolo-per-te:copertina",
@@ -1408,19 +1428,9 @@
     "tipo": "copertina-album",
     "soggetto": "vasco-rossi/nessun-pericolo-per-te",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:vasco-rossi:non-siamo-mica-gli-americani:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "vasco-rossi/non-siamo-mica-gli-americani",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: le fonti descrivono solo il carattere dell'album ('nero come la sua copertina, duro, spietato') senza descrivere concretamente il soggetto raffigurato"
   },
   {
     "id": "album:whitney-houston:the-bodyguard:copertina",
@@ -1428,19 +1438,9 @@
     "tipo": "copertina-album",
     "soggetto": "whitney-houston/the-bodyguard",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:zucchero:blues:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "zucchero/blues",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: confermato solo il credit fotografico (Ben Glass) in un riassunto di ricerca non verificato alla fonte diretta; Wikipedia non descrive il soggetto della copertina"
   },
   {
     "id": "album:5-seconds-of-summer:5sos5:copertina",

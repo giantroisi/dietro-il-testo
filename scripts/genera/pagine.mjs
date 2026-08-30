@@ -517,6 +517,16 @@ export function paginaCanzone(c, ctx) {
           headline: c.titolo,
           about: { '@id': `${SITO.base}/canzone/${c.slug}/#brano` },
           isPartOf: { '@id': `${SITO.base}/#sito` },
+          // F59/F61: l'autore è il sito stesso — scelta dell'autore, che firma
+          // col nome del dominio invece che con un nome personale. Definito per
+          // esteso qui e non solo per riferimento, così il grafo di questa
+          // pagina si regge da solo; `publisher` richiama la stessa entità.
+          author: {
+            '@type': 'Organization',
+            '@id': `${SITO.base}/#editore`,
+            name: SITO.nome,
+            url: `${SITO.base}/`,
+          },
           publisher: { '@id': `${SITO.base}/#editore` },
           url: `${SITO.base}/canzone/${c.slug}/`,
           dateModified: SEGNAPOSTO_DATA_MODIFICA,
@@ -1267,7 +1277,8 @@ export function paginaChiSiamo(ctx) {
   const { nome, email, riga } = AUTORE;
   const firma = nome
     ? `<p>Questo sito lo scrive <strong>${esc(nome)}</strong>.${riga ? ' ' + esc(riga) : ''}</p>`
-    : `<p>Questo sito lo scrive una persona sola. Non è una redazione, non c'è un "noi" dietro le schede: c'è qualcuno che legge le fonti una per una e scrive quello che ha trovato.</p>`;
+    : `<p>Questo sito lo scrive una persona sola, che sceglie di firmarsi con il nome del sito: <strong>dietroiltesto.it</strong>. Non è una redazione, non c'è un "noi" dietro le schede: c'è qualcuno che legge le fonti una per una e scrive quello che ha trovato.</p>
+       <p>Firmarsi col nome del sito non è un modo per nascondersi: quello che si legge qui è verificabile una fonte alla volta, e ogni scheda porta in fondo gli indirizzi per andare a controllare. La responsabilità di quello che c'è scritto è di chi tiene questo sito, e resta la stessa che porti un nome o l'altro.</p>`;
 
   const corpo = `
   <div class="col">
