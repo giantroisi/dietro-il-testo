@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:the-cranberries:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-cranberries",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-doors:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-doors",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-killers:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-killers",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-police:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-police",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-rolling-stones:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-rolling-stones",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-white-stripes:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-white-stripes",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:tool:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "tool",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:toto-cutugno:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "toto-cutugno",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:toto:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1417,6 +1337,86 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "the-clash/combat-rock",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:no-need-to-argue:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/no-need-to-argue",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:l-a-woman:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/l-a-woman",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:hot-fuss:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/hot-fuss",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-police:synchronicity:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-police/synchronicity",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:aftermath:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/aftermath",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:elephant:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/elephant",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tool:undertow:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "tool/undertow",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:l-italiano:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/l-italiano",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -12067,6 +12067,726 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "the-clash/the-clash",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:bury-the-hatchet:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/bury-the-hatchet",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:everybody-else-is-doing-it-so-why-can-t-we:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/everybody-else-is-doing-it-so-why-can-t-we",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:in-the-end:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/in-the-end",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:roses:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/roses",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:something-else:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/something-else",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:to-the-faithful-departed:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/to-the-faithful-departed",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-cranberries:wake-up-and-smell-the-coffee:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-cranberries/wake-up-and-smell-the-coffee",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:an-american-prayer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/an-american-prayer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:full-circle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/full-circle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:morrison-hotel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/morrison-hotel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:other-voices:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/other-voices",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:strange-days:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/strange-days",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:the-doors:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/the-doors",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:the-soft-parade:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/the-soft-parade",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-doors:waiting-for-the-sun:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-doors/waiting-for-the-sun",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:battle-born:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/battle-born",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:day-age:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/day-age",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:imploding-the-mirage:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/imploding-the-mirage",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:pressure-machine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/pressure-machine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:sam-s-town:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/sam-s-town",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-killers:wonderful-wonderful:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-killers/wonderful-wonderful",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-police:ghost-in-the-machine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-police/ghost-in-the-machine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-police:outlandos-d-amour:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-police/outlandos-d-amour",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-police:reggatta-de-blanc:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-police/reggatta-de-blanc",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-police:zenyatta-mondatta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-police/zenyatta-mondatta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:a-bigger-bang:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/a-bigger-bang",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:beggars-banquet:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/beggars-banquet",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:between-the-buttons:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/between-the-buttons",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:black-and-blue:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/black-and-blue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:blue-lonesome:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/blue-lonesome",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:bridges-to-babylon:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/bridges-to-babylon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:dirty-work:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/dirty-work",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:emotional-rescue:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/emotional-rescue",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:exile-on-main-st:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/exile-on-main-st",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:goats-head-soup:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/goats-head-soup",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:hackney-diamonds:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/hackney-diamonds",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:it-s-only-rock-n-roll:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/it-s-only-rock-n-roll",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:let-it-bleed:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/let-it-bleed",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:out-of-our-heads:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/out-of-our-heads",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:some-girls:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/some-girls",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:steel-wheels:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/steel-wheels",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:sticky-fingers:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/sticky-fingers",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:tattoo-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/tattoo-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:the-rolling-stones-no-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/the-rolling-stones-no-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:the-rolling-stones:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/the-rolling-stones",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:their-satanic-majesties-request:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/their-satanic-majesties-request",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:undercover:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/undercover",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-rolling-stones:voodoo-lounge:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-rolling-stones/voodoo-lounge",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:de-stijl:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/de-stijl",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:get-behind-me-satan:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/get-behind-me-satan",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:icky-thump:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/icky-thump",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:the-white-stripes-1999:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/the-white-stripes-1999",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-white-stripes:white-blood-cells:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-white-stripes/white-blood-cells",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tool:10-000-days:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tool/10-000-days",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tool:fear-inoculum:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tool/fear-inoculum",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tool:lateralus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tool/lateralus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tool:nima:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tool/nima",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:azzurra-malinconia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/azzurra-malinconia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:cantando:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/cantando",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:canzoni-nascoste:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/canzoni-nascoste",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:come-noi-nessuno-al-mondo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/come-noi-nessuno-al-mondo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:il-treno-va:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/il-treno-va",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:innamorata-innamorato-innamorati:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/innamorata-innamorato-innamorati",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:l-italiano-la-nuova-versione:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/l-italiano-la-nuova-versione",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:la-mia-musica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/la-mia-musica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:mediterraneo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/mediterraneo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:non-e-facile-essere-uomini:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/non-e-facile-essere-uomini",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:per-amore-o-per-gioco:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/per-amore-o-per-gioco",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:toto-cutugno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/toto-cutugno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:un-falco-chiuso-in-gabbia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/un-falco-chiuso-in-gabbia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:voglio-andare-a-vivere-in-campagna:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/voglio-andare-a-vivere-in-campagna",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto-cutugno:voglio-l-anima:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto-cutugno/voglio-l-anima",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

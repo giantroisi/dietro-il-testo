@@ -10112,7 +10112,64 @@
     "slug": "the-cranberries",
     "nome": "The Cranberries",
     "storia": "Formati a Limerick, in Irlanda, nel 1989 dai fratelli Noel e Mike Hogan insieme al batterista Fergal Lawler, inizialmente con il cantante Niall Quinn e il nome The Cranberry Saw Us, cambiarono nome quando nel 1990 Quinn fu sostituito da Dolores O'Riordan, che divenne cantante e principale autrice del gruppo. Esordirono con l'album \"Everybody Else Is Doing It, So Why Can't We?\" nel 1993.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Everybody Else Is Doing It, So Why Can't We?",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "everybody-else-is-doing-it-so-why-can-t-we"
+      },
+      {
+        "titolo": "No Need to Argue",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "no-need-to-argue"
+      },
+      {
+        "titolo": "To the Faithful Departed",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "to-the-faithful-departed"
+      },
+      {
+        "titolo": "Bury the Hatchet",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "bury-the-hatchet"
+      },
+      {
+        "titolo": "Wake Up and Smell the Coffee",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "wake-up-and-smell-the-coffee"
+      },
+      {
+        "titolo": "Roses",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "roses"
+      },
+      {
+        "titolo": "Something Else",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "something-else"
+      },
+      {
+        "titolo": "In the End",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-the-end"
+      }
+    ],
     "canzoni": [
       "zombie-cranberries"
     ],
@@ -10128,7 +10185,71 @@
     "slug": "the-doors",
     "nome": "The Doors",
     "storia": "Formati a Los Angeles nel luglio 1965 dall'incontro casuale tra Jim Morrison e Ray Manzarek, entrambi ex studenti della scuola di cinema della UCLA, sulla spiaggia di Venice; Manzarek, colpito dai testi che Morrison gli mostrò, propose di formare insieme una band, completata dal chitarrista Robby Krieger e dal batterista John Densmore. Il nome, inizialmente \"The Doors of Perception\", si ispira a una frase del poeta William Blake sulle \"porte della percezione\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The Doors",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-doors"
+      },
+      {
+        "titolo": "Strange Days",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "strange-days"
+      },
+      {
+        "titolo": "Waiting for the Sun",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "waiting-for-the-sun"
+      },
+      {
+        "titolo": "The Soft Parade",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-soft-parade"
+      },
+      {
+        "titolo": "Morrison Hotel",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "morrison-hotel"
+      },
+      {
+        "titolo": "L.A. Woman",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-a-woman"
+      },
+      {
+        "titolo": "Other Voices",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "other-voices"
+      },
+      {
+        "titolo": "Full Circle",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "full-circle"
+      },
+      {
+        "titolo": "An American Prayer",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "an-american-prayer"
+      }
+    ],
     "canzoni": [
       "riders-on-the-storm"
     ],
@@ -10144,7 +10265,57 @@
     "slug": "the-killers",
     "nome": "The Killers",
     "storia": "Formati a Las Vegas nel 2001 dal cantante Brandon Flowers, appena uscito da un gruppo synth-pop, e dal chitarrista Dave Keuning, conosciuto tramite un annuncio pubblicato su un giornale locale, presero il nome da una band immaginaria vista nel video del brano \"Crystal\" dei New Order. Il bassista Mark Stoermer e il batterista Ronnie Vannucci Jr. completarono la formazione nel 2002.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Hot Fuss",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "hot-fuss"
+      },
+      {
+        "titolo": "Sam's Town",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "sam-s-town"
+      },
+      {
+        "titolo": "Day & Age",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "day-age"
+      },
+      {
+        "titolo": "Battle Born",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "battle-born"
+      },
+      {
+        "titolo": "Wonderful Wonderful",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "wonderful-wonderful"
+      },
+      {
+        "titolo": "Imploding the Mirage",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "imploding-the-mirage"
+      },
+      {
+        "titolo": "Pressure Machine",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "pressure-machine"
+      }
+    ],
     "canzoni": [
       "mr-brightside"
     ],
@@ -10160,7 +10331,43 @@
     "slug": "the-police",
     "nome": "The Police",
     "storia": "Le origini risalgono al maggio 1977 a Londra, quando l'ex musicista dei Gong Mike Howlett coinvolse Sting nel progetto Strontium 90, portando con sé il batterista Stewart Copeland; il quarto membro di quel progetto, il chitarrista Andy Summers, già veterano della scena musicale britannica, si unì a Sting e Copeland per formare i The Police.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Outlandos d'Amour",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "outlandos-d-amour"
+      },
+      {
+        "titolo": "Reggatta de Blanc",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "reggatta-de-blanc"
+      },
+      {
+        "titolo": "Zenyatta Mondatta",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "zenyatta-mondatta"
+      },
+      {
+        "titolo": "Ghost in the Machine",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "ghost-in-the-machine"
+      },
+      {
+        "titolo": "Synchronicity",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "synchronicity"
+      }
+    ],
     "canzoni": [
       "every-breath-you-take"
     ],
@@ -10177,7 +10384,176 @@
     "slug": "the-rolling-stones",
     "nome": "The Rolling Stones",
     "storia": "Formati a Londra nell'aprile 1962, nacquero dall'incontro tra Mick Jagger e Keith Richards, compagni di scuola a Dartford riavvicinati dalla comune passione per il blues americano, e Brian Jones, conosciuto dopo un concerto dei Blues Incorporated all'Ealing Jazz Club; il nome fu scelto da Jones ispirandosi al brano di Muddy Waters \"Rollin' Stone\". Debuttarono ufficialmente il 12 luglio 1962.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The Rolling Stones",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-rolling-stones"
+      },
+      {
+        "titolo": "The Rolling Stones No. 2",
+        "anno": "1965",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-rolling-stones-no-2"
+      },
+      {
+        "titolo": "Out of Our Heads",
+        "anno": "1965",
+        "nota": null,
+        "copertina": null,
+        "slug": "out-of-our-heads"
+      },
+      {
+        "titolo": "Aftermath",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "aftermath"
+      },
+      {
+        "titolo": "Between the Buttons",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "between-the-buttons"
+      },
+      {
+        "titolo": "Their Satanic Majesties Request",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "their-satanic-majesties-request"
+      },
+      {
+        "titolo": "Beggars Banquet",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "beggars-banquet"
+      },
+      {
+        "titolo": "Let It Bleed",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "let-it-bleed"
+      },
+      {
+        "titolo": "Sticky Fingers",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "sticky-fingers"
+      },
+      {
+        "titolo": "Exile on Main St.",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "exile-on-main-st"
+      },
+      {
+        "titolo": "Goats Head Soup",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "goats-head-soup"
+      },
+      {
+        "titolo": "It's Only Rock 'n Roll",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "it-s-only-rock-n-roll"
+      },
+      {
+        "titolo": "Black and Blue",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "black-and-blue"
+      },
+      {
+        "titolo": "Some Girls",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "some-girls"
+      },
+      {
+        "titolo": "Emotional Rescue",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "emotional-rescue"
+      },
+      {
+        "titolo": "Tattoo You",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "tattoo-you"
+      },
+      {
+        "titolo": "Undercover",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "undercover"
+      },
+      {
+        "titolo": "Dirty Work",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "dirty-work"
+      },
+      {
+        "titolo": "Steel Wheels",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "steel-wheels"
+      },
+      {
+        "titolo": "Voodoo Lounge",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "voodoo-lounge"
+      },
+      {
+        "titolo": "Bridges to Babylon",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "bridges-to-babylon"
+      },
+      {
+        "titolo": "A Bigger Bang",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-bigger-bang"
+      },
+      {
+        "titolo": "Blue & Lonesome",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "blue-lonesome"
+      },
+      {
+        "titolo": "Hackney Diamonds",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "hackney-diamonds"
+      }
+    ],
     "canzoni": [
       "paint-it-black"
     ],
@@ -10193,7 +10569,50 @@
     "slug": "the-white-stripes",
     "nome": "The White Stripes",
     "storia": "Formati a Detroit nel 1997 dal duo composto da Jack White e dall'ex moglie Meg White, sposati nel 1996 e divorziati nel 2000 pur continuando a esibirsi insieme, presentandosi al pubblico come fratelli; il nome nasce dalla passione di Meg per le caramelle alla menta bianche e rosse. Raggiunsero fama internazionale nel 2002 nell'ambito del revival garage rock, in particolare grazie al singolo \"Seven Nation Army\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The White Stripes",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-white-stripes-1999"
+      },
+      {
+        "titolo": "De Stijl",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "de-stijl"
+      },
+      {
+        "titolo": "White Blood Cells",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "white-blood-cells"
+      },
+      {
+        "titolo": "Elephant",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "elephant"
+      },
+      {
+        "titolo": "Get Behind Me Satan",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "get-behind-me-satan"
+      },
+      {
+        "titolo": "Icky Thump",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "icky-thump"
+      }
+    ],
     "canzoni": [
       "seven-nation-army"
     ],
@@ -10209,7 +10628,43 @@
     "slug": "tool",
     "nome": "Tool",
     "storia": "Formati a Los Angeles nel 1990 dal batterista Danny Carey, dal chitarrista Adam Jones, dal bassista Paul D'Amour e dal cantante Maynard James Keenan, che Jones convinse a fondare una band dopo aver ascoltato un suo provino vocale. Esordirono con l'EP \"Opiate\" (1992) e l'album \"Undertow\" (1993), certificato oro in pochi mesi; il bassista Justin Chancellor sostituì D'Amour nel 1995.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Undertow",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "undertow"
+      },
+      {
+        "titolo": "Ænima",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "nima"
+      },
+      {
+        "titolo": "Lateralus",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "lateralus"
+      },
+      {
+        "titolo": "10,000 Days",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "10-000-days"
+      },
+      {
+        "titolo": "Fear Inoculum",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "fear-inoculum"
+      }
+    ],
     "canzoni": [
       "sober"
     ],
@@ -10242,7 +10697,120 @@
     "slug": "toto-cutugno",
     "nome": "Toto Cutugno",
     "storia": "Nato nel 1943 e cresciuto a La Spezia, dove il padre gli trasmise la passione per la musica suonando la tromba come hobby, iniziò negli anni '60 come batterista in diversi gruppi locali prima di passare al microfono con gli Albatros, con cui debuttò a Sanremo nel 1976. Avviò la carriera da solista nel 1978 con \"Donna donna mia\"; con quindici partecipazioni al Festival di Sanremo, nel 1983 portò al successo \"L'Italiano\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Voglio l'anima",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "voglio-l-anima"
+      },
+      {
+        "titolo": "Innamorata, innamorato, innamorati",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "innamorata-innamorato-innamorati"
+      },
+      {
+        "titolo": "La mia musica",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-mia-musica"
+      },
+      {
+        "titolo": "L'italiano",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-italiano"
+      },
+      {
+        "titolo": "Per amore o per gioco",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "per-amore-o-per-gioco"
+      },
+      {
+        "titolo": "Azzurra malinconia",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "azzurra-malinconia"
+      },
+      {
+        "titolo": "Mediterraneo",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "mediterraneo"
+      },
+      {
+        "titolo": "Toto Cutugno",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "toto-cutugno"
+      },
+      {
+        "titolo": "Non è facile essere uomini",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-e-facile-essere-uomini"
+      },
+      {
+        "titolo": "Voglio andare a vivere in campagna",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "voglio-andare-a-vivere-in-campagna"
+      },
+      {
+        "titolo": "Canzoni nascoste",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "canzoni-nascoste"
+      },
+      {
+        "titolo": "Il treno va...",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-treno-va"
+      },
+      {
+        "titolo": "Come noi nessuno al mondo",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "come-noi-nessuno-al-mondo"
+      },
+      {
+        "titolo": "Cantando",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "cantando"
+      },
+      {
+        "titolo": "Un falco chiuso in gabbia",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "un-falco-chiuso-in-gabbia"
+      },
+      {
+        "titolo": "L'italiano - la nuova versione",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-italiano-la-nuova-versione"
+      }
+    ],
     "canzoni": [
       "litaliano"
     ],

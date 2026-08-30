@@ -5316,6 +5316,366 @@
       "permanent": true
     },
     {
+      "source": "/album/the-cranberries/everybody-else-is-doing-it-so-why-can-t-we/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/to-the-faithful-departed/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/bury-the-hatchet/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/wake-up-and-smell-the-coffee/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/roses/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/something-else/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-cranberries/in-the-end/",
+      "destination": "/artista/the-cranberries/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/the-doors/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/strange-days/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/waiting-for-the-sun/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/the-soft-parade/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/morrison-hotel/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/other-voices/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/full-circle/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-doors/an-american-prayer/",
+      "destination": "/artista/the-doors/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/sam-s-town/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/day-age/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/battle-born/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/wonderful-wonderful/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/imploding-the-mirage/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-killers/pressure-machine/",
+      "destination": "/artista/the-killers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-police/outlandos-d-amour/",
+      "destination": "/artista/the-police/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-police/reggatta-de-blanc/",
+      "destination": "/artista/the-police/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-police/zenyatta-mondatta/",
+      "destination": "/artista/the-police/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-police/ghost-in-the-machine/",
+      "destination": "/artista/the-police/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/the-rolling-stones/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/the-rolling-stones-no-2/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/out-of-our-heads/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/between-the-buttons/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/their-satanic-majesties-request/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/beggars-banquet/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/let-it-bleed/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/sticky-fingers/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/exile-on-main-st/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/goats-head-soup/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/it-s-only-rock-n-roll/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/black-and-blue/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/some-girls/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/emotional-rescue/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/tattoo-you/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/undercover/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/dirty-work/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/steel-wheels/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/voodoo-lounge/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/bridges-to-babylon/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/a-bigger-bang/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/blue-lonesome/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-rolling-stones/hackney-diamonds/",
+      "destination": "/artista/the-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-white-stripes/the-white-stripes-1999/",
+      "destination": "/artista/the-white-stripes/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-white-stripes/de-stijl/",
+      "destination": "/artista/the-white-stripes/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-white-stripes/white-blood-cells/",
+      "destination": "/artista/the-white-stripes/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-white-stripes/get-behind-me-satan/",
+      "destination": "/artista/the-white-stripes/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-white-stripes/icky-thump/",
+      "destination": "/artista/the-white-stripes/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tool/nima/",
+      "destination": "/artista/tool/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tool/lateralus/",
+      "destination": "/artista/tool/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tool/10-000-days/",
+      "destination": "/artista/tool/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tool/fear-inoculum/",
+      "destination": "/artista/tool/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/voglio-l-anima/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/innamorata-innamorato-innamorati/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/la-mia-musica/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/per-amore-o-per-gioco/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/azzurra-malinconia/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/mediterraneo/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/toto-cutugno/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/non-e-facile-essere-uomini/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/voglio-andare-a-vivere-in-campagna/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/canzoni-nascoste/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/il-treno-va/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/come-noi-nessuno-al-mondo/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/cantando/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/un-falco-chiuso-in-gabbia/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/l-italiano-la-nuova-versione/",
+      "destination": "/artista/toto-cutugno/",
+      "permanent": true
+    },
+    {
       "source": "/album/vasco-rossi/ma-cosa-vuoi-che-sia-una-canzone/",
       "destination": "/artista/vasco-rossi/",
       "permanent": true
@@ -5403,6 +5763,11 @@
     {
       "source": "/album/mina/singolo-scritta-da-gino-paoli-1959/",
       "destination": "/album/mina/il-cielo-in-una-stanza/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto-cutugno/singolo/",
+      "destination": "/album/toto-cutugno/l-italiano/",
       "permanent": true
     }
   ],

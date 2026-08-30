@@ -392,6 +392,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di The Beatles (13 voci in discografia, "Hey Jude" nella posizione cronologica corretta, nessun errore console).
 
+- **30 agosto 2026 — Ventiduesimo lotto F66 (8 voci C3): discografie di The Cranberries, The Doors, The Killers, The Police, The Rolling Stones, The White Stripes, Tool, Toto Cutugno.**
+**Quarta correzione dello stesso tipo di questo intervento**: "L'italiano" (Toto Cutugno) era legata al segnaposto "Singolo", ma esiste un album omonimo del 1983 che la contiene — stesso pattern di Celentano, Al Bano e Mina. Corretto `album`/`albumSlug`, rimossa la vecchia cartella sintetica, aggiunto il quarto redirect storico a `REDIRECT_STORICI`.
+**`check-coerenza.mjs` ha trovato un altro anno incoerente reale**: "Mr. Brightside" (The Killers) uscì come singolo indipendente nel settembre 2003, un anno prima dell'album "Hot Fuss" (2004) — corretto in "2003 / 2004", lo stesso formato già usato quattro volte in questo intervento.
+**Un 502 transitorio su Letras** per "Killing in the Name" (Rage Against the Machine, non toccata in questo lotto), confermato non riproducibile ripetendo il controllo dopo la correzione dell'anno — nessuna azione necessaria.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano (verificato che `album/toto-cutugno/singolo/` sia sparita e il redirect compaia in `vercel.json`), verificato nel browser la scheda di "L'italiano" (album corretto, fonti invariate).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
