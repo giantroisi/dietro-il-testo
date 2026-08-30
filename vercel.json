@@ -1931,6 +1931,146 @@
       "permanent": true
     },
     {
+      "source": "/album/finley/adrenalina/",
+      "destination": "/artista/finley/",
+      "permanent": true
+    },
+    {
+      "source": "/album/finley/sempre-solo-noi/",
+      "destination": "/artista/finley/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/fleetwood-mac-1968/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/mr-wonderful/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/then-play-on/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/kiln-house/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/future-games/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/bare-trees/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/penguin/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/mystery-to-me/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/heroes-are-hard-to-find/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/fleetwood-mac-1975/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/tusk/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/mirage/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/tango-in-the-night/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/behind-the-mask/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/time/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fleetwood-mac/say-you-will/",
+      "destination": "/artista/fleetwood-mac/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/foo-fighters/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/there-is-nothing-left-to-lose/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/one-by-one/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/in-your-honor/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/echoes-silence-patience-grace/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/wasting-light/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/sonic-highways/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/concrete-and-gold/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/medicine-at-midnight/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
+      "source": "/album/foo-fighters/but-here-we-are/",
+      "destination": "/artista/foo-fighters/",
+      "permanent": true
+    },
+    {
       "source": "/album/francesco-de-gregori/theorius-campus/",
       "destination": "/artista/francesco-de-gregori/",
       "permanent": true
@@ -2023,6 +2163,311 @@
     {
       "source": "/album/francesco-de-gregori/pastiche/",
       "destination": "/artista/francesco-de-gregori/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/fetus/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/pollution/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/sulle-corde-di-aries/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/clic/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/m-elle-le-gladiator/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/battiato/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/juke-box/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/l-egitto-prima-delle-sabbie/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/l-era-del-cinghiale-bianco/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/patriots/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/la-voce-del-padrone/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/l-arca-di-noe/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/orizzonti-perduti/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/mondi-lontanissimi/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/echoes-of-sufi-dances/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/fisiognomica/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/come-un-cammello-in-una-grondaia/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/caffe-de-la-paix/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/l-ombrello-e-la-macchina-da-cucire/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/gommalacca/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/fleurs/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/foetus/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/ferro-battuto/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/fleurs-3/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/dieci-stratagemmi/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/il-vuoto/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/fleurs-2/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/inneres-auge/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/apriti-sesamo/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/joe-patti-s-experimental-group/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/franco-battiato/torneremo-ancora/",
+      "destination": "/artista/franco-battiato/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fulminacci/la-vita-veramente/",
+      "destination": "/artista/fulminacci/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fulminacci/tante-care-cose/",
+      "destination": "/artista/fulminacci/",
+      "permanent": true
+    },
+    {
+      "source": "/album/fulminacci/calcinacci/",
+      "destination": "/artista/fulminacci/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/opus-eponymous/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/infestissumam/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/meliora/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/prequelle/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/impera/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ghost/skelet/",
+      "destination": "/artista/ghost/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/gianna-nannini/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/una-radura/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/california/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/g-n/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/latin-lover/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/puzzle/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/malafemmina/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/scandalo/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/x-forza-e-x-amore/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/dispetto/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/cuore/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/aria/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/grazie/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/pia-come-la-canto-io/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/giannadream-solo-i-sogni-sono-veri/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/io-e-te/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/inno/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/hitalia/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/amore-gigante/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/la-differenza/",
+      "destination": "/artista/gianna-nannini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/gianna-nannini/sei-nell-anima/",
+      "destination": "/artista/gianna-nannini/",
       "permanent": true
     },
     {
@@ -2173,6 +2618,41 @@
     {
       "source": "/album/iron-maiden/senjutsu/",
       "destination": "/artista/iron-maiden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/john-lennon-plastic-ono-band/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/some-time-in-new-york-city/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/mind-games/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/walls-and-bridges/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/rock-n-roll/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/double-fantasy/",
+      "destination": "/artista/john-lennon/",
+      "permanent": true
+    },
+    {
+      "source": "/album/john-lennon/milk-and-honey/",
+      "destination": "/artista/john-lennon/",
       "permanent": true
     },
     {

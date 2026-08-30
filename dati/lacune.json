@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:finley:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "finley",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:fleetwood-mac:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "fleetwood-mac",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:foo-fighters:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "foo-fighters",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:franco-battiato:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "franco-battiato",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:fulminacci:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "fulminacci",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:ghost:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "ghost",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:gianna-nannini:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "gianna-nannini",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:john-lennon:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "john-lennon",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:laura-pausini:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1103,10 +1023,80 @@
     "motivo": null
   },
   {
+    "id": "album:finley:tutto-e-possibile:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "finley/tutto-e-possibile",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:rumours:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/rumours",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:the-colour-and-the-shape:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/the-colour-and-the-shape",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:francesco-de-gregori:de-gregori:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "francesco-de-gregori/de-gregori",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:limboscata:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/limboscata",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fulminacci:infinito-1:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "fulminacci/infinito-1",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:popestar:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/popestar",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:profumo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/profumo",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1137,6 +1127,16 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "iron-maiden/piece-of-mind",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:imagine:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/imagine",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -5303,6 +5303,286 @@
     "motivo": null
   },
   {
+    "id": "album:finley:adrenalina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "finley/adrenalina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:finley:sempre-solo-noi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "finley/sempre-solo-noi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:bare-trees:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/bare-trees",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:behind-the-mask:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/behind-the-mask",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:fleetwood-mac-1968:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/fleetwood-mac-1968",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:fleetwood-mac-1975:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/fleetwood-mac-1975",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:future-games:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/future-games",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:heroes-are-hard-to-find:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/heroes-are-hard-to-find",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:kiln-house:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/kiln-house",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:mirage:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/mirage",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:mr-wonderful:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/mr-wonderful",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:mystery-to-me:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/mystery-to-me",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:penguin:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/penguin",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:say-you-will:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/say-you-will",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:tango-in-the-night:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/tango-in-the-night",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:then-play-on:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/then-play-on",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:time:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/time",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fleetwood-mac:tusk:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fleetwood-mac/tusk",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:but-here-we-are:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/but-here-we-are",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:concrete-and-gold:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/concrete-and-gold",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:echoes-silence-patience-grace:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/echoes-silence-patience-grace",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:foo-fighters:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/foo-fighters",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:in-your-honor:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/in-your-honor",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:medicine-at-midnight:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/medicine-at-midnight",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:one-by-one:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/one-by-one",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:sonic-highways:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/sonic-highways",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:there-is-nothing-left-to-lose:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/there-is-nothing-left-to-lose",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:foo-fighters:wasting-light:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "foo-fighters/wasting-light",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:francesco-de-gregori:alice-non-lo-sa:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -5487,6 +5767,616 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "francesco-de-gregori/vivavoce",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:apriti-sesamo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/apriti-sesamo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:battiato:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/battiato",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:caffe-de-la-paix:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/caffe-de-la-paix",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:clic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/clic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:come-un-cammello-in-una-grondaia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/come-un-cammello-in-una-grondaia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:dieci-stratagemmi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/dieci-stratagemmi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:echoes-of-sufi-dances:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/echoes-of-sufi-dances",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:ferro-battuto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/ferro-battuto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:fetus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/fetus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:fisiognomica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/fisiognomica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:fleurs-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/fleurs-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:fleurs-3:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/fleurs-3",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:fleurs:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/fleurs",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:foetus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/foetus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:gommalacca:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/gommalacca",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:il-vuoto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/il-vuoto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:inneres-auge:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/inneres-auge",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:joe-patti-s-experimental-group:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/joe-patti-s-experimental-group",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:juke-box:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/juke-box",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:l-arca-di-noe:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/l-arca-di-noe",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:l-egitto-prima-delle-sabbie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/l-egitto-prima-delle-sabbie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:l-era-del-cinghiale-bianco:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/l-era-del-cinghiale-bianco",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:l-ombrello-e-la-macchina-da-cucire:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/l-ombrello-e-la-macchina-da-cucire",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:la-voce-del-padrone:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/la-voce-del-padrone",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:m-elle-le-gladiator:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/m-elle-le-gladiator",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:mondi-lontanissimi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/mondi-lontanissimi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:orizzonti-perduti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/orizzonti-perduti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:patriots:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/patriots",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:pollution:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/pollution",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:sulle-corde-di-aries:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/sulle-corde-di-aries",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:franco-battiato:torneremo-ancora:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "franco-battiato/torneremo-ancora",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fulminacci:calcinacci:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fulminacci/calcinacci",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fulminacci:la-vita-veramente:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fulminacci/la-vita-veramente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fulminacci:tante-care-cose:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fulminacci/tante-care-cose",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:impera:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/impera",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:infestissumam:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/infestissumam",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:meliora:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/meliora",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:opus-eponymous:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/opus-eponymous",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:prequelle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/prequelle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ghost:skelet:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ghost/skelet",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:amore-gigante:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/amore-gigante",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:aria:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/aria",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:california:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/california",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:cuore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/cuore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:dispetto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/dispetto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:g-n:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/g-n",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:gianna-nannini:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/gianna-nannini",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:giannadream-solo-i-sogni-sono-veri:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/giannadream-solo-i-sogni-sono-veri",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:grazie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/grazie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:hitalia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/hitalia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:inno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/inno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:io-e-te:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/io-e-te",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:la-differenza:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/la-differenza",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:latin-lover:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/latin-lover",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:malafemmina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/malafemmina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:pia-come-la-canto-io:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/pia-come-la-canto-io",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:puzzle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/puzzle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:scandalo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/scandalo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:sei-nell-anima:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/sei-nell-anima",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:una-radura:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/una-radura",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:gianna-nannini:x-forza-e-x-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/x-forza-e-x-amore",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -5787,6 +6677,76 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "iron-maiden/virtual-xi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:double-fantasy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/double-fantasy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:john-lennon-plastic-ono-band:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/john-lennon-plastic-ono-band",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:milk-and-honey:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/milk-and-honey",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:mind-games:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/mind-games",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:rock-n-roll:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/rock-n-roll",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:some-time-in-new-york-city:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/some-time-in-new-york-city",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:john-lennon:walls-and-bridges:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "john-lennon/walls-and-bridges",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

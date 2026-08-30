@@ -364,6 +364,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120** — le discografie ampie di Elton John (31 album) ed Eminem fanno emergere debito C4/C5 preesistente ma prima invisibile a F65, compensando il debito appena chiuso.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano, verificato nel browser sia la scheda di "La canzone di Marinella" (fonti e testo invariati, anno corretto) sia la pagina artista di Fabrizio De André (13 album elencati, storia e discografia coerenti).
 
+- **30 agosto 2026 — Diciottesimo lotto F66 (8 voci C3): discografie di Finley, Fleetwood Mac, Foo Fighters, Franco Battiato, Fulminacci, Ghost, Gianna Nannini, John Lennon.**
+**"Popestar" (Ghost) aggiunto come voce letterale**: è un EP, non uno dei sei album in studio della band, ma la canzone "Square Hammer" lo cita — stessa logica già applicata a "MMXX" ed "8 Mile" nel lotto precedente.
+**Un mio errore di copia-incolla corretto prima di pubblicare**: la prima stesura della discografia di Franco Battiato conteneva due voci quasi identiche per lo stesso album del 1978 ("L'Egitto prima delle sabbie" e "Egitto prima delle sabbie", quest'ultima con uno slug segnaposto mai inteso per la pubblicazione) — trovato controllando l'elenco scritto prima di rigenerare, rimossa la voce duplicata.
+**`check-coerenza.mjs` ha trovato un altro anno incoerente reale**: "Diventerai una star" (Finley) è datata 2007 nella scheda canzone, ma il suo stesso testo dice che è il secondo singolo estratto dall'album "Tutto è possibile", uscito nel 2006 — un caso analogo a "Personal Jesus" ma con l'ordine invertito (l'album precede il singolo, non il contrario): corretto l'anno in "2006 / 2007".
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120** — le discografie di Battiato (32 album) e Gianna Nannini (22) fanno emergere debito C4/C5 preesistente ma prima invisibile a F65.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano, verificato nel browser la pagina di Ghost (7 voci in discografia, "Popestar" nella posizione cronologica corretta, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
