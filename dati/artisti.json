@@ -10427,7 +10427,13 @@
         "titolo": "Singolo (poi in Hey Jude, 1970)",
         "anno": "1968",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra i quattro membri della band davanti all'ingresso di Tittenhurst Park, la casa di John Lennon, fotografati da Ethan Russell e Monte Fresco durante quella che fu l'ultima sessione fotografica di sempre dei Beatles insieme, il 22 agosto 1969. Il design dell'artwork è di John Kosh; secondo un racconto del 2007 dell'ex-manager Neil Aspinall, le foto di fronte e retro sarebbero state invertite per errore da Allen Klein, ma esistono almeno tre bozze di copertina diverse, il che rende la storia meno lineare di come viene spesso raccontata.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Hey_Jude_(Beatles_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "singolo-poi-in-hey-jude-1970"
       }
     ],
@@ -10480,7 +10486,13 @@
         "titolo": "Combat Rock",
         "anno": "1982",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra i quattro membri della band allineati lungo un binario ferroviario, incorniciati da un bordo argentato, con il cantante Joe Strummer che si copre un occhio con la mano; lo scatto è della fotografa Pennie Smith, realizzato a Bangkok nel marzo 1982 durante il tour asiatico della band in Estremo Oriente.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Combat_Rock",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "combat-rock"
       },
       {
@@ -10620,7 +10632,13 @@
         "titolo": "L.A. Woman",
         "anno": "1971",
         "nota": null,
-        "copertina": null,
+        "copertina": "Presenta un design a ritaglio: la copertina ha una finestra tagliata con un'acetata trasparente su cui è stampata in retino nero la foto della band, mentre il disco è inserito in una fodera interna gialla con angoli arrotondati che fa da sfondo cromatico visibile attraverso la finestra — una delle prime copertine rock a usare questa tecnica.",
+        "copertinaFonte": [
+          {
+            "url": "https://fontsinuse.com/uses/15292/the-doors-l-a-woman-album-art",
+            "nome": "Fonts In Use"
+          }
+        ],
         "slug": "l-a-woman"
       },
       {
@@ -10665,7 +10683,13 @@
         "titolo": "Hot Fuss",
         "anno": "2004",
         "nota": null,
-        "copertina": null,
+        "copertina": "Riutilizza una fotografia dell'architettura industriale della periferia di Pechino, scattata nel 2000 dal fotografo Matthias Clamer, con insegne al neon in caratteri cinesi che pubblicizzano materiali edili; lo stesso Clamer ha raccontato: \"Ho scattato questa foto nella periferia di Pechino nel 2000. Una band sconosciuta chiamata The Killers mi ha chiesto di poterla usare per la copertina del loro album, prevedendo di vendere 5.000 copie\" — l'album ne vendette poi 7 milioni.",
+        "copertinaFonte": [
+          {
+            "url": "http://www.radiox.co.uk/artists/the-killers/stories-behind-the-songs-on-hot-fuss/",
+            "nome": "Radio X"
+          }
+        ],
         "slug": "hot-fuss"
       },
       {
@@ -10759,7 +10783,13 @@
         "titolo": "Synchronicity",
         "anno": "1983",
         "nota": null,
-        "copertina": null,
+        "copertina": "Consiste in una serie di fotografie della band, scattate da Duane Michals, sovrapposte a strisce orizzontali semitrasparenti di blu, rosso e giallo; il design, di Jeff Ayeroff e Norman Moore, fu prodotto in 36 varianti diverse. Nella versione più diffusa Sting è ritratto mentre legge il libro \"Sincronicità\" di Carl Gustav Jung, da cui l'album prende il titolo, con il retro che mostra un'immagine ravvicinata, capovolta e speculare dello stesso libro.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Synchronicity_(The_Police_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "synchronicity"
       }
     ],
@@ -10805,7 +10835,13 @@
         "titolo": "Aftermath",
         "anno": "1966",
         "nota": null,
-        "copertina": null,
+        "copertina": "Esistono due copertine diverse: quella britannica, fotografata da Guy Webster con art direction di Andrew Loog Oldham (sotto lo pseudonimo \"Sandy Beach\"), allinea diagonalmente i primi piani dei cinque musicisti su uno sfondo rosa pallido e nero, con il titolo spezzato a metà; quella statunitense, fotografata a colori da David Bailey, mostra Brian Jones e Keith Richards in primo piano davanti a Mick Jagger, Charlie Watts e Bill Wyman, sfocati sullo sfondo in un richiamo voluto all'estetica psichedelica.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Aftermath_(Rolling_Stones_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "aftermath"
       },
       {
@@ -10990,7 +11026,13 @@
         "titolo": "Elephant",
         "anno": "2003",
         "nota": null,
-        "copertina": null,
+        "copertina": "Jack e Meg White sono ritratti in una composizione che, osservata a lungo, rivela la sagoma di un elefante: le loro figure disegnano le orecchie dell'animale visto di fronte, mentre di profilo la stessa immagine suggerisce le zanne. Fra i dettagli scelti a tema circense e africano compaiono un teschio sul pavimento e delle noccioline in primo piano; lo stesso Jack White ha dichiarato di aver voluto un'immagine che le persone fissassero per anni prima di accorgersi che si trattava di un elefante.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.thatericalper.com/2025/01/21/5-surprising-facts-about-the-white-stripes-elephant/",
+            "nome": "That Eric Alper"
+          }
+        ],
         "slug": "elephant"
       },
       {

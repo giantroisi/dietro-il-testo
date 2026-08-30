@@ -780,6 +780,76 @@
     "motivo": "confermata: Wikipedia, con citazione diretta di Chris Cornell"
   },
   {
+    "id": "album:the-beatles:singolo-poi-in-hey-jude-1970:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-beatles/singolo-poi-in-hey-jude-1970",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con dettagli sulla sessione fotografica e la controversia sull'inversione delle foto"
+  },
+  {
+    "id": "album:the-clash:combat-rock:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-clash/combat-rock",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:the-doors:l-a-woman:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-doors/l-a-woman",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Fonts In Use, con descrizione tecnica dettagliata del design"
+  },
+  {
+    "id": "album:the-killers:hot-fuss:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-killers/hot-fuss",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Radio X, con citazione diretta del fotografo Matthias Clamer"
+  },
+  {
+    "id": "album:the-police:synchronicity:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-police/synchronicity",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:the-rolling-stones:aftermath:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-rolling-stones/aftermath",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, entrambe le versioni UK e USA"
+  },
+  {
+    "id": "album:the-white-stripes:elephant:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "the-white-stripes/elephant",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: That Eric Alper, con citazione diretta di Jack White"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1283,84 +1353,14 @@
     "motivo": "sospeso: confermato solo che il disegno è del padre di Daron Malakian, Vartan Malakian, pensato in coppia con la copertina di 'Hypnotize', ma nessuna fonte descrive cosa raffiguri effettivamente"
   },
   {
-    "id": "album:the-beatles:singolo-poi-in-hey-jude-1970:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-beatles/singolo-poi-in-hey-jude-1970",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-clash:combat-rock:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-clash/combat-rock",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:the-cranberries:no-need-to-argue:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "the-cranberries/no-need-to-argue",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-doors:l-a-woman:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-doors/l-a-woman",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-killers:hot-fuss:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-killers/hot-fuss",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-police:synchronicity:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-police/synchronicity",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-rolling-stones:aftermath:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-rolling-stones/aftermath",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:the-white-stripes:elephant:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "the-white-stripes/elephant",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: le fonti confermano solo l'intento generale (schiarire l'estetica rispetto al debutto) ma nessuna descrive concretamente il soggetto della foto di copertina"
   },
   {
     "id": "album:tool:undertow:copertina",

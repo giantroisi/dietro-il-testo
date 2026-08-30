@@ -516,6 +516,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 24 a **16**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Superunknown" (copertina documentata, fonte citata, citazione di Cornell corretta, nessun errore console).
 
+- **30 agosto 2026 — Trentasettesimo lotto F66 (8 voci C4): copertine di The Beatles/Hey Jude (1970), The Clash/Combat Rock, The Doors/L.A. Woman, The Killers/Hot Fuss, The Police/Synchronicity, The Rolling Stones/Aftermath, The White Stripes/Elephant — una sospesa.**
+**Sette copertine documentate su otto**, con due citazioni dirette dei protagonisti: il fotografo Matthias Clamer su come una band sconosciuta gli chiese di usare la sua foto di Pechino per "Hot Fuss" (poi venduto in 7 milioni di copie contro le 5.000 previste), e Jack White sull'intento dietro l'elefante nascosto di "Elephant". Per "Aftermath" documentate entrambe le copertine, britannica e statunitense, realmente diverse fra loro. Per l'album "Hey Jude" del 1970 riportata anche la controversia sulla presunta inversione fronte/retro delle foto, con la cautela dovuta: esistono più bozze di copertina, quindi la versione "errore di Allen Klein" non è l'unica spiegazione possibile.
+**Una voce sospesa**: The Cranberries/No Need to Argue — le fonti confermano solo l'intento generale della band (schiarire l'estetica rispetto al debutto) ma nessuna descrive concretamente il soggetto della foto.
+**I quattro numeri del lotto**: 8 cercate, 7 trovate, 0 accertate assenti, 1 sospesa.
+**Debito aperto**: sceso da 16 a **8**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Elephant" (copertina documentata, fonte citata, citazione di Jack White corretta, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

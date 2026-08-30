@@ -2457,16 +2457,16 @@
   {
     "percorso": "album/the-beatles/singolo-poi-in-hey-jude-1970/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-clash/combat-rock/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-cranberries/no-need-to-argue/",
@@ -2478,37 +2478,37 @@
   {
     "percorso": "album/the-doors/l-a-woman/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-killers/hot-fuss/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-police/synchronicity/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-rolling-stones/aftermath/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/the-white-stripes/elephant/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/tool/undertow/",
