@@ -6692,10 +6692,10 @@
     "slug": "korn",
     "titolo": "Korn",
     "anno": "1994",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -6725,10 +6725,10 @@
     "slug": "follow-the-leader",
     "titolo": "Follow the Leader",
     "anno": "1998",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7033,10 +7033,10 @@
     "slug": "led-zeppelin-iv",
     "titolo": "Led Zeppelin IV",
     "anno": "1971",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7264,10 +7264,10 @@
     "slug": "significant-other",
     "titolo": "Significant Other",
     "anno": "1999",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7330,10 +7330,10 @@
     "slug": "meteora",
     "titolo": "Meteora",
     "anno": "2003",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

@@ -464,6 +464,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 72 a **64**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "British Steel" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Trentunesimo lotto F66 (8 voci C4): copertine di Korn/Follow the Leader, Korn/Korn, Led Zeppelin/Led Zeppelin IV, Limp Bizkit/Significant Other, Linkin Park/Meteora — tre sospese.**
+**Cinque copertine documentate**, tutte con fonte Wikipedia solida (bibliografia tracciabile) tranne Linkin Park, confermata direttamente da Loudwire con citazione diretta di Mike Shinoda. Per Led Zeppelin IV, oltre alla descrizione dell'immagine, riportata anche la spiegazione diretta di Jimmy Page sul perché la band scelse quella copertina (dicotomia città/campagna).
+**Tre voci lasciate sospese, con due 403 di troppo**: Laura Pausini/debutto 1993 (nessuna fonte trovata sul design della copertina, solo credit generici senza fotografo), e i due album di Ligabue (Buon compleanno Elvis, Sopravvissuti e sopravviventi) — per quest'ultimo un riassunto di ricerca prometteva dettagli precisi (un teatro di Correggio, maschere scelte dai musicisti disegnate da Gigi Cavalli Cocchi), ma né Wikipedia né la fonte primaria (spettakolo.it, bloccata da un 403 persistente anche al secondo tentativo) hanno permesso di verificare la frase alla lettera — scartato piuttosto che pubblicato sulla fiducia del riassunto.
+**I quattro numeri del lotto**: 8 cercate, 5 trovate, 0 accertate assenti, 3 sospese.
+**Debito aperto**: sceso da 64 a **56** — a un solo lotto dalla soglia dei 50 imposta da F67.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Led Zeppelin IV" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

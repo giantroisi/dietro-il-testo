@@ -5344,7 +5344,13 @@
         "titolo": "Korn",
         "anno": "1994",
         "nota": "certificato 2x platino RIAA, album fondativo del nu metal",
-        "copertina": null,
+        "copertina": "Mostra una bambina in divisa scolastica blu ferma sull'altalena, che strizza gli occhi verso un'ombra minacciosa proiettata sul terreno da una figura maschile mai inquadrata; la fotografia è di Stephen Stickler, con la direzione artistica di Jay Papke e Dante Ariola.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Korn_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "korn"
       },
       {
@@ -5358,7 +5364,13 @@
         "titolo": "Follow the Leader",
         "anno": "1998",
         "nota": "certificato 5x platino RIAA, debuttò al numero 1 della Billboard 200",
-        "copertina": null,
+        "copertina": "Raffigura una bambina che gioca a campana avvicinandosi al bordo di un dirupo, con un gruppo di altri bambini alle spalle pronti a seguirla; il concept, nato dal bassista Reginald \"Fieldy\" Arvizu, fu realizzato da Todd McFarlane insieme agli artisti di Image Comics Greg Capullo (disegno) e Brian Haberlin (colore).",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Follow_the_Leader_(Korn_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "follow-the-leader"
       },
       {
@@ -5596,7 +5608,13 @@
         "titolo": "Led Zeppelin IV",
         "anno": "1971",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura un anziano uomo curvo sotto un fascio di rami legati sulla schiena, appeso al muro scrostato di una casa demolita con un palazzo di Birmingham sullo sfondo; l'immagine, un dipinto ottocentesco colorato a mano trovato da Robert Plant in un negozio di antiquariato a Reading, fu scelta per il contrasto città/campagna: il chitarrista Jimmy Page ha spiegato che la copertina del quarto album voleva \"portare fuori una dicotomia città/campagna\" già emersa con il terzo album, \"e un promemoria che le persone dovrebbero prendersi cura della Terra\".",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "led-zeppelin-iv"
       },
       {
@@ -5786,7 +5804,13 @@
         "titolo": "Significant Other",
         "anno": "1999",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura una figura incappucciata con un microfono, che indossa il berretto rosso dei New York Yankees marchio di fabbrica di Fred Durst; l'artwork, dipinto come graffito su un muro dall'artista statunitense Mear One, è diventato da allora il logo distintivo dei Limp Bizkit, riapparso su copertine successive come \"Results May Vary\" e \"Still Sucks\".",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Significant_Other_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "significant-other"
       },
       {
@@ -5851,7 +5875,13 @@
         "titolo": "Meteora",
         "anno": "2003",
         "nota": "certificato 8x Platino RIAA, debuttò al numero 1 della Billboard 200",
-        "copertina": null,
+        "copertina": "Mostra l'artista olandese Boris Tellegen (in arte Delta) accovacciato con una maschera respiratoria e una bomboletta spray in mano, ripreso durante una giornata artistica collettiva della band a Los Angeles in cui Tellegen realizzò un grande murale da cui fu poi estratta questa singola immagine; Mike Shinoda ha spiegato: \"Abbiamo scelto l'immagine di Boris per la copertina dell'album per quella sua forza silenziosa\".",
+        "copertinaFonte": [
+          {
+            "url": "https://loudwire.com/linkin-park-meteora-album-cover-model/",
+            "nome": "Loudwire"
+          }
+        ],
         "slug": "meteora"
       },
       {

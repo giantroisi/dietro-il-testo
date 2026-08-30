@@ -460,6 +460,56 @@
     "motivo": "confermata: People's Graphic Design Archive, attribuzione a Doug Johnson"
   },
   {
+    "id": "album:korn:follow-the-leader:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "korn/follow-the-leader",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con citazione diretta e riferimento bibliografico"
+  },
+  {
+    "id": "album:korn:korn:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "korn/korn",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con credit fotografico (Stephen Stickler) e direzione artistica"
+  },
+  {
+    "id": "album:led-zeppelin:led-zeppelin-iv:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "led-zeppelin/led-zeppelin-iv",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con citazione diretta di Jimmy Page"
+  },
+  {
+    "id": "album:limp-bizkit:significant-other:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "limp-bizkit/significant-other",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con attribuzione all'artista Mear One"
+  },
+  {
+    "id": "album:linkin-park:meteora:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "linkin-park/meteora",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Loudwire, con citazione diretta di Mike Shinoda"
+  },
+  {
     "id": "album:metallica:master-of-puppets:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -803,44 +853,14 @@
     "motivo": "sospeso: nessuna fonte trovata che descriva o attribuisca la copertina dell'album"
   },
   {
-    "id": "album:korn:follow-the-leader:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "korn/follow-the-leader",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:korn:korn:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "korn/korn",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:laura-pausini:laura-pausini-debutto:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "laura-pausini/laura-pausini-debutto",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:led-zeppelin:led-zeppelin-iv:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "led-zeppelin/led-zeppelin-iv",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina o chi l'abbia realizzata, solo credit generici senza il fotografo"
   },
   {
     "id": "album:ligabue:buon-compleanno-elvis:copertina",
@@ -848,9 +868,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/buon-compleanno-elvis",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: trovato solo un credit fotografico generico (Guido Harari) in un riassunto di ricerca non verificato alla fonte diretta; nessuna fonte primaria raggiungibile descrive cosa raffigura la copertina"
   },
   {
     "id": "album:ligabue:sopravvissuti-e-sopravviventi:copertina",
@@ -858,29 +878,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/sopravvissuti-e-sopravviventi",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:limp-bizkit:significant-other:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "limp-bizkit/significant-other",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:linkin-park:meteora:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "linkin-park/meteora",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: un riassunto di ricerca descriveva maschere teatrali scelte dai musicisti e un teatro di Correggio, ma sia Wikipedia sia la fonte originale (spettakolo.it, bloccata/403) non hanno confermato il dettaglio con una citazione verificabile"
   },
   {
     "id": "album:lucio-battisti:il-mio-canto-libero:copertina",

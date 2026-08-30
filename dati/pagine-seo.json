@@ -2002,16 +2002,16 @@
   {
     "percorso": "album/korn/korn/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/korn/follow-the-leader/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/laura-pausini/laura-pausini-debutto/",
@@ -2023,9 +2023,9 @@
   {
     "percorso": "album/led-zeppelin/led-zeppelin-iv/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ligabue/sopravvissuti-e-sopravviventi/",
@@ -2051,9 +2051,9 @@
   {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/linkin-park/hybrid-theory/",
@@ -2065,9 +2065,9 @@
   {
     "percorso": "album/linkin-park/meteora/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/lucio-battisti/il-mio-canto-libero/",
