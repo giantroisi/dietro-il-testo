@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:claudio-baglioni:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "claudio-baglioni",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:coldplay:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "coldplay",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:daft-punk:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "daft-punk",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:david-bowie:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "david-bowie",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:depeche-mode:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "depeche-mode",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:domenico-modugno:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "domenico-modugno",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:eagles:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "eagles",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:ed-sheeran:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "ed-sheeran",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:edoardo-bennato:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1093,10 +1013,90 @@
     "motivo": null
   },
   {
+    "id": "album:claudio-baglioni:questo-piccolo-grande-amore:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/questo-piccolo-grande-amore",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:parachutes:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/parachutes",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:daft-punk:random-access-memories:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "daft-punk/random-access-memories",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:heroes:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/heroes",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:violator:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/violator",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:disturbed:immortalized:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "disturbed/immortalized",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:singolo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/singolo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:hotel-california:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/hotel-california",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:divide:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/divide",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2933,6 +2933,526 @@
     "motivo": null
   },
   {
+    "id": "album:claudio-baglioni:claudio-baglioni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/claudio-baglioni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:convoi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/convoi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:e-tu-come-stai:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/e-tu-come-stai",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:e-tu:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/e-tu",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:gira-che-ti-rigira-amore-bello:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/gira-che-ti-rigira-amore-bello",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:in-questa-storia-che-e-la-mia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/in-questa-storia-che-e-la-mia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:io-sono-qui:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/io-sono-qui",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:la-vita-e-adesso:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/la-vita-e-adesso",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:oltre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/oltre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:sabato-pomeriggio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/sabato-pomeriggio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:solo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/solo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:sono-io-l-uomo-della-storia-accanto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/sono-io-l-uomo-della-storia-accanto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:strada-facendo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/strada-facendo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:un-cantastorie-dei-giorni-nostri:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/un-cantastorie-dei-giorni-nostri",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:claudio-baglioni:viaggiatore-sulla-coda-del-tempo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/viaggiatore-sulla-coda-del-tempo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:a-head-full-of-dreams:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/a-head-full-of-dreams",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:a-rush-of-blood-to-the-head:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/a-rush-of-blood-to-the-head",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:everyday-life:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/everyday-life",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:ghost-stories:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/ghost-stories",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:moon-music:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/moon-music",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:music-of-the-spheres:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/music-of-the-spheres",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:mylo-xyloto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/mylo-xyloto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:viva-la-vida-or-death-and-all-his-friends:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/viva-la-vida-or-death-and-all-his-friends",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:coldplay:x-y:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "coldplay/x-y",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:daft-punk:discovery:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "daft-punk/discovery",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:daft-punk:homework:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "daft-punk/homework",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:daft-punk:human-after-all:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "daft-punk/human-after-all",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:aladdin-sane:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/aladdin-sane",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:black-tie-white-noise:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/black-tie-white-noise",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:blackstar:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/blackstar",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:david-bowie-1969:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/david-bowie-1969",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:david-bowie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/david-bowie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:diamond-dogs:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/diamond-dogs",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:earthling:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/earthling",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:heathen:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/heathen",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:hours:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/hours",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:hunky-dory:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/hunky-dory",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:let-s-dance:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/let-s-dance",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:lodger:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/lodger",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:low:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/low",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:never-let-me-down:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/never-let-me-down",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:outside:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/outside",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:pin-ups:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/pin-ups",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:reality:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/reality",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:scary-monsters-and-super-creeps:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/scary-monsters-and-super-creeps",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:station-to-station:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/station-to-station",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:the-buddha-of-suburbia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/the-buddha-of-suburbia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:the-man-who-sold-the-world:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/the-man-who-sold-the-world",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:the-next-day:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/the-next-day",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:tonight:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/tonight",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:david-bowie:young-americans:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "david-bowie/young-americans",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:deep-purple:1:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -3163,6 +3683,146 @@
     "motivo": null
   },
   {
+    "id": "album:depeche-mode:a-broken-frame:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/a-broken-frame",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:black-celebration:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/black-celebration",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:construction-time-again:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/construction-time-again",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:delta-machine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/delta-machine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:exciter:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/exciter",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:memento-mori:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/memento-mori",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:music-for-the-masses:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/music-for-the-masses",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:playing-the-angel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/playing-the-angel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:some-great-reward:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/some-great-reward",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:songs-of-faith-and-devotion:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/songs-of-faith-and-devotion",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:sounds-of-the-universe:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/sounds-of-the-universe",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:speak-spell:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/speak-spell",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:spirit:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/spirit",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:depeche-mode:ultra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "depeche-mode/ultra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:disturbed:asylum:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -3227,6 +3887,386 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "disturbed/the-sickness",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:con-l-affetto-della-memoria:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/con-l-affetto-della-memoria",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:cyrano:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/cyrano",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:dio-come-ti-amo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/dio-come-ti-amo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-e-sempre-domenico:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-e-sempre-domenico",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-1959:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-1959",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-1962:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-1962",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-1968:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-1968",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-1970:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-1970",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-e-la-sua-chitarra-n-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-e-la-sua-chitarra-n-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno-e-la-sua-chitarra-un-poeta-un-pittore-un-musicista:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno-e-la-sua-chitarra-un-poeta-un-pittore-un-musicista",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:domenico-modugno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/domenico-modugno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:i-successi-di-domenico-modugno-ii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/i-successi-di-domenico-modugno-ii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:i-successi-di-domenico-modugno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/i-successi-di-domenico-modugno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:il-mio-cavallo-bianco:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/il-mio-cavallo-bianco",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:l-anniversario:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/l-anniversario",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:la-strada-dei-successi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/la-strada-dei-successi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:modugno-1964:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/modugno-1964",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:modugno-1967:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/modugno-1967",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:modugno-siciliano:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/modugno-siciliano",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:modugno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/modugno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:pazzo-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/pazzo-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:piange-il-telefono-e-le-piu-belle-canzoni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/piange-il-telefono-e-le-piu-belle-canzoni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:rinaldo-in-campo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/rinaldo-in-campo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:tutto-e-musica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/tutto-e-musica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:domenico-modugno:tutto-modugno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "domenico-modugno/tutto-modugno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:desperado:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/desperado",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:eagles:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/eagles",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:long-road-out-of-eden:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/long-road-out-of-eden",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:on-the-border:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/on-the-border",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:one-of-these-nights:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/one-of-these-nights",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eagles:the-long-run:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eagles/the-long-run",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:autumn-variations:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/autumn-variations",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:equals:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/equals",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:no-6-collaborations-project:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/no-6-collaborations-project",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:play:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/play",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:plus:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/plus",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:subtract:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/subtract",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ed-sheeran:x:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/x",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

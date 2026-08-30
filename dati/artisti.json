@@ -1529,7 +1529,120 @@
     "slug": "claudio-baglioni",
     "nome": "Claudio Baglioni",
     "storia": "Nato a Roma nel 1951, esordisce nel 1969 con il primo singolo e raggiunge la piena consacrazione nel 1972 con l'album \"Questo piccolo grande amore\". Il disco del 1985 \"La vita è adesso\" resta tuttora l'album più venduto della storia della musica italiana, con oltre 5 milioni di copie. È stato inoltre direttore artistico e conduttore del Festival di Sanremo nel 2018 e nel 2019.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Claudio Baglioni",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "claudio-baglioni"
+      },
+      {
+        "titolo": "Un cantastorie dei giorni nostri",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "un-cantastorie-dei-giorni-nostri"
+      },
+      {
+        "titolo": "Questo piccolo grande amore",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "questo-piccolo-grande-amore"
+      },
+      {
+        "titolo": "Gira che ti rigira amore bello",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "gira-che-ti-rigira-amore-bello"
+      },
+      {
+        "titolo": "E tu...",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "e-tu"
+      },
+      {
+        "titolo": "Sabato pomeriggio",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "sabato-pomeriggio"
+      },
+      {
+        "titolo": "Solo",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "solo"
+      },
+      {
+        "titolo": "E tu come stai?",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "e-tu-come-stai"
+      },
+      {
+        "titolo": "Strada facendo",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "strada-facendo"
+      },
+      {
+        "titolo": "La vita è adesso",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-vita-e-adesso"
+      },
+      {
+        "titolo": "Oltre",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "oltre"
+      },
+      {
+        "titolo": "Io sono qui",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "io-sono-qui"
+      },
+      {
+        "titolo": "Viaggiatore sulla coda del tempo",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "viaggiatore-sulla-coda-del-tempo"
+      },
+      {
+        "titolo": "Sono io - L'uomo della storia accanto",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "sono-io-l-uomo-della-storia-accanto"
+      },
+      {
+        "titolo": "ConVoi",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "convoi"
+      },
+      {
+        "titolo": "In questa storia che è la mia",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-questa-storia-che-e-la-mia"
+      }
+    ],
     "canzoni": [
       "piccolo-grande-amore"
     ],
@@ -1545,7 +1658,78 @@
     "slug": "coldplay",
     "nome": "Coldplay",
     "storia": "Formati a Londra nel 1996 da Chris Martin e Jonny Buckland, conosciutisi durante le matricole alla University College London, si completarono con il bassista Guy Berryman e il polistrumentista Will Champion, adottando il nome Coldplay dopo aver suonato inizialmente come Pectoralz e poi Starfish. Il successo internazionale arrivò nel 2000 con il singolo \"Yellow\" e l'album di debutto \"Parachutes\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Parachutes",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "parachutes"
+      },
+      {
+        "titolo": "A Rush of Blood to the Head",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-rush-of-blood-to-the-head"
+      },
+      {
+        "titolo": "X&Y",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "x-y"
+      },
+      {
+        "titolo": "Viva la Vida or Death and All His Friends",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "viva-la-vida-or-death-and-all-his-friends"
+      },
+      {
+        "titolo": "Mylo Xyloto",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "mylo-xyloto"
+      },
+      {
+        "titolo": "Ghost Stories",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "ghost-stories"
+      },
+      {
+        "titolo": "A Head Full of Dreams",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-head-full-of-dreams"
+      },
+      {
+        "titolo": "Everyday Life",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "everyday-life"
+      },
+      {
+        "titolo": "Music of the Spheres",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "music-of-the-spheres"
+      },
+      {
+        "titolo": "Moon Music",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "moon-music"
+      }
+    ],
     "canzoni": [
       "yellow"
     ],
@@ -1562,7 +1746,36 @@
     "slug": "daft-punk",
     "nome": "Daft Punk",
     "storia": "Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica \"un thrash punk sciocco\" (\"daft punky thrash\"). Pionieri della musica elettronica francese con album come \"Homework\" (1997), \"Discovery\" (2001) e \"Random Access Memories\" (2013), sempre in scena con caschi ed elmi che nascondevano i loro volti, annunciarono lo scioglimento nel febbraio 2021.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Homework",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "homework"
+      },
+      {
+        "titolo": "Discovery",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "discovery"
+      },
+      {
+        "titolo": "Human After All",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "human-after-all"
+      },
+      {
+        "titolo": "Random Access Memories",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "random-access-memories"
+      }
+    ],
     "canzoni": [
       "get-lucky"
     ],
@@ -1578,7 +1791,190 @@
     "slug": "david-bowie",
     "nome": "David Bowie",
     "storia": "Nato David Robert Jones a Brixton, Londra, nel 1947, ottenne il primo successo nel 1969 con \"Space Oddity\". Con l'album \"The Rise and Fall of Ziggy Stardust and the Spiders from Mars\" (1972) creò il suo alter ego più famoso, Ziggy Stardust, ritirato l'anno successivo; la sua carriera fu segnata da continue reinvenzioni di immagine e sonorità. Morì a New York nel gennaio 2016, due giorni dopo il suo 69esimo compleanno e l'uscita dell'ultimo album, \"Blackstar\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "David Bowie",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "david-bowie"
+      },
+      {
+        "titolo": "David Bowie",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "david-bowie"
+      },
+      {
+        "titolo": "The Man Who Sold the World",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-man-who-sold-the-world"
+      },
+      {
+        "titolo": "Hunky Dory",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "hunky-dory"
+      },
+      {
+        "titolo": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars"
+      },
+      {
+        "titolo": "Aladdin Sane",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "aladdin-sane"
+      },
+      {
+        "titolo": "Pin Ups",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "pin-ups"
+      },
+      {
+        "titolo": "Diamond Dogs",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "diamond-dogs"
+      },
+      {
+        "titolo": "Young Americans",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "young-americans"
+      },
+      {
+        "titolo": "Station to Station",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "station-to-station"
+      },
+      {
+        "titolo": "Low",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "low"
+      },
+      {
+        "titolo": "\"Heroes\"",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "heroes"
+      },
+      {
+        "titolo": "Lodger",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "lodger"
+      },
+      {
+        "titolo": "Scary Monsters (and Super Creeps)",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "scary-monsters-and-super-creeps"
+      },
+      {
+        "titolo": "Let's Dance",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "let-s-dance"
+      },
+      {
+        "titolo": "Tonight",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "tonight"
+      },
+      {
+        "titolo": "Never Let Me Down",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "never-let-me-down"
+      },
+      {
+        "titolo": "Black Tie White Noise",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "black-tie-white-noise"
+      },
+      {
+        "titolo": "The Buddha of Suburbia",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-buddha-of-suburbia"
+      },
+      {
+        "titolo": "Outside",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "outside"
+      },
+      {
+        "titolo": "Earthling",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "earthling"
+      },
+      {
+        "titolo": "Hours",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "hours"
+      },
+      {
+        "titolo": "Heathen",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "heathen"
+      },
+      {
+        "titolo": "Reality",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "reality"
+      },
+      {
+        "titolo": "The Next Day",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-next-day"
+      },
+      {
+        "titolo": "Blackstar",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "blackstar"
+      }
+    ],
     "canzoni": [
       "heroes"
     ],
@@ -1780,7 +2176,113 @@
     "slug": "depeche-mode",
     "nome": "Depeche Mode",
     "storia": "Formati a Basildon, in Inghilterra, nel 1980, nacquero dall'incontro tra i compagni di scuola Vince Clarke e Andy Fletcher, già insieme in un gruppo precedente, con l'aggiunta di Martin Gore e infine del cantante Dave Gahan; il nome fu ispirato da una rivista di moda francese. Vince Clarke, autore principale dei brani, lasciò il gruppo dopo il primo album \"Speak & Spell\" (1981) per formare gli Yazoo; la scrittura passò a Martin Gore, che guida il gruppo da allora.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Speak & Spell",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "speak-spell"
+      },
+      {
+        "titolo": "A Broken Frame",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-broken-frame"
+      },
+      {
+        "titolo": "Construction Time Again",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "construction-time-again"
+      },
+      {
+        "titolo": "Some Great Reward",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "some-great-reward"
+      },
+      {
+        "titolo": "Black Celebration",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "black-celebration"
+      },
+      {
+        "titolo": "Music for the Masses",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "music-for-the-masses"
+      },
+      {
+        "titolo": "Violator",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "violator"
+      },
+      {
+        "titolo": "Songs of Faith and Devotion",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "songs-of-faith-and-devotion"
+      },
+      {
+        "titolo": "Ultra",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "ultra"
+      },
+      {
+        "titolo": "Exciter",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "exciter"
+      },
+      {
+        "titolo": "Playing the Angel",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "playing-the-angel"
+      },
+      {
+        "titolo": "Sounds of the Universe",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "sounds-of-the-universe"
+      },
+      {
+        "titolo": "Delta Machine",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "delta-machine"
+      },
+      {
+        "titolo": "Spirit",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "spirit"
+      },
+      {
+        "titolo": "Memento Mori",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "memento-mori"
+      }
+    ],
     "canzoni": [
       "personal-jesus"
     ],
@@ -1871,7 +2373,190 @@
     "slug": "domenico-modugno",
     "nome": "Domenico Modugno",
     "storia": "Nato a Polignano a Mare nel 1928, si trasferì a Roma a fine anni '40 per tentare la carriera di attore, continuando a esibirsi anche come cantante. Nel 1958 vinse il Festival di Sanremo con \"Nel blu dipinto di blu\" (Volare), scritta insieme a Franco Migliacci: il brano vinse anche due Grammy Award negli Stati Uniti, diventando il maggior successo della canzone italiana di sempre e uno dei primi a portare un artista italiano al successo internazionale. Morì a Lampedusa nel 1994.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Singolo",
+        "anno": "1958",
+        "nota": null,
+        "copertina": null,
+        "slug": "singolo"
+      },
+      {
+        "titolo": "I successi di Domenico Modugno",
+        "anno": "1955",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-successi-di-domenico-modugno"
+      },
+      {
+        "titolo": "I successi di Domenico Modugno II",
+        "anno": "1955",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-successi-di-domenico-modugno-ii"
+      },
+      {
+        "titolo": "Domenico Modugno e la sua chitarra - Un poeta un pittore un musicista",
+        "anno": "1956",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno-e-la-sua-chitarra-un-poeta-un-pittore-un-musicista"
+      },
+      {
+        "titolo": "Domenico Modugno e la sua chitarra nº 2",
+        "anno": "1956",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno-e-la-sua-chitarra-n-2"
+      },
+      {
+        "titolo": "La strada dei successi",
+        "anno": "1958",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-strada-dei-successi"
+      },
+      {
+        "titolo": "Domenico Modugno",
+        "anno": "1958",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno"
+      },
+      {
+        "titolo": "Domenico è sempre Domenico",
+        "anno": "1958",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-e-sempre-domenico"
+      },
+      {
+        "titolo": "Domenico Modugno",
+        "anno": "1959",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno"
+      },
+      {
+        "titolo": "Modugno",
+        "anno": "1961",
+        "nota": null,
+        "copertina": null,
+        "slug": "modugno"
+      },
+      {
+        "titolo": "Rinaldo in campo",
+        "anno": "1961",
+        "nota": null,
+        "copertina": null,
+        "slug": "rinaldo-in-campo"
+      },
+      {
+        "titolo": "Domenico Modugno",
+        "anno": "1962",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno"
+      },
+      {
+        "titolo": "Tutto è musica",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "tutto-e-musica"
+      },
+      {
+        "titolo": "Modugno siciliano",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "modugno-siciliano"
+      },
+      {
+        "titolo": "Modugno",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "modugno"
+      },
+      {
+        "titolo": "Dio, come ti amo",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "dio-come-ti-amo"
+      },
+      {
+        "titolo": "Modugno",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "modugno"
+      },
+      {
+        "titolo": "Domenico Modugno",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno"
+      },
+      {
+        "titolo": "Domenico Modugno",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "domenico-modugno"
+      },
+      {
+        "titolo": "Con l'affetto della memoria",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "con-l-affetto-della-memoria"
+      },
+      {
+        "titolo": "Tutto Modugno",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "tutto-modugno"
+      },
+      {
+        "titolo": "Il mio cavallo bianco",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-mio-cavallo-bianco"
+      },
+      {
+        "titolo": "Piange... il telefono e le più belle canzoni",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "piange-il-telefono-e-le-piu-belle-canzoni"
+      },
+      {
+        "titolo": "L'anniversario",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-anniversario"
+      },
+      {
+        "titolo": "Cyrano",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "cyrano"
+      },
+      {
+        "titolo": "Pazzo amore",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "pazzo-amore"
+      }
+    ],
     "canzoni": [
       "volare"
     ],
@@ -1887,7 +2572,57 @@
     "slug": "eagles",
     "nome": "Eagles",
     "storia": "Formati a Los Angeles nel 1971 da Glenn Frey, Don Henley, Bernie Leadon e Randy Meisner, si conobbero suonando nella band di supporto di Linda Ronstadt, che insieme al manager John Boylan li mise in contatto; furono poi messi sotto contratto dal produttore David Geffen per la sua nuova etichetta, la Asylum Records. Con cinque singoli e sei album al numero uno e sei Grammy Award vinti, sono stati uno dei gruppi di maggior successo commerciale degli anni '70 in Nord America.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Eagles",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "eagles"
+      },
+      {
+        "titolo": "Desperado",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "desperado"
+      },
+      {
+        "titolo": "On the Border",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "on-the-border"
+      },
+      {
+        "titolo": "One of These Nights",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "one-of-these-nights"
+      },
+      {
+        "titolo": "Hotel California",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "hotel-california"
+      },
+      {
+        "titolo": "The Long Run",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-long-run"
+      },
+      {
+        "titolo": "Long Road Out of Eden",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "long-road-out-of-eden"
+      }
+    ],
     "canzoni": [
       "hotel-california"
     ],
@@ -1903,7 +2638,64 @@
     "slug": "ed-sheeran",
     "nome": "Ed Sheeran",
     "storia": "Nato nel 1991 a Halifax e cresciuto a Framlingham, nel Suffolk, lasciò la scuola a sedici anni per dedicarsi interamente alla musica, trasferendosi a Londra nel 2008. L'EP indipendente \"No. 5 Collaborations Project\" (2011) attirò l'attenzione di Elton John e Jamie Foxx; il successivo album di debutto \"+\" (2011) lo lanciò a livello internazionale, seguito da \"x\" (2014) e \"÷\" (2017). Ha venduto oltre 200 milioni di dischi nel mondo.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "+",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "plus"
+      },
+      {
+        "titolo": "x",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "x"
+      },
+      {
+        "titolo": "÷",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "divide"
+      },
+      {
+        "titolo": "No.6 Collaborations Project",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "no-6-collaborations-project"
+      },
+      {
+        "titolo": "=",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "equals"
+      },
+      {
+        "titolo": "−",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "subtract"
+      },
+      {
+        "titolo": "Autumn Variations",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "autumn-variations"
+      },
+      {
+        "titolo": "Play",
+        "anno": "2025",
+        "nota": null,
+        "copertina": null,
+        "slug": "play"
+      }
+    ],
     "canzoni": [
       "shape-of-you"
     ],

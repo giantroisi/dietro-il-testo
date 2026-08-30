@@ -746,6 +746,266 @@
       "permanent": true
     },
     {
+      "source": "/album/claudio-baglioni/claudio-baglioni/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/un-cantastorie-dei-giorni-nostri/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/gira-che-ti-rigira-amore-bello/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/e-tu/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/sabato-pomeriggio/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/solo/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/e-tu-come-stai/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/strada-facendo/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/la-vita-e-adesso/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/oltre/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/io-sono-qui/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/viaggiatore-sulla-coda-del-tempo/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/sono-io-l-uomo-della-storia-accanto/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/convoi/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/claudio-baglioni/in-questa-storia-che-e-la-mia/",
+      "destination": "/artista/claudio-baglioni/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/a-rush-of-blood-to-the-head/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/x-y/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/viva-la-vida-or-death-and-all-his-friends/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/mylo-xyloto/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/ghost-stories/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/a-head-full-of-dreams/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/everyday-life/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/music-of-the-spheres/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/coldplay/moon-music/",
+      "destination": "/artista/coldplay/",
+      "permanent": true
+    },
+    {
+      "source": "/album/daft-punk/homework/",
+      "destination": "/artista/daft-punk/",
+      "permanent": true
+    },
+    {
+      "source": "/album/daft-punk/discovery/",
+      "destination": "/artista/daft-punk/",
+      "permanent": true
+    },
+    {
+      "source": "/album/daft-punk/human-after-all/",
+      "destination": "/artista/daft-punk/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/david-bowie/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/david-bowie-1969/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/the-man-who-sold-the-world/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/hunky-dory/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/aladdin-sane/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/pin-ups/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/diamond-dogs/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/young-americans/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/station-to-station/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/low/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/lodger/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/scary-monsters-and-super-creeps/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/let-s-dance/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/tonight/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/never-let-me-down/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/black-tie-white-noise/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/the-buddha-of-suburbia/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/outside/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/earthling/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/hours/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/heathen/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/reality/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/the-next-day/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
+      "source": "/album/david-bowie/blackstar/",
+      "destination": "/artista/david-bowie/",
+      "permanent": true
+    },
+    {
       "source": "/album/deep-purple/shades-of-deep-purple/",
       "destination": "/artista/deep-purple/",
       "permanent": true
@@ -861,6 +1121,76 @@
       "permanent": true
     },
     {
+      "source": "/album/depeche-mode/speak-spell/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/a-broken-frame/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/construction-time-again/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/some-great-reward/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/black-celebration/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/music-for-the-masses/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/songs-of-faith-and-devotion/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/ultra/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/exciter/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/playing-the-angel/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/sounds-of-the-universe/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/delta-machine/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/spirit/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
+      "source": "/album/depeche-mode/memento-mori/",
+      "destination": "/artista/depeche-mode/",
+      "permanent": true
+    },
+    {
       "source": "/album/disturbed/the-sickness/",
       "destination": "/artista/disturbed/",
       "permanent": true
@@ -893,6 +1223,196 @@
     {
       "source": "/album/disturbed/divisive/",
       "destination": "/artista/disturbed/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/i-successi-di-domenico-modugno/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/i-successi-di-domenico-modugno-ii/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-e-la-sua-chitarra-un-poeta-un-pittore-un-musicista/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-e-la-sua-chitarra-n-2/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/la-strada-dei-successi/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-1959/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-1962/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-1968/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-modugno-1970/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/domenico-e-sempre-domenico/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/modugno/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/modugno-1964/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/modugno-1967/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/rinaldo-in-campo/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/tutto-e-musica/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/modugno-siciliano/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/dio-come-ti-amo/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/con-l-affetto-della-memoria/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/tutto-modugno/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/il-mio-cavallo-bianco/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/piange-il-telefono-e-le-piu-belle-canzoni/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/l-anniversario/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/cyrano/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/domenico-modugno/pazzo-amore/",
+      "destination": "/artista/domenico-modugno/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/eagles/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/desperado/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/on-the-border/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/one-of-these-nights/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/the-long-run/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/eagles/long-road-out-of-eden/",
+      "destination": "/artista/eagles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/plus/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/x/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/no-6-collaborations-project/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/equals/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/subtract/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/autumn-variations/",
+      "destination": "/artista/ed-sheeran/",
+      "permanent": true
+    },
+    {
+      "source": "/album/ed-sheeran/play/",
+      "destination": "/artista/ed-sheeran/",
       "permanent": true
     },
     {

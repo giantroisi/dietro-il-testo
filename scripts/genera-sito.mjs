@@ -373,6 +373,14 @@ const oggi = new Date().toISOString().slice(0, 10);
 const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
 const RIGA_DATA_MODIFICA = /,?"dateModified":"[^"]*"/g;
 const normalizza = (html) => html.replace(RIGA_REVISIONE, '').replace(RIGA_DATA_MODIFICA, '');
+// Cattura (non rimuove) il dateModified già scritto in una pagina — serve da
+// F65/C3 in poi: una pagina "esiste" ma non "indicizzabile" (F50, nCanzoni
+// 1-2, senza copertina) non entra mai in nessuna sitemap, quindi il lastmod
+// pregresso letto sopra non la copre mai e il suo lastmod si "congelava" a
+// oggi a ogni rigenerazione anche a contenuto identico. Trovato controllando
+// perché *tutte* le pagine sembravano cambiate dopo aver scritto 8 nuove
+// discografie in un solo lotto — solo poche decine erano toccate davvero.
+const DATA_MODIFICA_CATTURA = /"dateModified":"([^"]*)"/;
 
 // F53: la sitemap è ora divisa in più file. I lastmod pregressi si leggono
 // da qualunque file "sitemap*.xml" già pubblicato in ROOT — sia il vecchio
@@ -393,8 +401,9 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
   const fileVecchio = join(ROOT, percorsoFile);
   if (existsSync(fileVecchio)) {
     const contenutoVecchio = readFileSync(fileVecchio, 'utf8');
-    if (normalizza(contenutoVecchio) === normalizza(contenutoNuovo) && vecchiLastmod.has(percorsoUrl)) {
-      return vecchiLastmod.get(percorsoUrl);
+    if (normalizza(contenutoVecchio) === normalizza(contenutoNuovo)) {
+      const precedente = vecchiLastmod.get(percorsoUrl) || contenutoVecchio.match(DATA_MODIFICA_CATTURA)?.[1];
+      if (precedente) return precedente;
     }
   }
   return oggi;
