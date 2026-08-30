@@ -4726,6 +4726,46 @@
       "permanent": true
     },
     {
+      "source": "/album/radiohead/the-bends/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/ok-computer/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/kid-a/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/amnesiac/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/hail-to-the-thief/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/in-rainbows/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/the-king-of-limbs/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
+      "source": "/album/radiohead/a-moon-shaped-pool/",
+      "destination": "/artista/radiohead/",
+      "permanent": true
+    },
+    {
       "source": "/album/rage-against-the-machine/the-battle-of-los-angeles/",
       "destination": "/artista/rage-against-the-machine/",
       "permanent": true
@@ -4763,6 +4803,276 @@
     {
       "source": "/album/rammstein/zeit/",
       "destination": "/artista/rammstein/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/the-red-hot-chili-peppers/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/freaky-styley/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/the-uplift-mofo-party-plan/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/mother-s-milk/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/one-hot-minute/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/californication/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/by-the-way/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/stadium-arcadium/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/i-m-with-you/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/the-getaway/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/unlimited-love/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/red-hot-chili-peppers/return-of-the-dream-canteen/",
+      "destination": "/artista/red-hot-chili-peppers/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/no-mamma-no/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/invenzioni/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/trapezio/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zerofobia/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zerolandia/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/tregua/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/artide-antartide/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/via-tagliamento-1965-1970/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/calore/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/leoni-si-nasce/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/identikit-zero/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/soggetti-smarriti/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zero/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/voyeur/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/la-coscienza-di-zero/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/passaporto-per-fonopoli/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/quando-non-sei-piu-di-nessuno/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/l-imperfetto/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/sulle-tracce-dell-imperfetto/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/amore-dopo-amore/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/tutti-gli-zeri-del-mondo/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/la-curva-dell-angelo/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/cattura/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/il-dono/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/presente/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/amo-capitolo-i/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/amo-capitolo-ii/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/alt/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zerovskij-solo-per-amore/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zero-il-folle/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/zerosettanta/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/autoritratto/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/renato-zero/l-orazero/",
+      "destination": "/artista/renato-zero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/ingresso-libero/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/mio-fratello-e-figlio-unico/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/aida/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/nuntereggae-piu/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/resta-vile-maschio-dove-vai/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/rino-gaetano/e-io-ci-sto/",
+      "destination": "/artista/rino-gaetano/",
+      "permanent": true
+    },
+    {
+      "source": "/album/simon-garfunkel/parsley-sage-rosemary-and-thyme/",
+      "destination": "/artista/simon-garfunkel/",
+      "permanent": true
+    },
+    {
+      "source": "/album/simon-garfunkel/bookends/",
+      "destination": "/artista/simon-garfunkel/",
+      "permanent": true
+    },
+    {
+      "source": "/album/simon-garfunkel/bridge-over-troubled-water/",
+      "destination": "/artista/simon-garfunkel/",
       "permanent": true
     },
     {
@@ -4846,6 +5156,41 @@
       "permanent": true
     },
     {
+      "source": "/album/soundgarden/screaming-life/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/fopp/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/ultramega-ok/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/louder-than-love/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/badmotorfinger/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/down-on-the-upside/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
+      "source": "/album/soundgarden/king-animal/",
+      "destination": "/artista/soundgarden/",
+      "permanent": true
+    },
+    {
       "source": "/album/sum-41/underclass-hero/",
       "destination": "/artista/sum-41/",
       "permanent": true
@@ -4883,6 +5228,91 @@
     {
       "source": "/album/system-of-a-down/hypnotize/",
       "destination": "/artista/system-of-a-down/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/please-please-me/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/with-the-beatles/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/a-hard-day-s-night/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/beatles-for-sale/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/help/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/rubber-soul/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/revolver/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/sgt-pepper-s-lonely-hearts-club-band/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/the-beatles/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/yellow-submarine/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/abbey-road/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-beatles/let-it-be/",
+      "destination": "/artista/the-beatles/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-clash/the-clash/",
+      "destination": "/artista/the-clash/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-clash/give-em-enough-rope/",
+      "destination": "/artista/the-clash/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-clash/london-calling/",
+      "destination": "/artista/the-clash/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-clash/sandinista/",
+      "destination": "/artista/the-clash/",
+      "permanent": true
+    },
+    {
+      "source": "/album/the-clash/cut-the-crap/",
+      "destination": "/artista/the-clash/",
       "permanent": true
     },
     {

@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:radiohead:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "radiohead",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:red-hot-chili-peppers:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "red-hot-chili-peppers",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:renato-zero:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "renato-zero",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:rino-gaetano:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "rino-gaetano",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:simon-garfunkel:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "simon-garfunkel",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:soundgarden:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "soundgarden",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-beatles:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-beatles",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:the-clash:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "the-clash",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:the-cranberries:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1343,6 +1263,16 @@
     "motivo": null
   },
   {
+    "id": "album:radiohead:pablo-honey:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/pablo-honey",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:rage-against-the-machine:evil-empire:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1383,6 +1313,46 @@
     "motivo": null
   },
   {
+    "id": "album:red-hot-chili-peppers:blood-sugar-sex-magik:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/blood-sugar-sex-magik",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:erozero:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/erozero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:singolo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/singolo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:simon-garfunkel:wednesday-morning-3-a-m-sounds-of-silence:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:slipknot:all-hope-is-gone:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1403,6 +1373,16 @@
     "motivo": null
   },
   {
+    "id": "album:soundgarden:superunknown:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/superunknown",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:sum-41:does-this-look-infected:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1417,6 +1397,26 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "system-of-a-down/mezmerize",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:singolo-poi-in-hey-jude-1970:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/singolo-poi-in-hey-jude-1970",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:combat-rock:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/combat-rock",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -10893,6 +10893,86 @@
     "motivo": null
   },
   {
+    "id": "album:radiohead:a-moon-shaped-pool:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/a-moon-shaped-pool",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:amnesiac:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/amnesiac",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:hail-to-the-thief:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/hail-to-the-thief",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:in-rainbows:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/in-rainbows",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:kid-a:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/kid-a",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:ok-computer:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/ok-computer",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:the-bends:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/the-bends",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:radiohead:the-king-of-limbs:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "radiohead/the-king-of-limbs",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:rage-against-the-machine:renegades:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -10967,6 +11047,546 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "rammstein/zeit",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:by-the-way:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/by-the-way",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:californication:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/californication",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:freaky-styley:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/freaky-styley",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:i-m-with-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/i-m-with-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:mother-s-milk:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/mother-s-milk",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:one-hot-minute:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/one-hot-minute",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:return-of-the-dream-canteen:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/return-of-the-dream-canteen",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:stadium-arcadium:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/stadium-arcadium",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:the-getaway:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/the-getaway",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:the-red-hot-chili-peppers:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/the-red-hot-chili-peppers",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:the-uplift-mofo-party-plan:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/the-uplift-mofo-party-plan",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:red-hot-chili-peppers:unlimited-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "red-hot-chili-peppers/unlimited-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:alt:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/alt",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:amo-capitolo-i:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/amo-capitolo-i",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:amo-capitolo-ii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/amo-capitolo-ii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:amore-dopo-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/amore-dopo-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:artide-antartide:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/artide-antartide",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:autoritratto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/autoritratto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:calore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/calore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:cattura:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/cattura",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:identikit-zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/identikit-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:il-dono:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/il-dono",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:invenzioni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/invenzioni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:l-imperfetto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/l-imperfetto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:l-orazero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/l-orazero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:la-coscienza-di-zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/la-coscienza-di-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:la-curva-dell-angelo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/la-curva-dell-angelo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:leoni-si-nasce:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/leoni-si-nasce",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:no-mamma-no:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/no-mamma-no",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:passaporto-per-fonopoli:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/passaporto-per-fonopoli",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:presente:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/presente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:quando-non-sei-piu-di-nessuno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/quando-non-sei-piu-di-nessuno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:soggetti-smarriti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/soggetti-smarriti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:sulle-tracce-dell-imperfetto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/sulle-tracce-dell-imperfetto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:trapezio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/trapezio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:tregua:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/tregua",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:tutti-gli-zeri-del-mondo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/tutti-gli-zeri-del-mondo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:via-tagliamento-1965-1970:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/via-tagliamento-1965-1970",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:voyeur:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/voyeur",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zero-il-folle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zero-il-folle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zerofobia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zerofobia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zerolandia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zerolandia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zerosettanta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zerosettanta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:renato-zero:zerovskij-solo-per-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "renato-zero/zerovskij-solo-per-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:aida:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/aida",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:e-io-ci-sto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/e-io-ci-sto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:ingresso-libero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/ingresso-libero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:mio-fratello-e-figlio-unico:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/mio-fratello-e-figlio-unico",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:nuntereggae-piu:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/nuntereggae-piu",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:rino-gaetano:resta-vile-maschio-dove-vai:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "rino-gaetano/resta-vile-maschio-dove-vai",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:simon-garfunkel:bookends:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "simon-garfunkel/bookends",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:simon-garfunkel:bridge-over-troubled-water:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "simon-garfunkel/bridge-over-troubled-water",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:simon-garfunkel:parsley-sage-rosemary-and-thyme:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "simon-garfunkel/parsley-sage-rosemary-and-thyme",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -11133,6 +11753,76 @@
     "motivo": null
   },
   {
+    "id": "album:soundgarden:badmotorfinger:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/badmotorfinger",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:down-on-the-upside:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/down-on-the-upside",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:fopp:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/fopp",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:king-animal:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/king-animal",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:louder-than-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/louder-than-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:screaming-life:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/screaming-life",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:soundgarden:ultramega-ok:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "soundgarden/ultramega-ok",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:sum-41:13-voices:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -11207,6 +11897,176 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "system-of-a-down/system-of-a-down",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:a-hard-day-s-night:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/a-hard-day-s-night",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:abbey-road:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/abbey-road",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:beatles-for-sale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/beatles-for-sale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:help:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/help",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:let-it-be:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/let-it-be",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:please-please-me:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/please-please-me",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:revolver:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/revolver",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:rubber-soul:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/rubber-soul",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:sgt-pepper-s-lonely-hearts-club-band:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/sgt-pepper-s-lonely-hearts-club-band",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:the-beatles:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/the-beatles",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:with-the-beatles:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/with-the-beatles",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-beatles:yellow-submarine:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-beatles/yellow-submarine",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:cut-the-crap:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/cut-the-crap",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:give-em-enough-rope:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/give-em-enough-rope",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:london-calling:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/london-calling",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:sandinista:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/sandinista",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:the-clash:the-clash:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "the-clash/the-clash",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

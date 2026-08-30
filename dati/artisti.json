@@ -8887,7 +8887,71 @@
     "slug": "radiohead",
     "nome": "Radiohead",
     "storia": "Formati ad Abingdon, in Inghilterra, nel 1985 da un gruppo di compagni di scuola alla Abingdon School — Thom Yorke, i fratelli Colin e Jonny Greenwood, Ed O'Brien e Phil Selway — con il nome On a Friday, che richiamava il giorno delle prove nell'aula di musica. Rifiutata un'offerta discografica per finire prima gli studi universitari, si riunirono nel 1991, firmarono con la EMI e cambiarono nome in Radiohead, ispirato a una canzone dei Talking Heads.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Pablo Honey",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "pablo-honey"
+      },
+      {
+        "titolo": "The Bends",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-bends"
+      },
+      {
+        "titolo": "OK Computer",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "ok-computer"
+      },
+      {
+        "titolo": "Kid A",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "kid-a"
+      },
+      {
+        "titolo": "Amnesiac",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "amnesiac"
+      },
+      {
+        "titolo": "Hail to the Thief",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "hail-to-the-thief"
+      },
+      {
+        "titolo": "In Rainbows",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-rainbows"
+      },
+      {
+        "titolo": "The King of Limbs",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-king-of-limbs"
+      },
+      {
+        "titolo": "A Moon Shaped Pool",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-moon-shaped-pool"
+      }
+    ],
     "canzoni": [
       "creep"
     ],
@@ -9024,7 +9088,99 @@
     "slug": "red-hot-chili-peppers",
     "nome": "Red Hot Chili Peppers",
     "storia": "Formati a Los Angeles nel dicembre 1982 da un gruppo di compagni di liceo — il cantante Anthony Kiedis, il chitarrista Hillel Slovak, il bassista Flea e il batterista Jack Irons — inizialmente con il nome Tony Flow and the Miraculously Majestic Masters of Mayhem, presero il nome definitivo nel marzo 1983. Cresciuti nella scena punk di Los Angeles, si esibivano lungo il Sunset Strip spesso vestiti con i soli calzettoni; il primo album, che portava il loro nome, uscì nel 1984 senza Slovak e Irons, impegnati con un'altra band.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The Red Hot Chili Peppers",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-red-hot-chili-peppers"
+      },
+      {
+        "titolo": "Freaky Styley",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "freaky-styley"
+      },
+      {
+        "titolo": "The Uplift Mofo Party Plan",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-uplift-mofo-party-plan"
+      },
+      {
+        "titolo": "Mother's Milk",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "mother-s-milk"
+      },
+      {
+        "titolo": "Blood Sugar Sex Magik",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "blood-sugar-sex-magik"
+      },
+      {
+        "titolo": "One Hot Minute",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "one-hot-minute"
+      },
+      {
+        "titolo": "Californication",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "californication"
+      },
+      {
+        "titolo": "By the Way",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "by-the-way"
+      },
+      {
+        "titolo": "Stadium Arcadium",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "stadium-arcadium"
+      },
+      {
+        "titolo": "I'm with You",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-m-with-you"
+      },
+      {
+        "titolo": "The Getaway",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-getaway"
+      },
+      {
+        "titolo": "Unlimited Love",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "unlimited-love"
+      },
+      {
+        "titolo": "Return of the Dream Canteen",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "return-of-the-dream-canteen"
+      }
+    ],
     "canzoni": [
       "under-the-bridge"
     ],
@@ -9040,7 +9196,246 @@
     "slug": "renato-zero",
     "nome": "Renato Zero",
     "storia": "Renato Fiacchini, in arte Renato Zero, nasce a Roma nel 1950 e cresce nella borgata della Montagnola. A 14 anni ottiene il primo ingaggio in un locale romano; nel 1965 al Piper incontra Don Lurio, che lo introduce nel corpo di ballo televisivo di Rita Pavone. Il nome d'arte nacque per sfida verso chi definiva le sue esibizioni \"uno zero\"; nel 1973 pubblicò il primo album ufficiale, \"No! Mamma, no!\", avviando una carriera che conta oltre 30 album in studio, segnata da uno stile provocatorio fatto di cipria, lustrini e paillettes.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "No! Mamma, no!",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "no-mamma-no"
+      },
+      {
+        "titolo": "Invenzioni",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "invenzioni"
+      },
+      {
+        "titolo": "Trapezio",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "trapezio"
+      },
+      {
+        "titolo": "Zerofobia",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "zerofobia"
+      },
+      {
+        "titolo": "Zerolandia",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "zerolandia"
+      },
+      {
+        "titolo": "EroZero",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "erozero"
+      },
+      {
+        "titolo": "Tregua",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "tregua"
+      },
+      {
+        "titolo": "Artide Antartide",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "artide-antartide"
+      },
+      {
+        "titolo": "Via Tagliamento 1965/1970",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "via-tagliamento-1965-1970"
+      },
+      {
+        "titolo": "Calore",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "calore"
+      },
+      {
+        "titolo": "Leoni si nasce",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "leoni-si-nasce"
+      },
+      {
+        "titolo": "Identikit Zero",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "identikit-zero"
+      },
+      {
+        "titolo": "Soggetti smarriti",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "soggetti-smarriti"
+      },
+      {
+        "titolo": "Zero",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "zero"
+      },
+      {
+        "titolo": "Voyeur",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "voyeur"
+      },
+      {
+        "titolo": "La coscienza di Zero",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-coscienza-di-zero"
+      },
+      {
+        "titolo": "Passaporto per Fonòpoli",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "passaporto-per-fonopoli"
+      },
+      {
+        "titolo": "Quando non sei più di nessuno",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "quando-non-sei-piu-di-nessuno"
+      },
+      {
+        "titolo": "L'imperfetto",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-imperfetto"
+      },
+      {
+        "titolo": "Sulle tracce dell'imperfetto",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "sulle-tracce-dell-imperfetto"
+      },
+      {
+        "titolo": "Amore dopo amore",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "amore-dopo-amore"
+      },
+      {
+        "titolo": "Tutti gli Zeri del mondo",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "tutti-gli-zeri-del-mondo"
+      },
+      {
+        "titolo": "La curva dell'angelo",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-curva-dell-angelo"
+      },
+      {
+        "titolo": "Cattura",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "cattura"
+      },
+      {
+        "titolo": "Il dono",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-dono"
+      },
+      {
+        "titolo": "Presente",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "presente"
+      },
+      {
+        "titolo": "Amo - Capitolo I",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "amo-capitolo-i"
+      },
+      {
+        "titolo": "Amo - Capitolo II",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "amo-capitolo-ii"
+      },
+      {
+        "titolo": "Alt",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "alt"
+      },
+      {
+        "titolo": "Zerovskij - Solo per amore",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "zerovskij-solo-per-amore"
+      },
+      {
+        "titolo": "Zero il folle",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "zero-il-folle"
+      },
+      {
+        "titolo": "Zerosettanta",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "zerosettanta"
+      },
+      {
+        "titolo": "Autoritratto",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "autoritratto"
+      },
+      {
+        "titolo": "L'OraZero",
+        "anno": "2025",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-orazero"
+      }
+    ],
     "canzoni": [
       "il-carrozzone"
     ],
@@ -9056,7 +9451,57 @@
     "slug": "rino-gaetano",
     "nome": "Rino Gaetano",
     "storia": "Salvatore Antonio Gaetano nasce a Crotone, in Calabria, nel 1950; nel 1960 la famiglia si trasferisce a Roma, dove viene mandato a studiare in un seminario per garantirgli un'istruzione solida, senza intenzioni religiose. Partecipò al Festival di Sanremo 1978 con \"Gianna\"; autore di canzoni graffianti, spesso in difesa del Sud e degli sfruttati, morì il 2 giugno 1981 in un incidente stradale a Roma dopo che cinque ospedali ne rifiutarono il ricovero. Il suo successo di pubblico crebbe soprattutto dopo la morte, in particolare dopo il 2000.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Ingresso libero",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "ingresso-libero"
+      },
+      {
+        "titolo": "Mio fratello è figlio unico",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "mio-fratello-e-figlio-unico"
+      },
+      {
+        "titolo": "Aida",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "aida"
+      },
+      {
+        "titolo": "Nuntereggae più",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "nuntereggae-piu"
+      },
+      {
+        "titolo": "Resta vile maschio, dove vai?",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "resta-vile-maschio-dove-vai"
+      },
+      {
+        "titolo": "E io ci sto",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "e-io-ci-sto"
+      },
+      {
+        "titolo": "Singolo",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "singolo"
+      }
+    ],
     "canzoni": [
       "cielo-blu"
     ],
@@ -9072,7 +9517,36 @@
     "slug": "simon-garfunkel",
     "nome": "Simon & Garfunkel",
     "storia": "Paul Simon e Art Garfunkel si conobbero alle elementari nel Queens, a New York, nel 1953, accomunati dalla passione per l'armonia doo-wop; nel 1955 formarono il duo Tom & Jerry, con cui ottennero un piccolo successo nel 1957 prima di separarsi per gli studi universitari. Si riunirono nel 1963 come Simon & Garfunkel, questa volta dedicandosi al folk, firmando con la Columbia Records nel 1964; il successo arrivò nel 1965 grazie al singolo \"The Sound of Silence\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Wednesday Morning, 3 A.M. / Sounds of Silence",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "wednesday-morning-3-a-m-sounds-of-silence"
+      },
+      {
+        "titolo": "Parsley, Sage, Rosemary and Thyme",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "parsley-sage-rosemary-and-thyme"
+      },
+      {
+        "titolo": "Bookends",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "bookends"
+      },
+      {
+        "titolo": "Bridge over Troubled Water",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "bridge-over-troubled-water"
+      }
+    ],
     "canzoni": [
       "the-sound-of-silence"
     ],
@@ -9257,7 +9731,64 @@
     "slug": "soundgarden",
     "nome": "Soundgarden",
     "storia": "Formati a Seattle nel 1984 dal cantante e chitarrista ritmico Chris Cornell, dal chitarrista solista Kim Thayil e dal bassista Hiro Yamamoto, presero il nome da un'installazione artistica del parco Sand Point. Cornell suonava inizialmente anche la batteria cantando, ruolo poi affidato a Scott Sundquist nel 1985 e definitivamente a Matt Cameron dal 1986. Il successo arrivò con gli album \"Badmotorfinger\" (1991) e \"Superunknown\" (1994); il gruppo si sciolse nel 1997, si riunì nel 2010 e si fermò definitivamente dopo la morte di Cornell nel 2017.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Screaming Life",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "screaming-life"
+      },
+      {
+        "titolo": "Fopp",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "fopp"
+      },
+      {
+        "titolo": "Ultramega OK",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "ultramega-ok"
+      },
+      {
+        "titolo": "Louder Than Love",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "louder-than-love"
+      },
+      {
+        "titolo": "Badmotorfinger",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "badmotorfinger"
+      },
+      {
+        "titolo": "Superunknown",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "superunknown"
+      },
+      {
+        "titolo": "Down on the Upside",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "down-on-the-upside"
+      },
+      {
+        "titolo": "King Animal",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "king-animal"
+      }
+    ],
     "canzoni": [
       "black-hole-sun"
     ],
@@ -9412,7 +9943,99 @@
     "slug": "the-beatles",
     "nome": "The Beatles",
     "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il trio, passato attraverso vari nomi (tra cui Johnny and the Moondogs), adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Please Please Me",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "please-please-me"
+      },
+      {
+        "titolo": "With the Beatles",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "with-the-beatles"
+      },
+      {
+        "titolo": "A Hard Day's Night",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-hard-day-s-night"
+      },
+      {
+        "titolo": "Beatles for Sale",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "beatles-for-sale"
+      },
+      {
+        "titolo": "Help!",
+        "anno": "1965",
+        "nota": null,
+        "copertina": null,
+        "slug": "help"
+      },
+      {
+        "titolo": "Rubber Soul",
+        "anno": "1965",
+        "nota": null,
+        "copertina": null,
+        "slug": "rubber-soul"
+      },
+      {
+        "titolo": "Revolver",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "revolver"
+      },
+      {
+        "titolo": "Sgt. Pepper's Lonely Hearts Club Band",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "sgt-pepper-s-lonely-hearts-club-band"
+      },
+      {
+        "titolo": "The Beatles",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-beatles"
+      },
+      {
+        "titolo": "Yellow Submarine",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "yellow-submarine"
+      },
+      {
+        "titolo": "Abbey Road",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "abbey-road"
+      },
+      {
+        "titolo": "Let It Be",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "let-it-be"
+      },
+      {
+        "titolo": "Singolo (poi in Hey Jude, 1970)",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "singolo-poi-in-hey-jude-1970"
+      }
+    ],
     "canzoni": [
       "hey-jude"
     ],
@@ -9429,7 +10052,50 @@
     "slug": "the-clash",
     "nome": "The Clash",
     "storia": "Formati a Londra nel 1976, nacquero dall'incontro tra Joe Strummer e Mick Jones, quest'ultimo spinto a mettere su una band dopo aver visto un concerto dei Sex Pistols; li raggiunsero il bassista Paul Simonon, che Jones convinse a imparare uno strumento, e dopo alcuni cambi di formazione il batterista Topper Headon. Il primo album, omonimo, fu scritto e inciso in tre settimane nel febbraio 1977 ed entrò al numero 12 della classifica britannica.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The Clash",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-clash"
+      },
+      {
+        "titolo": "Give 'Em Enough Rope",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "give-em-enough-rope"
+      },
+      {
+        "titolo": "London Calling",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "london-calling"
+      },
+      {
+        "titolo": "Sandinista!",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "sandinista"
+      },
+      {
+        "titolo": "Combat Rock",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "combat-rock"
+      },
+      {
+        "titolo": "Cut the Crap",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "cut-the-crap"
+      }
+    ],
     "canzoni": [
       "should-i-stay"
     ],

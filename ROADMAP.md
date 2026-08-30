@@ -385,6 +385,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120** — la discografia di Prince (39 album) da sola aggiunge molte nuove voci C4/C5 preesistenti ma prima invisibili a F65.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina artista di Prince (39 album elencati, "Purple Rain (colonna sonora)" ancora linkata alla canzone).
 
+- **30 agosto 2026 — Ventunesimo lotto F66 (8 voci C3): discografie di Radiohead, Red Hot Chili Peppers, Renato Zero, Rino Gaetano, Simon & Garfunkel, Soundgarden, The Beatles, The Clash.**
+**Due casi di "Singolo" verificati e lasciati com'erano**: "Ma il cielo è sempre più blu" (Rino Gaetano, 1975) è rimasta un singolo a sé, mai inclusa in un album coevo — confermato dalla stessa voce Wikipedia della sua discografia, non solo dalla pagina della canzone. "Hey Jude" (The Beatles, 1968) è il caso più noto di tutti: mai su un album britannico originale, compare solo nella raccolta statunitense omonima del 1970 — entrambe le voci restano segnaposto letterali nella discografia, non album inventati.
+**Per Simon & Garfunkel**, mantenuta la voce già pubblicata "Wednesday Morning, 3 A.M. / Sounds of Silence" così com'è: il secondo titolo non è un album diverso ma la stessa opera ripubblicata nel 1966 con "The Sound of Silence" arrangiata in versione elettrica dopo il successo del singolo — la doppia dicitura già in uso riflette correttamente questa storia, non serve separarla in due voci.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di The Beatles (13 voci in discografia, "Hey Jude" nella posizione cronologica corretta, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

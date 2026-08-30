@@ -4725,6 +4725,46 @@
     "titolo": "Collapse into Now"
   },
   {
+    "artistaSlug": "radiohead",
+    "slug": "the-bends",
+    "titolo": "The Bends"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "ok-computer",
+    "titolo": "OK Computer"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "kid-a",
+    "titolo": "Kid A"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "amnesiac",
+    "titolo": "Amnesiac"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "hail-to-the-thief",
+    "titolo": "Hail to the Thief"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "in-rainbows",
+    "titolo": "In Rainbows"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "the-king-of-limbs",
+    "titolo": "The King of Limbs"
+  },
+  {
+    "artistaSlug": "radiohead",
+    "slug": "a-moon-shaped-pool",
+    "titolo": "A Moon Shaped Pool"
+  },
+  {
     "artistaSlug": "rage-against-the-machine",
     "slug": "the-battle-of-los-angeles",
     "titolo": "The Battle of Los Angeles"
@@ -4763,6 +4803,276 @@
     "artistaSlug": "rammstein",
     "slug": "zeit",
     "titolo": "Zeit"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "the-red-hot-chili-peppers",
+    "titolo": "The Red Hot Chili Peppers"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "freaky-styley",
+    "titolo": "Freaky Styley"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "the-uplift-mofo-party-plan",
+    "titolo": "The Uplift Mofo Party Plan"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "mother-s-milk",
+    "titolo": "Mother's Milk"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "one-hot-minute",
+    "titolo": "One Hot Minute"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "californication",
+    "titolo": "Californication"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "by-the-way",
+    "titolo": "By the Way"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "stadium-arcadium",
+    "titolo": "Stadium Arcadium"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "i-m-with-you",
+    "titolo": "I'm with You"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "the-getaway",
+    "titolo": "The Getaway"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "unlimited-love",
+    "titolo": "Unlimited Love"
+  },
+  {
+    "artistaSlug": "red-hot-chili-peppers",
+    "slug": "return-of-the-dream-canteen",
+    "titolo": "Return of the Dream Canteen"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "no-mamma-no",
+    "titolo": "No! Mamma, no!"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "invenzioni",
+    "titolo": "Invenzioni"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "trapezio",
+    "titolo": "Trapezio"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zerofobia",
+    "titolo": "Zerofobia"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zerolandia",
+    "titolo": "Zerolandia"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "tregua",
+    "titolo": "Tregua"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "artide-antartide",
+    "titolo": "Artide Antartide"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "via-tagliamento-1965-1970",
+    "titolo": "Via Tagliamento 1965/1970"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "calore",
+    "titolo": "Calore"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "leoni-si-nasce",
+    "titolo": "Leoni si nasce"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "identikit-zero",
+    "titolo": "Identikit Zero"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "soggetti-smarriti",
+    "titolo": "Soggetti smarriti"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zero",
+    "titolo": "Zero"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "voyeur",
+    "titolo": "Voyeur"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "la-coscienza-di-zero",
+    "titolo": "La coscienza di Zero"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "passaporto-per-fonopoli",
+    "titolo": "Passaporto per Fonòpoli"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "quando-non-sei-piu-di-nessuno",
+    "titolo": "Quando non sei più di nessuno"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "l-imperfetto",
+    "titolo": "L'imperfetto"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "sulle-tracce-dell-imperfetto",
+    "titolo": "Sulle tracce dell'imperfetto"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "amore-dopo-amore",
+    "titolo": "Amore dopo amore"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "tutti-gli-zeri-del-mondo",
+    "titolo": "Tutti gli Zeri del mondo"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "la-curva-dell-angelo",
+    "titolo": "La curva dell'angelo"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "cattura",
+    "titolo": "Cattura"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "il-dono",
+    "titolo": "Il dono"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "presente",
+    "titolo": "Presente"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "amo-capitolo-i",
+    "titolo": "Amo - Capitolo I"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "amo-capitolo-ii",
+    "titolo": "Amo - Capitolo II"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "alt",
+    "titolo": "Alt"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zerovskij-solo-per-amore",
+    "titolo": "Zerovskij - Solo per amore"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zero-il-folle",
+    "titolo": "Zero il folle"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "zerosettanta",
+    "titolo": "Zerosettanta"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "autoritratto",
+    "titolo": "Autoritratto"
+  },
+  {
+    "artistaSlug": "renato-zero",
+    "slug": "l-orazero",
+    "titolo": "L'OraZero"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "ingresso-libero",
+    "titolo": "Ingresso libero"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "mio-fratello-e-figlio-unico",
+    "titolo": "Mio fratello è figlio unico"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "aida",
+    "titolo": "Aida"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "nuntereggae-piu",
+    "titolo": "Nuntereggae più"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "resta-vile-maschio-dove-vai",
+    "titolo": "Resta vile maschio, dove vai?"
+  },
+  {
+    "artistaSlug": "rino-gaetano",
+    "slug": "e-io-ci-sto",
+    "titolo": "E io ci sto"
+  },
+  {
+    "artistaSlug": "simon-garfunkel",
+    "slug": "parsley-sage-rosemary-and-thyme",
+    "titolo": "Parsley, Sage, Rosemary and Thyme"
+  },
+  {
+    "artistaSlug": "simon-garfunkel",
+    "slug": "bookends",
+    "titolo": "Bookends"
+  },
+  {
+    "artistaSlug": "simon-garfunkel",
+    "slug": "bridge-over-troubled-water",
+    "titolo": "Bridge over Troubled Water"
   },
   {
     "artistaSlug": "slayer",
@@ -4845,6 +5155,41 @@
     "titolo": "The End, So Far"
   },
   {
+    "artistaSlug": "soundgarden",
+    "slug": "screaming-life",
+    "titolo": "Screaming Life"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "fopp",
+    "titolo": "Fopp"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "ultramega-ok",
+    "titolo": "Ultramega OK"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "louder-than-love",
+    "titolo": "Louder Than Love"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "badmotorfinger",
+    "titolo": "Badmotorfinger"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "down-on-the-upside",
+    "titolo": "Down on the Upside"
+  },
+  {
+    "artistaSlug": "soundgarden",
+    "slug": "king-animal",
+    "titolo": "King Animal"
+  },
+  {
     "artistaSlug": "sum-41",
     "slug": "underclass-hero",
     "titolo": "Underclass Hero"
@@ -4883,6 +5228,91 @@
     "artistaSlug": "system-of-a-down",
     "slug": "hypnotize",
     "titolo": "Hypnotize"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "please-please-me",
+    "titolo": "Please Please Me"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "with-the-beatles",
+    "titolo": "With the Beatles"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "a-hard-day-s-night",
+    "titolo": "A Hard Day's Night"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "beatles-for-sale",
+    "titolo": "Beatles for Sale"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "help",
+    "titolo": "Help!"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "rubber-soul",
+    "titolo": "Rubber Soul"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "revolver",
+    "titolo": "Revolver"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "sgt-pepper-s-lonely-hearts-club-band",
+    "titolo": "Sgt. Pepper's Lonely Hearts Club Band"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "the-beatles",
+    "titolo": "The Beatles"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "yellow-submarine",
+    "titolo": "Yellow Submarine"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "abbey-road",
+    "titolo": "Abbey Road"
+  },
+  {
+    "artistaSlug": "the-beatles",
+    "slug": "let-it-be",
+    "titolo": "Let It Be"
+  },
+  {
+    "artistaSlug": "the-clash",
+    "slug": "the-clash",
+    "titolo": "The Clash"
+  },
+  {
+    "artistaSlug": "the-clash",
+    "slug": "give-em-enough-rope",
+    "titolo": "Give 'Em Enough Rope"
+  },
+  {
+    "artistaSlug": "the-clash",
+    "slug": "london-calling",
+    "titolo": "London Calling"
+  },
+  {
+    "artistaSlug": "the-clash",
+    "slug": "sandinista",
+    "titolo": "Sandinista!"
+  },
+  {
+    "artistaSlug": "the-clash",
+    "slug": "cut-the-crap",
+    "titolo": "Cut the Crap"
   },
   {
     "artistaSlug": "vasco-rossi",
