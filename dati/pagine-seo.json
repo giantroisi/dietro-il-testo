@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 167,
+    "nCanzoni": 171,
     "haTestoEditoriale": true
   },
   {
@@ -872,6 +872,26 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/hallowed-be-thy-name/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sad-but-true/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/beat-it/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/knights-of-cydonia/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1183,7 +1203,7 @@
     "percorso": "artista/iron-maiden/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -1281,14 +1301,14 @@
     "percorso": "artista/metallica/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
     "percorso": "artista/michael-jackson/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1309,7 +1329,7 @@
     "percorso": "artista/muse/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -1988,7 +2008,7 @@
     "percorso": "album/iron-maiden/the-number-of-the-beast/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2170,7 +2190,7 @@
     "percorso": "album/metallica/metallica-black-album/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2184,7 +2204,7 @@
     "percorso": "album/michael-jackson/thriller/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2212,7 +2232,7 @@
     "percorso": "album/muse/black-holes-and-revelations/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2597,21 +2617,21 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 79,
+    "nCanzoni": 80,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 56,
+    "nCanzoni": 58,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 59,
+    "nCanzoni": 60,
     "haTestoEditoriale": true
   },
   {
@@ -2632,21 +2652,21 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 31,
+    "nCanzoni": 32,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 41,
+    "nCanzoni": 42,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 34,
+    "nCanzoni": 36,
     "haTestoEditoriale": true
   },
   {
