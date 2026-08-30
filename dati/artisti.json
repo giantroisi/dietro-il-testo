@@ -7975,7 +7975,13 @@
         "titolo": "Blizzard of Ozz",
         "anno": "1980",
         "nota": "certificato 5x platino RIAA, contiene \"Crazy Train\"",
-        "copertina": null,
+        "copertina": "Mostra Ozzy Osbourne che impugna un crocifisso, avvolto in un mantello da pantomima con lo sguardo stralunato, e un gatto posto accanto a lui in modo volutamente ironico — un'immagine teatrale e quasi comica che smorza, più che confermare, l'immagine occultista ereditata dai Black Sabbath.",
+        "copertinaFonte": [
+          {
+            "url": "https://blog.eil.com/2020/09/26/ozzy-osborne-blizzard-of-ozz-the-story-behind-a-forty-year-old-rock-classic/",
+            "nome": "eil.com"
+          }
+        ],
         "slug": "blizzard-of-ozz"
       },
       {
@@ -7989,7 +7995,13 @@
         "titolo": "Bark at the Moon",
         "anno": "1983",
         "nota": "certificato 3x platino RIAA",
-        "copertina": null,
+        "copertina": "Ritrae Ozzy Osbourne trasformato in un licantropo, a quattro zampe con dei rottweiler alle spalle; lo scatto, del fotografo Fin Costello, fu realizzato durante una lunga sessione notturna in uno studio gelido, con un trucco prostetico ispirato all'estetica horror scelta dallo stesso Osbourne.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/ozzy-was-on-his-hands-and-knees-with-these-rottweilers-behind-him-but-what-i-didnt-realise-was-that-ozzy-was-terrified-of-dogs-how-ozzy-osbourne-was-transformed-into-a-big-scary-werewolf-for-bark-at-the-moons-iconic-cover",
+            "nome": "Louder"
+          }
+        ],
         "slug": "bark-at-the-moon"
       },
       {
@@ -8112,14 +8124,26 @@
         "titolo": "Cowboys from Hell",
         "anno": "1990",
         "nota": "certificato platino RIAA, debutto per una major, considerato la nascita del groove metal",
-        "copertina": null,
+        "copertina": "Riutilizza una fotografia del 1910 del \"Cosmopolitan Saloon\" di Telluride, in Colorado, con i quattro membri della band incollati sopra l'immagine originale: Dimebag Darrell alla chitarra al centro, Vinnie Paul a destra mentre conta banconote, Rex Brown appoggiato al bancone e Phil Anselmo a sinistra ripreso a mezz'aria, in un salto ripetuto per una decina di scatti prima di ottenere l'effetto voluto.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Cowboys_from_Hell",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "cowboys-from-hell"
       },
       {
         "titolo": "Vulgar Display of Power",
         "anno": "1992",
         "nota": "certificato 2x platino RIAA, considerato il loro album più importante",
-        "copertina": null,
+        "copertina": "Raffigura un pugno che colpisce violentemente un volto, con un forte effetto di movimento ottenuto dal fotografo Brad Guice combinando luce stroboscopica e tempi di posa lunghi. Per anni è circolata la leggenda metropolitana, alimentata anche da alcuni membri della band, che un passante fosse stato pagato per essere colpito decine di volte davvero; lo stesso Guice ha smentito la storia: il modello, Sean Cross, non fu mai colpito, ma solo spinto con forza per rendere l'immagine più fisica — \"non è quello che è successo, era un servizio fotografico professionale\".",
+        "copertinaFonte": [
+          {
+            "url": "https://loudwire.com/who-is-on-pantera-vulgar-display-cover/",
+            "nome": "Loudwire"
+          }
+        ],
         "slug": "vulgar-display-of-power"
       },
       {
@@ -8396,7 +8420,13 @@
         "titolo": "Wish You Were Here",
         "anno": "1975",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra due uomini in giacca e cravatta che si stringono la mano in un backlot cinematografico, con uno dei due avvolto dalle fiamme senza apparente reazione; l'immagine, scattata da Aubrey Powell dello studio Hipgnosis, gioca sull'espressione \"farsi bruciare\" (getting burned), gergo del settore musicale per indicare artisti truffati sulle royalty. Lo stuntman avvolto dal fuoco, Ronnie Rondell Jr., riportò una lieve bruciatura ai baffi quando il vento cambiò direzione durante il quindicesimo tentativo.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "wish-you-were-here"
       },
       {
@@ -8668,7 +8698,13 @@
         "titolo": "Purple Rain (colonna sonora)",
         "anno": "1984",
         "nota": null,
-        "copertina": null,
+        "copertina": "Ritrae Prince a cavallo di una motocicletta Honda CM400A del 1981 personalizzata, in un elaborato abito viola, avvolto dal fumo e incorniciato da un bordo floreale; sullo sfondo, in un backlot degli studi Warner Bros. allestito per somigliare a un condominio newyorkese, è visibile una donna illuminata sulla soglia di una porta. Lo scatto è firmato da Ed Thrasher and Associates/Ron Slenzak, con la direzione creativa di Laura LiPuma.",
+        "copertinaFonte": [
+          {
+            "url": "https://americansongwriter.com/purple-rain-album-cover-prince-story-meaning/",
+            "nome": "American Songwriter"
+          }
+        ],
         "slug": "purple-rain-colonna-sonora"
       },
       {

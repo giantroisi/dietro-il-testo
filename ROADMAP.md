@@ -487,6 +487,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 48 a **40**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Nevermind" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Trentaquattresimo lotto F66 (8 voci C4): copertine di Ozzy Osbourne/Bark at the Moon, Ozzy Osbourne/Blizzard of Ozz, Pantera/Cowboys from Hell, Pantera/Vulgar Display of Power, Pink Floyd/Wish You Were Here, Prince/Purple Rain (colonna sonora) — due sospese.**
+**Sei copertine documentate**, con un caso che meritava attenzione particolare: la copertina di "Vulgar Display of Power" dei Pantera è accompagnata da decenni di leggenda metropolitana (un passante pagato per essere colpito in volto decine di volte), alimentata anche da membri della band stessa — verificata e smentita alla fonte dal fotografo Brad Guice, che ha confermato trattarsi di un servizio fotografico professionale con un modello, Sean Cross, mai colpito ma solo spinto con forza. Scritta la versione corretta, non la leggenda.
+**Un secondo mio errore di scrittura trovato e corretto prima di pubblicare, stesso tipo del lotto precedente**: lo script Python inseriva la nuova coppia `copertina`/`copertinaFonte` subito dopo la chiave `nota`, ma se la voce aveva già una chiave `copertina` (anche `null`) più avanti nell'ordine originale, il ciclo la incontrava di nuovo e sovrascriveva il testo appena scritto tornando a `null` — annullando silenziosamente la scrittura per tutti e sei gli album del lotto. Trovato subito controllando i dati dopo la scrittura, prima di rigenerare il sito: corretto lo script per saltare esplicitamente le chiavi originali `copertina`/`copertinaFonte` durante la copia, poi riverificato che tutte e sei le voci avessero il testo corretto.
+**Due voci lasciate sospese**: Pino Daniele/Vai mo' (confermati solo i crediti tecnici — fotografia di Cesare Monti, design Santi & Spinello — nessuna fonte descrive cosa raffiguri o significhi la copertina) e Pinguini Tattici Nucleari/l'edizione Sanremo 2020 di "Fuori dall'hype" con "Ringo Starr" (nessuna fonte trovata sulla copertina di questa riedizione).
+**I quattro numeri del lotto**: 8 cercate, 6 trovate, 0 accertate assenti, 2 sospese.
+**Debito aperto**: sceso da 40 a **32**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Vulgar Display of Power" (copertina documentata, fonte citata, storia corretta e non la leggenda, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

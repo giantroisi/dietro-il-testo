@@ -620,6 +620,66 @@
     "motivo": "confermata: Wikipedia, dettagli sul fotografo e sul concept originario di Cobain"
   },
   {
+    "id": "album:ozzy-osbourne:bark-at-the-moon:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ozzy-osbourne/bark-at-the-moon",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Louder, con dettagli diretti del fotografo Fin Costello"
+  },
+  {
+    "id": "album:ozzy-osbourne:blizzard-of-ozz:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ozzy-osbourne/blizzard-of-ozz",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: eil.com, descrizione dettagliata dell'immagine"
+  },
+  {
+    "id": "album:pantera:cowboys-from-hell:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pantera/cowboys-from-hell",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con dettagli sulla foto del 1910 e sul montaggio"
+  },
+  {
+    "id": "album:pantera:vulgar-display-of-power:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pantera/vulgar-display-of-power",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Loudwire, con citazione diretta del fotografo Brad Guice che smentisce la leggenda metropolitana"
+  },
+  {
+    "id": "album:pink-floyd:wish-you-were-here:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pink-floyd/wish-you-were-here",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, dettagli su Aubrey Powell e sullo stuntman Ronnie Rondell Jr."
+  },
+  {
+    "id": "album:prince:purple-rain-colonna-sonora:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "prince/purple-rain-colonna-sonora",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: American Songwriter"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1043,64 +1103,14 @@
     "motivo": "sospeso: confermato solo che Joe Petagno realizzò l'artwork, nessuna fonte descrive cosa raffigura o il suo significato"
   },
   {
-    "id": "album:ozzy-osbourne:bark-at-the-moon:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ozzy-osbourne/bark-at-the-moon",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ozzy-osbourne:blizzard-of-ozz:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ozzy-osbourne/blizzard-of-ozz",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pantera:cowboys-from-hell:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pantera/cowboys-from-hell",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pantera:vulgar-display-of-power:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pantera/vulgar-display-of-power",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:pinguini-tattici-nucleari:sanremo-2020-fuori-dallhype:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pink-floyd:wish-you-were-here:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pink-floyd/wish-you-were-here",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva la copertina di questa riedizione con 'Ringo Starr'"
   },
   {
     "id": "album:pino-daniele:vai-mo:copertina",
@@ -1108,19 +1118,9 @@
     "tipo": "copertina-album",
     "soggetto": "pino-daniele/vai-mo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:prince:purple-rain-colonna-sonora:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "prince/purple-rain-colonna-sonora",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: fonti confermano solo i credit tecnici (fotografia di Cesare Monti, design Santi & Spinello), nessuna descrive cosa raffigura o cosa significhi la copertina"
   },
   {
     "id": "album:queen:a-night-at-the-opera:copertina",

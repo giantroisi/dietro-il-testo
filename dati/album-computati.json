@@ -9959,10 +9959,10 @@
     "slug": "blizzard-of-ozz",
     "titolo": "Blizzard of Ozz",
     "anno": "1980",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -9981,10 +9981,10 @@
     "slug": "bark-at-the-moon",
     "titolo": "Bark at the Moon",
     "anno": "1983",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10146,10 +10146,10 @@
     "slug": "cowboys-from-hell",
     "titolo": "Cowboys from Hell",
     "anno": "1990",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10157,10 +10157,10 @@
     "slug": "vulgar-display-of-power",
     "titolo": "Vulgar Display of Power",
     "anno": "1992",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10498,10 +10498,10 @@
     "slug": "wish-you-were-here",
     "titolo": "Wish You Were Here",
     "anno": "1975",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10872,10 +10872,10 @@
     "slug": "purple-rain-colonna-sonora",
     "titolo": "Purple Rain (colonna sonora)",
     "anno": "1984",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
