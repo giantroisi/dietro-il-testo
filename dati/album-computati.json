@@ -3348,10 +3348,10 @@
     "slug": "hotel-california",
     "titolo": "Hotel California",
     "anno": "1976",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -3799,10 +3799,10 @@
     "slug": "honky-chateau",
     "titolo": "Honky Château",
     "anno": "1972",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

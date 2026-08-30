@@ -1792,9 +1792,9 @@
   {
     "percorso": "album/eagles/hotel-california/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ed-sheeran/divide/",
@@ -1820,9 +1820,9 @@
   {
     "percorso": "album/elton-john/honky-chateau/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/eminem/8-mile-colonna-sonora/",

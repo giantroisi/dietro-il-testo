@@ -443,6 +443,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 96 a **88**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Heroes" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Ventottesimo lotto F66 (8 voci C4): copertine di Eagles/Hotel California, Elton John/Honky Château — sei sospese, il lotto con la resa più bassa finora.**
+**Due copertine documentate con fonti dettagliate** (American Songwriter per Eagles, uDiscover Music per Elton John), entrambe con aneddoti concreti e verificabili sulla realizzazione.
+**Sei voci lasciate sospese**: Ed Sheeran/÷, Edoardo Bennato/Sono solo canzonette, Electric Callboy/MMXX, Eminem/8 Mile, Eros Ramazzotti/Dove c'è musica, Evanescence/Fallen. In quasi tutti i casi le prime ricerche sembravano promettenti, ma i fetch diretti di verifica non hanno confermato i dettagli (Wikipedia non conteneva quanto un aggregatore aveva riassunto, una fonte era inaccessibile, altre davano solo un nome senza descrizione né citazione) — scelto di non pubblicare piuttosto che accontentarsi di fonti di catalogazione (Discogs, Bandcamp) o di riassunti non verificabili alla fonte.
+**I quattro numeri del lotto**: 8 cercate, 2 trovate, 0 accertate assenti, 6 sospese.
+**Debito aperto**: sceso da 88 a **80**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Hotel California" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

@@ -2689,7 +2689,13 @@
         "titolo": "Hotel California",
         "anno": "1976",
         "nota": null,
-        "copertina": null,
+        "copertina": "Una fotografia del Beverly Hills Hotel poco prima del tramonto, scattata dal fotografo David Alexander su indicazione del direttore artistico John Kosh, a cui Don Henley aveva chiesto un'immagine che restituisse \"gloria appassita, perdita dell'innocenza e decadenza\"; la troupe fotografò la scena da una piattaforma elevatrice parcheggiata di fronte, senza il consenso dell'hotel, che dopo l'uscita del disco minacciò azioni legali per la pubblicità non richiesta.",
+        "copertinaFonte": [
+          {
+            "url": "https://americansongwriter.com/hotel-california-the-eagles-album-cover/",
+            "nome": "American Songwriter"
+          }
+        ],
         "slug": "hotel-california"
       },
       {
@@ -3046,7 +3052,13 @@
         "titolo": "Honky Château",
         "anno": "1972",
         "nota": null,
-        "copertina": null,
+        "copertina": "Un ritratto virato seppia di Elton John, con barba e occhiali da sole, scattato dal fotografo Ed Caraeff mentre il cantante era seduto sul bordo del letto nell'hotel Continental Hyatt House di Los Angeles il giorno del suo arrivo in città; Caraeff stampò lo scatto su una nuova carta fotografica color seppia appena acquistata e, mostrandola a Elton, la propose come copertina.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.udiscovermusic.com/stories/elton-john-honky-chateau-album/",
+            "nome": "uDiscover Music"
+          }
+        ],
         "slug": "honky-chateau"
       },
       {

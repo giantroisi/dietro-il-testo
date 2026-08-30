@@ -310,6 +310,26 @@
     "motivo": "confermata: Wikipedia"
   },
   {
+    "id": "album:eagles:hotel-california:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "eagles/hotel-california",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: American Songwriter"
+  },
+  {
+    "id": "album:elton-john:honky-chateau:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "elton-john/honky-chateau",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: uDiscover Music"
+  },
+  {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -563,24 +583,14 @@
     "motivo": "trovato un riferimento a una copertina disegnata da Guido Crepax, ma risulta legato a un'edizione commemorativa moderna (1958 copie numerate per l'anniversario), non confermato che sia la copertina del 45 giri originale del 1958 — rischio di descrivere una ristampa come se fosse l'originale, non pubblicato senza certezza."
   },
   {
-    "id": "album:eagles:hotel-california:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "eagles/hotel-california",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:ed-sheeran:divide:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "ed-sheeran/divide",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovati solo frammenti (il coinvolgimento dello studio di Damien Hirst, un 'spin painting' fatto da Sheeran stesso) senza una fonte primaria accessibile con citazione diretta."
   },
   {
     "id": "album:edoardo-bennato:sono-solo-canzonette:copertina",
@@ -588,9 +598,9 @@
     "tipo": "copertina-album",
     "soggetto": "edoardo-bennato/sono-solo-canzonette",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata solo tramite un aggregatore generico una descrizione della copertina apribile con fumetti su Peter Pan, ma non confermata da un fetch diretto della fonte primaria (Wikipedia non la contiene) — non pubblicata senza verifica."
   },
   {
     "id": "album:electric-callboy:mmxx:copertina",
@@ -598,19 +608,9 @@
     "tipo": "copertina-album",
     "soggetto": "electric-callboy/mmxx",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:elton-john:honky-chateau:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "elton-john/honky-chateau",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovato solo il nome del designer (Matthias Löwenstein) da fonti aggregate di catalogazione (Bandcamp, Discogs), senza descrizione del contenuto né fonte editoriale con citazione diretta."
   },
   {
     "id": "album:eminem:8-mile-colonna-sonora:copertina",
@@ -618,9 +618,9 @@
     "tipo": "copertina-album",
     "soggetto": "eminem/8-mile-colonna-sonora",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata solo una descrizione generica non confermata da un fetch diretto della fonte (Wikipedia non descrive il contenuto visivo della copertina)."
   },
   {
     "id": "album:eros-ramazzotti:dove-ce-musica:copertina",
@@ -628,9 +628,9 @@
     "tipo": "copertina-album",
     "soggetto": "eros-ramazzotti/dove-ce-musica",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovato solo il nome del fotografo (Michelangelo Di Battista) da database di catalogazione (Discogs, MusicBrainz), senza una fonte editoriale che lo confermi con più contesto."
   },
   {
     "id": "album:evanescence:fallen:copertina",
@@ -638,9 +638,9 @@
     "tipo": "copertina-album",
     "soggetto": "evanescence/fallen",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata una citazione di Amy Lee sul significato personale della copertina, ma non una descrizione di cosa raffiguri visivamente; la fonte con più dettagli (Revolver) non è risultata accessibile."
   },
   {
     "id": "album:fabrizio-de-andre:volume-3-raccolta:copertina",
