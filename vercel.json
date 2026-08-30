@@ -3976,6 +3976,11 @@
       "permanent": true
     },
     {
+      "source": "/album/naska/rebel/",
+      "destination": "/artista/naska/",
+      "permanent": true
+    },
+    {
       "source": "/album/nine-inch-nails/pretty-hate-machine/",
       "destination": "/artista/nine-inch-nails/",
       "permanent": true
@@ -4003,6 +4008,16 @@
     {
       "source": "/album/nine-inch-nails/bad-witch/",
       "destination": "/artista/nine-inch-nails/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nirvana/bleach/",
+      "destination": "/artista/nirvana/",
+      "permanent": true
+    },
+    {
+      "source": "/album/nirvana/in-utero/",
+      "destination": "/artista/nirvana/",
       "permanent": true
     },
     {
@@ -4173,6 +4188,541 @@
     {
       "source": "/album/pearl-jam/dark-matter/",
       "destination": "/artista/pearl-jam/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/il-re-e-nudo/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/gioventu-brucata/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/fuori-dall-hype/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/fake-news/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pinguini-tattici-nucleari/hello-world/",
+      "destination": "/artista/pinguini-tattici-nucleari/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-piper-at-the-gates-of-dawn/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/a-saucerful-of-secrets/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/more/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/ummagumma/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/atom-heart-mother/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/meddle/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/obscured-by-clouds/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-dark-side-of-the-moon/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/animals/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-wall/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-final-cut/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/a-momentary-lapse-of-reason/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-division-bell/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pink-floyd/the-endless-river/",
+      "destination": "/artista/pink-floyd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/terra-mia/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/pino-daniele/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/nero-a-meta/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/bella-mbriana/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/musicante/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/ferryboat/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/bonne-soiree/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/schizzechea-with-love/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/mascalzone-latino/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/un-uomo-in-blues/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/sotto-o-sole/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/che-dio-ti-benedica/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/non-calpestare-i-fiori-nel-deserto/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/dimmi-cosa-succede-sulla-terra/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/come-un-gelato-all-equatore/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/medina/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/passi-d-autore/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/iguana-cafe-latin-blues-e-melodie/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/il-mio-nome-e-pino-daniele-e-vivo-qui/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/electric-jam/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/pino-daniele/la-grande-madre/",
+      "destination": "/artista/pino-daniele/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/for-you/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/prince/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/dirty-mind/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/controversy/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/1999/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/around-the-world-in-a-day/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/parade/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/sign-o-the-times/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/lovesexy/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/batman/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/graffiti-bridge/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/diamonds-and-pearls/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/love-symbol/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/come/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-black-album-prince/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-gold-experience/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/chaos-and-disorder/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/emancipation/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/crystal-ball/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-truth/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-vault-old-friends-4-sale/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/rave-un2-the-joy-fantastic/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-rainbow-children/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/one-nite-alone/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/xpectation/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/n-e-w-s/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/musicology/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-chocolate-invasion/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/the-slaughterhouse/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/3121/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/planet-earth/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/lotusflow3r/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/mplsound/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/20ten/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/plectrumelectrum/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/art-official-age/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/hit-n-run-phase-one/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/prince/hit-n-run-phase-two/",
+      "destination": "/artista/prince/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/queen/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/queen-ii/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/sheer-heart-attack/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/a-day-at-the-races/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/news-of-the-world/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/jazz/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/the-game/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/flash-gordon/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/hot-space/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/the-works/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/a-kind-of-magic/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/the-miracle/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/innuendo/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/queen/made-in-heaven/",
+      "destination": "/artista/queen/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/murmur/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/reckoning/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/fables-of-the-reconstruction/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/lifes-rich-pageant/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/document/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/green/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/automatic-for-the-people/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/monster/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/new-adventures-in-hi-fi/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/up/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/reveal/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/around-the-sun/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/accelerate/",
+      "destination": "/artista/r-e-m/",
+      "permanent": true
+    },
+    {
+      "source": "/album/r-e-m/collapse-into-now/",
+      "destination": "/artista/r-e-m/",
       "permanent": true
     },
     {

@@ -7478,7 +7478,22 @@
     "slug": "naska",
     "nome": "Naska",
     "storia": "Diego Caterbetti, in arte Naska, nasce nel 1997 a Civitanova Marche e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica. Cresciuto tra il punk rock di Blink-182 e Sum 41 e l'emo trap americana di Lil Peep, esordisce nel 2015 con l'EP \"The Purge\"; nel 2022 pubblica l'album di debutto \"Rebel\", tra le sonorità punk rock che lo hanno reso uno dei protagonisti del revival pop punk italiano.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Rebel",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "rebel"
+      },
+      {
+        "titolo": "La mia stanza",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-mia-stanza"
+      }
+    ],
     "canzoni": [
       "cattiva"
     ],
@@ -7562,7 +7577,29 @@
     "slug": "nirvana",
     "nome": "Nirvana",
     "storia": "Formati ad Aberdeen, nello stato di Washington, nel 1987 dal cantante e chitarrista Kurt Cobain e dal bassista Krist Novoselic, conosciutisi al liceo, passarono attraverso diversi nomi (tra cui Skid Row) e diversi batteristi prima di stabilirsi con Dave Grohl nel 1990. Dopo l'esordio indipendente \"Bleach\" (1989) per la Sub Pop, il secondo album \"Nevermind\" (1991), trainato dal singolo \"Smells Like Teen Spirit\", li rese improvvisamente il gruppo di punta della scena grunge di Seattle.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Bleach",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "bleach"
+      },
+      {
+        "titolo": "Nevermind",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "nevermind"
+      },
+      {
+        "titolo": "In Utero",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-utero"
+      }
+    ],
     "canzoni": [
       "teen-spirit"
     ],
@@ -7954,7 +7991,57 @@
     "slug": "pinguini-tattici-nucleari",
     "nome": "Pinguini Tattici Nucleari",
     "storia": "Formati nel 2010 in provincia di Bergamo da un gruppo di compagni di scuola quattordicenni, presero il nome dalla birra scozzese Tactical Nuclear Penguin e iniziarono per gioco suonando cover di canti religiosi in chiave metal; il primo vero concerto arrivò solo nel 2013. Riccardo Zanotti, inizialmente batterista, divenne la voce e il principale autore del gruppo dopo l'arrivo di Marco Sonzogni alla batteria.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Il re è nudo",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-re-e-nudo"
+      },
+      {
+        "titolo": "Diamo un calcio all'aldilà",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "diamo-un-calcio-all-aldila"
+      },
+      {
+        "titolo": "Gioventù brucata",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "gioventu-brucata"
+      },
+      {
+        "titolo": "Fuori dall'hype",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "fuori-dall-hype"
+      },
+      {
+        "titolo": "Fuori dall'hype - Ringo Starr (Sanremo 2020)",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "sanremo-2020-fuori-dallhype"
+      },
+      {
+        "titolo": "Fake News",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "fake-news"
+      },
+      {
+        "titolo": "Hello World",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "hello-world"
+      }
+    ],
     "canzoni": [
       "ringo-starr"
     ],
@@ -7971,7 +8058,113 @@
     "slug": "pink-floyd",
     "nome": "Pink Floyd",
     "storia": "Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd. Barrett, frontman e principale autore nei primi anni, fu una figura chiave della psichedelia britannica per il suo stile di chitarra libero e per l'uso di dissonanza, distorsione ed eco.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "The Piper at the Gates of Dawn",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-piper-at-the-gates-of-dawn"
+      },
+      {
+        "titolo": "A Saucerful of Secrets",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-saucerful-of-secrets"
+      },
+      {
+        "titolo": "More",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "more"
+      },
+      {
+        "titolo": "Ummagumma",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "ummagumma"
+      },
+      {
+        "titolo": "Atom Heart Mother",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "atom-heart-mother"
+      },
+      {
+        "titolo": "Meddle",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "meddle"
+      },
+      {
+        "titolo": "Obscured by Clouds",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "obscured-by-clouds"
+      },
+      {
+        "titolo": "The Dark Side of the Moon",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-dark-side-of-the-moon"
+      },
+      {
+        "titolo": "Wish You Were Here",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "wish-you-were-here"
+      },
+      {
+        "titolo": "Animals",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "animals"
+      },
+      {
+        "titolo": "The Wall",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-wall"
+      },
+      {
+        "titolo": "The Final Cut",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-final-cut"
+      },
+      {
+        "titolo": "A Momentary Lapse of Reason",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-momentary-lapse-of-reason"
+      },
+      {
+        "titolo": "The Division Bell",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-division-bell"
+      },
+      {
+        "titolo": "The Endless River",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-endless-river"
+      }
+    ],
     "canzoni": [
       "wish-you-were-here"
     ],
@@ -7987,7 +8180,162 @@
     "slug": "pino-daniele",
     "nome": "Pino Daniele",
     "storia": "Nato a Napoli nel 1955, primo di sei figli di una famiglia di lavoratori portuali, imparò la chitarra da autodidatta, assorbendo il rock americano e mescolandolo con le sonorità delle strade napoletane. Dopo un'esperienza come chitarrista e bassista in diverse formazioni napoletane, tra cui i Napoli Centrale, esordì come cantautore con l'album \"Terra mia\" (1977), seguito da \"Pino Daniele\" (1979) e \"Nero a metà\" (1980). Chiamò \"Taramblù\" il proprio stile, fusione di tarantella e blues, collaborando negli anni con musicisti come Eric Clapton, Chick Corea e Pat Metheny; morì nel 2015.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Terra mia",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "terra-mia"
+      },
+      {
+        "titolo": "Pino Daniele",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "pino-daniele"
+      },
+      {
+        "titolo": "Nero a metà",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "nero-a-meta"
+      },
+      {
+        "titolo": "Vai mo'",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "vai-mo"
+      },
+      {
+        "titolo": "Bella 'mbriana",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "bella-mbriana"
+      },
+      {
+        "titolo": "Musicante",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "musicante"
+      },
+      {
+        "titolo": "Ferryboat",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "ferryboat"
+      },
+      {
+        "titolo": "Bonne soirée",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "bonne-soiree"
+      },
+      {
+        "titolo": "Schizzechea with Love",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "schizzechea-with-love"
+      },
+      {
+        "titolo": "Mascalzone latino",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "mascalzone-latino"
+      },
+      {
+        "titolo": "Un uomo in blues",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "un-uomo-in-blues"
+      },
+      {
+        "titolo": "Sotto 'o sole",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "sotto-o-sole"
+      },
+      {
+        "titolo": "Che Dio ti benedica",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "che-dio-ti-benedica"
+      },
+      {
+        "titolo": "Non calpestare i fiori nel deserto",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-calpestare-i-fiori-nel-deserto"
+      },
+      {
+        "titolo": "Dimmi cosa succede sulla terra",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "dimmi-cosa-succede-sulla-terra"
+      },
+      {
+        "titolo": "Come un gelato all'equatore",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "come-un-gelato-all-equatore"
+      },
+      {
+        "titolo": "Medina",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "medina"
+      },
+      {
+        "titolo": "Passi d'autore",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "passi-d-autore"
+      },
+      {
+        "titolo": "Iguana cafè – Latin blues e melodie",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "iguana-cafe-latin-blues-e-melodie"
+      },
+      {
+        "titolo": "Il mio nome è Pino Daniele e vivo qui",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-mio-nome-e-pino-daniele-e-vivo-qui"
+      },
+      {
+        "titolo": "Electric Jam",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "electric-jam"
+      },
+      {
+        "titolo": "La grande madre",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-grande-madre"
+      }
+    ],
     "canzoni": [
       "yes-i-know-my-way"
     ],
@@ -8003,7 +8351,281 @@
     "slug": "prince",
     "nome": "Prince",
     "storia": "Nato a Minneapolis nel 1958 da genitori musicisti, imparò da autodidatta piano, chitarra, basso e batteria fin da ragazzo; firmò un contratto con la Warner Bros. a 18 anni, pubblicando il primo album, \"For You\", due anni dopo. Fu l'artefice principale del \"Minneapolis Sound\", una fusione di rhythm and blues, funk, rock e new wave che segnò gli anni '80; vendette oltre 100 milioni di dischi e vinse sette Grammy e un Oscar. Morì nel 2016 nel suo studio di Paisley Park per un'overdose accidentale di fentanyl.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "For You",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "for-you"
+      },
+      {
+        "titolo": "Prince",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "prince"
+      },
+      {
+        "titolo": "Dirty Mind",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "dirty-mind"
+      },
+      {
+        "titolo": "Controversy",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "controversy"
+      },
+      {
+        "titolo": "1999",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "1999"
+      },
+      {
+        "titolo": "Purple Rain (colonna sonora)",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "purple-rain-colonna-sonora"
+      },
+      {
+        "titolo": "Around the World in a Day",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "around-the-world-in-a-day"
+      },
+      {
+        "titolo": "Parade",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "parade"
+      },
+      {
+        "titolo": "Sign o' the Times",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "sign-o-the-times"
+      },
+      {
+        "titolo": "Lovesexy",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "lovesexy"
+      },
+      {
+        "titolo": "Batman",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "batman"
+      },
+      {
+        "titolo": "Graffiti Bridge",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "graffiti-bridge"
+      },
+      {
+        "titolo": "Diamonds and Pearls",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "diamonds-and-pearls"
+      },
+      {
+        "titolo": "Love Symbol",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "love-symbol"
+      },
+      {
+        "titolo": "Come",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "come"
+      },
+      {
+        "titolo": "The Black Album",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-black-album-prince"
+      },
+      {
+        "titolo": "The Gold Experience",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-gold-experience"
+      },
+      {
+        "titolo": "Chaos and Disorder",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "chaos-and-disorder"
+      },
+      {
+        "titolo": "Emancipation",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "emancipation"
+      },
+      {
+        "titolo": "Crystal Ball",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "crystal-ball"
+      },
+      {
+        "titolo": "The Truth",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-truth"
+      },
+      {
+        "titolo": "The Vault: Old Friends 4 Sale",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-vault-old-friends-4-sale"
+      },
+      {
+        "titolo": "Rave Un2 the Joy Fantastic",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "rave-un2-the-joy-fantastic"
+      },
+      {
+        "titolo": "The Rainbow Children",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-rainbow-children"
+      },
+      {
+        "titolo": "One Nite Alone...",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "one-nite-alone"
+      },
+      {
+        "titolo": "Xpectation",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "xpectation"
+      },
+      {
+        "titolo": "N·E·W·S",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "n-e-w-s"
+      },
+      {
+        "titolo": "Musicology",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "musicology"
+      },
+      {
+        "titolo": "The Chocolate Invasion",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-chocolate-invasion"
+      },
+      {
+        "titolo": "The Slaughterhouse",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-slaughterhouse"
+      },
+      {
+        "titolo": "3121",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "3121"
+      },
+      {
+        "titolo": "Planet Earth",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "planet-earth"
+      },
+      {
+        "titolo": "Lotusflow3r",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "lotusflow3r"
+      },
+      {
+        "titolo": "MPLSound",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "mplsound"
+      },
+      {
+        "titolo": "20Ten",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "20ten"
+      },
+      {
+        "titolo": "Plectrumelectrum",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "plectrumelectrum"
+      },
+      {
+        "titolo": "Art Official Age",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "art-official-age"
+      },
+      {
+        "titolo": "Hit n Run Phase One",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "hit-n-run-phase-one"
+      },
+      {
+        "titolo": "Hit n Run Phase Two",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "hit-n-run-phase-two"
+      }
+    ],
     "canzoni": [
       "purple-rain"
     ],
@@ -8020,7 +8642,113 @@
     "slug": "queen",
     "nome": "Queen",
     "storia": "Le radici del gruppo risalgono al 1968 a Londra, quando Brian May e Tim Staffell formarono la band Smile, a cui si unì il batterista Roger Taylor; Freddie Mercury, allora Farrokh Bulsara, era amico e ammiratore del gruppo. Quando Staffell lasciò nel 1970, Mercury ne prese il posto come voce, proponendo il nuovo nome Queen; nel 1971 si aggiunse il bassista John Deacon, completando la formazione classica. I primi anni furono difficili, tra piccoli locali e ristrettezze economiche, prima del primo album \"Queen\" nel 1973.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Queen",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "queen"
+      },
+      {
+        "titolo": "Queen II",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "queen-ii"
+      },
+      {
+        "titolo": "Sheer Heart Attack",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "sheer-heart-attack"
+      },
+      {
+        "titolo": "A Night at the Opera",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-night-at-the-opera"
+      },
+      {
+        "titolo": "A Day at the Races",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-day-at-the-races"
+      },
+      {
+        "titolo": "News of the World",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "news-of-the-world"
+      },
+      {
+        "titolo": "Jazz",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "jazz"
+      },
+      {
+        "titolo": "The Game",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-game"
+      },
+      {
+        "titolo": "Flash Gordon",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "flash-gordon"
+      },
+      {
+        "titolo": "Hot Space",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "hot-space"
+      },
+      {
+        "titolo": "The Works",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-works"
+      },
+      {
+        "titolo": "A Kind of Magic",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-kind-of-magic"
+      },
+      {
+        "titolo": "The Miracle",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-miracle"
+      },
+      {
+        "titolo": "Innuendo",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "innuendo"
+      },
+      {
+        "titolo": "Made in Heaven",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "made-in-heaven"
+      }
+    ],
     "canzoni": [
       "bohemian-rhapsody"
     ],
@@ -8036,7 +8764,113 @@
     "slug": "r-e-m",
     "nome": "R.E.M.",
     "storia": "Formati ad Athens, in Georgia, nel 1980, nacquero dall'incontro tra Peter Buck e Michael Stipe in un negozio di dischi, accomunati dalla passione per il punk rock; tramite un'amica comune conobbero poi Mike Mills e Bill Berry, già musicisti insieme dai tempi del liceo. La prima esibizione fu il 5 aprile 1980 a una festa di compleanno in una chiesa abbandonata di Athens; il primo singolo, \"Radio Free Europe\" (1981), e l'album di debutto \"Murmur\" (1983) costruirono la loro fama tra le radio universitarie.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Murmur",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "murmur"
+      },
+      {
+        "titolo": "Reckoning",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "reckoning"
+      },
+      {
+        "titolo": "Fables of the Reconstruction",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "fables-of-the-reconstruction"
+      },
+      {
+        "titolo": "Lifes Rich Pageant",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "lifes-rich-pageant"
+      },
+      {
+        "titolo": "Document",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "document"
+      },
+      {
+        "titolo": "Green",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "green"
+      },
+      {
+        "titolo": "Out of Time",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "out-of-time"
+      },
+      {
+        "titolo": "Automatic for the People",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "automatic-for-the-people"
+      },
+      {
+        "titolo": "Monster",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "monster"
+      },
+      {
+        "titolo": "New Adventures in Hi-Fi",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "new-adventures-in-hi-fi"
+      },
+      {
+        "titolo": "Up",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "up"
+      },
+      {
+        "titolo": "Reveal",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "reveal"
+      },
+      {
+        "titolo": "Around the Sun",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "around-the-sun"
+      },
+      {
+        "titolo": "Accelerate",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "accelerate"
+      },
+      {
+        "titolo": "Collapse into Now",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "collapse-into-now"
+      }
+    ],
     "canzoni": [
       "losing-my-religion"
     ],

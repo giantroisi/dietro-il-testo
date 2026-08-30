@@ -379,6 +379,12 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120** — la discografia di Mina da sola aggiunge decine di nuove voci C4/C5 (copertine mancanti su 75 album reali appena documentati, quasi tutti senza canzoni sul sito) che F65 non poteva vedere prima: non debito creato da questo lotto.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano (verificato che la vecchia cartella `album/mina/singolo-scritta-da-gino-paoli-1959/` sia sparita e il redirect compaia in `vercel.json`), verificato nel browser la pagina artista di Mina (76 album elencati, "Il cielo in una stanza" ancora linkata alla canzone).
 
+- **30 agosto 2026 — Ventesimo lotto F66 (8 voci C3): discografie di Naska, Nirvana, Pinguini Tattici Nucleari, Pink Floyd, Pino Daniele, Prince, Queen, R.E.M.** Tutti e sei i controlli puliti al primo tentativo, nessuna correzione necessaria — il primo lotto di questo tipo senza un errore trovato durante la verifica.
+**Due dettagli verificati con attenzione prima di scrivere**: "More" (1969), spesso trascurato perché è anche la colonna sonora di un film, è ufficialmente il terzo album in studio dei Pink Floyd secondo la stessa voce Wikipedia dedicata — incluso in discografia. Per i Pinguini Tattici Nucleari, la canzone "Ringo Starr" cita l'edizione ampliata "Fuori dall'hype - Ringo Starr (Sanremo 2020)" del 2020, non l'edizione originale del 2019: mantenute entrambe come voci distinte, perché sono due pubblicazioni realmente diverse (l'edizione 2020 aggiunge tracce inedite e live), non un duplicato.
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120** — la discografia di Prince (39 album) da sola aggiunge molte nuove voci C4/C5 preesistenti ma prima invisibili a F65.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina artista di Prince (39 album elencati, "Purple Rain (colonna sonora)" ancora linkata alla canzone).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

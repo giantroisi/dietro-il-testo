@@ -3975,6 +3975,11 @@
     "titolo": "Danger Days: The True Lives of the Fabulous Killjoys"
   },
   {
+    "artistaSlug": "naska",
+    "slug": "rebel",
+    "titolo": "Rebel"
+  },
+  {
     "artistaSlug": "nine-inch-nails",
     "slug": "pretty-hate-machine",
     "titolo": "Pretty Hate Machine"
@@ -4003,6 +4008,16 @@
     "artistaSlug": "nine-inch-nails",
     "slug": "bad-witch",
     "titolo": "Bad Witch"
+  },
+  {
+    "artistaSlug": "nirvana",
+    "slug": "bleach",
+    "titolo": "Bleach"
+  },
+  {
+    "artistaSlug": "nirvana",
+    "slug": "in-utero",
+    "titolo": "In Utero"
   },
   {
     "artistaSlug": "oasis",
@@ -4173,6 +4188,541 @@
     "artistaSlug": "pearl-jam",
     "slug": "dark-matter",
     "titolo": "Dark Matter"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "il-re-e-nudo",
+    "titolo": "Il re è nudo"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "diamo-un-calcio-all-aldila",
+    "titolo": "Diamo un calcio all'aldilà"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "gioventu-brucata",
+    "titolo": "Gioventù brucata"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "fuori-dall-hype",
+    "titolo": "Fuori dall'hype"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "fake-news",
+    "titolo": "Fake News"
+  },
+  {
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "slug": "hello-world",
+    "titolo": "Hello World"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-piper-at-the-gates-of-dawn",
+    "titolo": "The Piper at the Gates of Dawn"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "a-saucerful-of-secrets",
+    "titolo": "A Saucerful of Secrets"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "more",
+    "titolo": "More"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "ummagumma",
+    "titolo": "Ummagumma"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "atom-heart-mother",
+    "titolo": "Atom Heart Mother"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "meddle",
+    "titolo": "Meddle"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "obscured-by-clouds",
+    "titolo": "Obscured by Clouds"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-dark-side-of-the-moon",
+    "titolo": "The Dark Side of the Moon"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "animals",
+    "titolo": "Animals"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-wall",
+    "titolo": "The Wall"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-final-cut",
+    "titolo": "The Final Cut"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "a-momentary-lapse-of-reason",
+    "titolo": "A Momentary Lapse of Reason"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-division-bell",
+    "titolo": "The Division Bell"
+  },
+  {
+    "artistaSlug": "pink-floyd",
+    "slug": "the-endless-river",
+    "titolo": "The Endless River"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "terra-mia",
+    "titolo": "Terra mia"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "pino-daniele",
+    "titolo": "Pino Daniele"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "nero-a-meta",
+    "titolo": "Nero a metà"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "bella-mbriana",
+    "titolo": "Bella 'mbriana"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "musicante",
+    "titolo": "Musicante"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "ferryboat",
+    "titolo": "Ferryboat"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "bonne-soiree",
+    "titolo": "Bonne soirée"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "schizzechea-with-love",
+    "titolo": "Schizzechea with Love"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "mascalzone-latino",
+    "titolo": "Mascalzone latino"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "un-uomo-in-blues",
+    "titolo": "Un uomo in blues"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "sotto-o-sole",
+    "titolo": "Sotto 'o sole"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "che-dio-ti-benedica",
+    "titolo": "Che Dio ti benedica"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "non-calpestare-i-fiori-nel-deserto",
+    "titolo": "Non calpestare i fiori nel deserto"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "dimmi-cosa-succede-sulla-terra",
+    "titolo": "Dimmi cosa succede sulla terra"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "come-un-gelato-all-equatore",
+    "titolo": "Come un gelato all'equatore"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "medina",
+    "titolo": "Medina"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "passi-d-autore",
+    "titolo": "Passi d'autore"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "iguana-cafe-latin-blues-e-melodie",
+    "titolo": "Iguana cafè – Latin blues e melodie"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "il-mio-nome-e-pino-daniele-e-vivo-qui",
+    "titolo": "Il mio nome è Pino Daniele e vivo qui"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "electric-jam",
+    "titolo": "Electric Jam"
+  },
+  {
+    "artistaSlug": "pino-daniele",
+    "slug": "la-grande-madre",
+    "titolo": "La grande madre"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "for-you",
+    "titolo": "For You"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "prince",
+    "titolo": "Prince"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "dirty-mind",
+    "titolo": "Dirty Mind"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "controversy",
+    "titolo": "Controversy"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "1999",
+    "titolo": "1999"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "around-the-world-in-a-day",
+    "titolo": "Around the World in a Day"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "parade",
+    "titolo": "Parade"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "sign-o-the-times",
+    "titolo": "Sign o' the Times"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "lovesexy",
+    "titolo": "Lovesexy"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "batman",
+    "titolo": "Batman"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "graffiti-bridge",
+    "titolo": "Graffiti Bridge"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "diamonds-and-pearls",
+    "titolo": "Diamonds and Pearls"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "love-symbol",
+    "titolo": "Love Symbol"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "come",
+    "titolo": "Come"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-black-album-prince",
+    "titolo": "The Black Album"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-gold-experience",
+    "titolo": "The Gold Experience"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "chaos-and-disorder",
+    "titolo": "Chaos and Disorder"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "emancipation",
+    "titolo": "Emancipation"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "crystal-ball",
+    "titolo": "Crystal Ball"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-truth",
+    "titolo": "The Truth"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-vault-old-friends-4-sale",
+    "titolo": "The Vault: Old Friends 4 Sale"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "rave-un2-the-joy-fantastic",
+    "titolo": "Rave Un2 the Joy Fantastic"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-rainbow-children",
+    "titolo": "The Rainbow Children"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "one-nite-alone",
+    "titolo": "One Nite Alone..."
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "xpectation",
+    "titolo": "Xpectation"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "n-e-w-s",
+    "titolo": "N·E·W·S"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "musicology",
+    "titolo": "Musicology"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-chocolate-invasion",
+    "titolo": "The Chocolate Invasion"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "the-slaughterhouse",
+    "titolo": "The Slaughterhouse"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "3121",
+    "titolo": "3121"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "planet-earth",
+    "titolo": "Planet Earth"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "lotusflow3r",
+    "titolo": "Lotusflow3r"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "mplsound",
+    "titolo": "MPLSound"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "20ten",
+    "titolo": "20Ten"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "plectrumelectrum",
+    "titolo": "Plectrumelectrum"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "art-official-age",
+    "titolo": "Art Official Age"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "hit-n-run-phase-one",
+    "titolo": "Hit n Run Phase One"
+  },
+  {
+    "artistaSlug": "prince",
+    "slug": "hit-n-run-phase-two",
+    "titolo": "Hit n Run Phase Two"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "queen",
+    "titolo": "Queen"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "queen-ii",
+    "titolo": "Queen II"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "sheer-heart-attack",
+    "titolo": "Sheer Heart Attack"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "a-day-at-the-races",
+    "titolo": "A Day at the Races"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "news-of-the-world",
+    "titolo": "News of the World"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "jazz",
+    "titolo": "Jazz"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "the-game",
+    "titolo": "The Game"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "flash-gordon",
+    "titolo": "Flash Gordon"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "hot-space",
+    "titolo": "Hot Space"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "the-works",
+    "titolo": "The Works"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "a-kind-of-magic",
+    "titolo": "A Kind of Magic"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "the-miracle",
+    "titolo": "The Miracle"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "innuendo",
+    "titolo": "Innuendo"
+  },
+  {
+    "artistaSlug": "queen",
+    "slug": "made-in-heaven",
+    "titolo": "Made in Heaven"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "murmur",
+    "titolo": "Murmur"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "reckoning",
+    "titolo": "Reckoning"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "fables-of-the-reconstruction",
+    "titolo": "Fables of the Reconstruction"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "lifes-rich-pageant",
+    "titolo": "Lifes Rich Pageant"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "document",
+    "titolo": "Document"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "green",
+    "titolo": "Green"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "automatic-for-the-people",
+    "titolo": "Automatic for the People"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "monster",
+    "titolo": "Monster"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "new-adventures-in-hi-fi",
+    "titolo": "New Adventures in Hi-Fi"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "up",
+    "titolo": "Up"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "reveal",
+    "titolo": "Reveal"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "around-the-sun",
+    "titolo": "Around the Sun"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "accelerate",
+    "titolo": "Accelerate"
+  },
+  {
+    "artistaSlug": "r-e-m",
+    "slug": "collapse-into-now",
+    "titolo": "Collapse into Now"
   },
   {
     "artistaSlug": "rage-against-the-machine",

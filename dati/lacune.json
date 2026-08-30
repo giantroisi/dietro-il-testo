@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:naska:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "naska",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:nirvana:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "nirvana",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:pinguini-tattici-nucleari:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "pinguini-tattici-nucleari",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:pink-floyd:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "pink-floyd",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:pino-daniele:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "pino-daniele",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:prince:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "prince",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:queen:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "queen",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:r-e-m:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "r-e-m",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:radiohead:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1303,6 +1223,26 @@
     "motivo": null
   },
   {
+    "id": "album:naska:la-mia-stanza:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "naska/la-mia-stanza",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nirvana:nevermind:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "nirvana/nevermind",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ozzy-osbourne:bark-at-the-moon:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1337,6 +1277,66 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "pantera/vulgar-display-of-power",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:sanremo-2020-fuori-dallhype:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:wish-you-were-here:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/wish-you-were-here",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:vai-mo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/vai-mo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:purple-rain-colonna-sonora:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "prince/purple-rain-colonna-sonora",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:a-night-at-the-opera:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "queen/a-night-at-the-opera",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:out-of-time:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/out-of-time",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -9393,6 +9393,16 @@
     "motivo": null
   },
   {
+    "id": "album:naska:rebel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "naska/rebel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:nine-inch-nails:bad-witch:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -9447,6 +9457,26 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "nine-inch-nails/year-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nirvana:bleach:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nirvana/bleach",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:nirvana:in-utero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "nirvana/in-utero",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -9787,6 +9817,1076 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "pearl-jam/yield",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:diamo-un-calcio-all-aldila:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/fake-news",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:fuori-dall-hype:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/fuori-dall-hype",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:gioventu-brucata:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/gioventu-brucata",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:hello-world:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/hello-world",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:il-re-e-nudo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/il-re-e-nudo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:a-momentary-lapse-of-reason:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/a-momentary-lapse-of-reason",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:a-saucerful-of-secrets:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/a-saucerful-of-secrets",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:animals:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/animals",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:atom-heart-mother:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/atom-heart-mother",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:meddle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/meddle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:more:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/more",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:obscured-by-clouds:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/obscured-by-clouds",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-dark-side-of-the-moon:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-dark-side-of-the-moon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-division-bell:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-division-bell",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-endless-river:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-endless-river",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-final-cut:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-final-cut",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-piper-at-the-gates-of-dawn:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-piper-at-the-gates-of-dawn",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:the-wall:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/the-wall",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pink-floyd:ummagumma:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pink-floyd/ummagumma",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:bella-mbriana:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/bella-mbriana",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:bonne-soiree:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/bonne-soiree",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:che-dio-ti-benedica:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/che-dio-ti-benedica",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:come-un-gelato-all-equatore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/come-un-gelato-all-equatore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:dimmi-cosa-succede-sulla-terra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/dimmi-cosa-succede-sulla-terra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:electric-jam:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/electric-jam",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:ferryboat:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/ferryboat",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:iguana-cafe-latin-blues-e-melodie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/iguana-cafe-latin-blues-e-melodie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:il-mio-nome-e-pino-daniele-e-vivo-qui:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/il-mio-nome-e-pino-daniele-e-vivo-qui",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:la-grande-madre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/la-grande-madre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:mascalzone-latino:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/mascalzone-latino",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:medina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/medina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:musicante:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/musicante",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:nero-a-meta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/nero-a-meta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:non-calpestare-i-fiori-nel-deserto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/non-calpestare-i-fiori-nel-deserto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:passi-d-autore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/passi-d-autore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:pino-daniele:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/pino-daniele",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:schizzechea-with-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/schizzechea-with-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:sotto-o-sole:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/sotto-o-sole",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:terra-mia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/terra-mia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pino-daniele:un-uomo-in-blues:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "pino-daniele/un-uomo-in-blues",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:1999:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/1999",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:20ten:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/20ten",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:3121:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/3121",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:around-the-world-in-a-day:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/around-the-world-in-a-day",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:art-official-age:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/art-official-age",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:batman:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/batman",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:chaos-and-disorder:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/chaos-and-disorder",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:come:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/come",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:controversy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/controversy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:crystal-ball:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/crystal-ball",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:diamonds-and-pearls:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/diamonds-and-pearls",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:dirty-mind:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/dirty-mind",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:emancipation:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/emancipation",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:for-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/for-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:graffiti-bridge:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/graffiti-bridge",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:hit-n-run-phase-one:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/hit-n-run-phase-one",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:hit-n-run-phase-two:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/hit-n-run-phase-two",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:lotusflow3r:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/lotusflow3r",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:love-symbol:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/love-symbol",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:lovesexy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/lovesexy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:mplsound:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/mplsound",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:musicology:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/musicology",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:n-e-w-s:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/n-e-w-s",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:one-nite-alone:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/one-nite-alone",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:parade:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/parade",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:planet-earth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/planet-earth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:plectrumelectrum:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/plectrumelectrum",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:prince:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/prince",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:rave-un2-the-joy-fantastic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/rave-un2-the-joy-fantastic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:sign-o-the-times:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/sign-o-the-times",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-black-album-prince:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-black-album-prince",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-chocolate-invasion:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-chocolate-invasion",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-gold-experience:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-gold-experience",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-rainbow-children:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-rainbow-children",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-slaughterhouse:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-slaughterhouse",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-truth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-truth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:the-vault-old-friends-4-sale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/the-vault-old-friends-4-sale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:prince:xpectation:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "prince/xpectation",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:a-day-at-the-races:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/a-day-at-the-races",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:a-kind-of-magic:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/a-kind-of-magic",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:flash-gordon:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/flash-gordon",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:hot-space:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/hot-space",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:innuendo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/innuendo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:jazz:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/jazz",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:made-in-heaven:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/made-in-heaven",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:news-of-the-world:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/news-of-the-world",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:queen-ii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/queen-ii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:queen:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/queen",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:sheer-heart-attack:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/sheer-heart-attack",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:the-game:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/the-game",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:the-miracle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/the-miracle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:queen:the-works:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "queen/the-works",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:accelerate:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/accelerate",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:around-the-sun:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/around-the-sun",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:automatic-for-the-people:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/automatic-for-the-people",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:collapse-into-now:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/collapse-into-now",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:document:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/document",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:fables-of-the-reconstruction:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/fables-of-the-reconstruction",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:green:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/green",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:lifes-rich-pageant:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/lifes-rich-pageant",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:monster:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/monster",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:murmur:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/murmur",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:new-adventures-in-hi-fi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/new-adventures-in-hi-fi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:reckoning:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/reckoning",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:reveal:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/reveal",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:r-e-m:up:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "r-e-m/up",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
