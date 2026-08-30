@@ -7503,5 +7503,170 @@
     "temi": [
       "ribellione"
     ]
+  },
+  {
+    "slug": "piggy",
+    "titolo": "Piggy",
+    "artista": "Nine Inch Nails",
+    "artistaSlug": "nine-inch-nails",
+    "anno": "1994",
+    "album": "The Downward Spiral",
+    "albumSlug": "the-downward-spiral",
+    "genereTesto": "Industrial / Alternative",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#2E1F4A",
+    "colore2": "#6E1F1F",
+    "ascolti": 16430978,
+    "ascoltiTesto": "16 mln ascolti",
+    "spotifyId": "2U6XVpYnXEIbHodzlRYweB",
+    "corpo": [
+      "L'ex chitarrista Richard Patrick ha raccontato in diverse interviste che \"Piggy\" era il soprannome che Trent Reznor gli aveva affibbiato, e che il brano fu scritto in risposta al suo abbandono della band.",
+      "Il pezzo fu registrato in uno studio chiamato Le Pig, ricavato al 10050 di Cielo Drive a Los Angeles: lo stesso indirizzo dove nel 1969 la famiglia Manson uccise Sharon Tate e altre quattro persone, lasciando la scritta \"PIG\" tracciata col sangue delle vittime — un riferimento, secondo la ricostruzione storica, a una canzone dei Beatles. Reznor ha sempre smentito un legame intenzionale fra il brano e quella storia, spiegando la scelta dello studio in termini puramente pratici: \"Ho visto diversi posti. E questo si è semplicemente rivelato quello che mi piaceva di più.\""
+    ],
+    "fraseIconica": "Il momento più ricordato è il ritornello che ripete ossessivamente che nulla può più fermare chi canta, un mantra che ribalta la fragilità iniziale del brano in una forma quasi nichilista di rivalsa.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/nine-inch-nails/28451/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Piggy_(song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
+  },
+  {
+    "slug": "champagne-supernova",
+    "titolo": "Champagne Supernova",
+    "artista": "Oasis",
+    "artistaSlug": "oasis",
+    "anno": "1995",
+    "album": "(What's the Story) Morning Glory?",
+    "albumSlug": "whats-the-story-morning-glory",
+    "genereTesto": "Britpop",
+    "generi": [
+      "rock",
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#6E5C1F",
+    "colore2": "#1F3E6E",
+    "ascolti": 667337175,
+    "ascoltiTesto": "667 mln ascolti",
+    "spotifyId": "6EMynpZ10GVcwVqiLZj6Ye",
+    "corpo": [
+      "Scritta da Noel Gallagher, è brano chiuso su un testo che lo stesso autore non ha mai voluto spiegare in modo univoco: già nel 1995 dichiarò che \"significa cose diverse a seconda dell'umore in cui sono\", collegandolo a una riflessione su cosa restasse davvero di certi movimenti e scene musicali oltre alle canzoni.",
+      "Il verso più citato, \"più veloce di una palla di cannone\", nasce da un dettaglio inatteso: Gallagher lo fece rimare con la parola precedente prendendo spunto dal maggiordomo Brackett delle serie per bambini britanniche \"Camberwick Green\" e \"Trumpton\", pur ammettendo che quel personaggio, nella finzione, camminava piuttosto lentamente. Interrogato ancora decenni dopo sul significato letterale del testo, Gallagher ha risposto semplicemente di non saperlo: \"Cosa diavolo significa? Dovrei saperlo, visto che l'ho scritta, e non ne ho la più pallida idea.\""
+    ],
+    "fraseIconica": "Il momento più cantato dal vivo è il ritornello sulla \"supernova di champagne\" nel cielo, un'immagine che secondo lo stesso Gallagher non ha un significato letterale preciso: la sua forza sta nell'essere diventata, per decine di migliaia di persone che la cantano insieme, qualcosa di diverso per ciascuno.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/oasis/29004/",
+    "fonti": [
+      {
+        "url": "https://americansongwriter.com/the-meaning-behind-champagne-supernova-by-oasis-and-why-its-emotional-impact-resonates-with-fans/",
+        "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "nostalgia"
+    ]
+  },
+  {
+    "slug": "black-pearl-jam",
+    "titolo": "Black",
+    "artista": "Pearl Jam",
+    "artistaSlug": "pearl-jam",
+    "anno": "1991",
+    "album": "Ten",
+    "albumSlug": "ten",
+    "genereTesto": "Grunge",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E5C4A",
+    "colore2": "#6E4A1F",
+    "ascolti": 793491616,
+    "ascoltiTesto": "793 mln ascolti",
+    "spotifyId": "5Xak5fmy089t0FYmh3VJiY",
+    "corpo": [
+      "Nonostante le pressioni dell'etichetta Epic Records per farne un singolo, la band si rifiutò sempre di pubblicarlo come tale: il cantante Eddie Vedder ha spiegato quella scelta dicendo che \"le canzoni fragili vengono schiacciate dal mercato. Io non voglio farne parte. Non credo che la band voglia farne parte\", temendo che il peso emotivo del brano venisse sminuito da un videoclip commerciale.",
+      "Vedder arrivò a chiamare personalmente i direttori di alcune radio per assicurarsi che l'etichetta non pubblicasse il brano come singolo contro la sua volontà. Nonostante questo, \"Black\" raggiunse comunque il terzo posto della classifica Mainstream Rock Tracks di Billboard nel 1993, pur senza mai essere stato distribuito come singolo ufficiale."
+    ],
+    "fraseIconica": "Il momento più ricordato è la constatazione finale che, per quanto un cielo possa restare pieno di stelle, per chi ha perso un amore importante può restare irrimediabilmente vuoto — un'immagine di perdita che la band ha sempre voluto proteggere dal trattamento commerciale riservato ai singoli.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pearl-jam/30319/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_(Pearl_Jam_song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "rottura"
+    ]
+  },
+  {
+    "slug": "postmortem",
+    "titolo": "Postmortem",
+    "artista": "Slayer",
+    "artistaSlug": "slayer",
+    "anno": "1986",
+    "album": "Reign in Blood",
+    "albumSlug": "reign-in-blood",
+    "genereTesto": "Thrash metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#4A1F1F",
+    "colore2": "#3A3A3A",
+    "ascolti": 24837916,
+    "ascoltiTesto": "25 mln ascolti",
+    "spotifyId": "28ILqSCrIeWvU52pyZfsxx",
+    "corpo": [
+      "Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di \"Reign in Blood\" prima della title track \"Raining Blood\" che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale, distribuita dalla Def Jam nel 1986 in anticipo sull'uscita del disco.",
+      "Il titolo, dal latino \"dopo la morte\", accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe."
+    ],
+    "fraseIconica": "Il momento più ricordato è la transizione diretta nel brano successivo, \"Raining Blood\", senza pause: la fine di \"Postmortem\" non è una conclusione ma un innesco, coerente con un testo che descrive la morte non come fine ma come soglia.",
+    "sezioniExtra": [],
+    "testoUrl": "https://readdork.com/lyrics/slayer-postmortem-1986",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Reign_in_Blood",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Dork",
+    "temi": [
+      "morte-lutto"
+    ]
   }
 ]
