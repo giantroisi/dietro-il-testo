@@ -2030,7 +2030,13 @@
         "titolo": "Machine Head",
         "anno": "1972",
         "nota": "certificato 2x platino RIAA, contiene \"Smoke on the Water\"",
-        "copertina": null,
+        "copertina": "Il titolo dell'album fu inciso su un foglio di metallo lucido, usato come specchio deformante per fotografare il riflesso della band; l'idea fu del bassista Roger Glover e del manager John Coletta, la foto del fotografo Shepard Sherbell.",
+        "copertinaFonte": [
+          {
+            "url": "https://norselandsrock.com/machine-head-deep-purple/",
+            "nome": "Rocking In the Norselands"
+          }
+        ],
         "slug": "machine-head"
       },
       {
@@ -4746,7 +4752,13 @@
         "titolo": "Appetite for Destruction",
         "anno": "1987",
         "nota": "certificato disco di diamante RIAA (18x platino), tra gli album di debutto più venduti di sempre con oltre 30 milioni di copie nel mondo",
-        "copertina": null,
+        "copertina": "La copertina originale riproduceva un dipinto di Robert Williams, dalla sua serie \"Su Cartoons\", raffigurante un angelo vendicatore che interrompe l'aggressione di un robot; lo stesso Williams sconsigliò alla band di usarla, prevedendo problemi. Dopo il rifiuto dei negozianti di vendere il disco, fu sostituita da un disegno con una croce e teschi, ideato da Axl Rose e realizzato dallo studente d'arte Billy White Jr., con il dipinto originale spostato all'interno della copertina.",
+        "copertinaFonte": [
+          {
+            "url": "https://ultimateclassicrock.com/guns-n-roses-appetite-for-destruction-cover-controversy/",
+            "nome": "Ultimate Classic Rock"
+          }
+        ],
         "slug": "appetite-for-destruction"
       },
       {
@@ -4821,7 +4833,13 @@
         "titolo": "The Number of the Beast",
         "anno": "1982",
         "nota": "certificato platino RIAA e 2x platino nel Regno Unito, debutto di Bruce Dickinson, oltre 14 milioni di copie vendute nel mondo",
-        "copertina": null,
+        "copertina": "Disegnata da Derek Riggs, raffigura la mascotte della band Eddie che controlla il diavolo come una marionetta; lo stesso Riggs ha raccontato di essersi ispirato a un fumetto letto negli anni '70 e di averla dipinta in fretta, dedicandole meno tempo rispetto alla copertina dell'album precedente, Killers.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/the-story-behind-iron-maiden-s-the-number-of-the-beast-album-artwork",
+            "nome": "Louder"
+          }
+        ],
         "slug": "the-number-of-the-beast"
       },
       {
@@ -7522,7 +7540,13 @@
         "titolo": "The Downward Spiral",
         "anno": "1994",
         "nota": "certificato 4x platino RIAA, candidato a due Grammy inclusa Best Rock Song per \"Hurt\"",
-        "copertina": null,
+        "copertina": "Intitolata \"Wound\", fu realizzata dall'artista britannico Russell Mills, contattato da Trent Reznor nel 1994: un pannello di legno ricoperto di gesso, oli, acrilici, metalli arrugginiti, insetti morti, cera, vernici e sangue dello stesso Mills, bendato chirurgicamente — un'opera che l'artista ha descritto come \"fisicamente nervosa e viscerale, come la musica\".",
+        "copertinaFonte": [
+          {
+            "url": "https://www.revolvermag.com/culture/nine-inch-nails-downward-spiral-story-behind-cover-art/",
+            "nome": "Revolver"
+          }
+        ],
         "slug": "the-downward-spiral"
       },
       {
@@ -7894,7 +7918,13 @@
         "titolo": "Ten",
         "anno": "1991",
         "nota": "certificato 13x platino RIAA, album di debutto",
-        "copertina": null,
+        "copertina": "Diretta artisticamente dal bassista Jeff Ament, mostra i membri della band con le mani alzate in un gesto di unità; lo stesso Ament ha spiegato che l'idea originale riguardava \"l'essere davvero insieme come gruppo ed entrare nel mondo della musica come una vera band... un patto tutti per uno\".",
+        "copertinaFonte": [
+          {
+            "url": "https://americansongwriter.com/the-all-for-one-story-behind-pearl-jams-album-cover-ten/",
+            "nome": "American Songwriter"
+          }
+        ],
         "slug": "ten"
       },
       {
@@ -9581,7 +9611,13 @@
         "titolo": "Reign in Blood",
         "anno": "1986",
         "nota": "certificato oro RIAA, considerato tra gli album thrash metal più influenti di sempre",
-        "copertina": null,
+        "copertina": "Realizzata dall'illustratore Larry Carroll, all'epoca noto per le illustrazioni politiche su testate come Village Voice e New York Times, contattato dal produttore Rick Rubin, colpito dal suo stile cupo; la band inizialmente non apprezzò il risultato, ma cambiò idea quando la madre di uno dei membri la trovò disgustosa.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/music/albums/slayer-reign-in-blood-larry-carroll",
+            "nome": "Louder"
+          }
+        ],
         "slug": "reign-in-blood"
       },
       {

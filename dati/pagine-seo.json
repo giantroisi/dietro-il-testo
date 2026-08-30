@@ -1764,9 +1764,9 @@
   {
     "percorso": "album/deep-purple/machine-head/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/depeche-mode/violator/",
@@ -1953,9 +1953,9 @@
   {
     "percorso": "album/guns-n-roses/appetite-for-destruction/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/guns-n-roses/use-your-illusion-i/",
@@ -1967,9 +1967,9 @@
   {
     "percorso": "album/iron-maiden/the-number-of-the-beast/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/iron-maiden/piece-of-mind/",
@@ -2226,9 +2226,9 @@
   {
     "percorso": "album/nine-inch-nails/the-downward-spiral/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/nirvana/nevermind/",
@@ -2282,9 +2282,9 @@
   {
     "percorso": "album/pearl-jam/ten/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/",
@@ -2394,9 +2394,9 @@
   {
     "percorso": "album/slayer/reign-in-blood/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/slipknot/slipknot/",

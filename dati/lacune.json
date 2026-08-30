@@ -50,6 +50,16 @@
     "motivo": "confermato il concept e la citazione di Hoppus (fonte: American Songwriter); tolto il dettaglio sulla Croce Rossa Americana, non verificabile con una fonte incollabile"
   },
   {
+    "id": "album:deep-purple:machine-head:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "deep-purple/machine-head",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Rocking In the Norselands, corroborata da più fonti indipendenti (Rolling Stone India, Guitar World)"
+  },
+  {
     "id": "album:green-day:american-idiot:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -58,6 +68,26 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata l'ispirazione a Saul Bass e la rapidità del lavoro (fonte primaria: intervista WWD, riportata da Green Day Authority); tolti il verso specifico e il riferimento alla propaganda cinese, non verificabili con una fonte incollabile"
+  },
+  {
+    "id": "album:guns-n-roses:appetite-for-destruction:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "guns-n-roses/appetite-for-destruction",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Ultimate Classic Rock (Nick DeRiso), con citazioni dirette di Robert Williams"
+  },
+  {
+    "id": "album:iron-maiden:the-number-of-the-beast:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "iron-maiden/the-number-of-the-beast",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Louder, con citazioni dirette di Derek Riggs"
   },
   {
     "id": "album:metallica:metallica-black-album:fonte-copertina",
@@ -90,6 +120,16 @@
     "motivo": "confermata integralmente: Gigwise cita direttamente Storm Thorgerson sui mali moderni (paranoia, intolleranza, narcisismo, avidità) e i quattro cavalieri"
   },
   {
+    "id": "album:nine-inch-nails:the-downward-spiral:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "nine-inch-nails/the-downward-spiral",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Revolver, con citazione diretta di Russell Mills"
+  },
+  {
     "id": "album:oasis:whats-the-story-morning-glory:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -98,6 +138,26 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata: Pixartprinting conferma fotografo, data (23 luglio 1995), luogo e identità delle due figure sfocate (Brian Cannon, Sean Rowley)"
+  },
+  {
+    "id": "album:pearl-jam:ten:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pearl-jam/ten",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: American Songwriter (Jacob Uitti), con citazione diretta di Jeff Ament"
+  },
+  {
+    "id": "album:slayer:reign-in-blood:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "slayer/reign-in-blood",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Louder, ricostruita da più articoli della stessa testata"
   },
   {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
@@ -248,9 +308,9 @@
     "tipo": "copertina-album",
     "soggetto": "bring-me-the-horizon/amo",
     "raccoglie": 3,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte di livello A/B trovata con una spiegazione citabile del design della copertina di \"amo\" (2019), nonostante ricerche ripetute su interviste e riviste musicali dell'epoca — le fonti trovate parlano del contesto dell'album (matrimonio finito, lutti) ma non della copertina stessa."
   },
   {
     "id": "album:bring-me-the-horizon:post-human-nex-gen:copertina",
@@ -258,69 +318,9 @@
     "tipo": "copertina-album",
     "soggetto": "bring-me-the-horizon/post-human-nex-gen",
     "raccoglie": 3,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:deep-purple:machine-head:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "deep-purple/machine-head",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:guns-n-roses:appetite-for-destruction:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "guns-n-roses/appetite-for-destruction",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:iron-maiden:the-number-of-the-beast:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "iron-maiden/the-number-of-the-beast",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:nine-inch-nails:the-downward-spiral:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "nine-inch-nails/the-downward-spiral",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pearl-jam:ten:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pearl-jam/ten",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:slayer:reign-in-blood:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "slayer/reign-in-blood",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "fonti secondarie non firmate attribuiscono la copertina ad Alissa Salls (moglie di Oli Sykes), ma nessuna fonte primaria (intervista, comunicato) con una citazione diretta pastabile è stata trovata — non abbastanza per pubblicare secondo lo standard del sito."
   },
   {
     "id": "album:sum-41:all-killer-no-filler:copertina",
