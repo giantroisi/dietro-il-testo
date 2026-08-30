@@ -2387,9 +2387,9 @@
   {
     "percorso": "album/simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/slayer/reign-in-blood/",
@@ -2408,16 +2408,16 @@
   {
     "percorso": "album/slipknot/all-hope-is-gone/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/soundgarden/superunknown/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/sum-41/all-killer-no-filler/",

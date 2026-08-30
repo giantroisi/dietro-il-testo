@@ -9881,7 +9881,13 @@
         "titolo": "Wednesday Morning, 3 A.M. / Sounds of Silence",
         "anno": "1964",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra il duo ritratto sulla banchina della stazione della metropolitana di New York alla Fifth Avenue/53rd Street; secondo un racconto di Art Garfunkel dal palco, durante la sessione fotografica centinaia di scatti risultarono inutilizzabili per una scritta oscena sul muro sullo sfondo — episodio che ispirò poi a Paul Simon il brano \"A Poem on the Underground Wall\" per un album successivo del duo.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Wednesday_Morning,_3_A.M.",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "wednesday-morning-3-a-m-sounds-of-silence"
       },
       {
@@ -10055,7 +10061,13 @@
         "titolo": "All Hope Is Gone",
         "anno": "2008",
         "nota": "certificato platino RIAA, debuttò al numero 1 della Billboard 200",
-        "copertina": null,
+        "copertina": "Mostra i nove membri mascherati della band in piedi in un campo d'erba sotto un cielo cupo e nuvoloso; l'ambientazione riflette il fatto che questo fu il primo album della band scritto e registrato interamente nel loro stato d'origine, l'Iowa, dopo che le troppe distrazioni di Los Angeles avevano condizionato le registrazioni precedenti.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/All_Hope_Is_Gone",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "all-hope-is-gone"
       },
       {
@@ -10136,7 +10148,13 @@
         "titolo": "Superunknown",
         "anno": "1994",
         "nota": null,
-        "copertina": null,
+        "copertina": "Conosciuta come \"Screaming Elf\", è una fotografia della band fortemente distorta e alterata, scattata dal fotografo Kevin Westenberg, sovrapposta a un'immagine in bianco e nero di una foresta in fiamme e capovolta. Chris Cornell ha spiegato: \"Superunknown in un certo senso riguarda la nascita... nascere o persino morire, l'essere catapultati in qualcosa che non si conosce affatto\", aggiungendo di essersi ispirato ai racconti d'infanzia in cui le foreste erano piene di cose malvagie e spaventose.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Superunknown",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "superunknown"
       },
       {

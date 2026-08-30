@@ -509,6 +509,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 
 - **30 agosto 2026 — Sezione 13, il punto:** scritta una sezione breve e deperibile con lo stato di oggi e i prossimi cinque passi in ordine, più il nuovo F70 (leggere i dati di Search Console e decidere di conseguenza, fra tre o quattro giorni). Registrato anche cosa **non** fare adesso: nessuna decisione grossa prima di F70, C5 non è una priorità, nessuna scorciatoia di visibilità. Il debito della routine è sceso da 227 a 24 voci, sotto la soglia di F67: le aggiunte di contenuto nuovo non sono più bloccate.
 
+- **30 agosto 2026 — Trentaseiesimo lotto F66 (8 voci C4): copertine di Simon & Garfunkel/Wednesday Morning 3 A.M., Slipknot/All Hope Is Gone, Soundgarden/Superunknown — cinque sospese, la resa più bassa da qualche lotto.**
+**Tre copertine documentate**, tutte con fonte Wikipedia solida: la banchina della metropolitana di New York per Simon & Garfunkel (con l'aneddoto diretto di Art Garfunkel sulla scritta oscena che ispirò poi un altro brano), il campo dell'Iowa per Slipknot, la "Screaming Elf" per Soundgarden con la citazione diretta di Chris Cornell sul significato legato alla nascita.
+**Cinque voci lasciate sospese**: Renato Zero/Erozero (le fonti confondevano l'anno e descrivevano un album diverso), Rino Gaetano/il singolo del 1975 (nessuna fonte sulla copertina originale), Slipknot/l'esordio omonimo del 1999 (le uniche fonti trovate offrivano un racconto confuso su maschere e membri, non chiaramente verificabile — scartato piuttosto che rischiare un dettaglio sbagliato), Sum 41/Does This Look Infected e System of a Down/Mezmerize (in entrambi i casi confermati solo i crediti, non cosa raffiguri realmente la copertina).
+**I quattro numeri del lotto**: 8 cercate, 3 trovate, 0 accertate assenti, 5 sospese.
+**Debito aperto**: sceso da 24 a **16**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Superunknown" (copertina documentata, fonte citata, citazione di Cornell corretta, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

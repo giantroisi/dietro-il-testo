@@ -750,6 +750,36 @@
     "motivo": "confermata: Wikipedia"
   },
   {
+    "id": "album:simon-garfunkel:wednesday-morning-3-a-m-sounds-of-silence:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con aneddoto diretto di Art Garfunkel"
+  },
+  {
+    "id": "album:slipknot:all-hope-is-gone:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "slipknot/all-hope-is-gone",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:soundgarden:superunknown:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "soundgarden/superunknown",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con citazione diretta di Chris Cornell"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1208,9 +1238,9 @@
     "tipo": "copertina-album",
     "soggetto": "renato-zero/erozero",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva la copertina di questo specifico album (le fonti disponibili confondono l'anno di pubblicazione e descrivono un album diverso, 'Trapezio' del 1976)"
   },
   {
     "id": "album:rino-gaetano:singolo:copertina",
@@ -1218,29 +1248,9 @@
     "tipo": "copertina-album",
     "soggetto": "rino-gaetano/singolo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:simon-garfunkel:wednesday-morning-3-a-m-sounds-of-silence:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:slipknot:all-hope-is-gone:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "slipknot/all-hope-is-gone",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva la copertina del 45 giri originale del 1975"
   },
   {
     "id": "album:slipknot:slipknot:copertina",
@@ -1248,19 +1258,9 @@
     "tipo": "copertina-album",
     "soggetto": "slipknot/slipknot",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:soundgarden:superunknown:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "soundgarden/superunknown",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: le uniche fonti trovate offrono un racconto confuso e non chiaramente verificabile (dettagli su maschere e membri che sembrano mescolare epoche diverse della band); Wikipedia conferma solo i crediti fotografici (Stefan Seskis, Dean Karr) senza descrivere il soggetto"
   },
   {
     "id": "album:sum-41:does-this-look-infected:copertina",
@@ -1268,9 +1268,9 @@
     "tipo": "copertina-album",
     "soggetto": "sum-41/does-this-look-infected",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte descrive cosa raffiguri la copertina, solo giudizi generici di recensori sulla sua qualità grafica"
   },
   {
     "id": "album:system-of-a-down:mezmerize:copertina",
@@ -1278,9 +1278,9 @@
     "tipo": "copertina-album",
     "soggetto": "system-of-a-down/mezmerize",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: confermato solo che il disegno è del padre di Daron Malakian, Vartan Malakian, pensato in coppia con la copertina di 'Hypnotize', ma nessuna fonte descrive cosa raffiguri effettivamente"
   },
   {
     "id": "album:the-beatles:singolo-poi-in-hey-jude-1970:copertina",
