@@ -510,6 +510,46 @@
     "motivo": "confermata: Loudwire, con citazione diretta di Mike Shinoda"
   },
   {
+    "id": "album:lucio-battisti:il-mio-canto-libero:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "lucio-battisti/il-mio-canto-libero",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con citazione diretta del fotografo Cesare Montalbetti"
+  },
+  {
+    "id": "album:lynyrd-skynyrd:second-helping:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "lynyrd-skynyrd/second-helping",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: American Songwriter, attribuzione all'artista Jan Salerno"
+  },
+  {
+    "id": "album:megadeth:peace-sells-but-whos-buying:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "megadeth/peace-sells-but-whos-buying",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con citazione diretta sul concept dell'immagine"
+  },
+  {
+    "id": "album:metallica:and-justice-for-all:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "metallica/and-justice-for-all",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con citazione diretta di Lars Ulrich"
+  },
+  {
     "id": "album:metallica:master-of-puppets:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -883,24 +923,14 @@
     "motivo": "sospeso: un riassunto di ricerca descriveva maschere teatrali scelte dai musicisti e un teatro di Correggio, ma sia Wikipedia sia la fonte originale (spettakolo.it, bloccata/403) non hanno confermato il dettaglio con una citazione verificabile"
   },
   {
-    "id": "album:lucio-battisti:il-mio-canto-libero:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "lucio-battisti/il-mio-canto-libero",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:lucio-dalla:dallamericaruso:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "lucio-dalla/dallamericaruso",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina, solo dettagli tecnici sulla confezione (gatefold, inserti con testo di Caruso)"
   },
   {
     "id": "album:lucio-dalla:storie-di-casa-mia:copertina",
@@ -908,19 +938,9 @@
     "tipo": "copertina-album",
     "soggetto": "lucio-dalla/storie-di-casa-mia",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:lynyrd-skynyrd:second-helping:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "lynyrd-skynyrd/second-helping",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: le uniche fonti trovate menzionano solo il colore giallo dominante, senza descrivere cosa raffigura effettivamente la copertina"
   },
   {
     "id": "album:machine-gun-kelly:tickets-to-my-downfall:copertina",
@@ -928,9 +948,9 @@
     "tipo": "copertina-album",
     "soggetto": "machine-gun-kelly/tickets-to-my-downfall",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: fonti concordi su una controversia (la prima copertina, uno schizzo di un uomo che cade, fu ritirata perché copiata da una foto senza diritti) ma nessuna fonte verificata alla lettera descrive cosa raffiguri la copertina definitiva"
   },
   {
     "id": "album:megadeth:countdown-to-extinction:copertina",
@@ -938,29 +958,9 @@
     "tipo": "copertina-album",
     "soggetto": "megadeth/countdown-to-extinction",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:megadeth:peace-sells-but-whos-buying:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "megadeth/peace-sells-but-whos-buying",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:metallica:and-justice-for-all:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "metallica/and-justice-for-all",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: fonti in conflitto sul soggetto raffigurato (un animale con corna secondo una ricerca, un uomo anziano secondo la voce Wikipedia consultata direttamente), non risolvibile con le fonti disponibili"
   },
   {
     "id": "album:metallica:ride-the-lightning:copertina",

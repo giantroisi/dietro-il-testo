@@ -2072,9 +2072,9 @@
   {
     "percorso": "album/lucio-battisti/il-mio-canto-libero/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/lucio-dalla/storie-di-casa-mia/",
@@ -2100,9 +2100,9 @@
   {
     "percorso": "album/lynyrd-skynyrd/second-helping/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/machine-gun-kelly/tickets-to-my-downfall/",
@@ -2114,9 +2114,9 @@
   {
     "percorso": "album/megadeth/peace-sells-but-whos-buying/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/megadeth/countdown-to-extinction/",
@@ -2142,9 +2142,9 @@
   {
     "percorso": "album/metallica/and-justice-for-all/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/metallica/metallica-black-album/",

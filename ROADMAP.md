@@ -471,6 +471,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 64 a **56** — a un solo lotto dalla soglia dei 50 imposta da F67.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Led Zeppelin IV" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Trentaduesimo lotto F66 (8 voci C4): copertine di Lucio Battisti/Il mio canto libero, Lynyrd Skynyrd/Second Helping, Megadeth/Peace Sells... But Who's Buying?, Metallica/...And Justice for All — quattro sospese. Il debito aperto scende sotto la soglia dei 50 per la prima volta da quando esiste il freno F67.**
+**Quattro copertine documentate**, tra cui due con citazione diretta di un protagonista: il fotografo Cesare Montalbetti per Battisti ("Radunai una cinquantina di amici. Feci sdraiare tutti a terra e chiesi loro di alzare le braccia") e il batterista Lars Ulrich per Metallica, sull'intento della Giustizia incrinata come simbolo del sistema giudiziario americano.
+**Quattro voci lasciate sospese**: due album di Lucio Dalla (Dallamericaruso, di cui si trovano solo dettagli tecnici sulla confezione, e Storie di casa mia, per cui le fonti citano solo il colore giallo dominante senza descrivere il soggetto), Machine Gun Kelly/Tickets to My Downfall (la prima copertina fu ritirata per un problema di diritti su una foto non autorizzata, ma nessuna fonte verificata descrive alla lettera quella definitiva) e Megadeth/Countdown to Extinction, scartata per un conflitto reale tra fonti: una ricerca descriveva un animale con corna, la voce Wikipedia consultata direttamente un uomo anziano — nessuna delle due verificabile con certezza sull'altra, quindi nessuna pubblicata.
+**Diversi 403 incontrati e aggirati con fonti alternative** (Rockol, AltPress, Revolver Magazine bloccati; sostituiti con Wikipedia e American Songwriter dove disponibili una spiegazione equivalente e verificabile).
+**I quattro numeri del lotto**: 8 cercate, 4 trovate, 0 accertate assenti, 4 sospese.
+**Debito aperto**: sceso da 56 a **48** — sotto la soglia dei 50 per la prima volta: F67 permetterebbe ora contenuti nuovi già conformi allo standard 4A, ma la routine continua comunque a ridurre il debito residuo prima di considerare quell'opzione.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "...And Justice for All" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

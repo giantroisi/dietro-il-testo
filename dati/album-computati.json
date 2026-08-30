@@ -7473,10 +7473,10 @@
     "slug": "il-mio-canto-libero",
     "titolo": "Il mio canto libero",
     "anno": "1972",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7902,10 +7902,10 @@
     "slug": "second-helping",
     "titolo": "Second Helping",
     "anno": "1974",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -8122,10 +8122,10 @@
     "slug": "peace-sells-but-whos-buying",
     "titolo": "Peace Sells... but Who's Buying?",
     "anno": "1986",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -8320,10 +8320,10 @@
     "slug": "and-justice-for-all",
     "titolo": "...And Justice for All",
     "anno": "1988",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
