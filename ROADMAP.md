@@ -420,6 +420,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 120 a **112**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Ten" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Venticinquesimo lotto F66 (8 voci C4): copertine di Sum 41/All Killer No Filler, System of a Down/Toxicity, a-ha/Hunting High and Low, AC/DC/Highway to Hell, Adele/21, Adriano Celentano/Azzurro — due sospese.**
+**Sei copertine documentate**, con fonti che vanno da testate consolidate (Variety, Louder, Wikipedia) a un blog musicale dettagliato con crediti fotografici precisi (Riffology per Sum 41). Per Celentano, la fonte è Wikipedia da sola: ammissibile perché descrive un fatto strutturale semplice ("cosa raffigura la foto"), non un'interpretazione di significato, per cui la Costituzione richiederebbe un livello più alto.
+**Due voci lasciate sospese**: la copertina del primo album omonimo dei 5 Seconds of Summer (frammenti sparsi, nessuna fonte con spiegazione citabile) e quella di "Hanno ucciso l'Uomo Ragno" degli 883 (trovato solo il significato della canzone, non della copertina dell'album).
+**I quattro numeri del lotto**: 8 cercate, 6 trovate, 0 accertate assenti, 2 sospese.
+**Debito aperto**: sceso da 112 a **104**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Toxicity" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

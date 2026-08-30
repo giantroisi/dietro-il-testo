@@ -160,6 +160,66 @@
     "motivo": "confermata: Louder, ricostruita da più articoli della stessa testata"
   },
   {
+    "id": "album:sum-41:all-killer-no-filler:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "sum-41/all-killer-no-filler",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Riffology (Neil Johnson), con crediti fotografici precisi"
+  },
+  {
+    "id": "album:system-of-a-down:toxicity:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "system-of-a-down/toxicity",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Variety (oral history dell'album), con dettagli specifici su designer e licenza"
+  },
+  {
+    "id": "album:a-ha:hunting-high-and-low:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "a-ha/hunting-high-and-low",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Popdose, con dettagli sul fotografo e la direttrice artistica"
+  },
+  {
+    "id": "album:ac-dc:highway-to-hell:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/highway-to-hell",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Louder"
+  },
+  {
+    "id": "album:adele:21:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adele/21",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia (voce dedicata alla fotografa Lauren Dukoff), fatto strutturale corroborato da più fonti"
+  },
+  {
+    "id": "album:adriano-celentano:azzurro-una-carezza-in-un-pugno:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adriano-celentano/azzurro-una-carezza-in-un-pugno",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, fatto descrittivo semplice (cosa raffigura), non un'interpretazione"
+  },
+  {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -323,34 +383,14 @@
     "motivo": "fonti secondarie non firmate attribuiscono la copertina ad Alissa Salls (moglie di Oli Sykes), ma nessuna fonte primaria (intervista, comunicato) con una citazione diretta pastabile è stata trovata — non abbastanza per pubblicare secondo lo standard del sito."
   },
   {
-    "id": "album:sum-41:all-killer-no-filler:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "sum-41/all-killer-no-filler",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:system-of-a-down:toxicity:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "system-of-a-down/toxicity",
-    "raccoglie": 2,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:5-seconds-of-summer:5-seconds-of-summer:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/5-seconds-of-summer",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovati solo frammenti sparsi (disegni di Ashton Irwin, design di Richard Andrews) senza una fonte primaria con spiegazione citabile del concept della copertina — non abbastanza per lo standard del sito."
   },
   {
     "id": "album:883:hanno-ucciso-luomo-ragno:copertina",
@@ -358,49 +398,9 @@
     "tipo": "copertina-album",
     "soggetto": "883/hanno-ucciso-luomo-ragno",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:hunting-high-and-low:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/hunting-high-and-low",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:highway-to-hell:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/highway-to-hell",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adele:21:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adele/21",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:azzurro-una-carezza-in-un-pugno:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/azzurro-una-carezza-in-un-pugno",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovato molto materiale sul significato della canzone omonima (l'Uomo Ragno come simbolo della purezza adolescenziale), ma nessuna fonte con una descrizione o spiegazione della copertina dell'album stesso, nonostante ricerche mirate."
   },
   {
     "id": "album:al-bano-e-romina-power:felicita:copertina",

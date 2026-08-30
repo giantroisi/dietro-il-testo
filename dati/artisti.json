@@ -129,7 +129,13 @@
         "titolo": "Hunting High and Low",
         "anno": "1985",
         "nota": null,
-        "copertina": null,
+        "copertina": "Scattata dal fotografo Just Loomis, che trascorse cinque giorni con la band a Londra nel 1985; fu scelto dalla direttrice artistica della Warner Bros. Jeri Heiden, che apprezzava il suo stile da reportage informale con la band. Il risultato le valse una candidatura al Grammy per il miglior album artwork nel 1986.",
+        "copertinaFonte": [
+          {
+            "url": "https://popdose.com/uncovered-a-ha-hunting-high-and-low/",
+            "nome": "Popdose"
+          }
+        ],
         "slug": "hunting-high-and-low"
       },
       {
@@ -252,7 +258,13 @@
         "titolo": "Highway to Hell",
         "anno": "1979",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra Angus Young con corna e coda forcuta da diavolo accanto a un Bon Scott sorridente; una prima versione, con la band avvolta dalle fiamme e il manico di un basso proteso come una strada verso il tramonto, fu respinta dall'etichetta americana perché ritenuta troppo diabolica e restò in uso solo in Australia fino al 1995.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/no-speed-limit-the-story-of-acdcs-highway-to-hell-album",
+            "nome": "Louder"
+          }
+        ],
         "slug": "highway-to-hell"
       },
       {
@@ -360,7 +372,13 @@
         "titolo": "21",
         "anno": "2011",
         "nota": null,
-        "copertina": null,
+        "copertina": "Un primo piano in bianco e nero del volto di Adele, fotografato da Lauren Dukoff durante un servizio a Santa Monica nel 2010; Dukoff, che seguiva Adele fin dal precedente album \"19\", firmò anche l'intero booklet del disco e le copertine dei primi quattro singoli.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Lauren_Dukoff",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "21"
       },
       {
@@ -447,7 +465,13 @@
         "titolo": "Azzurro / Una carezza in un pugno",
         "anno": "1968",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura Celentano seduto su una vecchia automobile; è la stessa immagine usata per il singolo omonimo, con solo la dimensione dei caratteri dei titoli modificata per l'album.",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Azzurro/Una_carezza_in_un_pugno_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "azzurro-una-carezza-in-un-pugno"
       },
       {
@@ -9845,7 +9869,13 @@
         "titolo": "All Killer No Filler",
         "anno": "2001",
         "nota": "certificato platino RIAA, 3x platino in Canada, 2x platino nel Regno Unito",
-        "copertina": null,
+        "copertina": "Una griglia di sedici fotografie scattate al flash, ognuna con un primo piano di un membro della band mentre fa una smorfia — lingua di fuori, occhi strabuzzati, naso rialzato — con un'estetica volutamente casalinga, da macchina fotografica economica; la fotografia della copertina esterna è di Jonathan Mannion, il design di Kim Kinakin.",
+        "copertinaFonte": [
+          {
+            "url": "https://riffology.co/posts/all-killer-no-filler-by-sum-41-the-complete-story-riffology/",
+            "nome": "Riffology"
+          }
+        ],
         "slug": "all-killer-no-filler"
       },
       {
@@ -9937,7 +9967,13 @@
         "titolo": "Toxicity",
         "anno": "2001",
         "nota": "certificato 6x platino RIAA, debuttò al numero 1 della Billboard 200",
-        "copertina": null,
+        "copertina": "Raffigura la celebre scritta Hollywood, in una versione minimalista e spogliata del suo solito glamour firmata da Vartan Malakian (padre del chitarrista Daron); l'idea nacque quando il bassista Shavo Odadjian, fuori dagli studi di registrazione, vide la scritta vera e propose di sostituirla idealmente col nome della band, dato che erano di Los Angeles. Per usarla legalmente la band pagò 20 mila dollari di licenza alla Camera di Commercio di Hollywood, proprietaria dei diritti sul simbolo.",
+        "copertinaFonte": [
+          {
+            "url": "https://variety.com/2021/music/news/system-of-a-down-toxicity-album-oral-history-1235054344",
+            "nome": "Variety"
+          }
+        ],
         "slug": "toxicity"
       },
       {

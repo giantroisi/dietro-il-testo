@@ -1596,30 +1596,30 @@
   {
     "percorso": "album/a-ha/hunting-high-and-low/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ac-dc/highway-to-hell/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/adele/21/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/adriano-celentano/azzurro-una-carezza-in-un-pugno/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/al-bano-e-romina-power/felicita/",
@@ -2422,9 +2422,9 @@
   {
     "percorso": "album/sum-41/all-killer-no-filler/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/sum-41/does-this-look-infected/",
@@ -2443,9 +2443,9 @@
   {
     "percorso": "album/system-of-a-down/toxicity/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 2,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/system-of-a-down/mezmerize/",
