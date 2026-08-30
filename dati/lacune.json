@@ -560,6 +560,66 @@
     "motivo": "confermata: Loudersound conferma lo schizzo di Hetfield e il tema di dipendenza/futilità; il dettaglio sui fili del burattinaio è descrizione visiva diretta dell'opera, non un'attribuzione da fonte"
   },
   {
+    "id": "album:metallica:ride-the-lightning:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "metallica/ride-the-lightning",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, descrizione dettagliata del concept"
+  },
+  {
+    "id": "album:motorhead:ace-of-spades:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "motorhead/ace-of-spades",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Riffology, dettagli sullo scatto e sull'aerografo"
+  },
+  {
+    "id": "album:muse:the-resistance:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "muse/the-resistance",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con attribuzione allo studio La Boca"
+  },
+  {
+    "id": "album:my-chemical-romance:the-black-parade:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "my-chemical-romance/the-black-parade",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con credit a Gerard Way e James Jean"
+  },
+  {
+    "id": "album:naska:la-mia-stanza:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "naska/la-mia-stanza",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Lattemiele, con citazione diretta di Naska"
+  },
+  {
+    "id": "album:nirvana:nevermind:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "nirvana/nevermind",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, dettagli sul fotografo e sul concept originario di Cobain"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -963,34 +1023,14 @@
     "motivo": "sospeso: fonti in conflitto sul soggetto raffigurato (un animale con corna secondo una ricerca, un uomo anziano secondo la voce Wikipedia consultata direttamente), non risolvibile con le fonti disponibili"
   },
   {
-    "id": "album:metallica:ride-the-lightning:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "metallica/ride-the-lightning",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:mina:il-cielo-in-una-stanza:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "mina/il-cielo-in-una-stanza",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:motorhead:ace-of-spades:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "motorhead/ace-of-spades",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: le fonti descrivono solo la storia della canzone e l'esistenza di più copertine alternative del singolo, nessuna descrive cosa raffigura effettivamente la copertina dell'album"
   },
   {
     "id": "album:motorhead:overkill:copertina",
@@ -998,49 +1038,9 @@
     "tipo": "copertina-album",
     "soggetto": "motorhead/overkill",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:muse:the-resistance:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "muse/the-resistance",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:my-chemical-romance:the-black-parade:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "my-chemical-romance/the-black-parade",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:naska:la-mia-stanza:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "naska/la-mia-stanza",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:nirvana:nevermind:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "nirvana/nevermind",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: confermato solo che Joe Petagno realizzò l'artwork, nessuna fonte descrive cosa raffigura o il suo significato"
   },
   {
     "id": "album:ozzy-osbourne:bark-at-the-moon:copertina",

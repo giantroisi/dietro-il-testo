@@ -479,6 +479,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 56 a **48** — sotto la soglia dei 50 per la prima volta: F67 permetterebbe ora contenuti nuovi già conformi allo standard 4A, ma la routine continua comunque a ridurre il debito residuo prima di considerare quell'opzione.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "...And Justice for All" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Trentatreesimo lotto F66 (8 voci C4): copertine di Metallica/Ride the Lightning, Motörhead/Ace of Spades, Muse/The Resistance, My Chemical Romance/The Black Parade, Naska/La mia stanza, Nirvana/Nevermind — due sospese.**
+**Sei copertine documentate**, con fonti solide (Wikipedia con bibliografia tracciabile per quattro di esse, Riffology con dettagli molto specifici sullo scatto di "Ace of Spades", Lattemiele con citazione diretta di Naska sui poster di Nirvana e Blink-182 in copertina).
+**Un mio errore trovato e corretto prima di pubblicare**: lo script Python di scrittura presuppone che ogni voce album abbia già una chiave `copertina` (anche `null`) da sostituire; per Muse/The Resistance quella chiave non esisteva affatto nei dati, quindi il primo tentativo di scrittura non ha prodotto alcun effetto — `lacune.mjs` non ha generato la nuova voce C1 attesa per quell'album, segnale che ha permesso di accorgersene subito. Corretto con uno script dedicato che inserisce la chiave se mancante, verificato che tutte le altre cinque voci del lotto fossero state scritte correttamente prima di procedere.
+**Due voci lasciate sospese**: Mina/Il cielo in una stanza (le fonti raccontano solo la storia della canzone e l'esistenza di copertine alternative del singolo, non cosa raffigura la copertina dell'album) e Motörhead/Overkill (confermato solo che l'artwork è di Joe Petagno, nessuna fonte ne descrive il soggetto).
+**I quattro numeri del lotto**: 8 cercate, 6 trovate, 0 accertate assenti, 2 sospese.
+**Debito aperto**: sceso da 48 a **40**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Nevermind" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

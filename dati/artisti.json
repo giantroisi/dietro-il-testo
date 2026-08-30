@@ -6633,7 +6633,13 @@
         "titolo": "Ride the Lightning",
         "anno": "1984",
         "nota": "certificato 6x Platino RIAA",
-        "copertina": null,
+        "copertina": "Raffigura una sedia elettrica colpita da fulmini che scaturiscono dal logo appuntito della band, su uno sfondo blu scuro; il concept, ideato dalla band prima ancora di iniziare le registrazioni, riprende il titolo scelto dal chitarrista Kirk Hammett da un passaggio del romanzo \"L'ombra dello scorpione\" di Stephen King, dove la frase indica l'esecuzione sulla sedia elettrica.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ride_the_Lightning",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "ride-the-lightning"
       },
       {
@@ -7415,7 +7421,13 @@
         "titolo": "Ace of Spades",
         "anno": "1980",
         "nota": "certificato oro nel Regno Unito, considerato il loro album più iconico e influente (citato da Metallica, Megadeth, Slayer e Anthrax tra le proprie influenze)",
-        "copertina": null,
+        "copertina": "Ritrae i tre membri della band vestiti da archetipi western in un'ambientazione da deserto, incorniciati da un bordo a forma di carta da gioco ideato dall'artista Joe Petagno; lo scatto fu realizzato da Alan Ballard in una cava di sabbia vicino a Barnet, a nord-est di Londra — il cielo desertico visibile in copertina non era reale: la giornata dello scatto era nuvolosa e il cielo fu aggiunto in seguito con l'aerografo.",
+        "copertinaFonte": [
+          {
+            "url": "https://riffology.co/2024/08/12/motorhead-ace-of-spades/",
+            "nome": "Riffology"
+          }
+        ],
         "slug": "ace-of-spades"
       },
       {
@@ -7600,6 +7612,13 @@
         "titolo": "The Resistance",
         "anno": "2009",
         "nota": "certificato 2x platino nel Regno Unito e platino RIAA, Grammy Best Rock Album 2011",
+        "copertina": "Mostra una figura umana che cammina su un sentiero illuminato circondato da un caleidoscopio di esagoni colorati, con la Terra visibile sullo sfondo; l'illustrazione, realizzata dallo studio di design La Boca, si è aggiudicata il titolo di miglior copertina del 2009 in un sondaggio del rivenditore Art Vinyl.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Resistance_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "the-resistance"
       },
       {
@@ -7680,7 +7699,13 @@
         "titolo": "The Black Parade",
         "anno": "2006",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura una piccola figura scheletrica in tenuta da banda musicale marciante, insieme al titolo dell'album; la direzione artistica è di Gerard Way, le illustrazioni dell'artista James Jean.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Black_Parade",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "the-black-parade"
       },
       {
@@ -7718,7 +7743,13 @@
         "titolo": "La mia stanza",
         "anno": "2023",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura la cameretta di Naska, decorata con poster di Nirvana e Blink-182; l'artista ha spiegato: \"Rappresentano la mia infanzia. Sono cresciuto ascoltando loro, insieme ai Green Day e ai Sum41\".",
+        "copertinaFonte": [
+          {
+            "url": "https://www.lattemiele.com/interviste/naska-la-mia-stanza/",
+            "nome": "Lattemiele"
+          }
+        ],
         "slug": "la-mia-stanza"
       }
     ],
@@ -7823,7 +7854,13 @@
         "titolo": "Nevermind",
         "anno": "1991",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra un neonato che nuota nudo sott'acqua, protendendosi verso una banconota da un dollaro appesa a un amo da pesca appena fuori dalla sua portata; il bambino, di quattro mesi, è Spencer Elden, figlio di un amico del fotografo Kirk Weddle, che scattò lo scatto in una piscina per neonati. L'idea originaria di Kurt Cobain era ispirata a un parto in acqua: propose all'art director della Geffen, Robert Fisher, di usare immagini di repertorio di un parto subacqueo, ma risultarono troppo esplicite per l'etichetta.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Nevermind",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "nevermind"
       },
       {

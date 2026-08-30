@@ -2128,9 +2128,9 @@
   {
     "percorso": "album/metallica/ride-the-lightning/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/metallica/master-of-puppets/",
@@ -2184,9 +2184,9 @@
   {
     "percorso": "album/motorhead/ace-of-spades/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/muse/black-holes-and-revelations/",
@@ -2198,9 +2198,9 @@
   {
     "percorso": "album/muse/the-resistance/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/muse/drones/",
@@ -2212,16 +2212,16 @@
   {
     "percorso": "album/my-chemical-romance/the-black-parade/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/naska/la-mia-stanza/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/nine-inch-nails/the-downward-spiral/",
@@ -2233,9 +2233,9 @@
   {
     "percorso": "album/nirvana/nevermind/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/oasis/definitely-maybe/",
