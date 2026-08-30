@@ -79,6 +79,7 @@ Questa sezione viene aggiornata a ogni intervento. Gli stati ammessi sono: `da f
 | F67 — Freno alle aggiunte nuove | completato (deroga esplicita in corso, vedi registro) | 28 agosto 2026 | Implementato come sottoprodotto di F65: `scripts/lacune.mjs` stampa il debito aperto come primo numero e segnala esplicitamente se supera 50. **28 agosto 2026, deroga dell'autore**: "riprendi il lavoro... aggiungi canzoni nuove", dato col debito a 204 — ben sopra soglia. L'autore può derogare la propria regola (lo dice il testo stesso di F67), ma solo esplicitamente e nel documento: questa riga è quella dichiarazione |
 | F68 — IndexNow per Bing, Yandex e gli altri | completato — da lanciare a ogni pubblicazione | 30 agosto 2026 | `scripts/indexnow.mjs` segnala gli indirizzi cambiati (`--tutti` per il primo invio, `--prova` per vedere cosa manderebbe senza mandarlo). Chiave in `dati/indexnow.json`, file di proprietà generato dal generatore: la chiave sta in un posto solo (P9). Google non usa IndexNow — per Google restano sitemap e Search Console. Verificato a secco: 302 indirizzi raccolti dalle cinque sitemap, nessuno dei quali `noindex` |
 | F69 — Tag di verifica pronti senza toccare il codice | completato — in attesa dei codici | 30 agosto 2026 | I codici di Search Console e Bing vivono in `dati/verifiche.json`: quando l'autore li riceve gli basta incollarli e rigenerare. Un campo vuoto non produce nessun tag (mai un meta con contenuto finto). Emessi solo sulla home, che è la pagina da cui entrambi i motori verificano: provato con valori finti, comparsi in home e su nessuna delle altre 423 pagine |
+| F70 — Leggere i dati dei motori e decidere di conseguenza | da fare — fra tre o quattro giorni | 30 agosto 2026 | Primo intervento che nasce dai dati invece che dai file, possibile solo ora che F41 è chiuso. Aprire Search Console → **Pagine** e leggere quante delle pagine indicizzabili sono state indicizzate, quante scartate e con quale motivo. I tre esiti portano a tre rimedi diversi e incompatibili: se le pagine non vengono nemmeno scoperte serve lavorare sui collegamenti in entrata; se vengono scoperte e non indicizzate è un giudizio di qualità e va guardato *quali* pagine; se è solo lentezza non va fatto niente. **Non decidere prima di aver letto: è il motivo per cui abbiamo collegato gli strumenti** |
 
 ### Target di performance dichiarato (F31)
 
@@ -505,6 +506,8 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **I quattro numeri del lotto**: 8 cercate, 7 trovate, 0 accertate assenti, 1 sospesa.
 **Debito aperto**: sceso da 32 a **24**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Mutter" (copertina documentata con testo fattuale e rispettoso, fonte citata, nessun errore console).
+
+- **30 agosto 2026 — Sezione 13, il punto:** scritta una sezione breve e deperibile con lo stato di oggi e i prossimi cinque passi in ordine, più il nuovo F70 (leggere i dati di Search Console e decidere di conseguenza, fra tre o quattro giorni). Registrato anche cosa **non** fare adesso: nessuna decisione grossa prima di F70, C5 non è una priorità, nessuna scorciatoia di visibilità. Il debito della routine è sceso da 227 a 24 voci, sotto la soglia di F67: le aggiunte di contenuto nuovo non sono più bloccate.
 
 ### Regola di aggiornamento
 
@@ -1137,4 +1140,26 @@ Il numero non è sacro e può essere cambiato dall'autore, ma va cambiato **espl
 - **Non deve riempire i campi che non sono lacune** (`paese`, `sezioniExtra`, terzo paragrafo del corpo).
 - **Non deve accorpare i lotti** per andare più veloce. Otto voci per volta, verificate, sono più di ottanta scritte e da ricontrollare.
 - **Non deve chiudere una voce come `fatto` senza il passo 5.** La verifica indipendente non è la parte facoltativa: è quella che ha trovato gli errori tutte le volte che è stata fatta.
+
+---
+
+## 13. Il punto al 30 agosto 2026 — cosa fare adesso
+
+Sezione breve e deperibile: dice dove siamo e cosa viene dopo. Va riscritta ogni volta che il quadro cambia, non accumulata.
+
+**Dove siamo.** L'architettura della sezione 11 è costruita e pubblicata. La routine della sezione 12 gira: C1, C2 e C3 sono chiuse, il debito è passato da 227 voci a **24** ed è sceso sotto la soglia di F67 — le aggiunte di contenuto nuovo non sono più bloccate. Search Console e Bing sono collegati e ricevono le sitemap. **Per la prima volta il sito è osservabile:** da adesso le decisioni possono nascere dai dati dei motori invece che dalla lettura dei file.
+
+### Da fare, in quest'ordine
+
+1. **Riprovare IndexNow** (F68). La chiave è pubblicata e valida; al primo invio IndexNow non l'aveva ancora letta. Un comando, nessuna modifica: `node scripts/indexnow.mjs --tutti`.
+2. **Scrivere la firma** (F61). Campo `nome` in `dati/autore.json`. Finché è vuoto la pagina "Chi c'è dietro" regge lo stesso, ma dice "una persona sola" invece di dire chi.
+3. **Chiudere le 24 copertine di C4** (F66). Sono le ultime che sbloccano una pagina album; C5 non ha la stessa resa.
+4. **Leggere i dati e decidere** (F70). Fra tre o quattro giorni, non prima: serve che i motori abbiano scansionato.
+5. **Poi, e solo con i dati in mano, i temi** (F30). È la leva SEO più grossa ancora inutilizzata — "canzoni sulla depressione", "canzoni di protesta" sono ricerche frequenti ed esattamente ciò che questo sito sa fare — ma costa lavoro editoriale su tutte le schede. Affrontarla al buio significa sceglierne i temi a intuito.
+
+### Da non fare adesso
+
+- **Nessuna decisione grossa prima di F70.** Abbiamo aspettato di poter misurare: sarebbe assurdo tornare a decidere a intuito il giorno in cui i dati arrivano.
+- **C5 (1.190 copertine) non è una priorità.** Sta fuori dal debito apposta: una copertina lì fa nascere una pagina che nessuno cerca, non ne sblocca una che esiste già.
+- **Nessuna scorciatoia di visibilità.** Directory, invii massivi ai motori, scambi o acquisti di collegamenti: inutili nel migliore dei casi, dannosi nel peggiore. Ciò che manca a questo sito sono citazioni vere, e quelle non si comprano.
 
