@@ -495,6 +495,13 @@ scrivi('ricerca.js', generaRicerca(ctx));
 for (const f of ['logo.png', 'favicon.ico', 'favicon-32.png', 'favicon-192.png', 'apple-touch-icon.png']) {
   if (existsSync(join(ROOT, f))) cpSync(join(ROOT, f), join(OUT, f));
 }
+// F68: il file di proprietà IndexNow. Deve chiamarsi come la chiave e contenere
+// la chiave: è così che Bing verifica che chi segnala gli URL possieda il sito.
+// Il nome sta in dati/indexnow.json, mai scritto a mano in due posti (P9).
+if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
+  const chiaveIndexNow = JSON.parse(readFileSync(join(ROOT, 'dati', 'indexnow.json'), 'utf8')).indexnow;
+  if (chiaveIndexNow) writeFileSync(join(OUT, `${chiaveIndexNow}.txt`), chiaveIndexNow, 'utf8');
+}
 // immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
 if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
 

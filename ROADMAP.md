@@ -400,6 +400,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano (verificato che `album/toto-cutugno/singolo/` sia sparita e il redirect compaia in `vercel.json`), verificato nel browser la scheda di "L'italiano" (album corretto, fonti invariate).
 
+- **30 agosto 2026 — Ventitreesimo lotto F66 (4 voci): discografie di Toto, Tracy Chapman, Whitney Houston, Zucchero. C3 è ora chiusa: 0 voci rimaste.**
+**Trovato un altro processo al lavoro sulla stessa cartella**: a metà lotto, prima di pubblicare, `check-seo.mjs` ha segnalato oltre 240 pagine indicizzabili assenti dalla sitemap — un problema mai visto prima. Controllando `scripts/genera-sito.mjs`, `scripts/genera/pagine.mjs` e `scripts/genera/guscio.mjs` è emerso che erano stati modificati da un lavoro non mio, per funzionalità mai incontrate in questo intervento ("F68" verifica IndexNow, "F69" verifica motori di ricerca) — nuovi file (`dati/indexnow.json`, `dati/verifiche.json`, `scripts/indexnow.mjs`) confermavano un secondo processo attivo in parallelo sulla stessa directory di lavoro. Chiesto conferma all'autore prima di continuare: confermato che è un'altra sua sessione, al lavoro sull'indicizzazione SEO. Rilanciata la generazione qualche minuto dopo: l'errore sitemap era sparito da solo, causato dal loro lavoro a metà, non dai miei dati. Nessuna modifica mia a quei tre script.
+**Whitney Houston, un caso diverso da Eminem/8 Mile**: "The Bodyguard" (1992) è tecnicamente una colonna sonora con altri artisti, ma è trattata come un vero album di Whitney Houston da tutte le fonti consultate perché la maggioranza dei brani è sua — inclusa come voce reale della sua discografia, non come segnaposto letterale (a differenza di "8 Mile" per Eminem, dov'era lei stessa a non dominare la scaletta).
+**I quattro numeri del lotto**: 4 cercate, 4 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120**.
+**Verificato, non solo scritto**: rigenerato il sito una seconda volta dopo la conferma dell'autore, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di Toto (14 album elencati, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

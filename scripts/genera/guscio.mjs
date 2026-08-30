@@ -1,6 +1,41 @@
 // Guscio comune a tutte le pagine: testa HTML, testata, ricerca, piede.
 
+import { readFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+
 import { STILE } from './stile.mjs';
+
+const RADICE_PROGETTO = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
+
+// F69: i codici di verifica per Search Console e Bing vivono in
+// dati/verifiche.json, non nel codice. Quando l'autore ne riceve uno gli basta
+// incollarlo lì e rigenerare: nessuna modifica a questo file, e un campo vuoto
+// semplicemente non produce nessun tag (mai un meta con contenuto finto).
+function leggiVerifiche() {
+  const percorso = join(RADICE_PROGETTO, 'dati', 'verifiche.json');
+  if (!existsSync(percorso)) return {};
+  try {
+    return JSON.parse(readFileSync(percorso, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+export const VERIFICHE = leggiVerifiche();
+
+// F61: chi firma il sito. Stesso principio: un campo vuoto non produce un nome
+// finto — le pagine sono scritte per reggere anche senza, e appena l'autore lo
+// riempie compare ovunque, firma e dati strutturati compresi.
+function leggiAutore() {
+  const percorso = join(RADICE_PROGETTO, 'dati', 'autore.json');
+  if (!existsSync(percorso)) return { nome: '', email: 'g.prizio@icloud.com', riga: '' };
+  try {
+    return JSON.parse(readFileSync(percorso, 'utf8'));
+  } catch {
+    return { nome: '', email: 'g.prizio@icloud.com', riga: '' };
+  }
+}
+export const AUTORE = leggiAutore();
 
 export const SITO = {
   nome: 'Dietro il testo',
@@ -118,6 +153,16 @@ export function pagina(o) {
 <title>${esc(titoloCompleto)}</title>
 <script>${SCRIPT_TEMA}</script>
 <meta name="description" content="${esc(o.descrizione)}">
+${
+  o.verifiche
+    ? [
+        VERIFICHE.google ? `<meta name="google-site-verification" content="${esc(VERIFICHE.google)}">` : '',
+        VERIFICHE.bing ? `<meta name="msvalidate.01" content="${esc(VERIFICHE.bing)}">` : '',
+      ]
+        .filter(Boolean)
+        .join('\n')
+    : ''
+}
 ${o.noindex ? '<meta name="robots" content="noindex">' : o.noindexFollow ? '<meta name="robots" content="noindex, follow">' : ''}
 ${o.noindex ? '' : `<link rel="canonical" href="${SITO.base}/${o.percorso || ''}">`}
 <link rel="icon" href="${r}favicon.ico" sizes="any">

@@ -5601,6 +5601,71 @@
       "permanent": true
     },
     {
+      "source": "/album/toto/toto/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/hydra/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/turn-back/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/isolation/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/fahrenheit/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/the-seventh-one/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/kingdom-of-desire/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/tambu/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/mindfields/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/through-the-looking-glass/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/falling-in-between/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/toto-xiv/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
+      "source": "/album/toto/old-is-new/",
+      "destination": "/artista/toto/",
+      "permanent": true
+    },
+    {
       "source": "/album/toto-cutugno/voglio-l-anima/",
       "destination": "/artista/toto-cutugno/",
       "permanent": true
@@ -5676,6 +5741,41 @@
       "permanent": true
     },
     {
+      "source": "/album/tracy-chapman/crossroads/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/matters-of-the-heart/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/new-beginning/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/telling-stories/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/let-it-rain/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/where-you-live/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
+      "source": "/album/tracy-chapman/our-bright-future/",
+      "destination": "/artista/tracy-chapman/",
+      "permanent": true
+    },
+    {
       "source": "/album/vasco-rossi/ma-cosa-vuoi-che-sia-una-canzone/",
       "destination": "/artista/vasco-rossi/",
       "permanent": true
@@ -5748,6 +5848,106 @@
     {
       "source": "/album/vasco-rossi/siamo-qui/",
       "destination": "/artista/vasco-rossi/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/whitney-houston/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/whitney/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/i-m-your-baby-tonight/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/my-love-is-your-love/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/just-whitney/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/one-wish-the-holiday-album/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/whitney-houston/i-look-to-you/",
+      "destination": "/artista/whitney-houston/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/un-po-di-zucchero/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/zucchero-the-randy-jackson-band/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/rispetto/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/oro-incenso-e-birra/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/miserere/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/spirito-divino/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/bluesugar/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/shake/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/fly/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/chocabeck/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/la-sesi-n-cubana/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/black-cat/",
+      "destination": "/artista/zucchero/",
+      "permanent": true
+    },
+    {
+      "source": "/album/zucchero/d-o-c/",
+      "destination": "/artista/zucchero/",
       "permanent": true
     },
     {

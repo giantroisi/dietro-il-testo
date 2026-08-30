@@ -243,46 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:toto:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "toto",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:tracy-chapman:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "tracy-chapman",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:whitney-houston:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "whitney-houston",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:zucchero:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "zucchero",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:bring-me-the-horizon:amo:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1423,6 +1383,26 @@
     "motivo": null
   },
   {
+    "id": "album:toto:toto-iv:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "toto/toto-iv",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:tracy-chapman:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/tracy-chapman",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:vasco-rossi:nessun-pericolo-per-te:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1437,6 +1417,26 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "vasco-rossi/non-siamo-mica-gli-americani",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:the-bodyguard:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/the-bodyguard",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:blues:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/blues",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -12793,6 +12793,206 @@
     "motivo": null
   },
   {
+    "id": "album:toto:fahrenheit:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/fahrenheit",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:falling-in-between:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/falling-in-between",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:hydra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/hydra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:isolation:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/isolation",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:kingdom-of-desire:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/kingdom-of-desire",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:mindfields:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/mindfields",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:old-is-new:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/old-is-new",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:tambu:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/tambu",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:the-seventh-one:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/the-seventh-one",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:through-the-looking-glass:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/through-the-looking-glass",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:toto-xiv:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/toto-xiv",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:toto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/toto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:toto:turn-back:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "toto/turn-back",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:crossroads:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/crossroads",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:let-it-rain:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/let-it-rain",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:matters-of-the-heart:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/matters-of-the-heart",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:new-beginning:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/new-beginning",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:our-bright-future:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/our-bright-future",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:telling-stories:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/telling-stories",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:tracy-chapman:where-you-live:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "tracy-chapman/where-you-live",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:vasco-rossi:buoni-o-cattivi:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -12937,6 +13137,206 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "vasco-rossi/vivere-o-niente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:i-look-to-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/i-look-to-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:i-m-your-baby-tonight:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/i-m-your-baby-tonight",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:just-whitney:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/just-whitney",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:my-love-is-your-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/my-love-is-your-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:one-wish-the-holiday-album:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/one-wish-the-holiday-album",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:whitney-houston:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/whitney-houston",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:whitney-houston:whitney:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "whitney-houston/whitney",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:black-cat:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/black-cat",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:bluesugar:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/bluesugar",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:chocabeck:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/chocabeck",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:d-o-c:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/d-o-c",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:fly:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/fly",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:la-sesi-n-cubana:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/la-sesi-n-cubana",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:miserere:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/miserere",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:oro-incenso-e-birra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/oro-incenso-e-birra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:rispetto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/rispetto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:shake:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/shake",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:spirito-divino:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/spirito-divino",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:un-po-di-zucchero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/un-po-di-zucchero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:zucchero:zucchero-the-randy-jackson-band:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "zucchero/zucchero-the-randy-jackson-band",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

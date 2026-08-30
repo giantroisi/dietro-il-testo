@@ -10680,7 +10680,106 @@
     "slug": "toto",
     "nome": "Toto",
     "storia": "Formati a Los Angeles nel 1977 da un gruppo di turnisti già attivi insieme negli studi di registrazione californiani degli anni '70, in particolare il tastierista David Paich e il batterista Jeff Porcaro, conosciutisi al liceo; completarono la formazione il bassista David Hungate, il chitarrista Steve Lukather, il tastierista Steve Porcaro e il cantante Bobby Kimball. A differenza della maggior parte dei gruppi, non si fecero conoscere nei locali ma arrivarono al successo forti della reputazione già costruita come session men, esordendo con l'album omonimo nel 1978.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Toto",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "toto"
+      },
+      {
+        "titolo": "Hydra",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "hydra"
+      },
+      {
+        "titolo": "Turn Back",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "turn-back"
+      },
+      {
+        "titolo": "Toto IV",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "toto-iv"
+      },
+      {
+        "titolo": "Isolation",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "isolation"
+      },
+      {
+        "titolo": "Fahrenheit",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "fahrenheit"
+      },
+      {
+        "titolo": "The Seventh One",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-seventh-one"
+      },
+      {
+        "titolo": "Kingdom of Desire",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "kingdom-of-desire"
+      },
+      {
+        "titolo": "Tambu",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "tambu"
+      },
+      {
+        "titolo": "Mindfields",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "mindfields"
+      },
+      {
+        "titolo": "Through the Looking Glass",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "through-the-looking-glass"
+      },
+      {
+        "titolo": "Falling in Between",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "falling-in-between"
+      },
+      {
+        "titolo": "Toto XIV",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "toto-xiv"
+      },
+      {
+        "titolo": "Old Is New",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "old-is-new"
+      }
+    ],
     "canzoni": [
       "africa"
     ],
@@ -10826,7 +10925,64 @@
     "slug": "tracy-chapman",
     "nome": "Tracy Chapman",
     "storia": "Nata a Cleveland, in Ohio, nel 1964 e cresciuta in Connecticut, iniziò a esibirsi a Boston mentre studiava antropologia alla Tufts University. Ottenne un contratto discografico nel 1986 grazie al padre di un'amica; l'album di debutto omonimo del 1988, trainato dal singolo \"Fast Car\", le valse tre Grammy Award, incluso quello per la miglior nuova artista. Tornò al successo alcuni anni dopo con l'album \"New Beginning\" e il singolo \"Give Me One Reason\".",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Tracy Chapman",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "tracy-chapman"
+      },
+      {
+        "titolo": "Crossroads",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "crossroads"
+      },
+      {
+        "titolo": "Matters of the Heart",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "matters-of-the-heart"
+      },
+      {
+        "titolo": "New Beginning",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "new-beginning"
+      },
+      {
+        "titolo": "Telling Stories",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "telling-stories"
+      },
+      {
+        "titolo": "Let It Rain",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "let-it-rain"
+      },
+      {
+        "titolo": "Where You Live",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "where-you-live"
+      },
+      {
+        "titolo": "Our Bright Future",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "our-bright-future"
+      }
+    ],
     "canzoni": [
       "fast-car"
     ],
@@ -10995,7 +11151,64 @@
     "slug": "whitney-houston",
     "nome": "Whitney Houston",
     "storia": "Nata a Newark, nel New Jersey, nel 1963, figlia della cantante gospel e soul Cissy Houston e cugina di Dionne Warwick, pubblicò il primo album a 22 anni, ottenendo tre singoli al numero uno; il successivo \"Whitney\" (1987) ne produsse altri quattro. Vendette in carriera oltre 200 milioni di dischi e vinse otto Grammy Award, con album come \"I'm Your Baby Tonight\" (1990) e colonne sonore di successo come \"The Bodyguard\" (1992). Morì l'11 febbraio 2012 in un hotel di Beverly Hills per annegamento accidentale, con malattia cardiaca e uso di cocaina tra i fattori concomitanti.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Whitney Houston",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "whitney-houston"
+      },
+      {
+        "titolo": "Whitney",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "whitney"
+      },
+      {
+        "titolo": "I'm Your Baby Tonight",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-m-your-baby-tonight"
+      },
+      {
+        "titolo": "The Bodyguard",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-bodyguard"
+      },
+      {
+        "titolo": "My Love Is Your Love",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "my-love-is-your-love"
+      },
+      {
+        "titolo": "Just Whitney",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "just-whitney"
+      },
+      {
+        "titolo": "One Wish: The Holiday Album",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "one-wish-the-holiday-album"
+      },
+      {
+        "titolo": "I Look to You",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-look-to-you"
+      }
+    ],
     "canzoni": [
       "i-will-always-love-you"
     ],
@@ -11011,7 +11224,106 @@
     "slug": "zucchero",
     "nome": "Zucchero",
     "storia": "Adelmo Fornaciari, in arte Zucchero, nasce a Roncocesi, frazione di Reggio Emilia, nel 1955. Tra il 1970 e il 1978, trasferitosi a Forte dei Marmi, formò le sue prime band R&B (Le Nuove Luci, Sugar & Daniel, Sugar & Candies); nel 1981 vinse il Festival di Castrocaro, ottenendo un contratto con la Polygram. Il vero successo arrivò nel 1985 con \"Donne\", presentata al Festival di Sanremo; ha venduto in carriera circa 60 milioni di dischi, portando blues e soul nel mainstream della musica italiana.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Un po' di Zucchero",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "un-po-di-zucchero"
+      },
+      {
+        "titolo": "Zucchero & The Randy Jackson Band",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "zucchero-the-randy-jackson-band"
+      },
+      {
+        "titolo": "Rispetto",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "rispetto"
+      },
+      {
+        "titolo": "Blue's",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "blues"
+      },
+      {
+        "titolo": "Oro, incenso e birra",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "oro-incenso-e-birra"
+      },
+      {
+        "titolo": "Miserere",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "miserere"
+      },
+      {
+        "titolo": "Spirito DiVino",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "spirito-divino"
+      },
+      {
+        "titolo": "Bluesugar",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "bluesugar"
+      },
+      {
+        "titolo": "Shake",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "shake"
+      },
+      {
+        "titolo": "Fly",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "fly"
+      },
+      {
+        "titolo": "Chocabeck",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "chocabeck"
+      },
+      {
+        "titolo": "La sesión cubana",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-sesi-n-cubana"
+      },
+      {
+        "titolo": "Black Cat",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "black-cat"
+      },
+      {
+        "titolo": "D.O.C.",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "d-o-c"
+      }
+    ],
     "canzoni": [
       "senza-una-donna"
     ],

@@ -1,7 +1,7 @@
 // Modelli delle pagine. L'ordine dei blocchi segue l'architettura editoriale
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
-import { pagina, esc, radice, SITO } from './guscio.mjs';
+import { pagina, esc, radice, SITO, AUTORE } from './guscio.mjs';
 
 // ------------------------------------------------------------- utilità
 
@@ -1016,6 +1016,9 @@ export function paginaHome(ctx) {
   return pagina({
     profondita: 0,
     percorso: '',
+    // F69: i meta di verifica stanno solo qui — entrambi i motori verificano
+    // dalla home, e appesantire 422 pagine non servirebbe a nulla.
+    verifiche: true,
     titolo: 'Cerca una canzone, un album o una band',
     descrizione: `${canzoni.length} canzoni e ${artisti.length} artisti: contesto, significato e fonti verificate. Mai i testi.`,
     totali: ctx.totali,
@@ -1230,6 +1233,238 @@ export function paginaMetodo(ctx) {
 
 /** F43: pagina 404 del sito invece di quella generica di Vercel. `noindex`
  * perché una pagina d'errore non è un contenuto da posizionare. */
+// ------------------------------------------------- F61/F62: pagine di servizio
+
+/** Briciole + intestazione comuni alle pagine di servizio. */
+function apertura(r, nome, sopratitolo, titolo, sintesi) {
+  return `
+    <nav class="briciole" aria-label="Percorso"><a href="${r}">Home</a><span>/</span>${esc(nome)}</nav>
+
+    <header class="intestazione">
+      <p class="sopratitolo">${esc(sopratitolo)}</p>
+      <h1>${esc(titolo)}</h1>
+      <p class="sintesi">${sintesi}</p>
+    </header>`;
+}
+
+function briciole(nome, percorso) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITO.base}/` },
+      { '@type': 'ListItem', position: 2, name: nome, item: `${SITO.base}/${percorso}` },
+    ],
+  };
+}
+
+// F61 — Chi c'è dietro. Include i contatti invece di dedicarci una pagina a
+// parte: una pagina "contatti" con dentro solo un indirizzo email non
+// risponderebbe a nessuna domanda a cui questa non risponda già, e la soglia
+// di pubblicazione (ROADMAP 11.2) vale anche per le pagine nostre.
+export function paginaChiSiamo(ctx) {
+  const r = radice(1);
+  const { nome, email, riga } = AUTORE;
+  const firma = nome
+    ? `<p>Questo sito lo scrive <strong>${esc(nome)}</strong>.${riga ? ' ' + esc(riga) : ''}</p>`
+    : `<p>Questo sito lo scrive una persona sola. Non è una redazione, non c'è un "noi" dietro le schede: c'è qualcuno che legge le fonti una per una e scrive quello che ha trovato.</p>`;
+
+  const corpo = `
+  <div class="col">
+    ${apertura(r, 'Chi c\'è dietro', 'Chi risponde di quello che leggi', 'Chi c\'è dietro.', 'Un sito che dice di verificare le fonti dovrebbe dire anche chi lo garantisce.')}
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <h2>Chi scrive</h2>
+      <div class="prosa">
+        ${firma}
+        <p>Oggi il sito raccoglie ${ctx.totali.canzoni} canzoni e ${ctx.totali.artisti} artisti. Ogni scheda nasce dalla stessa procedura: si cerca la fonte, si legge, e si scrive solo quello che la fonte sostiene davvero. Quando non si trova, la scheda lo dice invece di riempire lo spazio — è il motivo per cui alcune pagine ammettono apertamente di non sapere.</p>
+        <p>Non è un lavoro veloce e non vuole esserlo. Aggiungere una canzone in più conta meno che tenere in piedi quelle che ci sono già.</p>
+      </div>
+      <div class="azioni">
+        <a class="bottone" href="${r}metodo/">Come verifichiamo</a>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Cosa questo sito non è</h2>
+      <div class="prosa">
+        <p>Non è un archivio di testi: non ne pubblichiamo nemmeno un verso. Non è una rivista musicale, non recensisce e non dà voti. Non vende niente e non ospita pubblicità.</p>
+        <p>Non è nemmeno una fonte primaria: quello che leggi qui è il risultato di una lettura di altre fonti, sempre citate in fondo a ogni scheda. Se un fatto ti interessa davvero, il collegamento per andare a controllare è lì.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Scrivimi</h2>
+      <div class="prosa">
+        <p>Se trovi un errore, segnalalo: viene corretto. Una correzione vale più di una scheda in più, e le segnalazioni sono il modo più veloce che ho per accorgermi di uno sbaglio.</p>
+        <p>Vale anche per il contrario: se conosci una fonte migliore di quella che ho usato, o hai una canzone da proporre, scrivi pure.</p>
+      </div>
+      <div class="azioni">
+        <a class="bottone pieno" href="mailto:${esc(email)}?subject=Dietro%20il%20testo%20%E2%80%94%20correzione">Segnala un errore</a>
+        <a class="bottone" href="mailto:${esc(email)}?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
+      </div>
+    </section>
+  </div>`;
+
+  const dati = [briciole('Chi c\'è dietro', 'chi-siamo/')];
+  // F59: la Person entra nei dati strutturati solo se ha un nome vero. Un
+  // `Person` senza `name` è una dichiarazione vuota, e dichiarare più di
+  // quello che si ha è la versione tecnica della bugia che P1 vieta.
+  if (nome) {
+    dati.push({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': `${SITO.base}/chi-siamo/#autore`,
+      name: nome,
+      url: `${SITO.base}/chi-siamo/`,
+    });
+  }
+
+  return pagina({
+    profondita: 1,
+    percorso: 'chi-siamo/',
+    titolo: 'Chi c\'è dietro',
+    descrizione: 'Chi scrive Dietro il testo, con quale metodo, e come segnalare un errore in una scheda.',
+    totali: ctx.totali,
+    raccolte: ctx.raccolte,
+    corpo,
+    datiStrutturati: dati.length === 1 ? dati[0] : dati,
+  });
+}
+
+// F62 — Informativa privacy. Scritta sui fatti verificati del sito, non su un
+// modello generico: nessun analytics, nessun cookie nostro, un solo elemento
+// di terze parti (il player Spotify). Dire il falso qui sarebbe grave quanto
+// dirlo in una scheda.
+export function paginaPrivacy(ctx) {
+  const r = radice(1);
+  const { nome, email } = AUTORE;
+  const titolare = nome ? `<strong>${esc(nome)}</strong>, raggiungibile a` : 'La persona che cura questo sito, raggiungibile a';
+
+  const corpo = `
+  <div class="col">
+    ${apertura(r, 'Privacy', 'Cosa succede ai tuoi dati', 'Privacy.', 'Versione breve: questo sito non ti misura e non ti profila. C\'è un\'eccezione, ed è scritta qui sotto.')}
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <h2>Quello che non facciamo</h2>
+      <div class="prosa">
+        <p>Non c'è nessuno strumento di statistica: né Google Analytics né alternative. Non sappiamo quante persone visitano il sito, da dove arrivano o cosa leggono. Non ci sono cookie di profilazione, non ci sono pixel di tracciamento, non c'è pubblicità e non vendiamo niente a nessuno.</p>
+        <p>Non ci sono moduli da compilare, quindi non raccogliamo nomi, indirizzi o password: non esiste un account da creare.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Il player Spotify, che è l'eccezione</h2>
+      <div class="prosa">
+        <p>Quasi tutte le schede canzone incorporano il lettore di Spotify, perché poter ascoltare il brano mentre si legge è metà del senso di questo sito. Quel lettore però è un contenuto di Spotify, non nostro: quando la pagina si apre, il tuo browser si collega ai server di Spotify, che possono impostare cookie propri e conoscere il tuo indirizzo IP e la pagina che stai leggendo.</p>
+        <p>Su quei dati non abbiamo nessun controllo e non li vediamo: il trattamento è di Spotify e segue la sua informativa. Se preferisci evitarlo, un blocco dei cookie di terze parti nel browser impedisce al lettore di caricarsi, e il resto della pagina continua a funzionare.</p>
+      </div>
+      <div class="azioni">
+        <a class="bottone" href="https://www.spotify.com/it/legal/privacy-policy/" target="_blank" rel="noopener">Informativa di Spotify</a>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>La preferenza del tema</h2>
+      <div class="prosa">
+        <p>Se scegli il tema chiaro o scuro, la scelta viene salvata nella memoria locale del tuo browser (una voce che si chiama <code>theme</code>). Resta sul tuo dispositivo, non raggiunge nessun server e non serve a riconoscerti: serve solo a non farti ripetere la scelta a ogni pagina. Puoi cancellarla svuotando i dati del sito dal browser.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>I registri del server</h2>
+      <div class="prosa">
+        <p>Il sito è ospitato su Vercel. Come qualunque server web, registra le richieste che riceve — indirizzo IP, momento, pagina richiesta, tipo di browser — per far funzionare il servizio e difenderlo da abusi. È una necessità tecnica dell'hosting, non una nostra raccolta: non colleghiamo quei registri a nessuna persona e non li usiamo per analisi.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Se ci scrivi</h2>
+      <div class="prosa">
+        <p>Gli indirizzi email di questo sito aprono il tuo programma di posta. Se scrivi, riceviamo quello che mandi — indirizzo compreso — e lo usiamo solo per risponderti o per correggere quello che hai segnalato. Non finisce in nessuna lista e non viene passato a nessuno.</p>
+        <p>Puoi chiedere in qualunque momento di sapere cosa conserviamo, di farlo correggere o cancellare: basta scrivere allo stesso indirizzo.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Titolare e contatti</h2>
+      <div class="prosa">
+        <p>${titolare} <a href="mailto:${esc(email)}">${esc(email)}</a>.</p>
+        <p class="legale">Questa pagina descrive con precisione quello che il sito fa, verificato sul codice che lo genera. Non è un parere legale e non è stata scritta da un avvocato: se ti serve una valutazione formale, rivolgiti a un professionista.</p>
+      </div>
+    </section>
+  </div>`;
+
+  return pagina({
+    profondita: 1,
+    percorso: 'privacy/',
+    titolo: 'Privacy',
+    descrizione: 'Nessuna statistica, nessun cookie di profilazione, nessuna pubblicità. L\'unica eccezione è il lettore Spotify incorporato nelle schede: qui è spiegata.',
+    totali: ctx.totali,
+    raccolte: ctx.raccolte,
+    corpo,
+    datiStrutturati: briciole('Privacy', 'privacy/'),
+  });
+}
+
+// F62 — Note legali: la posizione già presa in `metodo` su testi e immagini,
+// detta anche in forma di responsabilità e non solo editoriale.
+export function paginaNoteLegali(ctx) {
+  const r = radice(1);
+  const { email } = AUTORE;
+
+  const corpo = `
+  <div class="col">
+    ${apertura(r, 'Note legali', 'Diritti, fonti e responsabilità', 'Note legali.', 'Cosa è nostro, cosa non lo è, e cosa succede se qualcosa non va.')}
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <h2>I testi delle canzoni</h2>
+      <div class="prosa">
+        <p>Non pubblichiamo versi, ritornelli o traduzioni, nemmeno parziali. Il "momento iconico" di ogni scheda è una descrizione scritta con parole nostre: racconta cosa dice un passaggio e da dove nasce, senza riprodurlo. È una scelta presa prima di scrivere la prima scheda, e vale anche quando riprodurre due righe sarebbe più comodo.</p>
+        <p>Per leggere un testo per intero ogni scheda rimanda a un sito esterno che se ne assume la responsabilità editoriale. Quei siti non sono nostri e non rispondiamo di quello che pubblicano.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Immagini, copertine e marchi</h2>
+      <div class="prosa">
+        <p>Non ospitiamo copertine, fotografie o loghi di cui non abbiamo una licenza o un'autorizzazione documentata: il fatto che un'immagine sia reperibile online non la rende riutilizzabile. Gli spazi colorati delle pagine sono grafica originale.</p>
+        <p>I nomi di artisti, band, album ed etichette appartengono ai rispettivi titolari e sono citati per identificare le opere di cui parliamo. I colori di ogni pagina richiamano un immaginario visivo; non riproducono marchi registrati.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Quello che scriviamo noi</h2>
+      <div class="prosa">
+        <p>Le schede, le introduzioni e le descrizioni di questo sito sono testi originali. Se vuoi riprenderne una parte, citala e collega la pagina: è quello che chiediamo alle fonti che usiamo, e vale anche per noi.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Se qualcosa è sbagliato</h2>
+      <div class="prosa">
+        <p>Le informazioni sono verificate su fonti citate, ma un errore è sempre possibile: una fonte può sbagliare, e possiamo sbagliare noi a leggerla. Le schede non sono una verità definitiva e non sostituiscono le fonti a cui rimandano.</p>
+        <p>Se un contenuto ti riguarda, contiene un errore o viola un diritto, scrivi: verifichiamo e, se la segnalazione è fondata, correggiamo o rimuoviamo. Non serve una diffida formale per farci correggere una cosa sbagliata.</p>
+      </div>
+      <div class="azioni">
+        <a class="bottone pieno" href="mailto:${esc(email)}?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Scrivici</a>
+        <a class="bottone" href="${r}metodo/">Metodo e fonti</a>
+      </div>
+    </section>
+  </div>`;
+
+  return pagina({
+    profondita: 1,
+    percorso: 'note-legali/',
+    titolo: 'Note legali',
+    descrizione: 'Perché non pubblichiamo i testi delle canzoni, come trattiamo immagini e marchi, e come segnalare un contenuto da correggere o rimuovere.',
+    totali: ctx.totali,
+    raccolte: ctx.raccolte,
+    corpo,
+    datiStrutturati: briciole('Note legali', 'note-legali/'),
+  });
+}
+
 export function paginaErrore404(ctx) {
   const r = radice(0);
   const corpo = `
