@@ -372,6 +372,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: resta a **120** — le discografie di Battiato (32 album) e Gianna Nannini (22) fanno emergere debito C4/C5 preesistente ma prima invisibile a F65.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano, verificato nel browser la pagina di Ghost (7 voci in discografia, "Popestar" nella posizione cronologica corretta, nessun errore console).
 
+- **30 agosto 2026 — Diciannovesimo lotto F66 (8 voci C3): discografie di Laura Pausini, Led Zeppelin, Limp Bizkit, Lucio Battisti, Lynyrd Skynyrd, Machine Gun Kelly, Mina, My Chemical Romance.** Il più grande in numero di voci scritte finora: la discografia di Mina, 76 album in studio dal 1960 al 2024, verificata sulla pagina dedicata di Wikipedia senza riassumere.
+**Terza correzione dello stesso tipo di questo intervento**: "Il cielo in una stanza" (Mina) era legata al segnaposto "Singolo (scritta da Gino Paoli, 1959)", ma esiste davvero un album omonimo del 1960 che contiene il brano — stesso pattern già visto con Celentano/Al Bano (lotto 15). Corretto `album`/`albumSlug` della canzone, rimossa la vecchia cartella sintetica dalla radice, aggiunto il terzo redirect storico a `REDIRECT_STORICI` in `genera-sito.mjs` verso la pagina del nuovo album reale.
+**`check-coerenza.mjs` ha trovato un altro anno incoerente reale**: "Break Stuff" (Limp Bizkit) è il quarto singolo estratto da "Significant Other" (1999), ma uscì come singolo nel 2000 — stesso caso di "Personal Jesus" e "Diventerai una star" in questo intervento, corretto in "1999 / 2000".
+**I quattro numeri del lotto**: 8 cercate, 8 trovate, 0 accertate assenti, 0 sospese.
+**Debito aperto**: resta a **120** — la discografia di Mina da sola aggiunge decine di nuove voci C4/C5 (copertine mancanti su 75 album reali appena documentati, quasi tutti senza canzoni sul sito) che F65 non poteva vedere prima: non debito creato da questo lotto.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti dopo la correzione dell'anno, nessun file orfano (verificato che la vecchia cartella `album/mina/singolo-scritta-da-gino-paoli-1959/` sia sparita e il redirect compaia in `vercel.json`), verificato nel browser la pagina artista di Mina (76 album elencati, "Il cielo in una stanza" ancora linkata alla canzone).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

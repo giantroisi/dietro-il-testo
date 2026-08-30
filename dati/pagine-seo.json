@@ -2153,7 +2153,7 @@
     "haTestoEditoriale": true
   },
   {
-    "percorso": "album/mina/singolo-scritta-da-gino-paoli-1959/",
+    "percorso": "album/mina/il-cielo-in-una-stanza/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -2597,14 +2597,14 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 31,
+    "nCanzoni": 30,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 39,
+    "nCanzoni": 40,
     "haTestoEditoriale": true
   },
   {

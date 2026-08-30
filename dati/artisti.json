@@ -5281,7 +5281,106 @@
     "slug": "laura-pausini",
     "nome": "Laura Pausini",
     "storia": "Nata a Faenza nel 1974 e cresciuta a Solarolo, in Romagna, iniziò a cantare da bambina nel coro della chiesa e nei pianobar insieme al padre. Debuttò nel 1993 vincendo la sezione Giovani del Festival di Sanremo con \"La solitudine\"; l'album omonimo di debutto, uscito lo stesso anno, vendette due milioni di copie nel mondo. Ha venduto in carriera oltre 70 milioni di dischi, affermandosi in particolare in America Latina.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Laura Pausini",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "laura-pausini-debutto"
+      },
+      {
+        "titolo": "Laura",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "laura"
+      },
+      {
+        "titolo": "Le cose che vivi",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-cose-che-vivi"
+      },
+      {
+        "titolo": "La mia risposta",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-mia-risposta"
+      },
+      {
+        "titolo": "Tra te e il mare",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "tra-te-e-il-mare"
+      },
+      {
+        "titolo": "From the Inside",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "from-the-inside"
+      },
+      {
+        "titolo": "Resta in ascolto",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "resta-in-ascolto"
+      },
+      {
+        "titolo": "Io canto",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "io-canto"
+      },
+      {
+        "titolo": "Primavera in anticipo",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "primavera-in-anticipo"
+      },
+      {
+        "titolo": "Inedito",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "inedito"
+      },
+      {
+        "titolo": "Simili",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "simili"
+      },
+      {
+        "titolo": "Laura Xmas",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "laura-xmas"
+      },
+      {
+        "titolo": "Fatti sentire",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "fatti-sentire"
+      },
+      {
+        "titolo": "Anime parallele",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "anime-parallele"
+      }
+    ],
     "canzoni": [
       "solitudine"
     ],
@@ -5297,7 +5396,71 @@
     "slug": "led-zeppelin",
     "nome": "Led Zeppelin",
     "storia": "Formati a Londra nel 1968, nacquero quando il chitarrista Jimmy Page, reduce dagli Yardbirds e vincolato da alcuni obblighi di tour, mise insieme una nuova formazione con il cantante Robert Plant (proposto dal cantante Terry Reid, che aveva rifiutato il ruolo), il batterista John Bonham (amico d'infanzia di Plant) e il bassista John Paul Jones, debuttando come New Yardbirds prima di adottare il nuovo nome. Con un suono pesante e chitarristico che attinge a blues, psichedelia e folk, sono considerati tra i precursori dell'hard rock e dell'heavy metal.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Led Zeppelin",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "led-zeppelin"
+      },
+      {
+        "titolo": "Led Zeppelin II",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "led-zeppelin-ii"
+      },
+      {
+        "titolo": "Led Zeppelin III",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "led-zeppelin-iii"
+      },
+      {
+        "titolo": "Led Zeppelin IV",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "led-zeppelin-iv"
+      },
+      {
+        "titolo": "Houses of the Holy",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "houses-of-the-holy"
+      },
+      {
+        "titolo": "Physical Graffiti",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "physical-graffiti"
+      },
+      {
+        "titolo": "Presence",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "presence"
+      },
+      {
+        "titolo": "In Through the Out Door",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-through-the-out-door"
+      },
+      {
+        "titolo": "Coda",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "coda"
+      }
+    ],
     "canzoni": [
       "stairway-to-heaven"
     ],
@@ -5437,7 +5600,50 @@
     "slug": "limp-bizkit",
     "nome": "Limp Bizkit",
     "storia": "Formati a Jacksonville, in Florida, nel 1994 dal cantante Fred Durst e dal bassista Sam Rivers, a cui si unirono presto il batterista John Otto e il chitarrista Wes Borland, nacquero dall'idea di Durst di unire rock e hip hop dopo anni di passione per punk, metal e hip hop. Il debutto \"Three Dollar Bill, Y'all\" (1997) li fece conoscere nella scena underground, ma il successo commerciale arrivò con \"Significant Other\" (1999) e \"Chocolate Starfish and the Hot Dog Flavored Water\" (2000).",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Three Dollar Bill, Y'all",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "three-dollar-bill-y-all"
+      },
+      {
+        "titolo": "Significant Other",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "significant-other"
+      },
+      {
+        "titolo": "Chocolate Starfish and the Hot Dog Flavored Water",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "chocolate-starfish-and-the-hot-dog-flavored-water"
+      },
+      {
+        "titolo": "Results May Vary",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "results-may-vary"
+      },
+      {
+        "titolo": "Gold Cobra",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "gold-cobra"
+      },
+      {
+        "titolo": "Still Sucks",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "still-sucks"
+      }
+    ],
     "canzoni": [
       "break-stuff"
     ],
@@ -5539,7 +5745,148 @@
     "slug": "lucio-battisti",
     "nome": "Lucio Battisti",
     "storia": "Nato a Poggio Bustone, in provincia di Rieti, nel 1943, si trasferì a Roma da bambino e poi a Milano nel 1962, iniziando a suonare in piccoli gruppi locali da autodidatta. Nel 1965 fu presentato al paroliere Giulio Rapetti, in arte Mogol, dando inizio a un sodalizio tra i più importanti della musica leggera italiana; fu lo stesso Mogol, nel 1966, a convincere Battisti — scettico sulle proprie doti vocali — a interpretare di persona le proprie canzoni. In carriera incise 17 album in studio, vendendo circa 25 milioni di dischi.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Lucio Battisti",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "lucio-battisti"
+      },
+      {
+        "titolo": "Lucio Battisti Vol. 2",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "lucio-battisti-vol-2"
+      },
+      {
+        "titolo": "Emozioni",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "emozioni"
+      },
+      {
+        "titolo": "Amore e non amore",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "amore-e-non-amore"
+      },
+      {
+        "titolo": "Lucio Battisti Vol. 4",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "lucio-battisti-vol-4"
+      },
+      {
+        "titolo": "Umanamente uomo: il sogno",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "umanamente-uomo-il-sogno"
+      },
+      {
+        "titolo": "Il mio canto libero",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-mio-canto-libero"
+      },
+      {
+        "titolo": "Il nostro caro angelo",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-nostro-caro-angelo"
+      },
+      {
+        "titolo": "Anima latina",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "anima-latina"
+      },
+      {
+        "titolo": "Lucio Battisti, la batteria, il contrabbasso, eccetera",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "lucio-battisti-la-batteria-il-contrabbasso-eccetera"
+      },
+      {
+        "titolo": "Io tu noi tutti",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "io-tu-noi-tutti"
+      },
+      {
+        "titolo": "Images",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "images"
+      },
+      {
+        "titolo": "Una donna per amico",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "una-donna-per-amico"
+      },
+      {
+        "titolo": "Una giornata uggiosa",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "una-giornata-uggiosa"
+      },
+      {
+        "titolo": "E già",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "e-gia"
+      },
+      {
+        "titolo": "Don Giovanni",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "don-giovanni"
+      },
+      {
+        "titolo": "L'apparenza",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-apparenza"
+      },
+      {
+        "titolo": "La sposa occidentale",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-sposa-occidentale"
+      },
+      {
+        "titolo": "Cosa succederà alla ragazza",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "cosa-succedera-alla-ragazza"
+      },
+      {
+        "titolo": "Hegel",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "hegel"
+      }
+    ],
     "canzoni": [
       "canto-libero"
     ],
@@ -5747,7 +6094,106 @@
     "slug": "lynyrd-skynyrd",
     "nome": "Lynyrd Skynyrd",
     "storia": "Nati a Jacksonville, in Florida, nei primi anni '60 come gruppo di amici adolescenti con il nome \"My Backyard\", presero il nome definitivo nel 1973 in omaggio, con tono canzonatorio, a un insegnante di ginnastica del liceo, Leonard Skinner. Il 20 ottobre 1977 un incidente aereo durante un volo di trasferimento tra concerti uccise il cantante e fondatore Ronnie Van Zant insieme ad altri membri della band; il gruppo si riunì nel 1987 con il fratello di Ronnie, Johnny Van Zant, alla voce.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "(Pronounced 'Lĕh-'nérd 'Skin-'nérd)",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "pronounced-l-h-nerd-skin-nerd"
+      },
+      {
+        "titolo": "Second Helping",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "second-helping"
+      },
+      {
+        "titolo": "Nuthin' Fancy",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "nuthin-fancy"
+      },
+      {
+        "titolo": "Gimme Back My Bullets",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "gimme-back-my-bullets"
+      },
+      {
+        "titolo": "Street Survivors",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "street-survivors"
+      },
+      {
+        "titolo": "Lynyrd Skynyrd 1991",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "lynyrd-skynyrd-1991"
+      },
+      {
+        "titolo": "The Last Rebel",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-last-rebel"
+      },
+      {
+        "titolo": "Endangered Species",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "endangered-species"
+      },
+      {
+        "titolo": "Twenty",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "twenty"
+      },
+      {
+        "titolo": "Edge of Forever",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "edge-of-forever"
+      },
+      {
+        "titolo": "Christmas Time Again",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "christmas-time-again"
+      },
+      {
+        "titolo": "Vicious Cycle",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "vicious-cycle"
+      },
+      {
+        "titolo": "God & Guns",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "god-guns"
+      },
+      {
+        "titolo": "Last of a Dyin' Breed",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "last-of-a-dyin-breed"
+      }
+    ],
     "canzoni": [
       "sweet-home-alabama"
     ],
@@ -5763,7 +6209,50 @@
     "slug": "machine-gun-kelly",
     "nome": "Machine Gun Kelly",
     "storia": "Colson Baker, in arte Machine Gun Kelly, nasce nel 1990 a Houston, in Texas, da genitori missionari, vivendo l'infanzia tra Egitto, Germania e diverse città statunitensi prima di stabilirsi a Cleveland a 14 anni; il soprannome nasce dal suo modo di rappare a raffica. Esordì come rapper con l'album \"Lace Up\" (2012), per poi virare quasi interamente verso il pop punk e il rock a partire dalla fine degli anni 2010, ottenendo in quel genere il maggiore successo commerciale.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Lace Up",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "lace-up"
+      },
+      {
+        "titolo": "General Admission",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "general-admission"
+      },
+      {
+        "titolo": "Bloom",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "bloom"
+      },
+      {
+        "titolo": "Hotel Diablo",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "hotel-diablo"
+      },
+      {
+        "titolo": "Tickets to My Downfall",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "tickets-to-my-downfall"
+      },
+      {
+        "titolo": "Mainstream Sellout",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "mainstream-sellout"
+      }
+    ],
     "canzoni": [
       "my-exs-best-friend"
     ],
@@ -6123,7 +6612,540 @@
     "slug": "mina",
     "nome": "Mina",
     "storia": "Nata a Busto Arsizio nel 1940 come Mina Anna Maria Mazzini e cresciuta a Cremona, esordì nel 1958 esibendosi per gioco sul palco della Bussola di Marina di Pietrasanta; lo stesso anno incise i primi brani dopo essere stata notata da un agente discografico mentre cantava in un locale con il gruppo Happy Boys. Nota anche come \"la Tigre di Cremona\", ha interpretato oltre 1500 brani in carriera e venduto più di 150 milioni di dischi, tra le voci più importanti della musica leggera italiana.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Tintarella di luna",
+        "anno": "1960",
+        "nota": null,
+        "copertina": null,
+        "slug": "tintarella-di-luna"
+      },
+      {
+        "titolo": "Il cielo in una stanza",
+        "anno": "1960",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-cielo-in-una-stanza"
+      },
+      {
+        "titolo": "Due note",
+        "anno": "1961",
+        "nota": null,
+        "copertina": null,
+        "slug": "due-note"
+      },
+      {
+        "titolo": "Moliendo café",
+        "anno": "1962",
+        "nota": null,
+        "copertina": null,
+        "slug": "moliendo-cafe"
+      },
+      {
+        "titolo": "Renato",
+        "anno": "1962",
+        "nota": null,
+        "copertina": null,
+        "slug": "renato"
+      },
+      {
+        "titolo": "Stessa spiaggia, stesso mare",
+        "anno": "1963",
+        "nota": null,
+        "copertina": null,
+        "slug": "stessa-spiaggia-stesso-mare"
+      },
+      {
+        "titolo": "Mina",
+        "anno": "1964",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-1964"
+      },
+      {
+        "titolo": "Studio Uno",
+        "anno": "1965",
+        "nota": null,
+        "copertina": null,
+        "slug": "studio-uno"
+      },
+      {
+        "titolo": "Studio Uno 66",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "studio-uno-66"
+      },
+      {
+        "titolo": "Mina 2",
+        "anno": "1966",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-2"
+      },
+      {
+        "titolo": "Sabato sera - Studio Uno '67",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "sabato-sera-studio-uno-67"
+      },
+      {
+        "titolo": "Dedicato a mio padre",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "dedicato-a-mio-padre"
+      },
+      {
+        "titolo": "Le più belle canzoni italiane interpretate da Mina",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-piu-belle-canzoni-italiane-interpretate-da-mina"
+      },
+      {
+        "titolo": "Canzonissima '68",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "canzonissima-68"
+      },
+      {
+        "titolo": "I discorsi",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-discorsi"
+      },
+      {
+        "titolo": "Mina for You",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-for-you"
+      },
+      {
+        "titolo": "...bugiardo più che mai... più incosciente che mai...",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "bugiardo-piu-che-mai-piu-incosciente-che-mai"
+      },
+      {
+        "titolo": "Mina canta o Brasil",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-canta-o-brasil"
+      },
+      {
+        "titolo": "...quando tu mi spiavi in cima a un batticuore...",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "quando-tu-mi-spiavi-in-cima-a-un-batticuore"
+      },
+      {
+        "titolo": "Mina",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-1971"
+      },
+      {
+        "titolo": "Cinquemilaquarantatre",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "cinquemilaquarantatre"
+      },
+      {
+        "titolo": "Frutta e verdura",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "frutta-e-verdura"
+      },
+      {
+        "titolo": "Amanti di valore",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "amanti-di-valore"
+      },
+      {
+        "titolo": "Mina®",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina"
+      },
+      {
+        "titolo": "Baby Gate",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "baby-gate"
+      },
+      {
+        "titolo": "Minacantalucio",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "minacantalucio"
+      },
+      {
+        "titolo": "La Mina",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-mina"
+      },
+      {
+        "titolo": "Singolare",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "singolare"
+      },
+      {
+        "titolo": "Plurale",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "plurale"
+      },
+      {
+        "titolo": "Mina con bignè",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-con-bigne"
+      },
+      {
+        "titolo": "Mina quasi Jannacci",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-quasi-jannacci"
+      },
+      {
+        "titolo": "Attila",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "attila"
+      },
+      {
+        "titolo": "Kyrie",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "kyrie"
+      },
+      {
+        "titolo": "Salomè",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "salome"
+      },
+      {
+        "titolo": "Italiana",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "italiana"
+      },
+      {
+        "titolo": "Mina 25",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-25"
+      },
+      {
+        "titolo": "Catene",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "catene"
+      },
+      {
+        "titolo": "Finalmente ho conosciuto il conte Dracula...",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "finalmente-ho-conosciuto-il-conte-dracula"
+      },
+      {
+        "titolo": "Sì, buana",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "si-buana"
+      },
+      {
+        "titolo": "Rane supreme",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "rane-supreme"
+      },
+      {
+        "titolo": "Ridi pagliaccio",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "ridi-pagliaccio"
+      },
+      {
+        "titolo": "Uiallalla",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "uiallalla"
+      },
+      {
+        "titolo": "Ti conosco mascherina",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "ti-conosco-mascherina"
+      },
+      {
+        "titolo": "Caterpillar",
+        "anno": "1991",
+        "nota": null,
+        "copertina": null,
+        "slug": "caterpillar"
+      },
+      {
+        "titolo": "Sorelle Lumière",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "sorelle-lumiere"
+      },
+      {
+        "titolo": "Mina canta i Beatles",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-canta-i-beatles"
+      },
+      {
+        "titolo": "Lochness",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "lochness"
+      },
+      {
+        "titolo": "Canarino mannaro",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "canarino-mannaro"
+      },
+      {
+        "titolo": "Pappa di latte",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "pappa-di-latte"
+      },
+      {
+        "titolo": "Cremona",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "cremona"
+      },
+      {
+        "titolo": "Napoli",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "napoli"
+      },
+      {
+        "titolo": "Leggera",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "leggera"
+      },
+      {
+        "titolo": "Mina Celentano",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-celentano-1998"
+      },
+      {
+        "titolo": "Olio",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "olio"
+      },
+      {
+        "titolo": "Mina Nº 0",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-n-0"
+      },
+      {
+        "titolo": "Dalla terra",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "dalla-terra"
+      },
+      {
+        "titolo": "Sconcerto",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "sconcerto"
+      },
+      {
+        "titolo": "Veleno",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "veleno"
+      },
+      {
+        "titolo": "Napoli secondo estratto",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "napoli-secondo-estratto"
+      },
+      {
+        "titolo": "Bula Bula",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "bula-bula"
+      },
+      {
+        "titolo": "L'allieva",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-allieva"
+      },
+      {
+        "titolo": "Bau",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "bau"
+      },
+      {
+        "titolo": "Todavía",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "todav-a"
+      },
+      {
+        "titolo": "Sulla tua bocca lo dirò",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "sulla-tua-bocca-lo-diro"
+      },
+      {
+        "titolo": "Facile",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "facile"
+      },
+      {
+        "titolo": "Caramella",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "caramella"
+      },
+      {
+        "titolo": "Piccolino",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "piccolino"
+      },
+      {
+        "titolo": "12 (American Song Book)",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "12-american-song-book"
+      },
+      {
+        "titolo": "Christmas Song Book",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "christmas-song-book"
+      },
+      {
+        "titolo": "Selfie",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "selfie"
+      },
+      {
+        "titolo": "Le migliori",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-migliori-2016"
+      },
+      {
+        "titolo": "Maeba",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "maeba"
+      },
+      {
+        "titolo": "Mina Fossati",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-fossati"
+      },
+      {
+        "titolo": "Mina in studio (2001-2021)",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "mina-in-studio-2001-2021"
+      },
+      {
+        "titolo": "Ti amo come un pazzo",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "ti-amo-come-un-pazzo"
+      },
+      {
+        "titolo": "Gassa d'amante",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "gassa-d-amante"
+      }
+    ],
     "canzoni": [
       "cielo-stanza"
     ],
@@ -6411,7 +7433,36 @@
     "slug": "my-chemical-romance",
     "nome": "My Chemical Romance",
     "storia": "Formati nel New Jersey nel 2001 dal cantante Gerard Way insieme al batterista Matt Pelissier, poco dopo gli attentati dell'11 settembre, che Way assistette dal traghetto sull'Hudson e che lo spinsero a fondare una band; si unirono presto il chitarrista Ray Toro e il bassista Mikey Way, fratello di Gerard, e infine il chitarrista Frank Iero, in formazione già al primo album \"I Brought You My Bullets, You Brought Me Your Love\" (2002).",
-    "album": [],
+    "album": [
+      {
+        "titolo": "I Brought You My Bullets, You Brought Me Your Love",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-brought-you-my-bullets-you-brought-me-your-love"
+      },
+      {
+        "titolo": "Three Cheers for Sweet Revenge",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "three-cheers-for-sweet-revenge"
+      },
+      {
+        "titolo": "The Black Parade",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-black-parade"
+      },
+      {
+        "titolo": "Danger Days: The True Lives of the Fabulous Killjoys",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "danger-days-the-true-lives-of-the-fabulous-killjoys"
+      }
+    ],
     "canzoni": [
       "welcome-to-the-black-parade"
     ],

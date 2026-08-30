@@ -2801,6 +2801,111 @@
       "permanent": true
     },
     {
+      "source": "/album/laura-pausini/laura/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/le-cose-che-vivi/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/la-mia-risposta/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/tra-te-e-il-mare/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/from-the-inside/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/resta-in-ascolto/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/io-canto/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/primavera-in-anticipo/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/inedito/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/simili/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/laura-xmas/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/fatti-sentire/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/laura-pausini/anime-parallele/",
+      "destination": "/artista/laura-pausini/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/led-zeppelin/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/led-zeppelin-ii/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/led-zeppelin-iii/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/houses-of-the-holy/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/physical-graffiti/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/presence/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/in-through-the-out-door/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
+      "source": "/album/led-zeppelin/coda/",
+      "destination": "/artista/led-zeppelin/",
+      "permanent": true
+    },
+    {
       "source": "/album/ligabue/ligabue/",
       "destination": "/artista/ligabue/",
       "permanent": true
@@ -2856,6 +2961,31 @@
       "permanent": true
     },
     {
+      "source": "/album/limp-bizkit/three-dollar-bill-y-all/",
+      "destination": "/artista/limp-bizkit/",
+      "permanent": true
+    },
+    {
+      "source": "/album/limp-bizkit/chocolate-starfish-and-the-hot-dog-flavored-water/",
+      "destination": "/artista/limp-bizkit/",
+      "permanent": true
+    },
+    {
+      "source": "/album/limp-bizkit/results-may-vary/",
+      "destination": "/artista/limp-bizkit/",
+      "permanent": true
+    },
+    {
+      "source": "/album/limp-bizkit/gold-cobra/",
+      "destination": "/artista/limp-bizkit/",
+      "permanent": true
+    },
+    {
+      "source": "/album/limp-bizkit/still-sucks/",
+      "destination": "/artista/limp-bizkit/",
+      "permanent": true
+    },
+    {
       "source": "/album/linkin-park/minutes-to-midnight/",
       "destination": "/artista/linkin-park/",
       "permanent": true
@@ -2883,6 +3013,101 @@
     {
       "source": "/album/linkin-park/from-zero/",
       "destination": "/artista/linkin-park/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/lucio-battisti/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/lucio-battisti-vol-2/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/emozioni/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/amore-e-non-amore/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/lucio-battisti-vol-4/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/umanamente-uomo-il-sogno/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/il-nostro-caro-angelo/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/anima-latina/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/lucio-battisti-la-batteria-il-contrabbasso-eccetera/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/io-tu-noi-tutti/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/images/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/una-donna-per-amico/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/una-giornata-uggiosa/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/e-gia/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/don-giovanni/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/l-apparenza/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/la-sposa-occidentale/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/cosa-succedera-alla-ragazza/",
+      "destination": "/artista/lucio-battisti/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lucio-battisti/hegel/",
+      "destination": "/artista/lucio-battisti/",
       "permanent": true
     },
     {
@@ -2988,6 +3213,96 @@
     {
       "source": "/album/lucio-dalla/angoli-nel-cielo/",
       "destination": "/artista/lucio-dalla/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/pronounced-l-h-nerd-skin-nerd/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/nuthin-fancy/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/gimme-back-my-bullets/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/street-survivors/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/lynyrd-skynyrd-1991/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/the-last-rebel/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/endangered-species/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/twenty/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/edge-of-forever/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/christmas-time-again/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/vicious-cycle/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/god-guns/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/lynyrd-skynyrd/last-of-a-dyin-breed/",
+      "destination": "/artista/lynyrd-skynyrd/",
+      "permanent": true
+    },
+    {
+      "source": "/album/machine-gun-kelly/lace-up/",
+      "destination": "/artista/machine-gun-kelly/",
+      "permanent": true
+    },
+    {
+      "source": "/album/machine-gun-kelly/general-admission/",
+      "destination": "/artista/machine-gun-kelly/",
+      "permanent": true
+    },
+    {
+      "source": "/album/machine-gun-kelly/bloom/",
+      "destination": "/artista/machine-gun-kelly/",
+      "permanent": true
+    },
+    {
+      "source": "/album/machine-gun-kelly/hotel-diablo/",
+      "destination": "/artista/machine-gun-kelly/",
+      "permanent": true
+    },
+    {
+      "source": "/album/machine-gun-kelly/mainstream-sellout/",
+      "destination": "/artista/machine-gun-kelly/",
       "permanent": true
     },
     {
@@ -3136,6 +3451,381 @@
       "permanent": true
     },
     {
+      "source": "/album/mina/tintarella-di-luna/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/due-note/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/moliendo-cafe/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/renato/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/stessa-spiaggia-stesso-mare/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-1964/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/studio-uno/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/studio-uno-66/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-2/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/sabato-sera-studio-uno-67/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/dedicato-a-mio-padre/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/le-piu-belle-canzoni-italiane-interpretate-da-mina/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/canzonissima-68/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/i-discorsi/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-for-you/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/bugiardo-piu-che-mai-piu-incosciente-che-mai/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-canta-o-brasil/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/quando-tu-mi-spiavi-in-cima-a-un-batticuore/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-1971/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/cinquemilaquarantatre/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/frutta-e-verdura/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/amanti-di-valore/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/baby-gate/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/minacantalucio/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/la-mina/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/singolare/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/plurale/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-con-bigne/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-quasi-jannacci/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/attila/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/kyrie/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/salome/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/italiana/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-25/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/catene/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/finalmente-ho-conosciuto-il-conte-dracula/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/si-buana/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/rane-supreme/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/ridi-pagliaccio/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/uiallalla/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/ti-conosco-mascherina/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/caterpillar/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/sorelle-lumiere/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-canta-i-beatles/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/lochness/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/canarino-mannaro/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/pappa-di-latte/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/cremona/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/napoli/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/leggera/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-celentano-1998/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/olio/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-n-0/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/dalla-terra/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/sconcerto/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/veleno/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/napoli-secondo-estratto/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/bula-bula/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/l-allieva/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/bau/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/todav-a/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/sulla-tua-bocca-lo-diro/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/facile/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/caramella/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/piccolino/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/12-american-song-book/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/christmas-song-book/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/selfie/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/le-migliori-2016/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/maeba/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-fossati/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/mina-in-studio-2001-2021/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/ti-amo-come-un-pazzo/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/gassa-d-amante/",
+      "destination": "/artista/mina/",
+      "permanent": true
+    },
+    {
       "source": "/album/motorhead/motorhead/",
       "destination": "/artista/motorhead/",
       "permanent": true
@@ -3268,6 +3958,21 @@
     {
       "source": "/album/muse/the-wow-signal/",
       "destination": "/artista/muse/",
+      "permanent": true
+    },
+    {
+      "source": "/album/my-chemical-romance/i-brought-you-my-bullets-you-brought-me-your-love/",
+      "destination": "/artista/my-chemical-romance/",
+      "permanent": true
+    },
+    {
+      "source": "/album/my-chemical-romance/three-cheers-for-sweet-revenge/",
+      "destination": "/artista/my-chemical-romance/",
+      "permanent": true
+    },
+    {
+      "source": "/album/my-chemical-romance/danger-days-the-true-lives-of-the-fabulous-killjoys/",
+      "destination": "/artista/my-chemical-romance/",
       "permanent": true
     },
     {
@@ -3713,6 +4418,11 @@
     {
       "source": "/album/al-bano-e-romina-power/singolo/",
       "destination": "/album/al-bano-e-romina-power/felicita/",
+      "permanent": true
+    },
+    {
+      "source": "/album/mina/singolo-scritta-da-gino-paoli-1959/",
+      "destination": "/album/mina/il-cielo-in-una-stanza/",
       "permanent": true
     }
   ],

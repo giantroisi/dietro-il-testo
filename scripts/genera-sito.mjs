@@ -550,6 +550,7 @@ scrivi('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${SITO.base}/sitemap.x
 const REDIRECT_STORICI = [
   { da: '/album/adriano-celentano/singolo/', a: '/album/adriano-celentano/azzurro-una-carezza-in-un-pugno/' },
   { da: '/album/al-bano-e-romina-power/singolo/', a: '/album/al-bano-e-romina-power/felicita/' },
+  { da: '/album/mina/singolo-scritta-da-gino-paoli-1959/', a: '/album/mina/il-cielo-in-una-stanza/' },
 ];
 
 // F63: un 301 permanente da ogni indirizzo album rimosso (F50) verso la

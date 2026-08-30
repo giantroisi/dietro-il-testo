@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:laura-pausini:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "laura-pausini",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:led-zeppelin:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "led-zeppelin",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:limp-bizkit:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "limp-bizkit",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:lucio-battisti:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "lucio-battisti",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:lynyrd-skynyrd:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "lynyrd-skynyrd",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:machine-gun-kelly:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "machine-gun-kelly",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:mina:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "mina",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:my-chemical-romance:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "my-chemical-romance",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:naska:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1183,6 +1103,26 @@
     "motivo": null
   },
   {
+    "id": "album:laura-pausini:laura-pausini-debutto:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/laura-pausini-debutto",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:led-zeppelin-iv:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/led-zeppelin-iv",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:buon-compleanno-elvis:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1203,10 +1143,30 @@
     "motivo": null
   },
   {
+    "id": "album:limp-bizkit:significant-other:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/significant-other",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:linkin-park:meteora:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "linkin-park/meteora",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:il-mio-canto-libero:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/il-mio-canto-libero",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1227,6 +1187,26 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "lucio-dalla/storie-di-casa-mia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:second-helping:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/second-helping",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:tickets-to-my-downfall:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/tickets-to-my-downfall",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1273,6 +1253,16 @@
     "motivo": null
   },
   {
+    "id": "album:mina:il-cielo-in-una-stanza:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "mina/il-cielo-in-una-stanza",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:motorhead:ace-of-spades:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1297,6 +1287,16 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "muse/the-resistance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:my-chemical-romance:the-black-parade:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "my-chemical-romance/the-black-parade",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -7043,6 +7043,216 @@
     "motivo": null
   },
   {
+    "id": "album:laura-pausini:anime-parallele:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/anime-parallele",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:fatti-sentire:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/fatti-sentire",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:from-the-inside:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/from-the-inside",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:inedito:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/inedito",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:io-canto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/io-canto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:la-mia-risposta:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/la-mia-risposta",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:laura-xmas:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/laura-xmas",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:laura:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/laura",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:le-cose-che-vivi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/le-cose-che-vivi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:primavera-in-anticipo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/primavera-in-anticipo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:resta-in-ascolto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/resta-in-ascolto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:simili:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/simili",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:laura-pausini:tra-te-e-il-mare:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/tra-te-e-il-mare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:coda:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/coda",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:houses-of-the-holy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/houses-of-the-holy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:in-through-the-out-door:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/in-through-the-out-door",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:led-zeppelin-ii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/led-zeppelin-ii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:led-zeppelin-iii:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/led-zeppelin-iii",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:led-zeppelin:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/led-zeppelin",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:physical-graffiti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/physical-graffiti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:led-zeppelin:presence:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "led-zeppelin/presence",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:7:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -7153,6 +7363,56 @@
     "motivo": null
   },
   {
+    "id": "album:limp-bizkit:chocolate-starfish-and-the-hot-dog-flavored-water:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/chocolate-starfish-and-the-hot-dog-flavored-water",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:limp-bizkit:gold-cobra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/gold-cobra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:limp-bizkit:results-may-vary:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/results-may-vary",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:limp-bizkit:still-sucks:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/still-sucks",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:limp-bizkit:three-dollar-bill-y-all:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "limp-bizkit/three-dollar-bill-y-all",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:linkin-park:a-thousand-suns:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -7207,6 +7467,196 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "linkin-park/the-hunting-party",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:amore-e-non-amore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/amore-e-non-amore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:anima-latina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/anima-latina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:cosa-succedera-alla-ragazza:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/cosa-succedera-alla-ragazza",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:don-giovanni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/don-giovanni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:e-gia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/e-gia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:emozioni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/emozioni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:hegel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/hegel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:il-nostro-caro-angelo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/il-nostro-caro-angelo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:images:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/images",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:io-tu-noi-tutti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/io-tu-noi-tutti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:l-apparenza:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/l-apparenza",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:la-sposa-occidentale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/la-sposa-occidentale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:lucio-battisti-la-batteria-il-contrabbasso-eccetera:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/lucio-battisti-la-batteria-il-contrabbasso-eccetera",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:lucio-battisti-vol-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/lucio-battisti-vol-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:lucio-battisti-vol-4:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/lucio-battisti-vol-4",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:lucio-battisti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/lucio-battisti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:umanamente-uomo-il-sogno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/umanamente-uomo-il-sogno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:una-donna-per-amico:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/una-donna-per-amico",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lucio-battisti:una-giornata-uggiosa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lucio-battisti/una-giornata-uggiosa",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -7417,6 +7867,186 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "lucio-dalla/viaggi-organizzati",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:christmas-time-again:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/christmas-time-again",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:edge-of-forever:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/edge-of-forever",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:endangered-species:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/endangered-species",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:gimme-back-my-bullets:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/gimme-back-my-bullets",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:god-guns:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/god-guns",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:last-of-a-dyin-breed:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/last-of-a-dyin-breed",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:lynyrd-skynyrd-1991:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/lynyrd-skynyrd-1991",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:nuthin-fancy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/nuthin-fancy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:pronounced-l-h-nerd-skin-nerd:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/pronounced-l-h-nerd-skin-nerd",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:street-survivors:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/street-survivors",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:the-last-rebel:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/the-last-rebel",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:twenty:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/twenty",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:lynyrd-skynyrd:vicious-cycle:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "lynyrd-skynyrd/vicious-cycle",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:bloom:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/bloom",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:general-admission:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/general-admission",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:hotel-diablo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/hotel-diablo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:lace-up:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/lace-up",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:machine-gun-kelly:mainstream-sellout:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "machine-gun-kelly/mainstream-sellout",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -7713,6 +8343,756 @@
     "motivo": null
   },
   {
+    "id": "album:mina:12-american-song-book:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/12-american-song-book",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:amanti-di-valore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/amanti-di-valore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:attila:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/attila",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:baby-gate:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/baby-gate",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:bau:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/bau",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:bugiardo-piu-che-mai-piu-incosciente-che-mai:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/bugiardo-piu-che-mai-piu-incosciente-che-mai",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:bula-bula:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/bula-bula",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:canarino-mannaro:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/canarino-mannaro",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:canzonissima-68:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/canzonissima-68",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:caramella:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/caramella",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:catene:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/catene",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:caterpillar:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/caterpillar",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:christmas-song-book:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/christmas-song-book",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:cinquemilaquarantatre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/cinquemilaquarantatre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:cremona:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/cremona",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:dalla-terra:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/dalla-terra",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:dedicato-a-mio-padre:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/dedicato-a-mio-padre",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:due-note:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/due-note",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:facile:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/facile",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:finalmente-ho-conosciuto-il-conte-dracula:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/finalmente-ho-conosciuto-il-conte-dracula",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:frutta-e-verdura:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/frutta-e-verdura",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:gassa-d-amante:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/gassa-d-amante",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:i-discorsi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/i-discorsi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:italiana:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/italiana",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:kyrie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/kyrie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:l-allieva:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/l-allieva",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:la-mina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/la-mina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:le-migliori-2016:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/le-migliori-2016",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:le-piu-belle-canzoni-italiane-interpretate-da-mina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/le-piu-belle-canzoni-italiane-interpretate-da-mina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:leggera:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/leggera",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:lochness:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/lochness",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:maeba:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/maeba",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-1964:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-1964",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-1971:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-1971",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-25:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-25",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-canta-i-beatles:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-canta-i-beatles",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-canta-o-brasil:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-canta-o-brasil",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-celentano-1998:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-celentano-1998",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-con-bigne:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-con-bigne",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-for-you:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-for-you",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-fossati:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-fossati",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-in-studio-2001-2021:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-in-studio-2001-2021",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-n-0:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-n-0",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina-quasi-jannacci:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina-quasi-jannacci",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:mina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/mina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:minacantalucio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/minacantalucio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:moliendo-cafe:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/moliendo-cafe",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:napoli-secondo-estratto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/napoli-secondo-estratto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:napoli:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/napoli",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:olio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/olio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:pappa-di-latte:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/pappa-di-latte",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:piccolino:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/piccolino",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:plurale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/plurale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:quando-tu-mi-spiavi-in-cima-a-un-batticuore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/quando-tu-mi-spiavi-in-cima-a-un-batticuore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:rane-supreme:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/rane-supreme",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:renato:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/renato",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:ridi-pagliaccio:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/ridi-pagliaccio",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:sabato-sera-studio-uno-67:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/sabato-sera-studio-uno-67",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:salome:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/salome",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:sconcerto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/sconcerto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:selfie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/selfie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:si-buana:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/si-buana",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:singolare:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/singolare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:sorelle-lumiere:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/sorelle-lumiere",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:stessa-spiaggia-stesso-mare:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/stessa-spiaggia-stesso-mare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:studio-uno-66:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/studio-uno-66",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:studio-uno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/studio-uno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:sulla-tua-bocca-lo-diro:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/sulla-tua-bocca-lo-diro",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:ti-amo-come-un-pazzo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/ti-amo-come-un-pazzo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:ti-conosco-mascherina:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/ti-conosco-mascherina",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:tintarella-di-luna:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/tintarella-di-luna",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:todav-a:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/todav-a",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:uiallalla:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/uiallalla",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:mina:veleno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "mina/veleno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:motorhead:1916:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -7977,6 +9357,36 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "muse/will-of-the-people",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:my-chemical-romance:danger-days-the-true-lives-of-the-fabulous-killjoys:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "my-chemical-romance/danger-days-the-true-lives-of-the-fabulous-killjoys",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:my-chemical-romance:i-brought-you-my-bullets-you-brought-me-your-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "my-chemical-romance/i-brought-you-my-bullets-you-brought-me-your-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:my-chemical-romance:three-cheers-for-sweet-revenge:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "my-chemical-romance/three-cheers-for-sweet-revenge",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
