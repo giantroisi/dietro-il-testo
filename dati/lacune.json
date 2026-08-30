@@ -330,6 +330,46 @@
     "motivo": "confermata integralmente: uDiscover Music"
   },
   {
+    "id": "album:fall-out-boy:from-under-the-cork-tree:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "fall-out-boy/from-under-the-cork-tree",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:fleetwood-mac:rumours:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "fleetwood-mac/rumours",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Far Out Magazine, corroborata da più fonti indipendenti"
+  },
+  {
+    "id": "album:foo-fighters:the-colour-and-the-shape:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "foo-fighters/the-colour-and-the-shape",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Rolling Stone, con citazione diretta di Dave Grohl"
+  },
+  {
+    "id": "album:francesco-de-gregori:de-gregori:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "francesco-de-gregori/de-gregori",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: ImpattoSonoro (Patrizio Ruviglioni)"
+  },
+  {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -338,6 +378,16 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata solo la descrizione visiva (Libreriamo); tolti l'attribuzione a Francesco Logoluso e la citazione di De Gregori sul 'trucco', non verificabili con una fonte incollabile nonostante 5 fonti diverse tentate (Rockol, Fanpage, Treccani, doppiojazz, sandrodandria — tutte bloccate o senza la citazione)"
+  },
+  {
+    "id": "album:franco-battiato:limboscata:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "franco-battiato/limboscata",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Wikipedia"
   },
   {
     "id": "album:green-day:dookie:fonte-copertina",
@@ -648,19 +698,9 @@
     "tipo": "copertina-album",
     "soggetto": "fabrizio-de-andre/volume-3-raccolta",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:fall-out-boy:from-under-the-cork-tree:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "fall-out-boy/from-under-the-cork-tree",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovati solo dettagli fisici sull'astuccio (bordi arrotondati, testo su costa gialla), nessuna spiegazione di cosa raffiguri effettivamente la copertina anteriore."
   },
   {
     "id": "album:finley:tutto-e-possibile:copertina",
@@ -668,49 +708,9 @@
     "tipo": "copertina-album",
     "soggetto": "finley/tutto-e-possibile",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:fleetwood-mac:rumours:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "fleetwood-mac/rumours",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:foo-fighters:the-colour-and-the-shape:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "foo-fighters/the-colour-and-the-shape",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:francesco-de-gregori:de-gregori:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "francesco-de-gregori/de-gregori",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:franco-battiato:limboscata:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "franco-battiato/limboscata",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata con una spiegazione o descrizione della copertina."
   },
   {
     "id": "album:fulminacci:infinito-1:copertina",
@@ -718,9 +718,9 @@
     "tipo": "copertina-album",
     "soggetto": "fulminacci/infinito-1",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata con una spiegazione o descrizione della copertina."
   },
   {
     "id": "album:ghost:popestar:copertina",

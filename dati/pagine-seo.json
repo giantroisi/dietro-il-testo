@@ -1855,9 +1855,9 @@
   {
     "percorso": "album/fall-out-boy/from-under-the-cork-tree/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/finley/tutto-e-possibile/",
@@ -1869,16 +1869,16 @@
   {
     "percorso": "album/fleetwood-mac/rumours/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/foo-fighters/the-colour-and-the-shape/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/francesco-de-gregori/rimmel/",
@@ -1890,9 +1890,9 @@
   {
     "percorso": "album/francesco-de-gregori/de-gregori/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/francesco-de-gregori/pezzi/",
@@ -1904,9 +1904,9 @@
   {
     "percorso": "album/franco-battiato/limboscata/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/fulminacci/infinito-1/",

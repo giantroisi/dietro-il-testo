@@ -4613,10 +4613,10 @@
     "slug": "from-under-the-cork-tree",
     "titolo": "From Under the Cork Tree",
     "anno": "2005",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -4833,10 +4833,10 @@
     "slug": "rumours",
     "titolo": "Rumours",
     "anno": "1977",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -4921,10 +4921,10 @@
     "slug": "the-colour-and-the-shape",
     "titolo": "The Colour and the Shape",
     "anno": "1997",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -5086,10 +5086,10 @@
     "slug": "de-gregori",
     "titolo": "De Gregori",
     "anno": "1978",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -5482,10 +5482,10 @@
     "slug": "limboscata",
     "titolo": "L'imboscata",
     "anno": "1996",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

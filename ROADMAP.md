@@ -450,6 +450,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 88 a **80**.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Hotel California" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Ventinovesimo lotto F66 (8 voci C4): copertine di Fall Out Boy/From Under the Cork Tree, Fleetwood Mac/Rumours, Foo Fighters/The Colour and the Shape, Francesco De Gregori/De Gregori, Franco Battiato/L'imboscata — tre sospese.**
+**Cinque copertine documentate**, con fonti solide (Far Out Magazine per Fleetwood Mac, Rolling Stone con citazione diretta di Dave Grohl per i Foo Fighters, ImpattoSonoro per De Gregori) — la resa migliore da qualche lotto, dopo quella più scarsa del precedente.
+**Tre voci lasciate sospese**: Fabrizio De André/Volume 3 (raccolta) — trovati solo dettagli fisici sull'astuccio, non su cosa raffigura la copertina — e Finley/Tutto è possibile e Fulminacci/Infinito +1, per cui non è stata trovata nessuna fonte.
+**I quattro numeri del lotto**: 8 cercate, 5 trovate, 0 accertate assenti, 3 sospese.
+**Debito aperto**: sceso da 80 a **72** — sempre più vicino alla soglia dei 50 che F67 impone prima di poter riaprire a contenuti nuovi.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Rumours" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

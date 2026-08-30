@@ -3663,7 +3663,13 @@
         "titolo": "From Under the Cork Tree",
         "anno": "2005",
         "nota": null,
-        "copertina": null,
+        "copertina": "Un pubblico monocromatico di uomini in abito nero osserva un palco; le tende rosse aperte rivelano un furgone coi fari accesi che traina un rimorchio bloccato in una tempesta di neve.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/From_Under_the_Cork_Tree",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "from-under-the-cork-tree"
       },
       {
@@ -3839,7 +3845,13 @@
         "titolo": "Rumours",
         "anno": "1977",
         "nota": null,
-        "copertina": null,
+        "copertina": "Fotografata da Herbert Worthington, mostra Stevie Nicks e Mick Fleetwood in abiti di scena: Fleetwood regge una sfera di cristallo che Nicks osserva, avvolta nel suo mantello, nei panni della sua alter ego \"ammaliante\" Rhiannon, ispirata alla mitologia gallese. Fu lo stesso Worthington a proporre il concept e a portare sul set lo sgabello visibile nello scatto; le sfere appese tra le gambe di Fleetwood erano catene per lo sciacquone, prese in prestito da un locale in cui la band suonava agli esordi.",
+        "copertinaFonte": [
+          {
+            "url": "https://faroutmagazine.co.uk/fleetwood-mac-rumours-album-cover-meaning/",
+            "nome": "Far Out Magazine"
+          }
+        ],
         "slug": "rumours"
       },
       {
@@ -3912,7 +3924,13 @@
         "titolo": "The Colour and the Shape",
         "anno": "1997",
         "nota": null,
-        "copertina": null,
+        "copertina": "Un design minimalista che ricorda l'Atomium, la struttura costruita per l'esposizione universale di Bruxelles del 1958; Dave Grohl ha raccontato che, sequenziando l'album — nato soprattutto dal suo divorzio del 1996 — si rese conto che il disco \"scorreva come una seduta di terapia\", alternando brani energici e ballate a rappresentare emozioni contrastanti. Il titolo nacque invece da un birillo da bowling comprato dal tour manager della band in un negozio dell'usato.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rollingstone.com/feature/foo-fighters-the-colour-and-the-shape-10-things-you-didnt-know-115404/",
+            "nome": "Rolling Stone"
+          }
+        ],
         "slug": "the-colour-and-the-shape"
       },
       {
@@ -4040,7 +4058,13 @@
         "titolo": "De Gregori",
         "anno": "1978",
         "nota": null,
-        "copertina": null,
+        "copertina": "Ritrae il cantautore mentre calcia un pallone in mezzo ai campi, un gesto liberatorio e spensierato che segna il suo ritorno alla musica dopo essersi ritirato per un periodo, lavorando come commesso in libreria, in seguito alla contestazione subita durante un concerto al PalaLido di Milano nel 1976.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.impattosonoro.it/2018/04/04/speciali/francesco-de-gregori-de-gregori-1978",
+            "nome": "ImpattoSonoro"
+          }
+        ],
         "slug": "de-gregori"
       },
       {
@@ -4316,7 +4340,13 @@
         "titolo": "L'imboscata",
         "anno": "1996",
         "nota": null,
-        "copertina": null,
+        "copertina": "Riproduce \"La battaglia delle Piramidi\" (1810) di Antoine-Jean Gros, che raffigura Napoleone mentre arringa i soldati prima della battaglia; l'album è dedicato allo scrittore Gesualdo Bufalino, amico e conterraneo di Battiato, scomparso pochi mesi prima dell'uscita.",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/L%27imboscata_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "limboscata"
       },
       {
