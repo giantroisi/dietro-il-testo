@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 177,
+    "nCanzoni": 181,
     "haTestoEditoriale": true
   },
   {
@@ -922,17 +922,37 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/amnesia-5sos/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/con-un-deca/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sharazan/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hey-brother/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
     "percorso": "artista/883/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -967,7 +987,7 @@
     "percorso": "artista/al-bano-e-romina-power/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -988,7 +1008,7 @@
     "percorso": "artista/avicii/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1653,14 +1673,14 @@
     "percorso": "album/5-seconds-of-summer/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
     "percorso": "album/883/hanno-ucciso-luomo-ragno/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -1695,7 +1715,7 @@
     "percorso": "album/al-bano-e-romina-power/felicita/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -1716,7 +1736,7 @@
     "percorso": "album/avicii/true/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2647,7 +2667,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 82,
+    "nCanzoni": 84,
     "haTestoEditoriale": true
   },
   {
@@ -2661,14 +2681,14 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 62,
+    "nCanzoni": 66,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/punk/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 20,
+    "nCanzoni": 21,
     "haTestoEditoriale": true
   },
   {
@@ -2689,21 +2709,21 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 45,
+    "nCanzoni": 46,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 37,
+    "nCanzoni": 38,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 19,
+    "nCanzoni": 21,
     "haTestoEditoriale": true
   }
 ]
