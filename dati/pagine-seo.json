@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 175,
+    "nCanzoni": 177,
     "haTestoEditoriale": true
   },
   {
@@ -912,6 +912,16 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/motivation/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/aerials/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1524,14 +1534,14 @@
     "percorso": "artista/sum-41/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
     "percorso": "artista/system-of-a-down/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2483,7 +2493,7 @@
     "percorso": "album/sum-41/all-killer-no-filler/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2504,7 +2514,7 @@
     "percorso": "album/system-of-a-down/toxicity/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2644,21 +2654,21 @@
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 60,
+    "nCanzoni": 61,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 61,
+    "nCanzoni": 62,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/punk/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 19,
+    "nCanzoni": 20,
     "haTestoEditoriale": true
   },
   {
@@ -2672,7 +2682,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 32,
+    "nCanzoni": 34,
     "haTestoEditoriale": true
   },
   {

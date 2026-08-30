@@ -7668,5 +7668,88 @@
     "temi": [
       "morte-lutto"
     ]
+  },
+  {
+    "slug": "motivation",
+    "titolo": "Motivation",
+    "artista": "Sum 41",
+    "artistaSlug": "sum-41",
+    "anno": "2001",
+    "album": "All Killer No Filler",
+    "albumSlug": "all-killer-no-filler",
+    "genereTesto": "Pop punk",
+    "generi": [
+      "pop",
+      "punk"
+    ],
+    "paese": null,
+    "colore": "#6E3E1F",
+    "colore2": "#1F4A6E",
+    "ascolti": 69199806,
+    "ascoltiTesto": "69 mln ascolti",
+    "spotifyId": "6joQ1zE0lhx0UazVTK05Xc",
+    "corpo": [
+      "Terzo singolo estratto da \"All Killer No Filler\", uscito il 5 gennaio 2002, racconta l'assenza totale di voglia di fare qualsiasi cosa: un atteggiamento nichilista e apatico, la pigrizia di chi non trova nemmeno la motivazione per cercare una motivazione.",
+      "Il videoclip fu girato ricreando la soffitta del batterista Steve Jocz ad Ajax, in Ontario, la stessa stanza dove la band scriveva le canzoni — riprodotta apposta ingombra di rifiuti e oggetti sparsi per l'occasione."
+    ],
+    "fraseIconica": "Il momento più ricordato è il ritornello che mette in fila la stessa lamentela quotidiana, dove nulla cambia mai e ogni giorno trascina l'umore verso il basso — un ritratto della noia più che una protesta vera e propria.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/sum-41/39105/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Motivation_(Sum_41_song)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
+  },
+  {
+    "slug": "aerials",
+    "titolo": "Aerials",
+    "artista": "System of a Down",
+    "artistaSlug": "system-of-a-down",
+    "anno": "2001",
+    "album": "Toxicity",
+    "albumSlug": "toxicity",
+    "genereTesto": "Alternative / Nu metal",
+    "generi": [
+      "metal"
+    ],
+    "paese": null,
+    "colore": "#2E4A6E",
+    "colore2": "#6E5C2E",
+    "ascolti": 1016817929,
+    "ascoltiTesto": "1 mld ascolti",
+    "spotifyId": "4e9eGQYsOiBcftrWXwsVco",
+    "corpo": [
+      "Testo scritto dal chitarrista Daron Malakian insieme al cantante Serj Tankian, con la musica composta interamente da Malakian; alla domanda sul significato del brano, lo stesso Malakian ha risposto più volte che parla \"di niente\", lasciando volutamente ai fan il compito di trovarci un senso proprio.",
+      "Il videoclip, diretto da David Slade in collaborazione con il bassista Shavo Odadjian, segue un ragazzo dall'aspetto in parte alieno in un ambiente che critica la superficialità della cultura delle celebrità. Uscito come singolo oltre un anno dopo la pubblicazione dell'album, il brano raggiunse comunque il primo posto sia nella classifica rock mainstream sia in quella alternative di Billboard nell'autunno del 2002."
+    ],
+    "fraseIconica": "Il momento più ricordato è l'invocazione ripetuta a librarsi in alto, come un'antenna verso il cielo, che perde piccolezza e si libera: un'immagine che la band ha sempre rifiutato di spiegare, preferendo lasciarla aperta a chi ascolta.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/system-of-a-down/39427/",
+    "fonti": [
+      {
+        "url": "https://www.songfacts.com/facts/system-of-a-down/aerials",
+        "nome": "Songfacts"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
   }
 ]
