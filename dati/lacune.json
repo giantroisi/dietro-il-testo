@@ -390,6 +390,16 @@
     "motivo": "confermata integralmente: Wikipedia"
   },
   {
+    "id": "album:green-day:21st-century-breakdown:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "green-day/21st-century-breakdown",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: NME, dettagli sull'origine dello stencil e sui personaggi Christian e Gloria"
+  },
+  {
     "id": "album:green-day:dookie:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -398,6 +408,56 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata integralmente: intervista diretta a Richie Bucher su KQED conferma le influenze (Fabulous Furry Freak Brothers, Shakedown Street dei Grateful Dead)"
+  },
+  {
+    "id": "album:guns-n-roses:use-your-illusion-i:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "guns-n-roses/use-your-illusion-i",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia (dettaglio dalla Scuola di Atene di Raffaello, adattamento di Mark Kostabi)"
+  },
+  {
+    "id": "album:iron-maiden:piece-of-mind:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "iron-maiden/piece-of-mind",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Last Rites, descrizione dettagliata della camicia di forza e del cameo di Riggs/Birch"
+  },
+  {
+    "id": "album:john-lennon:imagine:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "john-lennon/imagine",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: RecordArt, con citazione diretta di Lennon sulla sovrapposizione fotografica di Yoko Ono"
+  },
+  {
+    "id": "album:judas-priest:british-steel:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "judas-priest/british-steel",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Louder, con citazione diretta di Rob Halford sull'origine dell'idea"
+  },
+  {
+    "id": "album:judas-priest:screaming-for-vengeance:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "judas-priest/screaming-for-vengeance",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: People's Graphic Design Archive, attribuzione a Doug Johnson"
   },
   {
     "id": "album:metallica:master-of-puppets:fonte-copertina",
@@ -728,9 +788,9 @@
     "tipo": "copertina-album",
     "soggetto": "ghost/popestar",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: fonti in conflitto sull'autore della copertina (alcune indicano David Brinley, altre Zbigniew Bielak), nessuna fonte di livello A/B risolve univocamente l'attribuzione"
   },
   {
     "id": "album:gianna-nannini:profumo:copertina",
@@ -738,69 +798,9 @@
     "tipo": "copertina-album",
     "soggetto": "gianna-nannini/profumo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:green-day:21st-century-breakdown:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "green-day/21st-century-breakdown",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:guns-n-roses:use-your-illusion-i:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "guns-n-roses/use-your-illusion-i",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:iron-maiden:piece-of-mind:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "iron-maiden/piece-of-mind",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:john-lennon:imagine:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "john-lennon/imagine",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:judas-priest:british-steel:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "judas-priest/british-steel",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:judas-priest:screaming-for-vengeance:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "judas-priest/screaming-for-vengeance",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva o attribuisca la copertina dell'album"
   },
   {
     "id": "album:korn:follow-the-leader:copertina",

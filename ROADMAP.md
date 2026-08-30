@@ -457,6 +457,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 80 a **72** — sempre più vicino alla soglia dei 50 che F67 impone prima di poter riaprire a contenuti nuovi.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Rumours" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Trentesimo lotto F66 (8 voci C4): copertine di Green Day/21st Century Breakdown, Guns N' Roses/Use Your Illusion I, Iron Maiden/Piece of Mind, John Lennon/Imagine, Judas Priest/British Steel, Judas Priest/Screaming for Vengeance — due sospese.**
+**Sei copertine documentate**, la resa più alta da diversi lotti, con fonti solide e due citazioni dirette dell'artista o della band: John Lennon su come Yoko Ono realizzò la sovraesposizione fotografica di "Imagine" (RecordArt), e Rob Halford sull'origine dell'idea della lametta di "British Steel" (Louder). Confermata anche l'attribuzione della copertina di "Use Your Illusion I" a un dettaglio della "Scuola di Atene" di Raffaello rielaborato da Mark Kostabi (Wikipedia, fatto strutturale semplice, non un'interpretazione).
+**Due voci lasciate sospese**: Ghost/Popestar, per cui le fonti si contraddicono sull'autore del disegno (alcune indicano David Brinley, altre Zbigniew Bielak, nessuna fonte di livello A/B risolve l'ambiguità) — e Gianna Nannini/Profumo, per cui non è stata trovata nessuna fonte che descriva la copertina.
+**I quattro numeri del lotto**: 8 cercate, 6 trovate, 0 accertate assenti, 2 sospese.
+**Debito aperto**: sceso da 72 a **64**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "British Steel" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

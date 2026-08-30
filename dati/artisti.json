@@ -4799,7 +4799,13 @@
         "titolo": "21st Century Breakdown",
         "anno": "2009",
         "nota": "certificato Platino RIAA, Grammy Best Rock Album 2010",
-        "copertina": null,
+        "copertina": "Raffigura un bacio tra Christian e Gloria, i due personaggi immaginari al centro della storia dell'album, in uno stencil derivato da una fotografia scattata a una festa a Eskilstuna, in Svezia, dall'artista di strada Sixten; Billie Joe Armstrong l'ha descritta come \"una folla apocalittica e rabbiosa con una città in fiamme e luci lampeggianti, mentre baci la tua ragazza\".",
+        "copertinaFonte": [
+          {
+            "url": "https://www.nme.com/news/music/green-day-209-1305753",
+            "nome": "NME"
+          }
+        ],
         "slug": "21st-century-breakdown"
       },
       {
@@ -4892,7 +4898,13 @@
         "titolo": "Use Your Illusion I",
         "anno": "1991",
         "nota": "certificato 7x platino RIAA",
-        "copertina": null,
+        "copertina": "Riproduce un dettaglio della \"Scuola di Atene\" di Raffaello, rielaborato dall'artista estone-americano Mark Kostabi in una tonalità giallo-rossa; la copertina del secondo volume, \"Use Your Illusion II\", usa la stessa composizione con una diversa combinazione di colori.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Use_Your_Illusion_I",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "use-your-illusion-i"
       },
       {
@@ -4966,7 +4978,13 @@
         "titolo": "Piece of Mind",
         "anno": "1983",
         "nota": "certificato platino RIAA",
-        "copertina": null,
+        "copertina": "Disegnata da Derek Riggs, mostra la mascotte Eddie in camicia di forza dentro una cella imbottita, con una piastra metallica fissata alla fronte da viti, come se avesse subito una lobotomia; sul retro del disco una porta socchiusa suggerisce una via di fuga irraggiungibile. Nel poster interno lo stesso Riggs si ritrae in armatura accanto al produttore Martin Birch, con i nomi scherzosi \"Dr. Death\" e \"Black Knight\".",
+        "copertinaFonte": [
+          {
+            "url": "https://yourlastrites.com/2021/08/30/fire-up-the-big-riggs-iron-maidens-greatest-album-art/",
+            "nome": "Last Rites"
+          }
+        ],
         "slug": "piece-of-mind"
       },
       {
@@ -5090,7 +5108,13 @@
         "titolo": "Imagine",
         "anno": "1971",
         "nota": null,
-        "copertina": null,
+        "copertina": "Una fotografia Polaroid di John Lennon scattata da Yoko Ono, con un dipinto di nuvole dell'artista Geoff Hendricks sovrapposto sopra la sua testa; lo stesso Lennon ha raccontato: \"Lei mi fece una foto, e poi avevamo questo dipinto di un tale, Geoff Hendricks, che dipinge solo cieli. Io stavo davanti al dipinto, nella stanza d'albergo, e lei ha sovrapposto l'immagine su di me dopo, così mi sono ritrovato tra le nuvole con la testa\".",
+        "copertinaFonte": [
+          {
+            "url": "https://recordart.net/2019/01/01/the-cover-design-of-john-lennons-imagine-album-not-warhol-after-all/",
+            "nome": "RecordArt"
+          }
+        ],
         "slug": "imagine"
       },
       {
@@ -5192,7 +5216,13 @@
         "titolo": "British Steel",
         "anno": "1980",
         "nota": "certificato platino RIAA, album della svolta commerciale",
-        "copertina": null,
+        "copertina": "Una mano nell'oscurità stringe una gigantesca lametta da barba con le dita, tanto forte che sembra tagliarsi senza sanguinare; l'idea nacque quando il cantante Rob Halford notò che le lamette Gillette riportavano la scritta \"Sheffield Steel\" e la propose alla band, mentre il bassista Ian Hill la collegò sia agli scioperi degli operai dell'acciaio dell'epoca sia all'identità britannica del gruppo. In alcuni paesi l'immagine fu ritoccata per attenuare l'effetto del taglio, ma la band rifiutò quella versione.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/judas-priest-british-steel-album-artwork",
+            "nome": "Louder"
+          }
+        ],
         "slug": "british-steel"
       },
       {
@@ -5206,7 +5236,13 @@
         "titolo": "Screaming for Vengeance",
         "anno": "1982",
         "nota": "certificato 2x platino RIAA, il loro album di maggior successo commerciale",
-        "copertina": null,
+        "copertina": "Disegnata dall'artista canadese Doug Johnson, raffigura un'aquila metallica stilizzata soprannominata \"Hellion\", ispirata al primo brano dell'album, resa con una tecnica lucida e quasi aerografata che ne accentua l'effetto psichedelico e il senso di movimento.",
+        "copertinaFonte": [
+          {
+            "url": "https://peoplesgdarchive.org/item/20905/judas-priest-screaming-for-vengeance-andnbsp",
+            "nome": "People's Graphic Design Archive"
+          }
+        ],
         "slug": "screaming-for-vengeance"
       },
       {
