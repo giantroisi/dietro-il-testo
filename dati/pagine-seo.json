@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 185,
+    "nCanzoni": 189,
     "haTestoEditoriale": true
   },
   {
@@ -962,6 +962,26 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/isola-che-non-ce/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/laurora/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/my-immortal/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/la-guerra-di-piero/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1147,7 +1167,7 @@
     "percorso": "artista/edoardo-bennato/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1175,21 +1195,21 @@
     "percorso": "artista/eros-ramazzotti/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
     "percorso": "artista/evanescence/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
     "percorso": "artista/fabrizio-de-andre/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1917,7 +1937,7 @@
     "percorso": "album/edoardo-bennato/sono-solo-canzonette/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -1945,21 +1965,21 @@
     "percorso": "album/eros-ramazzotti/dove-ce-musica/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
     "percorso": "album/evanescence/fallen/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
     "percorso": "album/fabrizio-de-andre/volume-3-raccolta/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -2687,21 +2707,21 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 84,
+    "nCanzoni": 86,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 62,
+    "nCanzoni": 63,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 69,
+    "nCanzoni": 72,
     "haTestoEditoriale": true
   },
   {
@@ -2722,21 +2742,21 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 35,
+    "nCanzoni": 36,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 46,
+    "nCanzoni": 47,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 38,
+    "nCanzoni": 39,
     "haTestoEditoriale": true
   },
   {
