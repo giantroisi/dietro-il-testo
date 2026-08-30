@@ -680,6 +680,76 @@
     "motivo": "confermata: American Songwriter"
   },
   {
+    "id": "album:queen:a-night-at-the-opera:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "queen/a-night-at-the-opera",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Riffology, descrizione dettagliata dello stemma"
+  },
+  {
+    "id": "album:radiohead:pablo-honey:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "radiohead/pablo-honey",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Diffuser e People's Graphic Design Archive"
+  },
+  {
+    "id": "album:rage-against-the-machine:evil-empire:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "rage-against-the-machine/evil-empire",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Riffology, con citazione diretta di Zack de la Rocha"
+  },
+  {
+    "id": "album:rage-against-the-machine:rage-against-the-machine:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "rage-against-the-machine/rage-against-the-machine",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:rammstein:mutter:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "rammstein/mutter",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:rammstein:sehnsucht:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "rammstein/sehnsucht",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
+    "id": "album:red-hot-chili-peppers:blood-sugar-sex-magik:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "red-hot-chili-peppers/blood-sugar-sex-magik",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1123,84 +1193,14 @@
     "motivo": "sospeso: fonti confermano solo i credit tecnici (fotografia di Cesare Monti, design Santi & Spinello), nessuna descrive cosa raffigura o cosa significhi la copertina"
   },
   {
-    "id": "album:queen:a-night-at-the-opera:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "queen/a-night-at-the-opera",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:r-e-m:out-of-time:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "r-e-m/out-of-time",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:radiohead:pablo-honey:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "radiohead/pablo-honey",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:rage-against-the-machine:evil-empire:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "rage-against-the-machine/evil-empire",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:rage-against-the-machine:rage-against-the-machine:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "rage-against-the-machine/rage-against-the-machine",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:rammstein:mutter:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "rammstein/mutter",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:rammstein:sehnsucht:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "rammstein/sehnsucht",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:red-hot-chili-peppers:blood-sugar-sex-magik:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "red-hot-chili-peppers/blood-sugar-sex-magik",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: più fonti indicano che la foto di copertina sia 'Yellow Seascape with Film and Wood Blocks' dei fratelli Doug e Mike Starn, ma nessuna fonte raggiungibile direttamente descrive alla lettera il soggetto o lo conferma con citazione verificabile"
   },
   {
     "id": "album:renato-zero:erozero:copertina",

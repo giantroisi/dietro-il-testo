@@ -11279,10 +11279,10 @@
     "slug": "a-night-at-the-opera",
     "titolo": "A Night at the Opera",
     "anno": "1975",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11576,10 +11576,10 @@
     "slug": "pablo-honey",
     "titolo": "Pablo Honey",
     "anno": "1993",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11675,10 +11675,10 @@
     "slug": "rage-against-the-machine",
     "titolo": "Rage Against the Machine",
     "anno": "1992",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11686,10 +11686,10 @@
     "slug": "evil-empire",
     "titolo": "Evil Empire",
     "anno": "1996",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11730,10 +11730,10 @@
     "slug": "sehnsucht",
     "titolo": "Sehnsucht",
     "anno": "1997",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11741,10 +11741,10 @@
     "slug": "mutter",
     "titolo": "Mutter",
     "anno": "2001",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -11851,10 +11851,10 @@
     "slug": "blood-sugar-sex-magik",
     "titolo": "Blood Sugar Sex Magik",
     "anno": "1991",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

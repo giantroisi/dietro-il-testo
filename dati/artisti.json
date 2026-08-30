@@ -8981,7 +8981,13 @@
         "titolo": "A Night at the Opera",
         "anno": "1975",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra lo stemma araldico della band, disegnato interamente da Freddie Mercury: combina i segni zodiacali dei quattro membri (due leoni per il Leone di May e Taylor, un granchio per il Cancro di Mercury, due fate per la Vergine di Deacon) attorno a una fenice e alla lettera Q, in oro su sfondo bianco.",
+        "copertinaFonte": [
+          {
+            "url": "https://riffology.co/2024/09/18/the-making-of-a-night-at-the-opera-by-queen/",
+            "nome": "Riffology"
+          }
+        ],
         "slug": "a-night-at-the-opera"
       },
       {
@@ -9205,7 +9211,17 @@
         "titolo": "Pablo Honey",
         "anno": "1993",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura il volto in bianco e nero di un neonato dall'espressione poco serena, circondato da petali di fiori e caramelle gommose colorate, con il titolo scritto in uno stile che imita una grafia infantile; il design è della grafica Lisa Bunny Jones.",
+        "copertinaFonte": [
+          {
+            "url": "https://diffuser.fm/radiohead-cute-baby-covers/",
+            "nome": "Diffuser"
+          },
+          {
+            "url": "https://peoplesgdarchive.org/item/18459/pablo-honey",
+            "nome": "People's Graphic Design Archive"
+          }
+        ],
         "slug": "pablo-honey"
       },
       {
@@ -9285,14 +9301,26 @@
         "titolo": "Rage Against the Machine",
         "anno": "1992",
         "nota": "certificato 3x platino RIAA, album di debutto",
-        "copertina": null,
+        "copertina": "Riproduce un ritaglio della celebre fotografia scattata dal giornalista Malcolm Browne nel 1963 a Saigon, che ritrae l'autoimmolazione del monaco buddista vietnamita Thích Quảng Đức, gesto di protesta contro le persecuzioni religiose del governo sudvietnamita.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Rage_Against_the_Machine_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "rage-against-the-machine"
       },
       {
         "titolo": "Evil Empire",
         "anno": "1996",
         "nota": "certificato 3x platino RIAA, primo numero 1 della band sulla Billboard 200; \"Tire Me\" vinse il loro primo Grammy (Best Metal Performance)",
-        "copertina": null,
+        "copertina": "Riprende un dipinto pop-art del 1968 dell'artista Mel Ramos raffigurante \"Crimebuster\", supereroe dei fumetti anni '40-'50, modificando la \"C\" sul costume in una \"e\" minuscola e sostituendo la scritta originale con il titolo dell'album; il bambino ritratto nel dipinto originale, un regalo di compleanno di Ramos, è Ari Meisel, che allora aveva undici anni. Il cantante Zack de la Rocha ha spiegato: \"Se lo guardi da vicino, il ragazzino simboleggia la struttura di potere degli Stati Uniti: sta sorridendo come se avesse il controllo, ma se guardi più a fondo nel suo volto vedi che ha paura, perché sa cosa sta per arrivare\".",
+        "copertinaFonte": [
+          {
+            "url": "https://riffology.co/2024/10/29/the-making-of-evil-empire-by-rage-against-the-machine/",
+            "nome": "Riffology"
+          }
+        ],
         "slug": "evil-empire"
       },
       {
@@ -9339,14 +9367,26 @@
         "titolo": "Sehnsucht",
         "anno": "1997",
         "nota": "certificato platino RIAA — unico album interamente in tedesco certificato platino negli USA",
-        "copertina": null,
+        "copertina": "Il libretto si apre in sei copertine diverse, una per ciascun membro della band, ognuna disegnata dall'artista austriaco Gottfried Helnwein (già autore della copertina di \"Blackout\" degli Scorpions, a cui questa si ispira): ogni componente è ritratto con strumenti medico-chirurgici d'epoca — la versione più diffusa mostra il cantante Till Lindemann con paraocchi e museruola.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Sehnsucht_(Rammstein_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "sehnsucht"
       },
       {
         "titolo": "Mutter",
         "anno": "2001",
         "nota": "certificato 3x platino in Germania, numero 1 in Germania e Svizzera",
-        "copertina": null,
+        "copertina": "La copertina riproduce una fotografia di Daniel e Geo Fuchs che ritrae un feto conservato in alcol, morto quasi due secoli fa, tratta dal loro libro fotografico \"Conserving\"; l'immagine, scelta per richiamare il titolo dell'album (\"Madre\") e i suoi temi di nascita ed esistenza, suscitò forti polemiche in Germania, con critiche da testate come il Bild e dalle chiese cattoliche.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Mutter_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "mutter"
       },
       {
@@ -9434,7 +9474,13 @@
         "titolo": "Blood Sugar Sex Magik",
         "anno": "1991",
         "nota": null,
-        "copertina": null,
+        "copertina": "Mostra i volti dei quattro membri della band disposti attorno a una rosa centrale, con tralci spinosi in bianco e nero che escono dalle loro bocche aperte convergendo verso il fiore; la direzione artistica, la fotografia e i dipinti sono del regista Gus Van Sant, mentre l'illustrazione della lingua è dell'artista olandese Henk \"Hanky Panky\" Schiffmacher.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Blood_Sugar_Sex_Magik",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "blood-sugar-sex-magik"
       },
       {
