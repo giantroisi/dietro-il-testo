@@ -2711,7 +2711,141 @@
     "slug": "edoardo-bennato",
     "nome": "Edoardo Bennato",
     "storia": "Nato a Bagnoli, Napoli, nel 1946, esordì appena dodicenne nel Trio Bennato insieme ai fratelli Giorgio ed Eugenio, esibendosi nei locali napoletani e in televisione. La carriera solista iniziò ufficialmente nel 1973 con l'album \"Non farti cadere le braccia\"; il successo arrivò negli anni '70 e '80 con concept album ispirati alle favole, come \"Burattino senza fili\" (da Pinocchio) e \"Sono solo canzonette\" (da Peter Pan). Nel 1980 fu il primo artista italiano a riempire lo stadio di San Siro, con oltre 60 mila spettatori.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Non farti cadere le braccia",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-farti-cadere-le-braccia"
+      },
+      {
+        "titolo": "I buoni e i cattivi",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "i-buoni-e-i-cattivi"
+      },
+      {
+        "titolo": "Io che non sono l'imperatore",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "io-che-non-sono-l-imperatore"
+      },
+      {
+        "titolo": "La torre di Babele",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-torre-di-babele"
+      },
+      {
+        "titolo": "Burattino senza fili",
+        "anno": "1977",
+        "nota": null,
+        "copertina": null,
+        "slug": "burattino-senza-fili"
+      },
+      {
+        "titolo": "Uffà! Uffà!",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "uffa-uffa"
+      },
+      {
+        "titolo": "Sono solo canzonette",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "sono-solo-canzonette"
+      },
+      {
+        "titolo": "È arrivato un bastimento",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "e-arrivato-un-bastimento"
+      },
+      {
+        "titolo": "Kaiwanna",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "kaiwanna"
+      },
+      {
+        "titolo": "OK Italia",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "ok-italia"
+      },
+      {
+        "titolo": "Abbi dubbi",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "abbi-dubbi"
+      },
+      {
+        "titolo": "Il paese dei balocchi",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "il-paese-dei-balocchi"
+      },
+      {
+        "titolo": "Se son rose fioriranno",
+        "anno": "1994",
+        "nota": null,
+        "copertina": null,
+        "slug": "se-son-rose-fioriranno"
+      },
+      {
+        "titolo": "Le ragazze fanno grandi sogni",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-ragazze-fanno-grandi-sogni"
+      },
+      {
+        "titolo": "Sbandato",
+        "anno": "1998",
+        "nota": null,
+        "copertina": null,
+        "slug": "sbandato"
+      },
+      {
+        "titolo": "L'uomo occidentale",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "l-uomo-occidentale"
+      },
+      {
+        "titolo": "Le vie del rock sono infinite",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-vie-del-rock-sono-infinite"
+      },
+      {
+        "titolo": "Pronti a salpare",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "pronti-a-salpare"
+      },
+      {
+        "titolo": "Non c'è",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-c-e"
+      }
+    ],
     "canzoni": [
       "sono-solo-canzonette"
     ],
@@ -2728,7 +2862,57 @@
     "slug": "electric-callboy",
     "nome": "Electric Callboy",
     "storia": "Formati a Castrop-Rauxel, in Germania, nel 2010 con il nome Eskimo Callboy, sono un gruppo electronicore che unisce metalcore e sonorità elettroniche da ballo. Il cantante fondatore Sebastian \"Sushi\" Biesler lasciò il gruppo nel 2020, sostituito dopo alcuni mesi da Nico Sallach. Nel marzo 2022 la band cambiò nome in Electric Callboy, abbandonando la parola \"Eskimo\" in quanto considerata offensiva per i popoli inuit e yupik, guadagnando negli anni successivi popolarità internazionale anche grazie a video e spettacoli dal tono scherzoso.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Bury Me in Vegas",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "bury-me-in-vegas"
+      },
+      {
+        "titolo": "We Are the Mess",
+        "anno": "2014",
+        "nota": null,
+        "copertina": null,
+        "slug": "we-are-the-mess"
+      },
+      {
+        "titolo": "Crystals",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "crystals"
+      },
+      {
+        "titolo": "The Scene",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-scene"
+      },
+      {
+        "titolo": "Rehab",
+        "anno": "2019",
+        "nota": null,
+        "copertina": null,
+        "slug": "rehab"
+      },
+      {
+        "titolo": "Tekkno",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "tekkno"
+      },
+      {
+        "titolo": "MMXX",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "mmxx"
+      }
+    ],
     "canzoni": [
       "hypa-hypa"
     ],
@@ -2745,7 +2929,225 @@
     "slug": "elton-john",
     "nome": "Elton John",
     "storia": "Nato Reginald Kenneth Dwight a Pinner, in Inghilterra, nel 1947, ottenne da bambino una borsa di studio alla Royal Academy of Music; il nome d'arte nacque dai nomi di due compagni della sua prima band, Bluesology (il sassofonista Elton Dean e il cantante John Baldry). Incontrò il paroliere Bernie Taupin rispondendo entrambi allo stesso annuncio su una rivista: la coppia, con Taupin autore dei testi e John delle musiche, formò una delle collaborazioni più durature della musica pop. Il primo successo britannico arrivò nel 1968 con \"Lady Samantha\"; l'album omonimo del 1970 lo lanciò come stella internazionale.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Empty Sky",
+        "anno": "1969",
+        "nota": null,
+        "copertina": null,
+        "slug": "empty-sky"
+      },
+      {
+        "titolo": "Elton John",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "elton-john-1970"
+      },
+      {
+        "titolo": "Tumbleweed Connection",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "tumbleweed-connection"
+      },
+      {
+        "titolo": "Madman Across the Water",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "madman-across-the-water"
+      },
+      {
+        "titolo": "Honky Château",
+        "anno": "1972",
+        "nota": null,
+        "copertina": null,
+        "slug": "honky-chateau"
+      },
+      {
+        "titolo": "Don't Shoot Me I'm Only the Piano Player",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "don-t-shoot-me-i-m-only-the-piano-player"
+      },
+      {
+        "titolo": "Goodbye Yellow Brick Road",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "goodbye-yellow-brick-road"
+      },
+      {
+        "titolo": "Caribou",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "caribou"
+      },
+      {
+        "titolo": "Captain Fantastic and the Brown Dirt Cowboy",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "captain-fantastic-and-the-brown-dirt-cowboy"
+      },
+      {
+        "titolo": "Rock of the Westies",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "rock-of-the-westies"
+      },
+      {
+        "titolo": "Blue Moves",
+        "anno": "1976",
+        "nota": null,
+        "copertina": null,
+        "slug": "blue-moves"
+      },
+      {
+        "titolo": "A Single Man",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "a-single-man"
+      },
+      {
+        "titolo": "Victim of Love",
+        "anno": "1979",
+        "nota": null,
+        "copertina": null,
+        "slug": "victim-of-love"
+      },
+      {
+        "titolo": "21 at 33",
+        "anno": "1980",
+        "nota": null,
+        "copertina": null,
+        "slug": "21-at-33"
+      },
+      {
+        "titolo": "The Fox",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-fox"
+      },
+      {
+        "titolo": "Jump Up!",
+        "anno": "1982",
+        "nota": null,
+        "copertina": null,
+        "slug": "jump-up"
+      },
+      {
+        "titolo": "Too Low for Zero",
+        "anno": "1983",
+        "nota": null,
+        "copertina": null,
+        "slug": "too-low-for-zero"
+      },
+      {
+        "titolo": "Breaking Hearts",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "breaking-hearts"
+      },
+      {
+        "titolo": "Ice on Fire",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "ice-on-fire"
+      },
+      {
+        "titolo": "Leather Jackets",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "leather-jackets"
+      },
+      {
+        "titolo": "Reg Strikes Back",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "reg-strikes-back"
+      },
+      {
+        "titolo": "Sleeping with the Past",
+        "anno": "1989",
+        "nota": null,
+        "copertina": null,
+        "slug": "sleeping-with-the-past"
+      },
+      {
+        "titolo": "The One",
+        "anno": "1992",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-one"
+      },
+      {
+        "titolo": "Made in England",
+        "anno": "1995",
+        "nota": null,
+        "copertina": null,
+        "slug": "made-in-england"
+      },
+      {
+        "titolo": "The Big Picture",
+        "anno": "1997",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-big-picture"
+      },
+      {
+        "titolo": "Songs from the West Coast",
+        "anno": "2001",
+        "nota": null,
+        "copertina": null,
+        "slug": "songs-from-the-west-coast"
+      },
+      {
+        "titolo": "Peachtree Road",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "peachtree-road"
+      },
+      {
+        "titolo": "The Captain & the Kid",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-captain-the-kid"
+      },
+      {
+        "titolo": "The Diving Board",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-diving-board"
+      },
+      {
+        "titolo": "Wonderful Crazy Night",
+        "anno": "2016",
+        "nota": null,
+        "copertina": null,
+        "slug": "wonderful-crazy-night"
+      },
+      {
+        "titolo": "Regimental Sgt. Zippo",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "regimental-sgt-zippo"
+      }
+    ],
     "canzoni": [
       "rocket-man"
     ],
@@ -2762,7 +3164,99 @@
     "slug": "eminem",
     "nome": "Eminem",
     "storia": "Nato Marshall Bruce Mathers III a Detroit nel 1972, iniziò a rappare nei locali della città a 14 anni, lasciando poi la scuola per dedicarsi alla musica. Il primo album, \"Infinite\" (1996), vendette poco; la svolta arrivò nel 1997, quando un piazzamento al Rap Olympics di Los Angeles attirò l'attenzione di Dr. Dre, che lo mise sotto contratto con la sua etichetta Aftermath. Con \"The Slim Shady LP\" (1999) e \"The Marshall Mathers LP\" (2000, l'album rap più venduto nella prima settimana di sempre) diventò una delle voci principali dell'hip hop mondiale.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Infinite",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "infinite"
+      },
+      {
+        "titolo": "The Slim Shady LP",
+        "anno": "1999",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-slim-shady-lp"
+      },
+      {
+        "titolo": "The Marshall Mathers LP",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-marshall-mathers-lp"
+      },
+      {
+        "titolo": "The Eminem Show",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-eminem-show"
+      },
+      {
+        "titolo": "Encore",
+        "anno": "2004",
+        "nota": null,
+        "copertina": null,
+        "slug": "encore"
+      },
+      {
+        "titolo": "Relapse",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "relapse"
+      },
+      {
+        "titolo": "Recovery",
+        "anno": "2010",
+        "nota": null,
+        "copertina": null,
+        "slug": "recovery"
+      },
+      {
+        "titolo": "The Marshall Mathers LP 2",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-marshall-mathers-lp-2"
+      },
+      {
+        "titolo": "Revival",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "revival"
+      },
+      {
+        "titolo": "Kamikaze",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "kamikaze"
+      },
+      {
+        "titolo": "Music to Be Murdered By",
+        "anno": "2020",
+        "nota": null,
+        "copertina": null,
+        "slug": "music-to-be-murdered-by"
+      },
+      {
+        "titolo": "The Death of Slim Shady (Coup de Grâce)",
+        "anno": "2024",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-death-of-slim-shady-coup-de-gr-ce"
+      },
+      {
+        "titolo": "8 Mile (Colonna sonora)",
+        "anno": "2002",
+        "nota": null,
+        "copertina": null,
+        "slug": "8-mile-colonna-sonora"
+      }
+    ],
     "canzoni": [
       "lose-yourself"
     ],
@@ -2778,7 +3272,113 @@
     "slug": "eros-ramazzotti",
     "nome": "Eros Ramazzotti",
     "storia": "Nato a Roma nel 1963, imparò a suonare pianoforte e chitarra da autodidatta dopo che la domanda di ammissione al Conservatorio non fu accolta. Ottenne il primo contratto discografico nel 1981 grazie al concorso Voci Nuove di Castrocaro; nel 1984 vinse la sezione Nuove Proposte del Festival di Sanremo con \"Terra promessa\", esordendo su disco l'anno successivo con \"Cuori agitati\". Tornò a Sanremo nel 1985 tra i Big con \"Una storia importante\", ottenendo un ampio successo commerciale anche all'estero.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Cuori agitati",
+        "anno": "1985",
+        "nota": null,
+        "copertina": null,
+        "slug": "cuori-agitati"
+      },
+      {
+        "titolo": "Nuovi eroi",
+        "anno": "1986",
+        "nota": null,
+        "copertina": null,
+        "slug": "nuovi-eroi"
+      },
+      {
+        "titolo": "In certi momenti",
+        "anno": "1987",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-certi-momenti"
+      },
+      {
+        "titolo": "Musica è",
+        "anno": "1988",
+        "nota": null,
+        "copertina": null,
+        "slug": "musica-e"
+      },
+      {
+        "titolo": "In ogni senso",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "in-ogni-senso"
+      },
+      {
+        "titolo": "Tutte storie",
+        "anno": "1993",
+        "nota": null,
+        "copertina": null,
+        "slug": "tutte-storie"
+      },
+      {
+        "titolo": "Dove c'è musica",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "dove-ce-musica"
+      },
+      {
+        "titolo": "Stilelibero",
+        "anno": "2000",
+        "nota": null,
+        "copertina": null,
+        "slug": "stilelibero"
+      },
+      {
+        "titolo": "9",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "9"
+      },
+      {
+        "titolo": "Calma apparente",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "calma-apparente"
+      },
+      {
+        "titolo": "Ali e radici",
+        "anno": "2009",
+        "nota": null,
+        "copertina": null,
+        "slug": "ali-e-radici"
+      },
+      {
+        "titolo": "Noi",
+        "anno": "2012",
+        "nota": null,
+        "copertina": null,
+        "slug": "noi"
+      },
+      {
+        "titolo": "Perfetto",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "perfetto"
+      },
+      {
+        "titolo": "Vita ce n'è",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "vita-ce-n-e"
+      },
+      {
+        "titolo": "Battito infinito",
+        "anno": "2022",
+        "nota": null,
+        "copertina": null,
+        "slug": "battito-infinito"
+      }
+    ],
     "canzoni": [
       "piu-bella-cosa"
     ],
@@ -2794,7 +3394,43 @@
     "slug": "evanescence",
     "nome": "Evanescence",
     "storia": "Formati nel 1994 a Little Rock, in Arkansas, da Amy Lee e Ben Moody, che si conobbero tredicenne lei e quattordicenne lui a un campo estivo, iniziando subito a scrivere canzoni insieme. Il nome del gruppo, che significa dissolvenza o scomparsa (come di un vapore), fu scelto dopo aver provato diversi nomi precedenti, tra cui Childish Intentions e Stricken. Pubblicarono il demo \"Origin\" nel 2000 con un'etichetta indipendente, prima di raggiungere il successo internazionale.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Fallen",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "fallen"
+      },
+      {
+        "titolo": "The Open Door",
+        "anno": "2006",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-open-door"
+      },
+      {
+        "titolo": "Evanescence",
+        "anno": "2011",
+        "nota": null,
+        "copertina": null,
+        "slug": "evanescence"
+      },
+      {
+        "titolo": "Synthesis",
+        "anno": "2017",
+        "nota": null,
+        "copertina": null,
+        "slug": "synthesis"
+      },
+      {
+        "titolo": "The Bitter Truth",
+        "anno": "2021",
+        "nota": null,
+        "copertina": null,
+        "slug": "the-bitter-truth"
+      }
+    ],
     "canzoni": [
       "bring-me-to-life"
     ],
@@ -2811,7 +3447,99 @@
     "slug": "fabrizio-de-andre",
     "nome": "Fabrizio De André",
     "storia": "Nato a Genova nel 1940, ricevette la prima chitarra dalla madre e mosse i primi passi nella musica in un gruppo chiamato \"The Crazy Cowboy and Sheriff One\". Il primo album, \"Tutto Fabrizio De André\", uscì nel 1966, ma la svolta arrivò nel 1968 quando Mina interpretò a Canzonissima la sua \"La canzone di Marinella\", portandolo alla notorietà nazionale. Cantautore tra i più importanti della cultura italiana del Novecento, ha raccontato spesso gli ultimi, gli emarginati e i ribelli; morì nel 1999.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Vol. 1º",
+        "anno": "1967",
+        "nota": null,
+        "copertina": null,
+        "slug": "vol-1"
+      },
+      {
+        "titolo": "Tutti morimmo a stento",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "tutti-morimmo-a-stento"
+      },
+      {
+        "titolo": "Volume 3 (raccolta)",
+        "anno": "1968",
+        "nota": null,
+        "copertina": null,
+        "slug": "volume-3-raccolta"
+      },
+      {
+        "titolo": "La buona novella",
+        "anno": "1970",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-buona-novella"
+      },
+      {
+        "titolo": "Non al denaro, non all'amore né al cielo",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "non-al-denaro-non-all-amore-ne-al-cielo"
+      },
+      {
+        "titolo": "Storia di un impiegato",
+        "anno": "1973",
+        "nota": null,
+        "copertina": null,
+        "slug": "storia-di-un-impiegato"
+      },
+      {
+        "titolo": "Canzoni",
+        "anno": "1974",
+        "nota": null,
+        "copertina": null,
+        "slug": "canzoni"
+      },
+      {
+        "titolo": "Vol. 8",
+        "anno": "1975",
+        "nota": null,
+        "copertina": null,
+        "slug": "vol-8"
+      },
+      {
+        "titolo": "Rimini",
+        "anno": "1978",
+        "nota": null,
+        "copertina": null,
+        "slug": "rimini"
+      },
+      {
+        "titolo": "Fabrizio De André",
+        "anno": "1981",
+        "nota": null,
+        "copertina": null,
+        "slug": "fabrizio-de-andre-1981"
+      },
+      {
+        "titolo": "Creuza de mä",
+        "anno": "1984",
+        "nota": null,
+        "copertina": null,
+        "slug": "creuza-de-m"
+      },
+      {
+        "titolo": "Le nuvole",
+        "anno": "1990",
+        "nota": null,
+        "copertina": null,
+        "slug": "le-nuvole"
+      },
+      {
+        "titolo": "Anime salve",
+        "anno": "1996",
+        "nota": null,
+        "copertina": null,
+        "slug": "anime-salve"
+      }
+    ],
     "canzoni": [
       "marinella"
     ],
@@ -2827,7 +3555,64 @@
     "slug": "fall-out-boy",
     "nome": "Fall Out Boy",
     "storia": "Formati nel 2001 a Wilmette, sobborgo di Chicago, da Pete Wentz e Joe Trohman, entrambi provenienti dalla scena hardcore punk cittadina (Wentz era stato cantante e autore degli Arma Angelus), come progetto pop punk parallelo alle rispettive band hardcore; si aggiunsero presto il cantante e chitarrista Patrick Stump e, dopo una serie di batteristi, Andy Hurley. Pubblicarono l'album di debutto \"Take This to Your Grave\" nel 2003.",
-    "album": [],
+    "album": [
+      {
+        "titolo": "Take This to Your Grave",
+        "anno": "2003",
+        "nota": null,
+        "copertina": null,
+        "slug": "take-this-to-your-grave"
+      },
+      {
+        "titolo": "From Under the Cork Tree",
+        "anno": "2005",
+        "nota": null,
+        "copertina": null,
+        "slug": "from-under-the-cork-tree"
+      },
+      {
+        "titolo": "Infinity on High",
+        "anno": "2007",
+        "nota": null,
+        "copertina": null,
+        "slug": "infinity-on-high"
+      },
+      {
+        "titolo": "Folie à Deux",
+        "anno": "2008",
+        "nota": null,
+        "copertina": null,
+        "slug": "folie-a-deux"
+      },
+      {
+        "titolo": "Save Rock and Roll",
+        "anno": "2013",
+        "nota": null,
+        "copertina": null,
+        "slug": "save-rock-and-roll"
+      },
+      {
+        "titolo": "American Beauty/American Psycho",
+        "anno": "2015",
+        "nota": null,
+        "copertina": null,
+        "slug": "american-beauty-american-psycho"
+      },
+      {
+        "titolo": "Mania",
+        "anno": "2018",
+        "nota": null,
+        "copertina": null,
+        "slug": "mania"
+      },
+      {
+        "titolo": "So Much (for) Stardust",
+        "anno": "2023",
+        "nota": null,
+        "copertina": null,
+        "slug": "so-much-for-stardust"
+      }
+    ],
     "canzoni": [
       "sugar-were-goin-down"
     ],

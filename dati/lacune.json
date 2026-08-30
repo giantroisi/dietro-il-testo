@@ -243,86 +243,6 @@
     "motivo": "\"Andrea Bocelli e Giorgia\" non è un artista o un duo stabile: è il credito congiunto per un unico duetto, \"Vivo per lei\" (1995). Non esiste una discografia di questa coppia da documentare: l'album che contiene il brano (l'album solista di Bocelli del 1995) è già rappresentato correttamente dalla voce sintetica generata da F51. Inventare qui una discografia propria della coppia sarebbe falso (P1)."
   },
   {
-    "id": "artista:edoardo-bennato:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "edoardo-bennato",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:electric-callboy:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "electric-callboy",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:elton-john:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "elton-john",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:eminem:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "eminem",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:eros-ramazzotti:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "eros-ramazzotti",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:evanescence:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "evanescence",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:fabrizio-de-andre:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "fabrizio-de-andre",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "artista:fall-out-boy:discografia",
-    "classe": "C3",
-    "tipo": "discografia-artista",
-    "soggetto": "fall-out-boy",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "artista:finley:discografia",
     "classe": "C3",
     "tipo": "discografia-artista",
@@ -1097,6 +1017,86 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "ed-sheeran/divide",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:sono-solo-canzonette:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/sono-solo-canzonette",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:mmxx:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/mmxx",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:honky-chateau:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/honky-chateau",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:8-mile-colonna-sonora:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/8-mile-colonna-sonora",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:dove-ce-musica:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/dove-ce-musica",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:evanescence:fallen:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/fallen",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:volume-3-raccolta:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/volume-3-raccolta",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:from-under-the-cork-tree:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/from-under-the-cork-tree",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -4267,6 +4267,1036 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "ed-sheeran/x",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:abbi-dubbi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/abbi-dubbi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:burattino-senza-fili:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/burattino-senza-fili",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:e-arrivato-un-bastimento:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/e-arrivato-un-bastimento",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:i-buoni-e-i-cattivi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/i-buoni-e-i-cattivi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:il-paese-dei-balocchi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/il-paese-dei-balocchi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:io-che-non-sono-l-imperatore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/io-che-non-sono-l-imperatore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:kaiwanna:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/kaiwanna",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:l-uomo-occidentale:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/l-uomo-occidentale",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:la-torre-di-babele:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/la-torre-di-babele",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:le-ragazze-fanno-grandi-sogni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/le-ragazze-fanno-grandi-sogni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:le-vie-del-rock-sono-infinite:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/le-vie-del-rock-sono-infinite",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:non-c-e:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/non-c-e",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:non-farti-cadere-le-braccia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/non-farti-cadere-le-braccia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:ok-italia:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/ok-italia",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:pronti-a-salpare:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/pronti-a-salpare",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:sbandato:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/sbandato",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:se-son-rose-fioriranno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/se-son-rose-fioriranno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:edoardo-bennato:uffa-uffa:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/uffa-uffa",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:bury-me-in-vegas:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/bury-me-in-vegas",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:crystals:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/crystals",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:rehab:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/rehab",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:tekkno:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/tekkno",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:the-scene:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/the-scene",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:electric-callboy:we-are-the-mess:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "electric-callboy/we-are-the-mess",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:21-at-33:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/21-at-33",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:a-single-man:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/a-single-man",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:blue-moves:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/blue-moves",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:breaking-hearts:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/breaking-hearts",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:captain-fantastic-and-the-brown-dirt-cowboy:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/captain-fantastic-and-the-brown-dirt-cowboy",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:caribou:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/caribou",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:don-t-shoot-me-i-m-only-the-piano-player:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/don-t-shoot-me-i-m-only-the-piano-player",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:elton-john-1970:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/elton-john-1970",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:empty-sky:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/empty-sky",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:goodbye-yellow-brick-road:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/goodbye-yellow-brick-road",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:ice-on-fire:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/ice-on-fire",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:jump-up:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/jump-up",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:leather-jackets:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/leather-jackets",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:made-in-england:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/made-in-england",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:madman-across-the-water:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/madman-across-the-water",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:peachtree-road:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/peachtree-road",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:reg-strikes-back:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/reg-strikes-back",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:regimental-sgt-zippo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/regimental-sgt-zippo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:rock-of-the-westies:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/rock-of-the-westies",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:sleeping-with-the-past:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/sleeping-with-the-past",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:songs-from-the-west-coast:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/songs-from-the-west-coast",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:the-big-picture:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/the-big-picture",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:the-captain-the-kid:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/the-captain-the-kid",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:the-diving-board:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/the-diving-board",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:the-fox:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/the-fox",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:the-one:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/the-one",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:too-low-for-zero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/too-low-for-zero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:tumbleweed-connection:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/tumbleweed-connection",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:victim-of-love:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/victim-of-love",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:elton-john:wonderful-crazy-night:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "elton-john/wonderful-crazy-night",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:encore:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/encore",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:infinite:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/infinite",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:kamikaze:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/kamikaze",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:music-to-be-murdered-by:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/music-to-be-murdered-by",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:recovery:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/recovery",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:relapse:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/relapse",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:revival:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/revival",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:the-death-of-slim-shady-coup-de-gr-ce:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/the-death-of-slim-shady-coup-de-gr-ce",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:the-eminem-show:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/the-eminem-show",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:the-marshall-mathers-lp-2:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/the-marshall-mathers-lp-2",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:the-marshall-mathers-lp:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/the-marshall-mathers-lp",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eminem:the-slim-shady-lp:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eminem/the-slim-shady-lp",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:9:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/9",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:ali-e-radici:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/ali-e-radici",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:battito-infinito:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/battito-infinito",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:calma-apparente:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/calma-apparente",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:cuori-agitati:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/cuori-agitati",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:in-certi-momenti:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/in-certi-momenti",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:in-ogni-senso:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/in-ogni-senso",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:musica-e:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/musica-e",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:noi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/noi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:nuovi-eroi:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/nuovi-eroi",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:perfetto:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/perfetto",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:stilelibero:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/stilelibero",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:tutte-storie:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/tutte-storie",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:eros-ramazzotti:vita-ce-n-e:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/vita-ce-n-e",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:evanescence:evanescence:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/evanescence",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:evanescence:synthesis:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/synthesis",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:evanescence:the-bitter-truth:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/the-bitter-truth",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:evanescence:the-open-door:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/the-open-door",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:anime-salve:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/anime-salve",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:canzoni:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/canzoni",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:creuza-de-m:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/creuza-de-m",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:fabrizio-de-andre-1981:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/fabrizio-de-andre-1981",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:la-buona-novella:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/la-buona-novella",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:le-nuvole:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/le-nuvole",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:non-al-denaro-non-all-amore-ne-al-cielo:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/non-al-denaro-non-all-amore-ne-al-cielo",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:rimini:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/rimini",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:storia-di-un-impiegato:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/storia-di-un-impiegato",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:tutti-morimmo-a-stento:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/tutti-morimmo-a-stento",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:vol-1:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/vol-1",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fabrizio-de-andre:vol-8:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/vol-8",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:american-beauty-american-psycho:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/american-beauty-american-psycho",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:folie-a-deux:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/folie-a-deux",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:infinity-on-high:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/infinity-on-high",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:mania:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/mania",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:save-rock-and-roll:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/save-rock-and-roll",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:so-much-for-stardust:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/so-much-for-stardust",
+    "raccoglie": 0,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:fall-out-boy:take-this-to-your-grave:copertina",
+    "classe": "C5",
+    "tipo": "copertina-album",
+    "soggetto": "fall-out-boy/take-this-to-your-grave",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
