@@ -435,6 +435,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Debito aperto**: sceso da 104 a **96** — per la prima volta sotto quota 100.
 **Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Slippery When Wet" (copertina documentata, fonte citata, nessun errore console).
 
+- **30 agosto 2026 — Ventisettesimo lotto F66 (8 voci C4): copertine di Cesare Cremonini/Maggese, Coldplay/Parachutes, Daft Punk/Random Access Memories, David Bowie/"Heroes", Depeche Mode/Violator — tre sospese.**
+**Cinque copertine documentate**, con fonti che vanno da Wikipedia (con nota bibliografica tracciabile, per Coldplay) a un sito specializzato in storie di copertine (Behind the Covers, per Daft Punk) a una pagina dedicata al fotografo (David Bowie World, per Bowie).
+**Nessuna contraddizione tra due fatti apparentemente in conflitto**: la scheda di "Heroes" già pubblicata dice che il disco fu registrato a Berlino nell'estate 1977, mentre la nuova fonte sulla copertina colloca la sessione fotografica a Tokyo in aprile — verificato che non sono in contraddizione: sono due momenti diversi (la registrazione musicale a Berlino, il servizio fotografico per la copertina qualche mese prima a Tokyo, durante un viaggio promozionale con Iggy Pop).
+**Tre voci lasciate sospese**: Claudio Baglioni/Questo piccolo grande amore e Disturbed/Immortalized (nessuna fonte trovata sulla copertina), e Domenico Modugno/Singolo — qui per un motivo diverso dagli altri: trovato un riferimento a una copertina disegnata da Guido Crepax, ma tutto porta a un'edizione commemorativa moderna (1958 copie numerate per l'anniversario), non alla copertina del 45 giri originale del 1958 — rischio concreto di descrivere una ristampa come se fosse l'originale, non pubblicato senza certezza.
+**I quattro numeri del lotto**: 8 cercate, 5 trovate, 0 accertate assenti, 3 sospese.
+**Debito aperto**: sceso da 96 a **88**.
+**Verificato, non solo scritto**: rigenerato il sito, tutti e sei i controlli automatici puliti, nessun file orfano, verificato nel browser la pagina di "Heroes" (copertina documentata, fonte citata, nessun errore console).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

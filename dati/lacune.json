@@ -260,6 +260,56 @@
     "motivo": "confermata: Wikipedia, descrizione visiva corroborata da più fonti indipendenti"
   },
   {
+    "id": "album:cesare-cremonini:maggese:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/maggese",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, sezione descrizione con dettaglio verificabile"
+  },
+  {
+    "id": "album:coldplay:parachutes:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "coldplay/parachutes",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, con nota bibliografica tracciabile"
+  },
+  {
+    "id": "album:daft-punk:random-access-memories:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "daft-punk/random-access-memories",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Behind the Covers (Brett Cassidy), con dettagli tecnici precisi"
+  },
+  {
+    "id": "album:david-bowie:heroes:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "david-bowie/heroes",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: David Bowie World"
+  },
+  {
+    "id": "album:depeche-mode:violator:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "depeche-mode/violator",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia"
+  },
+  {
     "id": "album:francesco-de-gregori:rimmel:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -483,64 +533,14 @@
     "motivo": "trovata una descrizione (una ragazza con le budella fuori) attribuita a un'intervista della band, ma senza riuscire a rintracciare la fonte primaria con URL verificabile — non pubblicata senza poter controllare la citazione alla fonte."
   },
   {
-    "id": "album:cesare-cremonini:maggese:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/maggese",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:claudio-baglioni:questo-piccolo-grande-amore:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "claudio-baglioni/questo-piccolo-grande-amore",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:coldplay:parachutes:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "coldplay/parachutes",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:daft-punk:random-access-memories:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "daft-punk/random-access-memories",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:david-bowie:heroes:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "david-bowie/heroes",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:depeche-mode:violator:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "depeche-mode/violator",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovate solo informazioni sull'album e sul brano (data di registrazione, successo commerciale), nessuna descrizione della copertina stessa."
   },
   {
     "id": "album:disturbed:immortalized:copertina",
@@ -548,9 +548,9 @@
     "tipo": "copertina-album",
     "soggetto": "disturbed/immortalized",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata con una spiegazione del design o del significato della copertina."
   },
   {
     "id": "album:domenico-modugno:singolo:copertina",
@@ -558,9 +558,9 @@
     "tipo": "copertina-album",
     "soggetto": "domenico-modugno/singolo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovato un riferimento a una copertina disegnata da Guido Crepax, ma risulta legato a un'edizione commemorativa moderna (1958 copie numerate per l'anniversario), non confermato che sia la copertina del 45 giri originale del 1958 — rischio di descrivere una ristampa come se fosse l'originale, non pubblicato senza certezza."
   },
   {
     "id": "album:eagles:hotel-california:copertina",

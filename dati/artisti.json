@@ -1515,7 +1515,13 @@
         "titolo": "Maggese",
         "anno": "2005",
         "nota": null,
-        "copertina": null,
+        "copertina": "Riproduce \"Variations in Kitsch\" (1998), un dipinto del pittore americano Todd Schorr raffigurante un ragazzo con la barba che suona i bonghi, con una sigaretta in bocca e una lacrima che scende da un occhio, circondato da bambole e giocattoli; Cremonini trovò l'immagine per caso su un libro d'arte in libreria.",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Maggese_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "maggese"
       },
       {
@@ -1711,7 +1717,13 @@
         "titolo": "Parachutes",
         "anno": "2000",
         "nota": null,
-        "copertina": null,
+        "copertina": "Un globo giallo, comprato in un negozio per dieci sterline e illuminato dall'interno, fotografato al buio con una macchina fotografica Kodak usa e getta; lo stesso globo fu poi usato nei video di \"Shiver\" e \"Don't Panic\" e portato dalla band in tour.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Parachutes_(Coldplay_album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "parachutes"
       },
       {
@@ -1820,7 +1832,13 @@
         "titolo": "Random Access Memories",
         "anno": "2013",
         "nota": null,
-        "copertina": null,
+        "copertina": "Raffigura un elmetto dorato a forma di piramide che esplode in frammenti cristallini su uno sfondo cosmico, realizzato dal regista di videoclip Warren Fu (già autore del video di \"Derezzed\") in oltre quattro mesi di lavoro con software di modellazione 3D.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.behindthecovers.com/covers/random-access-memories",
+            "nome": "Behind the Covers"
+          }
+        ],
         "slug": "random-access-memories"
       }
     ],
@@ -1921,7 +1939,13 @@
         "titolo": "\"Heroes\"",
         "anno": "1977",
         "nota": null,
-        "copertina": null,
+        "copertina": "Fotografata dal giapponese Masayoshi Sukita nell'aprile 1977 in uno studio improvvisato di Tokyo, durante un viaggio promozionale con Iggy Pop; la posa di Bowie, con le mani a incorniciare il volto, si ispira direttamente al dipinto espressionista \"Roquairol\" di Erich Heckel. Sukita e Bowie collaborarono per oltre quarant'anni, a partire dal loro primo incontro a Londra nel 1972.",
+        "copertinaFonte": [
+          {
+            "url": "https://www.davidbowieworld.com/david-bowie-heroes-album-cover-story/",
+            "nome": "David Bowie World"
+          }
+        ],
         "slug": "heroes"
       },
       {
@@ -2277,7 +2301,13 @@
         "titolo": "Violator",
         "anno": "1990",
         "nota": null,
-        "copertina": null,
+        "copertina": "Una singola rosa rossa su sfondo nero, opera del fotografo e direttore artistico olandese Anton Corbijn, che dal 1986 curava l'intera immagine visiva della band — copertine, video musicali e allestimenti scenici dei tour.",
+        "copertinaFonte": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Violator_(album)",
+            "nome": "Wikipedia"
+          }
+        ],
         "slug": "violator"
       },
       {

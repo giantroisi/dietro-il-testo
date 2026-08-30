@@ -1808,10 +1808,10 @@
     "slug": "maggese",
     "titolo": "Maggese",
     "anno": "2005",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -2061,10 +2061,10 @@
     "slug": "parachutes",
     "titolo": "Parachutes",
     "anno": "2000",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -2204,10 +2204,10 @@
     "slug": "random-access-memories",
     "titolo": "Random Access Memories",
     "anno": "2013",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -2336,10 +2336,10 @@
     "slug": "heroes",
     "titolo": "\"Heroes\"",
     "anno": "1977",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -2831,10 +2831,10 @@
     "slug": "violator",
     "titolo": "Violator",
     "anno": "1990",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
