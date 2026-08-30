@@ -7169,5 +7169,171 @@
       "critica-sociale",
       "identita"
     ]
+  },
+  {
+    "slug": "adams-song",
+    "titolo": "Adam's Song",
+    "artista": "blink-182",
+    "artistaSlug": "blink-182",
+    "anno": "1999",
+    "album": "Enema of the State",
+    "albumSlug": "enema-of-the-state",
+    "genereTesto": "Pop punk",
+    "generi": [
+      "pop",
+      "punk"
+    ],
+    "paese": null,
+    "colore": "#6E1F1F",
+    "colore2": "#1F3E6E",
+    "ascolti": 448042668,
+    "ascoltiTesto": "448 mln ascolti",
+    "spotifyId": "6xpDh0dXrkVp0Po1qrHUd8",
+    "corpo": [
+      "Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di band avevano una persona ad aspettarli a casa, lui si ritrovava solo. La spinta decisiva arrivò da un articolo di rivista che raccontava la storia di uno studente che si era tolto la vita lasciando un biglietto ai genitori — una lettura che Hoppus definì scioccante.",
+      "Nel 2000, un anno dopo la strage di Columbine, il brano finì al centro di una controversia: un diciassettenne sopravvissuto alla strage, Greg Barnes, si tolse la vita mentre la canzone suonava in loop, e il gruppo la ritirò dal repertorio dal vivo fino al 2018. In un'intervista a MTV News, Hoppus rispose a chi collegava il brano all'episodio: \"Ma quella è una canzone anti-suicidio!\", spiegando che il cuore del pezzo riguarda l'attraversare un momento difficile e trovare la forza di andare avanti."
+    ],
+    "fraseIconica": "Il momento più discusso è il finale, che dopo aver attraversato dolore e stanchezza si chiude con un messaggio di speranza; proprio quel passaggio, secondo Hoppus, è il cuore della canzone, pensata come un incoraggiamento a resistere e non come un'istigazione.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/blink-182/68286/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adam%27s_Song",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "salute-mentale"
+    ]
+  },
+  {
+    "slug": "space-truckin",
+    "titolo": "Space Truckin'",
+    "artista": "Deep Purple",
+    "artistaSlug": "deep-purple",
+    "anno": "1972",
+    "album": "Machine Head",
+    "albumSlug": "machine-head",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1F3E5C",
+    "colore2": "#6E5C1F",
+    "ascolti": 38092013,
+    "ascoltiTesto": "38 mln ascolti",
+    "spotifyId": "5S126DaCBZ8z6yh7B1Lszr",
+    "corpo": [
+      "Scritta a cinque mani dalla formazione Mark II, nacque da un'idea musicale del chitarrista Ritchie Blackmore: ispirandosi al movimento a semitoni del tema televisivo di Batman, composto da Neal Hefti, lo fece passare attraverso un amplificatore Marshall e chiese al cantante Ian Gillan di scrivere un testo sopra quel riff.",
+      "Gillan, appassionato di fantascienza anni Cinquanta, immaginò un equipaggio di camionisti spaziali in viaggio fra Venere, Marte e la Via Lattea, con un approccio giocoso più che filosofico, nel clima di entusiasmo generale per il programma Apollo di quegli anni. Il brano fu registrato nel dicembre 1971 al Grand Hotel di Montreux, in Svizzera, con lo studio mobile dei Rolling Stones — lo stesso trasferito lì dopo l'incendio al Casinò di Montreux che aveva ispirato \"Smoke on the Water\"."
+    ],
+    "fraseIconica": "Il momento più ricordato è il ritornello che dà il titolo al brano, con l'equipaggio spaziale che attraversa i pianeti in tono da avventura scanzonata — un testo pensato per divertire più che per comunicare un messaggio preciso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/deep-purple/103045/",
+    "fonti": [
+      {
+        "url": "https://classicrockartists.com/deep-purple-space-truckin-1972/",
+        "nome": "Classic Rock Artists"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "liberta-evasione"
+    ]
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "titolo": "Wake Me Up When September Ends",
+    "artista": "Green Day",
+    "artistaSlug": "green-day",
+    "anno": "2004",
+    "album": "American Idiot",
+    "albumSlug": "american-idiot",
+    "genereTesto": "Punk rock",
+    "generi": [
+      "rock",
+      "punk"
+    ],
+    "paese": null,
+    "colore": "#1F4A6E",
+    "colore2": "#6E3E1F",
+    "ascolti": 1115086116,
+    "ascoltiTesto": "1,1 mld ascolti",
+    "spotifyId": "3ZffCQKLFLUvYM59XKLbVm",
+    "corpo": [
+      "Scritta da Billie Joe Armstrong come omaggio al padre, morto di cancro all'esofago il 10 settembre 1982, quando il cantante aveva dieci anni. Dopo il funerale, Armstrong corse a casa e si chiuse in camera; quando la madre bussò alla porta per vedere come stava, rispose semplicemente \"Wake me up when September ends\" — la frase che sarebbe diventata il titolo del brano.",
+      "Armstrong ha raccontato di aver evitato per anni di scrivere di quella perdita, e di averla affrontata solo circa vent'anni dopo, quando si è sentito pronto: \"Avevo evitato di scriverne per molti anni, e poi finalmente avere una svolta come quella mi ha fatto stare bene.\" Il brano fu inciso solo dopo quella lunga distanza di tempo dalla morte del padre."
+    ],
+    "fraseIconica": "Il titolo stesso nasce da un momento privato e reale: la frase pronunciata da un Armstrong bambino, chiuso in camera dopo il funerale del padre, che chiedeva alla madre di lasciarlo in pace fino alla fine di quel mese doloroso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/green-day/105396/",
+    "fonti": [
+      {
+        "url": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/",
+        "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
+  },
+  {
+    "slug": "welcome-to-the-jungle",
+    "titolo": "Welcome to the Jungle",
+    "artista": "Guns N' Roses",
+    "artistaSlug": "guns-n-roses",
+    "anno": "1987",
+    "album": "Appetite for Destruction",
+    "albumSlug": "appetite-for-destruction",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#6E4A1F",
+    "colore2": "#1F6E5C",
+    "ascolti": 1753440286,
+    "ascoltiTesto": "1,8 mld ascolti",
+    "spotifyId": "0G21yYKMZoHa30cYVi1iA8",
+    "corpo": [
+      "Il testo nacque da un momento di distacco: Axl Rose, in visita a un'amica vicino Seattle e quindi lontano dal caos di Los Angeles, si ritrovò a rielaborare le sensazioni provate a vent'anni, appena arrivato in città nel 1982 da una provincia dell'Indiana, davanti alla durezza e all'eccesso della vita losangelina.",
+      "Sul piano musicale, il riff portante fu sviluppato dal chitarrista Slash e proposto ad Axl con una chitarra acustica in uno scantinato di casa della madre di Slash — la prima cosa, secondo la band, scritta davvero in collaborazione da tutti i membri. La sezione centrale del brano riprende un'idea tratta da un pezzo del 1978, \"The Fake\", scritto in precedenza dal bassista Duff McKagan."
+    ],
+    "fraseIconica": "Il titolo stesso, \"Welcome to the Jungle\", riassume l'intero brano: l'arrivo spaesato in una città che promette libertà e in realtà espone a un ambiente spietato, raccontato da Axl Rose ripensando al proprio smarrimento da ventenne appena arrivato a Los Angeles.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/guns-n-roses/17125/",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/bands-artists/guns-n-roses-welcome-to-the-jungle-story-behind-the-song",
+        "nome": "Louder"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "alienazione"
+    ]
   }
 ]
