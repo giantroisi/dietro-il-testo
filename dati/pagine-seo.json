@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 197,
+    "nCanzoni": 201,
     "haTestoEditoriale": true
   },
   {
@@ -1022,6 +1022,26 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/nord-sud-ovest-est/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/tieni-il-tempo/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/la-regola-dell-amico/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/grazie-mille/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1032,7 +1052,7 @@
     "percorso": "artista/883/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -1789,6 +1809,34 @@
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/nord-sud-ovest-est/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/la-donna-il-sogno-e-il-grande-incubo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/la-dura-legge-del-gol/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/grazie-mille/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
     "haTestoEditoriale": false
   },
   {
@@ -2775,7 +2823,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 91,
+    "nCanzoni": 95,
     "haTestoEditoriale": true
   },
   {
@@ -2789,7 +2837,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 79,
+    "nCanzoni": 83,
     "haTestoEditoriale": true
   },
   {
@@ -2817,7 +2865,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 49,
+    "nCanzoni": 53,
     "haTestoEditoriale": true
   },
   {
