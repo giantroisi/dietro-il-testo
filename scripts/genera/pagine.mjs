@@ -960,7 +960,13 @@ export function paginaHome(ctx) {
         <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
       </a>
       <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
-      <h1 class="promessa">Cerca una canzone, un album o una band: arrivi subito a cosa c'è dietro, con le fonti sotto mano.</h1>
+      <!-- F78: l'h1 dice cosa si trova, non cosa fare. L'istruzione ("cerca una
+           canzone…") occupava tre righe su mobile prima dell'unica azione della
+           pagina, e il campo di ricerca si spiega già col proprio segnaposto. -->
+      <h1 class="promessa">Cosa c'è dietro le canzoni che ami.</h1>
+      <!-- F82: la prova che il sito è pieno stava solo nel piede, dove arriva
+           chi ha già scorso tutto. I numeri nascono dai dati (P9). -->
+      <p class="consistenza">${canzoni.length} canzoni raccontate, ${artisti.length} artisti ${SEGNO} ogni scheda con le sue fonti</p>
 
       <div class="cerca grande" data-cerca>
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -974,14 +980,14 @@ export function paginaHome(ctx) {
         ${['Bohemian Rhapsody', 'Metallica', 'Nirvana', 'Vasco Rossi']
           .map((q) => `<button type="button" data-esempio="${esc(q)}">${SEGNO} ${esc(q)}</button>`)
           .join('\n        ')}
-        <button type="button" data-sorprendimi>Sorprendimi ✦</button>
+        <button type="button" class="sorprendimi" data-sorprendimi>Portami a caso ✦</button>
       </div>
     </div>
 
     ${
       inEvidenza
         ? `<div class="pillola-riquadro">
-      <p class="occhiello">La pillola di oggi</p>
+      <p class="occhiello">Una canzone al giorno</p>
       <article class="pillola" data-pillola style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
         <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
         <p class="gancio" data-pillola-titolo>${esc(inEvidenza.titolo)}</p>
