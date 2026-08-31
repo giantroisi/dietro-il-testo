@@ -410,11 +410,13 @@ export function paginaCanzone(c, ctx) {
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-    </header>
 
-    ${indiceHtml}
-
-    <section class="blocco" id="momento" style="border-top:0;padding-top:0">
+      <!-- F85: il momento iconico entra nella griglia dell'intestazione. È
+           l'unico modo perché su telefono possa stare PRIMA delle tre righe di
+           servizio (raccolte, revisione, condividi) restando dopo di esse su
+           schermo largo: sono aree della stessa griglia, non contenitori
+           diversi. Su desktop l'aspetto non cambia. -->
+      <section class="blocco testa-momento" id="momento" style="border-top:0;padding-top:0">
       ${
         c.fraseIconica
           ? `<figure class="momento">
@@ -424,7 +426,10 @@ export function paginaCanzone(c, ctx) {
       </figure>`
           : `<p class="vuoto">Il momento iconico di questa canzone non è stato ancora individuato.</p>`
       }
-    </section>
+      </section>
+    </header>
+
+    ${indiceHtml}
 
     <section class="blocco" id="storia">
       <h2>La storia</h2>

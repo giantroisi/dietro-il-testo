@@ -380,13 +380,14 @@ a { color: inherit; }
      Le aree servono a poter cambiare solo l'ordine su telefono, senza
      toccare il codice della pagina. */
   display: grid; grid-template-columns: 1fr minmax(230px, 300px);
-  grid-template-areas: "identita player" "contorno player";
+  grid-template-areas: "identita player" "contorno player" "momento momento";
   gap: 8px 40px; align-items: start;
 }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
 .testa-doppia .visivo { grid-area: player; }
+.testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
   /* F85: su telefono la colonna è una sola e il player, che prima aveva
@@ -399,11 +400,15 @@ a { color: inherit; }
      il player nello spazio liberato, aveva disfatto senza accorgersene. */
   .testa-doppia {
     grid-template-columns: 1fr;
-    grid-template-areas: "identita" "player" "contorno";
+    /* F85: su telefono la risposta viene prima del contorno. Le tre righe di
+       servizio — raccolte, data di revisione, condividi — sono cose che si
+       guardano dopo aver letto, e in mezzo costavano 150px alla risposta. */
+    grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
   .testa-doppia .visivo { max-width: 200px; }
-  .testa-doppia .testa-contorno { margin-top: 0; }
+  .testa-doppia .testa-contorno { margin-top: 8px; }
+  .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
 
 .player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }

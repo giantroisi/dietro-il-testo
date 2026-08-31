@@ -30,6 +30,56 @@
     "motivo": "confermata integralmente: Rolling Stone cita direttamente sia Macmillan sia Ozzy Osbourne"
   },
   {
+    "id": "album:blink-182:enema-of-the-state:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "blink-182/enema-of-the-state",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermato il concept e la citazione di Hoppus (fonte: American Songwriter); tolto il dettaglio sulla Croce Rossa Americana, non verificabile con una fonte incollabile"
+  },
+  {
+    "id": "album:deep-purple:machine-head:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "deep-purple/machine-head",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Rocking In the Norselands, corroborata da più fonti indipendenti (Rolling Stone India, Guitar World)"
+  },
+  {
+    "id": "album:green-day:american-idiot:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "green-day/american-idiot",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata l'ispirazione a Saul Bass e la rapidità del lavoro (fonte primaria: intervista WWD, riportata da Green Day Authority); tolti il verso specifico e il riferimento alla propaganda cinese, non verificabili con una fonte incollabile"
+  },
+  {
+    "id": "album:guns-n-roses:appetite-for-destruction:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "guns-n-roses/appetite-for-destruction",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Ultimate Classic Rock (Nick DeRiso), con citazioni dirette di Robert Williams"
+  },
+  {
+    "id": "album:iron-maiden:the-number-of-the-beast:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "iron-maiden/the-number-of-the-beast",
+    "raccoglie": 3,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata integralmente: Louder, con citazioni dirette di Derek Riggs"
+  },
+  {
     "id": "album:linkin-park:hybrid-theory:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -40,61 +90,11 @@
     "motivo": "confermato solo il ruolo di Shinoda e il significato delle ali (fonte: NME); tolto il dettaglio su Frank Maddocks/Banksy, non verificabile con una fonte incollabile in questo lotto (MTV e Medium hanno bloccato l'accesso)"
   },
   {
-    "id": "album:blink-182:enema-of-the-state:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "blink-182/enema-of-the-state",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-28",
-    "motivo": "confermato il concept e la citazione di Hoppus (fonte: American Songwriter); tolto il dettaglio sulla Croce Rossa Americana, non verificabile con una fonte incollabile"
-  },
-  {
-    "id": "album:deep-purple:machine-head:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "deep-purple/machine-head",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "confermata: Rocking In the Norselands, corroborata da più fonti indipendenti (Rolling Stone India, Guitar World)"
-  },
-  {
-    "id": "album:green-day:american-idiot:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "green-day/american-idiot",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-28",
-    "motivo": "confermata l'ispirazione a Saul Bass e la rapidità del lavoro (fonte primaria: intervista WWD, riportata da Green Day Authority); tolti il verso specifico e il riferimento alla propaganda cinese, non verificabili con una fonte incollabile"
-  },
-  {
-    "id": "album:guns-n-roses:appetite-for-destruction:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "guns-n-roses/appetite-for-destruction",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "confermata integralmente: Ultimate Classic Rock (Nick DeRiso), con citazioni dirette di Robert Williams"
-  },
-  {
-    "id": "album:iron-maiden:the-number-of-the-beast:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "iron-maiden/the-number-of-the-beast",
-    "raccoglie": 2,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "confermata integralmente: Louder, con citazioni dirette di Derek Riggs"
-  },
-  {
     "id": "album:metallica:metallica-black-album:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "metallica/metallica-black-album",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata la scelta minimalista di Ulrich/Hetfield (fonte: Ultimate Classic Rock); tolta l'attribuzione specifica a Hetfield sul serpente, non confermata con una citazione diretta"
@@ -104,7 +104,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "michael-jackson/thriller",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata integralmente: Yahoo Entertainment riporta la citazione diretta di Dick Zimmerman (intervista Art of Design)"
@@ -114,7 +114,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "muse/black-holes-and-revelations",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata integralmente: Gigwise cita direttamente Storm Thorgerson sui mali moderni (paranoia, intolleranza, narcisismo, avidità) e i quattro cavalieri"
@@ -124,7 +124,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "nine-inch-nails/the-downward-spiral",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata integralmente: Revolver, con citazione diretta di Russell Mills"
@@ -134,7 +134,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "oasis/whats-the-story-morning-glory",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata: Pixartprinting conferma fotografo, data (23 luglio 1995), luogo e identità delle due figure sfocate (Brian Cannon, Sean Rowley)"
@@ -144,7 +144,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "pearl-jam/ten",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata integralmente: American Songwriter (Jacob Uitti), con citazione diretta di Jeff Ament"
@@ -154,7 +154,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "slayer/reign-in-blood",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Louder, ricostruita da più articoli della stessa testata"
@@ -164,7 +164,7 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "sum-41/all-killer-no-filler",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata integralmente: Riffology (Neil Johnson), con crediti fotografici precisi"
@@ -174,10 +174,20 @@
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
     "soggetto": "system-of-a-down/toxicity",
-    "raccoglie": 2,
+    "raccoglie": 3,
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Variety (oral history dell'album), con dettagli specifici su designer e licenza"
+  },
+  {
+    "id": "album:korn:korn:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "korn/korn",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia con credit fotografico (Stephen Stickler) e direzione artistica"
   },
   {
     "id": "album:a-ha:hunting-high-and-low:fonte-copertina",
@@ -468,16 +478,6 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Wikipedia con citazione diretta e riferimento bibliografico"
-  },
-  {
-    "id": "album:korn:korn:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "korn/korn",
-    "raccoglie": 1,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "confermata: Wikipedia con credit fotografico (Stephen Stickler) e direzione artistica"
   },
   {
     "id": "album:led-zeppelin:led-zeppelin-iv:fonte-copertina",
@@ -910,19 +910,6 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
-    "id": "canzone:the-sound-of-silence:completezza",
-    "classe": "C1",
-    "tipo": "scheda-incompleta",
-    "soggetto": "the-sound-of-silence",
-    "raccoglie": 1,
-    "manca": [
-      "spotifyId"
-    ],
-    "stato": "accertato-assente",
-    "ultimoTentativo": "2026-08-25",
-    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
-  },
-  {
     "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -1037,7 +1024,7 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/5-seconds-of-summer",
-    "raccoglie": 1,
+    "raccoglie": 2,
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovati solo frammenti sparsi (disegni di Ashton Irwin, design di Richard Andrews) senza una fonte primaria con spiegazione citabile del concept della copertina — non abbastanza per lo standard del sito."
@@ -1047,7 +1034,7 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "883/hanno-ucciso-luomo-ragno",
-    "raccoglie": 1,
+    "raccoglie": 2,
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovato molto materiale sul significato della canzone omonima (l'Uomo Ragno come simbolo della purezza adolescenziale), ma nessuna fonte con una descrizione o spiegazione della copertina dell'album stesso, nonostante ricerche mirate."
@@ -1057,7 +1044,7 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "al-bano-e-romina-power/felicita",
-    "raccoglie": 1,
+    "raccoglie": 2,
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "nessuna fonte trovata sulla copertina dell'album (solo materiale sulla canzone e sul contesto della sua registrazione a Monaco), nonostante ricerche mirate."
@@ -1067,7 +1054,7 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "avicii/true",
-    "raccoglie": 1,
+    "raccoglie": 2,
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovata solo la storia del lancio promozionale (una lastra di vetro nero fatta esplodere via tweet dei fan), non una descrizione di cosa raffiguri effettivamente la copertina."
@@ -1077,10 +1064,110 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "blink-182/blink-182",
-    "raccoglie": 1,
+    "raccoglie": 2,
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovata una fonte (cdunity.com) con dettagli plausibili su Travis Barker, Mister Cartoon ed Estevan Oriol, ma senza alcuna citazione diretta né fonte primaria verificabile — non abbastanza per lo standard del sito."
+  },
+  {
+    "id": "album:claudio-baglioni:questo-piccolo-grande-amore:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "claudio-baglioni/questo-piccolo-grande-amore",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovate solo informazioni sull'album e sul brano (data di registrazione, successo commerciale), nessuna descrizione della copertina stessa."
+  },
+  {
+    "id": "album:disturbed:immortalized:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "disturbed/immortalized",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata con una spiegazione del design o del significato della copertina."
+  },
+  {
+    "id": "album:ed-sheeran:divide:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ed-sheeran/divide",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovati solo frammenti (il coinvolgimento dello studio di Damien Hirst, un 'spin painting' fatto da Sheeran stesso) senza una fonte primaria accessibile con citazione diretta."
+  },
+  {
+    "id": "album:edoardo-bennato:sono-solo-canzonette:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "edoardo-bennato/sono-solo-canzonette",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata solo tramite un aggregatore generico una descrizione della copertina apribile con fumetti su Peter Pan, ma non confermata da un fetch diretto della fonte primaria (Wikipedia non la contiene) — non pubblicata senza verifica."
+  },
+  {
+    "id": "album:eros-ramazzotti:dove-ce-musica:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "eros-ramazzotti/dove-ce-musica",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovato solo il nome del fotografo (Michelangelo Di Battista) da database di catalogazione (Discogs, MusicBrainz), senza una fonte editoriale che lo confermi con più contesto."
+  },
+  {
+    "id": "album:evanescence:fallen:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "evanescence/fallen",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovata una citazione di Amy Lee sul significato personale della copertina, ma non una descrizione di cosa raffiguri visivamente; la fonte con più dettagli (Revolver) non è risultata accessibile."
+  },
+  {
+    "id": "album:fabrizio-de-andre:volume-3-raccolta:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "fabrizio-de-andre/volume-3-raccolta",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "trovati solo dettagli fisici sull'astuccio (bordi arrotondati, testo su costa gialla), nessuna spiegazione di cosa raffiguri effettivamente la copertina anteriore."
+  },
+  {
+    "id": "album:finley:tutto-e-possibile:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "finley/tutto-e-possibile",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "nessuna fonte trovata con una spiegazione o descrizione della copertina."
+  },
+  {
+    "id": "album:gianna-nannini:profumo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "gianna-nannini/profumo",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva o attribuisca la copertina dell'album"
+  },
+  {
+    "id": "album:laura-pausini:laura-pausini-debutto:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "laura-pausini/laura-pausini-debutto",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina o chi l'abbia realizzata, solo credit generici senza il fotografo"
   },
   {
     "id": "album:bring-me-the-horizon:suicide-season:copertina",
@@ -1093,26 +1180,6 @@
     "motivo": "trovata una descrizione (una ragazza con le budella fuori) attribuita a un'intervista della band, ma senza riuscire a rintracciare la fonte primaria con URL verificabile — non pubblicata senza poter controllare la citazione alla fonte."
   },
   {
-    "id": "album:claudio-baglioni:questo-piccolo-grande-amore:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "claudio-baglioni/questo-piccolo-grande-amore",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovate solo informazioni sull'album e sul brano (data di registrazione, successo commerciale), nessuna descrizione della copertina stessa."
-  },
-  {
-    "id": "album:disturbed:immortalized:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "disturbed/immortalized",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "nessuna fonte trovata con una spiegazione del design o del significato della copertina."
-  },
-  {
     "id": "album:domenico-modugno:singolo:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1121,26 +1188,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovato un riferimento a una copertina disegnata da Guido Crepax, ma risulta legato a un'edizione commemorativa moderna (1958 copie numerate per l'anniversario), non confermato che sia la copertina del 45 giri originale del 1958 — rischio di descrivere una ristampa come se fosse l'originale, non pubblicato senza certezza."
-  },
-  {
-    "id": "album:ed-sheeran:divide:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ed-sheeran/divide",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovati solo frammenti (il coinvolgimento dello studio di Damien Hirst, un 'spin painting' fatto da Sheeran stesso) senza una fonte primaria accessibile con citazione diretta."
-  },
-  {
-    "id": "album:edoardo-bennato:sono-solo-canzonette:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "edoardo-bennato/sono-solo-canzonette",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovata solo tramite un aggregatore generico una descrizione della copertina apribile con fumetti su Peter Pan, ma non confermata da un fetch diretto della fonte primaria (Wikipedia non la contiene) — non pubblicata senza verifica."
   },
   {
     "id": "album:electric-callboy:mmxx:copertina",
@@ -1163,46 +1210,6 @@
     "motivo": "trovata solo una descrizione generica non confermata da un fetch diretto della fonte (Wikipedia non descrive il contenuto visivo della copertina)."
   },
   {
-    "id": "album:eros-ramazzotti:dove-ce-musica:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "eros-ramazzotti/dove-ce-musica",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovato solo il nome del fotografo (Michelangelo Di Battista) da database di catalogazione (Discogs, MusicBrainz), senza una fonte editoriale che lo confermi con più contesto."
-  },
-  {
-    "id": "album:evanescence:fallen:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "evanescence/fallen",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovata una citazione di Amy Lee sul significato personale della copertina, ma non una descrizione di cosa raffiguri visivamente; la fonte con più dettagli (Revolver) non è risultata accessibile."
-  },
-  {
-    "id": "album:fabrizio-de-andre:volume-3-raccolta:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "fabrizio-de-andre/volume-3-raccolta",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "trovati solo dettagli fisici sull'astuccio (bordi arrotondati, testo su costa gialla), nessuna spiegazione di cosa raffiguri effettivamente la copertina anteriore."
-  },
-  {
-    "id": "album:finley:tutto-e-possibile:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "finley/tutto-e-possibile",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "nessuna fonte trovata con una spiegazione o descrizione della copertina."
-  },
-  {
     "id": "album:fulminacci:infinito-1:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1221,26 +1228,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "sospeso: fonti in conflitto sull'autore della copertina (alcune indicano David Brinley, altre Zbigniew Bielak), nessuna fonte di livello A/B risolve univocamente l'attribuzione"
-  },
-  {
-    "id": "album:gianna-nannini:profumo:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "gianna-nannini/profumo",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "sospeso: nessuna fonte trovata che descriva o attribuisca la copertina dell'album"
-  },
-  {
-    "id": "album:laura-pausini:laura-pausini-debutto:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "laura-pausini/laura-pausini-debutto",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina o chi l'abbia realizzata, solo credit generici senza il fotografo"
   },
   {
     "id": "album:ligabue:buon-compleanno-elvis:copertina",
@@ -14121,16 +14108,6 @@
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null
-  },
-  {
-    "id": "canzone:the-sound-of-silence:spotify-id",
-    "classe": "C6",
-    "tipo": "spotify-id-canzone",
-    "soggetto": "the-sound-of-silence",
-    "raccoglie": 1,
-    "stato": "accertato-assente",
-    "ultimoTentativo": "2026-08-25",
-    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
   },
   {
     "id": "canzone:throne:ascolti",

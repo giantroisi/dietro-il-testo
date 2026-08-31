@@ -409,13 +409,14 @@ a { color: inherit; }
      Le aree servono a poter cambiare solo l'ordine su telefono, senza
      toccare il codice della pagina. */
   display: grid; grid-template-columns: 1fr minmax(230px, 300px);
-  grid-template-areas: "identita player" "contorno player";
+  grid-template-areas: "identita player" "contorno player" "momento momento";
   gap: 8px 40px; align-items: start;
 }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
 .testa-doppia .visivo { grid-area: player; }
+.testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
   /* F85: su telefono la colonna è una sola e il player, che prima aveva
@@ -428,11 +429,15 @@ a { color: inherit; }
      il player nello spazio liberato, aveva disfatto senza accorgersene. */
   .testa-doppia {
     grid-template-columns: 1fr;
-    grid-template-areas: "identita" "player" "contorno";
+    /* F85: su telefono la risposta viene prima del contorno. Le tre righe di
+       servizio — raccolte, data di revisione, condividi — sono cose che si
+       guardano dopo aver letto, e in mezzo costavano 150px alla risposta. */
+    grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
   .testa-doppia .visivo { max-width: 200px; }
-  .testa-doppia .testa-contorno { margin-top: 0; }
+  .testa-doppia .testa-contorno { margin-top: 8px; }
+  .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
 
 .player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
@@ -685,8 +690,9 @@ a { color: inherit; }
         <p class="sopratitolo">Simon &amp; Garfunkel <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1964 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Wednesday Morning, 3 A.M. / Sounds of Silence</p>
         <h1>The Sound of Silence</h1>
       </div>
-      <div class="player-intestazione">
-        <iframe src="https://open.spotify.com/embed/track/5U1Aqk9XyrjUwQlyT7bp3h?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="The Sound of Silence su Spotify"></iframe>
+      <div class="visivo" role="img" aria-label="The Sound of Silence">
+        <span class="sigla" aria-hidden="true">SS</span>
+        <span class="nota" aria-hidden="true">Spazio immagine</span>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">
@@ -706,17 +712,22 @@ a { color: inherit; }
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-    </header>
 
-    
-
-    <section class="blocco" id="momento" style="border-top:0;padding-top:0">
+      <!-- F85: il momento iconico entra nella griglia dell'intestazione. È
+           l'unico modo perché su telefono possa stare PRIMA delle tre righe di
+           servizio (raccolte, revisione, condividi) restando dopo di esse su
+           schermo largo: sono aree della stessa griglia, non contenitori
+           diversi. Su desktop l'aspetto non cambia. -->
+      <section class="blocco testa-momento" id="momento" style="border-top:0;padding-top:0">
       <figure class="momento">
         <span class="etichetta">Momento iconico</span>
         <p>Il verso più citato è quello d'apertura, in cui il narratore si rivolge all'oscurità come a un vecchio amico ritrovato. Paul Simon scrisse il brano a 21 anni, componendolo perlopiù da solo di notte nel bagno di casa, dove apriva il rubinetto per il rumore bianco rilassante e suonava la chitarra al buio — l'oscurità letterale che ispirò l'immagine d'apertura. Sia Simon che Art Garfunkel hanno descritto il tema del brano come l'incapacità delle persone di comunicare davvero tra loro, nata da un periodo di alienazione giovanile più che da una crisi personale specifica.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-    </section>
+      </section>
+    </header>
+
+    
 
     <section class="blocco" id="storia">
       <h2>La storia</h2>
@@ -729,9 +740,9 @@ a { color: inherit; }
     
 
     <section class="blocco" id="ascolta">
-      <h2>Continua</h2>
+      <h2>Ascolta</h2>
       <div class="ascolto">
-        
+        <p class="assente">Il player ufficiale per questo brano non è ancora stato collegato.</p>
         
       </div>
       <div class="azioni">

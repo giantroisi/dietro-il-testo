@@ -409,13 +409,14 @@ a { color: inherit; }
      Le aree servono a poter cambiare solo l'ordine su telefono, senza
      toccare il codice della pagina. */
   display: grid; grid-template-columns: 1fr minmax(230px, 300px);
-  grid-template-areas: "identita player" "contorno player";
+  grid-template-areas: "identita player" "contorno player" "momento momento";
   gap: 8px 40px; align-items: start;
 }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
 .testa-doppia .visivo { grid-area: player; }
+.testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
   /* F85: su telefono la colonna è una sola e il player, che prima aveva
@@ -428,11 +429,15 @@ a { color: inherit; }
      il player nello spazio liberato, aveva disfatto senza accorgersene. */
   .testa-doppia {
     grid-template-columns: 1fr;
-    grid-template-areas: "identita" "player" "contorno";
+    /* F85: su telefono la risposta viene prima del contorno. Le tre righe di
+       servizio — raccolte, data di revisione, condividi — sono cose che si
+       guardano dopo aver letto, e in mezzo costavano 150px alla risposta. */
+    grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
   .testa-doppia .visivo { max-width: 200px; }
-  .testa-doppia .testa-contorno { margin-top: 0; }
+  .testa-doppia .testa-contorno { margin-top: 8px; }
+  .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
 
 .player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
@@ -706,17 +711,22 @@ a { color: inherit; }
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-    </header>
 
-    
-
-    <section class="blocco" id="momento" style="border-top:0;padding-top:0">
+      <!-- F85: il momento iconico entra nella griglia dell'intestazione. È
+           l'unico modo perché su telefono possa stare PRIMA delle tre righe di
+           servizio (raccolte, revisione, condividi) restando dopo di esse su
+           schermo largo: sono aree della stessa griglia, non contenitori
+           diversi. Su desktop l'aspetto non cambia. -->
+      <section class="blocco testa-momento" id="momento" style="border-top:0;padding-top:0">
       <figure class="momento">
         <span class="etichetta">Momento iconico</span>
         <p>Il momento più ricordato è la transizione diretta nel brano successivo, &quot;Raining Blood&quot;, senza pause: la fine di &quot;Postmortem&quot; non è una conclusione ma un innesco, coerente con un testo che descrive la morte non come fine ma come soglia.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-    </section>
+      </section>
+    </header>
+
+    
 
     <section class="blocco" id="storia">
       <h2>La storia</h2>
