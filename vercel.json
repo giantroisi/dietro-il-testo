@@ -1,26 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/5-seconds-of-summer/sounds-good-feels-good/",
-      "destination": "/artista/5-seconds-of-summer/",
-      "permanent": true
-    },
-    {
-      "source": "/album/5-seconds-of-summer/youngblood/",
-      "destination": "/artista/5-seconds-of-summer/",
-      "permanent": true
-    },
-    {
-      "source": "/album/5-seconds-of-summer/calm/",
-      "destination": "/artista/5-seconds-of-summer/",
-      "permanent": true
-    },
-    {
-      "source": "/album/5-seconds-of-summer/5sos5/",
-      "destination": "/artista/5-seconds-of-summer/",
-      "permanent": true
-    },
-    {
       "source": "/album/5-seconds-of-summer/everyones-a-star/",
       "destination": "/artista/5-seconds-of-summer/",
       "permanent": true

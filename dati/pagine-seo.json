@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 193,
+    "nCanzoni": 197,
     "haTestoEditoriale": true
   },
   {
@@ -1002,10 +1002,30 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/shes-kinda-hot/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/youngblood/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/easier/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/complete-mess/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -1734,6 +1754,34 @@
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/5-seconds-of-summer/sounds-good-feels-good/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/5-seconds-of-summer/youngblood/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/5-seconds-of-summer/calm/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/5-seconds-of-summer/5sos5/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
     "haTestoEditoriale": false
   },
   {
@@ -2727,7 +2775,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 87,
+    "nCanzoni": 91,
     "haTestoEditoriale": true
   },
   {
@@ -2741,14 +2789,14 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 75,
+    "nCanzoni": 79,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/punk/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 23,
+    "nCanzoni": 24,
     "haTestoEditoriale": true
   },
   {
@@ -2783,7 +2831,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 23,
+    "nCanzoni": 26,
     "haTestoEditoriale": true
   }
 ]
