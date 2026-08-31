@@ -401,13 +401,34 @@ a { color: inherit; }
   max-width: 58ch; margin: 0;
 }
 .testa-doppia {
+  /* F85: due colonne su schermo largo — testo a sinistra, player a destra.
+     Le aree servono a poter cambiare solo l'ordine su telefono, senza
+     toccare il codice della pagina. */
   display: grid; grid-template-columns: 1fr minmax(230px, 300px);
-  gap: 40px; align-items: start;
+  grid-template-areas: "identita player" "contorno player";
+  gap: 8px 40px; align-items: start;
 }
+.testa-doppia .testa-identita { grid-area: identita; }
+.testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
+.testa-doppia .player-intestazione,
+.testa-doppia .visivo { grid-area: player; }
+
 @media (max-width: 860px) {
-  .testa-doppia { grid-template-columns: 1fr; gap: 24px; }
-  .testa-doppia .visivo { order: -1; max-width: 200px; }
-  .testa-doppia .player-intestazione { order: -1; }
+  /* F85: su telefono la colonna è una sola e il player, che prima aveva
+     order:-1, scavalcava il titolo: chi arrivava da una ricerca vedeva la
+     copertina prima di sapere che pagina stava leggendo, e il momento iconico
+     — la risposta — cominciava a circa 670px su 812. Ora l'ordine è
+     identità del brano, player, contorno: il player resta subito sotto il
+     titolo (scelta dell'autore) e le tre righe di servizio scendono sotto.
+     Ripristina di fatto quello che F14 aveva ottenuto e che F34, spostando
+     il player nello spazio liberato, aveva disfatto senza accorgersene. */
+  .testa-doppia {
+    grid-template-columns: 1fr;
+    grid-template-areas: "identita" "player" "contorno";
+    gap: 20px;
+  }
+  .testa-doppia .visivo { max-width: 200px; }
+  .testa-doppia .testa-contorno { margin-top: 0; }
 }
 
 .player-intestazione { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }

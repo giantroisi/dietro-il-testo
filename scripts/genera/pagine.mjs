@@ -387,9 +387,16 @@ export function paginaCanzone(c, ctx) {
     </nav>
 
     <header class="intestazione testa-doppia">
-      <div>
+      <!-- F85: il blocco del testo è diviso in due — identità del brano e
+           contorno — perché su telefono il player possa stare in mezzo, subito
+           dopo il titolo, invece che sopra tutto. Su desktop la griglia li
+           rimette nella stessa colonna e non cambia nulla. -->
+      <div class="testa-identita">
         <p class="sopratitolo">${conSegno([c.artista, annoDi(c), c.album])}</p>
         <h1>${esc(c.titolo)}</h1>
+      </div>
+      ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
+      <div class="testa-contorno">
         ${etichette}
         <div class="affidabilita">
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
@@ -403,7 +410,6 @@ export function paginaCanzone(c, ctx) {
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
         </div>
       </div>
-      ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
     </header>
 
     ${indiceHtml}
