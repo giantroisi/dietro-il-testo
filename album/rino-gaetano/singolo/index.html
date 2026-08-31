@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/album/rino-gaetano/singolo/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicAlbum","name":"Singolo","byArtist":{"@type":"MusicGroup","name":"Rino Gaetano","url":"https://www.dietroiltesto.it/artista/rino-gaetano/"},"datePublished":"1975","url":"https://www.dietroiltesto.it/album/rino-gaetano/singolo/","dateModified":"2026-08-30"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rino Gaetano","item":"https://www.dietroiltesto.it/artista/rino-gaetano/"},{"@type":"ListItem","position":3,"name":"Singolo","item":"https://www.dietroiltesto.it/album/rino-gaetano/singolo/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicAlbum","name":"Singolo","byArtist":{"@type":"MusicGroup","name":"Rino Gaetano","url":"https://www.dietroiltesto.it/artista/rino-gaetano/"},"datePublished":"1975","url":"https://www.dietroiltesto.it/album/rino-gaetano/singolo/","dateModified":"2026-08-31"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rino Gaetano","item":"https://www.dietroiltesto.it/artista/rino-gaetano/"},{"@type":"ListItem","position":3,"name":"Singolo","item":"https://www.dietroiltesto.it/album/rino-gaetano/singolo/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -190,8 +190,18 @@ a { color: inherit; }
   position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
   width: 15px; height: 15px; color: var(--text-muted); pointer-events: none;
 }
-.cerca.grande input { font-size: 18px; padding: 18px 18px 18px 48px; border-radius: 10px; }
-.cerca.grande .lente { left: 18px; width: 18px; height: 18px; }
+.cerca.grande input {
+  font-size: 18px; padding: 18px 18px 18px 48px; border-radius: 10px;
+  /* F80: con un telefono in mano alla luce del giorno, un rettangolo scuro su
+     fondo scuro con bordo tenue sparisce. Il colore del testo non cambia:
+     cambia il contorno, quindi il contrasto di lettura resta quello verificato. */
+  border-width: 1.5px;
+  border-color: color-mix(in srgb, var(--text-muted) 55%, var(--border));
+  background: color-mix(in srgb, var(--surface) 88%, var(--text) 4%);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--text) 6%, transparent);
+}
+.cerca.grande input::placeholder { color: color-mix(in srgb, var(--text-muted) 88%, var(--text)); }
+.cerca.grande .lente { left: 18px; width: 18px; height: 18px; color: var(--text); opacity: .72; }
 
 .esiti {
   position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 60;
@@ -244,9 +254,17 @@ a { color: inherit; }
   display: flex; align-items: center; gap: 8px;
 }
 .apertura h1.promessa {
-  font: inherit; font-weight: 400;
-  font-size: clamp(16px, 2vw, 18.5px); color: var(--text-muted);
-  max-width: 46ch; margin: 0 0 30px;
+  /* F78: era un'istruzione lunga resa in grigio, cioè un paragrafo travestito
+     da titolo. Ora dice cosa si trova, quindi si legge come un titolo. */
+  font-weight: 600; font-size: clamp(26px, 5.4vw, 38px); line-height: 1.18;
+  color: var(--text); max-width: 18ch; margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+/* F82: la riga che dice quanto c'è dentro. Sta sotto il titolo, prima
+   dell'azione: è la prova che convince a restare invece di tornare indietro. */
+.apertura .consistenza {
+  font-size: 14.5px; color: var(--text-muted);
+  max-width: 46ch; margin: 0 0 24px;
 }
 .segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
 .segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
@@ -261,6 +279,13 @@ a { color: inherit; }
   border-radius: 999px; padding: 6px 13px; text-decoration: none;
 }
 .suggerimenti a:hover, .suggerimenti button:hover { border-color: var(--sistema); color: var(--sistema); }
+/* F83: i quattro esempi riempiono la ricerca, questo porta altrove. Stessa
+   famiglia, trattamento diverso: bordo tratteggiato e distacco dagli altri. */
+.suggerimenti button.sorprendimi {
+  border-style: dashed; color: var(--text-muted);
+  margin-left: auto;
+}
+.suggerimenti button.sorprendimi:hover { border-style: solid; }
 
 .sezione { padding: 54px 0; border-top: 1px solid var(--border); }
 .sezione:first-of-type { border-top: 0; }
@@ -289,7 +314,14 @@ a { color: inherit; }
   font-size: clamp(21px, 2.7vw, 27px); line-height: 1.3;
   margin: 10px 0 14px; text-wrap: balance;
 }
-.pillola .estratto { color: var(--text-muted); font-size: 15px; margin: 0 0 20px; }
+.pillola .estratto {
+  color: var(--text-muted); font-size: 15px; margin: 0 0 20px;
+  /* F84: si chiudeva a metà frase contro il bordo dello schermo, senza dire
+     quanto mancasse. Quattro righe e una dissolvenza: la card invoglia ad
+     aprire la scheda, non deve contenerla. */
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /* ----------------------------------------------------------- elenchi */
 
