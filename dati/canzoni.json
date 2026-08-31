@@ -302,7 +302,7 @@
     "ascoltiTesto": "2,7 mld ascolti",
     "spotifyId": "5lkpeJwmQKgY3bX2zChjxX",
     "corpo": [
-      "Secondo singolo dell'album 21, uscito nel gennaio 2011 nel Regno Unito. Accompagnata solo dal pianoforte, Adele saluta un ex compagno che nel frattempo si è sposato con un'altra persona, riflettendo sulla fine della sua prima vera relazione importante.",
+      "Secondo singolo dell'album 21, uscito nel gennaio 2011 nel Regno Unito. Accompagnata solo dal pianoforte, Adele saluta un ex compagno che nel frattempo si era fidanzato con un'altra persona, riflettendo sulla fine della sua prima vera relazione importante.",
       "Scritta con Dan Wilson, con cui Adele non si era mai incontrata prima — fu il produttore Rick Rubin ad accostarli. Fu la prima ballata solo piano e voce a raggiungere il numero 1 della Billboard Hot 100 dal 1958."
     ],
     "fraseIconica": "Il verso più citato è quello del ritornello in cui Adele dice di essersene fatta una ragione e di augurarsi di trovare presto qualcuno come lui — una frase famosa proprio per la sua contraddizione interna: dichiara di andare avanti, ma sperando di trovare una copia della persona che sta ancora piangendo. Adele scrisse il brano dopo una rottura reale, raccontando a Rolling Stone di essere rimasta \"assolutamente devastata\", e lo compose con Dan Wilson in due giorni al pianoforte, scegliendo deliberatamente un arrangiamento scarno.",
@@ -2302,10 +2302,10 @@
     "ascoltiTesto": null,
     "spotifyId": "39xwg2bRxIozU84vrRgqXE",
     "corpo": [
-      "Il brano nasce da un fatto realmente accaduto: il 4 dicembre 1971, durante un concerto di Frank Zappa al Casinò di Montreux, in Svizzera, qualcuno tra il pubblico sparò un razzo di segnalazione verso il soffitto, provocando un incendio che distrusse l'edificio. I Deep Purple, che dovevano registrare lì il loro nuovo album con uno studio mobile, assistettero alla scena da un ristorante vicino, vedendo il fumo alzarsi sopra il Lago di Ginevra — da qui il titolo, attribuito al bassista Roger Glover.",
+      "Il brano nasce da un fatto realmente accaduto: il 4 dicembre 1971, durante un concerto di Frank Zappa al Casinò di Montreux, in Svizzera, qualcuno tra il pubblico sparò un razzo di segnalazione verso il soffitto, provocando un incendio che distrusse l'edificio. I Deep Purple, che dovevano registrare lì il loro nuovo album con uno studio mobile, assistettero alla scena dal loro hotel, vedendo il fumo alzarsi sopra il Lago di Ginevra — da qui il titolo, attribuito al bassista Roger Glover.",
       "Pubblicato nell'album Machine Head il 25 marzo 1972, il celebre riff in quattro note, ideato da Ritchie Blackmore, è diventato uno dei più suonati e riconoscibili della storia della chitarra rock."
     ],
-    "fraseIconica": "L'immagine centrale del brano non è tanto un singolo verso quanto il celebre riff di chitarra, insieme al titolo che descrive il fumo che si alza sul lago con il fuoco che illumina il cielo. Il 4 dicembre 1971 un fan sparò un razzo di segnalazione contro il soffitto durante un concerto di Frank Zappa al Montreux Casino, incendiando il locale mentre i Deep Purple osservavano da un hotel vicino: il fumo si stese sul Lago di Ginevra sotto le montagne circostanti. Il bassista Roger Glover annotò \"smoke on the water\" su un tovagliolo quella stessa notte; il testo cita anche \"Funky Claude\" (Claude Nobs, direttore del Montreux Jazz Festival, che aiutò le persone a mettersi in salvo durante l'incendio).",
+    "fraseIconica": "L'immagine centrale del brano non è tanto un singolo verso quanto il celebre riff di chitarra, insieme al titolo che descrive il fumo che si alza sul lago con il fuoco che illumina il cielo. Il 4 dicembre 1971 un fan sparò un razzo di segnalazione contro il soffitto durante un concerto di Frank Zappa al Montreux Casino, incendiando il locale mentre i Deep Purple osservavano da un hotel vicino: il fumo si stese sul Lago di Ginevra sotto le montagne circostanti. L'idea del titolo venne al bassista Roger Glover qualche giorno dopo, in sogno; il testo cita anche \"Funky Claude\" (Claude Nobs, direttore del Montreux Jazz Festival, che aiutò le persone a mettersi in salvo durante l'incendio).",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/deep-purple/smoke-on-the-water/",
     "fonti": [
@@ -4581,6 +4581,10 @@
       {
         "url": "https://www.loudersound.com/bands-artists/ghost-square-hammer-story-behind-song",
         "nome": "Louder"
+      },
+      {
+        "url": "https://loudwire.com/ghost-square-hammer-metal-song-decade/",
+        "nome": "Loudwire"
       }
     ],
     "testoFonte": "Letras",
