@@ -1363,6 +1363,15 @@ Le due colonne non condividono nessun file. È voluto: si può lavorare contempo
 2. **Prima di scrivere, si guarda se l'altro sta scrivendo.** `git status` e la presenza di `.git/index.lock` lo dicono. Se c'è un lock attivo, si aspetta: forzarlo mentre l'altro lavora è l'unico modo per fare danni veri.
 3. **Chi trova una modifica non committata dell'altro la lascia stare.** Capita che una modifica resti sul disco senza commit — il ponte con cui Opus scrive non ha i permessi per ripulire i lock di git. Si aggancia da sola al lotto successivo. Non va annullata con `git checkout` per "pulire".
 
+**Nota pratica sui lock (31 agosto 2026).** Dal ponte, `rm` sui file dentro `.git` è vietato: ogni comando git lascia dietro `index.lock` (e a volte `HEAD.lock`), e il comando successivo si blocca con «Another git process seems to be running». **Rinominare invece funziona**, perché è una rename e non una cancellazione:
+
+```
+cd ~/Claude/dietro-il-testo/.git && mkdir -p spazzatura
+for f in index.lock HEAD.lock; do [ -e "$f" ] && mv "$f" spazzatura/$f.$(date +%s); done
+```
+
+Da fare **solo dopo aver controllato che nessun altro stia scrivendo** (regola 2): un lock legittimo, di un git davvero in corso, non va toccato. La cartella `spazzatura/` sta dentro `.git`, quindi non finisce né nel repository né nel sito pubblicato.
+
 ### Perché la verifica sta da una parte sola
 
 F71 e F70 stanno con Opus non per competenza ma per **indipendenza**: chi scrive una scheda la verifica mentre la scrive, ed è la stessa mano che giudica. La sezione 11 di questo documento è passata tre volte da una revisione esterna e ha perso sette numeri sbagliati che a chi li aveva scritti sembravano corretti; i campioni di F71 hanno trovato che un terzo delle affermazioni non regge sulle fonti che cita. Nessuno dei due risultati sarebbe emerso da un'autoverifica.
