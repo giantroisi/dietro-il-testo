@@ -257,8 +257,11 @@ a { color: inherit; }
 /* F83: i quattro esempi riempiono la ricerca, questo porta altrove. Stessa
    famiglia, trattamento diverso: bordo tratteggiato e distacco dagli altri. */
 .suggerimenti button.sorprendimi {
+  /* F83: il bordo tratteggiato basta a dire che fa un'altra cosa. Un primo
+     tentativo lo spingeva a destra con margin-left:auto: verificato a 375px,
+     finiva da solo su una riga e sembrava un errore di impaginazione invece
+     di una scelta. */
   border-style: dashed; color: var(--text-muted);
-  margin-left: auto;
 }
 .suggerimenti button.sorprendimi:hover { border-style: solid; }
 
