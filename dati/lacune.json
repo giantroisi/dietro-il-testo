@@ -910,6 +910,19 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
+    "id": "canzone:the-sound-of-silence:completezza",
+    "classe": "C1",
+    "tipo": "scheda-incompleta",
+    "soggetto": "the-sound-of-silence",
+    "raccoglie": 1,
+    "manca": [
+      "spotifyId"
+    ],
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-08-25",
+    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
+  },
+  {
     "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -14108,6 +14121,16 @@
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null
+  },
+  {
+    "id": "canzone:the-sound-of-silence:spotify-id",
+    "classe": "C6",
+    "tipo": "spotify-id-canzone",
+    "soggetto": "the-sound-of-silence",
+    "raccoglie": 1,
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-08-25",
+    "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
   },
   {
     "id": "canzone:throne:ascolti",
