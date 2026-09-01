@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/powerage/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/back-in-black/",
       "destination": "/artista/ac-dc/",
       "permanent": true

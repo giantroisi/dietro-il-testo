@@ -10129,5 +10129,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "rock-n-roll-damnation",
+    "titolo": "Rock 'n' Roll Damnation",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1978",
+    "album": "Powerage",
+    "albumSlug": "powerage",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E2E2E",
+    "colore2": "#B58A1D",
+    "ascolti": 40323542,
+    "ascoltiTesto": "40 mln ascolti",
+    "spotifyId": "2308VPPaMh7Q3AX1Zap99A",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Bon Scott, fu l'ultimo brano inciso per \"Powerage\", nel marzo 1978 agli Albert Studios di Sydney. La casa discografica americana, giudicando l'album privo di un pezzo adatto alla radio, convinse la band a tornare in studio per scrivere qualcosa di più orecchiabile: il risultato è insolito nel catalogo di AC/DC — battiti di mani e maracas al posto del consueto assolo di chitarra, che qui manca del tutto.",
+      "Fu il primo singolo della band a entrare in classifica nel Regno Unito, dove raggiunse la posizione numero 24 (18 nei Paesi Bassi, 21 in Belgio). Ultimate Classic Rock ha descritto l'intero album \"Powerage\" come un disco di transizione tra \"Let There Be Rock\" e \"Highway to Hell\", elogiato nel tempo da musicisti come Keith Richards ed Eddie Van Halen, che lo hanno indicato fra i loro AC/DC preferiti pur non contenendo un singolo di grande impatto commerciale."
+    ],
+    "fraseIconica": "Il momento più ricordato è proprio l'assenza dell'assolo di chitarra atteso in un brano AC/DC, sostituito da battiti di mani e maracas: una scelta commerciale diventata, con gli anni, uno dei tratti distintivi del pezzo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/97697/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rock_%27n%27_Roll_Damnation",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/acdc-powerage/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 229,
+    "nCanzoni": 230,
     "haTestoEditoriale": true
   },
   {
@@ -1182,6 +1182,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/rock-n-roll-damnation/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1206,7 +1211,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -2086,6 +2091,13 @@
   },
   {
     "percorso": "album/ac-dc/let-there-be-rock/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/powerage/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3159,7 +3171,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 110,
+    "nCanzoni": 111,
     "haTestoEditoriale": true
   },
   {
@@ -3187,7 +3199,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 30,
+    "nCanzoni": 31,
     "haTestoEditoriale": true
   },
   {
