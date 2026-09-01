@@ -135,8 +135,7 @@ for (const a of elenco) {
     const c = await categoriaDi(a.nome);
     if (!c) { process.stderr.write('nessuna categoria Commons\n'); esito.push({ slug: a.slug, nome: a.nome, schede: quante[a.slug] || 0, categoria: null, candidati: [] }); await attesa(PAUSA); continue; }
     await attesa(PAUSA);
-    const titoli = await fileDellaCategoria(c.cat);
-    const pagine = await informazioni(titoli.filter((t) => /\.(jpe?g|png)$/i.test(t)).slice(0, 160));
+    const pagine = (await fileDellaCategoria(c.cat)).filter((p) => /\.(jpe?g|png)$/i.test(p.title || ''));
     const buoni = [];
     for (const p of pagine) {
       const ii = (p.imageinfo || [])[0]; if (!ii) continue;
