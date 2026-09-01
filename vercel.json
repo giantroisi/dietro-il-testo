@@ -1,26 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/5-seconds-of-summer/everyones-a-star/",
-      "destination": "/artista/5-seconds-of-summer/",
-      "permanent": true
-    },
-    {
-      "source": "/album/a-ha/scoundrel-days/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
-      "source": "/album/a-ha/stay-on-these-roads/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
-      "source": "/album/a-ha/east-of-the-sun-west-of-the-moon/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
       "source": "/album/a-ha/memorial-beach/",
       "destination": "/artista/a-ha/",
       "permanent": true

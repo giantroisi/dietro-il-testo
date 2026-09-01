@@ -60,8 +60,8 @@
     "titolo": "Everyone's a Star!",
     "anno": "2025",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -148,8 +148,8 @@
     "titolo": "Scoundrel Days",
     "anno": "1986",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -159,8 +159,8 @@
     "titolo": "Stay on These Roads",
     "anno": "1988",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -170,8 +170,8 @@
     "titolo": "East of the Sun, West of the Moon",
     "anno": "1990",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

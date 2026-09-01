@@ -910,6 +910,32 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
+    "id": "canzone:ho-messo-via:completezza",
+    "classe": "C1",
+    "tipo": "scheda-incompleta",
+    "soggetto": "ho-messo-via",
+    "raccoglie": 1,
+    "manca": [
+      "fonti (almeno 2)"
+    ],
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:hypa-hypa:completezza",
+    "classe": "C1",
+    "tipo": "scheda-incompleta",
+    "soggetto": "hypa-hypa",
+    "raccoglie": 1,
+    "manca": [
+      "fonti (almeno 2)"
+    ],
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "canzone:the-sound-of-silence:completezza",
     "classe": "C1",
     "tipo": "scheda-incompleta",
@@ -1183,6 +1209,116 @@
     "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina o chi l'abbia realizzata, solo credit generici senza il fotografo"
   },
   {
+    "id": "album:5-seconds-of-summer:5sos5:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/5sos5",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:calm:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/calm",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:sounds-good-feels-good:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/sounds-good-feels-good",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:5-seconds-of-summer:youngblood:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/youngblood",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:grazie-mille:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/grazie-mille",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:la-donna-il-sogno-e-il-grande-incubo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/la-donna-il-sogno-e-il-grande-incubo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:la-dura-legge-del-gol:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/la-dura-legge-del-gol",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:nord-sud-ovest-est:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/nord-sud-ovest-est",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:883:uno-in-piu:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "883/uno-in-piu",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:avicii:stories:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "avicii/stories",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:avicii:tim:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "avicii/tim",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:bring-me-the-horizon:suicide-season:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1191,6 +1327,66 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "trovata una descrizione (una ragazza con le budella fuori) attribuita a un'intervista della band, ma senza riuscire a rintracciare la fonte primaria con URL verificabile — non pubblicata senza poter controllare la citazione alla fonte."
+  },
+  {
+    "id": "album:caparezza:exuvia:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/exuvia",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:habemus-capa:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/habemus-capa",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:il-sogno-eretico:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/il-sogno-eretico",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:museica:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/museica",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:prisoner-709:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/prisoner-709",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:verita-supposte:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/verita-supposte",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
   },
   {
     "id": "album:domenico-modugno:singolo:copertina",
@@ -1323,6 +1519,56 @@
     "motivo": "sospeso: confermato solo che Joe Petagno realizzò l'artwork, nessuna fonte descrive cosa raffigura o il suo significato"
   },
   {
+    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/fake-news",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:fuori-dall-hype:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/fuori-dall-hype",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:gioventu-brucata:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/gioventu-brucata",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:hello-world:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/hello-world",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:il-re-e-nudo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/il-re-e-nudo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:pinguini-tattici-nucleari:sanremo-2020-fuori-dallhype:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1443,100 +1689,10 @@
     "motivo": "sospeso: confermato solo il credit fotografico (Ben Glass) in un riassunto di ricerca non verificato alla fonte diretta; Wikipedia non descrive il soggetto della copertina"
   },
   {
-    "id": "album:5-seconds-of-summer:5sos5:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "5-seconds-of-summer/5sos5",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:5-seconds-of-summer:calm:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "5-seconds-of-summer/calm",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:5-seconds-of-summer:everyones-a-star:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/everyones-a-star",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:5-seconds-of-summer:sounds-good-feels-good:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "5-seconds-of-summer/sounds-good-feels-good",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:5-seconds-of-summer:youngblood:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "5-seconds-of-summer/youngblood",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:grazie-mille:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "883/grazie-mille",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:la-donna-il-sogno-e-il-grande-incubo:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "883/la-donna-il-sogno-e-il-grande-incubo",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:la-dura-legge-del-gol:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "883/la-dura-legge-del-gol",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:nord-sud-ovest-est:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "883/nord-sud-ovest-est",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:uno-in-piu:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "883/uno-in-piu",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2353,26 +2509,6 @@
     "motivo": null
   },
   {
-    "id": "album:avicii:stories:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "avicii/stories",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:avicii:tim:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "avicii/tim",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:black-sabbath:13:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -2797,66 +2933,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "caparezza/",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:exuvia:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/exuvia",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:habemus-capa:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/habemus-capa",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:il-sogno-eretico:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/il-sogno-eretico",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:museica:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/museica",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:prisoner-709:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/prisoner-709",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:verita-supposte:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/verita-supposte",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -9827,56 +9903,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/fake-news",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:fuori-dall-hype:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/fuori-dall-hype",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:gioventu-brucata:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/gioventu-brucata",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:hello-world:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/hello-world",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:il-re-e-nudo:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/il-re-e-nudo",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,

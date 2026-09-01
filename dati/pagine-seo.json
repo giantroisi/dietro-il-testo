@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 215,
+    "nCanzoni": 219,
     "haTestoEditoriale": true
   },
   {
@@ -1112,10 +1112,30 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/not-ok/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/ive-been-losing-you/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/stay-on-these-roads/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/crying-in-the-rain/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -1129,7 +1149,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -1875,6 +1895,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/5-seconds-of-summer/everyones-a-star/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/883/hanno-ucciso-luomo-ragno/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -1922,6 +1949,27 @@
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/a-ha/scoundrel-days/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/stay-on-these-roads/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/east-of-the-sun-west-of-the-moon/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/ac-dc/highway-to-hell/",
@@ -2991,7 +3039,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 99,
+    "nCanzoni": 100,
     "haTestoEditoriale": true
   },
   {
@@ -3005,7 +3053,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 95,
+    "nCanzoni": 99,
     "haTestoEditoriale": true
   },
   {
@@ -3033,14 +3081,14 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 53,
+    "nCanzoni": 54,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 40,
+    "nCanzoni": 42,
     "haTestoEditoriale": true
   },
   {
