@@ -9909,5 +9909,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "under-the-makeup",
+    "titolo": "Under the Makeup",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2015",
+    "album": "Cast in Steel",
+    "albumSlug": "cast-in-steel",
+    "genereTesto": "Synth-pop orchestrale",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#5C2E3E",
+    "colore2": "#2E3E6E",
+    "ascolti": 4584710,
+    "ascoltiTesto": "4,5 mln ascolti",
+    "spotifyId": "6j9PU7fI2T1f0KKrsY6rT6",
+    "corpo": [
+      "Scritta da Pål Waaktaar-Savoy, fu il primo singolo pubblicato dal decimo album in studio, uscito a livello internazionale il 3 luglio 2015. Il testo affronta il tema universale della fine di un amore, con versi che il sito Radio Crème Brûlée ha definito \"belli nella loro semplicità\", costruiti attorno a un'immagine di cuori che si trasformano in pietra, levigati dal vento come massi nel tempo.",
+      "Sul piano musicale il brano si distingue per un arrangiamento orchestrale ampio, con archi che sostituiscono la tradizionale sezione centrale del pezzo dopo il secondo ritornello — una scelta che secondo la stessa recensione lo colloca a metà strada fra il suono dell'album \"Lifelines\" e quello di \"Brother\", l'album solista di Morten Harket. Il videoclip fu girato in Telemark, in Norvegia, con la partecipazione delle attrici Sofie Gråbøl (danese) e Frida Farrell (svedese)."
+    ],
+    "fraseIconica": "Il titolo stesso, \"sotto il trucco\", è il momento più ricordato: l'immagine di voler vedere l'altra persona per come è davvero, oltre le apparenze, in un brano che Radio Crème Brûlée ha descritto come \"intriso di malinconia\".",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/under-the-make-up/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cast_in_Steel",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.radiocremebrulee.com/reviews/a-has-under-the-make-up-brims-with-melancholy/",
+        "nome": "Radio Crème Brûlée",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

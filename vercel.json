@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/a-ha/cast-in-steel/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
       "source": "/album/a-ha/true-north/",
       "destination": "/artista/a-ha/",
       "permanent": true

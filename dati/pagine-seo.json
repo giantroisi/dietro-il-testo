@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 224,
+    "nCanzoni": 225,
     "haTestoEditoriale": true
   },
   {
@@ -1157,6 +1157,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/under-the-makeup/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1174,7 +1179,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 9,
+    "nCanzoni": 10,
     "haTestoEditoriale": true
   },
   {
@@ -2026,6 +2031,13 @@
   },
   {
     "percorso": "album/a-ha/foot-of-the-mountain/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/cast-in-steel/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3099,7 +3111,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 105,
+    "nCanzoni": 106,
     "haTestoEditoriale": true
   },
   {
@@ -3155,7 +3167,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 34,
+    "nCanzoni": 35,
     "haTestoEditoriale": true
   }
 ]
