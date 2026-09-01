@@ -10085,5 +10085,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "let-there-be-rock",
+    "titolo": "Let There Be Rock",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1977",
+    "album": "Let There Be Rock",
+    "albumSlug": "let-there-be-rock",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E2E2E",
+    "colore2": "#8A2E2E",
+    "ascolti": 131807981,
+    "ascoltiTesto": "131 mln ascolti",
+    "spotifyId": "753KutoAy00apPsplMRetG",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1977 agli Albert Studios di Sydney con Harry Vanda e George Young alla produzione, dà il titolo al terzo album della band. Il testo racconta una storia inventata delle origini del rock and roll, partendo da un verso di Chuck Berry in \"Roll Over Beethoven\" (\"tell Tchaikovsky the news\"): il brano immagina che Tchaikovsky abbia davvero ricevuto quel messaggio e lo abbia diffuso al mondo, scatenando la nascita del genere.",
+      "Durante la registrazione l'amplificatore di Angus Young esplose nel bel mezzo del brano. Il produttore George Young decise comunque di tenere la take, spiegando in un'intervista citata da Rolling Stone Australia: \"Non c'era modo che avremmo fermato un'esecuzione fenomenale per un motivo tecnico come degli amplificatori che esplodono!\". Da allora il brano è rimasto un pilastro dei concerti della band, con l'assolo finale di Angus Young spesso allungato oltre i dieci minuti dal vivo."
+    ],
+    "fraseIconica": "Il momento più ricordato è il verso finale del racconto immaginario, in cui la nascita del rock and roll viene proclamata come un evento quasi biblico — un \"che il rock sia\" che dà il titolo al brano e riassume il tono scherzosamente epico di tutto il testo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/651/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Let_There_Be_Rock_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://au.rollingstone.com/music/music-lists/ac-dc-25-essential-songs-14568/let-there-be-rock-1977-14576/",
+        "nome": "Rolling Stone Australia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
