@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/high-voltage/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/dirty-deeds-done-dirt-cheap/",
       "destination": "/artista/ac-dc/",
       "permanent": true

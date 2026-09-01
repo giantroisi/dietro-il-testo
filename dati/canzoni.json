@@ -9997,5 +9997,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "its-a-long-way-to-the-top",
+    "titolo": "It's a Long Way to the Top (If You Wanna Rock 'n' Roll)",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1976",
+    "album": "High Voltage",
+    "albumSlug": "high-voltage",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#B5451D",
+    "colore2": "#2E2E2E",
+    "ascolti": 394375213,
+    "ascoltiTesto": "394 mln ascolti",
+    "spotifyId": "7nemcVsXVFZF01iqpIIo2Y",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1975 agli Albert Studios di Sydney con la produzione di Harry Vanda e George Young (fratello maggiore dei due chitarristi), fu il primo brano dell'album australiano \"T.N.T.\" e in seguito aprì anche \"High Voltage\", l'edizione internazionale del 1976 che raccoglie i due primi dischi australiani della band. Il testo racconta le difficoltà di una band on the road: furti, aggressioni, un agente disonesto.",
+      "Il dettaglio più celebre del brano è la cornamusa: il produttore George Young ricordò che Bon Scott aveva fatto parte di una pipe band, e lo convinse a suonarla nel pezzo. Scott acquistò lo strumento per 479 dollari australiani, ma come ha raccontato lui stesso in un'intervista citata da Guitar Player, in realtà nella banda faceva il batterista: \"I was the drummer!\" Imparò comunque a suonarla abbastanza bene da registrarla, mentre dal vivo la band fu costretta ad accordare le chitarre in modo insolito per seguire l'intonazione della cornamusa: il brano fu eseguito così solo una trentina di volte, prima che i fan distruggessero lo strumento durante un concerto."
+    ],
+    "fraseIconica": "Il momento più ricordato è l'assolo di cornamuse verso la fine del brano, suonato da un Bon Scott che non l'aveva mai davvero imparata: un dettaglio che è diventato parte dell'identità stessa della canzone.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/637/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/It%27s_a_Long_Way_to_the_Top_(If_You_Wanna_Rock_%27n%27_Roll)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.guitarplayer.com/music/i-was-the-drummer-bon-scott-had-never-played-bagpipes-before-ac-dc-used-them-on-its-a-long-way-to-the-top-if-you-wanna-rock-n-roll-so-he-had-to-learn-them-fast",
+        "nome": "Guitar Player",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

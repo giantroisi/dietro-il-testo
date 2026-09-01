@@ -910,19 +910,6 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
-    "id": "canzone:ho-messo-via:completezza",
-    "classe": "C1",
-    "tipo": "scheda-incompleta",
-    "soggetto": "ho-messo-via",
-    "raccoglie": 1,
-    "manca": [
-      "fonti (almeno 2)"
-    ],
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:hypa-hypa:completezza",
     "classe": "C1",
     "tipo": "scheda-incompleta",
@@ -1229,6 +1216,16 @@
     "motivo": null
   },
   {
+    "id": "album:5-seconds-of-summer:everyones-a-star:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "5-seconds-of-summer/everyones-a-star",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:5-seconds-of-summer:sounds-good-feels-good:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1293,6 +1290,106 @@
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "883/uno-in-piu",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:analogue:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/analogue",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:cast-in-steel:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/cast-in-steel",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:east-of-the-sun-west-of-the-moon:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/east-of-the-sun-west-of-the-moon",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:foot-of-the-mountain:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/foot-of-the-mountain",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:lifelines:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/lifelines",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:memorial-beach:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/memorial-beach",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:minor-earth-major-sky:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/minor-earth-major-sky",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:scoundrel-days:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/scoundrel-days",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:stay-on-these-roads:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/stay-on-these-roads",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:a-ha:true-north:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "a-ha/true-north",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1687,116 +1784,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "sospeso: confermato solo il credit fotografico (Ben Glass) in un riassunto di ricerca non verificato alla fonte diretta; Wikipedia non descrive il soggetto della copertina"
-  },
-  {
-    "id": "album:5-seconds-of-summer:everyones-a-star:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "5-seconds-of-summer/everyones-a-star",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:analogue:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/analogue",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:cast-in-steel:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/cast-in-steel",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:east-of-the-sun-west-of-the-moon:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/east-of-the-sun-west-of-the-moon",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:foot-of-the-mountain:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/foot-of-the-mountain",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:lifelines:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/lifelines",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:memorial-beach:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/memorial-beach",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:minor-earth-major-sky:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/minor-earth-major-sky",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:scoundrel-days:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/scoundrel-days",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:stay-on-these-roads:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/stay-on-these-roads",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:a-ha:true-north:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "a-ha/true-north",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
   },
   {
     "id": "album:ac-dc:back-in-black:copertina",

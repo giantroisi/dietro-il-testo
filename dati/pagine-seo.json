@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 226,
+    "nCanzoni": 227,
     "haTestoEditoriale": true
   },
   {
@@ -1167,6 +1167,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/its-a-long-way-to-the-top/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1191,7 +1196,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2050,6 +2055,13 @@
   },
   {
     "percorso": "album/a-ha/true-north/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/high-voltage/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3123,7 +3135,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 107,
+    "nCanzoni": 108,
     "haTestoEditoriale": true
   },
   {
@@ -3151,7 +3163,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 27,
+    "nCanzoni": 28,
     "haTestoEditoriale": true
   },
   {
