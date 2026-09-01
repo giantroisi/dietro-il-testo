@@ -416,16 +416,6 @@
       "permanent": true
     },
     {
-      "source": "/album/avicii/stories/",
-      "destination": "/artista/avicii/",
-      "permanent": true
-    },
-    {
-      "source": "/album/avicii/tim/",
-      "destination": "/artista/avicii/",
-      "permanent": true
-    },
-    {
       "source": "/album/black-sabbath/black-sabbath/",
       "destination": "/artista/black-sabbath/",
       "permanent": true
@@ -637,26 +627,6 @@
     },
     {
       "source": "/album/caparezza//",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/caparezza/verita-supposte/",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/caparezza/habemus-capa/",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/caparezza/il-sogno-eretico/",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/caparezza/museica/",
       "destination": "/artista/caparezza/",
       "permanent": true
     },
@@ -4157,26 +4127,6 @@
     },
     {
       "source": "/album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/gioventu-brucata/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/fuori-dall-hype/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/fake-news/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/hello-world/",
       "destination": "/artista/pinguini-tattici-nucleari/",
       "permanent": true
     },

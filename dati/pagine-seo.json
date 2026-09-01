@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 201,
+    "nCanzoni": 211,
     "haTestoEditoriale": true
   },
   {
@@ -1042,6 +1042,56 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/irene/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/fuori-dall-hype/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/giovani-wannabe/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/islanda/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/fuori-dal-tunnel/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/la-mia-parte-intollerante/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/goodbye-malinconia/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/non-me-lo-posso-permettere/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/waiting-for-love/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sos-avicii/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1108,7 +1158,7 @@
     "percorso": "artista/avicii/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -1143,7 +1193,7 @@
     "percorso": "artista/caparezza/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -1542,7 +1592,7 @@
     "percorso": "artista/pinguini-tattici-nucleari/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -1896,6 +1946,20 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/avicii/stories/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/avicii/tim/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/black-sabbath/paranoid/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1966,11 +2030,39 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/caparezza/verita-supposte/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/caparezza/habemus-capa/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/caparezza/le-dimensioni-del-mio-caos/",
     "categoria": "indice",
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/caparezza/il-sogno-eretico/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/caparezza/museica/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/cesare-cremonini/maggese/",
@@ -2533,7 +2625,35 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/pinguini-tattici-nucleari/gioventu-brucata/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pinguini-tattici-nucleari/fuori-dall-hype/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pinguini-tattici-nucleari/fake-news/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pinguini-tattici-nucleari/hello-world/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -2823,7 +2943,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 95,
+    "nCanzoni": 98,
     "haTestoEditoriale": true
   },
   {
@@ -2837,7 +2957,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 83,
+    "nCanzoni": 92,
     "haTestoEditoriale": true
   },
   {
@@ -2858,7 +2978,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 37,
+    "nCanzoni": 39,
     "haTestoEditoriale": true
   },
   {
@@ -2879,7 +2999,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 26,
+    "nCanzoni": 32,
     "haTestoEditoriale": true
   }
 ]
