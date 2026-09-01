@@ -6,11 +6,6 @@
       "permanent": true
     },
     {
-      "source": "/album/883/uno-in-piu/",
-      "destination": "/artista/883/",
-      "permanent": true
-    },
-    {
       "source": "/album/a-ha/scoundrel-days/",
       "destination": "/artista/a-ha/",
       "permanent": true
@@ -4108,11 +4103,6 @@
     {
       "source": "/album/pearl-jam/dark-matter/",
       "destination": "/artista/pearl-jam/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/il-re-e-nudo/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
       "permanent": true
     },
     {

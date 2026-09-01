@@ -79,7 +79,7 @@ for (const c of canzoni) {
 }
 
 // 5. ruolo di una fonte fuori dai valori ammessi (F17)
-const RUOLI_AMMESSI = ['storia', 'ascolti', 'crediti', 'curiosità'];
+const RUOLI_AMMESSI = ['storia', 'ascolti', 'crediti', 'curiosità', 'album'];
 for (const c of canzoni) {
   for (const f of c.fonti || []) {
     if (f.ruolo && !RUOLI_AMMESSI.includes(f.ruolo)) {

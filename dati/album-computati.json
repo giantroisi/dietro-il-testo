@@ -126,8 +126,8 @@
     "titolo": "Uno in più",
     "anno": "2001",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -10334,8 +10334,8 @@
     "titolo": "Il re è nudo",
     "anno": "2014",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

@@ -1,5 +1,5 @@
 {
-  "quando": "2026-09-01T07:10:11.875Z",
+  "quando": "2026-09-01T07:31:43.174Z",
   "risultati": [
     {
       "url": "https://en.wikipedia.org/wiki/In_the_End",
@@ -38,18 +38,6 @@
       "finale": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit"
     },
     {
-      "url": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/",
-      "nome": "uDiscoverMusic",
-      "ruolo": "",
-      "schede": [
-        "bohemian-rhapsody"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Billie_Jean",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -60,6 +48,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Billie_Jean"
+    },
+    {
+      "url": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/",
+      "nome": "uDiscoverMusic",
+      "ruolo": "",
+      "schede": [
+        "bohemian-rhapsody"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
@@ -98,16 +98,16 @@
       "finale": "https://en.wikipedia.org/wiki/Creep_(Radiohead_song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/nirvana/smells-like-teen-spirit",
+      "url": "https://www.songfacts.com/facts/michael-jackson/billie-jean",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "teen-spirit"
+        "billie-jean"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/nirvana/smells-like-teen-spirit"
+      "finale": "https://www.songfacts.com/facts/michael-jackson/billie-jean"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Someone_like_You_(Adele_song)",
@@ -122,28 +122,28 @@
       "finale": "https://en.wikipedia.org/wiki/Someone_like_You_(Adele_song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/michael-jackson/billie-jean",
+      "url": "https://www.songfacts.com/facts/radiohead/creep",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "billie-jean"
+        "creep"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/michael-jackson/billie-jean"
+      "finale": "https://www.songfacts.com/facts/radiohead/creep"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Highway_to_Hell_(song)",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/nirvana/smells-like-teen-spirit",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "highway-to-hell"
+        "teen-spirit"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Highway_to_Hell_(song)"
+      "finale": "https://www.songfacts.com/facts/nirvana/smells-like-teen-spirit"
     },
     {
       "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
@@ -158,20 +158,8 @@
       "finale": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine"
     },
     {
-      "url": "https://www.songfacts.com/facts/radiohead/creep",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "creep"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/radiohead/creep"
-    },
-    {
-      "url": "https://americansongwriter.com/behind-the-meaning-of-highway-to-hell-by-ac-dc/",
-      "nome": "American Songwriter",
+      "url": "https://en.wikipedia.org/wiki/Highway_to_Hell_(song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
         "highway-to-hell"
@@ -179,55 +167,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-meaning-of-highway-to-hell-by-ac-dc/"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Hotel_California",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "hotel-california"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Hotel_California"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Enter_Sandman",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "enter-sandman"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Enter_Sandman"
-    },
-    {
-      "url": "https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "enter-sandman"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Chop_Suey!",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "chop-suey"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Chop_Suey!"
+      "finale": "https://en.wikipedia.org/wiki/Highway_to_Hell_(song)"
     },
     {
       "url": "https://www.songfacts.com/facts/adele/someone-like-you",
@@ -242,6 +182,54 @@
       "finale": "https://www.songfacts.com/facts/adele/someone-like-you"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Enter_Sandman",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "enter-sandman"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Enter_Sandman"
+    },
+    {
+      "url": "https://americansongwriter.com/behind-the-meaning-of-highway-to-hell-by-ac-dc/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "highway-to-hell"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-meaning-of-highway-to-hell-by-ac-dc/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chop_Suey!",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "chop-suey"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Chop_Suey!"
+    },
+    {
+      "url": "https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "enter-sandman"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -252,6 +240,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Paranoid_(Black_Sabbath_song)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hotel_California",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "hotel-california"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Hotel_California"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Nothing_Else_Matters",
@@ -266,28 +266,16 @@
       "finale": "https://en.wikipedia.org/wiki/Nothing_Else_Matters"
     },
     {
-      "url": "https://www.songfacts.com/facts/eagles/hotel-california",
+      "url": "https://www.songfacts.com/facts/system-of-a-down/chop-suey",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "hotel-california"
+        "chop-suey"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/eagles/hotel-california"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "stairway-to-heaven"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Stairway_to_Heaven"
+      "finale": "https://www.songfacts.com/facts/system-of-a-down/chop-suey"
     },
     {
       "url": "https://americansongwriter.com/behind-metallicas-vulnerable-hit-nothing-else-matters/",
@@ -302,52 +290,28 @@
       "finale": "https://americansongwriter.com/behind-metallicas-vulnerable-hit-nothing-else-matters/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Killing_in_the_Name",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "killing-in-the-name"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Killing_in_the_Name"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/system-of-a-down/chop-suey",
+      "url": "https://www.songfacts.com/facts/black-sabbath/paranoid",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "chop-suey"
+        "paranoid"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/system-of-a-down/chop-suey"
+      "finale": "https://www.songfacts.com/facts/black-sabbath/paranoid"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Wonderwall",
+      "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
       "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "wonderwall"
+        "stairway-to-heaven"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Wonderwall"
-    },
-    {
-      "url": "https://americansongwriter.com/behind-the-meaning-of-rage-against-the-machines-1992-hit-killing-in-the-name/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "killing-in-the-name"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-meaning-of-rage-against-the-machines-1992-hit-killing-in-the-name/"
+      "finale": "https://en.wikipedia.org/wiki/Stairway_to_Heaven"
     },
     {
       "url": "https://americansongwriter.com/stairway-to-heaven-led-zeppelin-behind-the-song/",
@@ -362,16 +326,52 @@
       "finale": "https://americansongwriter.com/stairway-to-heaven-led-zeppelin-behind-the-song/"
     },
     {
-      "url": "https://www.songfacts.com/facts/black-sabbath/paranoid",
+      "url": "https://www.songfacts.com/facts/eagles/hotel-california",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "paranoid"
+        "hotel-california"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/black-sabbath/paranoid"
+      "finale": "https://www.songfacts.com/facts/eagles/hotel-california"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Killing_in_the_Name",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "killing-in-the-name"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Killing_in_the_Name"
+    },
+    {
+      "url": "https://americansongwriter.com/behind-the-meaning-of-rage-against-the-machines-1992-hit-killing-in-the-name/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "killing-in-the-name"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-meaning-of-rage-against-the-machines-1992-hit-killing-in-the-name/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wonderwall",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "wonderwall"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Wonderwall"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Lose_Yourself",
@@ -386,18 +386,6 @@
       "finale": "https://en.wikipedia.org/wiki/Lose_Yourself"
     },
     {
-      "url": "https://americansongwriter.com/behind-the-song-eminem-lose-yourself/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "lose-yourself"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-song-eminem-lose-yourself/"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -408,30 +396,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Thriller_(song)"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Du_hast",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "du-hast"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Du_hast"
-    },
-    {
-      "url": "https://americansongwriter.com/the-double-entendre-meaning-of-du-hast-by-rammstein/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "du-hast"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/the-double-entendre-meaning-of-du-hast-by-rammstein/"
     },
     {
       "url": "https://www.songfacts.com/facts/oasis/wonderwall",
@@ -446,6 +410,30 @@
       "finale": "https://www.songfacts.com/facts/oasis/wonderwall"
     },
     {
+      "url": "https://americansongwriter.com/behind-the-song-eminem-lose-yourself/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "lose-yourself"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-song-eminem-lose-yourself/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Du_hast",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "du-hast"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Du_hast"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Freak_on_a_Leash",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -458,16 +446,16 @@
       "finale": "https://en.wikipedia.org/wiki/Freak_on_a_Leash"
     },
     {
-      "url": "https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/",
-      "nome": "Song Meanings and Facts",
+      "url": "https://americansongwriter.com/the-double-entendre-meaning-of-du-hast-by-rammstein/",
+      "nome": "American Songwriter",
       "ruolo": "",
       "schede": [
-        "thriller"
+        "du-hast"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/"
+      "finale": "https://americansongwriter.com/the-double-entendre-meaning-of-du-hast-by-rammstein/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Imagine_(song)",
@@ -482,6 +470,18 @@
       "finale": "https://en.wikipedia.org/wiki/Imagine_(song)"
     },
     {
+      "url": "https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/",
+      "nome": "Song Meanings and Facts",
+      "ruolo": "",
+      "schede": [
+        "thriller"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songmeaningsandfacts.com/thriller-by-michael-jackson/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Hey_Jude",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -492,6 +492,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Hey_Jude"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/the-beatles/hey-jude",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "hey-jude"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/the-beatles/hey-jude"
     },
     {
       "url": "https://www.songfacts.com/facts/korn/freak-on-a-leash",
@@ -530,16 +542,16 @@
       "finale": "https://en.wikipedia.org/wiki/Run_to_the_Hills"
     },
     {
-      "url": "https://www.songfacts.com/facts/the-beatles/hey-jude",
+      "url": "https://www.songfacts.com/facts/john-lennon/imagine",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "hey-jude"
+        "imagine"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/the-beatles/hey-jude"
+      "finale": "https://www.songfacts.com/facts/john-lennon/imagine"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Breaking_the_Law",
@@ -566,18 +578,6 @@
       "finale": "https://americansongwriter.com/the-anti-colonialist-message-in-the-meaning-behind-iron-maidens-run-to-the-hills/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Raining_Blood",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "raining-blood"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Raining_Blood"
-    },
-    {
       "url": "https://songtell.com/pantera/walk",
       "nome": "Songtell",
       "ruolo": "",
@@ -590,16 +590,16 @@
       "finale": "https://songtell.com/pantera/walk"
     },
     {
-      "url": "https://www.songfacts.com/facts/judas-priest/breaking-the-law",
-      "nome": "Songfacts",
+      "url": "https://en.wikipedia.org/wiki/Raining_Blood",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "breaking-the-law"
+        "raining-blood"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/judas-priest/breaking-the-law"
+      "finale": "https://en.wikipedia.org/wiki/Raining_Blood"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)",
@@ -614,6 +614,18 @@
       "finale": "https://en.wikipedia.org/wiki/Darkside_(Bring_Me_the_Horizon_song)"
     },
     {
+      "url": "https://www.songfacts.com/facts/judas-priest/breaking-the-law",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "breaking-the-law"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/judas-priest/breaking-the-law"
+    },
+    {
       "url": "https://www.songfacts.com/facts/slayer/raining-blood",
       "nome": "Songfacts",
       "ruolo": "",
@@ -624,30 +636,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.songfacts.com/facts/slayer/raining-blood"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/darkside",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "darkside"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/darkside"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/john-lennon/imagine",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "imagine"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/john-lennon/imagine"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Albachiara",
@@ -662,18 +650,6 @@
       "finale": "https://en.wikipedia.org/wiki/Albachiara"
     },
     {
-      "url": "https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno",
-      "nome": "Soundsblog",
-      "ruolo": "",
-      "schede": [
-        "solitudine"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno"
-    },
-    {
       "url": "https://www.ilrestodelcarlino.it/ravenna/cultura/chi-e-marco-laura-pausini-significato-la-solitudine-af1f3qej",
       "nome": "Il Resto del Carlino",
       "ruolo": "",
@@ -686,6 +662,18 @@
       "finale": "https://www.ilrestodelcarlino.it/ravenna/cultura/chi-e-marco-laura-pausini-significato-la-solitudine-af1f3qej"
     },
     {
+      "url": "https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno",
+      "nome": "Soundsblog",
+      "ruolo": "",
+      "schede": [
+        "solitudine"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.soundsblog.it/post/la-solitudine-laura-pausini-testo-video-significato-canzone-sanremo-1993-anno"
+    },
+    {
       "url": "https://www.noidegli8090.com/albachiara-compie-41-anni-storia-e-significato-del-brano-di-vasco-rossi/",
       "nome": "Noi degli 80-90",
       "ruolo": "",
@@ -696,6 +684,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.noidegli8090.com/albachiara-compie-41-anni-storia-e-significato-del-brano-di-vasco-rossi/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/darkside",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "darkside"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/darkside"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Nel_blu,_dipinto_di_blu",
@@ -722,30 +722,6 @@
       "finale": "https://it.wikipedia.org/wiki/Certe_notti"
     },
     {
-      "url": "https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html",
-      "nome": "Sololibri",
-      "ruolo": "",
-      "schede": [
-        "cielo-blu"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html"
-    },
-    {
-      "url": "https://music.fanpage.it/il-significato-di-nel-blu-dipinto-di-blu-di-domenico-modugno-tra-volo-onirico-e-realta/",
-      "nome": "Fanpage",
-      "ruolo": "",
-      "schede": [
-        "volare"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://music.fanpage.it/il-significato-di-nel-blu-dipinto-di-blu-di-domenico-modugno-tra-volo-onirico-e-realta/"
-    },
-    {
       "url": "https://www.ilgiunco.net/2021/08/25/unacanzonealgiorno-26-anni-fa-usciva-certe-notti-di-ligabue/",
       "nome": "Il Giunco",
       "ruolo": "",
@@ -756,6 +732,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.ilgiunco.net/2021/08/25/unacanzonealgiorno-26-anni-fa-usciva-certe-notti-di-ligabue/"
+    },
+    {
+      "url": "https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html",
+      "nome": "Sololibri",
+      "ruolo": "",
+      "schede": [
+        "cielo-blu"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Azzurro",
@@ -770,6 +758,18 @@
       "finale": "https://en.wikipedia.org/wiki/Azzurro"
     },
     {
+      "url": "https://music.fanpage.it/il-significato-di-nel-blu-dipinto-di-blu-di-domenico-modugno-tra-volo-onirico-e-realta/",
+      "nome": "Fanpage",
+      "ruolo": "",
+      "schede": [
+        "volare"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://music.fanpage.it/il-significato-di-nel-blu-dipinto-di-blu-di-domenico-modugno-tra-volo-onirico-e-realta/"
+    },
+    {
       "url": "https://libreriamo.it/intrattenimento/ma-il-cielo-e-sempre-piu-blu-un-inno-alla-vita-e-alla-rinascita-che-ci-attende/",
       "nome": "Libreriamo",
       "ruolo": "",
@@ -780,18 +780,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://libreriamo.it/intrattenimento/ma-il-cielo-e-sempre-piu-blu-un-inno-alla-vita-e-alla-rinascita-che-ci-attende/"
-    },
-    {
-      "url": "https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/",
-      "nome": "Fanpage",
-      "ruolo": "",
-      "schede": [
-        "canto-libero"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Il_mio_canto_libero_(brano_musicale)",
@@ -806,16 +794,16 @@
       "finale": "https://it.wikipedia.org/wiki/Il_mio_canto_libero_(brano_musicale)"
     },
     {
-      "url": "https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/",
+      "url": "https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/",
       "nome": "Fanpage",
       "ruolo": "",
       "schede": [
-        "la-cura"
+        "canto-libero"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/"
+      "finale": "https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Caruso_(brano_musicale)",
@@ -830,6 +818,18 @@
       "finale": "https://it.wikipedia.org/wiki/Caruso_(brano_musicale)"
     },
     {
+      "url": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
+      "nome": "Rockol",
+      "ruolo": "",
+      "schede": [
+        "azzurro"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Bello_e_impossibile",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -840,6 +840,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Bello_e_impossibile"
+    },
+    {
+      "url": "https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/",
+      "nome": "Fanpage",
+      "ruolo": "",
+      "schede": [
+        "la-cura"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/"
     },
     {
       "url": "https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)",
@@ -854,16 +866,16 @@
       "finale": "https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)"
     },
     {
-      "url": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
-      "nome": "Rockol",
+      "url": "https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html",
+      "nome": "Sololibri",
       "ruolo": "",
       "schede": [
-        "azzurro"
+        "marinella"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro"
+      "finale": "https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html"
     },
     {
       "url": "https://it.wikipedia.org/wiki/La_canzone_di_Marinella",
@@ -878,18 +890,6 @@
       "finale": "https://it.wikipedia.org/wiki/La_canzone_di_Marinella"
     },
     {
-      "url": "https://www.soundsblog.it/post/bello-e-impossibile-gianna-nannini-testo-significato-anno-autore",
-      "nome": "Soundsblog",
-      "ruolo": "",
-      "schede": [
-        "bello-impossibile"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.soundsblog.it/post/bello-e-impossibile-gianna-nannini-testo-significato-anno-autore"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -902,28 +902,16 @@
       "finale": "https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)"
     },
     {
-      "url": "https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html",
-      "nome": "Sololibri",
+      "url": "https://www.soundsblog.it/post/bello-e-impossibile-gianna-nannini-testo-significato-anno-autore",
+      "nome": "Soundsblog",
       "ruolo": "",
       "schede": [
-        "marinella"
+        "bello-impossibile"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html"
-    },
-    {
-      "url": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
-      "nome": "Fanpage",
-      "ruolo": "",
-      "schede": [
-        "caruso"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/"
+      "finale": "https://www.soundsblog.it/post/bello-e-impossibile-gianna-nannini-testo-significato-anno-autore"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Africa_(song)",
@@ -950,6 +938,30 @@
       "finale": "https://en.wikipedia.org/wiki/Bring_Me_to_Life"
     },
     {
+      "url": "https://www.songfacts.com/facts/linkin-park/numb",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "numb"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/linkin-park/numb"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sweet_Home_Alabama",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "sweet-home-alabama"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Sweet_Home_Alabama"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Basket_Case_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -972,18 +984,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Master_of_Puppets_(song)"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/linkin-park/numb",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "numb"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/linkin-park/numb"
     },
     {
       "url": "https://en.wikipedia.org/wiki/L%27Italiano",
@@ -1022,18 +1022,6 @@
       "finale": "https://music.fanpage.it/il-significato-di-sally-canzone-di-vasco-rossi-diventata-un-classico/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Sweet_Home_Alabama",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "sweet-home-alabama"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Sweet_Home_Alabama"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Generale_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1058,16 +1046,28 @@
       "finale": "https://it.wikipedia.org/wiki/Il_cielo_in_una_stanza_(brano_musicale)"
     },
     {
-      "url": "https://www.rockol.it/news-695993/storia-di-il-cielo-in-una-stanza-di-gino-paoli",
-      "nome": "Rockol",
+      "url": "https://www.soundsblog.it/post/generale-francesco-de-gregori-testo-significato-canzone",
+      "nome": "Soundsblog",
       "ruolo": "",
       "schede": [
-        "cielo-stanza"
+        "generale"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.rockol.it/news-695993/storia-di-il-cielo-in-una-stanza-di-gino-paoli"
+      "finale": "https://www.soundsblog.it/post/generale-francesco-de-gregori-testo-significato-canzone"
+    },
+    {
+      "url": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
+      "nome": "Fanpage",
+      "ruolo": "",
+      "schede": [
+        "caruso"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)",
@@ -1082,16 +1082,28 @@
       "finale": "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)"
     },
     {
-      "url": "https://www.soundsblog.it/post/generale-francesco-de-gregori-testo-significato-canzone",
-      "nome": "Soundsblog",
+      "url": "https://www.eurofestivalnews.com/2023/08/22/addio-toto-cutugno-eurovision-1990-sanremo-litaliano/",
+      "nome": "Eurofestival News",
       "ruolo": "",
       "schede": [
-        "generale"
+        "litaliano"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.soundsblog.it/post/generale-francesco-de-gregori-testo-significato-canzone"
+      "finale": "https://www.eurofestivalnews.com/2023/08/22/addio-toto-cutugno-eurovision-1990-sanremo-litaliano/"
+    },
+    {
+      "url": "https://www.rockol.it/news-695993/storia-di-il-cielo-in-una-stanza-di-gino-paoli",
+      "nome": "Rockol",
+      "ruolo": "",
+      "schede": [
+        "cielo-stanza"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.rockol.it/news-695993/storia-di-il-cielo-in-una-stanza-di-gino-paoli"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
@@ -1106,18 +1118,6 @@
       "finale": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer"
     },
     {
-      "url": "https://www.eurofestivalnews.com/2023/08/22/addio-toto-cutugno-eurovision-1990-sanremo-litaliano/",
-      "nome": "Eurofestival News",
-      "ruolo": "",
-      "schede": [
-        "litaliano"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.eurofestivalnews.com/2023/08/22/addio-toto-cutugno-eurovision-1990-sanremo-litaliano/"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Smoke_on_the_Water",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1128,18 +1128,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Smoke_on_the_Water"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/the-cranberries/zombie",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "zombie-cranberries"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/the-cranberries/zombie"
     },
     {
       "url": "https://www.songfacts.com/facts/bon-jovi/livin-on-a-prayer",
@@ -1178,6 +1166,30 @@
       "finale": "https://en.wikipedia.org/wiki/Seven_Nation_Army"
     },
     {
+      "url": "https://www.songfacts.com/facts/the-cranberries/zombie",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "zombie-cranberries"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/the-cranberries/zombie"
+    },
+    {
+      "url": "https://www.virginradio.it/smoke-on-the-water-la-vera-storia-del-leggendario-inno-dei-deep-purple/",
+      "nome": "Virgin Radio",
+      "ruolo": "",
+      "schede": [
+        "smoke-on-the-water"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.virginradio.it/smoke-on-the-water-la-vera-storia-del-leggendario-inno-dei-deep-purple/"
+    },
+    {
       "url": "https://www.songfacts.com/facts/ozzy-osbourne/crazy-train",
       "nome": "Songfacts",
       "ruolo": "",
@@ -1188,18 +1200,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.songfacts.com/facts/ozzy-osbourne/crazy-train"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/the-white-stripes/seven-nation-army",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "seven-nation-army"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/the-white-stripes/seven-nation-army"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Questo_piccolo_grande_amore_(brano_musicale)",
@@ -1226,18 +1226,6 @@
       "finale": "https://it.wikipedia.org/wiki/Felicit%C3%A0/Arrivederci_a_Bahia"
     },
     {
-      "url": "https://www.virginradio.it/smoke-on-the-water-la-vera-storia-del-leggendario-inno-dei-deep-purple/",
-      "nome": "Virgin Radio",
-      "ruolo": "",
-      "schede": [
-        "smoke-on-the-water"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.virginradio.it/smoke-on-the-water-la-vera-storia-del-leggendario-inno-dei-deep-purple/"
-    },
-    {
       "url": "https://music.fanpage.it/il-significato-di-felicita-di-al-bano-e-romina-la-hit-che-compie-35-anni/",
       "nome": "Fanpage",
       "ruolo": "",
@@ -1248,6 +1236,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://music.fanpage.it/il-significato-di-felicita-di-al-bano-e-romina-la-hit-che-compie-35-anni/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/the-white-stripes/seven-nation-army",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "seven-nation-army"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/the-white-stripes/seven-nation-army"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Black_Hole_Sun",
@@ -1274,6 +1274,18 @@
       "finale": "https://www.soundsblog.it/post/4-marzo-1943-lucio-dalla-testo-significato-canzone-sanremo"
     },
     {
+      "url": "https://americansongwriter.com/behind-the-meaning-of-black-hole-sun-soundgarden/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "black-hole-sun"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-meaning-of-black-hole-sun-soundgarden/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Iron_Man_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1298,16 +1310,16 @@
       "finale": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Cz_Baglioni40.html"
     },
     {
-      "url": "https://americansongwriter.com/behind-the-meaning-of-black-hole-sun-soundgarden/",
-      "nome": "American Songwriter",
+      "url": "https://en.wikipedia.org/wiki/Should_I_Stay_or_Should_I_Go",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "black-hole-sun"
+        "should-i-stay"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-meaning-of-black-hole-sun-soundgarden/"
+      "finale": "https://en.wikipedia.org/wiki/Should_I_Stay_or_Should_I_Go"
     },
     {
       "url": "https://www.tag24.it/521864-lucio-dalla-4-marzo-1943-significato-censure",
@@ -1322,16 +1334,16 @@
       "finale": "https://www.tag24.it/521864-lucio-dalla-4-marzo-1943-significato-censure"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Should_I_Stay_or_Should_I_Go",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "should-i-stay"
+        "iron-man"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Should_I_Stay_or_Should_I_Go"
+      "finale": "https://www.songfacts.com/facts/black-sabbath/iron-man"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Rimmel_(album)",
@@ -1344,18 +1356,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Rimmel_(album)"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "iron-man"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/black-sabbath/iron-man"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Vivo_per_lei",
@@ -1382,18 +1382,6 @@
       "finale": "https://it.wikipedia.org/wiki/Vivo_per_lei"
     },
     {
-      "url": "https://www.rockol.it/news-696003/francesco-de-gregori-la-storia-di-rimmel",
-      "nome": "Rockol",
-      "ruolo": "",
-      "schede": [
-        "rimmel"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.rockol.it/news-696003/francesco-de-gregori-la-storia-di-rimmel"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Purple_Rain_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1404,6 +1392,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Purple_Rain_(song)"
+    },
+    {
+      "url": "https://www.rockol.it/news-696003/francesco-de-gregori-la-storia-di-rimmel",
+      "nome": "Rockol",
+      "ruolo": "",
+      "schede": [
+        "rimmel"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.rockol.it/news-696003/francesco-de-gregori-la-storia-di-rimmel"
     },
     {
       "url": "https://www.songfacts.com/facts/the-clash/should-i-stay-or-should-i-go",
@@ -1430,16 +1430,16 @@
       "finale": "https://americansongwriter.com/behind-the-meaning-of-purple-rain-by-prince/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_song)",
-      "nome": "Wikipedia",
+      "url": "https://www.donnaglamour.it/vivo-per-lei-andrea-bocelli-significato/lifestyle/",
+      "nome": "Donna Glamour",
       "ruolo": "",
       "schede": [
-        "wish-you-were-here"
+        "vivo-per-lei"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_song)"
+      "finale": "https://www.donnaglamour.it/vivo-per-lei-andrea-bocelli-significato/lifestyle/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)",
@@ -1452,18 +1452,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)"
-    },
-    {
-      "url": "https://www.donnaglamour.it/vivo-per-lei-andrea-bocelli-significato/lifestyle/",
-      "nome": "Donna Glamour",
-      "ruolo": "",
-      "schede": [
-        "vivo-per-lei"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.donnaglamour.it/vivo-per-lei-andrea-bocelli-significato/lifestyle/"
     },
     {
       "url": "https://faroutmagazine.co.uk/wish-you-were-here-pink-floyd-seminal-ode-to-the-tragic-life-of-syd-barrett/",
@@ -1490,18 +1478,6 @@
       "finale": "https://americansongwriter.com/hurt-by-nine-inch-nails-johnny-cash-behind-song-meaning/"
     },
     {
-      "url": "https://www.songfacts.com/facts/nine-inch-nails/hurt",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "hurt"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/nine-inch-nails/hurt"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Take_On_Me",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1514,16 +1490,16 @@
       "finale": "https://en.wikipedia.org/wiki/Take_On_Me"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/nine-inch-nails/hurt",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "dreams"
+        "hurt"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)"
+      "finale": "https://www.songfacts.com/facts/nine-inch-nails/hurt"
     },
     {
       "url": "https://www.nme.com/news/music/stevie-nicks-15-1279343",
@@ -1538,8 +1514,20 @@
       "finale": "https://www.nme.com/news/music/stevie-nicks-15-1279343"
     },
     {
-      "url": "https://faroutmagazine.co.uk/fleetwood-mac-stevie-nicks-dreams-story-behind-the-song/",
-      "nome": "Far Out Magazine",
+      "url": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "wish-you-were-here"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_song)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
         "dreams"
@@ -1547,55 +1535,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://faroutmagazine.co.uk/fleetwood-mac-stevie-nicks-dreams-story-behind-the-song/"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/fleetwood-mac/dreams",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "dreams"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/fleetwood-mac/dreams"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "heroes"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)"
-    },
-    {
-      "url": "https://www.washingtonpost.com/entertainment/interactive/2025/take-on-me-song-aha-40-years/",
-      "nome": "Washington Post",
-      "ruolo": "",
-      "schede": [
-        "take-on-me"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.washingtonpost.com/entertainment/interactive/2025/take-on-me-song-aha-40-years/"
-    },
-    {
-      "url": "https://it.wikipedia.org/wiki/Senza_una_donna_(Zucchero_Fornaciari)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "senza-una-donna"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Senza_una_donna_(Zucchero_Fornaciari)"
+      "finale": "https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)"
     },
     {
       "url": "https://www.songfacts.com/facts/a-ha/take-on-me",
@@ -1610,28 +1550,64 @@
       "finale": "https://www.songfacts.com/facts/a-ha/take-on-me"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Under_the_Bridge",
+      "url": "https://faroutmagazine.co.uk/fleetwood-mac-stevie-nicks-dreams-story-behind-the-song/",
+      "nome": "Far Out Magazine",
+      "ruolo": "",
+      "schede": [
+        "dreams"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://faroutmagazine.co.uk/fleetwood-mac-stevie-nicks-dreams-story-behind-the-song/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
       "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "under-the-bridge"
+        "heroes"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Under_the_Bridge"
+      "finale": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/red-hot-chili-peppers/under-the-bridge",
+      "url": "https://www.songfacts.com/facts/fleetwood-mac/dreams",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "under-the-bridge"
+        "dreams"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/red-hot-chili-peppers/under-the-bridge"
+      "finale": "https://www.songfacts.com/facts/fleetwood-mac/dreams"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Senza_una_donna_(Zucchero_Fornaciari)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "senza-una-donna"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/Senza_una_donna_(Zucchero_Fornaciari)"
+    },
+    {
+      "url": "https://www.washingtonpost.com/entertainment/interactive/2025/take-on-me-song-aha-40-years/",
+      "nome": "Washington Post",
+      "ruolo": "",
+      "schede": [
+        "take-on-me"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.washingtonpost.com/entertainment/interactive/2025/take-on-me-song-aha-40-years/"
     },
     {
       "url": "https://ultimateclassicrock.com/david-bowie-heroes-song/",
@@ -1646,6 +1622,18 @@
       "finale": "https://ultimateclassicrock.com/david-bowie-heroes-song/"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Under_the_Bridge",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "under-the-bridge"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Under_the_Bridge"
+    },
+    {
       "url": "https://www.loudersound.com/bands-artists/interviews/heroes-david-bowie",
       "nome": "Louder Sound",
       "ruolo": "",
@@ -1656,18 +1644,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.loudersound.com/bands-artists/interviews/heroes-david-bowie"
-    },
-    {
-      "url": "https://americansongwriter.com/the-meaning-behind-the-addictive-song-under-the-bridge-by-red-hot-chili-peppers/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "under-the-bridge"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/the-meaning-behind-the-addictive-song-under-the-bridge-by-red-hot-chili-peppers/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Every_Breath_You_Take",
@@ -1682,16 +1658,16 @@
       "finale": "https://en.wikipedia.org/wiki/Every_Breath_You_Take"
     },
     {
-      "url": "https://americansongwriter.com/behind-the-song-every-breath-you-take-by-sting/",
+      "url": "https://americansongwriter.com/the-meaning-behind-the-addictive-song-under-the-bridge-by-red-hot-chili-peppers/",
       "nome": "American Songwriter",
       "ruolo": "",
       "schede": [
-        "every-breath-you-take"
+        "under-the-bridge"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://americansongwriter.com/behind-the-song-every-breath-you-take-by-sting/"
+      "finale": "https://americansongwriter.com/the-meaning-behind-the-addictive-song-under-the-bridge-by-red-hot-chili-peppers/"
     },
     {
       "url": "https://www.zucchero.it/1991-1992/",
@@ -1704,6 +1680,42 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.zucchero.it/1991-1992/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/red-hot-chili-peppers/under-the-bridge",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "under-the-bridge"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/red-hot-chili-peppers/under-the-bridge"
+    },
+    {
+      "url": "https://americansongwriter.com/behind-the-song-every-breath-you-take-by-sting/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "every-breath-you-take"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/behind-the-song-every-breath-you-take-by-sting/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/the-police/every-breath-you-take",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "every-breath-you-take"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/the-police/every-breath-you-take"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Fast_Car",
@@ -1730,30 +1742,6 @@
       "finale": "https://en.wikipedia.org/wiki/Losing_My_Religion"
     },
     {
-      "url": "https://americansongwriter.com/tracy-chapman-fast-car/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "fast-car"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/tracy-chapman-fast-car/"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/the-police/every-breath-you-take",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "every-breath-you-take"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/the-police/every-breath-you-take"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You_(Whitney_Houston_recording)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -1764,6 +1752,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You_(Whitney_Houston_recording)"
+    },
+    {
+      "url": "https://americansongwriter.com/tracy-chapman-fast-car/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "fast-car"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/tracy-chapman-fast-car/"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Yes_I_Know_My_Way_(brano_musicale)",
@@ -1815,16 +1815,16 @@
       "finale": "https://loudwire.com/rem-michael-stipe-reveals-losing-my-religion-true-meaning-wasnt-about-him/"
     },
     {
-      "url": "https://www.whitneyhouston.com/news/whitney-houstons-i-will-always-love-you-was-released-30-years-ago-today/",
-      "nome": "whitneyhouston.com",
+      "url": "https://americansongwriter.com/the-profound-meaning-behind-simon-garfunkels-the-sound-of-silence/",
+      "nome": "American Songwriter",
       "ruolo": "",
       "schede": [
-        "i-will-always-love-you"
+        "the-sound-of-silence"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.whitneyhouston.com/news/whitney-houstons-i-will-always-love-you-was-released-30-years-ago-today/"
+      "finale": "https://americansongwriter.com/the-profound-meaning-behind-simon-garfunkels-the-sound-of-silence/"
     },
     {
       "url": "https://www.wonderchannel.it/yes-i-know-my-way-di-pino-daniele/",
@@ -1839,16 +1839,16 @@
       "finale": "https://www.wonderchannel.it/yes-i-know-my-way-di-pino-daniele/"
     },
     {
-      "url": "https://www.songfacts.com/facts/simon-garfunkel/the-sound-of-silence",
-      "nome": "Songfacts",
+      "url": "https://www.whitneyhouston.com/news/whitney-houstons-i-will-always-love-you-was-released-30-years-ago-today/",
+      "nome": "whitneyhouston.com",
       "ruolo": "",
       "schede": [
-        "the-sound-of-silence"
+        "i-will-always-love-you"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/simon-garfunkel/the-sound-of-silence"
+      "finale": "https://www.whitneyhouston.com/news/whitney-houstons-i-will-always-love-you-was-released-30-years-ago-today/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Paint_It_Black",
@@ -1863,8 +1863,20 @@
       "finale": "https://en.wikipedia.org/wiki/Paint_It_Black"
     },
     {
-      "url": "https://americansongwriter.com/the-profound-meaning-behind-simon-garfunkels-the-sound-of-silence/",
+      "url": "https://americansongwriter.com/the-real-meaning-behind-paint-it-black-by-the-rolling-stones/",
       "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "paint-it-black"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/the-real-meaning-behind-paint-it-black-by-the-rolling-stones/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/simon-garfunkel/the-sound-of-silence",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
         "the-sound-of-silence"
@@ -1872,7 +1884,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://americansongwriter.com/the-profound-meaning-behind-simon-garfunkels-the-sound-of-silence/"
+      "finale": "https://www.songfacts.com/facts/simon-garfunkel/the-sound-of-silence"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Pi%C3%B9_bella_cosa",
@@ -1885,18 +1897,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Pi%C3%B9_bella_cosa"
-    },
-    {
-      "url": "https://music.fanpage.it/piu-bella-cosa-il-significato-della-canzone-di-eros-ramazzotti-sullamore-con-michelle-hunziker/",
-      "nome": "Fanpage",
-      "ruolo": "",
-      "schede": [
-        "piu-bella-cosa"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://music.fanpage.it/piu-bella-cosa-il-significato-della-canzone-di-eros-ramazzotti-sullamore-con-michelle-hunziker/"
     },
     {
       "url": "https://www.songfacts.com/facts/the-rolling-stones/paint-it-black",
@@ -1923,16 +1923,28 @@
       "finale": "https://en.wikipedia.org/wiki/Rocket_Man_(song)"
     },
     {
-      "url": "https://americansongwriter.com/the-real-meaning-behind-paint-it-black-by-the-rolling-stones/",
-      "nome": "American Songwriter",
+      "url": "https://www.songfacts.com/facts/elton-john/rocket-man",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "paint-it-black"
+        "rocket-man"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://americansongwriter.com/the-real-meaning-behind-paint-it-black-by-the-rolling-stones/"
+      "finale": "https://www.songfacts.com/facts/elton-john/rocket-man"
+    },
+    {
+      "url": "https://archivio.blitzquotidiano.it/musica-showblitz/eros-ramazzotti-piu-bella-cosa-michelle-hunziker-2960122/",
+      "nome": "Blitz Quotidiano",
+      "ruolo": "",
+      "schede": [
+        "piu-bella-cosa"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://archivio.blitzquotidiano.it/musica-showblitz/eros-ramazzotti-piu-bella-cosa-michelle-hunziker-2960122/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
@@ -1947,16 +1959,16 @@
       "finale": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/elton-john/rocket-man",
-      "nome": "Songfacts",
+      "url": "https://music.fanpage.it/piu-bella-cosa-il-significato-della-canzone-di-eros-ramazzotti-sullamore-con-michelle-hunziker/",
+      "nome": "Fanpage",
       "ruolo": "",
       "schede": [
-        "rocket-man"
+        "piu-bella-cosa"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/elton-john/rocket-man"
+      "finale": "https://music.fanpage.it/piu-bella-cosa-il-significato-della-canzone-di-eros-ramazzotti-sullamore-con-michelle-hunziker/"
     },
     {
       "url": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/",
@@ -1969,18 +1981,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/"
-    },
-    {
-      "url": "https://archivio.blitzquotidiano.it/musica-showblitz/eros-ramazzotti-piu-bella-cosa-michelle-hunziker-2960122/",
-      "nome": "Blitz Quotidiano",
-      "ruolo": "",
-      "schede": [
-        "piu-bella-cosa"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://archivio.blitzquotidiano.it/musica-showblitz/eros-ramazzotti-piu-bella-cosa-michelle-hunziker-2960122/"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Il_carrozzone/Baratto",
@@ -2043,6 +2043,18 @@
       "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/can-you-feel-my-heart"
     },
     {
+      "url": "https://www.hellorayo.co.uk/greatest-hits/entertainment/music/elton-john-rocket-man-inspiration",
+      "nome": "Hello Rayo",
+      "ruolo": "",
+      "schede": [
+        "rocket-man"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.hellorayo.co.uk/greatest-hits/entertainment/music/elton-john-rocket-man-inspiration"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Throne_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2055,16 +2067,28 @@
       "finale": "https://en.wikipedia.org/wiki/Throne_(song)"
     },
     {
-      "url": "https://songtell.com/bring-me-the-horizon/drown",
-      "nome": "Songtell",
+      "url": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Spec_Canzoni67.html",
+      "nome": "Treccani",
       "ruolo": "",
       "schede": [
-        "drown"
+        "il-carrozzone"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://songtell.com/bring-me-the-horizon/drown"
+      "finale": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Spec_Canzoni67.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "mantra"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)"
     },
     {
       "url": "https://www.songfacts.com/facts/bring-me-the-horizon/throne",
@@ -2079,8 +2103,20 @@
       "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/throne"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)",
-      "nome": "Wikipedia",
+      "url": "https://songtell.com/bring-me-the-horizon/drown",
+      "nome": "Songtell",
+      "ruolo": "",
+      "schede": [
+        "drown"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://songtell.com/bring-me-the-horizon/drown"
+    },
+    {
+      "url": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra",
+      "nome": "Louder",
       "ruolo": "",
       "schede": [
         "mantra"
@@ -2088,7 +2124,31 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)"
+      "finale": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "sleepwalking"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Antivist",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "antivist"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Antivist"
     },
     {
       "url": "https://www.songtell.com/bring-me-the-horizon/throne",
@@ -2115,66 +2175,6 @@
       "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/mantra"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "sleepwalking"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Sleepwalking_(Bring_Me_the_Horizon_song)"
-    },
-    {
-      "url": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra",
-      "nome": "Louder",
-      "ruolo": "",
-      "schede": [
-        "mantra"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Antivist",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "antivist"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Antivist"
-    },
-    {
-      "url": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Spec_Canzoni67.html",
-      "nome": "Treccani",
-      "ruolo": "",
-      "schede": [
-        "il-carrozzone"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Spec_Canzoni67.html"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/sleepwalking",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "sleepwalking"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/sleepwalking"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Chelsea_Smile_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2187,16 +2187,16 @@
       "finale": "https://en.wikipedia.org/wiki/Chelsea_Smile_(song)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/sleepwalking",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "doomed"
+        "sleepwalking"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)"
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/sleepwalking"
     },
     {
       "url": "https://www.songtell.com/bring-me-the-horizon/chelsea-smile",
@@ -2223,18 +2223,6 @@
       "finale": "https://helpmeiaminhell.fandom.com/wiki/Antivist"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "follow-you"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)"
-    },
-    {
       "url": "https://songtell.com/bring-me-the-horizon/doomed",
       "nome": "Songtell",
       "ruolo": "",
@@ -2247,16 +2235,16 @@
       "finale": "https://songtell.com/bring-me-the-horizon/doomed"
     },
     {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/doomed",
-      "nome": "Songfacts",
+      "url": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "doomed"
+        "follow-you"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/doomed"
+      "finale": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Parasite_Eve_(song)",
@@ -2269,6 +2257,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Parasite_Eve_(song)"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/doomed",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "doomed"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/doomed"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Lost_(Bring_Me_the_Horizon_song)",
@@ -2295,6 +2295,18 @@
       "finale": "https://www.musicianwages.com/the-meaning-behind-the-song-follow-you-by-bring-me-the-horizon/"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "doomed"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)"
+    },
+    {
       "url": "https://www.loudersound.com/reviews/bring-me-the-horizon-post-human-nex-gen",
       "nome": "Louder",
       "ruolo": "",
@@ -2305,18 +2317,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.loudersound.com/reviews/bring-me-the-horizon-post-human-nex-gen"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Die4U",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "die4u"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Die4U"
     },
     {
       "url": "https://www.songfacts.com/facts/bring-me-the-horizon/parasite-eve",
@@ -2331,16 +2331,16 @@
       "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/parasite-eve"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+      "url": "https://en.wikipedia.org/wiki/Die4U",
       "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "riders-on-the-storm"
+        "die4u"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Riders_on_the_Storm"
+      "finale": "https://en.wikipedia.org/wiki/Die4U"
     },
     {
       "url": "https://loudwire.com/bring-me-the-horizon-new-song-die4u-video-lyrics/",
@@ -2355,16 +2355,16 @@
       "finale": "https://loudwire.com/bring-me-the-horizon-new-song-die4u-video-lyrics/"
     },
     {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/die4u",
-      "nome": "Songfacts",
+      "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "die4u"
+        "riders-on-the-storm"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/die4u"
+      "finale": "https://en.wikipedia.org/wiki/Riders_on_the_Storm"
     },
     {
       "url": "https://americansongwriter.com/meaning-behind-the-haunting-riders-on-the-storm-by-the-doors/",
@@ -2440,16 +2440,16 @@
       "finale": "https://en.wikipedia.org/wiki/Shadow_Moses_(song)"
     },
     {
-      "url": "https://www.allmusicitalia.it/news/edoardo-bennato-sono-solo-canzonette-il-racconto-della-sua-storia.html",
-      "nome": "AllMusicItalia",
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/die4u",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "sono-solo-canzonette"
+        "die4u"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.allmusicitalia.it/news/edoardo-bennato-sono-solo-canzonette-il-racconto-della-sua-storia.html"
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/die4u"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Wonderful_Life_(Bring_Me_the_Horizon_song)",
@@ -2462,6 +2462,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Wonderful_Life_(Bring_Me_the_Horizon_song)"
+    },
+    {
+      "url": "https://www.allmusicitalia.it/news/edoardo-bennato-sono-solo-canzonette-il-racconto-della-sua-storia.html",
+      "nome": "AllMusicItalia",
+      "ruolo": "",
+      "schede": [
+        "sono-solo-canzonette"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.allmusicitalia.it/news/edoardo-bennato-sono-solo-canzonette-il-racconto-della-sua-storia.html"
     },
     {
       "url": "https://www.songfacts.com/facts/depeche-mode/personal-jesus",
@@ -2488,18 +2500,6 @@
       "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/shadow-moses"
     },
     {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/wonderful-life",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "wonderful-life"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/wonderful-life"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Nihilist_Blues",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2522,6 +2522,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/One_(Metallica_song)"
+    },
+    {
+      "url": "https://www.therockpit.net/2018/bring-me-the-horizon-announce-new-single-wonderful-life-featuring-dani-filth/",
+      "nome": "The Rockpit",
+      "ruolo": "",
+      "schede": [
+        "wonderful-life"
+      ],
+      "stato": 403,
+      "classe": "bloccata",
+      "nota": "risponde 403: probabile blocco anti-bot, da aprire in un browser prima di toccarla",
+      "finale": "https://www.therockpit.net/2018/bring-me-the-horizon-announce-new-single-wonderful-life-featuring-dani-filth/"
     },
     {
       "url": "https://www.songfacts.com/facts/bring-me-the-horizon/nihilist-blues",
@@ -2560,16 +2572,16 @@
       "finale": "https://en.wikipedia.org/wiki/Ace_of_Spades_(song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/metallica/one",
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/wonderful-life",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "one"
+        "wonderful-life"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/metallica/one"
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/wonderful-life"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Psychosocial_(song)",
@@ -2584,16 +2596,16 @@
       "finale": "https://en.wikipedia.org/wiki/Psychosocial_(song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/motorhead/ace-of-spades",
+      "url": "https://www.songfacts.com/facts/metallica/one",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "ace-of-spades"
+        "one"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/motorhead/ace-of-spades"
+      "finale": "https://www.songfacts.com/facts/metallica/one"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Symphony_of_Destruction",
@@ -2608,30 +2620,6 @@
       "finale": "https://en.wikipedia.org/wiki/Symphony_of_Destruction"
     },
     {
-      "url": "https://www.therockpit.net/2018/bring-me-the-horizon-announce-new-single-wonderful-life-featuring-dani-filth/",
-      "nome": "The Rockpit",
-      "ruolo": "",
-      "schede": [
-        "wonderful-life"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.therockpit.net/2018/bring-me-the-horizon-announce-new-single-wonderful-life-featuring-dani-filth/"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/slipknot/psychosocial",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "psychosocial"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/slipknot/psychosocial"
-    },
-    {
       "url": "https://www.loudersound.com/bands-artists/megadeth-symphony-of-destruction-story-behind-song",
       "nome": "Louder",
       "ruolo": "",
@@ -2644,16 +2632,16 @@
       "finale": "https://www.loudersound.com/bands-artists/megadeth-symphony-of-destruction-story-behind-song"
     },
     {
-      "url": "https://www.songfacts.com/facts/megadeth/symphony-of-destruction",
+      "url": "https://www.songfacts.com/facts/motorhead/ace-of-spades",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "symphony-of-destruction"
+        "ace-of-spades"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/megadeth/symphony-of-destruction"
+      "finale": "https://www.songfacts.com/facts/motorhead/ace-of-spades"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Sober_(Tool_song)",
@@ -2666,18 +2654,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Sober_(Tool_song)"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Square_Hammer",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "square-hammer"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Square_Hammer"
     },
     {
       "url": "https://www.loudersound.com/music/albums/the-story-and-meaning-of-tool-sober",
@@ -2704,16 +2680,28 @@
       "finale": "https://faroutmagazine.co.uk/twisting-tale-behind-tools-sober/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+      "url": "https://en.wikipedia.org/wiki/Square_Hammer",
       "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "american-idiot"
+        "square-hammer"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/American_Idiot_(song)"
+      "finale": "https://en.wikipedia.org/wiki/Square_Hammer"
+    },
+    {
+      "url": "https://www.loudersound.com/bands-artists/ghost-square-hammer-story-behind-song",
+      "nome": "Louder",
+      "ruolo": "",
+      "schede": [
+        "square-hammer"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.loudersound.com/bands-artists/ghost-square-hammer-story-behind-song"
     },
     {
       "url": "https://loudwire.com/ghost-square-hammer-metal-song-decade/",
@@ -2728,16 +2716,40 @@
       "finale": "https://loudwire.com/ghost-square-hammer-metal-song-decade/"
     },
     {
-      "url": "https://www.loudersound.com/bands-artists/ghost-square-hammer-story-behind-song",
-      "nome": "Louder",
+      "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "square-hammer"
+        "american-idiot"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.loudersound.com/bands-artists/ghost-square-hammer-story-behind-song"
+      "finale": "https://en.wikipedia.org/wiki/American_Idiot_(song)"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/megadeth/symphony-of-destruction",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "symphony-of-destruction"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/megadeth/symphony-of-destruction"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/slipknot/psychosocial",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "psychosocial"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/slipknot/psychosocial"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
@@ -2764,18 +2776,6 @@
       "finale": "https://americansongwriter.com/meaning-american-idiot-green-day-song-lyrics/"
     },
     {
-      "url": "https://www.songfacts.com/facts/green-day/american-idiot",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "american-idiot"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/green-day/american-idiot"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Fat_Lip",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2788,28 +2788,16 @@
       "finale": "https://en.wikipedia.org/wiki/Fat_Lip"
     },
     {
-      "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
+      "url": "https://www.songfacts.com/facts/green-day/american-idiot",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "boulevard-of-broken-dreams"
+        "american-idiot"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/sum-41/fat-lip",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "fat-lip"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/sum-41/fat-lip"
+      "finale": "https://www.songfacts.com/facts/green-day/american-idiot"
     },
     {
       "url": "https://www.musicianwages.com/the-meaning-behind-the-song-fat-lip-by-sum-41/",
@@ -2824,6 +2812,18 @@
       "finale": "https://www.musicianwages.com/the-meaning-behind-the-song-fat-lip-by-sum-41/"
     },
     {
+      "url": "https://www.songfacts.com/facts/sum-41/fat-lip",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "fat-lip"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/sum-41/fat-lip"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/In_Too_Deep_(Sum_41_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2834,18 +2834,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/In_Too_Deep_(Sum_41_song)"
-    },
-    {
-      "url": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/",
-      "nome": "Extra Chill",
-      "ruolo": "",
-      "schede": [
-        "boulevard-of-broken-dreams"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/"
     },
     {
       "url": "https://www.songfacts.com/facts/sum-41/in-too-deep",
@@ -2860,6 +2848,30 @@
       "finale": "https://www.songfacts.com/facts/sum-41/in-too-deep"
     },
     {
+      "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "boulevard-of-broken-dreams"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams"
+    },
+    {
+      "url": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/",
+      "nome": "Extra Chill",
+      "ruolo": "",
+      "schede": [
+        "boulevard-of-broken-dreams"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Crawling_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2870,18 +2882,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Crawling_(song)"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "one-step-closer"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)"
     },
     {
       "url": "https://extrachill.com/the-meaning-of-sum-41s-in-too-deep/",
@@ -2896,6 +2896,18 @@
       "finale": "https://extrachill.com/the-meaning-of-sum-41s-in-too-deep/"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "one-step-closer"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Uprising_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -2906,18 +2918,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Uprising_(song)"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/muse/uprising",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "uprising"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/muse/uprising"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Starlight_(Muse_song)",
@@ -2968,6 +2968,18 @@
       "finale": "https://en.wikipedia.org/wiki/All_the_Small_Things"
     },
     {
+      "url": "https://www.songfacts.com/facts/muse/uprising",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "uprising"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/muse/uprising"
+    },
+    {
       "url": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
       "nome": "American Songwriter",
       "ruolo": "",
@@ -2978,18 +2990,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/"
-    },
-    {
-      "url": "https://www.radiox.co.uk/artists/muse/starlight-meaning-lyrics-story/",
-      "nome": "Radio X",
-      "ruolo": "",
-      "schede": [
-        "starlight"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.radiox.co.uk/artists/muse/starlight-meaning-lyrics-story/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/I_Miss_You_(Blink-182_song)",
@@ -3004,6 +3004,30 @@
       "finale": "https://en.wikipedia.org/wiki/I_Miss_You_(Blink-182_song)"
     },
     {
+      "url": "https://www.radiox.co.uk/artists/muse/starlight-meaning-lyrics-story/",
+      "nome": "Radio X",
+      "ruolo": "",
+      "schede": [
+        "starlight"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.radiox.co.uk/artists/muse/starlight-meaning-lyrics-story/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/blink-182/all-the-small-things",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "all-the-small-things"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/blink-182/all-the-small-things"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/She_Looks_So_Perfect",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3014,6 +3038,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/She_Looks_So_Perfect"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "still-waiting"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)"
     },
     {
       "url": "https://www.songfacts.com/facts/blink-182/i-miss-you",
@@ -3040,42 +3076,6 @@
       "finale": "https://www.songfacts.com/facts/5-seconds-of-summer/she-looks-so-perfect"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "still-waiting"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Still_Waiting_(Sum_41_song)"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/blink-182/all-the-small-things",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "all-the-small-things"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/blink-182/all-the-small-things"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/sum-41/still-waiting",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "still-waiting"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/sum-41/still-waiting"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/What%27s_My_Age_Again%3F",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3086,18 +3086,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/What%27s_My_Age_Again%3F"
-    },
-    {
-      "url": "https://www.altpress.com/sum-41-still-waiting-oral-history/",
-      "nome": "Alternative Press",
-      "ruolo": "",
-      "schede": [
-        "still-waiting"
-      ],
-      "stato": 403,
-      "classe": "bloccata",
-      "nota": "risponde 403: probabile blocco anti-bot, da aprire in un browser prima di toccarla",
-      "finale": "https://www.altpress.com/sum-41-still-waiting-oral-history/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)",
@@ -3112,6 +3100,18 @@
       "finale": "https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)"
     },
     {
+      "url": "https://www.altpress.com/sum-41-still-waiting-oral-history/",
+      "nome": "Alternative Press",
+      "ruolo": "",
+      "schede": [
+        "still-waiting"
+      ],
+      "stato": 403,
+      "classe": "bloccata",
+      "nota": "risponde 403: probabile blocco anti-bot, da aprire in un browser prima di toccarla",
+      "finale": "https://www.altpress.com/sum-41-still-waiting-oral-history/"
+    },
+    {
       "url": "https://www.songfacts.com/facts/blink-182/whats-my-age-again",
       "nome": "Songfacts",
       "ruolo": "",
@@ -3124,18 +3124,6 @@
       "finale": "https://www.songfacts.com/facts/blink-182/whats-my-age-again"
     },
     {
-      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/happy-song",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "happy-song"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/happy-song"
-    },
-    {
       "url": "https://it.wikipedia.org/wiki/Ho_messo_via",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3146,6 +3134,30 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://it.wikipedia.org/wiki/Ho_messo_via"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/sum-41/still-waiting",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "still-waiting"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/sum-41/still-waiting"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/bring-me-the-horizon/happy-song",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "happy-song"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/bring-me-the-horizon/happy-song"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_(Avicii_song)",
@@ -3170,18 +3182,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://it.wikipedia.org/wiki/Hanno_ucciso_l%27Uomo_Ragno_(album)"
-    },
-    {
-      "url": "https://music.fanpage.it/il-significato-di-hanno-ucciso-l-uomo-ragno-degli-883-a-25-anni-dalla-sua-esplosione/",
-      "nome": "Fanpage",
-      "ruolo": "",
-      "schede": [
-        "hanno-ucciso-luomo-ragno"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://music.fanpage.it/il-significato-di-hanno-ucciso-l-uomo-ragno-degli-883-a-25-anni-dalla-sua-esplosione/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Hypa_Hypa",
@@ -3220,18 +3220,6 @@
       "finale": "https://en.wikipedia.org/wiki/Diventerai_una_star"
     },
     {
-      "url": "https://www.today.com/popculture/aloe-blacc-says-he-wrote-wake-me-about-his-own-1d80008710",
-      "nome": "Today.com",
-      "ruolo": "",
-      "schede": [
-        "wake-me-up"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.today.com/popculture/aloe-blacc-says-he-wrote-wake-me-about-his-own-1d80008710"
-    },
-    {
       "url": "https://it.wikipedia.org/wiki/Vieni_a_ballare_in_Puglia",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3244,6 +3232,30 @@
       "finale": "https://it.wikipedia.org/wiki/Vieni_a_ballare_in_Puglia"
     },
     {
+      "url": "https://www.today.com/popculture/aloe-blacc-says-he-wrote-wake-me-about-his-own-1d80008710",
+      "nome": "Today.com",
+      "ruolo": "",
+      "schede": [
+        "wake-me-up"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.today.com/popculture/aloe-blacc-says-he-wrote-wake-me-about-his-own-1d80008710"
+    },
+    {
+      "url": "https://music.fanpage.it/il-significato-di-hanno-ucciso-l-uomo-ragno-degli-883-a-25-anni-dalla-sua-esplosione/",
+      "nome": "Fanpage",
+      "ruolo": "",
+      "schede": [
+        "hanno-ucciso-luomo-ragno"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://music.fanpage.it/il-significato-di-hanno-ucciso-l-uomo-ragno-degli-883-a-25-anni-dalla-sua-esplosione/"
+    },
+    {
       "url": "https://www.rockol.it/news-738331/finley-oggi-band-diventerai-una-star-ritorno-intervista",
       "nome": "Rockol",
       "ruolo": "",
@@ -3254,18 +3266,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.rockol.it/news-738331/finley-oggi-band-diventerai-una-star-ritorno-intervista"
-    },
-    {
-      "url": "https://www.hellorayo.co.uk/greatest-hits/entertainment/music/elton-john-rocket-man-inspiration",
-      "nome": "Hello Rayo",
-      "ruolo": "",
-      "schede": [
-        "rocket-man"
-      ],
-      "stato": null,
-      "classe": "errore",
-      "nota": "fetch failed",
-      "finale": ""
     },
     {
       "url": "https://www.donnaglamour.it/marmellata-25-cesare-cremonini-significato/lifestyle/",
@@ -3292,18 +3292,6 @@
       "finale": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Shape_of_You",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "shape-of-you"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Shape_of_You"
-    },
-    {
       "url": "https://libreriamo.it/intrattenimento/marmellata-25-cremonini-abbandono/",
       "nome": "Libreriamo",
       "ruolo": "",
@@ -3314,6 +3302,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://libreriamo.it/intrattenimento/marmellata-25-cremonini-abbandono/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shape_of_You",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "shape-of-you"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Shape_of_You"
     },
     {
       "url": "https://www.songfacts.com/facts/daft-punk/get-lucky",
@@ -3340,18 +3340,6 @@
       "finale": "https://en.wikipedia.org/wiki/Sugar,_We%27re_Goin_Down"
     },
     {
-      "url": "https://www.billboard.com/music/pop/ed-sheeran-shape-of-you-songwriting-process-interview-8077771/",
-      "nome": "Billboard",
-      "ruolo": "",
-      "schede": [
-        "shape-of-you"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.billboard.com/music/pop/ed-sheeran-shape-of-you-songwriting-process-interview-8077771/"
-    },
-    {
       "url": "https://www.songfacts.com/facts/ed-sheeran/shape-of-you",
       "nome": "Songfacts",
       "ruolo": "",
@@ -3362,30 +3350,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.songfacts.com/facts/ed-sheeran/shape-of-you"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/fall-out-boy/sugar-were-going-down",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "sugar-were-goin-down"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/fall-out-boy/sugar-were-going-down"
-    },
-    {
-      "url": "https://www.allmusicitalia.it/news/fulminacci-ragu-testo-significato-video.html",
-      "nome": "AllMusicItalia",
-      "ruolo": "",
-      "schede": [
-        "ragu"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.allmusicitalia.it/news/fulminacci-ragu-testo-significato-video.html"
     },
     {
       "url": "https://www.loudersound.com/features/sugar-were-goin-down-by-fall-out-boy-the-story-behind-the-song",
@@ -3400,6 +3364,30 @@
       "finale": "https://www.loudersound.com/features/sugar-were-goin-down-by-fall-out-boy-the-story-behind-the-song"
     },
     {
+      "url": "https://www.billboard.com/music/pop/ed-sheeran-shape-of-you-songwriting-process-interview-8077771/",
+      "nome": "Billboard",
+      "ruolo": "",
+      "schede": [
+        "shape-of-you"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.billboard.com/music/pop/ed-sheeran-shape-of-you-songwriting-process-interview-8077771/"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/fall-out-boy/sugar-were-going-down",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "sugar-were-goin-down"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/fall-out-boy/sugar-were-going-down"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/21_Guns_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3412,8 +3400,8 @@
       "finale": "https://en.wikipedia.org/wiki/21_Guns_(song)"
     },
     {
-      "url": "https://www.soundsblog.it/post/ragu-fulminacci",
-      "nome": "Soundsblog",
+      "url": "https://www.allmusicitalia.it/news/fulminacci-ragu-testo-significato-video.html",
+      "nome": "AllMusicItalia",
       "ruolo": "",
       "schede": [
         "ragu"
@@ -3421,7 +3409,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.soundsblog.it/post/ragu-fulminacci"
+      "finale": "https://www.allmusicitalia.it/news/fulminacci-ragu-testo-significato-video.html"
     },
     {
       "url": "https://americansongwriter.com/the-story-behind-21-guns-by-green-day/",
@@ -3436,16 +3424,16 @@
       "finale": "https://americansongwriter.com/the-story-behind-21-guns-by-green-day/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Mr._Brightside",
-      "nome": "Wikipedia",
+      "url": "https://www.soundsblog.it/post/ragu-fulminacci",
+      "nome": "Soundsblog",
       "ruolo": "",
       "schede": [
-        "mr-brightside"
+        "ragu"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Mr._Brightside"
+      "finale": "https://www.soundsblog.it/post/ragu-fulminacci"
     },
     {
       "url": "https://www.songfacts.com/facts/green-day/21-guns",
@@ -3458,6 +3446,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.songfacts.com/facts/green-day/21-guns"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mr._Brightside",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "mr-brightside"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Mr._Brightside"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Naska_(singer)",
@@ -3508,6 +3508,18 @@
       "finale": "https://www.rollingstone.com/music/music-features/killers-brandon-flowers-talks-writing-mr-brightside-730129/"
     },
     {
+      "url": "https://www.songfacts.com/facts/limp-bizkit/break-stuff",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "break-stuff"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/limp-bizkit/break-stuff"
+    },
+    {
       "url": "https://www.loudersound.com/music/albums/that-means-start-jumping-and-singing-it-doesnt-mean-start-burning-the-place-down-thats-not-what-i-meant-how-a-smash-hit-from-some-nu-metal-icons-became-intertwined-with-the-most-controversial-music-festival-of-the-90s",
       "nome": "Louder",
       "ruolo": "",
@@ -3530,18 +3542,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/My_Ex%27s_Best_Friend"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/limp-bizkit/break-stuff",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "break-stuff"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/limp-bizkit/break-stuff"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Black_Parade",
@@ -3628,8 +3628,8 @@
       "finale": "https://www.songfacts.com/facts/muse/supermassive-black-hole"
     },
     {
-      "url": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/",
-      "nome": "Radio X",
+      "url": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
         "dont-look-back-in-anger"
@@ -3637,7 +3637,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/"
+      "finale": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Ringo_Starr_(singolo)",
@@ -3652,6 +3652,18 @@
       "finale": "https://it.wikipedia.org/wiki/Ringo_Starr_(singolo)"
     },
     {
+      "url": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/",
+      "nome": "Radio X",
+      "ruolo": "",
+      "schede": [
+        "dont-look-back-in-anger"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Everlong",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3662,18 +3674,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Everlong"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "dont-look-back-in-anger"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger"
     },
     {
       "url": "https://en.wikipedia.org/wiki/The_Trooper",
@@ -3688,28 +3688,16 @@
       "finale": "https://en.wikipedia.org/wiki/The_Trooper"
     },
     {
-      "url": "https://www.ehabitat.it/2015/08/28/vieni-a-ballare-in-puglia-caparezza-canta-luci-e-ombre-della-sua-terra/",
-      "nome": "eHabitat",
+      "url": "https://www.songfacts.com/facts/foo-fighters/everlong",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "vieni-a-ballare-in-puglia"
+        "everlong"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.ehabitat.it/2015/08/28/vieni-a-ballare-in-puglia-caparezza-canta-luci-e-ombre-della-sua-terra/"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Angel_of_Death_(Slayer_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "angel-of-death"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Angel_of_Death_(Slayer_song)"
+      "finale": "https://www.songfacts.com/facts/foo-fighters/everlong"
     },
     {
       "url": "https://www.fanpage.it/spettacolo/eventi/ringo-starr-testo-e-significato-della-canzone-dei-pinguini-tattici-nucleari-cantata-a-sanremo/",
@@ -3724,16 +3712,28 @@
       "finale": "https://www.fanpage.it/spettacolo/eventi/ringo-starr-testo-e-significato-della-canzone-dei-pinguini-tattici-nucleari-cantata-a-sanremo/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Cowboys_from_Hell_(song)",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/iron-maiden/the-trooper",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "cowboys-from-hell"
+        "the-trooper"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Cowboys_from_Hell_(song)"
+      "finale": "https://www.songfacts.com/facts/iron-maiden/the-trooper"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Angel_of_Death_(Slayer_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "angel-of-death"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Angel_of_Death_(Slayer_song)"
     },
     {
       "url": "https://www.rollingstone.com/music/music-features/how-slayers-controversial-angel-of-death-changed-thrash-band-forever-192311/",
@@ -3748,28 +3748,16 @@
       "finale": "https://www.rollingstone.com/music/music-features/how-slayers-controversial-angel-of-death-changed-thrash-band-forever-192311/"
     },
     {
-      "url": "https://www.songfacts.com/facts/iron-maiden/the-trooper",
-      "nome": "Songfacts",
+      "url": "https://www.ehabitat.it/2015/08/28/vieni-a-ballare-in-puglia-caparezza-canta-luci-e-ombre-della-sua-terra/",
+      "nome": "eHabitat",
       "ruolo": "",
       "schede": [
-        "the-trooper"
+        "vieni-a-ballare-in-puglia"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/iron-maiden/the-trooper"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/foo-fighters/everlong",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "everlong"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/foo-fighters/everlong"
+      "finale": "https://www.ehabitat.it/2015/08/28/vieni-a-ballare-in-puglia-caparezza-canta-luci-e-ombre-della-sua-terra/"
     },
     {
       "url": "https://en.wikipedia.org/wiki/B.Y.O.B._(song)",
@@ -3784,8 +3772,8 @@
       "finale": "https://en.wikipedia.org/wiki/B.Y.O.B._(song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/pantera/cowboys-from-hell",
-      "nome": "Songfacts",
+      "url": "https://en.wikipedia.org/wiki/Cowboys_from_Hell_(song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
         "cowboys-from-hell"
@@ -3793,31 +3781,7 @@
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/pantera/cowboys-from-hell"
-    },
-    {
-      "url": "https://www.songfacts.com/facts/slipknot/wait-and-bleed",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "wait-and-bleed"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/slipknot/wait-and-bleed"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Sonne_(Rammstein_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "sonne"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Sonne_(Rammstein_song)"
+      "finale": "https://en.wikipedia.org/wiki/Cowboys_from_Hell_(song)"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Wait_and_Bleed",
@@ -3832,6 +3796,42 @@
       "finale": "https://en.wikipedia.org/wiki/Wait_and_Bleed"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Sonne_(Rammstein_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "sonne"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Sonne_(Rammstein_song)"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/system-of-a-down/byob",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "byob"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/system-of-a-down/byob"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/slipknot/wait-and-bleed",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "wait-and-bleed"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/slipknot/wait-and-bleed"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/You%27ve_Got_Another_Thing_Comin%27",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3842,6 +3842,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/You%27ve_Got_Another_Thing_Comin%27"
+    },
+    {
+      "url": "https://www.songfacts.com/facts/pantera/cowboys-from-hell",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "cowboys-from-hell"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/pantera/cowboys-from-hell"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Overkill_(Mot%C3%B6rhead_song)",
@@ -3856,18 +3868,6 @@
       "finale": "https://en.wikipedia.org/wiki/Overkill_(Mot%C3%B6rhead_song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/judas-priest/youve-got-another-thing-comin",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "youve-got-another-thing-comin"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/judas-priest/youve-got-another-thing-comin"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Peace_Sells",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3880,16 +3880,16 @@
       "finale": "https://en.wikipedia.org/wiki/Peace_Sells"
     },
     {
-      "url": "https://www.songfacts.com/facts/system-of-a-down/byob",
+      "url": "https://www.songfacts.com/facts/judas-priest/youve-got-another-thing-comin",
       "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "byob"
+        "youve-got-another-thing-comin"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/system-of-a-down/byob"
+      "finale": "https://www.songfacts.com/facts/judas-priest/youve-got-another-thing-comin"
     },
     {
       "url": "https://en.wikipedia.org/wiki/November_Rain",
@@ -3916,6 +3916,18 @@
       "finale": "https://www.songfacts.com/facts/megadeth/peace-sells"
     },
     {
+      "url": "https://www.songfacts.com/facts/rammstein/sonne",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "sonne"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/rammstein/sonne"
+    },
+    {
       "url": "https://www.songfacts.com/facts/motorhead/overkill",
       "nome": "Songfacts",
       "ruolo": "",
@@ -3940,18 +3952,6 @@
       "finale": "https://en.wikipedia.org/wiki/Highway_Star_(song)"
     },
     {
-      "url": "https://www.songfacts.com/facts/rammstein/sonne",
-      "nome": "Songfacts",
-      "ruolo": "",
-      "schede": [
-        "sonne"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.songfacts.com/facts/rammstein/sonne"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Closer_(Nine_Inch_Nails_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -3962,18 +3962,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Closer_(Nine_Inch_Nails_song)"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Blind_(Korn_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "blind"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Blind_(Korn_song)"
     },
     {
       "url": "https://www.songfacts.com/facts/guns-n-roses/november-rain",
@@ -4000,6 +3988,30 @@
       "finale": "https://www.songfacts.com/facts/deep-purple/highway-star"
     },
     {
+      "url": "https://www.songfacts.com/facts/nine-inch-nails/closer",
+      "nome": "Songfacts",
+      "ruolo": "",
+      "schede": [
+        "closer"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.songfacts.com/facts/nine-inch-nails/closer"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Blind_(Korn_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "blind"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Blind_(Korn_song)"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Bark_at_the_Moon_(song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4024,16 +4036,16 @@
       "finale": "https://en.wikipedia.org/wiki/Bulls_on_Parade"
     },
     {
-      "url": "https://www.loudersound.com/features/korn-the-story-behind-the-song-blind-interview-1994",
-      "nome": "Louder Sound",
+      "url": "https://en.wikipedia.org/wiki/Alive_(Pearl_Jam_song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "blind"
+        "alive"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.loudersound.com/features/korn-the-story-behind-the-song-blind-interview-1994"
+      "finale": "https://en.wikipedia.org/wiki/Alive_(Pearl_Jam_song)"
     },
     {
       "url": "https://americansongwriter.com/meaning-bulls-on-parade-rage-against-the-machine-song-lyrics/",
@@ -4048,28 +4060,16 @@
       "finale": "https://americansongwriter.com/meaning-bulls-on-parade-rage-against-the-machine-song-lyrics/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Alive_(Pearl_Jam_song)",
-      "nome": "Wikipedia",
+      "url": "https://www.loudersound.com/features/korn-the-story-behind-the-song-blind-interview-1994",
+      "nome": "Louder Sound",
       "ruolo": "",
       "schede": [
-        "alive"
+        "blind"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Alive_(Pearl_Jam_song)"
-    },
-    {
-      "url": "https://loudwire.com/jake-e-lee-solo-ozzy-osbourne-bark-at-the-moon/",
-      "nome": "Loudwire",
-      "ruolo": "",
-      "schede": [
-        "bark-at-the-moon"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://loudwire.com/jake-e-lee-solo-ozzy-osbourne-bark-at-the-moon/"
+      "finale": "https://www.loudersound.com/features/korn-the-story-behind-the-song-blind-interview-1994"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Man_in_the_Box",
@@ -4096,16 +4096,16 @@
       "finale": "https://americansongwriter.com/the-peta-approved-meaning-behind-alice-in-chains-man-in-the-box/"
     },
     {
-      "url": "https://www.songfacts.com/facts/nine-inch-nails/closer",
-      "nome": "Songfacts",
+      "url": "https://loudwire.com/jake-e-lee-solo-ozzy-osbourne-bark-at-the-moon/",
+      "nome": "Loudwire",
       "ruolo": "",
       "schede": [
-        "closer"
+        "bark-at-the-moon"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/nine-inch-nails/closer"
+      "finale": "https://loudwire.com/jake-e-lee-solo-ozzy-osbourne-bark-at-the-moon/"
     },
     {
       "url": "https://www.songfacts.com/facts/pearl-jam/alive",
@@ -4144,18 +4144,6 @@
       "finale": "https://en.wikipedia.org/wiki/The_Number_of_the_Beast_(song)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Fade_to_Black_(Metallica_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "fade-to-black"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Fade_to_Black_(Metallica_song)"
-    },
-    {
       "url": "https://ultimateclassicrock.com/paul-simon-disturbed-sound-of-silence/",
       "nome": "Ultimate Classic Rock",
       "ruolo": "",
@@ -4166,6 +4154,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://ultimateclassicrock.com/paul-simon-disturbed-sound-of-silence/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fade_to_Black_(Metallica_song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "fade-to-black"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Fade_to_Black_(Metallica_song)"
     },
     {
       "url": "https://parade.com/news/1982-rock-classic-was-partly-inspired-by-a-chilling-horror-movie-and-it-shows",
@@ -4252,18 +4252,6 @@
       "finale": "https://en.wikipedia.org/wiki/Toxicity_(song)"
     },
     {
-      "url": "https://storyofsong.com/story/fade-to-black/",
-      "nome": "Story of Song",
-      "ruolo": "",
-      "schede": [
-        "fade-to-black"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://storyofsong.com/story/fade-to-black/"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Adam%27s_Song",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4276,6 +4264,18 @@
       "finale": "https://en.wikipedia.org/wiki/Adam%27s_Song"
     },
     {
+      "url": "https://storyofsong.com/story/fade-to-black/",
+      "nome": "Story of Song",
+      "ruolo": "",
+      "schede": [
+        "fade-to-black"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://storyofsong.com/story/fade-to-black/"
+    },
+    {
       "url": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/",
       "nome": "American Songwriter",
       "ruolo": "",
@@ -4286,18 +4286,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/"
-    },
-    {
-      "url": "https://www.loudersound.com/bands-artists/guns-n-roses-welcome-to-the-jungle-story-behind-the-song",
-      "nome": "Louder",
-      "ruolo": "",
-      "schede": [
-        "welcome-to-the-jungle"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://www.loudersound.com/bands-artists/guns-n-roses-welcome-to-the-jungle-story-behind-the-song"
     },
     {
       "url": "https://www.nme.com/news/music/system-of-a-downs-serj-tankian-explains-the-meaning-of-toxicity-lyrics-3772175",
@@ -4322,6 +4310,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://ultimateclassicrock.com/iron-maiden-hallowed-be-thy-name/"
+    },
+    {
+      "url": "https://www.loudersound.com/bands-artists/guns-n-roses-welcome-to-the-jungle-story-behind-the-song",
+      "nome": "Louder",
+      "ruolo": "",
+      "schede": [
+        "welcome-to-the-jungle"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.loudersound.com/bands-artists/guns-n-roses-welcome-to-the-jungle-story-behind-the-song"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Sad_but_True",
@@ -4360,30 +4360,6 @@
       "finale": "https://primordialradio.com/black-sabbath-war-pigs-lyrics-meaning/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Piggy_(song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "piggy"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Piggy_(song)"
-    },
-    {
-      "url": "https://americansongwriter.com/the-meaning-behind-champagne-supernova-by-oasis-and-why-its-emotional-impact-resonates-with-fans/",
-      "nome": "American Songwriter",
-      "ruolo": "",
-      "schede": [
-        "champagne-supernova"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://americansongwriter.com/the-meaning-behind-champagne-supernova-by-oasis-and-why-its-emotional-impact-resonates-with-fans/"
-    },
-    {
       "url": "https://houstonseagle.com/1605706/how-eddie-van-halen-ended-up-on-michael-jacksons-beat-it/",
       "nome": "Houston's Eagle",
       "ruolo": "",
@@ -4394,6 +4370,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://houstonseagle.com/1605706/how-eddie-van-halen-ended-up-on-michael-jacksons-beat-it/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Piggy_(song)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "piggy"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Piggy_(song)"
     },
     {
       "url": "https://www.songfacts.com/facts/muse/knights-of-cydonia",
@@ -4408,6 +4396,18 @@
       "finale": "https://www.songfacts.com/facts/muse/knights-of-cydonia"
     },
     {
+      "url": "https://americansongwriter.com/the-meaning-behind-champagne-supernova-by-oasis-and-why-its-emotional-impact-resonates-with-fans/",
+      "nome": "American Songwriter",
+      "ruolo": "",
+      "schede": [
+        "champagne-supernova"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://americansongwriter.com/the-meaning-behind-champagne-supernova-by-oasis-and-why-its-emotional-impact-resonates-with-fans/"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Black_(Pearl_Jam_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4418,18 +4418,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Black_(Pearl_Jam_song)"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Reign_in_Blood",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "postmortem"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Reign_in_Blood"
     },
     {
       "url": "https://classicrockartists.com/deep-purple-space-truckin-1972/",
@@ -4456,18 +4444,6 @@
       "finale": "https://en.wikipedia.org/wiki/Amnesia_(5_Seconds_of_Summer_song)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Sharazan",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "sharazan"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Sharazan"
-    },
-    {
       "url": "https://www.songfacts.com/facts/system-of-a-down/aerials",
       "nome": "Songfacts",
       "ruolo": "",
@@ -4478,6 +4454,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.songfacts.com/facts/system-of-a-down/aerials"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sharazan",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "sharazan"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Sharazan"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Motivation_(Sum_41_song)",
@@ -4492,6 +4480,18 @@
       "finale": "https://en.wikipedia.org/wiki/Motivation_(Sum_41_song)"
     },
     {
+      "url": "https://en.wikipedia.org/wiki/Reign_in_Blood",
+      "nome": "Wikipedia",
+      "ruolo": "album",
+      "schede": [
+        "postmortem"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Reign_in_Blood"
+    },
+    {
       "url": "https://en.wikipedia.org/wiki/Hey_Brother",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4504,18 +4504,6 @@
       "finale": "https://en.wikipedia.org/wiki/Hey_Brother"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Feeling_This",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "feeling-this"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Feeling_This"
-    },
-    {
       "url": "https://www.noidegli8090.com/con-un-deca-max-pezzali-la-storia-del-pezzo-ha-quasi-dellincredibile/",
       "nome": "Noi degli 80-90",
       "ruolo": "",
@@ -4526,6 +4514,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://www.noidegli8090.com/con-un-deca-max-pezzali-la-storia-del-pezzo-ha-quasi-dellincredibile/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Feeling_This",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "feeling-this"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Feeling_This"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Castle_on_the_Hill",
@@ -4552,18 +4552,6 @@
       "finale": "https://www.loudersound.com/bands-artists/the-story-of-evanescence-my-immortal"
     },
     {
-      "url": "https://blabbermouth.net/news/disturbeds-david-draiman-on-immortalized-i-just-want-people-to-walk-away-feeling-powerful",
-      "nome": "Blabbermouth",
-      "ruolo": "",
-      "schede": [
-        "the-light-disturbed"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://blabbermouth.net/news/disturbeds-david-draiman-on-immortalized-i-just-want-people-to-walk-away-feeling-powerful"
-    },
-    {
       "url": "https://it.wikipedia.org/wiki/Questo_piccolo_grande_amore/Porta_Portese",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4576,16 +4564,28 @@
       "finale": "https://it.wikipedia.org/wiki/Questo_piccolo_grande_amore/Porta_Portese"
     },
     {
-      "url": "https://it.wikipedia.org/wiki/Profumo/Seduzione",
-      "nome": "Wikipedia",
+      "url": "https://blabbermouth.net/news/disturbeds-david-draiman-on-immortalized-i-just-want-people-to-walk-away-feeling-powerful",
+      "nome": "Blabbermouth",
       "ruolo": "",
       "schede": [
-        "profumo-nannini"
+        "the-light-disturbed"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Profumo/Seduzione"
+      "finale": "https://blabbermouth.net/news/disturbeds-david-draiman-on-immortalized-i-just-want-people-to-walk-away-feeling-powerful"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "tutto-e-possibile"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo)"
     },
     {
       "url": "https://it.wikipedia.org/wiki/L%27aurora_(singolo_Eros_Ramazzotti)",
@@ -4607,21 +4607,33 @@
         "non-ce"
       ],
       "stato": 200,
-      "classe": "altra-opera",
-      "nota": "sembra la voce di un album, non del brano: «A new version of the song is also included on the 2001 compilation album The Best of Laura Pausini: E ritorno da te, featuring Italian singe…» — se è voluto, aggiungi \"ruolo\": \"album\" a questa fonte in dati/canzoni.json",
+      "classe": "ok",
+      "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Non_c%27%C3%A8"
     },
     {
-      "url": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo)",
-      "nome": "Wikipedia",
+      "url": "https://www.songfacts.com/facts/korn/faget",
+      "nome": "Songfacts",
       "ruolo": "",
       "schede": [
-        "tutto-e-possibile"
+        "faget"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo)"
+      "finale": "https://www.songfacts.com/facts/korn/faget"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Profumo/Seduzione",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "profumo-nannini"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/Profumo/Seduzione"
     },
     {
       "url": "https://it.wikipedia.org/wiki/La_guerra_di_Piero",
@@ -4648,16 +4660,16 @@
       "finale": "https://en.wikipedia.org/wiki/She%27s_Kinda_Hot"
     },
     {
-      "url": "https://www.songfacts.com/facts/korn/faget",
-      "nome": "Songfacts",
+      "url": "https://en.wikipedia.org/wiki/Easier_(5_Seconds_of_Summer_song)",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "faget"
+        "easier"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://www.songfacts.com/facts/korn/faget"
+      "finale": "https://en.wikipedia.org/wiki/Easier_(5_Seconds_of_Summer_song)"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Youngblood_(5_Seconds_of_Summer_song)",
@@ -4672,18 +4684,6 @@
       "finale": "https://en.wikipedia.org/wiki/Youngblood_(5_Seconds_of_Summer_song)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Easier_(5_Seconds_of_Summer_song)",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "easier"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Easier_(5_Seconds_of_Summer_song)"
-    },
-    {
       "url": "https://it.wikipedia.org/wiki/Nord_sud_ovest_est_(singolo)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4694,30 +4694,6 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://it.wikipedia.org/wiki/Nord_sud_ovest_est_(singolo)"
-    },
-    {
-      "url": "https://it.wikipedia.org/wiki/La_donna_il_sogno_%26_il_grande_incubo",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "tieni-il-tempo"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/La_donna_il_sogno_%26_il_grande_incubo"
-    },
-    {
-      "url": "https://it.wikipedia.org/wiki/La_dura_legge_del_gol!",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "la-regola-dell-amico"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/La_dura_legge_del_gol!"
     },
     {
       "url": "https://www.songfacts.com/facts/5-seconds-of-summer/complete-mess",
@@ -4732,6 +4708,18 @@
       "finale": "https://www.songfacts.com/facts/5-seconds-of-summer/complete-mess"
     },
     {
+      "url": "https://it.wikipedia.org/wiki/La_donna_il_sogno_%26_il_grande_incubo",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "tieni-il-tempo"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/La_donna_il_sogno_%26_il_grande_incubo"
+    },
+    {
       "url": "https://it.wikipedia.org/wiki/Grazie_mille_(singolo)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4744,16 +4732,16 @@
       "finale": "https://it.wikipedia.org/wiki/Grazie_mille_(singolo)"
     },
     {
-      "url": "https://it.wikipedia.org/wiki/Grazie_mille",
-      "nome": "Wikipedia (album)",
+      "url": "https://it.wikipedia.org/wiki/La_dura_legge_del_gol!",
+      "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "grazie-mille"
+        "la-regola-dell-amico"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Grazie_mille"
+      "finale": "https://it.wikipedia.org/wiki/La_dura_legge_del_gol!"
     },
     {
       "url": "https://www.ceraunavolta.org/la-regola-dellamico/",
@@ -4768,16 +4756,16 @@
       "finale": "https://www.ceraunavolta.org/la-regola-dellamico/"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Fuori_dall%27hype",
-      "nome": "Wikipedia",
+      "url": "https://it.wikipedia.org/wiki/Grazie_mille",
+      "nome": "Wikipedia (album)",
       "ruolo": "",
       "schede": [
-        "fuori-dall-hype"
+        "grazie-mille"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Fuori_dall%27hype"
+      "finale": "https://it.wikipedia.org/wiki/Grazie_mille"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Irene_(Pinguini_Tattici_Nucleari)",
@@ -4792,16 +4780,16 @@
       "finale": "https://it.wikipedia.org/wiki/Irene_(Pinguini_Tattici_Nucleari)"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Giovani_Wannabe",
+      "url": "https://en.wikipedia.org/wiki/Fuori_dall%27hype",
       "nome": "Wikipedia",
-      "ruolo": "",
+      "ruolo": "album",
       "schede": [
-        "giovani-wannabe"
+        "fuori-dall-hype"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://en.wikipedia.org/wiki/Giovani_Wannabe"
+      "finale": "https://en.wikipedia.org/wiki/Fuori_dall%27hype"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Islanda",
@@ -4814,6 +4802,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://en.wikipedia.org/wiki/Islanda"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Giovani_Wannabe",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "giovani-wannabe"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://en.wikipedia.org/wiki/Giovani_Wannabe"
     },
     {
       "url": "https://it.wikipedia.org/wiki/Verit%C3%A0_supposte",
@@ -4864,18 +4864,6 @@
       "finale": "https://it.wikipedia.org/wiki/Goodbye_Malinconia"
     },
     {
-      "url": "https://it.wikipedia.org/wiki/Non_me_lo_posso_permettere",
-      "nome": "Wikipedia",
-      "ruolo": "",
-      "schede": [
-        "non-me-lo-posso-permettere"
-      ],
-      "stato": 200,
-      "classe": "ok",
-      "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Non_me_lo_posso_permettere"
-    },
-    {
       "url": "https://en.wikipedia.org/wiki/Waiting_for_Love_(Avicii_song)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4888,16 +4876,16 @@
       "finale": "https://en.wikipedia.org/wiki/Waiting_for_Love_(Avicii_song)"
     },
     {
-      "url": "https://it.wikipedia.org/wiki/Prisoner_709_(singolo)",
+      "url": "https://it.wikipedia.org/wiki/Non_me_lo_posso_permettere",
       "nome": "Wikipedia",
       "ruolo": "",
       "schede": [
-        "prisoner-709"
+        "non-me-lo-posso-permettere"
       ],
       "stato": 200,
       "classe": "ok",
       "nota": "",
-      "finale": "https://it.wikipedia.org/wiki/Prisoner_709_(singolo)"
+      "finale": "https://it.wikipedia.org/wiki/Non_me_lo_posso_permettere"
     },
     {
       "url": "https://en.wikipedia.org/wiki/SOS_(Avicii_song)",
@@ -4924,6 +4912,18 @@
       "finale": "https://en.wikipedia.org/wiki/Prisoner_709"
     },
     {
+      "url": "https://it.wikipedia.org/wiki/Prisoner_709_(singolo)",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "prisoner-709"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/Prisoner_709_(singolo)"
+    },
+    {
       "url": "https://it.wikipedia.org/wiki/Exuvia_(singolo)",
       "nome": "Wikipedia",
       "ruolo": "",
@@ -4934,6 +4934,18 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://it.wikipedia.org/wiki/Exuvia_(singolo)"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Bella_vera",
+      "nome": "Wikipedia",
+      "ruolo": "",
+      "schede": [
+        "bella-vera"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://it.wikipedia.org/wiki/Bella_vera"
     },
     {
       "url": "https://www.lascimmiapensa.com/2021/08/12/caparezza-fuori-dal-tunnel-significato/",
@@ -4958,6 +4970,42 @@
       "classe": "ok",
       "nota": "",
       "finale": "https://billboard.it/musica/hiphop/caparezza-presenta-il-nuovo-album-exuvia-accettato-il-passato-vivo-di-paradossi/2021/05/0665263/"
+    },
+    {
+      "url": "https://www.donnaglamour.it/bella-vera-883-significato/lifestyle/",
+      "nome": "Donna Glamour",
+      "ruolo": "",
+      "schede": [
+        "bella-vera"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.donnaglamour.it/bella-vera-883-significato/lifestyle/"
+    },
+    {
+      "url": "https://tg24.sky.it/spettacolo/musica/2019/04/26/pinguini-tattici-nucleari-canzoni-famose",
+      "nome": "Sky TG24",
+      "ruolo": "",
+      "schede": [
+        "bagatelle"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://tg24.sky.it/spettacolo/musica/2019/04/26/pinguini-tattici-nucleari-canzoni-famose"
+    },
+    {
+      "url": "https://www.antiwarsongs.org/canzone.php?id=61613",
+      "nome": "Canzoni Contro la Guerra",
+      "ruolo": "",
+      "schede": [
+        "bagatelle"
+      ],
+      "stato": 200,
+      "classe": "ok",
+      "nota": "",
+      "finale": "https://www.antiwarsongs.org/canzone.php?id=61613"
     }
   ]
 }

@@ -7642,7 +7642,8 @@
     "fonti": [
       {
         "url": "https://en.wikipedia.org/wiki/Reign_in_Blood",
-        "nome": "Wikipedia"
+        "nome": "Wikipedia",
+        "ruolo": "album"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -8821,7 +8822,8 @@
     "fonti": [
       {
         "url": "https://en.wikipedia.org/wiki/Fuori_dall%27hype",
-        "nome": "Wikipedia"
+        "nome": "Wikipedia",
+        "ruolo": "album"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -9206,7 +9208,8 @@
       },
       {
         "url": "https://en.wikipedia.org/wiki/Prisoner_709",
-        "nome": "Wikipedia (EN, album)"
+        "nome": "Wikipedia (EN, album)",
+        "ruolo": "album"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -9265,6 +9268,97 @@
     "temi": [
       "identita",
       "liberta-evasione"
+    ]
+  },
+  {
+    "slug": "bella-vera",
+    "titolo": "Bella vera",
+    "artista": "883",
+    "artistaSlug": "883",
+    "anno": "2001",
+    "album": "Uno in più",
+    "albumSlug": "uno-in-piu",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop",
+      "rock"
+    ],
+    "paese": "it",
+    "colore": "#6E1F2E",
+    "colore2": "#2E8A6E",
+    "ascolti": 16084095,
+    "ascoltiTesto": "16 mln ascolti",
+    "spotifyId": "2h82J1T1pestuLF2dW93HB",
+    "corpo": [
+      "Prodotta da Pier Paolo Peroni, Carlo Ubaldo Rossi e Alberto Tafuri (che diresse anche l'orchestra impiegata nell'arrangiamento), fu pubblicata nell'aprile 2001 come primo singolo dell'album \"Uno in più\", il sesto e ultimo degli 883. Divenne uno dei tormentoni dell'estate 2001, partecipò al Festivalbar e fu scelta da Fabrizio Frizzi come sigla di Miss Italia dello stesso anno.",
+      "Il video, girato a Los Angeles dai registi Manetti Bros., vede Max Pezzali nei panni di un venditore di auto usate circondato da splendide modelle, fra cui Diana Kauffman nel ruolo della vincitrice di un concorso di bellezza. Il singolo raggiunse la sesta posizione della classifica italiana, restando per sei settimane nella top 20, e ottenne la certificazione di disco d'oro."
+    ],
+    "fraseIconica": "Il testo racconta un classico colpo di fulmine senza seguito: il protagonista rimane folgorato da una donna bellissima incontrata per caso, senza sapere nulla di lei, e la serata si conclude senza che i due si conoscano davvero — restando comunque grato alla vita per quell'incontro. Primo singolo dell'album \"Uno in più\" (2001), pubblicato nell'aprile di quell'anno, divenne uno dei tormentoni dell'estate, presentato al Festivalbar e scelto come sigla di Miss Italia.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/883/14112/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Bella_vera",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.donnaglamour.it/bella-vera-883-significato/lifestyle/",
+        "nome": "Donna Glamour"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ]
+  },
+  {
+    "slug": "bagatelle",
+    "titolo": "Bagatelle",
+    "artista": "Pinguini Tattici Nucleari",
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "anno": "2013 / 2014",
+    "album": "Il re è nudo",
+    "albumSlug": "il-re-e-nudo",
+    "genereTesto": "Indie pop / Cantautorato",
+    "generi": [
+      "pop"
+    ],
+    "paese": "it",
+    "colore": "#2E6E4A",
+    "colore2": "#8A3E5C",
+    "ascolti": 10751788,
+    "ascoltiTesto": "11 mln ascolti",
+    "spotifyId": "4EufJNroPVOF4mz1h4qmb0",
+    "corpo": [
+      "Scritta da Riccardo Zanotti, fu pubblicata nel settembre 2013 come singolo di lancio del primo album in studio della band, \"Il re è nudo\" (2014).",
+      "Il testo racconta un amore non corrisposto, con il narratore che chiede invano alla persona amata di ricambiarlo: un pezzo costruito su un ossimoro musicale, quello di una sofferenza raccontata con toni quasi comici, sostenuta per tutta la durata del brano da un ritmo festoso in stile giga irlandese."
+    ],
+    "fraseIconica": "Il momento più riconoscibile del brano è proprio il suo ritmo da giga irlandese, in netto contrasto con il tema di fondo: una richiesta d'amore respinta, raccontata con un tono quasi comico nonostante la sofferenza reale del narratore. Singolo di lancio del primo album della band, \"Il re è nudo\", pubblicato nel settembre 2013.",
+    "sezioniExtra": [],
+    "testoUrl": "https://testicanzoni.rockol.it/testi/bagatelle-pinguini-tattici-nucleari-ctid-42617619",
+    "fonti": [
+      {
+        "url": "https://tg24.sky.it/spettacolo/musica/2019/04/26/pinguini-tattici-nucleari-canzoni-famose",
+        "nome": "Sky TG24"
+      },
+      {
+        "url": "https://www.antiwarsongs.org/canzone.php?id=61613",
+        "nome": "Canzoni Contro la Guerra"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Rockol",
+    "temi": [
+      "amore"
     ]
   }
 ]

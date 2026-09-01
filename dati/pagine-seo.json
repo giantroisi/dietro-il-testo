@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 213,
+    "nCanzoni": 215,
     "haTestoEditoriale": true
   },
   {
@@ -1102,6 +1102,16 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/bella-vera/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bagatelle/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1112,7 +1122,7 @@
     "percorso": "artista/883/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -1602,7 +1612,7 @@
     "percorso": "artista/pinguini-tattici-nucleari/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -1894,6 +1904,13 @@
   },
   {
     "percorso": "album/883/grazie-mille/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/883/uno-in-piu/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -2649,6 +2666,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/pinguini-tattici-nucleari/il-re-e-nudo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/pinguini-tattici-nucleari/gioventu-brucata/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -2967,7 +2991,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 98,
+    "nCanzoni": 99,
     "haTestoEditoriale": true
   },
   {
@@ -2981,7 +3005,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 93,
+    "nCanzoni": 95,
     "haTestoEditoriale": true
   },
   {
@@ -3002,7 +3026,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 39,
+    "nCanzoni": 40,
     "haTestoEditoriale": true
   },
   {
@@ -3023,7 +3047,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 33,
+    "nCanzoni": 34,
     "haTestoEditoriale": true
   }
 ]
