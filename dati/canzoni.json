@@ -1825,7 +1825,7 @@
     "ascoltiTesto": "2,1 mld ascolti",
     "spotifyId": "1aTAR21kFePsDBHnc74Hli",
     "corpo": [
-      "Ultimo brano di Toto IV, quarto album della band, uscito nel 1982. Scritta da David Paich (testo e musica) insieme al batterista Jeff Porcaro, nacque mentre Paich sperimentava col suo nuovo sintetizzatore Yamaha CS-80, componendo il ritornello in appena dieci minuti.",
+      "Ultimo brano di Toto IV, quarto album della band, uscito nel 1982. Scritta da David Paich (testo e musica) insieme al batterista Jeff Porcaro, nacque mentre Paich sperimentava col suo nuovo sintetizzatore Yamaha CS-80, componendo il ritornello in appena dieci minuti. La sezione ritmica africana dell'apertura fu registrata da Jeff Porcaro con il percussionista Lenny Castro, mentre gli assoli simili a una marimba furono realizzati con un secondo sintetizzatore, lo Yamaha GS-1.",
       "Paich non era mai stato in Africa: l'ispirazione venne da documentari notturni, riviste, immagini di missionari e servizi umanitari visti in televisione durante l'infanzia. Divenne l'unico numero 1 della band nella Billboard Hot 100, raggiunto nel febbraio 1983."
     ],
     "fraseIconica": "Il verso più citato è quello in cui il narratore dice di benedire le piogge sull'Africa. Il tastierista David Paich, che scrisse gran parte del brano senza mai essere stato in Africa, si ispirò a un documentario televisivo notturno sulle difficoltà del continente e ai ricordi d'infanzia di insegnanti missionari che raccontavano di benedire villaggi, raccolti e libri. La frase sulla \"benedizione della pioggia\" non va letta come un riferimento meteorologico letterale, ma come un legame spirituale con la terra, con la pioggia simbolo di rinascita dopo la siccità.",
@@ -1840,6 +1840,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/toto/africa",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -1868,7 +1873,7 @@
     "spotifyId": "0COqiPhxzoWICwFCS4eZcp",
     "corpo": [
       "Primo singolo dell'album d'esordio Fallen, uscito nel 2003. Amy Lee la scrisse a diciannove anni dopo che un conoscente dell'epoca, Josh Hartzler, le chiese semplicemente \"sei felice?\" — una domanda che la fece riflettere su una relazione in cui si sentiva emotivamente assente.",
-      "Lee sposò lo stesso Hartzler nel 2007. La parte rap maschile fu aggiunta su richiesta della casa discografica, contro il volere iniziale della cantante."
+      "Lee sposò lo stesso Hartzler nel 2007. La parte rap maschile, eseguita da Paul McCoy dei 12 Stones, fu aggiunta su richiesta dell'etichetta Wind-up Records, contro il volere iniziale della cantante, che l'ha definita esplicitamente non nel proprio stile."
     ],
     "fraseIconica": "Il verso più citato è la supplica, ripetuta nel corso del brano, di essere \"svegliata\" dal vuoto interiore e \"salvata\", con un'interiezione in voce maschile che la esorta a farlo. Amy Lee si è ispirata all'incontro con Josh Hartzler (che avrebbe poi sposato nel 2007), un conoscente dell'epoca che le chiese negli occhi se fosse felice, facendola sentire vista per la prima volta — un'esperienza che descrisse come un vero e proprio risveglio. Il co-autore Ben Moody ha definito il brano una riflessione sull'incontrare qualcuno o qualcosa capace di risvegliare un sentimento mai provato prima.",
     "sezioniExtra": [],
@@ -1882,6 +1887,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -1908,8 +1918,8 @@
     "ascoltiTesto": "1,7 mld ascolti",
     "spotifyId": "28o227htB6vvjQBfGsQm5z",
     "corpo": [
-      "Terzo album della band, uscito nel 1974: il brano fu scritto nell'estate del 1973 in parte come risposta polemica a Neil Young, che in due sue canzoni precedenti aveva criticato duramente il razzismo del Sud degli Stati Uniti.",
-      "Il cantante Ronnie Van Zant e gli altri autori, pur non essendo nati in Alabama, volevano restituire un'immagine più sfaccettata del Sud, riconoscendone i lati oscuri ma rifiutando la generalizzazione. Fu il primo singolo della band a entrare in classifica, arrivando fino alla posizione numero 8."
+      "Terzo album della band, uscito nel 1974: il brano fu scritto nell'estate del 1973 (l'idea iniziale fu di Gary Rossington, l'intro di Ed King, i testi di Ronnie Van Zant) in parte come risposta polemica a Neil Young, che in due sue canzoni precedenti aveva criticato duramente il razzismo del Sud degli Stati Uniti.",
+      "Il cantante Ronnie Van Zant e gli altri autori, pur non essendo nati in Alabama, volevano restituire un'immagine più sfaccettata del Sud, riconoscendone i lati oscuri ma rifiutando la generalizzazione. Fu il primo singolo della band a entrare in classifica, arrivando fino alla posizione numero 8. La polemica restò comunque cordiale: Van Zant indossava spesso sul palco magliette con la scritta Neil Young, di cui la band si dichiarava ammiratrice."
     ],
     "fraseIconica": "Il verso più discusso è quello che cita direttamente Neil Young e afferma che lo scandalo Watergate non turba il narratore, rigirando la domanda sulla coscienza dell'ascoltatore. Il brano fu scritto in parte come risposta diretta ai pezzi di Young \"Southern Man\" e \"Alabama\", che la band sentiva ingiustamente accusatori verso l'intero Sud per la sua storia di razzismo; lo stesso Young ha poi ammesso nelle sue memorie che i suoi testi erano stati \"accusatori e paternalistici\" e facili da fraintendere. Il significato esatto del riferimento al Watergate resta dibattuto tra gli storici della musica.",
     "sezioniExtra": [],
@@ -1923,6 +1933,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/lynyrd-skynyrd/sweet-home-alabama",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -1995,7 +2010,7 @@
     "ascoltiTesto": "1,3 mld ascolti",
     "spotifyId": "7HwB4zc7tS1lyw4Ay7fcmq",
     "corpo": [
-      "Title track del terzo album della band, registrato a Copenaghen con il produttore Flemming Rasmussen e pubblicato l'8 marzo 1986. James Hetfield ha spiegato che il brano parla di dipendenza dalle droghe: invece di controllare ciò che si assume, è la sostanza stessa a prendere il controllo — la droga come \"burattinaio\" e chi la usa come \"burattino\".",
+      "Title track del terzo album della band, registrato a Copenaghen con il produttore Flemming Rasmussen e pubblicato l'8 marzo 1986. James Hetfield ha spiegato che il brano parla di dipendenza dalle droghe: invece di controllare ciò che si assume, è la sostanza stessa a prendere il controllo — la droga come \"burattinaio\" e chi la usa come \"burattino\". Il brano è accreditato all'intera band: James Hetfield, Lars Ulrich, Kirk Hammett e Cliff Burton.",
       "L'album è considerato uno dei capisaldi del thrash metal; la popolarità della canzone è cresciuta ulteriormente dopo essere stata usata in un momento chiave della terza stagione di Stranger Things."
     ],
     "fraseIconica": "Il momento più citato è la sezione centrale in cui la droga, parlando in prima persona, si vanta di controllare chi ne fa uso — tirandone i fili, distorcendone la mente e rovinandone sogni e vita. James Hetfield confermò in un'intervista a Thrasher del 1988 che il brano parla di dipendenza, costruito come un ribaltamento di potere: chi inizia controllando la droga finisce controllato da essa. Il testo è scritto come se fosse la droga stessa, il \"padrone\", a schernire il proprio \"burattino\".",
@@ -2010,6 +2025,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/metallica/master-of-puppets",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -2082,7 +2102,7 @@
     "spotifyId": "4n34opw3JxYmhDkRVLAOQL",
     "corpo": [
       "Contenuta nell'album Nessun pericolo... per te, pubblicato nel 1996, scritta da Vasco Rossi con Tullio Ferro. Il testo, composto mentre l'artista si trovava su una barca durante una vacanza a Saint-Tropez, racconta la storia di una donna convinta di aver sbagliato tutto nella vita e di aver sprecato le proprie occasioni, lasciando però spazio alla speranza che qualcosa, alla fine, si sia comunque salvato.",
-      "Vasco ha ammesso che Sally è in realtà una sua versione femminile: \"stavo parlando di me\"."
+      "Vasco ha definito Sally «la parte femminile di me», precisando di ritrovarcisi «soprattutto»: lo stesso pezzo, per lui, prosegue idealmente \"Jenny\", altro ritratto femminile del suo primo 45 giri — \"ero Jenny prima e Sally dopo\"."
     ],
     "fraseIconica": "Il ritornello più citato descrive la vita stessa come un brivido fugace, qualcosa che passa in fretta, in bilico sul confine della follia. Vasco scrisse il brano velocemente su una barca durante una vacanza a Saint-Tropez; inizialmente pensava a una donna specifica sulla trentina, ma in seguito ammise che molto di sé stesso finì nel personaggio. Sally rappresenta chi ha commesso degli errori ma trova comunque un filo di speranza, e questo ritornello è la parte più identificata con la filosofia del brano sull'accettare la fragilità della vita.",
     "sezioniExtra": [],
@@ -2096,6 +2116,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.rollingstone.it/musica/news-musica/vasco-rossi-celebra-sally-nellanniversario-della-pubblicazione-e-la-parte-femminile-di-me/530205/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -5206,7 +5231,7 @@
     "spotifyId": "4xyp77VPg90ezi7N1p99a5",
     "corpo": [
       "Pubblicata nel 1993 come secondo estratto dall'album \"Sopravvissuti e sopravviventi\", la ballata vede Ligabue ripercorrere la propria vita, riconoscendo di essere riuscito a \"mettere via\" — cioè superare — molte fasi ed esperienze del passato, ma non una persona in particolare, mai nominata esplicitamente nel testo.",
-      "Il brano è arricchito da un assolo di tromba di Demo Morselli, da un'introduzione al pianoforte di Gianfranco Fornaciari e da un riff di chitarra con bottleneck di Max Cottafavi. Nel 2010 è stato reinterpretato da Elisa nell'album \"Ivy\"."
+      "Il brano è arricchito da un assolo di tromba di Demo Morselli, da un'introduzione al pianoforte di Gianfranco Fornaciari e da un riff di chitarra con bottleneck di Max Cottafavi. Nel 2010 è stato reinterpretato da Elisa nell'album \"Ivy\". OndaRock ha definito il brano «la perla dell'album», per come mette insieme i riff con bottleneck di Cottafavi, il pianoforte di Fornaciari e l'assolo di tromba dentro un blues che gira «come un carillon»."
     ],
     "fraseIconica": "Il nucleo del testo è l'ammissione di non riuscire a spiegarsi perché, pur avendo messo da parte tanti aspetti della propria vita, non si riesca a fare lo stesso con la persona amata — o, secondo alcune letture, con la figura paterna. Secondo singolo estratto dall'album \"Sopravvissuti e sopravviventi\" (1993), resta una delle ballate più amate del repertorio di Ligabue.",
     "sezioniExtra": [],
@@ -5215,6 +5240,11 @@
       {
         "url": "https://it.wikipedia.org/wiki/Ho_messo_via",
         "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.ondarock.it/italia/ligabue.htm",
+        "nome": "OndaRock",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7178,7 +7208,7 @@
     "ascoltiTesto": "448 mln ascolti",
     "spotifyId": "6xpDh0dXrkVp0Po1qrHUd8",
     "corpo": [
-      "Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di band avevano una persona ad aspettarli a casa, lui si ritrovava solo. La spinta decisiva arrivò da un articolo di rivista che raccontava la storia di uno studente che si era tolto la vita lasciando un biglietto ai genitori — una lettura che Hoppus definì scioccante.",
+      "Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di band avevano una persona ad aspettarli a casa, lui si ritrovava solo. La spinta decisiva arrivò da un articolo di rivista che raccontava la storia di uno studente che si era tolto la vita lasciando un biglietto ai genitori — una lettura che Hoppus definì scioccante. In un'intervista a Rolling Stone del 2000, Hoppus ha raccontato: \"Tom e Travis avevano sempre una ragazza ad aspettarli a casa, quindi avevano qualcosa da aspettare alla fine del tour. Io no, quindi ero sempre da solo.\"",
       "Nel 2000, un anno dopo la strage di Columbine, il brano finì al centro di una controversia: un diciassettenne sopravvissuto alla strage, Greg Barnes, si tolse la vita mentre la canzone suonava in loop, e il gruppo la ritirò dal repertorio dal vivo fino al 2018. In un'intervista a MTV News, Hoppus rispose a chi collegava il brano all'episodio: \"Ma quella è una canzone anti-suicidio!\", spiegando che il cuore del pezzo riguarda l'attraversare un momento difficile e trovare la forza di andare avanti."
     ],
     "fraseIconica": "Il momento più discusso è il finale, che dopo aver attraversato dolore e stanchezza si chiude con un messaggio di speranza; proprio quel passaggio, secondo Hoppus, è il cuore della canzone, pensata come un incoraggiamento a resistere e non come un'istigazione.",
@@ -7193,6 +7223,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/blink-182/adams-song",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7220,7 +7255,7 @@
     "spotifyId": "5S126DaCBZ8z6yh7B1Lszr",
     "corpo": [
       "Scritta a cinque mani dalla formazione Mark II, nacque da un'idea musicale del chitarrista Ritchie Blackmore: ispirandosi al movimento a semitoni del tema televisivo di Batman, composto da Neal Hefti, lo fece passare attraverso un amplificatore Marshall e chiese al cantante Ian Gillan di scrivere un testo sopra quel riff.",
-      "Gillan, appassionato di fantascienza anni Cinquanta, immaginò un equipaggio di camionisti spaziali in viaggio fra Venere, Marte e la Via Lattea, con un approccio giocoso più che filosofico, nel clima di entusiasmo generale per il programma Apollo di quegli anni. Il brano fu registrato nel dicembre 1971 al Grand Hotel di Montreux, in Svizzera, con lo studio mobile dei Rolling Stones — lo stesso trasferito lì dopo l'incendio al Casinò di Montreux che aveva ispirato \"Smoke on the Water\"."
+      "Gillan, appassionato di fantascienza anni Cinquanta, immaginò un equipaggio di camionisti spaziali in viaggio fra Venere, Marte e la Via Lattea, con un approccio giocoso più che filosofico, nel clima di entusiasmo generale per il programma Apollo di quegli anni. Il brano fu registrato nel dicembre 1971 al Grand Hotel di Montreux, in Svizzera, con lo studio mobile dei Rolling Stones — lo stesso trasferito lì dopo l'incendio al Casinò di Montreux che aveva ispirato \"Smoke on the Water\". Lo stesso Gillan ha ridimensionato ogni lettura letterale del testo: \"Non è letterale, niente in quella canzone lo è. È tutto un gioco di parole.\""
     ],
     "fraseIconica": "Il momento più ricordato è il ritornello che dà il titolo al brano, con l'equipaggio spaziale che attraversa i pianeti in tono da avventura scanzonata — un testo pensato per divertire più che per comunicare un messaggio preciso.",
     "sezioniExtra": [],
@@ -7234,6 +7269,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/deep-purple/space-truckin",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7262,7 +7302,7 @@
     "spotifyId": "3ZffCQKLFLUvYM59XKLbVm",
     "corpo": [
       "Scritta da Billie Joe Armstrong come omaggio al padre, morto di cancro all'esofago il 10 settembre 1982, quando il cantante aveva dieci anni. Dopo il funerale, Armstrong corse a casa e si chiuse in camera; quando la madre bussò alla porta per vedere come stava, rispose semplicemente \"Wake me up when September ends\" — la frase che sarebbe diventata il titolo del brano.",
-      "Armstrong ha raccontato di aver evitato per anni di scrivere di quella perdita, e di averla affrontata solo circa vent'anni dopo, quando si è sentito pronto: \"Avevo evitato di scriverne per molti anni, e poi finalmente avere una svolta come quella mi ha fatto stare bene.\" Il brano fu inciso solo dopo quella lunga distanza di tempo dalla morte del padre."
+      "Armstrong ha raccontato di aver evitato per anni di scrivere di quella perdita, e di averla affrontata solo circa vent'anni dopo, quando si è sentito pronto: \"Avevo evitato di scriverne per molti anni, e poi finalmente avere una svolta come quella mi ha fatto stare bene.\" Il brano fu inciso solo dopo quella lunga distanza di tempo dalla morte del padre. Il verso \"seven years has gone so fast\" allude al fatto che gli Sweet Children, la band che si sarebbe poi trasformata nei Green Day, nacquero esattamente sette anni dopo la morte del padre di Armstrong."
     ],
     "fraseIconica": "Il titolo stesso nasce da un momento privato e reale: la frase pronunciata da un Armstrong bambino, chiuso in camera dopo il funerale del padre, che chiedeva alla madre di lasciarlo in pace fino alla fine di quel mese doloroso.",
     "sezioniExtra": [],
@@ -7276,6 +7316,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7302,7 +7347,7 @@
     "ascoltiTesto": "1,8 mld ascolti",
     "spotifyId": "0G21yYKMZoHa30cYVi1iA8",
     "corpo": [
-      "Il testo nacque da un momento di distacco: Axl Rose, in visita a un'amica vicino Seattle e quindi lontano dal caos di Los Angeles, si ritrovò a rielaborare le sensazioni provate a vent'anni, appena arrivato in città nel 1982 da una provincia dell'Indiana, davanti alla durezza e all'eccesso della vita losangelina.",
+      "Il testo nacque da un momento di distacco: Axl Rose, in visita a un'amica vicino Seattle e quindi lontano dal caos di Los Angeles, si ritrovò a rielaborare le sensazioni provate a vent'anni, appena arrivato in città nel 1982 da una provincia dell'Indiana, davanti alla durezza e all'eccesso della vita losangelina. Il chitarrista ritmico Izzy Stradlin ha descritto il brano come qualcosa \"sulle strade di Hollywood, vero alla realtà\". Contribuì all'ispirazione anche un incontro con un senzatetto a New York, che parlò ad Axl e a un suo amico proprio della \"giungla\" della città.",
       "Sul piano musicale, il riff portante fu sviluppato dal chitarrista Slash e proposto ad Axl con una chitarra acustica in uno scantinato di casa della madre di Slash — la prima cosa, secondo la band, scritta davvero in collaborazione da tutti i membri. La sezione centrale del brano riprende un'idea tratta da un pezzo del 1978, \"The Fake\", scritto in precedenza dal bassista Duff McKagan."
     ],
     "fraseIconica": "Il titolo stesso, \"Welcome to the Jungle\", riassume l'intero brano: l'arrivo spaesato in una città che promette libertà e in realtà espone a un ambiente spietato, raccontato da Axl Rose ripensando al proprio smarrimento da ventenne appena arrivato a Los Angeles.",
@@ -7317,6 +7362,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/guns-n-roses/welcome-to-the-jungle",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7344,7 +7394,7 @@
     "spotifyId": "469rBLYJUZHMJLtq2Wch3h",
     "corpo": [
       "Scritta dal bassista Steve Harris, racconta in prima persona gli ultimi momenti di un condannato a morte, rinchiuso in cella in attesa dell'esecuzione: il titolo riprende una frase del Padre Nostro. Fu uno dei primi brani incisi dalla band con il nuovo cantante Bruce Dickinson, che ne intuì subito il potenziale: \"Quella canzone, e l'intero album, portarono i Maiden a un livello diverso\", ha raccontato, definendola una sorta di precursore di \"Rime of the Ancient Mariner\".",
-      "Lo stesso Steve Harris, interrogato su quale brano scegliere per far conoscere la band a chi non la conosce, ha risposto: \"Credo che sia proprio 'Hallowed Be Thy Name'\". Nel 2017 i lettori di Metal Hammer l'hanno votata come la miglior canzone della band in assoluto."
+      "Lo stesso Steve Harris, interrogato su quale brano scegliere per far conoscere la band a chi non la conosce, ha risposto: \"Credo che sia proprio 'Hallowed Be Thy Name'\". Nel 2017 i lettori di Metal Hammer l'hanno votata come la miglior canzone della band in assoluto. Alcuni versi del testo furono ripresi, come segnaposto poi mai sostituito prima della pubblicazione del disco, da \"Life's Shadow\" (1974) della band prog Beckett, che Harris aveva visto suonare dal vivo nel 1973: una causa legale dei due autori originali, Bob Barton e Brian Quinn, portò a un accordo extragiudiziale, e il brano fu tolto dalla scaletta dal vivo durante il tour Maiden England (2012-2014) e parte del tour Book of Souls (2017)."
     ],
     "fraseIconica": "Il momento più citato è la contraddizione interiore del protagonista, certo dell'immortalità della propria anima eppure travolto dal terrore mentre lo portano al patibolo: un'angoscia che cresce insieme alla musica fino al momento dell'esecuzione.",
     "sezioniExtra": [],
@@ -7358,6 +7408,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/iron-maiden/hallowed-be-thy-name",
+        "nome": "Songfacts",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -7633,7 +7688,7 @@
     "ascoltiTesto": "25 mln ascolti",
     "spotifyId": "28ILqSCrIeWvU52pyZfsxx",
     "corpo": [
-      "Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di \"Reign in Blood\" prima della title track \"Raining Blood\" che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale nel 1986, in anticipo sull'uscita del disco: la Columbia Records, distributrice della Def Jam, rifiutò di distribuire l'intero album per il contenuto di un altro brano, \"Angel of Death\", e la distribuzione passò infine alla Geffen Records, che però non lo inserì nel proprio calendario ufficiale di uscite per la stessa controversia.",
+      "Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di \"Reign in Blood\" prima della title track \"Raining Blood\" che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale nel 1986, in anticipo sull'uscita del disco: la Columbia Records, distributrice della Def Jam, rifiutò di distribuire l'intero album per il contenuto di un altro brano, \"Angel of Death\", e la distribuzione passò infine alla Geffen Records, che però non lo inserì nel proprio calendario ufficiale di uscite per la stessa controversia. Il singolo, pubblicato dalla Def Jam Recordings (numero di catalogo 920 706-0, 12\" a 45 giri), conteneva sul lato B una versione remix di \"Criminally Insane\" e una versione accelerata di \"Aggressive Perfector\".",
       "Il titolo, dal latino \"dopo la morte\", accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe."
     ],
     "fraseIconica": "Il momento più ricordato è la transizione diretta nel brano successivo, \"Raining Blood\", senza pause: la fine di \"Postmortem\" non è una conclusione ma un innesco, coerente con un testo che descrive la morte non come fine ma come soglia.",
@@ -7649,6 +7704,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.metal-archives.com/albums/Slayer/Postmortem/5346",
+        "nome": "Encyclopaedia Metallum (Metal Archives)",
+        "ruolo": "crediti"
       }
     ],
     "testoFonte": "Dork",
@@ -8813,7 +8873,7 @@
     "ascoltiTesto": "21 mln ascolti",
     "spotifyId": "6xLpTZsDaqRCBYOEvCNbfv",
     "corpo": [
-      "Terzo singolo estratto e traccia d'apertura dell'omonimo quarto album, pubblicato da Sony Music il 5 aprile 2019 — il primo della band con una major, dopo gli esordi autoprodotti e distribuiti in Creative Commons.",
+      "Terzo singolo estratto e traccia d'apertura dell'omonimo quarto album, pubblicato da Sony Music il 5 aprile 2019 — il primo della band con una major, dopo gli esordi autoprodotti e distribuiti in Creative Commons. Il singolo ha ottenuto la certificazione d'oro in Italia, con oltre 35.000 copie vendute, ed è stato prodotto da Fabrizio Ferraguzzo; il videoclip, diretto da William9, è uscito il 22 marzo 2019.",
       "Il brano apre il disco quasi come un'epigrafe, affrontando il tema dell'autenticità e della resistenza alla superficialità: il ritornello che dà il titolo al pezzo e all'album è la presa di posizione della band contro il sospetto, diffuso negli ambienti indie, che firmare per una major comporti la perdita di spontaneità e autonomia creativa."
     ],
     "fraseIconica": "Il ritornello più citato è il titolo stesso, ripetuto come una dichiarazione d'intenti: restare fuori dall'hype, cioè fuori dalle logiche del successo a tutti i costi. Terzo singolo e traccia d'apertura del quarto album, il primo pubblicato dalla band con una major dopo gli esordi autoprodotti, il brano risponde in anticipo al sospetto — diffuso nell'ambiente indie da cui provenivano — che il passaggio a una grande etichetta ne avrebbe snaturato l'autenticità.",
@@ -8829,6 +8889,11 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Fuori_dall%27hype_(singolo)",
+        "nome": "Wikipedia (voce del singolo)",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
