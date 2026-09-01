@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 225,
+    "nCanzoni": 226,
     "haTestoEditoriale": true
   },
   {
@@ -1162,6 +1162,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/you-have-what-it-takes/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1179,7 +1184,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 10,
+    "nCanzoni": 11,
     "haTestoEditoriale": true
   },
   {
@@ -2038,6 +2043,13 @@
   },
   {
     "percorso": "album/a-ha/cast-in-steel/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/true-north/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3111,7 +3123,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 106,
+    "nCanzoni": 107,
     "haTestoEditoriale": true
   },
   {

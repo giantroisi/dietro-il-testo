@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/a-ha/true-north/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/high-voltage/",
       "destination": "/artista/ac-dc/",
       "permanent": true

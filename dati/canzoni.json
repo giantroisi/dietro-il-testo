@@ -9953,5 +9953,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "you-have-what-it-takes",
+    "titolo": "You Have What It Takes",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2022",
+    "album": "True North",
+    "albumSlug": "true-north",
+    "genereTesto": "Soft rock / Pop sinfonico",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1F3E5C",
+    "colore2": "#2E5C4A",
+    "ascolti": 956871,
+    "ascoltiTesto": "956 mila ascolti",
+    "spotifyId": "4iunva7R2epXjPWFub69dS",
+    "corpo": [
+      "Scritta da Magne Furuholmen, che ne pubblicò una prima versione demo cantata da lui stesso su Instagram il 4 aprile 2021, fu il secondo singolo estratto dall'undicesimo album in studio, uscito il 16 settembre 2022 con la voce definitiva di Morten Harket. Furuholmen ha spiegato l'origine del brano: \"Viviamo in tempi sempre più confusi e instabili, e ci sono cose che spesso dimentichiamo di esprimere abbastanza — agli altri, ai nostri figli, alle persone che amiamo, ai nostri amici, e alla generazione che sta crescendo.\"",
+      "L'intero album fu registrato dal vivo nel novembre 2021 alla Svømmehallen, una sala concerti ricavata da un'ex piscina a Bodø, appena fuori dal Circolo Polare Artico, e filmato in contemporanea per un documentario con lo stesso titolo. Il sito specializzato SuperDeluxeEdition ha definito \"You Have What It Takes\" \"una splendida ballata\" in cui \"parole e musica si combinano senza sforzo per dare qualcosa di davvero speciale\", assegnandole un 4 su 5 nella recensione traccia per traccia dell'album."
+    ],
+    "fraseIconica": "Il titolo stesso, ripetuto come rassicurazione diretta rivolta a chi ascolta, è il momento più ricordato: un incoraggiamento a credere nelle proprie capacità in tempi percepiti come confusi e instabili.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/you-have-what-it-takes/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/You_Have_What_It_Takes",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://superdeluxeedition.com/reviews/a-has-true-north-track-by-track/",
+        "nome": "SuperDeluxeEdition",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
