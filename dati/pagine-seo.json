@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 221,
+    "nCanzoni": 222,
     "haTestoEditoriale": true
   },
   {
@@ -1142,6 +1142,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/forever-not-yours/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1159,7 +1164,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -1990,6 +1995,13 @@
   },
   {
     "percorso": "album/a-ha/minor-earth-major-sky/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/lifelines/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3063,7 +3075,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 102,
+    "nCanzoni": 103,
     "haTestoEditoriale": true
   },
   {
@@ -3098,7 +3110,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 41,
+    "nCanzoni": 42,
     "haTestoEditoriale": true
   },
   {

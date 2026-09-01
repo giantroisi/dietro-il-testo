@@ -9777,5 +9777,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "forever-not-yours",
+    "titolo": "Forever Not Yours",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2002",
+    "album": "Lifelines",
+    "albumSlug": "lifelines",
+    "genereTesto": "Synth-pop",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#5C2E3E",
+    "colore2": "#2E3E6E",
+    "ascolti": 6445294,
+    "ascoltiTesto": "6,4 mln ascolti",
+    "spotifyId": "6xSFUvaGsknS91piYekmXP",
+    "corpo": [
+      "Scritta da Morten Harket e Ole Sverre Olsen per il testo, con la musica firmata da Magne Furuholmen e lo stesso Harket, fu il primo singolo estratto da \"Lifelines\", inviata alle radio europee dal 22 febbraio 2002 e pubblicata commercialmente il 2 aprile. Il titolo gioca ironicamente sulla formula di chiusura delle lettere d'amore \"forever yours\", ribaltata in una dichiarazione di distacco.",
+      "Harket ha descritto il brano come uno di quelli che meglio riassumono l'identità della band: \"Malinconia, e allo stesso tempo elevante, che si libra in volo.\" Il videoclip, diretto da Harald Zwart e girato a Cuba, reinterpreta in chiave pop il diluvio universale e l'arca di Noè, con controfigure di celebrità — fra cui Desmond Tutu, Madonna, Lenny Kravitz ed Elisabetta II — in coda all'ingresso vip dell'arca. Non tutta la critica lo ha accolto allo stesso modo: musicOMH lo ha indicato fra i brani più deboli dell'album, sostenendo che la band non fosse stata abbastanza severa nella scelta della tracklist."
+    ],
+    "fraseIconica": "Il titolo stesso, ripetuto nel ritornello, è il momento più citato: un gioco di parole sulla formula \"forever yours\" delle lettere d'amore, capovolta in una dichiarazione di allontanamento più che di appartenenza.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/102903/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Forever_Not_Yours",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.musicomh.com/reviews/albums/a-ha-lifelines",
+        "nome": "musicOMH",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
