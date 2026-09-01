@@ -9865,5 +9865,49 @@
     ],
     "testoFonte": "Genius",
     "temi": []
+  },
+  {
+    "slug": "foot-of-the-mountain",
+    "titolo": "Foot of the Mountain",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2009",
+    "album": "Foot of the Mountain",
+    "albumSlug": "foot-of-the-mountain",
+    "genereTesto": "Synth-pop",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E5C4A",
+    "colore2": "#5C4A2E",
+    "ascolti": 17433321,
+    "ascoltiTesto": "17 mln ascolti",
+    "spotifyId": "3Cm2bgwzocxsB5sD6g8VSL",
+    "corpo": [
+      "Title track del nono album in studio, scritta da Pål Waaktaar-Savoy, Magne Furuholmen e dal produttore Martin Terefe, fu il primo singolo pubblicato il 5 maggio 2009. In un documentario della band, Waaktaar-Savoy ha raccontato di essersi chiesto spesso \"se sarei più felice all'aperto, ai piedi della montagna\", mentre Furuholmen ha descritto i versi come una riflessione sul \"disordine urbano\". Furuholmen ha anche descritto l'album nel suo complesso come un ritorno ai tratti fondativi della band: \"voci che si librano, hook di sintetizzatore, testi struggenti e una malinconia melodica\".",
+      "Il videoclip, diretto da Olaf Heine e Mik Rahner con Morten Harket protagonista, fu girato fra Berlino, Amburgo e la costa baltica della Pomerania, in una transizione visiva da una Berlino claustrofobica a paesaggi aperti. Il brano fu scelto come inno ufficiale dei Campionati mondiali di atletica leggera 2009 di Berlino, e in Germania raggiunse la terza posizione — il piazzamento più alto della band in classifica in quel paese dai tempi di \"Take On Me\" nel 1985."
+    ],
+    "fraseIconica": "Il titolo stesso, con l'immagine dei \"piedi della montagna\" come luogo di partenza più che di arrivo, riassume il momento più ricordato: un'aspirazione all'aria aperta e alla semplicità, in contrasto con il \"disordine urbano\" descritto nel resto del testo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/1473954/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Foot_of_the_Mountain_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.udiscovermusic.com/news/a-ha-foot-of-the-mountain-vinyl/",
+        "nome": "uDiscoverMusic",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 223,
+    "nCanzoni": 224,
     "haTestoEditoriale": true
   },
   {
@@ -1152,6 +1152,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/foot-of-the-mountain/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1169,7 +1174,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 8,
+    "nCanzoni": 9,
     "haTestoEditoriale": true
   },
   {
@@ -2014,6 +2019,13 @@
   },
   {
     "percorso": "album/a-ha/analogue/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/foot-of-the-mountain/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3087,7 +3099,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 104,
+    "nCanzoni": 105,
     "haTestoEditoriale": true
   },
   {
@@ -3122,7 +3134,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 43,
+    "nCanzoni": 44,
     "haTestoEditoriale": true
   },
   {
