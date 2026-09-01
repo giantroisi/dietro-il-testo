@@ -38,12 +38,18 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const UA = 'dietroiltesto-ritratti/1.1 (verifica licenze immagini; dietroiltesto.it)';
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
 const WIKIDATA = 'https://www.wikidata.org/w/api.php';
-const PAUSA = 700;
+const PAUSA = 1500;
 
 const LICENZE_BUONE = [/^cc0/i, /^cc[- ]?by(?:[- ]?sa)?[- ]?\d/i, /^public domain/i, /^pd[- ]/i, /^attribution/i];
 const LICENZE_VIETATE = [/\bnc\b/i, /noncommercial/i, /\bnd\b/i, /noderiv/i, /fair use/i, /non-free/i];
-// Non scartano: segnalano. Sotto la foto c'e' un'opera di qualcun altro.
+// Non scartano: segnalano. Sotto la foto c'e' un'opera di qualcun altro, e la
+// licenza del fotografo non copre quella.
 const OPERA_ALTRUI = /\b(mural|murale|graffiti|street art|statue|statua|monument|monumento|poster|manifesto|cover|copertina|artwork|logo|billboard|cartellone|waxwork|madame tussauds)\b/i;
+// Non e' una foto della band. Nelle categorie Commons finisce di tutto: un
+// Boeing con la livrea GNAIR dentro «Guns N' Roses», un ponte dentro «Black
+// Sabbath», un sergente omonimo dentro «Michael Jackson». Tutti veri, primo
+// settembre, tutti in cima perche' erano le immagini piu' grandi.
+const NON_E_LA_BAND = /\b(bridge|ponte|plaque|targa|sign|insegna|street|via|road|airport|aeroporto|boeing|airbus|aircraft|aereo|train|treno|station|stazione|museum|museo|mushroom|fungo|building|edificio|church|chiesa|stadium|stadio|arena|hotel|restaurant|map|mappa|flag|bandiera|coin|moneta|stamp|francobollo)\b/i;
 const MUSICALE = /(band|gruppo|musical|music|cantante|singer|rapper|dj|musicist|rock|pop|metal|duo|complesso)/i;
 
 const args = process.argv.slice(2);
@@ -64,14 +70,16 @@ if (limite) elenco = elenco.slice(0, limite);
 const pulisci = (s) => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 const attesa = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function json(url, tentativi = 3) {
+async function json(url, tentativi = 5) {
   for (let i = 0; i < tentativi; i++) {
     const r = await fetch(url, { headers: { 'user-agent': UA } });
-    if (r.status === 429) { await attesa(3000 * (i + 1)); continue; }
+    // Attesa che raddoppia: 4s, 8s, 16s, 32s. Un limite di richieste non e' un
+    // errore da segnalare, e' un'istruzione da rispettare.
+    if (r.status === 429 || r.status === 503) { await attesa(4000 * 2 ** i); continue; }
     if (!r.ok) throw new Error(`risponde ${r.status}`);
     return r.json();
   }
-  throw new Error('429 ripetuto: Commons sta limitando le richieste');
+  throw new Error('Commons continua a limitare le richieste anche rallentando');
 }
 
 // --- 1. dal nome dell'artista alla categoria Commons, passando da Wikidata
@@ -96,35 +104,18 @@ async function categoriaDi(nome) {
   return null;
 }
 
-// --- 2. i file dentro quella categoria (e un livello di sottocategorie)
+// --- 2. i file della categoria, con licenza e misure, in UNA sola richiesta.
+// Il giro precedente ne faceva otto per artista e Commons ha risposto 429 su
+// dodici artisti su venti: `generator=categorymembers` unito a `prop=imageinfo`
+// chiede la stessa cosa una volta sola.
 async function fileDellaCategoria(cat) {
-  const titoli = new Set();
-  const sotto = [];
-  const p = new URLSearchParams({ action: 'query', format: 'json', origin: '*', list: 'categorymembers', cmtitle: cat, cmlimit: '200', cmtype: 'file|subcat' });
+  const p = new URLSearchParams({
+    action: 'query', format: 'json', origin: '*',
+    generator: 'categorymembers', gcmtitle: cat, gcmtype: 'file', gcmlimit: '120',
+    prop: 'imageinfo', iiprop: 'url|size|extmetadata',
+  });
   const d = await json(`${COMMONS}?${p}`);
-  for (const m of (d.query && d.query.categorymembers) || []) {
-    if (m.ns === 6) titoli.add(m.title);
-    else if (m.ns === 14) sotto.push(m.title);
-  }
-  for (const sc of sotto.slice(0, 4)) {
-    await attesa(PAUSA);
-    const p2 = new URLSearchParams({ action: 'query', format: 'json', origin: '*', list: 'categorymembers', cmtitle: sc, cmlimit: '120', cmtype: 'file' });
-    const d2 = await json(`${COMMONS}?${p2}`);
-    for (const m of (d2.query && d2.query.categorymembers) || []) titoli.add(m.title);
-  }
-  return [...titoli];
-}
-
-async function informazioni(titoli) {
-  const fuori = [];
-  for (let i = 0; i < titoli.length; i += 40) {
-    const lotto = titoli.slice(i, i + 40);
-    const p = new URLSearchParams({ action: 'query', format: 'json', origin: '*', titles: lotto.join('|'), prop: 'imageinfo', iiprop: 'url|size|extmetadata' });
-    const d = await json(`${COMMONS}?${p}`);
-    fuori.push(...Object.values((d.query && d.query.pages) || {}));
-    await attesa(PAUSA);
-  }
-  return fuori;
+  return Object.values((d.query && d.query.pages) || {});
 }
 
 function licenzaOk(m) {
@@ -153,8 +144,17 @@ for (const a of elenco) {
       const g = licenzaOk(m); if (!g.ok) continue;
       if ((ii.width || 0) < 700) continue;
       const testo = `${p.title} ${pulisci(m.ImageDescription && m.ImageDescription.value)}`;
+      const parole = a.nome.toLowerCase().split(/[^a-z0-9à-ÿ]+/).filter((w) => w.length > 2);
+      const minusc = testo.toLowerCase();
+      const quanteParole = parole.filter((w) => minusc.includes(w)).length;
+      // Il nome dell'artista nel titolo o nella descrizione vale piu' della
+      // dimensione: ordinare per pixel metteva in cima l'aeroplano.
+      let punti = parole.length ? (quanteParole / parole.length) * 4 : 0;
+      if (NON_E_LA_BAND.test(testo)) punti -= 3;
+      if (OPERA_ALTRUI.test(testo)) punti -= 2;
       buoni.push({
         titolo: p.title,
+        punti: Math.round(punti * 100) / 100,
         paginaFile: `https://commons.wikimedia.org/wiki/${p.title.replace(/ /g, '_')}`,
         originale: ii.url, larghezza: ii.width, altezza: ii.height,
         autore: pulisci(m.Artist && m.Artist.value) || '(non indicato)',
@@ -162,10 +162,12 @@ for (const a of elenco) {
         licenzaUrl: pulisci(m.LicenseUrl && m.LicenseUrl.value),
         descrizione: pulisci(m.ImageDescription && m.ImageDescription.value).slice(0, 180),
         prova: g.testo,
-        attenzione: OPERA_ALTRUI.test(testo) ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta" : null,
+        attenzione: OPERA_ALTRUI.test(testo)
+          ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta"
+          : (NON_E_LA_BAND.test(testo) ? 'il titolo dice che potrebbe non essere una foto della band' : null),
       });
     }
-    buoni.sort((x, y) => (x.attenzione ? 1 : 0) - (y.attenzione ? 1 : 0) || y.larghezza * y.altezza - x.larghezza * x.altezza);
+    buoni.sort((x, y) => y.punti - x.punti || y.larghezza * y.altezza - x.larghezza * x.altezza);
     esito.push({ slug: a.slug, nome: a.nome, schede: quante[a.slug] || 0, categoria: c.cat, wikidata: c.id, descrizione: c.descrizione, candidati: buoni.slice(0, 6) });
     process.stderr.write(`${c.cat} → ${buoni.length} liberi\n`);
   } catch (e) {
@@ -185,9 +187,10 @@ console.log('\nPrimo candidato per artista:');
 for (const e of esito) {
   const c = e.candidati[0];
   if (!c) { console.log(`  ${e.slug}\n      nessuna immagine libera — ${e.errore || (e.categoria ? 'categoria senza file liberi' : 'nessuna categoria Commons')}`); continue; }
-  console.log(`  ${e.slug}   [${e.categoria}]`);
-  console.log(`      ${c.titolo}`);
-  console.log(`      ${c.licenza} — ${c.autore}   ${c.larghezza}x${c.altezza}`);
-  if (c.attenzione) console.log(`      ATTENZIONE: ${c.attenzione}`);
+  console.log(`  ${e.slug}   [${e.categoria}]  ${e.candidati.length} candidati`);
+  for (const x of e.candidati.slice(0, 3)) {
+    console.log(`      ${x.titolo.replace(/^File:/, '')}`);
+    console.log(`         ${x.licenza} — ${x.autore}   ${x.larghezza}x${x.altezza}${x.attenzione ? '   ⚠ ' + x.attenzione : ''}`);
+  }
 }
 console.log('\nScritto dati/ritratti-candidati.json. Nessun dato del sito e stato modificato.');
