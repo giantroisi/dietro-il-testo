@@ -9733,5 +9733,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "summer-moved-on",
+    "titolo": "Summer Moved On",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2000",
+    "album": "Minor Earth Major Sky",
+    "albumSlug": "minor-earth-major-sky",
+    "genereTesto": "Pop rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E5C4A",
+    "colore2": "#1F3E5C",
+    "ascolti": 19098094,
+    "ascoltiTesto": "19 mln ascolti",
+    "spotifyId": "6QIKgqQKr3W7zsJEClQOCJ",
+    "corpo": [
+      "Scritta da Pål Waaktaar-Savoy e composta in fretta dopo che la band aveva accettato una reunion una tantum per il concerto del Premio Nobel per la Pace del 1998, fu il primo singolo a-ha dopo oltre sei anni di pausa, uscito il 25 marzo 2000 in Europa come apertura di \"Minor Earth Major Sky\". Il video, diretto dallo svedese Adam Berg, fu girato a Cadice, in Spagna, in una sola giornata particolarmente fredda dell'inizio marzo 2000.",
+      "Il brano raggiunse il primo posto della classifica norvegese e diventò un successo radiofonico in gran parte d'Europa, segnando il ritorno del gruppo dopo il lungo silenzio seguito a \"Memorial Beach\". Il Guinness dei primati riconosce a Morten Harket, che sostiene una nota a partire dal minuto 3:12 sulla parola \"ask\", il record europeo per la nota vocale più lunga (20,2 secondi, otto misure) in un singolo entrato nella classifica ufficiale britannica."
+    ],
+    "fraseIconica": "Il momento più ricordato non è un verso ma un suono: la lunghissima nota tenuta da Morten Harket verso la fine del brano, diventata un record certificato e il simbolo stesso del ritorno della band sulle scene.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/319/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Summer_Moved_On",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.guinnessworldrecords.com/world-records/636448-longest-held-vocal-note-in-a-uk-hit-single",
+        "nome": "Guinness World Records",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

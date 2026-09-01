@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 220,
+    "nCanzoni": 221,
     "haTestoEditoriale": true
   },
   {
@@ -1137,6 +1137,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/summer-moved-on/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1154,7 +1159,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -1978,6 +1983,13 @@
   },
   {
     "percorso": "album/a-ha/memorial-beach/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/minor-earth-major-sky/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3051,7 +3063,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 101,
+    "nCanzoni": 102,
     "haTestoEditoriale": true
   },
   {
@@ -3086,7 +3098,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 40,
+    "nCanzoni": 41,
     "haTestoEditoriale": true
   },
   {

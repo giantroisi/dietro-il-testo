@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/a-ha/minor-earth-major-sky/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
       "source": "/album/a-ha/lifelines/",
       "destination": "/artista/a-ha/",
       "permanent": true
