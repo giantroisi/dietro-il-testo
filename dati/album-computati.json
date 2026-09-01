@@ -1776,8 +1776,8 @@
     "titolo": "Prisoner 709",
     "anno": "2017",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -1787,8 +1787,8 @@
     "titolo": "Exuvia",
     "anno": "2021",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

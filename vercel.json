@@ -631,16 +631,6 @@
       "permanent": true
     },
     {
-      "source": "/album/caparezza/prisoner-709/",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/caparezza/exuvia/",
-      "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
       "source": "/album/cesare-cremonini/bagus/",
       "destination": "/artista/cesare-cremonini/",
       "permanent": true

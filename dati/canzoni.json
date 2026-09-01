@@ -9200,5 +9200,98 @@
     "temi": [
       "salute-mentale"
     ]
+  },
+  {
+    "slug": "prisoner-709",
+    "titolo": "Prisoner 709",
+    "artista": "Caparezza",
+    "artistaSlug": "caparezza",
+    "anno": "2017",
+    "album": "Prisoner 709",
+    "albumSlug": "prisoner-709",
+    "genereTesto": "Heavy metal / Industrial",
+    "generi": [
+      "metal"
+    ],
+    "paese": "it",
+    "colore": "#3E1F1F",
+    "colore2": "#6E6E8A",
+    "ascolti": 6968347,
+    "ascoltiTesto": "7 mln ascolti",
+    "spotifyId": "1uIMG9WpZRPuTugka09Y79",
+    "corpo": [
+      "Scritta da Michele Salvemini (Caparezza), fu pubblicata il 7 settembre 2017 come primo singolo e traccia che dà il titolo al settimo album in studio, registrato fra Molfetta e Los Angeles con il produttore Chris Lord-Alge. Il brano, sottotitolato all'interno del disco \"La pena — Compact o streaming\", ha sonorità pesanti, vicine all'heavy metal e all'industrial metal, con una base ritmica insolitamente lenta, a 79 bpm.",
+      "Il testo è una critica all'evoluzione dell'industria musicale verso lo streaming, che secondo l'autore ha lasciato ai margini il supporto fisico e chi vi restava affezionato. Il video, diretto dal collettivo YouNuts!, fu girato nell'ex carcere di Sant'Agata — da cui il titolo — e pubblicato in contemporanea con il singolo. L'album nel suo complesso nacque anche sotto l'influenza dell'acufene di cui Caparezza soffrì a partire dal 2015, e ne esplora una profonda crisi interiore."
+    ],
+    "fraseIconica": "Il titolo, che dà il nome anche all'intero album, è un'immagine carceraria — rafforzata dal video, girato in un vero ex carcere — usata per raccontare una critica all'industria musicale: il passaggio dal supporto fisico allo streaming, che secondo l'autore ha lasciato indietro chi restava legato al disco. Primo singolo del settimo album, pubblicato il 7 settembre 2017, con sonorità insolitamente vicine all'heavy metal per la produzione di Caparezza.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/caparezza/prisoner-709/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Prisoner_709_(singolo)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Prisoner_709",
+        "nome": "Wikipedia (EN, album)"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "critica-sociale",
+      "industria-musicale"
+    ]
+  },
+  {
+    "slug": "exuvia",
+    "titolo": "Exuvia",
+    "artista": "Caparezza",
+    "artistaSlug": "caparezza",
+    "anno": "2021",
+    "album": "Exuvia",
+    "albumSlug": "exuvia",
+    "genereTesto": "Elettrorap",
+    "generi": [
+      "pop",
+      "elettronica"
+    ],
+    "paese": "it",
+    "colore": "#1F5C4A",
+    "colore2": "#8A2E1F",
+    "ascolti": 4982716,
+    "ascoltiTesto": "5 mln ascolti",
+    "spotifyId": "78TvjWL5OXNe6uQ1pCZPBl",
+    "corpo": [
+      "Scritta, composta e prodotta da Michele Salvemini (Caparezza) fra i Sunny Cola Studios e i Boombox Recording Studio di Molfetta, con missaggio di Chris Lord-Alge, fu pubblicata il 31 marzo 2021 come primo singolo dell'omonimo ottavo album, uscito lo stesso anno a quattro anni di distanza da \"Prisoner 709\".",
+      "Il termine \"exuvia\" indica in biologia l'involucro che un insetto abbandona dopo la muta. Caparezza ha spiegato di essersi ispirato a quell'immagine per raccontare un cambiamento personale: \"mi sono messo alle spalle il mio passato, dal punto di vista artistico\". Nel testo il protagonista si libera della routine urbana per abbracciare la natura, in quello che viene descritto come un vero rito di passaggio; musicalmente il brano ha una forte impronta elettronica, più melodica e meno aggressiva rispetto ai lavori precedenti dell'artista."
+    ],
+    "fraseIconica": "Il titolo stesso è l'immagine centrale del brano: il termine biologico che indica l'involucro abbandonato da un insetto dopo la muta, usato da Caparezza come metafora di un cambiamento personale — «mi sono messo alle spalle il mio passato, dal punto di vista artistico», ha spiegato l'autore. Primo singolo dell'omonimo ottavo album, pubblicato il 31 marzo 2021, il brano racconta un rito di passaggio: la fuga dalla routine urbana verso la natura.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/caparezza/exuvia/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Exuvia_(singolo)",
+        "nome": "Wikipedia"
+      },
+      {
+        "url": "https://billboard.it/musica/hiphop/caparezza-presenta-il-nuovo-album-exuvia-accettato-il-passato-vivo-di-paradossi/2021/05/0665263/",
+        "nome": "Billboard Italia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "identita",
+      "liberta-evasione"
+    ]
   }
 ]

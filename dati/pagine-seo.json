@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 211,
+    "nCanzoni": 213,
     "haTestoEditoriale": true
   },
   {
@@ -1092,6 +1092,16 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/prisoner-709/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/exuvia/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1193,7 +1203,7 @@
     "percorso": "artista/caparezza/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -2059,6 +2069,20 @@
   },
   {
     "percorso": "album/caparezza/museica/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/caparezza/prisoner-709/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/caparezza/exuvia/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -2950,14 +2974,14 @@
     "percorso": "genere/metal/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 64,
+    "nCanzoni": 65,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 92,
+    "nCanzoni": 93,
     "haTestoEditoriale": true
   },
   {
@@ -2999,7 +3023,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 32,
+    "nCanzoni": 33,
     "haTestoEditoriale": true
   }
 ]
