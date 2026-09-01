@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/dirty-deeds-done-dirt-cheap/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/let-there-be-rock/",
       "destination": "/artista/ac-dc/",
       "permanent": true

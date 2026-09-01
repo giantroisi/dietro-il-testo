@@ -10041,5 +10041,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "dirty-deeds-done-dirt-cheap",
+    "titolo": "Dirty Deeds Done Dirt Cheap",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1976",
+    "album": "Dirty Deeds Done Dirt Cheap",
+    "albumSlug": "dirty-deeds-done-dirt-cheap",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#8A2E2E",
+    "colore2": "#2E2E2E",
+    "ascolti": 514572071,
+    "ascoltiTesto": "514 mln ascolti",
+    "spotifyId": "2d4e45fmUnguxh6yqC7gNT",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1976 agli Albert Studios di Sydney con la produzione di Harry Vanda e George Young, dà il titolo al quarto album della band. Il testo, con il narratore nei panni di un sicario che offre i propri servizi illegali a prezzi stracciati, nasce da due fonti diverse secondo Malcolm Young: il titolo viene dal biglietto da visita di Dishonest John, un personaggio del cartone animato \"Beany and Cecil\" degli anni Cinquanta — «Dirty Deeds Done Dirt Cheap. Vacanze, domeniche e tariffe speciali» — mentre Bon Scott aggiunse il verso \"I'm dirty, mean, mighty unclean\" prendendolo da uno spot televisivo australiano per un insetticida in onda all'epoca.",
+      "Angus Young ha sempre sminuito qualunque lettura seria del brano: \"Non c'è molta serietà. È solo rock'n'roll. La mastichi e la sputi fuori\", ha dichiarato a Ultimate Classic Rock. Nel 1981 una coppia dell'Illinois, Norman e Marilyn White, fece causa alla Atlantic Records per 250.000 dollari, sostenendo che il proprio numero di telefono fosse citato nel testo della canzone. Nel 1990 Joan Jett ne incise una cover, abbreviata in \"Dirty Deeds\", che raggiunse la posizione 36 della Billboard Hot 100."
+    ],
+    "fraseIconica": "Il ritornello con il titolo stesso, ripetuto come uno slogan pubblicitario da sicario a buon mercato, è il momento più ricordato: un elenco di \"prestazioni\" — scarpe di cemento, cianuro, tritolo — recitato con il tono di un catalogo di offerte speciali.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/643/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dirty_Deeds_Done_Dirt_Cheap_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/ac-dc-dirty-deeds-done-dirt-cheap-song/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
