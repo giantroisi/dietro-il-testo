@@ -50,6 +50,20 @@ const OPERA_ALTRUI = /\b(mural|murale|graffiti|street art|statue|statua|monument
 // Sabbath», un sergente omonimo dentro «Michael Jackson». Tutti veri, primo
 // settembre, tutti in cima perche' erano le immagini piu' grandi.
 const NON_E_LA_BAND = /\b(bridge|ponte|plaque|targa|sign|insegna|street|via|road|airport|aeroporto|boeing|airbus|aircraft|aereo|train|treno|station|stazione|museum|museo|mushroom|fungo|building|edificio|church|chiesa|stadium|stadio|arena|hotel|restaurant|map|mappa|flag|bandiera|coin|moneta|stamp|francobollo)\b/i;
+// Non e' una FOTO: e' un oggetto che riguarda la band. Dischi, biglietti,
+// vinili, cartonati pubblicitari, impronte delle mani, collage montati da piu'
+// foto. Trovati tutti nel terzo giro: per i Deep Purple i primi tre candidati
+// erano un disco, un biglietto del 1991 e una collezione di vinili.
+const NON_E_UNA_FOTO = /\b(disc|disco|dischi|record|vinyl|vinile|ticket|biglietto|jegy|collezione|collection|carton|cartonato|publicitaire|advertis|merchandis|memorabilia|gadget|handprint|impronte|footprint|collage|montage|tribute|gedenk|memorial|shrine|grave|tomba)\b/i;
+// La foto e' scattata al concerto di X, ma ritrae CHI APRIVA. Il nome della
+// band e' nel titolo, quindi il punteggio sul nome la premiava: per Metallica
+// i primi tre candidati erano Knocked Loose, Phil Anselmo e Rex Brown, tutti
+// con «premiere partie de Metallica» nel titolo.
+const NON_E_LORO = /(premi[eè]re partie|opening (?:act|for)|support(?:ing| act)|vorgruppe|telonero|apre per)/i;
+// Un omonimo. Per «Michael Jackson» il primo candidato era un sergente
+// dell'aeronautica americana con lo stesso nome, e la foto era la piu' grande
+// di tutta la categoria.
+const OMONIMO = /\b(air force|army|navy|sergeant|sgt|senior master|airman|regiment|squadron|politic|senator|deputy|professor|bishop)\b/i;
 const MUSICALE = /(band|gruppo|musical|music|cantante|singer|rapper|dj|musicist|rock|pop|metal|duo|complesso)/i;
 
 const args = process.argv.slice(2);
@@ -150,6 +164,9 @@ for (const a of elenco) {
       // dimensione: ordinare per pixel metteva in cima l'aeroplano.
       let punti = parole.length ? (quanteParole / parole.length) * 4 : 0;
       if (NON_E_LA_BAND.test(testo)) punti -= 3;
+      if (NON_E_UNA_FOTO.test(testo)) punti -= 3;
+      if (NON_E_LORO.test(testo)) punti -= 5;   // il nome c'e' ma ritrae un altro
+      if (OMONIMO.test(testo)) punti -= 5;
       if (OPERA_ALTRUI.test(testo)) punti -= 2;
       buoni.push({
         titolo: p.title,
@@ -161,9 +178,13 @@ for (const a of elenco) {
         licenzaUrl: pulisci(m.LicenseUrl && m.LicenseUrl.value),
         descrizione: pulisci(m.ImageDescription && m.ImageDescription.value).slice(0, 180),
         prova: g.testo,
-        attenzione: OPERA_ALTRUI.test(testo)
-          ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta"
-          : (NON_E_LA_BAND.test(testo) ? 'il titolo dice che potrebbe non essere una foto della band' : null),
+        attenzione:
+          NON_E_LORO.test(testo) ? 'sembra la band che APRIVA il concerto, non quella del titolo'
+          : OMONIMO.test(testo) ? 'sembra un omonimo, non il musicista'
+          : OPERA_ALTRUI.test(testo) ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta"
+          : NON_E_UNA_FOTO.test(testo) ? 'sembra un oggetto (disco, biglietto, cartonato), non una foto della band'
+          : NON_E_LA_BAND.test(testo) ? 'il titolo dice che potrebbe non essere una foto della band'
+          : null,
       });
     }
     buoni.sort((x, y) => y.punti - x.punti || y.larghezza * y.altezza - x.larghezza * x.altezza);
