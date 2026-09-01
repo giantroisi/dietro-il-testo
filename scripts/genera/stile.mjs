@@ -101,14 +101,35 @@ a { color: inherit; }
 }
 .marchio { display: flex; align-items: center; flex: 0 0 auto; }
 .marchio img, .marchio-apertura img { width: 224px; display: block; }
-:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img { filter: invert(1); }
+/* F37: la sola "D" del logo, ritagliata dal logo stesso invece di aggiungere un
+   secondo file da tenere allineato. Il glifo occupa x 24-142 e y 52-221 dentro
+   un'immagine di 1061x245: le misure qui sotto sono quelle, riscalate. */
+.marchio-d { display: block; flex: 0 0 auto; width: 16px; height: 23px; overflow: hidden; }
+.marchio-d img { width: 144px; max-width: none; display: block; margin: -7px 0 0 -3px; }
+:root:not([data-theme="light"]) .marchio img, :root:not([data-theme="light"]) .marchio-apertura img, :root:not([data-theme="light"]) .marchio-d img { filter: invert(1); }
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img { filter: none; }
+  :root:not([data-theme="dark"]) .marchio img, :root:not([data-theme="dark"]) .marchio-apertura img, :root:not([data-theme="dark"]) .marchio-d img { filter: none; }
 }
-:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img { filter: invert(1); }
-:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img { filter: none; }
+:root[data-theme="dark"] .marchio img, :root[data-theme="dark"] .marchio-apertura img, :root[data-theme="dark"] .marchio-d img { filter: invert(1); }
+:root[data-theme="light"] .marchio img, :root[data-theme="light"] .marchio-apertura img, :root[data-theme="light"] .marchio-d img { filter: none; }
 
 .testata-cerca { flex: 1 1 auto; max-width: 420px; }
+/* F37: in home la ricerca della testata compare solo dopo che il campo grande
+   è uscito dallo schermo. Si usa visibility e non solo opacity, così finché è
+   nascosta non riceve nemmeno il fuoco da tastiera (P7). */
+.testata-scorrevole .testata-cerca,
+.testata-scorrevole .marchio-d {
+  opacity: 0; visibility: hidden; transform: translateY(-4px);
+  transition: opacity .18s ease, transform .18s ease, visibility 0s linear .18s;
+}
+.testata-scorrevole.scorso .testata-cerca,
+.testata-scorrevole.scorso .marchio-d {
+  opacity: 1; visibility: visible; transform: none;
+  transition: opacity .18s ease, transform .18s ease, visibility 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .testata-scorrevole .testata-cerca, .testata-scorrevole .marchio-d { transition: none; }
+}
 .testata-nav {
   margin-left: auto; display: flex; align-items: center; gap: 4px;
   font-family: var(--font-mono); font-size: 11.5px;
@@ -166,7 +187,9 @@ a { color: inherit; }
   width: 15px; height: 15px; color: var(--text-muted); pointer-events: none;
 }
 .cerca.grande input {
-  font-size: 18px; padding: 18px 18px 18px 48px; border-radius: 10px;
+  /* F37: rimpicciolito su richiesta dell'autore — era 18px/18px — per lasciare
+     spazio alla canzone in evidenza dentro la prima schermata. */
+  font-size: 16.5px; padding: 14px 16px 14px 44px; border-radius: 10px;
   /* F80: con un telefono in mano alla luce del giorno, un rettangolo scuro su
      fondo scuro con bordo tenue sparisce. Il colore del testo non cambia:
      cambia il contorno, quindi il contrasto di lettura resta quello verificato. */
@@ -176,7 +199,7 @@ a { color: inherit; }
   box-shadow: 0 1px 0 color-mix(in srgb, var(--text) 6%, transparent);
 }
 .cerca.grande input::placeholder { color: color-mix(in srgb, var(--text-muted) 88%, var(--text)); }
-.cerca.grande .lente { left: 18px; width: 18px; height: 18px; color: var(--text); opacity: .72; }
+.cerca.grande .lente { left: 16px; width: 17px; height: 17px; color: var(--text); opacity: .72; }
 
 .esiti {
   position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 60;
@@ -244,14 +267,16 @@ a { color: inherit; }
 .segno { display: inline-block; width: 9px; height: 11px; vertical-align: -1px; flex: 0 0 auto; }
 .segno path { stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .suggerimenti {
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
-  margin-top: 14px; font-family: var(--font-mono); font-size: 11.5px;
+  /* F37: la fila "Prova" è stata ridotta perché rubava la riga alla canzone in
+     evidenza. Serve a suggerire, non a occupare. */
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  margin-top: 12px; font-family: var(--font-mono); font-size: 10.8px;
 }
 .suggerimenti .etichetta { color: var(--text-muted); letter-spacing: .08em; text-transform: uppercase; }
 .suggerimenti a, .suggerimenti button {
   font: inherit; color: var(--text); cursor: pointer;
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: 999px; padding: 6px 13px; text-decoration: none;
+  border-radius: 999px; padding: 5px 11px; text-decoration: none;
 }
 .suggerimenti a:hover, .suggerimenti button:hover { border-color: var(--sistema); color: var(--sistema); }
 /* F83: i quattro esempi riempiono la ricerca, questo porta altrove. Stessa

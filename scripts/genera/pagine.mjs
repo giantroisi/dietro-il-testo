@@ -952,7 +952,12 @@ export function paginaHome(ctx) {
   const r = radice(0);
   const { canzoni, artisti } = ctx;
 
-  // Pillola del giorno: scelta deterministica dalla data, uguale per tutti nella giornata.
+  // F37: era "una canzone al giorno", scelta dalla data e uguale per tutti fino
+  // a mezzanotte. Su richiesta dell'autore diventa "canzone in evidenza" e cambia
+  // a ogni caricamento (lato client) o col bottone. Il nome cambia INSIEME al
+  // comportamento, non per gusto: "al giorno" sarebbe diventata una frase falsa.
+  // Questa scelta resta deterministica perché è quella scritta nell'HTML, cioè
+  // quella che vedono i motori e chi ha JavaScript disattivato.
   const giorno = Math.floor(Date.now() / 86400000);
   const candidate = canzoni.filter((c) => c.fraseIconica);
   const inEvidenza = candidate[giorno % candidate.length];
@@ -970,7 +975,6 @@ export function paginaHome(ctx) {
       <a class="marchio-apertura" href="${r || './'}" aria-label="${esc(SITO.nome)} — home">
         <img src="${r}logo.png" alt="${esc(SITO.nome)}" width="1061" height="245">
       </a>
-      <p class="occhiello">Un solo posto ${SEGNO} fonti verificabili</p>
       <!-- F78: l'h1 dice cosa si trova, non cosa fare. L'istruzione ("cerca una
            canzone…") occupava tre righe su mobile prima dell'unica azione della
            pagina, e il campo di ricerca si spiega già col proprio segnaposto. -->
@@ -998,7 +1002,7 @@ export function paginaHome(ctx) {
     ${
       inEvidenza
         ? `<div class="pillola-riquadro">
-      <p class="occhiello">Una canzone al giorno</p>
+      <p class="occhiello">Canzone in evidenza</p>
       <article class="pillola" data-pillola style="--identita:${inEvidenza.colore || 'var(--sistema)'}">
         <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>${conSegno([inEvidenza.artista, annoDi(inEvidenza)])}</p>
         <p class="gancio" data-pillola-titolo>${esc(inEvidenza.titolo)}</p>
@@ -1006,7 +1010,7 @@ export function paginaHome(ctx) {
         <div class="azioni">
           <a class="bottone pieno" href="${r}canzone/${inEvidenza.slug}/" data-pillola-link>Leggi la scheda</a>
           <a class="bottone" href="${r}artista/${inEvidenza.artistaSlug}/" data-pillola-artista>${esc(inEvidenza.artista)}</a>
-          <button type="button" class="bottone" data-altra-pillola>Un'altra canzone ${SEGNO}</button>
+          <button type="button" class="bottone" data-altra-pillola>Cambia ${SEGNO}</button>
         </div>
       </article>
     </div>`
@@ -1050,8 +1054,12 @@ export function paginaHome(ctx) {
     descrizione: `${canzoni.length} canzoni e ${artisti.length} artisti: contesto, significato e fonti verificate. Mai i testi.`,
     totali: ctx.totali,
     raccolte: ctx.raccolte,
-    ricercaInTestata: false,
+    // F37: la ricerca resta raggiungibile mentre si scorre. Nella testata c'è
+    // ma è nascosta finché il campo grande è in vista, altrimenti si vedrebbero
+    // due campi di ricerca contemporaneamente.
+    ricercaInTestata: true,
     marchioInTestata: false,
+    marchioDInTestata: true,
     ogImage: 'og/home.png',
     corpo,
     // F49: WebSite e Organization collegati via @id, così un motore di ricerca
