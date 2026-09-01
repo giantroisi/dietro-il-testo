@@ -142,16 +142,20 @@ a { color: inherit; }
 /* F37: in home la ricerca della testata compare solo dopo che il campo grande
    è uscito dallo schermo. Si usa visibility e non solo opacity, così finché è
    nascosta non riceve nemmeno il fuoco da tastiera (P7). */
+.testata-scorrevole:not(.scorso) .testata-cerca,
+.testata-scorrevole:not(.scorso) .marchio-d {
+  /* Misurato a 375px: con visibility hidden il campo continuava a occupare
+     la sua riga e la testata della home restava alta 122px, vuota. Sparisce
+     dal flusso, non solo dalla vista. */
+  display: none;
+}
 .testata-scorrevole .testata-cerca,
 .testata-scorrevole .marchio-d {
-  opacity: 0; visibility: hidden; transform: translateY(-4px);
-  transition: opacity .18s ease, transform .18s ease, visibility 0s linear .18s;
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity .18s ease, transform .18s ease;
 }
 .testata-scorrevole.scorso .testata-cerca,
-.testata-scorrevole.scorso .marchio-d {
-  opacity: 1; visibility: visible; transform: none;
-  transition: opacity .18s ease, transform .18s ease, visibility 0s;
-}
+.testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .testata-scorrevole .testata-cerca, .testata-scorrevole .marchio-d { transition: none; }
 }
@@ -263,7 +267,10 @@ a { color: inherit; }
 .pillola-riquadro { flex: 1 1 380px; min-width: 0; max-width: 480px; }
 .pillola-riquadro > .occhiello { margin-bottom: 14px; }
 @media (max-width: 860px) {
-  .apertura-riga { flex-direction: column; padding: 40px 0 12px; }
+  /* F37: fra la fila dei suggerimenti e la canzone in evidenza restavano 93px
+     di vuoto misurati a 375px — il difetto aperto il 30 agosto. Su telefono la
+     colonna non ha bisogno della stessa distanza che separa due colonne. */
+  .apertura-riga { flex-direction: column; gap: 16px; padding: 32px 0 12px; }
   .pillola-riquadro { max-width: none; width: 100%; }
 }
 .marchio-apertura { display: block; margin: 0 0 28px; }
@@ -823,7 +830,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 219 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 220 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

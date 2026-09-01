@@ -7714,7 +7714,7 @@
     "spotifyId": "28ILqSCrIeWvU52pyZfsxx",
     "corpo": [
       "Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di \"Reign in Blood\" prima della title track \"Raining Blood\" che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale nel 1986, in anticipo sull'uscita del disco: la Columbia Records, distributrice della Def Jam, rifiutò di distribuire l'intero album per il contenuto di un altro brano, \"Angel of Death\", e la distribuzione passò infine alla Geffen Records, che però non lo inserì nel proprio calendario ufficiale di uscite per la stessa controversia. Il singolo, pubblicato dalla Def Jam Recordings (numero di catalogo 920 706-0, 12\" a 45 giri), conteneva sul lato B una versione remix di \"Criminally Insane\" e una versione accelerata di \"Aggressive Perfector\".",
-      "Il titolo, dal latino \"dopo la morte\", accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe."
+      "Il titolo, dal latino \"dopo la morte\", accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe. Il giornalista Dom Lawson, storicamente firma di Metal Hammer, l'ha definita su Louder «una delle cose migliori che Jeff Hanneman abbia mai scritto», sottolineando come il riff d'apertura e la ferocia del testo confermassero che la cattiveria di Slayer non era solo un atteggiamento, ma qualcosa di realmente presente nella loro musica."
     ],
     "fraseIconica": "Il momento più ricordato è la transizione diretta nel brano successivo, \"Raining Blood\", senza pause: la fine di \"Postmortem\" non è una conclusione ma un innesco, coerente con un testo che descrive la morte non come fine ma come soglia.",
     "sezioniExtra": [],
@@ -7734,6 +7734,11 @@
         "url": "https://www.metal-archives.com/albums/Slayer/Postmortem/5346",
         "nome": "Encyclopaedia Metallum (Metal Archives)",
         "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.loudersound.com/features/every-song-on-slayer-s-reign-in-blood-rated-from-worst-to-best",
+        "nome": "Louder (Metal Hammer)",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Dork",
@@ -9684,5 +9689,49 @@
     "temi": [
       "rottura"
     ]
+  },
+  {
+    "slug": "dark-is-the-night-for-all",
+    "titolo": "Dark Is the Night for All",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "1993",
+    "album": "Memorial Beach",
+    "albumSlug": "memorial-beach",
+    "genereTesto": "Alternative rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1F3E5C",
+    "colore2": "#2E3E6E",
+    "ascolti": 4661570,
+    "ascoltiTesto": "4,6 mln ascolti",
+    "spotifyId": "3XldJEnEhZq0Wlo5Y7zeM2",
+    "corpo": [
+      "Scritta da Pål Waaktaar e prodotta dalla band insieme a David Z, fu il primo singolo estratto da \"Memorial Beach\", uscito il 24 maggio 1993 per la Warner Bros. Records e registrato ai Paisley Park Studios di Prince a Chanhassen, in Minnesota, dove fu inciso l'intero album.",
+      "Le sessioni furono segnate da forti tensioni interne: secondo la ricostruzione di The Electricity Club, Waaktaar si oppose ripetutamente alle idee del produttore David Z, \"spegnendone la scintilla\" secondo la definizione degli altri due membri della band. Lo stesso Morten Harket descrisse quel periodo con parole dure: \"È materiale forte. Ma c'è un senso di inferiorità. Siamo uno struzzo in attesa di volare... Il materiale delle canzoni è abbastanza buono, ma stiamo cercando di spingerlo in una certa direzione. Semplicemente non è onesto...\"."
+    ],
+    "fraseIconica": "Il titolo stesso, ripetuto nel ritornello, è il momento più ricordato: un'affermazione quasi rassegnata sull'oscurità che non risparmia nessuno, coerente con il periodo di tensioni interne in cui il brano fu scritto e registrato.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/a-ha/353/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dark_Is_the_Night_for_All",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.electricity-club.co.uk/lifelines-the-side-projects-of-a-ha-2/",
+        "nome": "The Electricity Club",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

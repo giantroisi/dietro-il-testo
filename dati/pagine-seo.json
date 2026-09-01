@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 219,
+    "nCanzoni": 220,
     "haTestoEditoriale": true
   },
   {
@@ -1132,6 +1132,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/dark-is-the-night-for-all/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1149,7 +1154,7 @@
     "percorso": "artista/a-ha/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -1966,6 +1971,13 @@
   },
   {
     "percorso": "album/a-ha/east-of-the-sun-west-of-the-moon/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/a-ha/memorial-beach/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3039,7 +3051,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 100,
+    "nCanzoni": 101,
     "haTestoEditoriale": true
   },
   {
@@ -3081,7 +3093,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 54,
+    "nCanzoni": 55,
     "haTestoEditoriale": true
   },
   {

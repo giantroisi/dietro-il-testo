@@ -146,16 +146,20 @@ a { color: inherit; }
 /* F37: in home la ricerca della testata compare solo dopo che il campo grande
    è uscito dallo schermo. Si usa visibility e non solo opacity, così finché è
    nascosta non riceve nemmeno il fuoco da tastiera (P7). */
+.testata-scorrevole:not(.scorso) .testata-cerca,
+.testata-scorrevole:not(.scorso) .marchio-d {
+  /* Misurato a 375px: con visibility hidden il campo continuava a occupare
+     la sua riga e la testata della home restava alta 122px, vuota. Sparisce
+     dal flusso, non solo dalla vista. */
+  display: none;
+}
 .testata-scorrevole .testata-cerca,
 .testata-scorrevole .marchio-d {
-  opacity: 0; visibility: hidden; transform: translateY(-4px);
-  transition: opacity .18s ease, transform .18s ease, visibility 0s linear .18s;
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity .18s ease, transform .18s ease;
 }
 .testata-scorrevole.scorso .testata-cerca,
-.testata-scorrevole.scorso .marchio-d {
-  opacity: 1; visibility: visible; transform: none;
-  transition: opacity .18s ease, transform .18s ease, visibility 0s;
-}
+.testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .testata-scorrevole .testata-cerca, .testata-scorrevole .marchio-d { transition: none; }
 }
@@ -267,7 +271,10 @@ a { color: inherit; }
 .pillola-riquadro { flex: 1 1 380px; min-width: 0; max-width: 480px; }
 .pillola-riquadro > .occhiello { margin-bottom: 14px; }
 @media (max-width: 860px) {
-  .apertura-riga { flex-direction: column; padding: 40px 0 12px; }
+  /* F37: fra la fila dei suggerimenti e la canzone in evidenza restavano 93px
+     di vuoto misurati a 375px — il difetto aperto il 30 agosto. Su telefono la
+     colonna non ha bisogno della stessa distanza che separa due colonne. */
+  .apertura-riga { flex-direction: column; gap: 16px; padding: 32px 0 12px; }
   .pillola-riquadro { max-width: none; width: 100%; }
 }
 .marchio-apertura { display: block; margin: 0 0 28px; }
@@ -758,7 +765,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di &quot;Reign in Blood&quot; prima della title track &quot;Raining Blood&quot; che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale nel 1986, in anticipo sull'uscita del disco: la Columbia Records, distributrice della Def Jam, rifiutò di distribuire l'intero album per il contenuto di un altro brano, &quot;Angel of Death&quot;, e la distribuzione passò infine alla Geffen Records, che però non lo inserì nel proprio calendario ufficiale di uscite per la stessa controversia. Il singolo, pubblicato dalla Def Jam Recordings (numero di catalogo 920 706-0, 12&quot; a 45 giri), conteneva sul lato B una versione remix di &quot;Criminally Insane&quot; e una versione accelerata di &quot;Aggressive Perfector&quot;.</p>
-        <p>Il titolo, dal latino &quot;dopo la morte&quot;, accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe.</p>
+        <p>Il titolo, dal latino &quot;dopo la morte&quot;, accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe. Il giornalista Dom Lawson, storicamente firma di Metal Hammer, l'ha definita su Louder «una delle cose migliori che Jeff Hanneman abbia mai scritto», sottolineando come il riff d'apertura e la ferocia del testo confermassero che la cattiveria di Slayer non era solo un atteggiamento, ma qualcosa di realmente presente nella loro musica.</p>
       </div>
     </section>
 
@@ -807,7 +814,7 @@ a { color: inherit; }
       <h2>Fonti</h2>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sulla storia</span>
-        <ol class="fonti"><li><span class="num">01</span><a href="https://en.wikipedia.org/wiki/Reign_in_Blood" target="_blank" rel="noopener">Wikipedia</a></li></ol>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://en.wikipedia.org/wiki/Reign_in_Blood" target="_blank" rel="noopener">Wikipedia</a></li><li><span class="num">02</span><a href="https://www.loudersound.com/features/every-song-on-slayer-s-reign-in-blood-rated-from-worst-to-best" target="_blank" rel="noopener">Louder (Metal Hammer)</a></li></ol>
       </div>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sugli ascolti</span>
@@ -844,7 +851,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 219 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 220 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
