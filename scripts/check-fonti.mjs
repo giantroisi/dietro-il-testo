@@ -74,14 +74,19 @@ const RE_ALBUM =
 // Larga di proposito: la prima versione chiedeva "is a song" letterale e
 // bocciava «"War Pigs" is an anti-war protest song», che è la voce giusta.
 const RE_BRANO =
-  /\bis (?:a|an|the)\b[^.]{0,80}?\b(song|single|track|instrumental)\b|\bè (?:un|uno|una|il|lo|la)\b[^.]{0,80}?\b(brano|singolo|canzone)\b/i;
+  /\bis (?:a|an|the)\b[^.]{0,80}?\b(song|single|track|instrumental|ballad)\b|\bè (?:un|uno|una|il|lo|la)\b[^.]{0,80}?\b(brano|singolo|canzone)\b/i;
 
 // Prende i primi paragrafi veri della voce. Uno solo non basta: su `Non c'è`
 // il primo utile parlava di una raccolta del 2001 e la voce veniva scambiata
 // per quella di un album, mentre l'incipit («is a song by Laura Pausini») era
 // più sotto. Tre paragrafi bastano a non sbagliare e restano pochi da leggere.
 function paragrafi(html, quanti = 3) {
-  const m = html.match(/<p[^>]*>([\s\S]{0,1500}?)<\/p>/gi) || [];
+  // Niente tetto di lunghezza: la prima versione si fermava a 1500 caratteri
+  // e i paragrafi piu' lunghi non venivano proprio riconosciuti. Su Wikipedia
+  // l'incipit e' quasi sempre il paragrafo piu' lungo della voce: lo scartavo
+  // in silenzio e leggevo il secondo, che parla d'altro. Il non-greedy si
+  // ferma comunque al primo </p>.
+  const m = html.match(/<p[^>]*>([\s\S]*?)<\/p>/gi) || [];
   const out = [];
   for (const p of m) {
     const t = p
