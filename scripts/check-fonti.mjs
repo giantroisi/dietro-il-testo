@@ -16,11 +16,15 @@
 //
 // Uso:
 //   node scripts/check-fonti.mjs              report a schermo
-//   node scripts/check-fonti.mjs --json       scrive anche dati/fonti-stato.json
+//   node scripts/check-fonti.mjs --senza-registro   non scrive dati/fonti-stato.json
+//                                             (di norma il registro si scrive sempre)
 //   node scripts/check-fonti.mjs --tutte      include anche kworb.net (di norma
 //                                             escluso: serve al dato ascolti,
 //                                             non sostiene affermazioni)
-// Esce con codice 1 se trova fonti irraggiungibili o disambiguazioni.
+// Esce con codice 1 se trova fonti irraggiungibili o disambiguazioni. Le pagine
+// che rispondono 403 o 429 NON contano come morte: molte sono vive e bloccano
+// solo i programmi. Finiscono in una classe a parte, da aprire in un browser
+// vero prima di toccare la scheda — lezione del primo giro reale, 1 settembre.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -29,7 +33,9 @@ const ATTESA_MS = 15000;
 const UA = 'dietroiltesto-check-fonti/1.0 (verifica delle fonti citate; contatto: dietroiltesto.it)';
 
 const soloTutte = process.argv.includes('--tutte');
-const scriviJson = process.argv.includes('--json');
+// Il registro si scrive SEMPRE, salvo richiesta contraria: senza, i numeri di
+// un giro non sono più ricostruibili il giorno dopo — ed è già successo.
+const scriviJson = !process.argv.includes('--senza-registro');
 
 const canzoni = JSON.parse(readFileSync('dati/canzoni.json', 'utf8'));
 
@@ -40,7 +46,7 @@ for (const c of canzoni) {
     const url = (f.url || '').trim();
     if (!url) continue;
     if (!soloTutte && url.includes('kworb.net')) continue;
-    if (!perUrl.has(url)) perUrl.set(url, { url, nome: f.nome || '', schede: [] });
+    if (!perUrl.has(url)) perUrl.set(url, { url, nome: f.nome || '', ruolo: f.ruolo || '', schede: [] });
     perUrl.get(url).schede.push(c.slug);
   }
 }
@@ -65,20 +71,28 @@ const RE_DISAMBIGUA =
 // "è il terzo album in studio", "is the second studio album", "is an EP by"
 const RE_ALBUM =
   /\bis (?:the |a |an |their )?[^.]{0,60}?(studio album|live album|compilation album|extended play|\bEP\b)\b|\bè (?:il|un|lo|la|una) [^.]{0,60}?(album (?:in studio|dal vivo)|EP)\b/i;
-const RE_BRANO = /\bis a (?:\d{4} )?song\b|\bis a (?:\d{4} )?single\b|\bè un (?:brano|singolo)\b/i;
+// Larga di proposito: la prima versione chiedeva "is a song" letterale e
+// bocciava «"War Pigs" is an anti-war protest song», che è la voce giusta.
+const RE_BRANO =
+  /\bis (?:a|an|the)\b[^.]{0,80}?\b(song|single|track|instrumental)\b|\bè (?:un|uno|una|il|lo|la)\b[^.]{0,80}?\b(brano|singolo|canzone)\b/i;
 
-function primaFrase(html) {
-  // prende il primo paragrafo del corpo voce, ripulito dai tag
-  const m = html.match(/<p[^>]*>([\s\S]{0,1200}?)<\/p>/gi) || [];
+// Prende i primi paragrafi veri della voce. Uno solo non basta: su `Non c'è`
+// il primo utile parlava di una raccolta del 2001 e la voce veniva scambiata
+// per quella di un album, mentre l'incipit («is a song by Laura Pausini») era
+// più sotto. Tre paragrafi bastano a non sbagliare e restano pochi da leggere.
+function paragrafi(html, quanti = 3) {
+  const m = html.match(/<p[^>]*>([\s\S]{0,1500}?)<\/p>/gi) || [];
+  const out = [];
   for (const p of m) {
     const t = p
       .replace(/<[^>]+>/g, '')
       .replace(/&#\d+;|&[a-z]+;/gi, ' ')
       .replace(/\s+/g, ' ')
       .trim();
-    if (t.length > 60) return t.slice(0, 400);
+    if (t.length > 60) out.push(t);
+    if (out.length >= quanti) break;
   }
-  return '';
+  return out;
 }
 
 async function controlla(voce) {
@@ -94,8 +108,15 @@ async function controlla(voce) {
     esito.stato = r.status;
     esito.finale = r.url;
     if (!r.ok) {
-      esito.classe = 'errore';
-      esito.nota = `risponde ${r.status}`;
+      // 401/403/406/429 quasi sempre non vogliono dire "morta": vogliono dire
+      // "non sei un browser". Non sono un errore da correggere alla cieca.
+      if ([401, 403, 406, 429].includes(r.status)) {
+        esito.classe = 'bloccata';
+        esito.nota = `risponde ${r.status}: probabile blocco anti-bot, da aprire in un browser prima di toccarla`;
+      } else {
+        esito.classe = 'errore';
+        esito.nota = `risponde ${r.status}`;
+      }
       return esito;
     }
     if (chiave(r.url) !== chiave(voce.url)) {
@@ -110,10 +131,16 @@ async function controlla(voce) {
         esito.nota = 'pagina di disambiguazione: non contiene fatti sul brano';
         return esito;
       }
-      const p = primaFrase(html);
-      if (p && RE_ALBUM.test(p) && !RE_BRANO.test(p)) {
+      const ps = paragrafi(html);
+      const testo = ps.join(' ');
+      if (voce.ruolo === 'album') {
+        // scelta dichiarata nei dati: questa fonte È la voce dell'album, di
+        // proposito (per esempio quando la scheda racconta la title track).
+      } else if (testo && RE_ALBUM.test(testo) && !RE_BRANO.test(testo)) {
         esito.classe = 'altra-opera';
-        esito.nota = `sembra la voce di un album, non del brano: «${p.slice(0, 140)}…»`;
+        esito.nota =
+          `sembra la voce di un album, non del brano: «${(ps[0] || '').slice(0, 140)}…» ` +
+          `— se è voluto, aggiungi "ruolo": "album" a questa fonte in dati/canzoni.json`;
       }
     }
   } catch (e) {
@@ -144,10 +171,12 @@ const errori = per('errore');
 const disambigue = per('disambigua');
 const altraOpera = per('altra-opera');
 const spostate = per('spostata');
+const bloccate = per('bloccata');
 
 console.log(`\nFonti controllate: ${risultati.length}`);
 console.log(`  in ordine: ${per('ok').length}`);
 console.log(`  irraggiungibili o in errore: ${errori.length}`);
+console.log(`  che rispondono ma bloccano i programmi: ${bloccate.length}`);
 console.log(`  disambiguazioni: ${disambigue.length}`);
 console.log(`  forse la voce di un'altra opera: ${altraOpera.length}`);
 console.log(`  spostate altrove: ${spostate.length}`);
@@ -165,6 +194,7 @@ stampa('Fonti che non rispondono — una scheda che le cita non ha quella fonte'
 stampa('Pagine di disambiguazione — non contengono fatti sul brano', disambigue, true);
 stampa("Forse la voce di un'altra opera — da guardare, non da correggere a occhi chiusi", altraOpera, false);
 stampa('Fonti spostate — l\'indirizzo citato non è più quello finale', spostate, false);
+stampa('Bloccate ai programmi — quasi sempre vive: aprile in un browser, non correggerle a occhi chiusi', bloccate, false);
 
 if (scriviJson) {
   writeFileSync('dati/fonti-stato.json', JSON.stringify({ quando: new Date().toISOString(), risultati }, null, 2));
