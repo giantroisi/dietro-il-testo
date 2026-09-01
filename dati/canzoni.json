@@ -9821,5 +9821,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "analogue-all-i-want",
+    "titolo": "Analogue (All I Want)",
+    "artista": "a-ha",
+    "artistaSlug": "a-ha",
+    "anno": "2005",
+    "album": "Analogue",
+    "albumSlug": "analogue",
+    "genereTesto": "Synth-pop",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1F3E5C",
+    "colore2": "#5C1F3E",
+    "ascolti": 1726253,
+    "ascoltiTesto": "1,7 mln ascolti",
+    "spotifyId": "2L9jorP4k0qvAIpnETBOO3",
+    "corpo": [
+      "Title track dell'ottavo album in studio, scritta da Pål Waaktaar-Savoy e Magne Furuholmen: nacque come una demo più cupa e surreale intitolata \"Minor Key Sonata (Analogue)\", prodotta con Martin Terefe, poi rielaborata con l'intervento di Max Martin, che la trasformò in un brano più orecchiabile e adatto alla radio, con un ritornello più immediato. La versione originale, rimasta sostanzialmente intatta nel testo ma diversa nell'arrangiamento, uscì come lato B dello stesso singolo.",
+      "Pubblicata come singolo il 30 dicembre 2005 in Europa e il 23 gennaio 2006 nel Regno Unito, riportò la band nella top ten della classifica britannica per la prima volta dal 1988 di \"Stay on These Roads\" — oltre a raggiungere la decima posizione anche in Norvegia. Il videoclip, girato in bianco e nero, fu diretto da Howard Greenhalgh."
+    ],
+    "fraseIconica": "Il ritornello, con la dichiarazione \"All I want you to know, I love you\" che dà il sottotitolo al brano, è il momento più ricordato: una confessione diretta, resa ancora più immediata dalla riscrittura che ne semplificò il testo rispetto alla demo originale.",
+    "sezioniExtra": [],
+    "testoUrl": "https://genius.com/A-ha-analogue-all-i-want-lyrics",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Analogue_(All_I_Want)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://theseconddisc.com/2026/03/31/a-ha-analogue-20th-anniversary/",
+        "nome": "The Second Disc",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Genius",
+    "temi": []
   }
 ]

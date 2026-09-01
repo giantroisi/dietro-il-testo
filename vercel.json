@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/a-ha/analogue/",
-      "destination": "/artista/a-ha/",
-      "permanent": true
-    },
-    {
       "source": "/album/a-ha/foot-of-the-mountain/",
       "destination": "/artista/a-ha/",
       "permanent": true
