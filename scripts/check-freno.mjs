@@ -30,26 +30,38 @@ const SOGLIA = Math.floor(BASE / 2);
 
 const canzoni = JSON.parse(readFileSync('dati/canzoni.json', 'utf8'));
 
-// kworb serve al dato ascolti: non sostiene affermazioni, non conta come fonte
+// Una fonte conta se parla DEL BRANO. Non contano: kworb (serve al dato
+// ascolti), le pagine dichiarate dell'album, quelle dichiarate solo per i
+// crediti. Il primo giro della regola contava qualunque fonte, e si è visto
+// subito perché non basta: `postmortem` è uscito dalla coda aggiungendo una
+// scheda di crediti a una voce d'album, cioè soddisfacendo la regola senza
+// risolvere il problema che la regola esiste per risolvere. La regola era mia:
+// l'ho stretta invece di far finta che il conto tornasse.
+const RUOLI_NON_NARRATIVI = ['ascolti', 'album', 'crediti'];
 const utili = (c) => (c.fonti || []).filter((f) => !(f.url || '').includes('kworb'));
+const suiBrano = (c) => utili(c).filter((f) => !RUOLI_NON_NARRATIVI.includes(f.ruolo || ''));
 
 const fonteUnica = [];
 const soloAlbum = [];
+const senzaFonteSulBrano = [];
 const accertate = [];
 for (const c of canzoni) {
   const fu = utili(c);
+  const fb = suiBrano(c);
   if (fu.length && fu.every((f) => f.ruolo === 'album')) soloAlbum.push(c.slug);
-  if (fu.length > 1) continue;
+  if (fu.length && fb.length === 0) senzaFonteSulBrano.push(c.slug);
+  if (fb.length > 1) continue;
   if (c.fonteUnicaAccertata) accertate.push(c.slug);
   else fonteUnica.push(c.slug);
 }
 
-const attivo = fonteUnica.length > SOGLIA || soloAlbum.length > 0;
+const attivo = fonteUnica.length > SOGLIA || soloAlbum.length > 0 || senzaFonteSulBrano.length > 0;
 
 console.log(`Schede in catalogo: ${canzoni.length}`);
-console.log(`Con una sola fonte utile: ${fonteUnica.length}  (soglia per togliere il freno: ${SOGLIA})`);
+console.log(`Con una sola fonte che parli del brano: ${fonteUnica.length}  (soglia per togliere il freno: ${SOGLIA})`);
 console.log(`  di cui dichiarate senza seconda fonte reperibile: ${accertate.length} (non contano)`);
 console.log(`Con la SOLA fonte che è la pagina di un album: ${soloAlbum.length}  (deve essere 0)`);
+console.log(`Senza NESSUNA fonte che parli del brano: ${senzaFonteSulBrano.length}  (deve essere 0)`);
 console.log(`Partenza del 1 settembre 2026: ${BASE} su ${BASE_SU}`);
 console.log('');
 if (attivo) {
@@ -57,6 +69,7 @@ if (attivo) {
   console.log('FRENO ATTIVO — non si aggiungono schede nuove.');
   if (mancano) console.log(`  Mancano ${mancano} schede da dotare di una seconda fonte.`);
   if (soloAlbum.length) console.log(`  Da sistemare per prime, la fonte parla di un'altra opera: ${soloAlbum.join(', ')}`);
+  if (senzaFonteSulBrano.length) console.log(`  Nessuna fonte parla del brano: ${senzaFonteSulBrano.join(', ')}`);
 } else {
   console.log('FRENO TOLTO — la coda è rientrata: si può tornare ad aggiungere.');
 }
