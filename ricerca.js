@@ -213,7 +213,17 @@
       if (artistaLink) { artistaLink.href = RADICE + 'artista/' + p.a + '/'; artistaLink.textContent = p.n; }
     };
 
-    mostraPillola(Math.floor(Date.now() / 86400000) % PILLOLE.length);
+    // F37: prima era la canzone del giorno, uguale per tutti fino a mezzanotte.
+    // Ora cambia a ogni caricamento. Nell'HTML resta scritta la scelta del
+    // giorno, che e' quella che vedono i motori e chi non ha JavaScript: qui la
+    // si sostituisce subito, e si evita di ripescare proprio quella.
+    var primaScelta = Math.floor(Math.random() * PILLOLE.length);
+    var giroDelGiorno = Math.floor(Date.now() / 86400000) % PILLOLE.length;
+    if (PILLOLE.length > 1 && primaScelta === giroDelGiorno) {
+      primaScelta = (primaScelta + 1) % PILLOLE.length;
+    }
+    mostraPillola(primaScelta);
+    try { sessionStorage.setItem('ultimaPillola', PILLOLE[primaScelta].s); } catch (e) {}
 
     var bottoneAltraPillola = elementoPillola.querySelector('[data-altra-pillola]');
     if (bottoneAltraPillola) {
@@ -229,6 +239,26 @@
         mostraPillola(indice);
         try { sessionStorage.setItem('ultimaPillola', PILLOLE[indice].s); } catch (e) {}
       });
+    }
+  }
+
+  // F37: in home la ricerca della testata resta nascosta finche' il campo
+  // grande e' in vista, e compare appena esce. Cosi' si puo' cercare in
+  // qualunque punto della pagina senza avere due campi uguali uno sotto l'altro.
+  var testataScorrevole = document.querySelector('.testata-scorrevole');
+  var campoGrande = document.querySelector('.cerca.grande');
+  if (testataScorrevole && campoGrande) {
+    var mostraTestata = function (mostra) {
+      testataScorrevole.classList.toggle('scorso', mostra);
+    };
+    if (typeof IntersectionObserver === 'function') {
+      new IntersectionObserver(function (voci) {
+        mostraTestata(!voci[0].isIntersecting);
+      }, { rootMargin: '-8px 0px 0px 0px' }).observe(campoGrande);
+    } else {
+      // Senza IntersectionObserver la barra resta visibile: meglio averla
+      // sempre che non averla mai.
+      mostraTestata(true);
     }
   }
 
