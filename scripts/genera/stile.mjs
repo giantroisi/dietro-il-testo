@@ -132,13 +132,14 @@ a { color: inherit; }
 .testata-scorrevole.scorso .testata-cerca,
 .testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (max-width: 820px) {
-  /* Su telefono il bottone del tema e' posizionato in modo assoluto a sinistra:
-     la D, primo elemento nel flusso, gli finiva esattamente sotto e non si
-     vedeva. Trovato misurando i due rettangoli, non guardando lo screenshot:
-     erano entrambi a (24, 18). L'imbottitura sposta il contenuto e non il
-     bottone, che e' ancorato al bordo della scatola. */
+  /* Il bottone del tema e' fuori dal flusso: l'imbottitura sposta il contenuto
+     e non lui, che resta ancorato al bordo della scatola. Prima stava a
+     sinistra e la D, primo elemento nel flusso, gli finiva esattamente sotto —
+     stessi pixel, (24, 18), trovato misurando i due rettangoli e non guardando
+     lo screenshot. Ora sta a destra e lo spazio a sinistra e' tutto della
+     ricerca. */
   .testata-scorrevole.scorso .testata-in {
-    flex-wrap: nowrap; align-items: center; padding-left: 50px;
+    flex-wrap: nowrap; align-items: center; padding-right: 50px;
   }
   .testata-scorrevole.scorso .testata-cerca { max-width: none; }
 }
@@ -157,6 +158,10 @@ a { color: inherit; }
 .testata-nav a:hover { color: var(--text); background: var(--surface-alt); }
 
 .tema {
+  /* Sta in fondo alla riga, allineato a destra: la navigazione ha gia'
+     margin-left auto, quindi mettendolo dopo di lei finisce all'estremo. A
+     sinistra lasciava un buco e, su telefono, ci finiva sotto la D del logo. */
+  order: 3;
   display: inline-grid; place-items: center;
   width: 36px; height: 36px; flex: 0 0 auto;
   border: 1px solid var(--border); border-radius: 50%;
@@ -180,7 +185,7 @@ a { color: inherit; }
 @media (max-width: 820px) {
   .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; position: relative; }
   .testata-nav { display: none; }
-  .tema { position: absolute; left: 0; top: 18px; }
+  .tema { position: absolute; right: 0; left: auto; top: 18px; }
   .marchio { flex-basis: 100%; justify-content: center; }
   .marchio img { width: 176px; }
   .testata-cerca { flex-basis: 100%; max-width: none; }
@@ -257,6 +262,12 @@ a { color: inherit; }
      di vuoto misurati a 375px — il difetto aperto il 30 agosto. Su telefono la
      colonna non ha bisogno della stessa distanza che separa due colonne. */
   .apertura-riga { flex-direction: column; gap: 16px; padding: 32px 0 12px; }
+  /* Qui stava il vuoto vero, e non era uno spazio scritto da qualcuno: in riga
+     flex 1 1 466px e flex 1 1 380px sono LARGHEZZE, ma in colonna la base
+     diventa un'ALTEZZA. L'apertura era alta 466px con 413px di contenuto: 53px
+     di niente sotto i suggerimenti, e la canzone in evidenza spinta piu' giu'.
+     Misurato sulla pagina pubblicata: 620 - 154 = 466 esatti. */
+  .apertura, .pillola-riquadro { flex: 0 0 auto; }
   .pillola-riquadro { max-width: none; width: 100%; }
 }
 .marchio-apertura { display: block; margin: 0 0 28px; }
