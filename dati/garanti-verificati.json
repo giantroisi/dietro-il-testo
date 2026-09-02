@@ -1,0 +1,26 @@
+{
+  "teen-spirit|secondo songfacts|kurt cobain usava davvero dire arrivando": {
+    "esito": "vero",
+    "nota": "Songfacts scrive letteralmente: \"The line, 'Here we are now, entertain us,' was something Cobain used to say when he entered a party.\" Tolta solo l'aggiunta 'con tono canzonatorio', non presente nella fonte."
+  },
+  "yellow|secondo songfacts|il verso nacque quasi per caso durante l": {
+    "esito": "vero",
+    "nota": "Songfacts attribuisce direttamente a Ken Nelson la frase \"Look at the stars, lads\" durante le sessioni ai Rockfield Studios, e riporta che Martin scrisse il brano in 10 minuti subito dopo. Corrisponde al testo della scheda."
+  },
+  "boulevard-of-broken-dreams|secondo songfacts|il titolo nacque da una fotografia del 1": {
+    "esito": "corretto",
+    "nota": "Songfacts non parla di un 'poster' con un 'cappotto': la citazione reale di Armstrong è \"There's an old James Dean photo where he's walking in New York and underneath it says 'Boulevard of Broken Dreams'\" (foto del 1948, nessun cappotto menzionato). Corretto il testo della scheda da 'poster... con indosso un cappotto' a 'fotografia del 1948... con la scritta sotto l'immagine'."
+  },
+  "mr-brightside|secondo songfacts|la metafora racconta il crollo mentale d": {
+    "esito": "vero",
+    "nota": "Songfacts descrive il tema centrale come 'it's all in my head' — il narratore riconosce che la sofferenza nasce da un tradimento immaginato e mai confermato, non da fatti reali. Corrisponde al 'crollo mentale... tradimento mai davvero confermato' della scheda."
+  },
+  "easier|secondo rolling stone|a closer dei nine inch nails il brano ra": {
+    "esito": "vero",
+    "nota": "La pagina Rolling Stone diretta è dietro un gate di accesso (tollbit.rollingstone.com, non apribile nemmeno da browser reale), ma il contenuto è confermato per convergenza: la stessa citazione della band ('driving drum groove' di \"Closer\") è ripresa da più fonti indipendenti (MTV, AltPress) che citano tutte la stessa intervista a Rolling Stone. Aggiunto anche l'URL della fonte, mancante nell'array fonti della scheda prima di questo controllo."
+  },
+  "complete-mess|secondo songfacts|il brano racconta il caos che vale comun": {
+    "esito": "vero",
+    "nota": "Songfacts scrive: \"Luke Hemmings, Michael Clifford, and Calum Hood trade off vocals about the worthwhile chaos of a relationship\" — corrisponde a 'il caos che vale comunque la pena di vivere dentro una relazione' della scheda."
+  }
+}
