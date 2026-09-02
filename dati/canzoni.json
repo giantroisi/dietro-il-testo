@@ -10263,5 +10263,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "flick-of-the-switch",
+    "titolo": "Flick of the Switch",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1983",
+    "album": "Flick of the Switch",
+    "albumSlug": "flick-of-the-switch",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#B5B5B5",
+    "ascolti": 10257592,
+    "ascoltiTesto": "10 mln ascolti",
+    "spotifyId": "0oIox8T3bdGZnhQKnaDK2a",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata nell'aprile 1983 ai Compass Point Studios delle Bahamas, dà il titolo all'ottavo album in studio. Dopo tre dischi con il produttore Robert John \"Mutt\" Lange, la band scelse per la prima volta di autoprodursi, in un tentativo dichiarato di liberare il proprio suono da ogni levigatura da studio: registrarono dieci nuove canzoni in meno di un mese.",
+      "Ultimate Classic Rock ha descritto la title track, insieme a \"Guns for Hire\", come uno dei pochi brani dell'album ad aver avuto una vita oltre il tour di supporto, notando però che la mancanza di una prospettiva esterna da parte di un produttore finì per privare molti pezzi delle loro idee migliori. La copertina, essenziale e bianca, mostra soltanto lo schizzo a matita di Angus Young pronto ad azionare un enorme interruttore elettrico."
+    ],
+    "fraseIconica": "Il titolo stesso, ripreso nel testo, è il momento più ricordato: la metafora dello scatto di un interruttore come immagine del tentativo della band di tornare a un suono più grezzo ed essenziale.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/97151/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flick_of_the_Switch_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/ac-dc-flick-of-the-switch/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
