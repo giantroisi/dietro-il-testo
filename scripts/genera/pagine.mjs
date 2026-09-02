@@ -1,7 +1,7 @@
 // Modelli delle pagine. L'ordine dei blocchi segue l'architettura editoriale
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
-import { pagina, esc, radice, SITO, AUTORE } from './guscio.mjs';
+import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 
 // ------------------------------------------------------------- utilità
 
@@ -136,7 +136,7 @@ const RADICE_RITRATTI = '../../ritratti/';
  * il testo. Chi ha scattato la foto è una fonte come le altre.
  */
 export function ritrattoArtista(a) {
-  const rt = a.ritratto;
+  const rt = a.ritratto || RITRATTI[a.slug];
   const completo = rt && rt.file && rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
   if (!completo) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: rt ? 'attribuzione incompleta' : null };
   return {
@@ -528,7 +528,10 @@ export function paginaCanzone(c, ctx) {
     percorso: `canzone/${c.slug}/`,
     // F57: la domanda che si digita in italiano è "{titolo} significato", non
     // il nome dell'artista da solo — il ripiego scende a soli 5 titoli su 157.
-    titolo: titoloConRipiego([`${c.titolo} (${c.artista}): significato e storia`, `${c.titolo}: significato e storia`]),
+    // F89: quando il titolo ufficiale del brano supera 65 caratteri anche nella
+    // forma senza artista, nessun ripiego automatico basta — lo stesso caso di
+    // `descrizioneSeo` sopra, risolto con lo stesso tipo di campo editoriale.
+    titolo: c.titoloSeo || titoloConRipiego([`${c.titolo} (${c.artista}): significato e storia`, `${c.titolo}: significato e storia`]),
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,

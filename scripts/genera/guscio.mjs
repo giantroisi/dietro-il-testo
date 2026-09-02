@@ -23,6 +23,22 @@ function leggiVerifiche() {
 }
 export const VERIFICHE = leggiVerifiche();
 
+// F18: le foto degli artisti stanno in un file proprio e non dentro
+// `artisti.json`, per la stessa ragione per cui ci stanno le verifiche: sono
+// dati che nascono da un lavoro diverso, con un ciclo diverso, e tenerli
+// separati evita che due mani lavorino sullo stesso file. Chiave: lo slug
+// dell'artista.
+function leggiRitratti() {
+  const percorso = join(RADICE_PROGETTO, 'dati', 'ritratti.json');
+  if (!existsSync(percorso)) return {};
+  try {
+    return JSON.parse(readFileSync(percorso, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+export const RITRATTI = leggiRitratti();
+
 // F61: chi firma il sito. Stesso principio: un campo vuoto non produce un nome
 // finto — le pagine sono scritte per reggere anche senza, e appena l'autore lo
 // riempie compare ovunque, firma e dati strutturati compresi.
