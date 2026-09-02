@@ -10219,5 +10219,49 @@
     "temi": [
       "morte-lutto"
     ]
+  },
+  {
+    "slug": "for-those-about-to-rock",
+    "titolo": "For Those About to Rock (We Salute You)",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1981",
+    "album": "For Those About to Rock We Salute You",
+    "albumSlug": "for-those-about-to-rock-we-salute-you",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#8A1D1D",
+    "ascolti": 192808669,
+    "ascoltiTesto": "192 mln ascolti",
+    "spotifyId": "17lu4tymfnhmcIDlzBbtAb",
+    "corpo": [
+      "Title track dell'ottavo album in studio, scritta da Angus Young, Malcolm Young e Brian Johnson e prodotta da Robert John \"Mutt\" Lange. In un'intervista del 2020 a Zane Lowe, Angus Young ha raccontato che il ritornello nacque da una lettura dello scrittore britannico Robert Graves su un saluto usato dai gladiatori romani condannati a morte, \"Ave, Cesare, i morituri ti salutano\": \"Ho pensato che potesse funzionare\", ha detto Young, trasformando \"per quelli che stanno per morire\" in \"per quelli che stanno per rockeggiare\".",
+      "I celebri colpi di cannone che aprono il brano nacquero da un'altra fonte inaspettata: il matrimonio del principe Carlo e Lady Diana, trasmesso in diretta TV il 29 luglio 1981, con i suoi cannoni cerimoniali. \"Volevo qualcosa di forte\", ha spiegato Young a Louder, \"qualcosa di maschile e rock and roll. E cosa c'è di più maschile di un cannone? Viene caricato, spara e distrugge.\" Da allora, cannoni napoleonici in scala reale sono diventati un elemento fisso dei concerti della band."
+    ],
+    "fraseIconica": "I colpi di cannone che scandiscono il ritornello sono il momento più ricordato: un effetto sonoro nato per caso guardando in TV un matrimonio reale, diventato poi uno degli elementi scenici più riconoscibili degli spettacoli dal vivo della band.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/630/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/For_Those_About_to_Rock_(We_Salute_You)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://parade.com/news/1981-ac-dc-hit-surprisingly-violent-origins-for-those-about-rock",
+        "nome": "Parade",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

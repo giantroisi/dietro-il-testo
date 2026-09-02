@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/for-those-about-to-rock-we-salute-you/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/flick-of-the-switch/",
       "destination": "/artista/ac-dc/",
       "permanent": true
