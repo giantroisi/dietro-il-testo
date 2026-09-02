@@ -119,6 +119,39 @@ function riquadroVisivo(nome, nota = 'Spazio immagine') {
       </div>`;
 }
 
+// F18: le pagine artista stanno a `artista/<slug>/`, cioe' due livelli sotto
+// la radice; i ritratti stanno in `/ritratti/`.
+const RADICE_RITRATTI = '../../ritratti/';
+
+/**
+ * F18 — il ritratto dell'artista, quando c'è una foto la cui licenza è
+ * dimostrabile. La regola non è «mostra la foto se c'è»: è **mostra la foto
+ * solo se si può dire di chi è e con quale licenza**. Se manca anche un solo
+ * campo dell'attribuzione, la foto non viene pubblicata e si torna al riquadro
+ * grafico — perché una foto senza crediti, su un sito che promette fonti
+ * verificabili, è peggio di nessuna foto.
+ *
+ * Il credito è VISIBILE in pagina, non nascosto nei dati: CC BY e CC BY-SA lo
+ * richiedono, e comunque è la stessa cosa che il sito chiede a sé stesso per
+ * il testo. Chi ha scattato la foto è una fonte come le altre.
+ */
+export function ritrattoArtista(a) {
+  const rt = a.ritratto;
+  const completo = rt && rt.file && rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
+  if (!completo) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: rt ? 'attribuzione incompleta' : null };
+  return {
+    pubblicata: true,
+    html: `<figure class="ritratto">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="lazy" decoding="async">
+        <figcaption>
+          <a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
+          ${SEGNO}
+          <a href="${esc(rt.licenzaUrl)}" rel="license nofollow noopener">${esc(rt.licenza)}</a>
+        </figcaption>
+      </figure>`,
+  };
+}
+
 /** F34: il player Spotify in apertura, al posto del segnaposto, quando c'è un ID verificato. */
 function playerIntestazione(c) {
   return `<div class="player-intestazione">
@@ -611,7 +644,7 @@ export function paginaArtista(a, ctx) {
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
       </div>
-      ${riquadroVisivo(a.nome)}
+      ${ritrattoArtista(a).html}
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">

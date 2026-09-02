@@ -511,6 +511,10 @@ if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
   const chiaveIndexNow = JSON.parse(readFileSync(join(ROOT, 'dati', 'indexnow.json'), 'utf8')).indexnow;
   if (chiaveIndexNow) writeFileSync(join(OUT, `${chiaveIndexNow}.txt`), chiaveIndexNow, 'utf8');
 }
+// F18: le foto degli artisti a licenza libera, scaricate a parte. Chi non ce
+// l'ha usa il riquadro grafico: il generatore non inventa nulla.
+if (existsSync(join(ROOT, 'ritratti'))) cpSync(join(ROOT, 'ritratti'), join(OUT, 'ritratti'), { recursive: true });
+
 // immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
 if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
 

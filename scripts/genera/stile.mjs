@@ -469,6 +469,22 @@ a { color: inherit; }
 .player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
+/* F18: il ritratto occupa lo stesso posto e la stessa forma del riquadro
+   grafico che sostituisce, cosi' le due pagine - quella con la foto e quella
+   senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
+   sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
+.ritratto { margin: 0; }
+.ritratto img {
+  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
+}
+.ritratto figcaption {
+  margin-top: 8px; font-family: var(--font-mono); font-size: 10.5px;
+  line-height: 1.5; color: var(--text-muted); letter-spacing: .02em;
+}
+.ritratto figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.ritratto figcaption a:hover { color: var(--text); }
+
 .visivo {
   aspect-ratio: 1; border-radius: 14px; position: relative; overflow: hidden;
   display: grid; place-items: center;
