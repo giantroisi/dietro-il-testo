@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 230,
+    "nCanzoni": 231,
     "haTestoEditoriale": true
   },
   {
@@ -1187,6 +1187,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/back-in-black/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1211,7 +1216,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2109,6 +2114,13 @@
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/ac-dc/back-in-black/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/adele/21/",
@@ -3171,7 +3183,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 111,
+    "nCanzoni": 112,
     "haTestoEditoriale": true
   },
   {
@@ -3220,7 +3232,7 @@
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 42,
+    "nCanzoni": 43,
     "haTestoEditoriale": true
   },
   {

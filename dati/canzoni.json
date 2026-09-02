@@ -10173,5 +10173,51 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "back-in-black",
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1980",
+    "album": "Back in Black",
+    "albumSlug": "back-in-black",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#8A2E2E",
+    "ascolti": 2257482005,
+    "ascoltiTesto": "2,2 mld ascolti",
+    "spotifyId": "08mG3Y1vljYA6bvDt4Wqkj",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e dal nuovo cantante Brian Johnson, dà il titolo al settimo album della band, registrato tra aprile e maggio 1980 ai Compass Point Studios di Nassau, alle Bahamas, con il produttore Robert John \"Mutt\" Lange. Il brano è un tributo al cantante Bon Scott, morto improvvisamente nel febbraio dello stesso anno: Johnson ha raccontato che gli altri membri della band gli chiesero espressamente un testo che non fosse cupo, ma \"una celebrazione\", e che i compagni riconobbero la vita di Bon in quei versi scritti quasi di getto.",
+      "Il riff d'apertura, descritto da Metal Hammer come \"un mostro di tre accordi\", è considerato uno dei più riconoscibili nella storia dell'hard rock. Nel 2009 VH1 lo classificò come la seconda migliore canzone hard rock di sempre; nel Regno Unito è tornato in classifica nel 2012, raggiungendo il primo posto nella classifica specifica dei brani rock."
+    ],
+    "fraseIconica": "Il riff di apertura, ripetuto in tutto il brano, è il momento più ricordato: un tributo musicale prima ancora che testuale, pensato per essere una celebrazione e non un lamento per la memoria di Bon Scott.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/1638838/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Back_in_Black_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.radiox.co.uk/features/acdc-back-in-black-single-meaning-lyrics-tribute-bon-scott/",
+        "nome": "Radio X",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "morte-lutto"
+    ]
   }
 ]
