@@ -54,7 +54,12 @@ const NON_E_LA_BAND = /\b(bridge|ponte|plaque|targa|sign|insegna|street|via|road
 // vinili, cartonati pubblicitari, impronte delle mani, collage montati da piu'
 // foto. Trovati tutti nel terzo giro: per i Deep Purple i primi tre candidati
 // erano un disco, un biglietto del 1991 e una collezione di vinili.
-const NON_E_UNA_FOTO = /\b(disc|disco|dischi|record|vinyl|vinile|ticket|biglietto|jegy|collezione|collection|carton|cartonato|publicitaire|advertis|merchandis|memorabilia|gadget|handprint|impronte|footprint|collage|montage|tribute|gedenk|memorial|shrine|grave|tomba)\b/i;
+const NON_E_UNA_FOTO = /\b(disc|disco|dischi|discos|record|records|vinyl|vinile|vinili|cole[cç][ãa]o|colecao|ticket|biglietto|jegy|collezione|collection|carton|cartonato|publicitaire|advertis|merchandis|memorabilia|gadget|handprint|impronte|footprint|montage|tribute|gedenk|memorial|shrine|grave|tomba|setlist|autograph|autografo|firma|signature)\b/i;
+// Parole troppo distintive per aver bisogno dei confini di parola, e che nei
+// nomi dei file arrivano spesso attaccate al resto: «IronMaidencollage.jpg» e
+// «Metallica My Apocalypse waveform.png», entrambe prime in classifica il
+// 1 settembre perche' `\bcollage\b` non trova «Maidencollage».
+const NON_E_UNA_FOTO_ATTACCATA = /(collage|waveform|spectrogram|spettrogramma|sonogram|wordmark|screenshot|diagram|gedenk|denkmal)/i;
 // La foto e' scattata al concerto di X, ma ritrae CHI APRIVA. Il nome della
 // band e' nel titolo, quindi il punteggio sul nome la premiava: per Metallica
 // i primi tre candidati erano Knocked Loose, Phil Anselmo e Rex Brown, tutti
@@ -164,7 +169,7 @@ for (const a of elenco) {
       // dimensione: ordinare per pixel metteva in cima l'aeroplano.
       let punti = parole.length ? (quanteParole / parole.length) * 4 : 0;
       if (NON_E_LA_BAND.test(testo)) punti -= 3;
-      if (NON_E_UNA_FOTO.test(testo)) punti -= 3;
+      if (NON_E_UNA_FOTO.test(testo) || NON_E_UNA_FOTO_ATTACCATA.test(testo)) punti -= 3;
       if (NON_E_LORO.test(testo)) punti -= 5;   // il nome c'e' ma ritrae un altro
       if (OMONIMO.test(testo)) punti -= 5;
       if (OPERA_ALTRUI.test(testo)) punti -= 2;
@@ -182,7 +187,7 @@ for (const a of elenco) {
           NON_E_LORO.test(testo) ? 'sembra la band che APRIVA il concerto, non quella del titolo'
           : OMONIMO.test(testo) ? 'sembra un omonimo, non il musicista'
           : OPERA_ALTRUI.test(testo) ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta"
-          : NON_E_UNA_FOTO.test(testo) ? 'sembra un oggetto (disco, biglietto, cartonato), non una foto della band'
+          : (NON_E_UNA_FOTO.test(testo) || NON_E_UNA_FOTO_ATTACCATA.test(testo)) ? "sembra un oggetto o un'immagine tecnica (disco, biglietto, collage, forma d'onda), non una foto della band"
           : NON_E_LA_BAND.test(testo) ? 'il titolo dice che potrebbe non essere una foto della band'
           : null,
       });
