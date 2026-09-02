@@ -10001,6 +10001,7 @@
   {
     "slug": "its-a-long-way-to-the-top",
     "titolo": "It's a Long Way to the Top (If You Wanna Rock 'n' Roll)",
+    "titoloSeo": "It's a Long Way to the Top: significato e storia",
     "artista": "AC/DC",
     "artistaSlug": "ac-dc",
     "anno": "1976",
@@ -10297,6 +10298,50 @@
       {
         "url": "https://ultimateclassicrock.com/ac-dc-flick-of-the-switch/",
         "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "danger-acdc",
+    "titolo": "Danger",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1985",
+    "album": "Fly on the Wall",
+    "albumSlug": "fly-on-the-wall",
+    "genereTesto": "Hard rock / Blues rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#8A6E1F",
+    "ascolti": 3421253,
+    "ascoltiTesto": "3,4 mln ascolti",
+    "spotifyId": "4s0zx7jUjCe2qOswnEmQur",
+    "corpo": [
+      "Scritta da Brian Johnson, Angus Young e Malcolm Young, prodotta dagli stessi Angus e Malcolm Young, fu il primo singolo estratto dal decimo album in studio, pubblicato il 21 giugno 1985. Il brano, definito da Wikipedia uno \"shuffle blues scarno\", nacque durante le sessioni registrate fra ottobre 1984 e febbraio 1985 ai Mountain Studios di Montreux. Il videoclip mostra un fotografo equivoco che segue di nascosto la band, ed entrò in rotazione regolare nei programmi metal di MTV.",
+      "La critica dell'epoca fu divisa: Cash Box lo descrisse come \"uno sforzo grezzo e influenzato dal blues\", mentre una recensione più recente di Louder ha trovato il ritornello \"sciocco\", paragonandolo a \"un filmato di informazione pubblica\", pur riconoscendo che le strofe \"suonano più che autentiche\", con \"vera rabbia scatenata\". Il singolo non superò comunque la top 50 delle classifiche all'uscita, fermandosi al numero 48 nel Regno Unito."
+    ],
+    "fraseIconica": "Il ritornello con il titolo ripetuto, \"Danger\", è il momento più ricordato: un avvertimento diretto reso con il tono ringhiante tipico di Brian Johnson, sopra uno shuffle blues volutamente scarno.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/97673/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Danger_(AC/DC_song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.loudersound.com/features/acdc-fly-on-the-wall-album-review",
+        "nome": "Louder",
         "ruolo": "storia"
       },
       {

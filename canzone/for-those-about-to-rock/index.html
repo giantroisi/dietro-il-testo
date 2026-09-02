@@ -498,6 +498,22 @@ a { color: inherit; }
 .player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
+/* F18: il ritratto occupa lo stesso posto e la stessa forma del riquadro
+   grafico che sostituisce, cosi' le due pagine - quella con la foto e quella
+   senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
+   sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
+.ritratto { margin: 0; }
+.ritratto img {
+  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
+}
+.ritratto figcaption {
+  margin-top: 8px; font-family: var(--font-mono); font-size: 10.5px;
+  line-height: 1.5; color: var(--text-muted); letter-spacing: .02em;
+}
+.ritratto figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.ritratto figcaption a:hover { color: var(--text); }
+
 .visivo {
   aspect-ratio: 1; border-radius: 14px; position: relative; overflow: hidden;
   display: grid; place-items: center;
@@ -809,25 +825,25 @@ a { color: inherit; }
     <section class="blocco" id="continua">
       <h2>Continua da qui</h2>
       <div class="griglia">
-        <a class="scheda" href="../../canzone/let-there-be-rock/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1977</span>
-          <span class="titolo">Let There Be Rock</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1977 agli Albert Studios di Sydney con Harry Vanda…</span>
-        </a>
-        <a class="scheda" href="../../canzone/rock-n-roll-damnation/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1978</span>
-          <span class="titolo">Rock 'n' Roll Damnation</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, fu l'ultimo brano inciso per &quot;Powerage&quot;, nel marzo 1978 agli…</span>
-        </a>
         <a class="scheda" href="../../canzone/back-in-black/" style="--identita:#1A1A1A">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1980</span>
           <span class="titolo">Back in Black</span>
           <span class="gancio">Scritta da Angus Young, Malcolm Young e dal nuovo cantante Brian Johnson, dà il titolo al settimo album della band,…</span>
         </a>
+        <a class="scheda" href="../../canzone/danger-acdc/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1985</span>
+          <span class="titolo">Danger</span>
+          <span class="gancio">Scritta da Brian Johnson, Angus Young e Malcolm Young, prodotta dagli stessi Angus e Malcolm Young, fu il primo…</span>
+        </a>
         <a class="scheda" href="../../canzone/dirty-deeds-done-dirt-cheap/" style="--identita:#8A2E2E">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1976</span>
           <span class="titolo">Dirty Deeds Done Dirt Cheap</span>
           <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1976 agli Albert Studios di Sydney con la…</span>
+        </a>
+        <a class="scheda" href="../../canzone/flick-of-the-switch/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983</span>
+          <span class="titolo">Flick of the Switch</span>
+          <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata nell'aprile 1983 ai Compass Point Studios delle…</span>
         </a>
       </div>
     </section>
@@ -889,7 +905,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 233 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 234 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

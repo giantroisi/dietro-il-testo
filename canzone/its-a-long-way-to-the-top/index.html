@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>It's a Long Way to the Top (If You Wanna Rock 'n' Roll): significato e storia</title>
+<title>It's a Long Way to the Top: significato e storia</title>
 <script>
 (function () {
   try {
@@ -21,7 +21,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 <meta property="og:type" content="music.song">
 <meta property="og:site_name" content="Dietro il testo">
-<meta property="og:title" content="It's a Long Way to the Top (If You Wanna Rock 'n' Roll): significato e storia">
+<meta property="og:title" content="It's a Long Way to the Top: significato e storia">
 <meta property="og:description" content="Scritta da Angus Young, Malcolm Young e Bon Scott.">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/its-a-long-way-to-the-top/">
 <meta property="og:locale" content="it_IT">
@@ -498,6 +498,22 @@ a { color: inherit; }
 .player-intestazione iframe { display: block; border: 0; }
 
 /* riquadro identitario: spazio previsto per un'immagine autorizzata */
+/* F18: il ritratto occupa lo stesso posto e la stessa forma del riquadro
+   grafico che sostituisce, cosi' le due pagine - quella con la foto e quella
+   senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
+   sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
+.ritratto { margin: 0; }
+.ritratto img {
+  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
+}
+.ritratto figcaption {
+  margin-top: 8px; font-family: var(--font-mono); font-size: 10.5px;
+  line-height: 1.5; color: var(--text-muted); letter-spacing: .02em;
+}
+.ritratto figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.ritratto figcaption a:hover { color: var(--text); }
+
 .visivo {
   aspect-ratio: 1; border-radius: 14px; position: relative; overflow: hidden;
   display: grid; place-items: center;
@@ -814,15 +830,15 @@ a { color: inherit; }
           <span class="titolo">Highway to Hell</span>
           <span class="gancio">Title track del sesto album della band, uscito il 27 luglio 1979.</span>
         </a>
-        <a class="scheda" href="../../canzone/rock-n-roll-damnation/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1978</span>
-          <span class="titolo">Rock 'n' Roll Damnation</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, fu l'ultimo brano inciso per &quot;Powerage&quot;, nel marzo 1978 agli…</span>
-        </a>
         <a class="scheda" href="../../canzone/back-in-black/" style="--identita:#1A1A1A">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1980</span>
           <span class="titolo">Back in Black</span>
           <span class="gancio">Scritta da Angus Young, Malcolm Young e dal nuovo cantante Brian Johnson, dà il titolo al settimo album della band,…</span>
+        </a>
+        <a class="scheda" href="../../canzone/danger-acdc/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1985</span>
+          <span class="titolo">Danger</span>
+          <span class="gancio">Scritta da Brian Johnson, Angus Young e Malcolm Young, prodotta dagli stessi Angus e Malcolm Young, fu il primo…</span>
         </a>
         <a class="scheda" href="../../canzone/dirty-deeds-done-dirt-cheap/" style="--identita:#8A2E2E">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1976</span>
@@ -889,7 +905,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 233 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 234 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

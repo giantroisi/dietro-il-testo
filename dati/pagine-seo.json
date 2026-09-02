@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 233,
+    "nCanzoni": 234,
     "haTestoEditoriale": true
   },
   {
@@ -1202,6 +1202,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/danger-acdc/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1226,7 +1231,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 8,
+    "nCanzoni": 9,
     "haTestoEditoriale": true
   },
   {
@@ -2141,6 +2146,13 @@
   },
   {
     "percorso": "album/ac-dc/flick-of-the-switch/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/fly-on-the-wall/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3207,7 +3219,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 114,
+    "nCanzoni": 115,
     "haTestoEditoriale": true
   },
   {
@@ -3256,7 +3268,7 @@
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 45,
+    "nCanzoni": 46,
     "haTestoEditoriale": true
   },
   {
