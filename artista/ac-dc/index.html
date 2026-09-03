@@ -465,7 +465,8 @@ a { color: inherit; }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
-.testa-doppia .visivo { grid-area: player; }
+.testa-doppia .visivo,
+.testa-doppia .ritratto { grid-area: player; }
 .testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
@@ -485,7 +486,11 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
-  .testa-doppia .visivo { max-width: 200px; }
+  /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
+     Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
+     era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
+  .testa-doppia .visivo,
+  .testa-doppia .ritratto { max-width: 200px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
@@ -765,13 +770,13 @@ a { color: inherit; }
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
-      <a class="voce" href="#canzoni">Canzoni <b>10</b></a>
+      <a class="voce" href="#canzoni">Canzoni <b>12</b></a>
       <a class="voce" href="#dischi">Album <b>16</b></a>
       <a class="voce" href="#storia">Storia </a>
     </nav>
 
     <dl class="fatti">
-      <div class="fatto"><dt>Canzoni sul sito</dt><dd>10</dd></div>
+      <div class="fatto"><dt>Canzoni sul sito</dt><dd>12</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1979</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>16</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>rock</dd></div>
@@ -830,6 +835,16 @@ a { color: inherit; }
           <span class="titolo">Heatseeker</span>
           <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata ai Miraval Studios di Correns, in Francia, con la…</span>
         </a>
+        <a class="scheda" href="../../canzone/thunderstruck/" style="--identita:#1F1F2E">
+          <span class="sopra">The Razors Edge <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
+          <span class="titolo">Thunderstruck</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in…</span>
+        </a>
+        <a class="scheda" href="../../canzone/hard-as-a-rock/" style="--identita:#1A1A1A">
+          <span class="sopra">Ballbreaker <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1995</span>
+          <span class="titolo">Hard as a Rock</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato…</span>
+        </a>
       </div>
     </section>
 
@@ -876,14 +891,14 @@ a { color: inherit; }
           <span class="indice">10</span>
           <span><span class="titolo">Blow Up Your Video</span></span>
           <span class="anno">1988</span></a>
-        <div class="disco disco-assente">
+        <a class="disco" href="../../album/ac-dc/the-razors-edge/">
           <span class="indice">11</span>
           <span><span class="titolo">The Razors Edge</span></span>
-          <span class="anno">1990</span></div>
-        <div class="disco disco-assente">
+          <span class="anno">1990</span></a>
+        <a class="disco" href="../../album/ac-dc/ballbreaker/">
           <span class="indice">12</span>
           <span><span class="titolo">Ballbreaker</span></span>
-          <span class="anno">1995</span></div>
+          <span class="anno">1995</span></a>
         <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Stiff Upper Lip</span></span>
@@ -921,7 +936,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 235 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 237 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="Tutte le 235 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta name="description" content="Tutte le 237 canzoni e i 104 artisti raccontati su Dietro il testo.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/archivio/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Archivio completo">
-<meta property="og:description" content="Tutte le 235 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta property="og:description" content="Tutte le 237 canzoni e i 104 artisti raccontati su Dietro il testo.">
 <meta property="og:url" content="https://www.dietroiltesto.it/archivio/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/archivio.png">
@@ -469,7 +469,8 @@ a { color: inherit; }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
-.testa-doppia .visivo { grid-area: player; }
+.testa-doppia .visivo,
+.testa-doppia .ritratto { grid-area: player; }
 .testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
@@ -489,7 +490,11 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
-  .testa-doppia .visivo { max-width: 200px; }
+  /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
+     Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
+     era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
+  .testa-doppia .visivo,
+  .testa-doppia .ritratto { max-width: 200px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
@@ -751,19 +756,19 @@ a { color: inherit; }
     <header class="intestazione">
       <p class="sopratitolo">Tutto quello che c'è</p>
       <h1>L'archivio completo.</h1>
-      <p class="sintesi">235 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
+      <p class="sintesi">237 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
     </header>
 
     <section class="blocco" style="border-top:0;padding-top:0">
       <div class="suggerimenti">
         <span class="etichetta">Sfoglia le raccolte</span>
-        <a href="../genere/rock/">Rock <b>116</b></a>
+        <a href="../genere/rock/">Rock <b>118</b></a>
         <a href="../genere/metal/">Metal <b>65</b></a>
         <a href="../genere/pop/">Pop <b>99</b></a>
         <a href="../genere/punk/">Punk <b>24</b></a>
         <a href="../anni/1970/">anni Settanta <b>31</b></a>
         <a href="../anni/2000/">anni Duemila <b>44</b></a>
-        <a href="../anni/1990/">anni Novanta <b>55</b></a>
+        <a href="../anni/1990/">anni Novanta <b>57</b></a>
         <a href="../anni/1980/">anni Ottanta <b>47</b></a>
         <a href="../anni/2010/">anni Duemiladieci <b>35</b></a>
       </div>
@@ -797,7 +802,7 @@ a { color: inherit; }
         <button class="filtro" type="button" data-tema="nostalgia" aria-pressed="false">Nostalgia</button>
         <button class="filtro" type="button" data-tema="ossessione-gelosia" aria-pressed="false">Ossessione e gelosia</button>
       </div>
-      <p class="conteggio" data-conteggio aria-live="polite">235 canzoni</p>
+      <p class="conteggio" data-conteggio aria-live="polite">237 canzoni</p>
       <div class="griglia" data-elenco>
         <a class="scheda" href="../canzone/21-guns/" style="--identita:#2E2E2E" data-generi="rock punk" data-paese="" data-temi="critica-sociale guerra">
           <span class="sopra">Green Day <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
@@ -1233,6 +1238,11 @@ a { color: inherit; }
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">Happy Song</span>
           <span class="gancio">Uno dei primi brani scritti per &quot;That's the Spirit&quot; (2015), riassume il tema centrale dell'album, incentrato sulla…</span>
+        </a>
+        <a class="scheda" href="../canzone/hard-as-a-rock/" style="--identita:#1A1A1A" data-generi="rock" data-paese="" data-temi="">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1995</span>
+          <span class="titolo">Hard as a Rock</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato…</span>
         </a>
         <a class="scheda" href="../canzone/heatseeker/" style="--identita:#2E2E2E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1988</span>
@@ -1844,6 +1854,11 @@ a { color: inherit; }
           <span class="titolo">Throne</span>
           <span class="gancio">Prodotta dal tastierista Jordan Fish e dal cantante Oliver Sykes, &quot;Throne&quot; è stata pubblicata il 23 luglio 2015 come…</span>
         </a>
+        <a class="scheda" href="../canzone/thunderstruck/" style="--identita:#1F1F2E" data-generi="rock" data-paese="" data-temi="">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
+          <span class="titolo">Thunderstruck</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in…</span>
+        </a>
         <a class="scheda" href="../canzone/tieni-il-tempo/" style="--identita:#6E2E5C" data-generi="pop rock" data-paese="it" data-temi="liberta-evasione ribellione">
           <span class="sopra">883 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1995</span>
           <span class="titolo">Tieni il tempo</span>
@@ -1998,7 +2013,7 @@ a { color: inherit; }
         <a class="riga" href="../artista/ac-dc/">
         <span class="meta">rock</span>
         <span class="nome">AC/DC</span>
-        <span class="conta">10 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 16 album →</span>
+        <span class="conta">12 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 16 album →</span>
       </a>
         <a class="riga" href="../artista/adele/">
         <span class="meta">pop</span>
@@ -2508,7 +2523,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 235 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 237 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

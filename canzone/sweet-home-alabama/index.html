@@ -469,7 +469,8 @@ a { color: inherit; }
 .testa-doppia .testa-identita { grid-area: identita; }
 .testa-doppia .testa-contorno { grid-area: contorno; margin-top: 18px; }
 .testa-doppia .player-intestazione,
-.testa-doppia .visivo { grid-area: player; }
+.testa-doppia .visivo,
+.testa-doppia .ritratto { grid-area: player; }
 .testa-doppia .testa-momento { grid-area: momento; }
 
 @media (max-width: 860px) {
@@ -489,7 +490,11 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
-  .testa-doppia .visivo { max-width: 200px; }
+  /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
+     Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
+     era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
+  .testa-doppia .visivo,
+  .testa-doppia .ritratto { max-width: 200px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
@@ -830,6 +835,11 @@ a { color: inherit; }
           <span class="titolo">Riders on the Storm</span>
           <span class="gancio">Nacque da una jam session in studio in cui i Doors stavano rielaborando &quot;(Ghost) Riders in the Sky&quot;, un classico…</span>
         </a>
+        <a class="scheda" href="../../canzone/rock-n-roll-damnation/" style="--identita:#2E2E2E">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1978</span>
+          <span class="titolo">Rock 'n' Roll Damnation</span>
+          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, fu l'ultimo brano inciso per &quot;Powerage&quot;, nel marzo 1978 agli…</span>
+        </a>
         <a class="scheda" href="../../canzone/rocket-man/" style="--identita:#2E3A5C">
           <span class="sopra">Elton John <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
           <span class="titolo">Rocket Man</span>
@@ -839,11 +849,6 @@ a { color: inherit; }
           <span class="sopra">Deep Purple <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
           <span class="titolo">Space Truckin'</span>
           <span class="gancio">Scritta a cinque mani dalla formazione Mark II, nacque da un'idea musicale del chitarrista Ritchie Blackmore:…</span>
-        </a>
-        <a class="scheda" href="../../canzone/stairway-to-heaven/" style="--identita:#4A6E3E">
-          <span class="sopra">Led Zeppelin <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
-          <span class="titolo">Stairway to Heaven</span>
-          <span class="gancio">Uscita l'8 novembre 1971 nel quarto album (senza titolo) della band, racconta di una donna convinta che il denaro…</span>
         </a>
       </div>
     </section>
@@ -871,7 +876,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 235 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 237 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
