@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 248,
+    "nCanzoni": 249,
     "haTestoEditoriale": true
   },
   {
@@ -1277,6 +1277,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/django/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1777,7 +1782,7 @@
     "percorso": "artista/pinguini-tattici-nucleari/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -3069,6 +3074,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/pinguini-tattici-nucleari/gioventu-brucata/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3401,7 +3413,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 105,
+    "nCanzoni": 106,
     "haTestoEditoriale": true
   },
   {
@@ -3443,7 +3455,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 37,
+    "nCanzoni": 38,
     "haTestoEditoriale": true
   }
 ]

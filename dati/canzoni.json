@@ -6017,7 +6017,7 @@
     "artista": "Pinguini Tattici Nucleari",
     "artistaSlug": "pinguini-tattici-nucleari",
     "anno": "2020",
-    "album": "Sanremo 2020 / Fuori dall'hype",
+    "album": "Fuori dall'hype - Ringo Starr (Sanremo 2020)",
     "albumSlug": "sanremo-2020-fuori-dallhype",
     "genereTesto": "Pop rock italiano",
     "generi": [
@@ -6027,8 +6027,8 @@
     "paese": "it",
     "colore": "#4A5C8A",
     "colore2": "#6E6E6E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 106679392,
+    "ascoltiTesto": "106,7 mln ascolti",
     "spotifyId": "5yfE6GXTuJaAlepKoE0wJE",
     "corpo": [
       "Presentata al Festival di Sanremo 2020, dove i Pinguini Tattici Nucleari si classificarono al terzo posto tra i debuttanti, la canzone usa la figura dello storico batterista dei Beatles come metafora esistenziale per raccontare chi si sente marginale anche stando dentro qualcosa di enorme e importante.",
@@ -6045,6 +6045,11 @@
       {
         "url": "https://www.fanpage.it/spettacolo/eventi/ringo-starr-testo-e-significato-della-canzone-dei-pinguini-tattici-nucleari-cantata-a-sanremo/",
         "nome": "Fanpage"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -10973,6 +10978,50 @@
       {
         "url": "https://solobellecanzoni.altervista.org/balliamo-sul-mondo-luciano-ligabue/",
         "nome": "Solo Belle Canzoni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "django",
+    "titolo": "Django",
+    "artista": "Pinguini Tattici Nucleari",
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "anno": "2015",
+    "album": "Diamo un calcio all'aldilà",
+    "albumSlug": "diamo-un-calcio-all-aldila",
+    "genereTesto": "Indie pop / Cantautorato",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E4A3E",
+    "colore2": "#6E6E6E",
+    "ascolti": 1768588,
+    "ascoltiTesto": "1,77 mln ascolti",
+    "spotifyId": "4Gmq0xGXjboqge175f4XyO",
+    "corpo": [
+      "Traccia del secondo album dei Pinguini Tattici Nucleari, \"Diamo un calcio all'aldilà\", uscito il 18 dicembre 2015. Il disco fu prodotto e finanziato con i fondi del concorso \"Nuovi Suoni Live 2015\" del Comune di Bergamo, città di origine della band, e registrato allo studio Suonovivo di Marco e Dario Ravelli — lo stesso studio in cui avevano lavorato, tra gli altri, Africa Unite e Davide Van De Sfroos. Fu distribuito inizialmente con licenza Creative Commons, prima che la band firmasse per RCA e Sony Music.",
+      "Nella presentazione ufficiale dell'album, la band descrisse il disco come \"un viaggio musicale tra mete lontanissime tra di loro ma unite dal filo rosso dell'inadeguatezza e dell'ironia\", un miscuglio dichiarato di generi diversi, dal reggae al prog, dal folk al jazz. \"Django\" racconta, con lo stile surreale tipico della band, la figura di un personaggio enigmatico e ribelle, cercato e rincorso da chi lo ha conosciuto."
+    ],
+    "fraseIconica": "Il brano descrive con tono onirico un personaggio di nome Django, partito dal proprio paese e ancora cercato dalle strade e dalle piazze che lo hanno conosciuto, come una figura sfuggente avvolta da un'aria di ribellione.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pinguini-tattici-nucleari/django/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Diamo_un_calcio_all%27aldil%C3%A0",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.rockit.it/pinguinitatticinucleari/album/diamo-un-calcio-allaldila/33161",
+        "nome": "Rockit",
         "ruolo": "storia"
       },
       {
