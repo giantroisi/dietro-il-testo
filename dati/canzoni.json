@@ -11209,5 +11209,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "eroe-storia-di-luigi-delle-bicocche",
+    "titolo": "Eroe (Storia di Luigi delle Bicocche)",
+    "artista": "Caparezza",
+    "artistaSlug": "caparezza",
+    "anno": "2008",
+    "album": "Le dimensioni del mio caos",
+    "albumSlug": "le-dimensioni-del-mio-caos",
+    "genereTesto": "Rap / Hip hop italiano",
+    "generi": [
+      "rap"
+    ],
+    "paese": "Italia",
+    "colore": "#1F6B5C",
+    "colore2": "#6B4A1F",
+    "ascolti": 12078113,
+    "ascoltiTesto": "12,1 mln ascolti",
+    "spotifyId": "3rGX2jDP3bTMrrQAVihhEb",
+    "corpo": [
+      "Primo singolo estratto da Le dimensioni del mio caos, pubblicato il 28 marzo 2008, poco prima dell'uscita del quarto album di Caparezza l'11 aprile. Il disco è concepito come un fonoromanzo, una storia unica che attraversa tutte le tracce: Luigi delle Bicocche, descritto nel libretto come un muratore precario che finirà per squarciare il tessuto del tempo nel finale dell'album, è uno dei personaggi centrali di quella narrazione.",
+      "Nel brano, Luigi diventa il simbolo dell'operaio costretto a lavorare in condizioni di forte precarietà e a cambiare continuamente impiego, senza mai cedere alle tentazioni di usurai e slot machine pur di portare avanti la famiglia. Il videoclip rappresenta con una metafora visiva la vita difficile dei lavoratori sottopagati attraverso un cappio che stringe senza mai sferrare il colpo definitivo."
+    ],
+    "fraseIconica": "Il titolo capovolge l'idea comune di eroe, spostandola da imprese straordinarie alla resistenza quotidiana di chi porta avanti una famiglia lavorando in condizioni difficili senza mai arrendersi ai debiti o al gioco d'azzardo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/caparezza/1539693/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Le_dimensioni_del_mio_caos",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.oaplus.it/musica/recensioni/caparezza-le-dimensioni-del-mio-caos-il-fonoromanzo-sociale/",
+        "nome": "OA Plus",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

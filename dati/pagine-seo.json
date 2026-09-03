@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 253,
+    "nCanzoni": 254,
     "haTestoEditoriale": true
   },
   {
@@ -1302,6 +1302,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/eroe-storia-di-luigi-delle-bicocche/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1403,7 +1408,7 @@
     "percorso": "artista/caparezza/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 8,
+    "nCanzoni": 9,
     "haTestoEditoriale": true
   },
   {
@@ -2481,7 +2486,7 @@
     "percorso": "album/caparezza/le-dimensioni-del-mio-caos/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3468,7 +3473,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 49,
+    "nCanzoni": 50,
     "haTestoEditoriale": true
   },
   {
