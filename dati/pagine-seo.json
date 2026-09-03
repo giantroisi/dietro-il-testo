@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 258,
+    "nCanzoni": 259,
     "haTestoEditoriale": true
   },
   {
@@ -1327,6 +1327,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/logico-1/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1435,7 +1440,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -2566,6 +2571,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/logico/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3493,7 +3505,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 110,
+    "nCanzoni": 111,
     "haTestoEditoriale": true
   },
   {
@@ -3535,7 +3547,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 41,
+    "nCanzoni": 42,
     "haTestoEditoriale": true
   }
 ]

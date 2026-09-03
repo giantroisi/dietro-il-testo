@@ -11429,5 +11429,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "logico-1",
+    "titolo": "Logico #1",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2014",
+    "album": "Logico",
+    "albumSlug": "logico",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E4A6E",
+    "colore2": "#8A6E2E",
+    "ascolti": 70260273,
+    "ascoltiTesto": "70,3 mln ascolti",
+    "spotifyId": "4M6eMu2CMR9MxO2c3MQgaI",
+    "corpo": [
+      "Primo singolo estratto da Logico, quinto album da solista di Cesare Cremonini, pubblicato il 27 marzo 2014. Scritto con Davide Petrella e prodotto da Walter Mameli, registrato ai Mille Galassie Studio di Bologna. Cremonini ha raccontato che \"logico\" è una parola che ha sempre significato molto per lui: gliela ripeteva la madre come una delle sue primissime parole da bambino, e la sentì pronunciare per la prima volta dal padre, medico, durante le visite a cui lo accompagnava talvolta da piccolo.",
+      "Il brano racconta, ha spiegato Cremonini, \"un uomo che si apre alla ricerca disperata di un complice in questa vita sempre più complessa, disordinata e incomprensibile\", sottolineando l'importanza di trovare un'anima affine piuttosto che inseguire l'utopia irrealistica di un amore perfetto. Il singolo raggiunse la quarta posizione della classifica FIMI e il primo posto in quella radiofonica, ottenendo il triplo disco di platino in Italia."
+    ],
+    "fraseIconica": "Il titolo prende una parola quasi tecnica, presa in prestito dal lessico medico del padre di Cremonini, e la trasforma nel simbolo di un bisogno più profondo: quello di trovare qualcuno con cui la vita, anche nella sua complessità, abbia finalmente un senso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/logico-1/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Logico_n._1",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.agi.it/lifestyle/news/2014-11-10/ecco_cosa_dice_cremonini_della_canzoni_di_logico_in_tour-96760/",
+        "nome": "AGI",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
