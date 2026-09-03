@@ -11076,5 +11076,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "urlando-contro-il-cielo",
+    "titolo": "Urlando contro il cielo",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "1991",
+    "album": "Lambrusco coltelli rose & pop corn",
+    "albumSlug": "lambrusco-coltelli-rose-pop-corn",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#3E2E1F",
+    "colore2": "#5C6E8A",
+    "ascolti": 22883981,
+    "ascoltiTesto": "22,9 mln ascolti",
+    "spotifyId": "1wx5hbovwZoPeTUom8cuQ4",
+    "corpo": [
+      "Quarto singolo estratto da Lambrusco coltelli rose & pop corn, il secondo album di Ligabue, uscito nel 1991. Il brano era già stato scritto ai tempi del primo disco, ma Ligabue scelse di tenerlo da parte e pubblicarlo solo l'anno successivo. Il titolo nacque da un episodio autobiografico: in un periodo di forte tensione, Ligabue si fermò da solo in mezzo a un campo isolato della Bassa emiliana e iniziò spontaneamente a urlare contro il cielo per sfogarsi.",
+      "Diventata una delle canzoni più amate della sua carriera e un pezzo fisso dei concerti, ottenne il disco d'oro in Italia. Una sua esecuzione dal vivo, cantata quasi interamente dal pubblico durante il Neverending Tour del 1991, fu pubblicata nel 1994 nell'album A che ora è la fine del mondo? come primo brano live ufficiale di Ligabue."
+    ],
+    "fraseIconica": "Il titolo racconta il bisogno di liberarsi da una tensione interiore urlando verso il cielo, un gesto di sfogo e resistenza più che di rabbia, con cui il narratore invita chi ascolta a non arrendersi finché il cuore continua a battere.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/22892/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Urlando_contro_il_cielo",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://solobellecanzoni.altervista.org/urlando-contro-il-cielo-ligabue/",
+        "nome": "Solo Belle Canzoni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

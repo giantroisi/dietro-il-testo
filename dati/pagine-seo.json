@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 250,
+    "nCanzoni": 251,
     "haTestoEditoriale": true
   },
   {
@@ -1287,6 +1287,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/urlando-contro-il-cielo/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1640,7 +1645,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2813,6 +2818,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/lambrusco-coltelli-rose-pop-corn/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/ligabue/sopravvissuti-e-sopravviventi/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3404,7 +3416,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 123,
+    "nCanzoni": 124,
     "haTestoEditoriale": true
   },
   {
@@ -3446,7 +3458,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 58,
+    "nCanzoni": 59,
     "haTestoEditoriale": true
   },
   {
