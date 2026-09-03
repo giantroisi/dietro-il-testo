@@ -70,5 +70,85 @@
     "propria": true,
     "concerto": "Unipol Arena, Casalecchio di Reno (Bologna)",
     "data": "15 febbraio 2026"
+  },
+  "ligabue": {
+    "file": "ligabue.jpg",
+    "autore": "Associazione Amici di Piero Chiara",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Luciano_Ligabue,_Premio_Chiara,_2012.jpg",
+    "titoloOriginale": "File:Luciano Ligabue, Premio Chiara, 2012.jpg"
+  },
+  "vasco-rossi": {
+    "file": "vasco-rossi.jpg",
+    "autore": "Il Riformista",
+    "licenza": "CC0",
+    "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Vasco_Rossi_Roma_2022.jpg",
+    "titoloOriginale": "File:Vasco Rossi Roma 2022.jpg"
+  },
+  "korn": {
+    "file": "korn.jpg",
+    "autore": "Sry85",
+    "licenza": "CC BY 2.5",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Kornmaa2006.jpg",
+    "titoloOriginale": "File:Kornmaa2006.jpg"
+  },
+  "lucio-dalla": {
+    "file": "lucio-dalla.jpg",
+    "autore": "Gorup de Besanez",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:PERX0052_04.jpg",
+    "titoloOriginale": "File:PERX0052 04.jpg"
+  },
+  "cesare-cremonini": {
+    "file": "cesare-cremonini.jpg",
+    "autore": "Alicemngh",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Cesare_Cremonini_m2o_2024_(cropped).jpg",
+    "titoloOriginale": "File:Cesare Cremonini m2o 2024 (cropped).jpg"
+  },
+  "pearl-jam": {
+    "file": "pearl-jam.jpg",
+    "autore": "Drew de F Fawkes from Guildford, United Kingdom",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Eddie_Vedder_&_Johnny_Marr,_Pearl_Jam,_BST_Hyde_Park_2022_(52209161403).jpg",
+    "titoloOriginale": "File:Eddie Vedder & Johnny Marr, Pearl Jam, BST Hyde Park 2022 (52209161403).jpg"
+  },
+  "slipknot": {
+    "file": "slipknot.jpg",
+    "autore": "Morten Jensen",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Slipknot_at_Roskilde_Festival_2013.jpg",
+    "titoloOriginale": "File:Slipknot at Roskilde Festival 2013.jpg"
+  },
+  "pantera": {
+    "file": "pantera.jpg",
+    "autore": "Miguel",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:PANTERA_RESU_23_(53015181667).jpg",
+    "titoloOriginale": "File:PANTERA RESU 23 (53015181667).jpg"
+  },
+  "rage-against-the-machine": {
+    "file": "rage-against-the-machine.jpg",
+    "autore": "Penner",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Rage_Against_The_Machine_(cropped).jpg",
+    "titoloOriginale": "File:Rage Against The Machine (cropped).jpg"
+  },
+  "slayer": {
+    "file": "slayer.jpg",
+    "autore": "WanderingTrad",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Slayer_Tuska_2019_(3).jpg",
+    "titoloOriginale": "File:Slayer Tuska 2019 (3).jpg"
   }
 }

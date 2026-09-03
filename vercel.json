@@ -2631,26 +2631,6 @@
       "permanent": true
     },
     {
-      "source": "/album/ligabue/made-in-italy/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/start/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/7/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/dedicato-a-noi/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
       "source": "/album/limp-bizkit/three-dollar-bill-y-all/",
       "destination": "/artista/limp-bizkit/",
       "permanent": true

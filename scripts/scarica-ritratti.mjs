@@ -102,14 +102,27 @@ if (anteprime) {
       titles: lotto.map((x) => x.titolo).join('|'),
       prop: 'imageinfo', iiprop: 'url', iiurlwidth: '420',
     });
-    const r = await fetch(`https://commons.wikimedia.org/w/api.php?${p}`, { headers: { 'user-agent': UA } });
-    if (!r.ok) { console.log(`  l'API risponde ${r.status}`); continue; }
-    const d = await r.json();
-    for (const pag of Object.values((d.query && d.query.pages) || {})) {
-      const ii = (pag.imageinfo || [])[0];
-      if (ii && (ii.thumburl || ii.url)) miniature.set(pag.title, ii.thumburl || ii.url);
+    // Senza try/catch una rete che cade qui uccide lo script con uno stack
+    // trace di undici, e chi lo lancia non capisce se il problema e' suo, di
+    // Commons o del programma. E' successo: un giro intero e' finito con zero
+    // anteprime e nessuna riga leggibile che lo dicesse.
+    try {
+      const r = await fetch(`https://commons.wikimedia.org/w/api.php?${p}`, { headers: { 'user-agent': UA } });
+      if (!r.ok) { console.log(`  l'API risponde ${r.status} sul lotto ${i / 40 + 1}`); continue; }
+      const d = await r.json();
+      for (const pag of Object.values((d.query && d.query.pages) || {})) {
+        const ii = (pag.imageinfo || [])[0];
+        if (ii && (ii.thumburl || ii.url)) miniature.set(pag.title, ii.thumburl || ii.url);
+      }
+    } catch (e) {
+      console.log(`  lotto ${i / 40 + 1}: ${e.cause ? e.cause.code || e.cause.message : e.message} — rete assente o Commons irraggiungibile`);
     }
     await new Promise((x) => setTimeout(x, 1200));
+  }
+  if (!miniature.size) {
+    console.log('\nNessuna miniatura ottenuta: non e un problema di scelte, e la rete.');
+    console.log('Controlla la connessione e rilancia lo stesso comando.');
+    process.exit(1);
   }
 
   let n = 0, persi = 0;
@@ -191,6 +204,11 @@ for (const [slug, titolo] of Object.entries(scelti)) {
     fonte: c.paginaFile,
     titoloOriginale: c.titolo,
   };
+  // Si salva SUBITO, non alla fine. Un giro di dieci artisti si e' fermato a
+  // meta': quattro foto erano sul disco e dati/ritratti.json non ne sapeva
+  // niente, cioe' quattro immagini senza attribuzione registrata. Scrivere a
+  // ogni passo costa nulla e non lascia mai quello stato.
+  writeFileSync('dati/ritratti.json', JSON.stringify(ritratti, null, 2) + '\n');
   ok++;
 }
 
@@ -201,6 +219,9 @@ for (const [slug, titolo] of Object.entries(scelti)) {
 // successo davvero, due volte. Quindi qui si confronta e si dice.
 const incoerenti = Object.entries(scelti)
   .filter(([slug]) => !iSoli || iSoli.has(slug))
+  // Le foto scattate da noi non vengono da Commons e non hanno un titolo da
+  // confrontare: la voce in ritratti-scelti.json, se c'e', e' un residuo.
+  .filter(([slug]) => !(ritratti[slug] || {}).propria)
   .filter(([slug, titolo]) => ritratti[slug] && ritratti[slug].titoloOriginale !== titolo);
 if (!prova && incoerenti.length) {
   console.error('\nATTENZIONE: per questi artisti la foto sul disco non e quella scelta.');
@@ -211,7 +232,6 @@ if (!prova && incoerenti.length) {
 }
 
 if (!prova && ok) {
-  writeFileSync('dati/ritratti.json', JSON.stringify(ritratti, null, 2) + '\n');
   console.log(`\nScritto dati/ritratti.json — ${Object.keys(ritratti).length} ritratti con attribuzione completa.`);
   console.log('Ora rigenera il sito e guarda le pagine artista: senza uno dei cinque campi la foto non esce.');
 }
