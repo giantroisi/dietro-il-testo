@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 249,
+    "nCanzoni": 250,
     "haTestoEditoriale": true
   },
   {
@@ -1282,6 +1282,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/legalize-the-premier/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1383,7 +1388,7 @@
     "percorso": "artista/caparezza/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 7,
+    "nCanzoni": 8,
     "haTestoEditoriale": true
   },
   {
@@ -2468,7 +2473,7 @@
     "percorso": "album/caparezza/il-sogno-eretico/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -3455,7 +3460,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 38,
+    "nCanzoni": 39,
     "haTestoEditoriale": true
   }
 ]

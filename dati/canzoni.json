@@ -11032,5 +11032,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "legalize-the-premier",
+    "titolo": "Legalize the Premier",
+    "artista": "Caparezza",
+    "artistaSlug": "caparezza",
+    "anno": "2011",
+    "album": "Il sogno eretico",
+    "albumSlug": "il-sogno-eretico",
+    "genereTesto": "Hip hop / Rap italiano",
+    "generi": [
+      "rap"
+    ],
+    "paese": "Italia",
+    "colore": "#1F5C3E",
+    "colore2": "#6E4A1F",
+    "ascolti": 12457557,
+    "ascoltiTesto": "12,5 mln ascolti",
+    "spotifyId": "5zEShXjG85u9poCy6khwm8",
+    "corpo": [
+      "Terzo singolo estratto da Il sogno eretico, quinto album in studio di Caparezza, pubblicato il 5 agosto 2011 in duetto con il cantante reggae Alborosie. Il brano, di reggae politico, uscì durante il governo guidato da Silvio Berlusconi, ma Caparezza ha precisato più volte che il premier non viene mai citato esplicitamente nel testo.",
+      "\"Silvio Berlusconi non è mai nominato esplicitamente. La mia è un'accusa più generale a un seme che ha germogliato nel sistema italiano: se diventi Presidente del Consiglio sei libero di modificare le leggi a tuo uso e consumo\", ha dichiarato Caparezza a proposito del brano, precisando che la critica non riguarda un solo politico ma chiunque verrà dopo, perché una volta aperta una strada tutti possono percorrerla. Il videoclip, pubblicato il 25 luglio 2011 e diretto da Roberto Tafuro, unisce un'orchestra con ottoni, archi e sitar."
+    ],
+    "fraseIconica": "Il titolo gioca sull'ambiguità fra la legalizzazione di una sostanza e quella di un potere che si scrive da solo le regole, chiedendo ironicamente di \"legalizzare\" non una pianta ma un sistema che si è già impossessato delle leggi.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/caparezza/legalize-the-premier/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Legalize_the_Premier",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://le-citazioni.it/frasi/205258-caparezza-su-legalize-the-premier-silvio-berlusconi-non-e/",
+        "nome": "Le Citazioni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
