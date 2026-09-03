@@ -11164,5 +11164,50 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "ridere",
+    "titolo": "Ridere",
+    "artista": "Pinguini Tattici Nucleari",
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "anno": "2020",
+    "album": "Fuori dall'hype - Ringo Starr (Sanremo 2020)",
+    "albumSlug": "sanremo-2020-fuori-dallhype",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "rock",
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E6E5C",
+    "colore2": "#6E6E6E",
+    "ascolti": 170180571,
+    "ascoltiTesto": "170,2 mln ascolti",
+    "spotifyId": "5LZVK19ieaV8Mk9FsqTL3F",
+    "corpo": [
+      "Scritta da Riccardo Zanotti, fu pubblicata da Sony Music il 17 aprile 2020 come secondo singolo dalla riedizione del quarto album, nel pieno del primo lockdown della pandemia di Covid-19 in Italia. Il videoclip, pubblicato il 28 aprile 2020, fu realizzato interamente con filmati inviati dai fan della band durante la quarantena: acrobazie improvvisate in salotto, nonni che cantano con i nipoti, animali domestici, persone che cucinano o si esibiscono sotto la doccia.",
+      "Il video raggiunse il primo posto tra i contenuti di tendenza su YouTube Italia in meno di 24 ore dalla pubblicazione, e la band ricevette oltre tremila messaggi dai fan nei giorni successivi. Il brano restò in classifica FIMI per un totale di diciotto mesi, ottenendo sei dischi di platino in Italia."
+    ],
+    "fraseIconica": "Il ritornello invita a ridere anche nei momenti più difficili, un gesto quasi di resistenza che, uscito proprio nelle settimane del lockdown, la band trasformò letteralmente in un video corale fatto dai propri fan chiusi in casa.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pinguini-tattici-nucleari/ridere/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ridere",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.bergamonews.it/2020/04/29/pinguini-tattici-nucleari-online-il-nuovo-video-di-ridere-realizzato-insieme-ai-fan/369248/",
+        "nome": "BergamoNews",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

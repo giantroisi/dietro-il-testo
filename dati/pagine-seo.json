@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 252,
+    "nCanzoni": 253,
     "haTestoEditoriale": true
   },
   {
@@ -1297,6 +1297,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/ridere/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1797,7 +1802,7 @@
     "percorso": "artista/pinguini-tattici-nucleari/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 7,
+    "nCanzoni": 8,
     "haTestoEditoriale": true
   },
   {
@@ -3127,7 +3132,7 @@
     "percorso": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -3428,7 +3433,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 124,
+    "nCanzoni": 125,
     "haTestoEditoriale": true
   },
   {
@@ -3442,7 +3447,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 107,
+    "nCanzoni": 108,
     "haTestoEditoriale": true
   },
   {
