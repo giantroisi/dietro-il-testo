@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 270,
+    "nCanzoni": 271,
     "haTestoEditoriale": true
   },
   {
@@ -1387,6 +1387,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/riderai/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1740,7 +1745,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 13,
+    "nCanzoni": 14,
     "haTestoEditoriale": true
   },
   {
@@ -3039,6 +3044,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/dedicato-a-noi/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3609,7 +3621,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 134,
+    "nCanzoni": 135,
     "haTestoEditoriale": true
   },
   {

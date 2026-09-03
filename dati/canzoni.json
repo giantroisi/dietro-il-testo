@@ -11957,5 +11957,49 @@
     ],
     "testoFonte": "AngoloTesti",
     "temi": []
+  },
+  {
+    "slug": "riderai",
+    "titolo": "Riderai",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2023",
+    "album": "Dedicato a noi",
+    "albumSlug": "dedicato-a-noi",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E2E",
+    "colore2": "#6E8A5C",
+    "ascolti": 4652664,
+    "ascoltiTesto": "4,65 mln ascolti",
+    "spotifyId": "37ULn3GxEBgEjJRhb3Igms",
+    "corpo": [
+      "Primo singolo pubblicato il 28 aprile 2023, ad anticipare Dedicato a noi, quattordicesimo album di Ligabue uscito il 22 settembre dello stesso anno. Scritta da Ligabue e prodotta insieme a Fabrizio Barbacci, la canzone fu presentata dal vivo in anteprima in due concerti a sorpresa in piccoli club, il 27 aprile al Largo Venue di Roma e il 28 aprile ai Magazzini Generali di Milano.",
+      "Il brano è un invito a non prendere troppo sul serio le difficoltà del presente, a lasciare andare rimpianti e sensi di colpa e a guardare al futuro con ottimismo, ricordando che ciò che oggi sembra insormontabile, con il tempo, finirà per far sorridere. Una ballata rock che unisce tenerezza e desiderio di riscatto, un tema caro a Ligabue lungo tutta la sua carriera."
+    ],
+    "fraseIconica": "Il titolo, al futuro, promette che le difficoltà di oggi diventeranno un giorno motivo di sorriso, un invito a non lasciarsi schiacciare da rimpianti e imbarazzi che col tempo perdono tutto il loro peso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.angolotesti.it/L/testi_canzoni_ligabue_1027/testo_canzone_riderai_2667791.html",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Dedicato_a_noi",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.mbmusic.it/2023/04/riderai-ligabue-testo-e-significato/",
+        "nome": "MB Music",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "AngoloTesti",
+    "temi": []
   }
 ]
