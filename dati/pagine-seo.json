@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 239,
+    "nCanzoni": 240,
     "haTestoEditoriale": true
   },
   {
@@ -1232,6 +1232,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/rock-or-bust/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1256,7 +1261,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 14,
+    "nCanzoni": 15,
     "haTestoEditoriale": true
   },
   {
@@ -2213,6 +2218,13 @@
   },
   {
     "percorso": "album/ac-dc/black-ice/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/rock-or-bust/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3279,7 +3291,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 120,
+    "nCanzoni": 121,
     "haTestoEditoriale": true
   },
   {
@@ -3335,7 +3347,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 35,
+    "nCanzoni": 36,
     "haTestoEditoriale": true
   }
 ]

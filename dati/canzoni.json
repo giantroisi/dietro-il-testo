@@ -10587,5 +10587,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "rock-or-bust",
+    "titolo": "Rock or Bust",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "2014",
+    "album": "Rock or Bust",
+    "albumSlug": "rock-or-bust",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#8A1D1D",
+    "ascolti": 130505038,
+    "ascoltiTesto": "130,5 mln ascolti",
+    "spotifyId": "2vyae4DvSU2gs8OMOGwXF2",
+    "corpo": [
+      "Title track del sedicesimo album, uscito come secondo singolo il 17 novembre 2014 dopo l'apripista \"Play Ball\". Scritta da Angus e Malcolm Young e prodotta da Brendan O'Brien, fu registrata tra maggio e luglio 2014 ai Warehouse Studio di Vancouver. L'album segnò un momento di passaggio per la band: il chitarrista ritmico e fondatore Malcolm Young si era ritirato nel 2014 per una malattia poi rivelatasi demenza, e tutte le parti di chitarra ritmica del disco furono registrate dal nipote Stevie Young, pur restando Malcolm accreditato come autore in ogni traccia.",
+      "Anche il videoclip porta il segno di quella fase difficile: il batterista Phil Rudd, arrestato il 6 novembre 2014 con accuse che includevano il possesso di droga, non compare nelle riprese, sostituito dal musicista gallese Bob Richards. Il cantante Brian Johnson ha raccontato che il titolo alternativo preso in considerazione per l'album era \"Man Down\", scartato perché sembrava troppo negativo rispetto alla situazione di salute di Malcolm."
+    ],
+    "fraseIconica": "Il ritornello riduce tutto a una scelta netta fra continuare a suonare rock o smettere del tutto, una dichiarazione di ostinazione che nel 2014, con la band attraversata da uscite e problemi di salute, suonava più vera del solito.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/rock-or-bust/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rock_or_Bust_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rock_or_Bust",
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
