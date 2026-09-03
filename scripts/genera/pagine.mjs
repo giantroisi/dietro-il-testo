@@ -170,7 +170,14 @@ const RADICE_RITRATTI = '../../ritratti/';
  * richiedono, e comunque è la stessa cosa che il sito chiede a sé stesso per
  * il testo. Chi ha scattato la foto è una fonte come le altre.
  */
-/* Due provenienze possibili per un ritratto, e ognuna ha i suoi campi
+/* Il ritratto e' `eager`, non `lazy`: sulla pagina artista sta sopra la
+ * piega, ed e' quasi sempre l'elemento piu' grande della prima schermata,
+ * cioe' quello che Google misura come LCP. Un'immagine sopra la piega
+ * dichiarata pigra e' una contraddizione: si chiede al browser di rimandare
+ * proprio la cosa che l'utente vede per prima. Le anteprime nelle liste
+ * restano `lazy`, li' ha senso.
+ *
+ * Due provenienze possibili per un ritratto, e ognuna ha i suoi campi
  * obbligatori. Se manca anche uno solo, la foto NON esce e resta il riquadro
  * grafico: una foto senza attribuzione completa e' un problema piu' grande di
  * una foto che manca.
@@ -195,7 +202,7 @@ export function ritrattoArtista(a) {
     return {
       pubblicata: true,
       html: `<figure class="ritratto">
-        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="lazy" decoding="async">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           Foto di ${esc(CREDITO_PROPRIO)}
           ${SEGNO}
@@ -210,7 +217,7 @@ export function ritrattoArtista(a) {
   return {
     pubblicata: true,
     html: `<figure class="ritratto">
-        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="lazy" decoding="async">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           <a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
           ${SEGNO}
