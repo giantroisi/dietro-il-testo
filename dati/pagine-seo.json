@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 246,
+    "nCanzoni": 247,
     "haTestoEditoriale": true
   },
   {
@@ -1267,6 +1267,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/gli-uomini-e-le-donne-sono-uguali/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1375,7 +1380,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2478,6 +2483,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/bagus/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/cesare-cremonini/maggese/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3377,7 +3389,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 104,
+    "nCanzoni": 105,
     "haTestoEditoriale": true
   },
   {
@@ -3398,7 +3410,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 47,
+    "nCanzoni": 48,
     "haTestoEditoriale": true
   },
   {

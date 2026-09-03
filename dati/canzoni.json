@@ -10895,5 +10895,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "gli-uomini-e-le-donne-sono-uguali",
+    "titolo": "Gli uomini e le donne sono uguali",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2002",
+    "album": "Bagùs",
+    "albumSlug": "bagus",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E2E5C",
+    "colore2": "#8A6E2E",
+    "ascolti": 2363064,
+    "ascoltiTesto": "2,36 mln ascolti",
+    "spotifyId": "6FtfrynKZrlZyVw8uzpz1e",
+    "corpo": [
+      "Fu il primo singolo da solista di Cesare Cremonini, pubblicato il 30 agosto 2002 dopo lo scioglimento dei Lùnapop, ed estratto da Bagùs, il suo album d'esordio uscito il 15 novembre dello stesso anno. Cremonini ha descritto il brano come \"ironico e provocatorio\", un modo per raccontare \"l'altro lato della medaglia\": la capacità delle donne di sedurre, che mette in discussione la tradizione secolare dell'uomo che conquista e decide, dato che ormai, spiegava, \"l'uomo non decide più niente\".",
+      "Cremonini considerava il brano un elemento volutamente fuori tono rispetto al resto di Bagùs, paragonando il suo rapporto con l'album a quello che \"50 Special\" aveva avuto con \"…Squérez?\", il precedente disco dei Lùnapop. Il singolo debuttò all'ottava posizione delle classifiche italiane e vi rimase per dodici settimane, raggiungendo più volte la seconda posizione della classifica Nielsen Music Control."
+    ],
+    "fraseIconica": "Il titolo, ripreso nel ritornello, ribalta con ironia il vecchio cliché dell'uomo che conquista e decide, suggerendo che nei rapporti di coppia il potere di sedurre e scegliere sia ormai delle donne.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/677715/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Gli_uomini_e_le_donne_sono_uguali",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://recensiamomusica.com/gli-uomini-e-le-donne-sono-uguali-di-cesare-cremonini-te-la-ricordi-questa/",
+        "nome": "Recensiamo Musica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
