@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 260,
+    "nCanzoni": 261,
     "haTestoEditoriale": true
   },
   {
@@ -1337,6 +1337,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/questa-e-la-mia-vita/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1690,7 +1695,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -2919,6 +2924,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/fuori-come-va/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/ligabue/nome-e-cognome/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3496,7 +3508,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 127,
+    "nCanzoni": 128,
     "haTestoEditoriale": true
   },
   {
@@ -3531,7 +3543,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 51,
+    "nCanzoni": 52,
     "haTestoEditoriale": true
   },
   {

@@ -11517,5 +11517,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "questa-e-la-mia-vita",
+    "titolo": "Questa è la mia vita",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2002",
+    "album": "Fuori come va?",
+    "albumSlug": "fuori-come-va",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#3E2E2E",
+    "colore2": "#5C6E8A",
+    "ascolti": 21106183,
+    "ascoltiTesto": "21,1 mln ascolti",
+    "spotifyId": "60W1dtZ6ievIXVCigViEHP",
+    "corpo": [
+      "Primo singolo estratto da Fuori come va?, settimo album di Ligabue, pubblicato il 7 gennaio 2002. Il brano faceva parte anche di un mini-CD di tre tracce pubblicato come colonna sonora di \"Da zero a dieci\", il film diretto dallo stesso Ligabue, presentato in un evento speciale della Settimana internazionale della critica al Festival di Cannes 2002: era la sua seconda regia dopo \"Radiofreccia\" del 1998, che invece aveva avuto un intero album come colonna sonora.",
+      "A differenza di \"Radiofreccia\", per \"Da zero a dieci\" Ligabue scelse di non pubblicare un album completo con le musiche del film, limitandosi a questo mini-CD. Il brano debuttò al primo posto delle classifiche italiane, restando fra i primi cinque per otto settimane consecutive su un totale di quattordici in classifica, e chiuse il 2002 al quinto posto nella classifica annuale."
+    ],
+    "fraseIconica": "Il titolo rivendica il diritto di vivere la propria vita secondo le proprie regole, senza bisogno di insegnare a nessuno come si fa e senza volere che qualcun altro lo faccia con lui.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/22898/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Questa_%C3%A8_la_mia_vita_(Luciano_Ligabue)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Da_zero_a_dieci",
+        "nome": "Wikipedia (voce del film)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
