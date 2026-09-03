@@ -489,8 +489,12 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo,
-  .testa-doppia .ritratto { max-width: 200px; }
+  .testa-doppia .visivo { max-width: 200px; }
+  /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
+     credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
+     crediti puo' usare tutta la colonna. */
+  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
@@ -844,7 +848,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 237 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

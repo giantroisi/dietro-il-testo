@@ -489,8 +489,12 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo,
-  .testa-doppia .ritratto { max-width: 200px; }
+  .testa-doppia .visivo { max-width: 200px; }
+  /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
+     credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
+     crediti puo' usare tutta la colonna. */
+  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
 }
@@ -770,13 +774,13 @@ a { color: inherit; }
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
-      <a class="voce" href="#canzoni">Canzoni <b>12</b></a>
+      <a class="voce" href="#canzoni">Canzoni <b>13</b></a>
       <a class="voce" href="#dischi">Album <b>16</b></a>
       <a class="voce" href="#storia">Storia </a>
     </nav>
 
     <dl class="fatti">
-      <div class="fatto"><dt>Canzoni sul sito</dt><dd>12</dd></div>
+      <div class="fatto"><dt>Canzoni sul sito</dt><dd>13</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1979</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>16</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>rock</dd></div>
@@ -845,6 +849,11 @@ a { color: inherit; }
           <span class="titolo">Hard as a Rock</span>
           <span class="gancio">Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato…</span>
         </a>
+        <a class="scheda" href="../../canzone/stiff-upper-lip/" style="--identita:#2E1F1A">
+          <span class="sopra">Stiff Upper Lip <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2000</span>
+          <span class="titolo">Stiff Upper Lip</span>
+          <span class="gancio">Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000.</span>
+        </a>
       </div>
     </section>
 
@@ -899,10 +908,10 @@ a { color: inherit; }
           <span class="indice">12</span>
           <span><span class="titolo">Ballbreaker</span></span>
           <span class="anno">1995</span></a>
-        <div class="disco disco-assente">
+        <a class="disco" href="../../album/ac-dc/stiff-upper-lip/">
           <span class="indice">13</span>
           <span><span class="titolo">Stiff Upper Lip</span></span>
-          <span class="anno">2000</span></div>
+          <span class="anno">2000</span></a>
         <div class="disco disco-assente">
           <span class="indice">14</span>
           <span><span class="titolo">Black Ice</span></span>
@@ -936,7 +945,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 237 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
