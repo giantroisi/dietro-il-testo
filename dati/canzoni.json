@@ -10763,5 +10763,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "easy-on-me",
+    "titolo": "Easy on Me",
+    "artista": "Adele",
+    "artistaSlug": "adele",
+    "anno": "2021",
+    "album": "30",
+    "albumSlug": "30",
+    "genereTesto": "Pop / Soul",
+    "generi": [
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#2E2E2E",
+    "colore2": "#8A6E4A",
+    "ascolti": 2544889768,
+    "ascoltiTesto": "2,54 mld ascolti",
+    "spotifyId": "46IZ0fSY2mpAiktS3KOqds",
+    "corpo": [
+      "Scritta e prodotta insieme a Greg Kurstin, con cui Adele aveva già collaborato su tre brani di 25, fu il primo singolo estratto da 30, pubblicato il 15 ottobre 2021. Fu la prima canzone scritta per l'album, nel primo anno dopo la separazione dall'ex marito Simon Konecki: Adele ha raccontato di aver composto parte del primo verso sotto la doccia, e di aver impiegato sei mesi prima di scrivere un altro brano, convinta di aver già detto tutto quello che c'era da dire in questo.",
+      "\"Non è che qualcuno ce l'abbia con me, ma io ho lasciato il matrimonio\", ha raccontato Adele a proposito del titolo, un appello alla comprensione rivolto a se stessa, all'ex marito e al figlio Angelo. Il videoclip, diretto ancora una volta da Xavier Dolan, fu girato il 15 e 16 settembre 2021 nella stessa casa di Sutton, in Québec, già usata per il video di \"Hello\" nel 2015."
+    ],
+    "fraseIconica": "Il titolo è una richiesta di indulgenza, un invito a essere trattata con più delicatezza mentre si fanno i conti con scelte difficili prese da giovani, di cui si comprende il peso solo guardandole a distanza.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adele/easy-on-me/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Easy_on_Me",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/adele/easy-on-me",
+        "nome": "Songfacts",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

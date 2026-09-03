@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 243,
+    "nCanzoni": 244,
     "haTestoEditoriale": true
   },
   {
@@ -1252,6 +1252,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/easy-on-me/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1283,7 +1288,7 @@
     "percorso": "artista/adele/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2268,6 +2273,13 @@
   },
   {
     "percorso": "album/adele/25/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adele/30/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3341,7 +3353,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 101,
+    "nCanzoni": 102,
     "haTestoEditoriale": true
   },
   {
