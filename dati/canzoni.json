@@ -11913,5 +11913,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "la-ragazza-dei-tuoi-sogni",
+    "titolo": "La ragazza dei tuoi sogni",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2020",
+    "album": "7",
+    "albumSlug": "7",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E2E",
+    "colore2": "#6E4A2E",
+    "ascolti": 8010074,
+    "ascoltiTesto": "8,0 mln ascolti",
+    "spotifyId": "1QO347HOGBp2SjfTcgN0LG",
+    "corpo": [
+      "Singolo pubblicato l'11 settembre 2020 per celebrare i trent'anni di carriera di Ligabue, poi incluso nella versione bonus del tredicesimo album, 7, uscito il 4 dicembre dello stesso anno insieme al cofanetto 77+7 con i più grandi successi rimasterizzati. Il brano fu prodotto da Fabrizio Barbacci, con un suono diverso da quello di Start, il disco precedente prodotto da Federico Nardelli.",
+      "Il singolo fu presentato ai fan con una diretta esclusiva su Rai 1 dalla RCF Arena di Reggio Emilia, il palco che avrebbe dovuto ospitare il concerto evento per i trent'anni di carriera, rinviato per l'emergenza sanitaria da settembre 2020 a giugno 2022. Il videoclip, diretto da Younuts! e prodotto da Marco Salom per CrossMediaFilms, alterna immagini di Ligabue a quelle di una donna misteriosa il cui volto non viene mai mostrato per intero."
+    ],
+    "fraseIconica": "Il titolo racconta l'immagine idealizzata della persona amata, quella capace di restare desiderabile e di far stare meglio anche dopo tanti anni insieme, senza mai smettere di sembrare la protagonista di un sogno.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.angolotesti.it/L/testi_canzoni_ligabue_1027/testo_canzone_la_ragazza_dei_tuoi_sogni_2502230.html",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/7_(album_Ligabue)",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.dropnews.it/2020/09/11/ligabue-la-ragazza-dei-tuoi-sogni-significato-testo-e-video-ultimo-singolo/",
+        "nome": "Drop News",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "AngoloTesti",
+    "temi": []
   }
 ]

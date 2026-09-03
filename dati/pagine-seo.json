@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 269,
+    "nCanzoni": 270,
     "haTestoEditoriale": true
   },
   {
@@ -1382,6 +1382,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/la-ragazza-dei-tuoi-sogni/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1735,7 +1740,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 12,
+    "nCanzoni": 13,
     "haTestoEditoriale": true
   },
   {
@@ -3027,6 +3032,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/7/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3597,7 +3609,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 133,
+    "nCanzoni": 134,
     "haTestoEditoriale": true
   },
   {
