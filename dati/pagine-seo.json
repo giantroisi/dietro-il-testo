@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 263,
+    "nCanzoni": 264,
     "haTestoEditoriale": true
   },
   {
@@ -1352,6 +1352,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/ora-che-non-ho-piu-te/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1460,7 +1465,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 7,
+    "nCanzoni": 8,
     "haTestoEditoriale": true
   },
   {
@@ -2612,6 +2617,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/alaska-baby/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3546,7 +3558,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 113,
+    "nCanzoni": 114,
     "haTestoEditoriale": true
   },
   {

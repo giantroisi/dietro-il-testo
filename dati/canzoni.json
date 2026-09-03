@@ -11649,5 +11649,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "ora-che-non-ho-piu-te",
+    "titolo": "Ora che non ho più te",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2024",
+    "album": "Alaska Baby",
+    "albumSlug": "alaska-baby",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E3E5C",
+    "colore2": "#6E4A2E",
+    "ascolti": 122351229,
+    "ascoltiTesto": "122,4 mln ascolti",
+    "spotifyId": "25idOmfSOCGGdgPhw9iCRm",
+    "corpo": [
+      "Primo singolo estratto da Alaska Baby, ottavo album da solista di Cesare Cremonini, pubblicato il 24 settembre 2024. Scritto con Davide Petrella (Tropico) e prodotto insieme ad Alessio Natalizia e Alessandro De Crescenzo, registrato ai Mille Galassie Studio di Bologna, divenne il primo numero uno di Cremonini come solista nella classifica italiana dei singoli e il suo primo ingresso in top ten dai tempi di \"Poetica\", uscita nel 2017.",
+      "\"È stato un voltapagina dal punto di vista della produzione musicale e della mia vita. Non è un ricordo che voglio ritorni, è un'esperienza che deve diventare biografia, tornando libera\", ha dichiarato Cremonini a proposito del brano, spiegando l'importanza di lasciare andare le cose quando è il momento giusto. Il videoclip, diretto da Enea Colombi e girato in Friuli-Venezia Giulia, uscì lo stesso giorno del singolo."
+    ],
+    "fraseIconica": "Il titolo racconta il momento immediatamente successivo alla fine di una relazione importante, un limbo fra la perdita e la possibilità di ricominciare, in cui l'assenza dell'altra persona diventa lo spazio da cui ripartire.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/ora-che-non-ho-piu-te/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ora_che_non_ho_pi%C3%B9_te",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.ilfattoquotidiano.it/2024/09/25/cesare-cremonini-amore-ora-che-non-ho-piu-te/7707814/",
+        "nome": "Il Fatto Quotidiano",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
