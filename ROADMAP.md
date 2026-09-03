@@ -1021,6 +1021,9 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Bilancio dei ritratti a oggi: 10.** Quattro scattate dall'autore (`linkin-park`, `bring-me-the-horizon`, `naska`, `machine-gun-kelly`) e sei da Commons (`a-ha`, `muse`, `avicii`, `black-sabbath`, `sum-41`, `5-seconds-of-summer`). Le foto proprie hanno un vantaggio che le altre non possono avere: sono **recenti**, e la didascalia porta un'informazione vera al posto di una licenza.
 **Verificato, non solo scritto**: pagina aperta a 375x812, immagine caricata, resa 170x260, didascalia con credito, luogo e data. Data e luogo di ogni concerto verificati su fonti indipendenti prima di scriverli. `check-seo` 0, `check-link` 0, `check-contrasto-v2` 0, `check-coerenza` 0.
 
+- **3 settembre 2026 — Ottavo giro, Ligabue: `il-giorno-dei-giorni` (Nome e cognome, 2005).** Primo singolo dell'ottavo album, il brano scelto da Ligabue per aprire il suo primo concerto a Campovolo, l'ex base missilistica NATO vicino a Reggio Emilia diventata il palco dei suoi eventi più grandi. Fonti: Wikipedia e Recensiamo Musica, ID Spotify verificato sulla pagina traccia reale. **Una data corretta prima di pubblicare**: il singolo andò in radio dal 2 settembre 2005, ma l'album uscì il 16 — una prima stesura confondeva le due date, corretta dopo aver riletto entrambe le fonti fianco a fianco. Restano vuoti quattro album Ligabue.
+**Verificato, non solo scritto**: rigenerato, tutti e sei i controlli automatici puliti tranne l'unico falso positivo già noto (`sweet-child`); `check-freno.mjs` 25 su 265 ancora sotto soglia; `check-garanti.mjs` ancora a zero frasi mai controllate; copia in root con diff di controllo pulito (escluse le cartelle non mie: `_sito_old_*`, `foto/`, `Claude outputs/`); pagina verificata nel browser via server locale con `get_page_text` a fronte del testo scritto, data corretta inclusa.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

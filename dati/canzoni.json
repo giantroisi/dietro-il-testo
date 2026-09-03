@@ -11693,5 +11693,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "il-giorno-dei-giorni",
+    "titolo": "Il giorno dei giorni",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2005",
+    "album": "Nome e cognome",
+    "albumSlug": "nome-e-cognome",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E2E",
+    "colore2": "#8A6E4A",
+    "ascolti": 7115622,
+    "ascoltiTesto": "7,1 mln ascolti",
+    "spotifyId": "3ge4fvKrOAj5Dkmaow5iIg",
+    "corpo": [
+      "Primo singolo estratto da Nome e cognome, ottavo album di Ligabue, trasmesso dalle radio dal 2 settembre 2005, due settimane prima dell'uscita del disco, avvenuta il 16 settembre. Scritto da Ligabue e prodotto insieme a Fabrizio Barbacci e Luca Pernici, il brano racconta il bisogno di vivere ogni momento con la massima intensità, senza sprecare tempo, accanto alla persona giusta.",
+      "Musicalmente è l'unico brano dell'album a contenere un assolo di chitarra, con un'introduzione calma che lascia poi spazio a chitarre distorte e atmosfere più oniriche. Fu anche il brano scelto da Ligabue per aprire il suo primo concerto a Campovolo, l'ex base missilistica della Nato vicino a Reggio Emilia diventata il palco dei suoi eventi più grandi."
+    ],
+    "fraseIconica": "Il titolo descrive quel giorno speciale in cui ogni minuto sembra pieno e le emozioni non hanno limiti, il giorno in cui si è stati davvero se stessi e che si porta dietro per sempre nella memoria.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/349702/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Il_giorno_dei_giorni",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://recensiamomusica.com/ligabue-ventanni-di-nome-e-cognome/",
+        "nome": "Recensiamo Musica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

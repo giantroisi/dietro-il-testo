@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 264,
+    "nCanzoni": 265,
     "haTestoEditoriale": true
   },
   {
@@ -1357,6 +1357,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/il-giorno-dei-giorni/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1710,7 +1715,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 7,
+    "nCanzoni": 8,
     "haTestoEditoriale": true
   },
   {
@@ -2970,7 +2975,7 @@
     "percorso": "album/ligabue/nome-e-cognome/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 0,
+    "nCanzoni": 1,
     "haTestoEditoriale": true
   },
   {
@@ -3544,7 +3549,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 128,
+    "nCanzoni": 129,
     "haTestoEditoriale": true
   },
   {
@@ -3579,7 +3584,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 52,
+    "nCanzoni": 53,
     "haTestoEditoriale": true
   },
   {
