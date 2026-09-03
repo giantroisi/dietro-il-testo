@@ -471,11 +471,6 @@
       "permanent": true
     },
     {
-      "source": "/album/cesare-cremonini/logico/",
-      "destination": "/artista/cesare-cremonini/",
-      "permanent": true
-    },
-    {
       "source": "/album/cesare-cremonini/possibili-scenari/",
       "destination": "/artista/cesare-cremonini/",
       "permanent": true
@@ -2648,11 +2643,6 @@
     {
       "source": "/album/led-zeppelin/coda/",
       "destination": "/artista/led-zeppelin/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/miss-mondo/",
-      "destination": "/artista/ligabue/",
       "permanent": true
     },
     {

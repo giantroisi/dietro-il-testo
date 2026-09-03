@@ -170,10 +170,43 @@ const RADICE_RITRATTI = '../../ritratti/';
  * richiedono, e comunque è la stessa cosa che il sito chiede a sé stesso per
  * il testo. Chi ha scattato la foto è una fonte come le altre.
  */
+/* Due provenienze possibili per un ritratto, e ognuna ha i suoi campi
+ * obbligatori. Se manca anche uno solo, la foto NON esce e resta il riquadro
+ * grafico: una foto senza attribuzione completa e' un problema piu' grande di
+ * una foto che manca.
+ *
+ *   Commons  file, autore, licenza, licenzaUrl, fonte
+ *   propria  file, concerto, data      (scattata da chi fa il sito)
+ *
+ * La foto propria non porta una licenza perche' non ne ha bisogno: il diritto
+ * d'autore e' di chi pubblica. Porta invece dove e quando e' stata scattata,
+ * che per chi legge vale piu' del nome di un fotografo. */
+const CREDITO_PROPRIO = 'Dietro il testo';
+
 export function ritrattoArtista(a) {
   const rt = a.ritratto || RITRATTI[a.slug];
-  const completo = rt && rt.file && rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
-  if (!completo) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: rt ? 'attribuzione incompleta' : null };
+  if (!rt || !rt.file) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: null };
+
+  if (rt.propria) {
+    const manca = ['concerto', 'data'].filter((k) => !rt[k]);
+    if (manca.length) {
+      return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: `foto propria senza ${manca.join(' e ')}` };
+    }
+    return {
+      pubblicata: true,
+      html: `<figure class="ritratto">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="lazy" decoding="async">
+        <figcaption>
+          Foto di ${esc(CREDITO_PROPRIO)}
+          ${SEGNO}
+          ${esc(rt.concerto)}, ${esc(rt.data)}
+        </figcaption>
+      </figure>`,
+    };
+  }
+
+  const completo = rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
+  if (!completo) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: 'attribuzione incompleta' };
   return {
     pubblicata: true,
     html: `<figure class="ritratto">

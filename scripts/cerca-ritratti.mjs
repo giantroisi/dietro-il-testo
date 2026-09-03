@@ -33,7 +33,7 @@
 //
 // Scrive dati/ritratti-candidati.json. NON tocca i dati del sito.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const UA = 'dietroiltesto-ritratti/1.1 (verifica licenze immagini; dietroiltesto.it)';
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
@@ -202,7 +202,19 @@ for (const a of elenco) {
   await attesa(PAUSA);
 }
 
-writeFileSync('dati/ritratti-candidati.json', JSON.stringify({ quando: new Date().toISOString(), esito }, null, 2));
+// Si UNISCE a quello che c'era, non lo si sostituisce. Il file dei candidati
+// e' la prova della licenza di ogni foto gia' pubblicata: riscriverlo da capo
+// per esaminare venti artisti nuovi cancellerebbe la prova dei venti vecchi, e
+// `scarica-ritratti.mjs` — che verifica la scelta contro questo file — non
+// saprebbe piu' riconoscere le foto gia' online.
+const precedente = existsSync('dati/ritratti-candidati.json')
+  ? JSON.parse(readFileSync('dati/ritratti-candidati.json', 'utf8')).esito || []
+  : [];
+const perSlug = new Map(precedente.map((e) => [e.slug, e]));
+for (const e of esito) perSlug.set(e.slug, e);   // il giro nuovo aggiorna il vecchio
+const tutti = [...perSlug.values()];
+writeFileSync('dati/ritratti-candidati.json', JSON.stringify({ quando: new Date().toISOString(), esito: tutti }, null, 2));
+console.log(`Nel file: ${tutti.length} artisti (${esito.length} da questo giro).`);
 
 const con = esito.filter((e) => e.candidati.length);
 console.log(`\nArtisti esaminati: ${esito.length}`);

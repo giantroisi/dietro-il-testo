@@ -81,6 +81,10 @@ if (anteprime) {
   mkdirSync('ritratti/anteprime', { recursive: true });
   const voluti = [];
   for (const voce of candidati) {
+    // `--solo` vale anche qui: dopo un giro nuovo di cerca-ritratti il file dei
+    // candidati contiene anche gli artisti gia' guardati, e riscaricare i loro
+    // provini e' banda sprecata per Commons e attesa per noi.
+    if (iSoli && !iSoli.has(voce.slug)) continue;
     // Tutti i candidati, non i primi tre. Il punteggio ordina per provenienza
     // e non sa cosa c'e' nell'immagine: guardando le prime tre di venti artisti
     // ho trovato al primo posto l'insegna luminosa di un teatro, una foto
