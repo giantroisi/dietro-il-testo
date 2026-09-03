@@ -1,51 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/the-razors-edge/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ac-dc/ballbreaker/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ac-dc/stiff-upper-lip/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ac-dc/black-ice/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ac-dc/rock-or-bust/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ac-dc/power-up/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
-      "source": "/album/adele/19/",
-      "destination": "/artista/adele/",
-      "permanent": true
-    },
-    {
-      "source": "/album/adele/25/",
-      "destination": "/artista/adele/",
-      "permanent": true
-    },
-    {
-      "source": "/album/adele/30/",
-      "destination": "/artista/adele/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
@@ -76,11 +31,6 @@
       "permanent": true
     },
     {
-      "source": "/album/adriano-celentano/il-ragazzo-della-via-gluck/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/adriano-rock/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
@@ -107,11 +57,6 @@
     },
     {
       "source": "/album/adriano-celentano/yuppi-du/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
-      "source": "/album/adriano-celentano/svalutation/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
     },
@@ -523,16 +468,6 @@
     {
       "source": "/album/caparezza//",
       "destination": "/artista/caparezza/",
-      "permanent": true
-    },
-    {
-      "source": "/album/cesare-cremonini/bagus/",
-      "destination": "/artista/cesare-cremonini/",
-      "permanent": true
-    },
-    {
-      "source": "/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
-      "destination": "/artista/cesare-cremonini/",
       "permanent": true
     },
     {
@@ -2721,16 +2656,6 @@
       "permanent": true
     },
     {
-      "source": "/album/ligabue/ligabue/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/lambrusco-coltelli-rose-pop-corn/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
       "source": "/album/ligabue/a-che-ora-e-la-fine-del-mondo/",
       "destination": "/artista/ligabue/",
       "permanent": true
@@ -4003,11 +3928,6 @@
     {
       "source": "/album/pearl-jam/dark-matter/",
       "destination": "/artista/pearl-jam/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila/",
-      "destination": "/artista/pinguini-tattici-nucleari/",
       "permanent": true
     },
     {

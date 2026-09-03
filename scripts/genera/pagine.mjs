@@ -4,6 +4,41 @@
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 
 // ------------------------------------------------------------- utilità
+// ---------------------------------------------- «di», «dei», «degli»
+
+// Chi non e' un gruppo. La preposizione cambia, e sbagliarla si vede su meta'
+// delle pagine: «Significato di Sally dei Vasco Rossi» non e' italiano.
+// Elenco per slug e non per nome, cosi' non si rompe se il nome cambia.
+const SOLISTI = new Set([
+  'adele', 'adriano-celentano', 'al-bano-e-romina-power', 'andrea-bocelli-e-giorgia',
+  'avicii', 'caparezza', 'cesare-cremonini', 'claudio-baglioni', 'david-bowie',
+  'domenico-modugno', 'ed-sheeran', 'edoardo-bennato', 'elton-john', 'eminem',
+  'eros-ramazzotti', 'fabrizio-de-andre', 'francesco-de-gregori', 'franco-battiato',
+  'fulminacci', 'gianna-nannini', 'john-lennon', 'laura-pausini', 'ligabue',
+  'lucio-battisti', 'lucio-dalla', 'machine-gun-kelly', 'michael-jackson', 'mina',
+  'naska', 'ozzy-osbourne', 'pino-daniele', 'prince', 'renato-zero', 'rino-gaetano',
+  'simon-garfunkel', 'toto-cutugno', 'tracy-chapman', 'vasco-rossi',
+  'whitney-houston', 'zucchero',
+]);
+
+/**
+ * Restituisce «di Vasco Rossi», «dei Metallica», «degli Oasis».
+ * Regole: i solisti prendono `di`; i gruppi prendono `dei`, che diventa `degli`
+ * davanti a vocale, s impura, z, gn, ps, x, y — e l'articolo inglese iniziale
+ * («The Beatles») cade, perche' in italiano si dice «dei Beatles».
+ */
+function diArtista(nome, slug) {
+  if (SOLISTI.has(slug)) return `di ${nome}`;
+  const senzaThe = nome.replace(/^The\s+/i, '');
+  // 8 si legge «otto», 11 «undici»: iniziano per vocale. 5 «cinque», 3 «tre», no.
+  const primaLettera = senzaThe[0] || '';
+  const vocale = /[aeiouàèéìòùAEIOUÀÈÉÌÒÙ8]/.test(primaLettera);
+  // La y iniziale dopo la s si legge come una i: «System» fa «sistem», quindi
+  // «dei System of a Down» e non «degli».
+  const impura = /^(s[^aeiouyàèéìòù]|z|gn|ps|pn|x)/i.test(senzaThe);
+  return `${vocale || impura ? 'degli' : 'dei'} ${senzaThe}`;
+}
+
 
 // Segno tipografico ripreso dalle righe musicali del logo (F24): due tratti
 // di penna, non una nota disegnata. Sostituisce il punto medio come
@@ -320,8 +355,56 @@ function primoAnno(annoRaw) {
 }
 
 /** F57: la prima forma che sta entro 65 caratteri, mai la forma piena a occhio — verificato che senza ripiego 5 titoli canzone superano il limite (fino a 71 caratteri). */
-function titoloConRipiego(forme) {
-  for (const f of forme) if (f.length <= 65) return f;
+/* F91: quante righe occupa l'H1 su telefono.
+ *
+ * Contare i caratteri non serve: «Significato di Albachiara di Vasco Rossi»
+ * (40 caratteri) va a tre righe, «Significato di Wish You Were Here dei Pink
+ * Floyd» (48) sta in due. Quello che conta e' la larghezza, quindi il
+ * generatore la calcola davvero, con le larghezze dei caratteri misurate nel
+ * browser sul sito pubblicato: H1 di scheda, Iowan Old Style corsivo 34px,
+ * larghezza utile 327px a 375px di viewport (la misura di F85, quella che
+ * porta il momento iconico a 483px).
+ *
+ * Controllo su 46 titoli al limite: 45 previsioni giuste, l'unico errore in
+ * senso prudente (prevista una riga in piu' di quelle vere). Se cambia il
+ * font dell'H1, la sua dimensione o il margine della colonna, questa tabella
+ * va rimisurata. */
+const LARGHEZZE_H1 = {"0":18.56,"1":18.56,"2":18.56,"3":18.56,"4":18.56,"5":18.56,"6":18.56,"7":18.56,"8":18.56,"9":18.56,"A":23.97,"B":20.47,"C":22.2,"D":24.82,"E":19.76,"F":17.95,"G":23.59,"H":25.43,"I":11.19,"J":11.19,"K":22.51,"L":17.65,"M":29.2,"N":24.24,"O":24.85,"P":19.52,"Q":24.85,"R":22.1,"S":18.91,"T":19.34,"U":24.17,"V":22.2,"W":32.02,"X":22.35,"Y":19.59,"Z":21.02,"a":16.09,"b":16.15,"c":12.27,"d":16.55,"e":12.92,"f":10.71,"g":15.61,"h":16.97,"i":9.35,"j":9.63,"k":16.7,"l":9.15,"m":24.92,"n":17.2,"o":15.44,"p":16.49,"q":15.57,"r":12.55,"s":12.07,"t":11.49,"u":17.1,"v":15.57,"w":24.01,"x":17.61,"y":15.02,"z":15.34," ":7.45,".":9.28,",":9.28,"'":5.78,"\u2019":9.45,'"':11.26,"\u201c":15.87,"\u201d":15.87,"!":11.19,"?":13.95,"(":13.5,")":13.5,"[":12.72,"]":12.72,"#":18.56,"&":25.27,"-":10.44,"\u2013":17,"\u2014":34,"/":12.2,":":9.45,";":9.45,"\u00e0":16.09,"\u00e8":12.92,"\u00e9":12.92,"\u00ec":9.35,"\u00f2":15.44,"\u00f9":17.1,"\u00c0":23.97,"\u00c8":19.76,"\u00c9":19.76,"\u00cc":11.19,"\u00d2":24.85,"\u00d9":24.17,"\u00e7":12.27,"\u00c7":22.2,"\u00f6":15.44,"\u00fc":17.1,"\u00e4":16.09,"\u00f1":17.2,"\u00e1":16.09,"\u00ed":9.35,"\u00f3":15.44,"\u00fa":17.1};
+const CRENA_H1 = -0.018 * 34;   // il letter-spacing dell'H1, in pixel
+const LARGHEZZA_IGNOTA = 17;    // carattere fuori tabella: si stima largo
+
+function larghezzaH1(testo) {
+  let px = 0;
+  for (const ch of testo) px += (LARGHEZZE_H1[ch] ?? LARGHEZZA_IGNOTA) + CRENA_H1;
+  return px;
+}
+
+function righeH1(testo, utile = 327) {
+  const spazio = larghezzaH1(' ');
+  let righe = 1;
+  let riga = 0;
+  for (const parola of testo.split(' ')) {
+    const p = larghezzaH1(parola);
+    if (riga === 0) { riga = p; continue; }
+    if (riga + spazio + p <= utile) riga += spazio + p;
+    else { righe++; riga = p; }
+  }
+  return righe;
+}
+
+/** F91: l'H1 esteso («Significato di X dei Y») se sta in due righe su
+ *  telefono, quello compatto se no. Due righe costano 36px al momento
+ *  iconico, che scende da 483px a 518px e resta nella prima schermata; tre
+ *  righe ne costano 71px. Quando si ripiega sulla forma compatta l'artista
+ *  resta comunque nel sopratitolo, nel <title>, nelle briciole e nei dati
+ *  strutturati. */
+function titoloH1Canzone(c) {
+  const esteso = `Significato di ${c.titolo} ${diArtista(c.artista, c.artistaSlug)}`;
+  return righeH1(esteso) <= 2 ? esteso : `Significato di ${c.titolo}`;
+}
+
+function titoloConRipiego(forme, limite = 65) {
+  for (const f of forme) if (f.length <= limite) return f;
   return forme[forme.length - 1];
 }
 
@@ -426,7 +509,11 @@ export function paginaCanzone(c, ctx) {
            rimette nella stessa colonna e non cambia nulla. -->
       <div class="testa-identita">
         <p class="sopratitolo">${conSegno([c.artista, annoDi(c), c.album])}</p>
-        <h1>${esc(c.titolo)}</h1>
+        <!-- SEO: l'intento di chi cerca e' «significato di X», non «X». La forma
+             estesa include l'artista; il generatore ne misura la larghezza e la
+             usa solo se sta in due righe su telefono, perche' ogni riga in piu'
+             del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
+        <h1>${esc(titoloH1Canzone(c))}</h1>
       </div>
       ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
       <div class="testa-contorno">
@@ -531,7 +618,14 @@ export function paginaCanzone(c, ctx) {
     // F89: quando il titolo ufficiale del brano supera 65 caratteri anche nella
     // forma senza artista, nessun ripiego automatico basta — lo stesso caso di
     // `descrizioneSeo` sopra, risolto con lo stesso tipo di campo editoriale.
-    titolo: c.titoloSeo || titoloConRipiego([`${c.titolo} (${c.artista}): significato e storia`, `${c.titolo}: significato e storia`]),
+    // SEO: «Significato di X – Artista», entro i 60 caratteri perche' oltre
+    // quella soglia Google tronca. Se non ci sta, resta solo il brano.
+    titolo:
+      c.titoloSeo ||
+      titoloConRipiego(
+        [`Significato di ${c.titolo} – ${c.artista}`, `Significato di ${c.titolo}`],
+        60
+      ),
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
@@ -640,7 +734,7 @@ export function paginaArtista(a, ctx) {
     <header class="intestazione testa-doppia">
       <div>
         <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', a.annoPrimo ? `brani dal ${a.annoPrimo}` : null])}</p>
-        <h1>${esc(a.nome)}</h1>
+        <h1>${esc(a.nome)}: significato dei testi e canzoni spiegate</h1>
         ${a.storia ? '' : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
         <div class="affidabilita">
           <span class="bollo${a.storia ? '' : ' attesa'}">${a.storia ? 'Storia documentata' : 'Storia da scrivere'}</span>
