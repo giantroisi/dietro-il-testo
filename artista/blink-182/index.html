@@ -489,11 +489,20 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo { max-width: 200px; }
+  /* 3 settembre 2026: da 200px a 280px, decisione dell'autore, dopo averlo
+     guardato su un 375x812 vero. A 200px la foto era l'anteprima di se stessa:
+     con dieci ritratti pubblicati il volto non si leggeva su nessuno. Il
+     prezzo e' misurato e va detto: l'elenco delle sezioni scende da 785px a
+     875px e sulle foto VERTICALI esce dalla prima schermata. Si paga volentieri
+     perche' li' sotto c'e' un indice, non una risposta: chi apre la pagina di
+     un artista sta gia' cercando l'elenco e scorre comunque. Sulla scheda
+     canzone quei pixel NON si toccano — la' sotto c'e' il momento iconico, ed
+     e' l'unica cosa che F85 e' servito a salvare. */
+  .testa-doppia .visivo { max-width: 280px; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
+  .testa-doppia .ritratto img { max-width: 280px; max-height: 330px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -887,7 +896,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 264 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 267 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

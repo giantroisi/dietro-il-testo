@@ -489,11 +489,20 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo { max-width: 200px; }
+  /* 3 settembre 2026: da 200px a 280px, decisione dell'autore, dopo averlo
+     guardato su un 375x812 vero. A 200px la foto era l'anteprima di se stessa:
+     con dieci ritratti pubblicati il volto non si leggeva su nessuno. Il
+     prezzo e' misurato e va detto: l'elenco delle sezioni scende da 785px a
+     875px e sulle foto VERTICALI esce dalla prima schermata. Si paga volentieri
+     perche' li' sotto c'e' un indice, non una risposta: chi apre la pagina di
+     un artista sta gia' cercando l'elenco e scorre comunque. Sulla scheda
+     canzone quei pixel NON si toccano — la' sotto c'e' il momento iconico, ed
+     e' l'unica cosa che F85 e' servito a salvare. */
+  .testa-doppia .visivo { max-width: 280px; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
+  .testa-doppia .ritratto img { max-width: 280px; max-height: 330px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -784,13 +793,13 @@ a { color: inherit; }
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
-      <a class="voce" href="#canzoni">Canzoni <b>7</b></a>
+      <a class="voce" href="#canzoni">Canzoni <b>10</b></a>
       <a class="voce" href="#dischi">Album <b>14</b></a>
       <a class="voce" href="#storia">Storia </a>
     </nav>
 
     <dl class="fatti">
-      <div class="fatto"><dt>Canzoni sul sito</dt><dd>7</dd></div>
+      <div class="fatto"><dt>Canzoni sul sito</dt><dd>10</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1993–1995</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>14</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>rock</dd></div>
@@ -834,6 +843,21 @@ a { color: inherit; }
           <span class="titolo">Questa è la mia vita</span>
           <span class="gancio">Primo singolo estratto da Fuori come va?, settimo album di Ligabue, pubblicato il 7 gennaio 2002.</span>
         </a>
+        <a class="scheda" href="../../canzone/il-giorno-dei-giorni/" style="--identita:#2E2E2E">
+          <span class="sopra">Nome e cognome <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2005</span>
+          <span class="titolo">Il giorno dei giorni</span>
+          <span class="gancio">Primo singolo estratto da Nome e cognome, ottavo album di Ligabue, trasmesso dalle radio dal 2 settembre 2005, due…</span>
+        </a>
+        <a class="scheda" href="../../canzone/un-colpo-allanima/" style="--identita:#3E2E2E">
+          <span class="sopra">Arrivederci, mostro! <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2010</span>
+          <span class="titolo">Un colpo all'anima</span>
+          <span class="gancio">Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue, uscito il 16 aprile 2010, una…</span>
+        </a>
+        <a class="scheda" href="../../canzone/il-sale-della-terra/" style="--identita:#2E2E3E">
+          <span class="sopra">Mondovisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
+          <span class="titolo">Il sale della terra</span>
+          <span class="gancio">Primo singolo estratto da Mondovisione, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre…</span>
+        </a>
       </div>
     </section>
 
@@ -872,14 +896,14 @@ a { color: inherit; }
           <span class="indice">08</span>
           <span><span class="titolo">Nome e cognome</span><span class="nota">5x disco di platino e disco d'oro</span></span>
           <span class="anno">2005</span></a>
-        <div class="disco disco-assente">
+        <a class="disco" href="../../album/ligabue/arrivederci-mostro/">
           <span class="indice">09</span>
           <span><span class="titolo">Arrivederci, mostro!</span><span class="nota">disco di diamante</span></span>
-          <span class="anno">2010</span></div>
-        <div class="disco disco-assente">
+          <span class="anno">2010</span></a>
+        <a class="disco" href="../../album/ligabue/mondovisione/">
           <span class="indice">10</span>
           <span><span class="titolo">Mondovisione</span><span class="nota">7x disco di platino</span></span>
-          <span class="anno">2013</span></div>
+          <span class="anno">2013</span></a>
         <div class="disco disco-assente">
           <span class="indice">11</span>
           <span><span class="titolo">Made in Italy</span><span class="nota">3x disco di platino</span></span>
@@ -917,7 +941,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 264 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 267 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

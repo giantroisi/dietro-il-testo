@@ -11781,5 +11781,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "il-sale-della-terra",
+    "titolo": "Il sale della terra",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2013",
+    "album": "Mondovisione",
+    "albumSlug": "mondovisione",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E3E",
+    "colore2": "#6E5C1F",
+    "ascolti": 8904013,
+    "ascoltiTesto": "8,9 mln ascolti",
+    "spotifyId": "3jmhqUdrFYMfU8MgPRGLgH",
+    "corpo": [
+      "Primo singolo estratto da Mondovisione, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre 2013 e uscito su CD e vinile il 1° ottobre, due mesi prima del disco pubblicato il 26 novembre. Prodotto da Luciano Luisi, il brano affronta la crisi economica, sociale e di comportamento, e in particolare il bisogno di potere e le conseguenze di chi lo insegue e lo mantiene a ogni costo, con riferimenti anche al naufragio della Costa Concordia e alle promesse elettorali disattese. Ligabue ha definito il brano \"una galleria di personaggi\", un elenco di cose negative della società degli ultimi vent'anni, con l'intento di non lasciare passivo chi ascolta di fronte ai problemi descritti.",
+      "Il titolo riprende un passaggio del Vangelo di Matteo (5,13), dove Gesù definisce i suoi discepoli \"il sale della terra\" e si chiede cosa accada quando il sale perde il proprio sapore. Il videoclip, girato a New York, mostra un flusso ininterrotto di persone per le strade della città, fra cui lo stesso Ligabue, mentre in basso scorre il testo del brano come se fosse un notiziario dell'ultima ora."
+    ],
+    "fraseIconica": "Il titolo, ripreso da un'immagine biblica, chiede cosa resti di una comunità quando smarrisce il proprio senso più profondo, come il sale che perde il sapore e non serve più a nulla.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/il-sale-della-terra/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Il_sale_della_Terra_(singolo)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://significatocanzone.it/il-sale-della-terra-luciano-ligabue-significato-testo",
+        "nome": "Significato Canzone",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -2631,16 +2631,6 @@
       "permanent": true
     },
     {
-      "source": "/album/ligabue/arrivederci-mostro/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/mondovisione/",
-      "destination": "/artista/ligabue/",
-      "permanent": true
-    },
-    {
       "source": "/album/ligabue/made-in-italy/",
       "destination": "/artista/ligabue/",
       "permanent": true

@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="Tutte le 264 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta name="description" content="Tutte le 267 canzoni e i 104 artisti raccontati su Dietro il testo.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/archivio/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Archivio completo">
-<meta property="og:description" content="Tutte le 264 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta property="og:description" content="Tutte le 267 canzoni e i 104 artisti raccontati su Dietro il testo.">
 <meta property="og:url" content="https://www.dietroiltesto.it/archivio/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/archivio.png">
@@ -493,11 +493,20 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo { max-width: 200px; }
+  /* 3 settembre 2026: da 200px a 280px, decisione dell'autore, dopo averlo
+     guardato su un 375x812 vero. A 200px la foto era l'anteprima di se stessa:
+     con dieci ritratti pubblicati il volto non si leggeva su nessuno. Il
+     prezzo e' misurato e va detto: l'elenco delle sezioni scende da 785px a
+     875px e sulle foto VERTICALI esce dalla prima schermata. Si paga volentieri
+     perche' li' sotto c'e' un indice, non una risposta: chi apre la pagina di
+     un artista sta gia' cercando l'elenco e scorre comunque. Sulla scheda
+     canzone quei pixel NON si toccano — la' sotto c'e' il momento iconico, ed
+     e' l'unica cosa che F85 e' servito a salvare. */
+  .testa-doppia .visivo { max-width: 280px; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
+  .testa-doppia .ritratto img { max-width: 280px; max-height: 330px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -770,21 +779,21 @@ a { color: inherit; }
     <header class="intestazione">
       <p class="sopratitolo">Tutto quello che c'è</p>
       <h1>L'archivio completo.</h1>
-      <p class="sintesi">264 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
+      <p class="sintesi">267 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
     </header>
 
     <section class="blocco" style="border-top:0;padding-top:0">
       <div class="suggerimenti">
         <span class="etichetta">Sfoglia le raccolte</span>
-        <a href="../genere/rock/">Rock <b>128</b></a>
+        <a href="../genere/rock/">Rock <b>131</b></a>
         <a href="../genere/metal/">Metal <b>65</b></a>
         <a href="../genere/pop/">Pop <b>114</b></a>
         <a href="../genere/punk/">Punk <b>24</b></a>
         <a href="../anni/1970/">anni Settanta <b>32</b></a>
-        <a href="../anni/2000/">anni Duemila <b>52</b></a>
+        <a href="../anni/2000/">anni Duemila <b>53</b></a>
         <a href="../anni/1990/">anni Novanta <b>61</b></a>
         <a href="../anni/1980/">anni Ottanta <b>47</b></a>
-        <a href="../anni/2010/">anni Duemiladieci <b>43</b></a>
+        <a href="../anni/2010/">anni Duemiladieci <b>45</b></a>
       </div>
     </section>
 
@@ -816,7 +825,7 @@ a { color: inherit; }
         <button class="filtro" type="button" data-tema="nostalgia" aria-pressed="false">Nostalgia</button>
         <button class="filtro" type="button" data-tema="ossessione-gelosia" aria-pressed="false">Ossessione e gelosia</button>
       </div>
-      <p class="conteggio" data-conteggio aria-live="polite">264 canzoni</p>
+      <p class="conteggio" data-conteggio aria-live="polite">267 canzoni</p>
       <div class="griglia" data-elenco>
         <a class="scheda" href="../canzone/21-guns/" style="--identita:#2E2E2E" data-generi="rock punk" data-paese="" data-temi="critica-sociale guerra">
           <span class="sopra">Green Day <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
@@ -1383,6 +1392,11 @@ a { color: inherit; }
           <span class="titolo">Il comico (Sai che risate)</span>
           <span class="gancio">Secondo singolo estratto da La teoria dei colori, quarto album in studio di Cesare Cremonini, pubblicato il 20 aprile…</span>
         </a>
+        <a class="scheda" href="../canzone/il-giorno-dei-giorni/" style="--identita:#2E2E2E" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2005</span>
+          <span class="titolo">Il giorno dei giorni</span>
+          <span class="gancio">Primo singolo estratto da Nome e cognome, ottavo album di Ligabue, trasmesso dalle radio dal 2 settembre 2005, due…</span>
+        </a>
         <a class="scheda" href="../canzone/canto-libero/" style="--identita:#A6691E" data-generi="pop" data-paese="it" data-temi="amore">
           <span class="sopra">Lucio Battisti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
           <span class="titolo">Il mio canto libero</span>
@@ -1392,6 +1406,11 @@ a { color: inherit; }
           <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1966</span>
           <span class="titolo">Il ragazzo della via Gluck</span>
           <span class="gancio">Musica di Adriano Celentano, testo di Luciano Beretta e Miki Del Prete, uscì il 17 gennaio 1966.</span>
+        </a>
+        <a class="scheda" href="../canzone/il-sale-della-terra/" style="--identita:#2E2E3E" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
+          <span class="titolo">Il sale della terra</span>
+          <span class="gancio">Primo singolo estratto da Mondovisione, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre…</span>
         </a>
         <a class="scheda" href="../canzone/imagine/" style="--identita:#2E6E9E" data-generi="rock pop" data-paese="" data-temi="critica-sociale">
           <span class="sopra">John Lennon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
@@ -2008,6 +2027,11 @@ a { color: inherit; }
           <span class="titolo">Tutto è possibile</span>
           <span class="gancio">Singolo di debutto dei Finley, uscito il 25 novembre 2005 come primo estratto dall'album omonimo e prodotto da…</span>
         </a>
+        <a class="scheda" href="../canzone/un-colpo-allanima/" style="--identita:#3E2E2E" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2010</span>
+          <span class="titolo">Un colpo all'anima</span>
+          <span class="gancio">Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue, uscito il 16 aprile 2010, una…</span>
+        </a>
         <a class="scheda" href="../canzone/una-vita-da-mediano/" style="--identita:#2E3E2E" data-generi="rock" data-paese="Italia" data-temi="">
           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1999</span>
           <span class="titolo">Una vita da mediano</span>
@@ -2397,7 +2421,7 @@ a { color: inherit; }
         <a class="riga" href="../artista/ligabue/">
         <span class="meta">rock <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
         <span class="nome">Ligabue</span>
-        <span class="conta">7 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 14 album →</span>
+        <span class="conta">10 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 14 album →</span>
       </a>
         <a class="riga" href="../artista/limp-bizkit/">
         <span class="meta">metal</span>
@@ -2672,7 +2696,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 264 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 267 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

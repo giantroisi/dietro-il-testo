@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 266,
+    "nCanzoni": 267,
     "haTestoEditoriale": true
   },
   {
@@ -1367,6 +1367,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/il-sale-della-terra/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1720,7 +1725,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 9,
+    "nCanzoni": 10,
     "haTestoEditoriale": true
   },
   {
@@ -2991,6 +2996,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/mondovisione/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3561,7 +3573,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 130,
+    "nCanzoni": 131,
     "haTestoEditoriale": true
   },
   {
@@ -3617,7 +3629,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 44,
+    "nCanzoni": 45,
     "haTestoEditoriale": true
   }
 ]

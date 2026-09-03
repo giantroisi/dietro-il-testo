@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="264 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
+<meta name="description" content="267 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Cerca una canzone, un album o una band">
-<meta property="og:description" content="264 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
+<meta property="og:description" content="267 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
 <meta property="og:url" content="https://www.dietroiltesto.it/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/home.png">
@@ -493,11 +493,20 @@ a { color: inherit; }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
-  .testa-doppia .visivo { max-width: 200px; }
+  /* 3 settembre 2026: da 200px a 280px, decisione dell'autore, dopo averlo
+     guardato su un 375x812 vero. A 200px la foto era l'anteprima di se stessa:
+     con dieci ritratti pubblicati il volto non si leggeva su nessuno. Il
+     prezzo e' misurato e va detto: l'elenco delle sezioni scende da 785px a
+     875px e sulle foto VERTICALI esce dalla prima schermata. Si paga volentieri
+     perche' li' sotto c'e' un indice, non una risposta: chi apre la pagina di
+     un artista sta gia' cercando l'elenco e scorre comunque. Sulla scheda
+     canzone quei pixel NON si toccano — la' sotto c'e' il momento iconico, ed
+     e' l'unica cosa che F85 e' servito a salvare. */
+  .testa-doppia .visivo { max-width: 280px; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
+  .testa-doppia .ritratto img { max-width: 280px; max-height: 330px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -775,7 +784,7 @@ a { color: inherit; }
       <h1 class="promessa">Cosa c'è dietro le canzoni che ami.</h1>
       <!-- F82: la prova che il sito è pieno stava solo nel piede, dove arriva
            chi ha già scorso tutto. I numeri nascono dai dati (P9). -->
-      <p class="consistenza">264 canzoni raccontate, 104 artisti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> ogni scheda con le sue fonti</p>
+      <p class="consistenza">267 canzoni raccontate, 104 artisti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> ogni scheda con le sue fonti</p>
 
       <div class="cerca grande" data-cerca>
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -796,13 +805,13 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">Canzone in evidenza</p>
-      <article class="pillola" data-pillola style="--identita:#1F5C8A">
-        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</p>
-        <p class="gancio" data-pillola-titolo>In Too Deep</p>
-        <p class="estratto" data-pillola-estratto>Il ritornello più citato paragona la relazione descritta a un naufragio, con il narratore che si definisce ormai troppo immerso mentre cerca di non finire del tutto sott'acqua.</p>
+      <article class="pillola" data-pillola style="--identita:#5C1A1A">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Slayer <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1986</p>
+        <p class="gancio" data-pillola-titolo>Angel of Death</p>
+        <p class="estratto" data-pillola-estratto>Il momento più citato del brano è quello in cui il testo nomina esplicitamente Auschwitz — un riferimento diretto e crudo, raro nel metal dell'epoca, che rende fin dal primo verso inequivocabile il legame con gli orrori nazisti documentati nel resto del pezzo.</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/in-too-deep/" data-pillola-link>Leggi la scheda</a>
-          <a class="bottone" href="artista/sum-41/" data-pillola-artista>Sum 41</a>
+          <a class="bottone pieno" href="canzone/angel-of-death/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/slayer/" data-pillola-artista>Slayer</a>
           <button type="button" class="bottone" data-altra-pillola>Cambia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>
@@ -838,15 +847,15 @@ a { color: inherit; }
         <span class="nome">Caparezza</span>
         <span class="conta">10 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 album →</span>
       </a>
+      <a class="riga" href="artista/ligabue/">
+        <span class="meta">rock <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
+        <span class="nome">Ligabue</span>
+        <span class="conta">10 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 14 album →</span>
+      </a>
       <a class="riga" href="artista/pinguini-tattici-nucleari/">
         <span class="meta">rock <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
         <span class="nome">Pinguini Tattici Nucleari</span>
         <span class="conta">9 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 7 album →</span>
-      </a>
-      <a class="riga" href="artista/cesare-cremonini/">
-        <span class="meta">rock <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
-        <span class="nome">Cesare Cremonini</span>
-        <span class="conta">8 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 album →</span>
       </a>
     </div>
   </div>
@@ -857,9 +866,24 @@ a { color: inherit; }
         <p class="occhiello">Ultime aggiunte</p>
         <h2>Appena raccontate.</h2>
       </div>
-      <a class="vedi-tutto" href="archivio/">Tutte le 264 canzoni →</a>
+      <a class="vedi-tutto" href="archivio/">Tutte le 267 canzoni →</a>
     </div>
     <div class="griglia">
+      <a class="scheda" href="canzone/il-sale-della-terra/" style="--identita:#2E2E3E">
+          <span class="sopra">Mondovisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
+          <span class="titolo">Il sale della terra</span>
+          <span class="gancio">Primo singolo estratto da Mondovisione, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre…</span>
+        </a>
+      <a class="scheda" href="canzone/un-colpo-allanima/" style="--identita:#3E2E2E">
+          <span class="sopra">Arrivederci, mostro! <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2010</span>
+          <span class="titolo">Un colpo all'anima</span>
+          <span class="gancio">Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue, uscito il 16 aprile 2010, una…</span>
+        </a>
+      <a class="scheda" href="canzone/il-giorno-dei-giorni/" style="--identita:#2E2E2E">
+          <span class="sopra">Nome e cognome <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2005</span>
+          <span class="titolo">Il giorno dei giorni</span>
+          <span class="gancio">Primo singolo estratto da Nome e cognome, ottavo album di Ligabue, trasmesso dalle radio dal 2 settembre 2005, due…</span>
+        </a>
       <a class="scheda" href="canzone/ora-che-non-ho-piu-te/" style="--identita:#2E3E5C">
           <span class="sopra">Alaska Baby <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2024</span>
           <span class="titolo">Ora che non ho più te</span>
@@ -875,21 +899,6 @@ a { color: inherit; }
           <span class="titolo">Poetica</span>
           <span class="gancio">Primo singolo estratto da Possibili scenari, sesto album da solista di Cesare Cremonini, pubblicato il 3 novembre…</span>
         </a>
-      <a class="scheda" href="canzone/questa-e-la-mia-vita/" style="--identita:#3E2E2E">
-          <span class="sopra">Fuori come va? <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2002</span>
-          <span class="titolo">Questa è la mia vita</span>
-          <span class="gancio">Primo singolo estratto da Fuori come va?, settimo album di Ligabue, pubblicato il 7 gennaio 2002.</span>
-        </a>
-      <a class="scheda" href="canzone/vengo-dalla-luna/" style="--identita:#2E3E6E">
-          <span class="sopra">Verità supposte <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</span>
-          <span class="titolo">Vengo dalla Luna</span>
-          <span class="gancio">Scritta da Michele Salvemini (Caparezza) insieme a Diego Perrone, frontman dei I Medusa che presta la voce anche al…</span>
-        </a>
-      <a class="scheda" href="canzone/logico-1/" style="--identita:#2E4A6E">
-          <span class="sopra">Logico <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2014</span>
-          <span class="titolo">Logico #1</span>
-          <span class="gancio">Primo singolo estratto da Logico, quinto album da solista di Cesare Cremonini, pubblicato il 27 marzo 2014.</span>
-        </a>
     </div>
   </div>
 </main>
@@ -897,7 +906,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 264 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 267 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
