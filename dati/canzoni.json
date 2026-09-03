@@ -10675,5 +10675,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "chasing-pavements",
+    "titolo": "Chasing Pavements",
+    "artista": "Adele",
+    "artistaSlug": "adele",
+    "anno": "2008",
+    "album": "19",
+    "albumSlug": "19",
+    "genereTesto": "Pop / Soul",
+    "generi": [
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#4A3E4C",
+    "colore2": "#8A6E2E",
+    "ascolti": 937196059,
+    "ascoltiTesto": "937,2 mln ascolti",
+    "spotifyId": "0Z5ok0QLLttAKsujOZYOXf",
+    "corpo": [
+      "Scritta da Adele insieme a Eg White, che ne curò anche la produzione, fu il secondo singolo estratto da 19, pubblicato il 14 gennaio 2008 e registrato ai Compass Point Studios di Nassau, alle Bahamas. Adele aveva diciannove anni quando nacque il brano, scritto in un solo giorno insieme a White e inviato subito alla sua etichetta.",
+      "Il titolo e il testo nacquero da un episodio raccontato più volte da Adele in interviste: dopo un litigio con il fidanzato, scappò correndo lungo Tottenham Court Road, a Londra, per evitare guai; resasi conto che nessuno la stava rincorrendo, capì in quel momento cosa significasse inseguire qualcosa che non porta da nessuna parte. Il brano valse ad Adele il primo Grammy Award della carriera, per la Best Female Pop Vocal Performance nel 2009."
+    ],
+    "fraseIconica": "Il ritornello si chiede se valga la pena continuare a inseguire qualcosa anche sapendo che potrebbe non portare a nulla, un'immagine di corsa a vuoto che dà il nome alla canzone.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adele/1168083/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chasing_Pavements",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/adele/chasing-pavements",
+        "nome": "Songfacts",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

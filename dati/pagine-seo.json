@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 241,
+    "nCanzoni": 242,
     "haTestoEditoriale": true
   },
   {
@@ -1242,6 +1242,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/chasing-pavements/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1273,7 +1278,7 @@
     "percorso": "artista/adele/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2237,6 +2242,13 @@
   },
   {
     "percorso": "album/ac-dc/power-up/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adele/19/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3317,7 +3329,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 99,
+    "nCanzoni": 100,
     "haTestoEditoriale": true
   },
   {
@@ -3338,7 +3350,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 46,
+    "nCanzoni": 47,
     "haTestoEditoriale": true
   },
   {
