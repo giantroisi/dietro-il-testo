@@ -11120,5 +11120,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "dicono-di-me",
+    "titolo": "Dicono di me",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2008",
+    "album": "Il primo bacio sulla Luna",
+    "albumSlug": "il-primo-bacio-sulla-luna",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E3E5C",
+    "colore2": "#8A6E2E",
+    "ascolti": 37628077,
+    "ascoltiTesto": "37,6 mln ascolti",
+    "spotifyId": "6A3axRTw93LhvnlQLFmi7S",
+    "corpo": [
+      "Primo singolo estratto da Il primo bacio sulla Luna, terzo album da solista di Cesare Cremonini, pubblicato il 30 maggio 2008, alcuni mesi prima dell'uscita del disco fissata per settembre. Cremonini scrisse il brano interamente da solo, poche settimane prima della pubblicazione; fu registrato ai Mille Galassie Studios e mixato a Londra agli AIR Studios da Steve Orchard, dove Cremonini registrò anche le parti di pianoforte.",
+      "Cremonini ha spiegato che il testo \"parla di pregiudizi\", un tentativo di esorcizzarli con ironia e insieme con un certo disincanto, raccontando quanto la società fatichi ad apprezzare le persone per quello che sono davvero. Il videoclip, diretto da Gaetano Morbioli e girato a Londra tra il 24 e il 26 maggio 2008, racconta la storia di una giovane coppia che deve superare lo scetticismo dei genitori prima di arrivare all'accettazione familiare."
+    ],
+    "fraseIconica": "Il titolo racconta i giudizi sommari e le etichette che gli altri affibbiano a chi non si conosce davvero, contrapposti alla sensibilità e ai sentimenti autentici che si nascondono dietro un'immagine costruita dal pettegolezzo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/1621901/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Dicono_di_me",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://significatocanzone.it/dicono-di-me-cremonini-cesare-significato-testo",
+        "nome": "Significato Canzone",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
