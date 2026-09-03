@@ -221,7 +221,15 @@ const decenniPubblicati = [...canzoniPerDecennio.entries()]
     canzoni: elenco,
   }));
 
-const raccolte = [...generiPubblicati, ...decenniPubblicati];
+// L'ordine con cui escono dai dati non e' un ordine per chi legge: i generi
+// uscivano Rock, Metal, Pop, Punk (135, 65, 114, 24 canzoni) e i decenni
+// Settanta, Duemila, Novanta, Ottanta — cioe' a caso. I generi vanno dal piu'
+// ricco al piu' povero, i decenni in ordine di tempo. Vale ovunque le raccolte
+// compaiano: piede, proposta della ricerca, sitemap.
+const raccolte = [
+  ...[...generiPubblicati].sort((a, b) => b.canzoni.length - a.canzoni.length || a.nome.localeCompare(b.nome, 'it')),
+  ...[...decenniPubblicati].sort((a, b) => Number(a.slug) - Number(b.slug)),
+];
 const generiPubblicatiSlug = new Set(generiPubblicati.map((g) => g.slug));
 const decenniPubblicatiSlug = new Set(decenniPubblicati.map((d) => d.slug));
 

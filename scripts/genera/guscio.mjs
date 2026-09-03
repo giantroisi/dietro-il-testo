@@ -135,16 +135,22 @@ function piede(r, totali, raccolte = []) {
         ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità.
         I colori richiamano l'immaginario visivo di band e album, non i loro loghi.</p>
       </div>
-      <nav aria-label="Piede">
-        <a href="${r}archivio/">Archivio completo</a>
-        <a href="${r}metodo/">Metodo e fonti</a>
-        <a href="${r}chi-siamo/">Chi c'è dietro</a>
-        ${raccolte.map((x) => `<a href="${r}${x.percorso}">${esc(x.nome)}</a>`).join('\n        ')}
-        <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
-        <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
-        <a href="${r}privacy/">Privacy</a>
-        <a href="${r}note-legali/">Note legali</a>
-      </nav>
+      <div class="piede-navi">
+        <nav aria-labelledby="piede-raccolte">
+          <p class="piede-titolo" id="piede-raccolte">Raccolte</p>
+          <a href="${r}archivio/">Archivio completo</a>
+          ${raccolte.map((x) => `<a href="${r}${x.percorso}">${esc(x.nome)}</a>`).join('\n          ')}
+        </nav>
+        <nav aria-labelledby="piede-sito">
+          <p class="piede-titolo" id="piede-sito">Il sito</p>
+          <a href="${r}metodo/">Metodo e fonti</a>
+          <a href="${r}chi-siamo/">Chi c'è dietro</a>
+          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
+          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
+          <a href="${r}privacy/">Privacy</a>
+          <a href="${r}note-legali/">Note legali</a>
+        </nav>
+      </div>
     </div>
   </footer>`;
 }

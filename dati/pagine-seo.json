@@ -3625,17 +3625,17 @@
     "haTestoEditoriale": true
   },
   {
-    "percorso": "genere/metal/",
-    "categoria": "indice",
-    "indicizzabile": true,
-    "nCanzoni": 65,
-    "haTestoEditoriale": true
-  },
-  {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
     "nCanzoni": 114,
+    "haTestoEditoriale": true
+  },
+  {
+    "percorso": "genere/metal/",
+    "categoria": "indice",
+    "indicizzabile": true,
+    "nCanzoni": 65,
     "haTestoEditoriale": true
   },
   {
@@ -3653,10 +3653,10 @@
     "haTestoEditoriale": true
   },
   {
-    "percorso": "anni/2000/",
+    "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 53,
+    "nCanzoni": 47,
     "haTestoEditoriale": true
   },
   {
@@ -3667,10 +3667,10 @@
     "haTestoEditoriale": true
   },
   {
-    "percorso": "anni/1980/",
+    "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 47,
+    "nCanzoni": 53,
     "haTestoEditoriale": true
   },
   {

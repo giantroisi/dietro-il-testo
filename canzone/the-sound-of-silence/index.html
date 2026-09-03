@@ -719,10 +719,16 @@ a { color: inherit; }
 .piede a { color: var(--text-muted); }
 .piede a:hover { color: var(--sistema); }
 .piede .legale { max-width: 70ch; margin: 14px 0 0; font-size: 12.5px; line-height: 1.6; }
+/* Sedici link tutti uguali in fila non sono un indice, sono un elenco in cui
+   cercare. Divisi in due gruppi con un titolo, le nove raccolte si distinguono
+   dalle pagine di servizio. */
+.piede-navi { display: grid; grid-template-columns: repeat(2, auto); gap: 26px; }
 .piede nav { display: grid; gap: 8px; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; text-align: right; }
+.piede-titolo { margin: 0 0 2px; color: var(--text); font-weight: 600; letter-spacing: .1em; }
 @media (max-width: 720px) {
   .piede-in { grid-template-columns: 1fr; }
   .piede nav { text-align: left; }
+  .piede-navi { grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
 }
 
 /* --------------------------------------------------------- archivio */
@@ -907,24 +913,30 @@ a { color: inherit; }
         ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità.
         I colori richiamano l'immaginario visivo di band e album, non i loro loghi.</p>
       </div>
-      <nav aria-label="Piede">
-        <a href="../../archivio/">Archivio completo</a>
-        <a href="../../metodo/">Metodo e fonti</a>
-        <a href="../../chi-siamo/">Chi c'è dietro</a>
-        <a href="../../genere/rock/">Rock</a>
-        <a href="../../genere/metal/">Metal</a>
-        <a href="../../genere/pop/">Pop</a>
-        <a href="../../genere/punk/">Punk</a>
-        <a href="../../anni/1970/">anni Settanta</a>
-        <a href="../../anni/2000/">anni Duemila</a>
-        <a href="../../anni/1990/">anni Novanta</a>
-        <a href="../../anni/1980/">anni Ottanta</a>
-        <a href="../../anni/2010/">anni Duemiladieci</a>
-        <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
-        <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
-        <a href="../../privacy/">Privacy</a>
-        <a href="../../note-legali/">Note legali</a>
-      </nav>
+      <div class="piede-navi">
+        <nav aria-labelledby="piede-raccolte">
+          <p class="piede-titolo" id="piede-raccolte">Raccolte</p>
+          <a href="../../archivio/">Archivio completo</a>
+          <a href="../../genere/rock/">Rock</a>
+          <a href="../../genere/pop/">Pop</a>
+          <a href="../../genere/metal/">Metal</a>
+          <a href="../../genere/punk/">Punk</a>
+          <a href="../../anni/1970/">anni Settanta</a>
+          <a href="../../anni/1980/">anni Ottanta</a>
+          <a href="../../anni/1990/">anni Novanta</a>
+          <a href="../../anni/2000/">anni Duemila</a>
+          <a href="../../anni/2010/">anni Duemiladieci</a>
+        </nav>
+        <nav aria-labelledby="piede-sito">
+          <p class="piede-titolo" id="piede-sito">Il sito</p>
+          <a href="../../metodo/">Metodo e fonti</a>
+          <a href="../../chi-siamo/">Chi c'è dietro</a>
+          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
+          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
+          <a href="../../privacy/">Privacy</a>
+          <a href="../../note-legali/">Note legali</a>
+        </nav>
+      </div>
     </div>
   </footer>
 <script src="../../ricerca.js" defer></script>

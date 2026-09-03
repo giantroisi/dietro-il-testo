@@ -690,10 +690,16 @@ a { color: inherit; }
 .piede a { color: var(--text-muted); }
 .piede a:hover { color: var(--sistema); }
 .piede .legale { max-width: 70ch; margin: 14px 0 0; font-size: 12.5px; line-height: 1.6; }
+/* Sedici link tutti uguali in fila non sono un indice, sono un elenco in cui
+   cercare. Divisi in due gruppi con un titolo, le nove raccolte si distinguono
+   dalle pagine di servizio. */
+.piede-navi { display: grid; grid-template-columns: repeat(2, auto); gap: 26px; }
 .piede nav { display: grid; gap: 8px; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; text-align: right; }
+.piede-titolo { margin: 0 0 2px; color: var(--text); font-weight: 600; letter-spacing: .1em; }
 @media (max-width: 720px) {
   .piede-in { grid-template-columns: 1fr; }
   .piede nav { text-align: left; }
+  .piede-navi { grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
 }
 
 /* --------------------------------------------------------- archivio */

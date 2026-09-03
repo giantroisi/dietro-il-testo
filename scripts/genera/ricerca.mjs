@@ -35,6 +35,17 @@ export function generaRicerca(ctx) {
 
   const percorsiCanzoni = ctx.canzoni.map((c) => `canzone/${c.slug}/`);
 
+  // Le raccolte servono al client per la proposta a campo vuoto: sul telefono
+  // la navigazione dell'intestazione e' nascosta e queste pagine vivono solo
+  // nel piede, a 3200px dall'inizio. Il campo di ricerca e' l'unico elemento
+  // che l'utente ha gia' sotto il pollice: quando e' vuoto, propone.
+  const raccolteClient = (ctx.raccolte || []).map((x) => ({
+    n: x.nome,
+    s: x.percorso,
+    d: `${x.canzoni.length} ${x.canzoni.length === 1 ? 'canzone' : 'canzoni'}`,
+    g: x.tipo === 'genere' ? 0 : 1,
+  }));
+
   // F36: la pillola del giorno ruota nel browser, non in fase di build — la
   // formula (giorno % candidate.length) resta identica a quella server-side
   // in pagine.mjs, così la scelta del giorno corrente coincide con quella già
@@ -69,6 +80,7 @@ export function generaRicerca(ctx) {
   'use strict';
 
   var INDICE = ${JSON.stringify(indice)};
+  var RACCOLTE = ${JSON.stringify(raccolteClient)};
   var CANZONI = ${JSON.stringify(percorsiCanzoni)};
   var PILLOLE = ${JSON.stringify(pillole)};
   var GRUPPI = ['Canzoni', 'Artisti', 'Album'];
@@ -213,8 +225,29 @@ export function generaRicerca(ctx) {
       box.hidden = false;
     }
 
+    /* Campo vuoto: invece di non fare niente, il pannello propone le raccolte.
+       Sono link veri dentro lo stesso elenco dei risultati, quindi funzionano
+       con le frecce e con Invio come tutto il resto. */
+    function proponi() {
+      if (!RACCOLTE.length) { chiudi(); return; }
+      correnti = [];
+      attivo = -1;
+      var html = '<p class="esiti-gruppo">Sfoglia per genere</p>';
+      var decenniAperti = false;
+      RACCOLTE.forEach(function (x) {
+        if (x.g === 1 && !decenniAperti) { html += '<p class="esiti-gruppo">Sfoglia per decennio</p>'; decenniAperti = true; }
+        html += '<a class="esito" href="' + RADICE + x.s + '"><b>' + x.n + '</b><span>' + x.d + '</span></a>';
+      });
+      html += '<p class="esiti-gruppo">Tutto il catalogo</p>';
+      html += '<a class="esito" href="' + RADICE + 'archivio/"><b>Archivio completo</b><span>tutte le canzoni, filtrabili</span></a>';
+      box.innerHTML = html;
+      box.hidden = false;
+      correnti = [];
+    }
+
     campo.addEventListener('input', function () {
       var q = campo.value;
+      if (!q.trim().length) { proponi(); return; }
       if (q.trim().length < 2) { chiudi(); return; }
       disegna(cerca(q));
     });
@@ -239,6 +272,7 @@ export function generaRicerca(ctx) {
 
     campo.addEventListener('focus', function () {
       if (campo.value.trim().length >= 2) disegna(cerca(campo.value));
+      else if (!campo.value.trim().length) proponi();
     });
 
     document.addEventListener('click', function (e) {
