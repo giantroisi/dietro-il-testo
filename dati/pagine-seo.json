@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 256,
+    "nCanzoni": 257,
     "haTestoEditoriale": true
   },
   {
@@ -1317,6 +1317,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/sashimi/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1817,7 +1822,7 @@
     "percorso": "artista/pinguini-tattici-nucleari/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 8,
+    "nCanzoni": 9,
     "haTestoEditoriale": true
   },
   {
@@ -3154,7 +3159,7 @@
     "percorso": "album/pinguini-tattici-nucleari/fuori-dall-hype/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -3476,7 +3481,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 109,
+    "nCanzoni": 110,
     "haTestoEditoriale": true
   },
   {
@@ -3518,7 +3523,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 40,
+    "nCanzoni": 41,
     "haTestoEditoriale": true
   }
 ]

@@ -11341,5 +11341,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "sashimi",
+    "titolo": "Sashimi",
+    "artista": "Pinguini Tattici Nucleari",
+    "artistaSlug": "pinguini-tattici-nucleari",
+    "anno": "2019",
+    "album": "Fuori dall'hype",
+    "albumSlug": "fuori-dall-hype",
+    "genereTesto": "Indie pop / Cantautorato",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#6E2E3E",
+    "colore2": "#1F3E5C",
+    "ascolti": 9425843,
+    "ascoltiTesto": "9,4 mln ascolti",
+    "spotifyId": "7otRlKJ3NDzhl04KLmaN93",
+    "corpo": [
+      "Scritta da Riccardo Zanotti, fu pubblicata come singolo il 1° marzo 2019, estratta da Fuori dall'hype, quarto album della band uscito il 5 aprile dello stesso anno. Zanotti ha raccontato su Instagram di essersi ispirato a un episodio realmente accaduto: in un periodo di morale basso, il proprietario del suo sushi bar preferito gli offrì del sashimi per consolarlo, senza fare domande.",
+      "Il frontman ha definito quella persona il suo \"susharo preferito\", qualcuno capace di confortarlo senza mai giudicare, e ha scritto la canzone come un tributo a quel gesto. Zanotti ha riassunto il senso del brano dicendo che ci sono momenti della vita in cui chi tiene davvero a te dovrebbe offrirti del sashimi: una \"comfort song\" pensata per chi sta uscendo da una storia importante finita male."
+    ],
+    "fraseIconica": "Il titolo trasforma un gesto quotidiano e concreto, offrire da mangiare a chi sta passando un momento difficile, nel simbolo di un affetto che si prende cura senza bisogno di tante parole.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pinguini-tattici-nucleari/sashimi/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fuori_dall%27hype",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://notiziemusica.it/pinguini-tattici-nucleari-sashimi-testo-significato/news/",
+        "nome": "Notizie Musica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
