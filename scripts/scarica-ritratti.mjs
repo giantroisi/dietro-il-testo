@@ -24,6 +24,16 @@
 //   …si sceglie a mano scrivendo dati/ritratti-scelti.json…
 //   node scripts/scarica-ritratti.mjs               (poi: scarica e scrive)
 //   node scripts/scarica-ritratti.mjs --prova       (dice cosa farebbe, senza fare)
+//   node scripts/scarica-ritratti.mjs --anteprime   (scarica i primi tre candidati di
+//                                                    ogni artista, piccoli, in
+//                                                    ritratti/anteprime/, per poterli
+//                                                    GUARDARE prima di scegliere)
+//
+// Perche' esiste `--anteprime`. Il primo giro ha pubblicato una foto con licenza
+// impeccabile, soggetto giusto e autore noto, in cui l'artista era una sagoma
+// lontana in una panoramica di palco: irriconoscibile. Nessun controllo
+// automatico poteva accorgersene, perche' **nessuno di quei controlli guarda
+// l'immagine**. Le anteprime servono a guardarla prima, non dopo.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -31,6 +41,7 @@ import { execFileSync } from 'node:child_process';
 const LATO = 640;
 const UA = 'dietroiltesto-ritratti/1.1 (dietroiltesto.it)';
 const prova = process.argv.includes('--prova');
+const anteprime = process.argv.includes('--anteprime');
 
 if (!existsSync('dati/ritratti-candidati.json')) {
   console.error('Manca dati/ritratti-candidati.json. Lancia prima: node scripts/cerca-ritratti.mjs --limite 20');
@@ -45,6 +56,30 @@ if (!existsSync('dati/ritratti-scelti.json')) {
 const candidati = JSON.parse(readFileSync('dati/ritratti-candidati.json', 'utf8')).esito;
 const scelti = JSON.parse(readFileSync('dati/ritratti-scelti.json', 'utf8'));
 const ritratti = existsSync('dati/ritratti.json') ? JSON.parse(readFileSync('dati/ritratti.json', 'utf8')) : {};
+
+// --- modalita' anteprime: scarica i primi tre candidati di ogni artista, piccoli
+if (anteprime) {
+  mkdirSync('ritratti/anteprime', { recursive: true });
+  let n = 0;
+  for (const voce of candidati) {
+    for (const [i, c] of (voce.candidati || []).slice(0, 3).entries()) {
+      if (!c.originale) continue;
+      const indirizzo = c.originale.split('?')[0];
+      const nome = `${voce.slug}-${i + 1}.jpg`;
+      try {
+        const r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+        if (!r.ok) { console.log(`  ${nome}: risponde ${r.status}`); continue; }
+        writeFileSync(`ritratti/anteprime/${nome}`, Buffer.from(await r.arrayBuffer()));
+        try { execFileSync('sips', ['-Z', '420', `ritratti/anteprime/${nome}`], { stdio: 'ignore' }); } catch {}
+        console.log(`  ${nome}  ←  ${c.titolo.replace(/^File:/, '')}`);
+        n++;
+      } catch (e) { console.log(`  ${nome}: ${e.message}`); }
+      await new Promise((x) => setTimeout(x, 400));
+    }
+  }
+  console.log(`\n${n} anteprime in ritratti/anteprime/. Sono immagini di lavoro: non vanno pubblicate.`);
+  process.exit(0);
+}
 
 let ok = 0, rifiutati = 0;
 for (const [slug, titolo] of Object.entries(scelti)) {
