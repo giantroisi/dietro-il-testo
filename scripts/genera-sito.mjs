@@ -513,7 +513,18 @@ if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
 }
 // F18: le foto degli artisti a licenza libera, scaricate a parte. Chi non ce
 // l'ha usa il riquadro grafico: il generatore non inventa nulla.
-if (existsSync(join(ROOT, 'ritratti'))) cpSync(join(ROOT, 'ritratti'), join(OUT, 'ritratti'), { recursive: true });
+// La copia non deve MAI poter uccidere la generazione: sta prima delle
+// sitemap, e la prima volta che ha fallito - un capriccio del filesystem - il
+// generatore e' morto senza scriverle, lasciando un sito senza sitemap che
+// sembrava completo. Un'immagine mancante e' un difetto; un sito senza
+// sitemap e' un sito invisibile.
+if (existsSync(join(ROOT, 'ritratti'))) {
+  try {
+    cpSync(join(ROOT, 'ritratti'), join(OUT, 'ritratti'), { recursive: true, force: true });
+  } catch (e) {
+    console.warn(`ATTENZIONE: non ho potuto copiare i ritratti (${e.code || e.message}). Le pagine artista mostreranno il riquadro grafico.`);
+  }
+}
 
 // immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
 if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });

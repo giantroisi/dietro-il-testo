@@ -61,7 +61,12 @@ for (const [slug, titolo] of Object.entries(scelti)) {
   const manca = ['autore', 'licenza', 'licenzaUrl', 'paginaFile', 'originale'].filter((k) => !c[k]);
   if (manca.length) { console.error(`✗ ${slug}: attribuzione incompleta, manca ${manca.join(', ')}`); rifiutati++; continue; }
 
-  const estensione = (c.originale.match(/\.(jpe?g|png)$/i) || ['.jpg'])[0].toLowerCase().replace('jpeg', 'jpg');
+  // L'API di Commons aggiunge una coda di tracciamento all'indirizzo del file
+  // (`?utm_source=…`). Va tolta per due motivi: l'estensione si legge dal
+  // percorso e non dall'indirizzo intero — altrimenti un .png finisce salvato
+  // come .jpg — e alcune richieste con quella coda vengono respinte.
+  const indirizzo = c.originale.split('?')[0];
+  const estensione = (indirizzo.match(/\.(jpe?g|png)$/i) || ['.jpg'])[0].toLowerCase().replace('jpeg', 'jpg');
   const nomeFile = `${slug}${estensione}`;
   console.log(`${prova ? '(prova) ' : ''}${slug} ← ${c.titolo}`);
   console.log(`         ${c.licenza} — ${c.autore}`);
@@ -69,8 +74,19 @@ for (const [slug, titolo] of Object.entries(scelti)) {
   if (prova) { ok++; continue; }
 
   mkdirSync('ritratti', { recursive: true });
-  const r = await fetch(c.originale, { headers: { 'user-agent': UA } });
-  if (!r.ok) { console.error(`✗ ${slug}: lo scarico risponde ${r.status}`); rifiutati++; continue; }
+  let r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+  if (!r.ok) {
+    // Un solo secondo tentativo, dopo una pausa: se e' un limite di richieste
+    // basta; se e' un 404 fallisce di nuovo e lo diciamo con l'indirizzo, cosi'
+    // si puo' aprire a mano invece di indovinare.
+    await new Promise((x) => setTimeout(x, 2500));
+    r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+  }
+  if (!r.ok) {
+    console.error(`✗ ${slug}: lo scarico risponde ${r.status}`);
+    console.error(`   ${indirizzo}`);
+    rifiutati++; continue;
+  }
   writeFileSync(`ritratti/${nomeFile}`, Buffer.from(await r.arrayBuffer()));
 
   try {
