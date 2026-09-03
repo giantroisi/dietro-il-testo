@@ -874,6 +874,9 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Due artisti hanno un solo candidato e nessuno dei due è utilizzabile**, e vanno registrati come tali invece di essere forzati: `883` ha «una foto degli 883 trasmessa su megaschermo durante un concerto del 2013» — una fotografia di una fotografia, con due diritti sovrapposti; `pinguini-tattici-nucleari` ha un giornalista che ritira un premio insieme a due membri della band, che non è un ritratto del gruppo. Per entrambi vale il ripiego alla grafica.
 **Verificato, non solo scritto**: `scarica-ritratti.mjs --prova` accetta tutte e tre le scelte (3 pronti, 0 rifiutati), cioè i titoli corrispondono a candidati davvero vagliati e l'attribuzione è completa per tutti e tre. **Le foto non le ho viste**: posso escludere il soggetto sbagliato leggendo titolo e descrizione, non dire se l'inquadratura regge il ritaglio quadrato. Quella parte tocca all'autore, dopo la pubblicazione.
 
+- **3 settembre 2026 — C5, AC/DC: `heatseeker` (Blow Up Your Video, 1988).** Primo singolo e traccia d'apertura dell'undicesimo album: Wikipedia e Ultimate Classic Rock (citazione diretta di Angus Young sul processo di scrittura) come fonti, ID Spotify verificato sulla pagina traccia reale. Restano vuoti sei album AC/DC (The Razor's Edge 1990, Ballbreaker 1995, Stiff Upper Lip 2000, Black Ice 2008, Rock or Bust 2014, Power Up 2020).
+**Verificato, non solo scritto**: rigenerato, tutti e sei i controlli automatici puliti tranne l'unico falso positivo già noto (`sweet-child`); `check-freno.mjs` 25 su 235 ancora sotto soglia; `check-garanti.mjs` ancora a zero frasi mai controllate; copia in root con diff di controllo pulito; pagina verificata nel browser via server locale con `get_page_text` a fronte del testo scritto.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

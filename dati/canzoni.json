@@ -10367,5 +10367,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "heatseeker",
+    "titolo": "Heatseeker",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1988",
+    "album": "Blow Up Your Video",
+    "albumSlug": "blow-up-your-video",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E2E2E",
+    "colore2": "#8A1F1F",
+    "ascolti": 44574489,
+    "ascoltiTesto": "44 mln ascolti",
+    "spotifyId": "0h3A3hdDq762DzIOKUoF21",
+    "corpo": [
+      "Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata ai Miraval Studios di Correns, in Francia, con la produzione di Harry Vanda e George Young, è il brano d'apertura dell'undicesimo album in studio della band. Angus Young ha descritto il processo di scrittura come immediato: \"Avevamo il riff, come al solito, poi l'abbiamo sistemato e Brian ci ha messo sopra il testo, e... eccolo lì.\"",
+      "Fu pubblicata come primo singolo il 4 gennaio 1988, raggiungendo il quinto posto in Australia e il ventesimo nella classifica Mainstream Rock di Billboard, il miglior risultato della band in sei anni. Il videoclip, diretto da David Mallet, mescola riprese dal vivo a filmati militari d'archivio: Angus lancia il proprio cappello su un interruttore che innesca per errore un missile, in viaggio intorno al mondo fino a colpire la Sydney Opera House durante un concerto della band."
+    ],
+    "fraseIconica": "Il titolo stesso, \"cercatore di calore\" — il nome dei missili capaci di seguire il bersaglio senza fermarsi — è il momento più ricordato: un doppio senso tipico della scrittura di AC/DC, reso letterale nel videoclip dal missile lanciato per gioco che centra l'Opera House di Sydney.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/616/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Heatseeker_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/ac-dc-heatseeker/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

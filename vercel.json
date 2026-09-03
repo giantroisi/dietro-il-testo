@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/ac-dc/blow-up-your-video/",
-      "destination": "/artista/ac-dc/",
-      "permanent": true
-    },
-    {
       "source": "/album/ac-dc/the-razors-edge/",
       "destination": "/artista/ac-dc/",
       "permanent": true
