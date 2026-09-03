@@ -497,7 +497,7 @@ a { color: inherit; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -512,8 +512,18 @@ a { color: inherit; }
    senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
    sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
 .ritratto { margin: 0; }
+/* F18 — la foto NON viene ritagliata. Il quadrato l'avevo preso dal riquadro
+   grafico, che e' quadrato per natura; le foto di concerto non lo sono quasi
+   mai: sono verticali quando inquadrano il cantante e orizzontali quando
+   inquadrano la band. Ritagliare al centro un quadrato e' il modo piu'
+   efficace per buttare via il soggetto — verificato su due foto vere, dove
+   restavano rispettivamente un torso senza testa e una band senza i lati.
+   Ora l'immagine tiene le proprie proporzioni dentro un'altezza massima: una
+   foto verticale viene alta e stretta, una orizzontale bassa e larga, e non
+   si perde niente. Il riquadro grafico resta quadrato perche' non ha un
+   soggetto da perdere. */
 .ritratto img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  width: auto; max-width: 100%; height: auto; max-height: 320px; display: block;
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
 }
 .ritratto figcaption {
@@ -839,15 +849,15 @@ a { color: inherit; }
           <span class="titolo">Tutto è possibile</span>
           <span class="gancio">Singolo di debutto dei Finley, uscito il 25 novembre 2005 come primo estratto dall'album omonimo e prodotto da…</span>
         </a>
+        <a class="scheda" href="../../canzone/chasing-pavements/" style="--identita:#4A3E4C">
+          <span class="sopra">Adele <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
+          <span class="titolo">Chasing Pavements</span>
+          <span class="gancio">Scritta da Adele insieme a Eg White, che ne curò anche la produzione, fu il secondo singolo estratto da 19,…</span>
+        </a>
         <a class="scheda" href="../../canzone/motivation/" style="--identita:#6E3E1F">
           <span class="sopra">Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</span>
           <span class="titolo">Motivation</span>
           <span class="gancio">Terzo singolo estratto da &quot;All Killer No Filler&quot;, uscito il 5 gennaio 2002, racconta l'assenza totale di voglia di…</span>
-        </a>
-        <a class="scheda" href="../../canzone/seven-nation-army/" style="--identita:#A6231F">
-          <span class="sopra">The White Stripes <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</span>
-          <span class="titolo">Seven Nation Army</span>
-          <span class="gancio">Brano d'apertura e primo singolo di Elephant, quarto album della band, uscito il 17 febbraio 2003.</span>
         </a>
         <a class="scheda" href="../../canzone/still-waiting/" style="--identita:#4A4A1F">
           <span class="sopra">Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2002</span>
@@ -876,7 +886,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 243 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

@@ -493,7 +493,7 @@ a { color: inherit; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -508,8 +508,18 @@ a { color: inherit; }
    senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
    sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
 .ritratto { margin: 0; }
+/* F18 — la foto NON viene ritagliata. Il quadrato l'avevo preso dal riquadro
+   grafico, che e' quadrato per natura; le foto di concerto non lo sono quasi
+   mai: sono verticali quando inquadrano il cantante e orizzontali quando
+   inquadrano la band. Ritagliare al centro un quadrato e' il modo piu'
+   efficace per buttare via il soggetto — verificato su due foto vere, dove
+   restavano rispettivamente un torso senza testa e una band senza i lati.
+   Ora l'immagine tiene le proprie proporzioni dentro un'altezza massima: una
+   foto verticale viene alta e stretta, una orizzontale bassa e larga, e non
+   si perde niente. Il riquadro grafico resta quadrato perche' non ha un
+   soggetto da perdere. */
 .ritratto img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  width: auto; max-width: 100%; height: auto; max-height: 320px; display: block;
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
 }
 .ritratto figcaption {
@@ -774,13 +784,13 @@ a { color: inherit; }
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
-      <a class="voce" href="#canzoni">Canzoni <b>13</b></a>
+      <a class="voce" href="#canzoni">Canzoni <b>16</b></a>
       <a class="voce" href="#dischi">Album <b>16</b></a>
       <a class="voce" href="#storia">Storia </a>
     </nav>
 
     <dl class="fatti">
-      <div class="fatto"><dt>Canzoni sul sito</dt><dd>13</dd></div>
+      <div class="fatto"><dt>Canzoni sul sito</dt><dd>16</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1979</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>16</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>rock</dd></div>
@@ -854,6 +864,21 @@ a { color: inherit; }
           <span class="titolo">Stiff Upper Lip</span>
           <span class="gancio">Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000.</span>
         </a>
+        <a class="scheda" href="../../canzone/rock-n-roll-train/" style="--identita:#1A1A1A">
+          <span class="sopra">Black Ice <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
+          <span class="titolo">Rock 'N' Roll Train</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young — l'idea di partenza fu di Angus, mentre a Malcolm si deve l'armonia vocale del…</span>
+        </a>
+        <a class="scheda" href="../../canzone/rock-or-bust/" style="--identita:#1A1A1A">
+          <span class="sopra">Rock or Bust <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2014</span>
+          <span class="titolo">Rock or Bust</span>
+          <span class="gancio">Title track del sedicesimo album, uscito come secondo singolo il 17 novembre 2014 dopo l'apripista &quot;Play Ball&quot;.</span>
+        </a>
+        <a class="scheda" href="../../canzone/shot-in-the-dark/" style="--identita:#1A1A1A">
+          <span class="sopra">Power Up <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020</span>
+          <span class="titolo">Shot in the Dark</span>
+          <span class="gancio">Primo singolo del diciassettesimo album, uscito il 7 ottobre 2020: il ritorno di AC/DC dopo che nel 2016 il tour di…</span>
+        </a>
       </div>
     </section>
 
@@ -912,18 +937,18 @@ a { color: inherit; }
           <span class="indice">13</span>
           <span><span class="titolo">Stiff Upper Lip</span></span>
           <span class="anno">2000</span></a>
-        <div class="disco disco-assente">
+        <a class="disco" href="../../album/ac-dc/black-ice/">
           <span class="indice">14</span>
           <span><span class="titolo">Black Ice</span></span>
-          <span class="anno">2008</span></div>
-        <div class="disco disco-assente">
+          <span class="anno">2008</span></a>
+        <a class="disco" href="../../album/ac-dc/rock-or-bust/">
           <span class="indice">15</span>
           <span><span class="titolo">Rock or Bust</span></span>
-          <span class="anno">2014</span></div>
-        <div class="disco disco-assente">
+          <span class="anno">2014</span></a>
+        <a class="disco" href="../../album/ac-dc/power-up/">
           <span class="indice">16</span>
           <span><span class="titolo">Power Up</span></span>
-          <span class="anno">2020</span></div>
+          <span class="anno">2020</span></a>
       </div>
       
     </section>
@@ -945,7 +970,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 243 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

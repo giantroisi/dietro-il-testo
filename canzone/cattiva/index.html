@@ -497,7 +497,7 @@ a { color: inherit; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -512,8 +512,18 @@ a { color: inherit; }
    senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
    sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
 .ritratto { margin: 0; }
+/* F18 — la foto NON viene ritagliata. Il quadrato l'avevo preso dal riquadro
+   grafico, che e' quadrato per natura; le foto di concerto non lo sono quasi
+   mai: sono verticali quando inquadrano il cantante e orizzontali quando
+   inquadrano la band. Ritagliare al centro un quadrato e' il modo piu'
+   efficace per buttare via il soggetto — verificato su due foto vere, dove
+   restavano rispettivamente un torso senza testa e una band senza i lati.
+   Ora l'immagine tiene le proprie proporzioni dentro un'altezza massima: una
+   foto verticale viene alta e stretta, una orizzontale bassa e larga, e non
+   si perde niente. Il riquadro grafico resta quadrato perche' non ha un
+   soggetto da perdere. */
 .ritratto img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  width: auto; max-width: 100%; height: auto; max-height: 320px; display: block;
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
 }
 .ritratto figcaption {
@@ -839,10 +849,10 @@ a { color: inherit; }
           <span class="titolo">DiE4u</span>
           <span class="gancio">Scritta dal cantante Oliver Sykes insieme al tastierista Jordan Fish durante il lockdown per la pandemia di Covid-19,…</span>
         </a>
-        <a class="scheda" href="../../canzone/exuvia/" style="--identita:#1F5C4A">
-          <span class="sopra">Caparezza <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2021</span>
-          <span class="titolo">Exuvia</span>
-          <span class="gancio">Scritta, composta e prodotta da Michele Salvemini (Caparezza) fra i Sunny Cola Studios e i Boombox Recording Studio…</span>
+        <a class="scheda" href="../../canzone/volare/" style="--identita:#1F5FA8">
+          <span class="sopra">Domenico Modugno <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1958</span>
+          <span class="titolo">Nel blu dipinto di blu</span>
+          <span class="gancio">Vincitrice del Festival di Sanremo 1958, scritta da Modugno con Franco Migliacci, nasce — secondo lo stesso paroliere…</span>
         </a>
         <a class="scheda" href="../../canzone/my-exs-best-friend/" style="--identita:#3E1F5C">
           <span class="sopra">Machine Gun Kelly <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020</span>
@@ -876,7 +886,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 243 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

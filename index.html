@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="238 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
+<meta name="description" content="243 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Cerca una canzone, un album o una band">
-<meta property="og:description" content="238 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
+<meta property="og:description" content="243 canzoni e 104 artisti: contesto, significato e fonti verificate. Mai i testi.">
 <meta property="og:url" content="https://www.dietroiltesto.it/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/home.png">
@@ -497,7 +497,7 @@ a { color: inherit; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -512,8 +512,18 @@ a { color: inherit; }
    senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
    sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
 .ritratto { margin: 0; }
+/* F18 — la foto NON viene ritagliata. Il quadrato l'avevo preso dal riquadro
+   grafico, che e' quadrato per natura; le foto di concerto non lo sono quasi
+   mai: sono verticali quando inquadrano il cantante e orizzontali quando
+   inquadrano la band. Ritagliare al centro un quadrato e' il modo piu'
+   efficace per buttare via il soggetto — verificato su due foto vere, dove
+   restavano rispettivamente un torso senza testa e una band senza i lati.
+   Ora l'immagine tiene le proprie proporzioni dentro un'altezza massima: una
+   foto verticale viene alta e stretta, una orizzontale bassa e larga, e non
+   si perde niente. Il riquadro grafico resta quadrato perche' non ha un
+   soggetto da perdere. */
 .ritratto img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  width: auto; max-width: 100%; height: auto; max-height: 320px; display: block;
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
 }
 .ritratto figcaption {
@@ -765,7 +775,7 @@ a { color: inherit; }
       <h1 class="promessa">Cosa c'è dietro le canzoni che ami.</h1>
       <!-- F82: la prova che il sito è pieno stava solo nel piede, dove arriva
            chi ha già scorso tutto. I numeri nascono dai dati (P9). -->
-      <p class="consistenza">238 canzoni raccontate, 104 artisti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> ogni scheda con le sue fonti</p>
+      <p class="consistenza">243 canzoni raccontate, 104 artisti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> ogni scheda con le sue fonti</p>
 
       <div class="cerca grande" data-cerca>
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -786,13 +796,13 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">Canzone in evidenza</p>
-      <article class="pillola" data-pillola style="--identita:#1A1A1A">
-        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1981</p>
-        <p class="gancio" data-pillola-titolo>For Those About to Rock (We Salute You)</p>
-        <p class="estratto" data-pillola-estratto>I colpi di cannone che scandiscono il ritornello sono il momento più ricordato: un effetto sonoro nato per caso guardando in TV un matrimonio reale, diventato poi uno degli elementi scenici più riconoscibili degli spettacoli dal vivo della band.</p>
+      <article class="pillola" data-pillola style="--identita:#2E6E4A">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Toto Cutugno <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983</p>
+        <p class="gancio" data-pillola-titolo>L'italiano</p>
+        <p class="estratto" data-pillola-estratto>Il momento più celebre è l'apertura del brano, un quadro stereotipato ma affettuoso del mattino italiano — caffè forte, panni appena stirati, la bandiera portata in tintoria.</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/for-those-about-to-rock/" data-pillola-link>Leggi la scheda</a>
-          <a class="bottone" href="artista/ac-dc/" data-pillola-artista>AC/DC</a>
+          <a class="bottone pieno" href="canzone/litaliano/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/toto-cutugno/" data-pillola-artista>Toto Cutugno</a>
           <button type="button" class="bottone" data-altra-pillola>Cambia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>
@@ -816,7 +826,7 @@ a { color: inherit; }
       <a class="riga" href="artista/ac-dc/">
         <span class="meta">rock</span>
         <span class="nome">AC/DC</span>
-        <span class="conta">13 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 16 album →</span>
+        <span class="conta">16 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 16 album →</span>
       </a>
       <a class="riga" href="artista/a-ha/">
         <span class="meta">pop</span>
@@ -847,38 +857,38 @@ a { color: inherit; }
         <p class="occhiello">Ultime aggiunte</p>
         <h2>Appena raccontate.</h2>
       </div>
-      <a class="vedi-tutto" href="archivio/">Tutte le 238 canzoni →</a>
+      <a class="vedi-tutto" href="archivio/">Tutte le 243 canzoni →</a>
     </div>
     <div class="griglia">
+      <a class="scheda" href="canzone/hello/" style="--identita:#2E2E3A">
+          <span class="sopra">25 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
+          <span class="titolo">Hello</span>
+          <span class="gancio">Scritta da Adele insieme a Greg Kurstin, che ne curò anche la produzione, fu il primo singolo estratto da 25,…</span>
+        </a>
+      <a class="scheda" href="canzone/chasing-pavements/" style="--identita:#4A3E4C">
+          <span class="sopra">19 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
+          <span class="titolo">Chasing Pavements</span>
+          <span class="gancio">Scritta da Adele insieme a Eg White, che ne curò anche la produzione, fu il secondo singolo estratto da 19,…</span>
+        </a>
+      <a class="scheda" href="canzone/shot-in-the-dark/" style="--identita:#1A1A1A">
+          <span class="sopra">Power Up <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020</span>
+          <span class="titolo">Shot in the Dark</span>
+          <span class="gancio">Primo singolo del diciassettesimo album, uscito il 7 ottobre 2020: il ritorno di AC/DC dopo che nel 2016 il tour di…</span>
+        </a>
+      <a class="scheda" href="canzone/rock-or-bust/" style="--identita:#1A1A1A">
+          <span class="sopra">Rock or Bust <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2014</span>
+          <span class="titolo">Rock or Bust</span>
+          <span class="gancio">Title track del sedicesimo album, uscito come secondo singolo il 17 novembre 2014 dopo l'apripista &quot;Play Ball&quot;.</span>
+        </a>
+      <a class="scheda" href="canzone/rock-n-roll-train/" style="--identita:#1A1A1A">
+          <span class="sopra">Black Ice <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
+          <span class="titolo">Rock 'N' Roll Train</span>
+          <span class="gancio">Scritta da Angus e Malcolm Young — l'idea di partenza fu di Angus, mentre a Malcolm si deve l'armonia vocale del…</span>
+        </a>
       <a class="scheda" href="canzone/stiff-upper-lip/" style="--identita:#2E1F1A">
           <span class="sopra">Stiff Upper Lip <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2000</span>
           <span class="titolo">Stiff Upper Lip</span>
           <span class="gancio">Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000.</span>
-        </a>
-      <a class="scheda" href="canzone/hard-as-a-rock/" style="--identita:#1A1A1A">
-          <span class="sopra">Ballbreaker <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1995</span>
-          <span class="titolo">Hard as a Rock</span>
-          <span class="gancio">Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato…</span>
-        </a>
-      <a class="scheda" href="canzone/thunderstruck/" style="--identita:#1F1F2E">
-          <span class="sopra">The Razors Edge <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
-          <span class="titolo">Thunderstruck</span>
-          <span class="gancio">Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in…</span>
-        </a>
-      <a class="scheda" href="canzone/heatseeker/" style="--identita:#2E2E2E">
-          <span class="sopra">Blow Up Your Video <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1988</span>
-          <span class="titolo">Heatseeker</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata ai Miraval Studios di Correns, in Francia, con la…</span>
-        </a>
-      <a class="scheda" href="canzone/danger-acdc/" style="--identita:#1A1A1A">
-          <span class="sopra">Fly on the Wall <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1985</span>
-          <span class="titolo">Danger</span>
-          <span class="gancio">Scritta da Brian Johnson, Angus Young e Malcolm Young, prodotta dagli stessi Angus e Malcolm Young, fu il primo…</span>
-        </a>
-      <a class="scheda" href="canzone/flick-of-the-switch/" style="--identita:#1A1A1A">
-          <span class="sopra">Flick of the Switch <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983</span>
-          <span class="titolo">Flick of the Switch</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata nell'aprile 1983 ai Compass Point Studios delle…</span>
         </a>
     </div>
   </div>
@@ -887,7 +897,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 243 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

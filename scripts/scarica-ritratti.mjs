@@ -67,14 +67,23 @@ if (anteprime) {
       const indirizzo = c.originale.split('?')[0];
       const nome = `${voce.slug}-${i + 1}.jpg`;
       try {
-        const r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+        // Stessa attesa progressiva dello scarico normale. Il primo giro la
+        // faceva senza, e Commons ha risposto 429 a 57 richieste su 60: un
+        // limite di richieste non e' un errore da segnalare, e' un'istruzione
+        // da rispettare — l'avevo gia' scritto altrove e non l'avevo applicato qui.
+        let r;
+        for (let t = 0; t < 5; t++) {
+          r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+          if (r.status !== 429 && r.status !== 503) break;
+          await new Promise((x) => setTimeout(x, 4000 * 2 ** t));
+        }
         if (!r.ok) { console.log(`  ${nome}: risponde ${r.status}`); continue; }
         writeFileSync(`ritratti/anteprime/${nome}`, Buffer.from(await r.arrayBuffer()));
         try { execFileSync('sips', ['-Z', '420', `ritratti/anteprime/${nome}`], { stdio: 'ignore' }); } catch {}
         console.log(`  ${nome}  ←  ${c.titolo.replace(/^File:/, '')}`);
         n++;
       } catch (e) { console.log(`  ${nome}: ${e.message}`); }
-      await new Promise((x) => setTimeout(x, 400));
+      await new Promise((x) => setTimeout(x, 1500));
     }
   }
   console.log(`\n${n} anteprime in ritratti/anteprime/. Sono immagini di lavoro: non vanno pubblicate.`);

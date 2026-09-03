@@ -497,7 +497,7 @@ a { color: inherit; }
   /* Il limite vale per l'IMMAGINE, non per la figura: stringendo anche il
      credito, «CC BY-SA 4.0» si spezzava a meta' fra due righe. La riga dei
      crediti puo' usare tutta la colonna. */
-  .testa-doppia .ritratto img { max-width: 200px; }
+  .testa-doppia .ritratto img { max-width: 200px; max-height: 260px; }
   .testa-doppia .ritratto figcaption { max-width: 320px; }
   .testa-doppia .testa-contorno { margin-top: 8px; }
   .testa-doppia .testa-momento { margin-bottom: 4px; }
@@ -512,8 +512,18 @@ a { color: inherit; }
    senza - restano la stessa pagina. Il credito sta SOTTO l'immagine e non
    sopra: sovrapposto sarebbe illeggibile su meta' delle foto (P7). */
 .ritratto { margin: 0; }
+/* F18 — la foto NON viene ritagliata. Il quadrato l'avevo preso dal riquadro
+   grafico, che e' quadrato per natura; le foto di concerto non lo sono quasi
+   mai: sono verticali quando inquadrano il cantante e orizzontali quando
+   inquadrano la band. Ritagliare al centro un quadrato e' il modo piu'
+   efficace per buttare via il soggetto — verificato su due foto vere, dove
+   restavano rispettivamente un torso senza testa e una band senza i lati.
+   Ora l'immagine tiene le proprie proporzioni dentro un'altezza massima: una
+   foto verticale viene alta e stretta, una orizzontale bassa e larga, e non
+   si perde niente. Il riquadro grafico resta quadrato perche' non ha un
+   soggetto da perdere. */
 .ritratto img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
+  width: auto; max-width: 100%; height: auto; max-height: 320px; display: block;
   border-radius: 14px; border: 1px solid var(--border); background: var(--surface-alt);
 }
 .ritratto figcaption {
@@ -834,25 +844,25 @@ a { color: inherit; }
     <section class="blocco" id="continua">
       <h2>Continua da qui</h2>
       <div class="griglia">
-        <a class="scheda" href="../../canzone/heatseeker/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1988</span>
-          <span class="titolo">Heatseeker</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata ai Miraval Studios di Correns, in Francia, con la…</span>
+        <a class="scheda" href="../../canzone/danger-acdc/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1985</span>
+          <span class="titolo">Danger</span>
+          <span class="gancio">Scritta da Brian Johnson, Angus Young e Malcolm Young, prodotta dagli stessi Angus e Malcolm Young, fu il primo…</span>
         </a>
-        <a class="scheda" href="../../canzone/its-a-long-way-to-the-top/" style="--identita:#B5451D">
+        <a class="scheda" href="../../canzone/dirty-deeds-done-dirt-cheap/" style="--identita:#8A2E2E">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1976</span>
-          <span class="titolo">It's a Long Way to the Top (If You Wanna Rock 'n' Roll)</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1975 agli Albert Studios di Sydney con la…</span>
+          <span class="titolo">Dirty Deeds Done Dirt Cheap</span>
+          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1976 agli Albert Studios di Sydney con la…</span>
         </a>
-        <a class="scheda" href="../../canzone/let-there-be-rock/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1977</span>
-          <span class="titolo">Let There Be Rock</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1977 agli Albert Studios di Sydney con Harry Vanda…</span>
+        <a class="scheda" href="../../canzone/flick-of-the-switch/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983</span>
+          <span class="titolo">Flick of the Switch</span>
+          <span class="gancio">Scritta da Angus Young, Malcolm Young e Brian Johnson, registrata nell'aprile 1983 ai Compass Point Studios delle…</span>
         </a>
-        <a class="scheda" href="../../canzone/rock-n-roll-damnation/" style="--identita:#2E2E2E">
-          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1978</span>
-          <span class="titolo">Rock 'n' Roll Damnation</span>
-          <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, fu l'ultimo brano inciso per &quot;Powerage&quot;, nel marzo 1978 agli…</span>
+        <a class="scheda" href="../../canzone/for-those-about-to-rock/" style="--identita:#1A1A1A">
+          <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1981</span>
+          <span class="titolo">For Those About to Rock (We Salute You)</span>
+          <span class="gancio">Title track dell'ottavo album in studio, scritta da Angus Young, Malcolm Young e Brian Johnson e prodotta da Robert…</span>
         </a>
       </div>
     </section>
@@ -914,7 +924,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 238 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 243 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
