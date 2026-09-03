@@ -57,36 +57,59 @@ const candidati = JSON.parse(readFileSync('dati/ritratti-candidati.json', 'utf8'
 const scelti = JSON.parse(readFileSync('dati/ritratti-scelti.json', 'utf8'));
 const ritratti = existsSync('dati/ritratti.json') ? JSON.parse(readFileSync('dati/ritratti.json', 'utf8')) : {};
 
-// --- modalita' anteprime: scarica i primi tre candidati di ogni artista, piccoli
+// --- modalita' anteprime.
+// Prima versione: scaricava gli ORIGINALI, cioe' file da cinque o dieci
+// megabyte l'uno, sessanta di fila. Commons ha risposto 429 a 57 su 60, e
+// rallentare non e' servito: non era la frequenza, era la mole. Chiedere
+// l'originale per poi rimpicciolirlo e' scortese oltre che inutile.
+// Ora si chiedono le MINIATURE, che Commons genera e serve apposta: una sola
+// domanda all'API per quaranta file (`iiurlwidth`), e poi immagini da qualche
+// decina di kilobyte. Meno banda per loro, meno attesa per noi, stessa cosa
+// da guardare.
 if (anteprime) {
   mkdirSync('ritratti/anteprime', { recursive: true });
-  let n = 0;
+  const voluti = [];
   for (const voce of candidati) {
     for (const [i, c] of (voce.candidati || []).slice(0, 3).entries()) {
-      if (!c.originale) continue;
-      const indirizzo = c.originale.split('?')[0];
-      const nome = `${voce.slug}-${i + 1}.jpg`;
-      try {
-        // Stessa attesa progressiva dello scarico normale. Il primo giro la
-        // faceva senza, e Commons ha risposto 429 a 57 richieste su 60: un
-        // limite di richieste non e' un errore da segnalare, e' un'istruzione
-        // da rispettare — l'avevo gia' scritto altrove e non l'avevo applicato qui.
-        let r;
-        for (let t = 0; t < 5; t++) {
-          r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
-          if (r.status !== 429 && r.status !== 503) break;
-          await new Promise((x) => setTimeout(x, 4000 * 2 ** t));
-        }
-        if (!r.ok) { console.log(`  ${nome}: risponde ${r.status}`); continue; }
-        writeFileSync(`ritratti/anteprime/${nome}`, Buffer.from(await r.arrayBuffer()));
-        try { execFileSync('sips', ['-Z', '420', `ritratti/anteprime/${nome}`], { stdio: 'ignore' }); } catch {}
-        console.log(`  ${nome}  ←  ${c.titolo.replace(/^File:/, '')}`);
-        n++;
-      } catch (e) { console.log(`  ${nome}: ${e.message}`); }
-      await new Promise((x) => setTimeout(x, 1500));
+      if (c.titolo) voluti.push({ nome: `${voce.slug}-${i + 1}.jpg`, titolo: c.titolo });
     }
   }
-  console.log(`\n${n} anteprime in ritratti/anteprime/. Sono immagini di lavoro: non vanno pubblicate.`);
+  const miniature = new Map();
+  for (let i = 0; i < voluti.length; i += 40) {
+    const lotto = voluti.slice(i, i + 40);
+    const p = new URLSearchParams({
+      action: 'query', format: 'json', origin: '*',
+      titles: lotto.map((x) => x.titolo).join('|'),
+      prop: 'imageinfo', iiprop: 'url', iiurlwidth: '420',
+    });
+    const r = await fetch(`https://commons.wikimedia.org/w/api.php?${p}`, { headers: { 'user-agent': UA } });
+    if (!r.ok) { console.log(`  l'API risponde ${r.status}`); continue; }
+    const d = await r.json();
+    for (const pag of Object.values((d.query && d.query.pages) || {})) {
+      const ii = (pag.imageinfo || [])[0];
+      if (ii && (ii.thumburl || ii.url)) miniature.set(pag.title, ii.thumburl || ii.url);
+    }
+    await new Promise((x) => setTimeout(x, 1200));
+  }
+
+  let n = 0, persi = 0;
+  for (const v of voluti) {
+    const indirizzo = miniature.get(v.titolo);
+    if (!indirizzo) { console.log(`  ${v.nome}: nessuna miniatura`); persi++; continue; }
+    try {
+      let r;
+      for (let t = 0; t < 4; t++) {
+        r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+        if (r.status !== 429 && r.status !== 503) break;
+        await new Promise((x) => setTimeout(x, 3000 * 2 ** t));
+      }
+      if (!r.ok) { console.log(`  ${v.nome}: risponde ${r.status}`); persi++; continue; }
+      writeFileSync(`ritratti/anteprime/${v.nome}`, Buffer.from(await r.arrayBuffer()));
+      n++;
+    } catch (e) { console.log(`  ${v.nome}: ${e.message}`); persi++; }
+    await new Promise((x) => setTimeout(x, 250));
+  }
+  console.log(`\n${n} anteprime scaricate, ${persi} mancate. Sono immagini di lavoro: non vanno pubblicate.`);
   process.exit(0);
 }
 
