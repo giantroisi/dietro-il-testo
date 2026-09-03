@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 265,
+    "nCanzoni": 266,
     "haTestoEditoriale": true
   },
   {
@@ -1362,6 +1362,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/un-colpo-allanima/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1715,7 +1720,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 8,
+    "nCanzoni": 9,
     "haTestoEditoriale": true
   },
   {
@@ -2979,6 +2984,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/ligabue/arrivederci-mostro/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3549,7 +3561,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 129,
+    "nCanzoni": 130,
     "haTestoEditoriale": true
   },
   {
@@ -3605,7 +3617,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 43,
+    "nCanzoni": 44,
     "haTestoEditoriale": true
   }
 ]

@@ -11737,5 +11737,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "un-colpo-allanima",
+    "titolo": "Un colpo all'anima",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2010",
+    "album": "Arrivederci, mostro!",
+    "albumSlug": "arrivederci-mostro",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#3E2E2E",
+    "colore2": "#6E5C1F",
+    "ascolti": 6595342,
+    "ascoltiTesto": "6,6 mln ascolti",
+    "spotifyId": "19heyK80pRhOqOBOacSunq",
+    "corpo": [
+      "Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue, uscito il 16 aprile 2010, una settimana prima del disco pubblicato l'11 maggio, esattamente vent'anni dopo l'album d'esordio omonimo. Prodotto da Corrado Rustici, il brano fu presentato in anteprima il 15 aprile durante il \"Liga Day\", una proiezione speciale in oltre cento cinema italiani.",
+      "Il videoclip, diretto da Marco Salom, fu girato tra la zona archeologica di Nora, il faro di Capo Spartivento e Chia, in Sardegna, con la scena finale ambientata nell'anfiteatro romano delle rovine di Nora. Il singolo raggiunse il primo posto sia nella classifica dei download digitali FIMI sia in quella dell'airplay radiofonico, ottenendo il disco di platino in Italia; Ligabue ne ha realizzato anche una versione acustica per chitarra, piano e armonica, dai toni più malinconici rispetto all'originale."
+    ],
+    "fraseIconica": "Il titolo descrive l'assenza di una persona amata come una ferita profonda, capace di far sentire soli anche in mezzo a luci, voci e amici, quando manca proprio chi si vorrebbe accanto.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/1683527/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Un_colpo_all%27anima",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.vistanet.it/ogliastra/2023/02/15/video-vi-ricordate-ligabue-giro-un-video-in-sardegna-nel-2010-ecco-dove/",
+        "nome": "Vistanet",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
