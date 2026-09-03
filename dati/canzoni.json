@@ -10411,5 +10411,93 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "thunderstruck",
+    "titolo": "Thunderstruck",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1990",
+    "album": "The Razors Edge",
+    "albumSlug": "the-razors-edge",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1F1F2E",
+    "colore2": "#8A6E1F",
+    "ascolti": 2364529940,
+    "ascoltiTesto": "2,36 mld ascolti",
+    "spotifyId": "57bgtoPSgt236HzfBOd8kj",
+    "corpo": [
+      "Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in studio, pubblicato il 10 settembre 1990. Il celebre riff, diventato uno dei primi che i chitarristi principianti provano a imparare, nacque da un'idea di Angus poi sviluppata insieme al fratello: \"È partito da un piccolo trucco che avevo sulla chitarra. Lo suonai a Mal e lui disse: 'Ho un'idea di ritmo che starebbe bene dietro.' Costruimmo il pezzo da lì\", ha raccontato Angus nelle note di copertina della riedizione del 2003 di \"The Razor's Edge\".",
+      "Anche il titolo nacque quasi per caso, dopo mesi passati a cercarne uno efficace: \"Ci siamo inventati questa cosa del tuono, ispirandoci al nostro giocattolo preferito dell'infanzia, ThunderStreak, e ci sembrò avere un buon suono. AC/DC uguale potenza. Quest'era l'idea di base\", ha spiegato ancora Angus. Il videoclip, diretto da David Mallet, fu girato alla Brixton Academy di Londra il 17 agosto 1990, con il pubblico che indossava magliette personalizzate con la scritta \"AC/DC — I was Thunderstruck\"."
+    ],
+    "fraseIconica": "Il momento più ricordato è il riff d'apertura, una sequenza rapidissima di note ribattute che imita il crepitio di un fulmine: da lì il ritornello grida che si è stati \"fulminati\", colpiti da qualcosa di travolgente e improvviso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/614/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thunderstruck_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://faroutmagazine.co.uk/how-angus-young-created-ac-dc-thunderstruck/",
+        "nome": "Far Out Magazine",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "hard-as-a-rock",
+    "titolo": "Hard as a Rock",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "1995",
+    "album": "Ballbreaker",
+    "albumSlug": "ballbreaker",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#8A3D1D",
+    "ascolti": 81828687,
+    "ascoltiTesto": "81,8 mln ascolti",
+    "spotifyId": "1gij27s31tFKcTHa8f1u4g",
+    "corpo": [
+      "Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato il 25 settembre 1995 dopo che il batterista Phil Rudd era tornato nella band a dodici anni dal suo addio. Il produttore Rick Rubin, già al lavoro con AC/DC su \"Big Gun\" nel 1993, cercò di riportare il gruppo al suono grezzo degli anni Settanta: le sedute iniziarono ai Record Plant Studios di New York, ma la band si trasferì agli Ocean Way Studios di Los Angeles perché il suono della batteria registrata a New York non convinceva nessuno.",
+      "Il videoclip, diretto da David Mallet, mostra Angus Young che suona il celebre assolo sospeso su una palla da demolizione mentre abbatte un edificio. Pubblicato come singolo il 4 settembre 1995, il brano arrivò primo nella classifica Billboard Mainstream Rock Tracks — il secondo numero uno della band in quella classifica dopo \"Big Gun\" — e nella Top 20 in diversi paesi europei e in Oceania."
+    ],
+    "fraseIconica": "Il brano si apre con un riff diretto e ripetuto, il classico marchio di fabbrica della chitarra di Malcolm Young, seguito da un ritornello scandito che richiama nel titolo l'idea di qualcosa di duro e travolgente, in perfetto stile AC/DC.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/97127/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hard_as_a_Rock",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ballbreaker",
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

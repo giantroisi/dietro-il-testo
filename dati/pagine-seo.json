@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 235,
+    "nCanzoni": 237,
     "haTestoEditoriale": true
   },
   {
@@ -1212,6 +1212,16 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/thunderstruck/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/hard-as-a-rock/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1236,7 +1246,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 10,
+    "nCanzoni": 12,
     "haTestoEditoriale": true
   },
   {
@@ -2165,6 +2175,20 @@
   },
   {
     "percorso": "album/ac-dc/blow-up-your-video/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/the-razors-edge/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/ballbreaker/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3231,7 +3255,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 116,
+    "nCanzoni": 118,
     "haTestoEditoriale": true
   },
   {
@@ -3273,7 +3297,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 55,
+    "nCanzoni": 57,
     "haTestoEditoriale": true
   },
   {

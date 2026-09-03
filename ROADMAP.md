@@ -885,6 +885,9 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Non è arrivato online niente di rotto**: la radice pubblicata non è mai stata toccata dal giro fallito, e i tre controlli sono puliti sulla versione ricostruita.
 **Verificato, non solo scritto**: `check-seo`, `check-link` e `check-contrasto-v2` tutti a zero dopo la ricostruzione; le due pagine con la foto puntano al file giusto e la pagina di Metallica mostra ancora il riquadro grafico, cioè il ripiego funziona sulla stessa build. **Le foto non le ho ancora viste online**: lo faccio dopo il push.
 
+- **3 settembre 2026 — C5, AC/DC: `hard-as-a-rock` (Ballbreaker, 1995).** Primo singolo del tredicesimo album, quello del ritorno di Phil Rudd alla batteria dopo dodici anni: Wikipedia (voce del brano) e Wikipedia (voce dell'album, con la citazione diretta sul trasferimento dai Record Plant Studios di New York agli Ocean Way Studios di Los Angeles perché il suono della batteria registrata a New York non convinceva) come fonti, ID Spotify verificato sulla pagina traccia reale (81,8 mln ascolti, non una delle tre versioni omonime da compilation/remix trovate nella ricerca). Restano vuoti quattro album AC/DC (Stiff Upper Lip 2000, Black Ice 2008, Rock or Bust 2014, Power Up 2020).
+**Verificato, non solo scritto**: rigenerato, tutti e sei i controlli automatici puliti tranne l'unico falso positivo già noto (`sweet-child`); `check-freno.mjs` 25 su 237 ancora sotto soglia; `check-garanti.mjs` ancora a zero frasi mai controllate; copia in root con diff di controllo pulito; pagina verificata nel browser via server locale con `get_page_text` a fronte del testo scritto.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
