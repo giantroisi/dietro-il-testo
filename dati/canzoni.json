@@ -11605,5 +11605,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "la-ragazza-del-futuro",
+    "titolo": "La ragazza del futuro",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2022",
+    "album": "La ragazza del futuro",
+    "albumSlug": "la-ragazza-del-futuro",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E3E",
+    "colore2": "#8A6E2E",
+    "ascolti": 10827382,
+    "ascoltiTesto": "10,8 mln ascolti",
+    "spotifyId": "4BV1CBOgDYhyeMm23sq3Np",
+    "corpo": [
+      "Title track e secondo singolo dopo \"Colibrì\", pubblicata il 19 gennaio 2022 in vista dell'omonimo settimo album da solista di Cesare Cremonini, uscito il 25 febbraio. Scritta con Davide Petrella (in arte Tropico) e prodotta con Alessandro Magnanini, con la batteria affidata al musicista statunitense Steve Jordan, la canzone fu presentata dal vivo durante la terza serata del Festival di Sanremo 2022, dove Cremonini era ospite.",
+      "Cremonini ha descritto il brano come un dialogo immaginario fra lui e il futuro, personificato in una giovane donna, un modo per riflettere sul ruolo delle nuove generazioni. Ha spiegato che la canzone potrebbe rappresentare \"il canto commosso di un padre a una figlia, di un fratello a una sorella\", un invito ad accettare la vita per quella che è nonostante le paure del presente."
+    ],
+    "fraseIconica": "Il titolo immagina il futuro come una figura femminile giovane e coraggiosa, verso cui il narratore prova insieme attesa, tenerezza e il bisogno di proteggerla, come farebbe un padre o un fratello maggiore.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/la-ragazza-del-futuro/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/La_ragazza_del_futuro_(singolo)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.allmusicitalia.it/news/cesare-cremonini-la-ragazza-del-futuro-testo-significato.html",
+        "nome": "All Music Italia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 262,
+    "nCanzoni": 263,
     "haTestoEditoriale": true
   },
   {
@@ -1347,6 +1347,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/la-ragazza-del-futuro/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1455,7 +1460,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -2600,6 +2605,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/la-ragazza-del-futuro/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3534,7 +3546,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 112,
+    "nCanzoni": 113,
     "haTestoEditoriale": true
   },
   {
