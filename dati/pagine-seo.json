@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 257,
+    "nCanzoni": 258,
     "haTestoEditoriale": true
   },
   {
@@ -1322,6 +1322,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/una-vita-da-mediano/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1675,7 +1680,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2890,6 +2895,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/miss-mondo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/ligabue/nome-e-cognome/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3467,7 +3479,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 126,
+    "nCanzoni": 127,
     "haTestoEditoriale": true
   },
   {
@@ -3509,7 +3521,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 60,
+    "nCanzoni": 61,
     "haTestoEditoriale": true
   },
   {

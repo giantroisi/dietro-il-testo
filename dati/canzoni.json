@@ -11385,5 +11385,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "una-vita-da-mediano",
+    "titolo": "Una vita da mediano",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "1999",
+    "album": "Miss Mondo",
+    "albumSlug": "miss-mondo",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E3E2E",
+    "colore2": "#6E4A1F",
+    "ascolti": 26872349,
+    "ascoltiTesto": "26,9 mln ascolti",
+    "spotifyId": "1RxpVID4YsFqB23mz4geUn",
+    "corpo": [
+      "Primo singolo estratto da Miss Mondo, sesto album di Ligabue, uscito il 4 settembre 1999. Il brano è dedicato a Gabriele Oriali, centrocampista dell'Inter e della nazionale campione del mondo nel 1982, e usa il ruolo del mediano — il calciatore che lavora nell'ombra per far giocare gli altri, senza i riflettori riservati a fuoriclasse e bomber — come metafora di una vita fatta di fatica e disciplina più che di talento naturale.",
+      "Le parti orchestrali furono arrangiate da Piero Milesi ed eseguite dalla London Session Orchestra, registrate agli Abbey Road Studios di Londra con il tecnico del suono Fabrizio Simoncioni. Il brano fu usato anche come sottofondo musicale durante la presentazione della candidatura di Romano Prodi a presidente del Consiglio nel 2006, episodio che ispirò una parodia del comico Neri Marcorè intitolata \"Una vita da prodiano\"."
+    ],
+    "fraseIconica": "Il titolo prende il ruolo più umile e meno appariscente del calcio, il mediano che recupera palloni e corre per gli altri, e lo trasforma nel simbolo di chi nella vita lavora sodo senza mai essere il protagonista, eppure resta indispensabile.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/22857/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Una_vita_da_mediano",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.ilpitagora.it/canzone/una-vita-da-mediano-ligabue/8074/",
+        "nome": "Il Pitagora",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
