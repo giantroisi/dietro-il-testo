@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 240,
+    "nCanzoni": 241,
     "haTestoEditoriale": true
   },
   {
@@ -1237,6 +1237,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/shot-in-the-dark/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1261,7 +1266,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 15,
+    "nCanzoni": 16,
     "haTestoEditoriale": true
   },
   {
@@ -2225,6 +2230,13 @@
   },
   {
     "percorso": "album/ac-dc/rock-or-bust/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/power-up/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3291,7 +3303,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 121,
+    "nCanzoni": 122,
     "haTestoEditoriale": true
   },
   {

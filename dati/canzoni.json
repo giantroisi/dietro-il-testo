@@ -10631,5 +10631,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "shot-in-the-dark",
+    "titolo": "Shot in the Dark",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "2020",
+    "album": "Power Up",
+    "albumSlug": "power-up",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#B58A1D",
+    "ascolti": 133104502,
+    "ascoltiTesto": "133,1 mln ascolti",
+    "spotifyId": "0sfdiwck2xr4PteGOdyOfz",
+    "corpo": [
+      "Primo singolo del diciassettesimo album, uscito il 7 ottobre 2020: il ritorno di AC/DC dopo che nel 2016 il tour di Rock or Bust si era interrotto fra addii e problemi di salute, e dopo la morte nel 2017 di Malcolm Young, chitarrista ritmico e cofondatore della band insieme al fratello Angus. Nel 2018 Brian Johnson, Phil Rudd e Cliff Williams tornarono in formazione, e le canzoni dell'album nacquero da riff inediti che Malcolm aveva lasciato prima di morire: Angus li riordinò insieme al nipote Stevie Young prima delle sedute in studio, tra agosto e settembre 2018 ai Warehouse Studio di Vancouver, con lavorazioni aggiuntive a Los Angeles nel 2019. Prodotto da Brendan O'Brien, ogni brano dell'album riporta ancora oggi la firma di Malcolm come autore, insieme a quella di Angus.",
+      "\"Questo disco è praticamente una dedica a Malcolm, mio fratello. È un tributo per lui, come Back in Black lo fu per Bon Scott\", ha dichiarato Angus Young a proposito di Power Up. Il videoclip di \"Shot in the Dark\", diretto da David Mallet, uscì il 26 ottobre 2020 e valse al brano una candidatura ai Grammy Awards 2022 nelle categorie Best Rock Performance e Best Music Video."
+    ],
+    "fraseIconica": "Il titolo paragona l'attrazione improvvisa fra due persone a uno \"sparo nel buio\": qualcosa che arriva senza preavviso e coglie impreparati, reso nel ritornello con l'energia diretta tipica del gruppo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/shot-in-the-dark/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shot_in_the_Dark_(AC/DC_song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Power_Up_(album)",
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
