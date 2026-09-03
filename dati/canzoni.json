@@ -10499,5 +10499,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "stiff-upper-lip",
+    "titolo": "Stiff Upper Lip",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "2000",
+    "album": "Stiff Upper Lip",
+    "albumSlug": "stiff-upper-lip",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#2E1F1A",
+    "colore2": "#8A2E2E",
+    "ascolti": 118358892,
+    "ascoltiTesto": "118,4 mln ascolti",
+    "spotifyId": "1KBuhAHzia2qoD4u6YhvER",
+    "corpo": [
+      "Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000. Scritta da Angus e Malcolm Young e prodotta da George Young, fratello maggiore dei due chitarristi, tornato al timone dopo che il produttore inizialmente previsto, Bruce Fairbairn, era morto nel maggio 1999 prima di poter iniziare le sedute. Il disco fu registrato tra settembre e novembre 1999 ai Warehouse Studio di Vancouver, in Canada.",
+      "Il videoclip, diretto da Andy Morahan, mostra la band a bordo di un Hummer H1 rosso per le strade della città, prima di fermarsi in un vicolo per suonare dal vivo. Tra le comparse sullo sfondo, non accreditata, c'era una diciassettenne che nel 2024 si è rivelata essere Lady Gaga: ospite del programma Apple TV \"A Carpool Karaoke Christmas Special\" insieme al cantante Brian Johnson, ha raccontato di essere stata scritturata come comparsa e di aver dovuto smettere di scuotere la testa a tempo perché la produzione lo trovava «poco moderno»."
+    ],
+    "fraseIconica": "Il titolo, un modo di dire inglese che indica il mantenere un atteggiamento impassibile di fronte alle difficoltà, diventa nel ritornello una dichiarazione di ostinazione tipica del gruppo: andare avanti senza mostrare cedimenti, qualunque cosa succeda.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/605/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stiff_Upper_Lip_(AC/DC_song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://loudwire.com/lady-gaga-extra-acdc-stiff-upper-lip-video/",
+        "nome": "Loudwire",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 237,
+    "nCanzoni": 238,
     "haTestoEditoriale": true
   },
   {
@@ -1222,6 +1222,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/stiff-upper-lip/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1246,7 +1251,7 @@
     "percorso": "artista/ac-dc/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 12,
+    "nCanzoni": 13,
     "haTestoEditoriale": true
   },
   {
@@ -2189,6 +2194,13 @@
   },
   {
     "percorso": "album/ac-dc/ballbreaker/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/ac-dc/stiff-upper-lip/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3255,7 +3267,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 118,
+    "nCanzoni": 119,
     "haTestoEditoriale": true
   },
   {
@@ -3290,7 +3302,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 44,
+    "nCanzoni": 45,
     "haTestoEditoriale": true
   },
   {
