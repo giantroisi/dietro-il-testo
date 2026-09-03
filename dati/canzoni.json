@@ -11297,5 +11297,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "il-comico-sai-che-risate",
+    "titolo": "Il comico (Sai che risate)",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2012",
+    "album": "La teoria dei colori",
+    "albumSlug": "la-teoria-dei-colori",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E5C6E",
+    "colore2": "#8A5C2E",
+    "ascolti": 41455609,
+    "ascoltiTesto": "41,5 mln ascolti",
+    "spotifyId": "6hyruZsp4aAmCNHoumdoHS",
+    "corpo": [
+      "Secondo singolo estratto da La teoria dei colori, quarto album in studio di Cesare Cremonini, pubblicato il 20 aprile 2012. Scritto e prodotto da Cremonini insieme ad Alessandro Magnanini, il brano racconta il tentativo di far innamorare una ragazza disillusa attraverso l'ironia, in mancanza di altro da offrirle.",
+      "In un'intervista a Rockol, Cremonini ha definito il brano autobiografico, spiegando che tutto il disco lo è: guardarsi dentro, ha detto, serve a cercare qualcosa che sia universale, che valga anche per gli altri, ed è in quel momento che una canzone \"diventa unità fra le persone, magia per tutti, un coro in uno stadio\"."
+    ],
+    "fraseIconica": "Il titolo racconta chi ha imparato a usare l'umorismo come unico strumento per alleggerire il dolore altrui, un modo per prendersi cura di qualcuno quando non si ha altro da offrire se non la capacità di far ridere.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/il-comico-sai-che-risate/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Il_comico_(Sai_che_risate)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://significatocanzone.it/il-comico-cesare-cremonini-significato-testo",
+        "nome": "Significato Canzone",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

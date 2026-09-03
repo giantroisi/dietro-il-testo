@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 255,
+    "nCanzoni": 256,
     "haTestoEditoriale": true
   },
   {
@@ -1312,6 +1312,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/il-comico-sai-che-risate/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1420,7 +1425,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2544,6 +2549,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/la-teoria-dei-colori/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3464,7 +3476,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 108,
+    "nCanzoni": 109,
     "haTestoEditoriale": true
   },
   {
@@ -3506,7 +3518,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 39,
+    "nCanzoni": 40,
     "haTestoEditoriale": true
   }
 ]

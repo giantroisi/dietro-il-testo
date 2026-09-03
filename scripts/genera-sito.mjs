@@ -518,12 +518,26 @@ if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
 // generatore e' morto senza scriverle, lasciando un sito senza sitemap che
 // sembrava completo. Un'immagine mancante e' un difetto; un sito senza
 // sitemap e' un sito invisibile.
+// Si copiano SOLO le immagini in cima a `ritratti/`, una per una. La copia
+// ricorsiva dell'intera cartella tirava dentro anche `ritratti/anteprime/`,
+// che sono i provini da guardare prima di scegliere e non vanno pubblicati; e
+// bastava un file rotto la' dentro per interrompere tutta la copia dopo il
+// primo ritratto - successo davvero, con sei foto su sette rimaste a terra
+// senza che nessuno se ne accorgesse. Una foto che fallisce ora fa saltare
+// solo se stessa, e lo dice.
 if (existsSync(join(ROOT, 'ritratti'))) {
-  try {
-    cpSync(join(ROOT, 'ritratti'), join(OUT, 'ritratti'), { recursive: true, force: true });
-  } catch (e) {
-    console.warn(`ATTENZIONE: non ho potuto copiare i ritratti (${e.code || e.message}). Le pagine artista mostreranno il riquadro grafico.`);
+  let copiati = 0;
+  for (const nome of readdirSync(join(ROOT, 'ritratti'))) {
+    if (!/\.(jpe?g|png|webp)$/i.test(nome)) continue;
+    try {
+      mkdirSync(join(OUT, 'ritratti'), { recursive: true });
+      cpSync(join(ROOT, 'ritratti', nome), join(OUT, 'ritratti', nome), { force: true });
+      copiati++;
+    } catch (e) {
+      console.warn(`ATTENZIONE: non ho potuto copiare ritratti/${nome} (${e.code || e.message}). Quell'artista mostrera il riquadro grafico.`);
+    }
   }
+  console.log(`Ritratti copiati:  ${copiati}`);
 }
 
 // immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py

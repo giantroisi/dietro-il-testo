@@ -1,12 +1,4 @@
 {
-  "caparezza": {
-    "file": "caparezza.jpg",
-    "autore": "Luca Dell'Orto",
-    "licenza": "CC BY-SA 4.0",
-    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "fonte": "https://commons.wikimedia.org/wiki/File:Caparezza_Ippodromo_di_San_Siro_2022-002.jpg",
-    "titoloOriginale": "File:Caparezza Ippodromo di San Siro 2022-002.jpg"
-  },
   "black-sabbath": {
     "file": "black-sabbath.jpg",
     "autore": "Shane Hirschman",
@@ -14,5 +6,53 @@
     "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "fonte": "https://commons.wikimedia.org/wiki/File:Black_Sabbath_-_Lollapalooza_2012.jpg",
     "titoloOriginale": "File:Black Sabbath - Lollapalooza 2012.jpg"
+  },
+  "a-ha": {
+    "file": "a-ha.jpg",
+    "autore": "Sheila Rock, restored by Adam Cuerden",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:A-ha_1984.jpg",
+    "titoloOriginale": "File:A-ha 1984.jpg"
+  },
+  "muse": {
+    "file": "muse.jpg",
+    "autore": "Warner Music Sweden",
+    "licenza": "CC BY 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Muse_2009_001.jpg",
+    "titoloOriginale": "File:Muse 2009 001.jpg"
+  },
+  "bring-me-the-horizon": {
+    "file": "bring-me-the-horizon.jpg",
+    "autore": "Mr. Rossi",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Bring_Me_The_Horizont_-_Southside_Festival_2022_-_IMG_4429_-_1.jpg",
+    "titoloOriginale": "File:Bring Me The Horizont - Southside Festival 2022 - IMG 4429 - 1.jpg"
+  },
+  "sum-41": {
+    "file": "sum-41.jpg",
+    "autore": "Drew de F Fawkes from Guildford, United Kingdom",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Sum_41,_Tufnell_Park_Dome,_London_(50982812388).jpg",
+    "titoloOriginale": "File:Sum 41, Tufnell Park Dome, London (50982812388).jpg"
+  },
+  "avicii": {
+    "file": "avicii.jpg",
+    "autore": "GlobalGrindTV",
+    "licenza": "CC BY 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Avicii_interview_for_GlobalGrindTV.jpg",
+    "titoloOriginale": "File:Avicii interview for GlobalGrindTV.jpg"
+  },
+  "5-seconds-of-summer": {
+    "file": "5-seconds-of-summer.jpg",
+    "autore": "Melissa Rose from USA",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:5_Seconds_of_Summer_First_USA_Acoustic_IMG_3650_(14851977285).jpg",
+    "titoloOriginale": "File:5 Seconds of Summer First USA Acoustic IMG 3650 (14851977285).jpg"
   }
 }

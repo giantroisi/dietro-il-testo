@@ -24,6 +24,7 @@
 //   …si sceglie a mano scrivendo dati/ritratti-scelti.json…
 //   node scripts/scarica-ritratti.mjs               (poi: scarica e scrive)
 //   node scripts/scarica-ritratti.mjs --prova       (dice cosa farebbe, senza fare)
+//   node scripts/scarica-ritratti.mjs --solo a-ha,muse   (solo questi artisti)
 //   node scripts/scarica-ritratti.mjs --anteprime   (scarica i primi tre candidati di
 //                                                    ogni artista, piccoli, in
 //                                                    ritratti/anteprime/, per poterli
@@ -42,6 +43,16 @@ const LATO = 640;
 const UA = 'dietroiltesto-ritratti/1.1 (dietroiltesto.it)';
 const prova = process.argv.includes('--prova');
 const anteprime = process.argv.includes('--anteprime');
+// `--solo a-ha,muse` lavora su quegli artisti e basta. Serve a rilanciare uno
+// scarico fallito senza rifare gli altri: il primo giro di sette ha preso due
+// 429 da Commons proprio perche' chiedeva sette file di fila, e riprovare
+// tutto e' il modo piu' sicuro di prenderne altri.
+const iSoli = (() => {
+  const i = process.argv.indexOf('--solo');
+  if (i === -1) return null;
+  const lista = (process.argv[i + 1] || '').split(',').map((x) => x.trim()).filter(Boolean);
+  return lista.length ? new Set(lista) : null;
+})();
 
 if (!existsSync('dati/ritratti-candidati.json')) {
   console.error('Manca dati/ritratti-candidati.json. Lancia prima: node scripts/cerca-ritratti.mjs --limite 20');
@@ -120,6 +131,7 @@ if (anteprime) {
 
 let ok = 0, rifiutati = 0;
 for (const [slug, titolo] of Object.entries(scelti)) {
+  if (iSoli && !iSoli.has(slug)) continue;
   const voce = candidati.find((e) => e.slug === slug);
   if (!voce) { console.error(`✗ ${slug}: non e fra gli artisti esaminati da cerca-ritratti.mjs`); rifiutati++; continue; }
   const c = (voce.candidati || []).find((x) => x.titolo === titolo);
@@ -176,6 +188,22 @@ for (const [slug, titolo] of Object.entries(scelti)) {
     titoloOriginale: c.titolo,
   };
   ok++;
+}
+
+// Se uno scarico fallisce, la voce vecchia di quell'artista resta dentro
+// `ritratti` (letto da dati/ritratti.json a inizio corsa) e il file sul disco
+// non viene sostituito: il risultato e' un ritratto pubblicato che NON e'
+// quello dichiarato in ritratti-scelti.json, e nessuno se ne accorge. E'
+// successo davvero, due volte. Quindi qui si confronta e si dice.
+const incoerenti = Object.entries(scelti)
+  .filter(([slug]) => !iSoli || iSoli.has(slug))
+  .filter(([slug, titolo]) => ritratti[slug] && ritratti[slug].titoloOriginale !== titolo);
+if (!prova && incoerenti.length) {
+  console.error('\nATTENZIONE: per questi artisti la foto sul disco non e quella scelta.');
+  for (const [slug, titolo] of incoerenti) {
+    console.error(`  ${slug}: scelta "${titolo}", pubblicata "${ritratti[slug].titoloOriginale}"`);
+  }
+  console.error('Rilancia con --solo ' + incoerenti.map(([s]) => s).join(','));
 }
 
 if (!prova && ok) {
