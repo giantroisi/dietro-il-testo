@@ -10719,5 +10719,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "hello",
+    "titolo": "Hello",
+    "artista": "Adele",
+    "artistaSlug": "adele",
+    "anno": "2015",
+    "album": "25",
+    "albumSlug": "25",
+    "genereTesto": "Pop / Soul",
+    "generi": [
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#2E2E3A",
+    "colore2": "#8A6E4A",
+    "ascolti": 1864050658,
+    "ascoltiTesto": "1,86 mld ascolti",
+    "spotifyId": "1Yk0cQdMLx5RzzFTYwmuld",
+    "corpo": [
+      "Scritta da Adele insieme a Greg Kurstin, che ne curò anche la produzione, fu il primo singolo estratto da 25, pubblicato il 23 ottobre 2015 e registrato ai Metropolis Studios di Londra. La scrittura richiese circa sei mesi: il primo verso nacque durante una sessione a Chiswick, insolita per Adele, abituata a scrivere a casa propria; dopo aver completato solo metà brano, Kurstin ha raccontato di non essere sicuro che Adele sarebbe più tornata a finirlo, prima che lei si rifece viva per completarlo.",
+      "\"Suona un po' morboso, come se fossi morta, ma in realtà parla solo dell'altro lato del diventare adulti, dell'essere sopravvissuta alla tarda adolescenza e ai vent'anni\", ha raccontato Adele a Rolling Stone a proposito del verso che apre il ritornello. Il videoclip, diretto da Xavier Dolan e girato in quattro giorni in una fattoria del Québec, fu il primo video musicale girato in formato IMAX: raggiunse il miliardo di visualizzazioni in appena 87 giorni, un record per l'epoca."
+    ],
+    "fraseIconica": "Il saluto che apre il ritornello, rivolto a una versione più giovane di sé o a una persona del passato, diventa il tentativo di riallacciare un contatto interrotto, di guardare indietro senza sapere se dall'altra parte qualcuno risponderà.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adele/hello/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hello_(Adele_song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/adele/hello",
+        "nome": "Songfacts",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

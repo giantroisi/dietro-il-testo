@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 242,
+    "nCanzoni": 243,
     "haTestoEditoriale": true
   },
   {
@@ -1247,6 +1247,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/hello/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1278,7 +1283,7 @@
     "percorso": "artista/adele/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2260,6 +2265,13 @@
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/adele/25/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/adriano-celentano/azzurro-una-carezza-in-un-pugno/",
@@ -3329,7 +3341,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 100,
+    "nCanzoni": 101,
     "haTestoEditoriale": true
   },
   {
@@ -3371,7 +3383,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 36,
+    "nCanzoni": 37,
     "haTestoEditoriale": true
   }
 ]
