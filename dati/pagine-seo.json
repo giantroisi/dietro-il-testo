@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 247,
+    "nCanzoni": 248,
     "haTestoEditoriale": true
   },
   {
@@ -1272,6 +1272,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/balliamo-sul-mondo/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1625,7 +1630,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2791,6 +2796,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/ligabue/ligabue/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/ligabue/sopravvissuti-e-sopravviventi/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3375,7 +3387,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 122,
+    "nCanzoni": 123,
     "haTestoEditoriale": true
   },
   {
@@ -3417,7 +3429,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 57,
+    "nCanzoni": 58,
     "haTestoEditoriale": true
   },
   {

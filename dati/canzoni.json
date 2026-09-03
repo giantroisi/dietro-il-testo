@@ -10939,5 +10939,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "balliamo-sul-mondo",
+    "titolo": "Balliamo sul mondo",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "1990",
+    "album": "Ligabue",
+    "albumSlug": "ligabue",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#3E2E1F",
+    "colore2": "#8A6E2E",
+    "ascolti": 8467126,
+    "ascoltiTesto": "8,47 mln ascolti",
+    "spotifyId": "6qTr4uQbPDmUghqQ6mfm48",
+    "corpo": [
+      "Primo singolo ufficiale della carriera di Luciano Ligabue, tratto dal suo album d'esordio omonimo del 1990, prodotto da Angelo Carrara. Il brano nacque con il titolo \"Eroi di latta\" e un testo molto più polemico, una critica esplicita al pop elettronico anni Ottanta di gruppi come i Duran Duran che Ligabue trovava artificioso. Carrara lo convinse che quel tono non fosse adatto a un esordiente, e Ligabue riscrisse completamente il testo, cambiando anche il titolo in \"Balliamo sul mondo\".",
+      "Il brano, che racconta la fuga di due protagonisti da una realtà opprimente attraverso il ballo, ricevette il \"disco verde\" al Festivalbar 1990, il riconoscimento che lanciò Ligabue a livello nazionale dopo la vittoria a Terremoto Rock nel 1988. Il videoclip, diretto da Piero Cecchini, mostra Ligabue cantare su quello che sembra il tetto del mondo."
+    ],
+    "fraseIconica": "Il titolo racconta due persone che, invece di subire un presente instabile e incerto, scelgono di ballare un fandango sopra ogni difficoltà, come se il mondo intero fosse una pista da ballo su cui restare in piedi.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/602312/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Balliamo_sul_mondo",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://solobellecanzoni.altervista.org/balliamo-sul-mondo-luciano-ligabue/",
+        "nome": "Solo Belle Canzoni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
