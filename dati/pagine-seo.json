@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 268,
+    "nCanzoni": 269,
     "haTestoEditoriale": true
   },
   {
@@ -1377,6 +1377,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/luci-damerica/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1730,7 +1735,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 11,
+    "nCanzoni": 12,
     "haTestoEditoriale": true
   },
   {
@@ -3015,6 +3020,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/start/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3585,7 +3597,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 132,
+    "nCanzoni": 133,
     "haTestoEditoriale": true
   },
   {
@@ -3641,7 +3653,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 46,
+    "nCanzoni": 47,
     "haTestoEditoriale": true
   }
 ]

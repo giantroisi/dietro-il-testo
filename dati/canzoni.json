@@ -11869,5 +11869,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "luci-damerica",
+    "titolo": "Luci d'America",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2019",
+    "album": "Start",
+    "albumSlug": "start",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E3E",
+    "colore2": "#8A6E1F",
+    "ascolti": 10678970,
+    "ascoltiTesto": "10,7 mln ascolti",
+    "spotifyId": "1Y3o2mOVYOUdAezjsWHS7f",
+    "corpo": [
+      "Primo singolo estratto da Start, dodicesimo album di Ligabue, in rotazione radiofonica dall'11 gennaio 2019 e uscito come disco l'8 marzo. Prodotto da Federico Nardelli, che suona anche basso, chitarra elettrica, piano, organo e moog, il brano mette a confronto due sguardi opposti sulla stessa realtà, uno pessimista e uno più ottimista, usando l'America e l'Africa come immagini agli antipodi per raccontare quanto il punto di vista personale possa cambiare la percezione delle cose.",
+      "Il videoclip, diretto da Marco Salom e pubblicato il 14 gennaio 2019, fu girato interamente in California: dal deserto lunare del parco di Pinnacles all'area degradata di Skid Row a Los Angeles, dalle luci di Hollywood alla città fantasma di Trona. Il singolo restò per quattro settimane consecutive in testa alla classifica airplay radiofonica italiana, ottenendo il disco d'oro."
+    ],
+    "fraseIconica": "Il titolo mette a confronto le luci scintillanti dell'America con le stelle sull'Africa, due immagini opposte che diventano il simbolo di due modi diversi di guardare la stessa realtà, uno più cupo e uno capace di trovarci ancora qualcosa di bello.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue/luci-damerica/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Luci_d%27America",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.lopinionista.it/luci-damerica-ligabue-33843.html",
+        "nome": "L'Opinionista",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
