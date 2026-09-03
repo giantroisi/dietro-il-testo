@@ -193,7 +193,7 @@ for (const a of elenco) {
       });
     }
     buoni.sort((x, y) => y.punti - x.punti || y.larghezza * y.altezza - x.larghezza * x.altezza);
-    esito.push({ slug: a.slug, nome: a.nome, schede: quante[a.slug] || 0, categoria: c.cat, wikidata: c.id, descrizione: c.descrizione, candidati: buoni.slice(0, 6) });
+    esito.push({ slug: a.slug, nome: a.nome, schede: quante[a.slug] || 0, categoria: c.cat, wikidata: c.id, descrizione: c.descrizione, candidati: buoni.slice(0, 12) });
     process.stderr.write(`${c.cat} → ${buoni.length} liberi\n`);
   } catch (e) {
     process.stderr.write(`errore: ${e.message}\n`);

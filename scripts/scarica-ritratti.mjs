@@ -70,7 +70,12 @@ if (anteprime) {
   mkdirSync('ritratti/anteprime', { recursive: true });
   const voluti = [];
   for (const voce of candidati) {
-    for (const [i, c] of (voce.candidati || []).slice(0, 3).entries()) {
+    // Tutti i candidati, non i primi tre. Il punteggio ordina per provenienza
+    // e non sa cosa c'e' nell'immagine: guardando le prime tre di venti artisti
+    // ho trovato al primo posto l'insegna luminosa di un teatro, una foto
+    // scattata dal fondo della folla e un DJ nascosto dietro la consolle. La
+    // foto buona, quando c'e', puo' stare in fondo.
+    for (const [i, c] of (voce.candidati || []).entries()) {
       if (c.titolo) voluti.push({ nome: `${voce.slug}-${i + 1}.jpg`, titolo: c.titolo });
     }
   }
