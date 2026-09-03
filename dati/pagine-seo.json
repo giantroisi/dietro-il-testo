@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 267,
+    "nCanzoni": 268,
     "haTestoEditoriale": true
   },
   {
@@ -1372,6 +1372,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/made-in-italy/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1725,7 +1730,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 10,
+    "nCanzoni": 11,
     "haTestoEditoriale": true
   },
   {
@@ -3003,6 +3008,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/made-in-italy/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/limp-bizkit/significant-other/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3573,7 +3585,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 131,
+    "nCanzoni": 132,
     "haTestoEditoriale": true
   },
   {
@@ -3629,7 +3641,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 45,
+    "nCanzoni": 46,
     "haTestoEditoriale": true
   }
 ]

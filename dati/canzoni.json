@@ -11825,5 +11825,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "made-in-italy",
+    "titolo": "Made in Italy",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "2016",
+    "album": "Made in Italy",
+    "albumSlug": "made-in-italy",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E2E",
+    "colore2": "#8A6E4A",
+    "ascolti": 5037057,
+    "ascoltiTesto": "5,0 mln ascolti",
+    "spotifyId": "30bC7IMVX1BNoWjqjxVs6I",
+    "corpo": [
+      "Title track e secondo singolo estratto dall'undicesimo album di Ligabue, primo concept album della sua carriera, pubblicato il 18 novembre 2016. Il brano attraversa in musica diverse città italiane, da Milano a Venezia, componendo un ritratto in movimento del paese, con l'immagine di un treno come filo conduttore.",
+      "Il videoclip, diretto da Paolo De Francesco insieme a Era Ora e Ivana Gloria, alterna riprese dal vivo, girate nel deposito locomotive di Reggio Emilia, a sequenze in stop motion ambientate in un immaginario parco a tema chiamato \"Made in Italy Park\". Fra i riferimenti alle diverse città, quando il testo cita la vecchia stazione di Bologna compare un orologio fermo alle 10:25, l'ora esatta della strage alla stazione del 2 agosto 1980, in cui morirono 85 persone e oltre 200 rimasero ferite."
+    ],
+    "fraseIconica": "Il titolo racconta un'Italia in movimento continuo, come un treno che non si ferma mai e non è mai puntuale, eppure resta il luogo a cui si appartiene nonostante le sue contraddizioni.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/made-in-italy/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Made_in_Italy_(singolo_Luciano_Ligabue)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.radioitalia.it/news/ligabue-made-in-italy-il-video-in-stop-motion-e-l-album-con-i-fiati-488922",
+        "nome": "Radio Italia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
