@@ -10807,5 +10807,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "il-ragazzo-della-via-gluck",
+    "titolo": "Il ragazzo della via Gluck",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1966",
+    "album": "Il ragazzo della via Gluck",
+    "albumSlug": "il-ragazzo-della-via-gluck",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E4A3E",
+    "colore2": "#8A6E2E",
+    "ascolti": 61272163,
+    "ascoltiTesto": "61,3 mln ascolti",
+    "spotifyId": "2He8YboCjtGF53iJudHiTl",
+    "corpo": [
+      "Musica di Adriano Celentano, testo di Luciano Beretta e Miki Del Prete, uscì il 17 gennaio 1966. Alla fine del 1965 Celentano attraversava un momento difficile fra film flop e canzoni religiose che faticavano contro l'onda dei Beatles: scartò un primo brano proposto da Beretta, ritenuto troppo simile al beat di moda, e decise invece di ispirarsi al folk-rock di Bob Dylan per raccontare, in prima persona, il quartiere milanese di via Gluck dove era nato e cresciuto fino a metà degli anni Cinquanta, quando la famiglia si trasferì altrove.",
+      "Al Festival di Sanremo 1966, dove Celentano si presentò con un seguito di cinquanta persone dopo cinque anni di assenza dalla kermesse, il brano fu eliminato già dopo la prima serata, complice anche un'esibizione infelice del Trio del Clan. Divenne però uno dei suoi maggiori successi commerciali e uno dei primi brani italiani a portare in classifica un tema ambientale, il rimpianto per il verde di periferia sostituito dal cemento. Lo stesso anno Giorgio Gaber, amico di lunga data di Celentano, gli rispose con \"La risposta al ragazzo della via Gluck\", un brano che ribaltava ironicamente il punto di vista a favore di chi in periferia ci abita ancora."
+    ],
+    "fraseIconica": "Il ritornello racconta il ritorno del protagonista nel quartiere dov'è cresciuto, ormai irriconoscibile: al posto dei prati e delle case basse, palazzi e cemento, un paesaggio d'infanzia cancellato dal progresso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/265805/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Il_ragazzo_della_via_Gluck",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.rockol.it/news-756618/il-ragazzo-della-via-gluck-celentano-compie-60-anni-oggi-la-storia",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

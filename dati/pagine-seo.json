@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 244,
+    "nCanzoni": 245,
     "haTestoEditoriale": true
   },
   {
@@ -1257,6 +1257,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/il-ragazzo-della-via-gluck/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1295,7 +1300,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2280,6 +2285,13 @@
   },
   {
     "percorso": "album/adele/30/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/il-ragazzo-della-via-gluck/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3353,7 +3365,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 102,
+    "nCanzoni": 103,
     "haTestoEditoriale": true
   },
   {
