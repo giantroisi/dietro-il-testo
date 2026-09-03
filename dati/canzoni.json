@@ -11253,5 +11253,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "a-che-ora-e-la-fine-del-mondo",
+    "titolo": "A che ora è la fine del mondo?",
+    "artista": "Ligabue",
+    "artistaSlug": "ligabue",
+    "anno": "1994",
+    "album": "A che ora è la fine del mondo?",
+    "albumSlug": "a-che-ora-e-la-fine-del-mondo",
+    "genereTesto": "Rock italiano",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E3E",
+    "colore2": "#6E4A1F",
+    "ascolti": 3171163,
+    "ascoltiTesto": "3,17 mln ascolti",
+    "spotifyId": "1nK9arFgnYpjlC0y0gS1Gt",
+    "corpo": [
+      "Title track del quarto album di Ligabue, uscito il 28 ottobre 1994: non un brano originale, ma una cover in italiano di \"It's the End of the World as We Know It (And I Feel Fine)\" dei R.E.M., pubblicata dal gruppo americano nel 1987. Invece di tradurre il testo originale, Ligabue scrisse un testo nuovo ascoltando la versione dei R.E.M., ispirandosi alla telefonata di un radioascoltatore durante \"La guerra dei mondi\", il celebre radiodramma di Orson Welles del 1938 in cui molti ascoltatori credettero reale un'invasione aliena.",
+      "Nella trasmissione MTV Storytellers del 6 febbraio 2006, Ligabue ha raccontato che l'idea di riscrivere il testo nacque dal discorso di apertura della prima legislatura di Silvio Berlusconi, in cui il premier negava che i media di sua proprietà avessero potuto favorire la vittoria elettorale di Forza Italia. Il brano finito, satirico verso la televisione italiana, immagina come le persone reagirebbero a una fine del mondo reale: preferendo guardarla in diretta dal salotto di casa piuttosto che viverla."
+    ],
+    "fraseIconica": "Il ritornello trasforma la fine del mondo in un evento da guardare in televisione più che da vivere, un'immagine satirica di una società che osserva tutto a distanza, comodamente seduta davanti allo schermo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ligabue-luciano/22887/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/A_che_ora_%C3%A8_la_fine_del_mondo%3F_(singolo)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.tomtomrock.it/journal/articolo-le-cover-italiane-6-r-e-m-vs-ligabue/",
+        "nome": "Tom Tom Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

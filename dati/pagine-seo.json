@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 254,
+    "nCanzoni": 255,
     "haTestoEditoriale": true
   },
   {
@@ -1307,6 +1307,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/a-che-ora-e-la-fine-del-mondo/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1660,7 +1665,7 @@
     "percorso": "artista/ligabue/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -2854,6 +2859,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/ligabue/a-che-ora-e-la-fine-del-mondo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/ligabue/buon-compleanno-elvis/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3438,7 +3450,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 125,
+    "nCanzoni": 126,
     "haTestoEditoriale": true
   },
   {
@@ -3480,7 +3492,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 59,
+    "nCanzoni": 60,
     "haTestoEditoriale": true
   },
   {
