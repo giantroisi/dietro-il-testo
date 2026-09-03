@@ -11561,5 +11561,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "poetica",
+    "titolo": "Poetica",
+    "artista": "Cesare Cremonini",
+    "artistaSlug": "cesare-cremonini",
+    "anno": "2017",
+    "album": "Possibili scenari",
+    "albumSlug": "possibili-scenari",
+    "genereTesto": "Pop rock italiano",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E4A",
+    "colore2": "#6E8A5C",
+    "ascolti": 111199385,
+    "ascoltiTesto": "111,2 mln ascolti",
+    "spotifyId": "07qo9gnLM488CUr0EtgIA1",
+    "corpo": [
+      "Primo singolo estratto da Possibili scenari, sesto album da solista di Cesare Cremonini, pubblicato il 3 novembre 2017. Scritto con Alessandro Magnanini e prodotto da Walter Mameli, registrato fra i Mille Galassie Studio di Bologna e gli AIR Studios di Londra nel 2016-2017. Cremonini ha raccontato di averlo scelto come primo singolo proprio perché, rispetto ad altri brani del disco, è \"senza difese\": scritto, suonato e cantato senza paura, senza cercare scorciatoie o rifugiarsi in mode del momento.",
+      "Cremonini ha definito il brano una dichiarazione d'amore per la vita, un percorso attraverso gli alti e bassi dell'esistenza con l'intento di non arrendersi mai, sottolineando come una canzone possa ancora permettersi il lusso di durare nel tempo senza inseguire formule commerciali troppo convenzionali. Il videoclip, diretto da Gaetano Morbioli e girato in bianco e nero, uscì il 21 novembre 2017."
+    ],
+    "fraseIconica": "Il titolo racconta la scelta di affidarsi alla poesia della vita anche quando la stanchezza e la paura sembrano prendere il sopravvento, trovando comunque un modo per continuare a navigare, e chiedendo vicinanza a chi si ama.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/cesare-cremonini/poetica/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poetica_(song)",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.mbmusic.it/2017/11/poetica-cesare-cremonini-con-testo-e-significato/",
+        "nome": "MB Music",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

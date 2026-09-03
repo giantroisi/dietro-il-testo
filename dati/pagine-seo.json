@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 261,
+    "nCanzoni": 262,
     "haTestoEditoriale": true
   },
   {
@@ -1342,6 +1342,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/poetica/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1450,7 +1455,7 @@
     "percorso": "artista/cesare-cremonini/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2588,6 +2593,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/cesare-cremonini/possibili-scenari/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/claudio-baglioni/questo-piccolo-grande-amore/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3522,7 +3534,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 111,
+    "nCanzoni": 112,
     "haTestoEditoriale": true
   },
   {
@@ -3564,7 +3576,7 @@
     "percorso": "anni/2010/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 42,
+    "nCanzoni": 43,
     "haTestoEditoriale": true
   }
 ]
