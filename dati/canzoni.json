@@ -10851,5 +10851,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "svalutation",
+    "titolo": "Svalutation",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1976",
+    "album": "Svalutation",
+    "albumSlug": "svalutation",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#2E2E2E",
+    "colore2": "#8A6E2E",
+    "ascolti": 19257735,
+    "ascoltiTesto": "19,3 mln ascolti",
+    "spotifyId": "274k9VMh666pQWMV2plXqV",
+    "corpo": [
+      "Title track del quattordicesimo album di Celentano, uscito nel 1976 in un anno di crisi economica pesante per l'Italia: inflazione oltre il 16%, benzina che rincarava di continuo, lira in caduta. Celentano inventò il titolo mescolando la parola italiana \"svalutazione\" con la desinenza inglese \"-tion\", sullo stesso modello scherzoso con cui i giornali dell'epoca avevano coniato \"austerity\" per la crisi energetica del 1973: un gioco linguistico che richiamava lo stile comico di film come \"Un americano a Roma\".",
+      "Il testo mescola italiano e un inglese inventato per orecchio, con neologismi analoghi a \"svalutation\" per descrivere incidenti e fatti di cronaca, e accosta l'inflazione e il carovita alla sensazione di un'inefficienza dello Stato che sembra inghiottire il denaro senza restituire nulla. Nonostante il tono scherzoso, il brano tocca anche la guerra civile in Libano e i conflitti dell'epoca, componendo un ritratto satirico ma non superficiale dell'Italia e del mondo di metà anni Settanta."
+    ],
+    "fraseIconica": "Il neologismo del titolo, una \"svalutazione\" trasformata in parola macaronica quasi inglese, diventa la chiave ironica con cui il brano guarda a un'inflazione che sembra non fermarsi mai e a un'incertezza economica diffusa.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/409518/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Svalutation",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.ondamusicale.it/musica/87709-adriano-celentano-e-svalutation-quando-la-crisi-economica-viaggia-a-tempo-di-rock/",
+        "nome": "Onda Musicale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
