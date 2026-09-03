@@ -471,16 +471,6 @@
       "permanent": true
     },
     {
-      "source": "/album/cesare-cremonini/possibili-scenari/",
-      "destination": "/artista/cesare-cremonini/",
-      "permanent": true
-    },
-    {
-      "source": "/album/cesare-cremonini/la-ragazza-del-futuro/",
-      "destination": "/artista/cesare-cremonini/",
-      "permanent": true
-    },
-    {
       "source": "/album/cesare-cremonini/alaska-baby/",
       "destination": "/artista/cesare-cremonini/",
       "permanent": true
@@ -2643,11 +2633,6 @@
     {
       "source": "/album/led-zeppelin/coda/",
       "destination": "/artista/led-zeppelin/",
-      "permanent": true
-    },
-    {
-      "source": "/album/ligabue/fuori-come-va/",
-      "destination": "/artista/ligabue/",
       "permanent": true
     },
     {

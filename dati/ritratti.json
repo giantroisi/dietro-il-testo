@@ -25,11 +25,9 @@
   },
   "bring-me-the-horizon": {
     "file": "bring-me-the-horizon.jpg",
-    "autore": "Mr. Rossi",
-    "licenza": "CC BY-SA 4.0",
-    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "fonte": "https://commons.wikimedia.org/wiki/File:Bring_Me_The_Horizont_-_Southside_Festival_2022_-_IMG_4429_-_1.jpg",
-    "titoloOriginale": "File:Bring Me The Horizont - Southside Festival 2022 - IMG 4429 - 1.jpg"
+    "propria": true,
+    "concerto": "Ferrara Summer Festival, Piazza Ariostea, Ferrara",
+    "data": "2 luglio 2026"
   },
   "sum-41": {
     "file": "sum-41.jpg",
@@ -54,5 +52,11 @@
     "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
     "fonte": "https://commons.wikimedia.org/wiki/File:5_Seconds_of_Summer_First_USA_Acoustic_IMG_3650_(14851977285).jpg",
     "titoloOriginale": "File:5 Seconds of Summer First USA Acoustic IMG 3650 (14851977285).jpg"
+  },
+  "linkin-park": {
+    "file": "linkin-park.jpg",
+    "propria": true,
+    "concerto": "I-Days, Ippodromo SNAI La Maura, Milano",
+    "data": "24 giugno 2025"
   }
 }

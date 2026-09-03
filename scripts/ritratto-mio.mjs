@@ -22,7 +22,8 @@
 // Uso:
 //   node scripts/ritratto-mio.mjs <slug-artista> <file> "<concerto>" "<data>"
 //   node scripts/ritratto-mio.mjs ligabue ~/foto/lig.jpg "Arena di Verona" "12 luglio 2024"
-//   …aggiungi --forza per pubblicare anche se la data EXIF non coincide.
+//   …--ritaglia 0.22,0.375,0.985,0.632   ritaglia in frazioni (sinistra,alto,destra,basso)
+//   …--forza                             pubblica anche se la data EXIF non coincide
 //
 // Non serve rete.
 
@@ -31,6 +32,35 @@ import { execFileSync } from 'node:child_process';
 import { basename } from 'node:path';
 
 const LATO_MAX = 1280;
+
+/* Due strumenti, perche' due macchine. `sips` esiste solo sul Mac vero; il
+ * ponte di Cowork lavora dentro una VM Linux dove c'e' ImageMagick. Provare
+ * solo il primo significa non ridimensionare niente e non accorgersene: la
+ * prima foto e' uscita a dimensione piena proprio cosi'. */
+function strumento(nome, argomenti) {
+  try { execFileSync(nome, argomenti, { stdio: 'ignore' }); return true; } catch { return false; }
+}
+function ridimensiona(file, lato) {
+  if (strumento('sips', ['-Z', String(lato), file])) return 'sips';
+  if (strumento('convert', [file, '-resize', `${lato}x${lato}>`, file])) return 'convert';
+  return null;
+}
+function inJpeg(origine, destinazione) {
+  if (strumento('sips', ['-s', 'format', 'jpeg', origine, '--out', destinazione])) return true;
+  return strumento('convert', [origine, destinazione]);
+}
+/** Ritaglio in frazioni del lato: "0.22,0.375,0.985,0.632" = sinistra,alto,destra,basso. */
+function ritaglia(file, frazioni) {
+  const [l, t, r, b] = frazioni;
+  let dim;
+  try { dim = execFileSync('identify', ['-format', '%w %h', file]).toString().split(' ').map(Number); }
+  catch { return null; }
+  const [w, h] = dim;
+  const x = Math.round(l * w), y = Math.round(t * h);
+  const larg = Math.round((r - l) * w), alt = Math.round((b - t) * h);
+  if (larg < 50 || alt < 50) return null;
+  return strumento('convert', [file, '-crop', `${larg}x${alt}+${x}+${y}`, '+repage', file]) ? `${larg}x${alt}` : null;
+}
 
 // ---------------------------------------------------------------- lettura EXIF
 
@@ -139,7 +169,16 @@ function dataExifISO(s) {
 // ------------------------------------------------------------------ corsa
 
 const forza = process.argv.includes('--forza');
-const args = process.argv.slice(2).filter((x) => x !== '--forza');
+const iRit = process.argv.indexOf('--ritaglia');
+const frazioni = iRit === -1 ? null : (() => {
+  const n = (process.argv[iRit + 1] || '').split(',').map(Number);
+  if (n.length !== 4 || n.some((x) => !(x >= 0 && x <= 1)) || n[0] >= n[2] || n[1] >= n[3]) {
+    console.error('--ritaglia vuole quattro frazioni fra 0 e 1: sinistra,alto,destra,basso (es. 0.22,0.375,0.985,0.632)');
+    process.exit(1);
+  }
+  return n;
+})();
+const args = process.argv.slice(2).filter((x, i, a) => x !== '--forza' && x !== '--ritaglia' && a[i - 1] !== '--ritaglia');
 const [slug, percorso, concerto, dataDichiarata] = args;
 
 if (args.length < 4) {
@@ -166,11 +205,10 @@ let originale = readFileSync(percorso);
 if (originale[0] !== 0xff || originale[1] !== 0xd8) {
   // Non e' un JPEG (tipico: HEIC dall'iPhone). Su Mac si converte senza installare nulla.
   const tmp = `/tmp/ritratto-${slug}.jpg`;
-  try {
-    execFileSync('sips', ['-s', 'format', 'jpeg', percorso, '--out', tmp], { stdio: 'ignore' });
+  if (inJpeg(percorso, tmp)) {
     originale = readFileSync(tmp);
     console.log(`Convertito in JPEG (l'originale era ${basename(percorso)}).`);
-  } catch {
+  } else {
     console.error('Il file non e un JPEG e non sono riuscito a convertirlo. Esportalo in JPEG e riprova.');
     process.exit(1);
   }
@@ -198,12 +236,15 @@ const pulita = togliMetadati(originale);
 writeFileSync(`ritratti/${nomeFile}`, pulita.buf);
 console.log(`\nTolti ${pulita.tolti} segmenti di metadati (EXIF, GPS, commenti).`);
 
-try {
-  execFileSync('sips', ['-Z', String(LATO_MAX), `ritratti/${nomeFile}`], { stdio: 'ignore' });
-  console.log(`Ridimensionata a ${LATO_MAX}px di lato massimo.`);
-} catch {
-  console.log('(sips non disponibile: immagine salvata intera, da ridimensionare a mano)');
+if (frazioni) {
+  const fatto = ritaglia(`ritratti/${nomeFile}`, frazioni);
+  console.log(fatto ? `Ritagliata a ${fatto}.` : 'ATTENZIONE: non sono riuscito a ritagliare, la foto resta intera.');
 }
+
+const usato = ridimensiona(`ritratti/${nomeFile}`, LATO_MAX);
+console.log(usato
+  ? `Ridimensionata a ${LATO_MAX}px di lato massimo (${usato}).`
+  : 'ATTENZIONE: nessuno strumento per ridimensionare, la foto resta alla misura originale.');
 
 // Controllo finale: dopo il ridimensionamento sips potrebbe aver riscritto un
 // EXIF suo. Si rilegge il file che verra' pubblicato, non quello di partenza.
