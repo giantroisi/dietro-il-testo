@@ -11473,5 +11473,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "vengo-dalla-luna",
+    "titolo": "Vengo dalla Luna",
+    "artista": "Caparezza",
+    "artistaSlug": "caparezza",
+    "anno": "2003",
+    "album": "Verità supposte",
+    "albumSlug": "verita-supposte",
+    "genereTesto": "Hip hop / Rap italiano",
+    "generi": [
+      "rap"
+    ],
+    "paese": "Italia",
+    "colore": "#2E3E6E",
+    "colore2": "#6E5C1F",
+    "ascolti": 37285539,
+    "ascoltiTesto": "37,3 mln ascolti",
+    "spotifyId": "424BQDJzOJqfJCZusTvAZP",
+    "corpo": [
+      "Scritta da Michele Salvemini (Caparezza) insieme a Diego Perrone, frontman dei I Medusa che presta la voce anche al brano, fu pubblicata il 6 maggio 2004 come quarto singolo estratto da Verità supposte, secondo album di Caparezza uscito nel 2003. Prodotta da Carlo U. Rossi, la canzone usa l'allegoria di un narratore che dichiara di venire dalla Luna per criticare i pregiudizi sociali verso chi proviene da un'origine diversa.",
+      "Il videoclip mostra Caparezza e la sua band inseguiti da uomini in nero in un'area di contenimento, per poi rivelare che gli inseguitori sono in realtà abitanti alieni del pianeta. Il brano, certificato disco di platino in Italia, è stato reinterpretato in chiave rock dai Måneskin durante i bootcamp di X Factor 2017, quando la band non era ancora affermata, e pubblicato nel loro EP \"Chosen\"."
+    ],
+    "fraseIconica": "Il narratore dichiara di venire dalla Luna, un'origine così estranea da rendere evidente quanto sia assurdo giudicare qualcuno solo per il posto da cui viene, trasformando l'alieno in una metafora di chi subisce il pregiudizio per la propria provenienza.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/caparezza/413836/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Vengo_dalla_Luna",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.lascimmiapensa.com/2020/06/28/caparezza-vengo-dalla-luna-analisi-spiegazione-brano/",
+        "nome": "La Scimmia Pensa",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

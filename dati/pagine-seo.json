@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 259,
+    "nCanzoni": 260,
     "haTestoEditoriale": true
   },
   {
@@ -1332,6 +1332,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/vengo-dalla-luna/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1433,7 +1438,7 @@
     "percorso": "artista/caparezza/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 9,
+    "nCanzoni": 10,
     "haTestoEditoriale": true
   },
   {
@@ -2497,7 +2502,7 @@
     "percorso": "album/caparezza/verita-supposte/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -3526,7 +3531,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 50,
+    "nCanzoni": 51,
     "haTestoEditoriale": true
   },
   {
