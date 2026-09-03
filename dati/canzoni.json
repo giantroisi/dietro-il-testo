@@ -10543,5 +10543,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "rock-n-roll-train",
+    "titolo": "Rock 'N' Roll Train",
+    "artista": "AC/DC",
+    "artistaSlug": "ac-dc",
+    "anno": "2008",
+    "album": "Black Ice",
+    "albumSlug": "black-ice",
+    "genereTesto": "Hard rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#1A1A1A",
+    "colore2": "#2E5A8A",
+    "ascolti": 282937280,
+    "ascoltiTesto": "282,9 mln ascolti",
+    "spotifyId": "4feXJ5IC3avXsVW9WNFSag",
+    "corpo": [
+      "Scritta da Angus e Malcolm Young — l'idea di partenza fu di Angus, mentre a Malcolm si deve l'armonia vocale del ritornello — fu il primo singolo estratto da Black Ice, pubblicato il 28 agosto 2008: il ritorno di AC/DC dopo otto anni senza un nuovo album, il vuoto più lungo della loro carriera. Il brano nacque con il titolo provvisorio \"Runaway Train\" prima di prendere il nome definitivo. Prodotta da Brendan O'Brien, fu registrata tra marzo e aprile 2008 ai Warehouse Studio di Vancouver, in Canada, gli stessi studi già usati per Stiff Upper Lip.",
+      "Dopo le riprese del videoclip, il 15 agosto 2008, un fan scozzese presente sul set memorizzò il riff a orecchio e lo canticchiò in un video pubblicato su YouTube, a cui altri utenti aggiunsero voce e altre parti di chitarra, facendo circolare online un'anteprima del brano settimane prima dell'uscita ufficiale. Il 23 ottobre 2008 la band pubblicò anche una versione del videoclip in ASCII art dentro un foglio di calcolo Microsoft Excel, il primo video musicale realizzato in questo formato."
+    ],
+    "fraseIconica": "Il ritornello paragona il rock and roll a un treno inarrestabile che corre fuori controllo, un'immagine di velocità ed energia che riassume lo spirito diretto e senza freni del brano.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/ac-dc/1324067/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rock_%27n%27_Roll_Train",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/ac-dc/rock-n-roll-train",
+        "nome": "Songfacts",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
