@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 274,
+    "nCanzoni": 275,
     "haTestoEditoriale": true
   },
   {
@@ -1407,6 +1407,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/stai-lontana-da-me/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1445,7 +1450,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -2451,6 +2456,13 @@
   },
   {
     "percorso": "album/adriano-celentano/a-new-orleans/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/non-mi-dir/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3657,7 +3669,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 138,
+    "nCanzoni": 139,
     "haTestoEditoriale": true
   },
   {

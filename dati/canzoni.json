@@ -12074,5 +12074,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "stai-lontana-da-me",
+    "titolo": "Stai lontana da me",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1962 / 1964",
+    "album": "Non mi dir",
+    "albumSlug": "non-mi-dir",
+    "genereTesto": "Pop rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#3E5A8A",
+    "colore2": "#8A6E2E",
+    "ascolti": 1701886,
+    "ascoltiTesto": "1,7 mln ascolti",
+    "spotifyId": "0MKfOcOEhOlkG8e6focwxV",
+    "corpo": [
+      "Cover italiana di \"Tower of Strength\", brano composto da Burt Bacharach su testo originale di Bob Hilliard e portato al successo nel 1961 da Gene McDaniels; il testo italiano è di Mogol. Pubblicata nel maggio 1962 come primo singolo della neonata etichetta discografica di Celentano, il Clan Celentano, fondata pochi mesi prima dopo la rottura con la Jolly di Walter Guertler.",
+      "Con questo brano Celentano vinse la finale del Cantagiro 1962, la gara canora itinerante che attraversava le città italiane con tappe e votazioni del pubblico. Fu quindi il debutto discografico del Clan a portare la vittoria in una delle competizioni musicali più seguite dell'epoca, confermando la scelta di Celentano di rendersi indipendente dalla vecchia etichetta."
+    ],
+    "fraseIconica": "Il ritornello più ripreso è l'invito, rivolto a una donna, a restare lontana per non soffrire ancora — la stessa immagine di autodifesa sentimentale del brano originale americano, tradotta e adattata al pubblico italiano da Mogol.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/337482/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Non_mi_dir",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.rockol.it/news-737378/cantagiro-le-canzoni-del-1962",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
