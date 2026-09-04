@@ -1540,6 +1540,19 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0. `node scripts/check-livelli.mjs`: **142 → 136**. Copia in root con diff pulito e proporzionato; esclusi `og/*.png`, `archivio/index.html` come da prassi. Pagina `canzone/grazie-mille/` aperta nel browser via server locale: corrisponde ai dati.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **136**.
 
+- **4 settembre 2026 — Terzo lotto della coda: altre nove schede molto cercate senza fonte A/B.** `africa`, `ace-of-spades`, `everlong`, `crazy-train`, `basket-case`, `the-trooper`, `numb`, `supermassive-black-hole`, `breaking-the-law`. Stesso metodo dei lotti precedenti.
+  - **`africa`**: **MusicRadar** (Ben Rogerson, 2023) — David Paich racconta che fu una "canzone dell'undicesima ora", quasi esclusa dall'album; nuovo dettaglio sul marimba basso suonato da Joe Porcaro accanto ai suoni sintetizzati.
+  - **`ace-of-spades`**: **Classic Rock/Metal Hammer via Louder** (Dave Everley, 2026, intervista 2017 a 'Fast' Eddie Clarke) — il produttore Vic Maile e la sua "scatola dei trucchi" con le bacchette di legno per la sezione centrale; l'aneddoto del furgone confermato con lo scetticismo ironico di Clarke.
+  - **`everlong`**: **Stereogum** (Ryan Leas, 2021) — Louise Post racconta di persona su Instagram i dettagli della sessione vocale notturna, inclusa l'origine del sussurro (un sogno interrotto dalla telefonata di Grohl).
+  - **`crazy-train`**: **Guitar Player** (Elizabeth Swann, 2025, dal Talk Louder Podcast) — Bob Daisley rivela che il titolo nacque da un pedale difettoso di Randy Rhoads che ronzava come un treno.
+  - **`basket-case`**: **Loudwire** (Chad Childers, 2024, sull'episodio di Song Exploder) — corretto un dettaglio: Armstrong andava in **bicicletta**, non a piedi, durante gli attacchi di panico notturni.
+  - **`the-trooper`**: **American Songwriter** (Bryan Reesman, 2024) — citazioni di Steve Harris (Rolling Stone, 2019) e Bruce Dickinson sull'atteggiamento della band verso la guerra ("leoni guidati da agnelli").
+  - **`numb`**: **Metal Hammer/Louder** (Dannii Leivers, 2026) — la citazione originale di Shinoda a Shoutweb (marzo 2003) verificata, più il contesto del Grammy 2006 per "Numb/Encore" con Jay-Z.
+  - **`supermassive-black-hole`**: intervista di **Hot Press** a Matt Bellamy (Craig Fitzsimons, 26 luglio 2006), trascritta integralmente su MuseWiki — la citazione sulle donne/buco nero verificata parola per parola nel suo contesto originale, compresa la battuta surreale su R2D2 e "la Regina quand'era in forma".
+  - **`breaking-the-law`**: **American Songwriter** (Bryan Reesman, 2023) — il contesto dello sciopero dei 17.000 operai dell'acciaio e l'ascesa di Thatcher, l'aneddoto di Glenn Tipton cresciuto nella "Black Country" industriale di Birmingham.
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0. `node scripts/check-livelli.mjs`: **142 → 136 → 130** nei tre lotti di oggi (partiti da 153). Copia in root con diff pulito; esclusi `og/*.png`, `archivio/index.html` come da prassi. Pagina `canzone/breaking-the-law/` aperta nel browser via server locale: corrisponde ai dati.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **130**, 23 sotto la soglia originale.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
