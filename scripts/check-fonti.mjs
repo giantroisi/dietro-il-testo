@@ -117,43 +117,98 @@ function titoloWiki(u) {
   return m ? m[1].replace(/_/g, ' ') : null;
 }
 
-async function controllaWikipedia(voce, esito, segnale) {
-  const x = new URL(voce.url);
-  const titolo = titoloWiki(voce.url);
-  if (!titolo) return false;
-  const p = new URLSearchParams({
-    action: 'query', format: 'json', formatversion: '2', redirects: '1',
-    titles: titolo, prop: 'extracts|pageprops', exintro: '1', explaintext: '1',
-  });
-  const r = await fetch(`https://${x.hostname}/w/api.php?${p}`, {
-    signal: segnale, headers: { 'user-agent': UA, accept: 'application/json' },
-  });
-  esito.stato = r.status;
-  if (!r.ok) return false;               // ripiego sul controllo HTML normale
-  const d = await r.json();
-  const pagina = ((d.query || {}).pages || [])[0];
-  if (!pagina) return false;
-  esito.finale = `https://${x.hostname}/wiki/${encodeURIComponent((pagina.title || titolo).replace(/ /g, '_'))}`;
-  if (pagina.missing) {
+/* Interrogare Wikipedia una voce alla volta non basta: il primo tentativo con
+ * l'API ha ridotto i blocchi solo da 86 a 73, perche' il limite di Wikimedia e'
+ * sul numero di richieste, non sul loro formato — cambiare porta non serve se
+ * si bussa centocinquanta volte di fila.
+ *
+ * L'API pero' accetta **cinquanta titoli per richiesta**. Le ~150 voci citate
+ * dal sito diventano cosi' tre o quattro richieste in tutto, fatte una alla
+ * volta e distanziate. E' lo stesso rimedio gia' usato per le anteprime dei
+ * ritratti, dove scaricare i file uno per uno faceva scattare gli stessi 429.
+ * Si risolve tutto in anticipo, prima della corsa: il controllo della singola
+ * fonte poi legge il risultato gia' pronto e non tocca la rete. */
+const RISPOSTE_WIKI = new Map();   // url citato -> esito gia' calcolato
+
+async function risolviWikipedia(voci) {
+  const perOspite = new Map();
+  for (const v of voci) {
+    let h;
+    try { h = new URL(v.url).hostname; } catch { continue; }
+    if (!/(^|\.)wikipedia\.org$/.test(h)) continue;
+    const titolo = titoloWiki(v.url);
+    if (!titolo) continue;
+    if (!perOspite.has(h)) perOspite.set(h, []);
+    perOspite.get(h).push({ url: v.url, titolo });
+  }
+  let richieste = 0;
+  for (const [ospite, lista] of perOspite) {
+    for (let i = 0; i < lista.length; i += 50) {
+      const lotto = lista.slice(i, i + 50);
+      const p = new URLSearchParams({
+        action: 'query', format: 'json', formatversion: '2', redirects: '1',
+        titles: lotto.map((x) => x.titolo).join('|'),
+        prop: 'extracts|pageprops', exintro: '1', explaintext: '1',
+      });
+      let d = null;
+      try {
+        const r = await fetch(`https://${ospite}/w/api.php?${p}`, {
+          headers: { 'user-agent': UA, accept: 'application/json' },
+        });
+        richieste++;
+        if (r.ok) d = await r.json();
+      } catch { /* niente rete o API giu': si ripiega sul controllo HTML */ }
+      if (d && d.query) {
+        // dal titolo chiesto a quello finale, passando per normalizzazioni e rinvii
+        const passo = new Map();
+        for (const n of d.query.normalized || []) passo.set(n.from, n.to);
+        for (const n of d.query.redirects || []) passo.set(n.from, n.to);
+        const perTitolo = new Map((d.query.pages || []).map((x) => [x.title, x]));
+        for (const x of lotto) {
+          let t = x.titolo;
+          let rinviata = false;
+          for (let k = 0; k < 5 && passo.has(t); k++) { t = passo.get(t); rinviata = true; }
+          const pagina = perTitolo.get(t);
+          if (!pagina) continue;   // non risolta: la guardera' il controllo HTML
+          RISPOSTE_WIKI.set(x.url, {
+            ospite,
+            titoloFinale: pagina.title || t,
+            mancante: !!pagina.missing,
+            rinviata: rinviata && (pagina.title || t) !== x.titolo,
+            disambigua: (pagina.pageprops || {}).disambiguation !== undefined,
+            estratto: (pagina.extract || '').replace(/\s+/g, ' ').trim(),
+          });
+        }
+      }
+      await new Promise((x) => setTimeout(x, 1200));
+    }
+  }
+  return richieste;
+}
+
+function applicaWikipedia(voce, esito) {
+  const w = RISPOSTE_WIKI.get(voce.url);
+  if (!w) return false;
+  esito.stato = 200;
+  esito.finale = `https://${w.ospite}/wiki/${encodeURIComponent(w.titoloFinale.replace(/ /g, '_'))}`;
+  if (w.mancante) {
     esito.classe = 'errore';
     esito.nota = 'la voce non esiste su Wikipedia';
     return true;
   }
-  const rinvii = (d.query || {}).redirects || [];
-  if (rinvii.length) {
+  if (w.rinviata) {
     esito.classe = 'spostata';
-    esito.nota = `la voce rinvia a «${pagina.title}»`;
+    esito.nota = `la voce rinvia a «${w.titoloFinale}»`;
   }
-  if ((pagina.pageprops || {}).disambiguation !== undefined) {
+  if (w.disambigua) {
     esito.classe = 'disambigua';
     esito.nota = 'pagina di disambiguazione: non contiene fatti sul brano';
     return true;
   }
-  const testo = (pagina.extract || '').replace(/\s+/g, ' ').trim();
-  if (voce.ruolo !== 'album' && testo && RE_ALBUM.test(testo) && !RE_BRANO.test(testo)) {
+  if (voce.ruolo !== 'album' && w.estratto && RE_ALBUM.test(w.estratto) && !RE_BRANO.test(w.estratto)) {
     esito.classe = 'altra-opera';
     esito.nota =
-      `sembra la voce di un album, non del brano: «${testo.slice(0, 140)}…» ` +
+      `sembra la voce di un album, non del brano: «${w.estratto.slice(0, 140)}…» ` +
       `— se è voluto, aggiungi "ruolo": "album" a questa fonte in dati/canzoni.json`;
   }
   return true;
@@ -166,11 +221,7 @@ async function controlla(voce) {
   try {
     let ospite = '';
     try { ospite = new URL(voce.url).hostname; } catch { /* url malformato: lo dira' il fetch */ }
-    if (/(^|\.)wikipedia\.org$/.test(ospite)) {
-      const fatto = await controllaWikipedia(voce, esito, ctrl.signal);
-      if (fatto) return esito;
-      // se l'API non risponde si prosegue col controllo HTML di sempre
-    }
+    if (/(^|\.)wikipedia\.org$/.test(ospite) && applicaWikipedia(voce, esito)) return esito;
     const r = await fetch(voce.url, {
       redirect: 'follow',
       signal: ctrl.signal,
@@ -234,6 +285,10 @@ async function operaio() {
   }
 }
 process.stderr.write(`Controllo ${elenco.length} fonti citate (${canzoni.length} schede)…\n`);
+const richiesteWiki = await risolviWikipedia(elenco);
+if (RISPOSTE_WIKI.size) {
+  process.stderr.write(`  ${RISPOSTE_WIKI.size} voci Wikipedia risolte in ${richiesteWiki} richieste all'API\n`);
+}
 await Promise.all(Array.from({ length: CONCORRENZA }, operaio));
 
 // --- report
