@@ -240,6 +240,16 @@
     "motivo": null
   },
   {
+    "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:ac-dc:flick-of-the-switch:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -278,6 +288,26 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Louder"
+  },
+  {
+    "id": "album:ac-dc:power-up:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/power-up",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:rock-or-bust:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/rock-or-bust",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
   },
   {
     "id": "album:adele:21:fonte-copertina",
@@ -1493,24 +1523,14 @@
     "motivo": "Aperto direttamente l'articolo Louder/Classic Rock dedicato all'album (Ken McIntyre, 24 maggio 2025): la citazione di Malcolm Young spiega il titolo (un invito a spegnere la TV e venire ai concerti) ma l'articolo non descrive la copertina stessa. La descrizione visiva circolante (Angus che esce da uno schermo TV) non ha una fonte di livello A/B che la conferma."
   },
   {
-    "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
-    "raccoglie": 1,
-    "stato": "accertato-assente",
-    "ultimoTentativo": "2026-09-04",
-    "motivo": "Più fonti concordano sull'attribuzione a Hipgnosis per la copertina internazionale, ma tutte di livello C (un blog personale, una galleria che vende stampe, un forum di fan) — pagine che si ripetono a vicenda senza una fonte editoriale di livello A/B alla base. Nessuna trovata."
-  },
-  {
     "id": "album:ac-dc:high-voltage:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "ac-dc/high-voltage",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Trovata una fonte di livello B (Louder/Classic Rock, Jerry Ewing) che descrive la copertina — un cane che urina su una cabina elettrica — ma si riferisce esplicitamente alla prima edizione australiana del 1975, non alla \"High Voltage\" internazionale del 1976 in catalogo (che ha una copertina diversa, verificato su Wikipedia: 'Alternative cover / Original European cover'). Usarla sarebbe un'attribuzione sbagliata all'edizione sbagliata. Nessuna fonte trovata sulla copertina dell'edizione 1976."
   },
   {
     "id": "album:ac-dc:let-there-be-rock:copertina",
@@ -1518,19 +1538,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/let-there-be-rock",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:power-up:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/power-up",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Louder/Classic Rock dedicato all'album (Mick Wall): racconta per esteso la genesi (il rifiuto di Atlantic America, le due settimane di registrazione) ma non descrive la copertina. Una descrizione circolante (le dita del chitarrista Chris Turner dei Buffalo) non ha una fonte di livello A/B che la confermi."
   },
   {
     "id": "album:ac-dc:powerage:copertina",
@@ -1538,19 +1548,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/powerage",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:rock-or-bust:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/rock-or-bust",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Louder/Classic Rock dedicato all'album (Paul Brannigan): racconta la storia della registrazione ma non descrive la copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:ac-dc:stiff-upper-lip:copertina",
@@ -1558,9 +1558,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/stiff-upper-lip",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "L'unico racconto trovato (una statua gigante di Angus Young) riguarda i visual del tour e il video di apertura dei concerti, non necessariamente la copertina dell'album stesso — rischio di confondere due cose diverse. Nessuna fonte di livello A/B descrive specificamente la copertina del disco."
   },
   {
     "id": "album:ac-dc:the-razors-edge:copertina",
@@ -1568,9 +1568,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/the-razors-edge",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo ufficiale acdc.com dedicato all'album (#ACDC50): una didascalia generica sui brani, nessuna menzione della copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:adele:19:copertina",
@@ -1578,9 +1578,9 @@
     "tipo": "copertina-album",
     "soggetto": "adele/19",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Le uniche fonti trovate (un fandom wiki e un blog di fan) offrono un'interpretazione non attribuita della foto e speculazioni non confermate su una relazione personale di Adele legata all'album — non ammissibili per una spiegazione di copertina (Costituzione, sezione 5). Nessuna fonte di livello A/B trovata sul fotografo o sul concept dello scatto."
   },
   {
     "id": "album:adele:25:copertina",

@@ -271,8 +271,14 @@
         "titolo": "Dirty Deeds Done Dirt Cheap",
         "anno": "1976",
         "nota": null,
-        "copertina": null,
-        "slug": "dirty-deeds-done-dirt-cheap"
+        "copertina": "La copertina per il mercato internazionale fu realizzata dallo studio Hipgnosis, già noto per il lavoro con i Pink Floyd. Secondo il racconto diretto di Phil Carson, allora a capo di Atlantic Records a Londra, fu commissionata \"al risparmio\": in realtà lo scarto di una copertina pensata in origine per un altro disco.",
+        "slug": "dirty-deeds-done-dirt-cheap",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/let-there-be-rock-the-album-that-nearly-killed-ac-dc",
+            "nome": "Louder (Classic Rock)"
+          }
+        ]
       },
       {
         "titolo": "Let There Be Rock",
@@ -392,15 +398,27 @@
         "titolo": "Rock or Bust",
         "anno": "2014",
         "nota": null,
-        "copertina": null,
-        "slug": "rock-or-bust"
+        "copertina": "Un'animazione lenticolare che mostra il logo della band che si frantuma e si ricompone da solo. Il direttore creativo Josh Cheuse ha raccontato di aver trovato l'opera di base presso lo studio Chaotic Atmospheres non appena saputo il titolo dell'album, chiedendo poi di trasformarla in una versione animata per il packaging fisico.",
+        "slug": "rock-or-bust",
+        "copertinaFonte": [
+          {
+            "url": "https://ultimateclassicrock.com/acdc-rock-or-bust-artwork/",
+            "nome": "Ultimate Classic Rock"
+          }
+        ]
       },
       {
         "titolo": "Power Up",
         "anno": "2020",
         "nota": null,
-        "copertina": null,
-        "slug": "power-up"
+        "copertina": "Un rosso intenso, quasi da horror gotico, illumina il logo e le corone della band: la scelta del colore, dopo aver provato diverse alternative, è dell'illustratore Ben Ib, chiamato dal direttore creativo storico di AC/DC Josh Cheuse a realizzare l'immagine per questo album, il primo dopo la morte di Malcolm Young.",
+        "slug": "power-up",
+        "copertinaFonte": [
+          {
+            "url": "https://www.hypervague.com/work/acdcpowerup",
+            "nome": "Ben Ib (portfolio ufficiale dell'illustratore)"
+          }
+        ]
       }
     ],
     "canzoni": [

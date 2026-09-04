@@ -268,10 +268,10 @@
     "slug": "dirty-deeds-done-dirt-cheap",
     "titolo": "Dirty Deeds Done Dirt Cheap",
     "anno": "1976",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -411,10 +411,10 @@
     "slug": "rock-or-bust",
     "titolo": "Rock or Bust",
     "anno": "2014",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -422,10 +422,10 @@
     "slug": "power-up",
     "titolo": "Power Up",
     "anno": "2020",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

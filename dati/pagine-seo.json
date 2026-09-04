@@ -2290,9 +2290,9 @@
   {
     "percorso": "album/ac-dc/dirty-deeds-done-dirt-cheap/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ac-dc/let-there-be-rock/",
@@ -2381,16 +2381,16 @@
   {
     "percorso": "album/ac-dc/rock-or-bust/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ac-dc/power-up/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/adele/19/",
