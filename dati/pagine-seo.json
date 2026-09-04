@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 278,
+    "nCanzoni": 279,
     "haTestoEditoriale": true
   },
   {
@@ -1427,6 +1427,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/un-albero-di-trenta-piani/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1465,7 +1470,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 10,
+    "nCanzoni": 11,
     "haTestoEditoriale": true
   },
   {
@@ -2513,6 +2518,13 @@
   },
   {
     "percorso": "album/adriano-celentano/er-piu-storia-d-amore-e-di-coltello/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/i-mali-del-secolo/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3712,7 +3724,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 117,
+    "nCanzoni": 118,
     "haTestoEditoriale": true
   },
   {
@@ -3733,7 +3745,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 34,
+    "nCanzoni": 35,
     "haTestoEditoriale": true
   },
   {

@@ -12258,5 +12258,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "un-albero-di-trenta-piani",
+    "titolo": "Un albero di trenta piani",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1972",
+    "album": "I mali del secolo",
+    "albumSlug": "i-mali-del-secolo",
+    "genereTesto": "Cantautorato",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E5A3E",
+    "colore2": "#5A5A5A",
+    "ascolti": 5434676,
+    "ascoltiTesto": "5,4 milioni di ascolti",
+    "spotifyId": "62orDgfjnq4nsVyglxex2W",
+    "corpo": [
+      "Primo singolo estratto dall'album \"I mali del secolo\" (1972), il primo disco di cui Celentano scrisse da solo tutte le musiche e tutti i testi. Il brano denuncia la nascita dei primi grattacieli a Milano, in particolare il cosiddetto \"Pirellone\", il grattacielo Pirelli alto circa trenta piani che all'epoca della costruzione era stato il più alto d'Europa: per Celentano è la prova di una città che sostituisce il verde con il cemento, al punto che l'unico \"albero\" capace di crescere in una metropoli moderna è ormai un edificio di trenta piani.",
+      "Il testo, in tempo di valzer e con un arrangiamento scarno, racconta la storia di una giovane coppia che lascia la campagna per trasferirsi in città: un cambiamento vissuto come una condanna, perché i due perdono progressivamente la loro purezza per diventare grigi e cupi come l'ambiente urbano che li circonda, tra il rumore del traffico e le esalazioni delle fabbriche. La canzone si inserisce in un filone di denuncia ecologista precoce che ha attraversato la produzione di Celentano fin dagli anni Sessanta e Settanta, in anni in cui una vera coscienza ambientale non esisteva ancora nel dibattito pubblico italiano, e riprende idealmente la Milano popolare e umana già raccontata in \"Il ragazzo della via Gluck\"."
+    ],
+    "fraseIconica": "Il momento più citato è la chiusa del brano, in cui Celentano ribalta l'immagine iniziale della campagna abbandonata: l'unico albero che la città moderna riesce ancora a far crescere è un grattacielo, in un'equivalenza tra natura perduta e cemento che riassume tutto il senso della canzone.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/412979/",
+    "fonti": [
+      {
+        "url": "https://www.osservatoreromano.va/it/news/2021-02/quo-038/se-l-unico-albero-della-citta-br-e-fatto-di-cemento.html",
+        "nome": "L'Osservatore Romano — Giuseppe Fiorentino",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/I_mali_del_secolo",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

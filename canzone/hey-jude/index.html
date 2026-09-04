@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/hey-jude.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/hey-jude/#brano","name":"Hey Jude","byArtist":{"@type":"MusicGroup","name":"The Beatles","url":"https://www.dietroiltesto.it/artista/the-beatles/"},"inAlbum":{"@type":"MusicAlbum","name":"Singolo (poi in Hey Jude, 1970)"},"datePublished":"1968","url":"https://www.dietroiltesto.it/canzone/hey-jude/","description":"Paul McCartney lo scrisse come \"Hey Jules\" per confortare Julian Lennon, il figlio di cinque anni di John Lennon."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Hey Jude","item":"https://www.dietroiltesto.it/canzone/hey-jude/"}]},{"@type":"Article","headline":"Hey Jude","about":{"@id":"https://www.dietroiltesto.it/canzone/hey-jude/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/"},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/hey-jude/","dateModified":"2026-09-04"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/hey-jude/#brano","name":"Hey Jude","byArtist":{"@type":"MusicGroup","name":"The Beatles","url":"https://www.dietroiltesto.it/artista/the-beatles/"},"inAlbum":{"@type":"MusicAlbum","name":"Singolo (poi in Hey Jude, 1970)"},"datePublished":"1968","url":"https://www.dietroiltesto.it/canzone/hey-jude/","description":"Paul McCartney lo scrisse come \"Hey Jules\" per confortare Julian Lennon, il figlio di cinque anni di John Lennon."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Hey Jude","item":"https://www.dietroiltesto.it/canzone/hey-jude/"}]},{"@type":"Article","headline":"Hey Jude","about":{"@id":"https://www.dietroiltesto.it/canzone/hey-jude/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/hey-jude/","dateModified":"2026-09-04"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -576,6 +576,19 @@ a { color: inherit; }
 }
 
 .condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+/* Il pannello dei formati Instagram occupa tutta la riga sotto i bottoni: e'
+   una scelta secondaria e non deve competere con "Condividi". */
+.condividi .formati { flex-basis: 100%; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }
+.condividi .formati .etichetta {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px;
+}
+.condividi .formati-scelte { display: flex; flex-wrap: wrap; gap: 10px; }
+.condividi .formati-scelte .bottone { display: inline-flex; align-items: baseline; gap: 8px; }
+.condividi .formati-scelte .bottone span {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; opacity: .62; text-transform: none;
+}
+.condividi .formati .nota { margin: 10px 0 0; font-size: 13px; color: var(--text-muted); max-width: 46ch; }
 .condividi .conferma {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ok);
@@ -811,13 +824,39 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 4 settembre 2026</span>
         </div>
-        <div class="condividi">
+        <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
+             potrebbe: Instagram non espone alcun indirizzo di condivisione dal
+             web. Apre invece la scelta del formato e prepara l'immagine giusta
+             — 1080×1920 per la storia, 1080×1350 per il post — che il telefono
+             passa a Instagram tramite la condivisione di sistema. Il disegno e'
+             fatto nel browser (ricerca.js) a partire da questi dati, quindi
+             funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+        <div class="condividi"
+          data-cartolina
+          data-titolo="Hey Jude"
+          data-artista="The Beatles"
+          data-anno="1968"
+          data-frase="Il verso più citato è l'invito a prendere una canzone triste e renderla migliore, seguito dal celebre coro finale di &quot;na-na-na&quot; che dura quasi quattro minuti. Paul McCartney scrisse il brano nel 1968 per consolare il piccolo Julian Lennon durante la separazione dei suoi genitori, mesi prima del divorzio effettivo (il titolo di lavorazione era &quot;Hey Jules&quot;); John Lennon in seguito disse di aver sempre pensato che il testo parlasse segretamente di lui e del suo rapporto con Yoko Ono, quasi un'approvazione di Paul a lasciarlo andare. Julian venne a conoscenza della storia completa solo nel 1987, incontrando casualmente McCartney in un hotel di New York."
+          data-colore="#3E7A2C"
+          data-colore2="#8A6A2E"
+          data-slug="hey-jude"
+          data-logo="../../logo.png"
+          data-sito="dietroiltesto.it">
           <button type="button" class="bottone pieno" data-condividi
             data-titolo="Hey Jude — The Beatles"
             data-testo="Paul McCartney lo scrisse come &quot;Hey Jules&quot; per confortare Julian Lennon, il figlio di cinque anni di John Lennon,…"
             data-url="https://www.dietroiltesto.it/canzone/hey-jude/">Condividi</button>
-          <a class="bottone" href="../../og/hey-jude.png" download>Scarica l'immagine</a>
+          <button type="button" class="bottone" data-instagram
+            aria-expanded="false" aria-controls="formati-instagram">Instagram</button>
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
+          <div class="formati" id="formati-instagram" data-formati hidden>
+            <p class="etichetta">Immagine pronta per Instagram</p>
+            <div class="formati-scelte">
+              <button type="button" class="bottone" data-formato="storia">Storia <span>1080×1920</span></button>
+              <button type="button" class="bottone" data-formato="post">Post <span>1080×1350</span></button>
+            </div>
+            <p class="nota" data-cartolina-nota aria-live="polite">Sul telefono si apre la condivisione e scegli Instagram; sul computer l'immagine viene scaricata.</p>
+          </div>
         </div>
       </div>
 
@@ -878,10 +917,10 @@ a { color: inherit; }
           <span class="titolo">The Sound of Silence</span>
           <span class="gancio">Scritta da Paul Simon nel 1964, quando il duo non aveva ancora ottenuto alcun successo, fu inclusa nell'album…</span>
         </a>
-        <a class="scheda" href="../../canzone/il-ragazzo-della-via-gluck/" style="--identita:#3E4A3E">
+        <a class="scheda" href="../../canzone/chi-era-lui/" style="--identita:#3E3E5A">
           <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1966</span>
-          <span class="titolo">Il ragazzo della via Gluck</span>
-          <span class="gancio">Musica di Adriano Celentano, testo di Luciano Beretta e Miki Del Prete, uscì il 17 gennaio 1966.</span>
+          <span class="titolo">Chi era lui</span>
+          <span class="gancio">Lato B del singolo di Sanremo 1966 &quot;Il ragazzo della via Gluck&quot;, con testo di Mogol e Miki Del Prete su musica di…</span>
         </a>
       </div>
     </section>
@@ -909,7 +948,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 278 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 279 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

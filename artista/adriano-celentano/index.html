@@ -572,6 +572,19 @@ a { color: inherit; }
 }
 
 .condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+/* Il pannello dei formati Instagram occupa tutta la riga sotto i bottoni: e'
+   una scelta secondaria e non deve competere con "Condividi". */
+.condividi .formati { flex-basis: 100%; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }
+.condividi .formati .etichetta {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px;
+}
+.condividi .formati-scelte { display: flex; flex-wrap: wrap; gap: 10px; }
+.condividi .formati-scelte .bottone { display: inline-flex; align-items: baseline; gap: 8px; }
+.condividi .formati-scelte .bottone span {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; opacity: .62; text-transform: none;
+}
+.condividi .formati .nota { margin: 10px 0 0; font-size: 13px; color: var(--text-muted); max-width: 46ch; }
 .condividi .conferma {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ok);
@@ -799,13 +812,13 @@ a { color: inherit; }
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
-      <a class="voce" href="#canzoni">Canzoni <b>10</b></a>
+      <a class="voce" href="#canzoni">Canzoni <b>11</b></a>
       <a class="voce" href="#dischi">Album <b>39</b></a>
       <a class="voce" href="#storia">Storia </a>
     </nav>
 
     <dl class="fatti">
-      <div class="fatto"><dt>Canzoni sul sito</dt><dd>10</dd></div>
+      <div class="fatto"><dt>Canzoni sul sito</dt><dd>11</dd></div>
       <div class="fatto"><dt>Arco temporale</dt><dd>1968</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>39</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>pop</dd></div>
@@ -864,6 +877,11 @@ a { color: inherit; }
           <span class="titolo">Sotto le lenzuola</span>
           <span class="gancio">&quot;Sotto le lenzuola&quot; fu il brano con cui Celentano partecipò al Festival di Sanremo 1971, dove si piazzò al quinto…</span>
         </a>
+        <a class="scheda" href="../../canzone/un-albero-di-trenta-piani/" style="--identita:#3E5A3E">
+          <span class="sopra">I mali del secolo <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
+          <span class="titolo">Un albero di trenta piani</span>
+          <span class="gancio">Primo singolo estratto dall'album &quot;I mali del secolo&quot; (1972), il primo disco di cui Celentano scrisse da solo tutte…</span>
+        </a>
       </div>
     </section>
 
@@ -914,10 +932,10 @@ a { color: inherit; }
           <span class="indice">11</span>
           <span><span class="titolo">Er più - Storia d'amore e di coltello</span></span>
           <span class="anno">1971</span></a>
-        <div class="disco disco-assente">
+        <a class="disco" href="../../album/adriano-celentano/i-mali-del-secolo/">
           <span class="indice">12</span>
           <span><span class="titolo">I mali del secolo</span></span>
-          <span class="anno">1972</span></div>
+          <span class="anno">1972</span></a>
         <div class="disco disco-assente">
           <span class="indice">13</span>
           <span><span class="titolo">Nostalrock</span></span>
@@ -1047,7 +1065,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 278 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 279 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,

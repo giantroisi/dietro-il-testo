@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/should-i-stay.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/should-i-stay/#brano","name":"Should I Stay or Should I Go","byArtist":{"@type":"MusicGroup","name":"The Clash","url":"https://www.dietroiltesto.it/artista/the-clash/"},"inAlbum":{"@type":"MusicAlbum","name":"Combat Rock"},"datePublished":"1982","url":"https://www.dietroiltesto.it/canzone/should-i-stay/","description":"Contenuta in Combat Rock, quinto album della band, scritta nel 1981 e pubblicata come singolo nel 1982 insieme a \"Straight to Hell\"."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Should I Stay or Should I Go","item":"https://www.dietroiltesto.it/canzone/should-i-stay/"}]},{"@type":"Article","headline":"Should I Stay or Should I Go","about":{"@id":"https://www.dietroiltesto.it/canzone/should-i-stay/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/"},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/should-i-stay/","dateModified":"2026-09-04"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/should-i-stay/#brano","name":"Should I Stay or Should I Go","byArtist":{"@type":"MusicGroup","name":"The Clash","url":"https://www.dietroiltesto.it/artista/the-clash/"},"inAlbum":{"@type":"MusicAlbum","name":"Combat Rock"},"datePublished":"1982","url":"https://www.dietroiltesto.it/canzone/should-i-stay/","description":"Contenuta in Combat Rock, quinto album della band, scritta nel 1981 e pubblicata come singolo nel 1982 insieme a \"Straight to Hell\"."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Should I Stay or Should I Go","item":"https://www.dietroiltesto.it/canzone/should-i-stay/"}]},{"@type":"Article","headline":"Should I Stay or Should I Go","about":{"@id":"https://www.dietroiltesto.it/canzone/should-i-stay/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/should-i-stay/","dateModified":"2026-09-04"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -576,6 +576,19 @@ a { color: inherit; }
 }
 
 .condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+/* Il pannello dei formati Instagram occupa tutta la riga sotto i bottoni: e'
+   una scelta secondaria e non deve competere con "Condividi". */
+.condividi .formati { flex-basis: 100%; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }
+.condividi .formati .etichetta {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px;
+}
+.condividi .formati-scelte { display: flex; flex-wrap: wrap; gap: 10px; }
+.condividi .formati-scelte .bottone { display: inline-flex; align-items: baseline; gap: 8px; }
+.condividi .formati-scelte .bottone span {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; opacity: .62; text-transform: none;
+}
+.condividi .formati .nota { margin: 10px 0 0; font-size: 13px; color: var(--text-muted); max-width: 46ch; }
 .condividi .conferma {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ok);
@@ -811,13 +824,39 @@ a { color: inherit; }
         <div class="affidabilita">
           <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 4 settembre 2026</span>
         </div>
-        <div class="condividi">
+        <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
+             potrebbe: Instagram non espone alcun indirizzo di condivisione dal
+             web. Apre invece la scelta del formato e prepara l'immagine giusta
+             — 1080×1920 per la storia, 1080×1350 per il post — che il telefono
+             passa a Instagram tramite la condivisione di sistema. Il disegno e'
+             fatto nel browser (ricerca.js) a partire da questi dati, quindi
+             funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+        <div class="condividi"
+          data-cartolina
+          data-titolo="Should I Stay or Should I Go"
+          data-artista="The Clash"
+          data-anno="1982"
+          data-frase="Il momento più citato è la domanda ripetuta del ritornello, cantata sia in inglese che in spagnolo. Fu Mick Jones a scrivere e cantare il brano; ha dichiarato che non riguardava nessuno in particolare, anche se è ampiamente collegato alla sua relazione altalenante con la cantante Ellen Foley, conclusa attorno al 1981. Per le strofe in spagnolo, Joe Strummer chiese al tecnico del suono Eddie Garcia di chiamare al telefono sua madre a Brooklyn Heights e farsi tradurre il testo da lei, che era originaria dell'Ecuador; le parti in spagnolo furono poi cantate da Strummer insieme al musicista texano Joe Ely, ospite in studio."
+          data-colore="#A6231F"
+          data-colore2="#3E3E3E"
+          data-slug="should-i-stay"
+          data-logo="../../logo.png"
+          data-sito="dietroiltesto.it">
           <button type="button" class="bottone pieno" data-condividi
             data-titolo="Should I Stay or Should I Go — The Clash"
             data-testo="Contenuta in Combat Rock, quinto album della band, scritta nel 1981 e pubblicata come singolo nel 1982 insieme a…"
             data-url="https://www.dietroiltesto.it/canzone/should-i-stay/">Condividi</button>
-          <a class="bottone" href="../../og/should-i-stay.png" download>Scarica l'immagine</a>
+          <button type="button" class="bottone" data-instagram
+            aria-expanded="false" aria-controls="formati-instagram">Instagram</button>
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
+          <div class="formati" id="formati-instagram" data-formati hidden>
+            <p class="etichetta">Immagine pronta per Instagram</p>
+            <div class="formati-scelte">
+              <button type="button" class="bottone" data-formato="storia">Storia <span>1080×1920</span></button>
+              <button type="button" class="bottone" data-formato="post">Post <span>1080×1350</span></button>
+            </div>
+            <p class="nota" data-cartolina-nota aria-live="polite">Sul telefono si apre la condivisione e scegli Instagram; sul computer l'immagine viene scaricata.</p>
+          </div>
         </div>
       </div>
 
@@ -905,7 +944,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 278 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 279 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
