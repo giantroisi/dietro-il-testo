@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 273,
+    "nCanzoni": 274,
     "haTestoEditoriale": true
   },
   {
@@ -1402,6 +1402,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/24000-baci/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1440,7 +1445,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2439,6 +2444,13 @@
   },
   {
     "percorso": "album/adriano-celentano/peppermint-twist/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/a-new-orleans/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3645,7 +3657,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 137,
+    "nCanzoni": 138,
     "haTestoEditoriale": true
   },
   {

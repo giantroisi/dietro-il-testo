@@ -2510,9 +2510,9 @@
     "spotifyId": "3yGyWqmw9eCQPdJJ6iJLWs",
     "corpo": [
       "Scritta insieme a Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza, racconta la storia di una ragazza madre che ha un figlio da un soldato alleato. Il titolo originale era \"Gesubambino\", pensato da Pallottino come un ideale risarcimento a Dalla, rimasto orfano di padre a soli sette anni — la stessa autrice ha raccontato che doveva essere \"una canzone sull'assenza del padre\", ma è diventata \"una canzone sull'assenza della madre\" — ma il titolo fu giudicato irrispettoso dalla censura e sostituito con la data di nascita dello stesso cantautore.",
-      "Anche parte del testo dovette essere modificata prima dell'ammissione in gara. Oltre a un passaggio sul riconoscimento del figlio da parte della madre e a un paragone fra la madre e la Madonna, giudicati troppo diretti, la censura intervenne soprattutto sul verso finale: nella versione originale il narratore adulto si descriveva come un bestemmiatore conosciuto \"per ladri e puttane\" col soprannome \"Gesù Bambino\"; la versione ammessa in gara sostituì la bestemmia con il gioco a carte e i \"ladri e puttane\" con la più neutra \"gente del porto\"."
+      "Anche parte del testo dovette essere modificata prima dell'ammissione in gara. Oltre a un passaggio sul riconoscimento del figlio da parte della madre e a un paragone fra la madre e la Madonna, giudicati troppo diretti, la censura intervenne soprattutto sul verso finale: nella versione originale il narratore adulto si dipingeva come un bestemmiatore, riconosciuto come tale dagli emarginati del suo ambiente; la versione ammessa in gara sostituì la bestemmia con un passatempo innocuo, e quell'ambiente di emarginati con un gruppo più neutro."
     ],
-    "fraseIconica": "Il verso più citato è quello finale, in cui il narratore ormai adulto rivela che il soprannome \"Gesù Bambino\", datogli dalla madre da bambino quasi per gioco, gli è rimasto addosso: ancora oggi, fra la gente del porto, è così che lo chiamano. Il brano racconta di una madre non sposata di 16 anni, il cui compagno, un soldato alleato, morì prima della nascita del figlio.",
+    "fraseIconica": "Il verso più citato è quello finale, in cui il narratore ormai adulto rivela che il soprannome \"Gesù Bambino\" lo accompagna ancora oggi, attribuito a lui da chi lo circonda. Il brano racconta di una madre non sposata di 16 anni, il cui compagno, un soldato alleato, morì in guerra.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/lucio-dalla/4-marzo-1943/",
     "fonti": [
@@ -12020,6 +12020,50 @@
       {
         "url": "https://www.rockit.it/articolo/twist-italiano-mina-eclisse-pasolini-ricotta",
         "nome": "Rockit",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "24000-baci",
+    "titolo": "24.000 baci",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1961 / 1963",
+    "album": "A New Orleans",
+    "albumSlug": "a-new-orleans",
+    "genereTesto": "Rock and roll",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#8A3E5A",
+    "colore2": "#C2A23E",
+    "ascolti": 21289814,
+    "ascoltiTesto": "21,3 mln ascolti",
+    "spotifyId": "3L3laBrQcYCrKw9tPLRhY7",
+    "corpo": [
+      "Musica di Adriano Celentano ed Ezio Leoni, testo di Piero Vivarelli e Lucio Fulci, fu portata al Festival di Sanremo 1961 — la prima delle cinque partecipazioni della carriera di Celentano — in coppia con Little Tony, che ne presentò una propria versione come previsto allora dal regolamento del Festival. Si classificò seconda, dietro \"Al di là\", ma fu la canzone a rivelarsi il vero successo: rimase al primo posto delle classifiche di vendita per cinque settimane consecutive.",
+      "All'epoca Celentano era sotto le armi: poté partecipare al Festival solo grazie a una dispensa speciale firmata dall'allora ministro della Difesa Giulio Andreotti. Sul palco, Celentano voltò le spalle al pubblico durante l'introduzione strumentale, prima dell'attacco del ritornello: un gesto che sconvolse la platea sanremese dell'epoca, abituata a una prossemica ben più tradizionale. Il brano è considerato il primo pezzo rock and roll ad entrare in gara al Festival di Sanremo."
+    ],
+    "fraseIconica": "Il ritornello ripete ossessivamente l'immagine dei ventiquattromila baci del titolo, un numero volutamente iperbolico per dire che l'amore, in un giorno, vuole solo baci e nient'altro: niente promesse, niente frasi impegnative, solo quel gesto ripetuto all'infinito.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/425071/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/24.000_baci",
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://music.fanpage.it/la-storia-di-24mila-baci-il-classico-di-adriano-celentano-e-little-tony-a-sanremo-1961/",
+        "nome": "Fanpage",
         "ruolo": "storia"
       },
       {

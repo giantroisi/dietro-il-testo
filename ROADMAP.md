@@ -1365,6 +1365,12 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **2) L'affermazione contraddetta e' stata tolta da un punto e rimessa in un altro.** Il corpo non dice piu' che il soprannome venga dalla madre; la frase iconica ora dice che gliel'ha dato «la madre da bambino quasi per gioco». **Nessuna delle due fonti citate lo dice.** E' la stessa affermazione di prima, spostata.
   **3) Resta non confermato che il soldato sia morto *prima della nascita* del figlio.** Le fonti dicono che mori' in guerra, non quando: la precisazione temporale non ha appoggio.
 
+- **4 settembre 2026 — Applicati tutti e tre i rilievi di Opus su `4-marzo-1943`.** Riscritto il paragrafo della censura interamente in parafrasi, senza nessun frammento di verso fra virgolette — nessuna informazione persa, verificato rileggendo il paragrafo: si capisce ancora esattamente cosa fu sostituito con cosa. Tolta per intero l'attribuzione del soprannome alla madre dalla frase iconica invece di spostarla di nuovo altrove: ora la frase iconica dice solo ciò che le fonti sostengono davvero, che il soprannome accompagna ancora oggi il narratore adulto. Tolta anche la precisazione "prima della nascita" sulla morte del soldato, non databile dalle fonti citate.
+**Verificato, non solo scritto**: rigenerato (610 pagine), `check-coerenza` 0, `check-seo` 0 su 611 pagine. Copia in root con diff di controllo pulito.
+
+- **4 settembre 2026 — Terzo passo su C5: `24.000 baci` (1961), sempre sull'album `A New Orleans` (1963) di Celentano.** Fonte di livello B, Fanpage (Andrea Parrella, 2020): prima delle cinque partecipazioni di Celentano a Sanremo, in coppia con Little Tony, seconda dietro "Al di là" ma prima in classifica vendite per cinque settimane; Celentano, sotto le armi, poté parteciparvi solo grazie a una dispensa speciale del ministro della Difesa Giulio Andreotti; sul palco voltò le spalle al pubblico durante l'introduzione, un gesto che all'epoca fece scandalo. Considerato il primo brano rock and roll ammesso in gara al Festival.
+**Verificato, non solo scritto**: rigenerato (610 pagine), `check-coerenza` 0, `check-completezza` 273/274 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0 su 611 pagine, `check-freno` 26/274 ancora sotto soglia. Copia in root con diff di controllo pulito. Pagina `canzone/24000-baci/` aperta nel browser via server locale: corrisponde ai dati.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

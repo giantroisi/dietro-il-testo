@@ -6,11 +6,6 @@
       "permanent": true
     },
     {
-      "source": "/album/adriano-celentano/a-new-orleans/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/non-mi-dir/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
