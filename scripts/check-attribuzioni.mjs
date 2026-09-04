@@ -31,6 +31,17 @@
 //
 // Come si chiude una segnalazione: si apre la fonte e si sceglie una delle tre.
 //
+// **Quanto aspettarsi, misurato il 4 settembre 2026 sulle prime 17 segnalazioni.**
+// Nove erano legittime: la fonte citata **nomina essa stessa** la testata («In
+// 2006, he told Rolling Stone…»), quindi la catena c'e' e semmai va resa
+// visibile. Otto no. Fra queste otto, **tre nominavano la testata sbagliata** —
+// `wonderwall` dice NME mentre la fonte dice Select, `crawling` dice Noisecreep
+// mentre la fonte dice SPIN, `someone-like-you` dice Rolling Stone che nella
+// fonte non compare. **Questo e' il motivo per cui il controllo non giudica**: da
+// qui non si distingue una catena buona da una rotta, si distingue solo che
+// nessuno l'ha ancora aperta. Circa meta' delle segnalazioni si chiude senza
+// modificare niente: e' il prezzo giusto per trovare l'altra meta'.
+//
 // Uso:  node scripts/check-attribuzioni.mjs [--tutte]
 // Non serve rete.
 
