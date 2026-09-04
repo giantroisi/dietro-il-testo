@@ -629,7 +629,7 @@ export function paginaCanzone(c, ctx) {
       ${c.fonti.length ? gruppiFonti(c.fonti) : `<p class="vuoto">Fonti da collegare.</p>`}
       <div class="azioni" style="margin-top:22px">
         <a class="bottone" href="${r}metodo/">Come verifichiamo</a>
-        <a class="bottone" href="mailto:g.prizio@icloud.com?subject=${encodeURIComponent(`Dietro il testo — correzione: ${c.titolo}`)}">Segnala un errore</a>
+        <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — correzione: ${c.titolo}`)}">Segnala un errore</a>
       </div>
     </section>
 
@@ -840,7 +840,7 @@ export function paginaArtista(a, ctx) {
     <section class="blocco">
       <div class="azioni">
         <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
-        <a class="bottone" href="mailto:g.prizio@icloud.com?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
+        <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
       </div>
     </section>
   </div>`;
@@ -961,7 +961,7 @@ export function paginaAlbum(al, ctx) {
     <section class="blocco">
       <div class="azioni">
         <a class="bottone pieno" href="${r}artista/${al.artistaSlug}/">Torna a ${esc(a?.nome || 'artista')}</a>
-        <a class="bottone" href="mailto:g.prizio@icloud.com?subject=${encodeURIComponent(`Dietro il testo — ${al.titolo}`)}">Segnala un errore</a>
+        <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${al.titolo}`)}">Segnala un errore</a>
       </div>
     </section>
   </div>`;
@@ -1408,7 +1408,7 @@ export function paginaMetodo(ctx) {
         <p>Segnalacelo: correggiamo volentieri, e una correzione vale più di una scheda in più.</p>
       </div>
       <div class="azioni">
-        <a class="bottone pieno" href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Scrivici</a>
+        <a class="bottone pieno" href="mailto:${esc(AUTORE.email)}?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Scrivici</a>
         <a class="bottone" href="${r}archivio/">Torna all'archivio</a>
       </div>
     </section>

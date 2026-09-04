@@ -44,11 +44,11 @@ export const RITRATTI = leggiRitratti();
 // riempie compare ovunque, firma e dati strutturati compresi.
 function leggiAutore() {
   const percorso = join(RADICE_PROGETTO, 'dati', 'autore.json');
-  if (!existsSync(percorso)) return { nome: '', email: 'g.prizio@icloud.com', riga: '' };
+  if (!existsSync(percorso)) return { nome: '', email: 'dietroiltesto@outlook.it', riga: '' };
   try {
     return JSON.parse(readFileSync(percorso, 'utf8'));
   } catch {
-    return { nome: '', email: 'g.prizio@icloud.com', riga: '' };
+    return { nome: '', email: 'dietroiltesto@outlook.it', riga: '' };
   }
 }
 export const AUTORE = leggiAutore();
@@ -145,8 +145,8 @@ function piede(r, totali, raccolte = []) {
           <p class="piede-titolo" id="piede-sito">Il sito</p>
           <a href="${r}metodo/">Metodo e fonti</a>
           <a href="${r}chi-siamo/">Chi c'è dietro</a>
-          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
-          <a href="mailto:g.prizio@icloud.com?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
+          <a href="mailto:${esc(AUTORE.email)}?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
+          <a href="mailto:${esc(AUTORE.email)}?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
           <a href="${r}privacy/">Privacy</a>
           <a href="${r}note-legali/">Note legali</a>
         </nav>
