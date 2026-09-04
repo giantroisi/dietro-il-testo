@@ -180,6 +180,16 @@
     "motivo": "confermata: Variety (oral history dell'album), con dettagli specifici su designer e licenza"
   },
   {
+    "id": "album:caparezza:le-dimensioni-del-mio-caos:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "caparezza/le-dimensioni-del-mio-caos",
+    "raccoglie": 2,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "confermata: Wikipedia, descrizione visiva corroborata da più fonti indipendenti"
+  },
+  {
     "id": "album:korn:korn:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -258,16 +268,6 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata integralmente: NME, con citazione diretta di Oli Sykes"
-  },
-  {
-    "id": "album:caparezza:le-dimensioni-del-mio-caos:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "caparezza/le-dimensioni-del-mio-caos",
-    "raccoglie": 1,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "confermata: Wikipedia, descrizione visiva corroborata da più fonti indipendenti"
   },
   {
     "id": "album:cesare-cremonini:maggese:fonte-copertina",
@@ -488,6 +488,16 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Wikipedia con citazione diretta di Jimmy Page"
+  },
+  {
+    "id": "album:ligabue:nome-e-cognome:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/nome-e-cognome",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-08-28",
+    "motivo": "confermata da fonti convergenti (Rockit); il testo già diceva 'descritto dalla stampa', non una citazione diretta di Ligabue"
   },
   {
     "id": "album:limp-bizkit:significant-other:fonte-copertina",
@@ -910,19 +920,6 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
-    "id": "canzone:hypa-hypa:completezza",
-    "classe": "C1",
-    "tipo": "scheda-incompleta",
-    "soggetto": "hypa-hypa",
-    "raccoglie": 1,
-    "manca": [
-      "fonti (almeno 2)"
-    ],
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:the-sound-of-silence:completezza",
     "classe": "C1",
     "tipo": "scheda-incompleta",
@@ -944,16 +941,6 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata: Rockol cita la stessa dichiarazione di De Gregori già presente nei dati parola per parola"
-  },
-  {
-    "id": "album:ligabue:nome-e-cognome:fonte-copertina",
-    "classe": "C1",
-    "tipo": "fonte-copertina-mancante",
-    "soggetto": "ligabue/nome-e-cognome",
-    "raccoglie": 0,
-    "stato": "fatto",
-    "ultimoTentativo": "2026-08-28",
-    "motivo": "confermata da fonti convergenti (Rockit); il testo già diceva 'descritto dalla stampa', non una citazione diretta di Ligabue"
   },
   {
     "id": "album:lucio-dalla:come-e-profondo-il-mare:fonte-copertina",
@@ -1096,6 +1083,26 @@
     "motivo": "trovata una fonte (cdunity.com) con dettagli plausibili su Travis Barker, Mister Cartoon ed Estevan Oriol, ma senza alcuna citazione diretta né fonte primaria verificabile — non abbastanza per lo standard del sito."
   },
   {
+    "id": "album:caparezza:il-sogno-eretico:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/il-sogno-eretico",
+    "raccoglie": 2,
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su caparezza.com (pagina dedicata all'album), Wikipedia IT ed EN (voce IT ricca di dettagli sui brani ma senza sezione copertina), e ricerche mirate incrociando 'copertina'/'artwork'. L'unica pista emersa da una sintesi di ricerca (stile Charles Burns, disegno di un certo 'Squez') non è confermata da nessuna delle fonti aperte direttamente — né il sito ufficiale né le due Wikipedia la riportano — quindi non ammissibile (P1, F66 passo 3)."
+  },
+  {
+    "id": "album:caparezza:verita-supposte:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "caparezza/verita-supposte",
+    "raccoglie": 2,
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su caparezza.com (pagina dedicata all'album), riviste musicali (LaScimmiaPensa, RadioLiberaTutti) e ricerche mirate su 'copertina'/'artwork': nessuna fonte descrive il concept o l'autore della copertina, solo il contenuto dei brani."
+  },
+  {
     "id": "album:claudio-baglioni:questo-piccolo-grande-amore:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1196,14 +1203,34 @@
     "motivo": "sospeso: nessuna fonte trovata che descriva cosa raffigura la copertina o chi l'abbia realizzata, solo credit generici senza il fotografo"
   },
   {
+    "id": "album:pinguini-tattici-nucleari:fuori-dall-hype:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/fuori-dall-hype",
+    "raccoglie": 2,
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercate interviste dell'epoca dell'uscita (ExitWell, Lo Sbuffo, MusicTraks) e le voci Wikipedia IT/EN: tutte parlano del significato del titolo (uscire dalla logica dell'hype) ma nessuna descrive la copertina o ne cita l'autore."
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:sanremo-2020-fuori-dallhype:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "raccoglie": 2,
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-08-30",
+    "motivo": "sospeso: nessuna fonte trovata che descriva la copertina di questa riedizione con 'Ringo Starr'"
+  },
+  {
     "id": "album:5-seconds-of-summer:5sos5:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/5sos5",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Grammy.com, Variety, Wikipedia e le recensioni del lancio: emergono solo descrizioni generiche non attribuite (quattro figure che cadono, rosso e blu) da fonti non verificabili direttamente (fandom wiki, Pinterest), senza credito di fotografo/designer né dichiarazioni della band sulla copertina."
   },
   {
     "id": "album:5-seconds-of-summer:calm:copertina",
@@ -1211,9 +1238,9 @@
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/calm",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Billboard e Dork (interviste di lancio dell'album) e aperto direttamente l'articolo PAPER Magazine dedicato a Luke Hemmings che 'decostruisce' CALM: nessuno dei tre parla della copertina (i quattro membri sdraiati a occhi chiusi), solo del suono e dei testi."
   },
   {
     "id": "album:5-seconds-of-summer:everyones-a-star:copertina",
@@ -1221,9 +1248,9 @@
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/everyones-a-star",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Wikipedia (voce EN) e le pagine di lancio dell'album (Discogs, RareVinyl): trovata solo la spiegazione del titolo (Luke Hemmings sul senso di 'ognuno è una star'), nessuna fonte descrive o attribuisce la copertina."
   },
   {
     "id": "album:5-seconds-of-summer:sounds-good-feels-good:copertina",
@@ -1231,9 +1258,9 @@
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/sounds-good-feels-good",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Official Charts che annunciava copertina e tracklist: non contiene nessun credito di designer né descrizione dell'artwork, solo la citazione di Ashton Irwin sull'album. Una sintesi di ricerca indicava un designer ('Richard Andrews') ma nessuna fonte aperta direttamente lo conferma, quindi non ammissibile."
   },
   {
     "id": "album:5-seconds-of-summer:youngblood:copertina",
@@ -1396,6 +1423,206 @@
     "motivo": null
   },
   {
+    "id": "album:ac-dc:back-in-black:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/back-in-black",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:ballbreaker:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/ballbreaker",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:black-ice:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/black-ice",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:blow-up-your-video:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/blow-up-your-video",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:flick-of-the-switch:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/flick-of-the-switch",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:fly-on-the-wall:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/fly-on-the-wall",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:for-those-about-to-rock-we-salute-you:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/for-those-about-to-rock-we-salute-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:high-voltage:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/high-voltage",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:let-there-be-rock:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/let-there-be-rock",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:power-up:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/power-up",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:powerage:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/powerage",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:rock-or-bust:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/rock-or-bust",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:stiff-upper-lip:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/stiff-upper-lip",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:the-razors-edge:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ac-dc/the-razors-edge",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adele:19:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adele/19",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adele:25:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adele/25",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adele:30:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adele/30",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/il-ragazzo-della-via-gluck",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:svalutation:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/svalutation",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:avicii:stories:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1446,16 +1673,6 @@
     "motivo": null
   },
   {
-    "id": "album:caparezza:il-sogno-eretico:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/il-sogno-eretico",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:caparezza:museica:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1476,10 +1693,70 @@
     "motivo": null
   },
   {
-    "id": "album:caparezza:verita-supposte:copertina",
+    "id": "album:cesare-cremonini:alaska-baby:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
-    "soggetto": "caparezza/verita-supposte",
+    "soggetto": "cesare-cremonini/alaska-baby",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:bagus:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/bagus",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:il-primo-bacio-sulla-luna:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/il-primo-bacio-sulla-luna",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:la-ragazza-del-futuro:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/la-ragazza-del-futuro",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:la-teoria-dei-colori:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/la-teoria-dei-colori",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:logico:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/logico",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:possibili-scenari:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "cesare-cremonini/possibili-scenari",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1536,6 +1813,36 @@
     "motivo": "sospeso: fonti in conflitto sull'autore della copertina (alcune indicano David Brinley, altre Zbigniew Bielak), nessuna fonte di livello A/B risolve univocamente l'attribuzione"
   },
   {
+    "id": "album:ligabue:7:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/7",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:a-che-ora-e-la-fine-del-mondo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/a-che-ora-e-la-fine-del-mondo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:arrivederci-mostro:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/arrivederci-mostro",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:buon-compleanno-elvis:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1546,6 +1853,76 @@
     "motivo": "sospeso: trovato solo un credit fotografico generico (Guido Harari) in un riassunto di ricerca non verificato alla fonte diretta; nessuna fonte primaria raggiungibile descrive cosa raffigura la copertina"
   },
   {
+    "id": "album:ligabue:dedicato-a-noi:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/dedicato-a-noi",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:fuori-come-va:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/fuori-come-va",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:lambrusco-coltelli-rose-pop-corn:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/lambrusco-coltelli-rose-pop-corn",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:ligabue:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/ligabue",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:made-in-italy:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/made-in-italy",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:miss-mondo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/miss-mondo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:mondovisione:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/mondovisione",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:sopravvissuti-e-sopravviventi:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1554,6 +1931,16 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "sospeso: un riassunto di ricerca descriveva maschere teatrali scelte dai musicisti e un teatro di Correggio, ma sia Wikipedia sia la fonte originale (spettakolo.it, bloccata/403) non hanno confermato il dettaglio con una citazione verificabile"
+  },
+  {
+    "id": "album:ligabue:start:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "ligabue/start",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
   },
   {
     "id": "album:lucio-dalla:dallamericaruso:copertina",
@@ -1616,20 +2003,20 @@
     "motivo": "sospeso: confermato solo che Joe Petagno realizzò l'artwork, nessuna fonte descrive cosa raffigura o il suo significato"
   },
   {
-    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
+    "id": "album:pinguini-tattici-nucleari:diamo-un-calcio-all-aldila:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/fake-news",
+    "soggetto": "pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null
   },
   {
-    "id": "album:pinguini-tattici-nucleari:fuori-dall-hype:copertina",
+    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/fuori-dall-hype",
+    "soggetto": "pinguini-tattici-nucleari/fake-news",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -1664,16 +2051,6 @@
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:sanremo-2020-fuori-dallhype:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-30",
-    "motivo": "sospeso: nessuna fonte trovata che descriva la copertina di questa riedizione con 'Ringo Starr'"
   },
   {
     "id": "album:pino-daniele:vai-mo:copertina",
@@ -1784,186 +2161,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "sospeso: confermato solo il credit fotografico (Ben Glass) in un riassunto di ricerca non verificato alla fonte diretta; Wikipedia non descrive il soggetto della copertina"
-  },
-  {
-    "id": "album:ac-dc:back-in-black:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/back-in-black",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:ballbreaker:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/ballbreaker",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:black-ice:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/black-ice",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:blow-up-your-video:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/blow-up-your-video",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:flick-of-the-switch:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/flick-of-the-switch",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:fly-on-the-wall:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/fly-on-the-wall",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:for-those-about-to-rock-we-salute-you:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/for-those-about-to-rock-we-salute-you",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:high-voltage:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/high-voltage",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:let-there-be-rock:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/let-there-be-rock",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:power-up:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/power-up",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:powerage:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/powerage",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:rock-or-bust:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/rock-or-bust",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:stiff-upper-lip:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/stiff-upper-lip",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:the-razors-edge:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/the-razors-edge",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adele:19:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adele/19",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adele:25:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adele/25",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adele:30:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adele/30",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
   },
   {
     "id": "album:adriano-celentano:a-new-orleans:copertina",
@@ -2156,16 +2353,6 @@
     "motivo": null
   },
   {
-    "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/il-ragazzo-della-via-gluck",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:adriano-celentano:il-re-degli-ignoranti:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -2280,16 +2467,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/soli",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:svalutation:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/svalutation",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2920,76 +3097,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "caparezza/",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:alaska-baby:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/alaska-baby",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:bagus:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/bagus",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:il-primo-bacio-sulla-luna:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/il-primo-bacio-sulla-luna",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:la-ragazza-del-futuro:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/la-ragazza-del-futuro",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:la-teoria-dei-colori:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/la-teoria-dei-colori",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:logico:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/logico",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:possibili-scenari:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/possibili-scenari",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -7316,116 +7423,6 @@
     "motivo": null
   },
   {
-    "id": "album:ligabue:7:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/7",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:a-che-ora-e-la-fine-del-mondo:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/a-che-ora-e-la-fine-del-mondo",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:arrivederci-mostro:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/arrivederci-mostro",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:dedicato-a-noi:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/dedicato-a-noi",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:fuori-come-va:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/fuori-come-va",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:lambrusco-coltelli-rose-pop-corn:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/lambrusco-coltelli-rose-pop-corn",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:ligabue:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/ligabue",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:made-in-italy:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/made-in-italy",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:miss-mondo:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/miss-mondo",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:mondovisione:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/mondovisione",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:start:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/start",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:limp-bizkit:chocolate-starfish-and-the-hot-dog-flavored-water:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -9880,16 +9877,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "pearl-jam/yield",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:diamo-un-calcio-all-aldila:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -13930,16 +13917,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "rimmel",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:ringo-starr:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "ringo-starr",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
