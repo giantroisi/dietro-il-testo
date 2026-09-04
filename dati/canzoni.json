@@ -12166,5 +12166,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "il-forestiero",
+    "titolo": "Il forestiero",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1970",
+    "album": "Il forestiero",
+    "albumSlug": "il-forestiero",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#8A6E3E",
+    "colore2": "#3E6E8A",
+    "ascolti": 181016,
+    "ascoltiTesto": "181 mila ascolti",
+    "spotifyId": "5fLkYgPLojRlWhRnQSg7fR",
+    "corpo": [
+      "Il forestiero è il brano che dà il titolo all'album natalizio pubblicato da Celentano nel novembre 1970 per l'etichetta Clan Celentano. Il testo è di Luciano Beretta e Miki Del Prete, la musica di Gino Santercole e Nando De Luca. Con un arrangiamento dai tratti orientaleggianti, racconta in chiave di canzone pop l'episodio evangelico dell'incontro tra Gesù e la donna samaritana al pozzo di Giacobbe, narrato nel Vangelo di Giovanni (4,1-30): il viandante ebreo in viaggio attraverso la Samaria chiede da bere a una donna del luogo, superando l'ostilità storica tra giudei e samaritani, fino a rivelarsi come il Messia atteso.",
+      "Nonostante la pubblicazione anche su 45 giri, Celentano ha eseguito il brano dal vivo solo in rare occasioni: il 27 settembre 1995, in un concerto per gli ammalati in viaggio verso Lourdes; il 14 febbraio 2012, nella prima serata del Festival di Sanremo, esibizione che sollevò una serie di critiche da parte della stampa cattolica; e il 5 dicembre 2019, nello spettacolo televisivo \"Adrian Live – Questa è la storia\"."
+    ],
+    "fraseIconica": "Il momento centrale del racconto è quando il forestiero, davanti allo stupore della donna, si rivela come colui che può offrirle un'acqua capace di non far più provare sete: la donna, prima di chiunque altro nel racconto, riconosce in lui il Messia atteso.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/607893/",
+    "fonti": [
+      {
+        "url": "https://www.agorairc.it/la-donna-e-il-forestiero-una-lettura-di-un-testo-di-una-canzone-di-adriano-celentano/",
+        "nome": "Agorà IRC — Giuseppe Esposito",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Il_forestiero",
+        "nome": "Wikipedia (inglese)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

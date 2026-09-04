@@ -11,11 +11,6 @@
       "permanent": true
     },
     {
-      "source": "/album/adriano-celentano/il-forestiero/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/er-piu-storia-d-amore-e-di-coltello/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
