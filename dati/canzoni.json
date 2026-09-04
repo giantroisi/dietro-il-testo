@@ -12346,5 +12346,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "yuppi-du",
+    "titolo": "Yuppi du",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1975",
+    "album": "Yuppi du",
+    "albumSlug": "yuppi-du",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#6E3E5A",
+    "colore2": "#8A6E2E",
+    "ascolti": 670305,
+    "ascoltiTesto": "670 mila ascolti",
+    "spotifyId": "7s7TuKYkDtWO44nXjH14SW",
+    "corpo": [
+      "Traccia che dà il titolo alla colonna sonora dell'omonimo film del 1975 scritto, diretto, prodotto e interpretato dallo stesso Celentano — il suo ritorno dietro la macchina da presa dieci anni dopo \"Super rapina a Milano\". Un progetto profondamente personale, realizzato con un budget partito da poche centomila lire e cresciuto fino a superare il miliardo, presentato in concorso al Festival di Cannes 1975 e premiato l'anno successivo con il Nastro d'Argento per la colonna sonora. Le riprese furono segnate da una tragedia: durante una scena su un canale vicino a Venezia, un'imbarcazione si capovolse e l'operatore Giuliano Alonzo perse la vita; Celentano fu condannato in primo grado nel 1977 come regista e produttore per responsabilità oggettiva, per poi essere assolto con formula piena in appello due anni dopo.",
+      "Nella canzone, che chiude l'album in due versioni molto simili, Celentano torna a cimentarsi con l'inglese — una lingua che ha sempre dichiarato di non conoscere — alternando frasi appena abbozzate al nonsense della cosiddetta \"lingua celentana\", lo stesso espediente già usato in \"Quel signore del piano di sopra\" e in \"Prisencolinensinainciusol\", qui ripreso fin dal titolo. Musicalmente il brano è costruito su un ritmo incalzante e una voce che alterna toni dolenti e di lamento. Il pezzo più riuscito del disco, secondo la critica, non è però la title track ma \"Such a Cold Night Tonight\", scritta e cantata in inglese dal nipote di Celentano, Gino Santercole, che lo stesso Adriano avrebbe inciso due anni dopo in italiano, con il titolo \"Ma che freddo stasera\", nell'album \"Disco Dance\" (1977)."
+    ],
+    "fraseIconica": "Il momento più citato è proprio il titolo stesso, \"Yuppi du\": l'ennesima invenzione della cosiddetta lingua celentana, sillabe senza significato letterale costruite per suonare come inglese, nello stesso spirito con cui Celentano aveva già scritto \"Quel signore del piano di sopra\" e \"Prisencolinensinainciusol\".",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/album:168879:10/",
+    "fonti": [
+      {
+        "url": "https://www.rockol.it/news-750576/adriano-celentano-yuppi-du-compie-50-anni-il-film-le-musiche",
+        "nome": "Rockol — Franco Zanetti (estratto da \"Adriano e Celentano\" di Sergio Cotti, Arcana Edizioni)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yuppi_du_(album)",
+        "nome": "Wikipedia (inglese, voce dell'album)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

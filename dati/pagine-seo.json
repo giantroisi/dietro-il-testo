@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 280,
+    "nCanzoni": 281,
     "haTestoEditoriale": true
   },
   {
@@ -1437,6 +1437,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/yuppi-du/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1475,7 +1480,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 12,
+    "nCanzoni": 13,
     "haTestoEditoriale": true
   },
   {
@@ -2537,6 +2542,13 @@
   },
   {
     "percorso": "album/adriano-celentano/nostalrock/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/yuppi-du/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3736,7 +3748,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 118,
+    "nCanzoni": 119,
     "haTestoEditoriale": true
   },
   {
@@ -3757,7 +3769,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 36,
+    "nCanzoni": 37,
     "haTestoEditoriale": true
   },
   {
