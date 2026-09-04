@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="Tutte le 271 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta name="description" content="Tutte le 282 canzoni e i 104 artisti raccontati su Dietro il testo.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/archivio/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Archivio completo">
-<meta property="og:description" content="Tutte le 271 canzoni e i 104 artisti raccontati su Dietro il testo.">
+<meta property="og:description" content="Tutte le 282 canzoni e i 104 artisti raccontati su Dietro il testo.">
 <meta property="og:url" content="https://www.dietroiltesto.it/archivio/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/archivio.png">
@@ -576,6 +576,19 @@ a { color: inherit; }
 }
 
 .condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+/* Il pannello dei formati Instagram occupa tutta la riga sotto i bottoni: e'
+   una scelta secondaria e non deve competere con "Condividi". */
+.condividi .formati { flex-basis: 100%; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }
+.condividi .formati .etichetta {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px;
+}
+.condividi .formati-scelte { display: flex; flex-wrap: wrap; gap: 10px; }
+.condividi .formati-scelte .bottone { display: inline-flex; align-items: baseline; gap: 8px; }
+.condividi .formati-scelte .bottone span {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; opacity: .62; text-transform: none;
+}
+.condividi .formati .nota { margin: 10px 0 0; font-size: 13px; color: var(--text-muted); max-width: 46ch; }
 .condividi .conferma {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ok);
@@ -785,17 +798,17 @@ a { color: inherit; }
     <header class="intestazione">
       <p class="sopratitolo">Tutto quello che c'è</p>
       <h1>L'archivio completo.</h1>
-      <p class="sintesi">271 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
+      <p class="sintesi">282 canzoni e 104 artisti. Filtra per genere o cerca direttamente.</p>
     </header>
 
     <section class="blocco" style="border-top:0;padding-top:0">
       <div class="suggerimenti">
         <span class="etichetta">Sfoglia le raccolte</span>
-        <a href="../genere/rock/">Rock <b>135</b></a>
-        <a href="../genere/pop/">Pop <b>114</b></a>
+        <a href="../genere/rock/">Rock <b>140</b></a>
+        <a href="../genere/pop/">Pop <b>120</b></a>
         <a href="../genere/metal/">Metal <b>65</b></a>
         <a href="../genere/punk/">Punk <b>24</b></a>
-        <a href="../anni/1970/">anni Settanta <b>32</b></a>
+        <a href="../anni/1970/">anni Settanta <b>37</b></a>
         <a href="../anni/1980/">anni Ottanta <b>47</b></a>
         <a href="../anni/1990/">anni Novanta <b>61</b></a>
         <a href="../anni/2000/">anni Duemila <b>53</b></a>
@@ -817,38 +830,43 @@ a { color: inherit; }
       <div class="filtri" role="group" aria-label="Filtra per tema" style="margin-top:10px">
         <button class="filtro" type="button" data-tema="" aria-pressed="true">Ogni tema</button>
         <button class="filtro" type="button" data-tema="amore" aria-pressed="false">Amore</button>
-        <button class="filtro" type="button" data-tema="critica-sociale" aria-pressed="false">Critica sociale</button>
         <button class="filtro" type="button" data-tema="salute-mentale" aria-pressed="false">Salute mentale</button>
-        <button class="filtro" type="button" data-tema="rottura" aria-pressed="false">Rotture</button>
-        <button class="filtro" type="button" data-tema="alienazione" aria-pressed="false">Alienazione</button>
+        <button class="filtro" type="button" data-tema="critica-sociale" aria-pressed="false">Critica sociale</button>
         <button class="filtro" type="button" data-tema="morte-lutto" aria-pressed="false">Morte e lutto</button>
         <button class="filtro" type="button" data-tema="ribellione" aria-pressed="false">Ribellione</button>
-        <button class="filtro" type="button" data-tema="liberta-evasione" aria-pressed="false">Libertà ed evasione</button>
+        <button class="filtro" type="button" data-tema="rottura" aria-pressed="false">Rotture</button>
         <button class="filtro" type="button" data-tema="dipendenza" aria-pressed="false">Dipendenza</button>
         <button class="filtro" type="button" data-tema="identita" aria-pressed="false">Identità</button>
         <button class="filtro" type="button" data-tema="guerra" aria-pressed="false">Guerra</button>
+        <button class="filtro" type="button" data-tema="alienazione" aria-pressed="false">Alienazione</button>
         <button class="filtro" type="button" data-tema="industria-musicale" aria-pressed="false">Industria musicale</button>
         <button class="filtro" type="button" data-tema="nostalgia" aria-pressed="false">Nostalgia</button>
         <button class="filtro" type="button" data-tema="ossessione-gelosia" aria-pressed="false">Ossessione e gelosia</button>
+        <button class="filtro" type="button" data-tema="liberta-evasione" aria-pressed="false">Libertà ed evasione</button>
       </div>
-      <p class="conteggio" data-conteggio aria-live="polite">271 canzoni</p>
+      <p class="conteggio" data-conteggio aria-live="polite">282 canzoni</p>
       <div class="griglia" data-elenco>
-        <a class="scheda" href="../canzone/21-guns/" style="--identita:#2E2E2E" data-generi="rock punk" data-paese="" data-temi="critica-sociale guerra">
+        <a class="scheda" href="../canzone/21-guns/" style="--identita:#2E2E2E" data-generi="rock punk" data-paese="" data-temi="guerra">
           <span class="sopra">Green Day <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
           <span class="titolo">21 Guns</span>
           <span class="gancio">Pubblicata il 26 maggio 2009 come secondo singolo di &quot;21st Century Breakdown&quot;, concept album che segue la storia di…</span>
         </a>
+        <a class="scheda" href="../canzone/24000-baci/" style="--identita:#8A3E5A" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1961</span>
+          <span class="titolo">24.000 baci</span>
+          <span class="gancio">Musica di Adriano Celentano ed Ezio Leoni, testo di Piero Vivarelli e Lucio Fulci, fu portata al Festival di Sanremo…</span>
+        </a>
         <a class="scheda" href="../canzone/4-marzo-1943/" style="--identita:#3E5A8A" data-generi="pop" data-paese="it" data-temi="guerra morte-lutto">
           <span class="sopra">Lucio Dalla <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
           <span class="titolo">4 marzo 1943</span>
-          <span class="gancio">Scritta insieme alla poetessa Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza,…</span>
+          <span class="gancio">Scritta insieme a Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza, racconta la…</span>
         </a>
         <a class="scheda" href="../canzone/a-che-ora-e-la-fine-del-mondo/" style="--identita:#2E2E3E" data-generi="rock" data-paese="Italia" data-temi="">
           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
           <span class="titolo">A che ora è la fine del mondo?</span>
           <span class="gancio">Title track del quarto album di Ligabue, uscito il 28 ottobre 1994: non un brano originale, ma una cover in italiano…</span>
         </a>
-        <a class="scheda" href="../canzone/ace-of-spades/" style="--identita:#1A1A1A" data-generi="metal" data-paese="" data-temi="morte-lutto liberta-evasione">
+        <a class="scheda" href="../canzone/ace-of-spades/" style="--identita:#1A1A1A" data-generi="metal" data-paese="" data-temi="morte-lutto">
           <span class="sopra">Motörhead <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1980</span>
           <span class="titolo">Ace of Spades</span>
           <span class="gancio">Scritta da Lemmy Kilmister insieme a &quot;Fast&quot; Eddie Clarke e Phil Taylor, &quot;Ace of Spades&quot; fu pubblicata come singolo…</span>
@@ -863,7 +881,7 @@ a { color: inherit; }
           <span class="titolo">Aerials</span>
           <span class="gancio">Testo scritto dal chitarrista Daron Malakian insieme al cantante Serj Tankian, con la musica composta interamente da…</span>
         </a>
-        <a class="scheda" href="../canzone/africa/" style="--identita:#C2822E" data-generi="rock pop" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/africa/" style="--identita:#C2822E" data-generi="rock pop" data-paese="" data-temi="">
           <span class="sopra">Toto <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1982</span>
           <span class="titolo">Africa</span>
           <span class="gancio">Ultimo brano di Toto IV, quarto album della band, uscito nel 1982.</span>
@@ -961,7 +979,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/billie-jean/" style="--identita:#4A2E6E" data-generi="pop" data-paese="" data-temi="industria-musicale">
           <span class="sopra">Michael Jackson <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1982</span>
           <span class="titolo">Billie Jean</span>
-          <span class="gancio">Pubblicata il 2 gennaio 1983 come secondo singolo di Thriller, esplora temi di accuse false, ossessione dei fan e…</span>
+          <span class="gancio">Pubblicata il 2 gennaio 1983 come secondo singolo di &quot;Thriller&quot;, esplora temi di accuse false, ossessione dei fan e…</span>
         </a>
         <a class="scheda" href="../canzone/black-pearl-jam/" style="--identita:#2E5C4A" data-generi="rock" data-paese="" data-temi="rottura">
           <span class="sopra">Pearl Jam <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>
@@ -1023,7 +1041,7 @@ a { color: inherit; }
           <span class="titolo">Castle on the Hill</span>
           <span class="gancio">Definita una lettera d'amore al Suffolk, prende il titolo dal castello di Framlingham, la cittadina dove Ed Sheeran è…</span>
         </a>
-        <a class="scheda" href="../canzone/cattiva/" style="--identita:#5C1F5C" data-generi="pop punk" data-paese="it" data-temi="rottura">
+        <a class="scheda" href="../canzone/cattiva/" style="--identita:#5C1F5C" data-generi="pop punk" data-paese="it" data-temi="">
           <span class="sopra">Naska <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2023</span>
           <span class="titolo">Cattiva</span>
           <span class="gancio">Pubblicata nel gennaio 2023 come uno dei due inediti che anticiparono l'album &quot;La mia stanza&quot;, secondo disco di…</span>
@@ -1043,10 +1061,15 @@ a { color: inherit; }
           <span class="titolo">Chasing Pavements</span>
           <span class="gancio">Scritta da Adele insieme a Eg White, che ne curò anche la produzione, fu il secondo singolo estratto da 19,…</span>
         </a>
-        <a class="scheda" href="../canzone/chelsea-smile/" style="--identita:#3E1F2E" data-generi="metal" data-paese="" data-temi="alienazione salute-mentale">
+        <a class="scheda" href="../canzone/chelsea-smile/" style="--identita:#3E1F2E" data-generi="metal" data-paese="" data-temi="salute-mentale">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
           <span class="titolo">Chelsea Smile</span>
           <span class="gancio">Prodotta da Fredrik Nordström e Henrik Udd, &quot;Chelsea Smile&quot; è contenuta nel secondo album della band, &quot;Suicide…</span>
+        </a>
+        <a class="scheda" href="../canzone/chi-era-lui/" style="--identita:#3E3E5A" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1966</span>
+          <span class="titolo">Chi era lui</span>
+          <span class="gancio">Lato B del singolo di Sanremo 1966 &quot;Il ragazzo della via Gluck&quot;, con testo di Mogol e Miki Del Prete su musica di…</span>
         </a>
         <a class="scheda" href="../canzone/chop-suey/" style="--identita:#6E7A2E" data-generi="metal" data-paese="" data-temi="salute-mentale">
           <span class="sopra">System of a Down <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</span>
@@ -1086,7 +1109,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/creep/" style="--identita:#4F6B49" data-generi="rock" data-paese="" data-temi="alienazione identita">
           <span class="sopra">Radiohead <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1992</span>
           <span class="titolo">Creep</span>
-          <span class="gancio">Uscito come singolo il 21 settembre 1992, un anno prima dell'album d'esordio Pablo Honey.</span>
+          <span class="gancio">Uscito come singolo il 21 settembre 1992, un anno prima dell'album d'esordio &quot;Pablo Honey&quot;.</span>
         </a>
         <a class="scheda" href="../canzone/crying-in-the-rain/" style="--identita:#2E5C4A" data-generi="pop elettronica" data-paese="" data-temi="rottura">
           <span class="sopra">a-ha <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
@@ -1111,7 +1134,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/dicono-di-me/" style="--identita:#2E3E5C" data-generi="pop" data-paese="Italia" data-temi="">
           <span class="sopra">Cesare Cremonini <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
           <span class="titolo">Dicono di me</span>
-          <span class="gancio">Primo singolo estratto da Il primo bacio sulla Luna, terzo album da solista di Cesare Cremonini, pubblicato il 30…</span>
+          <span class="gancio">Primo singolo estratto da &quot;Il primo bacio sulla Luna&quot;, terzo album da solista di Cesare Cremonini, pubblicato il 30…</span>
         </a>
         <a class="scheda" href="../canzone/die4u/" style="--identita:#5C1F3E" data-generi="rock pop punk" data-paese="" data-temi="dipendenza ossessione-gelosia">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2021</span>
@@ -1153,7 +1176,7 @@ a { color: inherit; }
           <span class="titolo">Drown</span>
           <span class="gancio">Pubblicata come singolo autonomo il 21 ottobre 2014, &quot;Drown&quot; nacque appositamente per il concerto della band alla…</span>
         </a>
-        <a class="scheda" href="../canzone/du-hast/" style="--identita:#8A1418" data-generi="metal" data-paese="" data-temi="rottura ossessione-gelosia">
+        <a class="scheda" href="../canzone/du-hast/" style="--identita:#8A1418" data-generi="metal" data-paese="" data-temi="ossessione-gelosia">
           <span class="sopra">Rammstein <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1997</span>
           <span class="titolo">Du Hast</span>
           <span class="gancio">Il brano gioca sull'ambiguità fonetica tedesca tra &quot;du hast&quot; (tu hai) e &quot;du hasst&quot; (tu odi), costruendo un testo che…</span>
@@ -1203,7 +1226,7 @@ a { color: inherit; }
           <span class="titolo">Faget</span>
           <span class="gancio">Il cantante Jonathan Davis ha spiegato di aver scritto il brano ripensando al bullismo subito alle scuole superiori:…</span>
         </a>
-        <a class="scheda" href="../canzone/fast-car/" style="--identita:#5C4A3E" data-generi="rock" data-paese="" data-temi="liberta-evasione critica-sociale">
+        <a class="scheda" href="../canzone/fast-car/" style="--identita:#5C4A3E" data-generi="rock" data-paese="" data-temi="liberta-evasione">
           <span class="sopra">Tracy Chapman <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1988</span>
           <span class="titolo">Fast Car</span>
           <span class="gancio">Primo singolo di Tracy Chapman, pubblicato il 6 aprile 1988 all'interno del suo album d'esordio omonimo.</span>
@@ -1268,12 +1291,12 @@ a { color: inherit; }
           <span class="titolo">Generale</span>
           <span class="gancio">Contenuta nel sesto album dell'artista, De Gregori, uscito nel 1978, è un brano contro la guerra in cui la voce…</span>
         </a>
-        <a class="scheda" href="../canzone/get-lucky/" style="--identita:#B3821F" data-generi="elettronica" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/get-lucky/" style="--identita:#B3821F" data-generi="elettronica" data-paese="" data-temi="">
           <span class="sopra">Daft Punk <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
           <span class="titolo">Get Lucky</span>
           <span class="gancio">Pubblicata il 19 aprile 2013 come singolo di lancio di &quot;Random Access Memories&quot;, vede la collaborazione di Pharrell…</span>
         </a>
-        <a class="scheda" href="../canzone/giovani-wannabe/" style="--identita:#6E1F2E" data-generi="pop rock" data-paese="it" data-temi="identita critica-sociale">
+        <a class="scheda" href="../canzone/giovani-wannabe/" style="--identita:#6E1F2E" data-generi="pop rock" data-paese="it" data-temi="identita">
           <span class="sopra">Pinguini Tattici Nucleari <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2022</span>
           <span class="titolo">Giovani Wannabe</span>
           <span class="gancio">Scritta da Riccardo Zanotti e Marco Paganelli, con produzione dello stesso Zanotti insieme a Enrico Brun, fu…</span>
@@ -1283,7 +1306,7 @@ a { color: inherit; }
           <span class="titolo">Gli uomini e le donne sono uguali</span>
           <span class="gancio">Fu il primo singolo da solista di Cesare Cremonini, pubblicato il 30 agosto 2002 dopo lo scioglimento dei Lùnapop, ed…</span>
         </a>
-        <a class="scheda" href="../canzone/goodbye-malinconia/" style="--identita:#1F6E5C" data-generi="pop" data-paese="it" data-temi="critica-sociale">
+        <a class="scheda" href="../canzone/goodbye-malinconia/" style="--identita:#1F6E5C" data-generi="pop" data-paese="it" data-temi="">
           <span class="sopra">Caparezza <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2011</span>
           <span class="titolo">Goodbye Malinconia</span>
           <span class="gancio">Pubblicata il 28 gennaio 2011 come primo singolo del quinto album in studio, &quot;Il sogno eretico&quot;, in duetto con il…</span>
@@ -1336,14 +1359,14 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/hey-jude/" style="--identita:#3E7A2C" data-generi="rock pop" data-paese="" data-temi="amore">
           <span class="sopra">The Beatles <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1968</span>
           <span class="titolo">Hey Jude</span>
-          <span class="gancio">Paul McCartney lo scrisse come &quot;Hey Jules&quot; per confortare Julian Lennon, il figlio di cinque anni di John Lennon,…</span>
+          <span class="gancio">Paul McCartney lo compose in auto, mentre andava a trovare Cynthia Lennon e suo figlio Julian, cinque anni, a…</span>
         </a>
         <a class="scheda" href="../canzone/highway-star/" style="--identita:#4A1F6E" data-generi="rock" data-paese="" data-temi="ossessione-gelosia">
           <span class="sopra">Deep Purple <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
           <span class="titolo">Highway Star</span>
           <span class="gancio">Nacque quasi per gioco su un pullman, mentre la band viaggiava verso un concerto a Portsmouth nel settembre 1971: un…</span>
         </a>
-        <a class="scheda" href="../canzone/highway-to-hell/" style="--identita:#8A1414" data-generi="rock" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/highway-to-hell/" style="--identita:#8A1414" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1979</span>
           <span class="titolo">Highway to Hell</span>
           <span class="gancio">Title track del sesto album della band, uscito il 27 luglio 1979.</span>
@@ -1356,7 +1379,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/hotel-california/" style="--identita:#A65A22" data-generi="rock" data-paese="" data-temi="industria-musicale">
           <span class="sopra">Eagles <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1976</span>
           <span class="titolo">Hotel California</span>
-          <span class="gancio">Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), racconta — nelle parole della band — un viaggio…</span>
+          <span class="gancio">Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), il brano racconta — nelle parole dello stesso…</span>
         </a>
         <a class="scheda" href="../canzone/hurt/" style="--identita:#1A1A1A" data-generi="metal" data-paese="" data-temi="dipendenza salute-mentale">
           <span class="sopra">Nine Inch Nails <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
@@ -1378,7 +1401,7 @@ a { color: inherit; }
           <span class="titolo">I Will Always Love You</span>
           <span class="gancio">Scritta e incisa originariamente da Dolly Parton nel 1974 come brano country, per salutare il proprio mentore e…</span>
         </a>
-        <a class="scheda" href="../canzone/ive-been-losing-you/" style="--identita:#3E1F6E" data-generi="pop elettronica" data-paese="" data-temi="rottura">
+        <a class="scheda" href="../canzone/ive-been-losing-you/" style="--identita:#3E1F6E" data-generi="pop elettronica" data-paese="" data-temi="">
           <span class="sopra">a-ha <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1986</span>
           <span class="titolo">I've Been Losing You</span>
           <span class="gancio">Scritta e prodotta da Pål Waaktaar insieme a Magne Furuholmen, fu pubblicata il 22 settembre 1986 come singolo di…</span>
@@ -1398,6 +1421,11 @@ a { color: inherit; }
           <span class="titolo">Il comico (Sai che risate)</span>
           <span class="gancio">Secondo singolo estratto da La teoria dei colori, quarto album in studio di Cesare Cremonini, pubblicato il 20 aprile…</span>
         </a>
+        <a class="scheda" href="../canzone/il-forestiero/" style="--identita:#8A6E3E" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970</span>
+          <span class="titolo">Il forestiero</span>
+          <span class="gancio">Il forestiero è il brano che dà il titolo all'album natalizio pubblicato da Celentano nel novembre 1970 per…</span>
+        </a>
         <a class="scheda" href="../canzone/il-giorno-dei-giorni/" style="--identita:#2E2E2E" data-generi="rock" data-paese="Italia" data-temi="">
           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2005</span>
           <span class="titolo">Il giorno dei giorni</span>
@@ -1416,24 +1444,29 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/il-sale-della-terra/" style="--identita:#2E2E3E" data-generi="rock" data-paese="Italia" data-temi="">
           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
           <span class="titolo">Il sale della terra</span>
-          <span class="gancio">Primo singolo estratto da Mondovisione, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre…</span>
+          <span class="gancio">Primo singolo estratto da &quot;Mondovisione&quot;, decimo album di inediti di Ligabue, distribuito digitalmente il 5 settembre…</span>
+        </a>
+        <a class="scheda" href="../canzone/il-tuo-bacio-e-come-un-rock/" style="--identita:#8A3E2E" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1958</span>
+          <span class="titolo">Il tuo bacio è come un rock</span>
+          <span class="gancio">Scritta da Piero Vivarelli e Lucio Fulci (testo) con Adriano Celentano ed Ezio Leoni (musica), nacque per il film &quot;I…</span>
         </a>
         <a class="scheda" href="../canzone/imagine/" style="--identita:#2E6E9E" data-generi="rock pop" data-paese="" data-temi="critica-sociale">
           <span class="sopra">John Lennon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
           <span class="titolo">Imagine</span>
           <span class="gancio">Scritta come appello per la pace nel mondo, la canzone invita ad &quot;immaginare&quot; un'umanità senza confini religiosi o…</span>
         </a>
-        <a class="scheda" href="../canzone/in-the-end/" style="--identita:#8F1A1A" data-generi="rock metal" data-paese="" data-temi="alienazione morte-lutto">
+        <a class="scheda" href="../canzone/in-the-end/" style="--identita:#8F1A1A" data-generi="rock metal" data-paese="" data-temi="morte-lutto">
           <span class="sopra">Linkin Park <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2000</span>
           <span class="titolo">In the End</span>
-          <span class="gancio">Ottavo brano e quarto singolo dell'album d'esordio Hybrid Theory, uscito l'11 settembre 2001.</span>
+          <span class="gancio">Ottavo brano e quarto singolo dell'album d'esordio &quot;Hybrid Theory&quot;, uscito l'11 settembre 2001.</span>
         </a>
-        <a class="scheda" href="../canzone/in-too-deep/" style="--identita:#1F5C8A" data-generi="pop punk" data-paese="" data-temi="rottura">
+        <a class="scheda" href="../canzone/in-too-deep/" style="--identita:#1F5C8A" data-generi="pop punk" data-paese="" data-temi="">
           <span class="sopra">Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</span>
           <span class="titolo">In Too Deep</span>
           <span class="gancio">Secondo singolo estratto da &quot;All Killer No Filler&quot; (2001), nacque quasi per caso: secondo un aneddoto raccontato da…</span>
         </a>
-        <a class="scheda" href="../canzone/irene/" style="--identita:#2E6E8A" data-generi="pop" data-paese="it" data-temi="amore rottura">
+        <a class="scheda" href="../canzone/irene/" style="--identita:#2E6E8A" data-generi="pop" data-paese="it" data-temi="amore">
           <span class="sopra">Pinguini Tattici Nucleari <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2017</span>
           <span class="titolo">Irene</span>
           <span class="gancio">Scritta interamente da Riccardo Zanotti, fu pubblicata come singolo il 1° giugno 2018, unico estratto dal terzo album…</span>
@@ -1453,7 +1486,7 @@ a { color: inherit; }
           <span class="titolo">It's a Long Way to the Top (If You Wanna Rock 'n' Roll)</span>
           <span class="gancio">Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1975 agli Albert Studios di Sydney con la…</span>
         </a>
-        <a class="scheda" href="../canzone/jeremy/" style="--identita:#5C4A2E" data-generi="rock" data-paese="" data-temi="alienazione morte-lutto">
+        <a class="scheda" href="../canzone/jeremy/" style="--identita:#5C4A2E" data-generi="rock" data-paese="" data-temi="morte-lutto">
           <span class="sopra">Pearl Jam <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>
           <span class="titolo">Jeremy</span>
           <span class="gancio">Eddie Vedder scrisse il testo dopo aver letto un breve trafiletto di cronaca su Jeremy Wade Delle, un quindicenne di…</span>
@@ -1526,7 +1559,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/legalize-the-premier/" style="--identita:#1F5C3E" data-generi="rap" data-paese="Italia" data-temi="">
           <span class="sopra">Caparezza <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2011</span>
           <span class="titolo">Legalize the Premier</span>
-          <span class="gancio">Terzo singolo estratto da Il sogno eretico, quinto album in studio di Caparezza, pubblicato il 5 agosto 2011 in…</span>
+          <span class="gancio">Terzo singolo estratto da &quot;Il sogno eretico&quot;, quinto album in studio di Caparezza, pubblicato il 5 agosto 2011 in…</span>
         </a>
         <a class="scheda" href="../canzone/let-there-be-rock/" style="--identita:#2E2E2E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1977</span>
@@ -1573,12 +1606,12 @@ a { color: inherit; }
           <span class="titolo">Made in Italy</span>
           <span class="gancio">Title track e secondo singolo estratto dall'undicesimo album di Ligabue, primo concept album della sua carriera,…</span>
         </a>
-        <a class="scheda" href="../canzone/man-in-the-box/" style="--identita:#2E2E2E" data-generi="rock" data-paese="" data-temi="alienazione critica-sociale">
+        <a class="scheda" href="../canzone/man-in-the-box/" style="--identita:#2E2E2E" data-generi="rock" data-paese="" data-temi="alienazione">
           <span class="sopra">Alice in Chains <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
           <span class="titolo">Man in the Box</span>
           <span class="gancio">Layne Staley iniziò a scrivere il testo pensando alla censura, ma l'idea prese una piega diversa durante una cena con…</span>
         </a>
-        <a class="scheda" href="../canzone/mantra/" style="--identita:#8A1F2E" data-generi="rock pop" data-paese="" data-temi="critica-sociale ossessione-gelosia">
+        <a class="scheda" href="../canzone/mantra/" style="--identita:#8A1F2E" data-generi="rock pop" data-paese="" data-temi="ossessione-gelosia">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2018</span>
           <span class="titolo">MANTRA</span>
           <span class="gancio">Pubblicata il 21 agosto 2018 come singolo dell'album &quot;amo&quot;, &quot;MANTRA&quot; fu prodotta da Oliver Sykes e Jordan Fish.</span>
@@ -1593,7 +1626,7 @@ a { color: inherit; }
           <span class="titolo">Master of Puppets</span>
           <span class="gancio">Title track del terzo album della band, registrato a Copenaghen con il produttore Flemming Rasmussen e pubblicato l'8…</span>
         </a>
-        <a class="scheda" href="../canzone/motivation/" style="--identita:#6E3E1F" data-generi="pop punk" data-paese="" data-temi="alienazione">
+        <a class="scheda" href="../canzone/motivation/" style="--identita:#6E3E1F" data-generi="pop punk" data-paese="" data-temi="">
           <span class="sopra">Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</span>
           <span class="titolo">Motivation</span>
           <span class="gancio">Terzo singolo estratto da &quot;All Killer No Filler&quot;, uscito il 5 gennaio 2002, racconta l'assenza totale di voglia di…</span>
@@ -1603,7 +1636,7 @@ a { color: inherit; }
           <span class="titolo">Mr. Brightside</span>
           <span class="gancio">Scritta da Brandon Flowers e Dave Keuning, fu una delle primissime canzoni composte dai due dopo la formazione della…</span>
         </a>
-        <a class="scheda" href="../canzone/my-exs-best-friend/" style="--identita:#3E1F5C" data-generi="pop punk" data-paese="" data-temi="ossessione-gelosia rottura">
+        <a class="scheda" href="../canzone/my-exs-best-friend/" style="--identita:#3E1F5C" data-generi="pop punk" data-paese="" data-temi="ossessione-gelosia">
           <span class="sopra">Machine Gun Kelly <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020</span>
           <span class="titolo">my ex's best friend</span>
           <span class="gancio">Scritta da Machine Gun Kelly insieme a Blackbear, Travis Barker dei Blink-182 e Nick Long, uscì il 7 agosto 2020 come…</span>
@@ -1618,7 +1651,7 @@ a { color: inherit; }
           <span class="titolo">Nel blu dipinto di blu</span>
           <span class="gancio">Vincitrice del Festival di Sanremo 1958, scritta da Modugno con Franco Migliacci, nasce — secondo lo stesso paroliere…</span>
         </a>
-        <a class="scheda" href="../canzone/nihilist-blues/" style="--identita:#1F1F3E" data-generi="rock pop elettronica" data-paese="" data-temi="alienazione salute-mentale">
+        <a class="scheda" href="../canzone/nihilist-blues/" style="--identita:#1F1F3E" data-generi="rock pop elettronica" data-paese="" data-temi="salute-mentale">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2019</span>
           <span class="titolo">nihilist blues</span>
           <span class="gancio">Terza traccia dell'album &quot;amo&quot; (2019), &quot;nihilist blues&quot; nacque durante le sessioni di registrazione del disco a Los…</span>
@@ -1653,7 +1686,7 @@ a { color: inherit; }
           <span class="titolo">November Rain</span>
           <span class="gancio">Axl Rose scrisse il brano da solo, e la sua gestazione fu lunga: secondo l'autobiografia di Slash esisteva già un…</span>
         </a>
-        <a class="scheda" href="../canzone/numb/" style="--identita:#6B5A4A" data-generi="rock metal" data-paese="" data-temi="alienazione salute-mentale">
+        <a class="scheda" href="../canzone/numb/" style="--identita:#6B5A4A" data-generi="rock metal" data-paese="" data-temi="salute-mentale">
           <span class="sopra">Linkin Park <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</span>
           <span class="titolo">Numb</span>
           <span class="gancio">Tredicesimo e ultimo brano di Meteora, secondo album della band, pubblicato come terzo singolo l'8 settembre 2003.</span>
@@ -1688,12 +1721,12 @@ a { color: inherit; }
           <span class="titolo">Paradise City</span>
           <span class="gancio">Nato quasi per caso su un furgone a noleggio, mentre la band tornava da un concerto suonando chitarre acustiche e…</span>
         </a>
-        <a class="scheda" href="../canzone/paranoid/" style="--identita:#B2266E" data-generi="metal" data-paese="" data-temi="salute-mentale rottura">
+        <a class="scheda" href="../canzone/paranoid/" style="--identita:#B2266E" data-generi="metal" data-paese="" data-temi="salute-mentale">
           <span class="sopra">Black Sabbath <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970</span>
           <span class="titolo">Paranoid</span>
           <span class="gancio">Scritta da Geezer Butler quasi come &quot;riempitivo&quot; dell'album, nata da un riff improvvisato da Tony Iommi in pochi…</span>
         </a>
-        <a class="scheda" href="../canzone/parasite-eve/" style="--identita:#3E5C1F" data-generi="metal" data-paese="" data-temi="critica-sociale">
+        <a class="scheda" href="../canzone/parasite-eve/" style="--identita:#3E5C1F" data-generi="metal" data-paese="" data-temi="">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2020</span>
           <span class="titolo">Parasite Eve</span>
           <span class="gancio">Pubblicata il 25 giugno 2020 come singolo di apertura di &quot;POST HUMAN: Survival Horror&quot;, il primo dei quattro EP che…</span>
@@ -1703,12 +1736,17 @@ a { color: inherit; }
           <span class="titolo">Peace Sells</span>
           <span class="gancio">Dave Mustaine ha raccontato di aver preso il titolo da un articolo di rivista, in un periodo in cui viveva…</span>
         </a>
+        <a class="scheda" href="../canzone/peppermint-twist-celentano/" style="--identita:#8A2E4A" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1962</span>
+          <span class="titolo">Peppermint Twist</span>
+          <span class="gancio">Cover italiana di &quot;Peppermint Twist - Part I&quot; di Joey Dee and the Starliters, con testo italiano di Miki Del Prete e…</span>
+        </a>
         <a class="scheda" href="../canzone/personal-jesus/" style="--identita:#6E1F1F" data-generi="rock pop elettronica" data-paese="" data-temi="amore">
           <span class="sopra">Depeche Mode <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1989</span>
           <span class="titolo">Personal Jesus</span>
           <span class="gancio">Scritta da Martin Gore, prese forma a metà del 1989 durante le sessioni di registrazione ai Logic Studios di Milano:…</span>
         </a>
-        <a class="scheda" href="../canzone/piggy/" style="--identita:#2E1F4A" data-generi="metal" data-paese="" data-temi="rottura">
+        <a class="scheda" href="../canzone/piggy/" style="--identita:#2E1F4A" data-generi="metal" data-paese="" data-temi="">
           <span class="sopra">Nine Inch Nails <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
           <span class="titolo">Piggy</span>
           <span class="gancio">L'ex chitarrista Richard Patrick ha raccontato in diverse interviste che &quot;Piggy&quot; era il soprannome che Trent Reznor…</span>
@@ -1733,7 +1771,17 @@ a { color: inherit; }
           <span class="titolo">Postmortem</span>
           <span class="gancio">Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di &quot;Reign in…</span>
         </a>
-        <a class="scheda" href="../canzone/prisoner-709/" style="--identita:#3E1F1F" data-generi="metal" data-paese="it" data-temi="critica-sociale industria-musicale">
+        <a class="scheda" href="../canzone/preghero/" style="--identita:#3E3E6E" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1962</span>
+          <span class="titolo">Pregherò</span>
+          <span class="gancio">Pubblicata come singolo nel 1962, &quot;Pregherò&quot; è il riadattamento italiano di &quot;Stand by Me&quot;, scritta l'anno prima da…</span>
+        </a>
+        <a class="scheda" href="../canzone/prisencolinensinainciusol/" style="--identita:#C2483E" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
+          <span class="titolo">Prisencolinensinainciusol</span>
+          <span class="gancio">Pubblicato come singolo il 3 novembre 1972 e confluito l'anno successivo nell'album &quot;Nostalrock&quot;, il brano è cantato…</span>
+        </a>
+        <a class="scheda" href="../canzone/prisoner-709/" style="--identita:#3E1F1F" data-generi="metal" data-paese="it" data-temi="industria-musicale">
           <span class="sopra">Caparezza <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2017</span>
           <span class="titolo">Prisoner 709</span>
           <span class="gancio">Scritta da Michele Salvemini (Caparezza), fu pubblicata il 7 settembre 2017 come primo singolo e traccia che dà il…</span>
@@ -1743,7 +1791,7 @@ a { color: inherit; }
           <span class="titolo">Profumo</span>
           <span class="gancio">Title track dell'album omonimo del 1986, scritta da Gianna Nannini insieme a Fabio Pianigiani e prodotta dal celebre…</span>
         </a>
-        <a class="scheda" href="../canzone/psychosocial/" style="--identita:#3E3E3E" data-generi="metal" data-paese="" data-temi="alienazione critica-sociale">
+        <a class="scheda" href="../canzone/psychosocial/" style="--identita:#3E3E3E" data-generi="metal" data-paese="" data-temi="">
           <span class="sopra">Slipknot <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2008</span>
           <span class="titolo">Psychosocial</span>
           <span class="gancio">Secondo singolo estratto da &quot;All Hope Is Gone&quot; (2008), quarto album in studio degli Slipknot, &quot;Psychosocial&quot; entrò in…</span>
@@ -1783,7 +1831,7 @@ a { color: inherit; }
           <span class="titolo">Ridere</span>
           <span class="gancio">Scritta da Riccardo Zanotti, fu pubblicata da Sony Music il 17 aprile 2020 come secondo singolo dalla riedizione del…</span>
         </a>
-        <a class="scheda" href="../canzone/riders-on-the-storm/" style="--identita:#1F2E3E" data-generi="rock" data-paese="" data-temi="alienazione">
+        <a class="scheda" href="../canzone/riders-on-the-storm/" style="--identita:#1F2E3E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">The Doors <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
           <span class="titolo">Riders on the Storm</span>
           <span class="gancio">Nacque da una jam session in studio in cui i Doors stavano rielaborando &quot;(Ghost) Riders in the Sky&quot;, un classico…</span>
@@ -1888,10 +1936,10 @@ a { color: inherit; }
           <span class="titolo">Sleepwalking</span>
           <span class="gancio">Pubblicata il 1° marzo 2013 come secondo singolo dell'album &quot;Sempiternal&quot;, fu scritta dal cantante Oliver Sykes…</span>
         </a>
-        <a class="scheda" href="../canzone/teen-spirit/" style="--identita:#B89B1F" data-generi="rock" data-paese="" data-temi="alienazione ribellione">
+        <a class="scheda" href="../canzone/teen-spirit/" style="--identita:#B89B1F" data-generi="rock" data-paese="" data-temi="ribellione">
           <span class="sopra">Nirvana <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>
           <span class="titolo">Smells Like Teen Spirit</span>
-          <span class="gancio">Brano d'apertura e primo singolo di Nevermind, uscito il 10 settembre 1991.</span>
+          <span class="gancio">Brano d'apertura e primo singolo di &quot;Nevermind&quot;, uscito il 10 settembre 1991.</span>
         </a>
         <a class="scheda" href="../canzone/smoke-on-the-water/" style="--identita:#5C4A6E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">Deep Purple <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
@@ -1923,7 +1971,12 @@ a { color: inherit; }
           <span class="titolo">SOS</span>
           <span class="gancio">Scritta da Tim Bergling (Avicii) insieme ad Albin Nedler, Kristoffer Fogelmark e ai coautori del campionamento vocale…</span>
         </a>
-        <a class="scheda" href="../canzone/space-truckin/" style="--identita:#1F3E5C" data-generi="rock" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/sotto-le-lenzuola/" style="--identita:#5A3E4A" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
+          <span class="titolo">Sotto le lenzuola</span>
+          <span class="gancio">&quot;Sotto le lenzuola&quot; fu il brano con cui Celentano partecipò al Festival di Sanremo 1971, dove si piazzò al quinto…</span>
+        </a>
+        <a class="scheda" href="../canzone/space-truckin/" style="--identita:#1F3E5C" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">Deep Purple <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
           <span class="titolo">Space Truckin'</span>
           <span class="gancio">Scritta a cinque mani dalla formazione Mark II, nacque da un'idea musicale del chitarrista Ritchie Blackmore:…</span>
@@ -1933,17 +1986,22 @@ a { color: inherit; }
           <span class="titolo">Square Hammer</span>
           <span class="gancio">&quot;Square Hammer&quot; era stata pensata inizialmente come possibile traccia per l'album &quot;Meliora&quot; (2015), ma rimase…</span>
         </a>
-        <a class="scheda" href="../canzone/stairway-to-heaven/" style="--identita:#4A6E3E" data-generi="rock" data-paese="" data-temi="critica-sociale">
+        <a class="scheda" href="../canzone/stai-lontana-da-me/" style="--identita:#3E5A8A" data-generi="rock" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1962</span>
+          <span class="titolo">Stai lontana da me</span>
+          <span class="gancio">Cover italiana di &quot;Tower of Strength&quot;, scritta da Burt Bacharach e Bob Hilliard e portata al successo nel 1961 da…</span>
+        </a>
+        <a class="scheda" href="../canzone/stairway-to-heaven/" style="--identita:#4A6E3E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">Led Zeppelin <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
           <span class="titolo">Stairway to Heaven</span>
           <span class="gancio">Uscita l'8 novembre 1971 nel quarto album (senza titolo) della band, racconta di una donna convinta che il denaro…</span>
         </a>
-        <a class="scheda" href="../canzone/starlight/" style="--identita:#2E3E6E" data-generi="rock" data-paese="" data-temi="amore rottura">
+        <a class="scheda" href="../canzone/starlight/" style="--identita:#2E3E6E" data-generi="rock" data-paese="" data-temi="amore">
           <span class="sopra">Muse <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2006</span>
           <span class="titolo">Starlight</span>
           <span class="gancio">Secondo singolo di &quot;Black Holes and Revelations&quot; (2006), pubblicato nel settembre di quell'anno dopo essere stato…</span>
         </a>
-        <a class="scheda" href="../canzone/stay-on-these-roads/" style="--identita:#1F5C8A" data-generi="pop elettronica" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/stay-on-these-roads/" style="--identita:#1F5C8A" data-generi="pop elettronica" data-paese="" data-temi="">
           <span class="sopra">a-ha <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1988</span>
           <span class="titolo">Stay on These Roads</span>
           <span class="gancio">Scritta da Magne Furuholmen, Morten Harket e Pål Waaktaar, fu pubblicata il 14 marzo 1988 come primo singolo del…</span>
@@ -1953,7 +2011,7 @@ a { color: inherit; }
           <span class="titolo">Stiff Upper Lip</span>
           <span class="gancio">Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000.</span>
         </a>
-        <a class="scheda" href="../canzone/still-waiting/" style="--identita:#4A4A1F" data-generi="pop punk" data-paese="" data-temi="ribellione alienazione">
+        <a class="scheda" href="../canzone/still-waiting/" style="--identita:#4A4A1F" data-generi="pop punk" data-paese="" data-temi="ribellione">
           <span class="sopra">Sum 41 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2002</span>
           <span class="titolo">Still Waiting</span>
           <span class="gancio">Ultima canzone scritta per l'album &quot;Does This Look Infected?&quot; (2002), nacque quasi all'ultimo momento: il cantante…</span>
@@ -1981,9 +2039,9 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/sweet-child/" style="--identita:#8A1A2E" data-generi="rock" data-paese="" data-temi="amore">
           <span class="sopra">Guns N' Roses <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1987</span>
           <span class="titolo">Sweet Child O' Mine</span>
-          <span class="gancio">Nata quasi per caso durante una session di prove, quando Slash iniziò a suonare per gioco il celebre riff ritenendolo…</span>
+          <span class="gancio">Nata quasi per caso durante una jam session, quando Slash iniziò a suonare per gioco quello che lui stesso definì un…</span>
         </a>
-        <a class="scheda" href="../canzone/sweet-home-alabama/" style="--identita:#A64A2E" data-generi="rock" data-paese="" data-temi="critica-sociale">
+        <a class="scheda" href="../canzone/sweet-home-alabama/" style="--identita:#A64A2E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">Lynyrd Skynyrd <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1974</span>
           <span class="titolo">Sweet Home Alabama</span>
           <span class="gancio">Terzo album della band, uscito nel 1974: il brano fu scritto nell'estate del 1973 (l'idea iniziale fu di Gary…</span>
@@ -2013,7 +2071,7 @@ a { color: inherit; }
           <span class="titolo">The Sound of Silence</span>
           <span class="gancio">Scritta da Paul Simon nel 1964, quando il duo non aveva ancora ottenuto alcun successo, fu inclusa nell'album…</span>
         </a>
-        <a class="scheda" href="../canzone/sound-of-silence-disturbed/" style="--identita:#1A1A2E" data-generi="metal" data-paese="" data-temi="alienazione">
+        <a class="scheda" href="../canzone/sound-of-silence-disturbed/" style="--identita:#1A1A2E" data-generi="metal" data-paese="" data-temi="">
           <span class="sopra">Disturbed <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">The Sound of Silence</span>
           <span class="gancio">Cover della celebre canzone di Simon &amp; Garfunkel del 1964, reinterpretata dai Disturbed per l'album &quot;Immortalized&quot;…</span>
@@ -2031,27 +2089,32 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/throne/" style="--identita:#5C1F8A" data-generi="rock metal" data-paese="" data-temi="">
           <span class="sopra">Bring Me the Horizon <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">Throne</span>
-          <span class="gancio">Prodotta dal tastierista Jordan Fish e dal cantante Oliver Sykes, &quot;Throne&quot; è stata pubblicata il 23 luglio 2015 come…</span>
+          <span class="gancio">Pubblicata il 23 luglio 2015 come terzo singolo di &quot;That's the Spirit&quot;, &quot;Throne&quot; fu presentata in anteprima da Annie…</span>
         </a>
         <a class="scheda" href="../canzone/thunderstruck/" style="--identita:#1F1F2E" data-generi="rock" data-paese="" data-temi="">
           <span class="sopra">AC/DC <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
           <span class="titolo">Thunderstruck</span>
           <span class="gancio">Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in…</span>
         </a>
-        <a class="scheda" href="../canzone/tieni-il-tempo/" style="--identita:#6E2E5C" data-generi="pop rock" data-paese="it" data-temi="liberta-evasione ribellione">
+        <a class="scheda" href="../canzone/tieni-il-tempo/" style="--identita:#6E2E5C" data-generi="pop rock" data-paese="it" data-temi="ribellione">
           <span class="sopra">883 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1995</span>
           <span class="titolo">Tieni il tempo</span>
           <span class="gancio">Composta musicalmente da Max Pezzali e scritta da Mauro Repetto, fu pubblicata il 15 maggio 1995 come singolo…</span>
         </a>
-        <a class="scheda" href="../canzone/toxicity/" style="--identita:#4A6E5A" data-generi="metal" data-paese="" data-temi="critica-sociale">
+        <a class="scheda" href="../canzone/toxicity/" style="--identita:#4A6E5A" data-generi="metal" data-paese="" data-temi="">
           <span class="sopra">System of a Down <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2001</span>
           <span class="titolo">Toxicity</span>
           <span class="gancio">Title track dell'album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per…</span>
         </a>
-        <a class="scheda" href="../canzone/tutto-e-possibile/" style="--identita:#1F6B4A" data-generi="pop punk" data-paese="it" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/tutto-e-possibile/" style="--identita:#1F6B4A" data-generi="pop punk" data-paese="it" data-temi="">
           <span class="sopra">Finley <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2005</span>
           <span class="titolo">Tutto è possibile</span>
           <span class="gancio">Singolo di debutto dei Finley, uscito il 25 novembre 2005 come primo estratto dall'album omonimo e prodotto da…</span>
+        </a>
+        <a class="scheda" href="../canzone/un-albero-di-trenta-piani/" style="--identita:#3E5A3E" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1972</span>
+          <span class="titolo">Un albero di trenta piani</span>
+          <span class="gancio">Primo singolo estratto dall'album &quot;I mali del secolo&quot; (1972), il primo disco di cui Celentano scrisse da solo tutte…</span>
         </a>
         <a class="scheda" href="../canzone/un-colpo-allanima/" style="--identita:#3E2E2E" data-generi="rock" data-paese="Italia" data-temi="">
           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2010</span>
@@ -2098,7 +2161,7 @@ a { color: inherit; }
           <span class="titolo">Vivo per lei</span>
           <span class="gancio">Nasce nel 1995 come &quot;Vivo per...&quot;, brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani e presentato…</span>
         </a>
-        <a class="scheda" href="../canzone/wait-and-bleed/" style="--identita:#3A3A3A" data-generi="metal" data-paese="" data-temi="alienazione salute-mentale">
+        <a class="scheda" href="../canzone/wait-and-bleed/" style="--identita:#3A3A3A" data-generi="metal" data-paese="" data-temi="salute-mentale">
           <span class="sopra">Slipknot <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1999</span>
           <span class="titolo">Wait and Bleed</span>
           <span class="gancio">Primo singolo estratto dall'album di debutto omonimo, prodotto da Ross Robinson.</span>
@@ -2108,7 +2171,7 @@ a { color: inherit; }
           <span class="titolo">Waiting for Love</span>
           <span class="gancio">Scritta da Tim Bergling (Avicii) insieme a Salem Al Fakir, Simon Aldred dei Cherry Ghost, Martijn Garritsen (Martin…</span>
         </a>
-        <a class="scheda" href="../canzone/wake-me-up/" style="--identita:#1F6E6E" data-generi="pop elettronica" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/wake-me-up/" style="--identita:#1F6E6E" data-generi="pop elettronica" data-paese="" data-temi="">
           <span class="sopra">Avicii <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
           <span class="titolo">Wake Me Up</span>
           <span class="gancio">Scritta da Avicii insieme al cantante Aloe Blacc e al chitarrista Mike Einziger degli Incubus, nacque in circa due…</span>
@@ -2121,7 +2184,7 @@ a { color: inherit; }
         <a class="scheda" href="../canzone/walk/" style="--identita:#8F1616" data-generi="metal" data-paese="" data-temi="ribellione">
           <span class="sopra">Pantera <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1992</span>
           <span class="titolo">Walk</span>
-          <span class="gancio">Nato da un riff in un insolito tempo di 12/8 suonato da Dimebag Darrell durante un soundcheck, il brano parla di…</span>
+          <span class="gancio">Il riff centrale, in un insolito tempo di 12/8, nacque durante un soundcheck del 1990, in tour per &quot;Cowboys from…</span>
         </a>
         <a class="scheda" href="../canzone/war-pigs/" style="--identita:#5C6B2E" data-generi="metal" data-paese="" data-temi="critica-sociale guerra">
           <span class="sopra">Black Sabbath <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970</span>
@@ -2178,10 +2241,15 @@ a { color: inherit; }
           <span class="titolo">You've Got Another Thing Comin'</span>
           <span class="gancio">Scritta da Rob Halford, K.K.</span>
         </a>
-        <a class="scheda" href="../canzone/youngblood/" style="--identita:#1F3E7A" data-generi="rock pop elettronica" data-paese="" data-temi="liberta-evasione">
+        <a class="scheda" href="../canzone/youngblood/" style="--identita:#1F3E7A" data-generi="rock pop elettronica" data-paese="" data-temi="">
           <span class="sopra">5 Seconds of Summer <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2018</span>
           <span class="titolo">Youngblood</span>
           <span class="gancio">Scritta da Calum Hood, Ali Tamposi, Andrew Watt, Ashton Irwin e Luke Hemmings, fu pubblicata come singolo il 12…</span>
+        </a>
+        <a class="scheda" href="../canzone/yuppi-du/" style="--identita:#6E3E5A" data-generi="pop" data-paese="Italia" data-temi="">
+          <span class="sopra">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1975</span>
+          <span class="titolo">Yuppi du</span>
+          <span class="gancio">Traccia che dà il titolo alla colonna sonora dell'omonimo film del 1975 scritto, diretto, prodotto e interpretato…</span>
         </a>
         <a class="scheda" href="../canzone/zombie-cranberries/" style="--identita:#5C6B3E" data-generi="rock" data-paese="" data-temi="guerra critica-sociale">
           <span class="sopra">The Cranberries <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</span>
@@ -2222,7 +2290,7 @@ a { color: inherit; }
         <a class="riga" href="../artista/adriano-celentano/">
         <span class="meta">pop <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
         <span class="nome">Adriano Celentano</span>
-        <span class="conta">3 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 39 album →</span>
+        <span class="conta">14 canzoni <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 39 album →</span>
       </a>
         <a class="riga" href="../artista/al-bano-e-romina-power/">
         <span class="meta">pop <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Italia</span>
@@ -2722,7 +2790,7 @@ a { color: inherit; }
   <footer class="piede">
     <div class="col piede-in">
       <div>
-        <strong style="color:var(--text)">Dietro il testo</strong> — 271 canzoni, 104 artisti.
+        <strong style="color:var(--text)">Dietro il testo</strong> — 282 canzoni, 104 artisti.
         Ogni scheda è scritta con parole originali e verificata su fonti citate.
         <p class="legale">Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali:
         i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero,
