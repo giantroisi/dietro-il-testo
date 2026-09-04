@@ -6,11 +6,6 @@
       "permanent": true
     },
     {
-      "source": "/album/adriano-celentano/peppermint-twist/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/a-new-orleans/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true

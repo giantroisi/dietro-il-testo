@@ -2509,10 +2509,10 @@
     "ascoltiTesto": null,
     "spotifyId": "3yGyWqmw9eCQPdJJ6iJLWs",
     "corpo": [
-      "Scritta insieme alla poetessa Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza, racconta la storia di una ragazza madre che ha un figlio da un soldato alleato. Il titolo originale era \"Gesubambino\", pensato da Pallottino come un ideale risarcimento a Dalla, rimasto orfano di padre a soli sette anni — ma fu giudicato irrispettoso dal maestro Ruggero Cini, direttore artistico del Festival, e sostituito con la data di nascita dello stesso cantautore.",
-      "Anche parte del testo dovette essere modificata prima dell'ammissione in gara, per aggirare i divieti della censura dell'epoca legati a riferimenti religiosi e alla maternità fuori dal matrimonio."
+      "Scritta insieme a Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza, racconta la storia di una ragazza madre che ha un figlio da un soldato alleato. Il titolo originale era \"Gesubambino\", pensato da Pallottino come un ideale risarcimento a Dalla, rimasto orfano di padre a soli sette anni — la stessa autrice ha raccontato che doveva essere \"una canzone sull'assenza del padre\", ma è diventata \"una canzone sull'assenza della madre\" — ma il titolo fu giudicato irrispettoso dalla censura e sostituito con la data di nascita dello stesso cantautore.",
+      "Anche parte del testo dovette essere modificata prima dell'ammissione in gara. Oltre a un passaggio sul riconoscimento del figlio da parte della madre e a un paragone fra la madre e la Madonna, giudicati troppo diretti, la censura intervenne soprattutto sul verso finale: nella versione originale il narratore adulto si descriveva come un bestemmiatore conosciuto \"per ladri e puttane\" col soprannome \"Gesù Bambino\"; la versione ammessa in gara sostituì la bestemmia con il gioco a carte e i \"ladri e puttane\" con la più neutra \"gente del porto\"."
     ],
-    "fraseIconica": "Il verso più citato è quello in cui il narratore rivela il soprannome datogli alla nascita dalla madre — \"Gesù Bambino\" — l'unica cosa che gli resta di una madre conosciuta appena. Il brano racconta di una madre non sposata di 16 anni, il cui compagno, un soldato alleato, morì in guerra prima della nascita del figlio. A Sanremo 1971 (dove arrivò terzo), la censura RAI impose una modifica: un verso che accostava l'adulto bestemmiatore e giocatore d'azzardo al tenero soprannome \"Gesù Bambino\" fu alterato perché il testo originale fu giudicato troppo provocatorio per la trasmissione.",
+    "fraseIconica": "Il verso più citato è quello finale, in cui il narratore ormai adulto rivela che il soprannome \"Gesù Bambino\", datogli dalla madre da bambino quasi per gioco, gli è rimasto addosso: ancora oggi, fra la gente del porto, è così che lo chiamano. Il brano racconta di una madre non sposata di 16 anni, il cui compagno, un soldato alleato, morì prima della nascita del figlio.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/lucio-dalla/4-marzo-1943/",
     "fonti": [
@@ -11976,6 +11976,50 @@
       {
         "url": "https://www.rockol.it/news-715124/adriano-celentano-la-storia-della-canzone-il-tuo-bacio-e-come-un-rock",
         "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
+  },
+  {
+    "slug": "peppermint-twist-celentano",
+    "titolo": "Peppermint Twist",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1962",
+    "album": "Peppermint Twist",
+    "albumSlug": "peppermint-twist",
+    "genereTesto": "Twist",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#8A2E4A",
+    "colore2": "#C29A3E",
+    "ascolti": 371988,
+    "ascoltiTesto": "372 mila ascolti",
+    "spotifyId": "1V1invhoTKpdhcT5rTIN55",
+    "corpo": [
+      "Cover italiana di \"Peppermint Twist - Part I\" di Joey Dee and the Starliters, con testo italiano di Miki Del Prete e Pinchi sulla musica originale di Joey Dee ed Henry Glover. Pubblicata dalla Jolly nel 1962, è l'unico brano genuinamente nuovo dell'album omonimo di Celentano, che per il resto raccoglie canzoni già uscite su 45 giri o in dischi precedenti: gli altri due inediti della raccolta, \"Così no\" e \"La gatta che scotta\", erano anch'essi già stati pubblicati come singoli.",
+      "Il titolo omaggia il Peppermint Lounge, il locale di New York dove il twist come ballo di coppia libera nacque e si diffuse fra la clientela newyorkese, compresi habitué come Truman Capote e Greta Garbo. Il 1962 fu l'anno della grande esplosione del twist in Italia, arrivato sulla scia dei successi americani di Chubby Checker (\"The Twist\" e \"Let's Twist Again\"): insieme a Celentano, quell'anno pubblicarono una propria cover o un proprio brano ispirato al ballo anche Edoardo Vianello, Gianni Morandi, Giorgio Gaber e Luigi Tenco."
+    ],
+    "fraseIconica": "Il ritornello invita esplicitamente a ballare il twist, riprendendo la struttura da tormentone da sala da ballo del brano originale americano, con cui condivide melodia e struttura, tradotto in italiano per il pubblico delle balere di inizio anni Sessanta.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/album:108450:1/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Peppermint_twist",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://www.rockit.it/articolo/twist-italiano-mina-eclisse-pasolini-ricotta",
+        "nome": "Rockit",
         "ruolo": "storia"
       },
       {

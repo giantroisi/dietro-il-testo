@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 272,
+    "nCanzoni": 273,
     "haTestoEditoriale": true
   },
   {
@@ -1397,6 +1397,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/peppermint-twist-celentano/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1435,7 +1440,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 4,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -2427,6 +2432,13 @@
   },
   {
     "percorso": "album/adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/peppermint-twist/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3633,7 +3645,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 136,
+    "nCanzoni": 137,
     "haTestoEditoriale": true
   },
   {
