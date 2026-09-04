@@ -420,16 +420,49 @@ export function generaRicerca(ctx) {
        storia - profilo in cima, campo di risposta in fondo - e dentro cui non
        va messo niente. */
     var FORMATI = {
-      storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 360, dimFrase: 40 },
-      post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 320, dimFrase: 38 }
+      storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
+      post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 470, dimFrase: 38 }
     };
     var SERIF = '"Iowan Old Style", Georgia, "Times New Roman", serif';
     var MONO = 'ui-monospace, "SF Mono", Menlo, monospace';
 
     var logo = new Image();
     var logoPronto = false;
-    logo.onload = function () { logoPronto = true; };
+    var ritaglio = null;
+    logo.onload = function () { logoPronto = true; ritaglio = misuraRitaglio(); };
     logo.src = cartolina.getAttribute('data-logo') || 'logo.png';
+
+    /* Il file logo.png ha 24px di trasparente su tutti i lati: sui 245px di
+       altezza sono un quinto, e disegnandolo intero il marchio esce piccolo e
+       staccato dal resto, con un vuoto che sembra un errore di impaginazione.
+       Qui si misura il riquadro dei pixel davvero disegnati e si usa quello.
+       Si misura invece di scriverlo a mano perche' il giorno che il logo cambia
+       il numero scritto a mano resterebbe li' a sbagliare in silenzio. */
+    function misuraRitaglio() {
+      var l = logo.naturalWidth, a = logo.naturalHeight;
+      var intero = { x: 0, y: 0, w: l, h: a };
+      try {
+        var c = document.createElement('canvas');
+        c.width = l; c.height = a;
+        var x = c.getContext('2d');
+        x.drawImage(logo, 0, 0);
+        var d = x.getImageData(0, 0, l, a).data;
+        var sx = l, sy = a, dx = -1, dy = -1;
+        for (var j = 0; j < a; j++) {
+          for (var i = 0; i < l; i++) {
+            if (d[(j * l + i) * 4 + 3] < 8) continue;
+            if (i < sx) sx = i;
+            if (i > dx) dx = i;
+            if (j < sy) sy = j;
+            if (j > dy) dy = j;
+          }
+        }
+        if (dx < sx || dy < sy) return intero;
+        return { x: sx, y: sy, w: dx - sx + 1, h: dy - sy + 1 };
+      } catch (e) {
+        return intero; /* niente pixel leggibili: meglio il logo intero che nessun logo */
+      }
+    }
 
     var apri = cartolina.querySelector('[data-instagram]');
     var pannello = cartolina.querySelector('[data-formati]');
@@ -478,12 +511,18 @@ export function generaRicerca(ctx) {
       return { dim: dimMin, righe: tronca(avvolgi(x, testo, largh), maxRighe) };
     }
 
+    function altezzaLogo(largh) {
+      var r = ritaglio || { w: logo.naturalWidth, h: logo.naturalHeight };
+      return Math.round(largh * (r.h / r.w));
+    }
+
     function logoBianco(largh) {
-      var h = Math.round(largh * (logo.naturalHeight / logo.naturalWidth));
+      var r = ritaglio || { x: 0, y: 0, w: logo.naturalWidth, h: logo.naturalHeight };
+      var h = altezzaLogo(largh);
       var c = document.createElement('canvas');
       c.width = largh; c.height = h;
       var x = c.getContext('2d');
-      x.drawImage(logo, 0, 0, largh, h);
+      x.drawImage(logo, r.x, r.y, r.w, r.h, 0, 0, largh, h);
       x.globalCompositeOperation = 'source-in';
       x.fillStyle = '#FFFFFF';
       x.fillRect(0, 0, largh, h);
@@ -512,7 +551,7 @@ export function generaRicerca(ctx) {
 
       var marg = 84;
       var largh = f.w - marg * 2;
-      var altLogo = logoPronto ? Math.round(f.logo * (logo.naturalHeight / logo.naturalWidth)) : 0;
+      var altLogo = logoPronto ? altezzaLogo(f.logo) : 0;
 
       var sopra = [];
       var art = cartolina.getAttribute('data-artista');
@@ -529,7 +568,7 @@ export function generaRicerca(ctx) {
       /* Prima si misura tutto, poi si disegna: e' l'unico modo per centrare il
          blocco nella fascia sicura invece di lasciarlo appeso in alto con un
          terzo di immagine vuoto sotto. */
-      var fissa = (altLogo ? altLogo + 16 : 0) + 30 + 58 + (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 52 + 56;
+      var fissa = (altLogo ? altLogo + 22 : 0) + 30 + 58 + (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 52 + 56;
       var utile = f.h - f.alto - f.basso - 70;
       var possibili = Math.max(2, Math.min(f.righeFrase, Math.floor((utile - fissa) / interlinea)));
       var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili);
@@ -538,7 +577,7 @@ export function generaRicerca(ctx) {
 
       if (altLogo) {
         x.drawImage(logoBianco(f.logo), marg, y);
-        y += altLogo + 16;
+        y += altLogo + 22;
       }
       x.font = '26px ' + MONO;
       x.fillStyle = 'rgba(255,255,255,0.78)';
