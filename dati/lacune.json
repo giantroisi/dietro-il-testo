@@ -1348,9 +1348,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/east-of-the-sun-west-of-the-moon",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Discogs (che accredita la foto di copertina a Just Loomis, stesso fotografo di Hunting High and Low, e le foto interne a Lauren Savoy), Wikipedia, AllMusic: nessuna fonte di livello A/B racconta il concept o le circostanze dello scatto, solo crediti nudi da database (livello C)."
   },
   {
     "id": "album:a-ha:foot-of-the-mountain:copertina",
@@ -1358,9 +1358,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/foot-of-the-mountain",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente il post del fan blog a-ha-live.com dedicato alla copertina: conferma solo il nome del grafico (Martin Kvamme) senza fonte ulteriore né racconto del concept. Nessuna fonte di livello A/B trovata sulla scelta della montagna Kyrkja o sul perché dell'immagine."
   },
   {
     "id": "album:a-ha:lifelines:copertina",
@@ -1368,9 +1368,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/lifelines",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Discogs, AllMusic, Album Art Exchange e Wikipedia: nessuna fonte, nemmeno di livello C, descrive o attribuisce la copertina."
   },
   {
     "id": "album:a-ha:memorial-beach:copertina",
@@ -1378,9 +1378,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/memorial-beach",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Discogs (che accredita l'artwork a Per Fronth e la fotografia a Just Loomis) e altre fonti: nessuna intervista o fonte di livello A/B racconta il concept della copertina, solo crediti nudi da database (livello C)."
   },
   {
     "id": "album:a-ha:minor-earth-major-sky:copertina",
@@ -1388,9 +1388,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/minor-earth-major-sky",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Trovata una pista concreta e non generica: il blog Rocking In the Norselands cita una dichiarazione di Magne Furuholmen sulla scelta dell'immagine (il cimitero di aerei fotografato da Bjørn Opsahl) attribuendola esplicitamente al libretto della Deluxe Edition 2019 dell'album — cioè una fonte di livello A (crediti/libretto ufficiale). Il blog stesso è però livello C e non posso aprire direttamente il libretto della ristampa per copiarne la frase (Costituzione, 'non deve trattare una fonte trovata come una fonte letta'): resta sospesa finché non si trova una riproduzione diretta del libretto o una seconda fonte di livello A/B che citi la stessa dichiarazione."
   },
   {
     "id": "album:a-ha:scoundrel-days:copertina",
@@ -1398,9 +1398,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/scoundrel-days",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo 'Classic Album: a-ha - Scoundrel Days' di Classic Pop Magazine (livello B): non contiene nessun riferimento alla copertina. Le uniche fonti che nominano il fotografo (Knut Bry, vulcano Haleakala a Maui) sono schede Discogs, livello C."
   },
   {
     "id": "album:a-ha:stay-on-these-roads:copertina",
@@ -1408,9 +1408,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/stay-on-these-roads",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su AllMusic, Discogs, Wikipedia e Album Art Exchange: nessuna fonte, nemmeno di livello C, descrive o attribuisce la copertina."
   },
   {
     "id": "album:a-ha:true-north:copertina",
@@ -1418,9 +1418,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/true-north",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "La descrizione della baia di Unstad (Lofoten) ripresa da Wikipedia cita come unica fonte un post Instagram del 3 ottobre 2024 — esplicitamente escluso dalla Costituzione ('post social non verificati' non sono prova). Nessuna fonte di livello A/B trovata sul concept della copertina."
   },
   {
     "id": "album:ac-dc:back-in-black:copertina",
