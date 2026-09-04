@@ -516,16 +516,33 @@ export function generaRicerca(ctx) {
       return Math.round(largh * (r.h / r.w));
     }
 
+    /* Il marchio e' disegnato a tratto sottile, con le righe di pentagramma
+       dentro le lettere. Tinto di bianco e rimpicciolito diventa una griglia
+       chiara che da lontano si dissolve: ingrandirlo e basta non bastava, e
+       infatti la prima versione piu' grande sembrava identica. Qui i tratti
+       vengono ispessiti ricomponendo la sagoma su se stessa spostata di pochi
+       pixel negli otto versi — le righe interne si chiudono e il marchio si
+       legge pieno — e sotto viene messa un'ombra, che e' cio' che lo stacca
+       davvero dai colori chiari. */
     function logoBianco(largh) {
       var r = ritaglio || { x: 0, y: 0, w: logo.naturalWidth, h: logo.naturalHeight };
       var h = altezzaLogo(largh);
+      var sagoma = document.createElement('canvas');
+      sagoma.width = largh; sagoma.height = h;
+      var s = sagoma.getContext('2d');
+      s.drawImage(logo, r.x, r.y, r.w, r.h, 0, 0, largh, h);
+      s.globalCompositeOperation = 'source-in';
+      s.fillStyle = '#FFFFFF';
+      s.fillRect(0, 0, largh, h);
+
+      var d = Math.max(1, Math.round(largh / 240)); // ispessimento, in pixel
       var c = document.createElement('canvas');
-      c.width = largh; c.height = h;
+      c.width = largh + d * 2; c.height = h + d * 2;
       var x = c.getContext('2d');
-      x.drawImage(logo, r.x, r.y, r.w, r.h, 0, 0, largh, h);
-      x.globalCompositeOperation = 'source-in';
-      x.fillStyle = '#FFFFFF';
-      x.fillRect(0, 0, largh, h);
+      var versi = [[0, 0], [d, 0], [-d, 0], [0, d], [0, -d], [d, d], [-d, -d], [d, -d], [-d, d]];
+      for (var i = 0; i < versi.length; i++) {
+        x.drawImage(sagoma, d + versi[i][0], d + versi[i][1]);
+      }
       return c;
     }
 
@@ -576,7 +593,13 @@ export function generaRicerca(ctx) {
       var y = f.alto + Math.max(0, Math.round((utile - totale) / 2));
 
       if (altLogo) {
-        x.drawImage(logoBianco(f.logo), marg, y);
+        var marchio = logoBianco(f.logo);
+        x.save();
+        x.shadowColor = 'rgba(0,0,0,0.5)';
+        x.shadowBlur = Math.round(f.logo * 0.045);
+        x.shadowOffsetY = Math.round(f.logo * 0.012);
+        x.drawImage(marchio, marg - Math.round(f.logo / 240), y);
+        x.restore();
         y += altLogo + 22;
       }
       x.font = '26px ' + MONO;
