@@ -12210,5 +12210,53 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "sotto-le-lenzuola",
+    "titolo": "Sotto le lenzuola",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1971",
+    "album": "Er più - Storia d'amore e di coltello",
+    "albumSlug": "er-piu-storia-d-amore-e-di-coltello",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#5A3E4A",
+    "colore2": "#8A6E2E",
+    "ascolti": 421759,
+    "ascoltiTesto": "422 mila ascolti",
+    "spotifyId": "04JZdwbBpVWoRZPhNJWhHn",
+    "corpo": [
+      "\"Sotto le lenzuola\" fu il brano con cui Celentano partecipò al Festival di Sanremo 1971, dove si piazzò al quinto posto con 115 voti, nell'edizione a doppia interpretazione: la sua versione era affiancata da quella del Coro Alpino Milanese. Il brano fa parte dell'album \"Er più - Storia d'amore e di coltello\", legato al film omonimo diretto da Sergio Corbucci in cui Celentano recitava; la musica porta la firma dello stesso Celentano insieme al fratello Alessandro, su testo di Luciano Beretta e Miki Del Prete. Sul lato B del 45 giri fu stampato \"Il forestiero\", il brano natalizio pubblicato l'anno precedente.",
+      "Nelle settimane successive al Festival, Celentano scatenò una polemica pubblica contro la Hit Parade radiofonica della Rai e le classifiche di vendita italiane, definendole a mezzo stampa una truffa: sosteneva che \"Sotto le lenzuola\" e il precedente successo sanremese \"Chi non lavora non fa l'amore\" vendessero centinaia di migliaia di copie in poche settimane, molto più dei brani che pure le precedevano stabilmente in classifica. Chiese alla Rai di escludere la sua canzone dalla trasmissione; di fronte al rifiuto, inviò una raccomandata all'Associazione dei Fonografici Italiani perché intervenisse, mentre un pretore respingeva il ricorso da lui presentato a fine marzo 1971. Propose infine che a compilare le classifiche fosse la SIAE, l'unica in grado, a suo dire, di documentare le vendite reali attraverso le fatture."
+    ],
+    "fraseIconica": "Il momento più citato è quello in cui il protagonista, rientrato all'alba dopo una notte di infedeltà, trova la moglie sveglia ma silenziosa: lei intuisce la verità senza che lui gliela confessi, e lo perdona in un bacio carico di un tradimento mai dichiarato apertamente.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/606930/",
+    "fonti": [
+      {
+        "url": "https://hitparadeitalia.it/voli/articoli/ch710417.htm",
+        "nome": "Hit Parade Italia (da Musica & Dischi, 17 aprile 1971)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.hitparadeitalia.it/sanremo/edizioni/1971.htm",
+        "nome": "Hit Parade Italia (classifica Sanremo 1971)"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Er_pi%C3%B9_-_Storia_d'amore_e_di_coltello_(album)",
+        "nome": "Wikipedia (voce dell'album)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 277,
+    "nCanzoni": 278,
     "haTestoEditoriale": true
   },
   {
@@ -1422,6 +1422,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/sotto-le-lenzuola/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1460,7 +1465,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 9,
+    "nCanzoni": 10,
     "haTestoEditoriale": true
   },
   {
@@ -2501,6 +2506,13 @@
   },
   {
     "percorso": "album/adriano-celentano/il-forestiero/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/er-piu-storia-d-amore-e-di-coltello/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3700,7 +3712,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 116,
+    "nCanzoni": 117,
     "haTestoEditoriale": true
   },
   {
@@ -3721,7 +3733,7 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 33,
+    "nCanzoni": 34,
     "haTestoEditoriale": true
   },
   {
