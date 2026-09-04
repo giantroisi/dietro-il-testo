@@ -20,8 +20,27 @@
 // conta come buoni**. Restano «da classificare» e vengono stampati, cosi' il
 // numero e' un pavimento certo, non una stima ottimista.
 //
+// IL FRENO (dal 4 settembre 2026, decisione dell'autore).
+// Questo script non misura soltanto: **blocca**. La soglia qui sotto e' il
+// numero di schede senza fonte A/B accertata nel giorno in cui il freno e'
+// stato messo. Se il numero sale, il controllo fallisce.
+//
+// Il senso e' preciso: una scheda nuova documentata solo da Wikipedia e
+// Songfacts fa salire il numero e fa fallire il controllo, quindi **non si
+// aggiungono schede che non abbiano almeno una fonte di livello A o B**. Una
+// scheda nuova ben documentata invece lascia il numero fermo e passa.
+// Il freno non impedisce di crescere: impedisce di crescere peggiorando.
+//
+// La soglia si ABBASSA a mano, mai da sola, ogni volta che un lotto della coda
+// e' chiuso: si rilancia questo controllo e si scrive il numero nuovo. Una
+// soglia che si aggiorna da sola non e' un freno, e' un contatore.
+//
 // Uso:  node scripts/check-livelli.mjs [--elenco]
 // Non serve rete.
+
+// Schede senza fonte A/B accertata il 4 settembre 2026, su 282 schede:
+// 115 con sole fonti C piu' 38 che dipendono da domini non ancora classificati.
+const SOGLIA = 153;
 
 import { readFileSync } from 'node:fs';
 
@@ -163,5 +182,26 @@ if (elenco && senzaAB.length) {
   for (const s of senzaAB) console.log(`  ${s}`);
 }
 
+// ------------------------------------------------------------------ freno
+
+const senzaABAccertata = senzaAB.length + soloIgnoti.length;
+const sforato = senzaABAccertata > SOGLIA;
+
+console.log('\n' + '—'.repeat(64));
+console.log(`FRENO  ${senzaABAccertata} schede senza fonte A/B accertata, soglia ${SOGLIA}`);
+if (sforato) {
+  console.log(`\n  ATTIVO: sono ${senzaABAccertata - SOGLIA} sopra la soglia.`);
+  console.log('  Una scheda nuova documentata solo da fonti di livello C fa salire');
+  console.log('  questo numero. Finche’ e’ sopra la soglia non si aggiungono schede:');
+  console.log('  si lavora la coda, oppure si aggiunge una fonte A/B alla scheda');
+  console.log('  appena scritta. La soglia si abbassa a mano quando un lotto e’ chiuso.');
+} else if (senzaABAccertata < SOGLIA) {
+  console.log(`\n  Libero, e ${SOGLIA - senzaABAccertata} sotto la soglia:`);
+  console.log(`  aggiorna SOGLIA a ${senzaABAccertata} in questo file, cosi’ il terreno`);
+  console.log('  guadagnato non si puo’ perdere di nuovo in silenzio.');
+} else {
+  console.log('\n  Libero, esattamente in pari con la soglia.');
+}
+
 console.log('');
-process.exit(conVietati.length ? 1 : 0);
+process.exit(conVietati.length || sforato ? 1 : 0);
