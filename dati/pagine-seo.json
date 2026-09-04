@@ -2640,9 +2640,9 @@
   {
     "percorso": "album/cesare-cremonini/possibili-scenari/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/cesare-cremonini/la-ragazza-del-futuro/",
@@ -3011,9 +3011,9 @@
   {
     "percorso": "album/ligabue/arrivederci-mostro/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/ligabue/mondovisione/",

@@ -460,6 +460,16 @@
     "motivo": "confermata: Wikipedia, sezione descrizione con dettaglio verificabile"
   },
   {
+    "id": "album:cesare-cremonini:possibili-scenari:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/possibili-scenari",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:coldplay:parachutes:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -668,6 +678,16 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Wikipedia con citazione diretta di Jimmy Page"
+  },
+  {
+    "id": "album:ligabue:arrivederci-mostro:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/arrivederci-mostro",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
   },
   {
     "id": "album:ligabue:nome-e-cognome:fonte-copertina",
@@ -1753,16 +1773,6 @@
     "motivo": "Aperto direttamente sia il sito ufficiale (annuncio dell'album) sia AllMusicItalia (trascrizione della conferenza stampa, firma Giorgia Dughetti): entrambi ricchi di citazioni dirette di Cremonini sul disco, ma nessuna delle due parla della copertina. Una descrizione circolante (natura e infanzia, progetto murales 'Io vorrei') non ha una fonte di livello A/B verificata direttamente."
   },
   {
-    "id": "album:cesare-cremonini:possibili-scenari:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/possibili-scenari",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:domenico-modugno:singolo:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1818,9 +1828,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/7",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Una sintesi di ricerca attribuiva la copertina a un certo 'Claudio Maioli': aperta la fonte, si è rivelato essere lo storico manager di Ligabue, non un artista grafico — un'attribuzione da scartare (P1). Nessuna fonte di livello A/B trovata sulla copertina; ligabue.com non ha una pagina dedicata di rivelazione copertina per questo disco (esiste invece per 'Made in Italy', già in catalogo)."
   },
   {
     "id": "album:ligabue:a-che-ora-e-la-fine-del-mondo:copertina",
@@ -1828,19 +1838,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/a-che-ora-e-la-fine-del-mondo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:arrivederci-mostro:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/arrivederci-mostro",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su ligabue.com (nessuna pagina dedicata di tipo 'copertina e tracklist' per questo album) e altrove: nessuna fonte, nemmeno di livello C, descrive la copertina."
   },
   {
     "id": "album:ligabue:buon-compleanno-elvis:copertina",
@@ -1858,9 +1858,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/dedicato-a-noi",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "sospeso",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Trovata una pista concreta — un'intervista AllMusicItalia in cui il grafico storico di Ligabue, Paolo De Francesco, racconta la scelta del cuore anatomico al centro della copertina — ma la citazione compare solo nella seconda pagina dell'intervista, dietro un pulsante 'Continua' che non è stato possibile aprire (contenuto caricato dinamicamente, non raggiungibile né da WebFetch né dal browser in questa sessione). La pagina di rivelazione copertina dedicata (allmusicitalia.it, luglio 2023) parla solo di tour e non della copertina. Non trattata come fonte letta perché non se n'è potuta copiare la frase (Costituzione, sezione 12.6)."
   },
   {
     "id": "album:ligabue:fuori-come-va:copertina",
@@ -1868,9 +1868,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/fuori-come-va",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "L'unica attribuzione trovata (Cesare Ferioli e Marco Ligabue, foto Photonica) viene da schede Discogs, livello C. Nessuna intervista o fonte di livello A/B trovata sul concept della copertina."
   },
   {
     "id": "album:ligabue:lambrusco-coltelli-rose-pop-corn:copertina",
@@ -1878,9 +1878,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/lambrusco-coltelli-rose-pop-corn",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su ligabue.com, Discogs e recensioni dell'epoca: nessuna fonte, nemmeno di livello C, descrive o attribuisce la copertina."
   },
   {
     "id": "album:ligabue:ligabue:copertina",
@@ -1888,9 +1888,9 @@
     "tipo": "copertina-album",
     "soggetto": "ligabue/ligabue",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente music.fanpage.it (un articolo per il trentennale del disco, 2020): racconta il video-ringraziamento di Ligabue ai fan, non la copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:ligabue:made-in-italy:copertina",

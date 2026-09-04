@@ -1852,10 +1852,10 @@
     "slug": "possibili-scenari",
     "titolo": "Possibili scenari",
     "anno": "2017",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7187,10 +7187,10 @@
     "slug": "arrivederci-mostro",
     "titolo": "Arrivederci, mostro!",
     "anno": "2010",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

@@ -1708,8 +1708,14 @@
         "titolo": "Possibili scenari",
         "anno": "2017",
         "nota": null,
-        "copertina": null,
-        "slug": "possibili-scenari"
+        "copertina": "Realizzata dallo studio Apart Italy, secondo i crediti ufficiali pubblicati sul sito dell'artista.",
+        "slug": "possibili-scenari",
+        "copertinaFonte": [
+          {
+            "url": "https://www.cesarecremonini.it/8-discografia/103-possibili-scenari",
+            "nome": "Cesare Cremonini (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "La ragazza del futuro",
@@ -5921,8 +5927,14 @@
         "titolo": "Arrivederci, mostro!",
         "anno": "2010",
         "nota": "disco di diamante",
-        "copertina": null,
-        "slug": "arrivederci-mostro"
+        "copertina": "Un pesce sulla cui groppa appare, rielaborata graficamente ma riconoscibile, una veduta di Bergamo Alta. La foto fu scattata dal tetto delle Cliniche Gavazzeni dal fotografo Giuseppe Cella: \"ci serviva l'immagine di un vecchio borgo\", ha spiegato il grafico Paolino De Francesco, che da anni cura l'immagine di tutta la produzione di Ligabue, \"a noi serviva qualcosa che desse l'idea di un borgo popolare povero\".",
+        "slug": "arrivederci-mostro",
+        "copertinaFonte": [
+          {
+            "url": "https://www.ecodibergamo.it/stories/cultura-e-spettacoli/132710_c_bergamo_alta_sulla_copertina_dellultimo_disco_di_ligabue/",
+            "nome": "L'Eco di Bergamo"
+          }
+        ]
       },
       {
         "titolo": "Mondovisione",
