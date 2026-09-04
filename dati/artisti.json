@@ -991,8 +991,14 @@
         "titolo": "Stories",
         "anno": "2015",
         "nota": null,
-        "copertina": null,
-        "slug": "stories"
+        "copertina": "Realizzata dall'agenzia J.design Kommunikation AB, che ha curato l'immagine grafica di Avicii fin dagli esordi: l'idea era rappresentare la mente creativa dell'artista attraverso colori ed elementi ispirati ai diversi generi musicali fusi nell'album, con un'immagine di copertina pensata per reggere anche come base per le copertine dei singoli, tutti i 14 brani dell'album.",
+        "slug": "stories",
+        "copertinaFonte": [
+          {
+            "url": "https://www.behance.net/gallery/34040642/Avicii-Stories-album",
+            "nome": "J.design Kommunikation AB (portfolio ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Tim",
@@ -1586,8 +1592,14 @@
         "titolo": "Exuvia",
         "anno": "2021",
         "nota": null,
-        "copertina": null,
-        "slug": "exuvia"
+        "copertina": "Un simbolo che rappresenta il passaggio da una condizione attuale, un cerchio grande, a una condizione futura, un cerchio piccolo, attraverso una serie di spirali: \"simbolo di morte e rinascita in gran parte delle culture\", ha spiegato lo stesso Caparezza, richiamando il titolo dell'album (il termine biologico che indica i resti dell'esoscheletro di un insetto dopo la muta).",
+        "slug": "exuvia",
+        "copertinaFonte": [
+          {
+            "url": "https://www.ilmessaggero.it/spettacoli/musica/caparezza_exuvia_rapper_caparezza_muta_cambia_pelle_nuovo_album-5885233.html",
+            "nome": "Il Messaggero"
+          }
+        ]
       }
     ],
     "canzoni": [

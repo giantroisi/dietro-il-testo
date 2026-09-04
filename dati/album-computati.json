@@ -1115,10 +1115,10 @@
     "slug": "stories",
     "titolo": "Stories",
     "anno": "2015",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1786,10 +1786,10 @@
     "slug": "exuvia",
     "titolo": "Exuvia",
     "anno": "2021",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

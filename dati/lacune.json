@@ -340,6 +340,16 @@
     "motivo": "confermata integralmente: Wikipedia, con citazione diretta e nota a piè di pagina"
   },
   {
+    "id": "album:avicii:stories:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "avicii/stories",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:bon-jovi:slippery-when-wet:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -358,6 +368,16 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata integralmente: NME, con citazione diretta di Oli Sykes"
+  },
+  {
+    "id": "album:caparezza:exuvia:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "caparezza/exuvia",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
   },
   {
     "id": "album:cesare-cremonini:maggese:fonte-copertina",
@@ -1588,9 +1608,9 @@
     "tipo": "copertina-album",
     "soggetto": "adele/25",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Trovate due fonti che si contraddicono sul fotografo (una dice Alasdair McLellan, l'altra dice Mario Sorrenti) — nessuna delle due è una testata riconoscibile con controllo editoriale, sono blog/wiki di fan. Aperto direttamente anche American Songwriter (livello B): parla della lavorazione dell'album ma non della copertina. Fonti che si contraddicono fra loro sono un segnale peggiore di nessuna fonte: non ammissibile nessuna delle due."
   },
   {
     "id": "album:adele:30:copertina",
@@ -1598,9 +1618,9 @@
     "tipo": "copertina-album",
     "soggetto": "adele/30",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Stesso problema di '25': due fonti in conflitto sul fotografo (Simon Emmett vs Charlotte Wales, quest'ultima legata a un servizio per la rivista The Face che potrebbe non essere la copertina dell'album). Nessuna fonte di livello A/B trovata che risolva il conflitto."
   },
   {
     "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
@@ -1608,9 +1628,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/il-ragazzo-della-via-gluck",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "La descrizione della copertina (Celentano a passeggio con un amico, entrambi di spalle, stessa foto del 45 giri) è scritta su Wikipedia IT ma senza nessuna nota a piè di pagina che la sostenga — cioè è essa stessa la fonte, di livello C, non verificabile altrove."
   },
   {
     "id": "album:adriano-celentano:svalutation:copertina",
@@ -1618,19 +1638,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/svalutation",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:avicii:stories:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "avicii/stories",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Rockol dedicato al brano (Franco Zanetti/Paolo Madeddu, dalla serie 'Galleria della Canzone'): racconta per esteso la genesi del brano ma non descrive la copertina dell'album."
   },
   {
     "id": "album:avicii:tim:copertina",
@@ -1638,9 +1648,9 @@
     "tipo": "copertina-album",
     "soggetto": "avicii/tim",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Wikipedia, Avicii Fandom Wiki, Wikimedia Commons e articoli sull'album postumo: nessuna fonte, nemmeno di livello C, descrive o attribuisce la copertina."
   },
   {
     "id": "album:bring-me-the-horizon:suicide-season:copertina",
@@ -1653,24 +1663,14 @@
     "motivo": "trovata una descrizione (una ragazza con le budella fuori) attribuita a un'intervista della band, ma senza riuscire a rintracciare la fonte primaria con URL verificabile — non pubblicata senza poter controllare la citazione alla fonte."
   },
   {
-    "id": "album:caparezza:exuvia:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/exuvia",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:caparezza:habemus-capa:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "caparezza/habemus-capa",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente NonSoloCinema (recensione dell'epoca): parla del concept dell'album (il finto necrologio, la rinascita dell'artista) ma non descrive la copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:caparezza:museica:copertina",

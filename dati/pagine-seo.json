@@ -2472,9 +2472,9 @@
   {
     "percorso": "album/avicii/stories/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/avicii/tim/",
@@ -2598,9 +2598,9 @@
   {
     "percorso": "album/caparezza/exuvia/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/cesare-cremonini/bagus/",
