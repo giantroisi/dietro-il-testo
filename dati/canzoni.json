@@ -12302,5 +12302,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "prisencolinensinainciusol",
+    "titolo": "Prisencolinensinainciusol",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1972 / 1973",
+    "album": "Nostalrock",
+    "albumSlug": "nostalrock",
+    "genereTesto": "Rock and roll",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#C2483E",
+    "colore2": "#3E8AC2",
+    "ascolti": 18472444,
+    "ascoltiTesto": "18,5 milioni di ascolti",
+    "spotifyId": "6E4ZPXz34YTAObmBrqquGo",
+    "corpo": [
+      "Pubblicato come singolo il 3 novembre 1972 e confluito l'anno successivo nell'album \"Nostalrock\", il brano è cantato da Celentano insieme alla moglie Claudia Mori su un titolo e un testo interamente inventati: sillabe senza significato costruite per riprodurre il suono dell'inglese americano a chi quella lingua non la capisce. Celentano lo costruì improvvisando in studio su un giro di quattro battiti di batteria in loop, senza mai scrivere le parole su carta. Passato quasi inosservato all'uscita, il brano diventò un successo enorme (primo posto in Italia, oltre che in Francia, Germania e Belgio) solo qualche anno dopo, quando Celentano lo eseguì in televisione. Dal 2009 è indicato da critica e media internazionali come uno dei primi precedenti del rap, per la costruzione ritmata e il fraseggio quasi parlato sul giro di batteria e fiati, anche se secondo Celentano questa non era affatto l'intenzione originaria.",
+      "In un'intervista del 2012 alla radio americana NPR, Celentano ha raccontato che l'idea nacque dalla sua passione per lo slang americano e dal desiderio di scrivere una canzone che avesse come unico tema l'incapacità di comunicare: per riuscirci, doveva scrivere un testo che non significasse letteralmente nulla, un'idea che accosta anche al racconto biblico della Torre di Babele. Ha spiegato di averlo cantato con un tono arrabbiato, «una rabbia nata dalla rassegnazione», per denunciare l'incomunicabilità tra le persone; interpellato se il risultato suonasse davvero come l'inglese americano ai suoi orecchi, ha risposto senza esitazioni di sì."
+    ],
+    "fraseIconica": "Il momento più noto è il ritornello scandito con l'enfasi di uno speaker americano, in cui la sequenza di sillabe senza senso riproduce con precisione ritmo e intonazione della lingua inglese, risultando comprensibile all'orecchio pur non significando letteralmente nulla.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/1230275/",
+    "fonti": [
+      {
+        "url": "https://www.npr.org/2012/11/04/164206468/its-gibberish-but-italian-pop-song-still-means-something",
+        "nome": "NPR — intervista a Celentano (All Things Considered, 2012)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Prisencolinensinainciusol",
+        "nome": "Wikipedia (inglese)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]
