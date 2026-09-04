@@ -3,6 +3,11 @@
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 
+// Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
+// collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
+// Aggiungere qui ogni nuovo profilo ufficiale, e solo quelli.
+const PROFILI_UFFICIALI = ['https://www.instagram.com/dietroiltesto.it/'];
+
 // ------------------------------------------------------------- utilità
 // ---------------------------------------------- «di», «dei», «degli»
 
@@ -707,6 +712,7 @@ export function paginaCanzone(c, ctx) {
             '@id': `${SITO.base}/#editore`,
             name: SITO.nome,
             url: `${SITO.base}/`,
+            sameAs: PROFILI_UFFICIALI,
           },
           publisher: { '@id': `${SITO.base}/#editore` },
           url: `${SITO.base}/canzone/${c.slug}/`,
@@ -1258,6 +1264,7 @@ export function paginaHome(ctx) {
           name: SITO.nome,
           url: SITO.base + '/',
           logo: { '@type': 'ImageObject', url: `${SITO.base}/logo.png` },
+          sameAs: PROFILI_UFFICIALI,
         },
       ],
     },
