@@ -12390,5 +12390,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "preghero",
+    "titolo": "Pregherò",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1962 / 1977",
+    "album": "Disco dance",
+    "albumSlug": "disco-dance",
+    "genereTesto": "Canzone italiana",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E3E6E",
+    "colore2": "#8A6E2E",
+    "ascolti": 13895923,
+    "ascoltiTesto": "13,9 milioni di ascolti",
+    "spotifyId": "0HWfUBEXdRCTYfwSnlmeBU",
+    "corpo": [
+      "Pubblicata come singolo nel 1962, \"Pregherò\" è il riadattamento italiano di \"Stand by Me\", scritta l'anno prima da Ben E. King con Jerry Leiber e Mike Stoller. A differenza della maggior parte delle versioni internazionali del brano, che seguirono il tono laico e sentimentale dell'originale di King, il testo italiano scelto per Celentano prese una direzione diversa, trasformando la canzone in una riflessione esplicita su fede, preghiera e rapporto con Dio. Secondo il giornalista Walter Gatti, questa scelta avvicinò paradossalmente la versione italiana all'origine nascosta dello stesso \"Stand by Me\": il brano di King era a sua volta una rielaborazione di un canto gospel del reverendo James Cleveland, un'invocazione religiosa esplicita che l'originale anglosassone aveva secolarizzato e che il testo italiano di Celentano recuperò.",
+      "Il brano divenne uno dei successi più duraturi del repertorio di Celentano e fra i primi della musica leggera italiana degli anni Sessanta a introdurre temi apertamente spirituali nella canzone rivolta ai giovani, in un percorso che secondo Gatti anticipò lavori successivi come \"La buona novella\" di Fabrizio De André. Anni dopo il brano fu incluso in una nuova versione nell'album \"Disco dance\" (1977), insieme ad altri remake di precedenti successi di Celentano e di brani internazionali — lo stesso disco su cui Celentano incise in italiano, con il titolo \"Ma che freddo stasera\", il brano che il nipote Gino Santercole aveva scritto e cantato in inglese due anni prima per la colonna sonora di \"Yuppi du\"."
+    ],
+    "fraseIconica": "Il momento più citato è la promessa finale del brano, in cui la fede viene descritta come il dono più grande concesso dal Signore: un crescendo che trasforma l'invito iniziale, rivolto a chi ha perso la fede, in una vera e propria professione di fede condivisa.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/preghero/",
+    "fonti": [
+      {
+        "url": "https://www.romasette.it/archivio/preghero-quellintuizione-di-celentano/",
+        "nome": "Roma Sette — Walter Gatti",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Disco_dance_(Adriano_Celentano)",
+        "nome": "Wikipedia (voce dell'album Disco dance)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

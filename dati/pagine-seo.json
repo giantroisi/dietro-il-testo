@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 281,
+    "nCanzoni": 282,
     "haTestoEditoriale": true
   },
   {
@@ -1442,6 +1442,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/preghero/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1480,7 +1485,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 13,
+    "nCanzoni": 14,
     "haTestoEditoriale": true
   },
   {
@@ -2556,6 +2561,13 @@
   },
   {
     "percorso": "album/adriano-celentano/svalutation/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/disco-dance/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3748,7 +3760,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 119,
+    "nCanzoni": 120,
     "haTestoEditoriale": true
   },
   {
