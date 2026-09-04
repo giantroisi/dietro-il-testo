@@ -230,6 +230,46 @@
     "motivo": "confermata: Popdose, con dettagli sul fotografo e la direttrice artistica"
   },
   {
+    "id": "album:ac-dc:back-in-black:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/back-in-black",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:flick-of-the-switch:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/flick-of-the-switch",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:fly-on-the-wall:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/fly-on-the-wall",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:ac-dc:for-those-about-to-rock-we-salute-you:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ac-dc/for-those-about-to-rock-we-salute-you",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:ac-dc:highway-to-hell:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -1423,24 +1463,14 @@
     "motivo": "La descrizione della baia di Unstad (Lofoten) ripresa da Wikipedia cita come unica fonte un post Instagram del 3 ottobre 2024 — esplicitamente escluso dalla Costituzione ('post social non verificati' non sono prova). Nessuna fonte di livello A/B trovata sul concept della copertina."
   },
   {
-    "id": "album:ac-dc:back-in-black:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/back-in-black",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:ac-dc:ballbreaker:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "ac-dc/ballbreaker",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "L'unica attribuzione trovata (un disegnatore Marvel, Thomas Tenney) viene da un commento non verificato su un blog (Comic Book School), lo stesso autore del blog ammette di non aver trovato conferme — esplicitamente il tipo di fonte esclusa dalla Costituzione ('commenti' non sono prova). Nessuna fonte di livello A/B trovata."
   },
   {
     "id": "album:ac-dc:black-ice:copertina",
@@ -1448,9 +1478,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/black-ice",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Louder/Classic Rock dedicato all'album (Henry Yates, 9 novembre 2023): racconta per esteso la genesi del titolo (Brian Johnson e l'avviso radiofonico sul ghiaccio nero) ma non descrive né attribuisce la copertina."
   },
   {
     "id": "album:ac-dc:blow-up-your-video:copertina",
@@ -1458,9 +1488,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/blow-up-your-video",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente l'articolo Louder/Classic Rock dedicato all'album (Ken McIntyre, 24 maggio 2025): la citazione di Malcolm Young spiega il titolo (un invito a spegnere la TV e venire ai concerti) ma l'articolo non descrive la copertina stessa. La descrizione visiva circolante (Angus che esce da uno schermo TV) non ha una fonte di livello A/B che la conferma."
   },
   {
     "id": "album:ac-dc:dirty-deeds-done-dirt-cheap:copertina",
@@ -1468,39 +1498,9 @@
     "tipo": "copertina-album",
     "soggetto": "ac-dc/dirty-deeds-done-dirt-cheap",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:flick-of-the-switch:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/flick-of-the-switch",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:fly-on-the-wall:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/fly-on-the-wall",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ac-dc:for-those-about-to-rock-we-salute-you:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ac-dc/for-those-about-to-rock-we-salute-you",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Più fonti concordano sull'attribuzione a Hipgnosis per la copertina internazionale, ma tutte di livello C (un blog personale, una galleria che vende stampe, un forum di fan) — pagine che si ripetono a vicenda senza una fonte editoriale di livello A/B alla base. Nessuna trovata."
   },
   {
     "id": "album:ac-dc:high-voltage:copertina",

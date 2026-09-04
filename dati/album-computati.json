@@ -312,10 +312,10 @@
     "slug": "back-in-black",
     "titolo": "Back in Black",
     "anno": "1980",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -323,10 +323,10 @@
     "slug": "for-those-about-to-rock-we-salute-you",
     "titolo": "For Those About to Rock We Salute You",
     "anno": "1981",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -334,10 +334,10 @@
     "slug": "flick-of-the-switch",
     "titolo": "Flick of the Switch",
     "anno": "1983",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -345,10 +345,10 @@
     "slug": "fly-on-the-wall",
     "titolo": "Fly on the Wall",
     "anno": "1985",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

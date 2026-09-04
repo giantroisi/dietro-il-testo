@@ -305,29 +305,53 @@
         "titolo": "Back in Black",
         "anno": "1980",
         "nota": null,
-        "copertina": null,
-        "slug": "back-in-black"
+        "copertina": "La copertina interamente nera fu un tributo al cantante Bon Scott, morto pochi mesi prima dell'uscita: \"quella era proprio l'idea\", ha spiegato il chitarrista Angus Young, \"la copertina era nera e l'album iniziava col suono di una campana a lutto\". L'etichetta, Atlantic Records, inizialmente si oppose a una copertina completamente nera e la band accettò di aggiungere un bordo grigio attorno al logo AC/DC.",
+        "slug": "back-in-black",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/acdc-back-in-black-story-behind-hard-rock-album",
+            "nome": "Louder (Metal Hammer)"
+          }
+        ]
       },
       {
         "titolo": "For Those About to Rock We Salute You",
         "anno": "1981",
         "nota": null,
-        "copertina": null,
-        "slug": "for-those-about-to-rock-we-salute-you"
+        "copertina": "Mostra un cannone da dodici libbre del diciannovesimo secolo. L'idea di usare i cannoni sul brano-titolo e sulla copertina venne alla band guardando in TV il matrimonio del principe Carlo e Lady Diana mentre registravano l'album a Parigi.",
+        "slug": "for-those-about-to-rock-we-salute-you",
+        "copertinaFonte": [
+          {
+            "url": "https://www.acdc.com/for-those-about-to-rock-inspiration/",
+            "nome": "AC/DC (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Flick of the Switch",
         "anno": "1983",
         "nota": null,
-        "copertina": null,
-        "slug": "flick-of-the-switch"
+        "copertina": "Un disegno a matita, volutamente spartano e su fondo bianco, che ritrae Angus Young mentre sta per azionare un grande interruttore elettrico: la scelta rifletteva la decisione della band di autoprodursi l'album, spogliando il suono di ogni rifinitura da studio dopo tre dischi con il produttore Robert John \"Mutt\" Lange.",
+        "slug": "flick-of-the-switch",
+        "copertinaFonte": [
+          {
+            "url": "https://ultimateclassicrock.com/ac-dc-flick-of-the-switch/",
+            "nome": "Ultimate Classic Rock"
+          }
+        ]
       },
       {
         "titolo": "Fly on the Wall",
         "anno": "1985",
         "nota": null,
-        "copertina": null,
-        "slug": "fly-on-the-wall"
+        "copertina": "Illustrata dall'artista pop surrealista Todd Schorr, raffigura una mosca antropomorfa a fumetti; per una svista dell'illustrazione la mosca è disegnata sul pavimento invece che sul muro del titolo, e il foro nella parete da cui spunta un occhio spezza la scritta del titolo facendola leggere come \"Flo on the Wall\".",
+        "slug": "fly-on-the-wall",
+        "copertinaFonte": [
+          {
+            "url": "https://www.loudersound.com/features/ac-dc-the-final-salute-flick-of-the-switch-fly-on-the-wall",
+            "nome": "Louder (Classic Rock)"
+          }
+        ]
       },
       {
         "titolo": "Blow Up Your Video",
