@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 271,
+    "nCanzoni": 272,
     "haTestoEditoriale": true
   },
   {
@@ -1392,6 +1392,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/il-tuo-bacio-e-come-un-rock/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1430,7 +1435,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2415,6 +2420,13 @@
   },
   {
     "percorso": "album/adele/30/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3621,7 +3633,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 135,
+    "nCanzoni": 136,
     "haTestoEditoriale": true
   },
   {

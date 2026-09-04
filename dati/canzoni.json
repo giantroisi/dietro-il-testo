@@ -11942,5 +11942,49 @@
     ],
     "testoFonte": "AngoloTesti",
     "temi": []
+  },
+  {
+    "slug": "il-tuo-bacio-e-come-un-rock",
+    "titolo": "Il tuo bacio è come un rock",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1958 / 1960",
+    "album": "Adriano Celentano con Giulio Libano e la sua orchestra",
+    "albumSlug": "adriano-celentano-con-giulio-libano-e-la-sua-orchestra",
+    "genereTesto": "Rock and roll",
+    "generi": [
+      "rock"
+    ],
+    "paese": "Italia",
+    "colore": "#8A3E2E",
+    "colore2": "#C29A3E",
+    "ascolti": 3392035,
+    "ascoltiTesto": "3,4 mln ascolti",
+    "spotifyId": "6Tas0jCMgsG0Q9WapVTOWI",
+    "corpo": [
+      "Scritta da Piero Vivarelli e Lucio Fulci (testo) con Adriano Celentano ed Ezio Leoni (musica), nacque per il film \"I ragazzi del juke-box\", diretto dallo stesso Fulci su una sceneggiatura firmata insieme a Vivarelli. Fu proprio Vivarelli, anni dopo, a raccontare un retroscena sulla paternità del brano: la musica accreditata a Celentano sarebbe in realtà opera del fratello di Adriano, Alessandro. L'etichetta di Celentano, la SAAR di Walter Gurtler, dopo il magro successo dei dischi precedenti non voleva inciderla: fu lo stesso Vivarelli, per sua stessa ammissione, a dover insistere perché Gurtler cedesse.",
+      "Il brano esplose il 13 luglio 1958 al Festival di Ancona, trasmesso in diretta televisiva a oltre dieci milioni di spettatori: Celentano vinse la kermesse e, in una settimana, il disco superò le trecentomila copie vendute. Da caso musicale milanese diventò in pochi giorni un fenomeno nazionale, con centinaia di lettere di fan che arrivavano ogni giorno; l'anno seguente Federico Fellini lo volle nel cast de \"La dolce vita\", proprio sull'onda di quella notorietà improvvisa. Il brano fu poi raccolto nell'album d'esordio di Celentano, pubblicato nel 1960 insieme all'orchestra di Giulio Libano."
+    ],
+    "fraseIconica": "Il ritornello più ripreso paragona il bacio della ragazza a un rock che morde e stordisce come un pugno sul ring: un'immagine da knockout, coerente con l'iconografia da rissa musicale del rock and roll delle origini importato in Italia.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/337471/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Il_tuo_bacio_%C3%A8_come_un_rock/I_ragazzi_del_juke-box",
+        "nome": "Wikipedia (voce del singolo)"
+      },
+      {
+        "url": "https://www.rockol.it/news-715124/adriano-celentano-la-storia-della-canzone-il-tuo-bacio-e-come-un-rock",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

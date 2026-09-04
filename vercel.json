@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/album/adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/furore/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true
