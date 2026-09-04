@@ -2178,9 +2178,9 @@
   {
     "percorso": "album/883/la-donna-il-sogno-e-il-grande-incubo/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/883/la-dura-legge-del-gol/",
@@ -2192,9 +2192,9 @@
   {
     "percorso": "album/883/grazie-mille/",
     "categoria": "indice",
-    "indicizzabile": false,
+    "indicizzabile": true,
     "nCanzoni": 1,
-    "haTestoEditoriale": false
+    "haTestoEditoriale": true
   },
   {
     "percorso": "album/883/uno-in-piu/",

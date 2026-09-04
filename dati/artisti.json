@@ -89,8 +89,14 @@
         "titolo": "La donna, il sogno & il grande incubo",
         "anno": "1995",
         "nota": null,
-        "copertina": null,
-        "slug": "la-donna-il-sogno-e-il-grande-incubo"
+        "copertina": "Disegnata dal fumettista Giulio De Vita, ritrae Max Pezzali con le fattezze di Dylan Dog in fuga verso il \"Dream Motel\" del brano \"Il grande incubo\": un omaggio al mondo dei fumetti nello stesso stile già usato per la copertina di \"Hanno ucciso l'uomo ragno\". Lo stesso De Vita è tornato a disegnare la copertina della riedizione per il trentennale dell'album, uscita nell'ottobre 2025.",
+        "slug": "la-donna-il-sogno-e-il-grande-incubo",
+        "copertinaFonte": [
+          {
+            "url": "https://www.friulioggi.it/pordenone/fumettista-giulio-de-vita-illustrazioni-album-883-28-ottobre-2025/",
+            "nome": "Friuli Oggi"
+          }
+        ]
       },
       {
         "titolo": "La dura legge del gol!",
@@ -103,8 +109,14 @@
         "titolo": "Grazie mille",
         "anno": "1999",
         "nota": null,
-        "copertina": null,
-        "slug": "grazie-mille"
+        "copertina": "Sulla copertina Max Pezzali viene trasformato in un personaggio in stile manga; la prima edizione del disco era accompagnata da alcuni giochetti dell'epoca — gli occhialini 3D per i ritratti tridimensionali nel booklet, un videogioco nel cd e foto della band in posa sulla Harley-Davidson.",
+        "slug": "grazie-mille",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rockol.it/recensioni-musicali/album/637/883-grazie-mille",
+            "nome": "Rockol"
+          }
+        ]
       },
       {
         "titolo": "Uno in più",

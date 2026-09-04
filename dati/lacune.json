@@ -200,6 +200,26 @@
     "motivo": "confermata: Wikipedia con credit fotografico (Stephen Stickler) e direzione artistica"
   },
   {
+    "id": "album:883:grazie-mille:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "883/grazie-mille",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:883:la-donna-il-sogno-e-il-grande-incubo:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "883/la-donna-il-sogno-e-il-grande-incubo",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:a-ha:hunting-high-and-low:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -1268,29 +1288,9 @@
     "tipo": "copertina-album",
     "soggetto": "5-seconds-of-summer/youngblood",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:grazie-mille:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "883/grazie-mille",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:883:la-donna-il-sogno-e-il-grande-incubo:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "883/la-donna-il-sogno-e-il-grande-incubo",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Wikipedia EN, iHeart, Album Art Exchange e le pagine di lancio dell'album: trovata solo una descrizione visiva generica non attribuita (i quattro membri su un fondo di colori sovrapposti), nessun credito di fotografo/designer né dichiarazione della band sul concept della copertina."
   },
   {
     "id": "album:883:la-dura-legge-del-gol:copertina",
@@ -1298,9 +1298,9 @@
     "tipo": "copertina-album",
     "soggetto": "883/la-dura-legge-del-gol",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercata una recensione o intervista dell'epoca su Rockol (dove esistono per Grazie mille e Uno in più) e altre testate musicali: non trovata nessuna pagina dedicata all'album su Rockol. Le uniche fonti che descrivono la copertina (rovesciata in stile figurine Panini) sono siti di interpretazione dei testi (SignificatoCanzoni, IlPitagora), livello C, non ammissibili da soli per una spiegazione di copertina (Costituzione, sezione 5)."
   },
   {
     "id": "album:883:nord-sud-ovest-est:copertina",
@@ -1308,9 +1308,9 @@
     "tipo": "copertina-album",
     "soggetto": "883/nord-sud-ovest-est",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercata una recensione dell'epoca su Rockol e altre testate musicali riconoscibili: non trovata. Le fonti disponibili (Wikipedia, IBS, Discogs, un blog di settore) restano di livello C o schede di vendita senza descrizione della copertina."
   },
   {
     "id": "album:883:uno-in-piu:copertina",
@@ -1318,9 +1318,9 @@
     "tipo": "copertina-album",
     "soggetto": "883/uno-in-piu",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperta direttamente la recensione Rockol dell'album (13 luglio 2001, firmata Francesco Casale): parla solo della musica e degli ospiti, nessun accenno alla copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:a-ha:analogue:copertina",
@@ -1328,9 +1328,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/analogue",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercata una puntata della serie 'Uncovered' di Popdose dedicata a questo album (esiste per Hunting High and Low, già in catalogo): non esiste. Nessun'altra fonte di livello A/B trovata sul concept della copertina."
   },
   {
     "id": "album:a-ha:cast-in-steel:copertina",
@@ -1338,9 +1338,9 @@
     "tipo": "copertina-album",
     "soggetto": "a-ha/cast-in-steel",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperta direttamente la recensione Popdose dell'album ('You Again?: a-ha, Cast in Steel', 4 settembre 2015): parla solo della musica e della reunion della band, nessun accenno alla copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
     "id": "album:a-ha:east-of-the-sun-west-of-the-moon:copertina",

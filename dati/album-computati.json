@@ -92,10 +92,10 @@
     "slug": "la-donna-il-sogno-e-il-grande-incubo",
     "titolo": "La donna, il sogno & il grande incubo",
     "anno": "1995",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -114,10 +114,10 @@
     "slug": "grazie-mille",
     "titolo": "Grazie mille",
     "anno": "1999",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
