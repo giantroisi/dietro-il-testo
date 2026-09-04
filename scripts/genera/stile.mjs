@@ -547,6 +547,19 @@ a { color: inherit; }
 }
 
 .condividi { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
+/* Il pannello dei formati Instagram occupa tutta la riga sotto i bottoni: e'
+   una scelta secondaria e non deve competere con "Condividi". */
+.condividi .formati { flex-basis: 100%; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }
+.condividi .formati .etichetta {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--text-muted); margin: 0 0 12px;
+}
+.condividi .formati-scelte { display: flex; flex-wrap: wrap; gap: 10px; }
+.condividi .formati-scelte .bottone { display: inline-flex; align-items: baseline; gap: 8px; }
+.condividi .formati-scelte .bottone span {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; opacity: .62; text-transform: none;
+}
+.condividi .formati .nota { margin: 10px 0 0; font-size: 13px; color: var(--text-muted); max-width: 46ch; }
 .condividi .conferma {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ok);

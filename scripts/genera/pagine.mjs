@@ -566,13 +566,39 @@ export function paginaCanzone(c, ctx) {
         <div class="affidabilita">
           <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
         </div>
-        <div class="condividi">
+        <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
+             potrebbe: Instagram non espone alcun indirizzo di condivisione dal
+             web. Apre invece la scelta del formato e prepara l'immagine giusta
+             — 1080×1920 per la storia, 1080×1350 per il post — che il telefono
+             passa a Instagram tramite la condivisione di sistema. Il disegno e'
+             fatto nel browser (ricerca.js) a partire da questi dati, quindi
+             funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+        <div class="condividi"
+          data-cartolina
+          data-titolo="${esc(c.titolo)}"
+          data-artista="${esc(c.artista)}"
+          data-anno="${esc(annoDi(c) || '')}"
+          data-frase="${esc(c.fraseIconica || richiamo(c) || '')}"
+          data-colore="${esc(c.colore || '#333333')}"
+          data-colore2="${esc(c.colore2 || c.colore || '#333333')}"
+          data-slug="${esc(c.slug)}"
+          data-logo="${r}logo.png"
+          data-sito="${esc(SITO.base.replace(/^https?:\/\/(www\.)?/, ''))}">
           <button type="button" class="bottone pieno" data-condividi
             data-titolo="${esc(`${c.titolo} — ${c.artista}`)}"
             data-testo="${esc(richiamo(c) || `${c.titolo} di ${c.artista}: cosa c'è dietro questa canzone.`)}"
             data-url="${SITO.base}/canzone/${c.slug}/">Condividi</button>
-          <a class="bottone" href="${r}og/${c.slug}.png" download>Scarica l'immagine</a>
+          <button type="button" class="bottone" data-instagram
+            aria-expanded="false" aria-controls="formati-instagram">Instagram</button>
           <span class="conferma" data-condividi-conferma hidden aria-live="polite">Link copiato</span>
+          <div class="formati" id="formati-instagram" data-formati hidden>
+            <p class="etichetta">Immagine pronta per Instagram</p>
+            <div class="formati-scelte">
+              <button type="button" class="bottone" data-formato="storia">Storia <span>1080×1920</span></button>
+              <button type="button" class="bottone" data-formato="post">Post <span>1080×1350</span></button>
+            </div>
+            <p class="nota" data-cartolina-nota aria-live="polite">Sul telefono si apre la condivisione e scegli Instagram; sul computer l'immagine viene scaricata.</p>
+          </div>
         </div>
       </div>
 

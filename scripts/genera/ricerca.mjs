@@ -400,6 +400,229 @@ export function generaRicerca(ctx) {
     }
   });
 
+  /* ------------------------------------------- cartolina per Instagram */
+  /* Instagram non ha un indirizzo di condivisione dal web: nessun sito puo'
+     aprire una storia o un post gia' compilati, e un bottone che finge di
+     farlo mentirebbe. L'unica strada vera e' preparare l'immagine nel
+     formato giusto e passarla al sistema: sul telefono si apre il foglio di
+     condivisione, dove Instagram compare fra le app e si sceglie li' se
+     farne una storia o un post; sul computer, dove quel foglio non esiste,
+     il file viene scaricato.
+     L'immagine e' disegnata qui e non presa da og/: cosi' vale per tutte le
+     schede, comprese quelle senza anteprima social gia' generata, e resta
+     sempre allineata ai dati. Usa solo cose nostre - titolo, artista, anno,
+     momento iconico gia' parafrasato - mai un verso della canzone (P3). */
+  var cartolina = document.querySelector('[data-cartolina]');
+  if (cartolina) {
+    /* Le due misure che Instagram vuole: 9:16 per la storia, 4:5 per il post
+       (il formato verticale del feed, non il quadrato: occupa piu' schermo).
+       "alto" e "basso" sono le fasce che l'interfaccia di Instagram copre nella
+       storia - profilo in cima, campo di risposta in fondo - e dentro cui non
+       va messo niente. */
+    var FORMATI = {
+      storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 360, dimFrase: 40 },
+      post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 320, dimFrase: 38 }
+    };
+    var SERIF = '"Iowan Old Style", Georgia, "Times New Roman", serif';
+    var MONO = 'ui-monospace, "SF Mono", Menlo, monospace';
+
+    var logo = new Image();
+    var logoPronto = false;
+    logo.onload = function () { logoPronto = true; };
+    logo.src = cartolina.getAttribute('data-logo') || 'logo.png';
+
+    var apri = cartolina.querySelector('[data-instagram]');
+    var pannello = cartolina.querySelector('[data-formati]');
+    var nota = cartolina.querySelector('[data-cartolina-nota]');
+
+    if (apri && pannello) {
+      apri.addEventListener('click', function () {
+        var eraAperto = !pannello.hidden;
+        pannello.hidden = eraAperto;
+        apri.setAttribute('aria-expanded', eraAperto ? 'false' : 'true');
+      });
+    }
+
+    function dice(messaggio) { if (nota) nota.textContent = messaggio; }
+
+    function avvolgi(x, testo, largh) {
+      var parole = String(testo || '').split(/\\s+/);
+      var righe = [];
+      var riga = '';
+      for (var i = 0; i < parole.length; i++) {
+        if (!parole[i]) continue;
+        var prova = riga ? riga + ' ' + parole[i] : parole[i];
+        if (!riga || x.measureText(prova).width <= largh) riga = prova;
+        else { righe.push(riga); riga = parole[i]; }
+      }
+      if (riga) righe.push(riga);
+      return righe;
+    }
+
+    function tronca(righe, max) {
+      if (righe.length <= max) return righe;
+      var t = righe.slice(0, max);
+      t[max - 1] = t[max - 1].replace(/[ .,;:]+$/, '') + '…';
+      return t;
+    }
+
+    /* Stessa regola dell'H1: si rimpicciolisce finche' il titolo sta nelle
+       righe previste, invece di lasciarlo traboccare. */
+    function adatta(x, testo, largh, maxRighe, dimMax, dimMin) {
+      for (var d = dimMax; d >= dimMin; d -= 2) {
+        x.font = '700 ' + d + 'px ' + SERIF;
+        var r = avvolgi(x, testo, largh);
+        if (r.length <= maxRighe) return { dim: d, righe: r };
+      }
+      x.font = '700 ' + dimMin + 'px ' + SERIF;
+      return { dim: dimMin, righe: tronca(avvolgi(x, testo, largh), maxRighe) };
+    }
+
+    function logoBianco(largh) {
+      var h = Math.round(largh * (logo.naturalHeight / logo.naturalWidth));
+      var c = document.createElement('canvas');
+      c.width = largh; c.height = h;
+      var x = c.getContext('2d');
+      x.drawImage(logo, 0, 0, largh, h);
+      x.globalCompositeOperation = 'source-in';
+      x.fillStyle = '#FFFFFF';
+      x.fillRect(0, 0, largh, h);
+      return c;
+    }
+
+    function disegna(chiave) {
+      var f = FORMATI[chiave];
+      var cv = document.createElement('canvas');
+      cv.width = f.w; cv.height = f.h;
+      var x = cv.getContext('2d');
+
+      var g = x.createLinearGradient(0, 0, f.w, f.h);
+      g.addColorStop(0, cartolina.getAttribute('data-colore') || '#333333');
+      g.addColorStop(1, cartolina.getAttribute('data-colore2') || '#333333');
+      x.fillStyle = g;
+      x.fillRect(0, 0, f.w, f.h);
+
+      /* velatura scura crescente: il testo resta leggibile qualunque sia il
+         colore dell'artista, compresi i gialli e i bianchi */
+      var v = x.createLinearGradient(0, f.h * 0.28, 0, f.h);
+      v.addColorStop(0, 'rgba(0,0,0,0)');
+      v.addColorStop(1, 'rgba(0,0,0,0.68)');
+      x.fillStyle = v;
+      x.fillRect(0, 0, f.w, f.h);
+
+      var marg = 84;
+      var largh = f.w - marg * 2;
+      var altLogo = logoPronto ? Math.round(f.logo * (logo.naturalHeight / logo.naturalWidth)) : 0;
+
+      var sopra = [];
+      var art = cartolina.getAttribute('data-artista');
+      var anno = cartolina.getAttribute('data-anno');
+      if (art) sopra.push(art.toUpperCase());
+      if (anno) sopra.push(anno);
+
+      var t = adatta(x, cartolina.getAttribute('data-titolo') || '', largh, f.righeTitolo, f.dimMax, f.dimMin);
+      var passoTitolo = Math.round(t.dim * 1.12);
+
+      x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
+      var interlinea = Math.round(f.dimFrase * 1.42);
+
+      /* Prima si misura tutto, poi si disegna: e' l'unico modo per centrare il
+         blocco nella fascia sicura invece di lasciarlo appeso in alto con un
+         terzo di immagine vuoto sotto. */
+      var fissa = (altLogo ? altLogo + 16 : 0) + 30 + 58 + (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 52 + 56;
+      var utile = f.h - f.alto - f.basso - 70;
+      var possibili = Math.max(2, Math.min(f.righeFrase, Math.floor((utile - fissa) / interlinea)));
+      var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili);
+      var totale = fissa + righeFrase.length * interlinea;
+      var y = f.alto + Math.max(0, Math.round((utile - totale) / 2));
+
+      if (altLogo) {
+        x.drawImage(logoBianco(f.logo), marg, y);
+        y += altLogo + 16;
+      }
+      x.font = '26px ' + MONO;
+      x.fillStyle = 'rgba(255,255,255,0.78)';
+      x.fillText(cartolina.getAttribute('data-sito') || 'dietroiltesto.it', marg, y + 22);
+      y += 88;
+
+      if (sopra.length) {
+        x.font = '28px ' + MONO;
+        x.fillStyle = 'rgba(255,255,255,0.92)';
+        x.fillText(sopra.join('  ·  '), marg, y);
+        y += 54;
+      }
+
+      x.fillStyle = '#FFFFFF';
+      x.font = '700 ' + t.dim + 'px ' + SERIF;
+      for (var i = 0; i < t.righe.length; i++) {
+        y += passoTitolo;
+        x.fillText(t.righe[i], marg, y);
+      }
+
+      y += 52;
+      x.font = 'italic 34px ' + SERIF;
+      x.fillStyle = 'rgba(255,255,255,0.72)';
+      x.fillText('♪', marg, y);
+      y += 56;
+
+      x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
+      x.fillStyle = 'rgba(255,255,255,0.94)';
+      for (var k = 0; k < righeFrase.length; k++) {
+        y += interlinea;
+        x.fillText(righeFrase[k], marg, y);
+      }
+
+      /* la stessa promessa che sta sulla pagina: l'immagine gira da sola, e
+         senza questa riga sembrerebbe una citazione del testo */
+      x.font = '22px ' + MONO;
+      x.fillStyle = 'rgba(255,255,255,0.62)';
+      x.fillText('Momento iconico descritto con parole nostre', marg, f.h - f.basso - 16);
+
+      return cv;
+    }
+
+    /* Il file si costruisce senza attese: su iOS la condivisione va chiamata
+       nello stesso gesto del dito, e un solo await in mezzo la fa fallire.
+       Per questo toDataURL (sincrono) invece di toBlob. */
+    function inFile(cv, chiave) {
+      var dati = cv.toDataURL('image/jpeg', 0.92);
+      var bin = atob(dati.split(',')[1]);
+      var byte = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) byte[i] = bin.charCodeAt(i);
+      var nome = (cartolina.getAttribute('data-slug') || 'dietroiltesto') + '-' + chiave + '.jpg';
+      try { return new File([byte], nome, { type: 'image/jpeg' }); } catch (e) { return null; }
+    }
+
+    function scarica(cv, chiave) {
+      var a = document.createElement('a');
+      a.href = cv.toDataURL('image/jpeg', 0.92);
+      a.download = (cartolina.getAttribute('data-slug') || 'dietroiltesto') + '-' + chiave + '.jpg';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    Array.prototype.slice.call(cartolina.querySelectorAll('[data-formato]')).forEach(function (b) {
+      b.addEventListener('click', function () {
+        var chiave = b.getAttribute('data-formato');
+        if (!FORMATI[chiave]) return;
+        if (!logoPronto) { dice('Sto ancora caricando il logo: riprova fra un istante.'); return; }
+        var cv;
+        try { cv = disegna(chiave); } catch (e) { dice('Non sono riuscito a preparare l’immagine su questo browser.'); return; }
+        var file = inFile(cv, chiave);
+        var etichetta = chiave === 'storia' ? 'Storia' : 'Post';
+        if (file && navigator.canShare && navigator.share && navigator.canShare({ files: [file] })) {
+          navigator.share({ files: [file], title: cartolina.getAttribute('data-titolo') || '' }).then(function () {
+            dice('Fatto. In Instagram scegli ' + etichetta + '.');
+          }).catch(function () { dice('Condivisione annullata.'); });
+          return;
+        }
+        scarica(cv, chiave);
+        dice('Immagine scaricata (' + FORMATI[chiave].w + '×' + FORMATI[chiave].h + '): caricala su Instagram come ' + etichetta.toLowerCase() + '.');
+      });
+    });
+  }
+
   /* ------------------------------------------------------ filtri archivio */
 
   var elenco = document.querySelector('[data-elenco]');
