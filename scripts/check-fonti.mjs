@@ -100,11 +100,77 @@ function paragrafi(html, quanti = 3) {
   return out;
 }
 
+/* Ottantasei fonti su 559 tornavano «bloccata ai programmi», e ottanta di
+ * quelle erano Wikipedia che risponde 429 a chi chiede 559 pagine HTML di
+ * fila. Non erano fonti da guardare: era il controllo a bussare male. E il
+ * costo non e' cosmetico — su quelle ottanta **non girava** la verifica che
+ * conta davvero, cioe' se la voce citata parla del brano o dell'album.
+ *
+ * Wikipedia si interroga dalla sua API, che esiste apposta: una richiesta
+ * dice in un colpo se la voce esiste, dove porta un eventuale rinvio, se e'
+ * una disambigua (dichiarato nei pageprops, non indovinato da una frase) e
+ * l'introduzione in testo semplice. Piu' leggera per loro e piu' precisa per
+ * noi. */
+function titoloWiki(u) {
+  const x = new URL(u);
+  const m = decodeURIComponent(x.pathname).match(/^\/wiki\/(.+)$/);
+  return m ? m[1].replace(/_/g, ' ') : null;
+}
+
+async function controllaWikipedia(voce, esito, segnale) {
+  const x = new URL(voce.url);
+  const titolo = titoloWiki(voce.url);
+  if (!titolo) return false;
+  const p = new URLSearchParams({
+    action: 'query', format: 'json', formatversion: '2', redirects: '1',
+    titles: titolo, prop: 'extracts|pageprops', exintro: '1', explaintext: '1',
+  });
+  const r = await fetch(`https://${x.hostname}/w/api.php?${p}`, {
+    signal: segnale, headers: { 'user-agent': UA, accept: 'application/json' },
+  });
+  esito.stato = r.status;
+  if (!r.ok) return false;               // ripiego sul controllo HTML normale
+  const d = await r.json();
+  const pagina = ((d.query || {}).pages || [])[0];
+  if (!pagina) return false;
+  esito.finale = `https://${x.hostname}/wiki/${encodeURIComponent((pagina.title || titolo).replace(/ /g, '_'))}`;
+  if (pagina.missing) {
+    esito.classe = 'errore';
+    esito.nota = 'la voce non esiste su Wikipedia';
+    return true;
+  }
+  const rinvii = (d.query || {}).redirects || [];
+  if (rinvii.length) {
+    esito.classe = 'spostata';
+    esito.nota = `la voce rinvia a «${pagina.title}»`;
+  }
+  if ((pagina.pageprops || {}).disambiguation !== undefined) {
+    esito.classe = 'disambigua';
+    esito.nota = 'pagina di disambiguazione: non contiene fatti sul brano';
+    return true;
+  }
+  const testo = (pagina.extract || '').replace(/\s+/g, ' ').trim();
+  if (voce.ruolo !== 'album' && testo && RE_ALBUM.test(testo) && !RE_BRANO.test(testo)) {
+    esito.classe = 'altra-opera';
+    esito.nota =
+      `sembra la voce di un album, non del brano: «${testo.slice(0, 140)}…» ` +
+      `— se è voluto, aggiungi "ruolo": "album" a questa fonte in dati/canzoni.json`;
+  }
+  return true;
+}
+
 async function controlla(voce) {
   const esito = { ...voce, stato: null, classe: 'ok', nota: '', finale: '' };
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), ATTESA_MS);
   try {
+    let ospite = '';
+    try { ospite = new URL(voce.url).hostname; } catch { /* url malformato: lo dira' il fetch */ }
+    if (/(^|\.)wikipedia\.org$/.test(ospite)) {
+      const fatto = await controllaWikipedia(voce, esito, ctrl.signal);
+      if (fatto) return esito;
+      // se l'API non risponde si prosegue col controllo HTML di sempre
+    }
     const r = await fetch(voce.url, {
       redirect: 'follow',
       signal: ctrl.signal,
