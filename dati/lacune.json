@@ -380,6 +380,76 @@
     "motivo": null
   },
   {
+    "id": "album:caparezza:museica:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "caparezza/museica",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:caparezza:prisoner-709:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "caparezza/prisoner-709",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:alaska-baby:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/alaska-baby",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:bagus:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/bagus",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:il-primo-bacio-sulla-luna:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/il-primo-bacio-sulla-luna",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:la-teoria-dei-colori:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/la-teoria-dei-colori",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:cesare-cremonini:logico:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "cesare-cremonini/logico",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:cesare-cremonini:maggese:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -1673,84 +1743,14 @@
     "motivo": "Aperto direttamente NonSoloCinema (recensione dell'epoca): parla del concept dell'album (il finto necrologio, la rinascita dell'artista) ma non descrive la copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
-    "id": "album:caparezza:museica:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/museica",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:caparezza:prisoner-709:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "caparezza/prisoner-709",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:alaska-baby:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/alaska-baby",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:bagus:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/bagus",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:il-primo-bacio-sulla-luna:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/il-primo-bacio-sulla-luna",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:cesare-cremonini:la-ragazza-del-futuro:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "cesare-cremonini/la-ragazza-del-futuro",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:la-teoria-dei-colori:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/la-teoria-dei-colori",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:cesare-cremonini:logico:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "cesare-cremonini/logico",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperto direttamente sia il sito ufficiale (annuncio dell'album) sia AllMusicItalia (trascrizione della conferenza stampa, firma Giorgia Dughetti): entrambi ricchi di citazioni dirette di Cremonini sul disco, ma nessuna delle due parla della copertina. Una descrizione circolante (natura e infanzia, progetto murales 'Io vorrei') non ha una fonte di livello A/B verificata direttamente."
   },
   {
     "id": "album:cesare-cremonini:possibili-scenari:copertina",

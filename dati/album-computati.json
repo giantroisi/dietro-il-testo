@@ -1764,10 +1764,10 @@
     "slug": "museica",
     "titolo": "Museica",
     "anno": "2014",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1775,10 +1775,10 @@
     "slug": "prisoner-709",
     "titolo": "Prisoner 709",
     "anno": "2017",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1797,10 +1797,10 @@
     "slug": "bagus",
     "titolo": "Bagùs",
     "anno": "2002",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1819,10 +1819,10 @@
     "slug": "il-primo-bacio-sulla-luna",
     "titolo": "Il primo bacio sulla Luna",
     "anno": "2008",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1830,10 +1830,10 @@
     "slug": "la-teoria-dei-colori",
     "titolo": "La teoria dei colori",
     "anno": "2012",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1841,10 +1841,10 @@
     "slug": "logico",
     "titolo": "Logico",
     "anno": "2014",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -1874,10 +1874,10 @@
     "slug": "alaska-baby",
     "titolo": "Alaska Baby",
     "anno": "2024",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

@@ -1578,15 +1578,27 @@
         "titolo": "Museica",
         "anno": "2014",
         "nota": null,
-        "copertina": null,
-        "slug": "museica"
+        "copertina": "Un dipinto dell'artista Domenico Dell'Osso, esponente del pop surrealismo italiano, scelto direttamente da Caparezza. Lo stesso Dell'Osso l'ha descritto come opera che \"rappresenta la spettacolarità del creato dove nulla può esistere senza il suo opposto, un equilibrio perfetto\", da apprezzare \"abbandonando ogni vano tentativo di dominio e controllo sull'esistenza\".",
+        "slug": "museica",
+        "copertinaFonte": [
+          {
+            "url": "https://www.dellosso.it/caparezza-sceglie-dellosso-per-museica-pubblicato-da-universal-music/",
+            "nome": "Domenico Dell'Osso (sito ufficiale dell'artista)"
+          }
+        ]
       },
       {
         "titolo": "Prisoner 709",
         "anno": "2017",
         "nota": null,
-        "copertina": null,
-        "slug": "prisoner-709"
+        "copertina": "Un artwork esclusivamente fotografico, firmato dai fotografi Daloiso & D'Andrea su progetto dello studio Labbestia: un racconto per immagini del percorso di \"prigionia mentale\" dell'artista, con un effetto lenticolare sulla copertina del vinile.",
+        "slug": "prisoner-709",
+        "copertinaFonte": [
+          {
+            "url": "https://www.labbestia.com/project/prisoner-709-caparezza/",
+            "nome": "Labbestia Graphic Design & Art Direction (portfolio ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Exuvia",
@@ -1631,8 +1643,14 @@
         "titolo": "Bagùs",
         "anno": "2002",
         "nota": null,
-        "copertina": null,
-        "slug": "bagus"
+        "copertina": "Realizzata dallo studio Mollusco & Balena, secondo i crediti ufficiali pubblicati sul sito dell'artista.",
+        "slug": "bagus",
+        "copertinaFonte": [
+          {
+            "url": "https://www.cesarecremonini.it/news/8-discografia/92-bagus",
+            "nome": "Cesare Cremonini (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Maggese",
@@ -1651,22 +1669,40 @@
         "titolo": "Il primo bacio sulla Luna",
         "anno": "2008",
         "nota": null,
-        "copertina": null,
-        "slug": "il-primo-bacio-sulla-luna"
+        "copertina": "Art cover di Gianluca Patini (studio We Associates), su una fotografia di Luigi Bussolati, secondo i crediti ufficiali pubblicati sul sito dell'artista.",
+        "slug": "il-primo-bacio-sulla-luna",
+        "copertinaFonte": [
+          {
+            "url": "https://www.cesarecremonini.it/news/8-discografia/34-il-primo-bacio-sulla-luna-2",
+            "nome": "Cesare Cremonini (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "La teoria dei colori",
         "anno": "2012",
         "nota": null,
-        "copertina": null,
-        "slug": "la-teoria-dei-colori"
+        "copertina": "Realizzata dallo studio Apart Collective, secondo i crediti ufficiali pubblicati sul sito dell'artista.",
+        "slug": "la-teoria-dei-colori",
+        "copertinaFonte": [
+          {
+            "url": "https://www.cesarecremonini.it/news/8-discografia/26-la-teoria-dei-colori-cc",
+            "nome": "Cesare Cremonini (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Logico",
         "anno": "2014",
         "nota": null,
-        "copertina": null,
-        "slug": "logico"
+        "copertina": "Realizzata dallo studio Apart Collective, secondo i crediti ufficiali pubblicati sul sito dell'artista.",
+        "slug": "logico",
+        "copertinaFonte": [
+          {
+            "url": "https://www.cesarecremonini.it/news/8-discografia/22-logico-2",
+            "nome": "Cesare Cremonini (sito ufficiale)"
+          }
+        ]
       },
       {
         "titolo": "Possibili scenari",
@@ -1686,8 +1722,14 @@
         "titolo": "Alaska Baby",
         "anno": "2024",
         "nota": null,
-        "copertina": null,
-        "slug": "alaska-baby"
+        "copertina": "Uno sfondo bianco: \"il bianco in copertina rappresenta la luce vitale che mi ha spinto a creare un album capace di guardare al futuro\", ha spiegato lo stesso Cremonini, raccontando come l'idea sia nata durante il viaggio in Alaska che ha ispirato il disco.",
+        "slug": "alaska-baby",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rollingstone.it/musica/interviste-musica/alaska-baby-lalbum-di-debutto-di-cesare-cremonini/953183/",
+            "nome": "Rolling Stone Italia"
+          }
+        ]
       }
     ],
     "canzoni": [
