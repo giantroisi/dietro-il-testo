@@ -201,6 +201,25 @@ stampa("Forse la voce di un'altra opera — da guardare, non da correggere a occ
 stampa('Fonti spostate — l\'indirizzo citato non è più quello finale', spostate, false);
 stampa('Bloccate ai programmi — quasi sempre vive: aprile in un browser, non correggerle a occhi chiusi', bloccate, false);
 
+/* SENZA RETE QUESTO CONTROLLO NON DICE NIENTE, E IL SILENZIO E' PEGGIO DEL
+ * RUMORE. Lanciato da una macchina senza uscita di rete, ogni fetch fallisce e
+ * ogni fonte finisce in 'errore': il risultato e' un elenco di 559 fonti
+ * «morte» che in realta' non sono mai state interrogate. E' successo davvero,
+ * due volte, e la seconda quel file falso e' stato anche committato,
+ * cancellando l'ultima fotografia vera (414 ok su 417). Quindi: se TUTTE le
+ * fonti falliscono, o se le prime fallite sono errori di rete e non risposte
+ * HTTP, il controllo si dichiara non valido, non scrive niente e esce. */
+const erroriDiRete = risultati.filter(
+  (r) => r.classe === 'errore' && /fetch failed|EAI_AGAIN|ENOTFOUND|ECONNREFUSED|getaddrinfo|network/i.test(r.nota || '')
+);
+const senzaRete = risultati.length > 0 && erroriDiRete.length === risultati.length;
+if (senzaRete) {
+  console.error(`\nTutte e ${risultati.length} le fonti hanno fallito con un errore di rete.`);
+  console.error('Non e un risultato: e l assenza di connessione. Non scrivo dati/fonti-stato.json');
+  console.error('e non riporto nessun numero, perche sarebbe falso. Rilancia da una macchina con rete.');
+  process.exit(2);
+}
+
 if (scriviJson) {
   writeFileSync('dati/fonti-stato.json', JSON.stringify({ quando: new Date().toISOString(), risultati }, null, 2));
   console.log('\nScritto dati/fonti-stato.json');
