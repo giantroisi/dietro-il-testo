@@ -1220,7 +1220,11 @@ export function paginaHome(ctx) {
     // F69: i meta di verifica stanno solo qui — entrambi i motori verificano
     // dalla home, e appesantire 422 pagine non servirebbe a nulla.
     verifiche: true,
-    titolo: 'Cerca una canzone, un album o una band',
+    // SEO: il titolo precedente ('Cerca una canzone, un album o una band') era
+    // un'istruzione d'interfaccia, non una parola chiave: la home e' la pagina
+    // con piu' autorita' del dominio e non competeva su nulla. 35 caratteri,
+    // cosi' il suffisso di marca resta sotto i 60 (F57 in guscio.mjs).
+    titolo: 'Significato delle canzoni, spiegato',
     descrizione: `${canzoni.length} canzoni e ${artisti.length} artisti: contesto, significato e fonti verificate. Mai i testi.`,
     totali: ctx.totali,
     raccolte: ctx.raccolte,
