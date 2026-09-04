@@ -8426,7 +8426,7 @@
     "testoUrl": "https://www.letras.com/finley/613635/",
     "fonti": [
       {
-        "url": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo)",
+        "url": "https://it.wikipedia.org/wiki/Tutto_%C3%A8_possibile_(singolo_Finley)",
         "nome": "Wikipedia"
       },
       {
@@ -9962,7 +9962,8 @@
     "fonti": [
       {
         "url": "https://en.wikipedia.org/wiki/Cast_in_Steel",
-        "nome": "Wikipedia"
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "album"
       },
       {
         "url": "https://www.radiocremebrulee.com/reviews/a-has-under-the-make-up-brims-with-melancholy/",
@@ -10448,7 +10449,7 @@
     "testoUrl": "https://www.letras.com/ac-dc/614/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Thunderstruck_(song)",
+        "url": "https://en.wikipedia.org/wiki/Thunderstruck",
         "nome": "Wikipedia (voce del brano)"
       },
       {
@@ -10498,7 +10499,7 @@
       {
         "url": "https://en.wikipedia.org/wiki/Ballbreaker",
         "nome": "Wikipedia (voce dell'album)",
-        "ruolo": "storia"
+        "ruolo": "album"
       },
       {
         "url": "https://kworb.net/spotify/",
