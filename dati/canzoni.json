@@ -864,7 +864,6 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "rottura",
       "ossessione-gelosia"
     ]
   },
@@ -5786,9 +5785,7 @@
       }
     ],
     "testoFonte": "AngoloTesti",
-    "temi": [
-      "rottura"
-    ]
+    "temi": []
   },
   {
     "slug": "break-stuff",
