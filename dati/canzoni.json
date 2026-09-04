@@ -547,8 +547,7 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "salute-mentale",
-      "rottura"
+      "salute-mentale"
     ]
   },
   {
@@ -1796,7 +1795,6 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "alienazione",
       "salute-mentale"
     ]
   },
@@ -3865,7 +3863,6 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "alienazione",
       "salute-mentale"
     ]
   },
@@ -6302,7 +6299,6 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "alienazione",
       "salute-mentale"
     ]
   },
@@ -7574,9 +7570,7 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "rottura"
-    ]
+    "temi": []
   },
   {
     "slug": "champagne-supernova",

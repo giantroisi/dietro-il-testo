@@ -1283,6 +1283,9 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Il conto dei quattro temi rivisti**: `identita` 15 su 28 (54%), `critica-sociale` 4 su 23 (17%), `alienazione` 3 su 14 (21%), `rottura` 2 su 17 (12%). Resta `liberta-evasione` (16).
 **Verificato, non solo scritto**: per entrambe le rimozioni la frase della scheda che le motiva e' incollata qui sopra, e le tre schede al limite (`rimmel`, `piggy`, `should-i-stay`) sono state rilette **per intero** prima di decidere — con un verdetto ribaltato su una delle tre. Nessuna modifica ai dati: `dati/canzoni.json` e' la colonna di Sonnet.
 
+- **4 settembre 2026 — Applicati ai dati i verdetti di Opus su `alienazione` e `rottura`.** Stesso schema di `critica-sociale`: Opus verifica con una definizione scritta, io applico la modifica a `dati/canzoni.json`. `alienazione`: tolta da `chelsea-smile`, `numb`, `wait-and-bleed` — tutti e tre confondevano il dolore interiore nascosto (`salute-mentale`) con l'estraneità dagli altri (`alienazione`); restano `salute-mentale`, che tutti e tre avevano già. `rottura`: tolta da `paranoid` (la relazione chiusa è conseguenza dello stato mentale descritto, non l'argomento — resta `salute-mentale`) e `piggy` (la rottura raccontata è biografica, fra Reznor e Patrick, non dentro il testo — resta senza temi).
+**Verificato, non solo scritto**: le cinque rimozioni corrispondono esattamente alle schede indicate nei due verdetti, con lo stato dei dati controllato prima e dopo. `check-coerenza` 0.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
