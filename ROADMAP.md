@@ -1243,6 +1243,17 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Nota sui dati che si muovono**: `21-guns` e `fast-car` erano nell'elenco dei taggati `critica-sociale` quando ho preparato il lotto, e non lo sono piu' (oggi `guerra` e `liberta-evasione`). Sonnet sta lavorando sugli stessi campi in parallelo: **l'elenco di un lotto va ripreso dai dati al momento di eseguirlo**, non da una lista scritta prima.
 **Verificato, non solo scritto**: per ognuna delle cinque conferme e' incollata qui sopra la frase della scheda che sostiene il tema. Nessuna modifica ai dati: `dati/canzoni.json` e' la colonna di Sonnet, qui c'e' solo il verdetto.
 
+
+- **4 settembre 2026 — F72: `critica-sociale` chiuso per intero. 23 schede lette, 19 confermate, 4 da togliere.** Definizione approvata dall'autore e applicata a tutte: *il brano prende posizione contro un assetto collettivo — potere, istituzioni, media, guerra come scelta politica, disuguaglianza, conformismo imposto — e il bersaglio e' una struttura o un comportamento collettivo, non una persona ne' una vicenda privata.*
+  **Le quattro da togliere, con la ragione.**
+  **`stairway-to-heaven`** — la scheda dice che il brano «racconta di una donna convinta che il denaro possa comprare la felicita'», e Plant lo definisce «un commento cinico su una donna che ottiene sempre tutto cio' che vuole». **Il bersaglio e' una persona, non un assetto**: e' esattamente il confine tracciato dalla definizione. **Resta senza nessun tema**, e va bene cosi'.
+  **`sweet-home-alabama`** — e' una **replica polemica a Neil Young**, piu' la rivendicazione di un Sud meno generalizzato. Il Watergate compare, ma per dire che *non turba* il narratore. Nessuna presa di posizione contro un assetto collettivo: c'e' una controversia fra artisti. **Resta senza nessun tema.**
+  **`mantra`** — il testo accosta le dinamiche di una setta a quelle di **una relazione amorosa totalizzante**: la setta e' la metafora, il soggetto e' privato. Resta `ossessione-gelosia`, che e' il tema giusto.
+  **`giovani-wannabe`** — il corpo della scheda **non contiene alcuna critica**: sono date di uscita, classifiche e certificazioni. Il solo appiglio e' nel momento iconico, che «guarda con ironia all'ansia di apparire» — uno sguardo, non una presa di posizione. Resta `identita`.
+  **Il numero che cambia una previsione.** Su `identita` erano cadute 15 schede su 28 (54%); qui 4 su 23 (17%). **`critica-sociale` e' assegnato molto meglio**, e la mia stima di «una quarantina di temi da togliere» sui quattro temi era pessimista: se il rapporto tiene sugli altri tre, sono una decina. Il dato conta anche in senso opposto — dice che il problema di F30 non era uniforme, e che i temi vanno guardati uno per uno invece di trattarli come un blocco.
+  **Due schede resteranno senza tema**, e non e' un difetto: e' la stessa scelta gia' fatta sei volte nella passata su `identita`. Meglio nessun tema che un tema che il testo non sostiene.
+**Verificato, non solo scritto**: per tutte e 23 il giudizio e' preso **dal testo della scheda**, non dalla reputazione della canzone, e per le quattro rimozioni la frase che lo motiva e' incollata qui sopra. Nessuna modifica ai dati: `dati/canzoni.json` e' la colonna di Sonnet. **Prossimo tema: `alienazione` (23 schede).**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
