@@ -6,11 +6,6 @@
       "permanent": true
     },
     {
-      "source": "/album/adriano-celentano/la-festa/",
-      "destination": "/artista/adriano-celentano/",
-      "permanent": true
-    },
-    {
       "source": "/album/adriano-celentano/adriano-rock/",
       "destination": "/artista/adriano-celentano/",
       "permanent": true

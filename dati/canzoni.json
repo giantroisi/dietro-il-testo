@@ -12122,5 +12122,49 @@
     ],
     "testoFonte": "Letras",
     "temi": []
+  },
+  {
+    "slug": "chi-era-lui",
+    "titolo": "Chi era lui",
+    "artista": "Adriano Celentano",
+    "artistaSlug": "adriano-celentano",
+    "anno": "1966",
+    "album": "La festa",
+    "albumSlug": "la-festa",
+    "genereTesto": "Beat",
+    "generi": [
+      "pop"
+    ],
+    "paese": "Italia",
+    "colore": "#3E3E5A",
+    "colore2": "#8A6E2E",
+    "ascolti": 160672,
+    "ascoltiTesto": "161 mila ascolti",
+    "spotifyId": "0Vlo5YKJm2zQs9vMpJWZCA",
+    "corpo": [
+      "Lato B del singolo di Sanremo 1966 \"Il ragazzo della via Gluck\", con testo di Mogol e Miki Del Prete su musica di Paolo Conte: una delle prime composizioni scritte da Conte per un altro interprete, alcuni anni prima di iniziare la propria carriera da cantautore. Fu l'inizio di una collaborazione con Celentano proseguita negli anni successivi con \"La coppia più bella del mondo\" (1967) e, soprattutto, \"Azzurro\" (1968).",
+      "Il brano è una riflessione sulla figura di Gesù, in un testo che si interroga su quanto la sua vicenda sia stata davvero compresa a duemila anni di distanza: si inserisce nel filone della cosiddetta \"messa beat\", il movimento di canzoni religiose in chiave pop-beat nato in Italia a metà degli anni Sessanta."
+    ],
+    "fraseIconica": "Il verso più citato è la domanda che dà il titolo al brano, ripetuta come un ritornello: chi era lui davvero, al di là di come viene ricordato dopo duemila anni. Il testo racconta di una figura derisa perché diversa dagli altri, della quale solo troppo tardi si comprende il valore.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/adriano-celentano/606953/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Il_ragazzo_della_via_Gluck/Chi_era_lui",
+        "nome": "Wikipedia (voce del singolo)"
+      },
+      {
+        "url": "https://www.rockol.it/news-716482/paolo-conte-la-storia-dell-album-d-esordio-come-cantautore",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1yq9UuPp5DIb5w6eswGbKV_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": []
   }
 ]

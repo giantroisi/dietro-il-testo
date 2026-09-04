@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 275,
+    "nCanzoni": 276,
     "haTestoEditoriale": true
   },
   {
@@ -1412,6 +1412,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/chi-era-lui/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1450,7 +1455,7 @@
     "percorso": "artista/adriano-celentano/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 7,
+    "nCanzoni": 8,
     "haTestoEditoriale": true
   },
   {
@@ -2463,6 +2468,13 @@
   },
   {
     "percorso": "album/adriano-celentano/non-mi-dir/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/adriano-celentano/la-festa/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3676,7 +3688,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 114,
+    "nCanzoni": 115,
     "haTestoEditoriale": true
   },
   {
