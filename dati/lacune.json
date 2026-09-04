@@ -690,6 +690,26 @@
     "motivo": null
   },
   {
+    "id": "album:ligabue:made-in-italy:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/made-in-italy",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:ligabue:mondovisione:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/mondovisione",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
     "id": "album:ligabue:nome-e-cognome:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -698,6 +718,16 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-28",
     "motivo": "confermata da fonti convergenti (Rockit); il testo già diceva 'descritto dalla stampa', non una citazione diretta di Ligabue"
+  },
+  {
+    "id": "album:ligabue:start:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "ligabue/start",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
   },
   {
     "id": "album:limp-bizkit:significant-other:fonte-copertina",
@@ -868,6 +898,36 @@
     "stato": "fatto",
     "ultimoTentativo": "2026-08-30",
     "motivo": "confermata: Loudwire, con citazione diretta del fotografo Brad Guice che smentisce la leggenda metropolitana"
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:fake-news:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pinguini-tattici-nucleari/fake-news",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:gioventu-brucata:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pinguini-tattici-nucleari/gioventu-brucata",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
+  },
+  {
+    "id": "album:pinguini-tattici-nucleari:hello-world:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "pinguini-tattici-nucleari/hello-world",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": null
   },
   {
     "id": "album:pink-floyd:wish-you-were-here:fonte-copertina",
@@ -1893,34 +1953,14 @@
     "motivo": "Aperto direttamente music.fanpage.it (un articolo per il trentennale del disco, 2020): racconta il video-ringraziamento di Ligabue ai fan, non la copertina. Nessun'altra fonte di livello A/B trovata."
   },
   {
-    "id": "album:ligabue:made-in-italy:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/made-in-italy",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:ligabue:miss-mondo:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
     "soggetto": "ligabue/miss-mondo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:ligabue:mondovisione:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/mondovisione",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "L'unica attribuzione trovata (foto di Pierpaolo Ferrari, artwork di Artbeat e Antonio Rainone) viene da schede Discogs/aggregatori, livello C. Nessuna intervista o fonte di livello A/B trovata sul concept della copertina."
   },
   {
     "id": "album:ligabue:sopravvissuti-e-sopravviventi:copertina",
@@ -1931,16 +1971,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-30",
     "motivo": "sospeso: un riassunto di ricerca descriveva maschere teatrali scelte dai musicisti e un teatro di Correggio, ma sia Wikipedia sia la fonte originale (spettakolo.it, bloccata/403) non hanno confermato il dettaglio con una citazione verificabile"
-  },
-  {
-    "id": "album:ligabue:start:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "ligabue/start",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
   },
   {
     "id": "album:lucio-dalla:dallamericaruso:copertina",
@@ -2008,39 +2038,9 @@
     "tipo": "copertina-album",
     "soggetto": "pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:fake-news:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/fake-news",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:gioventu-brucata:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/gioventu-brucata",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:pinguini-tattici-nucleari:hello-world:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "pinguini-tattici-nucleari/hello-world",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Aperta direttamente la scheda Rockit dell'album, che pubblica crediti tecnici dettagliati (studio di registrazione, produttore) ma nessuna riga sulla copertina, a differenza di altri album della stessa band sullo stesso sito (es. Gioventù Brucata). Nessun'altra fonte trovata."
   },
   {
     "id": "album:pinguini-tattici-nucleari:il-re-e-nudo:copertina",
@@ -2048,9 +2048,9 @@
     "tipo": "copertina-album",
     "soggetto": "pinguini-tattici-nucleari/il-re-e-nudo",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-04",
+    "motivo": "Cercato su Rockit, Discogs e altrove: nessuna fonte, nemmeno di livello C, descrive o attribuisce la copertina di questo primo album della band."
   },
   {
     "id": "album:pino-daniele:vai-mo:copertina",

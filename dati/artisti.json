@@ -5940,22 +5940,40 @@
         "titolo": "Mondovisione",
         "anno": "2013",
         "nota": "7x disco di platino",
-        "copertina": null,
-        "slug": "mondovisione"
+        "copertina": "Il mondo raffigurato tutto accartocciato su sé stesso, svelato da Ligabue sui suoi canali social ufficiali.",
+        "slug": "mondovisione",
+        "copertinaFonte": [
+          {
+            "url": "https://www.tgcom24.mediaset.it/spettacolo/articoli/2005340/ligabue-svela-la-copertina-del-cd-mondovisione-.shtml",
+            "nome": "TGCOM24"
+          }
+        ]
       },
       {
         "titolo": "Made in Italy",
         "anno": "2016",
         "nota": "3x disco di platino",
-        "copertina": null,
-        "slug": "made-in-italy"
+        "copertina": "Disegnata da Paolo De Francesco, che da anni cura l'immagine di tutta la produzione di Ligabue, e svelata dall'artista stesso in diretta sui social insieme alla tracklist del disco.",
+        "slug": "made-in-italy",
+        "copertinaFonte": [
+          {
+            "url": "https://www.allmusicitalia.it/news/ligabue-svela-copertina-e-tracklist-di-made-in-italy.html",
+            "nome": "AllMusicItalia"
+          }
+        ]
       },
       {
         "titolo": "Start",
         "anno": "2019",
         "nota": "2x disco di platino",
-        "copertina": null,
-        "slug": "start"
+        "copertina": "Lo stesso Ligabue l'ha descritta come \"essenziale\", in linea con il resto del disco: \"Lo sono la copertina, il titolo (una sola sillaba), la durata dell'album (solo 38 minuti), il numero di canzoni\".",
+        "slug": "start",
+        "copertinaFonte": [
+          {
+            "url": "https://arte.sky.it/archivio/2019/03/pop-ed-essenziale-e-start-il-nuovo-album-di-ligabue",
+            "nome": "Sky Arte"
+          }
+        ]
       },
       {
         "titolo": "7",
@@ -8528,8 +8546,14 @@
         "titolo": "Gioventù brucata",
         "anno": "2017",
         "nota": null,
-        "copertina": null,
-        "slug": "gioventu-brucata"
+        "copertina": "Realizzata dall'illustratore Mattia La Badessa, con le grafiche interne curate dallo studio Auge Headquarters di Milano.",
+        "slug": "gioventu-brucata",
+        "copertinaFonte": [
+          {
+            "url": "https://www.rockit.it/pinguinitatticinucleari/album/gioventu-brucata/39425",
+            "nome": "Rockit"
+          }
+        ]
       },
       {
         "titolo": "Fuori dall'hype",
@@ -8549,15 +8573,27 @@
         "titolo": "Fake News",
         "anno": "2022",
         "nota": null,
-        "copertina": null,
-        "slug": "fake-news"
+        "copertina": "Il disco uscì in quattro copertine fisiche diverse, ciascuna intitolata a una diversa \"fake news\" sulla band — \"Scioglimento\", \"RIP\", \"Love story\", \"Stupefacenti\" — a richiamare il titolo dell'album, nato da una falsa voce circolata sull'imminente scioglimento del gruppo.",
+        "slug": "fake-news",
+        "copertinaFonte": [
+          {
+            "url": "https://www.spettacolo.eu/pinguini-tattici-nucleari-fake-news-album-annuncio/",
+            "nome": "Spettacolo.eu"
+          }
+        ]
       },
       {
         "titolo": "Hello World",
         "anno": "2024",
         "nota": null,
-        "copertina": null,
-        "slug": "hello-world"
+        "copertina": "Un mappamondo colorato che raffigura un'aurora boreale. Riccardo Zanotti ha spiegato che nasce da una tecnologia che legge le frequenze neurali di alcuni sostenitori della band tramite appositi sensori e le traduce in colore: \"l'aurora boreale che vedete sulla cover è la somma di tutte le emozioni e le frequenze neurali che abbiamo registrato\".",
+        "slug": "hello-world",
+        "copertinaFonte": [
+          {
+            "url": "https://www.chimagazine.it/news/musica/pinguini-tattici-nucleari-con-hello-world/",
+            "nome": "Chi Magazine"
+          }
+        ]
       }
     ],
     "canzoni": [

@@ -366,9 +366,7 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "liberta-evasione"
-    ]
+    "temi": []
   },
   {
     "slug": "hotel-california",
@@ -4414,8 +4412,7 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "morte-lutto",
-      "liberta-evasione"
+      "morte-lutto"
     ]
   },
   {
@@ -5308,9 +5305,7 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "liberta-evasione"
-    ]
+    "temi": []
   },
   {
     "slug": "hypa-hypa",
@@ -8604,9 +8599,7 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "liberta-evasione"
-    ]
+    "temi": []
   },
   {
     "slug": "easier",
@@ -8788,7 +8781,6 @@
     ],
     "testoFonte": "Letras",
     "temi": [
-      "liberta-evasione",
       "ribellione"
     ]
   },

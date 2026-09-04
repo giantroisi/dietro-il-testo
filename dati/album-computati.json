@@ -7198,10 +7198,10 @@
     "slug": "mondovisione",
     "titolo": "Mondovisione",
     "anno": "2013",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7209,10 +7209,10 @@
     "slug": "made-in-italy",
     "titolo": "Made in Italy",
     "anno": "2016",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -7220,10 +7220,10 @@
     "slug": "start",
     "titolo": "Start",
     "anno": "2019",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10355,10 +10355,10 @@
     "slug": "gioventu-brucata",
     "titolo": "Gioventù brucata",
     "anno": "2017",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10388,10 +10388,10 @@
     "slug": "fake-news",
     "titolo": "Fake News",
     "anno": "2022",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -10399,10 +10399,10 @@
     "slug": "hello-world",
     "titolo": "Hello World",
     "anno": "2024",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
