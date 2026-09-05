@@ -175,17 +175,33 @@ for (const [slug, titolo] of Object.entries(scelti)) {
   if (prova) { ok++; continue; }
 
   mkdirSync('ritratti', { recursive: true });
-  let r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
-  if (!r.ok) {
-    // Un solo secondo tentativo, dopo una pausa: se e' un limite di richieste
-    // basta; se e' un 404 fallisce di nuovo e lo diciamo con l'indirizzo, cosi'
-    // si puo' aprire a mano invece di indovinare.
-    await new Promise((x) => setTimeout(x, 2500));
-    r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+  // Quattro tentativi con attesa che raddoppia (3s, 6s, 12s), e solo per i
+  // codici che significano «riprova»: 429 troppe richieste, 503 servizio
+  // occupato. Un 404 fallisce subito, com'e' giusto.
+  // La versione precedente riprovava una volta sola dopo 2,5 secondi, ed e'
+  // la stessa scorciatoia che in modalita' anteprime aveva gia' prodotto 57
+  // fallimenti su 60: qui la correzione era stata fatta li' e non qui.
+  // Su cinque foto su nove il primo giro e' tornato a mani vuote senza che si
+  // riuscisse a dire perche'; adesso, almeno, l'attesa e' quella giusta e il
+  // motivo viene stampato per intero.
+  let r;
+  for (let t = 0; t < 4; t++) {
+    try {
+      r = await fetch(indirizzo, { headers: { 'user-agent': UA, accept: 'image/*' } });
+    } catch (e) {
+      console.error(`✗ ${slug}: rete — ${e.cause ? e.cause.code || e.cause.message : e.message}`);
+      console.error(`   ${indirizzo}`);
+      r = null; break;
+    }
+    if (r.status !== 429 && r.status !== 503) break;
+    console.log(`         ${r.status}, aspetto ${3 * 2 ** t}s e riprovo (${t + 1}/4)`);
+    await new Promise((x) => setTimeout(x, 3000 * 2 ** t));
   }
-  if (!r.ok) {
-    console.error(`✗ ${slug}: lo scarico risponde ${r.status}`);
-    console.error(`   ${indirizzo}`);
+  if (!r || !r.ok) {
+    if (r) {
+      console.error(`✗ ${slug}: lo scarico risponde ${r.status}`);
+      console.error(`   ${indirizzo}`);
+    }
     rifiutati++; continue;
   }
   writeFileSync(`ritratti/${nomeFile}`, Buffer.from(await r.arrayBuffer()));
