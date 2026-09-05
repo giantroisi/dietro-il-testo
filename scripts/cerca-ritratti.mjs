@@ -137,6 +137,46 @@ async function fileDellaCategoria(cat) {
   return Object.values((d.query && d.query.pages) || {});
 }
 
+// --- 2b. LE SOTTOCATEGORIE, e perche' senza di esse la ricerca non funzionava.
+// Il vaglio del 5 settembre ha trovato che per i Metallica il candidato migliore
+// era la foto di un fan, e per gli Iron Maiden una targa al cimitero: nessuna
+// foto della band. Non e' che su Commons non ci siano — e' che stanno **nelle
+// sottocategorie** («Concerts», «Members», gli anni), mentre la categoria
+// principale raccoglie il contorno: strumenti, targhe, negozi, oggetti.
+// Chiedere solo i file di primo livello significava guardare esattamente dove
+// le foto non stanno.
+async function sottocategorie(cat) {
+  const p = new URLSearchParams({
+    action: 'query', format: 'json', origin: '*',
+    list: 'categorymembers', cmtitle: cat, cmtype: 'subcat', cmlimit: '15',
+  });
+  const d = await json(`${COMMONS}?${p}`);
+  return ((d.query && d.query.categorymembers) || []).map((x) => x.title);
+}
+
+// --- 2c. LA RICERCA TESTUALE, per i file che nessuna categoria contiene.
+// Su Commons non tutto e' categorizzato bene, e una foto puo' avere il nome
+// dell'artista nel titolo senza stare nella sua categoria. Si cerca nello
+// spazio dei file e si chiedono le informazioni in un colpo solo per 50 titoli:
+// e' la stessa lezione delle 429 che aveva gia' insegnato check-fonti — il
+// problema non era il formato delle richieste, era il numero.
+async function fileCercatiPerNome(nome) {
+  const p = new URLSearchParams({
+    action: 'query', format: 'json', origin: '*',
+    list: 'search', srsearch: `"${nome}"`, srnamespace: '6', srlimit: '50',
+  });
+  const d = await json(`${COMMONS}?${p}`);
+  const titoli = ((d.query && d.query.search) || []).map((x) => x.title).filter((x) => /\.(jpe?g|png)$/i.test(x));
+  if (!titoli.length) return [];
+  await attesa(PAUSA);
+  const q = new URLSearchParams({
+    action: 'query', format: 'json', origin: '*',
+    titles: titoli.join('|'), prop: 'imageinfo', iiprop: 'url|size|extmetadata',
+  });
+  const e = await json(`${COMMONS}?${q}`);
+  return Object.values((e.query && e.query.pages) || {});
+}
+
 function licenzaOk(m) {
   const testo = [m.LicenseShortName, m.UsageTerms, m.License].map((x) => pulisci(x && x.value)).join(' | ');
   if (!testo.trim()) return { ok: false };
@@ -154,7 +194,19 @@ for (const a of elenco) {
     const c = await categoriaDi(a.nome);
     if (!c) { process.stderr.write('nessuna categoria Commons\n'); esito.push({ slug: a.slug, nome: a.nome, schede: quante[a.slug] || 0, categoria: null, candidati: [] }); await attesa(PAUSA); continue; }
     await attesa(PAUSA);
-    const pagine = (await fileDellaCategoria(c.cat)).filter((p) => /\.(jpe?g|png)$/i.test(p.title || ''));
+    // La categoria principale, poi le sue sottocategorie, poi la ricerca per
+    // nome. Le tre fonti si sommano e i doppioni si tolgono per titolo: una
+    // stessa foto puo' stare in tutte e tre.
+    const raccolte = [await fileDellaCategoria(c.cat)];
+    for (const sub of await sottocategorie(c.cat)) {
+      await attesa(PAUSA);
+      raccolte.push(await fileDellaCategoria(sub));
+    }
+    await attesa(PAUSA);
+    try { raccolte.push(await fileCercatiPerNome(a.nome)); } catch (e) { process.stderr.write('(ricerca per nome fallita) '); }
+    const perTitolo = new Map();
+    for (const gruppo of raccolte) for (const p of gruppo) if (p && p.title) perTitolo.set(p.title, p);
+    const pagine = [...perTitolo.values()].filter((p) => /\.(jpe?g|png)$/i.test(p.title || ''));
     const buoni = [];
     for (const p of pagine) {
       const ii = (p.imageinfo || [])[0]; if (!ii) continue;
