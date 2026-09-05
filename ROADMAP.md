@@ -1580,6 +1580,19 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0. `node scripts/check-livelli.mjs`: **120**, partito da 153 stamattina — 33 sotto la soglia originale. Pagina `canzone/adams-song/` aperta nel browser via server locale: corrisponde ai dati e tratta il tema con cura.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **120**.
 
+- **5 settembre 2026 — Sesto lotto della coda: altre nove schede molto cercate senza fonte A/B.** `zombie-cranberries`, `freak-on-a-leash`, `byob`, `wait-and-bleed`, `sonne`, `cowboys-from-hell`, `i-miss-you`, `she-looks-so-perfect`, `can-you-feel-my-heart`. Stesso metodo dei lotti precedenti; due argomenti delicati trattati con la cura già usata per `adams-song` e `darkside`.
+  - **`zombie-cranberries`**: **TIME** (Flora Carr, 2018) — la genesi del brano dopo l'attentato IRA di Warrington, e il tributo pubblico di Colin Parry, padre di una delle due vittime, dopo la morte di O'Riordan.
+  - **`freak-on-a-leash`**: **Metal Hammer/Louder** (2025) — Jonathan Davis racconta anche il metodo di coaching vocale di Ross Robinson per questo brano specifico, al limite del fisico.
+  - **`byob`**: **Metal Hammer/Louder** (2024, cita Entertainment Weekly) — la ricostruzione precisa dell'incidente al Saturday Night Live 2005.
+  - **`wait-and-bleed`**: **Metal Hammer/Louder** (2023) — Corey Taylor racconta di aver scritto il ritornello sui gradini di casa di Clown in un'ora.
+  - **`sonne`**: **RammWiki** (cita il "Making Of" ufficiale e la rivista tedesca XAOC, 2001) — **segnala una vera ambiguità nelle fonti**: anche i membri della band si sono contraddetti su quale dei fratelli Klitschko avesse commissionato il brano: la scheda ora riflette questa incertezza invece di affermare un nome con sicurezza come faceva la versione precedente.
+  - **`cowboys-from-hell`**: **Louder** (2019, intervista a Classic Rock 2010 con tutti e tre i membri superstiti) — Vinnie Paul corregge la narrazione comune: non fu solo Anselmo a portare la pesantezza, i riff erano di Dimebag.
+  - **`i-miss-you`**: **Wikipedia**, che riporta un podcast (2026) e un video Radio X (2019) — **nota di processo**: `check-freno` ha segnalato questa scheda con una sola fonte utile dopo il primo giro di modifiche (28/27, freno attivo); l'ho corretta subito separando le due fonti già lette invece di accorparle, e nel farlo ho scoperto e corretto un URL sbagliato che avevo scritto a mano invece di verificarlo — ripreso da Wikipedia prima di pubblicare.
+  - **`she-looks-so-perfect`**: **Songfacts**, che riporta una citazione di Ashton Irwin a Rolling Stone sull'origine del verso sulla biancheria intima.
+  - **`can-you-feel-my-heart`**: **Loudwire** (2014) — trascrizione integrale del discorso di Oli Sykes agli Alternative Press Music Awards, argomento delicato (dipendenza) trattato con cura.
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0. `node scripts/check-freno.mjs` inizialmente sforato (28/27) per `i-miss-you`, poi rientrato (27/27) dopo la correzione. `node scripts/check-livelli.mjs`: **120 → 115**. Pagina `canzone/can-you-feel-my-heart/` aperta nel browser via server locale: corrisponde ai dati e tratta il tema con cura.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **115**.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
