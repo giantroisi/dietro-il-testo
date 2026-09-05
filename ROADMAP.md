@@ -1659,6 +1659,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito (discordanza `sweet-child` preesistente). `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **43 → 37**.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **37**. Nuovi domini verificati di persona in questo lotto e non ancora classificati: mtv.com, ilsole24ore.com, vanityfair.it (fanpage.it invece risulta già in lista B).
 
+- **5 settembre 2026 — Decimo lotto della coda, parziale: due schede chiuse, quattro tentate senza esito.**
+  - **`fuori-dall-hype`**: **ExitWell** (9 luglio 2019, di Riccardo De Stefano) — Zanotti racconta che il passaggio a una major, temuto in partenza dalla band stessa, si è rivelato nei fatti un miglioramento tecnico del disco senza intaccarne l'identità: un dettaglio che nuance la scheda precedente, che si limitava a descrivere il brano come una presa di posizione contro il sospetto altrui.
+  - **`goodbye-malinconia`**: **Rockol** (24 febbraio 2011) — sostituita Wikipedia con l'intervista diretta sullo stesso album, che conferma il concetto di "eresia" dietro l'intero disco "Il sogno eretico" e il contesto in cui nacque il duetto con Tony Hadley.
+  - **Tentate senza successo, lasciate come sono**: `shes-kinda-hot` (la citazione di Calum Hood già in scheda risulta priva di fonte anche su Wikipedia — nessuna intervista rintracciata con due ricerche), `nord-sud-ovest-est`, `stay-on-these-roads`, `crying-in-the-rain` (nessuna fonte specifica sul brano, solo pezzi generali sulla band o sull'originale degli Everly Brothers).
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **37 → 35**.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **35**.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
