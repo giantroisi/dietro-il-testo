@@ -8605,8 +8605,9 @@
     "testoUrl": "https://www.letras.com/korn/21685/",
     "fonti": [
       {
-        "url": "https://www.songfacts.com/facts/korn/faget",
-        "nome": "Songfacts"
+        "url": "https://www.loudersound.com/news/new-romantic-davis-hit-out-on-faget",
+        "nome": "Metal Hammer / Louder, 20 agosto 2015, di Stef Lach",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -8638,21 +8639,21 @@
     "ascoltiTesto": "23 mln ascolti",
     "spotifyId": "2I0mW1Ldu2FQ8qmhxqQjeA",
     "corpo": [
-      "Scritta da Pietro Cremonesi, Angelo Valsiglio e Federico Cavalli, fu pubblicata nel 1993 come secondo singolo dell'album di debutto di Laura Pausini, dopo il successo di \"La solitudine\"; racconta il vuoto lasciato dalla fine improvvisa di un amore adolescenziale, diventando una delle canzoni più identificate con gli esordi della cantante.",
-      "Il brano fu in seguito adattato in lingua spagnola con il titolo \"Se fue\", ottenendo un ampio successo anche nei mercati latinoamericani e contribuendo a consolidare la carriera internazionale di Pausini fin dai primi anni."
+      "Scritta da Pietro Cremonesi, Angelo Valsiglio e Federico Cavalli, fu pubblicata il 24 giugno 1993 come secondo singolo dell'album di debutto di Laura Pausini, dopo il successo di \"La solitudine\"; racconta il vuoto lasciato dalla fine improvvisa di un amore adolescenziale, diventando una delle canzoni più identificate con gli esordi della cantante.",
+      "Il brano fu adattato in lingua spagnola con il titolo \"Se fue\" già nel 1994, ottenendo un ampio successo anche nei mercati latinoamericani. Nel 2014 Pausini ne pubblicò una nuova versione in duetto con il cantante statunitense Marc Anthony, che debuttò come singolo negli Stati Uniti, a Porto Rico e in Spagna; nel 2024 il brano è tornato in una nuova cover firmata dal cantante portoricano Rauw Alejandro, sempre in duetto con Pausini, inclusa nel suo album \"Cosa nuestra\"."
     ],
-    "fraseIconica": "Il momento più ricordato è la constatazione improvvisa e quasi violenta di un'assenza, più che un distacco graduale — l'immagine di un vuoto che si apre di colpo dopo la fine di un primo amore.",
+    "fraseIconica": "Il momento più duraturo del brano non riguarda il testo ma la sua lunga vita nei duetti: adattato in spagnolo già nel 1994 come \"Se fue\", nel 2014 è tornato in una nuova versione salsa insieme a Marc Anthony, e nel 2024 in un'ulteriore cover con Rauw Alejandro — una carriera che attraversa tre decadi diversi da quella della versione originale del 1993.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/laura-pausini/30288/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Non_c%27%C3%A8",
+        "url": "https://it.wikipedia.org/wiki/Non_c%27%C3%A8",
         "nome": "Wikipedia"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://web.archive.org/web/20140429045508/http://www.radioitalia.it/news/nuova_uscita/8163_laura_pausini%3A_oggi_escono_in_italia_singolo_e_video_di_%E2%80%9Cse_fu%C3%A9%E2%80%9D.php",
+        "nome": "Radio Italia, 28 aprile 2014",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",

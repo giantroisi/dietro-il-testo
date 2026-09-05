@@ -1170,6 +1170,46 @@
     "motivo": "confermata: Velletri Life, con dettagli su Neal Slavin e la serie fotografica Britons"
   },
   {
+    "id": "canzone:ace-of-spades:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "ace-of-spades",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:can-you-feel-my-heart:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "can-you-feel-my-heart",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:crazy-train:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "crazy-train",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:get-lucky:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "get-lucky",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1178,6 +1218,96 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-28",
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
+  },
+  {
+    "id": "canzone:i-miss-you:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "i-miss-you",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:iron-man:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "iron-man",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:livin-on-a-prayer:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "livin-on-a-prayer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:one-step-closer:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "one-step-closer",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:psychosocial:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "psychosocial",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:seven-nation-army:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "seven-nation-army",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:she-looks-so-perfect:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "she-looks-so-perfect",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:should-i-stay:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "should-i-stay",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:supermassive-black-hole:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "supermassive-black-hole",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
   },
   {
     "id": "canzone:the-sound-of-silence:completezza",
@@ -1191,6 +1321,26 @@
     "stato": "accertato-assente",
     "ultimoTentativo": "2026-08-25",
     "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
+  },
+  {
+    "id": "canzone:uprising:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "uprising",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "canzone:whats-my-age-again:fonte-ascolti-orfana",
+    "classe": "C1",
+    "tipo": "fonte-ascolti-orfana",
+    "soggetto": "whats-my-age-again",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
   },
   {
     "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
@@ -1773,6 +1923,66 @@
     "motivo": "Stesso problema di '25': due fonti in conflitto sul fotografo (Simon Emmett vs Charlotte Wales, quest'ultima legata a un servizio per la rivista The Face che potrebbe non essere la copertina dell'album). Nessuna fonte di livello A/B trovata che risolva il conflitto."
   },
   {
+    "id": "album:adriano-celentano:a-new-orleans:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/a-new-orleans",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:adriano-celentano-con-giulio-libano-e-la-sua-orchestra:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:disco-dance:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/disco-dance",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:er-piu-storia-d-amore-e-di-coltello:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/er-piu-storia-d-amore-e-di-coltello",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:i-mali-del-secolo:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/i-mali-del-secolo",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:il-forestiero:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/il-forestiero",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1783,6 +1993,46 @@
     "motivo": "La descrizione della copertina (Celentano a passeggio con un amico, entrambi di spalle, stessa foto del 45 giri) è scritta su Wikipedia IT ma senza nessuna nota a piè di pagina che la sostenga — cioè è essa stessa la fonte, di livello C, non verificabile altrove."
   },
   {
+    "id": "album:adriano-celentano:la-festa:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/la-festa",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:non-mi-dir:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/non-mi-dir",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:nostalrock:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/nostalrock",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
+    "id": "album:adriano-celentano:peppermint-twist:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/peppermint-twist",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
+  },
+  {
     "id": "album:adriano-celentano:svalutation:copertina",
     "classe": "C4",
     "tipo": "copertina-album",
@@ -1791,6 +2041,16 @@
     "stato": "accertato-assente",
     "ultimoTentativo": "2026-09-04",
     "motivo": "Aperto direttamente l'articolo Rockol dedicato al brano (Franco Zanetti/Paolo Madeddu, dalla serie 'Galleria della Canzone'): racconta per esteso la genesi del brano ma non descrive la copertina dell'album."
+  },
+  {
+    "id": "album:adriano-celentano:yuppi-du:copertina",
+    "classe": "C4",
+    "tipo": "copertina-album",
+    "soggetto": "adriano-celentano/yuppi-du",
+    "raccoglie": 1,
+    "stato": "da-cercare",
+    "ultimoTentativo": null,
+    "motivo": null
   },
   {
     "id": "album:avicii:tim:copertina",
@@ -2163,30 +2423,10 @@
     "motivo": "sospeso: confermato solo il credit fotografico (Ben Glass) in un riassunto di ricerca non verificato alla fonte diretta; Wikipedia non descrive il soggetto della copertina"
   },
   {
-    "id": "album:adriano-celentano:a-new-orleans:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/a-new-orleans",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:adriano-celentano:adrian:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/adrian",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:adriano-celentano-con-giulio-libano-e-la-sua-orchestra:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2243,30 +2483,10 @@
     "motivo": null
   },
   {
-    "id": "album:adriano-celentano:disco-dance:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/disco-dance",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:adriano-celentano:dormi-amore-la-situazione-non-e-buona:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/dormi-amore-la-situazione-non-e-buona",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:er-piu-storia-d-amore-e-di-coltello:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/er-piu-storia-d-amore-e-di-coltello",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2313,16 +2533,6 @@
     "motivo": null
   },
   {
-    "id": "album:adriano-celentano:i-mali-del-secolo:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/i-mali-del-secolo",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:adriano-celentano:i-miei-americani-tre-puntini-2:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -2337,16 +2547,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/i-miei-americani-tre-puntini",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:il-forestiero:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/il-forestiero",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2383,16 +2583,6 @@
     "motivo": null
   },
   {
-    "id": "album:adriano-celentano:la-festa:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/la-festa",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "album:adriano-celentano:la-pubblica-ottusita:copertina",
     "classe": "C5",
     "tipo": "copertina-album",
@@ -2407,36 +2597,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/mina-celentano",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:non-mi-dir:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/non-mi-dir",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:nostalrock:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/nostalrock",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:peppermint-twist:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/peppermint-twist",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -2507,16 +2667,6 @@
     "classe": "C5",
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/un-po-artista-un-po-no",
-    "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:yuppi-du:copertina",
-    "classe": "C5",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/yuppi-du",
     "raccoglie": 0,
     "stato": "da-cercare",
     "ultimoTentativo": null,
