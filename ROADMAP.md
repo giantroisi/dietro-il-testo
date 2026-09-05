@@ -1675,6 +1675,17 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **35 → 30**. Pagina `canzone/sos-avicii/` aperta nel browser via server locale: corrisponde ai dati e tratta l'argomento delicato con misura.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **30**.
 
+- **5 settembre 2026 — Dodicesimo lotto della coda: sei schede, AC/DC e Adele.**
+  - **`shot-in-the-dark`**: **Rolling Stone** (6 ottobre 2020, di Andy Greene, via web.archive.org) — sostituita Wikipedia con la fonte diretta per la citazione di Angus Young su Power Up come dedica al fratello Malcolm.
+  - **`rock-or-bust`**: **Ultimate Classic Rock** (2 ottobre 2014, cita Classic Rock magazine) — la fonte diretta per la citazione di Brian Johnson sul titolo alternativo "Man Down", già in scheda ma non citata.
+  - **`rock-n-roll-train`**: **MusicRadar** — sostituita Songfacts con la fonte diretta dell'aneddoto sul fan che memorizzò il riff e lo diffuse su YouTube prima dell'uscita ufficiale.
+  - **`hello`**: **Rolling Stone** (3 novembre 2015, di Brian Hiatt, via web.archive.org) — sostituita Wikipedia con la fonte diretta per la citazione di Adele sul verso d'apertura del ritornello.
+  - **`chasing-pavements`**: **American Songwriter** (21 aprile 2022, di Tina Benitez-Eves, già livello B) — **corretto un errore**: la scheda precedente collocava l'aneddoto dell'inseguimento mancato a Tottenham Court Road, la fonte diretta dice Oxford Street. Aggiunto anche un dettaglio assente prima, la richiesta di diritti d'autore dell'ex fidanzato ispiratore dell'intero album "19".
+  - **`easy-on-me`**: **Variety** (17 agosto 2022, di Thania Garcia, via web.archive.org) — sostituita Wikipedia con la fonte diretta per il racconto di Adele sulla scrittura del brano sotto la doccia.
+  **Tentata senza successo**: `hard-as-a-rock` — nessuna fonte A/B specifica trovata in due ricerche, lasciata come sta.
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **30 → 24**.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **24**. Nuovi domini verificati di persona e non ancora classificati: musicradar.com (già segnalato più volte), variety.com, lbbonline.com, exitwell.com, bluegrasstoday.com.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
