@@ -1666,6 +1666,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **37 → 35**.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **35**.
 
+- **5 settembre 2026 — Undicesimo lotto della coda: cinque schede, due argomenti delicati.**
+  - **`not-ok`**: **Official Charts** (13 novembre 2025, di Max Persad) — il racconto diretto di Ashton Irwin su come nacque il brano da un giro di batteria di Jason Evigan; il tema della depressione, già nella scheda tramite una citazione riportata da Wikipedia (fonte reale: Rolling Stone), trattato con la stessa cura già usata per `adams-song` e `darkside`.
+  - **`prisoner-709`**: **Rockol** (14 settembre 2017) — la conferenza stampa in cui Caparezza racconta l'acufene di cui soffriva dal 2015 e il senso di essersi sentito "intrappolato", da cui il titolo dell'album.
+  - **`non-me-lo-posso-permettere`**: **OndaRock** (di Antonio Silvestri, già livello B) — la citazione diretta di Caparezza sul concetto dell'intero album "Museica" come "l'audioguida delle mie visioni messe in mostra".
+  - **`waiting-for-love`**: **LBBOnline** (6 luglio 2015) — sostituita la descrizione generica del testo («celebra la forza dell'amore») con il racconto verificato, e assente dalla scheda precedente, del videoclip animato: un ragazzo e il suo cane separati dalla guerra, che si ritrovano dopo il conflitto — intervista al regista Matthieu Colombel sulla risposta del pubblico, commossa fino a includere ex militari.
+  - **`sos-avicii`**: **Rolling Stone** (5 aprile 2019, di Daniel Kreps, via web.archive.org — l'originale è dietro un accesso a pagamento) — aggiunto il contesto, assente dalla scheda precedente, della conferma pubblica del suicidio da parte del padre di Avicii e della fondazione per la prevenzione del suicidio nata con il ricavato dell'album; argomento trattato con la stessa cura fattuale già riservata ai temi sensibili di questa coda.
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **35 → 30**. Pagina `canzone/sos-avicii/` aperta nel browser via server locale: corrisponde ai dati e tratta l'argomento delicato con misura.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **30**.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
