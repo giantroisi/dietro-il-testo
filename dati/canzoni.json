@@ -4039,8 +4039,9 @@
     "testoUrl": "https://www.letras.com/bring-me-the-horizon/parasite-eve/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Parasite_Eve_(song)",
-        "nome": "Wikipedia (riporta la citazione diretta di Oliver Sykes a NME, 25 giugno 2020)"
+        "url": "https://www.nme.com/news/music/bring-me-the-horizon-parasite-eve-post-human-new-album-oli-sykes-interview-2694847",
+        "nome": "NME, 25 giugno 2020",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.songfacts.com/facts/bring-me-the-horizon/parasite-eve",
@@ -5276,8 +5277,9 @@
     "testoUrl": "https://www.letras.com/bring-me-the-horizon/happy-song/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)",
-        "nome": "Wikipedia (riporta il commento di Oliver Sykes su Spotify, 4 settembre 2015, e le cronache NME dell'episodio Coldplay, febbraio 2016)"
+        "url": "https://www.nme.com/news/bring-me-the-horizon/91597",
+        "nome": "NME, 18 febbraio 2016 (episodio Coldplay)",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.songfacts.com/facts/bring-me-the-horizon/happy-song",
