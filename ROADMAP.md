@@ -1567,6 +1567,19 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Osservazione per Opus, non un problema mio da correggere**: oggi il calendario è passato dal 4 al 5 settembre a sessione in corso, ed è emerso che ogni rigenerazione del sito timbra **tutte** le 282 schede con la data odierna in "Ultima revisione", non solo quelle davvero modificate — l'ho visto su `hey-jude`, toccata ieri, ora segnata 5 settembre senza che io l'abbia riaperta. Se "Ultima revisione" vuole essere un segnale di affidabilità reale (quando è stata verificata quella scheda), così com'è misura invece "quando è girato l'ultimo generatore" — cosa diversa. Non l'ho toccato: è un file di `scripts/`.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **125**, 28 sotto la soglia originale.
 
+- **5 settembre 2026 — Quinto lotto della coda: altre nove schede molto cercate senza fonte A/B.** `get-lucky`, `one-step-closer`, `peace-sells`, `alive`, `castle-on-the-hill`, `adams-song`, `knights-of-cydonia`, `youve-got-another-thing-comin`, `darkside`. Stesso metodo dei lotti precedenti.
+  - **`get-lucky`** (Daft Punk): **No Treble** (Corey Brown, 2025, dal podcast "Go with Elmo Lovano") — Nathan East racconta la session ai Conway Studios con Nile Rodgers e Omar Hakim, e la seconda ripresa del basso in un'unica take.
+  - **`one-step-closer`** (Linkin Park): **The Ringer** (Jason Lipshutz, 2024, estratto dal libro "It Starts With One") — la genesi del bridge "shut up", nato da uno sfogo privato di Chester Bennington contro il produttore Don Gilmore.
+  - **`peace-sells`** (Megadeth): **Metal Hammer/Louder** (Dave Everley, 2025) — **corregge un dettaglio**: la scheda precedente attribuiva il riff a David Ellefson; la fonte diretta (interviste a Classic Rock, 2017) racconta che fu Dave Mustaine a suonarlo per primo, su un basso di Ellefson a cui erano stati tolti i tasti.
+  - **`alive`** (Pearl Jam): **Classic Rock/Louder** (2026) — la genesi del brano fin da Mother Love Bone, e la citazione di Vedder sul pubblico che "toglie la maledizione" al ritornello.
+  - **`castle-on-the-hill`** (Ed Sheeran): **Wikipedia** (che riporta l'intervista a Zane Lowe per Apple Music) e **IBTimes UK** (Alicia Adejobi, 2017) sull'invito a suonare al vero castello di Framlingham.
+  - **`adams-song`** (blink-182): **American Songwriter** (Alex Hopper, 2022) — argomento delicato, trattato senza mai riprodurre il testo; aggiunto il contesto del ritorno dal vivo nel 2018 e la selezione di NPR nella serie "American Anthems".
+  - **`knights-of-cydonia`** (Muse): interviste a **Under the Radar** (2006) e **Los Angeles Times** (2007), trascritte su MuseWiki — il racconto della genesi tex-mex/Morricone e del riff ripetuto da Bellamy sul tour bus in Arizona.
+  - **`youve-got-another-thing-comin`** (Judas Priest): **Metal Hammer/Louder** (Rich Hobson, 2026) — **corregge un dettaglio**: nessuna fonte diretta conferma la genesi a Ibiza riportata dalla scheda precedente; il racconto verificato di K.K. Downing la colloca a casa di Glenn Tipton, vicino a Stafford.
+  - **`darkside`** (Bring Me the Horizon): **NME** (Liberty Dunworth, 13 ottobre 2023, il giorno stesso dell'uscita) — argomento delicato (depressione), trattato con la stessa cura di `adams-song`.
+**Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito, `check-seo` 0. `node scripts/check-livelli.mjs`: **120**, partito da 153 stamattina — 33 sotto la soglia originale. Pagina `canzone/adams-song/` aperta nel browser via server locale: corrisponde ai dati e tratta il tema con cura.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **120**.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
