@@ -1729,6 +1729,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato, `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. Verificata nel browser `album/adriano-celentano/il-forestiero/`: il testo compare come scritto. `node scripts/lacune.mjs`: debito aperto **11 → 0**.
   **Restano aperte, fuori dal debito perché non prioritarie**: C5 (1107 copertine di album senza pagina propria) e C6 (74 canzoni senza dato ascolti). Nessuna delle due blocca l'aggiunta di contenuto nuovo secondo F67.
 
+- **6 settembre 2026 — F66, classe C6 avviata: quattro lotti, 32 canzoni senza dato ascolti risolte (74 → 42).** Con il debito prioritario (C1-C4) a zero, spostato il lavoro sulla classe C6 (`ascolti-canzone`): canzoni senza `fonti[ruolo:"ascolti"]` o senza il numero corrispondente. Stesso metodo di C1: pagina "Spotify Top Songs" dell'artista su kworb.net, lettura del conteggio reale, arrotondamento con la convenzione già in uso.
+  **Quattro lotti da otto**: `21-guns`, `4-marzo-1943`, `all-the-small-things`, `american-idiot`, `antivist`, `black-hole-sun`, `boulevard-of-broken-dreams`, `break-stuff`; `cattiva`, `chelsea-smile`, `crawling`, `die4u`, `diventerai-una-star`, `dont-look-back-in-anger`, `doomed`, `dreams`; `drown`, `every-breath-you-take`, `fast-car`, `fat-lip`, `felicita`, `follow-you`, `hanno-ucciso-luomo-ragno`, `happy-song`; `heroes`, `hey-jude`, `ho-messo-via`, `hurt`, `hypa-hypa`, `i-will-always-love-you`, `il-carrozzone`, `in-too-deep`.
+  **Due casi particolari, stesso motivo**: `4-marzo-1943` e `diventerai-una-star` non compaiono nella classifica Top Songs di kworb.net (sotto la soglia che quella pagina traccia) — usato il conteggio diretto della pagina Spotify del brano, aperta con lo `spotifyId` già in scheda.
+  **Verifica incrociata dove il titolo era ambiguo**: quando kworb elenca più versioni con lo stesso nome (`get-lucky` in un lotto precedente, `heroes`, `hey-jude`, `hypa-hypa` in questi) o versioni multiple identiche senza etichetta chiara, aperta la pagina Spotify del brano con lo `spotifyId` già in scheda per confermare quale corrisponda.
+**Verificato, non solo scritto**: rigenerato quattro volte, `check-coerenza` 0, `check-completezza` 281/282 (invariato) e `check-link`/`check-testi` puliti in ogni lotto. `node scripts/lacune.mjs`: C6 **74 → 66 → 58 → 50 → 42**. Il debito prioritario (C1-C4) resta a 0: C6 non vi contribuisce per costruzione, e nessuno di questi lotti lo tocca.
+  **Restano 42 voci C6** da lavorare in lotti futuri, più la classe C5 (1107 copertine di album senza pagina propria), non prioritaria.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
