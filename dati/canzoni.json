@@ -2551,8 +2551,8 @@
     "paese": "it",
     "colore": "#3E5A8A",
     "colore2": "#8A6B3E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 37500000,
+    "ascoltiTesto": "37,5 mln ascolti",
     "spotifyId": "3yGyWqmw9eCQPdJJ6iJLWs",
     "corpo": [
       "Scritta insieme a Paola Pallottino e presentata al Festival di Sanremo 1971, dove si classificò terza, racconta la storia di una ragazza madre che ha un figlio da un soldato alleato. Il titolo originale era \"Gesubambino\", pensato da Pallottino come un ideale risarcimento a Dalla, rimasto orfano di padre a soli sette anni — la stessa autrice ha raccontato che doveva essere \"una canzone sull'assenza del padre\", ma è diventata \"una canzone sull'assenza della madre\" — ma il titolo fu giudicato irrispettoso dalla censura e sostituito con la data di nascita dello stesso cantautore.",
@@ -2569,6 +2569,11 @@
       {
         "url": "https://www.tag24.it/521864-lucio-dalla-4-marzo-1943-significato-censure",
         "nome": "Tag24"
+      },
+      {
+        "url": "https://open.spotify.com/track/3yGyWqmw9eCQPdJJ6iJLWs",
+        "nome": "Spotify (il brano non compare nella pagina Top Songs di kworb.net, sotto la soglia di quella classifica)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -2592,8 +2597,8 @@
     "paese": null,
     "colore": "#4A3E6E",
     "colore2": "#A6821E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 1100000000,
+    "ascoltiTesto": "1,1 mld ascolti",
     "spotifyId": "2EoOZnxNgtmZaD8uUmz2nD",
     "corpo": [
       "Terzo singolo di Superunknown, quarto album della band, uscito nel maggio 1994 e diventato il loro maggior successo commerciale. Chris Cornell ha raccontato che il testo non nasconde un significato preciso: lo scrisse più che altro giocando con le parole per il gusto di farlo, incuriosito dal contrasto tra un buco nero, cioè il vuoto assoluto, e il sole, che invece rende possibile la vita.",
@@ -2610,6 +2615,11 @@
       {
         "url": "https://americansongwriter.com/behind-the-meaning-of-black-hole-sun-soundgarden/",
         "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/5xUf6j4upBrXZPg6AI4MRK_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -3862,8 +3872,8 @@
     "paese": null,
     "colore": "#3E1F1F",
     "colore2": "#6E6E1F",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 65800000,
+    "ascoltiTesto": "65,8 mln ascolti",
     "spotifyId": "1fUacP7XP697l6ry01oO4d",
     "corpo": [
       "Scritta da Oliver Sykes, Lee Malia e Jordan Fish e prodotta da Terry Date, \"Antivist\" fu pubblicata come singolo promozionale dell'album \"Sempiternal\" (2013). Sykes ha raccontato a Metal Hammer di essere sceso un mattino dicendo a Jordan Fish di aver appena scritto \"il testo più nu metal e da pogo di sempre\": fu proprio da quella battuta, detta quasi per scherzo, che nacque il ritornello del brano, poi sviluppato dalla band per dare al disco un pezzo più aggressivo e vario rispetto al resto della scaletta.",
@@ -3881,6 +3891,11 @@
         "url": "http://fuckingrocks.blogspot.com/2013/02/bring-me-horizons-full-track-by-track.html",
         "nome": "Metal Hammer, 14 feb. 2013, di Merlin Alderslade (copia integrale su Metal Fucking Rocks)",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1Ffb6ejR6Fe5IamqA5oRUF_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -4677,8 +4692,8 @@
     "paese": null,
     "colore": "#8A1F1F",
     "colore2": "#1A1A1A",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 1500000000,
+    "ascoltiTesto": "1,5 mld ascolti",
     "spotifyId": "6nTiIhLmQ3FWhvrGafw2zj",
     "corpo": [
       "Scritta da Billie Joe Armstrong con Mike Dirnt e Tré Cool, \"American Idiot\" uscì nell'agosto 2004 come singolo di lancio dell'omonimo concept album, pubblicato il 21 settembre dello stesso anno durante la campagna per la rielezione di George W. Bush. Il brano affronta i temi della paura e della xenofobia in un'America post-11 settembre, puntando il dito contro un uso strumentale e propagandistico dei media per alimentare il panico collettivo.",
@@ -4699,6 +4714,11 @@
       {
         "url": "https://americansongwriter.com/meaning-american-idiot-green-day-song-lyrics/",
         "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/7oPftvlwr6VrsViSDV7fJY_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -4722,8 +4742,8 @@
     "paese": null,
     "colore": "#3E3E4A",
     "colore2": "#6E1F1F",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 1300000000,
+    "ascoltiTesto": "1,3 mld ascolti",
     "spotifyId": "1hwJKpe0BPUsq6UUrwBWTw",
     "corpo": [
       "Scritta da Billie Joe Armstrong insieme a Mike Dirnt e Tré Cool, nacque durante la pre-produzione di \"American Idiot\" (2004), quando Armstrong trascorse alcune settimane da solo a New York, camminando per la città per schiarirsi le idee. Il titolo prende spunto da un poster di James Dean che lo ritrae mentre attraversa la città con un soprabito addosso.",
@@ -4744,6 +4764,11 @@
       {
         "url": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/",
         "nome": "Extra Chill"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/7oPftvlwr6VrsViSDV7fJY_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -5030,8 +5055,8 @@
     "paese": null,
     "colore": "#B3661F",
     "colore2": "#3E6B8A",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 1600000000,
+    "ascoltiTesto": "1,6 mld ascolti",
     "spotifyId": "2m1hi0nfMR9vdGC8UcrnwU",
     "corpo": [
       "Scritta principalmente da Tom DeLonge verso la fine delle session di scrittura di \"Enema of the State\" (1999), nacque come risposta alla fidanzata dell'epoca, Jennifer Jenkins, che si era lamentata del fatto che scrivesse sempre canzoni dedicate ad altre ragazze. Il secondo verso si ispira a un gesto romantico della stessa Jenkins, che una notte lasciò delle rose sulle scale dopo che DeLonge era rimasto a registrare fino a tardi.",
@@ -5052,6 +5077,11 @@
       {
         "url": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
         "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/6FBDaR13swtiWwGhX1WQsP_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -5770,8 +5800,8 @@
     "paese": null,
     "colore": "#2E2E2E",
     "colore2": "#8A1F1F",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 829000000,
+    "ascoltiTesto": "829 mln ascolti",
     "spotifyId": "64yrDBpcdwEdNY9loyEGbX",
     "corpo": [
       "Pubblicata il 26 maggio 2009 come secondo singolo di \"21st Century Breakdown\", concept album che segue la storia di una giovane coppia, Christian e Gloria, alle prese con un mondo manipolato da governo, religione e media. Billie Joe Armstrong ha spiegato che il titolo richiama proprio l'album e l'immagine del \"salve di 21 colpi\" tributato a chi è caduto, qui usata in chiave rock per un pubblico enorme più che per un rapporto tra due persone.",
@@ -5792,6 +5822,11 @@
       {
         "url": "https://americansongwriter.com/the-story-behind-21-guns-by-green-day/",
         "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/7oPftvlwr6VrsViSDV7fJY_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -5897,8 +5932,8 @@
     "paese": null,
     "colore": "#1A1A1A",
     "colore2": "#B3661F",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 1200000000,
+    "ascoltiTesto": "1,2 mld ascolti",
     "spotifyId": "5cZqsjVs6MevCnAkasbEOX",
     "corpo": [
       "Pubblicata il 2 maggio 2000 come quarto e ultimo singolo estratto da \"Significant Other\" (1999), uscì proprio nel momento in cui il nu metal raggiungeva il picco del proprio successo commerciale. Il cantante Fred Durst ha descritto il brano come un modo per liberarsi dell'energia negativa accumulata in una giornata storta, un vero e proprio meccanismo di sfogo personale.",
@@ -5919,6 +5954,11 @@
       {
         "url": "https://www.loudersound.com/music/albums/that-means-start-jumping-and-singing-it-doesnt-mean-start-burning-the-place-down-thats-not-what-i-meant-how-a-smash-hit-from-some-nu-metal-icons-became-intertwined-with-the-most-controversial-music-festival-of-the-90s",
         "nome": "Louder"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/165ZgPlLkK7bf5bDoFc6Sb_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
