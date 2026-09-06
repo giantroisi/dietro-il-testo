@@ -1210,16 +1210,6 @@
     "motivo": "confermata: Velletri Life, con dettagli su Neal Slavin e la serie fotografica Britons"
   },
   {
-    "id": "canzone:hey-jude:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "hey-jude",
-    "raccoglie": 1,
-    "stato": "sospeso",
-    "ultimoTentativo": "2026-08-28",
-    "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
-  },
-  {
     "id": "canzone:the-sound-of-silence:completezza",
     "classe": "C1",
     "tipo": "scheda-incompleta",
@@ -13338,86 +13328,6 @@
     "tipo": "copertina-album",
     "soggetto": "zucchero/zucchero-the-randy-jackson-band",
     "raccoglie": 0,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:heroes:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "heroes",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:hey-jude:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "hey-jude",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:ho-messo-via:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "ho-messo-via",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:hurt:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "hurt",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:hypa-hypa:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "hypa-hypa",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:i-will-always-love-you:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "i-will-always-love-you",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:il-carrozzone:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "il-carrozzone",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:in-too-deep:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "in-too-deep",
-    "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
     "motivo": null

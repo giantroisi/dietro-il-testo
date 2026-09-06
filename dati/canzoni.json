@@ -989,8 +989,8 @@
     "paese": null,
     "colore": "#3E7A2C",
     "colore2": "#8A6A2E",
-    "ascolti": null,
-    "ascoltiTesto": "~626 mln ascolti",
+    "ascolti": 785000000,
+    "ascoltiTesto": "785 mln ascolti",
     "spotifyId": "0eY0YgyLAZ4gtM57wwYN7H",
     "corpo": [
       "Paul McCartney lo compose in auto, mentre andava a trovare Cynthia Lennon e suo figlio Julian, cinque anni, a Weybridge, poco dopo la separazione dei genitori nel maggio 1968 (il divorzio arrivò solo in novembre). Come raccontò lui stesso a Rolling Stone nel gennaio 1974, l'idea nacque come \"Hey Jules\": \"Ero mezzo per la sua strada, canticchiando questa cosa, tipo 'Hey Jules'... non so perché\"; poi decise che \"Jude\" suonava \"un po' più country\", ispirandosi anche al personaggio Jud del musical Oklahoma!.",
@@ -1010,7 +1010,7 @@
         "nome": "Wikipedia"
       },
       {
-        "url": "https://kworb.net/spotify/",
+        "url": "https://kworb.net/spotify/artist/3WrFJ7ztbogyGnTHbHJFl2_songs.html",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
       }
@@ -2920,8 +2920,8 @@
     "paese": null,
     "colore": "#1A1A1A",
     "colore2": "#8C1D1D",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 123000000,
+    "ascoltiTesto": "123 mln ascolti",
     "spotifyId": "27tX58NOpv1YKQ0abW7EPy",
     "corpo": [
       "Ultimo brano di \"The Downward Spiral\" (1994), scritto da Trent Reznor e pubblicato l'anno successivo come singolo promozionale. Chiude concettualmente il percorso dell'album, un viaggio attraverso autodistruzione, dipendenza e perdita di controllo vissuto dal protagonista immaginario del disco. Reznor lo ha definito il brano più personale che abbia mai scritto, al punto da sentirsi a disagio nel mostrarlo così apertamente: da allora è diventato il pezzo che chiude fisso ogni concerto della band.",
@@ -2942,6 +2942,11 @@
       {
         "url": "https://americansongwriter.com/hurt-by-nine-inch-nails-johnny-cash-behind-song-meaning/",
         "nome": "American Songwriter"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/0X380XXQSNBYuleKzav5UO_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -3059,8 +3064,8 @@
     "paese": null,
     "colore": "#2A2A2E",
     "colore2": "#7A8A94",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 732000000,
+    "ascoltiTesto": "732 mln ascolti",
     "spotifyId": "7Jh1bpe76CNTCgdgAdBw4Z",
     "corpo": [
       "Scritta da David Bowie con Brian Eno, fu registrata nell'estate del 1977 agli Hansa Studios di Berlino Ovest, a poche centinaia di metri dal Muro. L'immagine centrale del brano nacque osservando una coppia che si incontrava quotidianamente vicino al Muro durante le session di registrazione: secondo il produttore Tony Visconti si trattava in realtà di lui stesso con la propria compagna dell'epoca, anche se per anni Bowie preferì raccontarla come la storia di due innamorati anonimi.",
@@ -3081,6 +3086,11 @@
       {
         "url": "https://ultimateclassicrock.com/david-bowie-heroes-song/",
         "nome": "Ultimate Classic Rock"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/0oSGxfWSnnOXhD2fKuz2Gy_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -3328,8 +3338,8 @@
     "paese": null,
     "colore": "#6E1F2E",
     "colore2": "#8A6B2E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 996000000,
+    "ascoltiTesto": "996 mln ascolti",
     "spotifyId": "4eHbdreAnSOrDDsFfc4Fpm",
     "corpo": [
       "Scritta e incisa originariamente da Dolly Parton nel 1974 come brano country, per salutare il proprio mentore e partner musicale Porter Wagoner all'inizio della sua carriera da solista. Quasi vent'anni dopo, l'attore Kevin Costner propose a Whitney Houston di reincidere il brano per la colonna sonora del film \"The Bodyguard\" (1992), in cui i due erano protagonisti, ispirandosi a una precedente cover del 1975 firmata da Linda Ronstadt.",
@@ -3346,6 +3356,11 @@
       {
         "url": "https://www.whitneyhouston.com/news/whitney-houstons-i-will-always-love-you-was-released-30-years-ago-today/",
         "nome": "whitneyhouston.com"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/6XpaIBNiVzIetEPCWDvAFP_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -3633,8 +3648,8 @@
     "paese": "it",
     "colore": "#6E1F5C",
     "colore2": "#B37A2E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 4200000,
+    "ascoltiTesto": "4,2 mln ascolti",
     "spotifyId": "3Xo2TYuDsnh7wATMUTtvjq",
     "corpo": [
       "Composta da Piero Pintucci (musica) e Franca Evangelisti (testo), la canzone fu scritta pensando inizialmente alla voce di Gabriella Ferri, che però rifiutò di registrarla. Renato Zero la interpretò come singolo principale dell'album \"EroZero\", pubblicato nel 1979, restando in classifica per sedici settimane.",
@@ -3651,6 +3666,11 @@
       {
         "url": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Spec_Canzoni67.html",
         "nome": "Treccani"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/7i7EQonx0GrqoKiNQL4gFO_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -4887,8 +4907,8 @@
     "paese": null,
     "colore": "#1F5C8A",
     "colore2": "#3E3E3E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 720000000,
+    "ascoltiTesto": "720 mln ascolti",
     "spotifyId": "1HNE2PX70ztbEl6MLxrpNL",
     "corpo": [
       "Secondo singolo estratto da \"All Killer No Filler\" (2001), nacque quasi per caso: secondo un aneddoto raccontato da Ben Cook (Fucked Up, No Warning, Young Guv) e in seguito confermato dal batterista Steve Jocz in un video sulla storia del brano, \"In Too Deep\" era stato pensato inizialmente in chiave reggae, prima di essere riscritto e trasformato nella canzone dei Sum 41 che conosciamo.",
@@ -4909,6 +4929,11 @@
       {
         "url": "https://extrachill.com/the-meaning-of-sum-41s-in-too-deep/",
         "nome": "Extra Chill"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/0qT79UgT5tY4yudH9VfsdT_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -5396,8 +5421,8 @@
     "paese": "it",
     "colore": "#5C4A2E",
     "colore2": "#3E5C6E",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 36100000,
+    "ascoltiTesto": "36,1 mln ascolti",
     "spotifyId": "4xyp77VPg90ezi7N1p99a5",
     "corpo": [
       "Pubblicata nel 1993 come secondo estratto dall'album \"Sopravvissuti e sopravviventi\", la ballata vede Ligabue ripercorrere la propria vita, riconoscendo di essere riuscito a \"mettere via\" — cioè superare — molte fasi ed esperienze del passato, ma non una persona in particolare, mai nominata esplicitamente nel testo.",
@@ -5415,6 +5440,11 @@
         "url": "https://www.ondarock.it/monografie/ligabue/",
         "nome": "OndaRock",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/7H8ZC8uHJMPZGLMApRRNIz_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
@@ -5527,8 +5557,8 @@
     "paese": null,
     "colore": "#6E1F8A",
     "colore2": "#1FB3B3",
-    "ascolti": null,
-    "ascoltiTesto": null,
+    "ascolti": 111000000,
+    "ascoltiTesto": "111 mln ascolti",
     "spotifyId": "2qOmcSjOQEDIJKosonn75a",
     "corpo": [
       "Scritta e composta dai membri della band Daniel Haniß, Kevin Ratajczak, Nico Sallach e Pascal Schillo, uscì come singolo il 18 giugno 2020 e fu poi inclusa nel secondo EP della band, \"MMXX\", pubblicato l'11 settembre dello stesso anno. Nel corso del 2021 il brano è stato oggetto di diverse reinterpretazioni pubblicate in collaborazione con altri artisti, tra cui una versione in chiave folk con la band medievale Saltatio Mortis, che ne ha arricchito il suono elettronico con cornamuse ed elementi tradizionali.",
@@ -5545,6 +5575,11 @@
       {
         "url": "https://centurymedia.bandcamp.com/track/hypa-hypa-2",
         "nome": "Century Media Records (Bandcamp)"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/1WNoKxsp715jez1Td4vthc_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
