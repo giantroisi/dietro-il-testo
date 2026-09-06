@@ -1686,6 +1686,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: rigenerato (626 pagine), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **30 → 24**.
   **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **24**. Nuovi domini verificati di persona e non ancora classificati: musicradar.com (già segnalato più volte), variety.com, lbbonline.com, exitwell.com, bluegrasstoday.com.
 
+- **6 settembre 2026 — Tredicesimo lotto della coda: due schede chiuse, tre tentate senza esito.**
+  - **`balliamo-sul-mondo`**: **ligachannel.com**, il sito ufficiale di Luciano Ligabue (2 aprile 2009, via web.archive.org — la pagina originale non è più online) — una citazione diretta e mai usata prima dell'artista sul brano: "Balliamo sul mondo ha molto a che fare con la mia natura. Io in genere sono predisposto a romanticizzare le situazioni per viverle al loro meglio." Sostituita una fonte di livello C (Solo Belle Canzoni, nominata esplicitamente come tale nella sezione 5).
+  - **`dicono-di-me`**: **Rockol** (13 ottobre 2008) — aggiunta una seconda fonte diretta con il racconto di Cremonini sul protagonista del videoclip, un amico d'infanzia già comparso in altri suoi video; il comunicato ufficiale già in scheda (via Wikipedia) resta come prima fonte.
+  - **Tentate senza successo**: `urlando-contro-il-cielo`, `questa-e-la-mia-vita` (nessun "canzone per canzone" ufficiale trovato per questi due brani, a differenza di "Balliamo sul mondo"), `sotto-le-lenzuola` (la fonte già in scheda, Hit Parade Italia, è di per sé solida — cita una pagina scannerizzata di Musica & Dischi 1971 — ma è esplicitamente classificata C nello script; nessuna alternativa migliore trovata).
+  **Segnalazione per Opus, non ho toccato `scripts/`**: **ligachannel.com è il sito ufficiale dell'artista**, non un aggregatore — rientra per definizione nella sezione 5 come fonte di livello A ("artista, etichetta"), non C o "da classificare". Vale la pena classificarlo esplicitamente in `A`, non lasciarlo cadere nel gruppo generico "da classificare" insieme a testate di livello B non ancora riconosciute.
+**Verificato, non solo scritto**: rigenerato (626 pagine — la rigenerazione di oggi ritocca il timbro "Ultima revisione" su tutte le pagine per il cambio di giorno solare, comportamento già segnalato, non un effetto del mio lavoro), `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-link` 0, `check-testi` pulito. `node scripts/check-freno.mjs`: TOLTO. `node scripts/check-livelli.mjs`: **24 → 22**.
+  **Per Opus, non l'ho toccato io**: `SOGLIA` in `scripts/check-livelli.mjs` è ancora scritta a 153; il numero vero oggi è **22**.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
