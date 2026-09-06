@@ -1702,6 +1702,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Quello che resta vero di ieri**: per Adele e Laura Pausini non e' uscito niente nemmeno adesso, e la scarsita' italiana su Commons e' reale — semplicemente non e' quasi-assenza come avevo scritto. **La frase andava misurata prima di scriverla, e non lo era.**
 **Prossimo passo**: rilanciare `cerca-ritratti.mjs` sui ventidue gia' esaminati. Ora legge sottocategorie, nomi e alias: il confronto fra i candidati di ieri e quelli di domani dice quanto valeva il difetto.
 
+- **6 settembre 2026 — La ricerca non e' partita, e controllandolo ho trovato la mina che ci sarebbe scoppiata sotto al prossimo tentativo.**
+  **Non e' partita**: `dati/ritratti-candidati.json` porta ancora la data del **5 settembre alle 08:55**, e i candidati dei dieci artisti sono identici a quelli di ieri — Metallica 10, Iron Maiden 4, 883 uno, Pinguini uno. Se il programma fosse arrivato in fondo avrebbe riscritto il file, foss'anche con degli errori. Non l'ha riscritto: si e' fermato prima, o non e' stato lanciato in quella cartella.
+  **La mina.** Guardando *perche'* non avesse scritto, ho letto il punto in cui scrive — e l'unione finale **sostituisce** la voce vecchia di un artista con quella nuova. Se un giro fallisce per rete assente, ogni artista torna con `errore` e zero candidati, e la sostituzione **cancella la prova della licenza delle foto gia' pubblicate**: quella prova vive solo in quel file, ed e' cio' che `scarica-ritratti.mjs` rilegge per riconoscerle. Un rilancio a rete storta non avrebbe dato «zero candidati»: avrebbe dato zero candidati **e** buttato le venti licenze buone.
+  **E' lo stesso danno gia' fatto una volta**, da `check-fonti`, che senza rete aveva dichiarato morte 522 fonti su 522 e aveva committato quel risultato sopra quello vero. Li' la cintura era stata messa e la lezione scritta; **qui il file era rimasto scoperto** — di nuovo una correzione fatta in un posto e non nell'altro, come ieri per l'attesa progressiva. Ora c'e': se **tutti** gli artisti di un giro danno errore, il programma non scrive niente ed esce dicendo che il problema e' la rete.
+  **La regola, per la terza volta in tre giorni**: uno strumento che non e' in condizione di misurare non produce una misura debole, produce una misura inventata. Va fermato prima che scriva, non corretto dopo.
+**Prossimo passo**: rilanciare la ricerca **conservando l'uscita del terminale**. Ora, se la rete manca, il programma lo dice e non tocca niente.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

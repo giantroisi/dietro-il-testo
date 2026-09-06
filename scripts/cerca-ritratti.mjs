@@ -274,6 +274,27 @@ for (const a of elenco) {
 // per esaminare venti artisti nuovi cancellerebbe la prova dei venti vecchi, e
 // `scarica-ritratti.mjs` — che verifica la scelta contro questo file — non
 // saprebbe piu' riconoscere le foto gia' online.
+// --- LA CINTURA CHE MANCAVA QUI, ed era gia' stata messa altrove.
+// L'unione qui sotto SOSTITUISCE la voce vecchia di un artista con quella nuova.
+// Se il giro fallisce per rete assente, ogni artista torna con `errore` e zero
+// candidati — e la sostituzione **cancella la prova della licenza delle foto
+// gia' pubblicate**, che vive solo in questo file e che `scarica-ritratti.mjs`
+// rilegge per riconoscerle.
+// E' esattamente il danno gia' fatto una volta da `check-fonti`, che senza rete
+// aveva dichiarato morte 522 fonti su 522 e aveva committato il risultato sopra
+// quello vero. Li' la lezione era stata imparata e scritta; qui il file era
+// rimasto scoperto. **Uno strumento che non e' in condizione di misurare non
+// produce una misura debole: produce una misura inventata**, e va fermato prima
+// che scriva.
+const falliti = esito.filter((e) => e.errore).length;
+if (esito.length && falliti === esito.length) {
+  console.error(`\nTutti e ${esito.length} gli artisti hanno dato errore: non e' un esito, e' la rete.`);
+  console.error('Non scrivo niente: sovrascrivere i candidati con delle voci vuote');
+  console.error('cancellerebbe la prova della licenza delle foto gia\' pubblicate.');
+  console.error('Controlla la connessione e rilancia lo stesso comando.');
+  process.exit(2);
+}
+
 const precedente = existsSync('dati/ritratti-candidati.json')
   ? JSON.parse(readFileSync('dati/ritratti-candidati.json', 'utf8')).esito || []
   : [];
