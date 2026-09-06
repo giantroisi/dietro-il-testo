@@ -1180,56 +1180,6 @@
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
   },
   {
-    "id": "canzone:psychosocial:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "psychosocial",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:seven-nation-army:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "seven-nation-army",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:she-looks-so-perfect:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "she-looks-so-perfect",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:should-i-stay:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "should-i-stay",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:supermassive-black-hole:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "supermassive-black-hole",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:the-sound-of-silence:completezza",
     "classe": "C1",
     "tipo": "scheda-incompleta",
@@ -1241,26 +1191,6 @@
     "stato": "accertato-assente",
     "ultimoTentativo": "2026-08-25",
     "motivo": "due registrazioni esistono (acustica 1964, elettrica 1965); le uniche versioni trovate su Spotify provengono da raccolte diverse con lo stesso identico numero di ascolti, nessuna dall'album originale — dubbio reale non risolto per non indovinare (P1, F39 chiuso il 25 agosto 2026)"
-  },
-  {
-    "id": "canzone:uprising:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "uprising",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:whats-my-age-again:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "whats-my-age-again",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
   },
   {
     "id": "album:francesco-de-gregori:pezzi:fonte-copertina",
@@ -13863,16 +13793,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:psychosocial:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "psychosocial",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:purple-rain:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13933,16 +13853,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:seven-nation-army:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "seven-nation-army",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:shadow-moses:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13957,26 +13867,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "shape-of-you",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:she-looks-so-perfect:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "she-looks-so-perfect",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:should-i-stay:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "should-i-stay",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -14063,16 +13953,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:supermassive-black-hole:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "supermassive-black-hole",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:symphony-of-destruction:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -14133,16 +14013,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:uprising:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "uprising",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:vieni-a-ballare-in-puglia:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -14177,16 +14047,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "welcome-to-the-black-parade",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:whats-my-age-again:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "whats-my-age-again",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
