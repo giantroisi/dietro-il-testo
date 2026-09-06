@@ -187,6 +187,10 @@ function licenzaOk(m) {
   return { ok: true, testo };
 }
 
+const ALIAS = existsSync('dati/ritratti-alias.json')
+  ? JSON.parse(readFileSync('dati/ritratti-alias.json', 'utf8'))
+  : {};
+
 const esito = [];
 for (const a of elenco) {
   process.stderr.write(`${a.nome}… `);
@@ -204,6 +208,17 @@ for (const a of elenco) {
     }
     await attesa(PAUSA);
     try { raccolte.push(await fileCercatiPerNome(a.nome)); } catch (e) { process.stderr.write('(ricerca per nome fallita) '); }
+    // I nomi alternativi dichiarati a mano in dati/ritratti-alias.json. Gli 883
+    // hanno una categoria propria con dentro un solo file, mentre le foto stanno
+    // sotto «Max Pezzali»; i Pinguini sotto «Riccardo Zanotti». La categoria che
+    // Wikidata associa allo slug e' giusta e vuota nello stesso tempo, e nessun
+    // automatismo poteva indovinarlo: si dichiara.
+    for (const altro of ALIAS[a.slug] || []) {
+      await attesa(PAUSA);
+      try { raccolte.push(await fileCercatiPerNome(altro)); } catch (e) { process.stderr.write(`(ricerca "${altro}" fallita) `); }
+      const c2 = await categoriaDi(altro);
+      if (c2) { await attesa(PAUSA); raccolte.push(await fileDellaCategoria(c2.cat)); }
+    }
     const perTitolo = new Map();
     for (const gruppo of raccolte) for (const p of gruppo) if (p && p.title) perTitolo.set(p.title, p);
     const pagine = [...perTitolo.values()].filter((p) => /\.(jpe?g|png)$/i.test(p.title || ''));
