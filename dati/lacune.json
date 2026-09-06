@@ -330,6 +330,46 @@
     "motivo": "confermata: Wikipedia, fatto descrittivo semplice (cosa raffigura), non un'interpretazione"
   },
   {
+    "id": "album:adriano-celentano:er-piu-storia-d-amore-e-di-coltello:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adriano-celentano/er-piu-storia-d-amore-e-di-coltello",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "confermata: Wikipedia riporta Enciclopedia del rock italiano (Testani, 2006) — foto tratta dal film con Celentano e Claudia Mori"
+  },
+  {
+    "id": "album:adriano-celentano:i-mali-del-secolo:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adriano-celentano/i-mali-del-secolo",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "confermata: Wikipedia riporta Enciclopedia del rock italiano (Testani, 2006) — foto di Celentano con microfono su disegno di metropoli in miniatura"
+  },
+  {
+    "id": "album:adriano-celentano:il-forestiero:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adriano-celentano/il-forestiero",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "confermata: Wikipedia riporta Enciclopedia del rock italiano (Testani, 2006) — Celentano con sacco in spalla in stile Babbo Natale, disegni di scene del presepe"
+  },
+  {
+    "id": "album:adriano-celentano:nostalrock:fonte-copertina",
+    "classe": "C1",
+    "tipo": "fonte-copertina-mancante",
+    "soggetto": "adriano-celentano/nostalrock",
+    "raccoglie": 1,
+    "stato": "fatto",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "confermata: Wikipedia riporta Enciclopedia del rock italiano (Testani, 2006) — Celentano con una scopa dipinta a mo' di chitarra"
+  },
+  {
     "id": "album:alice-in-chains:facelift:fonte-copertina",
     "classe": "C1",
     "tipo": "fonte-copertina-mancante",
@@ -1778,9 +1818,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/a-new-orleans",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\", a differenza di altri album dello stesso artista che ce l'hanno) e con ricerche mirate su 'copertina'/'artwork' 1963: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:adriano-celentano-con-giulio-libano-e-la-sua-orchestra:copertina",
@@ -1788,9 +1828,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/adriano-celentano-con-giulio-libano-e-la-sua-orchestra",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\") e con ricerche mirate sull'album del 1960: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:disco-dance:copertina",
@@ -1798,39 +1838,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/disco-dance",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:er-piu-storia-d-amore-e-di-coltello:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/er-piu-storia-d-amore-e-di-coltello",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:i-mali-del-secolo:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/i-mali-del-secolo",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:il-forestiero:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/il-forestiero",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\") e con ricerche mirate sull'album del 1977: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:il-ragazzo-della-via-gluck:copertina",
@@ -1848,9 +1858,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/la-festa",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\") e con ricerche mirate sull'album del 1966: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:non-mi-dir:copertina",
@@ -1858,19 +1868,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/non-mi-dir",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "album:adriano-celentano:nostalrock:copertina",
-    "classe": "C4",
-    "tipo": "copertina-album",
-    "soggetto": "adriano-celentano/nostalrock",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\") e con ricerche mirate sull'album del 1964: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:peppermint-twist:copertina",
@@ -1878,9 +1878,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/peppermint-twist",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\") e con ricerche mirate sull'album del 1962: nessuna fonte descrive l'immagine o l'autore."
   },
   {
     "id": "album:adriano-celentano:svalutation:copertina",
@@ -1898,9 +1898,9 @@
     "tipo": "copertina-album",
     "soggetto": "adriano-celentano/yuppi-du",
     "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
+    "stato": "accertato-assente",
+    "ultimoTentativo": "2026-09-06",
+    "motivo": "Cercata su Wikipedia IT (voce priva di sezione \"Copertina\", pur essendo dettagliata sulla storia del disco e del film collegato) e con ricerche mirate sull'album del 1975: nessuna fonte descrive l'immagine o l'autore della copertina."
   },
   {
     "id": "album:avicii:tim:copertina",

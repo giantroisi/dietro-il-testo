@@ -576,10 +576,10 @@
     "slug": "il-forestiero",
     "titolo": "Il forestiero",
     "anno": "1970",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -587,10 +587,10 @@
     "slug": "er-piu-storia-d-amore-e-di-coltello",
     "titolo": "Er più - Storia d'amore e di coltello",
     "anno": "1971",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -598,10 +598,10 @@
     "slug": "i-mali-del-secolo",
     "titolo": "I mali del secolo",
     "anno": "1972",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {
@@ -609,10 +609,10 @@
     "slug": "nostalrock",
     "titolo": "Nostalrock",
     "anno": "1973",
-    "copertina": false,
+    "copertina": true,
     "nCanzoni": 1,
     "esiste": true,
-    "indicizzabile": false,
+    "indicizzabile": true,
     "sintetico": false
   },
   {

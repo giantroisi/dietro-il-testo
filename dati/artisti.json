@@ -579,29 +579,53 @@
         "titolo": "Il forestiero",
         "anno": "1970",
         "nota": null,
-        "copertina": null,
-        "slug": "il-forestiero"
+        "copertina": "La copertina, coerente con il carattere natalizio del disco, mostra Celentano con un sacco in spalla, in stile Babbo Natale, mentre augura buone feste ai fan; il disco è corredato graficamente da alcuni disegni raffiguranti scene del presepe.",
+        "slug": "il-forestiero",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Il_forestiero",
+            "nome": "Wikipedia (riporta Enciclopedia del rock italiano, a cura di Gianluca Testani, Arcana Edizioni, 2006)"
+          }
+        ]
       },
       {
         "titolo": "Er più - Storia d'amore e di coltello",
         "anno": "1971",
         "nota": null,
-        "copertina": null,
-        "slug": "er-piu-storia-d-amore-e-di-coltello"
+        "copertina": "In copertina vi è una fotografia tratta dal film \"Er più\" con il cantante e la moglie Claudia Mori.",
+        "slug": "er-piu-storia-d-amore-e-di-coltello",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Er_pi%C3%B9_-_Storia_d%27amore_e_di_coltello_(album)",
+            "nome": "Wikipedia (riporta Enciclopedia del rock italiano, a cura di Gianluca Testani, Arcana Edizioni, 2006)"
+          }
+        ]
       },
       {
         "titolo": "I mali del secolo",
         "anno": "1972",
         "nota": null,
-        "copertina": null,
-        "slug": "i-mali-del-secolo"
+        "copertina": "La copertina è una fotografia di Celentano con accanto un microfono, montata sul disegno di una metropoli in miniatura con un pallido sole sullo sfondo.",
+        "slug": "i-mali-del-secolo",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/I_mali_del_secolo",
+            "nome": "Wikipedia (riporta Enciclopedia del rock italiano, a cura di Gianluca Testani, Arcana Edizioni, 2006)"
+          }
+        ]
       },
       {
         "titolo": "Nostalrock",
         "anno": "1973",
         "nota": null,
-        "copertina": null,
-        "slug": "nostalrock"
+        "copertina": "In copertina vi è un ritratto di Celentano in piedi con una scopa di saggina tenuta in mano a mo' di chitarra, dipinta per l'occasione in modo da somigliare a uno strumento musicale.",
+        "slug": "nostalrock",
+        "copertinaFonte": [
+          {
+            "url": "https://it.wikipedia.org/wiki/Nostalrock",
+            "nome": "Wikipedia (riporta Enciclopedia del rock italiano, a cura di Gianluca Testani, Arcana Edizioni, 2006)"
+          }
+        ]
       },
       {
         "titolo": "Yuppi du",
