@@ -1170,46 +1170,6 @@
     "motivo": "confermata: Velletri Life, con dettagli su Neal Slavin e la serie fotografica Britons"
   },
   {
-    "id": "canzone:ace-of-spades:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "ace-of-spades",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:can-you-feel-my-heart:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "can-you-feel-my-heart",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:crazy-train:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "crazy-train",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:get-lucky:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "get-lucky",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:hey-jude:fonte-ascolti-orfana",
     "classe": "C1",
     "tipo": "fonte-ascolti-orfana",
@@ -1218,46 +1178,6 @@
     "stato": "sospeso",
     "ultimoTentativo": "2026-08-28",
     "motivo": "esistono più versioni di 'Hey Jude' su Spotify con conteggi molto diversi (782 mln 'Remastered 2009', 212 mln versione semplice, e la pagina della traccia mostra un terzo titolo 'Remastered' da Past Masters 1988): non sono riuscito a far corrispondere con certezza il nostro spotifyId a uno dei conteggi elencati da kworb.net, quindi non scrivo un numero che potrebbe riferirsi alla versione sbagliata"
-  },
-  {
-    "id": "canzone:i-miss-you:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "i-miss-you",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:iron-man:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "iron-man",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:livin-on-a-prayer:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "livin-on-a-prayer",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:one-step-closer:fonte-ascolti-orfana",
-    "classe": "C1",
-    "tipo": "fonte-ascolti-orfana",
-    "soggetto": "one-step-closer",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
   },
   {
     "id": "canzone:psychosocial:fonte-ascolti-orfana",
@@ -13513,16 +13433,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:ace-of-spades:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "ace-of-spades",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:all-the-small-things:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13583,16 +13493,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:can-you-feel-my-heart:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "can-you-feel-my-heart",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:cattiva:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13617,16 +13517,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "crawling",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:crazy-train:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "crazy-train",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -13743,16 +13633,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:get-lucky:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "get-lucky",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:hanno-ucciso-luomo-ragno:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13823,16 +13703,6 @@
     "motivo": null
   },
   {
-    "id": "canzone:i-miss-you:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "i-miss-you",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
     "id": "canzone:i-will-always-love-you:ascolti",
     "classe": "C6",
     "tipo": "ascolti-canzone",
@@ -13857,26 +13727,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "in-too-deep",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:iron-man:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "iron-man",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:livin-on-a-prayer:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "livin-on-a-prayer",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
@@ -13947,16 +13797,6 @@
     "classe": "C6",
     "tipo": "ascolti-canzone",
     "soggetto": "nihilist-blues",
-    "raccoglie": 1,
-    "stato": "da-cercare",
-    "ultimoTentativo": null,
-    "motivo": null
-  },
-  {
-    "id": "canzone:one-step-closer:ascolti",
-    "classe": "C6",
-    "tipo": "ascolti-canzone",
-    "soggetto": "one-step-closer",
     "raccoglie": 1,
     "stato": "da-cercare",
     "ultimoTentativo": null,
