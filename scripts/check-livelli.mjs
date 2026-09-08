@@ -144,6 +144,7 @@ const C = new Set([
   'theninhotline.com',             // Details, aprile 1995, intervista di Chris Heath
   'mentisommerse.it',              // Esquire + video Facebook di Pezzali + Famiglia Cristiana
   'iheart.com',                    // nessuna firma, ma nomina l'episodio di podcast da cui prende
+  'linkinpedia.com',               // note di copertina di Shinoda (2011) + due interviste del 2000 e 2002
   // Quattro MODERATE: una sola fonte primaria vera dentro un pezzo per il resto
   // interpretativo. Una citazione di sfuggita non fa di una pagina una testata.
   'ilgiunco.net', 'classicrockartists.com', 'houstonseagle.com', 'inliberta.it',
