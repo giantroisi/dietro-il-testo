@@ -1820,6 +1820,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   Controllato anche `acfans.it` (fan site dedicato a Celentano, su `sotto-le-lenzuola`): nessuna firma su contenuto storico, nessuna fonte citata, solo un post del 2014 su un sondaggio fra fan — non è il caso forte che poteva essere.
   **Le 19 schede restanti nella coda restano tutte allo stesso punto**: fonte reale nota ma irraggiungibile (BMTH, Muse — relay già segnalati), oppure nessuna fonte A/B trovata in nessun tentativo fatto finora (le italiane, incluse le sei appena riprovate). Prossimo giro solo se emerge una pista nuova.
 
+- **8 settembre 2026 — I cinque ritratti sono arrivati, e per la prima volta erano tutti e cinque il soggetto giusto.** Metallica, Judas Priest, Megadeth, Motorhead, blink-182: guardati uno per uno prima di pubblicarli, come vuole la regola aggiunta il 5 settembre.
+  **Nessuno da buttare.** E' il primo lotto in cui non c'e' un'insegna, un camion, una targa o un fan al posto della band — perche' e' il primo scelto guardando le anteprime invece che leggendo i titoli. **Ritratti pubblicati: da 22 a 27.**
+  **Tre ritagliati**, perche' il soggetto c'era ma non riempiva l'inquadratura: `metallica` (tolto un terzo di palco vuoto sotto la band), `megadeth` (la selva di mani del pubblico occupava un terzo dell'immagine; ora e' una striscia in basso e i volti si vedono), `blink-182` (tolta la griglia dei fari sopra e la folla sotto: i tre e la batteria adesso riempiono il fotogramma). `judas-priest` e `motorhead` lasciati interi: Halford al microfono nel fumo rosso e Lemmy davanti alla batteria erano gia' inquadrati bene.
+  **Il conto complessivo del metodo.** Scelte leggendo i titoli: **quattro su quattro sbagliate** il 5 settembre, **due su cinque da buttare piu' due mediocri** il 6. Scelte guardando le anteprime: **cinque su cinque giuste**, tre migliorabili col ritaglio. Il vaglio sui titoli resta utile come preselezione — toglie i fan, le targhe, i camion — ma **la scelta comincia quando qualcuno apre l'immagine**, e ora e' scritto nella procedura.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
