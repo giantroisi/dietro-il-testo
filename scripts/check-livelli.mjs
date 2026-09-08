@@ -42,11 +42,16 @@
 // ogni lotto chiuso, mai da sola.
 //   4 settembre: 153 (115 con sole fonti C + 38 su domini non classificati)
 //   8 settembre: 101 (22 con sole fonti C + 79 su domini non classificati)
+//   8 settembre, dopo la classificazione dei domini: 79 (21 + 58).
+//   Attenzione a come si legge: il primo addendo SALE da 11 a 21 mentre il
+//   totale scende da 93 a 79. Non e' un peggioramento — e' che classificare un
+//   dominio sposta le sue schede da «non si sa» a «si sa», e alcune atterrano
+//   sul lato brutto. Il numero da guardare e' il totale.
 // Il primo dei due numeri e' crollato da 115 a 22 in quattro giorni. Il secondo
 // e' cresciuto perche' la coda ha portato dentro molti domini nuovi che nessuno
 // ha ancora classificato: **non sono un debito peggiore, sono un debito di
 // natura diversa** — li' non manca la fonte, manca il giudizio su di essa.
-const SOGLIA = 101;
+const SOGLIA = 79;
 
 import { readFileSync } from 'node:fs';
 
@@ -73,6 +78,10 @@ const B = new Set([
   'musicomh.com', 'rockcellarmagazine.com', 'theseconddisc.com', 'extrachill.com',
   'radioitalia.it', 'virginradio.it', 'notiziemusica.it', 'eurofestivalnews.com',
   'therockpit.net', 'primordialradio.com', 'electricity-club.co.uk',
+  // Aggiunti l'8 settembre dopo che sono stati aperti e guardati uno per uno:
+  // firme e date reali su ogni pagina controllata, redazione riconoscibile,
+  // e per le riviste di settore lo stesso editore di domini gia' in lista.
+  'musicradar.com', 'guitarworld.com', 'npr.org', 'variety.com', 'mtv.com',
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -89,8 +98,14 @@ const C = new Set([
   // vietata no.
   'songmeaningsandfacts.com',        // firmato Jessica Shelton, datato, con link a Rolling Stone, LA Times, Guardian
   'solobellecanzoni.altervista.org', // datato, senza firma, con una sezione «fonti»; l'analisi resta personale
+  // 8 settembre. Hanno firma e data — quindi non sono da buttare — ma non
+  // producono informazione propria: compilano, o rilanciano interviste altrui.
+  // E' esattamente la definizione di «blog specialistico» della sezione 5.
+  'soundsblog.it',      // compilazione: le citazioni dirette vengono da interviste di altri
+  'donnaglamour.it',    // firma e data, ma nessuna fonte citata per cio' che afferma
+  'musewiki.org',       // wiki di fan; su una scheda relaia un'intervista nominata e datata, e resta un relay
 ]);
-const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com'];
+const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com', '.blogspot.com'];
 
 // Da non usare come prova: testi senza autore ne' data, pagine che si copiano
 // fra loro, raccolte di citazioni che non dicono da quale intervista vengono.
@@ -106,8 +121,25 @@ const VIETATI = new Map([
 
 // ---------------------------------------------------------------- misura
 
+// **web.archive.org non e' un dominio: e' un contenitore.**
+// Se ne stavano contando otto riferimenti come «da classificare», ma sei di
+// quegli otto incapsulano un articolo di una testata gia' classificata B —
+// Rolling Stone, Alternative Press, Radio Italia — morto all'indirizzo vivo e
+// sopravvissuto solo in archivio. Contare l'hostname letterale significa
+// declassare una fonte buona solo perche' l'originale e' caduto, ed e' il
+// contrario di cio' che si vuole premiare.
+// La forma e' `https://web.archive.org/web/<data>/<indirizzo originale>`: si
+// prende l'indirizzo interno e si classifica quello.
 function dominio(url) {
-  try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return null; }
+  try {
+    let u = new URL(url);
+    let host = u.hostname.replace(/^www\./, '');
+    if (host === 'web.archive.org' || host === 'archive.org') {
+      const dentro = url.match(/https?:\/\/web\.archive\.org\/web\/[^/]*\/(https?:\/\/.+)$/i);
+      if (dentro) return new URL(dentro[1]).hostname.replace(/^www\./, '');
+    }
+    return host;
+  } catch { return null; }
 }
 
 function livello(d) {
