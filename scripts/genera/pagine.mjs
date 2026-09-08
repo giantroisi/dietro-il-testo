@@ -569,8 +569,12 @@ export function paginaCanzone(c, ctx) {
         <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
              potrebbe: Instagram non espone alcun indirizzo di condivisione dal
              web. Apre invece la scelta del formato e prepara l'immagine giusta
-             — 1080×1920 per la storia, 1080×1350 per il post — che il telefono
-             passa a Instagram tramite la condivisione di sistema. Il disegno e'
+             — 1080×1920 per storia e reel, 1080×1350 per il post — che il
+             telefono passa a Instagram tramite la condivisione di sistema.
+             Storia e reel condividono le dimensioni ma non la stessa
+             interfaccia sovrapposta (il reel ha una colonna di icone sulla
+             destra che la storia non ha), quindi in ricerca.js hanno margini
+             di sicurezza diversi anche se il canvas e' identico. Il disegno e'
              fatto nel browser (ricerca.js) a partire da questi dati, quindi
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
@@ -595,6 +599,7 @@ export function paginaCanzone(c, ctx) {
             <p class="etichetta">Immagine pronta per Instagram</p>
             <div class="formati-scelte">
               <button type="button" class="bottone" data-formato="storia">Storia <span>1080×1920</span></button>
+              <button type="button" class="bottone" data-formato="reel">Reel <span>1080×1920</span></button>
               <button type="button" class="bottone" data-formato="post">Post <span>1080×1350</span></button>
             </div>
             <p class="nota" data-cartolina-nota aria-live="polite">Sul telefono si apre la condivisione e scegli Instagram; sul computer l'immagine viene scaricata.</p>

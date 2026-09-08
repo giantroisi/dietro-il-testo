@@ -337,13 +337,24 @@
      momento iconico gia' parafrasato - mai un verso della canzone (P3). */
   var cartolina = document.querySelector('[data-cartolina]');
   if (cartolina) {
-    /* Le due misure che Instagram vuole: 9:16 per la storia, 4:5 per il post
+    /* Le misure che Instagram vuole: 9:16 per storia e reel, 4:5 per il post
        (il formato verticale del feed, non il quadrato: occupa piu' schermo).
-       "alto" e "basso" sono le fasce che l'interfaccia di Instagram copre nella
-       storia - profilo in cima, campo di risposta in fondo - e dentro cui non
-       va messo niente. */
+       "alto" e "basso" sono le fasce orizzontali che l'interfaccia di
+       Instagram copre e dentro cui non va messo niente; "destra" e' una
+       fascia verticale, e serve solo al reel.
+       Storia e reel condividono le dimensioni (1080x1920) ma non la stessa
+       interfaccia sopra: nella storia Instagram copre una striscia intera in
+       cima (profilo, orario, la X per chiudere) e un'altra in fondo (il
+       campo di risposta, largo quanto lo schermo). Nel reel la cima resta
+       quasi libera - c'e' solo la scritta "Reel" in alto - ma in basso a
+       sinistra si sovrappongono didascalia, audio e nome utente, mentre
+       sulla destra corre una colonna fissa di icone (mi piace, commenti,
+       condividi, salva, altro) dall'incirca meta' schermo fino in fondo:
+       e' quella colonna, non presente nella storia, il motivo per cui il
+       reel ha bisogno di una fascia propria, "destra". */
     var FORMATI = {
       storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
+      reel: { w: 1080, h: 1920, alto: 120, basso: 340, destra: 230, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
       post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 470, dimFrase: 38 }
     };
     var SERIF = '"Iowan Old Style", Georgia, "Times New Roman", serif';
@@ -490,7 +501,7 @@
       x.fillRect(0, 0, f.w, f.h);
 
       var marg = 84;
-      var largh = f.w - marg * 2;
+      var largh = f.w - marg * 2 - (f.destra || 0);
       var altLogo = logoPronto ? altezzaLogo(f.logo) : 0;
 
       var sopra = [];
@@ -595,7 +606,8 @@
         var cv;
         try { cv = disegna(chiave); } catch (e) { dice('Non sono riuscito a preparare l’immagine su questo browser.'); return; }
         var file = inFile(cv, chiave);
-        var etichetta = chiave === 'storia' ? 'Storia' : 'Post';
+        var etichette = { storia: 'Storia', reel: 'Reel', post: 'Post' };
+        var etichetta = etichette[chiave] || chiave;
         if (file && navigator.canShare && navigator.share && navigator.canShare({ files: [file] })) {
           navigator.share({ files: [file], title: cartolina.getAttribute('data-titolo') || '' }).then(function () {
             dice('Fatto. In Instagram scegli ' + etichetta + '.');
