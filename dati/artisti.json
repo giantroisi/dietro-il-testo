@@ -278,6 +278,11 @@
         "url": "https://www.allmusic.com/artist/a-ha-mn0000480108",
         "nome": "AllMusic — Kelvin Hayes",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.electricity-club.co.uk/the-story-of-bridges/",
+        "nome": "The Electricity Club — Barry Page",
+        "ruolo": "storia"
       }
     ]
   },
@@ -1679,8 +1684,9 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Bring_Me_the_Horizon",
-        "nome": "Wikipedia"
+        "url": "https://www.nme.com/features/bring-me-the-horizon-the-full-nme-cover-interview-757226",
+        "nome": "NME — Jonny Ensall",
+        "ruolo": "storia"
       }
     ]
   },
@@ -2615,6 +2621,11 @@
       {
         "url": "https://www.allmusic.com/artist/deep-purple-mn0000192382",
         "nome": "AllMusic — Jason Ankeny",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/the-story-of-hush-the-song-that-blasted-deep-purple-into-the-us-charts-and-beyond",
+        "nome": "Classic Rock / Louder — Rob Hughes",
         "ruolo": "storia"
       }
     ]
