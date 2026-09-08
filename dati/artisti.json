@@ -1930,7 +1930,7 @@
   {
     "slug": "claudio-baglioni",
     "nome": "Claudio Baglioni",
-    "storia": "Nato a Roma nel 1951, esordisce nel 1969 con il primo singolo e raggiunge la piena consacrazione nel 1972 con l'album \"Questo piccolo grande amore\". Il disco del 1985 \"La vita è adesso\" resta tuttora l'album più venduto della storia della musica italiana, con oltre 5 milioni di copie. È stato inoltre direttore artistico e conduttore del Festival di Sanremo nel 2018 e nel 2019.",
+    "storia": "Nato a Roma nel 1951, incide le prime canzoni sul finire degli anni Sessanta e pubblica il primo album nel 1970, raggiungendo la piena consacrazione nel 1972 con \"Questo piccolo grande amore\". Il disco del 1985 \"La vita è adesso\" è tra gli album di maggior successo della storia della musica italiana, anche se la cifra di quattro o cinque milioni di copie spesso citata non trova riscontro in dati certificati: il sito ufficiale dell'artista parla di oltre un milione e mezzo di copie nel solo anno di uscita. È stato inoltre direttore artistico e conduttore del Festival di Sanremo nel 2018 e nel 2019.",
     "album": [
       {
         "titolo": "Claudio Baglioni",
@@ -2055,7 +2055,19 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#A66B3E"
+    "colore": "#A66B3E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/claudio-baglioni/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ondarock.it/speciali/wikipedia-falsimiti-parte1.htm",
+        "nome": "OndaRock — Federico Romagnoli",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "coldplay",
@@ -3102,7 +3114,7 @@
   {
     "slug": "ed-sheeran",
     "nome": "Ed Sheeran",
-    "storia": "Nato nel 1991 a Halifax e cresciuto a Framlingham, nel Suffolk, lasciò la scuola a sedici anni per dedicarsi interamente alla musica, trasferendosi a Londra nel 2008. L'EP indipendente \"No. 5 Collaborations Project\" (2011) attirò l'attenzione di Elton John e Jamie Foxx; il successivo album di debutto \"+\" (2011) lo lanciò a livello internazionale, seguito da \"x\" (2014) e \"÷\" (2017). Ha venduto oltre 200 milioni di dischi nel mondo.",
+    "storia": "Nato nel 1991 a Halifax e cresciuto a Framlingham, nel Suffolk, lasciò la scuola a sedici anni per dedicarsi interamente alla musica, trasferendosi a Londra nel 2008. Dopo una serie di EP autoprodotti, tra cui \"No. 5 Collaborations Project\" (2011), fu notato da Jamie Foxx; il successivo album di debutto \"+\" (2011) lo lanciò a livello internazionale, seguito da \"x\" (2014) e \"÷\" (2017). Ha venduto oltre 200 milioni di dischi nel mondo.",
     "album": [
       {
         "titolo": "+",
@@ -3171,7 +3183,14 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#1F5C8A"
+    "colore": "#1F5C8A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/ed-sheeran",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "edoardo-bennato",
@@ -3323,7 +3342,24 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#1F6B8A"
+    "colore": "#1F6B8A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/edoardo-bennato/",
+        "nome": "Treccani — Enciclopedia (Istituto della Enciclopedia Italiana)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/musica/storie-musica/bennato-allo-stadio-la-storia-del-primo-san-siro-di-un-cantante-italiano/998066/",
+        "nome": "Rolling Stone Italia — Francesco Donadio",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/italia/edoardobennato.htm",
+        "nome": "OndaRock",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "electric-callboy",
@@ -3744,7 +3780,7 @@
   {
     "slug": "eros-ramazzotti",
     "nome": "Eros Ramazzotti",
-    "storia": "Nato a Roma nel 1963, imparò a suonare pianoforte e chitarra da autodidatta dopo che la domanda di ammissione al Conservatorio non fu accolta. Ottenne il primo contratto discografico nel 1981 grazie al concorso Voci Nuove di Castrocaro; nel 1984 vinse la sezione Nuove Proposte del Festival di Sanremo con \"Terra promessa\", esordendo su disco l'anno successivo con \"Cuori agitati\". Tornò a Sanremo nel 1985 tra i Big con \"Una storia importante\", ottenendo un ampio successo commerciale anche all'estero.",
+    "storia": "Nato a Roma nel 1963, imparò a suonare pianoforte e chitarra da autodidatta dopo che la domanda di ammissione al Conservatorio non fu accolta. Ottenne il primo contratto discografico nel 1981 grazie al concorso Voci Nuove di Castrocaro; nel 1984 vinse la sezione Nuove Proposte del Festival di Sanremo con \"Terra promessa\", pubblicando l'anno successivo il suo primo album, \"Cuori agitati\". Tornò a Sanremo nel 1985 tra i Big con \"Una storia importante\", ottenendo un ampio successo commerciale anche all'estero.",
     "album": [
       {
         "titolo": "Cuori agitati",
@@ -3862,7 +3898,24 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#B3661F"
+    "colore": "#B3661F",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/eros-ramazzotti/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/artista/eros-ramazzotti/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ilgiornale.it/news/musica/sanremo-e-ritorno-eros-ramazzotti-storia-importante-2626612.html",
+        "nome": "il Giornale — Erika Pomella",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "evanescence",
@@ -8402,7 +8455,7 @@
   {
     "slug": "oasis",
     "nome": "Oasis",
-    "storia": "Formati a Manchester nel 1991 attorno al chitarrista Paul \"Bonehead\" Arthurs, la band trovò la propria identità quando Liam Gallagher coinvolse il fratello maggiore Noel come chitarrista e principale compositore. Le tensioni tra i due fratelli portarono allo scioglimento nel 2009; nel 2025 si sono riuniti per un tour mondiale.",
+    "storia": "Formati a Manchester nel 1991 con il nome The Rain dal chitarrista Paul \"Bonehead\" Arthurs, dal bassista Paul \"Guigsy\" McGuigan e dal batterista Tony McCarroll, cambiarono nome in Oasis quando entrò come cantante Liam Gallagher; la band trovò la propria identità quando Liam coinvolse il fratello maggiore Noel come chitarrista e principale compositore, che pose come condizione il pieno controllo creativo. Le tensioni tra i due fratelli portarono allo scioglimento nel 2009; nel 2025 si sono riuniti per un tour mondiale.",
     "album": [
       {
         "titolo": "Definitely Maybe",
@@ -8482,7 +8535,19 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#2E4A8A"
+    "colore": "#2E4A8A",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Oasis-British-rock-group",
+        "nome": "Britannica — Laura Payne",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/oasis-line-up-band-reunion-tour-members-2025-3845348",
+        "nome": "NME — Andrew Trendell",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "ozzy-osbourne",
@@ -10589,7 +10654,29 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#8F1616"
+    "colore": "#8F1616",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/features/an-epic-oral-history-of-slayers-early-years",
+        "nome": "Metal Hammer / Louder — Dave Everley",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.cbsnews.com/losangeles/news/slayer-guitarist-hanneman-died-of-cirrhosis/",
+        "nome": "CBS News Los Angeles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/slayer-last-tour-ever/",
+        "nome": "Loudwire — Chad Childers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/revisiting-the-first-ever-big-four-show-metallica-slayer-megadeth-anthrax-poland-2010",
+        "nome": "Metal Hammer / Louder — Paul Brannigan",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "slipknot",
