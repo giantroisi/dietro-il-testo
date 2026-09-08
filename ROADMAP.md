@@ -2033,6 +2033,9 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: `dati/canzoni.json` non toccato. Rigenerato, `check-coerenza` 0, `check-completezza` invariato, `check-attribuzioni` 0. `check-livelli` BIOGRAFIE: senza fonti 79→69, con fonti ma nessuna A/B 6 (`a-ha`, `al-bano-e-romina-power`, `bring-me-the-horizon`, `deep-purple`, `iron-maiden`, `sum-41` — non sono errori di sourcing, sono domini non ancora classificati: `ilgiornale.it`, `eurovisionworld.com`, `ansa.it`, `thecanadianencyclopedia.ca`; per Opus), documentate 19→29. FRENO canzoni invariato 56/56. Copiato in root — 10 pagine artista più `dati/artisti.json`, nessuna canzone o album toccato — pushato in due commit.
   **Prossimo**: restano 69 artisti su 104 senza fonti in `artisti.json`; le 21 correzioni del campione 8 restano in coda dopo.
 
+- **8 settembre 2026 — Chiuso il rimedio su quattro delle sei biografie "solo AllMusic".** Trovata una seconda fonte A/B reale per `a-ha` (The Electricity Club, Barry Page — conferma la formazione a Oslo 1982 da Bridges), `bring-me-the-horizon` (NME, Jonny Ensall, sostituisce Wikipedia — conferma Sheffield 2004 e l'arrivo di Jordan Fish nel 2011) e `deep-purple` (Classic Rock/Louder, Rob Hughes — conferma la Mark I di inizio 1968 con tutti e cinque i membri). Nessuna delle tre fonti contraddice il testo esistente: solo conferma. **Restano `iron-maiden` e `sum-41`**: cercata una fonte A/B soddisfacente per entrambe senza trovarla.
+  **Verificato**: rigenerato, `check-coerenza` 0, `check-attribuzioni` 0. BIOGRAFIE: con fonti ma nessuna A/B sceso da 6 a 3 (`al-bano-e-romina-power`, `iron-maiden`, `sum-41`), documentate salito da 29 a 32. FRENO invariato 56/56. Copiato in root, pushato.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
