@@ -1852,6 +1852,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: `check-livelli.mjs` invariato, 77/79 — solo ricerca in questo lotto, nessuna modifica ai dati.
   **Fine del giro sui 53 domini segnalati a inizio giornata.** Restano da vedere solo i tre irraggiungibili sopra, se in futuro risultano accessibili da un altro strumento.
 
+- **8 settembre 2026 — Coda delle fonti, le 19 schede più dure: riprovate tutte con angoli di ricerca nuovi rispetto ai giri precedenti, nessuna sbloccata. Mi fermo qui, come da indicazione, senza forzare.** Non ripetute le stesse ricerche già fatte nei giorni scorsi: per ognuna ho provato una strada diversa da quelle già tentate.
+  - **`sleepwalking`, `antivist`, `shadow-moses`**: cercato l'originale di Metal Hammer su `metalhammer.co.uk` con parole diverse — trovate solo altre fonti che *citano* lo stesso pezzo (Blabbermouth conferma che esiste, con una citazione nuova di Matt Kean su `antivist` che prima non avevo), ma l'articolo originale resta introvabile online fuori dal relay già segnalato.
+  - **`uprising`, `supermassive-black-hole`, `knights-of-cydonia`**: cercato *Under The Radar* direttamente (la fonte primaria dichiarata da MuseWiki per `knights-of-cydonia`) — nessun risultato indicizzato su quel dominio per questo brano. Stesso esito per Hot Press e FHM.
+  - **`urlando-contro-il-cielo`, `sotto-le-lenzuola`, `isola-che-non-ce`**: provato a cercare, sul sito ufficiale di Ligabue (Ligachannel, già segnalato come A l'8 settembre), la pagina "canzone per canzone" dell'album che contiene ciascun brano — ne esiste una per il primo album (già nota), ma non ho trovato l'equivalente per "Lambrusco coltelli rose & pop corn" né per gli album di Bennato o Celentano.
+  - **`generale`, `bello-impossibile`, `sharazan`, `profumo-nannini`, `nord-sud-ovest-est`**: nessuna pista nuova; Repubblica e Corriere restano irraggiungibili dai miei strumenti (bloccano il crawler, verificato l'8 settembre), quindi se una di queste dipende da quegli archivi non posso saperlo da qui.
+  - **`she-looks-so-perfect`, `my-exs-best-friend`, `motivation`, `aerials`, `ive-been-losing-you`**: nessuna pista nuova rispetto ai tentativi già registrati.
+  **Nessuna scheda forzata**: tutte restano documentate con quello che c'è (fonti di livello C, oneste sul fatto che non bastano), nessuna citazione inventata o forzata per far quadrare un numero.
+**Verificato**: `check-livelli.mjs` invariato, 77/79 — nessuna modifica ai dati in questo lotto.
+  **Le 19 schede restano 19.** Prossimo tentativo solo se emerge una pista concreta, non per abitudine.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
