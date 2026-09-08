@@ -2,7 +2,7 @@
   {
     "slug": "5-seconds-of-summer",
     "nome": "5 Seconds of Summer",
-    "storia": "Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò nel 2013, quando la band aprì le date del tour europeo dei One Direction. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.",
+    "storia": "Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò a partire dal 2013, quando la band aprì le date nordamericane e internazionali del \"Take Me Home Tour\" dei One Direction; le date europee arrivarono l'anno successivo, nel 2014, sul \"Where We Are Tour\" dello stesso gruppo. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.",
     "album": [
       {
         "titolo": "5 Seconds of Summer",
@@ -64,7 +64,19 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#2E6E8A"
+    "colore": "#2E6E8A",
+    "fonti": [
+      {
+        "url": "https://www.wembleystadium.com/news/2014/mar/24/5-seconds-of-summer-to-support-one-direction",
+        "nome": "Wembley Stadium",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.billboard.com/music/music-news/the-billboard-cover-story-5-seconds-of-summer-they-want-more-than-15-6204986/",
+        "nome": "Billboard",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "883",
@@ -142,7 +154,14 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#8A1F1F"
+    "colore": "#8A1F1F",
+    "fonti": [
+      {
+        "url": "https://www.rockol.it/news-718102/max-pezzali-mauro-repetto-883-canzoni-album-il-mondo-insieme-a-te",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "a-ha",
@@ -1329,7 +1348,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#B3661F"
+    "colore": "#B3661F",
+    "fonti": [
+      {
+        "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/blink-182-career",
+        "nome": "Kerrang (via Hello Rayo)",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "bon-jovi",
@@ -1699,7 +1725,14 @@
       "rap"
     ],
     "paese": "it",
-    "colore": "#1F6B8A"
+    "colore": "#1F6B8A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/caparezza/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "cesare-cremonini",
@@ -1822,7 +1855,14 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#8A3E1F"
+    "colore": "#8A3E1F",
+    "fonti": [
+      {
+        "url": "https://www.rollingstone.it/artista/cesare-cremonini/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "claudio-baglioni",
@@ -4987,7 +5027,7 @@
   {
     "slug": "green-day",
     "nome": "Green Day",
-    "storia": "Nati come Sweet Children nel 1986-87 a Rodeo, in California, per iniziativa dei quattordicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena punk della Gilman Street di Berkeley. Presero il nome definitivo nel 1989 e, con l'arrivo del batterista Tré Cool nel 1990, completarono la formazione che li avrebbe portati al successo mondiale con \"Dookie\" (1994) e, un decennio dopo, con il concept album \"American Idiot\" (2004).",
+    "storia": "Nati come Sweet Children nel 1987 a Rodeo, in California, per iniziativa dei quindicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena punk della Gilman Street di Berkeley. Presero il nome definitivo nel 1989 e, con l'arrivo del batterista Tré Cool nel 1990, completarono la formazione che li avrebbe portati al successo mondiale con \"Dookie\" (1994) e, un decennio dopo, con il concept album \"American Idiot\" (2004).",
     "album": [
       {
         "titolo": "39/Smooth",
@@ -5123,6 +5163,13 @@
     "colore": "#4A6E2E",
     "riconoscimenti": [
       "5 Grammy Awards vinti in carriera"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Green-Day",
+        "nome": "Encyclopaedia Britannica — Melissa Albert",
+        "ruolo": "storia"
+      }
     ]
   },
   {
@@ -5197,7 +5244,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#8A1A2E"
+    "colore": "#8A1A2E",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Guns-N-Roses",
+        "nome": "Encyclopaedia Britannica — Gillian G. Gaar",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "iron-maiden",
@@ -6251,6 +6305,13 @@
     "colore": "#8F1A1A",
     "riconoscimenti": [
       "Oltre 100 milioni di dischi venduti nel mondo nel corso della carriera"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Linkin-Park",
+        "nome": "Encyclopaedia Britannica — Fred Frommer",
+        "ruolo": "storia"
+      }
     ]
   },
   {
@@ -7049,6 +7110,13 @@
     "colore": "#6B6B6E",
     "riconoscimenti": [
       "9 Grammy Awards vinti in carriera, oltre 110 milioni di dischi venduti nel mondo"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Metallica",
+        "nome": "Encyclopaedia Britannica",
+        "ruolo": "storia"
+      }
     ]
   },
   {
@@ -8693,7 +8761,14 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#4A5C8A"
+    "colore": "#4A5C8A",
+    "fonti": [
+      {
+        "url": "https://www.rollingstone.it/artista/pinguini-tattici-nucleari/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "pink-floyd",
