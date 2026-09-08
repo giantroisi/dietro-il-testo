@@ -431,7 +431,12 @@ export function generaRicerca(ctx) {
        reel ha bisogno di una fascia propria, "destra". */
     var FORMATI = {
       storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
-      reel: { w: 1080, h: 1920, alto: 120, basso: 340, destra: 230, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
+      // righeFrase 11 e non 8 come la storia: il reel ha 200 px di altezza utile
+      // in piu' (fascia alta 120 invece di 330) ma righe piu' corte di 230 px,
+      // quindi con lo stesso numero di righe mostrava MENO testo della storia
+      // lasciando 288 px vuoti in fondo - misurati sull'immagine prodotta, non
+      // stimati. Il taglio cadeva a meta' frase mentre lo spazio c'era.
+      reel: { w: 1080, h: 1920, alto: 120, basso: 340, destra: 230, righeTitolo: 3, righeFrase: 11, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
       post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 470, dimFrase: 38 }
     };
     var SERIF = '"Iowan Old Style", Georgia, "Times New Roman", serif';
