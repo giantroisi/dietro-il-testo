@@ -76,6 +76,12 @@ const A = new Set([
   // «canzone per canzone» del 2 aprile 2009 in cui Ligabue commenta i propri
   // brani. E' l'artista che parla di se': A per definizione, non per fiducia.
   'ligachannel.com',
+  // 8 settembre 2026, sera. Entrate con le biografie degli artisti.
+  // Britannica sta accanto a treccani.it, gia' in questa lista dal primo
+  // giorno: sono la stessa cosa: opere di riferimento con direzione
+  // editoriale e voci firmate. Wembley Stadium e' il sito ufficiale della
+  // sede, citato per una data di concerto: e' la fonte primaria di quel fatto.
+  'britannica.com', 'wembleystadium.com',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -159,6 +165,15 @@ const C = new Set([
   // Due emittenti radio, aperte l'8 settembre invece che dedotte dal nome:
   'smoothradio.com',      // data ma nessuna firma sulla pagina, classifica redazionale senza fonti
   'radiocremebrulee.com', // web radio americana, recensione a firma collettiva, nessuna fonte
+  // 8 settembre 2026, sera. Entrata con le biografie degli artisti. AllMusic non
+  // e' un database collaborativo — ha una redazione — ma le sue schede non
+  // citano nulla: aperta quella dei Muse, nessuna firma, nessuna data, nessuna
+  // fonte esterna. Altre pagine dello stesso sito sono firmate (Kelvin Hayes,
+  // Neil Z. Yeung, Jason Ankeny): e' il solito caso in cui il livello dipende
+  // dalla pagina e la tabella puo' dire una cosa sola. Scelgo la piu' prudente:
+  // C. Conseguenza voluta: una biografia documentata dalla sola AllMusic
+  // risulta senza fonte A/B, che e' esattamente cio' che e'.
+  'allmusic.com',
 ]);
 const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com', '.blogspot.com'];
 
@@ -291,6 +306,33 @@ if (elenco && senzaAB.length) {
   console.log('\nElenco delle schede senza fonti A/B:');
   for (const s of senzaAB) console.log(`  ${s}`);
 }
+
+// ------------------------------------------------- biografie degli artisti
+//
+// Aggiunto l'8 settembre 2026, il giorno in cui le biografie hanno avuto per la
+// prima volta un campo `fonti`. Fino a quel momento questo script leggeva solo
+// `canzoni.json`: **il freno proteggeva le schede e non le pagine artista**, che
+// nel frattempo pubblicavano 48.000 caratteri senza una fonte. La verifica
+// indipendente ci ha poi misurato il tasso peggiore del sito.
+//
+// Qui NON c'e' un freno, e non e' una dimenticanza: una soglia messa oggi
+// sarebbe finta, perche' la maggioranza delle biografie non ha ancora nessuna
+// fonte e il numero e' destinato a muoversi di molto a ogni lotto. Il freno si
+// mette quando la coda e' chiusa, come si e' fatto per le schede.
+
+const artisti = JSON.parse(readFileSync('dati/artisti.json', 'utf8'));
+const conStoria = artisti.filter((a) => a.storia);
+const senzaFonti = conStoria.filter((a) => !(Array.isArray(a.fonti) && a.fonti.length));
+const conFonti = conStoria.filter((a) => Array.isArray(a.fonti) && a.fonti.length);
+const bioSenzaAB = conFonti.filter(
+  (a) => !a.fonti.some((f) => ['A', 'B'].includes(livello(dominio(f.url))))
+);
+
+console.log('\n' + '—'.repeat(64));
+console.log(`BIOGRAFIE  ${conStoria.length} artisti con una storia pubblicata`);
+console.log(`  senza nessuna fonte        ${senzaFonti.length}  (la pagina lo dichiara al lettore)`);
+console.log(`  con fonti ma nessuna A/B   ${bioSenzaAB.length}${bioSenzaAB.length ? '  → ' + bioSenzaAB.map((a) => a.slug).join(', ') : ''}`);
+console.log(`  documentate con A o B      ${conFonti.length - bioSenzaAB.length}`);
 
 // ------------------------------------------------------------------ freno
 
