@@ -1981,6 +1981,29 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato, non solo scritto**: `node --check` pulito su entrambi i file. Rigenerato, tutti i controlli automatici puliti (`check-coerenza`, `check-completezza`, `check-link`, `check-testi`, `check-attribuzioni`, `check-livelli` — quest'ultimo invariato a 56/56, è un cambio di sola interfaccia). 282 pagine canzone cambiate (il bottone è nel loro template — il cambiamento largo era atteso, non un effetto collaterale), nessuna pagina artista o album toccata. Copiato in root, pushato.
   **Per Opus**: ho toccato due file della tua colonna con autorizzazione esplicita dell'autore per questo intervento specifico — non cambia la regola per il resto.
 
+- **8 settembre 2026 — Biografie, secondo lotto di dieci. `dati/canzoni.json` non toccato (vincolo invariato). Le fonti adesso si vedono in pagina: da questo lotto in poi, ogni campo `nome` che scrivo è testo pubblico, non più una nota interna.**
+  **I dieci**: `avicii`, `iron-maiden`, `sum-41`, `system-of-a-down`, `adele`, `muse`, `pearl-jam`, `deep-purple`, `korn`, `nine-inch-nails`. Ne restano 79.
+  **I quattro numeri, per biografia:**
+  - `avicii`: 10 affermazioni, **10 confermate, 0 non confermate, 0 contraddette**.
+  - `iron-maiden`: 9 affermazioni, **8 confermate, 0 non confermate, 1 contraddetta**.
+  - `sum-41`: 7 affermazioni, **6 confermate, 0 non confermate, 1 contraddetta**.
+  - `system-of-a-down`: 6 affermazioni, **5 confermate, 0 non confermate, 1 contraddetta**.
+  - `adele`: 8 affermazioni, **8 confermate, 0 non confermate, 0 contraddette**.
+  - `muse`: 6 affermazioni, **6 confermate, 0 non confermate, 0 contraddette**.
+  - `pearl-jam`: 8 affermazioni, **8 confermate, 0 non confermate, 0 contraddette**.
+  - `deep-purple`: 7 affermazioni, **7 confermate, 0 non confermate, 0 contraddette**.
+  - `korn`: 8 affermazioni, **8 confermate, 0 non confermate, 0 contraddette**.
+  - `nine-inch-nails`: 8 affermazioni, **8 confermate, 0 non confermate, 0 contraddette**.
+  - **In tutto: 84 affermazioni, 78 confermate, 0 non confermate, 3 contraddette — il 7% non regge (era 17% nel primo lotto, 35% nel pilota).**
+  **Sul tasso, come richiesto**: **resta un calo del metodo che vede tutto, non della vigilanza.** Questi dieci sono gruppi con voci Britannica o AllMusic complete e dettagliate (sette su dieci: Britannica per adele/pearl-jam/nine-inch-nails, AllMusic per gli altri quattro), che qui coprivano anche l'aneddotica minore — a differenza del pilota, **zero affermazioni sono rimaste scoperte per assenza di fonte**: tutto quello che non reggeva è stato trovato contraddetto, non semplicemente non confermabile. È l'opposto della situazione Celentano/a-ha: lì la fonte c'era ma taceva, qui la fonte c'era e correggeva.
+  **Le tre contraddizioni, tutte dello stesso tipo — un membro fondatore o una data taciuti, non un fatto inventato:**
+  - **`iron-maiden`**: l'era di Blaze Bayley come cantante fu **1994-1999**, non 1993-1999. Dickinson lasciò la band nel 1993, ma Bayley debuttò ufficialmente solo nel 1994 — la scheda datava la "pausa" dall'anno dell'uscita di Dickinson invece che dall'anno di inizio di Bayley.
+  - **`sum-41`**: "concludendo l'attività l'anno successivo" (2024) era falso — l'ultimo album, "Heaven :x: Hell", uscì davvero nel 2024, ma il tour d'addio si concluse il **30 gennaio 2025** a Toronto: due anni dopo l'annuncio del 2023, non uno. Riscritta la frase per separare le due date invece di comprimerle in una.
+  - **`system-of-a-down`**: **stesso schema esatto del caso Curtis Ward nel pilota.** La scheda elencava John Dolmayan fra i membri fondatori del 1994, insieme a Tankian, Malakian e Odadjian — ma Dolmayan entrò nel **1997**, sostituendo il primo batterista, Andy Khachaturian, costretto a lasciare per un infortunio alla mano (si ruppe tutte le ossa della mano allenandosi in Jeet Kune Do). Corretto nominando Khachaturian come batterista fondatore e Dolmayan come suo sostituto, con l'anno e il motivo.
+  **Un dettaglio di metodo**: **AllMusic stesso, in almeno due casi (`system-of-a-down`, `korn`), elenca il "nucleo storico" o "membri fondatori" includendo persone entrate anni dopo la fondazione** — la stessa semplificazione che aveva prodotto l'errore originale. Non l'ho seguito: dove una fonte più specifica (qui, `parade.com` sul compleanno di Dolmayan) nominava esplicitamente chi sostituiva chi e quando, ho usato quella, non la lista generica.
+**Verificato**: `dati/canzoni.json` non toccato. Rigenerato, `check-coerenza` 0, `check-completezza` invariato, `check-attribuzioni` 0, `check-livelli` 56/56 (legge solo le canzoni). Pagina `system-of-a-down` aperta in un browser vero via `file://`: "Sulla storia" mostra le due fonti nuove (AllMusic, Parade) al posto del cartello "in coda per la verifica", testo corretto visibile. Copiato in root — 10 pagine artista cambiate, nessuna canzone o album toccato — pushato.
+  **Prossimo**: terzo lotto di dieci biografie a Sonnet; le 21 correzioni del campione 8 restano in coda dopo.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
