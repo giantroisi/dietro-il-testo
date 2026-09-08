@@ -5437,7 +5437,7 @@
     "fonti": [
       {
         "url": "https://www.allmusic.com/artist/iron-maiden-mn0000098465",
-        "nome": "AllMusic",
+        "nome": "AllMusic — Barry Weber",
         "ruolo": "storia"
       }
     ]
@@ -8102,7 +8102,12 @@
     "fonti": [
       {
         "url": "https://www.allmusic.com/artist/muse-mn0000514563",
-        "nome": "AllMusic",
+        "nome": "AllMusic — Heather Phares",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/blogs/nme-blogs/unearthed-muse-live-footage-from-1994-1554936",
+        "nome": "NME",
         "ruolo": "storia"
       }
     ]
@@ -10759,7 +10764,12 @@
     "fonti": [
       {
         "url": "https://www.allmusic.com/artist/sum-41-mn0000585574",
-        "nome": "AllMusic",
+        "nome": "AllMusic — Johnny Loftus",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.thecanadianencyclopedia.ca/en/article/sum-41",
+        "nome": "The Canadian Encyclopedia — Steve McLean, 14 novembre 2011",
         "ruolo": "storia"
       }
     ]
