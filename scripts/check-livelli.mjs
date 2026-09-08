@@ -56,7 +56,9 @@
 //   arricchita**: viene dall'aver guardato i domini. Il debito «di giudizio»
 //   e' quasi finito (4 riferimenti su 618); quello vero — schede che non hanno
 //   una fonte A/B e basta — adesso si vede tutto, ed e' 53.
-const SOGLIA = 57;
+//   8 settembre, sera tardi: 56. `una-vita-da-mediano` ha perso la fonte
+//   vietata e guadagnato la sua prima fonte A (Ligachannel).
+const SOGLIA = 56;
 
 import { readFileSync } from 'node:fs';
 
