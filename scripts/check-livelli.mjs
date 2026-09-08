@@ -38,9 +38,15 @@
 // Uso:  node scripts/check-livelli.mjs [--elenco]
 // Non serve rete.
 
-// Schede senza fonte A/B accertata il 4 settembre 2026, su 282 schede:
-// 115 con sole fonti C piu' 38 che dipendono da domini non ancora classificati.
-const SOGLIA = 153;
+// Schede senza fonte A/B accertata, su 282 schede. La soglia scende a mano a
+// ogni lotto chiuso, mai da sola.
+//   4 settembre: 153 (115 con sole fonti C + 38 su domini non classificati)
+//   8 settembre: 101 (22 con sole fonti C + 79 su domini non classificati)
+// Il primo dei due numeri e' crollato da 115 a 22 in quattro giorni. Il secondo
+// e' cresciuto perche' la coda ha portato dentro molti domini nuovi che nessuno
+// ha ancora classificato: **non sono un debito peggiore, sono un debito di
+// natura diversa** — li' non manca la fonte, manca il giudizio su di essa.
+const SOGLIA = 101;
 
 import { readFileSync } from 'node:fs';
 
