@@ -2459,26 +2459,28 @@ Il numero non è sacro e può essere cambiato dall'autore, ma va cambiato **espl
 
 ---
 
-## 13. Il punto al 30 agosto 2026 — cosa fare adesso
+## 13. Il punto all'8 settembre 2026 — cosa fare adesso
 
 Sezione breve e deperibile: dice dove siamo e cosa viene dopo. Va riscritta ogni volta che il quadro cambia, non accumulata.
 
-**Dove siamo.** L'architettura della sezione 11 è costruita e pubblicata. La routine della sezione 12 gira: C1, C2 e C3 sono chiuse, il debito è passato da 227 voci a **24** ed è sceso sotto la soglia di F67 — le aggiunte di contenuto nuovo non sono più bloccate. Search Console e Bing sono collegati e ricevono le sitemap. **Per la prima volta il sito è osservabile:** da adesso le decisioni possono nascere dai dati dei motori invece che dalla lettura dei file.
+**Dove siamo.** In cinque giorni il sito ha cambiato natura su tre fronti. **Le fonti**: le schede senza nemmeno una fonte di livello A o B sono passate da 115 a **19**, le fonti di livello B da 126 a **207**, e le fonti che la costituzione vieta sono **zero**. **Le immagini**: i ritratti d'artista sono passati da 20 a **27**, le anteprime social coprono tutte le 282 canzoni (erano 160), e le schede hanno una condivisione che produce l'immagine nei formati veri di Instagram. **I controlli**: `check-livelli` misura il livello delle fonti e fa da freno, `check-attribuzioni` trova le testate messe a garanzia senza essere citate, e il debito delle copertine C1–C4 è a **zero** per la prima volta.
+
+**Quello che ancora non sappiamo.** Al 4 settembre Search Console dichiarava **2 pagine indicizzate su circa 620**. Tutto il lavoro descritto sopra è stato fatto senza sapere se qualcuno lo vede: **è la domanda aperta più importante del progetto**, e non si risponde lavorando di più.
 
 ### Da fare, in quest'ordine
 
-1. **Riprovare IndexNow** (F68). La chiave è pubblicata e valida; al primo invio IndexNow non l'aveva ancora letta. Un comando, nessuna modifica: `node scripts/indexnow.mjs --tutti`.
-2. **Scrivere la firma** (F61). Campo `nome` in `dati/autore.json`. Finché è vuoto la pagina "Chi c'è dietro" regge lo stesso, ma dice "una persona sola" invece di dire chi.
-3. **Chiudere le 24 copertine di C4** (F66). Sono le ultime che sbloccano una pagina album; C5 non ha la stessa resa.
-4. **Leggere i dati e decidere** (F70). Fra tre o quattro giorni, non prima: serve che i motori abbiano scansionato.
-5. **Poi, e solo con i dati in mano, i temi** (F30). È la leva SEO più grossa ancora inutilizzata — "canzoni sulla depressione", "canzoni di protesta" sono ricerche frequenti ed esattamente ciò che questo sito sa fare — ma costa lavoro editoriale su tutte le schede. Affrontarla al buio significa sceglierne i temi a intuito.
+1. **Chiudere i domini da classificare** (F94). Restano **63 riferimenti** su una cinquantina di domini, quasi tutti con un uso solo. La divisione è quella già rodata: Sonnet li apre e scrive nel registro se hanno firma, data e fonti citate; Opus li classifica nelle tabelle di `scripts/check-livelli.mjs`. È il lavoro che sblocca il numero: finché un dominio è ignoto, le sue schede restano nel limbo del freno.
+2. **Chiudere la coda delle fonti** (F94). Restano **19 schede** con sole fonti di livello C. Sono le più difficili e non per pigrizia: in buona parte sono italiane — Vasco, Nannini, Ligabue, i Pooh — e per gli anni Ottanta e Novanta l'archivio online spesso non esiste. **Repubblica e Corriere bloccano il crawler**, quindi i loro archivi storici non sono raggiungibili da un programma. **Fermarsi a dieci o dodici scrivendo perché è l'esito giusto; arrivare a zero forzando non lo è.**
+3. **Leggere i dati dei motori** (F70). Serve una schermata di Search Console → Pagine, e la decisione che ne segue è dell'autore. Ora che il catalogo ha fonti vere e immagini, il confronto con il 4 settembre dice qualcosa; a settembre non diceva niente.
+4. **Il campione 8 di F71.** Due campioni con l'unità fine hanno dato **22% e 23%** di affermazioni che non reggono. Il campione 7 ha smentito l'ipotesi che il livello delle fonti spiegasse il tasso: schede con fonti A/B e schede senza sbagliano allo stesso modo. Un campione dopo la chiusura della coda dice se il lavoro sulle fonti ha spostato qualcosa — e la risposta attesa è no, il che sposterebbe il problema sulla scrittura.
+5. **I 77 artisti ancora senza ritratto** (F18). Per una parte non esistono foto libere e la risposta definitiva è il riquadro grafico; per un'altra parte non abbiamo ancora cercato con lo script corretto (sottocategorie, ricerca per nome, alias). Prima di dire «non c'è», va rifatta la ricerca: tre volte su tre, in questi giorni, «non c'è niente» significava «non abbiamo guardato lì».
 
 ### Da non fare adesso
 
-- **Nessuna decisione grossa prima di F70.** Abbiamo aspettato di poter misurare: sarebbe assurdo tornare a decidere a intuito il giorno in cui i dati arrivano.
-- **C5 (1.190 copertine) non è una priorità.** Sta fuori dal debito apposta: una copertina lì fa nascere una pagina che nessuno cerca, non ne sblocca una che esiste già.
+- **Non aggiungere schede nuove finché il freno non è chiuso.** Il freno di `check-livelli` è a **77 su una soglia di 79**: una scheda nuova con sole fonti di livello C lo fa scattare, ed è il suo scopo.
+- **C5 (1.107 album vuoti) resta ferma.** Scrivere la prima scheda di un album che nessuno cerca non vale quanto rendere difendibile una scheda che esiste già.
+- **Non fidarsi dei titoli per scegliere un'immagine.** Scelte leggendo i titoli: quattro su quattro sbagliate il 5 settembre, due da buttare su cinque il 6. Scelte guardando le anteprime: cinque su cinque giuste. Fra lo scarico e la pubblicazione ci sta un passo obbligatorio in cui qualcuno **guarda**.
 - **Nessuna scorciatoia di visibilità.** Directory, invii massivi ai motori, scambi o acquisti di collegamenti: inutili nel migliore dei casi, dannosi nel peggiore. Ciò che manca a questo sito sono citazioni vere, e quelle non si comprano.
-
 ---
 
 ## 14. Chi fa cosa, e perché nessuno pesti i piedi all'altro
