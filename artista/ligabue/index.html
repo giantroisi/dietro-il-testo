@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/ligabue/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Ligabue","url":"https://www.dietroiltesto.it/artista/ligabue/","dateModified":"2026-09-04","description":"Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Ligabue","item":"https://www.dietroiltesto.it/artista/ligabue/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Ligabue","url":"https://www.dietroiltesto.it/artista/ligabue/","dateModified":"2026-09-08","description":"Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Ligabue","item":"https://www.dietroiltesto.it/artista/ligabue/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -970,6 +978,10 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen. Dopo aver scritto un brano per Pierangelo Bertoli, debutta nel 1990 con l'album omonimo &quot;Ligabue&quot;; nel 1998 esordisce anche alla regia cinematografica con &quot;Radiofreccia&quot;, vincitore di tre David di Donatello.</p></div>
+      <div class="fonti-artista"><div class="fonti-gruppo">
+        <span class="fonti-etichetta">Sulla storia</span>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://www.treccani.it/enciclopedia/luciano-ligabue_(Enciclopedia-Italiana)/" target="_blank" rel="noopener">Treccani</a></li><li><span class="num">02</span><a href="https://www.rollingstone.it/artista/luciano-ligabue/" target="_blank" rel="noopener">Rolling Stone Italia</a></li></ol>
+      </div></div>
     </section>
 
     <section class="blocco">

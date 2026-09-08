@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -905,6 +913,10 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Nati a Poway, vicino San Diego, nel 1992 dall'incontro tra Tom DeLonge e Mark Hoppus: con il batterista Scott Raynor formavano il trio che avrebbe reinventato il pop punk americano. Raynor fu sostituito nel 1998 da Travis Barker, completando la formazione che con &quot;Enema of the State&quot; (1999) portò il genere al successo mainstream.</p></div>
+      <div class="fonti-artista"><div class="fonti-gruppo">
+        <span class="fonti-etichetta">Sulla storia</span>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://www.hellorayo.co.uk/kerrang/entertainment/music/blink-182-career" target="_blank" rel="noopener">Kerrang (via Hello Rayo)</a></li></ol>
+      </div></div>
     </section>
 
     <section class="blocco">

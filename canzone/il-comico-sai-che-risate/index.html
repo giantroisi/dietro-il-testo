@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/il-comico-sai-che-risate.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/#brano","name":"Il comico (Sai che risate)","byArtist":{"@type":"MusicGroup","name":"Cesare Cremonini","url":"https://www.dietroiltesto.it/artista/cesare-cremonini/"},"inAlbum":{"@type":"MusicAlbum","name":"La teoria dei colori"},"datePublished":"2012","url":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/","description":"Secondo singolo estratto da La teoria dei colori, quarto album in studio di Cesare Cremonini, pubblicato il 20 aprile 2012."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Il comico (Sai che risate)","item":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/"}]},{"@type":"Article","headline":"Il comico (Sai che risate)","about":{"@id":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/","dateModified":"2026-09-04"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/#brano","name":"Il comico (Sai che risate)","byArtist":{"@type":"MusicGroup","name":"Cesare Cremonini","url":"https://www.dietroiltesto.it/artista/cesare-cremonini/"},"inAlbum":{"@type":"MusicAlbum","name":"La teoria dei colori"},"datePublished":"2012","url":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/","description":"Secondo singolo estratto da La teoria dei colori, quarto album in studio di Cesare Cremonini, pubblicato il 20 aprile 2012."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Il comico (Sai che risate)","item":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/"}]},{"@type":"Article","headline":"Il comico (Sai che risate)","about":{"@id":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/","dateModified":"2026-09-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -682,6 +682,14 @@ a { color: inherit; }
 }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
+
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {

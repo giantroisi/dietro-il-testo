@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -918,6 +926,10 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Fondati a Los Angeles nell'ottobre 1981 dal chitarrista James Hetfield e dal batterista danese Lars Ulrich, dopo che quest'ultimo aveva pubblicato un annuncio su un giornale in cerca di musicisti metal. Insieme al chitarrista Kirk Hammett e al bassista Robert Trujillo, entrati rispettivamente nel 1983 e nel 2003, formano da decenni una delle formazioni più stabili e influenti della storia dell'heavy metal, considerati tra i fondatori del thrash metal insieme a Megadeth, Slayer e Anthrax.</p></div>
+      <div class="fonti-artista"><div class="fonti-gruppo">
+        <span class="fonti-etichetta">Sulla storia</span>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://www.britannica.com/topic/Metallica" target="_blank" rel="noopener">Encyclopaedia Britannica</a></li></ol>
+      </div></div>
     </section>
 
     <section class="blocco">

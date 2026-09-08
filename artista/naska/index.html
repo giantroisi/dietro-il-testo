@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/naska/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Naska","url":"https://www.dietroiltesto.it/artista/naska/","dateModified":"2026-09-04","description":"Diego Caterbetti, in arte Naska, nasce nel 1997 a Civitanova Marche e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Naska","item":"https://www.dietroiltesto.it/artista/naska/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Naska","url":"https://www.dietroiltesto.it/artista/naska/","dateModified":"2026-09-08","description":"Diego Caterbetti, in arte Naska, nasce nel 1997 a Civitanova Marche e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Naska","item":"https://www.dietroiltesto.it/artista/naska/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -857,6 +865,7 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Diego Caterbetti, in arte Naska, nasce nel 1997 a Civitanova Marche e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica. Cresciuto tra il punk rock di Blink-182 e Sum 41 e l'emo trap americana di Lil Peep, esordisce nel 2015 con l'EP &quot;The Purge&quot;; nel 2022 pubblica l'album di debutto &quot;Rebel&quot;, tra le sonorità punk rock che lo hanno reso uno dei protagonisti del revival pop punk italiano.</p></div>
+      <p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>
     </section>
 
     <section class="blocco">

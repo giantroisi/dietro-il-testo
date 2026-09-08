@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/pink-floyd/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Pink Floyd","url":"https://www.dietroiltesto.it/artista/pink-floyd/","dateModified":"2026-09-04","description":"Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Pink Floyd","item":"https://www.dietroiltesto.it/artista/pink-floyd/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Pink Floyd","url":"https://www.dietroiltesto.it/artista/pink-floyd/","dateModified":"2026-09-08","description":"Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Pink Floyd","item":"https://www.dietroiltesto.it/artista/pink-floyd/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -905,6 +913,7 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd. Barrett, frontman e principale autore nei primi anni, fu una figura chiave della psichedelia britannica per il suo stile di chitarra libero e per l'uso di dissonanza, distorsione ed eco.</p></div>
+      <p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>
     </section>
 
     <section class="blocco">

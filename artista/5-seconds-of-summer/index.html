@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/5-seconds-of-summer/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"5 Seconds of Summer","url":"https://www.dietroiltesto.it/artista/5-seconds-of-summer/","dateModified":"2026-09-04","description":"Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"5 Seconds of Summer","item":"https://www.dietroiltesto.it/artista/5-seconds-of-summer/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"5 Seconds of Summer","url":"https://www.dietroiltesto.it/artista/5-seconds-of-summer/","dateModified":"2026-09-08","description":"Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"5 Seconds of Summer","item":"https://www.dietroiltesto.it/artista/5-seconds-of-summer/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -902,7 +910,11 @@ a { color: inherit; }
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
-      <div class="prosa"><p>Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò nel 2013, quando la band aprì le date del tour europeo dei One Direction. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.</p></div>
+      <div class="prosa"><p>Formati a Sydney nel 2011 da Luke Hemmings, Michael Clifford e Calum Hood, ancora studenti liceali, si fecero notare pubblicando su YouTube cover di brani pop; il batterista Ashton Irwin si aggiunse alla formazione poco dopo. La popolarità internazionale arrivò a partire dal 2013, quando la band aprì le date nordamericane e internazionali del &quot;Take Me Home Tour&quot; dei One Direction; le date europee arrivarono l'anno successivo, nel 2014, sul &quot;Where We Are Tour&quot; dello stesso gruppo. Pop rock con influenze punk, mantengono la stessa formazione dagli esordi.</p></div>
+      <div class="fonti-artista"><div class="fonti-gruppo">
+        <span class="fonti-etichetta">Sulla storia</span>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://www.wembleystadium.com/news/2014/mar/24/5-seconds-of-summer-to-support-one-direction" target="_blank" rel="noopener">Wembley Stadium</a></li><li><span class="num">02</span><a href="https://www.billboard.com/music/music-news/the-billboard-cover-story-5-seconds-of-summer-they-want-more-than-15-6204986/" target="_blank" rel="noopener">Billboard</a></li></ol>
+      </div></div>
     </section>
 
     <section class="blocco">

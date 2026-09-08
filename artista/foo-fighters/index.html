@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/foo-fighters/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Foo Fighters","url":"https://www.dietroiltesto.it/artista/foo-fighters/","dateModified":"2026-09-04","description":"Nati a Seattle nel 1994 come progetto solista di Dave Grohl, batterista dei Nirvana, dopo lo scioglimento del gruppo seguito alla morte di Kurt Cobain; il nome deriva dai \"foo fighters\", i fenomeni aerei non identificati segnalati dai piloti alleati durante la Seconda guerra mondiale."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Foo Fighters","item":"https://www.dietroiltesto.it/artista/foo-fighters/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Foo Fighters","url":"https://www.dietroiltesto.it/artista/foo-fighters/","dateModified":"2026-09-08","description":"Nati a Seattle nel 1994 come progetto solista di Dave Grohl, batterista dei Nirvana, dopo lo scioglimento del gruppo seguito alla morte di Kurt Cobain; il nome deriva dai \"foo fighters\", i fenomeni aerei non identificati segnalati dai piloti alleati durante la Seconda guerra mondiale."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Foo Fighters","item":"https://www.dietroiltesto.it/artista/foo-fighters/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -889,6 +897,7 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Nati a Seattle nel 1994 come progetto solista di Dave Grohl, batterista dei Nirvana, dopo lo scioglimento del gruppo seguito alla morte di Kurt Cobain; il nome deriva dai &quot;foo fighters&quot;, i fenomeni aerei non identificati segnalati dai piloti alleati durante la Seconda guerra mondiale. Grohl scrisse, cantò e suonò da solo ogni strumento del primo album, pubblicato nel 1995, prima di reclutare una band vera e propria con il bassista Nate Mendel, il batterista William Goldsmith e il chitarrista Pat Smear.</p></div>
+      <p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>
     </section>
 
     <section class="blocco">

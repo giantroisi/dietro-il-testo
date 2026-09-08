@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/daft-punk/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Daft Punk","url":"https://www.dietroiltesto.it/artista/daft-punk/","dateModified":"2026-09-04","description":"Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica \"un thrash punk sciocco\" (\"daft punky thrash\")."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Daft Punk","item":"https://www.dietroiltesto.it/artista/daft-punk/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Daft Punk","url":"https://www.dietroiltesto.it/artista/daft-punk/","dateModified":"2026-09-08","description":"Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica \"un thrash punk sciocco\" (\"daft punky thrash\")."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Daft Punk","item":"https://www.dietroiltesto.it/artista/daft-punk/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -861,6 +869,7 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica &quot;un thrash punk sciocco&quot; (&quot;daft punky thrash&quot;). Pionieri della musica elettronica francese con album come &quot;Homework&quot; (1997), &quot;Discovery&quot; (2001) e &quot;Random Access Memories&quot; (2013), sempre in scena con caschi ed elmi che nascondevano i loro volti, annunciarono lo scioglimento nel febbraio 2021.</p></div>
+      <p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>
     </section>
 
     <section class="blocco">

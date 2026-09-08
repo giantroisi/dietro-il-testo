@@ -679,6 +679,14 @@ a { color: inherit; }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
 
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
+
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
@@ -942,6 +950,7 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>Formati a Londra nel 1975 dal bassista e cantante Lemmy Kilmister, unico membro costante della band, dopo il suo allontanamento dagli Hawkwind. La formazione classica con il chitarrista &quot;Fast&quot; Eddie Clarke e il batterista Phil &quot;Philthy Animal&quot; Taylor si consolidò nel 1976. Considerati un'influenza fondamentale per la nascita del thrash e dello speed metal, sono rimasti attivi fino alla morte di Lemmy nel dicembre 2015.</p></div>
+      <p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>
     </section>
 
     <section class="blocco">

@@ -4,7 +4,7 @@
 //
 // Uso: node scripts/genera-sito.mjs [--out sito]
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -549,7 +549,31 @@ if (existsSync(join(ROOT, 'ritratti'))) {
 }
 
 // immagini di anteprima per la condivisione (F23), generate a parte da scripts/genera-og.py
-if (existsSync(join(ROOT, 'og'))) cpSync(join(ROOT, 'og'), join(OUT, 'og'), { recursive: true });
+//
+// 8 settembre 2026: qui `cpSync(..., {recursive:true})` falliva con EACCES sulla
+// cartella di lavoro montata, e siccome l'eccezione non era gestita **buttava
+// giu' l'intera generazione** dopo che le pagine erano gia' scritte: il sito
+// restava a meta' senza che l'errore dicesse che era solo la copia delle
+// anteprime. cpSync prova a replicare permessi e date del sorgente, che su quel
+// filesystem non e' permesso; copiare i file uno per uno non lo fa e funziona.
+// Un passaggio accessorio non deve poter fermare tutto il resto: se anche
+// questo fallisse, ora avvisa e prosegue, come gia' fa la copia dei ritratti.
+function copiaCartella(da, a) {
+  mkdirSync(a, { recursive: true });
+  for (const voce of readdirSync(da, { withFileTypes: true })) {
+    const orig = join(da, voce.name);
+    const dest = join(a, voce.name);
+    if (voce.isDirectory()) copiaCartella(orig, dest);
+    else copyFileSync(orig, dest);
+  }
+}
+if (existsSync(join(ROOT, 'og'))) {
+  try {
+    copiaCartella(join(ROOT, 'og'), join(OUT, 'og'));
+  } catch (e) {
+    console.warn(`ATTENZIONE: non ho potuto copiare le anteprime og/ (${e.code || e.message}). Il sito e' generato lo stesso, mancano solo le immagini di anteprima.`);
+  }
+}
 
 // ------------------------------------------------------- sitemap e robots
 

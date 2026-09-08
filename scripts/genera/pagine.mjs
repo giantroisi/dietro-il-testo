@@ -862,6 +862,18 @@ export function paginaArtista(a, ctx) {
         ? `<section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
       <div class="prosa"><p>${esc(a.storia)}</p></div>
+      ${
+        // 8 settembre 2026. Le biografie sono rimaste per mesi senza fonti
+        // visibili: 104 artisti, 48.000 caratteri di testo pubblicato e
+        // nessun modo, per chi legge, di sapere da dove venisse. La verifica
+        // indipendente ha poi trovato che sono la parte piu' fragile del sito
+        // (35% di affermazioni non confermate nel primo lotto, contro il 13%
+        // delle schede canzone). Il campo esiste ora nei dati: qui si vede.
+        // Le biografie non ancora verificate lo dicono, invece di tacere.
+        Array.isArray(a.fonti) && a.fonti.length
+          ? `<div class="fonti-artista">${gruppiFonti(a.fonti)}</div>`
+          : `<p class="vuoto" style="margin-top:20px">Questa storia non ha ancora fonti collegate: è in coda per la verifica. Fino ad allora leggila come un riassunto, non come un fatto documentato.</p>`
+      }
     </section>`
         : `<section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>

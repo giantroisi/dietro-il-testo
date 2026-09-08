@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/un-colpo-allanima.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/#brano","name":"Un colpo all'anima","byArtist":{"@type":"MusicGroup","name":"Ligabue","url":"https://www.dietroiltesto.it/artista/ligabue/"},"inAlbum":{"@type":"MusicAlbum","name":"Arrivederci, mostro!"},"datePublished":"2010","url":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/","description":"Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Un colpo all'anima","item":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/"}]},{"@type":"Article","headline":"Un colpo all'anima","about":{"@id":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/","dateModified":"2026-09-04"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/#brano","name":"Un colpo all'anima","byArtist":{"@type":"MusicGroup","name":"Ligabue","url":"https://www.dietroiltesto.it/artista/ligabue/"},"inAlbum":{"@type":"MusicAlbum","name":"Arrivederci, mostro!"},"datePublished":"2010","url":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/","description":"Primo singolo estratto da Arrivederci, mostro!, nono album di inediti di Ligabue."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Un colpo all'anima","item":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/"}]},{"@type":"Article","headline":"Un colpo all'anima","about":{"@id":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/un-colpo-allanima/","dateModified":"2026-09-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -682,6 +682,14 @@ a { color: inherit; }
 }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
+
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {

@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/stiff-upper-lip.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/#brano","name":"Stiff Upper Lip","byArtist":{"@type":"MusicGroup","name":"AC/DC","url":"https://www.dietroiltesto.it/artista/ac-dc/"},"inAlbum":{"@type":"MusicAlbum","name":"Stiff Upper Lip"},"datePublished":"2000","url":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/","description":"Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Stiff Upper Lip","item":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/"}]},{"@type":"Article","headline":"Stiff Upper Lip","about":{"@id":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/","dateModified":"2026-09-04"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/#brano","name":"Stiff Upper Lip","byArtist":{"@type":"MusicGroup","name":"AC/DC","url":"https://www.dietroiltesto.it/artista/ac-dc/"},"inAlbum":{"@type":"MusicAlbum","name":"Stiff Upper Lip"},"datePublished":"2000","url":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/","description":"Title track e primo singolo del quattordicesimo album, uscito l'8 febbraio 2000."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Stiff Upper Lip","item":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/"}]},{"@type":"Article","headline":"Stiff Upper Lip","about":{"@id":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/stiff-upper-lip/","dateModified":"2026-09-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -682,6 +682,14 @@ a { color: inherit; }
 }
 .fonti a { color: var(--text); text-underline-offset: 3px; }
 .fonti a:hover { color: var(--sistema); }
+
+/* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
+   canzone, staccato dal testo da una riga sottile perche' non si confonda
+   con la prosa che documenta. */
+.fonti-artista {
+  margin-top: 24px; padding-top: 20px;
+  border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
+}
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .bottone {
