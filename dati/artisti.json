@@ -532,7 +532,14 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#3E4A5C"
+    "colore": "#3E4A5C",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/biography/Adele",
+        "nome": "Encyclopaedia Britannica — John M. Cunningham",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "adriano-celentano",
@@ -1096,7 +1103,24 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#1F6E6E"
+    "colore": "#1F6E6E",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/avicii-mn0002393596",
+        "nome": "AllMusic",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.udiscovermusic.com/news/swedish-dj-avicii-dead-28/",
+        "nome": "uDiscover Music",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.com/music/music-news/avicii-family-launches-tim-bergling-foundation-mental-health-813704/",
+        "nome": "Rolling Stone",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "black-sabbath",
@@ -2535,7 +2559,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#5C4A6E"
+    "colore": "#5C4A6E",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/deep-purple-mn0000192382",
+        "nome": "AllMusic — Jason Ankeny",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "depeche-mode",
@@ -5256,7 +5287,7 @@
   {
     "slug": "iron-maiden",
     "nome": "Iron Maiden",
-    "storia": "Formati a Leyton, nell'East London, nel 1975 dal bassista e principale compositore Steve Harris, unico membro rimasto costante nel corso di 13 diverse formazioni. Paul Di'Anno cantò sui primi due album, prima che Bruce Dickinson prendesse il suo posto nel 1981, diventando la voce storica della band (con una pausa 1993-1999, in cui fu sostituito da Blaze Bayley). Pionieri della New Wave of British Heavy Metal, sono noti per la mascotte \"Eddie\" e per le vocalità operistiche di Dickinson.",
+    "storia": "Formati a Leyton, nell'East London, nel 1975 dal bassista e principale compositore Steve Harris, unico membro rimasto costante nel corso di 13 diverse formazioni. Paul Di'Anno cantò sui primi due album, prima che Bruce Dickinson prendesse il suo posto nel 1981, diventando la voce storica della band (con una pausa 1994-1999, in cui fu sostituito da Blaze Bayley). Pionieri della New Wave of British Heavy Metal, sono noti per la mascotte \"Eddie\" e per le vocalità operistiche di Dickinson.",
     "album": [
       {
         "titolo": "Iron Maiden",
@@ -5402,7 +5433,14 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#B3221F"
+    "colore": "#B3221F",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/iron-maiden-mn0000098465",
+        "nome": "AllMusic",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "john-lennon",
@@ -5774,7 +5812,14 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#7A4A1E"
+    "colore": "#7A4A1E",
+    "fonti": [
+      {
+        "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/korn-career",
+        "nome": "Kerrang (via Hello Rayo) — Scarlett Martin, 1 marzo 2025",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "laura-pausini",
@@ -8053,7 +8098,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#1F3E6E"
+    "colore": "#1F3E6E",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/muse-mn0000514563",
+        "nome": "AllMusic",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "my-chemical-romance",
@@ -8216,7 +8268,14 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1A1A1A"
+    "colore": "#1A1A1A",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Nine-Inch-Nails",
+        "nome": "Encyclopaedia Britannica",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "nirvana",
@@ -8668,7 +8727,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4A3A1F"
+    "colore": "#4A3A1F",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Pearl-Jam",
+        "nome": "Encyclopaedia Britannica",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "pinguini-tattici-nucleari",
@@ -10602,7 +10668,7 @@
   {
     "slug": "sum-41",
     "nome": "Sum 41",
-    "storia": "Formatisi ad Ajax, in Ontario, nel 1996 — il nome deriva dal 41° giorno di quell'estate — attorno al cantante e chitarrista Deryck Whibley, arrivarono al successo con l'album d'esordio \"All Killer No Filler\" (2001), diventando una delle band di punta del pop punk nordamericano dei primi anni 2000. Nel 2023 la band ha annunciato lo scioglimento, concludendo l'attività l'anno successivo dopo un ultimo album e un tour d'addio.",
+    "storia": "Formatisi ad Ajax, in Ontario, nel 1996 — il nome deriva dal 41° giorno di quell'estate — attorno al cantante e chitarrista Deryck Whibley, arrivarono al successo con l'album d'esordio \"All Killer No Filler\" (2001), diventando una delle band di punta del pop punk nordamericano dei primi anni 2000. Nel 2023 la band ha annunciato lo scioglimento; uscito l'ultimo album, \"Heaven :x: Hell\" (2024), l'attività si è conclusa con il tour d'addio, terminato il 30 gennaio 2025 a Toronto.",
     "album": [
       {
         "titolo": "All Killer No Filler",
@@ -10689,12 +10755,19 @@
     "colore": "#B37A1F",
     "riconoscimenti": [
       "Group of the Year ai Juno Awards 2002; 2 Juno Awards vinti su 7 candidature in carriera"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/sum-41-mn0000585574",
+        "nome": "AllMusic",
+        "ruolo": "storia"
+      }
     ]
   },
   {
     "slug": "system-of-a-down",
     "nome": "System of a Down",
-    "storia": "Formati a Glendale, in California, nel 1994 dal cantante Serj Tankian e dal chitarrista/co-vocalist Daron Malakian, con il bassista Shavo Odadjian e il batterista John Dolmayan. Tutti e quattro di origini armene, sono noti per testi fortemente politici — incluso l'impegno per il riconoscimento del genocidio armeno — e per una struttura compositiva anticonvenzionale che fonde metal e influenze folk armene.",
+    "storia": "Formati a Glendale, in California, nel 1994 dal cantante Serj Tankian e dal chitarrista/co-vocalist Daron Malakian, con il bassista Shavo Odadjian e il batterista Andy Khachaturian, sostituito nel 1997 da John Dolmayan dopo un infortunio alla mano. Tutti e quattro di origini armene, sono noti per testi fortemente politici — incluso l'impegno per il riconoscimento del genocidio armeno — e per una struttura compositiva anticonvenzionale che fonde metal e influenze folk armene.",
     "album": [
       {
         "titolo": "System of a Down",
@@ -10750,7 +10823,19 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#6E7A2E"
+    "colore": "#6E7A2E",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/system-of-a-down-mn0000005501",
+        "nome": "AllMusic",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://parade.com/news/90s-rock-icon-among-best-metal-and-hard-rock-drummers-of-all-time-turns-54",
+        "nome": "Parade",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "the-beatles",
