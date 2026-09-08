@@ -76,7 +76,8 @@
         "nome": "Billboard",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "883",
@@ -161,7 +162,8 @@
         "nome": "Rockol",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "a-ha",
@@ -284,7 +286,8 @@
         "nome": "The Electricity Club — Barry Page",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "ac-dc",
@@ -483,7 +486,8 @@
         "nome": "Encyclopaedia Britannica — Gillian G. Gaar",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "adele",
@@ -544,7 +548,8 @@
         "nome": "Encyclopaedia Britannica — John M. Cunningham",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "adriano-celentano",
@@ -884,7 +889,8 @@
         "nome": "Treccani",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "al-bano-e-romina-power",
@@ -1001,7 +1007,8 @@
         "nome": "ANSA — I vincitori di Sanremo 1984",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "alice-in-chains",
@@ -1147,7 +1154,8 @@
         "nome": "Rolling Stone",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "black-sabbath",
@@ -1325,7 +1333,8 @@
         "nome": "Ultimate Classic Rock",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "blink-182",
@@ -1423,7 +1432,8 @@
         "nome": "Kerrang (via Hello Rayo)",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "bon-jovi",
@@ -1688,7 +1698,8 @@
         "nome": "NME — Jonny Ensall",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "caparezza",
@@ -1801,7 +1812,8 @@
         "nome": "Treccani",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "cesare-cremonini",
@@ -1931,7 +1943,8 @@
         "nome": "Rolling Stone Italia",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "claudio-baglioni",
@@ -2073,7 +2086,8 @@
         "nome": "OndaRock — Federico Romagnoli",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "coldplay",
@@ -2628,7 +2642,8 @@
         "nome": "Classic Rock / Louder — Rob Hughes",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "depeche-mode",
@@ -2849,7 +2864,8 @@
         "nome": "Loudwire — Spencer Kaufman",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "domenico-modugno",
@@ -3201,7 +3217,8 @@
         "nome": "Treccani",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "edoardo-bennato",
@@ -3370,7 +3387,8 @@
         "nome": "OndaRock",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "electric-callboy",
@@ -3926,12 +3944,13 @@
         "nome": "il Giornale — Erika Pomella",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "evanescence",
     "nome": "Evanescence",
-    "storia": "Formati nel 1994 a Little Rock, in Arkansas, da Amy Lee e Ben Moody, che si conobbero tredicenne lei e quattordicenne lui a un campo estivo, iniziando subito a scrivere canzoni insieme. Il nome del gruppo, che significa dissolvenza o scomparsa (come di un vapore), fu scelto dopo aver provato diversi nomi precedenti, tra cui Childish Intentions e Stricken. Pubblicarono il demo \"Origin\" nel 2000 con un'etichetta indipendente, prima di raggiungere il successo internazionale.",
+    "storia": "Amy Lee e Ben Moody si conobbero nel 1994 a Little Rock, in Arkansas — lei tredicenne, lui quattordicenne — durante un campo estivo, e iniziarono subito a scrivere canzoni insieme. Il duo diede formalmente vita al gruppo Evanescence nel 1995. Il nome, scelto dopo aver provato diverse denominazioni precedenti tra cui Childish Intentions e Stricken, significa dissolvenza o scomparsa (come di un vapore). Nel 2000 pubblicarono il demo \"Origin\" con un'etichetta indipendente, prima di raggiungere il successo internazionale.",
     "album": [
       {
         "titolo": "Fallen",
@@ -3980,12 +3999,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#4A3E5C"
+    "colore": "#4A3E5C",
+    "fonti": [
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/evanescence-2631/",
+        "nome": "Encyclopedia of Arkansas — Esther Jennings",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/evanescence-career",
+        "nome": "Kerrang! — Scarlett Martin",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "fabrizio-de-andre",
     "nome": "Fabrizio De André",
-    "storia": "Nato a Genova nel 1940, ricevette la prima chitarra dalla madre e mosse i primi passi nella musica in un gruppo chiamato \"The Crazy Cowboy and Sheriff One\". Il primo album, \"Tutto Fabrizio De André\", uscì nel 1966, ma la svolta arrivò nel 1968 quando Mina interpretò a Canzonissima la sua \"La canzone di Marinella\", portandolo alla notorietà nazionale. Cantautore tra i più importanti della cultura italiana del Novecento, ha raccontato spesso gli ultimi, gli emarginati e i ribelli; morì nel 1999.",
+    "storia": "Nato a Genova nel 1940, ricevette la prima chitarra dalla madre e mosse i primi passi nella musica in piccoli gruppi giovanili, tra sonorità country e jazz, prima di dedicarsi alla canzone d'autore. Il primo album, \"Tutto Fabrizio De André\", uscì nel 1966, ma la svolta arrivò nel 1968, quando Mina interpretò a Canzonissima la sua \"La canzone di Marinella\", portandolo alla notorietà nazionale. Cantautore tra i più importanti della cultura italiana del Novecento, ha raccontato spesso gli ultimi, gli emarginati e i ribelli; morì nel 1999.",
     "album": [
       {
         "titolo": "Vol. 1º",
@@ -4089,7 +4121,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#7A5A2E"
+    "colore": "#7A5A2E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/de-andre-fabrizio-cristiano_(Dizionario-Biografico)/",
+        "nome": "Treccani — Dizionario Biografico degli Italiani, Paolo Somigli",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/monografie/fabriziodeandre/",
+        "nome": "OndaRock — Claudio Fabretti",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://laragione.eu/life/spettacoli/marinella-divenne-immortale/",
+        "nome": "La Ragione — Stefano Faina e Silvio Napolitano",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "fall-out-boy",
@@ -4174,7 +4224,7 @@
   {
     "slug": "finley",
     "nome": "Finley",
-    "storia": "Formati a Legnano, in Lombardia, nel 2002 con il nome Junkies da un gruppo di amici di scuola, cambiarono nome in Finley l'anno successivo, ispirandosi al titolo italiano del film \"Tutto è possibile\" e alla stella NBA Michael Finley. Con la formazione stabile di Pedro (voce), Ka (chitarra), Dani (batteria) e Ivan (basso), hanno pubblicato cinque album in studio, vendendo oltre 1,3 milioni di copie in Italia, e vinto per due volte il premio Best Italian Act agli MTV Europe Music Awards (2006 e 2008).",
+    "storia": "Formati a Legnano, in Lombardia, nel 2002 con il nome Junkies da un gruppo di amici di scuola, cambiarono nome in Finley l'anno successivo, ispirandosi al cognome della stella NBA Michael Finley. Con la formazione di Pedro (Marco Pedretti, voce), Ka (Carmine Ruggiero, chitarra) e Dani (Danilo Calvio, batteria), presenti sin dal 2002, e Ivan (Ivan Moro, basso), subentrato nel 2011 a Stefano Mantegazza, hanno pubblicato sei album in studio, vendendo oltre 300.000 copie tra album e singoli in Italia, e vinto per due volte il premio Best Italian Act agli MTV Europe Music Awards (2006 e 2008).",
     "album": [
       {
         "titolo": "Tutto è possibile",
@@ -4209,7 +4259,15 @@
       "punk"
     ],
     "paese": "it",
-    "colore": "#B3821F"
+    "colore": "#B3821F",
+    "fonti": [
+      {
+        "url": "https://www.rockol.it/news-738331/finley-oggi-band-diventerai-una-star-ritorno-intervista",
+        "nome": "Rockol — Mattia Marzi",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "fleetwood-mac",
@@ -4456,7 +4514,7 @@
   {
     "slug": "francesco-de-gregori",
     "nome": "Francesco De Gregori",
-    "storia": "Nato a Roma nel 1951, muove i primi passi nella scena del Folkstudio romano insieme ad artisti come Antonello Venditti, con cui firma l'album d'esordio \"Theorius Campus\" (1972). Dopo il debutto da solista con \"Alice non lo sa\" (1973), il successo arriva nel 1975 con \"Rimmel\".",
+    "storia": "Nato a Roma nel 1951, muove i primi passi nella scena del Folkstudio romano insieme ad artisti come Antonello Venditti, con cui pubblica nel 1972 \"Theorius Campus\", disco d'esordio diviso a metà fra i due. Dopo il debutto da solista con \"Alice non lo sa\" (1973), il successo arriva nel 1975 con \"Rimmel\".",
     "album": [
       {
         "titolo": "Theorius Campus",
@@ -4641,7 +4699,20 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#6E6E4A"
+    "colore": "#6E6E4A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/francesco-de-gregori/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/artista/francesco-de-gregori/biografia",
+        "nome": "Rockol — Fabiana Privitera",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "franco-battiato",
@@ -5005,7 +5076,7 @@
   {
     "slug": "gianna-nannini",
     "nome": "Gianna Nannini",
-    "storia": "Nata a Siena nel 1954, iniziò a studiare pianoforte al Conservatorio a 12 anni. Nel 1973 si trasferì a Milano e poi a Londra per dedicarsi alla musica, diventando la voce del gruppo Flora Fauna Cemento prima di intraprendere la carriera solista con i primi album tra il 1976 e il 1979. La svolta arrivò nel 1984 con l'album \"Puzzle\", in classifica per sei mesi, e il singolo \"Fotoromanza\", vincitore del Festivalbar; è considerata la capostipite del rock italiano al femminile.",
+    "storia": "Nata a Siena nel 1954, iniziò a studiare pianoforte al Conservatorio Luigi Boccherini di Lucca a 12 anni. Nel 1975 si trasferì a Milano per dedicarsi alla musica, diventando la voce del gruppo Flora Fauna Cemento prima di intraprendere la carriera solista con i primi album tra il 1976 e il 1979. La svolta arrivò nel 1984 con l'album \"Puzzle\", secondo disco più venduto dell'anno in Italia, e il singolo \"Fotoromanza\", vincitore del Festivalbar; è considerata la capostipite del rock italiano al femminile.",
     "album": [
       {
         "titolo": "Gianna Nannini",
@@ -5173,7 +5244,20 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#A6225A"
+    "colore": "#A6225A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/gianna-nannini/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/italia/giannanannini.htm",
+        "nome": "OndaRock — Luca Baldi e Michele Camillò",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "green-day",
@@ -5321,7 +5405,8 @@
         "nome": "Encyclopaedia Britannica — Melissa Albert",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "guns-n-roses",
@@ -5402,7 +5487,8 @@
         "nome": "Encyclopaedia Britannica — Gillian G. Gaar",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "iron-maiden",
@@ -5560,7 +5646,8 @@
         "nome": "AllMusic — Barry Weber",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "john-lennon",
@@ -5645,7 +5732,7 @@
   {
     "slug": "judas-priest",
     "nome": "Judas Priest",
-    "storia": "Formati a Birmingham nel settembre 1969, trovarono la formazione classica quando Rob Halford si unì alla voce (primi anni '70) e Glenn Tipton alla chitarra (1974), insieme a K.K. Downing e al bassista Ian Hill, unico membro rimasto sempre in formazione. Pionieri del suono \"a doppia chitarra solista\" e dell'estetica in pelle e borchie che avrebbe definito l'immaginario dell'heavy metal, Halford lasciò la band nel 1992 per poi tornare nel 2003.",
+    "storia": "Fondati a Birmingham nel settembre 1969 dal cantante Al Atkins insieme al bassista Bruno Stapenhill, al chitarrista John Perry (poi sostituito da Ernie Chataway) e al batterista John Partridge, i Judas Priest si sciolsero nel 1970; Atkins ne rifondò una seconda versione unendosi al gruppo Freight — con il chitarrista K.K. Downing, il bassista Ian Hill e il batterista John Ellis — che adottò lo stesso nome. La formazione \"classica\" si completò quando, nel maggio 1973, Rob Halford sostituì Atkins alla voce, e quando, nell'aprile 1974, si aggiunse come secondo chitarrista solista Glenn Tipton: Ian Hill, pur non essendo tra i fondatori del 1969, è il membro rimasto ininterrottamente in formazione più a lungo, dal suo ingresso nel 1970. Pionieri del suono \"a doppia chitarra solista\" e dell'estetica in pelle e borchie che avrebbe definito l'immaginario dell'heavy metal, Halford lasciò la band nel 1992 per poi tornare nel 2003.",
     "album": [
       {
         "titolo": "Rocka Rolla",
@@ -5803,7 +5890,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#6B6B6E"
+    "colore": "#6B6B6E",
+    "fonti": [
+      {
+        "url": "https://blabbermouth.net/news/al-atkins-how-original-judas-priest-lineup-came-together",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/judas-priest-rob-halford-reunion/",
+        "nome": "Ultimate Classic Rock — Matthew Wilkening",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/judas-priest-stained-class-redefined-heavy-metal/",
+        "nome": "Loudwire — Joe DiVita",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "korn",
@@ -5939,12 +6044,13 @@
         "nome": "Kerrang (via Hello Rayo) — Scarlett Martin, 1 marzo 2025",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "laura-pausini",
     "nome": "Laura Pausini",
-    "storia": "Nata a Faenza nel 1974 e cresciuta a Solarolo, in Romagna, iniziò a cantare da bambina nel coro della chiesa e nei pianobar insieme al padre. Debuttò nel 1993 vincendo la sezione Giovani del Festival di Sanremo con \"La solitudine\"; l'album omonimo di debutto, uscito lo stesso anno, vendette due milioni di copie nel mondo. Ha venduto in carriera oltre 70 milioni di dischi, affermandosi in particolare in America Latina.",
+    "storia": "Nata a Faenza nel 1974 e cresciuta a Solarolo, in Romagna, iniziò a cantare da bambina nel coro della chiesa e nei pianobar insieme al padre. Debuttò nel 1993 vincendo la sezione Novità (le odierne Nuove Proposte) del Festival di Sanremo con \"La solitudine\"; l'album omonimo di debutto, uscito lo stesso anno, vendette oltre due milioni di copie nel mondo. Ha venduto in carriera oltre 70 milioni di dischi, affermandosi in particolare in America Latina.",
     "album": [
       {
         "titolo": "Laura Pausini",
@@ -6055,7 +6161,20 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#A6386A"
+    "colore": "#A6386A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/laura-pausini/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/artista/laura-pausini/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "led-zeppelin",
@@ -6313,7 +6432,8 @@
         "nome": "Rolling Stone Italia",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "limp-bizkit",
@@ -6477,7 +6597,8 @@
         "nome": "Encyclopaedia Britannica — Fred Frommer",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "lucio-battisti",
@@ -6645,7 +6766,7 @@
   {
     "slug": "lucio-dalla",
     "nome": "Lucio Dalla",
-    "storia": "Nato a Bologna nel 1943, bambino prodigio capace di suonare fisarmonica e clarinetto, iniziò la carriera musicale nel jazz prima di passare alla canzone d'autore sotto la guida di Gino Paoli. È morto improvvisamente a Montreux, in Svizzera, il 1° marzo 2012, tre giorni prima del suo 69esimo compleanno.",
+    "storia": "Nato a Bologna il 4 marzo 1943, bambino prodigio capace di suonare fisarmonica e clarinetto, iniziò la carriera musicale nel jazz. Scoperto da Gino Paoli, che lo lanciò come cantante solista, approdò alla vera e propria canzone d'autore solo negli anni '70, grazie alla guida del poeta bolognese Roberto Roversi, con cui firmò la trilogia \"Il giorno aveva cinque teste\" (1973), \"Anidride solforosa\" (1975) e \"Automobili\" (1976), prima di diventare autore completo dei propri testi con l'album \"Come è profondo il mare\" (1977). È morto improvvisamente a Montreux, in Svizzera, il 1° marzo 2012, tre giorni prima del suo 69esimo compleanno.",
     "album": [
       {
         "titolo": "1999",
@@ -6832,7 +6953,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#2E6480"
+    "colore": "#2E6480",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/lucio-dalla_(Dizionario-Biografico)/",
+        "nome": "Treccani — Dizionario Biografico degli Italiani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/speciali/trilogia-luciodalla-robertoroversi/",
+        "nome": "OndaRock — speciale trilogia Dalla-Roversi",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.quotidiano.net/spettacoli/musica/2012/03/01/674990-lucio-dalla-morto.shtml",
+        "nome": "Quotidiano Nazionale — Lorella Bolelli",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "lynyrd-skynyrd",
@@ -7018,7 +7157,7 @@
   {
     "slug": "megadeth",
     "nome": "Megadeth",
-    "storia": "Formati a Los Angeles nel 1983 dal chitarrista e cantante Dave Mustaine, licenziato dai Metallica pochi giorni prima della registrazione del loro primo album, insieme al bassista David Ellefson. Fanno parte dei \"Big Four\" del thrash metal insieme a Metallica, Slayer e Anthrax, noti per un suono tecnicamente complesso e testi dai temi politici e sociali; la formazione ha visto numerosi cambi nel corso degli anni, sempre attorno al nucleo Mustaine-Ellefson.",
+    "storia": "Formati a Los Angeles nel 1983 dal chitarrista e cantante Dave Mustaine, licenziato dai Metallica l'11 aprile 1983. Il bassista David Ellefson entrò a far parte del progetto nella sua fase iniziale, ma il suo status di \"co-fondatore\" resta conteso: lo stesso Mustaine ha ribadito più volte, anche di recente, di essere stato l'unico fondatore della band. Fanno parte dei \"Big Four\" del thrash metal insieme a Metallica, Slayer e Anthrax, noti per un suono tecnicamente complesso e testi dai temi politici e sociali; la formazione ha visto numerosi cambi nel corso degli anni, incluso l'addio di Ellefson nel 2021.",
     "album": [
       {
         "titolo": "Killing Is My Business... and Business Is Good!",
@@ -7149,7 +7288,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#4A1F1F"
+    "colore": "#4A1F1F",
+    "fonti": [
+      {
+        "url": "https://loudwire.com/dave-mustaine-fired-from-metallica-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://blabbermouth.net/news/dave-mustaine-once-again-says-david-ellefson-is-not-a-founding-member-of-megadeth-i-was-the-founder",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/revisiting-the-first-ever-big-four-show-metallica-slayer-megadeth-anthrax-poland-2010",
+        "nome": "Metal Hammer / Louder — Paul Brannigan",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "metallica",
@@ -7282,7 +7439,8 @@
         "nome": "Encyclopaedia Britannica",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "michael-jackson",
@@ -7400,7 +7558,8 @@
         "nome": "ScreenRant — Gina Wurtz",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "mina",
@@ -7954,7 +8113,7 @@
   {
     "slug": "motorhead",
     "nome": "Motörhead",
-    "storia": "Formati a Londra nel 1975 dal bassista e cantante Lemmy Kilmister, unico membro costante della band, dopo il suo allontanamento dagli Hawkwind. La formazione classica con il chitarrista \"Fast\" Eddie Clarke e il batterista Phil \"Philthy Animal\" Taylor si consolidò nel 1976. Considerati un'influenza fondamentale per la nascita del thrash e dello speed metal, sono rimasti attivi fino alla morte di Lemmy nel dicembre 2015.",
+    "storia": "Formati a Londra nel 1975 dal bassista e cantante Lemmy Kilmister — unico membro costante della band — dopo il suo allontanamento dagli Hawkwind, inizialmente con il nome \"Bastard\" e una formazione che comprendeva il chitarrista Larry Wallis e il batterista Lucas Fox, poi sostituito da Phil \"Philthy Animal\" Taylor entro la fine dello stesso anno. Nel marzo 1976 Wallis lasciò la band e venne sostituito dal chitarrista \"Fast\" Eddie Clarke, dando vita alla formazione classica Kilmister-Clarke-Taylor. Considerati un'influenza fondamentale per la nascita del thrash e dello speed metal, sono rimasti attivi fino alla morte di Lemmy, avvenuta il 28 dicembre 2015.",
     "album": [
       {
         "titolo": "Motörhead",
@@ -8127,7 +8286,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1A1A1A"
+    "colore": "#1A1A1A",
+    "fonti": [
+      {
+        "url": "https://www.nme.com/news/music/motorheads-original-guitarist-larry-wallis-died-2549936",
+        "nome": "NME — John Earls",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/lemmy-dead-motorhead/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/motorhead-lemmy-kilmister-death-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "muse",
@@ -8247,7 +8424,8 @@
         "nome": "NME",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "my-chemical-romance",
@@ -8417,7 +8595,8 @@
         "nome": "Encyclopaedia Britannica",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "nirvana",
@@ -8558,7 +8737,8 @@
         "nome": "NME — Andrew Trendell",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "ozzy-osbourne",
@@ -8888,7 +9068,8 @@
         "nome": "Encyclopaedia Britannica",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "pinguini-tattici-nucleari",
@@ -8988,7 +9169,8 @@
         "nome": "Rolling Stone Italia",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "pink-floyd",
@@ -10687,7 +10869,8 @@
         "nome": "Metal Hammer / Louder — Paul Brannigan",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "slipknot",
@@ -10943,7 +11126,8 @@
         "nome": "The Canadian Encyclopedia — Steve McLean, 14 novembre 2011",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "system-of-a-down",
@@ -11016,7 +11200,8 @@
         "nome": "Parade",
         "ruolo": "storia"
       }
-    ]
+    ],
+    "ultimaVerifica": "2026-09-08"
   },
   {
     "slug": "the-beatles",
