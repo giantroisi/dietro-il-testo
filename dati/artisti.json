@@ -974,7 +974,29 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#A6821E"
+    "colore": "#A6821E",
+    "fonti": [
+      {
+        "url": "https://www.ilgiornale.it/news/gossip/film-successo-i-quattro-figli-scomparsa-ylenia-storia-d-2659031.html",
+        "nome": "il Giornale — Novella Toloni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ilgiornale.it/news/spettacoli/bano-e-romina-power-tornano-insieme-cos-lontani-cos-vicini-1178337.html",
+        "nome": "il Giornale — Domenico D'Alessandro",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://eurovisionworld.com/eurovision/1976/italy",
+        "nome": "Eurovision World — Italia 1976",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sanremo_2018/multimedia/vincitori/2018/01/26/1984-al-bano-e-romina-power-ci-sara_81317a5b-57b8-48ae-8f4e-1b2a0220526f.html",
+        "nome": "ANSA — I vincitori di Sanremo 1984",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "alice-in-chains",
@@ -1125,7 +1147,7 @@
   {
     "slug": "black-sabbath",
     "nome": "Black Sabbath",
-    "storia": "Formati a Birmingham nel 1968 da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, presero il nome nel 1969 ispirandosi a un film horror di Boris Karloff. Con testi ispirati all'occulto e un suono pesante dalle accordature ribassate, sono considerati tra i principali fondatori dell'heavy metal; Iommi è rimasto l'unico membro costante nonostante i numerosi cambi di formazione nel corso dei decenni.",
+    "storia": "Formati a Birmingham nel 1968 da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, presero il nome nel 1969 da un brano di Butler intitolato \"Black Sabbath\", ispirato a sua volta a un film horror del 1963 diretto da Mario Bava e interpretato da Boris Karloff. Con testi ispirati all'occulto e un suono pesante dalle accordature ribassate, sono considerati tra i principali fondatori dell'heavy metal; Iommi è rimasto l'unico membro costante nonostante i numerosi cambi di formazione nel corso dei decenni.",
     "album": [
       {
         "titolo": "Black Sabbath",
@@ -1281,6 +1303,23 @@
     "colore": "#B2266E",
     "riconoscimenti": [
       "2 Grammy Awards vinti in carriera"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/Black-Sabbath",
+        "nome": "Britannica — Greg Kot",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/black-sabbath-birmingham-and-the-invention-of-heavy-metal",
+        "nome": "Louder",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/black-sabbath-lineup-changes/",
+        "nome": "Ultimate Classic Rock",
+        "ruolo": "storia"
+      }
     ]
   },
   {
@@ -2701,7 +2740,7 @@
   {
     "slug": "disturbed",
     "nome": "Disturbed",
-    "storia": "Formati a Chicago nel 1994, trovarono la formazione decisiva nel 1996 con l'arrivo del cantante David Draiman, che si unì al chitarrista Dan Donegan, al batterista Mike Wengren e al bassista Steve \"Fuzz\" Kmak, poi sostituito da John Moyer. Con oltre 17 milioni di dischi venduti nel mondo, sono tra i gruppi metal di maggior successo degli anni 2000, con cinque album consecutivi debuttati al numero 1 della Billboard 200.",
+    "storia": "Formati a Chicago nel 1994 con il nome Brawl e il cantante Erich Awalt, trovarono la formazione decisiva nel 1996 quando, dopo la partenza di Awalt, il chitarrista Dan Donegan, il batterista Mike Wengren e il bassista Steve \"Fuzz\" Kmak reclutarono David Draiman, che propose di rinominare il gruppo Disturbed. Kmak fu sostituito da John Moyer nel 2004. Con oltre 17 milioni di dischi venduti nel mondo, sono tra i gruppi metal di maggior successo degli anni 2000, con cinque album consecutivi debuttati al numero 1 della Billboard 200.",
     "album": [
       {
         "titolo": "The Sickness",
@@ -2770,7 +2809,24 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1A1A2E"
+    "colore": "#1A1A2E",
+    "fonti": [
+      {
+        "url": "https://blabbermouth.net/news/david-draiman-i-dont-think-that-there-would-be-a-disturbed-without-pantera",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://blabbermouth.net/news/john-moyer-looks-back-on-his-2004-audition-for-disturbed-i-didnt-want-any-special-treatment",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/disturbed-no-1-album-with-immortalized/",
+        "nome": "Loudwire — Spencer Kaufman",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "domenico-modugno",
@@ -7167,7 +7223,7 @@
   {
     "slug": "michael-jackson",
     "nome": "Michael Jackson",
-    "storia": "Nato a Gary, in Indiana, nel 1958, esordì giovanissimo come voce solista dei Jackson 5, il gruppo familiare che negli anni '70 conquistò le classifiche Motown. Da solista, la collaborazione con il produttore Quincy Jones a partire da \"Off the Wall\" (1979) lo consacrò come \"King of Pop\", ruolo che ha mantenuto fino alla morte nel 2009.",
+    "storia": "Nato a Gary, in Indiana, nel 1958, esordì giovanissimo come voce solista dei Jackson 5, il gruppo familiare che negli anni '70 conquistò le classifiche Motown. Da solista, la collaborazione con il produttore Quincy Jones, avviata con \"Off the Wall\" (1979) e consolidata dal successo di \"Thriller\" (1982), gli valse il titolo di \"King of Pop\", ruolo che ha mantenuto fino alla morte nel 2009.",
     "album": [
       {
         "titolo": "Got to Be There",
@@ -7263,7 +7319,24 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#4A2E6E"
+    "colore": "#4A2E6E",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/biography/Michael-Jackson",
+        "nome": "Britannica — Rickey Vincent",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/news/revisit-michael-jacksons-pop-star-breakthrough-wall-record/",
+        "nome": "Grammy.com (Recording Academy)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://screenrant.com/michael-jackson-king-of-pop-nickname-explained/",
+        "nome": "ScreenRant — Gina Wurtz",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "mina",
