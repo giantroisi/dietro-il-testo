@@ -1769,6 +1769,18 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **`donnaglamour.it` (3 riferimenti)** — firma e data reali (es. Fabrizia Volponi, 3 maggio 2023), ma **senza fonti citate**: affermazioni sulla storia di un brano presentate senza nessun riferimento verificabile. Più debole di `soundsblog.it`: lì almeno le citazioni dirette portano a un'intervista reale, qui no. Non lo classificherei B.
   **Restano da guardare**: gli altri 38 domini della lista (quasi tutti con un solo riferimento ciascuno).
 
+- **8 settembre 2026 — Coda delle fonti, lotti 14 e 15: le 22 schede residue diventano 11, stesso metodo dei giorni scorsi ma spesso con fonti già classificate B trovate tramite ricerca invece che aggiunte a mano.** Per ciascuna delle undici schede risolte, trovata una fonte reale e usata per correggere o arricchire il testo, non solo per aggiungere un link:
+  - **amnesia-5sos**: Official Charts (Rob Copsey, 15 settembre 2014) — Benji Madden conferma di aver scritto lui, con il fratello Joel, il brano per i 5SOS.
+  - **shes-kinda-hot**: Billboard cita direttamente Ashton Irwin sul senso del brano ("una canzone di rivoluzione per i nostri fan").
+  - **stay-on-these-roads**: Smooth Radio (Tom Eames, 20 marzo 2024) sul retroscena della scrittura, la relazione a distanza di Waaktaar-Savoy con la moglie.
+  - **hard-as-a-rock**: Louder (Classic Rock, Paul Brannigan) sulle sedute di Ballbreaker — dieci settimane a New York, cinquanta ore di registrazioni scartate, trasferimento a Los Angeles, citazione diretta di Brian Johnson.
+  - **questa-e-la-mia-vita**: Rockol sul regista Richard Lowenstein, che ascoltò il brano a Correggio e decise lì di dirigerne il video.
+  - **crying-in-the-rain**: The Electricity Club conferma il periodo di avvicinamento a un suono più organico e chitarristico in cui nacque la cover.
+  **Tentate senza successo, nulla forzato**: `she-looks-so-perfect` (la citazione a Rolling Stone è reale — confermata da più ricerche indipendenti, con le stesse identiche parole — ma non ho trovato l'articolo diretto; resta documentata via Songfacts, che dichiara esplicitamente da dove viene la citazione), `my-exs-best-friend`, `motivation`, `aerials`, `sharazan`, `isola-che-non-ce`, `profumo-nannini`, `nord-sud-ovest-est`, `ive-been-losing-you`, `urlando-contro-il-cielo` (nessuna fonte A/B trovata per nessuna, in genere perché il retroscena specifico non è mai stato raccontato in un'intervista pubblicata online, non perché manchi la ricerca). `sotto-le-lenzuola` non ritentata: già verificata a fondo nei giorni scorsi.
+  **Nota di metodo**: in questo lotto, a differenza dei precedenti, quasi tutte le fonti trovate erano di domini **già classificati B** (Louder, Rockol, Billboard, The Electricity Club) — la ricerca di sabato e domenica ha già setacciato le fonti più facili da trovare, quindi le rimanenti 11 schede sono probabilmente le più dure della coda: canzoni di cui semplicemente non esiste, in nessuna lingua, un'intervista pubblicata online sul loro retroscena specifico.
+**Verificato, non solo scritto**: rigenerato a ogni lotto, `check-attribuzioni.mjs` zero segnalazioni proprie in entrambi, `check-coerenza` 0, `check-completezza` 281/282 (invariato), `check-testi` pulito (un discordante preesistente, non mio). `check-livelli.mjs`: **97 → 96 → 93** nei due lotti.
+  **Restano 11 schede** nella coda delle fonti, tutte già tentate almeno una volta con esito negativo documentato; prossimo giro solo se emergono fonti nuove, non a rotazione fissa.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
