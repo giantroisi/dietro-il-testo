@@ -490,6 +490,21 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
+  /* 8 settembre 2026 — SOLO sulla scheda canzone (classe testa-scheda), il player
+     scende sotto il momento iconico.
+     Misurato su 390x844 prima di toccare niente: ricerca 73px, titolo 252px,
+     player 363px, momento iconico 562px. Il player costava 152px + margini
+     PRIMA della risposta, e la risposta cominciava a due terzi della prima
+     schermata. Spostandolo di una riga nella griglia — stesso HTML, nessun
+     secondo iframe — il momento iconico risale intorno ai 270px e si legge
+     intero senza scorrere, mentre il player resta subito sotto: chi vuole
+     ascoltare lo trova dove finisce la frase, non prima di averla letta.
+     Su desktop non cambia niente (il player e' nella colonna di destra) e la
+     pagina artista non e' toccata: li' quell'area e' il ritratto e sopra
+     non c'e' nessuna risposta da anticipare. */
+  .testa-doppia.testa-scheda {
+    grid-template-areas: "identita" "momento" "player" "contorno";
+  }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
@@ -807,7 +822,7 @@ a { color: inherit; }
       I Miss You
     </nav>
 
-    <header class="intestazione testa-doppia">
+    <header class="intestazione testa-doppia testa-scheda">
       <!-- F85: il blocco del testo è diviso in due — identità del brano e
            contorno — perché su telefono il player possa stare in mezzo, subito
            dopo il titolo, invece che sopra tutto. Su desktop la griglia li
@@ -830,7 +845,7 @@ a { color: inherit; }
           <a href="../../anni/2000/">anni Duemila</a>
         </div>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 settembre 2026</span>
+          
         </div>
         <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
              potrebbe: Instagram non espone alcun indirizzo di condivisione dal
@@ -954,31 +969,7 @@ a { color: inherit; }
       </div>
     </section>
 
-    <section class="blocco" id="correlate">
-      <h2>Altre canzoni di Blink-182</h2>
-      <div class="griglia">
-        <a class="scheda" href="../../canzone/all-the-small-things/" style="--identita:#B3661F">
-          <span class="sopra">Enema of the State <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1999</span>
-          <span class="titolo">All the Small Things</span>
-          <span class="gancio">Scritta principalmente da Tom DeLonge verso la fine delle session di scrittura di &quot;Enema of the State&quot; (1999), nacque…</span>
-        </a>
-        <a class="scheda" href="../../canzone/whats-my-age-again/" style="--identita:#1F6E4A">
-          <span class="sopra">Enema of the State <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1999</span>
-          <span class="titolo">What's My Age Again?</span>
-          <span class="gancio">Mark Hoppus ha raccontato, ospite del podcast di Chris DeMakes, che il riff d'apertura nacque per errore: stava…</span>
-        </a>
-        <a class="scheda" href="../../canzone/adams-song/" style="--identita:#6E1F1F">
-          <span class="sopra">Enema of the State <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1999</span>
-          <span class="titolo">Adam's Song</span>
-          <span class="gancio">Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di…</span>
-        </a>
-        <a class="scheda" href="../../canzone/feeling-this/" style="--identita:#4A6E1F">
-          <span class="sopra">Blink-182 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</span>
-          <span class="titolo">Feeling This</span>
-          <span class="gancio">Scritta in un solo giorno, nacque da un esperimento: Mark Hoppus e Tom DeLonge si chiusero in due stanze separate per…</span>
-        </a>
-      </div>
-    </section>
+    
   </div>
 </main>
 

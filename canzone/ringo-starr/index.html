@@ -490,6 +490,21 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
+  /* 8 settembre 2026 — SOLO sulla scheda canzone (classe testa-scheda), il player
+     scende sotto il momento iconico.
+     Misurato su 390x844 prima di toccare niente: ricerca 73px, titolo 252px,
+     player 363px, momento iconico 562px. Il player costava 152px + margini
+     PRIMA della risposta, e la risposta cominciava a due terzi della prima
+     schermata. Spostandolo di una riga nella griglia — stesso HTML, nessun
+     secondo iframe — il momento iconico risale intorno ai 270px e si legge
+     intero senza scorrere, mentre il player resta subito sotto: chi vuole
+     ascoltare lo trova dove finisce la frase, non prima di averla letta.
+     Su desktop non cambia niente (il player e' nella colonna di destra) e la
+     pagina artista non e' toccata: li' quell'area e' il ritratto e sopra
+     non c'e' nessuna risposta da anticipare. */
+  .testa-doppia.testa-scheda {
+    grid-template-areas: "identita" "momento" "player" "contorno";
+  }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
@@ -807,7 +822,7 @@ a { color: inherit; }
       Ringo Starr
     </nav>
 
-    <header class="intestazione testa-doppia">
+    <header class="intestazione testa-doppia testa-scheda">
       <!-- F85: il blocco del testo è diviso in due — identità del brano e
            contorno — perché su telefono il player possa stare in mezzo, subito
            dopo il titolo, invece che sopra tutto. Su desktop la griglia li
@@ -830,7 +845,7 @@ a { color: inherit; }
           
         </div>
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 settembre 2026</span>
+          
         </div>
         <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
              potrebbe: Instagram non espone alcun indirizzo di condivisione dal
@@ -957,25 +972,10 @@ a { color: inherit; }
     <section class="blocco" id="correlate">
       <h2>Altre canzoni di Pinguini Tattici Nucleari</h2>
       <div class="griglia">
-        <a class="scheda" href="../../canzone/irene/" style="--identita:#2E6E8A">
-          <span class="sopra">Gioventù brucata <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2017</span>
-          <span class="titolo">Irene</span>
-          <span class="gancio">Scritta interamente da Riccardo Zanotti, fu pubblicata come singolo il 1° giugno 2018, unico estratto dal terzo album…</span>
-        </a>
         <a class="scheda" href="../../canzone/fuori-dall-hype/" style="--identita:#8A6E1F">
           <span class="sopra">Fuori dall'hype <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2019</span>
           <span class="titolo">Fuori dall'Hype</span>
           <span class="gancio">Terzo singolo estratto e traccia d'apertura dell'omonimo quarto album, pubblicato da Sony Music il 5 aprile 2019 — il…</span>
-        </a>
-        <a class="scheda" href="../../canzone/giovani-wannabe/" style="--identita:#6E1F2E">
-          <span class="sopra">Fake News <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2022</span>
-          <span class="titolo">Giovani Wannabe</span>
-          <span class="gancio">Scritta da Riccardo Zanotti e Marco Paganelli, con produzione dello stesso Zanotti insieme a Enrico Brun, fu…</span>
-        </a>
-        <a class="scheda" href="../../canzone/islanda/" style="--identita:#1F5C8A">
-          <span class="sopra">Hello World <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2024</span>
-          <span class="titolo">Islanda</span>
-          <span class="gancio">Scritta da Riccardo Zanotti, Marco Paganelli e Giorgio Pesenti, con produzione della band insieme a Okgiorgio, fu…</span>
         </a>
         <a class="scheda" href="../../canzone/bagatelle/" style="--identita:#2E6E4A">
           <span class="sopra">Il re è nudo <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</span>
@@ -986,6 +986,11 @@ a { color: inherit; }
           <span class="sopra">Diamo un calcio all'aldilà <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2015</span>
           <span class="titolo">Django</span>
           <span class="gancio">Traccia del secondo album dei Pinguini Tattici Nucleari, &quot;Diamo un calcio all'aldilà&quot;, uscito il 18 dicembre 2015.</span>
+        </a>
+        <a class="scheda" href="../../canzone/sashimi/" style="--identita:#6E2E3E">
+          <span class="sopra">Fuori dall'hype <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2019</span>
+          <span class="titolo">Sashimi</span>
+          <span class="gancio">Scritta da Riccardo Zanotti, fu pubblicata come singolo il 1° marzo 2019, estratta da Fuori dall'hype, quarto album…</span>
         </a>
       </div>
     </section>

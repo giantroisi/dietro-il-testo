@@ -486,6 +486,21 @@ a { color: inherit; }
     grid-template-areas: "identita" "player" "momento" "contorno";
     gap: 20px;
   }
+  /* 8 settembre 2026 — SOLO sulla scheda canzone (classe testa-scheda), il player
+     scende sotto il momento iconico.
+     Misurato su 390x844 prima di toccare niente: ricerca 73px, titolo 252px,
+     player 363px, momento iconico 562px. Il player costava 152px + margini
+     PRIMA della risposta, e la risposta cominciava a due terzi della prima
+     schermata. Spostandolo di una riga nella griglia — stesso HTML, nessun
+     secondo iframe — il momento iconico risale intorno ai 270px e si legge
+     intero senza scorrere, mentre il player resta subito sotto: chi vuole
+     ascoltare lo trova dove finisce la frase, non prima di averla letta.
+     Su desktop non cambia niente (il player e' nella colonna di destra) e la
+     pagina artista non e' toccata: li' quell'area e' il ritratto e sopra
+     non c'e' nessuna risposta da anticipare. */
+  .testa-doppia.testa-scheda {
+    grid-template-areas: "identita" "momento" "player" "contorno";
+  }
   /* F18: la foto deve stare nella stessa scatola del riquadro che sostituisce.
      Avevo scritto in roadmap che era cosi' senza guardarlo: pubblicata, la foto
      era larga 327px e il riquadro 200px, cioe' due pagine diverse. */
@@ -810,7 +825,7 @@ a { color: inherit; }
         
         <div class="affidabilita">
           <span class="bollo attesa">Copertina non documentata</span>
-          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 8 settembre 2026</span>
+          
         </div>
       </div>
       <div class="visivo" role="img" aria-label="La ragazza del futuro">

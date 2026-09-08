@@ -232,6 +232,34 @@ export function ritrattoArtista(a) {
   };
 }
 
+/**
+ * La riga «Ultima revisione» — 8 settembre 2026, riscritta perche' diceva una
+ * cosa falsa.
+ *
+ * Prima mostrava `ctx.dataRevisione`, cioe' **la data in cui il sito era stato
+ * generato**: ogni rigenerazione — anche fatta per aggiungere un bottone —
+ * dichiarava al lettore che tutte e 282 le schede erano state revisionate quel
+ * giorno. Nessuno le aveva riaperte. E' esattamente cio' che il sito promette
+ * di non fare: un'affermazione presentata come verificata e non verificata.
+ *
+ * Adesso la riga esiste solo se il dato esiste davvero, nel campo
+ * `ultimaVerifica`. Dove non c'e', non si scrive niente: **il silenzio e' vero,
+ * una data inventata no.** Il campo lo riempie chi verifica, il giorno in cui
+ * riapre la scheda.
+ */
+function rigaRevisione(data) {
+  if (!data) return '';
+  return `<span class="verifica">Ultima revisione ${SEGNO} ${esc(dataLeggibile(data))}</span>`;
+}
+
+/** Da «2026-09-08» a «8 settembre 2026». Se non e' una data ISO la lascia com'e'. */
+function dataLeggibile(d) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(d).trim());
+  if (!m) return String(d);
+  const mesi = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+  return `${Number(m[3])} ${mesi[Number(m[2]) - 1]} ${m[1]}`;
+}
+
 /** F34: il player Spotify in apertura, al posto del segnaposto, quando c'è un ID verificato. */
 function playerIntestazione(c) {
   return `<div class="player-intestazione">
@@ -479,7 +507,19 @@ export const SEGNAPOSTO_DATA_MODIFICA = '__DATA_MODIFICA__';
 export function paginaCanzone(c, ctx) {
   const r = radice(2);
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
-  const altre = (artista?.canzoni || []).filter((s) => s !== c.slug).slice(0, 6).map((s) => ctx.canzoniPerSlug.get(s));
+  // 8 settembre 2026. `altre` (altre canzoni dello stesso artista) e `collegate`
+  // («continua da qui») pescavano dagli stessi brani: misurato sulle pagine
+  // pubblicate, **226 schede su 282 ripetevano almeno una canzone nei due
+  // blocchi in fondo**. Su telefono sono due liste quasi identiche alla fine di
+  // una pagina gia' lunga cinque schermate: peso morto, e la seconda lista fa
+  // sembrare che non ci sia altro da leggere. `collegate` viene prima in pagina
+  // e ha il criterio piu' forte (collegamenti scelti), quindi ha la precedenza:
+  // qui si toglie cio' che compare gia' li'.
+  const giaCollegate = new Set(c._collegamenti || []);
+  const altre = (artista?.canzoni || [])
+    .filter((s) => s !== c.slug && !giaCollegate.has(s))
+    .slice(0, 6)
+    .map((s) => ctx.canzoniPerSlug.get(s));
   // F60: esattamente quattro collegamenti orizzontali, scelti da una regola
   // deterministica per affinità (album, artista, genere+decennio, genere,
   // decennio) e riequilibrati perché nessuna scheda resti isolata.
@@ -547,7 +587,7 @@ export function paginaCanzone(c, ctx) {
       ${esc(c.titolo)}
     </nav>
 
-    <header class="intestazione testa-doppia">
+    <header class="intestazione testa-doppia testa-scheda">
       <!-- F85: il blocco del testo è diviso in due — identità del brano e
            contorno — perché su telefono il player possa stare in mezzo, subito
            dopo il titolo, invece che sopra tutto. Su desktop la griglia li
@@ -564,7 +604,7 @@ export function paginaCanzone(c, ctx) {
       <div class="testa-contorno">
         ${etichette}
         <div class="affidabilita">
-          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
+          ${rigaRevisione(c.ultimaVerifica)}
         </div>
         <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
              potrebbe: Instagram non espone alcun indirizzo di condivisione dal
@@ -815,7 +855,7 @@ export function paginaArtista(a, ctx) {
         ${a.storia ? '' : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
         <div class="affidabilita">
           <span class="bollo${a.storia ? '' : ' attesa'}">${a.storia ? 'Storia documentata' : 'Storia da scrivere'}</span>
-          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
+          ${rigaRevisione(a.ultimaVerifica)}
         </div>
       </div>
       ${ritrattoArtista(a).html}
@@ -960,7 +1000,7 @@ export function paginaAlbum(al, ctx) {
         ${al.nota ? `<p class="sintesi">${esc(al.nota[0].toUpperCase() + al.nota.slice(1))}.</p>` : ''}
         <div class="affidabilita">
           <span class="bollo${al.copertina ? '' : ' attesa'}">${al.copertina ? 'Copertina documentata' : 'Copertina non documentata'}</span>
-          <span class="verifica">Ultima revisione ${SEGNO} ${esc(ctx.dataRevisione)}</span>
+          ${rigaRevisione(al.ultimaVerifica)}
         </div>
       </div>
       ${riquadroVisivo(al.titolo)}

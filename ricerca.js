@@ -509,6 +509,18 @@
       var largh = f.w - marg * 2 - (f.destra || 0);
       var altLogo = logoPronto ? altezzaLogo(f.logo) : 0;
 
+      /* 8 settembre 2026 — impaginazione in TRE ZONE ANCORATE invece di un
+         blocco unico centrato.
+         Prima: logo, sito, artista, titolo, frase erano un solo blocco
+         centrato nella fascia sicura, e la riga della promessa stava sola in
+         fondo. Misurato sull'immagine prodotta, restavano 190-290 px vuoti
+         sotto il testo e la composizione non aveva ne' un inizio ne' una fine:
+         il vuoto non era un margine, era spazio senza ruolo — da qui il senso
+         di smarrimento.
+         Adesso: il marchio e' ancorato in alto, il piede e' ancorato in basso,
+         e il contenuto respira al centro fra i due. Lo spazio vuoto non e'
+         sparito — e' stato messo dove serve, cioe' intorno al testo — e ha due
+         estremi che lo chiudono. */
       var sopra = [];
       var art = cartolina.getAttribute('data-artista');
       var anno = cartolina.getAttribute('data-anno');
@@ -517,38 +529,52 @@
 
       var t = adatta(x, cartolina.getAttribute('data-titolo') || '', largh, f.righeTitolo, f.dimMax, f.dimMin);
       var passoTitolo = Math.round(t.dim * 1.12);
-
       x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
-      var interlinea = Math.round(f.dimFrase * 1.42);
+      var interlinea = Math.round(f.dimFrase * 1.46);
 
-      /* Prima si misura tutto, poi si disegna: e' l'unico modo per centrare il
-         blocco nella fascia sicura invece di lasciarlo appeso in alto con un
-         terzo di immagine vuoto sotto. */
-      var fissa = (altLogo ? altLogo + 22 : 0) + 30 + 58 + (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 52 + 56;
-      var utile = f.h - f.alto - f.basso - 70;
-      var possibili = Math.max(2, Math.min(f.righeFrase, Math.floor((utile - fissa) / interlinea)));
-      var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili);
-      var totale = fissa + righeFrase.length * interlinea;
-      var y = f.alto + Math.max(0, Math.round((utile - totale) / 2));
-
+      /* ZONA ALTA — il marchio, appoggiato al margine di sicurezza. Il logo
+         resta grande: e' l'unica cosa che dice di chi e' l'immagine quando
+         gira fuori dal sito, e rimpicciolirlo per far spazio al testo
+         significherebbe togliere identita' proprio dove serve di piu'. */
+      var yLogo = f.alto + 6;
       if (altLogo) {
         var marchio = logoBianco(f.logo);
         x.save();
         x.shadowColor = 'rgba(0,0,0,0.5)';
         x.shadowBlur = Math.round(f.logo * 0.045);
         x.shadowOffsetY = Math.round(f.logo * 0.012);
-        x.drawImage(marchio, marg - Math.round(f.logo / 240), y);
+        x.drawImage(marchio, marg - Math.round(f.logo / 240), yLogo);
         x.restore();
-        y += altLogo + 22;
       }
-      x.font = '26px ' + MONO;
-      x.fillStyle = 'rgba(255,255,255,0.78)';
-      x.fillText(cartolina.getAttribute('data-sito') || 'dietroiltesto.it', marg, y + 22);
-      y += 88;
+
+      /* ZONA BASSA — il piede: l'indirizzo del sito (che prima stava
+         appiccicato sotto il logo, dove raddoppiava il marchio senza aggiungere
+         niente) e la promessa sul testo parafrasato. Due righe ancorate al
+         margine inferiore: chiudono la composizione e riempiono il vuoto con
+         qualcosa che ha una funzione. */
+      var yPiede = f.h - f.basso - 22;
+      x.font = '22px ' + MONO;
+      x.fillStyle = 'rgba(255,255,255,0.58)';
+      x.fillText('Momento iconico descritto con parole nostre', marg, yPiede);
+      x.font = '27px ' + MONO;
+      x.fillStyle = 'rgba(255,255,255,0.9)';
+      x.fillText(cartolina.getAttribute('data-sito') || 'dietroiltesto.it', marg, yPiede - 44);
+      var altPiede = 92;
+
+      /* ZONA CENTRALE — misurata prima e disegnata dopo, centrata nello spazio
+         che resta fra marchio e piede. */
+      var zonaSup = yLogo + altLogo + (altLogo ? 64 : 0);
+      var zonaInf = f.h - f.basso - altPiede;
+      var utile = zonaInf - zonaSup;
+      var fissa = (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 66;
+      var possibili = Math.max(2, Math.min(f.righeFrase, Math.floor((utile - fissa) / interlinea)));
+      var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili);
+      var totale = fissa + righeFrase.length * interlinea;
+      var y = zonaSup + Math.max(0, Math.round((utile - totale) / 2));
 
       if (sopra.length) {
         x.font = '28px ' + MONO;
-        x.fillStyle = 'rgba(255,255,255,0.92)';
+        x.fillStyle = 'rgba(255,255,255,0.9)';
         x.fillText(sopra.join('  ·  '), marg, y);
         y += 54;
       }
@@ -560,11 +586,13 @@
         x.fillText(t.righe[i], marg, y);
       }
 
-      y += 52;
-      x.font = 'italic 34px ' + SERIF;
-      x.fillStyle = 'rgba(255,255,255,0.72)';
-      x.fillText('♪', marg, y);
-      y += 56;
+      /* Al posto della notina musicale, che era un carattere solitario in mezzo
+         a due blocchi di testo: un filetto. Separa il titolo dalla frase e da'
+         alla colonna un appoggio orizzontale, che e' quello che mancava. */
+      y += 40;
+      x.fillStyle = 'rgba(255,255,255,0.55)';
+      x.fillRect(marg, y, 132, 4);
+      y += 26;
 
       x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
       x.fillStyle = 'rgba(255,255,255,0.94)';
@@ -572,12 +600,6 @@
         y += interlinea;
         x.fillText(righeFrase[k], marg, y);
       }
-
-      /* la stessa promessa che sta sulla pagina: l'immagine gira da sola, e
-         senza questa riga sembrerebbe una citazione del testo */
-      x.font = '22px ' + MONO;
-      x.fillStyle = 'rgba(255,255,255,0.62)';
-      x.fillText('Momento iconico descritto con parole nostre', marg, f.h - f.basso - 16);
 
       return cv;
     }
