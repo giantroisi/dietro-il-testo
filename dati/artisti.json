@@ -253,7 +253,14 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#2A4B7C"
+    "colore": "#2A4B7C",
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/a-ha-mn0000480108",
+        "nome": "AllMusic — Kelvin Hayes",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "ac-dc",
@@ -445,7 +452,14 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#8A1414"
+    "colore": "#8A1414",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/topic/AC-DC",
+        "nome": "Encyclopaedia Britannica — Gillian G. Gaar",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "adele",
@@ -832,7 +846,14 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#3E6EA8"
+    "colore": "#3E6EA8",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/adriano-celentano/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      }
+    ]
   },
   {
     "slug": "al-bano-e-romina-power",
@@ -1448,7 +1469,7 @@
   {
     "slug": "bring-me-the-horizon",
     "nome": "Bring Me the Horizon",
-    "storia": "Formatasi a Sheffield nel 2004 attorno al cantante Oliver Sykes, ha attraversato una delle evoluzioni sonore più radicali della musica rock contemporanea: dal deathcore aggressivo del debutto \"Count Your Blessings\" (2006) a un rock sempre più melodico ed elettronico. La formazione storica — Sykes, il chitarrista Lee Malia, il bassista Matt Kean e il batterista Matt Nicholls — è rimasta stabile dal 2004, mentre il tastierista Jordan Fish, entrato nel 2012, ha lasciato la band nel dicembre 2023.",
+    "storia": "Formatasi a Sheffield nel 2004 attorno al cantante Oliver Sykes, ha attraversato una delle evoluzioni sonore più radicali della musica rock contemporanea: dal deathcore aggressivo del debutto \"Count Your Blessings\" (2006) a un rock sempre più melodico ed elettronico. Il nucleo storico — Sykes, il chitarrista Lee Malia, il bassista Matt Kean e il batterista Matt Nicholls — è stabile dal 2004; il chitarrista ritmico originale, Curtis Ward, lasciò la band a inizio 2009 e fu sostituito da Jona Weinhofen. Il tastierista Jordan Fish iniziò a collaborare con la band nel 2012, ne divenne membro ufficiale nel gennaio 2013 e l'ha lasciata nel dicembre 2023.",
     "album": [
       {
         "titolo": "Count Your Blessings",
@@ -1561,6 +1582,17 @@
     "colore": "#C23B7A",
     "riconoscimenti": [
       "4 Kerrang! Awards vinti in carriera, incluso due volte Best British Band"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.allmusic.com/artist/bring-me-the-horizon-mn0000537414",
+        "nome": "AllMusic — Neil Z. Yeung",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bring_Me_the_Horizon",
+        "nome": "Wikipedia"
+      }
     ]
   },
   {
@@ -6050,6 +6082,18 @@
     "colore": "#A6331F",
     "riconoscimenti": [
       "La canzone \"Certe notti\" ha vinto la Targa Tenco per la migliore canzone"
+    ],
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/luciano-ligabue_(Enciclopedia-Italiana)/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/artista/luciano-ligabue/",
+        "nome": "Rolling Stone Italia",
+        "ruolo": "storia"
+      }
     ]
   },
   {
