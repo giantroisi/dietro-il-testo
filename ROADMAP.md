@@ -1838,6 +1838,20 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: `check-livelli.mjs` invariato, 77/79 — nessuna modifica ai dati in questo lotto, solo ricerca per Opus.
   **Prossimo**: gruppo C, i 32 domini italiani minori — a lotti di dieci come richiesto.
 
+- **8 settembre 2026 — Domini da classificare, gruppo C: le 19 voci non ancora guardate (le altre nove — `noidegli8090.com`, `sololibri.net`, `libreriamo.it`, `archivio.blitzquotidiano.it`, `lascimmiapensa.com`, `recensiamomusica.com`, `mbmusic.it`, `wonderchannel.it`, `tag24.it` — erano già state controllate nel giro precedente, non riaperte).** Aperta ogni pagina davvero citata in una scheda, non il dominio in astratto.
+  **Le due più forti, sorprendentemente**:
+  - **`exitwell.com` (`fuori-dall-hype`)** — non è un blog che racconta, è **un'intervista originale**: Riccardo De Stefano (9 luglio 2019) intervista di persona Riccardo Zanotti dei Pinguini Tattici Nucleari. Fonte primaria vera, non un relay.
+  - **`mentisommerse.it` (`con-un-deca`)** — Corrado Parlati (16 ago. 2021) cita tre fonti reali distinte: un'intervista a Esquire, un video Facebook di Pezzali con una citazione diretta sulla sessione in studio, un'intervista a *Famiglia Cristiana*. Il profilo più documentato di tutto il gruppo C.
+  **Quattro moderate, un solo articolo con qualche fonte reale dentro**:
+  - `ilgiunco.net` (`certe-notti`, Camilla Ferrandi, 25 ago. 2021) — cita una dichiarazione di Ligabue a RTL 102.5 e un DVD di Vincenzo Mollica, ma si appoggia a una sola fonte primaria più Wikipedia.
+  - `classicrockartists.com` (`space-truckin`, Charlie Gillingham, 10 giu. 2026) — cita il documentario "Classic Albums" per un dettaglio specifico (Blackmore e il tema di Batman), il resto è assertivo.
+  - `houstonseagle.com` (`beat-it`, Jarrett Huff, 29 ago. 2025) — cita una vera biografia ("Edward Van Halen: A Definitive Biography") con citazione diretta, più Yahoo Entertainment e Smooth Radio (già visto).
+  - `inliberta.it` (`porta-portese`, Italo Mastrolia, avvocato esperto di copyright, 6 dic. 2020) — una citazione diretta del produttore/coautore dell'album, Antonio Coggio, dentro un pezzo per il resto interpretativo.
+  **Il resto — dieci voci, firma e data quasi ovunque, ma zero fonti esterne verificabili, stesso profilo di `donnaglamour.it`**: `ehabitat.it` (`vieni-a-ballare-in-puglia`), `cromosomimedia.com` (`cattiva`), `rds.it` (`tieni-il-tempo` — attenzione, testata radiofonica reale ma QUESTA pagina specifica non cita niente), `ondamusicale.it` (`svalutation`), `oaplus.it` (`eroe-storia-di-luigi-delle-bicocche`), `tomtomrock.it` (`a-che-ora-e-la-fine-del-mondo`), `dropnews.it` (`la-ragazza-dei-tuoi-sogni`), `agorairc.it` (`il-forestiero` — analisi teologica/letteraria, firma e data ci sono ma nessuna fonte per le affermazioni su Celentano), `romasette.it` (`preghero` — stessa cosa, nessuna fonte per l'attribuzione a Cleveland). **Un caso peggiore degli altri**: `ilpitagora.it` (`una-vita-da-mediano`) non ha né firma né data visibili, è più un indice con link a spartiti e vendita che un articolo.
+  **Tre non raggiungibili dai miei strumenti**: `lbbonline.com` (`waiting-for-love`) e `vistanet.it` (`un-colpo-allanima`) rispondono 403; `lopinionista.it` (`luci-damerica`) rifiuta la connessione. Non so dire se il contenuto sia buono o no.
+**Verificato**: `check-livelli.mjs` invariato, 77/79 — solo ricerca in questo lotto, nessuna modifica ai dati.
+  **Fine del giro sui 53 domini segnalati a inizio giornata.** Restano da vedere solo i tre irraggiungibili sopra, se in futuro risultano accessibili da un altro strumento.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
