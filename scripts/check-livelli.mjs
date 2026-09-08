@@ -51,7 +51,12 @@
 // e' cresciuto perche' la coda ha portato dentro molti domini nuovi che nessuno
 // ha ancora classificato: **non sono un debito peggiore, sono un debito di
 // natura diversa** — li' non manca la fonte, manca il giudizio su di essa.
-const SOGLIA = 79;
+//   8 settembre, sera, dopo la classificazione di 50 domini: 57 (53 + 4).
+//   E' il salto piu' grande della settimana e **non viene da nessuna scheda
+//   arricchita**: viene dall'aver guardato i domini. Il debito «di giudizio»
+//   e' quasi finito (4 riferimenti su 618); quello vero — schede che non hanno
+//   una fonte A/B e basta — adesso si vede tutto, ed e' 53.
+const SOGLIA = 57;
 
 import { readFileSync } from 'node:fs';
 
@@ -64,6 +69,11 @@ const A = new Set([
   'guinnessworldrecords.com', 'osservatoreromano.va', 'treccani.it',
   'zucchero.it', 'whitneyhouston.com', 'centurymedia.bandcamp.com',
   'archivio.astigiani.it', 'ceraunavolta.org',
+  // Aggiunto l'8 settembre 2026. Sito ufficiale di Ligabue: la pagina citata da
+  // `balliamo-sul-mondo` (via web.archive.org) e' un pezzo redazionale
+  // «canzone per canzone» del 2 aprile 2009 in cui Ligabue commenta i propri
+  // brani. E' l'artista che parla di se': A per definizione, non per fiducia.
+  'ligachannel.com',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -82,6 +92,25 @@ const B = new Set([
   // firme e date reali su ogni pagina controllata, redazione riconoscibile,
   // e per le riviste di settore lo stesso editore di domini gia' in lista.
   'musicradar.com', 'guitarworld.com', 'npr.org', 'variety.com', 'mtv.com',
+  // Aggiunti l'8 settembre 2026: per ognuno e' stata aperta la pagina davvero
+  // citata in una scheda, non il dominio in astratto. Quattordici testate
+  // riconoscibili, firma e data, nessuna sorpresa:
+  'cbsnews.com', 'time.com', 'spin.com', 'spinmagazine.com', 'stereogum.com',
+  'gq.com', 'vanityfair.it', 'ilsole24ore.com', 'exclaim.ca', 'gigwise.com',
+  'ibtimes.co.uk', 'theringer.com', 'bluegrasstoday.com', 'notreble.com',
+  // Due emittenti britanniche, firma e data sulle pagine citate:
+  'goldradio.com', 'hellorayo.co.uk',
+  // officialcharts.com: **non e' A**, come avevo previsto. Le due pagine
+  // davvero citate (`amnesia-5sos`, `not-ok`) non sono classifiche: sono
+  // interviste redazionali firmate e datate. Per quelle due la domanda non era
+  // mai stata A o B, era B o niente.
+  'officialcharts.com',
+  // exitwell.com: la pagina citata da `fuori-dall-hype` e' un'intervista
+  // originale a Riccardo Zanotti (Riccardo De Stefano, 9 luglio 2019). Per la
+  // lettera della sezione 5 un'intervista diretta e' A — ma qui la A andrebbe
+  // al **dominio**, cioe' a ogni pagina futura di un blog piccolo, sulla forza
+  // di una pagina sola. B: vale la pagina, non l'istituzione che non c'e'.
+  'exitwell.com',
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -104,6 +133,29 @@ const C = new Set([
   'soundsblog.it',      // compilazione: le citazioni dirette vengono da interviste di altri
   'donnaglamour.it',    // firma e data, ma nessuna fonte citata per cio' che afferma
   'musewiki.org',       // wiki di fan; su una scheda relaia un'intervista nominata e datata, e resta un relay
+  // ----------------------------------------------------- 8 settembre 2026
+  // Cinque RELAY: nessuna redazione propria, ma citano per nome e data la
+  // fonte primaria che riportano. Restano C — la prova e' l'originale, non chi
+  // lo ripete — ma sono C utili: dicono dove andare a guardare.
+  'the-paulmccartney-project.com', // per ogni riga: testata, data, pagina
+  'rammwiki.net',                  // «Making Of» ufficiale + XAOC Magazine 07/2001
+  'theninhotline.com',             // Details, aprile 1995, intervista di Chris Heath
+  'mentisommerse.it',              // Esquire + video Facebook di Pezzali + Famiglia Cristiana
+  'iheart.com',                    // nessuna firma, ma nomina l'episodio di podcast da cui prende
+  // Quattro MODERATE: una sola fonte primaria vera dentro un pezzo per il resto
+  // interpretativo. Una citazione di sfuggita non fa di una pagina una testata.
+  'ilgiunco.net', 'classicrockartists.com', 'houstonseagle.com', 'inliberta.it',
+  // Diciannove con FIRMA E DATA MA ZERO FONTI ESTERNE: raccontano
+  // un'interpretazione, a volte un aneddoto molto specifico, senza mai dire da
+  // dove viene. Si leggono volentieri e spesso hanno ragione; non provano nulla.
+  'noidegli8090.com', 'sololibri.net', 'libreriamo.it', 'musicianwages.com',
+  'lascimmiapensa.com', 'recensiamomusica.com', 'mbmusic.it', 'wonderchannel.it',
+  'archivio.blitzquotidiano.it', 'tag24.it', 'ehabitat.it', 'cromosomimedia.com',
+  'rds.it', 'ondamusicale.it', 'oaplus.it', 'tomtomrock.it', 'dropnews.it',
+  'agorairc.it', 'romasette.it',
+  // Due emittenti radio, aperte l'8 settembre invece che dedotte dal nome:
+  'smoothradio.com',      // data ma nessuna firma sulla pagina, classifica redazionale senza fonti
+  'radiocremebrulee.com', // web radio americana, recensione a firma collettiva, nessuna fonte
 ]);
 const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com', '.blogspot.com'];
 
@@ -117,7 +169,24 @@ const VIETATI = new Map([
   ['songtell.com', 'nessun autore, nessuna data, nessuna fonte citata'],
   ['significatocanzone.it', 'interpretazioni scritte dai visitatori, senza firma e senza fonti'],
   ['le-citazioni.it', 'raccolta di citazioni che non indica da quale intervista vengano'],
+  ['ilpitagora.it', 'ne firma ne data: un indice di link a spartiti e vendita, non un articolo'],
 ]);
+
+// QUATTRO DOMINI RESTANO FUORI DA QUESTE TABELLE, DI PROPOSITO.
+//
+// `youtube.com` — **la tabella non sa dirlo.** Il video citato da `i-miss-you`
+// sta sul canale ufficiale di Radio X, cioe' della stessa emittente gia'
+// classificata B (`radiox.co.uk`). Ma youtube.com ospita anche il canale della
+// band (sarebbe A) e il canale di chiunque (niente). Il livello dipende dal
+// canale, non dal dominio. E' lo stesso limite di web.archive.org, dove pero'
+// la soluzione c'era: leggere l'URL **dentro** l'URL. Qui non c'e' un dentro da
+// leggere, e finche' non si classifica per canale il dominio resta «da
+// classificare» — che e' la risposta onesta, non una svista.
+//
+// `lbbonline.com`, `vistanet.it` (403), `lopinionista.it` (connessione
+// rifiutata) — non raggiunti da nessuno strumento provato l'8 settembre.
+// Non classificati: «non l'ho visto» non e' un livello, e indovinare dal nome
+// e' esattamente l'errore evitato a suo tempo con songmeaningsandfacts.com.
 
 // ---------------------------------------------------------------- misura
 
