@@ -7946,7 +7946,7 @@
   {
     "slug": "mina",
     "nome": "Mina",
-    "storia": "Nata a Busto Arsizio nel 1940 come Mina Anna Maria Mazzini e cresciuta a Cremona, esordì nel 1958 esibendosi per gioco sul palco della Bussola di Marina di Pietrasanta; lo stesso anno incise i primi brani dopo essere stata notata da un agente discografico mentre cantava in un locale con il gruppo Happy Boys. Nota anche come \"la Tigre di Cremona\", ha interpretato oltre 1500 brani in carriera e venduto più di 150 milioni di dischi, tra le voci più importanti della musica leggera italiana.",
+    "storia": "Nata a Busto Arsizio nel 1940 come Mina Anna Maria Mazzini e cresciuta a Cremona, esordì nel 1958 esibendosi per gioco sul palco della Bussola di Marina di Pietrasanta; lo stesso anno incise i primi brani dopo essere stata notata da un discografico mentre cantava in un locale con il gruppo Happy Boys. Nota anche come \"la Tigre di Cremona\", ha interpretato oltre 1500 brani in carriera e venduto più di 150 milioni di dischi, tra le voci più importanti della musica leggera italiana.",
     "album": [
       {
         "titolo": "Tintarella di luna",
@@ -8490,7 +8490,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#6E4A8A"
+    "colore": "#6E4A8A",
+    "fonti": [
+      {
+        "url": "https://www.ilgiorno.it/cremona/cultura/mina-85-anni-ml0tn31f",
+        "nome": "Il Giorno — Redazione Cremona",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.treccani.it/enciclopedia/mina_res-3ad82c8c-477e-11dd-a3be-0016357f4ed7/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/italia/mina-mazzini.htm",
+        "nome": "OndaRock — Claudio Milano",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "motorhead",
@@ -8812,7 +8830,7 @@
   {
     "slug": "my-chemical-romance",
     "nome": "My Chemical Romance",
-    "storia": "Formati nel New Jersey nel 2001 dal cantante Gerard Way insieme al batterista Matt Pelissier, poco dopo gli attentati dell'11 settembre, che Way assistette dal traghetto sull'Hudson e che lo spinsero a fondare una band; si unirono presto il chitarrista Ray Toro e il bassista Mikey Way, fratello di Gerard, e infine il chitarrista Frank Iero, in formazione già al primo album \"I Brought You My Bullets, You Brought Me Your Love\" (2002).",
+    "storia": "Formati nel New Jersey nel 2001 dal cantante Gerard Way insieme al batterista Matt Pelissier, poco dopo gli attentati dell'11 settembre, che Way assistette dal traghetto sull'Hudson e che lo spinsero a fondare una band; si unirono presto il chitarrista Ray Toro e il bassista Mikey Way, fratello di Gerard, e infine il chitarrista Frank Iero, in formazione già al primo album \"I Brought You My Bullets, You Brought Me Your Love\" (2002). Pelissier fu sostituito nel 2004 da Bob Bryar, che rimase alla batteria fino al 2010 — inclusi gli anni di \"The Black Parade\" (2006), l'album di maggior successo della band — venendo poi sostituito da una serie di batteristi turnisti.",
     "album": [
       {
         "titolo": "I Brought You My Bullets, You Brought Me Your Love",
@@ -8858,12 +8876,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#1A1A1A"
+    "colore": "#1A1A1A",
+    "fonti": [
+      {
+        "url": "https://www.nme.com/news/music/my-chemical-romance-pay-tribute-to-bob-bryar-and-his-important-role-in-bands-history-3817980",
+        "nome": "NME — Poppy Burton",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/my-chemical-romance-59-1298856",
+        "nome": "NME — Jamie Fullerton",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/how-gerard-way-became-an-icon-for-a-generation-of-misfits",
+        "nome": "Louder — James Gill",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "naska",
     "nome": "Naska",
-    "storia": "Diego Caterbetti, in arte Naska, nasce nel 1997 a Civitanova Marche e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica. Cresciuto tra il punk rock di Blink-182 e Sum 41 e l'emo trap americana di Lil Peep, esordisce nel 2015 con l'EP \"The Purge\"; nel 2022 pubblica l'album di debutto \"Rebel\", tra le sonorità punk rock che lo hanno reso uno dei protagonisti del revival pop punk italiano.",
+    "storia": "Diego Caterbetti, in arte Naska, nasce nel 1997 nelle Marche — le fonti divergono fra Civitanova Marche e Loreto — e cresce a Monte San Giusto; finito il liceo si trasferisce a Milano per dedicarsi alla musica. Cresciuto tra il punk rock di Blink-182 e Sum 41 e l'emo trap americana di Lil Peep, esordisce nel 2015 con l'EP \"The Purge\"; nel 2022 pubblica l'album di debutto \"Rebel\", tra le sonorità punk rock che lo hanno reso uno dei protagonisti del revival pop punk italiano.",
     "album": [
       {
         "titolo": "Rebel",
@@ -8896,7 +8932,20 @@
       "punk"
     ],
     "paese": "it",
-    "colore": "#5C1F5C"
+    "colore": "#5C1F5C",
+    "fonti": [
+      {
+        "url": "https://www.rollingstone.it/musica/interviste-musica/naska-di-quello-che-dicono-i-vecchi-cantautori-non-me-ne-frega-un-cazzo/741350/",
+        "nome": "Rolling Stone Italia — Gianmarco Aimi",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.quotidiano.net/magazine/chi-e-naska-2603d996",
+        "nome": "Quotidiano.net — Redazione Magazine",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "nine-inch-nails",
@@ -8983,7 +9032,7 @@
   {
     "slug": "nirvana",
     "nome": "Nirvana",
-    "storia": "Formati ad Aberdeen, nello stato di Washington, nel 1987 dal cantante e chitarrista Kurt Cobain e dal bassista Krist Novoselic, conosciutisi al liceo, passarono attraverso diversi nomi (tra cui Skid Row) e diversi batteristi prima di stabilirsi con Dave Grohl nel 1990. Dopo l'esordio indipendente \"Bleach\" (1989) per la Sub Pop, il secondo album \"Nevermind\" (1991), trainato dal singolo \"Smells Like Teen Spirit\", li rese improvvisamente il gruppo di punta della scena grunge di Seattle.",
+    "storia": "Formati ad Aberdeen, nello stato di Washington, nel 1987 dal cantante e chitarrista Kurt Cobain e dal bassista Krist Novoselic, conosciutisi al liceo, passarono attraverso diversi nomi (tra cui Skid Row) e sei batteristi — il più duraturo dei quali, Chad Channing, restò con la band dal 1988 al 1990 e suonò proprio sull'esordio \"Bleach\" — prima di stabilirsi con Dave Grohl nel 1990. Dopo l'esordio indipendente \"Bleach\" (1989) per la Sub Pop, il secondo album \"Nevermind\" (1991), trainato dal singolo \"Smells Like Teen Spirit\", li rese improvvisamente il gruppo di punta della scena grunge di Seattle.",
     "album": [
       {
         "titolo": "Bleach",
@@ -9022,7 +9071,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#B89B1F"
+    "colore": "#B89B1F",
+    "fonti": [
+      {
+        "url": "https://www.grammy.com/artists/nirvana/8026/",
+        "nome": "Grammy.com",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/nirvana-chad-channing-no-regrets/",
+        "nome": "Ultimate Classic Rock — Debra Filcman",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/kurt-cobain-says-nirvana-drummers-before-dave-grohl-sucked-2284182",
+        "nome": "NME — Luke Morgan Britton",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "oasis",
@@ -9593,7 +9660,7 @@
   {
     "slug": "pink-floyd",
     "nome": "Pink Floyd",
-    "storia": "Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd. Barrett, frontman e principale autore nei primi anni, fu una figura chiave della psichedelia britannica per il suo stile di chitarra libero e per l'uso di dissonanza, distorsione ed eco.",
+    "storia": "Formati a Londra nel 1965, nacquero quando gli studenti di architettura Roger Waters, Nick Mason e Richard Wright, già insieme in gruppi precedenti, reclutarono il chitarrista Syd Barrett, che diede al gruppo il nome Pink Floyd. Barrett, frontman e principale autore nei primi anni, fu una figura chiave della psichedelia britannica per il suo stile di chitarra libero e per l'uso di dissonanza, distorsione ed eco. Nel dicembre 1967, mentre le sue condizioni psichiche peggioravano, il gruppo reclutò come quinto membro il chitarrista David Gilmour per affiancarlo dal vivo; nell'aprile 1968 Barrett lasciò definitivamente la band, sostituito da Gilmour. Nacque così la formazione \"classica\" Gilmour-Waters-Wright-Mason, che negli anni successivi avrebbe realizzato alcuni degli album più celebri della storia del rock, tra cui \"The Dark Side of the Moon\" (1973), \"Wish You Were Here\" (1975) e \"The Wall\" (1979).",
     "album": [
       {
         "titolo": "The Piper at the Gates of Dawn",
@@ -9716,7 +9783,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#B5451D"
+    "colore": "#B5451D",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/pink-floyd",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/david-gilmour-joins-pink-floyd/",
+        "nome": "Ultimate Classic Rock — Gary Graff",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/syd-barrett-last-show-with-pink-floyd/",
+        "nome": "Ultimate Classic Rock — Dave Swanson",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "pino-daniele",
@@ -9887,12 +9972,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#1F6B7A"
+    "colore": "#1F6B7A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/pino-daniele_(Enciclopedia-Italiana)/",
+        "nome": "Treccani — Stefano Oliva",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/monografie/pinodaniele/",
+        "nome": "OndaRock — Giuseppe D'Amato",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "prince",
     "nome": "Prince",
-    "storia": "Nato a Minneapolis nel 1958 da genitori musicisti, imparò da autodidatta piano, chitarra, basso e batteria fin da ragazzo; firmò un contratto con la Warner Bros. a 18 anni, pubblicando il primo album, \"For You\", due anni dopo. Fu l'artefice principale del \"Minneapolis Sound\", una fusione di rhythm and blues, funk, rock e new wave che segnò gli anni '80; vendette oltre 100 milioni di dischi e vinse sette Grammy e un Oscar. Morì nel 2016 nel suo studio di Paisley Park per un'overdose accidentale di fentanyl.",
+    "storia": "Nato a Minneapolis il 7 giugno 1958 da genitori musicisti — il padre John L. Nelson, pianista e compositore jazz, la madre Mattie Shaw, cantante jazz — imparò da autodidatta piano, chitarra, basso e batteria fin da ragazzo; firmò un contratto con la Warner Bros. nel 1977, appena maggiorenne, pubblicando il primo album, \"For You\", l'anno successivo (1978). Fu l'artefice principale del \"Minneapolis Sound\", una fusione di rhythm and blues, funk, rock e new wave che segnò gli anni '80; vendette oltre 100 milioni di dischi, vinse sette Grammy e un Oscar (per la colonna sonora di \"Purple Rain\", 1985). Morì il 21 aprile 2016 nel complesso di Paisley Park, per un'overdose accidentale di fentanyl.",
     "album": [
       {
         "titolo": "For You",
@@ -10184,12 +10282,35 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#5E2A7E"
+    "colore": "#5E2A7E",
+    "fonti": [
+      {
+        "url": "https://www.grammy.com/artists/prince/5675/",
+        "nome": "Grammy.com",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.oscars.org/oscars/ceremonies/1985",
+        "nome": "Academy of Motion Picture Arts and Sciences",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/arts/prince-legendary-music-artist-whose-influence-spanned-4-decades-has-died",
+        "nome": "PBS NewsHour — Kenya Downs, Corinne Segal",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://rockhall.com/inductees/prince/",
+        "nome": "Rock and Roll Hall of Fame",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "queen",
     "nome": "Queen",
-    "storia": "Le radici del gruppo risalgono al 1968 a Londra, quando Brian May e Tim Staffell formarono la band Smile, a cui si unì il batterista Roger Taylor; Freddie Mercury, allora Farrokh Bulsara, era amico e ammiratore del gruppo. Quando Staffell lasciò nel 1970, Mercury ne prese il posto come voce, proponendo il nuovo nome Queen; nel 1971 si aggiunse il bassista John Deacon, completando la formazione classica. I primi anni furono difficili, tra piccoli locali e ristrettezze economiche, prima del primo album \"Queen\" nel 1973.",
+    "storia": "Le radici del gruppo risalgono al 1968 a Londra, quando Brian May e Tim Staffell formarono la band Smile, a cui si unì il batterista Roger Taylor; Freddie Mercury, allora Farrokh Bulsara, era amico e ammiratore del gruppo. Quando Staffell lasciò nella primavera del 1970, Mercury ne prese il posto come voce, proponendo il nuovo nome Queen. Prima di trovare una formazione stabile, la band cambiò tre bassisti in meno di un anno; solo nel marzo 1971 si aggiunse John Deacon, completando la formazione classica. I primi anni furono difficili, tra piccoli locali e ristrettezze economiche, prima del primo album \"Queen\" nel 1973.",
     "album": [
       {
         "titolo": "Queen",
@@ -10312,12 +10433,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#A6192E"
+    "colore": "#A6192E",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/queen-smile-band-history/",
+        "nome": "Ultimate Classic Rock — David Chiu",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/john-deacon-queen/",
+        "nome": "Ultimate Classic Rock — Dave Swanson",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/barry-mitchell-queen-bassist-dies/",
+        "nome": "Ultimate Classic Rock — Michael Gallucci",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "r-e-m",
     "nome": "R.E.M.",
-    "storia": "Formati ad Athens, in Georgia, nel 1980, nacquero dall'incontro tra Peter Buck e Michael Stipe in un negozio di dischi, accomunati dalla passione per il punk rock; tramite un'amica comune conobbero poi Mike Mills e Bill Berry, già musicisti insieme dai tempi del liceo. La prima esibizione fu il 5 aprile 1980 a una festa di compleanno in una chiesa abbandonata di Athens; il primo singolo, \"Radio Free Europe\" (1981), e l'album di debutto \"Murmur\" (1983) costruirono la loro fama tra le radio universitarie.",
+    "storia": "Formati ad Athens, in Georgia, nel 1980, nacquero dall'incontro tra Peter Buck e Michael Stipe nel negozio di dischi Wuxtry Records, accomunati dalla passione per il punk rock; tramite un'amica comune conobbero poi Mike Mills e Bill Berry, già musicisti insieme dai tempi del liceo. La prima esibizione fu il 5 aprile 1980 a una festa di compleanno in una chiesa abbandonata di Athens; il primo singolo, \"Radio Free Europe\" (1981), e l'album di debutto \"Murmur\" (1983) costruirono la loro fama tra le radio universitarie. Bill Berry lasciò la band nel 1997, dopo un aneurisma cerebrale avuto sul palco nel 1995; Buck, Stipe e Mills proseguirono come trio fino allo scioglimento nel 2011.",
     "album": [
       {
         "titolo": "Murmur",
@@ -10435,12 +10574,25 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#8A4A1F"
+    "colore": "#8A4A1F",
+    "fonti": [
+      {
+        "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/r-e-m/",
+        "nome": "New Georgia Encyclopedia — Stephanie L. Gordon",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/bill-berry-rem-departure/",
+        "nome": "Ultimate Classic Rock — Allison Rapp",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "radiohead",
     "nome": "Radiohead",
-    "storia": "Formati ad Abingdon, in Inghilterra, nel 1985 da un gruppo di compagni di scuola alla Abingdon School — Thom Yorke, i fratelli Colin e Jonny Greenwood, Ed O'Brien e Phil Selway — con il nome On a Friday, che richiamava il giorno delle prove nell'aula di musica. Rifiutata un'offerta discografica per finire prima gli studi universitari, si riunirono nel 1991, firmarono con la EMI e cambiarono nome in Radiohead, ispirato a una canzone dei Talking Heads.",
+    "storia": "Formati ad Abingdon, in Inghilterra, nel 1985 da un gruppo di compagni di scuola alla Abingdon School — Thom Yorke, il bassista Colin Greenwood, il chitarrista Ed O'Brien e il batterista Phil Selway — con il nome On a Friday, che richiamava il giorno delle prove nell'aula di musica; il fratello minore di Colin, Jonny Greenwood, più giovane degli altri e rimasto a scuola mentre i compagni partivano per l'università, si aggiunse al gruppo negli stessi anni. Rifiutata un'offerta discografica per finire prima gli studi universitari, si riunirono nel 1991, firmarono con la EMI e cambiarono nome in Radiohead, ispirato al brano \"Radio Head\" dei Talking Heads, dall'album \"True Stories\" (1986).",
     "album": [
       {
         "titolo": "Pablo Honey",
@@ -10525,7 +10677,20 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4F6B49"
+    "colore": "#4F6B49",
+    "fonti": [
+      {
+        "url": "https://americansongwriter.com/the-meaning-behind-radio-head-by-talking-heads-and-how-it-compelled-a-band-from-oxford-to-change-their-name/",
+        "nome": "American Songwriter — Thom Donovan",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/radiohead-581-1352523",
+        "nome": "NME",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "rage-against-the-machine",
