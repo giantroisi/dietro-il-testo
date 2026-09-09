@@ -4636,7 +4636,7 @@
   {
     "slug": "foo-fighters",
     "nome": "Foo Fighters",
-    "storia": "Nati a Seattle nel 1994 come progetto solista di Dave Grohl, batterista dei Nirvana, dopo lo scioglimento del gruppo seguito alla morte di Kurt Cobain; il nome deriva dai \"foo fighters\", i fenomeni aerei non identificati segnalati dai piloti alleati durante la Seconda guerra mondiale. Grohl scrisse, cantò e suonò da solo ogni strumento del primo album, pubblicato nel 1995, prima di reclutare una band vera e propria con il bassista Nate Mendel, il batterista William Goldsmith e il chitarrista Pat Smear.",
+    "storia": "Nati a Seattle nel 1994 come progetto solista di Dave Grohl, batterista dei Nirvana, dopo lo scioglimento del gruppo seguito alla morte di Kurt Cobain; il nome deriva dai \"foo fighters\", i fenomeni aerei non identificati segnalati dai piloti alleati durante la Seconda guerra mondiale. Grohl scrisse, cantò e suonò da solo quasi ogni strumento del primo album, pubblicato nel 1995, prima di reclutare una band vera e propria con il bassista Nate Mendel, il batterista William Goldsmith — che lascerà il gruppo nel 1997, sostituito da Taylor Hawkins — e il chitarrista Pat Smear.",
     "album": [
       {
         "titolo": "Foo Fighters",
@@ -4731,7 +4731,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#C23B1F"
+    "colore": "#C23B1F",
+    "fonti": [
+      {
+        "url": "https://nme.com/music-interviews/foo-fighters-debut-album-25th-anniversary-first-ever-nme-interview-2701070",
+        "nome": "NME — Keith Cameron",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/foo-fighters-self-titled-album-anniversary/",
+        "nome": "Loudwire — Chad Childers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/foo-fighters-say-they-made-a-decision-that-it-was-best-for-all-parties-ahead-of-josh-freese-sacking-and-discuss-william-goldsmiths-exit-3935763",
+        "nome": "NME — Liberty Dunworth",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "francesco-de-gregori",
@@ -4939,7 +4957,7 @@
   {
     "slug": "franco-battiato",
     "nome": "Franco Battiato",
-    "storia": "Nato in provincia di Catania nel 1945, si trasferì nel 1964 prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1971) e \"Pollution\" (1972). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop.",
+    "storia": "Nato in provincia di Catania nel 1945, si trasferì nel 1964 prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1972) e \"Pollution\" (1973). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop, anche grazie alla fondamentale collaborazione con il compositore e violinista Giusto Pio, co-autore delle musiche a partire da \"L'era del cinghiale bianco\" (1979).",
     "album": [
       {
         "titolo": "Fetus",
@@ -5181,7 +5199,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#7A4A6E"
+    "colore": "#7A4A6E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/franco-battiato/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/musica/classifiche-liste-musica/tutti-i-dischi-colti-e-sperimentali-di-battiato-dal-peggiore-al-migliore/606831/",
+        "nome": "Rolling Stone Italia — Fabio Zuffanti",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ilfattoquotidiano.it/2017/02/12/giusto-pio-morto-a-91-anni-il-violinista-di-battiato-da-lera-del-cinghiale-bianco-a-la-voce-del-padrone-i-grandi-successi/3387069/",
+        "nome": "Il Fatto Quotidiano — Fabrizio Basciano",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "fulminacci",
@@ -5226,12 +5262,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#8A2E1F"
+    "colore": "#8A2E1F",
+    "fonti": [
+      {
+        "url": "https://www.quotidiano.net/magazine/sanremo/chi-e-fulminacci-perche-si-chiama-cosi-x2abx4op",
+        "nome": "Quotidiano.net — Cristiana Mariani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.insidemusic.it/fulminacci-conquista-la-targa-tenco-2019-per-l-opera-prima-grazie-a-la-vita-veramente/",
+        "nome": "Inside Music",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "ghost",
     "nome": "Ghost",
-    "storia": "Formati a Linköping, in Svezia, nel 2006 dal musicista Tobias Forge, che ne è rimasto l'unico membro fisso, cantando dal vivo sotto l'identità mascherata di Papa Emeritus con abiti che richiamano le vesti papali, mentre gli altri musicisti si esibiscono con il volto coperto come \"Nameless Ghouls\". L'identità di Forge rimase segreta fino al 2017, quando emerse durante una causa legale intentata da ex membri della band per una disputa sui diritti. Dopo l'album di debutto \"Opus Eponymous\" (2010), il gruppo raggiunse il primo posto delle classifiche svedesi con \"Meliora\" (2015).",
+    "storia": "Formati a Linköping, in Svezia — nel 2006 secondo il racconto di Tobias Forge, sebbene quattro ex musicisti abbiano sostenuto in una causa legale del 2017 che il progetto nacque nel 2010 — Forge ne è l'unico membro mai reso pubblico, cantando dal vivo sotto l'identità mascherata di Papa Emeritus con abiti che richiamano le vesti papali, mentre gli altri musicisti si esibiscono con volto e corpo coperti come \"Nameless Ghouls\"; la composizione della formazione originaria non è mai stata resa pubblica. L'identità di Forge rimase segreta fino all'aprile 2017, quando emerse durante la causa legale intentata dai quattro ex Nameless Ghouls (Simon Söderberg, Mauro Rubino, Henrik Palm e Martin Hjertstedt), causa che Forge vinse nell'ottobre 2018. Dopo l'album di debutto \"Opus Eponymous\" (2010), il gruppo raggiunse per la prima volta il primo posto delle classifiche svedesi con \"Infestissumam\" (2013), bissato da \"Meliora\" (2015).",
     "album": [
       {
         "titolo": "Opus Eponymous",
@@ -5293,7 +5342,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1F1F2E"
+    "colore": "#1F1F2E",
+    "fonti": [
+      {
+        "url": "https://blabbermouth.net/news/former-ghost-members-shoot-down-tobias-forges-solo-project-claim",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/ghost-four-former-nameless-ghouls-reveal-identities-papa-emeritus-lawsuit/",
+        "nome": "Loudwire — Graham Hartmann",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/former-ghost-members-lose-lawsuit-against-tobias-forge/",
+        "nome": "Loudwire — Graham Hartmann",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "gianna-nannini",
@@ -5879,7 +5946,7 @@
   {
     "slug": "john-lennon",
     "nome": "John Lennon",
-    "storia": "Nato a Liverpool nel 1940, fu fondatore, co-voce solista e chitarrista ritmico dei Beatles, in una delle collaborazioni compositive (con Paul McCartney) più celebri della storia della musica. Dopo lo scioglimento del gruppo proseguì una carriera solista insieme alla moglie Yoko Ono, pubblicando tra gli altri gli album \"John Lennon/Plastic Ono Band\" e \"Imagine\" nei primi anni '70; dopo una pausa dalla scena musicale per dedicarsi alla famiglia, tornò nel 1980 con l'album \"Double Fantasy\". Fu ucciso a colpi d'arma da fuoco a New York l'8 dicembre 1980.",
+    "storia": "Nato a Liverpool nel 1940, fu fondatore, co-voce solista e chitarrista ritmico dei Beatles, in una delle collaborazioni compositive (con Paul McCartney) più celebri della storia della musica. Dopo lo scioglimento del gruppo intraprese una carriera solista, pubblicando tra gli altri gli album \"John Lennon/Plastic Ono Band\" e \"Imagine\" nei primi anni '70 — entrambi prodotti insieme alla moglie Yoko Ono ma accreditati a suo solo nome — e \"Double Fantasy\" (1980), questa volta accreditato congiuntamente a lui e a Yoko Ono, dopo una pausa dalla scena musicale fra il 1975 e il 1980 per dedicarsi alla famiglia. Fu ucciso a colpi d'arma da fuoco a New York l'8 dicembre 1980.",
     "album": [
       {
         "titolo": "John Lennon/Plastic Ono Band",
@@ -5954,7 +6021,25 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#2E6E9E"
+    "colore": "#2E6E9E",
+    "fonti": [
+      {
+        "url": "https://www.johnlennon.com/music/albums/john-lennon-plastic-ono-band/",
+        "nome": "John Lennon — sito ufficiale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/artists/john-lennon/3905/",
+        "nome": "GRAMMY.com",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/john-lennon-double-fantasy-songs/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "judas-priest",
@@ -6406,7 +6491,7 @@
   {
     "slug": "led-zeppelin",
     "nome": "Led Zeppelin",
-    "storia": "Formati a Londra nel 1968, nacquero quando il chitarrista Jimmy Page, reduce dagli Yardbirds e vincolato da alcuni obblighi di tour, mise insieme una nuova formazione con il cantante Robert Plant (proposto dal cantante Terry Reid, che aveva rifiutato il ruolo), il batterista John Bonham (amico d'infanzia di Plant) e il bassista John Paul Jones, debuttando come New Yardbirds prima di adottare il nuovo nome. Con un suono pesante e chitarristico che attinge a blues, psichedelia e folk, sono considerati tra i precursori dell'hard rock e dell'heavy metal.",
+    "storia": "Formati a Londra nel 1968, nacquero quando il chitarrista Jimmy Page, reduce dagli Yardbirds e vincolato da alcuni obblighi di tour, mise insieme una nuova formazione con il cantante Robert Plant (proposto dal cantante Terry Reid, che aveva rifiutato il ruolo), il batterista John Bonham (amico di gioventù di Plant, conosciuto da adolescente nella scena blues delle West Midlands) e il bassista John Paul Jones, debuttando come New Yardbirds prima di adottare il nuovo nome. Con un suono pesante e chitarristico che attinge a blues, psichedelia e folk, sono considerati tra i precursori dell'hard rock e dell'heavy metal. La formazione rimase invariata per tutta la vita della band: dopo la morte di John Bonham, il 25 settembre 1980, i tre membri superstiti decisero di non sostituirlo e annunciarono lo scioglimento il 4 dicembre 1980.",
     "album": [
       {
         "titolo": "Led Zeppelin",
@@ -6487,7 +6572,20 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4A6E3E"
+    "colore": "#4A6E3E",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/led-zeppelin-break-up/",
+        "nome": "Ultimate Classic Rock — Chad Childers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/led-zeppelin-early-days",
+        "nome": "Louder (Classic Rock) — Ian Fortnam",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "ligabue",
@@ -6665,7 +6763,7 @@
   {
     "slug": "limp-bizkit",
     "nome": "Limp Bizkit",
-    "storia": "Formati a Jacksonville, in Florida, nel 1994 dal cantante Fred Durst e dal bassista Sam Rivers, a cui si unirono presto il batterista John Otto e il chitarrista Wes Borland, nacquero dall'idea di Durst di unire rock e hip hop dopo anni di passione per punk, metal e hip hop. Il debutto \"Three Dollar Bill, Y'all\" (1997) li fece conoscere nella scena underground, ma il successo commerciale arrivò con \"Significant Other\" (1999) e \"Chocolate Starfish and the Hot Dog Flavored Water\" (2000).",
+    "storia": "Formati a Jacksonville, in Florida, nel 1994 dal cantante Fred Durst e dal bassista Sam Rivers, a cui si unì presto il batterista John Otto, nacquero dall'idea di Durst di unire rock e hip hop dopo anni di passione per punk, metal e hip hop. Il chitarrista Wes Borland entrò l'anno successivo, nel 1995, completando la formazione che nel 1996 si allargò al turntablist DJ Lethal, proveniente dagli House of Pain. Il debutto \"Three Dollar Bill, Y'all\" (1997) li fece conoscere nella scena underground, ma il successo commerciale arrivò con \"Significant Other\" (1999) e \"Chocolate Starfish and the Hot Dog Flavored Water\" (2000).",
     "album": [
       {
         "titolo": "Three Dollar Bill, Y'all",
@@ -6725,7 +6823,15 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1A1A1A"
+    "colore": "#1A1A1A",
+    "fonti": [
+      {
+        "url": "https://loudwire.com/why-wes-borland-left-limp-bizkit-twice/",
+        "nome": "Loudwire — Philip Trapp",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "linkin-park",
@@ -6830,7 +6936,7 @@
   {
     "slug": "lucio-battisti",
     "nome": "Lucio Battisti",
-    "storia": "Nato a Poggio Bustone, in provincia di Rieti, nel 1943, si trasferì a Roma da bambino e poi a Milano nel 1962, iniziando a suonare in piccoli gruppi locali da autodidatta. Nel 1965 fu presentato al paroliere Giulio Rapetti, in arte Mogol, dando inizio a un sodalizio tra i più importanti della musica leggera italiana; fu lo stesso Mogol, nel 1966, a convincere Battisti — scettico sulle proprie doti vocali — a interpretare di persona le proprie canzoni. In carriera incise 17 album in studio, vendendo circa 25 milioni di dischi.",
+    "storia": "Nato a Poggio Bustone, in provincia di Rieti, nel 1943, si trasferì a Roma da bambino, dove iniziò a suonare in piccoli gruppi locali da autodidatta, per poi stabilirsi a Milano nel 1965. Nello stesso anno fu presentato al paroliere Giulio Rapetti, in arte Mogol, dando inizio a un sodalizio tra i più importanti della musica leggera italiana; fu lo stesso Mogol, nel 1966, a convincere Battisti — scettico sulle proprie doti vocali — a interpretare di persona le proprie canzoni. In carriera incise numerosi album in studio, vendendo oltre 25 milioni di dischi.",
     "album": [
       {
         "titolo": "Lucio Battisti",
@@ -6988,7 +7094,20 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#A6691E"
+    "colore": "#A6691E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/lucio-battisti_(Dizionario-Biografico)/",
+        "nome": "Treccani — Dizionario Biografico degli Italiani, Alessandro Bratus",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.tag24.it/961573-quanti-dischi-ha-venduto-lucio-battisti-nella-sua-carriera",
+        "nome": "Tag24 — Francesca Mazzini",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "lucio-dalla",
@@ -7203,7 +7322,7 @@
   {
     "slug": "lynyrd-skynyrd",
     "nome": "Lynyrd Skynyrd",
-    "storia": "Nati a Jacksonville, in Florida, nei primi anni '60 come gruppo di amici adolescenti con il nome \"My Backyard\", presero il nome definitivo nel 1973 in omaggio, con tono canzonatorio, a un insegnante di ginnastica del liceo, Leonard Skinner. Il 20 ottobre 1977 un incidente aereo durante un volo di trasferimento tra concerti uccise il cantante e fondatore Ronnie Van Zant insieme ad altri membri della band; il gruppo si riunì nel 1987 con il fratello di Ronnie, Johnny Van Zant, alla voce.",
+    "storia": "Nati a Jacksonville, in Florida, a metà degli anni '60 come gruppo di amici adolescenti con il nome \"My Backyard\", presero il nome definitivo di Lynyrd Skynyrd entro la fine del decennio in omaggio, con tono canzonatorio, a un insegnante di ginnastica del liceo, Leonard Skinner. Il 20 ottobre 1977 un incidente aereo durante un volo di trasferimento tra concerti uccise il cantante e fondatore Ronnie Van Zant, il chitarrista Steve Gaines e la corista Cassie Gaines, oltre al road manager Dean Kilpatrick e ai due piloti; dopo alcuni progetti paralleli dei membri superstiti, il gruppo si riunì ufficialmente nel 1987 con il fratello di Ronnie, Johnny Van Zant, alla voce.",
     "album": [
       {
         "titolo": "(Pronounced 'Lĕh-'nérd 'Skin-'nérd)",
@@ -7319,12 +7438,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#A64A2E"
+    "colore": "#A64A2E",
+    "fonti": [
+      {
+        "url": "https://lynyrdskynyrd.com/history",
+        "nome": "LynyrdSkynyrd.com (sito ufficiale)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/lynyrd-skynyrd-plane-crashes/",
+        "nome": "Ultimate Classic Rock — Sterling Whitaker",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/lynyrd-skynyrd-reunion-tour/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "machine-gun-kelly",
     "nome": "Machine Gun Kelly",
-    "storia": "Colson Baker, in arte Machine Gun Kelly, nasce nel 1990 a Houston, in Texas, da genitori missionari, vivendo l'infanzia tra Egitto, Germania e diverse città statunitensi prima di stabilirsi a Cleveland a 14 anni; il soprannome nasce dal suo modo di rappare a raffica. Esordì come rapper con l'album \"Lace Up\" (2012), per poi virare quasi interamente verso il pop punk e il rock a partire dalla fine degli anni 2010, ottenendo in quel genere il maggiore successo commerciale.",
+    "storia": "Colson Baker, in arte Machine Gun Kelly, nasce nel 1990 a Houston, in Texas, da genitori missionari, vivendo l'infanzia tra Egitto, Germania e diverse città statunitensi prima di stabilirsi a Cleveland a 14 anni; il soprannome nasce dal suo modo di rappare a raffica. Dopo aver mosso i primi passi come rapper a metà degli anni 2000 con mixtape autoprodotti, pubblicò il suo album di debutto in studio, \"Lace Up\" (2012), per poi virare quasi interamente verso il pop punk e il rock a partire dalla fine degli anni 2010, ottenendo in quel genere il maggiore successo commerciale.",
     "album": [
       {
         "titolo": "Lace Up",
@@ -7379,7 +7516,25 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#3E1F5C"
+    "colore": "#3E1F5C",
+    "fonti": [
+      {
+        "url": "https://www.clevescene.com/news/the-fall-and-rise-of-machine-gun-kelly-2748504/",
+        "nome": "Cleveland Scene — Jordan Zirm",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://americansongwriter.com/how-machine-gun-kelly-got-his-name/",
+        "nome": "American Songwriter — Alex Hopper",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/machine-gun-kelly-scores-first-billboard-number-one-album-with-tickets-to-my-downfall-2772001",
+        "nome": "NME — Will Lavin",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "megadeth",
