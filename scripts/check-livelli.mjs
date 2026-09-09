@@ -86,6 +86,10 @@ const A = new Set([
   // la sezione 5 li nomina per nome (RIAA, Grammy), sono la fonte primaria del
   // fatto che certificano.
   'riaa.com', 'grammy.com',
+  // 9 settembre 2026: sito ufficiale dell'artista, accanto a zucchero.it e
+  // whitneyhouston.com gia' in lista. Citato per i crediti di un suo disco:
+  // e' la fonte primaria di quel fatto.
+  'johnlennon.com',
   // Opere di riferimento con direzione editoriale, accanto a Treccani e
   // Britannica gia' in lista: l'enciclopedia nazionale canadese, l'Handbook of
   // Texas della Texas State Historical Association e l'Encyclopedia of Arkansas
@@ -186,6 +190,12 @@ const C = new Set([
   // «segnala un errore» — cioe' correzione collettiva. E' un database
   // collaborativo, che la sezione 5 mette al livello C.
   'eurovisionworld.com',
+  // 9 settembre 2026, aperta e guardata: webzine indipendente nata nel 2017,
+  // firma collettiva («InsideMusic») e data, ma nessun direttore ne' redazione
+  // dichiarati, e la pagina citata e' un comunicato stampa riproposto. Ha data
+  // e una firma, quindi non e' da buttare; non produce informazione propria,
+  // quindi non e' B.
+  'insidemusic.it',
   // 8 settembre 2026, sera. Entrata con le biografie degli artisti. AllMusic non
   // e' un database collaborativo — ha una redazione — ma le sue schede non
   // citano nulla: aperta quella dei Muse, nessuna firma, nessuna data, nessuna
