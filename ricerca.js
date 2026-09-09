@@ -353,15 +353,41 @@
        e' quella colonna, non presente nella storia, il motivo per cui il
        reel ha bisogno di una fascia propria, "destra". */
     var FORMATI = {
-      storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
+      // 9 settembre 2026 — misure rifatte con l'autore guardando le immagini.
+      // Il titolo passa da 96 a 190 px massimi: su Instagram la cartolina si
+      // vede in un elenco a un terzo di schermo, e a 96 px il titolo non era
+      // ne' un'immagine ne' un testo leggibile. La frase sale da 40 a 50 e si
+      // accorcia di conseguenza (le righe che entrano le calcola disegna()).
+      storia: { w: 1080, h: 1920, alto: 330, basso: 330, righeTitolo: 3, righeFrase: 8, dimMax: 190, dimMin: 64, logo: 560, dimFrase: 50 },
       // righeFrase 11 e non 8 come la storia: il reel ha 200 px di altezza utile
       // in piu' (fascia alta 120 invece di 330) ma righe piu' corte di 230 px,
       // quindi con lo stesso numero di righe mostrava MENO testo della storia
       // lasciando 288 px vuoti in fondo - misurati sull'immagine prodotta, non
       // stimati. Il taglio cadeva a meta' frase mentre lo spazio c'era.
-      reel: { w: 1080, h: 1920, alto: 120, basso: 340, destra: 230, righeTitolo: 3, righeFrase: 11, dimMax: 96, dimMin: 54, logo: 520, dimFrase: 40 },
-      post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 88, dimMin: 50, logo: 470, dimFrase: 38 }
+      reel: { w: 1080, h: 1920, alto: 120, basso: 340, destra: 230, righeTitolo: 3, righeFrase: 11, dimMax: 170, dimMin: 60, logo: 520, dimFrase: 48 },
+      post: { w: 1080, h: 1350, alto: 110, basso: 110, righeTitolo: 3, righeFrase: 7, dimMax: 170, dimMin: 58, logo: 500, dimFrase: 48 }
     };
+    /* L'accento e' fisso e non e' il colore dell'artista: e' il viola del sito
+       (--sistema). Il colore dell'artista governa lo sfondo e distingue una
+       cartolina dall'altra; questo filetto invece si ripete uguale su tutte, ed
+       e' la firma che si riconosce in un profilo prima ancora di leggere. */
+    var ACCENTO = '#A794F5';
+
+    /* Scurisce un colore esadecimale. Serve perche' i colori identitari delle
+       schede sono gia' scuri (luminanza massima misurata: 0.37) ma non
+       abbastanza: sul fondo pieno il marchio bianco sottile — quello scelto
+       dall'autore, senza ispessimento — scendeva a un contrasto di 3.9, sotto
+       la soglia di leggibilita'. Scurendo il colore al 62% il contrasto sale a
+       5.1-5.8 e il logo regge senza doverlo ingrassare. */
+    function scurisci(hex, f) {
+      var h = String(hex || '#333333').replace('#', '');
+      if (h.length !== 6) return '#141119';
+      var r = Math.round(parseInt(h.slice(0, 2), 16) * f);
+      var g = Math.round(parseInt(h.slice(2, 4), 16) * f);
+      var b = Math.round(parseInt(h.slice(4, 6), 16) * f);
+      return 'rgb(' + r + ',' + g + ',' + b + ')';
+    }
+
     var SERIF = '"Iowan Old Style", Georgia, "Times New Roman", serif';
     var MONO = 'ui-monospace, "SF Mono", Menlo, monospace';
 
@@ -431,10 +457,22 @@
       return righe;
     }
 
-    function tronca(righe, max) {
+    /* 9 settembre 2026: ora sa anche misurare. Prima appendeva i puntini
+       all'ultima riga DOPO che la riga era stata calcolata per stare nella
+       colonna: la riga con i puntini era quindi piu' larga del previsto e
+       sull'immagine grande arrivava fino a 40 px oltre il margine, quasi al
+       bordo. Se riceve il contesto e la larghezza, adesso toglie parole finche'
+       la riga con i puntini ci sta davvero. */
+    function tronca(righe, max, x, largh) {
       if (righe.length <= max) return righe;
       var t = righe.slice(0, max);
-      t[max - 1] = t[max - 1].replace(/[ .,;:]+$/, '') + '…';
+      var ultima = t[max - 1].replace(/[ .,;:—–-]+$/, '');
+      if (x && largh) {
+        while (ultima.indexOf(' ') > 0 && x.measureText(ultima + '…').width > largh) {
+          ultima = ultima.slice(0, ultima.lastIndexOf(' ')).replace(/[ .,;:—–-]+$/, '');
+        }
+      }
+      t[max - 1] = ultima + '…';
       return t;
     }
 
@@ -474,15 +512,15 @@
       s.fillStyle = '#FFFFFF';
       s.fillRect(0, 0, largh, h);
 
-      var d = Math.max(1, Math.round(largh / 240)); // ispessimento, in pixel
-      var c = document.createElement('canvas');
-      c.width = largh + d * 2; c.height = h + d * 2;
-      var x = c.getContext('2d');
-      var versi = [[0, 0], [d, 0], [-d, 0], [0, d], [0, -d], [d, d], [-d, -d], [d, -d], [-d, d]];
-      for (var i = 0; i < versi.length; i++) {
-        x.drawImage(sagoma, d + versi[i][0], d + versi[i][1]);
-      }
-      return c;
+      /* 9 settembre 2026 — l'ispessimento e' stato tolto, dopo averlo guardato
+         accanto al file originale. Il marchio e' disegnato con una texture a
+         puntini, pensata nera su chiaro: dilatandola i vuoti si riempivano e le
+         lettere diventavano gonfie: il logo non era pallido, era **impastato**.
+         Senza dilatazione torna la forma vera; a reggerlo non e' piu' lo
+         spessore ma il fondo, che ora e' piu' scuro (vedi scurisci) e l'ombra
+         qui sotto. Le due decisioni stanno insieme: rimettere il fondo chiaro
+         senza rimettere l'ispessimento farebbe sparire il marchio. */
+      return sagoma;
     }
 
     function disegna(chiave) {
@@ -491,18 +529,17 @@
       cv.width = f.w; cv.height = f.h;
       var x = cv.getContext('2d');
 
-      var g = x.createLinearGradient(0, 0, f.w, f.h);
-      g.addColorStop(0, cartolina.getAttribute('data-colore') || '#333333');
-      g.addColorStop(1, cartolina.getAttribute('data-colore2') || '#333333');
+      /* Sfondo: il colore identitario della scheda, scurito, che sfuma nel nero.
+         Prima era il colore pieno che sfumava nel secondo colore, con una
+         velatura sopra. Cambiato per due ragioni misurate: il marchio sottile
+         aveva contrasto 3.9 sul colore pieno e 5.1-5.8 su questo; e con 195
+         colori diversi in catalogo le cartoline non si somigliavano fra loro,
+         mentre cosi' restano riconoscibili una per una (il colore si vede) ma
+         fanno famiglia in un profilo. */
+      var g = x.createLinearGradient(0, 0, 0, f.h);
+      g.addColorStop(0, scurisci(cartolina.getAttribute('data-colore'), 0.62));
+      g.addColorStop(1, '#0E0C13');
       x.fillStyle = g;
-      x.fillRect(0, 0, f.w, f.h);
-
-      /* velatura scura crescente: il testo resta leggibile qualunque sia il
-         colore dell'artista, compresi i gialli e i bianchi */
-      var v = x.createLinearGradient(0, f.h * 0.28, 0, f.h);
-      v.addColorStop(0, 'rgba(0,0,0,0)');
-      v.addColorStop(1, 'rgba(0,0,0,0.68)');
-      x.fillStyle = v;
       x.fillRect(0, 0, f.w, f.h);
 
       var marg = 84;
@@ -552,23 +589,29 @@
          niente) e la promessa sul testo parafrasato. Due righe ancorate al
          margine inferiore: chiudono la composizione e riempiono il vuoto con
          qualcosa che ha una funzione. */
-      var yPiede = f.h - f.basso - 22;
+      var yPiede = f.h - f.basso - 24;
       x.font = '22px ' + MONO;
-      x.fillStyle = 'rgba(255,255,255,0.58)';
-      x.fillText('Momento iconico descritto con parole nostre', marg, yPiede);
-      x.font = '27px ' + MONO;
-      x.fillStyle = 'rgba(255,255,255,0.9)';
-      x.fillText(cartolina.getAttribute('data-sito') || 'dietroiltesto.it', marg, yPiede - 44);
-      var altPiede = 92;
+      x.fillStyle = 'rgba(255,255,255,0.62)';
+      x.fillText((cartolina.getAttribute('data-sito') || 'dietroiltesto.it') + '   ·   Momento iconico descritto con parole nostre', marg, yPiede);
+      var altPiede = 64;
 
       /* ZONA CENTRALE — misurata prima e disegnata dopo, centrata nello spazio
          che resta fra marchio e piede. */
-      var zonaSup = yLogo + altLogo + (altLogo ? 64 : 0);
+      var zonaSup = yLogo + altLogo + (altLogo ? 96 : 0);
       var zonaInf = f.h - f.basso - altPiede;
       var utile = zonaInf - zonaSup;
-      var fissa = (sopra.length ? 54 : 0) + t.righe.length * passoTitolo + 66;
+      var fissa = (sopra.length ? 70 : 0) + t.righe.length * passoTitolo + 78;
       var possibili = Math.max(2, Math.min(f.righeFrase, Math.floor((utile - fissa) / interlinea)));
-      var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili);
+      /* 9 settembre 2026 — questa riga e' obbligatoria e mancava.
+         La funzione avvolgi misura le parole con il font ATTIVO sul contesto: qui sopra il
+         font e' rimasto quello del piede (mono 22px), quindi le righe venivano
+         calcolate su un testo tre volte piu' piccolo di quello disegnato e
+         **uscivano dal margine destro fino al bordo dell'immagine** — sul reel
+         finivano sotto la colonna delle icone di Instagram. Il codice non
+         sbagliava a disegnare: sbagliava a misurare, con lo strumento di un
+         altro pezzo di pagina. Trovato guardando i pixel, non rileggendo. */
+      x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
+      var righeFrase = tronca(avvolgi(x, cartolina.getAttribute('data-frase') || '', largh), possibili, x, largh);
       var totale = fissa + righeFrase.length * interlinea;
       var y = zonaSup + Math.max(0, Math.round((utile - totale) / 2));
 
@@ -589,10 +632,10 @@
       /* Al posto della notina musicale, che era un carattere solitario in mezzo
          a due blocchi di testo: un filetto. Separa il titolo dalla frase e da'
          alla colonna un appoggio orizzontale, che e' quello che mancava. */
-      y += 40;
-      x.fillStyle = 'rgba(255,255,255,0.55)';
-      x.fillRect(marg, y, 132, 4);
-      y += 26;
+      y += 44;
+      x.fillStyle = ACCENTO;
+      x.fillRect(marg, y, 200, 10);
+      y += 34;
 
       x.font = 'italic ' + f.dimFrase + 'px ' + SERIF;
       x.fillStyle = 'rgba(255,255,255,0.94)';
