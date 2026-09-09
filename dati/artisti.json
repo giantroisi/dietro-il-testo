@@ -1006,9 +1006,14 @@
         "url": "https://www.ansa.it/sanremo_2018/multimedia/vincitori/2018/01/26/1984-al-bano-e-romina-power-ci-sara_81317a5b-57b8-48ae-8f4e-1b2a0220526f.html",
         "nome": "ANSA — I vincitori di Sanremo 1984",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.treccani.it/enciclopedia/albano-carrisi/",
+        "nome": "Treccani",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "alice-in-chains",
@@ -1073,12 +1078,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#2E2E2E"
+    "colore": "#2E2E2E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/alice-in-chains/",
+        "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/layne-staley-alice-in-chains-dies/",
+        "nome": "Ultimate Classic Rock — Dave Lifton",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/mike-inez-ozzy-osbourne-threatening-shove-foot-up-ass-didnt-join-alice-in-chains/",
+        "nome": "Loudwire — John Hill",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "andrea-bocelli-e-giorgia",
     "nome": "Andrea Bocelli e Giorgia",
-    "storia": "\"Vivo per lei\" nacque nel 1995 come brano del gruppo O.R.O. (Onde Radio Ovest), presentato al concorso \"Un disco per l'estate\" senza ottenere un grande riscontro; il testo fu poi riscritto da Gatto Panceri per la versione duetto di Andrea Bocelli e Giorgia, pubblicata lo stesso anno e inclusa in un album di Bocelli, con la dedica alla musica al posto di quella a una donna del testo originale. Il duetto tra il tenore toscano e la cantautrice romana ne ha fatto uno dei brani più conosciuti della musica leggera italiana, ripreso negli anni in numerose altre versioni e lingue.",
+    "storia": "\"Vivo per lei\" nacque nel 1995 come brano del gruppo O.R.O. (Onde Radio Ovest), che lo presentò al concorso \"Un disco per l'estate\" senza ottenere un grande riscontro; lo stesso anno, con il medesimo brano (allora intitolato \"Vivo per...\"), il gruppo vinse Sanremo Giovani, ottenendo l'accesso al Festival di Sanremo dell'anno seguente. Il testo fu poi riscritto da Gatto Panceri per la versione duetto di Andrea Bocelli e Giorgia, inclusa nell'album di Bocelli pubblicato lo stesso anno, con la dedica alla musica al posto di quella a una donna del testo originale. Il duetto tra il tenore toscano e la cantautrice romana ne ha fatto uno dei brani più conosciuti della musica leggera italiana, ripreso negli anni in numerose altre versioni e lingue.",
     "album": [],
     "canzoni": [
       "vivo-per-lei"
@@ -1089,7 +1112,15 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#8A6B2E"
+    "colore": "#8A6B2E",
+    "fonti": [
+      {
+        "url": "https://www.musicologica.it/vivo-per-lei-da-sanremo-con-gli-o-r-o-al-successo-internazionale-di-bocelli-e-giorgia/",
+        "nome": "Musicologica",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "avicii",
@@ -1568,7 +1599,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4A5E8A"
+    "colore": "#4A5E8A",
+    "fonti": [
+      {
+        "url": "https://www.riaa.com/gold-platinum/?tab_active=default-award&se=bon+jovi",
+        "nome": "RIAA — Gold & Platinum Database",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/bon-jovi-secret-weapon/",
+        "nome": "Ultimate Classic Rock — Martin Kielty",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/alec-john-such-dead/",
+        "nome": "Ultimate Classic Rock — Matthew Wilkening",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "bring-me-the-horizon",
@@ -2092,7 +2141,7 @@
   {
     "slug": "coldplay",
     "nome": "Coldplay",
-    "storia": "Formati a Londra nel 1996 da Chris Martin e Jonny Buckland, conosciutisi durante le matricole alla University College London, si completarono con il bassista Guy Berryman e il polistrumentista Will Champion, adottando il nome Coldplay dopo aver suonato inizialmente come Pectoralz e poi Starfish. Il successo internazionale arrivò nel 2000 con il singolo \"Yellow\" e l'album di debutto \"Parachutes\".",
+    "storia": "Chris Martin e Jonny Buckland si conobbero a Londra nel 1996 durante le matricole alla University College London, iniziando a comporre insieme come duo. Il bassista Guy Berryman si unì al gruppo nel 1997, mentre il polistrumentista Will Champion completò la formazione solo nel gennaio 1998, poco prima del primo concerto ufficiale del quartetto. Il gruppo, che nel frattempo si era esibito come Starfish, adottò il nome Coldplay nel 1998, preso in prestito da un compagno di studi della UCL, Tim Crompton, che lo aveva scartato per la propria band. Il successo internazionale arrivò nel 2000 con il singolo \"Yellow\" e l'album di debutto \"Parachutes\".",
     "album": [
       {
         "titolo": "Parachutes",
@@ -2181,7 +2230,25 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#A68A1F"
+    "colore": "#A68A1F",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/bands-artists/the-story-of-coldplays-debut-album-parachutes",
+        "nome": "Louder — Niall Doherty",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/photos/revealed-what-bands-were-called-before-they-made-it-big-1415170",
+        "nome": "NME — Sarah Anderson",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.officialcharts.com/chart-news/coldplays-parachutes-20-incredible-chart-facts-on-the-albums-20th-anniversary__30198/",
+        "nome": "Official Charts — Rob Copsey",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "daft-punk",
@@ -5645,9 +5712,14 @@
         "url": "https://www.allmusic.com/artist/iron-maiden-mn0000098465",
         "nome": "AllMusic — Barry Weber",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/bands-artists/steve-harris-interview-iron-maiden-early-years",
+        "nome": "Louder — Paul Elliott",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "john-lennon",
@@ -8743,7 +8815,7 @@
   {
     "slug": "ozzy-osbourne",
     "nome": "Ozzy Osbourne",
-    "storia": "Allontanato dai Black Sabbath all'inizio del 1979, formò la propria band solista nel novembre dello stesso anno con il chitarrista Randy Rhoads, rilanciando la carriera con \"Blizzard of Ozz\" (1980). Rhoads morì in un incidente aereo nel marzo 1982, pochi mesi dopo l'uscita del secondo album — un evento che segnò profondamente la sua carriera successiva. Soprannominato il \"Prince of Darkness\" dell'heavy metal, ottenne fama anche mainstream con il reality show \"The Osbournes\" (2002-2005). È morto il 22 luglio 2025, a 76 anni, appena 17 giorni dopo l'ultima esibizione con la formazione originale dei Black Sabbath.",
+    "storia": "Allontanato dai Black Sabbath il 27 aprile 1979, formò la propria band solista nel novembre dello stesso anno con il chitarrista Randy Rhoads, rilanciando la carriera con \"Blizzard of Ozz\" (1980). Rhoads morì in un incidente aereo nel marzo 1982, pochi mesi dopo l'uscita del secondo album — un evento che segnò profondamente la sua carriera successiva. Soprannominato il \"Prince of Darkness\" dell'heavy metal, ottenne fama anche mainstream con il reality show \"The Osbournes\" (2002-2005). È morto il 22 luglio 2025, a 76 anni, appena 17 giorni dopo l'ultima esibizione con la formazione originale dei Black Sabbath.",
     "album": [
       {
         "titolo": "Blizzard of Ozz",
@@ -8859,12 +8931,30 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#2E5A8A"
+    "colore": "#2E5A8A",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/ozzy-osbourne-fired-from-black-sabbath/",
+        "nome": "Ultimate Classic Rock — Corbin Reiff",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/randy-rhoads-plane-crash/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/ozzy-osbourne-dies-age-76-rocker/",
+        "nome": "CBS News — CBS/AP",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "pantera",
     "nome": "Pantera",
-    "storia": "Formati ad Arlington, in Texas, nel 1981 dai fratelli Abbott — il chitarrista \"Diamond\" Darrell (poi Dimebag Darrell) e il batterista Vinnie Paul — insieme al bassista Rex Brown. Dopo quattro album indipendenti in stile glam metal poi rinnegati dalla band, l'arrivo di Phil Anselmo alla voce nel 1987 e l'uscita di \"Cowboys from Hell\" (1990) segnarono la nascita del groove metal. Dimebag Darrell fu ucciso sul palco nel 2004, dopo lo scioglimento della band.",
+    "storia": "Formati ad Arlington, in Texas, nel 1981 dai fratelli Abbott — il chitarrista \"Diamond\" Darrell (poi Dimebag Darrell) e il batterista Vinnie Paul — insieme al cantante Terry Glaze e al bassista Tommy D. Bradford, sostituito nel 1982 da Rex Brown. Dopo quattro album indipendenti in stile glam metal poi rinnegati dalla band — l'ultimo dei quali, \"Power Metal\" (1988), già con Phil Anselmo alla voce dal 1987 al posto di Glaze — l'uscita di \"Cowboys from Hell\" (1990) segnò la nascita del groove metal. Dimebag Darrell fu ucciso sul palco l'8 dicembre 2004, colpito da un fan armato durante un concerto dei Damageplan, dopo lo scioglimento dei Pantera nel 2003.",
     "album": [
       {
         "titolo": "Metal Magic",
@@ -8952,7 +9042,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#8F1616"
+    "colore": "#8F1616",
+    "fonti": [
+      {
+        "url": "https://www.tshaonline.org/handbook/entries/pantera",
+        "nome": "Texas State Historical Association Handbook of Texas — Chris Lehman",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://blabbermouth.net/news/rex-brown-reflects-on-panteras-early-years-the-abbott-brothers-were-playing-more-loverboy-kind-of-stuff",
+        "nome": "Blabbermouth.net",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/dimebag-darrell-slain-onstage-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "pearl-jam",
@@ -10112,7 +10220,7 @@
   {
     "slug": "rage-against-the-machine",
     "nome": "Rage Against the Machine",
-    "storia": "Formati a Los Angeles nel 1991 da Zack de la Rocha (voce), Tom Morello (chitarra), Tim Commerford (basso) e Brad Wilk (batteria), senza mai un cambio di formazione in tutta la loro storia. Noti per testi apertamente politici e attivisti che fondono rap, metal e funk, andarono in pausa nel 2000 dopo l'addio di de la Rocha, per poi riunirsi 2007-2011 e ancora in tour dal 2019 al 2023, senza pubblicare nuovo materiale in studio.",
+    "storia": "Formati a Los Angeles nel 1991 da Zack de la Rocha (voce), Tom Morello (chitarra), Tim Commerford (basso) e Brad Wilk (batteria), senza mai un cambio di formazione in tutta la loro storia. Noti per testi apertamente politici e attivisti che fondono rap, metal e funk, andarono in pausa nel 2000 dopo l'addio di de la Rocha, per poi riunirsi dal 2007 al 2011 e tornare in tour nel 2022 — dopo un annuncio del 2019 rinviato più volte per la pandemia — interrompendo però definitivamente l'attività dal vivo nel 2022-2023 in seguito a un grave infortunio di de la Rocha, senza mai pubblicare nuovo materiale in studio.",
     "album": [
       {
         "titolo": "Rage Against the Machine",
@@ -10166,12 +10274,25 @@
       "rap"
     ],
     "paese": null,
-    "colore": "#8A1A1A"
+    "colore": "#8A1A1A",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/news/rage-against-the-machine-cancel-2023-north-american-tour-due-to-zack-de-la-rochas-leg-injury",
+        "nome": "Metal Hammer / Louder — Liz Scarlett",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/bands-artists/interviews/rage-against-the-machine-zack-de-la-rocha-quits-band",
+        "nome": "Louder — Simon Young",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "rammstein",
     "nome": "Rammstein",
-    "storia": "Formati a Berlino nel 1994, con una formazione rimasta invariata da allora: Till Lindemann (voce), Richard Kruspe e Paul Landers (chitarre), Oliver Riedel (basso), Christoph Schneider (batteria) e Christian \"Flake\" Lorenz (tastiere). Pionieri della Neue Deutsche Härte — un industrial metal cantato in tedesco — sono tra i pochissimi gruppi non anglofoni ad aver raggiunto un grande successo internazionale, noti per gli spettacoli dal vivo spettacolari e ricchi di pirotecnica.",
+    "storia": "Formati a Berlino nel 1994, con una formazione rimasta invariata da allora: Till Lindemann (voce), Richard Kruspe e Paul Landers (chitarre), Oliver Riedel (basso), Christoph Schneider (batteria) e Christian \"Flake\" Lorenz (tastiere). Tra i massimi esponenti della Neue Deutsche Härte — un industrial metal cantato in tedesco — sono tra i pochissimi gruppi non anglofoni ad aver raggiunto un grande successo internazionale, noti per gli spettacoli dal vivo spettacolari e ricchi di pirotecnica.",
     "album": [
       {
         "titolo": "Herzeleid",
@@ -10252,7 +10373,20 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#8A1418"
+    "colore": "#8A1418",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/features/fireworks-flames-and-giant-uteruses-behind-the-scenes-of-rammsteins-epic-live-shows",
+        "nome": "Metal Hammer / Louder — Eleanor Goodman",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/rammstein-neue-deutsche-harte-till-lindemann-flake-lorenz-richard-kruspe-paul-landers-ollie-riedel-christoph-doom-schneider",
+        "nome": "Louder — Alec Chillingworth",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "red-hot-chili-peppers",
@@ -10875,7 +11009,7 @@
   {
     "slug": "slipknot",
     "nome": "Slipknot",
-    "storia": "Formati a Des Moines, in Iowa, nel settembre 1995 dal percussionista Shawn Crahan e dal bassista Paul Gray. La band si assestò sulla celebre formazione a nove membri con Corey Taylor alla voce, nota per le tute numerate e le maschere che nascondono l'identità di ogni componente. Paul Gray è morto nel 2010, Joey Jordison ha lasciato la band nel 2013 (morto nel 2021) e Chris Fehn nel 2019.",
+    "storia": "Formati a Des Moines, in Iowa, nel 1995 dal percussionista Shawn Crahan, dal bassista Paul Gray e dal cantante Anders Colsefni. Nel 1997 Colsefni fu sostituito alla voce da Corey Taylor, e la band si assestò infine, nel 1999, sulla celebre formazione a nove membri, nota per le tute numerate e le maschere che nascondono l'identità di ogni componente. Paul Gray è morto nel 2010, Joey Jordison ha lasciato la band nel 2013 (morto nel 2021) e Chris Fehn nel 2019, in seguito a una disputa legale sui compensi.",
     "album": [
       {
         "titolo": "Slipknot",
@@ -10943,7 +11077,25 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#3E3E3E"
+    "colore": "#3E3E3E",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/bands-artists/i-dont-have-any-regrets-original-slipknot-singer-is-fine-not-to-be-the-voice-that-made-the-band-huge",
+        "nome": "Metal Hammer / Louder — Stef Lach",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/slipknot-bassist-paul-gray-dies-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/slipknot-82-1238792",
+        "nome": "NME — Dan Stubbs",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "soundgarden",
@@ -11125,9 +11277,14 @@
         "url": "https://www.thecanadianencyclopedia.ca/en/article/sum-41",
         "nome": "The Canadian Encyclopedia — Steve McLean, 14 novembre 2011",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/sum-41-disbanding-concert-tour-deryck-whibley/",
+        "nome": "CBS News — Christopher Brito",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "system-of-a-down",
@@ -12321,7 +12478,7 @@
   {
     "slug": "vasco-rossi",
     "nome": "Vasco Rossi",
-    "storia": "Nato a Zocca, in provincia di Modena, nel 1952, muove i primi passi nella musica giovanissimo e nel 1977 pubblica il primo singolo. La svolta arriva nel 1983, quando \"Vita spericolata\" lo consacra a Sanremo come icona generazionale.",
+    "storia": "Nato a Zocca, in provincia di Modena, il 7 febbraio 1952, dopo l'esperienza come disc jockey nelle radio libere degli anni Settanta debutta come cantante nel 1977. Nel 1983 porta \"Vita spericolata\" al Festival di Sanremo, dove il brano si classifica solo al venticinquesimo posto su ventisei in gara; nonostante il modesto risultato in gara — sesto posto invece nelle classifiche di vendita dei singoli — la canzone diventa uno dei suoi maggiori successi e lo consacra, negli anni successivi, come icona generazionale del rock italiano.",
     "album": [
       {
         "titolo": "...Ma cosa vuoi che sia una canzone...",
@@ -12475,7 +12632,20 @@
     "colore": "#A6272A",
     "riconoscimenti": [
       "Artista italiano con più album certificati FIMI: 2 dischi di diamante, 63 di platino, 36 d'oro; record mondiale di pubblico pagante per un concerto solista (Modena Park, 2017, 225 mila spettatori)"
-    ]
+    ],
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/vasco-rossi_(Enciclopedia-Italiana)/",
+        "nome": "Treccani — Stefano Oliva",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/news-652413/3-febbraio-1983-vita-spericolata-vasco-rossi-festival-di-sanremo",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "whitney-houston",
