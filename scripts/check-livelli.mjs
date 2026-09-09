@@ -82,6 +82,17 @@ const A = new Set([
   // editoriale e voci firmate. Wembley Stadium e' il sito ufficiale della
   // sede, citato per una data di concerto: e' la fonte primaria di quel fatto.
   'britannica.com', 'wembleystadium.com',
+  // 9 settembre 2026, entrati con le biografie. Enti di certificazione e premi:
+  // la sezione 5 li nomina per nome (RIAA, Grammy), sono la fonte primaria del
+  // fatto che certificano.
+  'riaa.com', 'grammy.com',
+  // Opere di riferimento con direzione editoriale, accanto a Treccani e
+  // Britannica gia' in lista: l'enciclopedia nazionale canadese, l'Handbook of
+  // Texas della Texas State Historical Association e l'Encyclopedia of Arkansas
+  // della biblioteca pubblica dell'Arkansas. **Classificate per la natura
+  // dell'istituzione, non aprendo le singole pagine**: e' un'eccezione al
+  // metodo, e la scrivo invece di lasciarla intendere.
+  'thecanadianencyclopedia.ca', 'tshaonline.org', 'encyclopediaofarkansas.net',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -119,6 +130,11 @@ const B = new Set([
   // al **dominio**, cioe' a ogni pagina futura di un blog piccolo, sulla forza
   // di una pagina sola. B: vale la pagina, non l'istituzione che non c'e'.
   'exitwell.com',
+  // 9 settembre 2026, entrati con le biografie.
+  'ansa.it',           // agenzia di stampa nazionale, come agi.it gia' in lista
+  'ilgiornale.it',     // quotidiano nazionale
+  'quotidiano.net',    // testata del gruppo QN, come ilrestodelcarlino.it gia' in lista
+  'laragione.eu',      // aperta: testata registrata, direttore responsabile, pezzo firmato e datato
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -165,6 +181,11 @@ const C = new Set([
   // Due emittenti radio, aperte l'8 settembre invece che dedotte dal nome:
   'smoothradio.com',      // data ma nessuna firma sulla pagina, classifica redazionale senza fonti
   'radiocremebrulee.com', // web radio americana, recensione a firma collettiva, nessuna fonte
+  // 9 settembre 2026, aperta e guardata: scheda di database dei risultati
+  // Eurovision, senza firma ne' data, gestita da appassionati con un pulsante
+  // «segnala un errore» — cioe' correzione collettiva. E' un database
+  // collaborativo, che la sezione 5 mette al livello C.
+  'eurovisionworld.com',
   // 8 settembre 2026, sera. Entrata con le biografie degli artisti. AllMusic non
   // e' un database collaborativo — ha una redazione — ma le sue schede non
   // citano nulla: aperta quella dei Muse, nessuna firma, nessuna data, nessuna
@@ -203,6 +224,10 @@ const VIETATI = new Map([
 //
 // `lbbonline.com`, `vistanet.it` (403), `lopinionista.it` (connessione
 // rifiutata) — non raggiunti da nessuno strumento provato l'8 settembre.
+// `musicologica.it` e `screenrant.com` — stessa sorte il 9 settembre: il
+// crawler non riesce a leggere il loro robots.txt. Restano fuori: la prima
+// tiene `andrea-bocelli-e-giorgia` fra le biografie senza fonte A/B accertata,
+// ed e' giusto cosi' finche' nessuno ha guardato quella pagina.
 // Non classificati: «non l'ho visto» non e' un livello, e indovinare dal nome
 // e' esattamente l'errore evitato a suo tempo con songmeaningsandfacts.com.
 
