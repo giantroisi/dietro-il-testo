@@ -2253,7 +2253,7 @@
   {
     "slug": "daft-punk",
     "nome": "Daft Punk",
-    "storia": "Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica \"un thrash punk sciocco\" (\"daft punky thrash\"). Pionieri della musica elettronica francese con album come \"Homework\" (1997), \"Discovery\" (2001) e \"Random Access Memories\" (2013), sempre in scena con caschi ed elmi che nascondevano i loro volti, annunciarono lo scioglimento nel febbraio 2021.",
+    "storia": "Formati a Parigi nel 1993 da Thomas Bangalter e Guy-Manuel de Homem-Christo, amici fin dal liceo e già insieme nel gruppo rock Darlin', presero il nome da una recensione negativa di quel gruppo, che ne aveva definito la musica \"un thrash punk sciocco\" (\"daft punky thrash\"). Pionieri della musica elettronica francese con album come \"Homework\" (1997), \"Discovery\" (2001) e \"Random Access Memories\" (2013), dal 1999 iniziarono a nascondere il volto in pubblico con caschi ed elmi robotici, diventati il loro tratto distintivo; annunciarono lo scioglimento il 22 febbraio 2021.",
     "album": [
       {
         "titolo": "Homework",
@@ -2299,7 +2299,20 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#B3821F"
+    "colore": "#B3821F",
+    "fonti": [
+      {
+        "url": "https://www.nme.com/news/music/daft-punk-confirm-their-split-after-28-years-2886037",
+        "nome": "NME — Nick Reilly",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://americansongwriter.com/behind-the-band-name-daft-punk/",
+        "nome": "American Songwriter — Jacob Uitti",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "david-bowie",
@@ -2504,7 +2517,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#2A2A2E"
+    "colore": "#2A2A2E",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/david-bowie_(Enciclopedia-Italiana)/",
+        "nome": "Treccani — Lorenzo Dorelli",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/david-bowie-last-ziggy-stardust/",
+        "nome": "Ultimate Classic Rock — Michael Gallucci",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/blogs/nme-blogs/david-bowie-obituary-763180",
+        "nome": "NME — Mark Beaumont",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "deep-purple",
@@ -2715,7 +2746,7 @@
   {
     "slug": "depeche-mode",
     "nome": "Depeche Mode",
-    "storia": "Formati a Basildon, in Inghilterra, nel 1980, nacquero dall'incontro tra i compagni di scuola Vince Clarke e Andy Fletcher, già insieme in un gruppo precedente, con l'aggiunta di Martin Gore e infine del cantante Dave Gahan; il nome fu ispirato da una rivista di moda francese. Vince Clarke, autore principale dei brani, lasciò il gruppo dopo il primo album \"Speak & Spell\" (1981) per formare gli Yazoo; la scrittura passò a Martin Gore, che guida il gruppo da allora.",
+    "storia": "Formati a Basildon, in Inghilterra, nel 1980, nacquero dall'incontro tra i compagni di scuola Vince Clarke e Andy Fletcher, già insieme in un gruppo precedente, con l'aggiunta di Martin Gore e infine del cantante Dave Gahan; il nome fu ispirato da una rivista di moda francese. Vince Clarke, autore principale dei brani, lasciò il gruppo dopo il primo album \"Speak & Spell\" (1981) per formare gli Yazoo; la scrittura passò a Martin Gore, che guida il gruppo da allora. Nel 1982 entrò il tastierista Alan Wilder, rimasto fino al 1995 e riconosciuto ufficialmente come membro storico del gruppo — è tra i cinque nomi induction alla Rock and Roll Hall of Fame nel 2020, insieme a Clarke, Fletcher, Gore e Gahan.",
     "album": [
       {
         "titolo": "Speak & Spell",
@@ -2840,7 +2871,20 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#6E1F1F"
+    "colore": "#6E1F1F",
+    "fonti": [
+      {
+        "url": "https://rockhall.com/inductees/depeche-mode/",
+        "nome": "Rock and Roll Hall of Fame",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/every-depeche-mode-album-ranked-from-worst-to-best",
+        "nome": "Louder — Stephen Hill",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "disturbed",
@@ -2937,7 +2981,7 @@
   {
     "slug": "domenico-modugno",
     "nome": "Domenico Modugno",
-    "storia": "Nato a Polignano a Mare nel 1928, si trasferì a Roma a fine anni '40 per tentare la carriera di attore, continuando a esibirsi anche come cantante. Nel 1958 vinse il Festival di Sanremo con \"Nel blu dipinto di blu\" (Volare), scritta insieme a Franco Migliacci: il brano vinse anche due Grammy Award negli Stati Uniti, diventando il maggior successo della canzone italiana di sempre e uno dei primi a portare un artista italiano al successo internazionale. Morì a Lampedusa nel 1994.",
+    "storia": "Nato a Polignano a Mare nel 1928, si trasferì a Roma nel 1950 per tentare la carriera di attore, continuando a esibirsi anche come cantante. Nel 1958 vinse il Festival di Sanremo con \"Nel blu dipinto di blu\" (Volare), scritta insieme a Franco Migliacci: il brano vinse anche due Grammy Award negli Stati Uniti, diventando il maggior successo della canzone italiana di sempre e uno dei primi a portare un artista italiano al successo internazionale. Morì a Lampedusa nel 1994.",
     "album": [
       {
         "titolo": "Singolo",
@@ -3131,12 +3175,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#1F5FA8"
+    "colore": "#1F5FA8",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/domenico-modugno_(Dizionario-Biografico)/",
+        "nome": "Treccani, Dizionario Biografico degli Italiani — Riccardo D'Anna",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/artists/domenico-modugno/14946/",
+        "nome": "Grammy.com",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "eagles",
     "nome": "Eagles",
-    "storia": "Formati a Los Angeles nel 1971 da Glenn Frey, Don Henley, Bernie Leadon e Randy Meisner, si conobbero suonando nella band di supporto di Linda Ronstadt, che insieme al manager John Boylan li mise in contatto; furono poi messi sotto contratto dal produttore David Geffen per la sua nuova etichetta, la Asylum Records. Con cinque singoli e sei album al numero uno e sei Grammy Award vinti, sono stati uno dei gruppi di maggior successo commerciale degli anni '70 in Nord America.",
+    "storia": "Formati a Los Angeles nel 1971, gli Eagles nacquero dall'incontro progressivo di Glenn Frey, Don Henley, Bernie Leadon e Randy Meisner nella band di supporto di Linda Ronstadt, assemblata dal manager John Boylan: prima furono reclutati Don Henley e Glenn Frey, che in tournée strinsero il sodalizio da cui nacque l'idea di formare una band propria; solo in un secondo momento, su suggerimento di Ronstadt e Boylan, si aggiunsero Randy Meisner e infine Bernie Leadon. Il nuovo gruppo fu poi messo sotto contratto dal manager David Geffen per la sua nuova etichetta, la Asylum Records. Con cinque singoli e sei album al numero uno e sei Grammy Award vinti, sono stati uno dei gruppi di maggior successo commerciale degli anni '70 in Nord America.",
     "album": [
       {
         "titolo": "Eagles",
@@ -3203,7 +3260,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#A65A22"
+    "colore": "#A65A22",
+    "fonti": [
+      {
+        "url": "https://www.grammy.com/artists/eagles/8213/",
+        "nome": "Grammy.com",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://americansongwriter.com/without-linda-ronstadt-this-beloved-classic-rock-band-wouldnt-exist/",
+        "nome": "American Songwriter — Lauren Boisvert",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/eagles-greatest-hits/",
+        "nome": "Ultimate Classic Rock — Michael Gallucci",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "ed-sheeran",
@@ -3460,7 +3535,7 @@
   {
     "slug": "electric-callboy",
     "nome": "Electric Callboy",
-    "storia": "Formati a Castrop-Rauxel, in Germania, nel 2010 con il nome Eskimo Callboy, sono un gruppo electronicore che unisce metalcore e sonorità elettroniche da ballo. Il cantante fondatore Sebastian \"Sushi\" Biesler lasciò il gruppo nel 2020, sostituito dopo alcuni mesi da Nico Sallach. Nel marzo 2022 la band cambiò nome in Electric Callboy, abbandonando la parola \"Eskimo\" in quanto considerata offensiva per i popoli inuit e yupik, guadagnando negli anni successivi popolarità internazionale anche grazie a video e spettacoli dal tono scherzoso.",
+    "storia": "Formati a Castrop-Rauxel, in Germania, nel 2010 con il nome Eskimo Callboy dal cantante Sebastian \"Sushi\" Biesler, dal cantante e tastierista Kevin Ratajczak, dai chitarristi Daniel \"Danskimo\" Haniß e Pascal Schillo e dal bassista Daniel Klossek, sono un gruppo electronicore che unisce metalcore e sonorità elettroniche da ballo. Biesler lasciò il gruppo nel febbraio 2020, sostituito qualche mese dopo da Nico Sallach; Ratajczak, Haniß, Schillo e Klossek fanno tuttora parte della formazione. Il 10 marzo 2022 la band cambiò nome in Electric Callboy, abbandonando la parola \"Eskimo\" perché considerata offensiva per i popoli inuit e yupik, guadagnando negli anni successivi popolarità internazionale anche grazie a video e spettacoli dal tono scherzoso.",
     "album": [
       {
         "titolo": "Bury Me in Vegas",
@@ -3522,7 +3597,25 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#6E1F8A"
+    "colore": "#6E1F8A",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/bands-artists/electric-callboy-metal-hammer-cover-2026",
+        "nome": "Metal Hammer / Louder — Dannii Leivers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.theprp.com/2022/03/10/news/eskimo-callboy-change-name-to-electric-callboy-following-criticism/",
+        "nome": "TheRP — wookubus",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Electric_Callboy",
+        "nome": "Wikipedia (EN) — Electric Callboy",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "elton-john",
@@ -3763,12 +3856,25 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#2E3A5C"
+    "colore": "#2E3A5C",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/biography/Elton-John",
+        "nome": "Britannica — Stephen Holden",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/elton-john-bluesology/",
+        "nome": "Ultimate Classic Rock — Dave Lifton",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "eminem",
     "nome": "Eminem",
-    "storia": "Nato Marshall Bruce Mathers III a Detroit nel 1972, iniziò a rappare nei locali della città a 14 anni, lasciando poi la scuola per dedicarsi alla musica. Il primo album, \"Infinite\" (1996), vendette poco; la svolta arrivò nel 1997, quando un piazzamento al Rap Olympics di Los Angeles attirò l'attenzione di Dr. Dre, che lo mise sotto contratto con la sua etichetta Aftermath. Con \"The Slim Shady LP\" (1999) e \"The Marshall Mathers LP\" (2000, l'album rap più venduto nella prima settimana di sempre) diventò una delle voci principali dell'hip hop mondiale.",
+    "storia": "Nato Marshall Bruce Mathers III il 17 ottobre 1972 a Saint Joseph, nel Missouri (la famiglia si trasferì presto a Detroit, dove crebbe), iniziò a rappare nei locali della città a 14 anni, lasciando poi la scuola per dedicarsi alla musica. Il primo album, \"Infinite\" (1996), vendette poco; la svolta arrivò nel 1997, quando il secondo posto al Rap Olympics di Los Angeles attirò comunque l'attenzione di Dr. Dre, che lo mise sotto contratto con la sua etichetta Aftermath. Con \"The Slim Shady LP\" (1999) e \"The Marshall Mathers LP\" (2000, l'album rap più venduto nella prima settimana di sempre) diventò una delle voci principali dell'hip hop mondiale.",
     "album": [
       {
         "titolo": "Infinite",
@@ -3871,7 +3977,25 @@
       "rap"
     ],
     "paese": null,
-    "colore": "#5C3D80"
+    "colore": "#5C3D80",
+    "fonti": [
+      {
+        "url": "https://www.britannica.com/biography/Eminem",
+        "nome": "Encyclopaedia Britannica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/news/eminem-albums-eras-songbook-marshall-mathers-lp/",
+        "nome": "Grammy.com — Shawn Setaro",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.guinnessworldrecords.com/world-records/76345-fastest-selling-rap-artist",
+        "nome": "Guinness World Records",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "eros-ramazzotti",
@@ -4286,7 +4410,20 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#5C1F3E"
+    "colore": "#5C1F3E",
+    "fonti": [
+      {
+        "url": "https://www.loudersound.com/bands-artists/fall-out-boy-band-history",
+        "nome": "Louder — Dannii Leivers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.vice.com/en/article/59qmpz/fall-out-boy-take-this-to-your-grave-anniversary-2018/",
+        "nome": "Vice — Marianne Eloise",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "finley",
@@ -4339,7 +4476,7 @@
   {
     "slug": "fleetwood-mac",
     "nome": "Fleetwood Mac",
-    "storia": "Formati a Londra nel luglio 1967 dal chitarrista Peter Green, appena uscito dai John Mayall's Bluesbreakers, che scelse di intitolare il gruppo alla sezione ritmica — il batterista Mick Fleetwood e il bassista John McVie, arrivato poche settimane dopo il debutto al posto di Bob Brunning — invece che al proprio nome. La formazione più conosciuta a livello internazionale, con l'arrivo nel 1974 di Lindsey Buckingham e Stevie Nicks, portò il gruppo dal blues britannico originario verso un pop rock di grande successo commerciale.",
+    "storia": "Formati a Londra nel luglio 1967 dal chitarrista Peter Green, appena uscito dai John Mayall's Bluesbreakers, che scelse di intitolare il gruppo alla sezione ritmica — il batterista Mick Fleetwood e il bassista John McVie, arrivato poche settimane dopo il debutto al posto del turnista Bob Brunning — invece che al proprio nome. Della formazione originaria faceva parte anche il chitarrista slide Jeremy Spencer, presente fin dal 1967. Green lasciò il gruppo nel 1970 e Spencer nel 1971; la band attraversò poi diversi cambi di formazione prima di raggiungere la notorietà internazionale con l'arrivo, a fine 1974, di Lindsey Buckingham e Stevie Nicks, che portò il gruppo dal blues britannico originario verso un pop rock di grande successo commerciale.",
     "album": [
       {
         "titolo": "Fleetwood Mac",
@@ -4476,7 +4613,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4A3F52"
+    "colore": "#4A3F52",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/peter-green-quits-fleetwood-mac/",
+        "nome": "Ultimate Classic Rock — Dave Swanson",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/lindsey-buckingham-stevie-nicks-join-fleetwood-mac/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://rockhall.com/inductees/fleetwood-mac/",
+        "nome": "Rock and Roll Hall of Fame",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-09"
   },
   {
     "slug": "foo-fighters",
