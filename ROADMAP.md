@@ -2282,6 +2282,24 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Verificato**: rigenerato, `check-coerenza` 0, `check-completezza` invariato, `check-attribuzioni` 0 segnalazioni (da 5 a 0), `check-livelli` 56/56 sulle canzoni e 1/1 sulle biografie, nessuna segnalazione di nomi doppi. Copiato in root, committato in quattro passaggi (R3+nomi doppi; biografie 1/2; biografie 2/2; correzione delle due canzoni), pushato tutte le volte senza divergenza.
   **Resta aperto**: le altre 13 correzioni del campione 8 sulle canzoni; `andrea-bocelli-e-giorgia`, unica biografia ancora priva di fonte A/B accertata per la mancata classificazione del dominio TGCOM24; i cinque domini "da classificare" (`lisolachenoncera.it` incluso — resta fonte primaria di `la-canzone-del-sole` in attesa che Opus lo classifichi).
 
+- **10 settembre 2026 — Quattro comandi: un refuso, `the-beatles` completata, il sospetto sulle pagine-indice smentito alla riverifica, e la SECONDA INFORNATA di canzoni con la R2-bis.** `git pull` prima di ogni fase, sempre senza divergenza.
+  **1) `nihilist-blues`, il refuso.** La riformulazione R3 di ieri aveva lasciato un "e che" agganciato al vecchio attacco della frase, senza più nulla da reggere grammaticalmente. Tolto.
+  **2) `the-beatles` completata — era la biografia con più affermazioni scoperte del campione.** Le due fonti esistenti coprivano solo Sutcliffe e Best; le origini (fondazione dei Quarrymen nel novembre 1956, ingresso di McCartney nell'estate 1957 e di Harrison il 6 febbraio 1958 con le resistenze di Lennon, i nomi "Johnny and the Moondogs" e "The Silver Beetles", l'adozione del nome Beatles nel 1960, il passaggio dallo skiffle al rock and roll) non avevano nessuna fonte. Tutte e otto le affermazioni sono risultate sostenute da quattro nuovi articoli Ultimate Classic Rock, riverificati di persona prima di scriverli — nessuna da rimuovere. Disambiguate anche due fonti "Dave Lifton" diventate omonime dopo l'aggiunta.
+  **3) Le due presunte pagine-indice non lo erano — verificato con due metodi indipendenti.** `laura-pausini` e `pinguini-tattici-nucleari` erano state segnalate di nuovo come citanti `rollingstone.it/artista/…`, "un elenco di articoli senza biografia". Riaperte sia via browser (contenuto renderizzato) sia via `curl` con user-agent da browser (HTML grezzo, senza esecuzione di JavaScript): **in entrambi i casi, per entrambe le pagine, il contenuto è una biografia vera e articolata** — sezioni con titolo, centinaia di parole, cifre e date specifiche — non un indice. Confermato anche control-checking su `cesare-cremonini` (Rockol, stesso pattern `/artista/`): biografia vera anche lì. Nessuna sostituzione fatta: le due fonti restano, il sospetto non ha retto alla riverifica diretta per la seconda volta di fila (la prima nel lotto precedente, su `laura-pausini` da sola). Girato comunque il controllo su tutte le 104 biografie cercando l'indirizzo `/artista/` o `/artist/`: nessun altro caso trovato.
+  **4) SECONDA INFORNATA, 4 canzoni, con la R2-bis applicata fin dalla ricerca**: `another-one-bites-the-dust` (Queen), `life-on-mars` (David Bowie), `take-it-easy` (Eagles), `vita-spericolata` (Vasco Rossi). Per ciascuna, cercata prima la fonte dei dati anagrafici, poi quella del racconto — non più il contrario.
+
+  | Canzone | Affermazioni | Fonte dati | Fonte racconto |
+  |---|---|---|---|
+  | `another-one-bites-the-dust` | 8 | Wikipedia (EN) | Ultimate Classic Rock (Martin Kielty) + American Songwriter (Al Melchior) |
+  | `life-on-mars` | 9 | Wikipedia (EN) | Far Out Magazine (Joe Taysom) — copre anche i dati (etichetta, date) con citazioni dirette di Bowie |
+  | `take-it-easy` | 7 | Ultimate Classic Rock (Corey Irwin) — un solo articolo copre sia dati sia racconto | idem |
+  | `vita-spericolata` | 9 | Wikipedia (IT) | OndaRock (Claudio Fabretti) — copre anche i dati con dichiarazioni dirette di Vasco Rossi |
+  | **Totale** | **33** | | |
+
+  Tutte e 33 le affermazioni sono risultate riconducibili a una fonte precisa, verificata aprendo e leggendo la pagina prima di scrivere — non dopo. Controllati gli slug alternativi di ogni canzone prima di sceglierla, per evitare il doppione di "Zombie" del lotto precedente: nessun conflitto trovato.
+  **Verificato**: rigenerato, `check-coerenza` 0, `check-completezza` invariato, `check-attribuzioni` 0, `check-livelli` 56/56 sulle canzoni (libero, esattamente in pari) e 1/1 sulle biografie, nessun nome doppio. Copiato in root, committato in tre passaggi (refuso; `the-beatles`; le quattro canzoni nuove), pushato tutte le volte senza divergenza.
+  **Resta aperto**: le 13 correzioni del campione 8 ancora da fare; `andrea-bocelli-e-giorgia`; i domini da classificare.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
