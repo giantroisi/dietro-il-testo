@@ -6512,7 +6512,7 @@
     "fonti": [
       {
         "url": "https://www.loudersound.com/features/the-story-behind-cowboys-from-hell-by-pantera",
-        "nome": "Louder — Jon Wiederhorn (intervista a Classic Rock, 2010)",
+        "nome": "Louder — Jon Wiederhorn (pubblicato originariamente su Metal Hammer, numero 212)",
         "ruolo": "storia"
       },
       {
@@ -6528,7 +6528,8 @@
     "testoFonte": "Letras",
     "temi": [
       "industria-musicale"
-    ]
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "byob",
