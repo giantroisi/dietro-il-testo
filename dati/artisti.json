@@ -12415,7 +12415,7 @@
   {
     "slug": "the-police",
     "nome": "The Police",
-    "storia": "Le origini risalgono al maggio 1977 a Londra, quando l'ex musicista dei Gong Mike Howlett coinvolse Sting nel progetto Strontium 90, portando con sé il batterista Stewart Copeland; il quarto membro di quel progetto, il chitarrista Andy Summers, già veterano della scena musicale britannica, si unì a Sting e Copeland per formare i The Police.",
+    "storia": "I The Police nacquero a Londra il 12 gennaio 1977 come trio formato da Sting, dal batterista Stewart Copeland e dal chitarrista corso Henry Padovani. Nel maggio dello stesso anno Sting entrò a far parte di Strontium 90, il progetto dell'ex musicista dei Gong Mike Howlett, portando con sé anche Copeland; il quarto membro di quel progetto era il chitarrista Andy Summers, già veterano della scena musicale britannica. Grazie a questo incontro, tra luglio e agosto 1977 Summers si unì temporaneamente ai The Police, che divennero per un breve periodo un quartetto insieme a Padovani, prima che quest'ultimo lasciasse la band nell'agosto 1977, lasciando il trio definitivo Sting, Copeland e Summers.",
     "album": [
       {
         "titolo": "Outlandos d'Amour",
@@ -12469,12 +12469,25 @@
       "elettronica"
     ],
     "paese": null,
-    "colore": "#4A5E3E"
+    "colore": "#4A5E3E",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/police-fire-original-guitarist/",
+        "nome": "Ultimate Classic Rock — Jeff Giles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/the-police-first-classic-trio-show/",
+        "nome": "Ultimate Classic Rock — Ryan Reed",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-rolling-stones",
     "nome": "The Rolling Stones",
-    "storia": "Formati a Londra nell'aprile 1962, nacquero dall'incontro tra Mick Jagger e Keith Richards, compagni di scuola a Dartford riavvicinati dalla comune passione per il blues americano, e Brian Jones, conosciuto dopo un concerto dei Blues Incorporated all'Ealing Jazz Club; il nome fu scelto da Jones ispirandosi al brano di Muddy Waters \"Rollin' Stone\". Debuttarono ufficialmente il 12 luglio 1962.",
+    "storia": "Formatisi a Londra nell'aprile 1962, nacquero dall'incontro tra Mick Jagger e Keith Richards, compagni di scuola a Dartford riavvicinati dalla comune passione per il blues americano, e Brian Jones, conosciuto dopo un concerto dei Blues Incorporated all'Ealing Jazz Club; il nome fu scelto da Jones ispirandosi al brano di Muddy Waters \"Rollin' Stone\". Debuttarono ufficialmente il 12 luglio 1962 al Marquee Club, in una formazione ancora provvisoria; quella \"classica\" a cinque si completò solo tra la fine del 1962 e l'inizio del 1963, con l'ingresso del bassista Bill Wyman (dicembre 1962) e del batterista Charlie Watts (gennaio 1963). Nel 1969 Brian Jones, in difficoltà con droghe e alcol, fu estromesso dalla band; meno di un mese dopo, il 3 luglio 1969, fu trovato morto nella piscina della sua abitazione, con verdetto ufficiale di morte per disgrazia legata all'abuso di alcol e droghe. Al suo posto entrò il chitarrista Mick Taylor, nella band dal 1969 al 1974; gli succedette poi Ronnie Wood, entrato ufficialmente nel 1975 e da allora membro stabile del gruppo.",
     "album": [
       {
         "titolo": "The Rolling Stones",
@@ -12660,12 +12673,50 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#1C1C1C"
+    "colore": "#1C1C1C",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/rolling-stones_(Enciclopedia-dei-ragazzi)/",
+        "nome": "Treccani, Enciclopedia dei ragazzi — Ernesto Assante",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://billwyman.com/rolling-stones/rolling-stones-1960s/",
+        "nome": "Bill Wyman — sito ufficiale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/mick-jagger-keith-richards-met-brian-jones/",
+        "nome": "Ultimate Classic Rock — Jeff Giles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/charlie-watts-joins-rolling-stones/",
+        "nome": "Ultimate Classic Rock — Sterling Whitaker",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/brian-jones-found-dead/",
+        "nome": "Ultimate Classic Rock — Corbin Reiff",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/mick-taylor-quits-the-rolling-stones/",
+        "nome": "Ultimate Classic Rock — Sterling Whitaker",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/ron-wood-joins-the-rolling-stones/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-white-stripes",
     "nome": "The White Stripes",
-    "storia": "Formati a Detroit nel 1997 dal duo composto da Jack White e dall'ex moglie Meg White, sposati nel 1996 e divorziati nel 2000 pur continuando a esibirsi insieme, presentandosi al pubblico come fratelli; il nome nasce dalla passione di Meg per le caramelle alla menta bianche e rosse. Raggiunsero fama internazionale nel 2002 nell'ambito del revival garage rock, in particolare grazie al singolo \"Seven Nation Army\".",
+    "storia": "Formati a Detroit nel 1997 dal duo composto da Jack White e dall'ex moglie Meg White, sposati nel 1996 e divorziati nel 2000 pur continuando a esibirsi insieme, presentandosi al pubblico come fratelli; il nome nasce dalla passione di Meg per le caramelle alla menta bianche e rosse. Raggiunsero fama internazionale nel 2002 nell'ambito del revival garage rock, grazie soprattutto all'album \"White Blood Cells\" e al singolo \"Fell in Love with a Girl\"; il successo planetario arrivò poi nel 2003 con l'album \"Elephant\" e il singolo \"Seven Nation Army\".",
     "album": [
       {
         "titolo": "The White Stripes",
@@ -12725,12 +12776,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#A6231F"
+    "colore": "#A6231F",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/jack-meg-white-marriage/",
+        "nome": "Ultimate Classic Rock — Corey Irwin",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/white-stripes-seven-nation-army/",
+        "nome": "Ultimate Classic Rock — Corey Irwin",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/the-white-stripes-365-1375164",
+        "nome": "NME",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "tool",
     "nome": "Tool",
-    "storia": "Formati a Los Angeles nel 1990 dal batterista Danny Carey, dal chitarrista Adam Jones, dal bassista Paul D'Amour e dal cantante Maynard James Keenan, che Jones convinse a fondare una band dopo aver ascoltato un suo provino vocale. Esordirono con l'EP \"Opiate\" (1992) e l'album \"Undertow\" (1993), certificato oro in pochi mesi; il bassista Justin Chancellor sostituì D'Amour nel 1995.",
+    "storia": "Formati a Los Angeles nel 1990 dal batterista Danny Carey, dal chitarrista Adam Jones, dal bassista Paul D'Amour e dal cantante Maynard James Keenan: Jones, colpito dalla voce di Keenan dopo aver ascoltato la registrazione di un suo precedente progetto musicale, lo convinse a fondare insieme una nuova band. Esordirono con l'EP \"Opiate\" (1992) e l'album \"Undertow\" (1993), certificato oro pochi mesi dopo l'uscita; il bassista Justin Chancellor sostituì D'Amour nel 1995, nell'unico cambio di formazione della storia del gruppo.",
     "album": [
       {
         "titolo": "Undertow",
@@ -12783,12 +12852,30 @@
       "metal"
     ],
     "paese": null,
-    "colore": "#1F1F1F"
+    "colore": "#1F1F1F",
+    "fonti": [
+      {
+        "url": "https://loudwire.com/tool-undertow-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/tool-maynard-old-band-c-a-d/",
+        "nome": "Loudwire — Philip Trapp",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.iheart.com/content/2019-08-22-tools-adam-jones-explains-funny-story-behind-bands-lone-lineup-change/",
+        "nome": "iHeartRadio — Andrew Magnotta",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "toto",
     "nome": "Toto",
-    "storia": "Formati a Los Angeles nel 1977 da un gruppo di turnisti già attivi insieme negli studi di registrazione californiani degli anni '70, in particolare il tastierista David Paich e il batterista Jeff Porcaro, conosciutisi al liceo; completarono la formazione il bassista David Hungate, il chitarrista Steve Lukather, il tastierista Steve Porcaro e il cantante Bobby Kimball. A differenza della maggior parte dei gruppi, non si fecero conoscere nei locali ma arrivarono al successo forti della reputazione già costruita come session men, esordendo con l'album omonimo nel 1978.",
+    "storia": "Si formarono a Los Angeles nel 1977 attorno a un nucleo di turnisti già attivi negli studi di registrazione californiani degli anni '70, in particolare il tastierista David Paich e il batterista Jeff Porcaro, conosciutisi al liceo; completarono la formazione originale il bassista David Hungate, il chitarrista Steve Lukather, il tastierista Steve Porcaro e il cantante Bobby Kimball. A differenza della maggior parte dei gruppi, non si fecero conoscere nei locali ma arrivarono al successo forti della reputazione già costruita come session men, esordendo con l'album omonimo nel 1978. La formazione iniziale non restò però stabile: Bobby Kimball fu allontanato nel 1984 per problemi vocali legati a uno stile di vita compromesso, sostituito prima da Fergie Frederiksen e poi, dal 1986, da Joseph Williams; anche Steve Porcaro lasciò il ruolo di membro a tempo pieno nel 1987. Il momento più duro nella storia della band arrivò il 5 agosto 1992, quando Jeff Porcaro morì improvvisamente a 38 anni per una malattia coronarica legata a un uso prolungato di cocaina; al suo posto arrivò il batterista Simon Phillips.",
     "album": [
       {
         "titolo": "Toto",
@@ -12905,12 +12992,40 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#C2822E"
+    "colore": "#C2822E",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/toto-debut-album/",
+        "nome": "Ultimate Classic Rock — Jeff Giles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/toto-lineup-changes/",
+        "nome": "Ultimate Classic Rock — Jeff Giles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/jeff-porcaro-toto-dies-toto-drummer-dies/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/the-secret-history-of-toto",
+        "nome": "Louder (Classic Rock) — Paul Elliott",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.upi.com/Archives/1992/09/04/Toto-musician-died-of-cocaine-use/1488715579200/",
+        "nome": "UPI Archives",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "toto-cutugno",
     "nome": "Toto Cutugno",
-    "storia": "Nato nel 1943 e cresciuto a La Spezia, dove il padre gli trasmise la passione per la musica suonando la tromba come hobby, iniziò negli anni '60 come batterista in diversi gruppi locali prima di passare al microfono con gli Albatros, con cui debuttò a Sanremo nel 1976. Avviò la carriera da solista nel 1978 con \"Donna donna mia\"; con quindici partecipazioni al Festival di Sanremo, nel 1983 portò al successo \"L'Italiano\".",
+    "storia": "Nato nel 1943 a Fosdinovo, in provincia di Massa-Carrara, e cresciuto a La Spezia, dove il padre gli trasmise la passione per la musica suonando la tromba come hobby, iniziò negli anni '60 come batterista in diversi gruppi locali prima di passare al microfono con gli Albatros, con cui debuttò a Sanremo nel 1976. Avviò la carriera da solista nel 1978 con \"Donna donna mia\"; con quindici partecipazioni al Festival di Sanremo, nel 1983 portò al successo \"L'Italiano\". È morto il 22 agosto 2023 a Milano, all'età di 80 anni.",
     "album": [
       {
         "titolo": "Voglio l'anima",
@@ -13034,12 +13149,25 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#2E6E4A"
+    "colore": "#2E6E4A",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/toto-cutugno/",
+        "nome": "Treccani — Enciclopedia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/2023/08/22/e-morto-toto-cutugno_857d3bb2-940a-4a08-b0f2-ef29698ec07d.html",
+        "nome": "ANSA — Redazione",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "tracy-chapman",
     "nome": "Tracy Chapman",
-    "storia": "Nata a Cleveland, in Ohio, nel 1964 e cresciuta in Connecticut, iniziò a esibirsi a Boston mentre studiava antropologia alla Tufts University. Ottenne un contratto discografico nel 1986 grazie al padre di un'amica; l'album di debutto omonimo del 1988, trainato dal singolo \"Fast Car\", le valse tre Grammy Award, incluso quello per la miglior nuova artista. Tornò al successo alcuni anni dopo con l'album \"New Beginning\" e il singolo \"Give Me One Reason\".",
+    "storia": "Nata a Cleveland, in Ohio, nel 1964, si trasferì in Connecticut a 16 anni con una borsa di studio per frequentare il collegio Wooster School di Danbury; iniziò a esibirsi a Boston mentre studiava antropologia alla Tufts University. Un compagno di studi, Brian Koppelman, fece ascoltare un suo demo al padre Charles Koppelman, dirigente musicale, che nel 1986 le procurò un contratto editoriale; l'anno seguente firmò con l'etichetta Elektra Records. L'album di debutto omonimo del 1988, trainato dal singolo \"Fast Car\", decollò dopo la sua esibizione a sorpresa al concerto per il 70° compleanno di Nelson Mandela a Wembley l'11 giugno 1988, e le valse tre Grammy Award, incluso quello per la miglior nuova artista. Tornò al successo nel 1995 con l'album \"New Beginning\" e il singolo \"Give Me One Reason\".",
     "album": [
       {
         "titolo": "Tracy Chapman",
@@ -13113,7 +13241,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#5C4A3E"
+    "colore": "#5C4A3E",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/tracy-chapman-fast-car-luke-combs/",
+        "nome": "Ultimate Classic Rock — Corey Irwin",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.woosterschool.org/community/wink/details/~board/2023-2024/post/the-original-fast-car-artist-woosters-tracy-chapman-82-1707409254936",
+        "nome": "Wooster School (sito ufficiale)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/awards/31st-annual-grammy-awards/",
+        "nome": "Grammy.com — 31st Annual Grammy Awards",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "vasco-rossi",
@@ -13290,7 +13436,7 @@
   {
     "slug": "whitney-houston",
     "nome": "Whitney Houston",
-    "storia": "Nata a Newark, nel New Jersey, nel 1963, figlia della cantante gospel e soul Cissy Houston e cugina di Dionne Warwick, pubblicò il primo album a 22 anni, ottenendo tre singoli al numero uno; il successivo \"Whitney\" (1987) ne produsse altri quattro. Vendette in carriera oltre 200 milioni di dischi e vinse otto Grammy Award, con album come \"I'm Your Baby Tonight\" (1990) e colonne sonore di successo come \"The Bodyguard\" (1992). Morì l'11 febbraio 2012 in un hotel di Beverly Hills per annegamento accidentale, con malattia cardiaca e uso di cocaina tra i fattori concomitanti.",
+    "storia": "Nata a Newark, nel New Jersey, nel 1963, figlia della cantante gospel e soul Cissy Houston e cugina di Dionne Warwick, pubblicò il primo album a 21 anni, ottenendo tre singoli al numero uno; il successivo \"Whitney\" (1987) ne produsse altri quattro. Vendette in carriera oltre 200 milioni di dischi e vinse sei Grammy Award, con album come \"I'm Your Baby Tonight\" (1990) e colonne sonore di successo come \"The Bodyguard\" (1992). Morì l'11 febbraio 2012 in un hotel di Beverly Hills per annegamento accidentale, con malattia cardiaca e uso di cocaina tra i fattori concomitanti.",
     "album": [
       {
         "titolo": "Whitney Houston",
@@ -13358,12 +13504,30 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#6E1F2E"
+    "colore": "#6E1F2E",
+    "fonti": [
+      {
+        "url": "https://www.grammy.com/artists/whitney-houston/3899/",
+        "nome": "Grammy.com — pagina artista ufficiale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://primarywave.com/artists/whitney-houston/",
+        "nome": "Primary Wave Music (gestione ufficiale del catalogo)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://abcnews.com/Entertainment/whitney-houston-death-surprising-details-coroners-report/story?id=16076589",
+        "nome": "ABC News — Kevin Dolak e Sheila Marikar",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "zucchero",
     "nome": "Zucchero",
-    "storia": "Adelmo Fornaciari, in arte Zucchero, nasce a Roncocesi, frazione di Reggio Emilia, nel 1955. Tra il 1970 e il 1978, trasferitosi a Forte dei Marmi, formò le sue prime band R&B (Le Nuove Luci, Sugar & Daniel, Sugar & Candies); nel 1981 vinse il Festival di Castrocaro, ottenendo un contratto con la Polygram. Il vero successo arrivò nel 1985 con \"Donne\", presentata al Festival di Sanremo; ha venduto in carriera circa 60 milioni di dischi, portando blues e soul nel mainstream della musica italiana.",
+    "storia": "Adelmo Fornaciari, in arte Zucchero, nasce a Roncocesi, frazione di Reggio Emilia, nel 1955. Tra il 1970 e il 1978, trasferitosi a Forte dei Marmi, formò le sue prime band R&B (Le Nuove Luci, Sugar & Daniel, Sugar & Candies); nel 1981 vinse il Festival di Castrocaro, ottenendo un contratto con la Polygram. Nel 1985 si presentò al Festival di Sanremo con \"Donne\", che si classificò solo al penultimo posto ma divenne poco dopo un successo radiofonico e discografico, aprendo la strada alla consacrazione arrivata con gli album \"Blue's\" (1987) e \"Oro, incenso & birra\" (1989); ha venduto in carriera oltre 60 milioni di dischi, portando blues e soul nel mainstream della musica italiana.",
     "album": [
       {
         "titolo": "Un po' di Zucchero",
@@ -13479,6 +13643,34 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#3E5A72"
+    "colore": "#3E5A72",
+    "fonti": [
+      {
+        "url": "https://www.zucchero.it/biografia/",
+        "nome": "Zucchero Sugar Fornaciari — sito ufficiale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/artista/zucchero",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/artista/zucchero-fornaciari/",
+        "nome": "OndaRock",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2023/08/09/zucchero-oltre-1-milione-di-spettatori-per-il-world-wide-tour_5971f178-e79d-4824-a555-cccc7d9fbbc5.html",
+        "nome": "ANSA — Redazione",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/amp/sito/notizie/cultura/musica/2025/09/23/zucchero-i-70-anni-del-re-del-soul-blues-italiano_ed7d186d-0377-477a-b2dc-c6687edb0086.html",
+        "nome": "ANSA — Paolo Biamonte",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   }
 ]
