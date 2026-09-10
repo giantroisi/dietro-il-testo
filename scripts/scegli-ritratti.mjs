@@ -55,8 +55,19 @@ const gia = new Set(
 
 // La miniatura si costruisce dall'indirizzo originale, senza chiedere niente a
 // nessuno: .../commons/3/36/Nome.jpg diventa .../commons/thumb/3/36/Nome.jpg/480px-Nome.jpg
-function miniatura(originale, lato = 480) {
-  const pulito = String(originale || '').split('?')[0];
+// **Le larghezze non sono libere.** Wikimedia accetta in hotlink solo le sue
+// misure standard — 20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840 — e
+// a qualsiasi altra risponde «Error 400: Use thumbnail sizes listed on
+// https://w.wiki/GHai». La prima versione di questo file chiedeva 480px e
+// **nessuna immagine si sarebbe vista**: il difetto e' saltato fuori solo
+// aprendo un indirizzo vero in un browser vero, non rileggendo il codice.
+const LARGHEZZE_AMMESSE = [20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840];
+
+function miniatura(originale, lato = 500) {
+  if (!LARGHEZZE_AMMESSE.includes(lato)) {
+    throw new Error(`larghezza ${lato} non ammessa da Wikimedia: usa una fra ${LARGHEZZE_AMMESSE.join(', ')}`);
+  }
+    const pulito = String(originale || '').split('?')[0];
   const i = pulito.indexOf('/commons/');
   if (i === -1) return null;
   const coda = pulito.slice(i + '/commons/'.length);
