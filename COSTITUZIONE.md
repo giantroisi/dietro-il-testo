@@ -219,6 +219,93 @@ Una canzone è pubblicabile solo quando possiede:
 
 Non si pubblica una scheda “completa” se manca la storia dell'artista richiesta dal formato, se il player riguarda una versione diversa non dichiarata o se una fonte non porta all'informazione citata.
 
+## 4B. Come si scrive una scheda nuova
+
+La sezione 4A dice **cosa deve contenere** una scheda. Questa dice **come si scrive** perché il contenuto sia vero la prima volta.
+
+**L'obiettivo è preciso: una scheda scritta seguendo questa sezione non si riapre più**, salvo che accada qualcosa di nuovo nel mondo (vedi «Quando una scheda si riapre»). Riaprire una scheda perché era stata scritta male costa più che scriverla bene, perché nel frattempo è stata pubblicata e letta.
+
+Nessuna di queste regole è una precauzione teorica: ognuna corrisponde a un errore trovato più di una volta dalla verifica indipendente, su oltre duemila affermazioni riaperte una per una fra schede canzone e biografie. Ciò che cade quasi mai è una bugia: sono **dettagli plausibili aggiunti mentre si scriveva, che nessuna fonte contiene**.
+
+### R1 — Si scrive dalla fonte, non si cerca la fonte per ciò che si è scritto
+
+Prima si aprono e si leggono le fonti, poi si scrive. Ogni frase deve nascere da qualcosa che si ha davanti in quel momento.
+
+Il gesto vietato è quello inverso: scrivere il racconto e poi cercare una pagina che lo sostenga. È da lì che entrano i dettagli che rendono la storia più bella e che nessuno ha mai letto da nessuna parte.
+
+**È la regola più importante della sezione**: quasi tutte le altre servono a rimediare quando questa non viene rispettata.
+
+### R2 — L'unità è la singola affermazione
+
+Una data, un nome, un luogo, un ruolo, una cifra, un'attribuzione: ognuna è un'affermazione a sé e va sostenuta a sé. «Registrata nel 1991 allo studio X dal tecnico Y» sono tre affermazioni, non una.
+
+Una scheda è verificata quando ogni singola affermazione ha superato il controllo, non quando «il senso generale» regge.
+
+### R3 — Chi dice una cosa fa parte della cosa
+
+Se una frase nomina una testata, un programma, un podcast o un'intervista, quella fonte **deve stare fra le fonti della scheda e contenere davvero ciò che le si attribuisce**. Se non è così, ci sono tre uscite legittime e una sola che non lo è:
+
+1. si aggiunge la fonte vera;
+2. si toglie il nome dalla frase;
+3. si attribuisce a chi lo riporta («secondo Songfacts, che cita Rolling Stone nel 2006…»).
+
+Lasciarlo com'è non è una di quelle tre. Vale anche al grado minimo — una descrizione scritta dal redattore di una fonte non diventa una dichiarazione dell'artista — e vale anche dentro il campo `nome` di una fonte, che è testo pubblicato come il resto.
+
+### R4 — La frase iconica è testo come gli altri
+
+Stesse regole di fonte del corpo. Serve una regola apposta perché le correzioni tendono a fermarsi dove il rilievo cita il testo, e l'affermazione sbagliata sopravvive lì. Ed è **la riga più esposta del sito**: finisce nell'immagine da condividere e nell'anteprima dei motori di ricerca. Le si applica anche il P3: si descrive o si parafrasa, non si riproduce il verso.
+
+### R5 — Se le fonti non concordano, si dice
+
+Scegliere è legittimo, tacere la scelta no: la scheda dice quale versione segue e che ne esiste un'altra. Il caso peggiore non è la divergenza fra due fonti, ma la fonte che dichiara essa stessa più versioni: riportarne una sola come certa è un'affermazione più forte di quella che la fonte sostiene.
+
+### R6 — Cosa non si può scrivere senza una fonte di livello A o B
+
+Rimandando alla sezione 5: intenzioni attribuite all'autore, fatti controversi, cifre di vendita e posizioni in classifica, spiegazioni di copertine, accuse personali.
+
+**Una scheda nuova senza almeno una fonte di livello A o B non si pubblica.** Non è un limite alla crescita: è il limite che impedisce di crescere peggiorando.
+
+### R7 — Ogni affermazione ha una delle tre nature
+
+Fatto documentato, dichiarazione dell'artista, interpretazione accreditata. **Se mentre scrivi non sai dire quale delle tre sia, l'affermazione non è pronta.** È il controllo più economico che esista: costa una domanda e si fa prima di aver scritto la frase.
+
+### R8 — Il dubbio si scrive, non si arrotonda
+
+«Non risulta disponibile una spiegazione ufficiale verificabile» è una risposta legittima e pubblicabile. Una scheda più corta e vera vale più di una completa e fragile.
+
+### R9 — Falsa continuità: chi c'era all'inizio, e chi è entrato o uscito
+
+Quando si racconta un gruppo, si dice **chi c'era davvero quando è cominciato** e **cosa è cambiato dopo**: chi è uscito, chi è morto, chi è arrivato e quando. Se le fonti non lo documentano, si scrive che non è documentato.
+
+Questa regola esiste perché la verifica indipendente ha trovato lo schema in **23 biografie di gruppo su 35** — il 66%: la formazione fondativa raccontata come se fosse quella di oggi, con un membro originale sparito. È l'errore più insidioso di tutti, perché **ogni singolo nome citato è vero: a mentire è l'omissione, non la frase.** Nessuna delle altre otto regole lo intercetta, perché tutte guardano cosa è scritto e questa guarda cosa manca.
+
+Le sue varianti, tutte già viste: la fine della storia taciuta (il cantante morto, la band sciolta), l'ordine invertito (chi ha suonato su quel disco non è chi lo firma oggi), la continuità narrativa (un successo raccontato come progressione lineare quando fu un flop e una seconda occasione).
+
+### Come si chiude una scheda
+
+1. rileggerla frase per frase **con le fonti aperte a fianco**, compresa la frase iconica;
+2. per ogni affermazione: quale fonte la sostiene, e con quale frase;
+3. per i gruppi, il controllo di R9;
+4. far passare i controlli automatici;
+5. scrivere la **data di verifica** nel campo `ultimaVerifica`: è la data in cui una persona ha davvero riaperto le fonti, non quella in cui il sito è stato rigenerato.
+
+### Quando una scheda si riapre
+
+Una scheda chiusa così **non si rilavora**. Si riapre solo per una di queste ragioni, e in tutte e quattro il lavoro è un aggiornamento, non una riparazione:
+
+- **è successo qualcosa**: l'artista è morto, la band si è sciolta o riunita, è uscita una nuova edizione, un record è stato superato;
+- **è uscita una fonte migliore**: un'intervista, un documento, un archivio che prima non c'era, e che permette di sostituire una fonte debole o di chiudere un dubbio dichiarato;
+- **una fonte citata è morta o ha cambiato indirizzo**;
+- **qualcuno ha segnalato un errore**, o un campione di verifica indipendente ne ha trovato uno.
+
+**Rilavorare una scheda perché era stata scritta senza seguire questa sezione non è un aggiornamento: è un debito che si paga.** È esattamente ciò che questa sezione serve a non contrarre più.
+
+### Cosa costa, e cosa questa sezione non promette
+
+**Costa tempo.** Una scheda scritta così richiede più tempo di una scritta a memoria e documentata dopo. È il prezzo per non doverla riaprire.
+
+**Non promette che non si sbaglierà più.** La verifica indipendente ha trovato una data sbagliata dentro una scheda che il verificatore stesso aveva dichiarato a posto quattro giorni prima: chi controlla sbaglia come chi scrive. Questa procedura **riduce** gli errori, non li azzera — e per questo il campionamento indipendente non si sostituisce con una lista di controllo e non si interrompe quando i numeri migliorano.
+
 ## 5. Gerarchia delle fonti
 
 ### Livello A — Preferite
