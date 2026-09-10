@@ -71,6 +71,14 @@ const NON_E_LORO = /(premi[eè]re partie|opening (?:act|for)|support(?:ing| act)
 const OMONIMO = /\b(air force|army|navy|sergeant|sgt|senior master|airman|regiment|squadron|politic|senator|deputy|professor|bishop)\b/i;
 const MUSICALE = /(band|gruppo|musical|music|cantante|singer|rapper|dj|musicist|rock|pop|metal|duo|complesso)/i;
 
+// Il TRIBUTO non e' l'artista. La categoria Commons di un musicista molto amato
+// — e soprattutto di uno morto — si riempie di cio' che il pubblico gli dedica:
+// stelle sulla Walk of Fame, impronte, targhe, murales, statue, tombe, fiori,
+// case fotografate da fuori. Sono foto legittime, ben licenziate, con il nome
+// giusto nel titolo, e **non ritraggono nessuno**. Per `michael-jackson` erano
+// dodici candidati su dodici.
+const TRIBUTO = /(walk of fame|hollywood star|\bstar 20|hand and foot|handprint|footprint|memorial|tribute|\br\.?i\.?p\.?\b|grave|tomb|cemeter|cimiter|statue|statua|mural|murale|graffiti|waxwork|madame tussauds|plaque|targa|monument|monumento|shrine|nao morreu|n\u00e3o morreu|home los angeles|house\b|street|straat|plate\b|piatto)/i;
+
 const args = process.argv.slice(2);
 const iLim = args.indexOf('--limite');
 const limite = iLim > -1 ? Number(args[iLim + 1]) : 0;
@@ -201,13 +209,20 @@ for (const a of elenco) {
     // La categoria principale, poi le sue sottocategorie, poi la ricerca per
     // nome. Le tre fonti si sommano e i doppioni si tolgono per titolo: una
     // stessa foto puo' stare in tutte e tre.
-    const raccolte = [await fileDellaCategoria(c.cat)];
+    // **Da dove viene un file conta piu' di come si chiama.** Un file dentro la
+    // categoria dell'artista e' stato messo li' da una persona che ha deciso che
+    // riguarda lui; un file trovato cercando il suo nome contiene solo quella
+    // parola. Fino al 10 settembre i due casi valevano uguale, e il risultato
+    // era che per `oasis` tutti e dodici i candidati erano oasi nel deserto e
+    // per `883` c'erano un genio assiro dell'883 a.C. e la galassia IC 883.
+    // Adesso la provenienza si porta dietro e pesa nel punteggio.
+    const raccolte = [{ fonte: 'categoria', pagine: await fileDellaCategoria(c.cat) }];
     for (const sub of await sottocategorie(c.cat)) {
       await attesa(PAUSA);
-      raccolte.push(await fileDellaCategoria(sub));
+      raccolte.push({ fonte: 'sottocategoria', pagine: await fileDellaCategoria(sub) });
     }
     await attesa(PAUSA);
-    try { raccolte.push(await fileCercatiPerNome(a.nome)); } catch (e) { process.stderr.write('(ricerca per nome fallita) '); }
+    try { raccolte.push({ fonte: 'ricerca', pagine: await fileCercatiPerNome(a.nome) }); } catch (e) { process.stderr.write('(ricerca per nome fallita) '); }
     // I nomi alternativi dichiarati a mano in dati/ritratti-alias.json. Gli 883
     // hanno una categoria propria con dentro un solo file, mentre le foto stanno
     // sotto «Max Pezzali»; i Pinguini sotto «Riccardo Zanotti». La categoria che
@@ -215,13 +230,26 @@ for (const a of elenco) {
     // automatismo poteva indovinarlo: si dichiara.
     for (const altro of ALIAS[a.slug] || []) {
       await attesa(PAUSA);
-      try { raccolte.push(await fileCercatiPerNome(altro)); } catch (e) { process.stderr.write(`(ricerca "${altro}" fallita) `); }
+      try { raccolte.push({ fonte: 'ricerca', pagine: await fileCercatiPerNome(altro) }); } catch (e) { process.stderr.write(`(ricerca "${altro}" fallita) `); }
       const c2 = await categoriaDi(altro);
-      if (c2) { await attesa(PAUSA); raccolte.push(await fileDellaCategoria(c2.cat)); }
+      if (c2) { await attesa(PAUSA); raccolte.push({ fonte: 'categoria', pagine: await fileDellaCategoria(c2.cat) }); }
     }
     const perTitolo = new Map();
-    for (const gruppo of raccolte) for (const p of gruppo) if (p && p.title) perTitolo.set(p.title, p);
+    const fonteDi = new Map();
+    const FORZA = { categoria: 3, sottocategoria: 2, ricerca: 1 };
+    for (const gruppo of raccolte) for (const p of (gruppo.pagine || [])) {
+      if (!p || !p.title) continue;
+      perTitolo.set(p.title, p);
+      // Una stessa foto puo' arrivare da piu' strade: vale la piu' forte.
+      const prima = fonteDi.get(p.title);
+      if (!prima || FORZA[gruppo.fonte] > FORZA[prima]) fonteDi.set(p.title, gruppo.fonte);
+    }
     const pagine = [...perTitolo.values()].filter((p) => /\.(jpe?g|png)$/i.test(p.title || ''));
+    // I nomi con cui questo artista puo' comparire in un titolo: il suo, piu'
+    // gli alias dichiarati. Senza gli alias una foto intitolata «Max Pezzali
+    // 2012» prendeva ZERO per lo slug `883` — il meccanismo la trovava e il
+    // punteggio la buttava in fondo.
+    const NOMI = [a.nome, ...(ALIAS[a.slug] || [])];
     const buoni = [];
     for (const p of pagine) {
       const ii = (p.imageinfo || [])[0]; if (!ii) continue;
@@ -229,12 +257,25 @@ for (const a of elenco) {
       const g = licenzaOk(m); if (!g.ok) continue;
       if ((ii.width || 0) < 700) continue;
       const testo = `${p.title} ${pulisci(m.ImageDescription && m.ImageDescription.value)}`;
-      const parole = a.nome.toLowerCase().split(/[^a-z0-9à-ÿ]+/).filter((w) => w.length > 2);
       const minusc = testo.toLowerCase();
-      const quanteParole = parole.filter((w) => minusc.includes(w)).length;
+      // Si prende il nome che combacia meglio, non solo quello dello slug.
+      let quota = 0;
+      for (const nome of NOMI) {
+        const parole = nome.toLowerCase().split(/[^a-z0-9à-ÿ]+/).filter((w) => w.length > 2);
+        if (!parole.length) continue;
+        const q = parole.filter((w) => minusc.includes(w)).length / parole.length;
+        if (q > quota) quota = q;
+      }
       // Il nome dell'artista nel titolo o nella descrizione vale piu' della
       // dimensione: ordinare per pixel metteva in cima l'aeroplano.
-      let punti = parole.length ? (quanteParole / parole.length) * 4 : 0;
+      const fonte = fonteDi.get(p.title) || 'ricerca';
+      let punti = quota * 4;
+      // La provenienza pesa quanto il nome: chi sta nella categoria dell'artista
+      // sale, chi e' stato solo pescato per nome scende sotto tutti gli altri.
+      if (fonte === 'categoria') punti += 3;
+      else if (fonte === 'sottocategoria') punti += 2;
+      else punti -= 3;
+      if (TRIBUTO.test(testo)) punti -= 4;
       if (NON_E_LA_BAND.test(testo)) punti -= 3;
       if (NON_E_UNA_FOTO.test(testo) || NON_E_UNA_FOTO_ATTACCATA.test(testo)) punti -= 3;
       if (NON_E_LORO.test(testo)) punti -= 5;   // il nome c'e' ma ritrae un altro
@@ -242,6 +283,7 @@ for (const a of elenco) {
       if (OPERA_ALTRUI.test(testo)) punti -= 2;
       buoni.push({
         titolo: p.title,
+        fonte,
         punti: Math.round(punti * 100) / 100,
         paginaFile: `https://commons.wikimedia.org/wiki/${p.title.replace(/ /g, '_')}`,
         originale: ii.url, larghezza: ii.width, altezza: ii.height,
@@ -251,7 +293,9 @@ for (const a of elenco) {
         descrizione: pulisci(m.ImageDescription && m.ImageDescription.value).slice(0, 180),
         prova: g.testo,
         attenzione:
-          NON_E_LORO.test(testo) ? 'sembra la band che APRIVA il concerto, non quella del titolo'
+          TRIBUTO.test(testo) ? "sembra un tributo (stella, targa, impronte, murale, tomba, casa), non una foto dell'artista"
+          : fonte === 'ricerca' ? "trovata cercando il nome, NON nella categoria dell'artista: controlla che sia davvero lui"
+          : NON_E_LORO.test(testo) ? 'sembra la band che APRIVA il concerto, non quella del titolo'
           : OMONIMO.test(testo) ? 'sembra un omonimo, non il musicista'
           : OPERA_ALTRUI.test(testo) ? "ritrae un'opera di qualcun altro (murales, statua, manifesto): la licenza del fotografo non basta"
           : (NON_E_UNA_FOTO.test(testo) || NON_E_UNA_FOTO_ATTACCATA.test(testo)) ? "sembra un oggetto o un'immagine tecnica (disco, biglietto, collage, forma d'onda), non una foto della band"
