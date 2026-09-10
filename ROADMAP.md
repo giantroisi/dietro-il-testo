@@ -2300,6 +2300,29 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Verificato**: rigenerato, `check-coerenza` 0, `check-completezza` invariato, `check-attribuzioni` 0, `check-livelli` 56/56 sulle canzoni (libero, esattamente in pari) e 1/1 sulle biografie, nessun nome doppio. Copiato in root, committato in tre passaggi (refuso; `the-beatles`; le quattro canzoni nuove), pushato tutte le volte senza divergenza.
   **Resta aperto**: le 13 correzioni del campione 8 ancora da fare; `andrea-bocelli-e-giorgia`; i domini da classificare.
 
+- **10 settembre 2026 — VERIFICA DELLA SECONDA INFORNATA 4B (la prova d'appello). 59 affermazioni riaperte una per una con l'unita' fine: **3 non reggono, il 5%**. Il rubinetto si apre, con una riga in piu' nella R2-bis.**
+  Metodo identico alle volte precedenti: ogni fonte citata riaperta e interrogata chiedendo **la frase esatta**, non «lo conferma?». Stato congelato ai commit `9a91626b` e `f88a4571`.
+
+  | Canzone | Affermazioni | Non sostenute | Esito |
+  |---|---|---|---|
+  | `another-one-bites-the-dust` | 7 | 0 | pulita — data, etichetta, album, primato in classifica, il giro di basso da «Good Times», gli strumenti suonati da Deacon: tutto con citazione testuale da Wikipedia (EN) |
+  | `take-it-easy` | 8 | 0 | pulita — 1 maggio 1972, traccia d'apertura, numero 12, la Willys fra Utah e Arizona, il piano di sopra e di sotto a Echo Park, il verso del «flatbed Ford», il contributo di Frey raccontato a Cameron Crowe nel 2003: tutto da Ultimate Classic Rock |
+  | `vita-spericolata` | 21 | 0 | pulita — anagrafica confermata parola per parola (24 gennaio 1983, Carosello, lato B «Mi piaci perche'», XXXIII Sanremo, penultimo posto, testo Vasco / musica Tullio Ferro) e racconto confermato da OndaRock (Cagliari, il temporale davanti al campo sportivo, i mesi passati sulla melodia di Ferro, la ragazza Licia, «con entusiasmo, con forza») |
+  | `life-on-mars` | 23 | 3 | tre rilievi, sotto |
+  | **Totale** | **59** | **3 (5,1%)** | |
+
+  **I tre rilievi, tutti nella stessa scheda e tutti con la stessa causa.**
+  1. **DATA SBAGLIATA.** La scheda dice che il singolo usci' il **22 luglio 1973**. Lo dice Far Out Magazine, la fonte del racconto. Ma **Wikipedia (EN), gia' citata nella stessa scheda, dice 22 giugno 1973**, e il sito ufficiale di Bowie scrive: «Life On Mars? single was released forty five years ago today in the UK, June 22nd, 1973» in un articolo datato 22 giugno 2018. La data giusta e' **giugno**. Di conseguenza va rivisto anche il «quasi due anni dopo»: da dicembre 1971 a giugno 1973 sono diciotto mesi.
+  2. **LUOGO SCAMBIATO.** La scheda dice che il riff lo colse «mentre andava a comprare vestiti a Beckenham». La fonte dice: «I took a walk to Beckenham High Street **to catch a bus to Lewisham** to buy shoes and shirts». Beckenham e' dove prese l'autobus; i negozi erano a **Lewisham**. Non un'invenzione: una frase compressa che ha perso quale dei due posti fosse quale.
+  3. **NOME DELLA FONTE.** Il campo `nome` dice «cita dichiarazioni di Bowie **al Daily Mail**». L'articolo scrive solo «told **the Mail**», senza specificare quale testata. E' l'R3 applicata dentro il nome della fonte: va scritto «al Mail» o tolto.
+
+  **Cosa insegna il 5%.** I due rilievi di merito non sono dettagli inventati mentre si scriveva — il difetto delle infornate precedenti — ma **un dato preso dalla fonte sbagliata avendo quella giusta gia' in mano**. La R2-bis chiedeva una fonte per i dati e la scheda ce l'aveva: mancava la regola su cosa fare **quando le due non concordano**. Aggiunta oggi alla R2-bis: l'anagrafica si legge sulla fonte A o B anche quando la fonte C che racconta la storia dice la sua, e se restano diverse si applica la R5 e la divergenza si scrive.
+
+  **Un dubbio da girare all'autore, non una correzione.** In `vita-spericolata` il racconto della genesi riporta «Voglio una vita...» seguito da «maleducata», «spericolata». E' fedele alla fonte e serve a raccontare **come** arrivarono le parole, una alla volta — ma ricompone il verso d'apertura, e la sezione 3 vieta la riproduzione «neppure parziale». Segnalato, non toccato: e' una decisione dell'autore, non del verificatore.
+
+  **Correzione di un mio rilievo precedente (le «pagine-indice»).** Nel lotto scorso avevo segnalato che `rollingstone.it/artista/…` e `rockol.it/artista/…` erano elenchi di articoli senza biografia. Sonnet le ha riaperte con due metodi indipendenti — browser renderizzato e `curl` con user-agent da browser — e ha trovato biografie vere e articolate. **Ha ragione lui**: i suoi due metodi sono quelli del lettore, il mio no. Il mio strumento continua a riportare «nessun testo biografico» sulle stesse pagine anche oggi: e' un disaccordo di strumenti, e in un disaccordo di strumenti vince quello che vede la pagina come la vede un lettore. Il rilievo era mio ed era sbagliato.
+**Verificato**: quattro fonti riaperte con richiesta di citazione testuale (Far Out, Ultimate Classic Rock, OndaRock, Wikipedia EN); i due punti in conflitto di `life-on-mars` controllati su una terza fonte indipendente e di livello A, il sito ufficiale dell'artista. Nessun file di `dati/` toccato: i tre rilievi vanno a Sonnet come ordine separato.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

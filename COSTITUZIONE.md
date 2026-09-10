@@ -247,6 +247,8 @@ Data di uscita, album o singolo autonomo, etichetta, autori, ordine dei singoli,
 
 Sono anche **le più facili da documentare** — la voce dell'album, i crediti del disco, gli archivi delle classifiche — e proprio per questo sono quelle che non vengono documentate: si danno per sapute, e la ricerca si concentra tutta sul racconto. Nelle prime tre schede scritte seguendo questa sezione, **tutto ciò che non reggeva era di questo tipo**: la storia aveva le sue fonti, i dati no.
 
+**Quando la fonte del racconto e la fonte dei dati non dicono la stessa cosa, vincono i dati.** Nella seconda infornata scritta con questa sezione, una scheda ha preso la data di uscita del singolo dall'articolo che raccontava la storia della canzone — una fonte di livello C — mentre la voce enciclopedica e il sito ufficiale dell'artista, già citati nella stessa scheda, ne davano un'altra. Non è stato un dato inventato: è stato **il dato giusto scavalcato da quello più a portata di mano**, dentro una scheda che aveva già la fonte migliore fra le sue. La regola operativa è secca: anagrafica (data, etichetta, autori, classifiche) si legge sulla fonte di livello A o B, anche quando la fonte C che racconta la storia dice la sua; se restano diverse, si applica il R5 e la divergenza si scrive.
+
 ### R3 — Chi dice una cosa fa parte della cosa
 
 Se una frase nomina una testata, un programma, un podcast o un'intervista, quella fonte **deve stare fra le fonti della scheda e contenere davvero ciò che le si attribuisce**. Se non è così, ci sono tre uscite legittime e una sola che non lo è:
