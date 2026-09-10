@@ -126,6 +126,17 @@ function nomePrincipale(nome) {
   return String(nome || '').split(/[(\[\u2014\u2013,;|]/)[0];
 }
 
+// I nomi delle fonti della scheda, ridotti alla parte che si riconosce dentro
+// una frase: «American Songwriter — Alex Hopper (cita...)» diventa
+// «american songwriter».
+function nominaUnaFonteCitata(c, frase) {
+  const f = frase.toLowerCase();
+  return (c.fonti || []).some((x) => {
+    const n = nomePrincipale(x.nome).trim().toLowerCase();
+    return n.length >= 5 && f.includes(n);
+  });
+}
+
 function citata(c, indizi) {
   const dove = (c.fonti || [])
     .map((f) => `${nomePrincipale(f.nome)} ${f.url || ''}`.toLowerCase())
@@ -201,6 +212,15 @@ for (const c of canzoni) {
       // se subito dopo il nome c'e' una coda che ne fa un titolo, non e' una fonte
       if (CODE_INNOCUE.test(frase.slice(m.index + m[0].length - 1))) continue;
       if (!attribuzione(frase, nome)) continue;
+      // 10 settembre 2026 — falso positivo mio, trovato il giorno dopo aver
+      // stretto il controllo. L'uscita numero 3 della regola R3 e' attribuire
+      // a chi riporta: «Secondo American Songwriter, che cita una sua
+      // intervista a Rolling Stone del 2000, Hoppus racconto'...». Quella frase
+      // e' **corretta**, ed e' esattamente cio' che il controllo dovrebbe
+      // premiare — invece la segnalava, perche' dentro c'e' il nome di Rolling
+      // Stone. Se nella stessa frase compare il nome di una fonte davvero
+      // citata dalla scheda, l'attribuzione e' gia' mediata: non e' un rilievo.
+      if (nominaUnaFonteCitata(c, frase)) continue;
       if (contesti.some((x) => x.nome === nome)) break;
       contesti.push({ nome, frase: frase.trim().slice(0, 220) });
       break;
