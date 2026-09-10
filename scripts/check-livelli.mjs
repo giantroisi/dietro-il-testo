@@ -90,6 +90,14 @@ const A = new Set([
   // whitneyhouston.com gia' in lista. Citato per i crediti di un suo disco:
   // e' la fonte primaria di quel fatto.
   'johnlennon.com',
+  // 10 settembre 2026, entrati con l'ottavo lotto di biografie. Enti che
+  // assegnano i premi di cui si parla (Rock and Roll Hall of Fame, Academy of
+  // Motion Picture Arts and Sciences) e un'enciclopedia accademica statale
+  // (New Georgia Encyclopedia, Georgia Humanities con la University of Georgia
+  // Press). Stessa famiglia di RIAA, Grammy e Treccani gia' in lista;
+  // classificati per la natura dell'ente, non aprendo le singole pagine —
+  // l'eccezione al metodo resta scritta, come il 9 settembre.
+  'rockhall.com', 'oscars.org', 'georgiaencyclopedia.org',
   // Opere di riferimento con direzione editoriale, accanto a Treccani e
   // Britannica gia' in lista: l'enciclopedia nazionale canadese, l'Handbook of
   // Texas della Texas State Historical Association e l'Encyclopedia of Arkansas
@@ -139,6 +147,8 @@ const B = new Set([
   'ilgiornale.it',     // quotidiano nazionale
   'quotidiano.net',    // testata del gruppo QN, come ilrestodelcarlino.it gia' in lista
   'laragione.eu',      // aperta: testata registrata, direttore responsabile, pezzo firmato e datato
+  'ilgiorno.it',       // quotidiano del gruppo QN, come quotidiano.net e ilrestodelcarlino.it
+  'pbs.org',           // servizio pubblico radiotelevisivo americano: documentari identificabili, sezione 5
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
