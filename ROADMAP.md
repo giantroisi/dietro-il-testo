@@ -2346,6 +2346,26 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Restano 18 promesse da aprire**, fra cui le tre schede dei Bring Me the Horizon che rimandano a una «copia integrale su Metal Fucking Rocks» di un pezzo di Metal Hammer (un blog che ripubblica: da guardare con attenzione, perche' e' il caso in cui la promessa e' anche la ragione per cui il collegamento e' accettabile).
 **Verificato**: dieci pagine riaperte una per una con richiesta di citazione testuale, non di conferma. Nessun file di `dati/` toccato: la correzione va a Sonnet.
 
+- **10 settembre 2026 — `life-on-mars` corretta, poi TERZA INFORNATA: 6 canzoni nuove con la R2-bis a regime.**
+  **Prima cosa, `life-on-mars`.** I tre rilievi segnalati sono stati corretti tutti su `davidbowie.com` (fonte ufficiale, livello A) e Wikipedia EN, già citate nella scheda: data del singolo 22 giugno 1973 (non 22 luglio), «diciotto mesi dopo» al posto di «quasi due anni», Beckenham High Street come fermata dell'autobus per Lewisham (dove Bowie andò a comprare scarpe e camicie) e non come luogo dell'acquisto, «al Mail» al posto di «al Daily Mail» nel nome della fonte Far Out. Commit `d2452580`, già pushato prima di questa voce.
+  **La parte nuova.** Sei schede scritte da zero, stesso metodo della seconda infornata — prima la fonte dei dati, poi quella del racconto — con in più il controllo di conflitto chiesto nella riga aggiunta alla R2-bis: dove le due fonti si sono sovrapposte sugli stessi dati, ho controllato che dicessero la stessa cosa prima di scrivere, non dopo. In tre casi (`your-song`, `sympathy-for-the-devil`, `kashmir`) la fonte di livello A (Official Charts) è stata aperta con browser renderizzato e non solo riassunta, perché un primo riassunto automatico di `your-song` mi aveva dato un numero sbagliato (7 contro 4) confondendo il picco della pubblicazione originale del 1971 con quello del rientro in classifica del 2002 — la tabella settimanale della stessa pagina, letta per intero, ha sciolto il dubbio senza bisogno di una terza fonte.
+  Due artisti inizialmente scelti — Aerosmith («Dream On») e The Who («My Generation») — non esistono ancora come schede biografiche nel catalogo: creare una biografia nuova è un lavoro diverso (tutto il processo di verifica usato nei lotti sulle biografie), fuori dallo scopo di un lotto di canzoni, quindi li ho sostituiti con due brani di artisti già in catalogo (Elton John, Rolling Stones) prima di scrivere una sola riga.
+  Controllato per ciascuno dei 6 slug che non esistesse già una variante con suffisso, non solo lo slug nudo (l'errore di `zombie-cranberries` della prima infornata).
+
+  | Canzone | Artista | Fonte dati (livello) | Fonte racconto (livello) |
+  |---|---|---|---|
+  | Kashmir | Led Zeppelin | Official Charts, album *Physical Graffiti* (A) | Louder/Classic Rock — Mick Wall, con dichiarazioni dirette di Plant e Page (B); American Songwriter — Melanie Davis (B) |
+  | Wanted Dead or Alive | Bon Jovi | Official Charts, singolo (A) | uDiscover Music — Tim Peacock, 2 marzo 2026 (B) |
+  | Man in the Mirror | Michael Jackson | Official Charts, singolo (A) | American Songwriter — Paul Zollo, 10 marzo 2020, con dichiarazioni dirette di Siedah Garrett (B) |
+  | Bocca di rosa | Fabrizio De André | Rockol — Redazione, 31/05/2022 (B) | stessa fonte (B) |
+  | Your Song | Elton John | Official Charts, singolo (A) | Louder/Classic Rock — Briony Edwards, 26 ottobre 2022, con dichiarazioni dirette di Taupin e John (B) |
+  | Sympathy for the Devil | The Rolling Stones | Official Charts, album *Beggars Banquet* (A) | uDiscover Music — Simon Harper, 6 dicembre 2024 (B) |
+
+  `bocca-di-rosa` ha una sola fonte extra-Spotify (Rockol, livello B): copre sia i dati sia il racconto e non lascia nessuna affermazione scoperta, ma è l'unica delle sei senza una seconda fonte indipendente — segnalato perché lo si veda, non perché sia un problema secondo la regola attuale (non è C-sola).
+  Registrate le sei canzoni negli array `canzoni[]` dei rispettivi artisti in `dati/artisti.json` (`led-zeppelin`, `bon-jovi`, `michael-jackson`, `fabrizio-de-andre`, `elton-john`, `the-rolling-stones`); album collegati già presenti nelle rispettive discografie (`physical-graffiti`, `slippery-when-wet`, `bad`, `vol-1`, `elton-john-1970`, `beggars-banquet`), nessun album orfano creato.
+**Verificato**: `genera-sito.mjs` (295 canzoni, 649 pagine), `check-coerenza.mjs` (0 problemi, dopo aver corretto l'anno di due schede — 1986 non 1987 per `wanted-dead-or-alive`, 1987 non 1988 per `man-in-the-mirror` — per farlo coincidere con l'anno di uscita dell'album in discografia, non con l'anno in cui il singolo è entrato in classifica), `check-completezza.mjs` (0 mancanze sulle 6 nuove; l'unico spotifyId mancante nel catalogo è preesistente, `the-sound-of-silence`, non mio), `check-attribuzioni.mjs` (0 testate nominate senza fonte fra le 6), `check-livelli.mjs` (freno canzoni libero, 53/53; nessuna delle 6 è C-sola). Copiato in root, committato (`77d710c4`), pushato.
+**Aperto**: nessuno per queste sei schede. Resta aperto solo `andrea-bocelli-e-giorgia` per il freno biografie (`musicologica.it` irraggiungibile dai miei strumenti), non toccato in questo giro.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
