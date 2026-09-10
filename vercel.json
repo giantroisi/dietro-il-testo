@@ -566,11 +566,6 @@
       "permanent": true
     },
     {
-      "source": "/album/david-bowie/hunky-dory/",
-      "destination": "/artista/david-bowie/",
-      "permanent": true
-    },
-    {
       "source": "/album/david-bowie/the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars/",
       "destination": "/artista/david-bowie/",
       "permanent": true
@@ -1018,11 +1013,6 @@
     {
       "source": "/album/domenico-modugno/pazzo-amore/",
       "destination": "/artista/domenico-modugno/",
-      "permanent": true
-    },
-    {
-      "source": "/album/eagles/eagles/",
-      "destination": "/artista/eagles/",
       "permanent": true
     },
     {
@@ -4197,11 +4187,6 @@
     },
     {
       "source": "/album/queen/jazz/",
-      "destination": "/artista/queen/",
-      "permanent": true
-    },
-    {
-      "source": "/album/queen/the-game/",
       "destination": "/artista/queen/",
       "permanent": true
     },

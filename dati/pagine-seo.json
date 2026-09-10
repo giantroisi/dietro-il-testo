@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 285,
+    "nCanzoni": 289,
     "haTestoEditoriale": true
   },
   {
@@ -1462,6 +1462,26 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/another-one-bites-the-dust/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/life-on-mars/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/take-it-easy/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/vita-spericolata/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1598,7 +1618,7 @@
     "percorso": "artista/david-bowie/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1633,7 +1653,7 @@
     "percorso": "artista/eagles/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1990,7 +2010,7 @@
     "percorso": "artista/queen/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2172,7 +2192,7 @@
     "percorso": "artista/vasco-rossi/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2827,6 +2847,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/david-bowie/hunky-dory/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/david-bowie/heroes/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -2856,6 +2883,13 @@
   },
   {
     "percorso": "album/domenico-modugno/singolo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/eagles/eagles/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3520,6 +3554,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/queen/the-game/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/r-e-m/out-of-time/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3754,7 +3795,7 @@
     "percorso": "album/vasco-rossi/bollicine/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 0,
+    "nCanzoni": 1,
     "haTestoEditoriale": true
   },
   {
@@ -3782,7 +3823,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 141,
+    "nCanzoni": 145,
     "haTestoEditoriale": true
   },
   {
@@ -3810,14 +3851,14 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 38,
+    "nCanzoni": 40,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 47,
+    "nCanzoni": 49,
     "haTestoEditoriale": true
   },
   {
