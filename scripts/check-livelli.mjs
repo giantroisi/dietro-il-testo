@@ -414,6 +414,28 @@ console.log(`  documentate con A o B      ${conFonti.length - bioSenzaAB.length}
 // congelato: da qui in avanti una biografia nuova o riscritta senza una fonte
 // di livello A o B fa fallire il controllo, esattamente come per le schede.
 // Si abbassa a mano, mai da sola.
+// Due fonti diverse con lo STESSO nome visibile: per chi legge sono
+// indistinguibili — «01 Ultimate Classic Rock — Corey Irwin» e «02 Ultimate
+// Classic Rock — Corey Irwin», uno sotto l'altro, sembrano un errore anche
+// quando sono due articoli veri e diversi. Trovato guardando la pagina degli
+// White Stripes pubblicata. Il rimedio e' una riga: aggiungere al nome cio'
+// che distingue i due pezzi (l'argomento, o la data).
+const nomiDoppi = [];
+for (const a of conStoria) {
+  const conteggio = new Map();
+  for (const f of a.fonti || []) {
+    const n = String(f.nome || '').trim();
+    conteggio.set(n, (conteggio.get(n) || 0) + 1);
+  }
+  const doppi = [...conteggio.entries()].filter(([, n]) => n > 1);
+  if (doppi.length) nomiDoppi.push(`${a.slug}: ${doppi.map(([n, q]) => `"${n}" ×${q}`).join(', ')}`);
+}
+if (nomiDoppi.length) {
+  console.log(`\n  Fonti diverse con lo stesso nome visibile, in ${nomiDoppi.length} biografie:`);
+  for (const r of nomiDoppi) console.log(`    ${r}`);
+  console.log('    Non e’ un errore di fatto: e’ una riga che il lettore non sa distinguere.');
+}
+
 const SOGLIA_BIO = 1;
 const bioScoperte = senzaFonti.length + bioSenzaAB.length;
 const bioSforato = bioScoperte > SOGLIA_BIO;
