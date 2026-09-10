@@ -2,6 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
+import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
 // collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
@@ -546,7 +547,44 @@ export function paginaCanzone(c, ctx) {
         </div>`
     : '';
 
-  const corpoHtml = c.corpo.map((p) => `<p>${esc(p)}</p>`).join('\n        ');
+  // F97 — la natura di ogni affermazione, quando i dati la dichiarano.
+  //
+  // **Questa parte e' inerte finche' il campo non esiste.** Se `naturaCorpo`
+  // manca, o non combacia con le frasi del testo, la pagina esce identica a
+  // com'era: un dato incerto non deve poter marcare una frase, perche'
+  // un'etichetta spostata di una frase e' peggio di nessuna etichetta — sembra
+  // giusta. Il motivo del rifiuto lo dice `check-nature.mjs`, non il silenzio.
+  //
+  // Cosa vede il lettore: il **fatto documentato** non porta segno, perche' e'
+  // la linea di base di tutto il sito. Portano segno le altre due, che sono
+  // quelle su cui puo' non essere d'accordo: la dichiarazione dell'artista e
+  // l'interpretazione accreditata. E' il minimo che rende visibile la
+  // distinzione senza trasformare la lettura in una scheda tecnica.
+  const natura = verificaNatura(c.corpo, c.naturaCorpo);
+  let usaNature = false;
+  const corpoHtml = c.corpo
+    .map((par, i) => {
+      if (!natura.ok) return `<p>${esc(par)}</p>`;
+      const frasi = inFrasi(par);
+      const segni = c.naturaCorpo[i];
+      const dentro = frasi
+        .map((f, j) => {
+          const k = segni[j];
+          const n = k && NATURE[k];
+          if (!n || !n.segno) return esc(f);
+          usaNature = true;
+          return `<span class="aff aff-${esc(k)}"><span class="aff-testo">${esc(f)}</span><span class="aff-nome"> — ${esc(n.nome)}</span></span>`;
+        })
+        .join(' ');
+      return `<p>${dentro}</p>`;
+    })
+    .join('\n        ');
+
+  // La legenda compare solo se sulla pagina c'e' davvero qualcosa di segnato:
+  // spiegare un segno che non c'e' e' rumore.
+  const legendaNature = usaNature
+    ? `<p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>`
+    : '';
 
   const extra = (c.sezioniExtra || [])
     .map((s, i) => {
@@ -671,6 +709,7 @@ export function paginaCanzone(c, ctx) {
       <h2>La storia</h2>
       <div class="prosa">
         ${corpoHtml}
+        ${legendaNature}
       </div>
     </section>
 
