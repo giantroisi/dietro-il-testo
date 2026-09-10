@@ -12038,7 +12038,7 @@
   {
     "slug": "the-beatles",
     "nome": "The Beatles",
-    "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il gruppo, passato attraverso vari nomi (tra cui Johnny and the Moondogs), si allargò verso la fine del 1959 con l'ingresso del bassista Stuart Sutcliffe, amico pittore di Lennon, e nel 1960 con quello del batterista Pete Best, completando così il quintetto che adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll. Sutcliffe lasciò il gruppo nel luglio 1961 per dedicarsi all'arte e morì improvvisamente nell'aprile 1962; Best fu invece licenziato il 16 agosto 1962, sostituito da Ringo Starr due giorni dopo, pochi mesi prima del grande successo commerciale della band.",
+    "storia": "Le origini risalgono al novembre 1956 a Liverpool, quando John Lennon, sedicenne, formò il gruppo skiffle The Quarrymen con alcuni compagni di scuola, prendendo il nome dalla Quarry Bank High School. Paul McCartney si unì nell'estate del 1957 e George Harrison, raccomandato dallo stesso McCartney, il 6 febbraio 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il gruppo, sempre più influenzato dal rock and roll americano, passò attraverso vari nomi — tra cui Johnny and the Moondogs e The Silver Beetles — prima di allargarsi verso la fine del 1959 con l'ingresso del bassista Stuart Sutcliffe, amico pittore di Lennon, e nel 1960 con quello del batterista Pete Best, completando così il quintetto che adottò il nome Beatles, abbandonando definitivamente lo skiffle per il rock and roll. Sutcliffe lasciò il gruppo nel luglio 1961 per dedicarsi all'arte e morì improvvisamente nell'aprile 1962; Best fu invece licenziato il 16 agosto 1962, sostituito da Ringo Starr due giorni dopo, pochi mesi prima del grande successo commerciale della band.",
     "album": [
       {
         "titolo": "Please Please Me",
@@ -12151,13 +12151,33 @@
     "colore": "#3E7A2C",
     "fonti": [
       {
+        "url": "https://ultimateclassicrock.com/classic-rock-band-names/",
+        "nome": "Ultimate Classic Rock — Ennio Gallucci",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/john-lennon-meets-paul-mccartney/",
+        "nome": "Ultimate Classic Rock — Michael Gallucci",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/55-years-ago-harrison-joins-quarry-men/",
+        "nome": "Ultimate Classic Rock — Dave Lifton (l'ingresso di Harrison)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/george-harrison-the-quarrymen/",
+        "nome": "Ultimate Classic Rock — Allison Rapp",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://ultimateclassicrock.com/stuart-sutcliffe-leaves-beatles/",
         "nome": "Ultimate Classic Rock — Dave Swanson",
         "ruolo": "storia"
       },
       {
         "url": "https://ultimateclassicrock.com/beatles-fire-pete-best/",
-        "nome": "Ultimate Classic Rock — Dave Lifton",
+        "nome": "Ultimate Classic Rock — Dave Lifton (il licenziamento di Best)",
         "ruolo": "storia"
       }
     ],
