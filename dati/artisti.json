@@ -10866,7 +10866,7 @@
   {
     "slug": "red-hot-chili-peppers",
     "nome": "Red Hot Chili Peppers",
-    "storia": "Formati a Los Angeles nel dicembre 1982 da un gruppo di compagni di liceo — il cantante Anthony Kiedis, il chitarrista Hillel Slovak, il bassista Flea e il batterista Jack Irons — inizialmente con il nome Tony Flow and the Miraculously Majestic Masters of Mayhem, presero il nome definitivo nel marzo 1983. Cresciuti nella scena punk di Los Angeles, si esibivano lungo il Sunset Strip spesso vestiti con i soli calzettoni; il primo album, che portava il loro nome, uscì nel 1984 senza Slovak e Irons, impegnati con un'altra band.",
+    "storia": "Formati a Los Angeles nel dicembre 1982 da un gruppo di compagni di liceo — il cantante Anthony Kiedis, il chitarrista Hillel Slovak, il bassista Flea e il batterista Jack Irons — inizialmente con il nome Tony Flow and the Miraculously Majestic Masters of Mayhem, presero il nome definitivo nel marzo 1983. Cresciuti nella scena punk di Los Angeles, si esibivano spesso vestiti con i soli calzettoni; il primo album, che portava il loro nome, uscì nel 1984 senza Slovak e Irons, impegnati con un'altra band. I due rientrarono in formazione per il secondo album, \"Freaky Styley\" (1985), ma nel giugno 1988 Slovak morì per overdose di eroina e Irons lasciò il gruppo sconvolto: Kiedis e Flea ricostruirono la band con il nuovo chitarrista John Frusciante, appena diciottenne, e il batterista Chad Smith, aprendo la strada al successo di \"Blood Sugar Sex Magik\" (1991).",
     "album": [
       {
         "titolo": "The Red Hot Chili Peppers",
@@ -10975,7 +10975,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#8A2E1F"
+    "colore": "#8A2E1F",
+    "fonti": [
+      {
+        "url": "https://loudwire.com/red-hot-chili-peppers-self-titled-debut-album-anniversary/",
+        "nome": "Loudwire — Chad Childers",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/bands-artists/the-night-red-hot-chili-peppers-anthony-kiedis-learned-hillel-slovak-had-died",
+        "nome": "Louder / Classic Rock — Paul Brannigan",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/john-frusciante-rejoins-red-hot-chili-peppers/",
+        "nome": "Ultimate Classic Rock — Matthew Wilkening",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "renato-zero",
@@ -11230,12 +11248,30 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#6E1F5C"
+    "colore": "#6E1F5C",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/renato-zero/",
+        "nome": "Treccani — Enciclopedia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/artista/renato-zero/biografia",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/musica/interviste-musica/renato-zero-ho-cantato-di-fronte-a-un-solo-spettatore-ma-non-ho-mai-mollato/537300/",
+        "nome": "Rolling Stone Italia — Gianmarco Aimi",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "rino-gaetano",
     "nome": "Rino Gaetano",
-    "storia": "Salvatore Antonio Gaetano nasce a Crotone, in Calabria, nel 1950; nel 1960 la famiglia si trasferisce a Roma, dove viene mandato a studiare in un seminario per garantirgli un'istruzione solida, senza intenzioni religiose. Partecipò al Festival di Sanremo 1978 con \"Gianna\"; autore di canzoni graffianti, spesso in difesa del Sud e degli sfruttati, morì il 2 giugno 1981 in un incidente stradale a Roma dopo che cinque ospedali ne rifiutarono il ricovero. Il suo successo di pubblico crebbe soprattutto dopo la morte, in particolare dopo il 2000.",
+    "storia": "Salvatore Antonio Gaetano nasce a Crotone, in Calabria, nel 1950; nel 1960 la famiglia si trasferisce a Roma e l'anno seguente viene mandato a studiare in seminario, per garantirgli un'istruzione solida, senza alcuna intenzione religiosa. Partecipò al Festival di Sanremo 1978 con \"Gianna\", classificandosi terzo; autore di canzoni graffianti, spesso in difesa del Sud e degli sfruttati, morì il 2 giugno 1981 in un incidente stradale sulla via Nomentana, a Roma. La leggenda secondo cui cinque ospedali romani ne rifiutarono il ricovero è stata smentita dalla sorella Anna Gaetano, secondo cui il ferito fu portato al Policlinico Umberto I in quanto più vicino al luogo dell'incidente, ma la struttura non disponeva di una sala operatoria attrezzata per il trauma cranico riportato, così come gli altri ospedali contattati telefonicamente nel corso della notte; solo alle prime luci dell'alba fu trasferito al Policlinico Gemelli, dove morì. Il suo successo di pubblico crebbe soprattutto dopo la morte, in particolare a partire dagli anni 2000.",
     "album": [
       {
         "titolo": "Ingresso libero",
@@ -11296,12 +11332,35 @@
       "pop"
     ],
     "paese": "it",
-    "colore": "#2E6EA6"
+    "colore": "#2E6EA6",
+    "fonti": [
+      {
+        "url": "https://www.treccani.it/enciclopedia/rino-gaetano_(altro)/",
+        "nome": "Treccani — Enciclopedia della Musica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.icsaicstoria.it/dizionario/gaetano-rino/",
+        "nome": "ICSAIC — Dizionario Biografico, a cura di Letterio Licordari",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ck12.it/2021/08/01/rino-gaetano-morte-sorella/",
+        "nome": "Ck12 Giornale — Giuliana Macaluso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2015/06/02/rino-gaetano-il-2-giugno-1981-la-morte-di-un-talento_ba418c5b-36c6-4291-8dd9-8171f233d7d9.html",
+        "nome": "ANSA — Paolo Biamonte",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "simon-garfunkel",
     "nome": "Simon & Garfunkel",
-    "storia": "Paul Simon e Art Garfunkel si conobbero alle elementari nel Queens, a New York, nel 1953, accomunati dalla passione per l'armonia doo-wop; nel 1955 formarono il duo Tom & Jerry, con cui ottennero un piccolo successo nel 1957 prima di separarsi per gli studi universitari. Si riunirono nel 1963 come Simon & Garfunkel, questa volta dedicandosi al folk, firmando con la Columbia Records nel 1964; il successo arrivò nel 1965 grazie al singolo \"The Sound of Silence\".",
+    "storia": "Paul Simon e Art Garfunkel si conobbero alle elementari nel Queens, a New York, accomunati dalla passione per l'armonia doo-wop; a metà degli anni Cinquanta formarono il duo Tom & Jerry, con cui ottennero un piccolo successo nel 1957, prima di separarsi per gli studi universitari. Si riunirono nel 1963 come Simon & Garfunkel, questa volta dedicandosi al folk, e furono messi sotto contratto dalla Columbia Records. Il loro album di debutto, \"Wednesday Morning, 3 A.M.\" (1964), che conteneva la versione originale e puramente acustica di \"The Sound of Silence\", fu però un flop commerciale e il duo si sciolse di nuovo, con Simon trasferitosi a Londra e Garfunkel tornato agli studi. Nel 1965, senza che i due ne fossero a conoscenza, il produttore Tom Wilson sovraincise al brano una base elettrica con chitarra, basso e batteria: la nuova versione, pubblicata come singolo nel settembre 1965, raggiunse il primo posto della classifica Billboard nel gennaio 1966, spingendo il duo a riunirsi una seconda volta per capitalizzare sul successo.",
     "album": [
       {
         "titolo": "Wednesday Morning, 3 A.M. / Sounds of Silence",
@@ -11347,7 +11406,25 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#2E3A4A"
+    "colore": "#2E3A4A",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/simon-garfunkel-sounds-of-silence/",
+        "nome": "Ultimate Classic Rock — Frank Mastropolo",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/simon-and-garfunkel-debut-album/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.smithsonianmag.com/arts-culture/sound-silence-surprise-hit-180957672/",
+        "nome": "Smithsonian Magazine — Geoffrey Himes",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "slayer",
@@ -11575,7 +11652,7 @@
   {
     "slug": "soundgarden",
     "nome": "Soundgarden",
-    "storia": "Formati a Seattle nel 1984 dal cantante e chitarrista ritmico Chris Cornell, dal chitarrista solista Kim Thayil e dal bassista Hiro Yamamoto, presero il nome da un'installazione artistica del parco Sand Point. Cornell suonava inizialmente anche la batteria cantando, ruolo poi affidato a Scott Sundquist nel 1985 e definitivamente a Matt Cameron dal 1986. Il successo arrivò con gli album \"Badmotorfinger\" (1991) e \"Superunknown\" (1994); il gruppo si sciolse nel 1997, si riunì nel 2010 e si fermò definitivamente dopo la morte di Cornell nel 2017.",
+    "storia": "Formati a Seattle nel 1984 dal cantante e chitarrista ritmico Chris Cornell, dal chitarrista solista Kim Thayil e dal bassista Hiro Yamamoto, presero il nome da un'installazione artistica del parco Sand Point. Cornell suonava inizialmente anche la batteria cantando, ruolo poi affidato a Scott Sundquist nel 1985 e definitivamente a Matt Cameron dal 1986. Yamamoto lasciò la band nel 1989; dopo una breve parentesi con Jason Everman, il basso passò a Ben Shepherd nel 1990, a tempo per gli album del successo, \"Badmotorfinger\" (1991) e \"Superunknown\" (1994). Il gruppo si sciolse nel 1997, si riunì nel 2010 e si fermò definitivamente dopo la morte di Chris Cornell, il 18 maggio 2017.",
     "album": [
       {
         "titolo": "Screaming Life",
@@ -11649,7 +11726,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#4A3E6E"
+    "colore": "#4A3E6E",
+    "fonti": [
+      {
+        "url": "https://chriscornell.com/history/soundgarden/",
+        "nome": "ChrisCornell.com (sito ufficiale)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/features/soundgarden-band-history-chris-cornell",
+        "nome": "Louder — Greg Prato",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/soundgarden-badmotorfinger-album-1991/",
+        "nome": "Ultimate Classic Rock — Michael Christopher",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/news/music/soundgarden-found-out-about-chris-cornell-death-through-their-own-facebook-page-2605350",
+        "nome": "NME — Nick Reilly",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "sum-41",
@@ -11838,7 +11938,7 @@
   {
     "slug": "the-beatles",
     "nome": "The Beatles",
-    "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il trio, passato attraverso vari nomi (tra cui Johnny and the Moondogs), adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll.",
+    "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il gruppo, passato attraverso vari nomi (tra cui Johnny and the Moondogs), si allargò nel 1960 con l'ingresso del bassista Stuart Sutcliffe, amico pittore di Lennon, e del batterista Pete Best, completando così il quintetto che adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll. Sutcliffe lasciò il gruppo nel luglio 1961 per dedicarsi all'arte e morì improvvisamente nell'aprile 1962; Best fu invece licenziato il 16 agosto 1962, sostituito da Ringo Starr due giorni dopo, pochi mesi prima del grande successo commerciale della band.",
     "album": [
       {
         "titolo": "Please Please Me",
@@ -11948,12 +12048,25 @@
       "pop"
     ],
     "paese": null,
-    "colore": "#3E7A2C"
+    "colore": "#3E7A2C",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/stuart-sutcliffe-leaves-beatles/",
+        "nome": "Ultimate Classic Rock — Dave Swanson",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/beatles-fire-pete-best/",
+        "nome": "Ultimate Classic Rock — Dave Lifton",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-clash",
     "nome": "The Clash",
-    "storia": "Formati a Londra nel 1976, nacquero dall'incontro tra Joe Strummer e Mick Jones, quest'ultimo spinto a mettere su una band dopo aver visto un concerto dei Sex Pistols; li raggiunsero il bassista Paul Simonon, che Jones convinse a imparare uno strumento, e dopo alcuni cambi di formazione il batterista Topper Headon. Il primo album, omonimo, fu scritto e inciso in tre settimane nel febbraio 1977 ed entrò al numero 12 della classifica britannica.",
+    "storia": "Formati a Londra nel 1976, nacquero dall'incontro tra Joe Strummer — cantante dei pub-rocker 101ers, band che aveva fondato nel 1974 — e Mick Jones, che con Paul Simonon e il batterista Terry Chimes suonava già nei London SS; Jones, spinto a mettere su una nuova band dopo aver visto un concerto dei Sex Pistols, convinse Simonon a imparare il basso. Il primo album, omonimo, fu scritto e inciso in tre settimane nel febbraio 1977 con Chimes alla batteria (accreditato in copertina come \"Tory Crimes\") ed entrò al numero 12 della classifica britannica; il batterista Topper Headon si unì alla band solo nel maggio 1977, dopo l'uscita del disco, sostituendo Chimes in vista del secondo album, \"Give 'Em Enough Rope\" (1978).",
     "album": [
       {
         "titolo": "The Clash",
@@ -12014,12 +12127,30 @@
       "punk"
     ],
     "paese": null,
-    "colore": "#A6231F"
+    "colore": "#A6231F",
+    "fonti": [
+      {
+        "url": "https://ultimateclassicrock.com/the-clash-fire-topper-headon/",
+        "nome": "Ultimate Classic Rock — Nick DeRiso",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/photos/50-things-you-never-knew-about-the-clash-1412993",
+        "nome": "NME — Sarah Anderson",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.loudersound.com/reviews/the-clash-the-clash-album-review",
+        "nome": "Louder (Classic Rock) — Scott Rowley",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-cranberries",
     "nome": "The Cranberries",
-    "storia": "Formati a Limerick, in Irlanda, nel 1989 dai fratelli Noel e Mike Hogan insieme al batterista Fergal Lawler, inizialmente con il cantante Niall Quinn e il nome The Cranberry Saw Us, cambiarono nome quando nel 1990 Quinn fu sostituito da Dolores O'Riordan, che divenne cantante e principale autrice del gruppo. Esordirono con l'album \"Everybody Else Is Doing It, So Why Can't We?\" nel 1993.",
+    "storia": "Formati a Limerick, in Irlanda, nel 1989 dai fratelli Noel e Mike Hogan insieme al batterista Fergal Lawler, inizialmente con il cantante Niall Quinn e il nome The Cranberry Saw Us, cambiarono nome quando nel 1990 Quinn fu sostituito da Dolores O'Riordan, che divenne cantante e principale autrice del gruppo. Esordirono con l'album \"Everybody Else Is Doing It, So Why Can't We?\" nel 1993. O'Riordan morì il 15 gennaio 2018, a 46 anni, per annegamento dovuto a intossicazione da alcol, in un hotel di Londra; il gruppo pubblicò postumo, nel 2019, l'ultimo album \"In the End\", con le sue parti vocali già registrate prima della morte.",
     "album": [
       {
         "titolo": "Everybody Else Is Doing It, So Why Can't We?",
@@ -12087,12 +12218,20 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#5C6B3E"
+    "colore": "#5C6B3E",
+    "fonti": [
+      {
+        "url": "https://www.nme.com/news/music/dolores-oriordans-cause-death-revealed-inquest-2374828",
+        "nome": "NME — Andrew Trendell",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-doors",
     "nome": "The Doors",
-    "storia": "Formati a Los Angeles nel luglio 1965 dall'incontro casuale tra Jim Morrison e Ray Manzarek, entrambi ex studenti della scuola di cinema della UCLA, sulla spiaggia di Venice; Manzarek, colpito dai testi che Morrison gli mostrò, propose di formare insieme una band, completata dal chitarrista Robby Krieger e dal batterista John Densmore. Il nome, inizialmente \"The Doors of Perception\", si ispira a una frase del poeta William Blake sulle \"porte della percezione\".",
+    "storia": "Formati a Los Angeles nella seconda metà del 1965, quando l'incontro casuale tra Jim Morrison e Ray Manzarek — entrambi ex studenti della scuola di cinema della UCLA — sulla spiaggia di Venice, nel luglio di quell'anno, portò Manzarek, colpito dai versi che Morrison gli mostrò, a proporgli di unirsi al suo gruppo Rick and the Ravens. Il chitarrista Robby Krieger e il batterista John Densmore, che suonavano insieme nei Psychedelic Rangers, furono reclutati poco dopo, completando la formazione. Il nome The Doors fu scelto in omaggio al libro di Aldous Huxley \"The Doors of Perception\" (1954), il cui titolo riprende un verso del poeta William Blake sulle \"porte della percezione\". Jim Morrison morì il 3 luglio 1971 a Parigi, ufficialmente per insufficienza cardiaca; non fu eseguita alcuna autopsia e le circostanze della sua morte restano controverse. I tre membri superstiti continuarono come trio, pubblicando gli album \"Other Voices\" (1971) e \"Full Circle\" (1972), prima di sciogliersi definitivamente il 30 agosto 1973.",
     "album": [
       {
         "titolo": "The Doors",
@@ -12173,12 +12312,30 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#1F2E3E"
+    "colore": "#1F2E3E",
+    "fonti": [
+      {
+        "url": "https://thedoors.com/the-band",
+        "nome": "TheDoors.com — sito ufficiale The Doors",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/doors-break-up/",
+        "nome": "Ultimate Classic Rock — Jeff Giles",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/doors-bass-players/",
+        "nome": "Ultimate Classic Rock — Bryan Wawzenek",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-killers",
     "nome": "The Killers",
-    "storia": "Formati a Las Vegas nel 2001 dal cantante Brandon Flowers, appena uscito da un gruppo synth-pop, e dal chitarrista Dave Keuning, conosciuto tramite un annuncio pubblicato su un giornale locale, presero il nome da una band immaginaria vista nel video del brano \"Crystal\" dei New Order. Il bassista Mark Stoermer e il batterista Ronnie Vannucci Jr. completarono la formazione nel 2002.",
+    "storia": "Formati a Las Vegas nel 2001 dal cantante Brandon Flowers, appena uscito dal gruppo synth-pop Blush Response, e dal chitarrista Dave Keuning, conosciuto tramite un annuncio pubblicato su un giornale locale, presero il nome da una band immaginaria vista nel video del brano \"Crystal\" dei New Order. Dopo una fase iniziale con altri batteristi e bassisti, il bassista Mark Stoermer e il batterista Ronnie Vannucci Jr. completarono la formazione stabile nel 2002.",
     "album": [
       {
         "titolo": "Hot Fuss",
@@ -12245,7 +12402,15 @@
       "rock"
     ],
     "paese": null,
-    "colore": "#8A1F2E"
+    "colore": "#8A1F2E",
+    "fonti": [
+      {
+        "url": "https://www.nme.com/news/music/watch-the-killers-brandon-flowers-join-new-order-for-bizarre-love-triangle-in-salt-lake-city-3863267",
+        "nome": "NME — Max Pilley",
+        "ruolo": "storia"
+      }
+    ],
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "the-police",
