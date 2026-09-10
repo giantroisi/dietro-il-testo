@@ -111,11 +111,48 @@ function testoDi(c) {
   return pezzi.join('\n');
 }
 
+// 10 settembre 2026 — IL PUNTO CIECO, chiuso.
+// Il campione 8 ha trovato un'attribuzione falsa che questo controllo non
+// poteva vedere: `i-miss-you` citava «Wikipedia (riporta il podcast "And The
+// Writer Is..." con Travis Barker)» e quella pagina il podcast non lo nomina.
+// Il controllo taceva perche' cercava il nome della testata **in tutto il campo
+// `nome`**, comprese le parentesi: bastava nominarla li' perche' risultasse
+// «citata». L'errore si era spostato dentro l'etichetta della fonte.
+// Adesso conta solo l'indirizzo della pagina e la **prima parte** del nome —
+// quella che dice di chi e' la fonte — e si ferma al primo trattino, parentesi,
+// virgola o barra: «Rolling Stone — Jay McDowell» resta Rolling Stone,
+// «Wikipedia (riporta il podcast X)» resta Wikipedia e basta.
+function nomePrincipale(nome) {
+  return String(nome || '').split(/[(\[\u2014\u2013,;|]/)[0];
+}
+
 function citata(c, indizi) {
   const dove = (c.fonti || [])
-    .map((f) => `${f.nome || ''} ${f.url || ''}`.toLowerCase())
+    .map((f) => `${nomePrincipale(f.nome)} ${f.url || ''}`.toLowerCase())
     .join(' | ');
   return indizi.some((i) => dove.includes(i));
+}
+
+// Cio' che sta DENTRO le parentesi del campo `nome` e' una promessa: «riporta
+// l'intervista X», «cita il comunicato Y». E' testo pubblicato, e nessuno lo
+// verifica. Non si puo' controllare a macchina se quella pagina contenga
+// davvero cio' che promette — ma si puo' **elencare**, cosi' che qualcuno
+// apra e guardi. Questo elenco non e' un errore: e' una lista di promesse da
+// mantenere.
+function promesseNeiNomi(canzoni) {
+  const fuori = [];
+  for (const c of canzoni) {
+    for (const f of c.fonti || []) {
+      const m = /[(\[]([^)\]]{12,})[)\]]/.exec(String(f.nome || ''));
+      // Solo le parentesi che affermano qualcosa sul CONTENUTO della pagina.
+      // «(ascolti Spotify)» o «(voce del brano)» dicono a cosa serve la fonte,
+      // non cosa contiene: non sono promesse, sono etichette.
+      if (m && /riport|cita|raccogl|conten|intervist|comunicat|dichiaraz|copia/i.test(m[1])) {
+        fuori.push({ slug: c.slug, nome: f.nome, promessa: m[1] });
+      }
+    }
+  }
+  return fuori;
 }
 
 // **Il punto delicato del controllo: nominare non e' attribuire.**
@@ -186,6 +223,19 @@ for (const s of daMostrare) {
 }
 if (!tutte && segnalazioni.length > daMostrare.length) {
   console.log(`… e altre ${segnalazioni.length - daMostrare.length}. Usa --tutte per vederle.\n`);
+}
+
+const promesse = promesseNeiNomi(canzoni);
+if (promesse.length) {
+  console.log(`Promesse scritte dentro il nome di una fonte: ${promesse.length}`);
+  console.log('  Non sono errori: sono affermazioni sul contenuto di una pagina, pubblicate');
+  console.log('  accanto al collegamento e mai verificate da nessuno. Chi le ha scritte');
+  console.log('  deve poterle mostrare — nel campione 8 una di queste era falsa.');
+  for (const p of promesse.slice(0, tutte ? promesse.length : 15)) {
+    console.log(`  ${p.slug}: «${p.promessa}»`);
+  }
+  if (!tutte && promesse.length > 15) console.log(`  … e altre ${promesse.length - 15}. Usa --tutte.`);
+  console.log('');
 }
 
 console.log('Tre uscite legittime per ogni segnalazione, una sola non lo e’:');

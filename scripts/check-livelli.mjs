@@ -406,6 +406,19 @@ console.log(`  senza nessuna fonte        ${senzaFonti.length}  (la pagina lo di
 console.log(`  con fonti ma nessuna A/B   ${bioSenzaAB.length}${bioSenzaAB.length ? '  → ' + bioSenzaAB.map((a) => a.slug).join(', ') : ''}`);
 console.log(`  documentate con A o B      ${conFonti.length - bioSenzaAB.length}`);
 
+// IL FRENO DELLE BIOGRAFIE, messo il 10 settembre 2026 — il giorno in cui la
+// coda si e' chiusa, e non prima.
+// Quando questa sezione e' nata, l'8 settembre, non aveva soglia, e la ragione
+// era scritta li': con 79 biografie su 104 senza nessuna fonte, una soglia
+// sarebbe stata finta. Ora ne restano **una**, e il numero puo' essere
+// congelato: da qui in avanti una biografia nuova o riscritta senza una fonte
+// di livello A o B fa fallire il controllo, esattamente come per le schede.
+// Si abbassa a mano, mai da sola.
+const SOGLIA_BIO = 1;
+const bioScoperte = senzaFonti.length + bioSenzaAB.length;
+const bioSforato = bioScoperte > SOGLIA_BIO;
+console.log(`  FRENO                      ${bioScoperte} scoperte, soglia ${SOGLIA_BIO}${bioSforato ? '  ← SFORATA' : bioScoperte < SOGLIA_BIO ? `  ← abbassa SOGLIA_BIO a ${bioScoperte}` : ''}`);
+
 // ------------------------------------------------------------------ freno
 
 const senzaABAccertata = senzaAB.length + soloIgnoti.length;
@@ -428,4 +441,4 @@ if (sforato) {
 }
 
 console.log('');
-process.exit(conVietati.length || sforato ? 1 : 0);
+process.exit(conVietati.length || sforato || bioSforato ? 1 : 0);
