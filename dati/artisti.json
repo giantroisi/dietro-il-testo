@@ -3371,7 +3371,7 @@
   {
     "slug": "edoardo-bennato",
     "nome": "Edoardo Bennato",
-    "storia": "Nato a Bagnoli, Napoli, nel 1946, esordì appena dodicenne nel Trio Bennato insieme ai fratelli Giorgio ed Eugenio, esibendosi nei locali napoletani e in televisione. La carriera solista iniziò ufficialmente nel 1973 con l'album \"Non farti cadere le braccia\"; il successo arrivò negli anni '70 e '80 con concept album ispirati alle favole, come \"Burattino senza fili\" (da Pinocchio) e \"Sono solo canzonette\" (da Peter Pan). Nel 1980 fu il primo artista italiano a riempire lo stadio di San Siro, con oltre 60 mila spettatori.",
+    "storia": "Nato a Bagnoli, Napoli, nel 1946, esordì a dodici anni nel Trio Bennato, formato nel 1958 insieme ai fratelli Eugenio e Giorgio, esibendosi nei locali napoletani e apparendo in televisione nel programma \"Il nostro piccolo mondo\" della giornalista Lea Maggiulli Bartorelli, nota come Zietta Liù. La carriera solista iniziò ufficialmente nel 1973 con l'album \"Non farti cadere le braccia\"; il successo arrivò negli anni '70 e '80 con concept album ispirati alle favole, come \"Burattino senza fili\" (1977, da Pinocchio) e \"Sono solo canzonette\" (1980, da Peter Pan). Il 19 luglio 1980 fu il primo artista italiano a riempire lo stadio di San Siro, davanti a un pubblico stimato fra i 70 e gli 80 mila spettatori.",
     "album": [
       {
         "titolo": "Non farti cadere le braccia",
@@ -3527,16 +3527,21 @@
       },
       {
         "url": "https://www.rollingstone.it/musica/storie-musica/bennato-allo-stadio-la-storia-del-primo-san-siro-di-un-cantante-italiano/998066/",
-        "nome": "Rolling Stone Italia — Francesco Donadio",
+        "nome": "Rolling Stone Italia — Francesco Donadio, 19 luglio 2025",
         "ruolo": "storia"
       },
       {
         "url": "https://www.ondarock.it/italia/edoardobennato.htm",
-        "nome": "OndaRock",
+        "nome": "OndaRock — Federico Piccioni",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/news-667732/edoardo-bennato-reunion-con-fratelli-eugenio-e-giorgio-singolo-domani",
+        "nome": "Rockol — Marina Mazzoli, 9 gennaio 2017",
         "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "electric-callboy",
@@ -4006,7 +4011,7 @@
   {
     "slug": "eros-ramazzotti",
     "nome": "Eros Ramazzotti",
-    "storia": "Nato a Roma nel 1963, imparò a suonare pianoforte e chitarra da autodidatta dopo che la domanda di ammissione al Conservatorio non fu accolta. Ottenne il primo contratto discografico nel 1981 grazie al concorso Voci Nuove di Castrocaro; nel 1984 vinse la sezione Nuove Proposte del Festival di Sanremo con \"Terra promessa\", pubblicando l'anno successivo il suo primo album, \"Cuori agitati\". Tornò a Sanremo nel 1985 tra i Big con \"Una storia importante\", ottenendo un ampio successo commerciale anche all'estero.",
+    "storia": "Nato a Roma nel 1963, imparò a suonare pianoforte e chitarra da bambino insieme ad alcuni amici del quartiere; dopo le scuole medie fece domanda di ammissione al Conservatorio di Roma, che non fu accolta. Ottenne il primo contratto discografico nel 1981 grazie al concorso Voci Nuove di Castrocaro; nel 1984 vinse la sezione dedicata alle giovani proposte del Festival di Sanremo con \"Terra promessa\", pubblicando l'anno successivo il suo primo album, \"Cuori agitati\". Tornò a Sanremo nel 1985 tra i Big con \"Una storia importante\", classificandosi sesto ma ottenendo un ampio successo commerciale anche all'estero, in particolare in Francia.",
     "album": [
       {
         "titolo": "Cuori agitati",
@@ -4128,21 +4133,21 @@
     "fonti": [
       {
         "url": "https://www.treccani.it/enciclopedia/eros-ramazzotti/",
-        "nome": "Treccani",
-        "ruolo": "storia"
-      },
-      {
-        "url": "https://www.rollingstone.it/artista/eros-ramazzotti/",
-        "nome": "Rolling Stone Italia",
+        "nome": "Treccani — Enciclopedia",
         "ruolo": "storia"
       },
       {
         "url": "https://www.ilgiornale.it/news/musica/sanremo-e-ritorno-eros-ramazzotti-storia-importante-2626612.html",
         "nome": "il Giornale — Erika Pomella",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://sapere.virgilio.it/scuola/mondo-scuola/che-scuola-ha-fatto-eros-ramazzotti-e-che-titolo-di-studio-ha",
+        "nome": "Sapere.it (Mondadori) — Patrizia Chimera",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "evanescence",
@@ -6596,7 +6601,7 @@
   {
     "slug": "ligabue",
     "nome": "Ligabue",
-    "storia": "Nato a Correggio, in provincia di Reggio Emilia, nel 1960, cresciuto in un contesto operaio e formatosi ascoltando Rolling Stones e Bruce Springsteen. Dopo aver scritto un brano per Pierangelo Bertoli, debutta nel 1990 con l'album omonimo \"Ligabue\"; nel 1998 esordisce anche alla regia cinematografica con \"Radiofreccia\", vincitore di tre David di Donatello.",
+    "storia": "Nato a Correggio, in provincia di Reggio Emilia, il 13 marzo 1960, prima di dedicarsi alla musica ha svolto lavori diversi, tra cui il bracciante e l'operaio metalmeccanico. Nel 1988 scrisse per Pierangelo Bertoli il brano \"Sogni di rock'n'roll\", inciso dal cantautore emiliano nell'album \"Tra me e me\" — la canzone con cui, per sue stesse parole, trovò la propria voce d'autore; nel 1990 debuttò con l'album omonimo \"Ligabue\". Nel 1998 esordì anche alla regia cinematografica con \"Radiofreccia\", che vinse tre David di Donatello (miglior regista esordiente, miglior attore protagonista a Stefano Accorsi, miglior fonico di presa diretta a Gaetano Carito).",
     "album": [
       {
         "titolo": "Ligabue",
@@ -6755,16 +6760,26 @@
     "fonti": [
       {
         "url": "https://www.treccani.it/enciclopedia/luciano-ligabue_(Enciclopedia-Italiana)/",
-        "nome": "Treccani",
+        "nome": "Treccani — Enciclopedia Italiana, IX Appendice (2015), Stefano Oliva",
         "ruolo": "storia"
       },
       {
-        "url": "https://www.rollingstone.it/artista/luciano-ligabue/",
-        "nome": "Rolling Stone Italia",
+        "url": "https://www.rockol.it/artista/ligabue/biografia",
+        "nome": "Rockol — Biografia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/news-7877/radiofreccia-di-ligabue-vince-tre-david-di-donatello",
+        "nome": "Rockol — Alex Pennino, 17 giugno 1999",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rollingstone.it/musica/interviste-musica/ligabue-non-ho-mai-detto-che-sono-rock/787648/",
+        "nome": "Rolling Stone Italia — Dipaolo Madeddu, 19 settembre 2023",
         "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-10"
   },
   {
     "slug": "limp-bizkit",
