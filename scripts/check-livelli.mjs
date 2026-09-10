@@ -98,6 +98,13 @@ const A = new Set([
   // classificati per la natura dell'ente, non aprendo le singole pagine —
   // l'eccezione al metodo resta scritta, come il 9 settembre.
   'rockhall.com', 'oscars.org', 'georgiaencyclopedia.org',
+  // 10 settembre 2026, con l'ultimo lotto di biografie. Siti ufficiali di
+  // artisti e band, come johnlennon.com e zucchero.it gia' in lista:
+  'thedoors.com', 'billwyman.com', 'chriscornell.com',
+  // Istituzioni citate per il proprio archivio: la scuola che l'artista ha
+  // frequentato (documento suo) e un istituto storico. Anche queste
+  // classificate per la natura dell'ente, non aprendo le pagine.
+  'woosterschool.org', 'icsaicstoria.it',
   // Opere di riferimento con direzione editoriale, accanto a Treccani e
   // Britannica gia' in lista: l'enciclopedia nazionale canadese, l'Handbook of
   // Texas della Texas State Historical Association e l'Encyclopedia of Arkansas
@@ -149,6 +156,9 @@ const B = new Set([
   'laragione.eu',      // aperta: testata registrata, direttore responsabile, pezzo firmato e datato
   'ilgiorno.it',       // quotidiano del gruppo QN, come quotidiano.net e ilrestodelcarlino.it
   'pbs.org',           // servizio pubblico radiotelevisivo americano: documentari identificabili, sezione 5
+  'abcnews.com',       // rete televisiva nazionale americana
+  'upi.com',           // agenzia di stampa, come ansa.it e agi.it
+  'smithsonianmag.com', // rivista dello Smithsonian, con redazione e firme
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -206,6 +216,16 @@ const C = new Set([
   // e una firma, quindi non e' da buttare; non produce informazione propria,
   // quindi non e' B.
   'insidemusic.it',
+  // 10 settembre 2026, aperta e guardata: ha firma (Giuliana Macaluso) e data,
+  // ma in calce dichiara essa stessa «Ck12.it non e' una testata giornalistica,
+  // in quanto viene aggiornato senza alcuna periodicita'», non ha direttore
+  // responsabile, e non dice da dove vengano le dichiarazioni che riporta.
+  // **Conseguenza da girare a chi cura i dati**: su `rino-gaetano` questa fonte
+  // sostiene da sola una smentita — la sorella che nega la storia dei cinque
+  // ospedali — cioe' esattamente un «fatto controverso», che la sezione 5
+  // vieta di appoggiare al solo livello C. La correzione va nella direzione
+  // giusta ma le serve una fonte che la regga.
+  'ck12.it',
   // 8 settembre 2026, sera. Entrata con le biografie degli artisti. AllMusic non
   // e' un database collaborativo — ha una redazione — ma le sue schede non
   // citano nulla: aperta quella dei Muse, nessuna firma, nessuna data, nessuna
@@ -244,6 +264,13 @@ const VIETATI = new Map([
 //
 // `lbbonline.com`, `vistanet.it` (403), `lopinionista.it` (connessione
 // rifiutata) — non raggiunti da nessuno strumento provato l'8 settembre.
+// `primarywave.com` — societa' che gestisce il catalogo di Whitney Houston.
+// La sezione 5 mette al livello A i canali ufficiali «dell'artista o
+// dell'etichetta»: una societa' di gestione dei diritti e' vicina ma non e'
+// nessuna delle due, e la pagina e' promozionale. Non classificata: la scheda
+// ha gia' whitneyhouston.com (A), quindi nulla dipende da questa decisione, e
+// prenderla senza guardare sarebbe stato un azzardo inutile.
+//
 // `musicologica.it` e `screenrant.com` — stessa sorte il 9 settembre: il
 // crawler non riesce a leggere il loro robots.txt. Restano fuori: la prima
 // tiene `andrea-bocelli-e-giorgia` fra le biografie senza fonte A/B accertata,
