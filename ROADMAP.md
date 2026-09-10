@@ -2445,6 +2445,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Restano 56 artisti** da guardare con lo stesso metodo. E' lavoro meccanico e ripetibile, non una decisione: due chiamate per immagine, circa due immagini per artista.
 **Verificato**: ogni scelta e' stata **vista**, non dedotta; le dieci voci sono state aggiunte a `dati/ritratti-scelti.json` (35 in tutto) e il file rilegge come JSON valido. Lo scarico vero (`scarica-ritratti.mjs`) resta all'autore: nessuno dei miei due ambienti raggiunge Wikimedia in scrittura.
 
+- **10 settembre 2026 (secondo turno) — Altri 24 candidati guardati. Il totale sale a 24 ritratti scelti e 7 artisti dichiarati senza foto libera utilizzabile.**
+  **Aggiunti in questo turno (14 scelte)**: `disturbed` (primo piano del chitarrista, Rock am Ring), `ed-sheeran` (ritratto perfetto, sorridente), `evanescence` (Amy Lee al microfono), `finley` (live a Bologna), `francesco-de-gregori` (col cappello e la chitarra, inconfondibile), `gianna-nannini` (2017, foto professionale), `alice-in-chains` (Cantrell a figura intera), `coldplay` (Chris Martin, 2011), `domenico-modugno` (**Sanremo 1962, ritratto d'archivio del Touring Club: il migliore di tutti**), `fall-out-boy` (Wentz e Stump sul palco), `foo-fighters` (Grohl col logo dietro), `lucio-battisti` (con Mina, RAI 1972 — **e' un duo, non un ritratto suo**), `r-e-m` (Belgio 1985, **buio, volti poco leggibili**), `edoardo-bennato` (2019 — **l'identita' la garantisce il titolo su Commons, non il mio riconoscimento**).
+  **Nuovi artisti senza foto libera (4)**: `ozzy-osbourne` (un costume in vetrina, la Walk of Fame, folle); `david-bowie` (vetrine del V&A, il plastico di un palco alla Rock and Roll Hall of Fame, una foto di gruppo con Clinton in cui non e' riconoscibile); `eagles` (la Sphere di Las Vegas con la scritta, partite di football dei Philadelphia Eagles e **aquile vere**); `fabrizio-de-andre` (la copertina illustrata di un libro, un murale, una scuola intitolata a lui). Con i tre di prima fanno **sette**, e per tutti la risposta e' il riquadro grafico.
+  **Da rivedere (1)**: `bon-jovi` — i primi due candidati sono uno schermo del palco e una panoramica; il resto non l'ho ancora aperto.
+  **Restano 37 artisti.** Il metodo e' quello: si apre l'immagine, la si guarda, si accetta o si scarta. Finora **su 46 immagini aperte, 22 erano inservibili** — e nessuna lo diceva nel proprio nome.
+**Verificato**: ogni scelta e' stata vista; `dati/ritratti-scelti.json` rilegge come JSON valido, 49 voci in tutto (29 gia' pubblicate + 20 nuove). L'elenco dei sette senza foto e' in `ritratti/anteprime/senza-foto.txt`.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
