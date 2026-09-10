@@ -58,7 +58,7 @@
 //   una fonte A/B e basta — adesso si vede tutto, ed e' 53.
 //   8 settembre, sera tardi: 56. `una-vita-da-mediano` ha perso la fonte
 //   vietata e guadagnato la sua prima fonte A (Ligachannel).
-const SOGLIA = 56;
+const SOGLIA = 53;
 
 import { readFileSync } from 'node:fs';
 
@@ -112,6 +112,13 @@ const A = new Set([
   // dell'istituzione, non aprendo le singole pagine**: e' un'eccezione al
   // metodo, e la scrivo invece di lasciarla intendere.
   'thecanadianencyclopedia.ca', 'tshaonline.org', 'encyclopediaofarkansas.net',
+  // 10 settembre 2026. Sito ufficiale dell'artista, come johnlennon.com e
+  // thedoors.com gia' in lista. E' entrato in catalogo perche' e' la fonte che
+  // ha chiuso la divergenza sulla data di "Life on Mars?": due fonti gia'
+  // citate nella scheda davano due date diverse, e la questione si e' risolta
+  // solo salendo qui. E' il caso che ha fatto scrivere la riga nuova della
+  // R2-bis.
+  'davidbowie.com',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -159,6 +166,12 @@ const B = new Set([
   'abcnews.com',       // rete televisiva nazionale americana
   'upi.com',           // agenzia di stampa, come ansa.it e agi.it
   'smithsonianmag.com', // rivista dello Smithsonian, con redazione e firme
+  // 10 settembre 2026, gli ultimi domini della coda. Aperti e guardati uno per
+  // uno: qui sotto c'e' cosa ho visto, non cosa immaginavo.
+  'lisolachenoncera.it', // rivista dell'Ass. Culturale L'Isola della Musica Italiana: il pezzo e' un'intervista a Mogol firmata Massimo Giuliano e datata 12 dicembre 2010. Materiale primario, firmato e datato.
+  'lbbonline.com',       // Little Black Book, testata di settore della pubblicita' e della produzione video. Il pezzo e' un Q&A datato 06/07/2015 con il regista, senza firma personale: come per le agenzie gia' in lista (ansa.it, upi.com), la redazione identificabile vale la firma.
+  'vistanet.it',         // testata registrata al tribunale di Cagliari (n. 5-2020), pezzo datato e firmato "La Redazione". Locale, ma e' una testata.
+  'lopinionista.it',     // testata registrata al tribunale di Pescara (n. 08/08), pezzo datato e firmato "Redazione L'Opinionista".
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -235,6 +248,14 @@ const C = new Set([
   // C. Conseguenza voluta: una biografia documentata dalla sola AllMusic
   // risulta senza fonte A/B, che e' esattamente cio' che e'.
   'allmusic.com',
+  // 10 settembre 2026. **YouTube non e' un editore**: il dominio non dice chi
+  // ha pubblicato, e un livello dato al dominio lo darebbe a ogni video futuro
+  // di chiunque. L'unico uso in catalogo e' buono — il canale ufficiale di
+  // Radio X, con blink-182 che parlano in prima persona — ma vale quella
+  // pagina, non youtube.com. Se un video di un canale ufficiale deve contare
+  // come prova, la fonte da citare e' la pagina di chi lo pubblica, non
+  // l'indirizzo del video.
+  'youtube.com',
 ]);
 const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com', '.blogspot.com'];
 
