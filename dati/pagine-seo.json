@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 289,
+    "nCanzoni": 295,
     "haTestoEditoriale": true
   },
   {
@@ -1482,6 +1482,36 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/kashmir/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/wanted-dead-or-alive/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/man-in-the-mirror/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bocca-di-rosa/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/your-song/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/sympathy-for-the-devil/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1569,7 +1599,7 @@
     "percorso": "artista/bon-jovi/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1681,7 +1711,7 @@
     "percorso": "artista/elton-john/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1709,7 +1739,7 @@
     "percorso": "artista/fabrizio-de-andre/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1828,7 +1858,7 @@
     "percorso": "artista/led-zeppelin/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1898,7 +1928,7 @@
     "percorso": "artista/michael-jackson/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -2150,7 +2180,7 @@
     "percorso": "artista/the-rolling-stones/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2675,7 +2705,7 @@
     "percorso": "album/bon-jovi/slippery-when-wet/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2924,6 +2954,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/elton-john/elton-john-1970/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/elton-john/honky-chateau/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -2949,6 +2986,13 @@
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/fabrizio-de-andre/vol-1/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
     "haTestoEditoriale": false
   },
   {
@@ -3132,6 +3176,13 @@
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/led-zeppelin/physical-graffiti/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/ligabue/ligabue/",
@@ -3356,6 +3407,13 @@
     "indicizzabile": true,
     "nCanzoni": 3,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/michael-jackson/bad/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/mina/il-cielo-in-una-stanza/",
@@ -3750,6 +3808,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/the-rolling-stones/beggars-banquet/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/the-white-stripes/elephant/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3823,14 +3888,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 145,
+    "nCanzoni": 148,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 122,
+    "nCanzoni": 125,
     "haTestoEditoriale": true
   },
   {
@@ -3851,14 +3916,14 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 40,
+    "nCanzoni": 42,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 49,
+    "nCanzoni": 51,
     "haTestoEditoriale": true
   },
   {

@@ -1468,7 +1468,7 @@
     "titolo": "Slippery When Wet",
     "anno": "1986",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -3767,8 +3767,8 @@
     "titolo": "Elton John",
     "anno": "1970",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -4460,8 +4460,8 @@
     "titolo": "Vol. 1º",
     "anno": "1967",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -7056,8 +7056,8 @@
     "titolo": "Physical Graffiti",
     "anno": "1975",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -8486,8 +8486,8 @@
     "titolo": "Bad",
     "anno": "1987",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -13491,8 +13491,8 @@
     "titolo": "Beggars Banquet",
     "anno": "1968",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

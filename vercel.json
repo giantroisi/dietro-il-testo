@@ -1201,11 +1201,6 @@
       "permanent": true
     },
     {
-      "source": "/album/elton-john/elton-john-1970/",
-      "destination": "/artista/elton-john/",
-      "permanent": true
-    },
-    {
       "source": "/album/elton-john/tumbleweed-connection/",
       "destination": "/artista/elton-john/",
       "permanent": true
@@ -1493,11 +1488,6 @@
     {
       "source": "/album/evanescence/the-bitter-truth/",
       "destination": "/artista/evanescence/",
-      "permanent": true
-    },
-    {
-      "source": "/album/fabrizio-de-andre/vol-1/",
-      "destination": "/artista/fabrizio-de-andre/",
       "permanent": true
     },
     {
@@ -2546,11 +2536,6 @@
       "permanent": true
     },
     {
-      "source": "/album/led-zeppelin/physical-graffiti/",
-      "destination": "/artista/led-zeppelin/",
-      "permanent": true
-    },
-    {
       "source": "/album/led-zeppelin/presence/",
       "destination": "/artista/led-zeppelin/",
       "permanent": true
@@ -3032,11 +3017,6 @@
     },
     {
       "source": "/album/michael-jackson/forever-michael/",
-      "destination": "/artista/michael-jackson/",
-      "permanent": true
-    },
-    {
-      "source": "/album/michael-jackson/bad/",
       "destination": "/artista/michael-jackson/",
       "permanent": true
     },
@@ -5027,11 +5007,6 @@
     },
     {
       "source": "/album/the-rolling-stones/their-satanic-majesties-request/",
-      "destination": "/artista/the-rolling-stones/",
-      "permanent": true
-    },
-    {
-      "source": "/album/the-rolling-stones/beggars-banquet/",
       "destination": "/artista/the-rolling-stones/",
       "permanent": true
     },
