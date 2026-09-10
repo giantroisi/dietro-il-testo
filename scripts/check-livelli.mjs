@@ -119,6 +119,11 @@ const A = new Set([
   // solo salendo qui. E' il caso che ha fatto scrivere la riga nuova della
   // R2-bis.
   'davidbowie.com',
+  // 10 settembre 2026. Sito ufficiale dell'artista, stessa famiglia dei
+  // precedenti. Entrato con `your-song`: conferma a cifra la data dell'album
+  // ("Released fifty years ago today by DJM Records, on April 10, 1970"), che
+  // prima si appoggiava ai soli metadati di Spotify.
+  'eltonjohn.com',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -172,6 +177,22 @@ const B = new Set([
   'lbbonline.com',       // Little Black Book, testata di settore della pubblicita' e della produzione video. Il pezzo e' un Q&A datato 06/07/2015 con il regista, senza firma personale: come per le agenzie gia' in lista (ansa.it, upi.com), la redazione identificabile vale la firma.
   'vistanet.it',         // testata registrata al tribunale di Cagliari (n. 5-2020), pezzo datato e firmato "La Redazione". Locale, ma e' una testata.
   'lopinionista.it',     // testata registrata al tribunale di Pescara (n. 08/08), pezzo datato e firmato "Redazione L'Opinionista".
+  // musicologica.it — 10 settembre 2026. **Classificato su testimonianza, non
+  // su una mia lettura**: dai miei strumenti la pagina risponde con un errore
+  // del server, come commons.wikimedia.org. L'eccezione al metodo la scrivo
+  // invece di lasciarla intendere, ed e' la stessa disciplina per cui, sulle
+  // presunte pagine-indice di Rolling Stone Italia, aveva ragione chi la
+  // pagina l'aveva aperta davvero.
+  // Cosa e' stato riferito, verificabile da chiunque riapra la pagina: nessuna
+  // registrazione presso un tribunale e nessun direttore responsabile — quindi
+  // **non e' una testata**; ma articolo firmato e datato ("3 Febbraio 2020",
+  // "Angela Forin", anche nel meta tag `author`), autrice con laurea
+  // specialistica in Musicologia e attivita' professionale con partita IVA
+  // intestata, e il pezzo citato porta una dichiarazione diretta dell'autore
+  // del testo. **B e non C** per lo stesso motivo di exitwell.com: vale la
+  // pagina firmata, non l'istituzione che non c'e'. **B e non A** perche' non
+  // e' ne' un ente ne' un sito ufficiale.
+  'musicologica.it',
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -457,7 +478,7 @@ if (nomiDoppi.length) {
   console.log('    Non e’ un errore di fatto: e’ una riga che il lettore non sa distinguere.');
 }
 
-const SOGLIA_BIO = 1;
+const SOGLIA_BIO = 0;
 const bioScoperte = senzaFonti.length + bioSenzaAB.length;
 const bioSforato = bioScoperte > SOGLIA_BIO;
 console.log(`  FRENO                      ${bioScoperte} scoperte, soglia ${SOGLIA_BIO}${bioSforato ? '  ← SFORATA' : bioScoperte < SOGLIA_BIO ? `  ← abbassa SOGLIA_BIO a ${bioScoperte}` : ''}`);
