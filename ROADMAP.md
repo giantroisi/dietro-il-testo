@@ -2380,6 +2380,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: sette schede, ciascuna con tutte le fonti citate riaperte una per una oggi (non il giorno del commit), nessun file di `dati/` toccato perché non c'era niente da correggere.
 **Prossimo**: nessuno per queste sette schede. Se un futuro campione indipendente le riesamina, parte da zero come le altre.
 
+- **10 settembre 2026 — `andrea-bocelli-e-giorgia`: `musicologica.it` è raggiungibile dai miei strumenti, con firma e data. La classificazione resta a Opus.**
+  Aperto il dominio e l'articolo specifico già citato in fonte (`vivo-per-lei-da-sanremo-con-gli-o-r-o-al-successo-internazionale-di-bocelli-e-giorgia`): carica normalmente, nessun errore. L'HTML della pagina ha `<meta name="author" content="Angela Forin">` e `<meta property="article:author" content="https://www.facebook.com/angela.forin">`; il testo visibile ripete "By ANGELA FORIN" due volte, il footer del sito dice "Musicologica di Angela Forin"; la data del pezzo è 3 febbraio 2020. Contiene una citazione diretta di Gatto Pancieri, l'autore del testo riscritto per Bocelli e Giorgia, sul processo di scrittura in macchina durante un tragitto Bologna-Milano — materiale primario, non un riassunto di Wikipedia. Per i criteri della sezione 5 ("testate musicali riconoscibili con firma e data") sembra qualificarsi come livello B, sullo stesso piano di `lisolachenoncera.it` e degli altri domini piccoli ma firmati già classificati B in questo registro — ma la classificazione dei domini è la tabella di `scripts/check-livelli.mjs`, che non tocco.
+  Controllata anche la seconda fonte della scheda, TGCOM24 (portale ufficiale Mediaset): resta anch'essa non classificata.
+  **Non ho cercato una fonte alternativa**: quella già citata regge alla riverifica e ha firma e data, quindi sostituirla sarebbe stato lavoro sprecato — il problema non è la fonte, è la tabella che non la conosce ancora.
+**Verificato**: pagina aperta e ispezionata (testo visibile e HTML), non solo il dominio. Nessun file di `dati/` toccato: la scheda ha già questa fonte fra le sue; serve solo la classificazione, che è lavoro di Opus.
+**Aperto**: `andrea-bocelli-e-giorgia` resta l'unica biografia senza fonte A/B accertata finché `musicologica.it` (o `tgcom24.mediaset.it`) non entra nella tabella.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
