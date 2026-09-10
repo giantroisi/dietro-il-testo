@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -932,8 +962,9 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia</h2>
       <div class="prosa">
-        <p>Musica di Fabrizio De André e Gian Piero Reverberi, testo di De André: la canzone fa parte di &quot;Volume 1&quot;, il primo album del cantautore, pubblicato nel 1967. Secondo Rockol, l'espressione &quot;bocca di rosa&quot; è entrata nel vocabolario italiano come sinonimo metaforico di prostituta, tanto da essere registrata come tale anche dall'enciclopedia Treccani, che la fa risalire esplicitamente al titolo della canzone.</p>
-        <p>De André ha raccontato di essersi ispirato a una vicenda realmente accaduta nel 1962 alla stazione di Nervi, non al fittizio paese di Sant'Ilario della canzone; secondo Rockol la donna che ispirò il personaggio si chiamava Liliana Tassio, morta a Sampierdarena nel giugno 2010 a 88 anni, e agiva — ha precisato lo stesso De André — per passione, non per denaro. De André ha indicato &quot;Bocca di rosa&quot;, insieme ad &quot;Amico fragile&quot; e &quot;Jamin-a&quot;, come la canzone che più di ogni altra lo rappresenta. Nel febbraio 2018 la Rai trasmise la sua versione dal vivo, tratta dall'ultimo concerto di De André, all'interno dello sceneggiato &quot;Il principe libero&quot;: la regia interruppe l'esecuzione a metà per dare la linea a un'intervista in studio, scatenando polemiche sui social a cui la Rai rispose scusandosi pubblicamente su Twitter.</p>
+        <p>Musica di Fabrizio De André e Gian Piero Reverberi, testo di De André: la canzone fa parte di &quot;Volume 1&quot;, il primo album del cantautore, pubblicato nel 1967. <span class="aff aff-I"><span class="aff-testo">Secondo Rockol, l'espressione &quot;bocca di rosa&quot; è entrata nel vocabolario italiano come sinonimo metaforico di prostituta, tanto da essere registrata come tale anche dall'enciclopedia Treccani, che la fa risalire esplicitamente al titolo della canzone.</span><span class="aff-nome"> — Interpretazione accreditata</span></span></p>
+        <p><span class="aff aff-D"><span class="aff-testo">De André ha raccontato di essersi ispirato a una vicenda realmente accaduta nel 1962 alla stazione di Nervi, non al fittizio paese di Sant'Ilario della canzone; secondo Rockol la donna che ispirò il personaggio si chiamava Liliana Tassio, morta a Sampierdarena nel giugno 2010 a 88 anni, e agiva — ha precisato lo stesso De André — per passione, non per denaro.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">De André ha indicato &quot;Bocca di rosa&quot;, insieme ad &quot;Amico fragile&quot; e &quot;Jamin-a&quot;, come la canzone che più di ogni altra lo rappresenta.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> Nel febbraio 2018 la Rai trasmise la sua versione dal vivo, tratta dall'ultimo concerto di De André, all'interno dello sceneggiato &quot;Il principe libero&quot;: la regia interruppe l'esecuzione a metà per dare la linea a un'intervista in studio, scatenando polemiche sui social a cui la Rai rispose scusandosi pubblicamente su Twitter.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

@@ -12877,7 +12877,19 @@
     "temi": [
       "salute-mentale"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "I",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "enjoy-the-silence",
@@ -12921,7 +12933,19 @@
     "temi": [
       "amore"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "D",
+        "D",
+        "D"
+      ],
+      [
+        "D",
+        "D",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "la-canzone-del-sole",
@@ -12974,7 +12998,18 @@
     "temi": [
       "nostalgia"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "F",
+        "I"
+      ]
+    ]
   },
   {
     "slug": "another-one-bites-the-dust",
@@ -13027,7 +13062,17 @@
     "temi": [
       "ribellione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "life-on-mars",
@@ -13080,7 +13125,18 @@
     "temi": [
       "alienazione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "take-it-easy",
@@ -13123,7 +13179,17 @@
     "temi": [
       "liberta-evasione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "vita-spericolata",
@@ -13171,7 +13237,18 @@
     "temi": [
       "liberta-evasione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "kashmir",
@@ -13229,7 +13306,18 @@
     "temi": [
       "liberta-evasione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "wanted-dead-or-alive",
@@ -13277,7 +13365,17 @@
     "temi": [
       "liberta-evasione"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "man-in-the-mirror",
@@ -13325,7 +13423,18 @@
     "temi": [
       "identita"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "D",
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "bocca-di-rosa",
@@ -13368,7 +13477,18 @@
     "temi": [
       "critica-sociale"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "I"
+      ],
+      [
+        "D",
+        "D",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "your-song",
@@ -13421,7 +13541,17 @@
     "temi": [
       "amore"
     ],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ]
   },
   {
     "slug": "sympathy-for-the-devil",
@@ -13467,6 +13597,16 @@
     ],
     "testoFonte": "Letras",
     "temi": [],
-    "ultimaVerifica": "2026-09-10"
+    "ultimaVerifica": "2026-09-10",
+    "naturaCorpo": [
+      [
+        "F"
+      ],
+      [
+        "D",
+        "F",
+        "F"
+      ]
+    ]
   }
 ]

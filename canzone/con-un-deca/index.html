@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Max Pezzali ha raccontato che la storia della sua nascita ha &quot;quasi dell'incredibile&quot;: durante le sessioni in studio per l'album, il produttore chiese all'improvviso ai due 883 due brani in più — &quot;Ragazzi, mancherebbero due pezzi. Ce li avete?&quot; — e Pezzali e Mauro Repetto, pur di non far saltare il progetto, risposero di sì pur non avendo ancora scritto nulla.</p>
         <p>Scritta e arrangiata in pochissimi giorni, Pezzali ha descritto quei momenti come una corsa contro il tempo, &quot;arrivati proprio all'ultimo minuto di recupero, come in quei film d'azione in cui c'è il tizio che deve tagliare il filo rosso della bomba&quot;. Il brano usa il &quot;deca&quot; — le vecchie diecimila lire — come simbolo della scarsità di mezzi e della noia di una provincia troppo stretta per chi sogna in grande, diventando uno dei pezzi più amati del gruppo nonostante la sua origine improvvisata.</p>
+        
       </div>
     </section>
 

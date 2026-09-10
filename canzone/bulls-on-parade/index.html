@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Primo singolo da &quot;Evil Empire&quot;, scritto da Zack de la Rocha, Tom Morello, Tim Commerford e Brad Wilk, prodotto con Brendan O'Brien. È una critica diretta alla spesa militare statunitense: il testo sostiene che il denaro pubblico venga incanalato verso le armi invece che verso cibo, case e altri bisogni primari, in un'accusa aperta all'industria bellica e alla logica della guerra perenne che la alimenta.</p>
         <p>Il titolo gioca probabilmente sul termine finanziario &quot;bull market&quot; (&quot;mercato toro&quot;), leggendo la corsa al riarmo del governo con il linguaggio di Wall Street. Musicalmente il brano è costruito attorno al celebre assolo &quot;da giradischi&quot; di Tom Morello, ottenuto usando il selettore dei pickup della chitarra come un vero e proprio killswitch — un pickup al volume massimo, l'altro spento — mentre la mano che tiene i tasti sfiora le corde, per imitare lo scratch di un DJ. La performance della band al Saturday Night Live del 13 aprile 1996 fece scalpore: appesero bandiere americane capovolte agli amplificatori — quella sera l'ospite in studio era il candidato repubblicano Steve Forbes, anche se le fonti non collegano esplicitamente le due cose — e furono fatti smettere prima del secondo brano, senza più essere reinvitati.</p>
+        
       </div>
     </section>
 

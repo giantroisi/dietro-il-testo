@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Nato durante le session di registrazione di &quot;Hybrid Theory&quot; (2000) ai NRG Recording Studios di North Hollywood, con il titolo di lavorazione &quot;Plaster&quot;. Come racconta il libro &quot;It Starts With One&quot; di Jason Lipshutz, il produttore Don Gilmore — scelto nonostante fosse un veterano del rock alternativo digiuno di hip hop, come ammise lui stesso alla band fin dal primo incontro — continuava a chiedere revisioni ai testi, mentre anche l'etichetta Warner Bros. spingeva per ridurre le parti rappate e gli scratch, gli elementi più originali del sound della band. Chester Bennington e Mike Shinoda scrissero il pezzo quasi come una risposta rabbiosa a quelle pressioni, in un clima di tensione crescente.</p>
         <p>Mancava però ancora il bridge del brano: Mike Shinoda immaginava qualcosa nello spirito del breakdown di &quot;Killing in the Name&quot; dei Rage Against the Machine, ma non riusciva a trovare le parole giuste, e Gilmore continuava a chiedere altri tentativi. Esasperato, Chester scrisse di getto due parole per sfogarsi in privato; a Mike piacquero subito, e i due entrarono in studio senza dire a Gilmore cosa stessero per registrare, chiedendogli solo di far partire la traccia. Il grido che ne uscì, urlato da Bennington in un'unica esplosione di rabbia accumulata, divenne il bridge definitivo del brano e uno dei momenti più iconici della sua carriera.</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da James Hetfield e Lars Ulrich, &quot;One&quot; nacque da un'idea che Hetfield aveva sviluppato attorno al concetto di essere &quot;solo un cervello, e nient'altro&quot;. Fu il manager Cliff Burnstein a suggerirgli di leggere &quot;Johnny Got His Gun&quot;, romanzo del 1939 di Dalton Trumbo che racconta in prima persona la storia di Joe Bonham, un soldato che si risveglia in un letto d'ospedale scoprendo di aver perso braccia, gambe e gran parte del volto a causa di un'esplosione, restando privo della vista, dell'udito e della parola ma pienamente cosciente.</p>
         <p>Pubblicata nell'album &quot;...And Justice for All&quot; (1988), la canzone è un manifesto contro la guerra, raccontata dal punto di vista di un soldato intrappolato nel proprio corpo distrutto, incapace di comunicare con l'esterno se non attraverso il battito della testa in codice Morse. Il celebre video, che alterna scene della band a spezzoni dell'adattamento cinematografico del romanzo del 1971, contribuì a renderla il singolo di maggior successo commerciale della band fino a quel momento.</p>
+        
       </div>
     </section>
 

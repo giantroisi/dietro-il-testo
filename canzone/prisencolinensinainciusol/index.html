@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Pubblicato come singolo il 3 novembre 1972 e confluito l'anno successivo nell'album &quot;Nostalrock&quot;, il brano è cantato da Celentano insieme alla moglie Claudia Mori su un titolo e un testo interamente inventati: sillabe senza significato costruite per riprodurre il suono dell'inglese americano a chi quella lingua non la capisce. Celentano lo costruì improvvisando in studio su un giro di quattro battiti di batteria in loop, senza mai scrivere le parole su carta. Passato quasi inosservato all'uscita, il brano diventò un successo enorme (primo posto in Italia, oltre che in Francia, Germania e Belgio) solo qualche anno dopo, quando Celentano lo eseguì in televisione. Dal 2009 è indicato da critica e media internazionali come uno dei primi precedenti del rap, per la costruzione ritmata e il fraseggio quasi parlato sul giro di batteria e fiati, anche se secondo Celentano questa non era affatto l'intenzione originaria.</p>
         <p>In un'intervista del 2012 alla radio americana NPR, Celentano ha raccontato che l'idea nacque dalla sua passione per lo slang americano e dal desiderio di scrivere una canzone che avesse come unico tema l'incapacità di comunicare: per riuscirci, doveva scrivere un testo che non significasse letteralmente nulla, un'idea che accosta anche al racconto biblico della Torre di Babele. Ha spiegato di averlo cantato con un tono arrabbiato, «una rabbia nata dalla rassegnazione», per denunciare l'incomunicabilità tra le persone; interpellato se il risultato suonasse davvero come l'inglese americano ai suoi orecchi, ha risposto senza esitazioni di sì.</p>
+        
       </div>
     </section>
 

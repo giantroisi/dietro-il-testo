@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Il riff centrale, in un insolito tempo di 12/8, nacque durante un soundcheck del 1990, in tour per &quot;Cowboys from Hell&quot;: Dimebag Darrell lo suonò per caso e il resto della band se ne innamorò all'istante. Pubblicato come quarto singolo di &quot;Vulgar Display of Power&quot; (1992), il brano trainò con il solo passaparola un album che vendette oltre due milioni di copie senza alcun passaggio radiofonico negli Stati Uniti. Il batterista Vinnie Paul ha descritto la sua potenza lenta e cadenzata — &quot;pesante ma non veloce, con un groove che faceva muovere i fan&quot; — come debitrice delle radici sudiste della band, cresciuta a ZZ Top e Lynyrd Skynyrd, e di uno shuffle che Pantera non aveva quasi mai esplorato fuori dalle cover.</p>
         <p>Sul testo, Phil Anselmo ha raccontato a Spin nel 2012 che, dopo la firma con una major e il tour di &quot;Cowboys from Hell&quot;, alcuni vecchi amici a Dallas–Fort Worth avevano iniziato a trattare la band in modo diverso, convinti che il successo gli avesse dato alla testa. &quot;Walk&quot; è la sua risposta diretta a quel gruppo ristretto di persone: un invito a portarsi via il proprio atteggiamento e a starne alla larga, mentre lui rivendicava di essere rimasto lo stesso di sempre. Il brano ha poi avuto una vita ben oltre l'album e la band: citato fra le influenze dietro la svolta groove di gruppi come Sepultura e Machine Head, coverizzato da act come Avenged Sevenfold, ed entrato stabilmente negli stadi sportivi di tutto il mondo nonostante lo snobismo radiofonico iniziale — un'eredità resa agrodolce dallo scioglimento della band nel 2003 e dall'omicidio di Dimebag Darrell, ucciso sul palco nel dicembre 2004 mentre suonava con il suo nuovo gruppo, i Damageplan.</p>
+        
       </div>
     </section>
 

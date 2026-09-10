@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Traccia d'apertura del secondo album della band, &quot;Second Helping&quot; (1974): il brano, scritto da Gary Rossington, Ronnie Van Zant ed Ed King, cita direttamente Neil Young, le cui canzoni &quot;Southern Man&quot; (1970) e &quot;Alabama&quot; (1972) avevano affrontato duramente il tema del razzismo e della storia della schiavitù nel Sud degli Stati Uniti. A Rolling Stone, nel 1974, Van Zant spiegò così la scelta di rispondere a Young: &quot;Pensavamo che stesse sparando a tutte le anatre pur di colpirne una o due&quot;.</p>
         <p>Il chitarrista Gary Rossington ha ridimensionato la polemica in un'intervista del 2012 a Classic Rock: &quot;Amavamo Neil Young, avevamo ascoltato 'Southern Man' e tutte quelle canzoni. Ronnie cantò di lui e di come non ne avessimo bisogno, riferendosi al Sud, perché eravamo appena stati in tour per le strade di campagna dell'Alabama, fra paesaggi bellissimi e cieli azzurri, incontrando gente fantastica — quindi era più che altro una battuta rivolta a Neil&quot;. Anche il riferimento al governatore razzista George Wallace, ha detto Rossington, era &quot;una presa in giro&quot;, non un'adesione politica. Lo stesso Young, nella sua autobiografia &quot;Waging Heavy Peace&quot;, ha ammesso che il testo di &quot;Alabama&quot; era &quot;accusatorio e paternalistico, non del tutto ponderato e troppo facile da fraintendere&quot;, meritandosi la replica di Skynyrd. Tre anni dopo l'uscita del brano, Van Zant si fece fotografare con una maglietta di Neil Young sulla copertina dell'album &quot;Street Survivors&quot; (1977) — &quot;la indossava perché lo amava&quot;, ha raccontato Rossington, ricordando anche un concerto insieme mai realizzato, in cui Young avrebbe dovuto suonare &quot;Sweet Home Alabama&quot; sul palco con la band. Il brano fu il primo singolo della band a entrare in classifica, arrivando fino alla posizione numero 8 della Billboard Hot 100.</p>
+        
       </div>
     </section>
 

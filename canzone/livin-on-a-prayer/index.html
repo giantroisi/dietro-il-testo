@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Contenuta in &quot;Slippery When Wet&quot;, terzo album della band, uscito il 18 agosto 1986, scritta da Jon Bon Jovi, Richie Sambora e Desmond Child — al suo primo lavoro con la band dopo aver già firmato &quot;I Was Made for Lovin' You&quot; dei Kiss e brani per Cher e Bonnie Tyler. Pubblicata come secondo singolo il 31 ottobre 1986, sul lato B di &quot;Wild in the Streets&quot;. Scritta sullo sfondo delle difficoltà economiche della working class americana durante il secondo mandato di Ronald Reagan, il testo racconta la storia di Tommy e Gina, una coppia che si sostiene a vicenda nonostante le difficoltà: lui operaio portuale in sciopero e senza stipendio, lei cameriera in una tavola calda.</p>
         <p>&quot;Tommy e Gina non sono due persone specifiche, rappresentano uno stile di vita&quot;, ha detto Jon Bon Jovi, ma i due autori attinsero comunque da esperienze reali. Il nome di Gina nacque dalla compagna dell'epoca di Desmond Child, la cantautrice Maria Vidal, che lavorava alla tavola calda Once Upon a Stove e fu soprannominata così perché ricordava l'attrice italiana Gina Lollobrigida; Tommy, invece, si ispirò in parte a un amico di Jon, ex stella del baseball ai tempi del liceo, costretto a rinunciare ai propri sogni e a lavorare in fabbrica dopo aver messo incinta la fidanzata. Il brano divenne il primo numero 1 della band nella classifica rock di Billboard e il loro secondo consecutivo numero 1 nella Hot 100. Considerata la canzone simbolo della band — Tommy e Gina sarebbero tornati anche nel successivo successo &quot;It's My Life&quot; (2000) — ha venduto oltre 13 milioni di copie nel mondo ed è tornata più volte in classifica a distanza di decenni dall'uscita.</p>
+        
       </div>
     </section>
 

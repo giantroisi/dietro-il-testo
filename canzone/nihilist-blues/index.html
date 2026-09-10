@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Quinto singolo di &quot;Amo&quot; (2019), &quot;nihilist blues&quot; nacque durante le sessioni di registrazione dell'album a Los Angeles, dove la band entrò in contatto con la cantante e producer canadese Grimes, che accettò di partecipare al brano. Secondo Wikipedia, che riporta una dichiarazione del tastierista Jordan Fish a Kerrang!, si tratta di uno dei pezzi più &quot;mentali&quot; e diversi mai scritti dal gruppo, e Grimes rimandò indietro il brano arricchito di elementi che non si aspettavano, portandolo a un livello completamente nuovo.</p>
         <p>Il ritornello porta anche la firma, non accreditata al momento dell'uscita, della cantante degli Evanescence Amy Lee: la sua melodia vocale ricorda infatti quella di &quot;Never Go Back&quot;. Il cantante Oliver Sykes raccontò inizialmente, in modo impreciso, che gli Evanescence avevano fatto causa alla band per il presunto plagio; Amy Lee ha poi chiarito a NME che non si trattò mai di un'azione legale vera e propria, ma di un chiarimento tra i rispettivi manager, dopo il quale fu Bring Me the Horizon a offrirle spontaneamente un credito ufficiale come autrice — un gesto che lei stessa ha definito &quot;molto più potente e bello&quot; della versione circolata online, e che aprì la strada a una collaborazione tra i due gruppi. Il testo, da parte sua, racconta il punto di vista di due persone in una relazione, entrambe intrappolate in un pensiero negativo apparentemente senza fine: una riflessione sul nichilismo e sulla difficoltà di trovare un senso in un mondo percepito come privo di scopo.</p>
+        
       </div>
     </section>
 

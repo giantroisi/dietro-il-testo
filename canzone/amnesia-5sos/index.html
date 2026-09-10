@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Ballata lenta scritta da Michael e Louis Biancaniello insieme a Benji e Joel Madden dei Good Charlotte e a Sam Watters, racconta il tentativo di elaborare la fine di una relazione e il desiderio di cancellare dalla memoria i piccoli dettagli quotidiani che continuano a far male. Secondo Official Charts, fu proprio Benji Madden a scrivere il brano per la band: &quot;L'ho scritta io, Amnesia dei 5SOS&quot;, ha raccontato, descrivendo il ritorno di quel suono pop-rock attraverso una generazione più giovane di artisti come un modo per sentire che il lavoro fatto anni prima con i Good Charlotte non era stato vano.</p>
         <p>Il videoclip, girato a Los Angeles, è diventato il terzo più visto della band, superando i 188 milioni di visualizzazioni entro marzo 2022 — un risultato che conferma quanto il brano, pur non essendo mai stato il singolo principale dell'album, sia rimasto fra i più amati dai fan.</p>
+        
       </div>
     </section>
 

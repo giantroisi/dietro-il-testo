@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Musica di Adriano Celentano ed Ezio Leoni, testo di Piero Vivarelli e Lucio Fulci, fu portata al Festival di Sanremo 1961 — la prima delle cinque partecipazioni della carriera di Celentano — in coppia con Little Tony, che ne presentò una propria versione come previsto allora dal regolamento del Festival. Si classificò seconda, dietro &quot;Al di là&quot;, ma fu la canzone a rivelarsi il vero successo: rimase al primo posto delle classifiche di vendita per cinque settimane consecutive.</p>
         <p>All'epoca Celentano era sotto le armi: poté partecipare al Festival solo grazie a una dispensa speciale firmata dall'allora ministro della Difesa Giulio Andreotti. Sul palco, Celentano voltò le spalle al pubblico durante l'introduzione strumentale, prima dell'attacco del ritornello: un gesto che sconvolse la platea sanremese dell'epoca, abituata a una prossemica ben più tradizionale. Il brano è considerato il primo pezzo rock and roll ad entrare in gara al Festival di Sanremo.</p>
+        
       </div>
     </section>
 

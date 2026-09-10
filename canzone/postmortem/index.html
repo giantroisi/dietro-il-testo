@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta interamente dal chitarrista Jeff Hanneman, sia nel testo che nella musica, penultimo brano di &quot;Reign in Blood&quot; prima della title track &quot;Raining Blood&quot; che la segue senza soluzione di continuità. Fu una delle due sole canzoni dell'album pubblicate come singolo promozionale nel 1986, in anticipo sull'uscita del disco: la Columbia Records, distributrice della Def Jam, rifiutò di distribuire l'intero album per il contenuto di un altro brano, &quot;Angel of Death&quot;, e la distribuzione passò infine alla Geffen Records, che però non lo inserì nel proprio calendario ufficiale di uscite per la stessa controversia. Il singolo, pubblicato dalla Def Jam Recordings (numero di catalogo 920 706-0, 12&quot; a 45 giri), conteneva sul lato B una versione remix di &quot;Criminally Insane&quot; e una versione accelerata di &quot;Aggressive Perfector&quot;.</p>
         <p>Il titolo, dal latino &quot;dopo la morte&quot;, accompagna un testo che segue la discesa di una mente ossessionata dal proprio disfacimento fino a considerare la morte stessa come un sollievo: un ritmo thrash serrato, tipico dell'intero album prodotto da Rick Rubin, che non rallenta anche quando il testo lo chiederebbe. Il giornalista Dom Lawson, storicamente firma di Metal Hammer, l'ha definita su Louder «una delle cose migliori che Jeff Hanneman abbia mai scritto», sottolineando come il riff d'apertura e la ferocia del testo confermassero che la cattiveria di Slayer non era solo un atteggiamento, ma qualcosa di realmente presente nella loro musica.</p>
+        
       </div>
     </section>
 

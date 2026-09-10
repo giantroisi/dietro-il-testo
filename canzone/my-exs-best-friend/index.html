@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Machine Gun Kelly insieme a Blackbear, Travis Barker dei Blink-182 e Nick Long, e prodotta dallo stesso Barker, uscì il 7 agosto 2020 come terzo singolo dell'album &quot;Tickets to My Downfall&quot;, quinto disco in studio dell'artista e suo primo interamente in chiave pop punk. Il brano vede la partecipazione vocale dello stesso Blackbear.</p>
         <p>Il pezzo nasce da una collaborazione ormai consolidata tra i due artisti: Machine Gun Kelly e Blackbear avevano già lavorato insieme su &quot;End of the Road&quot; (2012) e &quot;E.Z.&quot; (2017), oltre a comparire assieme in un brano di Mod Sun nel 2015. Il testo racconta le complicazioni di una rottura e di una relazione di rimbalzo, con i due protagonisti attratti l'uno dall'altra pur essendo legati all'ex partner di lei; il brano valse ai due artisti il premio MTV Video Music Award per il miglior video alternativo nel 2021, categoria in passato vinta anche da Nirvana e Green Day.</p>
+        
       </div>
     </section>
 

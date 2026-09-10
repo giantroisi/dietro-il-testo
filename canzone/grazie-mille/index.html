@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Prodotta da Pier Paolo Peroni e Marco Guarnerio, con Claudio Cecchetto fra i produttori della versione pubblicata come singolo, fu diffusa in radio l'8 ottobre 1999 come secondo singolo del quinto album in studio della band, dallo stesso titolo, uscito il 23 ottobre 1999. Fu l'unico disco di inediti della band a non arrivare mai al primo posto della classifica italiana degli album — si fermò al secondo posto — pur vendendo oltre 550.000 copie e ottenendo il disco di diamante.</p>
         <p>&quot;Anch'io come tutti cerco la felicità, e anch'io come tutti mi sono chiesto dove trovarla, andandomi a perdere in utopiche elucubrazioni sui grandi temi della vita&quot;, spiegò Max Pezzali a Rockol nell'ottobre 1999, presentando il singolo. &quot;Poi mi sono fermato un attimo e mi sono guardato intorno: il mio cane scodinzolava, i miei genitori stavano bene, i miei amici raccontavano le solite vecchie storie, e l'aria secca rendeva visibili le colline dell'Oltrepò. Mi sono sentito immensamente fortunato. E ho sentito di dover ringraziare di tutto ciò qualcuno o qualcosa.&quot; Il brano ottenne un grande passaggio radiofonico, raggiungendo il primo posto della classifica airplay italiana. Il videoclip, girato a Monaco a metà agosto 1999, fece da cornice all'ultima eclissi solare del secondo millennio, avvenuta l'11 agosto e visibile in tutta Europa.</p>
+        
       </div>
     </section>
 

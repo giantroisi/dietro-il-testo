@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Dave Mustaine e pubblicata nell'album &quot;Countdown to Extinction&quot; (1992), la canzone nacque quasi di getto: Mustaine ha raccontato di aver composto il ritornello mentre era in macchina, per poi finire il resto del brano una volta a casa. Sul supporto su cui annotò quei versi, in un'intervista a Louder (2025) Mustaine ha raccontato di uno scontrino di un ristorante di sushi, durante il periodo in cui si allenava per la cintura nera di kickboxing; secondo Songfacts, in altre occasioni ha raccontato una versione diversa, sui documenti del proprio arresto.</p>
         <p>Il testo si ispira al film e al romanzo &quot;The Manchurian Candidate&quot; e immagina un cittadino qualunque messo a capo di un paese mentre l'opinione pubblica viene manipolata da un governo-fantasma, come marionette che ballano al ritmo imposto da leader corrotti. Una riflessione sull'effetto &quot;pifferaio magico&quot; del potere politico e sulla natura ciclica delle ribellioni nella storia.</p>
+        
       </div>
     </section>
 

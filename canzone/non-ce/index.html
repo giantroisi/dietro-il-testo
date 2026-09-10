@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Pietro Cremonesi, Angelo Valsiglio e Federico Cavalli, fu pubblicata il 24 giugno 1993 come secondo singolo dell'album di debutto di Laura Pausini, dopo il successo di &quot;La solitudine&quot;; racconta il vuoto lasciato dalla fine improvvisa di un amore adolescenziale, diventando una delle canzoni più identificate con gli esordi della cantante.</p>
         <p>Il brano fu adattato in lingua spagnola con il titolo &quot;Se fue&quot; già nel 1994, ottenendo un ampio successo anche nei mercati latinoamericani. Nel 2014 Pausini ne pubblicò una nuova versione in duetto con il cantante statunitense Marc Anthony, che debuttò come singolo negli Stati Uniti, a Porto Rico e in Spagna; nel 2024 il brano è tornato in una nuova cover firmata dal cantante portoricano Rauw Alejandro, sempre in duetto con Pausini, inclusa nel suo album &quot;Cosa nuestra&quot;.</p>
+        
       </div>
     </section>
 

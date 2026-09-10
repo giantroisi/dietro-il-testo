@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato il 25 settembre 1995 dopo che il batterista Phil Rudd era tornato nella band a dodici anni dal suo addio. Il produttore Rick Rubin, già al lavoro con AC/DC su &quot;Big Gun&quot; nel 1993, cercò di riportare il gruppo al suono grezzo degli anni Settanta: secondo Louder, le sedute ai Record Plant Studios di New York durarono dieci settimane frustranti — cinquanta ore di registrazioni mai usate — prima che la band si trasferisse agli Ocean Way Studios di Los Angeles, dove il suono finalmente convinse. Rubin seguiva nello stesso periodo anche l'album dei Red Hot Chili Peppers, dividendo l'attenzione fra i due progetti; il cantante Brian Johnson ha raccontato: &quot;Quando abbiamo finito, avevamo suonato il pezzo così tante volte diverse che ti ritrovavi lì a pensare: 'Gesù, sono stufo di questa maledetta canzone'.&quot;</p>
         <p>Il videoclip, diretto da David Mallet, mostra Angus Young che suona il celebre assolo sospeso su una palla da demolizione mentre abbatte un edificio. Pubblicato come singolo il 4 settembre 1995, il brano arrivò primo nella classifica Billboard Mainstream Rock Tracks — il secondo numero uno della band in quella classifica dopo &quot;Big Gun&quot; — e nella Top 20 in diversi paesi europei e in Oceania.</p>
+        
       </div>
     </section>
 

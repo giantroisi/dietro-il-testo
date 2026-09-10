@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Matt Bellamy iniziò a scriverlo pensando al sound tex-mex e alla band del padre, i Tornados, con l'idea di costruire un brano quasi interamente strumentale, dove la chitarra solista facesse da voce. Cercando ispirazione guardò film di Clint Eastwood come &quot;Il buono, il brutto, il cattivo&quot; e ascoltò gli Shadows, arrivando così a Ennio Morricone; il batterista Dominic Howard ricorda Bellamy ripetere ossessivamente il riff sul retro del tour bus in Arizona, mentre fuori scorreva il deserto — un'immagine che si saldò subito con cavalli al galoppo, atmosfere texane e trombe. Il suono iniziale, però, risultava troppo &quot;retro&quot;, quasi anni '50: per renderlo più contemporaneo la band vi aggiunse una distorsione pesantissima. Il bassista Chris Wolstenholme, in un'intervista al Los Angeles Times, ha definito il brano &quot;quarant'anni di storia del rock in sei minuti&quot;, raccontando che durante la scrittura ascoltavano molto Morricone, Dick Dale e musica surf, oltre a &quot;roba anni '70 piuttosto ridicola&quot;.</p>
         <p>Sul significato, Bellamy ha spiegato a Under the Radar che il brano nasce da &quot;quella sensazione di svegliarsi e provare a reagire, il momento in cui è ora di cambiare se stessi e quello che succede intorno&quot;: un messaggio che considera ottimista, sulla forza dello spirito umano che resiste a chi lo vuole manipolare. Uscito come terzo singolo di &quot;Black Holes and Revelations&quot; il 27 novembre 2006, il brano ha anche un videoclip diretto da Joseph Kahn e girato in cinque giorni fra Londra, Romania e Red Rock in California, con Russ Bain protagonista e Richard Brake nel ruolo dell'antagonista, che costruisce attorno al brano un mondo post-apocalittico in stile spaghetti western.</p>
+        
       </div>
     </section>
 

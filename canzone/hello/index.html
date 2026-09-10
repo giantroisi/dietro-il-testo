@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Adele insieme a Greg Kurstin, che ne curò anche la produzione, fu il primo singolo estratto da 25, pubblicato il 23 ottobre 2015 e registrato ai Metropolis Studios di Londra. La scrittura richiese circa sei mesi: il primo verso nacque durante una sessione a Chiswick, insolita per Adele, abituata a scrivere a casa propria; dopo aver completato solo metà brano, Kurstin ha raccontato di non essere sicuro che Adele sarebbe più tornata a finirlo, prima che lei si rifece viva per completarlo.</p>
         <p>&quot;Suona un po' morboso, come se fossi morta, ma in realtà parla solo dell'altro lato del diventare adulti, dell'essere sopravvissuta alla tarda adolescenza e ai vent'anni&quot;, ha raccontato Adele a Rolling Stone a proposito del verso che apre il ritornello. Il videoclip, diretto da Xavier Dolan e girato in quattro giorni in una fattoria del Québec, fu il primo video musicale girato in formato IMAX: raggiunse il miliardo di visualizzazioni in appena 87 giorni, un record per l'epoca.</p>
+        
       </div>
     </section>
 

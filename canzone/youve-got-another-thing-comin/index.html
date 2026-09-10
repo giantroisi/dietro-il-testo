@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Rob Halford, K.K. Downing e Glenn Tipton, fu una delle ultime canzoni completate per &quot;Screaming for Vengeance&quot; (1982). Come raccontò lo stesso Downing a Metal Hammer, lui e Tipton, ascoltando un primo mixaggio dell'album, si resero conto che mancava ancora qualcosa: non un altro brano di puro impatto come la title track o &quot;Electric Eye&quot;, ma qualcosa capace di funzionare anche in radio. L'idea nacque a casa di Tipton, vicino a Stafford; con il riff dei due chitarristi e il ritmo compatto del batterista Dave Holland, secondo Downing fu chiaro fin da subito che si trattava di &quot;una vera canzone da guida in macchina — la metti su e via&quot;.</p>
         <p>Uscita come singolo di lancio dell'album nel luglio 1982, debuttò sulla Billboard Hot 100 a giugno e raggiunse il picco, numero 67, a novembre dello stesso anno (numero 4 nella classifica Mainstream Rock). Fu il primo vero successo radiofonico della band negli Stati Uniti — le due hit precedenti, &quot;Living After Midnight&quot; e &quot;Breaking the Law&quot;, si erano fermate al numero 12 nella sola classifica britannica — e la band se ne accorse in tour, sentendola trasmettere ovunque dalle radio locali, nei supermercati, nei centri commerciali. Nel giro di poche settimane, raccontò Downing, i Judas Priest passarono da gruppo emergente ad attrazione da grandi arene. Halford ha sempre descritto il brano come un inno di speranza e resilienza, non come una minaccia.</p>
+        
       </div>
     </section>
 

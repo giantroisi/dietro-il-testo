@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Racconta la domenica mattina di un giovane tornato a Roma in licenza militare, che si reca al mercatino di Porta Portese per comprarsi un paio di blue jeans da indossare al posto della divisa; fra le bancarelle incontra personaggi diversi, come un'anziana che vende foto di Papa Giovanni e un venditore di tutto un po'. Antonio Coggio, produttore e coautore del brano, ha raccontato: &quot;Claudio fu bravo a darne i colori, le descrizioni e i riferimenti e, a tutti noi, che partecipavano tecnicamente al progetto, bastò cercarne i giusti suoni.&quot;</p>
         <p>Un terzo verso, assente dalla versione pubblicata come singolo, racconta un dettaglio più amaro: il protagonista scorge fra la folla la propria ragazza in compagnia di un altro. Musicalmente il brano ha un'impronta country, con il banjo suonato da Silvano Chimenti e il coro affidato ai Cantori Moderni di Alessandroni.</p>
+        
       </div>
     </section>
 

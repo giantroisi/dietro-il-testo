@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Ultimo brano di &quot;The Downward Spiral&quot; (1994), scritto da Trent Reznor e pubblicato l'anno successivo come singolo promozionale. Chiude concettualmente il percorso dell'album, un viaggio attraverso autodistruzione, dipendenza e perdita di controllo vissuto dal protagonista immaginario del disco. Reznor lo ha definito il brano più personale che abbia mai scritto, al punto da sentirsi a disagio nel mostrarlo così apertamente: da allora è diventato il pezzo che chiude fisso ogni concerto della band.</p>
         <p>Nel 2002 il produttore Rick Rubin propose una cover al country Johnny Cash, allora quasi settantenne e in gravi condizioni di salute: la nuova versione, accompagnata da un video che ripercorreva la sua vita e carriera, spostò il significato della canzone verso una meditazione sul tempo che passa e sui rimpianti di un'intera esistenza. Lo stesso Reznor ammise che, dopo aver visto quel video, sentì che il brano &quot;non gli apparteneva più&quot;.</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta dal bassista Steve Harris, racconta in prima persona gli ultimi momenti di un condannato a morte, rinchiuso in cella in attesa dell'esecuzione: il titolo riprende una frase del Padre Nostro. Fu uno dei primi brani incisi dalla band con il nuovo cantante Bruce Dickinson, che ne intuì subito il potenziale: &quot;Quella canzone, e l'intero album, portarono i Maiden a un livello diverso&quot;, ha raccontato, definendola una sorta di precursore di &quot;Rime of the Ancient Mariner&quot;.</p>
         <p>Lo stesso Steve Harris, interrogato su quale brano scegliere per far conoscere la band a chi non la conosce, ha risposto: &quot;Credo che sia proprio 'Hallowed Be Thy Name'&quot;. Nel 2017 i lettori di Metal Hammer l'hanno votata come la miglior canzone della band in assoluto. Alcuni versi del testo furono ripresi, come segnaposto poi mai sostituito prima della pubblicazione del disco, da &quot;Life's Shadow&quot; (1974) della band prog Beckett, che Harris aveva visto suonare dal vivo nel 1973: una causa legale dei due autori originali, Bob Barton e Brian Quinn, portò a un accordo extragiudiziale, e il brano fu tolto dalla scaletta dal vivo durante il tour Maiden England (2012-2014) e parte del tour Book of Souls (2017).</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Pål Waaktaar-Savoy, fu il primo singolo pubblicato dal decimo album in studio, uscito a livello internazionale il 3 luglio 2015. Il testo affronta il tema universale della fine di un amore, con versi che il sito Radio Crème Brûlée ha definito &quot;belli nella loro semplicità&quot;, costruiti attorno a un'immagine di cuori che si trasformano in pietra, levigati dal vento come massi nel tempo.</p>
         <p>Sul piano musicale il brano si distingue per un arrangiamento orchestrale ampio, con archi che sostituiscono la tradizionale sezione centrale del pezzo dopo il secondo ritornello — una scelta che secondo la stessa recensione lo colloca a metà strada fra il suono dell'album &quot;Lifelines&quot; e quello di &quot;Brother&quot;, l'album solista di Morten Harket. Il videoclip fu girato in Telemark, in Norvegia, con la partecipazione delle attrici Sofie Gråbøl (danese) e Frida Farrell (svedese).</p>
+        
       </div>
     </section>
 

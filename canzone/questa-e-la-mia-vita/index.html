@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Primo singolo estratto da Fuori come va?, settimo album di Ligabue, pubblicato il 7 gennaio 2002. Il brano faceva parte anche di un mini-CD di tre tracce pubblicato come colonna sonora di &quot;Da zero a dieci&quot;, il film diretto dallo stesso Ligabue, presentato in un evento speciale della Settimana internazionale della critica al Festival di Cannes 2002: era la sua seconda regia dopo &quot;Radiofreccia&quot; del 1998, che invece aveva avuto un intero album come colonna sonora.</p>
         <p>A differenza di &quot;Radiofreccia&quot;, per &quot;Da zero a dieci&quot; Ligabue scelse di non pubblicare un album completo con le musiche del film, limitandosi a questo mini-CD. Secondo Rockol, fu il regista Richard Lowenstein — incontrato da Ligabue a Correggio — a sentire per la prima volta il brano proprio lì, un ascolto che portò alla decisione di dirigerne personalmente il videoclip, alternando sequenze del film a nuove riprese in cui Ligabue canta camminando per strada, fermato di continuo da persone che gli mostrano affetto. Il brano debuttò al primo posto delle classifiche italiane, restando fra i primi cinque per otto settimane consecutive su un totale di quattordici in classifica, e chiuse il 2002 al quinto posto nella classifica annuale.</p>
+        
       </div>
     </section>
 

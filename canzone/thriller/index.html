@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Rod Temperton, che aveva già firmato diversi brani per l'album precedente di Jackson, &quot;Off the Wall&quot;. Nella sua concezione originaria, con il titolo di lavorazione &quot;Starlight&quot;, il brano aveva un tema celeste, non horror; Temperton considerò anche il titolo &quot;Midnight Man&quot; prima di arrivare a &quot;Thriller&quot;. In un'intervista del 2018, per il 35° anniversario del brano, raccontò di essersi svegliato una mattina con quella parola in testa, certo che avrebbe funzionato in cima alle classifiche Billboard e sul merchandising. Riscrisse il testo in un paio d'ore virando verso l'immaginario horror, e la nuova versione convinse subito sia lui sia Michael.</p>
         <p>Fu l'attrice Peggy Lipton — all'epoca moglie del produttore Quincy Jones — a suggerire per la parte parlata finale il suo amico, l'attore horror Vincent Price: Temperton scrisse il testo del monologo di Price nel taxi che li portava in studio. Il video, uscito il 2 dicembre 1983 e diretto da John Landis (ispirato ai film &quot;I Was a Teenage Werewolf&quot; e &quot;An American Werewolf in London&quot;, che lo stesso Jackson aveva visto prima di ingaggiarlo), costò circa un milione di dollari, superò i 13 minuti di durata e raddoppiò le vendite dell'album; fu il primo video musicale a entrare nel National Film Registry, nel 2009. La celebre &quot;danza degli zombie&quot; nacque dalla collaborazione tra Jackson e il coreografo Michael Peters, che secondo lo stesso Jackson studiarono davanti allo specchio come far muovere gli zombie senza risultare comici.</p>
+        
       </div>
     </section>
 

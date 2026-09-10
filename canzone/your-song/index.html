@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Scritta da Elton John (musica) e Bernie Taupin (testo), è contenuta nell'album omonimo &quot;Elton John&quot;, pubblicato il 10 aprile 1970. Uscì come singolo autonomo nel Regno Unito nel gennaio 1971, raggiungendo la posizione numero 7 della classifica britannica e, secondo Louder, la numero 8 della Billboard Hot 100 statunitense; sempre secondo Louder, la spinta decisiva alla pubblicazione come singolo nel Regno Unito arrivò da un'iniziativa del conduttore di Radio 1 Tony Blackburn.</p>
-        <p>Taupin ha raccontato di aver scritto il testo molto rapidamente, a colazione, al tavolo della cucina dell'appartamento della madre di Elton a Northwood Hills, su un foglio che si macchiò di tè; aveva allora 17 anni e, non avendo mai vissuto un vero amore romantico, mise per iscritto la propria idea di che cosa potesse essere. Elton John ha raccontato di aver scritto la musica lo stesso giorno, in circa venti minuti, non appena letto il testo di Taupin.</p>
+        <p><span class="aff aff-D"><span class="aff-testo">Taupin ha raccontato di aver scritto il testo molto rapidamente, a colazione, al tavolo della cucina dell'appartamento della madre di Elton a Northwood Hills, su un foglio che si macchiò di tè; aveva allora 17 anni e, non avendo mai vissuto un vero amore romantico, mise per iscritto la propria idea di che cosa potesse essere.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Elton John ha raccontato di aver scritto la musica lo stesso giorno, in circa venti minuti, non appena letto il testo di Taupin.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

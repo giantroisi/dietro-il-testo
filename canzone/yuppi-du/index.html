@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Traccia che dà il titolo alla colonna sonora dell'omonimo film del 1975 scritto, diretto, prodotto e interpretato dallo stesso Celentano — il suo ritorno dietro la macchina da presa dieci anni dopo &quot;Super rapina a Milano&quot;. Un progetto profondamente personale, realizzato con un budget partito da poche centomila lire e cresciuto fino a superare il miliardo, presentato in concorso al Festival di Cannes 1975 e premiato l'anno successivo con il Nastro d'Argento per la colonna sonora. Le riprese furono segnate da una tragedia: durante una scena su un canale vicino a Venezia, un'imbarcazione si capovolse e l'operatore Giuliano Alonzo perse la vita; Celentano fu condannato in primo grado nel 1977 come regista e produttore per responsabilità oggettiva, per poi essere assolto con formula piena in appello due anni dopo.</p>
         <p>Nella canzone, che chiude l'album in due versioni molto simili, Celentano torna a cimentarsi con l'inglese — una lingua che ha sempre dichiarato di non conoscere — alternando frasi appena abbozzate al nonsense della cosiddetta &quot;lingua celentana&quot;, lo stesso espediente già usato in &quot;Quel signore del piano di sopra&quot; e in &quot;Prisencolinensinainciusol&quot;, qui ripreso fin dal titolo. Musicalmente il brano è costruito su un ritmo incalzante e una voce che alterna toni dolenti e di lamento. Il pezzo più riuscito del disco, secondo la critica, non è però la title track ma &quot;Such a Cold Night Tonight&quot;, scritta e cantata in inglese dal nipote di Celentano, Gino Santercole, che lo stesso Adriano avrebbe inciso due anni dopo in italiano, con il titolo &quot;Ma che freddo stasera&quot;, nell'album &quot;Disco Dance&quot; (1977).</p>
+        
       </div>
     </section>
 

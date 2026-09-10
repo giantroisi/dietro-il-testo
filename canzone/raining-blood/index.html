@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Nata da un incubo raccontato dal cantante Tom Araya al chitarrista Jeff Hanneman — che sognò letteralmente una pioggia di sangue — il brano chiude &quot;Reign in Blood&quot; (1986), l'album registrato con il produttore Rick Rubin, cofondatore dell'etichetta hip hop Def Jam, che rimase folgorato vedendo la band dal vivo al Ritz di New York prima ancora di conoscerne la musica. Il disco, distribuito infine da Geffen dopo che Columbia si rifiutò di occuparsene per la copertina e per il testo del brano d'apertura, non ricevette alcun passaggio radiofonico ma fu comunque il primo disco della band a entrare nella Billboard 200, debuttando al numero 127 e salendo fino al 94.</p>
         <p>Secondo il libro &quot;Slayer's Reign in Blood&quot; di D.X. Ferris, Hanneman scrisse il testo immaginando la scena di una strada buia o di un vicolo insanguinato, descrivendo un'anima bandita dal Paradiso, risvegliata e affamata di vendetta; il chitarrista Kerry King scrisse la seconda strofa, proseguendo l'idea di Hanneman verso una nuova direzione. Il celebre riff d'apertura, originariamente pensato da Hanneman come colonna sonora per un film horror, è considerato uno dei momenti più influenti della storia del metal estremo, ed è oggi il brano più ascoltato di Slayer su Spotify. È diventato il brano simbolo della band, tradizionalmente l'ultimo suonato nei loro concerti: per le riprese del DVD dal vivo &quot;Still Reigning&quot; (2004), la band si cosparse di sangue finto proprio durante la sua esecuzione.</p>
+        
       </div>
     </section>
 

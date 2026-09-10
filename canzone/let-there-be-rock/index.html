@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Angus Young, Malcolm Young e Bon Scott, registrata nel 1977 agli Albert Studios di Sydney con Harry Vanda e George Young alla produzione, dà il titolo al terzo album della band. Il testo racconta una storia inventata delle origini del rock and roll, partendo da un verso di Chuck Berry in &quot;Roll Over Beethoven&quot; (&quot;tell Tchaikovsky the news&quot;): il brano immagina che Tchaikovsky abbia davvero ricevuto quel messaggio e lo abbia diffuso al mondo, scatenando la nascita del genere.</p>
         <p>Durante la registrazione l'amplificatore di Angus Young esplose nel bel mezzo del brano. Il produttore George Young decise comunque di tenere la take, spiegando in un'intervista citata da Rolling Stone Australia: &quot;Non c'era modo che avremmo fermato un'esecuzione fenomenale per un motivo tecnico come degli amplificatori che esplodono!&quot;. Da allora il brano è rimasto un pilastro dei concerti della band, con l'assolo finale di Angus Young spesso allungato oltre i dieci minuti dal vivo.</p>
+        
       </div>
     </section>
 

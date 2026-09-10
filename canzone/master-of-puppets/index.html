@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Title track del terzo album della band, nato da un provino strumentale registrato nel garage della loro casa di El Cerrito, in California, il giorno dopo aver seguito insieme in tv il Live Aid del luglio 1985. Fu registrato a Copenaghen, allo studio Sweet Silence, con il produttore Flemming Rasmussen — che per dare ai riff quella compattezza tagliente fece accordare gli strumenti leggermente più bassi del normale — e pubblicato l'8 marzo 1986. È uno dei soli due brani dell'intero album accreditati a tutti e quattro i membri della band (insieme a &quot;Damage, Inc.&quot;), e fu il preferito in assoluto del bassista Cliff Burton, che nel 1986 lo definì &quot;la migliore canzone dei Metallica finora&quot;.</p>
         <p>James Hetfield spiegò a Thrasher nel 1988 che il brano &quot;parla soprattutto di droga: di come le cose si ribaltano, e invece di controllare quello che stai prendendo sei tu a essere controllato dalla droga&quot;, raccontando di essersi ispirato a una festa a San Francisco dove aveva visto persone farsi di eroina e una ragazza stare molto male. Un vecchio amico della band che dormiva spesso a casa loro a El Cerrito e si svegliava sul pavimento facendosi una riga di cocaina ispirò invece uno dei versi più citati del testo. Hetfield precisò comunque che i Metallica non volevano fare gli anti-droga né dire a nessuno cosa fare; anni dopo sia Kirk Hammett sia Lars Ulrich avrebbero raccontato pubblicamente le proprie battaglie con la cocaina, e lo stesso Hetfield avrebbe parlato apertamente della propria dipendenza e del percorso di recupero. L'album è considerato uno dei capisaldi del thrash metal; la popolarità della canzone è cresciuta ulteriormente dopo essere stata usata in un momento chiave della terza stagione di Stranger Things.</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Pubblicata il 23 luglio 2015 come terzo singolo di &quot;That's the Spirit&quot;, &quot;Throne&quot; fu presentata in anteprima da Annie Mac su BBC Radio 1 e divenne il primo numero uno della band nella classifica statunitense Mainstream Rock Songs di Billboard. Il tastierista Jordan Fish, che la produsse insieme al cantante Oli Sykes, ha raccontato al sito Gigwise che fu scelta come singolo di lancio proprio perché &quot;una delle canzoni più semplici e dirette&quot; scritte dalla band, capace di riprendere elementi già presenti nel precedente album &quot;Sempiternal&quot; (2013) con un ritmo sostenuto e melodie immediate: la conferma, nelle sue parole, di un allontanamento voluto dal deathcore delle origini verso un suono più accessibile.</p>
         <p>Sul piano del testo, Sykes ha descritto altrove il brano come un racconto sulla capacità di trasformare gli aspetti peggiori di ciò che si è vissuto in qualcosa di prezioso, un'immagine di resilienza che culmina nel verso in cui chi viene gettato in pasto ai lupi torna il giorno dopo a capo del branco. Poiché il destinatario del testo non viene mai identificato, il brano è stato letto in modi diversi — un ex partner, le critiche ricevute, i propri demoni interiori — lasciando che ogni ascoltatore vi proietti la propria battaglia personale.</p>
+        
       </div>
     </section>
 

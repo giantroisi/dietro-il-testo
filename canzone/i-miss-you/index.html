@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Contenuta nell'album omonimo del 2003, prese forma nella &quot;Rubin's House&quot;, una villa in affitto nella comunità di lusso di Rancho Santa Fe, vicino San Diego, dove la band aveva allestito uno studio casalingo. Durante le session ascoltavano molto i Cure, una delle loro band di riferimento fin da sempre: come raccontò Travis Barker nel podcast &quot;And The Writer Is...&quot;, furono colpiti in particolare da &quot;The Love Cats&quot; (1983) e iniziarono a discutere di scrivere qualcosa in quello spirito. Mark Hoppus scrisse la linea di basso, e Barker vi costruì sopra un pattern di batteria suonato con le spazzole, convincendo il resto della band a lasciarlo ripetere in loop invece di renderlo più dinamico, per dargli una qualità quasi ipnotica.</p>
         <p>Hoppus e Tom DeLonge scrissero le rispettive strofe con lo stesso metodo già usato per &quot;Feeling This&quot;: dopo essersi accordati sul tema, si separarono in stanze diverse per scrivere ciascuno per conto proprio, ritrovandosi poi per unire i pezzi. Hoppus scrisse la prima strofa e il ritornello, DeLonge la seconda; fu proprio Barker a suggerire di inserire un'immagine tratta da &quot;Nightmare Before Christmas&quot; di Tim Burton nel testo di Hoppus, in omaggio alla sua allora moglie Shanna Moakler. In un'intervista video per Radio X, DeLonge ha descritto il brano come una canzone sulla vulnerabilità, il tentativo di un ragazzo di dire a una ragazza che la ama, temendo però che lei lo abbia ormai lasciato andare da tempo. Il videoclip, girato da Jonas Åkerlund, mostra il trio in una villa infestata dai fantasmi; il brano ha superato il miliardo di ascolti su Spotify ed è stato indicato come una delle principali fonti d'ispirazione per &quot;Closer&quot; dei Chainsmokers, uscita più di dieci anni dopo.</p>
+        
       </div>
     </section>
 

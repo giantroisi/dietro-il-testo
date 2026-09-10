@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Contenuta in &quot;Combat Rock&quot;, quinto album della band, scritta nel 1981 e pubblicata come singolo nel 1982. Il chitarrista Mick Jones ha più volte negato che il testo riguardasse qualcosa di specifico — &quot;non era pre-annunciare la mia uscita dai Clash, era solo una buona canzone rock&quot;, disse nel 1991 — salvo poi, nella stessa intervista, ammettere che forse anticipava davvero il suo addio alla band, e che si trattava probabilmente di una situazione personale; diverse fonti la collegano da allora a una relazione con la cantante Ellen Foley. La title track fu registrata in un periodo turbolento per la band, che aveva appena cambiato management: il produttore Glyn Johns fu chiamato a tagliare il materiale per farne un disco singolo anziché il triplo album che la band avrebbe voluto, e Jones non era affatto contento dei tagli. Inizialmente Jones non voleva nemmeno cantare il brano, insistendo perché fosse Joe Strummer a farlo da solista; fu solo dopo che Strummer propose di aggiungere le parti in spagnolo come controcanto che Jones accettò di cantare la parte principale.</p>
         <p>Le parti in spagnolo nacquero da un incontro casuale: il cantautore texano Joe Ely, con cui la band aveva stretto amicizia dopo averlo scoperto grazie all'album &quot;Honky Tonk Masquerade&quot; (1978), si imbatté per caso negli Clash a New York proprio mentre registravano il brano. Come raccontò lui stesso all'Austin Chronicle nel 2000, Strummer gli chiese aiuto con lo spagnolo, e insieme a un fonico portoricano tradussero il testo nello &quot;spagnolo più strano di sempre&quot;, per poi cantarlo tutti insieme. Fu proprio durante quella session che nacque un altro dettaglio rimasto nella versione definitiva: Ely e Strummer, nascosti dietro una tenda, saltarono fuori all'improvviso per spaventare Jones mentre cantava, che rispose con un'occhiataccia e un &quot;Split!&quot; che la band decise di tenere nel missaggio finale. Arrivata al numero 17 della classifica britannica nel 1982, la canzone conobbe un secondo successo, molto più grande, quasi dieci anni dopo grazie a uno spot pubblicitario dei jeans Levi's: la ripubblicazione del 1991 arrivò al numero 1 della classifica britannica dei singoli, cinque anni dopo lo scioglimento della band.</p>
+        
       </div>
     </section>
 

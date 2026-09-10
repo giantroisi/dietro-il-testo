@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Primo singolo dell'album &quot;Maggese&quot;, uscito il 16 maggio 2005, nacque da una rottura sentimentale vissuta da Cesare Cremonini attorno ai vent'anni. L'artista ha raccontato di averla scritta a Bologna, verso le quattro del mattino, in pochi minuti, con una chitarra tra le mani, osservando gli oggetti &quot;dimenticati&quot; in casa dalla ex fidanzata dopo la fine della relazione. Il titolo richiama proprio l'età di Cremonini in quel periodo.</p>
         <p>Il testo racconta la solitudine che segue un abbandono, circondati solo da oggetti che continuano a ricordare una storia ormai finita; attraverso la metafora della marmellata, simbolo di dolcezza e conforto, il brano invita ad accettare i ricordi non più come fonte di sofferenza, ma come compagni di un percorso di crescita personale.</p>
+        
       </div>
     </section>
 

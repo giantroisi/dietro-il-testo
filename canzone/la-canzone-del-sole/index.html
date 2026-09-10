@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Pubblicato nel novembre 1971 come singolo autonomo su 45 giri — non tratto da nessun album — in coppia con &quot;Anche per te&quot;, fu il primo disco che Lucio Battisti incise per la neonata etichetta Numero Uno. Musica di Battisti, testo di Mogol (Giulio Rapetti).</p>
-        <p>Secondo quanto raccontato dallo stesso Mogol, il testo nacque ripensando alle estati della sua infanzia trascorse a Silvi Marina, sulla costa teramana, dove la sua famiglia andava in vacanza: il paroliere ha raccontato di essersi sempre ricordato del mare, della gente e persino del mercato del pesce del paese, e di aver dato lì il suo primo bacio, da ragazzo. Il comune di Silvi gli ha poi conferito la cittadinanza onoraria e dal 2009 organizza ogni anno, intitolato proprio alla canzone, un concorso per giovani artisti emergenti. Fra i dodici classici della coppia scelti da Mogol per il progetto &quot;Le canzoni di Mogol Battisti in versione rock new era&quot; (2014), che ne ha proposto una reinterpretazione in chiave rock, resta uno dei brani più amati del duo.</p>
+        <p><span class="aff aff-D"><span class="aff-testo">Secondo quanto raccontato dallo stesso Mogol, il testo nacque ripensando alle estati della sua infanzia trascorse a Silvi Marina, sulla costa teramana, dove la sua famiglia andava in vacanza: il paroliere ha raccontato di essersi sempre ricordato del mare, della gente e persino del mercato del pesce del paese, e di aver dato lì il suo primo bacio, da ragazzo.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> Il comune di Silvi gli ha poi conferito la cittadinanza onoraria e dal 2009 organizza ogni anno, intitolato proprio alla canzone, un concorso per giovani artisti emergenti. <span class="aff aff-I"><span class="aff-testo">Fra i dodici classici della coppia scelti da Mogol per il progetto &quot;Le canzoni di Mogol Battisti in versione rock new era&quot; (2014), che ne ha proposto una reinterpretazione in chiave rock, resta uno dei brani più amati del duo.</span><span class="aff-nome"> — Interpretazione accreditata</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

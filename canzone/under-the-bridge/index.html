@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Anthony Kiedis come poesia personale nella primavera del 1991, quando il cantante era sobrio da circa tre anni dopo essere uscito dalla propria dipendenza da eroina e cocaina — ed è proprio quella sobrietà, con John Frusciante e Flea che continuavano a drogarsi insieme, a farlo sentire isolato dal resto della band, quasi &quot;non più nel loro mondo&quot;, come raccontò lui stesso. Il testo guarda indietro a quel periodo più buio, quando si rifugiava da solo nelle strade del centro di Los Angeles; il &quot;ponte&quot; del titolo è un luogo reale dove andava a comprare e usare droga. Il produttore Rick Rubin trovò il testo fra le cose personali di Kiedis durante una delle sue regolari revisioni del nuovo materiale della band, e lo convinse a proporlo al gruppo nonostante l'iniziale imbarazzo per un testo così intimo.</p>
         <p>Dopo averlo ascoltato cantare a voce nuda, il chitarrista John Frusciante e il batterista Chad Smith iniziarono spontaneamente a cercarne il ritmo e gli accordi. Pubblicata nell'album &quot;Blood Sugar Sex Magik&quot; (1991), divenne il singolo di maggior successo della band, un racconto crudo di solitudine e desiderio di connessione dopo aver toccato il fondo.</p>
+        
       </div>
     </section>
 

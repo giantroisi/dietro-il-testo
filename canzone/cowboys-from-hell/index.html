@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Title track del primo album per una major, segna il completamento della transizione della band dal glam metal di &quot;Power Metal&quot; (1988) verso un suono più duro e diretto. Come raccontarono i tre membri superstiti a Classic Rock nel 2010, per il decimo anniversario del disco, fu il cantante Phil Anselmo a spingere la band in quella direzione fin dal suo arrivo: una sera, a casa sua in Texas, all'inizio del 1988, fece ascoltare a Dimebag Darrell il brano &quot;At Dawn They Sleep&quot; degli Slayer, e vide il chitarrista lasciarsi progressivamente conquistare fino ad ammettere, alla fine: &quot;Cavolo, è tosta&quot;. Il batterista Vinnie Paul ha però tenuto a precisare che non fu solo merito di Anselmo: &quot;Molti pensano che Phil sia stato la forza trainante dietro quella pesantezza, ma non è vero. Mio fratello scriveva i riff di chitarra, io scrivevo le parti di batteria. Eravamo già fan di quel tipo di musica.&quot; Fra le influenze citate dal bassista Rex Brown, i Voivod, &quot;The Real Thing&quot; dei Faith No More e &quot;Louder Than Love&quot; dei Soundgarden.</p>
         <p>Anselmo ha raccontato di essere arrivato al gruppo stanco della messinscena patinata del metal dell'epoca — &quot;invece di chiamare il loro programma The Heavy Metal Hour, l'MTV lo chiamò Headbangers Ball, una roba davvero patetica&quot;, disse — e di aver voluto andare controcorrente il più possibile. Il testo del brano, più che celebrare il mito del cowboy fuorilegge, è una dichiarazione di identità texana e di rifiuto del conformismo dell'industria musicale. Il video fu girato dal vivo in un locale di Dallas, il Basement, invece di essere una messa in scena in studio.</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta interamente dal bassista e fondatore Steve Harris, la canzone fu il secondo singolo di &quot;Piece of Mind&quot; (1983) — il primo album della band col batterista Nicko McBrain, che completò la formazione classica. Racconta, dal punto di vista britannico, la carica di cavalleria alla Battaglia di Balaclava (1854) durante la guerra di Crimea, nota come &quot;Charge of the Light Brigade&quot;: un assalto suicida contro le forze russe costato la vita a circa 110 soldati, con altri 160 feriti e quasi 400 cavalli perduti, immortalato dal poeta vittoriano Alfred Tennyson nella sua poesia omonima. &quot;È l'idea di qualcuno a cui viene ordinato di andare a combattere&quot;, disse Harris a Rolling Stone nel 2019. &quot;A quei tempi non lo si metteva in discussione, non era permesso farlo. Salivi a cavallo e andavi dritto in battaglia, per quanto assurdo fosse, contro cannoni che ti sparavano addosso. Ci sono state un sacco di follie a cui la gente è stata costretta durante le guerre, e diverse nostre canzoni parlano proprio di questo.&quot;</p>
         <p>Il cantante Bruce Dickinson ha descritto l'atteggiamento della band verso la guerra come quello di &quot;leoni guidati da agnelli&quot; — o da &quot;asini&quot;, nel caso della Prima guerra mondiale, e proprio di quel disastro di Crimea che è il soggetto de &quot;The Trooper&quot; — sottolineando come rappresenti insieme il meglio e il peggio dell'umanità: persone spinte a gesti straordinari in circostanze estreme, ma anche un enorme spreco e un'enorme stupidità. Il ritornello, insolitamente per un singolo radiofonico, è una melodia senza parole cantata da Dickinson. Il video ufficiale alterna riprese live a scene del film premio Oscar del 1936 &quot;La carica dei seicento&quot;, con Errol Flynn. Il brano arrivò al numero 28 della classifica rock di Billboard e al 5° posto in Canada, Svezia e Svizzera (12° in Regno Unito e Irlanda), contribuendo a consacrare la band come una delle più importanti del metal mondiale nel 1983; la messa in scena live, con Dickinson che carica il palco con una bandiera britannica in mano, è diventata una delle immagini più iconiche del metal, e nel 2022 il brano è stato usato nel finale della quarta stagione di &quot;Stranger Things&quot;.</p>
+        
       </div>
     </section>
 

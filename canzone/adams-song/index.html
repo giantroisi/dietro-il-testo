@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di band avevano una persona ad aspettarli a casa, lui si ritrovava solo. Secondo American Songwriter, che cita una sua intervista a Rolling Stone del 2000, Hoppus raccontò: &quot;Tom e Travis avevano sempre una ragazza ad aspettarli a casa, quindi avevano qualcosa da aspettare alla fine del tour. Io no, quindi ero sempre da solo in tour, e poi tornavo a casa e non cambiava niente perché comunque non c'era nulla ad aspettarmi&quot;. Da quello spunto personale il brano si trasformò in quello che è oggi: un messaggio pensato per la prevenzione del suicidio.</p>
         <p>Nel 2000, un anno dopo la strage di Columbine, il brano finì al centro di una controversia: uno studente sopravvissuto alla strage, Greg Barnes, si tolse la vita mentre la canzone suonava in loop, e il gruppo la ritirò dal repertorio dal vivo. Sempre secondo American Songwriter, che cita un'intervista a MTV News del 2001, Hoppus ribadì che l'intenzione originaria del brano era proprio quella di un messaggio contro il suicidio. La band riportò la canzone dal vivo solo nel 2018, per la residency di Las Vegas &quot;Kings of the Weekend&quot;: interpellato su quel ritorno, Hoppus disse di vederla ormai &quot;quasi come una celebrazione delle difficoltà superate e degli amici perduti&quot;. Nello stesso anno, NPR la scelse per la sua serie &quot;American Anthems&quot;, dedicata alle canzoni capaci di unire e consolare anche nei momenti più privati e solitari.</p>
+        
       </div>
     </section>
 

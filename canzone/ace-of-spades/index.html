@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Lemmy Kilmister insieme a &quot;Fast&quot; Eddie Clarke e Phil &quot;Philthy Animal&quot; Taylor, fu registrata nell'estate del 1980, dopo settimane passate ai Rockfield Studios, in Galles, dove — come raccontò Clarke a Classic Rock nel 2017 — Lemmy si fece distrarre da una ragazza conosciuta lì, lasciando che fossero lui e Taylor a buttar giù i riff fra una battuta di pesca e l'altra. Il produttore Vic Maile, che aveva già lavorato con gli Hawkwind di Lemmy, spinse la band a rimettere mano al riff portante direttamente in studio — una delle rare volte in cui scrissero lì anziché prima di entrarci — e tirò fuori dalla sua &quot;scatola dei trucchi&quot; delle bacchette di legno per il caratteristico effetto percussivo della sezione centrale, quella che lo stesso Lemmy chiamava scherzosamente il &quot;tip tap&quot;: la band inizialmente resistette all'idea, da ubriaca e sotto anfetamine com'era, salvo poi ricredersi ascoltando il risultato.</p>
         <p>Il testo fu un esercizio di scrittura attorno al tema del gioco d'azzardo, un tentativo — disse lo stesso Lemmy — di infilarci dentro quanti più riferimenti possibile: il punteggio più alto, gli occhi di serpente, la mano del morto, il jolly. Secondo un aneddoto più volte ripetuto, l'avrebbe scritto sul retro di un furgone Transit lanciato a 90 miglia orarie; Clarke, scettico, ha scherzato di averlo visto scrivere testi anche seduto in bagno, ma ha ammesso che se Lemmy diceva di averlo scritto in furgone, andava creduto sulla parola. Il titolo richiama la cosiddetta &quot;mano del morto&quot;: la combinazione di assi e otto, comprendente proprio l'asso di picche, che Wild Bill Hickok teneva in mano quando fu ucciso a colpi d'arma da fuoco durante una partita a poker nel 1876. Pubblicata nel novembre 1980, la canzone raggiunse il quindicesimo posto della classifica dei singoli britannica, diventando l'inno non ufficiale della band; dopo la morte di Lemmy, nel dicembre 2015, una campagna online la riportò in classifica al tredicesimo posto.</p>
+        
       </div>
     </section>
 

@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Angus e Malcolm Young, prodotta da Bruce Fairbairn, fu il primo singolo estratto dal dodicesimo album in studio, pubblicato il 10 settembre 1990. Il celebre riff, diventato uno dei primi che i chitarristi principianti provano a imparare, nacque da un'idea di Angus poi sviluppata insieme al fratello: &quot;È partito da un piccolo trucco che avevo sulla chitarra. Lo suonai a Mal e lui disse: 'Ho un'idea di ritmo che starebbe bene dietro.' Costruimmo il pezzo da lì&quot;, ha raccontato Angus nelle note di copertina della riedizione del 2003 di &quot;The Razor's Edge&quot;.</p>
         <p>Anche il titolo nacque quasi per caso, dopo mesi passati a cercarne uno efficace: &quot;Ci siamo inventati questa cosa del tuono, ispirandoci al nostro giocattolo preferito dell'infanzia, ThunderStreak, e ci sembrò avere un buon suono. AC/DC uguale potenza. Quest'era l'idea di base&quot;, ha spiegato ancora Angus. Il videoclip, diretto da David Mallet, fu girato alla Brixton Academy di Londra il 17 agosto 1990, con il pubblico che indossava magliette personalizzate con la scritta &quot;AC/DC — I was Thunderstruck&quot;.</p>
+        
       </div>
     </section>
 

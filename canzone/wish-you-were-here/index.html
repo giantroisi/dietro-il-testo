@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Title track dell'album omonimo del 1975, il primo pubblicato dopo l'enorme successo di &quot;The Dark Side of the Moon&quot;. Scritta da Roger Waters e David Gilmour, nasce dal senso di vuoto e alienazione provato dalla band di fronte al trionfo commerciale, e si intreccia idealmente con &quot;Shine On You Crazy Diamond&quot;, il lungo brano che apre e chiude il disco dedicato a Syd Barrett, il fondatore del gruppo allontanatosi anni prima per gravi problemi di salute mentale. Proprio durante le session dedicate a quel brano, un uomo dai lineamenti irriconoscibili, con la testa rasata e privo di sopracciglia, si presentò in studio: solo dopo qualche istante la band realizzò, con sgomento, che si trattava proprio di Barrett.</p>
         <p>Il testo si rivolge a un &quot;tu&quot; assente, sospeso tra il rimpianto per chi non c'è più (o non è più lo stesso) e una riflessione più ampia sul rischio di scambiare l'illusione del successo per un'autentica presenza nella propria vita. È diventata una delle canzoni più eseguite dal vivo nella storia del rock, spesso letta come inno universale alla nostalgia e all'assenza, ben oltre il riferimento originale a Barrett.</p>
+        
       </div>
     </section>
 

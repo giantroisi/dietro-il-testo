@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Primo singolo di Tracy Chapman, pubblicato il 6 aprile 1988 all'interno del suo album d'esordio omonimo. Secondo American Songwriter, in un'intervista radiofonica del 2010 con la BBC l'autrice ha chiarito che il brano è una storia inventata: &quot;Non ho mai avuto un'auto veloce, è solo la storia di una coppia&quot;; racconta di due persone che cercano di costruirsi una vita insieme partendo da una condizione di povertà e mancanza di prospettive, e degli ostacoli che si trovano ad affrontare lungo il percorso.</p>
         <p>Pur non essendo direttamente autobiografico, il testo riflette in modo generale il mondo dell'infanzia di Chapman in un contesto operaio a Cleveland, in Ohio, come lei stessa ha raccontato. Il brano raggiunse il sesto posto della Billboard Hot 100 e le valse tre candidature ai Grammy — Record of the Year, Song of the Year e Best Female Pop Vocal Performance, quest'ultima vinta.</p>
+        
       </div>
     </section>
 

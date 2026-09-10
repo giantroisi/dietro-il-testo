@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>L'idea di base nacque dal batterista Bill Berry a metà del 1991, quando lui, il chitarrista Peter Buck e il bassista/tastierista Mike Mills si trovarono per iniziare a lavorare al seguito di &quot;Out of Time&quot; — il cantante Michael Stipe si sarebbe unito solo più avanti, come da prassi abituale del gruppo. La prima demo era una ballata dal sapore country, senza ritornello né bridge; lavorandoci come trio strumentale, il pezzo assunse un'impronta più soul, ispirata a Otis Redding e alla Stax. Per una singolare ironia, Berry — che ne era il principale autore — suona pochissimo nella versione definitiva: gran parte del ritmo è affidata a una drum machine Univox da 20 dollari, da lui stesso programmata, mentre la sua batteria vera compare solo nel bridge e nel finale.</p>
-        <p>Gli archi furono arrangiati dal bassista dei Led Zeppelin John Paul Jones, contattato tramite il produttore Scott Litt, ed eseguiti da musicisti della Atlanta Symphony Orchestra nella primavera del 1992. Quarta traccia e quarto singolo di &quot;Automatic for the People&quot; (ottobre 1992), fu il primo vero &quot;message song&quot; del gruppo, scritto esplicitamente contro il suicidio e pensato per rivolgersi in particolare agli adolescenti. Il video, diretto da Jake Scott, fu girato in un ingorgo stradale su un'autostrada di San Antonio, con sottotitoli che mostravano i pensieri non detti degli automobilisti bloccati nel traffico; vinse più premi agli MTV Video Music Awards 1993, dove il gruppo eseguì il brano dal vivo solo per la seconda volta in pubblico fino a quel momento; negli anni successivi &quot;Everybody Hurts&quot; divenne invece un brano fisso della scaletta live, tanto da essere eseguito anche nell'ultimo concerto integrale della band, nel 2008 a Città del Messico.</p>
+        <p>Gli archi furono arrangiati dal bassista dei Led Zeppelin John Paul Jones, contattato tramite il produttore Scott Litt, ed eseguiti da musicisti della Atlanta Symphony Orchestra nella primavera del 1992. <span class="aff aff-I"><span class="aff-testo">Quarta traccia e quarto singolo di &quot;Automatic for the People&quot; (ottobre 1992), fu il primo vero &quot;message song&quot; del gruppo, scritto esplicitamente contro il suicidio e pensato per rivolgersi in particolare agli adolescenti.</span><span class="aff-nome"> — Interpretazione accreditata</span></span> Il video, diretto da Jake Scott, fu girato in un ingorgo stradale su un'autostrada di San Antonio, con sottotitoli che mostravano i pensieri non detti degli automobilisti bloccati nel traffico; vinse più premi agli MTV Video Music Awards 1993, dove il gruppo eseguì il brano dal vivo solo per la seconda volta in pubblico fino a quel momento; negli anni successivi &quot;Everybody Hurts&quot; divenne invece un brano fisso della scaletta live, tanto da essere eseguito anche nell'ultimo concerto integrale della band, nel 2008 a Città del Messico.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

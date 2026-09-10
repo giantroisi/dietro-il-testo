@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Brano d'apertura e primo singolo di &quot;Elephant&quot;, quarto album della band, uscito il 17 febbraio 2003. Il titolo nasce da un errore d'infanzia di Jack White, che da bambino pronunciava &quot;Seven Nation Army&quot; invece di &quot;Salvation Army&quot;: lo usò inizialmente solo come nome provvisorio per ricordarsi del riff, ma il testo finì per assumere un significato proprio, ispirato — come raccontò lo stesso White a Rolling Stone — a pettegolezzi e dicerie su due persone specifiche che conosceva a Detroit.</p>
         <p>White scrisse il celebre riff durante un soundcheck al Corner Hotel di Melbourne, in Australia. Come raccontò lui stesso a Guitar Player nel 2010: &quot;Lo pensai come un possibile tema per un film di James Bond, per un attimo. Poi pensai: non succederà mai&quot; — salvo poi scrivere davvero, cinque anni dopo, il tema di un film di Bond (&quot;Another Way to Die&quot;, per Quantum of Solace, 2008). Il riff, che suona come un basso ma non lo è, fu ottenuto con una chitarra hollowbody Kay accordata in open A, passata attraverso un pedale DigiTech Whammy impostato sull'ottava bassa: un trucco che White disse di aver adottato ispirandosi a Tom Morello dei Rage Against the Machine, utile fin dai tempi delle sue prime band garage a Detroit per &quot;emergere&quot; quando i tecnici del suono non alzavano abbastanza il volume durante i suoi assoli. Il brano vinse il Grammy per la Miglior Canzone Rock e, complice il ritornello strumentale facilmente intonabile, è diventato negli anni uno dei cori da stadio più diffusi al mondo.</p>
+        
       </div>
     </section>
 

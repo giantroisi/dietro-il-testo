@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Tim Bergling (Avicii) insieme a Salem Al Fakir, Vincent Pontare e Ash Pournouri, esplora il legame fra fratelli e, per estensione, il bisogno di esserci per le persone a cui si vuole bene, in un brano che unisce sonorità dance a un'anima bluegrass insolita per la musica elettronica. La voce che apre e guida il brano è quella del cantante bluegrass americano Dan Tyminski, già noto per aver prestato la voce a George Clooney in &quot;Fratello, dove sei?&quot;: Avicii lo volle nel progetto già con il brano quasi finito, spiegando che il timbro &quot;terroso&quot; della sua voce era proprio ciò che serviva a dare al pezzo l'elemento bluegrass.</p>
         <p>Tyminski ha raccontato di essere stato inizialmente titubante, temendo che il genere fosse troppo lontano dal suo, ma di essersi convinto ascoltando il brano già completato e trovandolo nella tonalità perfetta per la propria voce; fu poi sua figlia, allora ventenne, a convincerlo del tutto con il proprio entusiasmo. Il brano, uscito come singolo nell'ottobre 2013, raggiunse il primo posto delle classifiche pop in oltre dieci paesi europei, oltre a quella dance in Regno Unito e Stati Uniti.</p>
+        
       </div>
     </section>
 

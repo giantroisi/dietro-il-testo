@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Contenuta nell'album &quot;Hunky Dory&quot;, pubblicato dalla RCA Records nel dicembre 1971, fu pubblicata come singolo autonomo solo il 22 giugno 1973 — diciotto mesi dopo — una volta che il successo di &quot;Ziggy Stardust&quot; aveva reso Bowie una star. Musica e testo sono di David Bowie; il pianoforte è di Rick Wakeman, che arricchì la parte scritta da Bowie, mentre il chitarrista Mick Ronson firmò l'arrangiamento d'archi.</p>
-        <p>Il brano nacque come una sorta di parodia-vendetta nei confronti di &quot;My Way&quot;: nel 1968 Bowie aveva scritto un testo inglese, &quot;Even a Fool Learns to Love&quot;, per la canzone francese &quot;Comme d'habitude&quot;, ma i diritti furono acquistati da Paul Anka, che la trasformò in &quot;My Way&quot; per Frank Sinatra. Bowie raccontò di esserne rimasto arrabbiato per circa un anno, prima di decidere di scrivere &quot;qualcosa di altrettanto grande, che suonasse un po' come quella&quot;. Ha descritto la scrittura del brano come rapidissima: l'idea del riff lo colse per strada, mentre da Beckenham High Street si dirigeva a prendere l'autobus per Lewisham per comprare scarpe e camicie, al punto da fargli interrompere il tragitto in autobus per tornare a casa a piedi e finire testo e melodia in un pomeriggio.</p>
+        <p>Il brano nacque come una sorta di parodia-vendetta nei confronti di &quot;My Way&quot;: nel 1968 Bowie aveva scritto un testo inglese, &quot;Even a Fool Learns to Love&quot;, per la canzone francese &quot;Comme d'habitude&quot;, ma i diritti furono acquistati da Paul Anka, che la trasformò in &quot;My Way&quot; per Frank Sinatra. <span class="aff aff-D"><span class="aff-testo">Bowie raccontò di esserne rimasto arrabbiato per circa un anno, prima di decidere di scrivere &quot;qualcosa di altrettanto grande, che suonasse un po' come quella&quot;.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Ha descritto la scrittura del brano come rapidissima: l'idea del riff lo colse per strada, mentre da Beckenham High Street si dirigeva a prendere l'autobus per Lewisham per comprare scarpe e camicie, al punto da fargli interrompere il tragitto in autobus per tornare a casa a piedi e finire testo e melodia in un pomeriggio.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

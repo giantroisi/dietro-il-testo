@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -934,6 +964,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Prodotta dal tastierista Jordan Fish e dal cantante Oliver Sykes, &quot;Doomed&quot; apre l'album &quot;That's the Spirit&quot; (2015): fu il primo brano scritto per il disco, ma paradossalmente l'ultimo a essere completato. In un'intervista video a Loudwire nell'ottobre 2015, Sykes ha raccontato che il tema ricorrente dell'intero album è &quot;trovare la luce nel buio, e il contrasto fra i due&quot;; Sykes ha definito &quot;Doomed&quot; il brano più diverso mai scritto dalla band fino a quel momento, per via del suo ritmo lento e dell'atmosfera quasi &quot;stoner rock&quot;, che gli rese particolarmente difficile scrivere la parte vocale. Fish ha descritto il contrasto tra le strofe, &quot;claustrofobiche e piuttosto stressanti&quot;, e i ritornelli, &quot;ampi, distesi e rilassati&quot; — una struttura pensata, secondo Sykes, per rispecchiare le diverse fasi di un'esperienza vissuta con droghe ricreative.</p>
         <p>Il brano fu scelto come apertura dell'album proprio per segnalare fin da subito ai fan il cambio di rotta stilistico della band. Gran parte dei brani del disco, secondo quanto raccontato dallo stesso Sykes, riguardano l'accettazione di ansie e lati oscuri che restano anche quando, in apparenza, le cose vanno bene — un tentativo di restare comunque positivi senza ignorare quella parte di sé.</p>
+        
       </div>
     </section>
 

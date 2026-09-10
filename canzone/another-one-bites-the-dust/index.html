@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Scritta dal bassista John Deacon e pubblicata come singolo il 16 agosto 1980 — su etichetta EMI nel Regno Unito ed Elektra negli Stati Uniti — è tratta dall'ottavo album in studio del gruppo, &quot;The Game&quot; (1980). Divenne il secondo singolo dei Queen a raggiungere il numero uno della Billboard Hot 100 negli Stati Uniti e, secondo Ultimate Classic Rock, trascorse più tempo nella top ten di qualunque altro singolo del 1980.</p>
-        <p>La linea di basso fu ispirata da &quot;Good Times&quot; degli Chic, dopo che Deacon aveva trascorso del tempo con il gruppo in studio. Deacon ha raccontato di aver scritto inizialmente un testo scherzoso a tema cowboy, che teneva nascosto agli altri per imbarazzo; una volta registrata la base strumentale — con Deacon al basso, piano, chitarra e battito di mani, Roger Taylor al loop di batteria e Brian May alla chitarra — il risultato suonò più duro di quanto immaginasse, e riscrisse da capo tutti e tre i versi.</p>
+        <p><span class="aff aff-D"><span class="aff-testo">La linea di basso fu ispirata da &quot;Good Times&quot; degli Chic, dopo che Deacon aveva trascorso del tempo con il gruppo in studio.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Deacon ha raccontato di aver scritto inizialmente un testo scherzoso a tema cowboy, che teneva nascosto agli altri per imbarazzo; una volta registrata la base strumentale — con Deacon al basso, piano, chitarra e battito di mani, Roger Taylor al loop di batteria e Brian May alla chitarra — il risultato suonò più duro di quanto immaginasse, e riscrisse da capo tutti e tre i versi.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

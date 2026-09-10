@@ -726,6 +726,36 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* F97 — la natura delle affermazioni.
+   Segno leggero e sempre visibile, non un interruttore: una sottolineatura
+   punteggiata sotto le frasi che non sono fatto documentato, e il nome della
+   natura scritto per intero solo dove c'e' spazio per leggerlo (da schermo
+   largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
+   perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
+.aff-testo { border-bottom: 1px dotted currentColor; }
+.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
+.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+.aff-nome {
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.62;
+  white-space: nowrap;
+}
+/* Su telefono il nome per esteso spezzerebbe la lettura: resta la
+   sottolineatura, e il nome lo dice la legenda sotto al corpo. */
+@media (max-width: 620px) {
+  .aff-nome { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+.legenda-nature {
+  font-size: 0.86rem;
+  color: var(--text-muted, inherit);
+  border-top: 1px solid var(--border, rgba(128,128,128,0.25));
+  padding-top: 10px;
+  margin-top: 18px;
+}
+.legenda-nature b { font-weight: 600; }
+
 .fonti-artista {
   margin-top: 24px; padding-top: 20px;
   border-top: 1px solid var(--bordo, rgba(128,128,128,.25));
@@ -933,7 +963,8 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Scritta da Jackson Browne e Glenn Frey, uscì il 1° maggio 1972 come primo singolo degli Eagles, traccia d'apertura del loro album di debutto omonimo. Raggiunse la posizione numero 12 della Billboard Hot 100, il primo di una lunga serie di successi del gruppo.</p>
-        <p>Browne iniziò a scriverla durante un viaggio in un vecchio fuoristrada Willys attraverso Utah e Arizona, ma tornato a Los Angeles non riusciva a finirla. Frey, che con lui condivideva una palazzina a Echo Park — Browne al piano di sotto, Frey a quello di sopra — lo sentiva lavorare ogni sera ai brani per il suo primo album, e quando Browne gli fece ascoltare la canzone ancora incompiuta, gli suggerì il verso sulla ragazza &quot;in un pick-up Ford, che rallenta per guardarmi&quot;: l'unico contributo di Frey al testo, secondo il suo stesso racconto a Cameron Crowe, ma sufficiente perché i due se ne dividessero la firma.</p>
+        <p><span class="aff aff-D"><span class="aff-testo">Browne iniziò a scriverla durante un viaggio in un vecchio fuoristrada Willys attraverso Utah e Arizona, ma tornato a Los Angeles non riusciva a finirla.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Frey, che con lui condivideva una palazzina a Echo Park — Browne al piano di sotto, Frey a quello di sopra — lo sentiva lavorare ogni sera ai brani per il suo primo album, e quando Browne gli fece ascoltare la canzone ancora incompiuta, gli suggerì il verso sulla ragazza &quot;in un pick-up Ford, che rallenta per guardarmi&quot;: l'unico contributo di Frey al testo, secondo il suo stesso racconto a Cameron Crowe, ma sufficiente perché i due se ne dividessero la firma.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 
