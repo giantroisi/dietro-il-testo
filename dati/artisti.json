@@ -2866,7 +2866,8 @@
       }
     ],
     "canzoni": [
-      "personal-jesus"
+      "personal-jesus",
+      "enjoy-the-silence"
     ],
     "annoPrimo": 1989,
     "annoUltimo": 1989,
@@ -6965,6 +6966,13 @@
         "slug": "emozioni"
       },
       {
+        "titolo": "La canzone del sole/Anche per te",
+        "anno": "1971",
+        "nota": null,
+        "copertina": null,
+        "slug": "la-canzone-del-sole-anche-per-te"
+      },
+      {
         "titolo": "Amore e non amore",
         "anno": "1971",
         "nota": null,
@@ -7091,7 +7099,8 @@
       }
     ],
     "canzoni": [
-      "canto-libero"
+      "canto-libero",
+      "la-canzone-del-sole"
     ],
     "annoPrimo": 1972,
     "annoUltimo": 1972,
@@ -10570,7 +10579,8 @@
       }
     ],
     "canzoni": [
-      "losing-my-religion"
+      "losing-my-religion",
+      "everybody-hurts"
     ],
     "annoPrimo": 1991,
     "annoUltimo": 1991,
@@ -11943,7 +11953,7 @@
   {
     "slug": "the-beatles",
     "nome": "The Beatles",
-    "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il gruppo, passato attraverso vari nomi (tra cui Johnny and the Moondogs), si allargò nel 1960 con l'ingresso del bassista Stuart Sutcliffe, amico pittore di Lennon, e del batterista Pete Best, completando così il quintetto che adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll. Sutcliffe lasciò il gruppo nel luglio 1961 per dedicarsi all'arte e morì improvvisamente nell'aprile 1962; Best fu invece licenziato il 16 agosto 1962, sostituito da Ringo Starr due giorni dopo, pochi mesi prima del grande successo commerciale della band.",
+    "storia": "Le origini risalgono al 1956 a Liverpool, quando John Lennon formò il gruppo skiffle The Quarrymen insieme a compagni di scuola; Paul McCartney si unì nel 1957 e George Harrison, raccomandato dallo stesso McCartney, nel 1958, nonostante le iniziali resistenze di Lennon per la sua giovane età. Il gruppo, passato attraverso vari nomi (tra cui Johnny and the Moondogs), si allargò verso la fine del 1959 con l'ingresso del bassista Stuart Sutcliffe, amico pittore di Lennon, e nel 1960 con quello del batterista Pete Best, completando così il quintetto che adottò il nome Beatles nel 1960, abbandonando lo skiffle per il rock and roll. Sutcliffe lasciò il gruppo nel luglio 1961 per dedicarsi all'arte e morì improvvisamente nell'aprile 1962; Best fu invece licenziato il 16 agosto 1962, sostituito da Ringo Starr due giorni dopo, pochi mesi prima del grande successo commerciale della band.",
     "album": [
       {
         "titolo": "Please Please Me",

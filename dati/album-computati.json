@@ -2832,7 +2832,7 @@
     "titolo": "Violator",
     "anno": "1990",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -7437,6 +7437,17 @@
   },
   {
     "artistaSlug": "lucio-battisti",
+    "slug": "la-canzone-del-sole-anche-per-te",
+    "titolo": "La canzone del sole/Anche per te",
+    "anno": "1971",
+    "copertina": false,
+    "nCanzoni": 1,
+    "esiste": true,
+    "indicizzabile": false,
+    "sintetico": false
+  },
+  {
+    "artistaSlug": "lucio-battisti",
     "slug": "amore-e-non-amore",
     "titolo": "Amore e non amore",
     "anno": "1971",
@@ -11489,8 +11500,8 @@
     "titolo": "Automatic for the People",
     "anno": "1992",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
