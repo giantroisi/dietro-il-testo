@@ -241,6 +241,12 @@ Una data, un nome, un luogo, un ruolo, una cifra, un'attribuzione: ognuna è un'
 
 Una scheda è verificata quando ogni singola affermazione ha superato il controllo, non quando «il senso generale» regge.
 
+### R2-bis — Anche i dati vogliono una fonte
+
+Data di uscita, album o singolo autonomo, etichetta, autori, ordine dei singoli, posizione in classifica, certificazioni: sono affermazioni come le altre e vanno sostenute come le altre.
+
+Sono anche **le più facili da documentare** — la voce dell'album, i crediti del disco, gli archivi delle classifiche — e proprio per questo sono quelle che non vengono documentate: si danno per sapute, e la ricerca si concentra tutta sul racconto. Nelle prime tre schede scritte seguendo questa sezione, **tutto ciò che non reggeva era di questo tipo**: la storia aveva le sue fonti, i dati no.
+
 ### R3 — Chi dice una cosa fa parte della cosa
 
 Se una frase nomina una testata, un programma, un podcast o un'intervista, quella fonte **deve stare fra le fonti della scheda e contenere davvero ciò che le si attribuisce**. Se non è così, ci sono tre uscite legittime e una sola che non lo è:

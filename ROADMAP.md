@@ -2256,6 +2256,10 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Conseguenza, e non e' una bocciatura**: l'11% e' molto meglio del 13% del campione 8 sulle vecchie schede e incomparabilmente meglio del 46% delle biografie, ed **e' concentrato in un punto solo**. Serve una riga in piu' nella 4B e una seconda infornata: **si apre il rubinetto dopo quella**, non prima.
 **Verificato**: tre fonti riaperte e interrogate affermazione per affermazione chiedendo la frase esatta; per `everybody-hurts` una seconda lettura mirata sui due punti dubbi, che e' quella che ha fatto emergere sia la contraddizione sia l'attribuzione sbagliata. **La prima lettura le aveva registrate come semplici «non presenti»: chiedere due volte, in modo piu' stretto, ha cambiato la diagnosi.**
 
+- **10 settembre 2026 — Aggiunta la R2-bis alla 4B, su decisione dell'autore: «anche i dati vogliono una fonte».** La verifica delle prime tre schede scritte con la 4B aveva trovato l'11% di affermazioni non sostenute, **tutte dello stesso tipo**: data di uscita, album o singolo autonomo, etichetta, autori, ordine dei singoli. La ricerca si era concentrata sul racconto — dove le fonti c'erano e reggevano — e i dati erano stati trattati come cose che si sanno.
+  La regola dice due cose: che sono affermazioni come le altre, e **perche' proprio loro sfuggono**: sono le piu' facili da documentare (la voce dell'album, i crediti del disco, gli archivi delle classifiche), e la facilita' e' esattamente il motivo per cui nessuno le documenta.
+**Verificato**: sezione inserita subito dopo la R2, di cui e' un'applicazione diretta, e non in fondo all'elenco: chi legge la R2 trova subito il caso in cui viene disattesa.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
