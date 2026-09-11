@@ -7,53 +7,6 @@ accumula ordini vecchi diventa un elenco che nessuno legge.
 
 ---
 
-## In attesa dall'11 settembre 2026 — le due schede piu' viste del sito
-
-Precede Battiato. Nasce dalla verifica delle prime due schede di
-`dati/coda-verifica.json`: 33 affermazioni riaperte, 5 non reggono, e una
-**violazione della sezione 3**.
-
-```
-FERMA BATTIATO un momento, questo viene prima. git pull.
-
-Ho aperto le due schede piu' viste del sito e c'e' una violazione della sezione 3.
-
-1) `dont-look-back-in-anger` (149 impressioni) — URGENTE.
-   La scheda scrive: il verso "I start a revolution from my bed" cita direttamente
-   il celebre bed-in. E' TESTO DELLA CANZONE fra virgolette. La sezione 3 lo vieta
-   "neppure parziale". Riscrivilo parafrasando: si puo' dire che il brano evoca la
-   protesta a letto di Lennon e Ono, senza citare il verso.
-   Gia' che ci sei, controlla le altre frasi iconiche delle schede in cima a
-   dati/coda-verifica.json: se questo e' successo qui puo' essere successo altrove,
-   e nessun controllo automatico lo vede.
-   Poi tre affermazioni da togliere o documentare, assenti da Songfacts e Radio X:
-   - "il suo vero significato non e' mai stato chiarito del tutto da Gallagher"
-   - "viene spesso letto come la rappresentazione simbolica di chi resta ancorato
-     al passato"
-   - nella frase iconica: "Noel Gallagher ha ammesso piu' volte di non sapere chi
-     sia davvero Sally — una parola che semplicemente ci stava bene"
-   E due imprecisioni: "divenne il verso d'apertura" (la fonte dice solo che Noel
-   inizio' a cantarlo, e nel brano non e' il verso d'apertura); "quando Liam inizio'
-   a canticchiarla" (Liam CHIESE cosa stesse cantando).
-
-2) `whats-my-age-again` (159 impressioni).
-   Togli "ispirandosi alle critiche — soprattutto da parte di ragazze — che gli
-   erano state rivolte per la sua immaturita'": non e' in nessuna fonte, e Wikipedia
-   dice esplicitamente "Hoppus declined to label the song as autobiographical".
-   Correggi "scritta per gioco senza pensare che sarebbe finita sul disco": iHeart
-   riporta "I was going to record it as a joke song for blink", cioe' intendeva
-   registrarla.
-   Attenua "il primo grande successo internazionale della band": la fonte dice
-   "one of the band's best-performing singles", e "Dammit" e' del 1997.
-
-3) Su queste due metti anche naturaCorpo e la data di verifica: sono le prime due
-   della coda e devono uscire dal gruppo delle non verificate.
-
-4) Poi riprendi Battiato.
-```
-
----
-
 ## In attesa dall'11 settembre 2026 — `la-regola-dell-amico`, terza per impressioni
 
 ```
@@ -77,4 +30,34 @@ attribuisce l'origine della canzone a "alcune interviste" senza dirne una, e non
 cita nessuna fonte). Quindi questa scheda adesso e' **senza nessuna fonte A/B**.
 Se vuoi chiuderla davvero serve una fonte vera per il Telegatto e per il
 Festivalbar — o si scrive che non risulta.
+```
+
+---
+
+## In attesa dall'11 settembre 2026 — `urlando-contro-il-cielo`, l'esempio della costituzione
+
+```
+`urlando-contro-il-cielo` (61 impressioni), una correzione sola ma va fatta subito.
+
+La scheda dice che Ligabue si fermo' "in mezzo a un campo isolato della Bassa
+emiliana". Wikipedia, la fonte citata, dice solo "fermatosi in mezzo ad un campo
+isolato". "Bassa emiliana" non c'e': cercato per stringa esatta, assente.
+
+E non e' un rilievo nuovo. E' **l'esempio scritto dentro la costituzione**: la R1
+della 4B, alla voce del gesto vietato, dice testualmente «un campo "della Bassa
+emiliana" dove la fonte dice solo "un campo"». L'abbiamo usato per insegnare la
+regola e non siamo mai tornati a correggere la scheda da cui l'avevamo preso.
+Togli "della Bassa emiliana".
+
+Gia' che ci sei: "il secondo album di Ligabue" non sta nella voce del brano.
+O lo documenti o lo togli.
+
+Poi metti naturaCorpo e la data di verifica: il resto della scheda l'ho
+verificato tutto e regge.
+
+NOTA: `hey-brother` (79 impressioni) l'ho verificata ed e' PULITA, zero
+affermazioni non sostenute su quindici. Mettile solo naturaCorpo e la data.
+Due precisazioni minime: "Ash Pournouri" fra gli autori non e' in Bluegrass Today
+(nomina Pontare e Al Fakir) — controlla Wikipedia e, se c'e', va bene cosi';
+"esplora il legame fra fratelli" e' un'interpretazione, etichettala "I".
 ```
