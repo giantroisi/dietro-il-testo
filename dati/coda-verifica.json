@@ -1,101 +1,350 @@
 {
- "_perche": "Ordine in cui riaprire le schede, deciso sul traffico vero e non a intuito. Fonte: Google Search Console, Rendimento > Pagine, tre mesi, esportato l'11 settembre 2026 (90 pagine con impressioni; qui le prime 20). La priorita' e' le impressioni, non i clic: le impressioni dicono quante volte una pagina e' stata MOSTRATA, cioe' quante volte quello che c'e' scritto e' finito davanti a qualcuno.",
+ "_perche": "Ordine in cui riaprire le schede, deciso sul traffico vero e non a intuito. Ordinato per IMPRESSIONI, non per clic: le impressioni dicono quante volte quel testo e' finito davanti a qualcuno. Contiene solo le schede canzone non ancora verificate che hanno ricevuto almeno un'impressione.",
+ "_fonte": "Google Search Console, Rendimento > Pagine, ultimi 3 mesi, esportato l'11 settembre 2026",
  "_aggiornato": "2026-09-11",
+ "_nota": "Quando arriva un'esportazione nuova, questo file va rifatto: le posizioni cambiano e una scheda verificata esce dalla coda.",
  "coda": [
   {
-   "pagina": "canzone/dont-look-back-in-anger",
-   "impressioni": 149,
-   "clic": 2
-  },
-  {
-   "pagina": "canzone/whats-my-age-again",
+   "slug": "whats-my-age-again",
    "impressioni": 159,
-   "clic": 1
+   "clic": 1,
+   "posizione": 11.0
   },
   {
-   "pagina": "canzone/fuori-dal-tunnel",
+   "slug": "dont-look-back-in-anger",
+   "impressioni": 149,
+   "clic": 2,
+   "posizione": 13.1
+  },
+  {
+   "slug": "fuori-dal-tunnel",
    "impressioni": 107,
-   "clic": 0
+   "clic": 0,
+   "posizione": 8.9
   },
   {
-   "pagina": "canzone/la-regola-dell-amico",
+   "slug": "la-regola-dell-amico",
    "impressioni": 85,
-   "clic": 2
+   "clic": 2,
+   "posizione": 9.2
   },
   {
-   "pagina": "canzone/hey-brother",
+   "slug": "hey-brother",
    "impressioni": 79,
-   "clic": 0
+   "clic": 0,
+   "posizione": 9.2
   },
   {
-   "pagina": "artista/franco-battiato",
-   "impressioni": 77,
-   "clic": 0
-  },
-  {
-   "pagina": "canzone/urlando-contro-il-cielo",
+   "slug": "urlando-contro-il-cielo",
    "impressioni": 61,
-   "clic": 0
+   "clic": 0,
+   "posizione": 13.4
   },
   {
-   "pagina": "canzone/vivo-per-lei",
+   "slug": "vivo-per-lei",
    "impressioni": 57,
-   "clic": 0
+   "clic": 0,
+   "posizione": 13.5
   },
   {
-   "pagina": "canzone/man-in-the-box",
+   "slug": "man-in-the-box",
    "impressioni": 47,
-   "clic": 1
+   "clic": 1,
+   "posizione": 5.7
   },
   {
-   "pagina": "canzone/yes-i-know-my-way",
+   "slug": "yes-i-know-my-way",
    "impressioni": 43,
-   "clic": 0
+   "clic": 0,
+   "posizione": 12.1
   },
   {
-   "pagina": "canzone/all-the-small-things",
+   "slug": "all-the-small-things",
    "impressioni": 41,
-   "clic": 0
+   "clic": 0,
+   "posizione": 12.1
   },
   {
-   "pagina": "canzone/ho-messo-via",
+   "slug": "ho-messo-via",
    "impressioni": 37,
-   "clic": 0
+   "clic": 0,
+   "posizione": 9.5
   },
   {
-   "pagina": "canzone/vieni-a-ballare-in-puglia",
+   "slug": "vieni-a-ballare-in-puglia",
    "impressioni": 36,
-   "clic": 0
+   "clic": 0,
+   "posizione": 9.1
   },
   {
-   "pagina": "canzone/aerials",
+   "slug": "aerials",
    "impressioni": 36,
-   "clic": 0
+   "clic": 0,
+   "posizione": 17.0
   },
   {
-   "pagina": "canzone/november-rain",
+   "slug": "november-rain",
    "impressioni": 36,
-   "clic": 0
+   "clic": 0,
+   "posizione": 29.9
   },
   {
-   "pagina": "canzone/highway-to-hell",
+   "slug": "war-pigs",
+   "impressioni": 31,
+   "clic": 0,
+   "posizione": 8.9
+  },
+  {
+   "slug": "wake-me-up-when-september-ends",
+   "impressioni": 31,
+   "clic": 0,
+   "posizione": 11.0
+  },
+  {
+   "slug": "hotel-california",
+   "impressioni": 31,
+   "clic": 0,
+   "posizione": 32.5
+  },
+  {
+   "slug": "black-pearl-jam",
+   "impressioni": 29,
+   "clic": 0,
+   "posizione": 17.8
+  },
+  {
+   "slug": "rock-n-roll-damnation",
+   "impressioni": 27,
+   "clic": 0,
+   "posizione": 42.3
+  },
+  {
+   "slug": "azzurro",
+   "impressioni": 26,
+   "clic": 0,
+   "posizione": 13.7
+  },
+  {
+   "slug": "sound-of-silence-disturbed",
+   "impressioni": 24,
+   "clic": 0,
+   "posizione": 12.2
+  },
+  {
+   "slug": "la-mia-parte-intollerante",
+   "impressioni": 23,
+   "clic": 0,
+   "posizione": 7.7
+  },
+  {
+   "slug": "someone-like-you",
+   "impressioni": 23,
+   "clic": 0,
+   "posizione": 9.6
+  },
+  {
+   "slug": "caruso",
+   "impressioni": 22,
+   "clic": 0,
+   "posizione": 25.9
+  },
+  {
+   "slug": "highway-to-hell",
    "impressioni": 20,
-   "clic": 1
+   "clic": 1,
+   "posizione": 24.9
   },
   {
-   "pagina": "artista/ac-dc",
+   "slug": "shape-of-you",
+   "impressioni": 20,
+   "clic": 0,
+   "posizione": 11.5
+  },
+  {
+   "slug": "sonne",
+   "impressioni": 18,
+   "clic": 0,
+   "posizione": 13.3
+  },
+  {
+   "slug": "follow-you",
+   "impressioni": 17,
+   "clic": 0,
+   "posizione": 9.4
+  },
+  {
+   "slug": "exuvia",
    "impressioni": 16,
-   "clic": 1
+   "clic": 0,
+   "posizione": 8.9
   },
   {
-   "pagina": "canzone/prisoner-709",
+   "slug": "back-in-black",
+   "impressioni": 15,
+   "clic": 0,
+   "posizione": 6.5
+  },
+  {
+   "slug": "goodbye-malinconia",
+   "impressioni": 15,
+   "clic": 0,
+   "posizione": 7.8
+  },
+  {
+   "slug": "boulevard-of-broken-dreams",
+   "impressioni": 13,
+   "clic": 0,
+   "posizione": 7.3
+  },
+  {
+   "slug": "gli-uomini-e-le-donne-sono-uguali",
+   "impressioni": 13,
+   "clic": 0,
+   "posizione": 9.1
+  },
+  {
+   "slug": "hallowed-be-thy-name",
+   "impressioni": 13,
+   "clic": 0,
+   "posizione": 11.8
+  },
+  {
+   "slug": "its-a-long-way-to-the-top",
+   "impressioni": 13,
+   "clic": 0,
+   "posizione": 14.2
+  },
+  {
+   "slug": "one-step-closer",
+   "impressioni": 13,
+   "clic": 0,
+   "posizione": 20.6
+  },
+  {
+   "slug": "prisoner-709",
    "impressioni": 11,
-   "clic": 1
+   "clic": 1,
+   "posizione": 7.9
   },
   {
-   "pagina": "canzone/for-those-about-to-rock",
+   "slug": "non-me-lo-posso-permettere",
+   "impressioni": 11,
+   "clic": 0,
+   "posizione": 7.1
+  },
+  {
+   "slug": "number-of-the-beast",
+   "impressioni": 11,
+   "clic": 0,
+   "posizione": 16.6
+  },
+  {
+   "slug": "castle-on-the-hill",
+   "impressioni": 10,
+   "clic": 0,
+   "posizione": 9.7
+  },
+  {
+   "slug": "take-on-me",
+   "impressioni": 10,
+   "clic": 0,
+   "posizione": 19.5
+  },
+  {
+   "slug": "blind",
+   "impressioni": 9,
+   "clic": 0,
+   "posizione": 5.9
+  },
+  {
+   "slug": "run-to-the-hills",
+   "impressioni": 8,
+   "clic": 0,
+   "posizione": 10.0
+  },
+  {
+   "slug": "peace-sells",
+   "impressioni": 8,
+   "clic": 0,
+   "posizione": 17.1
+  },
+  {
+   "slug": "nihilist-blues",
+   "impressioni": 5,
+   "clic": 0,
+   "posizione": 8.0
+  },
+  {
+   "slug": "let-there-be-rock",
+   "impressioni": 5,
+   "clic": 0,
+   "posizione": 13.0
+  },
+  {
+   "slug": "for-those-about-to-rock",
    "impressioni": 4,
-   "clic": 1
+   "clic": 1,
+   "posizione": 4.8
+  },
+  {
+   "slug": "happy-song",
+   "impressioni": 4,
+   "clic": 0,
+   "posizione": 6.0
+  },
+  {
+   "slug": "my-exs-best-friend",
+   "impressioni": 4,
+   "clic": 0,
+   "posizione": 6.0
+  },
+  {
+   "slug": "wonderful-life",
+   "impressioni": 4,
+   "clic": 0,
+   "posizione": 9.2
+  },
+  {
+   "slug": "square-hammer",
+   "impressioni": 4,
+   "clic": 0,
+   "posizione": 9.8
+  },
+  {
+   "slug": "youngblood",
+   "impressioni": 3,
+   "clic": 0,
+   "posizione": 3.0
+  },
+  {
+   "slug": "amnesia-5sos",
+   "impressioni": 3,
+   "clic": 0,
+   "posizione": 6.3
+  },
+  {
+   "slug": "darkside",
+   "impressioni": 3,
+   "clic": 0,
+   "posizione": 8.0
+  },
+  {
+   "slug": "dirty-deeds-done-dirt-cheap",
+   "impressioni": 3,
+   "clic": 0,
+   "posizione": 14.7
+  },
+  {
+   "slug": "the-light-disturbed",
+   "impressioni": 3,
+   "clic": 0,
+   "posizione": 34.3
+  },
+  {
+   "slug": "danger-acdc",
+   "impressioni": 2,
+   "clic": 0,
+   "posizione": 4.5
   }
  ]
 }
