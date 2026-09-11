@@ -51,3 +51,30 @@ Ho aperto le due schede piu' viste del sito e c'e' una violazione della sezione 
 
 4) Poi riprendi Battiato.
 ```
+
+---
+
+## In attesa dall'11 settembre 2026 — `la-regola-dell-amico`, terza per impressioni
+
+```
+`la-regola-dell-amico` (85 impressioni): quattro affermazioni non stanno in
+nessuna delle due fonti citate — cercate per stringa esatta sul testo
+renderizzato, tutte e quattro assenti:
+  - "sigla di Un disco per l'estate"
+  - "portata anche al Festivalbar"
+  - "si aggiudico' il Telegatto"
+  - "secondo singolo" (Wikipedia elenca i singoli ma non ne dichiara l'ordine)
+O le documenti con una fonte vera, o le togli.
+
+E c'e' una contraddizione dentro la scheda: il corpo dice Telegatto "come
+canzone dell'ESTATE 1997", la frase iconica "come canzone dell'ANNO". Due
+affermazioni diverse, e nessuna delle due documentata. check-coerenza non la
+vede perche' guarda i campi, non il senso.
+
+ATTENZIONE, e' cambiata la tabella dei livelli: ceraunavolta.org e' stato
+declassato da A a C (l'ho aperto: pezzo di rievocazione, firmato ma senza data,
+attribuisce l'origine della canzone a "alcune interviste" senza dirne una, e non
+cita nessuna fonte). Quindi questa scheda adesso e' **senza nessuna fonte A/B**.
+Se vuoi chiuderla davvero serve una fonte vera per il Telegatto e per il
+Festivalbar — o si scrive che non risulta.
+```

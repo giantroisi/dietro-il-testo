@@ -58,7 +58,15 @@
 //   una fonte A/B e basta — adesso si vede tutto, ed e' 53.
 //   8 settembre, sera tardi: 56. `una-vita-da-mediano` ha perso la fonte
 //   vietata e guadagnato la sua prima fonte A (Ligachannel).
-const SOGLIA = 53;
+// **11 settembre 2026: la soglia SALE, per la prima volta da quando esiste.**
+// Non perche' sia stata aggiunta una scheda scoperta — quello il freno deve
+// fermarlo — ma perche' `ceraunavolta.org` e' stato declassato da A a C dopo
+// averlo finalmente aperto. `la-regola-dell-amico` non ha perso una fonte:
+// **non l'ha mai avuta**, e la tabella diceva il falso. 53 era un numero
+// sbagliato, 54 e' quello vero. Un freno tarato su un numero falso non frena
+// niente; alzarlo per coprire una scheda nuova invece sarebbe barare, ed e' la
+// distinzione da tenere ferma ogni volta che questo numero si tocca.
+const SOGLIA = 54;
 
 import { readFileSync } from 'node:fs';
 
@@ -70,7 +78,7 @@ import { readFileSync } from 'node:fs';
 const A = new Set([
   'guinnessworldrecords.com', 'osservatoreromano.va', 'treccani.it',
   'zucchero.it', 'whitneyhouston.com', 'centurymedia.bandcamp.com',
-  'archivio.astigiani.it', 'ceraunavolta.org',
+  'archivio.astigiani.it',
   // Aggiunto l'8 settembre 2026. Sito ufficiale di Ligabue: la pagina citata da
   // `balliamo-sul-mondo` (via web.archive.org) e' un pezzo redazionale
   // «canzone per canzone» del 2 aprile 2009 in cui Ligabue commenta i propri
@@ -124,6 +132,9 @@ const A = new Set([
   // ("Released fifty years ago today by DJM Records, on April 10, 1970"), che
   // prima si appoggiava ai soli metadati di Spotify.
   'eltonjohn.com',
+  // 11 settembre 2026, con le schede nuove di Battiato. Sito ufficiale
+  // dell'artista, stessa famiglia dei precedenti.
+  'battiato.it',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -193,6 +204,16 @@ const B = new Set([
   // pagina firmata, non l'istituzione che non c'e'. **B e non A** perche' non
   // e' ne' un ente ne' un sito ufficiale.
   'musicologica.it',
+  // Sound On Sound, rivista di registrazione e produzione dal 1985: la pagina
+  // citata da `go-your-own-way` e' un pezzo della serie «Classic Tracks»
+  // firmato Richard Buskin, con dichiarazioni dirette dei protagonisti.
+  'soundonsound.com',
+  // pangea.news — aperta la pagina citata da `prospettiva-nevski`: «testata
+  // giornalistica registrata presso il Tribunale di Roma n. 45/2025», articolo
+  // datato 19 maggio 2021, firma redazionale, e dentro ci sono dichiarazioni
+  // dirette virgolettate di Sandro Teti, che il viaggio l'ha organizzato.
+  // Materiale primario su una testata registrata e datata.
+  'pangea.news',
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -236,6 +257,19 @@ const C = new Set([
   'archivio.blitzquotidiano.it', 'tag24.it', 'ehabitat.it', 'cromosomimedia.com',
   'rds.it', 'ondamusicale.it', 'oaplus.it', 'tomtomrock.it', 'dropnews.it',
   'agorairc.it', 'romasette.it',
+  // ceraunavolta.org — **DECLASSATO da A a C l'11 settembre 2026.** Era fra i
+  // primi domini messi in tabella, quando ancora non si scriveva la
+  // motivazione accanto alla voce: nessuno ha mai potuto rileggere il perche',
+  // perche' il perche' non c'era. Aperta la pagina citata da
+  // `la-regola-dell-amico`: e' un pezzo di rievocazione — «motorini, gelati
+  // sciolti al sole» — **firmato ma senza data**, che attribuisce l'origine
+  // della canzone a «alcune interviste» **senza dire quali**, e non cita
+  // nessuna fonte. Non e' un archivio e non e' una testata: e' scritto bene e
+  // non prova niente, che e' la definizione stessa del livello C.
+  // Conseguenza voluta: `la-regola-dell-amico` — terza scheda del sito per
+  // impressioni — resta senza nessuna fonte di livello A o B, che e'
+  // esattamente cio' che e'.
+  'ceraunavolta.org',
   // Due emittenti radio, aperte l'8 settembre invece che dedotte dal nome:
   'smoothradio.com',      // data ma nessuna firma sulla pagina, classifica redazionale senza fonti
   'radiocremebrulee.com', // web radio americana, recensione a firma collettiva, nessuna fonte
