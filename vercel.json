@@ -1866,11 +1866,6 @@
       "permanent": true
     },
     {
-      "source": "/album/franco-battiato/la-voce-del-padrone/",
-      "destination": "/artista/franco-battiato/",
-      "permanent": true
-    },
-    {
       "source": "/album/franco-battiato/l-arca-di-noe/",
       "destination": "/artista/franco-battiato/",
       "permanent": true
@@ -3821,11 +3816,6 @@
       "permanent": true
     },
     {
-      "source": "/album/pink-floyd/the-wall/",
-      "destination": "/artista/pink-floyd/",
-      "permanent": true
-    },
-    {
       "source": "/album/pink-floyd/the-final-cut/",
       "destination": "/artista/pink-floyd/",
       "permanent": true
@@ -4963,11 +4953,6 @@
     {
       "source": "/album/the-killers/pressure-machine/",
       "destination": "/artista/the-killers/",
-      "permanent": true
-    },
-    {
-      "source": "/album/the-police/outlandos-d-amour/",
-      "destination": "/artista/the-police/",
       "permanent": true
     },
     {

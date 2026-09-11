@@ -4834,7 +4834,7 @@
     "titolo": "Rumours",
     "anno": "1977",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -5384,8 +5384,8 @@
     "titolo": "La voce del padrone",
     "anno": "1981",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -9872,7 +9872,7 @@
     "titolo": "Nevermind",
     "anno": "1991",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -10532,8 +10532,8 @@
     "titolo": "The Wall",
     "anno": "1979",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -10884,7 +10884,7 @@
     "titolo": "Purple Rain (colonna sonora)",
     "anno": "1984",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -13370,8 +13370,8 @@
     "titolo": "Outlandos d'Amour",
     "anno": "1978",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

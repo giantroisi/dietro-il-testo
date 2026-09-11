@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 295,
+    "nCanzoni": 301,
     "haTestoEditoriale": true
   },
   {
@@ -1512,6 +1512,36 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/comfortably-numb/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/go-your-own-way/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/roxanne/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/when-doves-cry/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/come-as-you-are/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/centro-di-gravita-permanente/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1760,7 +1790,7 @@
     "percorso": "artista/fleetwood-mac/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1781,7 +1811,7 @@
     "percorso": "artista/franco-battiato/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -1977,7 +2007,7 @@
     "percorso": "artista/nirvana/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2019,7 +2049,7 @@
     "percorso": "artista/pink-floyd/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2033,7 +2063,7 @@
     "percorso": "artista/prince/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2173,7 +2203,7 @@
     "percorso": "artista/the-police/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3020,7 +3050,7 @@
     "percorso": "album/fleetwood-mac/rumours/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3050,6 +3080,13 @@
     "indicizzabile": true,
     "nCanzoni": 0,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/franco-battiato/la-voce-del-padrone/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/franco-battiato/limboscata/",
@@ -3482,7 +3519,7 @@
     "percorso": "album/nirvana/nevermind/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3591,6 +3628,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/pink-floyd/the-wall/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/pino-daniele/vai-mo/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3601,7 +3645,7 @@
     "percorso": "album/prince/purple-rain-colonna-sonora/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3794,6 +3838,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/the-police/outlandos-d-amour/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/the-police/synchronicity/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -3888,14 +3939,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 148,
+    "nCanzoni": 153,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 125,
+    "nCanzoni": 127,
     "haTestoEditoriale": true
   },
   {
@@ -3916,21 +3967,21 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 42,
+    "nCanzoni": 45,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 51,
+    "nCanzoni": 53,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 63,
+    "nCanzoni": 64,
     "haTestoEditoriale": true
   },
   {
