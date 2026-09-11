@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/your-song.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/your-song/#brano","name":"Your Song","byArtist":{"@type":"MusicGroup","name":"Elton John","url":"https://www.dietroiltesto.it/artista/elton-john/"},"inAlbum":{"@type":"MusicAlbum","name":"Elton John"},"datePublished":"1970","url":"https://www.dietroiltesto.it/canzone/your-song/","description":"Scritta da Elton John (musica) e Bernie Taupin (testo), è contenuta nell'album omonimo \"Elton John\", pubblicato il 10 aprile 1970."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Your Song","item":"https://www.dietroiltesto.it/canzone/your-song/"}]},{"@type":"Article","headline":"Your Song","about":{"@id":"https://www.dietroiltesto.it/canzone/your-song/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/your-song/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/your-song/#brano","name":"Your Song","byArtist":{"@type":"MusicGroup","name":"Elton John","url":"https://www.dietroiltesto.it/artista/elton-john/"},"inAlbum":{"@type":"MusicAlbum","name":"Elton John"},"datePublished":"1970","url":"https://www.dietroiltesto.it/canzone/your-song/","description":"Scritta da Elton John (musica) e Bernie Taupin (testo), è contenuta nell'album omonimo \"Elton John\", pubblicato il 10 aprile 1970."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Your Song","item":"https://www.dietroiltesto.it/canzone/your-song/"}]},{"@type":"Article","headline":"Your Song","about":{"@id":"https://www.dietroiltesto.it/canzone/your-song/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/your-song/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -964,7 +970,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Elton John (musica) e Bernie Taupin (testo), è contenuta nell'album omonimo &quot;Elton John&quot;, pubblicato il 10 aprile 1970. Uscì come singolo autonomo nel Regno Unito nel gennaio 1971, raggiungendo la posizione numero 7 della classifica britannica e, secondo Louder, la numero 8 della Billboard Hot 100 statunitense; sempre secondo Louder, la spinta decisiva alla pubblicazione come singolo nel Regno Unito arrivò da un'iniziativa del conduttore di Radio 1 Tony Blackburn.</p>
         <p><span class="aff aff-D"><span class="aff-testo">Taupin ha raccontato di aver scritto il testo molto rapidamente, a colazione, al tavolo della cucina dell'appartamento della madre di Elton a Northwood Hills, su un foglio che si macchiò di tè; aveva allora 17 anni e, non avendo mai vissuto un vero amore romantico, mise per iscritto la propria idea di che cosa potesse essere.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Elton John ha raccontato di aver scritto la musica lo stesso giorno, in circa venti minuti, non appena letto il testo di Taupin.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
-        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

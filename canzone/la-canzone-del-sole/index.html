@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/la-canzone-del-sole.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/#brano","name":"La canzone del sole","byArtist":{"@type":"MusicGroup","name":"Lucio Battisti","url":"https://www.dietroiltesto.it/artista/lucio-battisti/"},"inAlbum":{"@type":"MusicAlbum","name":"La canzone del sole/Anche per te"},"datePublished":"1971","url":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/","description":"Pubblicato nel novembre 1971 come singolo autonomo su 45 giri — non tratto da nessun album — in coppia con \"Anche per te\", fu il primo disco che Lucio."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"La canzone del sole","item":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/"}]},{"@type":"Article","headline":"La canzone del sole","about":{"@id":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/#brano","name":"La canzone del sole","byArtist":{"@type":"MusicGroup","name":"Lucio Battisti","url":"https://www.dietroiltesto.it/artista/lucio-battisti/"},"inAlbum":{"@type":"MusicAlbum","name":"La canzone del sole/Anche per te"},"datePublished":"1971","url":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/","description":"Pubblicato nel novembre 1971 come singolo autonomo su 45 giri — non tratto da nessun album — in coppia con \"Anche per te\", fu il primo disco che Lucio."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"La canzone del sole","item":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/"}]},{"@type":"Article","headline":"La canzone del sole","about":{"@id":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/la-canzone-del-sole/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -964,7 +970,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Pubblicato nel novembre 1971 come singolo autonomo su 45 giri — non tratto da nessun album — in coppia con &quot;Anche per te&quot;, fu il primo disco che Lucio Battisti incise per la neonata etichetta Numero Uno. Musica di Battisti, testo di Mogol (Giulio Rapetti).</p>
         <p><span class="aff aff-D"><span class="aff-testo">Secondo quanto raccontato dallo stesso Mogol, il testo nacque ripensando alle estati della sua infanzia trascorse a Silvi Marina, sulla costa teramana, dove la sua famiglia andava in vacanza: il paroliere ha raccontato di essersi sempre ricordato del mare, della gente e persino del mercato del pesce del paese, e di aver dato lì il suo primo bacio, da ragazzo.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> Il comune di Silvi gli ha poi conferito la cittadinanza onoraria e dal 2009 organizza ogni anno, intitolato proprio alla canzone, un concorso per giovani artisti emergenti. <span class="aff aff-I"><span class="aff-testo">Fra i dodici classici della coppia scelti da Mogol per il progetto &quot;Le canzoni di Mogol Battisti in versione rock new era&quot; (2014), che ne ha proposto una reinterpretazione in chiave rock, resta uno dei brani più amati del duo.</span><span class="aff-nome"> — Interpretazione accreditata</span></span></p>
-        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

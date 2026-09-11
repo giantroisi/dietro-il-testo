@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/r-e-m/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"R.E.M.","url":"https://www.dietroiltesto.it/artista/r-e-m/","dateModified":"2026-09-10","description":"Formati ad Athens, in Georgia, nel 1980, nacquero dall'incontro tra Peter Buck e Michael Stipe nel negozio di dischi Wuxtry Records, accomunati dalla passione per il punk rock; tramite un'amica comune conobbero poi Mike Mills e Bill Berry, già musicisti insieme dai tempi del liceo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"R.E.M.","item":"https://www.dietroiltesto.it/artista/r-e-m/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"R.E.M.","url":"https://www.dietroiltesto.it/artista/r-e-m/","dateModified":"2026-09-11","description":"Formati ad Athens, in Georgia, nel 1980, nacquero dall'incontro tra Peter Buck e Michael Stipe nel negozio di dischi Wuxtry Records, accomunati dalla passione per il punk rock; tramite un'amica comune conobbero poi Mike Mills e Bill Berry, già musicisti insieme dai tempi del liceo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"R.E.M.","item":"https://www.dietroiltesto.it/artista/r-e-m/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -729,8 +729,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;

@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/man-in-the-mirror.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/#brano","name":"Man in the Mirror","byArtist":{"@type":"MusicGroup","name":"Michael Jackson","url":"https://www.dietroiltesto.it/artista/michael-jackson/"},"inAlbum":{"@type":"MusicAlbum","name":"Bad"},"datePublished":"1987","url":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/","description":"Scritta da Siedah Garrett e Glen Ballard — musica di Ballard, testo di Garrett — è contenuta nell'album \"Bad\" (1987) e uscì come singolo su etichetta Epic."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Man in the Mirror","item":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/"}]},{"@type":"Article","headline":"Man in the Mirror","about":{"@id":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/#brano","name":"Man in the Mirror","byArtist":{"@type":"MusicGroup","name":"Michael Jackson","url":"https://www.dietroiltesto.it/artista/michael-jackson/"},"inAlbum":{"@type":"MusicAlbum","name":"Bad"},"datePublished":"1987","url":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/","description":"Scritta da Siedah Garrett e Glen Ballard — musica di Ballard, testo di Garrett — è contenuta nell'album \"Bad\" (1987) e uscì come singolo su etichetta Epic."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Man in the Mirror","item":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/"}]},{"@type":"Article","headline":"Man in the Mirror","about":{"@id":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/man-in-the-mirror/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -964,7 +970,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Siedah Garrett e Glen Ballard — musica di Ballard, testo di Garrett — è contenuta nell'album &quot;Bad&quot; (1987) e uscì come singolo su etichetta Epic, entrando nella classifica britannica il 20 febbraio 1988 e raggiungendo la posizione numero 2. <span class="aff aff-D"><span class="aff-testo">Secondo il produttore Quincy Jones, citato da American Songwriter, fu la prima canzone scritta da altri autori che Michael Jackson accettò di registrare in due anni.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
         <p><span class="aff aff-D"><span class="aff-testo">Garrett teneva il titolo &quot;Man in the Mirror&quot; annotato in un quaderno da circa un anno: quando andava a casa di Glen Ballard ad ascoltare le basi musicali su cui lavorava, sfogliava il quaderno in cerca di un titolo adatto — Quincy Jones le aveva lasciato mano libera, chiedendole soltanto qualcosa fra un brano funk da strada e una ballata.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">La canzone nacque rapidamente — &quot;è venuta tutta insieme&quot;, ha raccontato Garrett — e la coppia completò in una sera di venerdì una demo cantata dalla stessa Garrett.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Impaziente di farla ascoltare, Garrett chiamò subito Quincy Jones, che richiamò dopo quattro ore dicendole che il brano era ottimo ma ricordandole che Jackson non aveva ancora accettato un pezzo esterno in due anni; tre giorni dopo arrivò la notizia che Jackson lo aveva accettato, e prima delle session lo stesso Jackson telefonò a Garrett per complimentarsi della sua voce.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
-        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

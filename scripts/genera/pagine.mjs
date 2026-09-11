@@ -583,7 +583,7 @@ export function paginaCanzone(c, ctx) {
   // La legenda compare solo se sulla pagina c'e' davvero qualcosa di segnato:
   // spiegare un segno che non c'e' e' rumore.
   const legendaNature = usaNature
-    ? `<p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>`
+    ? `<p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto \u00e8 fatto documentato dalle fonti in fondo alla pagina.</p>`
     : '';
 
   const extra = (c.sezioniExtra || [])

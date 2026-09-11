@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/wanted-dead-or-alive.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/#brano","name":"Wanted Dead or Alive","byArtist":{"@type":"MusicGroup","name":"Bon Jovi","url":"https://www.dietroiltesto.it/artista/bon-jovi/"},"inAlbum":{"@type":"MusicAlbum","name":"Slippery When Wet"},"datePublished":"1986","url":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/","description":"Scritta da Jon Bon Jovi e Richie Sambora, è il terzo singolo estratto da \"Slippery When Wet\" (1986); pubblicato su etichetta Vertigo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Wanted Dead or Alive","item":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/"}]},{"@type":"Article","headline":"Wanted Dead or Alive","about":{"@id":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/#brano","name":"Wanted Dead or Alive","byArtist":{"@type":"MusicGroup","name":"Bon Jovi","url":"https://www.dietroiltesto.it/artista/bon-jovi/"},"inAlbum":{"@type":"MusicAlbum","name":"Slippery When Wet"},"datePublished":"1986","url":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/","description":"Scritta da Jon Bon Jovi e Richie Sambora, è il terzo singolo estratto da \"Slippery When Wet\" (1986); pubblicato su etichetta Vertigo."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Wanted Dead or Alive","item":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/"}]},{"@type":"Article","headline":"Wanted Dead or Alive","about":{"@id":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -964,7 +970,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Scritta da Jon Bon Jovi e Richie Sambora, è il terzo singolo estratto da &quot;Slippery When Wet&quot; (1986); pubblicato su etichetta Vertigo, entrò nella classifica britannica dei singoli l'11 aprile 1987, raggiungendo la posizione numero 13. Secondo uDiscover Music fu anche il terzo dei tre singoli dell'album a raggiungere la top ten della classifica statunitense.</p>
         <p><span class="aff aff-D"><span class="aff-testo">Bon Jovi e Sambora la scrissero a casa della madre di Sambora, seguendo un metodo di lavoro rigoroso — sei-otto ore al giorno, cinque giorni a settimana — che Bon Jovi ha descritto come uno dei giorni in cui il gruppo scrisse due canzoni in una sola seduta.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Fu Sambora a portare in sessione il riff di chitarra iniziale, dal sapore Nashville, da cui nacque il testo a tema western: Bon Jovi ha descritto il gruppo dell'epoca come una 'giovane banda di ladri' in arrivo in città per rubare soldi, ragazze e alcol, e ripartire prima dell'alba.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
-        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

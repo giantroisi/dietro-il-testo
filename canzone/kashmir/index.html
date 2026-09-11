@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/kashmir.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/kashmir/#brano","name":"Kashmir","byArtist":{"@type":"MusicGroup","name":"Led Zeppelin","url":"https://www.dietroiltesto.it/artista/led-zeppelin/"},"inAlbum":{"@type":"MusicAlbum","name":"Physical Graffiti"},"datePublished":"1975","url":"https://www.dietroiltesto.it/canzone/kashmir/","description":"Contenuta in \"Physical Graffiti\", il sesto album in studio dei Led Zeppelin."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Kashmir","item":"https://www.dietroiltesto.it/canzone/kashmir/"}]},{"@type":"Article","headline":"Kashmir","about":{"@id":"https://www.dietroiltesto.it/canzone/kashmir/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/kashmir/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/kashmir/#brano","name":"Kashmir","byArtist":{"@type":"MusicGroup","name":"Led Zeppelin","url":"https://www.dietroiltesto.it/artista/led-zeppelin/"},"inAlbum":{"@type":"MusicAlbum","name":"Physical Graffiti"},"datePublished":"1975","url":"https://www.dietroiltesto.it/canzone/kashmir/","description":"Contenuta in \"Physical Graffiti\", il sesto album in studio dei Led Zeppelin."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Kashmir","item":"https://www.dietroiltesto.it/canzone/kashmir/"}]},{"@type":"Article","headline":"Kashmir","about":{"@id":"https://www.dietroiltesto.it/canzone/kashmir/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/kashmir/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -964,7 +970,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>Contenuta in &quot;Physical Graffiti&quot;, il sesto album in studio dei Led Zeppelin, che debuttò al numero uno della classifica britannica degli album a partire dal 15 marzo 1975, &quot;Kashmir&quot; chiude il secondo lato del disco. <span class="aff aff-D"><span class="aff-testo">È accreditata a Jimmy Page, Robert Plant e John Bonham: il riff nacque da una session notturna tra Page e Bonham a Headley Grange, mentre gli archi e gli ottoni furono aggiunti agli Olympic Studios di Londra nel maggio 1974.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
         <p>Il testo, inizialmente intitolato &quot;Driving to Kashmir&quot;, nacque da un verso scritto da Plant nell'autunno 1973 dopo un lungo viaggio in auto nel sud del Marocco: il brano non ha nulla a che fare con la regione del Kashmir, nell'India settentrionale. <span class="aff aff-D"><span class="aff-testo">Plant ha raccontato di essersi ispirato a una strada a binario unico che tagliava il deserto, fiancheggiata da due creste di roccia sabbiosa, che sembrava non finire mai.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Page ha raccontato che il riff nacque da una session con il solo Bonham alla batteria, mentre John Paul Jones — che in seguito curò gli arrangiamenti orchestrali al Mellotron — si era temporaneamente allontanato dal gruppo durante le turbolente tournée statunitensi dell'estate 1973.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
-        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto e' fatto documentato dalle fonti in fondo alla pagina.</p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 

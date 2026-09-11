@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
@@ -902,13 +908,13 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">Canzone in evidenza</p>
-      <article class="pillola" data-pillola style="--identita:#4A3E6E">
-        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Soundgarden <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1994</p>
-        <p class="gancio" data-pillola-titolo>Black Hole Sun</p>
-        <p class="estratto" data-pillola-estratto>Il verso più citato è l'invito ripetuto nel ritornello rivolto al &quot;sole buco nero&quot; affinché arrivi e lavi via il grigiore.</p>
+      <article class="pillola" data-pillola style="--identita:#5C5C6B">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Black Sabbath <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970</p>
+        <p class="gancio" data-pillola-titolo>Iron Man</p>
+        <p class="estratto" data-pillola-estratto>Il momento più citato è il finale della storia, in cui il protagonista, deriso e ignorato dagli uomini nonostante fosse tornato per avvertirli, decide di vendicarsi provocando lui stesso l'apocalisse che aveva visto.</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/black-hole-sun/" data-pillola-link>Leggi la scheda</a>
-          <a class="bottone" href="artista/soundgarden/" data-pillola-artista>Soundgarden</a>
+          <a class="bottone pieno" href="canzone/iron-man/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/black-sabbath/" data-pillola-artista>Black Sabbath</a>
           <button type="button" class="bottone" data-altra-pillola>Cambia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>

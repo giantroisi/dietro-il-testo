@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/whats-my-age-again.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano","name":"What's My Age Again?","byArtist":{"@type":"MusicGroup","name":"Blink-182","url":"https://www.dietroiltesto.it/artista/blink-182/"},"inAlbum":{"@type":"MusicAlbum","name":"Enema of the State"},"datePublished":"1999","url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","description":"Scritta da Mark Hoppus in circa cinque minuti, nacque dopo che diverse persone gli fecero notare quanto fosse immaturo per la sua età."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"What's My Age Again?","item":"https://www.dietroiltesto.it/canzone/whats-my-age-again/"}]},{"@type":"Article","headline":"What's My Age Again?","about":{"@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","dateModified":"2026-09-10"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano","name":"What's My Age Again?","byArtist":{"@type":"MusicGroup","name":"Blink-182","url":"https://www.dietroiltesto.it/artista/blink-182/"},"inAlbum":{"@type":"MusicAlbum","name":"Enema of the State"},"datePublished":"1999","url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","description":"Scritta da Mark Hoppus in circa cinque minuti, nacque dopo che diverse persone gli fecero notare quanto fosse immaturo per la sua età."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"What's My Age Again?","item":"https://www.dietroiltesto.it/canzone/whats-my-age-again/"}]},{"@type":"Article","headline":"What's My Age Again?","about":{"@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","dateModified":"2026-09-11"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -733,8 +733,14 @@ a { color: inherit; }
    largo) o quando il lettore ci passa sopra. Il fatto documentato non ha segno
    perche' e' la linea di base: segnare tutto equivale a non segnare niente. */
 .aff-testo { border-bottom: 1px dotted currentColor; }
-.aff-D .aff-testo { border-bottom-color: var(--identita, currentColor); }
-.aff-I .aff-testo { border-bottom-style: dashed; opacity: 1; }
+/* Il segno si distingue per TRATTO, non per colore. La prima stesura usava
+   la variabile --identita, il colore della singola scheda: misurato sulla pagina
+   pubblicata di bocca-di-rosa dava un cremisi scuro (rgb 163,31,92) sotto un
+   testo quasi bianco su fondo scuro — praticamente invisibile. Un segno che non
+   si vede e' un segno che non c'e'. currentColor ha per forza il contrasto
+   del testo che sottolinea, in tutt'e due i temi. */
+.aff-D .aff-testo { border-bottom-style: dotted; }
+.aff-I .aff-testo { border-bottom-style: dashed; }
 .aff-nome {
   font-size: 0.72em;
   letter-spacing: 0.02em;
