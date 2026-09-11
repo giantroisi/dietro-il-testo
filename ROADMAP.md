@@ -2506,6 +2506,28 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Non tocca le pagine album**: li' il silenzio resta giusto, perche' nessuno ha mai promesso che fossero verificate.
 **Verificato**: rigenerato, `check-coerenza` 0, `check-link` 0, contati sulle pagine prodotte **273 «non ancora» e 22 «verificata»**, che sono esattamente i numeri dei dati. Corretti prima di committare due accenti scritti con l'apostrofo dentro il generatore — lo stesso difetto trovato ieri sulla legenda, e stavolta cercato apposta prima di pubblicare.
 
+- **11 settembre 2026 — QUARTA INFORNATA: 6 canzoni, `naturaCorpo` scritto durante la stesura, non dopo. Un R3 trovato e corretto mentre si scriveva.**
+  Sei schede nuove, con il metodo della terza infornata più le tre correzioni chieste: ogni fonte aperta prima di scrivere la frase che ne dipende (R1); dati anagrafici tracciati su fonti A/B prima del racconto, e quando serviva sono saliti a una fonte A invece di accontentarsi della più comoda (R2-bis); `naturaCorpo` compilato riga per riga mentre il testo prendeva forma, non aggiunto a scheda finita.
+  **Il caso trovato scrivendo, non riverificando dopo.** `go-your-own-way` nominava "Rolling Stone" in una frase — la citazione di Stevie Nicks sul verso che la descriveva ingiustamente — ma Rolling Stone non era fra le fonti della scheda: la mia fonte vera è Sound on Sound, che quella dichiarazione la riporta. Corretto subito in "secondo Sound on Sound, che riporta una dichiarazione di Nicks a Rolling Stone" (R3, uscita 3) prima di rigenerare, non dopo un controllo che l'avesse segnalato — `check-attribuzioni.mjs` lo avrebbe comunque trovato, ma stavolta l'ho visto io per primo.
+  **Un caso di dato anagrafico corretto salendo a una fonte A.** Una ricerca preliminare diceva "Centro di gravità permanente" scritta da Battiato e Giusto Pio; riaperti i crediti stampati sulla copertina dell'LP originale via Discogs, Pio risulta accreditato solo per arrangiamento e direzione musicale, non come coautore — il brano è di Battiato da solo. Scritto così, non come trovato dalla prima ricerca.
+  **Tabella fonte dati / fonte racconto:**
+
+  | Canzone | Artista | Fonte dati (livello) | Fonte racconto (livello) |
+  |---|---|---|---|
+  | Comfortably Numb | Pink Floyd | Official Charts, album *The Wall* (A); Discogs, crediti di copertina (A) | Ultimate Classic Rock — Nick DeRiso (B) |
+  | Go Your Own Way | Fleetwood Mac | Official Charts, singolo e album *Rumours* (A) | Sound on Sound — Richard Buskin, con dichiarazioni dirette di Stevie Nicks a Rolling Stone (B) |
+  | Roxanne | The Police | Official Charts, singolo (riedizione 1979) (A) | Ultimate Classic Rock — Corey Irwin, con dichiarazioni dirette di Sting, Andy Summers e Miles Copeland (B) |
+  | When Doves Cry | Prince | Official Charts, singolo (A) | Guitar World — Nick Wells, cita un'intervista di Prince a Bass Player, dicembre 2005 (B) |
+  | Come as You Are | Nirvana | Official Charts, singolo (A) | uDiscover Music — Simon Harper, con dichiarazioni dirette di Butch Vig, Dave Grohl e Kurt Cobain (B) |
+  | Centro di gravità permanente | Franco Battiato | Discogs, crediti di copertina dell'LP originale (A) | Rockol — Fabio Zuffanti (B); Il Fatto Quotidiano, con dichiarazione diretta di Battiato (B) |
+
+  **Ripartizione F/D/I per scheda** (paragrafo 1 + paragrafo 2): `comfortably-numb` F,F,F / F,D,D,D,D — `go-your-own-way` F,F,F / F,D,F — `roxanne` F,F,F / D,D,D,D — `when-doves-cry` F,F / D,D — `come-as-you-are` F,F / F,D,F — `centro-di-gravita-permanente` F,F / D,I.
+  **Totale infornata: 34 frasi — 20 F, 13 D, 1 I.** Sommato alle 13 schede precedenti (35 F, 28 D, 1 I su 64 frasi): **98 frasi sulle 19 schede scritte con la 4B — 55 F, 41 D, 2 I, 44% con segno visibile.**
+  Nessuna biografia nuova necessaria: tutti e sei gli artisti erano già in catalogo con almeno una scheda. Album collegati già presenti nelle rispettive discografie, nessun album orfano creato.
+  Segnalato un dominio nuovo da classificare: `soundonsound.com` (Sound on Sound), usato per la prima volta in questa infornata — firma (Richard Buskin) e data (agosto 2007) presenti sull'articolo, non lo classifico perché non è lavoro mio.
+**Verificato**: `check-nature.mjs --frasi <slug>` per ognuna delle sei prima di scrivere l'etichetta, conteggio combaciante al primo giro su tutte e sei; `check-nature.mjs` senza argomenti — 19 schede valide, 0 rifiutate, 98 frasi, 44% con segno visibile; `genera-sito.mjs` (301 canzoni, 658 pagine), `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove; l'unico spotifyId mancante nel catalogo resta preesistente, non mio), `check-attribuzioni.mjs` (0, dopo la correzione R3 su go-your-own-way), `check-livelli.mjs` (freno canzoni libero 53/53, nessuna delle sei C-sola; freno biografie 0/0). Grep mirato sull'HTML generato per contare gli span `aff-D`/`aff-I` di ciascuna delle sei pagine e confrontarli col conteggio atteso, non solo `check-nature`. Copiato in root, committato (`d65e23fd`), pushato.
+**Aperto**: `soundonsound.com` da classificare.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
