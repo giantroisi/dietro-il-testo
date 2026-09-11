@@ -5372,10 +5372,10 @@
     "ascoltiTesto": "1,0 mld ascolti",
     "spotifyId": "4LJhJ6DQS7NwE7UKtvcM52",
     "corpo": [
-      "Mark Hoppus ha raccontato, ospite del podcast di Chris DeMakes, che il riff d'apertura nacque per errore: stava provando a imparare l'intro di basso di \"J.A.R.\" dei Green Day, la eseguì sbagliata, e il risultato gli piacque abbastanza da diventare la base del nuovo brano. Il testo, disse, iniziò come una canzoncina scherzosa e molto più volgare della versione finale, scritta per gioco senza pensare che sarebbe finita sul disco; solo in un secondo momento, rendendosi conto che aveva del potenziale, la riscrisse in circa cinque minuti nel proprio salotto, ispirandosi alle critiche — soprattutto da parte di ragazze — che gli erano state rivolte per la sua immaturità.",
-      "Il titolo di lavorazione era \"Peter Pan Complex\", diretto riferimento al rifiuto di crescere. L'etichetta MCA Records lo giudicò un riferimento troppo poco chiaro per il grande pubblico — e temeva possibili problemi legali con la Walt Disney Company, detentrice dei diritti sul personaggio — suggerendo di cambiarlo nel titolo definitivo, cosa a cui la band, inizialmente contraria, finì per acconsentire. Pubblicata nell'aprile 1999 come singolo di lancio di \"Enema of the State\", divenne il primo grande successo internazionale della band. Il messaggio di fondo, al di là dei toni scanzonati, è che non bisogna preoccuparsi troppo del giudizio altrui su come si sceglie di vivere la propria vita."
+      "Mark Hoppus ha raccontato, ospite del podcast di Chris DeMakes, che il riff d'apertura nacque per errore: stava provando a imparare l'intro di basso di \"J.A.R.\" dei Green Day, lo eseguì sbagliato, e il risultato gli piacque abbastanza da diventare la base del nuovo brano. Il testo, ha raccontato ancora Hoppus, nacque come una canzoncina scherzosa e molto più volgare della versione finale, che pensava comunque di registrare come traccia goliardica per il gruppo; solo in un secondo momento, rendendosi conto che aveva del potenziale, la riscrisse in circa cinque minuti nel proprio salotto.",
+      "Il titolo di lavorazione era \"Peter Pan Complex\", diretto riferimento al rifiuto di crescere. L'etichetta MCA Records lo giudicò un riferimento troppo poco chiaro per il grande pubblico — e temeva possibili problemi legali con la Walt Disney Company, detentrice dei diritti sul personaggio dopo il proprio adattamento cinematografico — suggerendo di cambiarlo nel titolo definitivo, cosa a cui la band, inizialmente contraria, finì per acconsentire. Pubblicata nell'aprile 1999 come singolo di lancio di \"Enema of the State\", divenne il primo grande successo internazionale della band, segnando il suo sfondamento commerciale al di fuori del Nord America. Il testo non è strettamente autobiografico, ha precisato lo stesso Hoppus, che pure ha ammesso di essersi comportato, con le sue stesse parole, \"come un adolescente idiota\" per buona parte dei suoi vent'anni."
     ],
-    "fraseIconica": "Il titolo originale del brano era \"Peter Pan Complex\", poi cambiato dall'etichetta perché ritenuto poco comprensibile per il pubblico: il testo, ispirato alle critiche rivolte al bassista Mark Hoppus per la sua immaturità, si conclude accettando di non doversi curare del giudizio altrui. Il celebre video, con la band che corre per le strade di Los Angeles quasi del tutto nuda, contribuì non poco a renderlo uno dei brani più iconici della loro discografia.",
+    "fraseIconica": "Il titolo originale del brano era \"Peter Pan Complex\", poi cambiato dall'etichetta perché ritenuto poco comprensibile per il pubblico: il testo affronta con ironia il tema dell'immaturità e si chiude con il protagonista che sceglie di prendersela comoda nel crescere, senza curarsi troppo del giudizio altrui. Il celebre video, con la band che corre per le strade di Los Angeles quasi del tutto nuda, contribuì non poco a renderlo uno dei brani più iconici della loro discografia.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/blink-182/79537/",
     "fonti": [
@@ -5385,8 +5385,9 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/What's_My_Age_Again",
-        "nome": "Wikipedia"
+        "url": "https://en.wikipedia.org/wiki/What's_My_Age_Again%3F",
+        "nome": "Wikipedia (EN) — scheda del singolo",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/artist/6FBDaR13swtiWwGhX1WQsP_songs.html",
@@ -5398,7 +5399,20 @@
     "descrizioneSeo": "Scritta da Mark Hoppus in circa cinque minuti, nacque dopo che diverse persone gli fecero notare quanto fosse immaturo per la sua età.",
     "temi": [
       "ribellione"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "D",
+        "D"
+      ],
+      [
+        "F",
+        "F",
+        "F",
+        "D"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-11"
   },
   {
     "slug": "happy-song",
@@ -6269,20 +6283,22 @@
     "ascoltiTesto": "1,5 mld ascolti",
     "spotifyId": "7ppPZa3TRUSGKaks9wH7VT",
     "corpo": [
-      "Scritta da Noel Gallagher nel 1995 mentre si trovava a Parigi, la canzone nacque quasi per caso durante un soundcheck, due giorni prima di un importante concerto in un palazzetto: il fratello Liam, fraintendendo una frase, chiese \"Are you singing 'So Sally can wait?'\", e a Noel quell'errore sembrò talmente geniale da diventare il verso d'apertura del brano.",
-      "Il testo racconta la storia di una donna, \"Sally\", che guarda alla propria vita senza rimpianti; il suo vero significato non è mai stato chiarito del tutto da Gallagher, ma viene spesso letto come la rappresentazione simbolica di chi resta ancorato al passato e fatica a lasciarlo andare. L'influenza dei Beatles e di John Lennon è dichiarata ed esplicita: l'introduzione al pianoforte richiama \"Imagine\", mentre il verso \"I start a revolution from my bed\" cita direttamente il celebre bed-in per la pace organizzato da Lennon."
+      "Scritta da Noel Gallagher, uscì come singolo il 19 febbraio 1996: è il quinto estratto dall'album del 1995 \"(What's the Story) Morning Glory?\", e raggiunse la prima posizione della classifica britannica. Nacque quasi per caso durante un soundcheck a Parigi, due giorni prima del primo grande concerto della band in un palazzetto, a Sheffield: secondo quanto riportato da Songfacts, che cita un'intervista di Gallagher a Uncut del 2007, mentre suonava gli accordi senza cantare, il fratello Liam gli chiese cosa stesse suonando, e poi se nel testo comparisse il nome della protagonista che sarebbe diventata \"Sally\" — un'intuizione che a Noel sembrò subito perfetta, al punto da riscriverla quella sera stessa in camerino.",
+      "Il testo racconta la storia di una donna, Sally, che guarda alla propria vita senza rimpianti. Sulla sua identità Gallagher ha dato nel tempo risposte diverse: secondo Radio X, che riporta una sua intervista a NPR, il cantante ha lasciato intendere che il nome gli fosse rimasto impresso la sera in cui scrisse la canzone, appena uscito da uno strip club, mentre in altre occasioni ha ricondotto l'ispirazione a \"Sally Cinnamon\" degli Stone Roses, il gruppo a cui ha attribuito la scoperta della propria vocazione musicale. L'influenza dei Beatles e di John Lennon resta comunque dichiarata ed esplicita: l'introduzione al pianoforte richiama \"Imagine\", e uno dei versi del ritornello evoca, senza nominarla, la protesta a letto per la pace organizzata da Lennon e Yoko Ono."
     ],
-    "fraseIconica": "Il verso più citato invita Sally ad aspettare, mentre il narratore ripercorre la propria vita senza rimpianti e alza un bicchiere a essa. Noel Gallagher ha ammesso più volte di non sapere chi sia davvero Sally — una parola che, a suo dire, semplicemente \"ci stava bene\" nella frase, nata quasi per caso durante un soundcheck quando il fratello Liam iniziò a canticchiarla per gioco.",
+    "fraseIconica": "Il ritornello racconta di una donna che guarda alla propria vita senza rimpianti, alzando idealmente un bicchiere al proprio passato invece di restarne prigioniera; l'identità di \"Sally\" non è mai stata chiarita in modo definitivo da Gallagher, che nel tempo ha offerto più di una versione, dalla suggestione di uno strip club a un possibile omaggio ai conterranei Stone Roses.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/oasis/dont-look-back-in-anger/",
     "fonti": [
       {
         "url": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger",
-        "nome": "Songfacts"
+        "nome": "Songfacts (cita un'intervista di Gallagher a Uncut, agosto 2007)",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/",
-        "nome": "Radio X"
+        "nome": "Radio X — Jenny Mensah (cita un'intervista di Gallagher a NPR)",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/artist/2DaxqgrOhkeH0fpeiQq2f4_songs.html",
@@ -6293,7 +6309,19 @@
     "testoFonte": "Letras",
     "temi": [
       "nostalgia"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "D",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-11"
   },
   {
     "slug": "ringo-starr",
