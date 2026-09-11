@@ -2632,6 +2632,18 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: Songfacts, Radio X, iHeart, Wikipedia riaperti di persona, non riletti dal registro. `check-nature.mjs --frasi` per entrambe prima di scrivere l'etichetta — su `dont-look-back-in-anger` il primo tentativo non ha combaciato (il punto interrogativo dentro le virgolette del titolo dell'album spezzava la frase in due), risolto riformulando la frase, non forzando l'etichetta. `genera-sito.mjs`, `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove), `check-attribuzioni.mjs` (0, dopo la correzione su Uncut), `check-nature.mjs` (26 valide, 0 rifiutate). Copiato in root, committato (`97fb543a`), pushato — in coda dietro due commit di Opus fatti nello stesso repository locale nel frattempo (lock di git trovato e rimosso dopo 5 minuti senza processi attivi, stesso metodo già usato in questa sessione).
 **Aperto**: nessuno per queste due schede. Riprendo Battiato da qui.
 
+- **11 settembre 2026 — Settima e ottava scheda della coda, e un difetto che si ripete: IL LUOGO PRECISO AGGIUNTO.**
+  **`man-in-the-box` (47 impressioni) — 10 affermazioni, 2 non reggono.**
+  - **LUOGO INVENTATO**: «fu l'ultimo brano suonato dal vivo da Staley, alla **Kemper Arena di Kansas City** il 3 luglio 1996». Wikipedia dice: «At Alice in Chains' last concert with Staley on July 3, 1996, they closed with "Man in the Box"». La data c'e', il fatto c'e', **il luogo no**: «Kemper» cercato per stringa esatta, NON TROVATO.
+  - **NON SOSTENUTA**: «Staley scelse poi di non scrivere un brano **apertamente politico**». La parola «political» non compare, e la fonte dice il contrario di quel che la frase implica — Staley: «I went home and wrote about **government censorship** and eating meat as seen through the eyes of a doomed calf».
+  - Regge invece tutto il racconto, testuale da un'intervista a Rolling Stone del 1992 riportata da Wikipedia: la censura come punto di partenza, la cena con i dirigenti vegetariani della Columbia, i vitelli «raised in these small boxes», «that image stuck in my head».
+  **`vivo-per-lei` (57 impressioni) — 12 affermazioni, 1 errore di attribuzione.**
+  - **AUTORE OMESSO E RUOLO SBAGLIATO**: la scheda dice «brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani». Wikipedia (IT) dice che le musiche sono di **Mario Manzani**, Valerio Zelli e Mauro Mengali, e che Anna Maria Alibani firmava il **testo** — quello poi sostituito da Gatto Panceri. **Manzani e' sparito dall'elenco e Alibani e' stata spostata dal testo alla musica.** E' l'errore piu' facile da evitare e il piu' sgradevole per chi lo subisce: sono i crediti di un autore.
+  - Da documentare: «Onde Radio Ovest» (la fonte scrive solo la sigla O.R.O.) e «il produttore di Bocelli propose di farne una cover» (la fonte non nomina un produttore in quel punto).
+  **IL DIFETTO CHE SI RIPETE.** Nella stessa coda, due volte: «un campo **della Bassa emiliana**» dove la fonte dice «un campo», e «alla **Kemper Arena di Kansas City**» dove la fonte dice «last concert». **Il luogo preciso aggiunto e' una firma riconoscibile**: e' il dettaglio che rende la frase piu' vivida e che nessuna fonte contiene. Vale la pena cercarlo apposta nelle schede che restano, invece di aspettare di incontrarlo.
+  **Conto della coda: 8 schede, 97 affermazioni, 13 non reggono (13%).** Fra queste, una violazione della sezione 3 gia' corretta, due luoghi inventati, un autore omesso.
+**Verificato**: due pagine riaperte nel browser e interrogate per stringa esatta.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

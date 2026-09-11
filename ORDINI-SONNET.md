@@ -61,3 +61,39 @@ Due precisazioni minime: "Ash Pournouri" fra gli autori non e' in Bluegrass Toda
 (nomina Pontare e Al Fakir) — controlla Wikipedia e, se c'e', va bene cosi';
 "esplora il legame fra fratelli" e' un'interpretazione, etichettala "I".
 ```
+
+---
+
+## In attesa dall'11 settembre 2026 — `man-in-the-box` e `vivo-per-lei`
+
+```
+Altre due schede della coda verificate.
+
+`man-in-the-box` (47 impressioni), due rilievi:
+ - "alla Kemper Arena di Kansas City il 3 luglio 1996": Wikipedia dice solo
+   "At Alice in Chains' last concert with Staley on July 3, 1996, they closed
+   with Man in the Box". La data e il fatto ci sono, IL LUOGO NO. Togli la
+   Kemper Arena o documentala.
+ - "Staley scelse poi di non scrivere un brano apertamente politico": non e'
+   nella fonte, e Staley dice il contrario — "I went home and wrote about
+   GOVERNMENT CENSORSHIP and eating meat as seen through the eyes of a doomed
+   calf". Riscrivila o toglila.
+ Il resto regge tutto, testuale dall'intervista a Rolling Stone del 1992.
+
+`vivo-per-lei` (57 impressioni), un errore di attribuzione:
+ - La scheda dice "scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani".
+   Wikipedia (IT) dice che le MUSICHE sono di MARIO MANZANI, Valerio Zelli e
+   Mauro Mengali, e che Anna Maria Alibani firmava il TESTO, quello poi
+   sostituito da Gatto Panceri. Manzani manca del tutto e Alibani e' stata
+   spostata dal testo alla musica. Sono i crediti di un autore: correggili.
+ - Da documentare o togliere: "Onde Radio Ovest" (la fonte scrive solo O.R.O.)
+   e "il produttore di Bocelli propose di farne una cover" (la fonte non nomina
+   un produttore in quel punto).
+
+E UNA COSA DA CERCARE APPOSTA, non da aspettare.
+Nella stessa coda e' uscito due volte lo stesso difetto: il LUOGO PRECISO
+AGGIUNTO. "un campo della Bassa emiliana" dove la fonte dice "un campo";
+"alla Kemper Arena di Kansas City" dove la fonte dice "last concert".
+Quando riapri una scheda, cerca apposta i nomi di luogo: sono il dettaglio che
+rende la frase piu' vivida ed e' quello che le fonti spesso non contengono.
+```
