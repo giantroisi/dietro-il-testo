@@ -5362,8 +5362,8 @@
     "titolo": "L'era del cinghiale bianco",
     "anno": "1979",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -5373,8 +5373,8 @@
     "titolo": "Patriots",
     "anno": "1980",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -5384,7 +5384,7 @@
     "titolo": "La voce del padrone",
     "anno": "1981",
     "copertina": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": false,
     "sintetico": false
@@ -5439,8 +5439,8 @@
     "titolo": "Fisiognomica",
     "anno": "1988",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -5450,8 +5450,8 @@
     "titolo": "Come un cammello in una grondaia",
     "anno": "1991",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },

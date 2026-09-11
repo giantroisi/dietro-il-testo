@@ -5029,7 +5029,7 @@
   {
     "slug": "franco-battiato",
     "nome": "Franco Battiato",
-    "storia": "Nato in provincia di Catania nel 1945, si trasferì nel 1964 prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1972) e \"Pollution\" (1973). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop, anche grazie alla fondamentale collaborazione con il compositore e violinista Giusto Pio, co-autore delle musiche a partire da \"L'era del cinghiale bianco\" (1979).",
+    "storia": "Nato in provincia di Catania nel 1945, si trasferì nel 1964 prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1972) e \"Pollution\" (1973). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop, anche grazie alla fondamentale collaborazione con il compositore e violinista Giusto Pio, che dal 1979 firmò gli arrangiamenti e diresse l'orchestra sui suoi album: secondo i crediti di copertina, Pio risulta coautore della musica in singoli brani — come \"Per Elisa\", scritto per Alice e vincitore di Sanremo 1981 — ma non sistematicamente su ogni canzone del periodo, come nel caso di \"Centro di gravità permanente\", dove è accreditato solo come arrangiatore.",
     "album": [
       {
         "titolo": "Fetus",
@@ -5264,7 +5264,12 @@
     ],
     "canzoni": [
       "la-cura",
-      "centro-di-gravita-permanente"
+      "centro-di-gravita-permanente",
+      "l-era-del-cinghiale-bianco",
+      "bandiera-bianca",
+      "prospettiva-nevski",
+      "povera-patria",
+      "e-ti-vengo-a-cercare"
     ],
     "annoPrimo": 1996,
     "annoUltimo": 1996,
@@ -5288,9 +5293,14 @@
         "url": "https://www.ilfattoquotidiano.it/2017/02/12/giusto-pio-morto-a-91-anni-il-violinista-di-battiato-da-lera-del-cinghiale-bianco-a-la-voce-del-padrone-i-grandi-successi/3387069/",
         "nome": "Il Fatto Quotidiano — Fabrizio Basciano",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.discogs.com/release/528835-Alice-Per-Elisa",
+        "nome": "Discogs — crediti del 45 giri originale (EMI, 1981)",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-09"
+    "ultimaVerifica": "2026-09-11"
   },
   {
     "slug": "fulminacci",

@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 301,
+    "nCanzoni": 306,
     "haTestoEditoriale": true
   },
   {
@@ -1542,6 +1542,31 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/l-era-del-cinghiale-bianco/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/bandiera-bianca/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/prospettiva-nevski/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/povera-patria/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/e-ti-vengo-a-cercare/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1811,7 +1836,7 @@
     "percorso": "artista/franco-battiato/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -3082,7 +3107,35 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/franco-battiato/l-era-del-cinghiale-bianco/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/franco-battiato/patriots/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/franco-battiato/la-voce-del-padrone/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 2,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/franco-battiato/fisiognomica/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/franco-battiato/come-un-cammello-in-una-grondaia/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3939,14 +3992,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 153,
+    "nCanzoni": 155,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 127,
+    "nCanzoni": 132,
     "haTestoEditoriale": true
   },
   {
@@ -3967,21 +4020,21 @@
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 45,
+    "nCanzoni": 46,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1980/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 53,
+    "nCanzoni": 56,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 64,
+    "nCanzoni": 65,
     "haTestoEditoriale": true
   },
   {

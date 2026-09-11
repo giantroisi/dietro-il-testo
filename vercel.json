@@ -1856,16 +1856,6 @@
       "permanent": true
     },
     {
-      "source": "/album/franco-battiato/l-era-del-cinghiale-bianco/",
-      "destination": "/artista/franco-battiato/",
-      "permanent": true
-    },
-    {
-      "source": "/album/franco-battiato/patriots/",
-      "destination": "/artista/franco-battiato/",
-      "permanent": true
-    },
-    {
       "source": "/album/franco-battiato/l-arca-di-noe/",
       "destination": "/artista/franco-battiato/",
       "permanent": true
@@ -1882,16 +1872,6 @@
     },
     {
       "source": "/album/franco-battiato/echoes-of-sufi-dances/",
-      "destination": "/artista/franco-battiato/",
-      "permanent": true
-    },
-    {
-      "source": "/album/franco-battiato/fisiognomica/",
-      "destination": "/artista/franco-battiato/",
-      "permanent": true
-    },
-    {
-      "source": "/album/franco-battiato/come-un-cammello-in-una-grondaia/",
       "destination": "/artista/franco-battiato/",
       "permanent": true
     },
