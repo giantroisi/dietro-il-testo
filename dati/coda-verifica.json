@@ -1,0 +1,101 @@
+{
+ "_perche": "Ordine in cui riaprire le schede, deciso sul traffico vero e non a intuito. Fonte: Google Search Console, Rendimento > Pagine, tre mesi, esportato l'11 settembre 2026 (90 pagine con impressioni; qui le prime 20). La priorita' e' le impressioni, non i clic: le impressioni dicono quante volte una pagina e' stata MOSTRATA, cioe' quante volte quello che c'e' scritto e' finito davanti a qualcuno.",
+ "_aggiornato": "2026-09-11",
+ "coda": [
+  {
+   "pagina": "canzone/dont-look-back-in-anger",
+   "impressioni": 149,
+   "clic": 2
+  },
+  {
+   "pagina": "canzone/whats-my-age-again",
+   "impressioni": 159,
+   "clic": 1
+  },
+  {
+   "pagina": "canzone/fuori-dal-tunnel",
+   "impressioni": 107,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/la-regola-dell-amico",
+   "impressioni": 85,
+   "clic": 2
+  },
+  {
+   "pagina": "canzone/hey-brother",
+   "impressioni": 79,
+   "clic": 0
+  },
+  {
+   "pagina": "artista/franco-battiato",
+   "impressioni": 77,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/urlando-contro-il-cielo",
+   "impressioni": 61,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/vivo-per-lei",
+   "impressioni": 57,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/man-in-the-box",
+   "impressioni": 47,
+   "clic": 1
+  },
+  {
+   "pagina": "canzone/yes-i-know-my-way",
+   "impressioni": 43,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/all-the-small-things",
+   "impressioni": 41,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/ho-messo-via",
+   "impressioni": 37,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/vieni-a-ballare-in-puglia",
+   "impressioni": 36,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/aerials",
+   "impressioni": 36,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/november-rain",
+   "impressioni": 36,
+   "clic": 0
+  },
+  {
+   "pagina": "canzone/highway-to-hell",
+   "impressioni": 20,
+   "clic": 1
+  },
+  {
+   "pagina": "artista/ac-dc",
+   "impressioni": 16,
+   "clic": 1
+  },
+  {
+   "pagina": "canzone/prisoner-709",
+   "impressioni": 11,
+   "clic": 1
+  },
+  {
+   "pagina": "canzone/for-those-about-to-rock",
+   "impressioni": 4,
+   "clic": 1
+  }
+ ]
+}

@@ -2528,6 +2528,28 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: `check-nature.mjs --frasi <slug>` per ognuna delle sei prima di scrivere l'etichetta, conteggio combaciante al primo giro su tutte e sei; `check-nature.mjs` senza argomenti — 19 schede valide, 0 rifiutate, 98 frasi, 44% con segno visibile; `genera-sito.mjs` (301 canzoni, 658 pagine), `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove; l'unico spotifyId mancante nel catalogo resta preesistente, non mio), `check-attribuzioni.mjs` (0, dopo la correzione R3 su go-your-own-way), `check-livelli.mjs` (freno canzoni libero 53/53, nessuna delle sei C-sola; freno biografie 0/0). Grep mirato sull'HTML generato per contare gli span `aff-D`/`aff-I` di ciascuna delle sei pagine e confrontarli col conteggio atteso, non solo `check-nature`. Copiato in root, committato (`d65e23fd`), pushato.
 **Aperto**: `soundonsound.com` da classificare.
 
+- **11 settembre 2026 — F70 SI SBLOCCA, e la prima cosa che dice e' scomoda: NESSUNA delle pagine piu' viste e' verificata.**
+  L'autore ha aperto Search Console. **Indicizzazione**: il 28 agosto le pagine indicizzate erano **2**; dal 29 agosto sono **89**, e le impressioni sono passate da zero a 105, 165, **449**, 208, 221 — circa **1.150 in sei giorni**. Il sito non e' piu' invisibile, ed e' la prima risposta alla domanda che questo registro chiamava «la piu' importante del progetto». Delle 432 pagine non indicizzate, **425 sono «Rilevata, ma attualmente non indicizzata»**: non e' un difetto tecnico (i noindex sono 3 e sono le pagine di servizio, i redirect 2), e' il crawler che non ha ancora speso fiducia su un sito nuovo.
+  **Rendimento, 90 pagine con impressioni in tre mesi. Incrociate con lo stato di verifica, il risultato e' questo:**
+
+  | impressioni | pagina | verificata |
+  |---|---|---|
+  | 159 | `whats-my-age-again` | **no** |
+  | 149 | `dont-look-back-in-anger` | **no** |
+  | 107 | `fuori-dal-tunnel` | **no** |
+  | 85 | `la-regola-dell-amico` | **no** |
+  | 79 | `hey-brother` | **no** |
+  | 77 | `artista/franco-battiato` | data autocertificata |
+  | 61 | `urlando-contro-il-cielo` | **no** |
+  | 57 | `vivo-per-lei` | **no** |
+  | … | (altre dieci schede) | **no** |
+  | 16 | `artista/ac-dc` | data autocertificata |
+
+  **Diciotto schede canzone su diciotto: nessuna verificata.** Le 22 che lo sono non compaiono fra le venti piu' viste. **Il lavoro di verifica fatto finora e' andato su pagine che quasi nessuno vede** — non per colpa di qualcuno: senza questi dati la priorita' era un'ipotesi, e l'ipotesi era sbagliata. E' esattamente il motivo per cui F70 non era un lavoro a parte ma **la dipendenza** di tutta la fase.
+  **E c'e' una coincidenza che non e' una coincidenza.** `artista/ac-dc` ha 16 impressioni e 1 clic — e stamattina, nel campione sulle biografie, e' la pagina in cui ho trovato **quattro affermazioni non sostenute su dodici**: «novembre 1973», «debuttarono il 31 dicembre», «Bon Scott si uni' nel 1974», «uno degli album piu' venduti nella storia». Nessuna di quelle quattro sta nella fonte citata. Quella pagina Google la sta gia' mostrando.
+  **Conseguenza operativa**: la coda di verifica non si decide piu' a intuito. Sta in `dati/coda-verifica.json`, ordinata per **impressioni** e non per clic — le impressioni dicono quante volte quel testo e' finito davanti a qualcuno, che e' la domanda giusta per un sito che promette di essere vero.
+**Verificato**: numeri letti dall'esportazione di Search Console (Indicizzazione pagine, 28 agosto-4 settembre) e dal rapporto Rendimento a tre mesi aggiornato a nove ore fa; ogni riga incrociata con `dati/canzoni.json` e `dati/artisti.json` per lo stato reale di verifica ed etichette. Le venti righe sono le prime venti di novanta: il resto della coda si aggiunge quando arriva l'esportazione completa.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
