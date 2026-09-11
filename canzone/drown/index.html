@@ -726,6 +726,25 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* Lo stato di verifica, detto nei due sensi. Non e' un avviso di pericolo: e'
+   un'informazione, e va letta come tale. Verde acceso e rosso allarme sarebbero
+   una bugia di tono — una scheda non verificata non e' sbagliata, e' soltanto
+   non ancora riletta. */
+.stato-verifica {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border, rgba(128,128,128,0.3));
+  background: var(--surface-alt, transparent);
+  color: var(--text-muted, inherit);
+}
+.stato-verifica a { color: inherit; }
+.stato-verifica.verificata { border-left: 3px solid var(--ok, currentColor); }
+.stato-verifica.da-verificare { border-left: 3px dashed var(--border, currentColor); }
+.stato-verifica b { color: var(--text, inherit); font-weight: 600; }
+
 /* F97 — la natura delle affermazioni.
    Segno leggero e sempre visibile, non un interruttore: una sottolineatura
    punteggiata sotto le frasi che non sono fatto documentato, e il nome della
@@ -1017,6 +1036,7 @@ a { color: inherit; }
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
+      <p class="stato-verifica da-verificare">Questa scheda <b>non è ancora stata verificata frase per frase</b>: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. <a href="../../metodo/#verifica">Perché te lo diciamo</a></p>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sulla storia</span>
         <ol class="fonti"><li><span class="num">01</span><a href="https://www.loudersound.com/features/bring-me-the-horizon-s-oli-sykes-i-didn-t-care-if-i-lived-or-died" target="_blank" rel="noopener">Metal Hammer (via Louder) — Luke Morton</a></li><li><span class="num">02</span><a href="https://en.wikipedia.org/wiki/Drown_(Bring_Me_the_Horizon_song)" target="_blank" rel="noopener">Wikipedia</a></li></ol>

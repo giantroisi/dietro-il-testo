@@ -726,6 +726,25 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* Lo stato di verifica, detto nei due sensi. Non e' un avviso di pericolo: e'
+   un'informazione, e va letta come tale. Verde acceso e rosso allarme sarebbero
+   una bugia di tono — una scheda non verificata non e' sbagliata, e' soltanto
+   non ancora riletta. */
+.stato-verifica {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border, rgba(128,128,128,0.3));
+  background: var(--surface-alt, transparent);
+  color: var(--text-muted, inherit);
+}
+.stato-verifica a { color: inherit; }
+.stato-verifica.verificata { border-left: 3px solid var(--ok, currentColor); }
+.stato-verifica.da-verificare { border-left: 3px dashed var(--border, currentColor); }
+.stato-verifica b { color: var(--text, inherit); font-weight: 600; }
+
 /* F97 — la natura delle affermazioni.
    Segno leggero e sempre visibile, non un interruttore: una sottolineatura
    punteggiata sotto le frasi che non sono fatto documentato, e il nome della
@@ -1017,6 +1036,7 @@ a { color: inherit; }
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
+      <p class="stato-verifica verificata">Verificata frase per frase il 10 settembre 2026. <a href="../../metodo/#verifica">Che cosa vuol dire</a></p>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sulla storia</span>
         <ol class="fonti"><li><span class="num">01</span><a href="https://en.wikipedia.org/wiki/Symphony_of_Destruction" target="_blank" rel="noopener">Wikipedia</a></li><li><span class="num">02</span><a href="https://www.songfacts.com/facts/megadeth/symphony-of-destruction" target="_blank" rel="noopener">Songfacts</a></li><li><span class="num">03</span><a href="https://www.loudersound.com/bands-artists/megadeth-symphony-of-destruction-story-behind-song" target="_blank" rel="noopener">Louder</a></li></ol>

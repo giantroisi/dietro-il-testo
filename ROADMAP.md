@@ -2498,6 +2498,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: `check-nature.mjs --frasi <slug>` rigirato su tutte e cinque le schede toccate dopo le modifiche, conteggio combaciante su ognuna; `check-nature.mjs` senza argomenti — 13 valide, 0 rifiutate, 64 frasi, 45% con segno visibile; `genera-sito.mjs`, `check-coerenza.mjs` (0), `check-completezza.mjs` (0 nuove mancanze), `check-attribuzioni.mjs` (0 su queste cinque), `check-livelli.mjs` (entrambi i freni liberi). Copiato in root, committato (`83bfd3c4`), pushato.
 **Aperto**: nessuno per queste cinque schede.
 
+- **11 settembre 2026 — LO STATO DI VERIFICA DETTO AL LETTORE, anche quando e' negativo. 22 schede su 295 lo portano; le altre 273 dichiarano di non averlo.**
+  Il numero che ha fatto prendere la decisione: **solo 22 schede su 295 sono state riaperte affermazione per affermazione.** Le altre hanno fonti controllate — esistono, sono raggiungibili, sono del livello giusto — ma nessuno ha mai risalito da ogni frase alla riga precisa che la regge. Fino a ieri il lettore non aveva modo di distinguere le due cose, e i campioni dicono che **fra un'affermazione su otto e una su quattro** non regge nelle schede mai riaperte.
+  **Cosa cambia sulla pagina.** In cima al blocco «Fonti» di ogni scheda canzone compare una riga che dice quale delle due e': «Verificata frase per frase il …» oppure «Questa scheda non e' ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una». Tutt'e due rimandano a `/metodo/#verifica`, una sezione nuova che spiega **cosa vuol dire esattamente** quel controllo, **cosa non promette** (chi verifica sbaglia come chi scrive, ed e' gia' successo) e **in che ordine** le schede si riaprono: prima le piu' lette, prima quelle con fonti deboli.
+  **Il tono e' una scelta, e la dichiaro.** Niente verde e rosso: una scheda non verificata **non e' sbagliata**, e' soltanto non ancora riletta, e un colore d'allarme sarebbe una bugia di tono. Bordino pieno da una parte, tratteggiato dall'altra, stesso carattere e stesso peso.
+  **Perche' conviene anche al sito, non solo al lettore.** Trasforma un debito nascosto in un impegno dichiarato: ogni scheda che passa da «non ancora» a «verificata il …» e' un miglioramento visibile, e nessuno puo' piu' far finta che 273 schede siano come le 22.
+  **Non tocca le pagine album**: li' il silenzio resta giusto, perche' nessuno ha mai promesso che fossero verificate.
+**Verificato**: rigenerato, `check-coerenza` 0, `check-link` 0, contati sulle pagine prodotte **273 «non ancora» e 22 «verificata»**, che sono esattamente i numeri dei dati. Corretti prima di committare due accenti scritti con l'apostrofo dentro il generatore — lo stesso difetto trovato ieri sulla legenda, e stavolta cercato apposta prima di pubblicare.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

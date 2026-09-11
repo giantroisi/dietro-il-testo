@@ -253,6 +253,32 @@ function rigaRevisione(data) {
   return `<span class="verifica">Ultima revisione ${SEGNO} ${esc(dataLeggibile(data))}</span>`;
 }
 
+/**
+ * Lo stato di verifica, DETTO anche quando e' negativo.
+ *
+ * `rigaRevisione` qui sopra tace dove il dato manca, ed e' giusto per una
+ * pagina album: nessuno ha mai promesso che quelle fossero verificate. Ma su
+ * una scheda canzone o su una biografia il silenzio non e' neutro: **il
+ * lettore non ha modo di sapere se quella scheda e' stata riletta o no**, e
+ * ventidue su duecentonovantacinque lo sono state.
+ *
+ * Il campionamento indipendente dice che nelle schede mai riaperte fra il 13%
+ * e il 23% delle affermazioni non regge sulle fonti che citano. Non sono
+ * invenzioni: sono dettagli aggiunti mentre si scriveva. Tacerlo significa
+ * presentare come uguali due cose che uguali non sono — ed e' esattamente la
+ * cosa che questo sito dice di non fare.
+ *
+ * Quindi lo stato si scrive sempre, nei due sensi, e rimanda alla pagina che
+ * spiega cosa vuol dire.
+ */
+function statoVerifica(data, r) {
+  const dove = `${r}metodo/#verifica`;
+  if (data) {
+    return `<p class="stato-verifica verificata">Verificata frase per frase il ${esc(dataLeggibile(data))}. <a href="${dove}">Che cosa vuol dire</a></p>`;
+  }
+  return `<p class="stato-verifica da-verificare">Questa scheda <b>non \u00e8 ancora stata verificata frase per frase</b>: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. <a href="${dove}">Perch\u00e9 te lo diciamo</a></p>`;
+}
+
 /** Da «2026-09-08» a «8 settembre 2026». Se non e' una data ISO la lascia com'e'. */
 function dataLeggibile(d) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(d).trim());
@@ -741,6 +767,7 @@ export function paginaCanzone(c, ctx) {
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
+      ${statoVerifica(c.ultimaVerifica, r)}
       ${c.fonti.length ? gruppiFonti(c.fonti) : `<p class="vuoto">Fonti da collegare.</p>`}
       <div class="azioni" style="margin-top:22px">
         <a class="bottone" href="${r}metodo/">Come verifichiamo</a>
@@ -1507,6 +1534,16 @@ export function paginaMetodo(ctx) {
       <div class="prosa">
         <p>Pubblichiamo un fatto solo se è riconducibile a una fonte che lo sostenga davvero: un'intervista all'artista, i crediti di un disco, un ente di certificazione, un archivio ufficiale o una testata musicale con responsabilità editoriale.</p>
         <p>Quando una spiegazione è un'interpretazione diffusa ma non confermata dall'autore, lo scriviamo. Quando non troviamo una fonte affidabile, non riempiamo lo spazio: preferiamo una scheda più corta a una scheda più fragile. È il motivo per cui alcune pagine dicono apertamente che una spiegazione non risulta documentata.</p>
+      </div>
+    </section>
+
+    <section class="blocco" id="verifica">
+      <h2>Verificata, o non ancora</h2>
+      <div class="prosa">
+        <p>In fondo a ogni scheda trovi scritto se è stata <strong>verificata frase per frase</strong> oppure no. Vuol dire una cosa precisa: qualcuno ha riaperto ogni fonte citata e ha preteso, per ogni singola affermazione — una data, un nome, un luogo, un'attribuzione — la frase esatta che la sostiene. Non «il senso generale regge»: ogni affermazione, una per una.</p>
+        <p>Le schede che non lo dicono hanno comunque le loro fonti, e quelle fonti sono state controllate: esistono, sono raggiungibili e sono del livello richiesto. Quello che non è ancora stato fatto è il passaggio successivo, cioè risalire da ogni frase alla riga precisa che la regge.</p>
+        <p>Perché lo scriviamo invece di tacerlo: su campioni casuali di schede non ancora riaperte, <strong>fra una affermazione su otto e una su quattro non ha retto</strong> a questo controllo. Quasi mai erano invenzioni — erano dettagli plausibili aggiunti mentre si scriveva, che nessuna fonte conteneva. Presentare come uguali una scheda riaperta e una no sarebbe la stessa cosa che pubblicare un fatto senza fonte.</p>
+        <p>Le schede si riaprono per ordine di utilità: prima quelle più lette, prima quelle sostenute da fonti deboli. Una data di verifica non è una promessa di infallibilità — chi controlla sbaglia come chi scrive, ed è già successo. È la dichiarazione che quel lavoro, su quella scheda, è stato fatto.</p>
       </div>
     </section>
 

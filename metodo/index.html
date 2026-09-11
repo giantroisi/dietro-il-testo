@@ -726,6 +726,25 @@ a { color: inherit; }
 /* Fonti della biografia, sulla pagina artista: stesso elenco delle schede
    canzone, staccato dal testo da una riga sottile perche' non si confonda
    con la prosa che documenta. */
+/* Lo stato di verifica, detto nei due sensi. Non e' un avviso di pericolo: e'
+   un'informazione, e va letta come tale. Verde acceso e rosso allarme sarebbero
+   una bugia di tono — una scheda non verificata non e' sbagliata, e' soltanto
+   non ancora riletta. */
+.stato-verifica {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border, rgba(128,128,128,0.3));
+  background: var(--surface-alt, transparent);
+  color: var(--text-muted, inherit);
+}
+.stato-verifica a { color: inherit; }
+.stato-verifica.verificata { border-left: 3px solid var(--ok, currentColor); }
+.stato-verifica.da-verificare { border-left: 3px dashed var(--border, currentColor); }
+.stato-verifica b { color: var(--text, inherit); font-weight: 600; }
+
 /* F97 — la natura delle affermazioni.
    Segno leggero e sempre visibile, non un interruttore: una sottolineatura
    punteggiata sotto le frasi che non sono fatto documentato, e il nome della
@@ -890,6 +909,16 @@ a { color: inherit; }
       <div class="prosa">
         <p>Pubblichiamo un fatto solo se è riconducibile a una fonte che lo sostenga davvero: un'intervista all'artista, i crediti di un disco, un ente di certificazione, un archivio ufficiale o una testata musicale con responsabilità editoriale.</p>
         <p>Quando una spiegazione è un'interpretazione diffusa ma non confermata dall'autore, lo scriviamo. Quando non troviamo una fonte affidabile, non riempiamo lo spazio: preferiamo una scheda più corta a una scheda più fragile. È il motivo per cui alcune pagine dicono apertamente che una spiegazione non risulta documentata.</p>
+      </div>
+    </section>
+
+    <section class="blocco" id="verifica">
+      <h2>Verificata, o non ancora</h2>
+      <div class="prosa">
+        <p>In fondo a ogni scheda trovi scritto se è stata <strong>verificata frase per frase</strong> oppure no. Vuol dire una cosa precisa: qualcuno ha riaperto ogni fonte citata e ha preteso, per ogni singola affermazione — una data, un nome, un luogo, un'attribuzione — la frase esatta che la sostiene. Non «il senso generale regge»: ogni affermazione, una per una.</p>
+        <p>Le schede che non lo dicono hanno comunque le loro fonti, e quelle fonti sono state controllate: esistono, sono raggiungibili e sono del livello richiesto. Quello che non è ancora stato fatto è il passaggio successivo, cioè risalire da ogni frase alla riga precisa che la regge.</p>
+        <p>Perché lo scriviamo invece di tacerlo: su campioni casuali di schede non ancora riaperte, <strong>fra una affermazione su otto e una su quattro non ha retto</strong> a questo controllo. Quasi mai erano invenzioni — erano dettagli plausibili aggiunti mentre si scriveva, che nessuna fonte conteneva. Presentare come uguali una scheda riaperta e una no sarebbe la stessa cosa che pubblicare un fatto senza fonte.</p>
+        <p>Le schede si riaprono per ordine di utilità: prima quelle più lette, prima quelle sostenute da fonti deboli. Una data di verifica non è una promessa di infallibilità — chi controlla sbaglia come chi scrive, ed è già successo. È la dichiarazione che quel lavoro, su quella scheda, è stato fatto.</p>
       </div>
     </section>
 
