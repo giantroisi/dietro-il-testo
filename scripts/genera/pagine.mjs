@@ -271,10 +271,21 @@ function rigaRevisione(data) {
  * Quindi lo stato si scrive sempre, nei due sensi, e rimanda alla pagina che
  * spiega cosa vuol dire.
  */
+/**
+ * «il 3 settembre», ma «l'8», «l'11», «l'1»: in italiano davanti a quei tre
+ * numeri l'articolo si elide. Scritto a mano perche' il generatore non lo
+ * sapeva e la riga usciva **«Verificata frase per frase il 11 settembre»** su
+ * ogni scheda verificata — visto sulla pagina pubblicata, non nel codice.
+ */
+function conArticolo(dataLeggibileTesto) {
+  const giorno = parseInt(String(dataLeggibileTesto), 10);
+  return [1, 8, 11].includes(giorno) ? `l'${dataLeggibileTesto}` : `il ${dataLeggibileTesto}`;
+}
+
 function statoVerifica(data, r) {
   const dove = `${r}metodo/#verifica`;
   if (data) {
-    return `<p class="stato-verifica verificata">Verificata frase per frase il ${esc(dataLeggibile(data))}. <a href="${dove}">Che cosa vuol dire</a></p>`;
+    return `<p class="stato-verifica verificata">Verificata frase per frase ${esc(conArticolo(dataLeggibile(data)))}. <a href="${dove}">Che cosa vuol dire</a></p>`;
   }
   return `<p class="stato-verifica da-verificare">Questa scheda <b>non \u00e8 ancora stata verificata frase per frase</b>: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. <a href="${dove}">Perch\u00e9 te lo diciamo</a></p>`;
 }
