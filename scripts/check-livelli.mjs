@@ -66,7 +66,13 @@
 // sbagliato, 54 e' quello vero. Un freno tarato su un numero falso non frena
 // niente; alzarlo per coprire una scheda nuova invece sarebbe barare, ed e' la
 // distinzione da tenere ferma ogni volta che questo numero si tocca.
-const SOGLIA = 54;
+// 13 settembre 2026: torna a 53. `fuori-dal-tunnel` ha trovato due fonti di
+// livello B — Rockol e l'intervista di Claudio Fabretti su OndaRock, dove
+// Caparezza parla del brano con parole sue. **Questa e' la direzione giusta del
+// numero**: scende quando una scheda viene documentata davvero, e sale solo se
+// una riclassificazione onesta scopre che era falso (vedi il commento del giorno
+// 11). Non deve mai salire per far passare qualcosa di nuovo.
+const SOGLIA = 53;
 
 import { readFileSync } from 'node:fs';
 

@@ -2678,6 +2678,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: LaScimmiaPensa, Wikipedia (voce album), Rockol e OndaRock riaperti e letti per intero nel browser. `check-nature.mjs --frasi` prima di scrivere le etichette: conteggio combaciante al primo tentativo (2 paragrafi, F-F-D e F-I-D). Pipeline completa: `genera-sito.mjs`, `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove), `check-attribuzioni.mjs` (0), `check-livelli.mjs` (FRENO 53/54, libero, guadagno di 1), `check-nature.mjs` (32 schede valide, 0 rifiutate). Copiato in root, committato (`ec84f27a`), pushato.
 **Aperto**: aggiornare `SOGLIA` a 53 in `scripts/check-livelli.mjs` — competenza di Opus, non mia.
 
+- **13 settembre 2026 — Verificata la correzione di `fuori-dal-tunnel`: e' il modello di come si chiude una scheda. Il freno torna a 53.**
+  Avevo segnalato che le intenzioni dell'autore poggiavano su una sola fonte di livello C senza firma, e che la scheda andava **documentata**, non solo corretta. Sonnet ha fatto esattamente quello: ha trovato **due fonti di livello B** — Rockol (Mattia Marzi, 29 giugno 2022) e l'**intervista di Claudio Fabretti su OndaRock del 13 dicembre 2018**, dove Caparezza parla del brano con parole sue.
+  **Riaperta e verificata la citazione, parola per parola**: «Quella era la gabbia della movida, del divertimento forzato: un tunnel, una imposizione». C'e', testuale, in risposta alla domanda «le gabbie sono un po' una tua ossessione. Anche quella del divertimento, da cui fuggivi in "Fuori dal tunnel"». **Adesso l'intenzione dell'autore non e' piu' dedotta: e' sua.**
+  Corretta anche l'ambiguita' della data: «"Verita' supposte", pubblicato il 13 giugno 2003: il brano usci' come singolo il 16 ottobre dello stesso anno». Due date distinte, ognuna attaccata alla cosa giusta.
+  **`SOGLIA` torna da 54 a 53**, e la direzione conta: **scende quando una scheda viene documentata davvero**, e sale solo se una riclassificazione onesta scopre che il numero era falso — mai per far passare qualcosa di nuovo. La distinzione e' scritta accanto al numero.
+**Verificato**: intervista OndaRock riaperta nel browser, citazione cercata per stringa esatta e trovata con il contesto della domanda; `node --check`, freno in pari a 53, uscita 0.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
