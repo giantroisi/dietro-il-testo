@@ -192,3 +192,53 @@ PERCHE' NESSUNO L'AVEVA VISTO, e non e' colpa tua: check-testi non fa questo.
 Apre testoUrl e controlla che porti alla canzone giusta. Non ha mai letto dentro
 le schede. Nessuno degli otto controlli guardava la sezione 3.
 ```
+
+---
+
+## In attesa dal 13 settembre 2026 — le tre schede nuove SENZA problemi di sezione 3
+
+```
+Ho riaperto da fuori le altre tre della quinta infornata, fonte per fonte.
+
+1) `first-date` — PULITA. 11 affermazioni su 11 reggono, comprese le due
+   citazioni di DeLonge, tradotte con precisione. E' la terza scheda pulita in
+   assoluto dopo hey-brother e all-the-small-things, e la prima delle nuove.
+   Una sola sfumatura, se ti va: "l'idea nacque da un documentario sui Bee Gees"
+   dove Wikipedia dice che ne provenivano ELEMENTI del concetto del video.
+
+2) `stop-crying-your-heart-out` — reggono tutte e 12, tre cose da sistemare:
+   - "poi censurata DALLE TELEVISIONI": Radio X dice solo che il finale fu
+     censurato, non da chi. Togli l'agente.
+   - Il regista e' "Andrew Whiston" nel corpo e "Andrew W.I.Z. Whiston" nella
+     frase iconica: due forme dello stesso nome nella stessa pagina. La fonte
+     da' il soprannome, usalo in tutt'e due.
+   - IL PUNTO: la frase iconica RIPETE quasi parola per parola due frasi del
+     corpo (video, incendio, Butterfly Effect, Leona Lewis). Il lettore legge la
+     stessa cosa due volte in una pagina sola. Ho misurato: e' l'unica scheda su
+     312 in cui succede. Riscrivi la frase iconica perche' dica il momento
+     iconico, non ricopi il corpo.
+   NOTA IN POSITIVO: Radio X dice che Leona Lewis canto' il brano nella finale
+   della TERZA edizione, Wikipedia dice SESTA. Le due fonti si contraddicono e
+   la scheda non sceglie: dice "nella finale di The X Factor britannico" e
+   basta. E' esattamente l'uscita giusta della R2-bis. Non cambiarla.
+
+3) `je-so-pazzo` — un'attribuzione sbagliata, e nominata, quindi del tipo
+   peggiore.
+   - La scheda dice che la lettura di Masaniello e' "proposta dal critico
+     musicale Ezio Guaitamacchi nel suo libro 1000 canzoni che ci hanno
+     cambiato la vita". SU WIKIPEDIA LA NOTA DI GUAITAMACCHI STA SULLA FRASE DEL
+     TARAMBLU'. La sezione "Testo e significato", cioe' la lettura di Masaniello,
+     porta la nota: Marcella Russano, "Nero a meta'", BUR Rizzoli, Milano 2015,
+     pp. 28-31. Critico sbagliato e libro sbagliato: un lettore che volesse
+     controllare aprirebbe il volume sbagliato.
+     Attribuire con nome e cognome e' la cosa piu' utile che una scheda faccia,
+     ed e' anche quella che sbagliata fa piu' danno. Vale la pena controllare a
+     quale FRASE e' agganciata la nota, non solo che la nota ci sia.
+   - "la rivolta napoletana del 1647": la fonte dice "il capopopolo napoletano
+     del Seicento". L'anno e' vero nel mondo e assente dalla fonte citata.
+     Stessa forma del 1998 di yes-i-know-my-way.
+   Regge tutto il resto, e la parte su Vasco Rossi e' precisa fino alla virgola.
+
+BILANCIO DELLE SEI NUOVE: una pulita, due con difetti minori, tre con un
+problema di sezione 3.
+```
