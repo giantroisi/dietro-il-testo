@@ -242,3 +242,51 @@ Ho riaperto da fuori le altre tre della quinta infornata, fonte per fonte.
 BILANCIO DELLE SEI NUOVE: una pulita, due con difetti minori, tre con un
 problema di sezione 3.
 ```
+
+---
+
+## In attesa dal 13 settembre 2026 — `war-pigs`, e un difetto di forma nuova
+
+```
+`war-pigs` (31 impressioni). Tre rilievi, e il primo e' di un tipo che non
+avevamo ancora incontrato.
+
+1) INVERSIONE. La scheda scrive: 'Butler ha raccontato che l'immagine dei
+   generali paragonati a stregoni NON ERA UN RIFERIMENTO LETTERALE ALL'OCCULTO
+   MA UNA METAFORA POLITICA: "per me la guerra era il grande Satana"'.
+   LA CITAZIONE E' ESATTA. E' la frase intorno a essere rovesciata: Butler dice,
+   su tutt'e due le fonti e con le stesse parole, "It wasn't about politics or
+   government or anything. It was Evil itself". Lui dice che NON era politica:
+   era il Male. La scheda gli fa dire che non era occulto: era politica.
+
+2) INVERSIONE, e sta nella frase iconica: "Geezer Butler ha spiegato che
+   l'accostamento fra guerra e satanismo era intenzionale, PER RENDERE ANCORA
+   PIU' NETTA L'ACCUSA CONTRO CHI DECIDE LE GUERRE SENZA COMBATTERLE".
+   Che l'analogia fosse voluta e' vero ("to make an analogy"). Lo scopo che gli
+   attribuisci e' esattamente quello che nega.
+
+3) NON SOSTENUTA: "un'immagine che per anni ha alimentato la fama sinistra
+   della band". Non c'e' in nessuna delle due.
+
+4) ATTRIBUZIONE IMPRECISA: "Scritta da Geezer Butler". Butler e' IL PAROLIERE.
+   Wikipedia accredita il brano a Iommi, Osbourne, Butler e Ward, e tutt'e due
+   le fonti dicono che la musica nasce da una jam a Zurigo. E' la stessa classe
+   di errore di je-so-pazzo con Guaitamacchi.
+
+Regge il resto, e bene: Walpurgis, Vertigo, il testo rimasto invariato, la leva
+abolita col Vietnam ancora in corso, le due citazioni lunghe di Butler e quella
+di Osbourne.
+
+E UNA COSA FATTA BENE, che voglio scrivere: la frase iconica RACCONTA il verso
+d'apertura invece di riprodurlo. Aveva davanti la tentazione su cui sono cadute
+would, nutshell e live-forever e non ci e' caduta. Insieme ad
+all-the-small-things e' il modello.
+
+IL DIFETTO NUOVO, DA CERCARE APPOSTA. Finora erano: dettaglio inventato,
+citazione mai pronunciata, osservazione del redattore attribuita all'artista.
+Questo e' diverso e piu' difficile: LA CITAZIONE E' VERA, riportata alla
+lettera, E LA FRASE CHE LA INTRODUCE LE FA DIRE IL CONTRARIO. Chi controlla
+cerca la citazione nella fonte, la trova, e passa oltre. Nessun controllo
+automatico puo' vederlo: si vede solo leggendo la frase INTERA della fonte,
+non cercandoci dentro la stringa.
+```
