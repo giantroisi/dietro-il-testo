@@ -148,3 +148,43 @@ Per il lettore il bollino di kashmir e quello di nutshell sono identici. Non
 lo sono. Finche' l'autore non decide, NON metterle piu' da solo: scrivi la
 scheda, lascia ultimaVerifica vuoto, e la riapro io.
 ```
+
+---
+
+## URGENTE, dal 13 settembre 2026 — versi riprodotti: sezione 3
+
+```
+PRIORITA' SU TUTTO IL RESTO. Ci sono versi di canzoni riprodotti fra virgolette
+sulle schede pubblicate. La sezione 3 lo vieta "neppure parzialmente" ed e'
+l'unica regola del sito senza eccezioni.
+
+Come li trovi, non a occhio:
+    node scripts/check-virgolette.mjs --versi
+Ho aggiunto io il modo --versi. Elenca 19 casi CERTI (una parola annuncia il
+verso subito prima delle virgolette, e nessuno lo sta pronunciando) e 123 DA
+GUARDARE. Il controllo non decide: dice dove guardare.
+
+COMINCIA DA QUESTE SEI, dove la citazione e' nella lingua della canzone e quindi
+e' quasi certamente il verso:
+    sonne
+    wake-me-up-when-september-ends
+    dirty-deeds-done-dirt-cheap
+    would            <- scheda nuova, e porta il bollino di verifica
+    nutshell         <- scheda nuova, e porta il bollino di verifica
+    live-forever     <- scheda nuova, e porta il bollino di verifica
+
+POI questi, che l'elenco da' come CERTI e vanno guardati uno per uno:
+    should-i-stay (14 parole), hallowed-be-thy-name (12), take-it-easy (8),
+    champagne-supernova (2 casi), breaking-the-law, black-hole-sun,
+    losing-my-religion, riders-on-the-storm, postmortem, la-guerra-di-piero,
+    irene, un-albero-di-trenta-piani, povera-patria
+
+COME SI CORREGGE. Non si accorcia il verso e non lo si traduce: la sezione 3
+vieta anche le traduzioni. Si RACCONTA che cosa dice quel passaggio, con parole
+nostre, come fa gia' all-the-small-things — che aveva davanti la stessa
+tentazione e non ci e' caduta. Il modello e' quello.
+
+PERCHE' NESSUNO L'AVEVA VISTO, e non e' colpa tua: check-testi non fa questo.
+Apre testoUrl e controlla che porti alla canzone giusta. Non ha mai letto dentro
+le schede. Nessuno degli otto controlli guardava la sezione 3.
+```

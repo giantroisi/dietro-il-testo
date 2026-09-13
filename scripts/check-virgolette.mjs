@@ -22,6 +22,7 @@
 //   node scripts/check-virgolette.mjs                 (il quadro)
 //   node scripts/check-virgolette.mjs --scheda <slug>  (una scheda, tutte le sue)
 //   node scripts/check-virgolette.mjs --tutte          (l'elenco completo)
+//   node scripts/check-virgolette.mjs --versi          (i sospetti di sezione 3)
 
 import { readFileSync } from 'node:fs';
 import { inFrasi } from './genera/frasi.mjs';
@@ -43,6 +44,18 @@ const VIRGOLETTE = /[“«"]([^”»"]{2,120})[”»"]/g;
 // e' accorto solo provandolo su quei quattro, non rileggendolo.
 // Adesso il contesto e' **la frase intera**, tagliata con lo stesso `inFrasi`
 // che usa il generatore.
+// Un verso di canzone fra virgolette e' una violazione della SEZIONE 3, che
+// vieta di riprodurre il testo «neppure parzialmente». Non e' un'imprecisione:
+// e' la sola regola del sito che non ammette eccezioni, e **nessun controllo la
+// guardava**. `check-testi` non fa questo: apre `testoUrl` e verifica che porti
+// alla canzone giusta — non ha mai letto dentro le schede. Per questo
+// `dont-look-back-in-anger` e' rimasto pubblicato, ed e' stato trovato a mano.
+//
+// Il segnale forte e' la parola che presenta il verso — «il verso piu' citato»,
+// «il ritornello dice», «si apre con». Cercata nei 120 caratteri PRIMA della
+// citazione, per lo stesso motivo per cui DIRE non guarda tutta la frase.
+const VERSO = /(vers[oi]|ritornell|strof[ae]|incipit|refrain|inciso|il testo|recita|cant(a|ato|ano)|(si )?(apre|chiude) con)[^.!?]{0,60}$/i;
+
 const DIRE = /(raccont|dichiar|spieg|ammett|ammise|ammesso|ha detto|disse|afferm|ricord|defin|descri|precis|confess|rivel|comment|rispos|chiese|domand|scherz|secondo |parole di|intervista|ha risposto|lo ha chiamato|la chiamo)/i;
 
 // I titoli in catalogo: un album o una canzone fra virgolette non promette
@@ -84,12 +97,41 @@ function analizza(c) {
         // frase intera le segnalazioni erano 488 su 794 — cioe' gridare al
         // lupo, lo stesso errore che `check-attribuzioni` fece alla prima
         // stesura e che porto' da 60 a 16.
-        const dichiarata = DIRE.test(frase.slice(0, m.index));
-        trovate.push({ dove, testo: dentro, dichiarata, parole: dentro.split(/\s+/).length });
+        const prima = frase.slice(0, m.index);
+        const dichiarata = DIRE.test(prima);
+        const verso = VERSO.test(prima.slice(-120));
+        trovate.push({ dove, testo: dentro, dichiarata, verso, parole: dentro.split(/\s+/).length });
       }
     }
   }
   return trovate;
+}
+
+if (args.includes('--versi')) {
+  // Sospetti di sezione 3. Una citazione e' sospetta quando NON e' attribuita a
+  // nessuno (un verso non lo dice qualcuno: sta nella canzone) e non e' un
+  // titolo. Il rumore c'e' ed e' onesto dirlo: i titoli tutti in minuscolo —
+  // «Un disco per l'estate» — passano il filtro delle maiuscole e finiscono qui.
+  // Il controllo non decide, mette in fila due colonne: CERTO quando una parola
+  // annuncia il verso, DA GUARDARE quando manca.
+  const certi = [], altri = [];
+  for (const c of canzoni) {
+    for (const x of analizza(c)) {
+      if (x.dichiarata) continue;
+      if (x.parole < 3) continue;
+      (x.verso ? certi : altri).push({ slug: c.slug, ver: !!c.ultimaVerifica, ...x });
+    }
+  }
+  console.log('\nSezione 3: «non riproduciamo versi, ritornelli o traduzioni, nemmeno parziali».');
+  console.log('Questo elenco NON dimostra che siano versi. Dice dove guardare.\n');
+  console.log(`CERTI — una parola annuncia il verso subito prima delle virgolette: ${certi.length}`);
+  for (const x of certi) console.log(`   ${x.ver ? '[bollino] ' : '          '}${x.slug}  [${x.dove}]  ${x.parole} parole`);
+  console.log(`\nDA GUARDARE — citazione non attribuita a nessuno: ${altri.length}`);
+  for (const x of altri.filter((y) => y.dove === 'frase iconica')) {
+    console.log(`   ${x.ver ? '[bollino] ' : '          '}${x.slug}  [frase iconica]  ${x.parole} parole`);
+  }
+  console.log('\n[bollino] = la scheda dichiara al lettore di essere stata verificata frase per frase.');
+  process.exit(0);
 }
 
 const iScheda = args.indexOf('--scheda');

@@ -2775,6 +2775,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   2. **I bollini diventano due**: «verificata da fuori» e «documentata da chi l'ha scritta», con la differenza spiegata su `/metodo`. Più onesto e più costoso, e allunga la pagina in un punto già denso.
   Nel frattempo **ho cominciato dalla prima uscita**: riapro le sei schede nuove una per una. Se reggono, il bollino diventa vero senza che si debba cambiare niente.
 
+- **13 settembre 2026 — La sezione 3 non era controllata da nessuno, e ci sono versi riprodotti sul sito pubblicato.**
+  Il bollino delle sei schede nuove mi ha fatto riaprire `would`, e nella sua **frase iconica** — la riga più esposta del sito — c'era un verso della canzone, in inglese, fra virgolette. La sezione 3 lo vieta «neppure parzialmente», ed è **la sola regola del sito che non ammette eccezioni**. La scheda era uscita quel giorno stesso col bollino «Verificata frase per frase».
+  **Perché nessuno l'aveva visto.** `check-testi` sembra il controllo apposta e non lo è: apre `testoUrl` e verifica che porti alla canzone giusta. **Non ha mai letto dentro le schede.** Nessuno degli otto controlli guardava se il testo della canzone fosse riprodotto nel testo della scheda. È il motivo per cui `dont-look-back-in-anger` è rimasto pubblicato finché non l'ho trovato a mano — e trovare a mano non è un metodo.
+  **Nuovo modo `--versi` in `check-virgolette`.** Il segnale è la parola che *annuncia* il verso — «il verso più citato», «il ritornello», «si apre con», «il testo recita» — cercata nei 120 caratteri **prima** delle virgolette, per lo stesso motivo per cui `DIRE` non guarda tutta la frase. Una citazione che nessuno pronuncia e che viene annunciata come verso è un verso.
+  **Quadro alla prima esecuzione: 19 casi CERTI** (parola che annuncia + virgolette, nessun parlante) **e 123 DA GUARDARE** (citazione non attribuita a nessuno).
+  - **Sei sono riproduzioni quasi sicure**, perché la citazione è nella lingua della canzone: `sonne`, `wake-me-up-when-september-ends`, `dirty-deeds-done-dirt-cheap`, e le tre nuove `would`, `nutshell`, `live-forever`.
+  - **Cinque dei 19 portano il bollino di verifica**: `un-albero-di-trenta-piani`, `take-it-easy`, `povera-patria`, più `would`, `nutshell`, `live-forever`. Cioè **sono passate da una verifica frase per frase — la mia, su tre di loro — senza che nessuno guardasse la sezione 3.** Il difetto non è di chi scrive: è che la verifica cercava una cosa sola, la fonte, e la regola più importante del sito non era nella lista delle cose da guardare.
+  - **Il rumore c'è e va detto**: i titoli scritti in minuscolo — «Un disco per l'estate» — passano il filtro delle maiuscole e finiscono in elenco. Il controllo non decide, mette in fila e dice dove guardare. Come `check-attribuzioni`: non dimostra, nomina.
+  **Conseguenza sul metodo di verifica**: da adesso riaprire una scheda vuol dire due domande, non una. *Ogni affermazione ha la sua riga nella fonte?* e *c'è qualcosa fra virgolette che viene dalla canzone invece che da una fonte?* La seconda non l'avevo mai fatta, e ho firmato tre schede che non la superano.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
