@@ -2685,6 +2685,24 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **`SOGLIA` torna da 54 a 53**, e la direzione conta: **scende quando una scheda viene documentata davvero**, e sale solo se una riclassificazione onesta scopre che il numero era falso — mai per far passare qualcosa di nuovo. La distinzione e' scritta accanto al numero.
 **Verificato**: intervista OndaRock riaperta nel browser, citazione cercata per stringa esatta e trovata con il contesto della domanda; `node --check`, freno in pari a 53, uscita 0.
 
+- **13 settembre 2026 — Come si decide QUALI canzoni aggiungere, adesso che ci sono i dati. Non a intuito: per domanda misurata.**
+  Il problema era reale: le query di Search Console **non dicono quali canzoni mancano**, perche' con 89 pagine indicizzate su 520 il sito non ha ancora avuto modo di essere cercato per cio' che non ha. Cercare li' dentro le canzoni mancanti e' cercare dove la luce non arriva.
+  **Il segnale c'e' lo stesso, ed e' indiretto: gli artisti gia' in catalogo che raccolgono molte impressioni con poche schede.** Se una pagina sola di un artista porta sessanta impressioni, vuol dire che quell'artista viene cercato e che il sito, per lui, ha quasi niente da mostrare. E' lo stesso ragionamento che ha portato a Battiato, e ha funzionato.
+  **Il conto, impressioni totali diviso numero di schede:**
+
+  | impressioni | schede | per scheda | artista |
+  |---|---|---|---|
+  | 62 | **1** | 62 | Alice in Chains |
+  | 149 | 3 | 50 | Oasis |
+  | 43 | **1** | 43 | Pino Daniele |
+  | 200 | 5 | 40 | Blink-182 |
+  | 27 | **1** | 27 | The White Stripes |
+  | 19 | **1** | 19 | The Killers |
+
+  **Non e' una classifica di gusto, e' una misura di sproporzione**: dove la domanda c'e' gia' e la risposta e' sottile. Va riletta a ogni esportazione nuova, perche' i numeri si muovono e un artista ben coperto esce da solo dalla lista.
+  **Il vincolo che non cambia**: ogni scheda nuova nasce con la sua data di verifica, le sue etichette e almeno una fonte di livello A o B — o non nasce. Il freno e' a 53 su 53, in pari: una scheda nuova documentata solo da fonti C lo fa scattare, ed e' il suo scopo.
+**Verificato**: conto calcolato incrociando `dati/rendimento-pagine.json` con `dati/canzoni.json`, non stimato a occhio.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
