@@ -7,45 +7,6 @@ accumula ordini vecchi diventa un elenco che nessuno legge.
 
 ---
 
-## In attesa dal 13 settembre 2026 — `fuori-dal-tunnel`, terza per impressioni
-
-```
-`fuori-dal-tunnel` (107 impressioni), e non e' solo da correggere: e' da
-documentare.
-
-1) ATTRIBUZIONE INVENTATA. La scheda dice "un paradosso di cui l'autore non e'
-   mai stato del tutto felice". LaScimmiaPensa descrive il paradosso come
-   OSSERVAZIONE PROPRIA: "Il paradosso di una canzone pensata come parodia delle
-   hit da festa, che... diventa, pero', tormentone da party a sua volta".
-   Cercate per stringa esatta "pentito", "rinnegat", "non ha mai", "ha
-   dichiarat", "intervista": tutte assenti. Nessuno attribuisce a Caparezza quel
-   sentimento. E' lo stesso errore di break-stuff e everybody-hurts, terza volta:
-   la descrizione del redattore che diventa la posizione dell'artista.
-
-2) DATA SBAGLIATA PER AMBIGUITA'. "Terzo singolo estratto dal secondo album in
-   studio, Verita' supposte, pubblicato nell'ottobre 2003": grammaticalmente
-   "pubblicato" si aggancia all'album, e l'album e' del 13 GIUGNO 2003. Il 16
-   ottobre 2003 e' il singolo. Riscrivi la frase perche' si capisca a cosa si
-   riferisce la data.
-
-3) CITAZIONE IMPRECISA: la scheda scrive parodia delle hit "da discoteca" fra
-   virgolette; la fonte scrive "da festa". Se si virgoletta, si virgoletta
-   quello che c'e'.
-
-4) E QUESTO E' IL PUNTO. Le affermazioni sull'INTENZIONE dell'autore — la
-   parodia, il paradosso — poggiano solo su LaScimmiaPensa, livello C e per
-   giunta senza firma. La sezione 5 esclude il livello C come prova per "le
-   intenzioni attribuite all'autore". Questa scheda non ha nessuna fonte A o B
-   ed e' la terza pagina piu' vista del sito.
-   Servono due cose: una fonte vera in cui Caparezza parli del brano (ne esistono,
-   e' un artista che parla molto dei propri testi), oppure le intenzioni vanno
-   attribuite a chi le ha scritte — "secondo LaScimmiaPensa, il brano nasce
-   come parodia..." — che e' l'uscita 3 della R3.
-   Se trovi la fonte vera, questa scheda esce anche dal gruppo delle 54 senza A/B.
-```
-
----
-
 ## In attesa dal 13 settembre 2026 — `yes-i-know-my-way`
 
 ```
@@ -127,4 +88,63 @@ discoteca" dove la fonte dice "da festa", un verso di canzone riprodotto.
 Le virgolette sono la promessa piu' forte che un testo possa fare — che quelle
 parole esistono, cosi'. Quando ne scrivi un paio, controlla che dentro ci sia
 esattamente quello che c'e' nella fonte.
+```
+
+---
+
+## In attesa dal 13 settembre 2026 — `vieni-a-ballare-in-puglia`
+
+```
+`vieni-a-ballare-in-puglia` (36 impressioni). Tre rilievi e un'omissione che
+secondo me pesa piu' dei tre.
+
+1) DICHIARAZIONE ATTRIBUITA ALL'ARTISTA E NON DOCUMENTATA. La scheda dice:
+   "un fraintendimento che LO STESSO CAPAREZZA HA RACCONTATO di aver vissuto
+   con disagio, arrivando ad allontanarsi quando la canzone veniva trasmessa
+   nei locali che frequentava". Ne' Wikipedia ne' eHabitat contengono niente
+   del genere: non "disagio", non i locali, non l'allontanarsi. Cercale per
+   stringa esatta e vedrai.
+   E' la quarta volta in quattro giorni che l'osservazione del redattore
+   diventa la posizione dell'artista (break-stuff, everybody-hurts,
+   fuori-dal-tunnel, e ora questa). Caparezza parla molto dei propri testi:
+   se la fonte esiste, trovala; altrimenti va tolta.
+
+2) NON SOSTENUTA: "senza che molti ne cogliessero il vero significato".
+   eHabitat dice che il brano "ha tutti i numeri della hit estiva" e che il
+   ritmo e' "verace e coinvolgente". Il fraintendimento di massa non lo
+   afferma nessuno.
+
+3) SUPERLATIVO AGGIUNTO, e sta nella frase iconica: "il paradosso PIU'
+   DISCUSSO della canzone". Nessuno dice che sia il piu' discusso.
+
+4) E QUESTO E' IL PUNTO. La scheda NON DICE la cosa che tutt'e due le fonti
+   mettono al centro: "ballare" sta per "MORIRE" (Wikipedia: "Il titolo e'
+   una dura provocazione: il termine ballare indica in realta' morire"), e
+   l'intro e' cantata da AL BANO, che e' anche accreditato nel featuring del
+   singolo. E' la chiave del titolo, e il lettore esce dalla scheda senza.
+   Non e' un errore: e' il motivo per cui la scheda vale meno di quanto
+   potrebbe. Aggiungila.
+
+Regge invece tutta la parte documentaria, ed e' precisa: 18 luglio 2008,
+secondo estratto, morti bianche col riferimento velato a Molfetta, incendi
+del Gargano 2007, Taranto, caporalato nei campi.
+```
+
+---
+
+## Da decidere con l'autore, non un ordine — il bollino di verifica
+
+```
+Le sei schede della quinta infornata escono con ultimaVerifica: 2026-09-13,
+cioe' col bollino "Verificata frase per frase", messo da chi le ha scritte lo
+stesso giorno in cui le ha scritte.
+
+Non e' una contestazione della buona fede: e' che sulle 14 schede riaperte da
+fuori il 13% delle affermazioni non ha retto, e quelle schede le riteneva a
+posto chi le aveva scritte. L'autoverifica non trova niente: e' il motivo per
+cui la sezione 14 della ROADMAP assegna F70 e F71 a chi NON scrive contenuto.
+
+Per il lettore il bollino di kashmir e quello di nutshell sono identici. Non
+lo sono. Finche' l'autore non decide, NON metterle piu' da solo: scrivi la
+scheda, lascia ultimaVerifica vuoto, e la riapro io.
 ```
