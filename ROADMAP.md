@@ -2729,6 +2729,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Il difetto dominante non e' piu' il dettaglio inventato: sono le VIRGOLETTE.** Una citazione a Malakian che nessuno ha scritto, «anglonapoletano» virgolettato e assente, «hit da discoteca» dove la fonte dice «da festa», un verso di canzone riprodotto. **Le virgolette sono la promessa piu' forte che un testo possa fare — che quelle parole esistono, cosi' — ed e' la promessa che il sito mantiene meno.**
 **Verificato**: cinque pagine riaperte nel browser e interrogate per stringa esatta. `vieni-a-ballare-in-puglia` (36) resta da aprire: il pannello browser ha smesso di rispondere a meta' lavoro, e senza quello si legge solo il codice.
 
+- **13 settembre 2026 — Un controllo nuovo: `check-virgolette`. Non verifica le citazioni, dice dove sono.**
+  Il registro qui sopra ha appena stabilito che il difetto dominante sono le virgolette. Nessuno dei sette controlli esistenti guarda **dentro** le virgolette: `check-attribuzioni` conta le fonti, `check-nature` legge l'etichetta della scheda, `check-testi` cerca i versi. Una frase messa in bocca a un musicista passava tutti e sette.
+  Il controllo fa lo stesso mestiere di `check-attribuzioni`: **non dimostra, nomina.** Estrae ogni stringa fra virgolette, scarta i titoli in catalogo (maiuscole fitte, meno di otto parole) e separa quelle **dichiarate** — cioè precedute nella stessa frase da un verbo di dire — dal resto.
+  **Quadro alla prima esecuzione: 548 citazioni non-titolo, di cui 308 dichiarate, 129 dentro la frase iconica** (la riga più esposta del sito). Restano **159 schede con citazioni dichiarate e non ancora verificate**; le più cariche sono `sweet-child`, `doomed`, `happy-song`, `danger-acdc` con sei ciascuna.
+  **La taratura è costata due versioni sbagliate, e vanno scritte.** La prima cercava il verbo solo negli ultimi caratteri prima della virgoletta: **non trovava nessuno dei quattro casi veri** — un controllo che non vede il difetto per cui è stato scritto. La seconda guardava l'intera frase e segnalava **488 citazioni su 794**: gridare al lupo, lo stesso errore che `check-attribuzioni` fece alla prima stesura e che portò da 60 segnalazioni a 16. La terza — quella che resta — pretende il verbo **prima** della virgoletta e scarta i titoli, e sui quattro casi noti risponde giusto: `aerials` «di niente» DICHIARATA, `fuori-dal-tunnel` «da festa» DICHIARATA in corpo e frase iconica, `november-rain` titoli esclusi e dichiarata solo la citazione di Slash.
+  **Cosa non fa**: non dice se la citazione è vera. Per quello si riapre la fonte, una per una. Serve a scegliere da dove cominciare.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
