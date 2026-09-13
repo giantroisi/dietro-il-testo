@@ -2785,6 +2785,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **Il rumore c'è e va detto**: i titoli scritti in minuscolo — «Un disco per l'estate» — passano il filtro delle maiuscole e finiscono in elenco. Il controllo non decide, mette in fila e dice dove guardare. Come `check-attribuzioni`: non dimostra, nomina.
   **Conseguenza sul metodo di verifica**: da adesso riaprire una scheda vuol dire due domande, non una. *Ogni affermazione ha la sua riga nella fonte?* e *c'è qualcosa fra virgolette che viene dalla canzone invece che da una fonte?* La seconda non l'avevo mai fatta, e ho firmato tre schede che non la superano.
 
+- **13 settembre 2026 — Taratura di `--versi`, e una mia segnalazione sbagliata da correggere subito.**
+  La prima esecuzione dava **19 casi certi**. Guardandoli uno per uno, **cinque non erano versi ma opere nominate**: «la versione italiana di…», «un remix di…», «l'edizione internazionale di…». La forma era sempre la stessa, e si esclude con una regola sola (`OPERA`). Altri quattro erano **citazioni di persone che il controllo non riconosceva** — «Mick Jones ha **negato** che…», «il cantante ha **citato**…», «Dickinson ne intuì il potenziale**:**» — cioè verbi mancanti da `DIRE`, più i due punti prima delle virgolette, che quasi sempre introducono qualcuno che parla.
+  **Una trappola nell'aggiungerli**: mettendo `citato` fra i verbi di dire, il controllo ha smesso di vedere «il verso più **citato**» — cioè proprio la frase che annuncia un verso — e i casi certi sono crollati da 19 a 8, **perdendo `would` e `nutshell`, che erano il motivo per cui il controllo esiste.** Risolto pretendendo che `citato` non sia preceduto da «più». Una regola aggiunta per precisione aveva reso il controllo cieco sui suoi stessi casi fondatori, ed è la seconda volta in due giorni: se ne accorge solo chi riprova i casi noti a ogni modifica.
+  **Quadro corretto: 12 casi certi, 116 da guardare** (prima 19 e 123).
+  - **Vanno corretti**: `sonne`, `wake-me-up-when-september-ends`, `would`, `nutshell`, `live-forever` (citazione nella lingua della canzone), `take-it-easy`, `champagne-supernova` (due casi), `breaking-the-law`, `black-hole-sun`, `riders-on-the-storm`, `irene`.
+  - **Ritiro `dirty-deeds-done-dirt-cheap`**, che avevo dato per «riproduzione quasi sicura» un'ora fa: il virgolettato è il titolo di un album — «l'edizione internazionale di "High Voltage"» — e non c'entra niente col testo. **L'ho segnalato leggendo l'esito del controllo invece del contesto**, che è lo stesso errore per cui esiste la regola di riaprire le fonti a mano.
+  - Restano fuori per soglia i virgolettati di una o due parole (`volare`, `master-of-puppets`, `vivo-per-lei`): sotto le tre parole il rumore supera il segnale, ed è una scelta, non una dimenticanza.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

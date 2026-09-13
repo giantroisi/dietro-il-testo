@@ -54,9 +54,9 @@ const VIRGOLETTE = /[“«"]([^”»"]{2,120})[”»"]/g;
 // Il segnale forte e' la parola che presenta il verso — «il verso piu' citato»,
 // «il ritornello dice», «si apre con». Cercata nei 120 caratteri PRIMA della
 // citazione, per lo stesso motivo per cui DIRE non guarda tutta la frase.
-const VERSO = /(vers[oi]|ritornell|strof[ae]|incipit|refrain|inciso|il testo|recita|cant(a|ato|ano)|(si )?(apre|chiude) con)[^.!?]{0,60}$/i;
+const VERSO = /(vers[oi]|ritornell|strof[ae]|incipit|refrain|inciso|il testo (dice|recita|fa|suona|va)|recita|cant(a|ato|ano)|vocalizzo|(si )?(apre|chiude) con)[^.!?]{0,60}$/i;
 
-const DIRE = /(raccont|dichiar|spieg|ammett|ammise|ammesso|ha detto|disse|afferm|ricord|defin|descri|precis|confess|rivel|comment|rispos|chiese|domand|scherz|secondo |parole di|intervista|ha risposto|lo ha chiamato|la chiamo)/i;
+const DIRE = /(raccont|dichiar|spieg|ammett|ammise|ammesso|ha detto|disse|afferm|ricord|defin|descri|precis|confess|rivel|comment|rispos|chiese|domand|scherz|secondo |parole di|intervista|ha risposto|lo ha chiamato|la chiamo|neg(a|o|\u00f2|ato)|(?<!pi\u00f9 )cit(a|\u00f2|ato)|sostien|sosten|insist|osserv|aggiun|conclud|replic|obiett|:\s*$)/i;
 
 // I titoli in catalogo: un album o una canzone fra virgolette non promette
 // nulla su chi ha parlato, e sarebbe rumore elencarlo.
@@ -76,6 +76,13 @@ function sembraTitolo(testo) {
   const grandi = parole.filter((p) => /^[A-ZÀ-Þ0-9(]/.test(p)).length;
   return grandi / parole.length >= 0.6;
 }
+
+// Un titolo che il testo introduce con «la versione italiana di», «un remix di»,
+// «la cover di», «dal romanzo» non e' un verso: e' un'opera nominata. Erano
+// cinque falsi positivi su diciannove alla prima esecuzione di --versi
+// (`postmortem`, `un-albero-di-trenta-piani`, `povera-patria`,
+// `la-guerra-di-piero`, `losing-my-religion`), tutti con la stessa forma.
+const OPERA = /(versione|edizione|remix|cover|riedizione|adattamento|colonna sonora|dal (romanzo|libro|film|poema|racconto)|rilettura|traduzione)[^.!?]{0,30}$/i;
 
 function analizza(c) {
   const pezzi = [
@@ -99,7 +106,7 @@ function analizza(c) {
         // stesura e che porto' da 60 a 16.
         const prima = frase.slice(0, m.index);
         const dichiarata = DIRE.test(prima);
-        const verso = VERSO.test(prima.slice(-120));
+        const verso = VERSO.test(prima.slice(-120)) && !OPERA.test(prima.slice(-60));
         trovate.push({ dove, testo: dentro, dichiarata, verso, parole: dentro.split(/\s+/).length });
       }
     }

@@ -164,20 +164,24 @@ Ho aggiunto io il modo --versi. Elenca 19 casi CERTI (una parola annuncia il
 verso subito prima delle virgolette, e nessuno lo sta pronunciando) e 123 DA
 GUARDARE. Il controllo non decide: dice dove guardare.
 
-COMINCIA DA QUESTE SEI, dove la citazione e' nella lingua della canzone e quindi
-e' quasi certamente il verso:
+COMINCIA DA QUESTE CINQUE, dove la citazione e' nella lingua della canzone e
+quindi e' quasi certamente il verso:
     sonne
     wake-me-up-when-september-ends
-    dirty-deeds-done-dirt-cheap
     would            <- scheda nuova, e porta il bollino di verifica
     nutshell         <- scheda nuova, e porta il bollino di verifica
     live-forever     <- scheda nuova, e porta il bollino di verifica
 
-POI questi, che l'elenco da' come CERTI e vanno guardati uno per uno:
-    should-i-stay (14 parole), hallowed-be-thy-name (12), take-it-easy (8),
-    champagne-supernova (2 casi), breaking-the-law, black-hole-sun,
-    losing-my-religion, riders-on-the-storm, postmortem, la-guerra-di-piero,
-    irene, un-albero-di-trenta-piani, povera-patria
+POI queste sette, che l'elenco da' come CERTE:
+    take-it-easy (8 parole, e porta il bollino), champagne-supernova (2 casi),
+    breaking-the-law, black-hole-sun, riders-on-the-storm, irene
+
+NOTA, e riguarda me: in una prima versione dell'elenco avevo scritto anche
+dirty-deeds-done-dirt-cheap, should-i-stay, hallowed-be-thy-name,
+losing-my-religion, postmortem, la-guerra-di-piero, un-albero-di-trenta-piani,
+povera-patria. NON sono versi: sono titoli di album o di versioni ("l'edizione
+internazionale di High Voltage") e citazioni di persone. Avevo letto l'esito del
+controllo invece del contesto. Il controllo adesso li esclude da solo.
 
 COME SI CORREGGE. Non si accorcia il verso e non lo si traduce: la sezione 3
 vieta anche le traduzioni. Si RACCONTA che cosa dice quel passaggio, con parole
