@@ -2651,6 +2651,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Nota operativa sul ponte**: il permesso di cancellazione si perde a ogni riconnessione, e senza quello il generatore non parte perche' comincia svuotando `sito/`. Va richiesto di nuovo ogni volta: non e' un errore, e' come funziona.
 **Verificato**: due pagine pubblicate interrogate nel DOM vero per le sei stringhe corrette una per una; rigenerato dopo la correzione dell'articolo e controllato che sulle 306 schede escano solo le due forme giuste; `check-coerenza` 0, `check-nature` 26 valide e 0 rifiutate, `check-livelli` uscita 0. Copiato in root.
 
+- **13 settembre 2026 — `fuori-dal-tunnel`, terza pagina del sito per impressioni (107). Due affermazioni non reggono, e il problema vero non e' il conteggio.**
+  - **ATTRIBUZIONE INVENTATA ALL'ARTISTA**: la scheda parla di «un paradosso di cui **l'autore non e' mai stato del tutto felice**». La fonte — LaScimmiaPensa — descrive il paradosso come **osservazione propria**: «Il paradosso di una canzone pensata come parodia delle hit "da festa", che… diventa, pero', tormentone da party a sua volta». Cercate per stringa esatta «pentito», «rinnegat», «non ha mai», «ha dichiarat», «intervista»: **tutte NON TROVATE**. Nessuno attribuisce a Caparezza quel sentimento. **E' lo stesso errore di `break-stuff` e di `everybody-hurts`: la descrizione del redattore che diventa la posizione dell'artista.** Terza volta.
+  - **DATA SPOSTATA DA UN'AMBIGUITA'**: «Terzo singolo estratto dal secondo album in studio, "Verita' supposte", **pubblicato nell'ottobre 2003**». Grammaticalmente «pubblicato» si aggancia all'album — e **l'album e' del 13 giugno 2003**. Il 16 ottobre 2003 e' la data del **singolo**. Una frase costruita male diventa un'affermazione falsa.
+  - Imprecisione nella citazione: la scheda scrive parodia delle hit «**da discoteca**» fra virgolette; la fonte scrive «da **festa**». Se si virgoletta, si virgoletta quello che c'e'.
+  - Reggono, testuali da Wikipedia: terzo singolo, secondo album in studio, la trentina di settimane in classifica, il successo dell'album dovuto soprattutto a questo singolo.
+  **IL PROBLEMA VERO.** Le affermazioni sull'**intenzione dell'autore** — la parodia, il paradosso — poggiano **solo su una fonte di livello C**, per giunta senza firma. La sezione 5 esclude esplicitamente il livello C come prova per «intenzioni attribuite all'autore». Questa scheda **non ha nessuna fonte A o B**: e' una delle 54, ed e' la **terza pagina piu' vista del sito**. Non e' una scheda da correggere, e' una scheda da **documentare**: serve una fonte vera in cui Caparezza parli del brano, oppure le intenzioni vanno attribuite a chi le ha scritte.
+**Verificato**: due pagine riaperte nel browser e interrogate per stringa esatta. Nessun file di `dati/` toccato.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

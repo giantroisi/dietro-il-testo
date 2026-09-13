@@ -7,93 +7,39 @@ accumula ordini vecchi diventa un elenco che nessuno legge.
 
 ---
 
-## In attesa dall'11 settembre 2026 — `la-regola-dell-amico`, terza per impressioni
+## In attesa dal 13 settembre 2026 — `fuori-dal-tunnel`, terza per impressioni
 
 ```
-`la-regola-dell-amico` (85 impressioni): quattro affermazioni non stanno in
-nessuna delle due fonti citate — cercate per stringa esatta sul testo
-renderizzato, tutte e quattro assenti:
-  - "sigla di Un disco per l'estate"
-  - "portata anche al Festivalbar"
-  - "si aggiudico' il Telegatto"
-  - "secondo singolo" (Wikipedia elenca i singoli ma non ne dichiara l'ordine)
-O le documenti con una fonte vera, o le togli.
+`fuori-dal-tunnel` (107 impressioni), e non e' solo da correggere: e' da
+documentare.
 
-E c'e' una contraddizione dentro la scheda: il corpo dice Telegatto "come
-canzone dell'ESTATE 1997", la frase iconica "come canzone dell'ANNO". Due
-affermazioni diverse, e nessuna delle due documentata. check-coerenza non la
-vede perche' guarda i campi, non il senso.
+1) ATTRIBUZIONE INVENTATA. La scheda dice "un paradosso di cui l'autore non e'
+   mai stato del tutto felice". LaScimmiaPensa descrive il paradosso come
+   OSSERVAZIONE PROPRIA: "Il paradosso di una canzone pensata come parodia delle
+   hit da festa, che... diventa, pero', tormentone da party a sua volta".
+   Cercate per stringa esatta "pentito", "rinnegat", "non ha mai", "ha
+   dichiarat", "intervista": tutte assenti. Nessuno attribuisce a Caparezza quel
+   sentimento. E' lo stesso errore di break-stuff e everybody-hurts, terza volta:
+   la descrizione del redattore che diventa la posizione dell'artista.
 
-ATTENZIONE, e' cambiata la tabella dei livelli: ceraunavolta.org e' stato
-declassato da A a C (l'ho aperto: pezzo di rievocazione, firmato ma senza data,
-attribuisce l'origine della canzone a "alcune interviste" senza dirne una, e non
-cita nessuna fonte). Quindi questa scheda adesso e' **senza nessuna fonte A/B**.
-Se vuoi chiuderla davvero serve una fonte vera per il Telegatto e per il
-Festivalbar — o si scrive che non risulta.
-```
+2) DATA SBAGLIATA PER AMBIGUITA'. "Terzo singolo estratto dal secondo album in
+   studio, Verita' supposte, pubblicato nell'ottobre 2003": grammaticalmente
+   "pubblicato" si aggancia all'album, e l'album e' del 13 GIUGNO 2003. Il 16
+   ottobre 2003 e' il singolo. Riscrivi la frase perche' si capisca a cosa si
+   riferisce la data.
 
----
+3) CITAZIONE IMPRECISA: la scheda scrive parodia delle hit "da discoteca" fra
+   virgolette; la fonte scrive "da festa". Se si virgoletta, si virgoletta
+   quello che c'e'.
 
-## In attesa dall'11 settembre 2026 — `urlando-contro-il-cielo`, l'esempio della costituzione
-
-```
-`urlando-contro-il-cielo` (61 impressioni), una correzione sola ma va fatta subito.
-
-La scheda dice che Ligabue si fermo' "in mezzo a un campo isolato della Bassa
-emiliana". Wikipedia, la fonte citata, dice solo "fermatosi in mezzo ad un campo
-isolato". "Bassa emiliana" non c'e': cercato per stringa esatta, assente.
-
-E non e' un rilievo nuovo. E' **l'esempio scritto dentro la costituzione**: la R1
-della 4B, alla voce del gesto vietato, dice testualmente «un campo "della Bassa
-emiliana" dove la fonte dice solo "un campo"». L'abbiamo usato per insegnare la
-regola e non siamo mai tornati a correggere la scheda da cui l'avevamo preso.
-Togli "della Bassa emiliana".
-
-Gia' che ci sei: "il secondo album di Ligabue" non sta nella voce del brano.
-O lo documenti o lo togli.
-
-Poi metti naturaCorpo e la data di verifica: il resto della scheda l'ho
-verificato tutto e regge.
-
-NOTA: `hey-brother` (79 impressioni) l'ho verificata ed e' PULITA, zero
-affermazioni non sostenute su quindici. Mettile solo naturaCorpo e la data.
-Due precisazioni minime: "Ash Pournouri" fra gli autori non e' in Bluegrass Today
-(nomina Pontare e Al Fakir) — controlla Wikipedia e, se c'e', va bene cosi';
-"esplora il legame fra fratelli" e' un'interpretazione, etichettala "I".
-```
-
----
-
-## In attesa dall'11 settembre 2026 — `man-in-the-box` e `vivo-per-lei`
-
-```
-Altre due schede della coda verificate.
-
-`man-in-the-box` (47 impressioni), due rilievi:
- - "alla Kemper Arena di Kansas City il 3 luglio 1996": Wikipedia dice solo
-   "At Alice in Chains' last concert with Staley on July 3, 1996, they closed
-   with Man in the Box". La data e il fatto ci sono, IL LUOGO NO. Togli la
-   Kemper Arena o documentala.
- - "Staley scelse poi di non scrivere un brano apertamente politico": non e'
-   nella fonte, e Staley dice il contrario — "I went home and wrote about
-   GOVERNMENT CENSORSHIP and eating meat as seen through the eyes of a doomed
-   calf". Riscrivila o toglila.
- Il resto regge tutto, testuale dall'intervista a Rolling Stone del 1992.
-
-`vivo-per-lei` (57 impressioni), un errore di attribuzione:
- - La scheda dice "scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani".
-   Wikipedia (IT) dice che le MUSICHE sono di MARIO MANZANI, Valerio Zelli e
-   Mauro Mengali, e che Anna Maria Alibani firmava il TESTO, quello poi
-   sostituito da Gatto Panceri. Manzani manca del tutto e Alibani e' stata
-   spostata dal testo alla musica. Sono i crediti di un autore: correggili.
- - Da documentare o togliere: "Onde Radio Ovest" (la fonte scrive solo O.R.O.)
-   e "il produttore di Bocelli propose di farne una cover" (la fonte non nomina
-   un produttore in quel punto).
-
-E UNA COSA DA CERCARE APPOSTA, non da aspettare.
-Nella stessa coda e' uscito due volte lo stesso difetto: il LUOGO PRECISO
-AGGIUNTO. "un campo della Bassa emiliana" dove la fonte dice "un campo";
-"alla Kemper Arena di Kansas City" dove la fonte dice "last concert".
-Quando riapri una scheda, cerca apposta i nomi di luogo: sono il dettaglio che
-rende la frase piu' vivida ed e' quello che le fonti spesso non contengono.
+4) E QUESTO E' IL PUNTO. Le affermazioni sull'INTENZIONE dell'autore — la
+   parodia, il paradosso — poggiano solo su LaScimmiaPensa, livello C e per
+   giunta senza firma. La sezione 5 esclude il livello C come prova per "le
+   intenzioni attribuite all'autore". Questa scheda non ha nessuna fonte A o B
+   ed e' la terza pagina piu' vista del sito.
+   Servono due cose: una fonte vera in cui Caparezza parli del brano (ne esistono,
+   e' un artista che parla molto dei propri testi), oppure le intenzioni vanno
+   attribuite a chi le ha scritte — "secondo LaScimmiaPensa, il brano nasce
+   come parodia..." — che e' l'uscita 3 della R3.
+   Se trovi la fonte vera, questa scheda esce anche dal gruppo delle 54 senza A/B.
 ```
