@@ -2808,7 +2808,7 @@
     "ascoltiTesto": null,
     "spotifyId": "6cPLCU7hKjgjvLWzCevl7R",
     "corpo": [
-      "Nasce nel 1995 come \"Vivo per...\", brano scritto da Mauro Mengali, Valerio Zelli e Annamaria Alibani e presentato senza particolare successo al concorso \"Un disco per l'estate\" dal gruppo Onde Radio Ovest. Il produttore di Andrea Bocelli propose poi di farne una cover: la musica fu mantenuta, mentre il testo venne riscritto da Gatto Panceri, dando vita a \"Vivo per lei\", pubblicata nel 1995. Secondo Sky TG24, lo stesso Panceri ha raccontato di aver ripensato al proprio amore per la musica nello scrivere il nuovo testo: \"Ho pensato al mio amore per la musica ed è nata Vivo per lei\".",
+      "Nasce nel 1995 come \"Vivo per...\", brano con le musiche di Mario Manzani, Valerio Zelli e Mauro Mengali e il testo di Anna Maria Alibani, presentato dal gruppo O.R.O. (Onde Radio Ovest) al concorso \"Un disco per l'estate\" senza un successo immediato. Nello stesso anno, sulla stessa musica, il paroliere Gatto Panceri scrisse un nuovo testo, cambiando il titolo in \"Vivo per lei\": il brano fu pubblicato il 25 agosto 1995 come primo estratto dal secondo album di Andrea Bocelli, \"Bocelli\", interpretato in duetto con Giorgia. Secondo Sky TG24, lo stesso Panceri ha raccontato di aver ripensato al proprio amore per la musica nello scrivere il nuovo testo: \"Ho pensato al mio amore per la musica ed è nata Vivo per lei\".",
       "Nella nuova versione, duettata con Giorgia, il \"lei\" del titolo non è più una persona ma la musica stessa, intesa come arte e passione che dà senso alla vita di chi la fa. Diventò uno standard della canzone italiana, conosciuto anche a livello internazionale."
     ],
     "fraseIconica": "Il momento più citato è la rivelazione, a metà brano, che quella \"lei\" a cui viene dichiarata una devozione totale non è una donna ma la musica stessa. Scritta originariamente nel 1995 dal gruppo O.R.O., fu riscritta dal paroliere Gatto Panceri trasformandola da dedica romantica a omaggio alla musica, sfruttando il genere femminile della parola italiana per mantenere l'ambiguità tra donna e musica per tutto il brano. Bocelli la incise in duetto con Giorgia per l'album \"Bocelli\" del 1995; fu poi reincisa in più lingue con altre partner (Marta Sánchez, Hélène Ségara, Judy Weiss).",
@@ -2824,6 +2824,10 @@
         "nome": "Wikipedia (IT)"
       },
       {
+        "url": "https://it.wikipedia.org/wiki/O.R.O.",
+        "nome": "Wikipedia (voce O.R.O.)"
+      },
+      {
         "url": "https://tg24.sky.it/spettacolo/musica/2025/01/22/gatto-panceri",
         "nome": "Sky TG24, 22 gennaio 2025",
         "ruolo": "storia"
@@ -2837,7 +2841,19 @@
     "temi": [
       "amore",
       "industria-musicale"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "purple-rain",
@@ -7188,8 +7204,8 @@
     "ascoltiTesto": "691 mln ascolti",
     "spotifyId": "6gZVQvQZOFpzIy3HblJ20F",
     "corpo": [
-      "Layne Staley iniziò a scrivere il testo pensando alla censura, ma l'idea prese una piega diversa durante una cena con alcuni dirigenti della Columbia Records, vegetariani, che gli raccontarono come venivano allevati i vitelli destinati alla carne, chiusi in piccole casse per tutta la loro breve vita. Quell'immagine gli rimase impressa e si fuse con il tema della censura in un'unica metafora.",
-      "Staley scelse poi di non scrivere un brano apertamente politico, ritenendo che l'immagine del vitello rinchiuso rendesse meglio l'idea di reclusione e mancanza di scelta. Secondo singolo del disco di debutto \"Facelift\" (1990), contribuì a cambiare le sorti commerciali della band; fu anche l'ultimo brano suonato dal vivo da Staley con gli Alice in Chains, alla Kemper Arena di Kansas City il 3 luglio 1996."
+      "Layne Staley iniziò a scrivere il testo pensando alla censura, ma l'idea prese una piega diversa durante una cena con alcuni dirigenti della Columbia Records, vegetariani, che gli raccontarono come venivano allevati i vitelli destinati alla carne, chiusi in piccole casse per tutta la loro breve vita. Quell'immagine gli rimase impressa: secondo Wikipedia, che riporta una dichiarazione di Staley a Rolling Stone del 1992, tornato a casa scrisse un brano sulla censura governativa e sul consumo di carne, visto attraverso gli occhi di un vitello destinato al macello.",
+      "Secondo singolo del disco di debutto \"Facelift\" (1990), contribuì a cambiare le sorti commerciali della band; fu anche l'ultimo brano suonato dal vivo da Staley con gli Alice in Chains, il 3 luglio 1996."
     ],
     "fraseIconica": "Il verso più citato è quello in cui il narratore, chiuso nella sua scatola, chiede che gli vengano cuciti gli occhi — un'immagine di cecità forzata che fonde il tema originario della censura con la metafora del vitello rinchiuso raccontata a Staley da alcuni dirigenti discografici vegetariani.",
     "sezioniExtra": [],
@@ -7212,7 +7228,17 @@
     "testoFonte": "Letras",
     "temi": [
       "alienazione"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "sound-of-silence-disturbed",
@@ -8343,7 +8369,7 @@
     "ascoltiTesto": "1,3 mld ascolti",
     "spotifyId": "4lhqb6JvbHId48OUJGwymk",
     "corpo": [
-      "Scritta da Tim Bergling (Avicii) insieme a Salem Al Fakir, Vincent Pontare e Ash Pournouri, esplora il legame fra fratelli e, per estensione, il bisogno di esserci per le persone a cui si vuole bene, in un brano che unisce sonorità dance a un'anima bluegrass insolita per la musica elettronica. La voce che apre e guida il brano è quella del cantante bluegrass americano Dan Tyminski, già noto per aver prestato la voce a George Clooney in \"Fratello, dove sei?\": Avicii lo volle nel progetto già con il brano quasi finito, spiegando che il timbro \"terroso\" della sua voce era proprio ciò che serviva a dare al pezzo l'elemento bluegrass.",
+      "Scritta da Tim Bergling (Avicii) insieme a Salem Al Fakir, Veronica Maggio, Vincent Pontare e Ash Pournouri, il brano unisce sonorità dance a un'anima bluegrass insolita per la musica elettronica. Esplora il legame fra fratelli e, per estensione, il bisogno di esserci per le persone a cui si vuole bene. La voce che apre e guida il brano è quella del cantante bluegrass americano Dan Tyminski, già noto per aver prestato la voce a George Clooney in \"Fratello, dove sei?\". Avicii lo volle nel progetto già con il brano quasi finito, spiegando che il timbro \"terroso\" della sua voce era proprio ciò che serviva a dare al pezzo l'elemento bluegrass.",
       "Tyminski ha raccontato di essere stato inizialmente titubante, temendo che il genere fosse troppo lontano dal suo, ma di essersi convinto ascoltando il brano già completato e trovandolo nella tonalità perfetta per la propria voce; fu poi sua figlia, allora ventenne, a convincerlo del tutto con il proprio entusiasmo. Il brano, uscito come singolo nell'ottobre 2013, raggiunse il primo posto delle classifiche pop in oltre dieci paesi europei, oltre a quella dance in Regno Unito e Stati Uniti."
     ],
     "fraseIconica": "Il dettaglio più sorprendente riguarda la voce che apre il brano: quella del cantante bluegrass Dan Tyminski, già noto per aver doppiato George Clooney in \"Fratello, dove sei?\". Avicii lo volle per il timbro \"terroso\" della sua voce, capace di dare al pezzo l'elemento bluegrass; Tyminski, inizialmente titubante perché il genere gli sembrava troppo lontano dal proprio, si convinse ascoltando il brano già completato — e fu poi l'entusiasmo della figlia ventenne a spazzare via ogni dubbio residuo.",
@@ -8361,7 +8387,20 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": []
+    "temi": [],
+    "naturaCorpo": [
+      [
+        "F",
+        "I",
+        "F",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "feeling-this",
@@ -9200,20 +9239,20 @@
     "ascoltiTesto": "22 mln ascolti",
     "spotifyId": "2ITCAQv2kjkynej77nx15r",
     "corpo": [
-      "Scritta da Max Pezzali, con arrangiamento curato da Claudio Cecchetto, fu pubblicata nel 1997 come secondo singolo dall'album \"La dura legge del gol!\". Divenne quell'estate il tormentone nazionale: sigla di \"Un disco per l'estate\", portata anche al Festivalbar, si aggiudicò il Telegatto come canzone dell'estate 1997.",
-      "Il testo racconta un gruppo di amici legati alla stessa ragazza, ognuno con il secondo fine di trasformare l'amicizia in qualcosa di più — un ritratto scherzoso e realistico delle relazioni fra adolescenti, nato, secondo l'autore, da situazioni vissute davvero da Pezzali e dal suo giro di amici."
+      "Scritta da Max Pezzali, fu pubblicata nel 1997 come secondo singolo dall'album \"La dura legge del gol!\", prodotto da Claudio Cecchetto insieme a Pierpaolo Peroni e Marco Guarnerio, che ne curarono anche l'arrangiamento. Divenne quell'estate il tormentone nazionale: fu la sigla di \"Un disco per l'estate\", portata anche al Festivalbar, e vinse il Telegatto di \"Vota la voce\" come canzone dell'estate.",
+      "Il testo racconta un gruppo di amici legati alla stessa ragazza, ognuno con il secondo fine di trasformare l'amicizia in qualcosa di più — un ritratto scherzoso e realistico delle relazioni fra adolescenti."
     ],
-    "fraseIconica": "Il ritornello più citato riassume in una regola amara il tema del brano: essere amico di una donna significa, per definizione, non riuscire mai a \"combinare niente\" con lei. Pubblicata nel 1997 dall'album \"La dura legge del gol!\", divenne il tormentone dell'estate, sigla di \"Un disco per l'estate\" e vincitrice del Telegatto come canzone dell'anno.",
+    "fraseIconica": "Il ritornello più citato riassume in una regola amara il tema del brano: essere amico di una donna significa, per definizione, non riuscire mai a \"combinare niente\" con lei. Pubblicata nel 1997 dall'album \"La dura legge del gol!\", divenne il tormentone dell'estate, sigla di \"Un disco per l'estate\" e vincitrice del Telegatto di \"Vota la voce\" come canzone dell'estate.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/883/14132/",
     "fonti": [
       {
-        "url": "https://www.ceraunavolta.org/la-regola-dellamico/",
-        "nome": "Ceraunavolta.org"
+        "url": "https://it.wikipedia.org/wiki/La_regola_dell%27amico",
+        "nome": "Wikipedia (voce del brano)"
       },
       {
         "url": "https://it.wikipedia.org/wiki/La_dura_legge_del_gol!",
-        "nome": "Wikipedia"
+        "nome": "Wikipedia (voce dell'album)"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -9224,7 +9263,17 @@
     "testoFonte": "Letras",
     "temi": [
       "amore"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "grazie-mille",
@@ -11454,7 +11503,7 @@
     "ascoltiTesto": "22,9 mln ascolti",
     "spotifyId": "1wx5hbovwZoPeTUom8cuQ4",
     "corpo": [
-      "Quarto singolo estratto da Lambrusco coltelli rose & pop corn, il secondo album di Ligabue, uscito nel 1991. Il brano era già stato scritto ai tempi del primo disco, ma Ligabue scelse di tenerlo da parte e pubblicarlo solo l'anno successivo. Il titolo nacque da un episodio autobiografico: in un periodo di forte tensione, Ligabue si fermò da solo in mezzo a un campo isolato della Bassa emiliana e iniziò spontaneamente a urlare contro il cielo per sfogarsi.",
+      "Quarto singolo estratto da Lambrusco coltelli rose & pop corn, il secondo album di Ligabue, uscito nel 1991. Il brano era già stato scritto ai tempi del primo disco, ma Ligabue scelse di tenerlo da parte e pubblicarlo solo l'anno successivo. Il titolo nacque da un episodio autobiografico: in un periodo di forte tensione, Ligabue si fermò da solo in mezzo a un campo isolato e iniziò spontaneamente a urlare contro il cielo per sfogarsi.",
       "Diventata una delle canzoni più amate della sua carriera e un pezzo fisso dei concerti, ottenne il disco d'oro in Italia. Una sua esecuzione dal vivo, cantata quasi interamente dal pubblico durante il Neverending Tour del 1991, fu pubblicata nel 1994 nell'album A che ora è la fine del mondo? come primo brano live ufficiale di Ligabue."
     ],
     "fraseIconica": "Il titolo racconta il bisogno di liberarsi da una tensione interiore urlando verso il cielo, un gesto di sfogo e resistenza più che di rabbia, con cui il narratore invita chi ascolta a non arrendersi finché il cuore continua a battere.",
@@ -11464,6 +11513,10 @@
       {
         "url": "https://it.wikipedia.org/wiki/Urlando_contro_il_cielo",
         "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Lambrusco_coltelli_rose_%26_pop_corn",
+        "nome": "Wikipedia (voce dell'album)"
       },
       {
         "url": "https://solobellecanzoni.altervista.org/urlando-contro-il-cielo-ligabue/",
@@ -11477,7 +11530,19 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": []
+    "temi": [],
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "dicono-di-me",
