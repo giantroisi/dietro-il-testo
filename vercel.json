@@ -176,11 +176,6 @@
       "permanent": true
     },
     {
-      "source": "/album/alice-in-chains/dirt/",
-      "destination": "/artista/alice-in-chains/",
-      "permanent": true
-    },
-    {
       "source": "/album/alice-in-chains/alice-in-chains/",
       "destination": "/artista/alice-in-chains/",
       "permanent": true
@@ -297,11 +292,6 @@
     },
     {
       "source": "/album/blink-182/dude-ranch/",
-      "destination": "/artista/blink-182/",
-      "permanent": true
-    },
-    {
-      "source": "/album/blink-182/take-off-your-pants-and-jacket/",
       "destination": "/artista/blink-182/",
       "permanent": true
     },
@@ -3591,11 +3581,6 @@
       "permanent": true
     },
     {
-      "source": "/album/oasis/heathen-chemistry/",
-      "destination": "/artista/oasis/",
-      "permanent": true
-    },
-    {
       "source": "/album/oasis/dont-believe-the-truth/",
       "destination": "/artista/oasis/",
       "permanent": true
@@ -3817,11 +3802,6 @@
     },
     {
       "source": "/album/pino-daniele/terra-mia/",
-      "destination": "/artista/pino-daniele/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pino-daniele/pino-daniele/",
       "destination": "/artista/pino-daniele/",
       "permanent": true
     },

@@ -1041,6 +1041,13 @@
         "slug": "dirt"
       },
       {
+        "titolo": "Jar of Flies",
+        "anno": "1994",
+        "nota": "EP, primo della storia a debuttare al numero 1 della Billboard 200",
+        "copertina": null,
+        "slug": "jar-of-flies"
+      },
+      {
         "titolo": "Alice in Chains",
         "anno": "1995",
         "nota": "certificato 2x platino RIAA",
@@ -1070,7 +1077,9 @@
       }
     ],
     "canzoni": [
-      "man-in-the-box"
+      "man-in-the-box",
+      "would",
+      "nutshell"
     ],
     "annoPrimo": 1990,
     "annoUltimo": 1990,
@@ -1466,7 +1475,8 @@
       "i-miss-you",
       "whats-my-age-again",
       "adams-song",
-      "feeling-this"
+      "feeling-this",
+      "first-date"
     ],
     "annoPrimo": 1999,
     "annoUltimo": 2003,
@@ -9274,7 +9284,9 @@
     "canzoni": [
       "wonderwall",
       "dont-look-back-in-anger",
-      "champagne-supernova"
+      "champagne-supernova",
+      "live-forever",
+      "stop-crying-your-heart-out"
     ],
     "annoPrimo": 1995,
     "annoUltimo": 1995,
@@ -10084,7 +10096,8 @@
       }
     ],
     "canzoni": [
-      "yes-i-know-my-way"
+      "yes-i-know-my-way",
+      "je-so-pazzo"
     ],
     "annoPrimo": 1981,
     "annoUltimo": 1981,

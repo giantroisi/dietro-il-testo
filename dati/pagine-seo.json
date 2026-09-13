@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 306,
+    "nCanzoni": 312,
     "haTestoEditoriale": true
   },
   {
@@ -1567,6 +1567,36 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/would/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/nutshell/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/live-forever/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/stop-crying-your-heart-out/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/je-so-pazzo/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/first-date/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1619,7 +1649,7 @@
     "percorso": "artista/alice-in-chains/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -1647,7 +1677,7 @@
     "percorso": "artista/blink-182/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2039,7 +2069,7 @@
     "percorso": "artista/oasis/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 5,
     "haTestoEditoriale": true
   },
   {
@@ -2081,7 +2111,7 @@
     "percorso": "artista/pino-daniele/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2708,6 +2738,20 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/alice-in-chains/dirt/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/alice-in-chains/jar-of-flies/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/andrea-bocelli-e-giorgia/bocelli-album/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -2748,6 +2792,13 @@
     "indicizzabile": true,
     "nCanzoni": 3,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/blink-182/take-off-your-pants-and-jacket/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/blink-182/blink-182/",
@@ -3579,7 +3630,7 @@
     "percorso": "album/oasis/definitely-maybe/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 0,
+    "nCanzoni": 1,
     "haTestoEditoriale": true
   },
   {
@@ -3588,6 +3639,13 @@
     "indicizzabile": true,
     "nCanzoni": 3,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/oasis/heathen-chemistry/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/ozzy-osbourne/blizzard-of-ozz/",
@@ -3682,6 +3740,13 @@
   },
   {
     "percorso": "album/pink-floyd/the-wall/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pino-daniele/pino-daniele/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3992,14 +4057,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 155,
+    "nCanzoni": 159,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 132,
+    "nCanzoni": 136,
     "haTestoEditoriale": true
   },
   {
@@ -4013,14 +4078,14 @@
     "percorso": "genere/punk/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 24,
+    "nCanzoni": 25,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/1970/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 46,
+    "nCanzoni": 47,
     "haTestoEditoriale": true
   },
   {
@@ -4034,14 +4099,14 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 65,
+    "nCanzoni": 68,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 53,
+    "nCanzoni": 55,
     "haTestoEditoriale": true
   },
   {

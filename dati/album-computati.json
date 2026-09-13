@@ -1039,8 +1039,19 @@
     "titolo": "Dirt",
     "anno": "1992",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
+    "indicizzabile": false,
+    "sintetico": false
+  },
+  {
+    "artistaSlug": "alice-in-chains",
+    "slug": "jar-of-flies",
+    "titolo": "Jar of Flies",
+    "anno": "1994",
+    "copertina": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -1380,8 +1391,8 @@
     "titolo": "Take Off Your Pants and Jacket",
     "anno": "2001",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -9894,7 +9905,7 @@
     "titolo": "Definitely Maybe",
     "anno": "1994",
     "copertina": true,
-    "nCanzoni": 0,
+    "nCanzoni": 1,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -9938,8 +9949,8 @@
     "titolo": "Heathen Chemistry",
     "anno": "2002",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -10598,8 +10609,8 @@
     "titolo": "Pino Daniele",
     "anno": "1979",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
