@@ -81,3 +81,50 @@ Una cosa da notare: Wikipedia riporta il verso fra virgolette e la scheda NON lo
 cita, lo racconta. Aveva davanti la tentazione esatta su cui era caduta
 dont-look-back-in-anger e non ci e' caduta. E' il modello.
 ```
+
+---
+
+## In attesa dal 13 settembre 2026 — `aerials`, `november-rain`, `ho-messo-via`
+
+```
+Altre tre schede della coda verificate.
+
+1) `aerials` (36 impressioni) — il rilievo piu' grave del giro.
+   La scheda dice: 'alla domanda sul significato del brano, lo stesso Malakian ha
+   risposto piu' volte che parla "di niente", lasciando volutamente ai fan il
+   compito di trovarci un senso proprio'. LA FRASE E' VIRGOLETTATA, cioe'
+   presentata come citazione. Cercati "about nothing" e "nothing" su Songfacts e
+   su Wikipedia EN: assenti da tutt'e due. E la stessa affermazione torna nella
+   frase iconica ("un'immagine che la band ha sempre rifiutato di spiegare").
+   E' una dichiarazione messa in bocca a un musicista, fra virgolette, due volte
+   nella stessa scheda. O trovi la fonte — l'aneddoto circola, quindi una fonte
+   vera probabilmente esiste — o vanno tolte entrambe.
+   Il resto regge tutto.
+
+2) `november-rain` (36 impressioni) — e' la scheda piu' densa e meglio
+   documentata che ho incontrato finora, complimenti. Due cose sole:
+   - "il video... costato oltre 1,5 milioni di dollari": la cifra non c'e' ne' su
+     MusicRadar ne' su Wikipedia.
+   - "La band scelse comunque un'altra ballata, Sweet Child O' Mine, che arrivo'
+     comunque al numero 1": su Wikipedia Sweet Child o' Mine compare come LATO B
+     di questo singolo, e il suo numero 1 non e' affermato da nessuna parte li'.
+   Due imprecisioni da sistemare: "un anno prima delle SESSION" (la fonte dice
+   "a whole year before the RELEASE") e "registrata definitivamente nel 1990"
+   (anno che le fonti non danno).
+
+3) `ho-messo-via` (37 impressioni), una sola correzione.
+   "o, secondo alcune letture, con la figura paterna": "padre" e "paterna" non ci
+   sono ne' su Wikipedia (che dice "una persona, non specificata, quasi certamente
+   un amore finito") ne' nella monografia OndaRock. "Secondo alcune letture" senza
+   dire quali e' la forma vaga che la R3 vieta: se non si puo' nominare chi legge
+   cosi', quella lettura non esiste per il lettore.
+   Il resto regge, e la resa della citazione OndaRock e' precisa.
+
+E LA COSA DA CERCARE APPOSTA, aggiornata. Il difetto dominante non e' piu' il
+dettaglio inventato: SONO LE VIRGOLETTE. In tre giorni: una citazione a Malakian
+che nessuno ha scritto, "anglonapoletano" virgolettato e assente, "hit da
+discoteca" dove la fonte dice "da festa", un verso di canzone riprodotto.
+Le virgolette sono la promessa piu' forte che un testo possa fare — che quelle
+parole esistono, cosi'. Quando ne scrivi un paio, controlla che dentro ci sia
+esattamente quello che c'e' nella fonte.
+```
