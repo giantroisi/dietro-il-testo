@@ -2703,6 +2703,17 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Il vincolo che non cambia**: ogni scheda nuova nasce con la sua data di verifica, le sue etichette e almeno una fonte di livello A o B — o non nasce. Il freno e' a 53 su 53, in pari: una scheda nuova documentata solo da fonti C lo fa scattare, ed e' il suo scopo.
 **Verificato**: conto calcolato incrociando `dati/rendimento-pagine.json` con `dati/canzoni.json`, non stimato a occhio.
 
+- **13 settembre 2026 — Nona e decima scheda della coda. La seconda pulita, e una che non ha niente da mostrare.**
+  **`all-the-small-things` (41 impressioni) — 10 affermazioni, ZERO non sostenute.** Wikipedia (EN) conferma alla lettera: scritta principalmente da DeLonge, alla fine delle session di «Enema of the State», l'omaggio ai Ramones e il ritornello «na na na», il «The label's gonna want a song for the radio – so here's one», il successo che porta la band alla notorieta' di massa. E Songfacts conferma il pezzo che Wikipedia non ha: «wrote "All The Small Things" for his girlfriend **after she complained that he always writes songs about other girls**».
+  **Da notare, perche' e' la differenza fra una scheda pulita e una da riaprire**: Wikipedia riporta il verso fra virgolette — «She left me roses by the stairs / Surprises let me know she cares» — e **la scheda non lo cita: lo racconta**. Aveva davanti la tentazione esatta su cui `dont-look-back-in-anger` era caduta, e non ci e' caduta.
+  **`yes-i-know-my-way` (43 impressioni) — 10 affermazioni, 2 non reggono. Ma il problema e' piu' a monte.**
+  - **VIRGOLETTE SU UNA PAROLA CHE NESSUNO HA SCRITTO**: la scheda dice che la canzone e' scritta in «un misto di napoletano e inglese ("**anglonapoletano**")». Il termine, messo fra virgolette come se fosse citato, **non compare in nessuna delle due fonti**.
+  - **DATA NON DOCUMENTATA**: «dare poi il nome alla sua prima raccolta di successi curata personalmente, **nel 1998**». Wonderchannel conferma «il primo greatest hits progettato e pensato dallo stesso artista», ma **l'anno non c'e'** — ne' li' ne' su Wikipedia. E' vero nel mondo e assente dalle fonti citate: la firma di sempre.
+  - Da attenuare: «percorsi piu' facili o **commercialmente** piu' comodi» dove la fonte dice «non farsi influenzare dalle mode del momento».
+  **IL PROBLEMA A MONTE.** Questa scheda ha **due fonti, tutte e due di livello C**, e nessuna A o B. Peggio: **la voce di Wikipedia porta in cima l'avviso che mancano fonti attendibili**, e Wonderchannel e' firmato «Redazione», senza nome. Tutta l'interpretazione — la dichiarazione d'indipendenza, il brano manifesto — poggia li'. E' la stessa situazione di `fuori-dal-tunnel` prima di ieri, e si risolve allo stesso modo: **Pino Daniele ha parlato molto della propria musica, le fonti esistono.** Non e' una scheda da correggere, e' una scheda da documentare.
+  **Conto della coda: 10 schede, circa 117 affermazioni, 15 non reggono (13%).** Le pulite sono due su dieci — `hey-brother` e `all-the-small-things` — ed e' un numero che vale la pena guardare: **una scheda su cinque e' gia' a posto, e sono quelle scritte fitte di dettagli verificabili.**
+**Verificato**: quattro pagine riaperte nel browser e interrogate per stringa esatta.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

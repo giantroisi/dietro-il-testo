@@ -43,3 +43,41 @@ documentare.
    come parodia..." — che e' l'uscita 3 della R3.
    Se trovi la fonte vera, questa scheda esce anche dal gruppo delle 54 senza A/B.
 ```
+
+---
+
+## In attesa dal 13 settembre 2026 — `yes-i-know-my-way`
+
+```
+`yes-i-know-my-way` (43 impressioni). Due correzioni e un lavoro di
+documentazione, come per fuori-dal-tunnel.
+
+1) VIRGOLETTE SU UNA PAROLA CHE NESSUNO HA SCRITTO. La scheda dice che il brano
+   e' in "un misto di napoletano e inglese (anglonapoletano)", con la parola fra
+   virgolette come se fosse citata. Non compare in nessuna delle due fonti.
+   Toglila o documentala.
+
+2) DATA NON DOCUMENTATA. "dare poi il nome alla sua prima raccolta di successi
+   curata personalmente, NEL 1998". Wonderchannel conferma "il primo greatest
+   hits progettato e pensato dallo stesso artista", ma l'anno non c'e', ne' li'
+   ne' su Wikipedia. E' vero nel mondo e assente dalle fonti citate.
+
+3) Da attenuare: "percorsi piu' facili o COMMERCIALMENTE piu' comodi" dove la
+   fonte dice "non farsi influenzare dalle mode del momento".
+
+4) E QUESTO E' IL PUNTO, come per fuori-dal-tunnel.
+   Questa scheda ha due fonti, TUTTE E DUE DI LIVELLO C. Peggio: la voce di
+   Wikipedia porta in cima l'avviso che mancano fonti attendibili, e Wonderchannel
+   e' firmato "Redazione", senza nome. Tutta l'interpretazione — la dichiarazione
+   d'indipendenza, il brano manifesto — poggia li', e la sezione 5 esclude il
+   livello C proprio per le intenzioni attribuite all'autore.
+   Pino Daniele ha parlato molto della propria musica: cerca una fonte vera, come
+   hai fatto con l'intervista OndaRock per Caparezza. Se la trovi, questa scheda
+   esce anche dal gruppo delle 53 senza A/B.
+
+NOTA: `all-the-small-things` (41 impressioni) l'ho verificata ed e' PULITA, dieci
+affermazioni su dieci. Mettile solo naturaCorpo e la data di verifica.
+Una cosa da notare: Wikipedia riporta il verso fra virgolette e la scheda NON lo
+cita, lo racconta. Aveva davanti la tentazione esatta su cui era caduta
+dont-look-back-in-anger e non ci e' caduta. E' il modello.
+```
