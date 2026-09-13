@@ -9513,10 +9513,10 @@
     "ascoltiTesto": "26 mln ascolti",
     "spotifyId": "2oBXn8htpoyjRqrkIGGm0a",
     "corpo": [
-      "Terzo singolo estratto dal secondo album in studio, \"Verità supposte\", pubblicato nell'ottobre 2003. Il brano è una critica ironica al divertimento imposto e standardizzato della vita notturna, con il protagonista che si dichiara \"fuori dal tunnel\" del divertimento a tutti i costi, preferendogli attività più semplici e autentiche.",
-      "Fu il singolo che portò per la prima volta Caparezza all'attenzione del grande pubblico, contribuendo a tenere l'album in classifica per circa trenta settimane. Il brano contiene un paradosso di cui l'autore non è mai stato del tutto felice: concepito come una parodia delle hit \"da discoteca\", grazie al ritmo trascinante è diventato a sua volta un tormentone ballato proprio nei contesti — locali notturni, programmi tv — che intendeva criticare."
+      "Terzo singolo estratto dal secondo album in studio, \"Verità supposte\", pubblicato il 13 giugno 2003: il brano uscì come singolo il 16 ottobre dello stesso anno. È una critica ironica al divertimento imposto e standardizzato della vita notturna, con il protagonista che si dichiara \"fuori dal tunnel\" del divertimento a tutti i costi, preferendogli attività più semplici e autentiche. \"Quella era la gabbia della movida, del divertimento forzato: un tunnel, una imposizione\", l'ha definita lo stesso Caparezza in un'intervista a OndaRock del 2018.",
+      "Fu il singolo che portò per la prima volta Caparezza all'attenzione del grande pubblico, contribuendo a tenere l'album in classifica per circa trenta settimane. Secondo LaScimmiaPensa, nacque come una parodia delle hit \"da festa\", ma grazie al ritmo trascinante diventò a sua volta un tormentone ballato proprio nei contesti che intendeva criticare. Fu un paradosso che Caparezza visse a lungo con fastidio: sul proprio sito ufficiale si disse infastidito nel sapere che il brano venisse \"gioiosamente ballato nei luoghi che sono l'esatto bersaglio del testo\", al punto da non risuonarlo dal vivo per diversi anni — salvo poi, come ha raccontato a Rockol nel 2022, fare pace col pezzo: \"oggi gli voglio bene\"."
     ],
-    "fraseIconica": "Il verso più citato è la dichiarazione del titolo, ripetuta come un mantra: essere \"fuori dal tunnel\" del divertimento obbligatorio e omologato. Terzo singolo di \"Verità supposte\" (2003), resta il brano più famoso di Caparezza e quello che lo portò all'attenzione del grande pubblico — non senza un paradosso che l'autore non ha mai amato: nato come parodia delle hit da discoteca, è diventato lui stesso un tormentone da locali notturni.",
+    "fraseIconica": "Il verso più citato è la dichiarazione del titolo, ripetuta come un mantra: essere \"fuori dal tunnel\" del divertimento obbligatorio e omologato. Terzo singolo di \"Verità supposte\" (2003), resta il brano più famoso di Caparezza e quello che lo portò all'attenzione del grande pubblico — non senza un paradosso che lo stesso Caparezza ha definito motivo di frustrazione e imbarazzo: nato, secondo LaScimmiaPensa, come parodia delle hit \"da festa\", è diventato lui stesso un tormentone da locali notturni.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/caparezza/413833/",
     "fonti": [
@@ -9529,6 +9529,16 @@
         "nome": "LaScimmiaPensa"
       },
       {
+        "url": "https://www.rockol.it/news-730993/caparezza-fuori-dal-tunnel-non-l-ho-cantata-per-anni",
+        "nome": "Rockol, 29 giugno 2022, di Mattia Marzi",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/interviste/caparezza/",
+        "nome": "OndaRock, intervista di Claudio Fabretti, 13 dicembre 2018",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
@@ -9538,7 +9548,20 @@
     "temi": [
       "critica-sociale",
       "identita"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "I",
+        "D"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-13"
   },
   {
     "slug": "la-mia-parte-intollerante",
