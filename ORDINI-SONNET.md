@@ -323,3 +323,43 @@ nutshell, live-forever: li' la citazione e' nella lingua della canzone.
 Quando hai finito, rilancia `--versi`: il numero dei CERTI deve scendere.
 E' quella la verifica, non il confronto a occhio.
 ```
+
+---
+
+## In attesa dal 14 settembre 2026 — la frase iconica che ricopia il corpo
+
+```
+DOPO i versi, non prima: questo non e' una violazione, e' un difetto di
+lettura. Ma tocca la riga piu' esposta del sito.
+
+    node scripts/check-frase-iconica.mjs
+
+38 schede su 312 hanno una frase iconica che ricopia una frase del corpo; 10 la
+ricopiano PER INTERO, cioe' non aggiungono niente. Il lettore legge due volte
+la stessa cosa nella stessa pagina, e la riga che dovrebbe dargli il motivo di
+restare non porta nulla.
+
+COMINCIA DALLE DIECI INTERE:
+    happy-song, hypa-hypa, ragu, antivist, lost, wonderful-life, cattiva,
+    die4u, dont-look-back-in-anger, hey-brother
+Le ultime due portano il bollino, e le ho riaperte io: non me n'ero accorto,
+perche' controllavo se le affermazioni reggessero e non se la frase iconica
+dicesse qualcosa.
+
+CASI DI SCUOLA, per capire cosa intendo: ragu e cattiva. La frase iconica
+rimescola le stesse due frasi del corpo cambiando l'ordine e qualche
+preposizione. Non c'e' niente di falso: e' sprecata.
+
+COSA DEVE FARE UNA FRASE ICONICA: dire il momento del brano - un dettaglio, una
+scena, una svolta - che il corpo non ha gia' raccontato, o che ha solo
+nominato. Guarda first-date e hotel-california, che sono fatte bene.
+Se il momento iconico e' gia' tutto nel corpo, l'alternativa giusta e'
+SPOSTARLO: togli quella parte dal corpo e lasciala solo nella frase iconica.
+Meglio una pagina che dice due cose una volta ciascuna che una che ne dice una
+due volte.
+
+NOTA MIA: ieri avevo misurato questa stessa cosa e ti avevo detto "e' l'unica
+su 312". Sbagliato: confrontavo pretendendo che una frase CONTENESSE l'altra, e
+bastava "alla rivista GQ" diventato "a GQ" per non vederla. Il numero vero e'
+38. L'ho scritto anche nel registro.
+```
