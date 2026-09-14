@@ -278,3 +278,48 @@ non cercandoci dentro la stringa.
    lettera, nominando anche Mike Dirnt. Avevo dubitato di una fonte che non
    avevo ancora aperto. Non cambiarla.
 ```
+
+---
+
+## 14 settembre 2026 — NOTA DI METODO sui versi: come lavorarci senza riprodurli
+
+```
+Il primo tentativo di eseguire l'ordine sui versi si e' bloccato: il modello non
+puo' produrre in uscita i versi che deve togliere. E' un limite reale e va
+aggirato nel modo giusto, cioe' NON producendoli MAI.
+
+LA REGOLA OPERATIVA: non scrivere mai il verso. Non nella risposta, non nel
+ragionamento, non nel messaggio di commit, non in una citazione "per spiegare
+cosa stai togliendo". Se devi nominarlo, chiamalo
+    "la stringa segnalata da --versi in <slug> [posizione]"
+e basta. Il punto dell'intervento e' proprio che quella stringa sparisca.
+
+COME SI FA, in concreto:
+1) `node scripts/check-virgolette.mjs --versi` ti da' slug, posizione e numero
+   di parole. NON stampa il testo: e' voluto, ed e' tutto quello che ti serve.
+   NON usare `--scheda <slug>` su queste dodici: quel modo stampa le citazioni.
+2) Apri la scheda in dati/canzoni.json e guarda la frase che contiene le
+   virgolette segnalate.
+3) RISCRIVI QUELLA FRASE da zero, raccontando che COSA DICE quel passaggio,
+   senza virgolette e senza ricalcarne le parole. Non accorciare il verso, non
+   tradurlo: la sezione 3 vieta anche le traduzioni. Si descrive.
+   Esempio del risultato giusto, gia' sul sito: war-pigs dice che il verso
+   d'apertura "paragona i generali riuniti a pianificare la distruzione a
+   streghe radunate per un rito oscuro". Nessuna virgoletta, nessuna parola
+   del testo. Anche hotel-california e all-the-small-things fanno cosi'.
+4) Scrivi la nuova frase DIRETTAMENTE nel file. Non incollare il prima/dopo
+   nella risposta.
+5) Nel commit scrivi solo quali schede hai corretto e quante frasi, tipo:
+   "sezione 3: riscritte le frasi segnalate in would, nutshell, live-forever".
+
+LE DODICI, dall'elenco --versi di oggi:
+   frase iconica: breaking-the-law, black-hole-sun, riders-on-the-storm, sonne,
+                  champagne-supernova, irene, would, nutshell, live-forever
+   corpo:         wake-me-up-when-september-ends, champagne-supernova,
+                  take-it-easy
+Le cinque piu' urgenti restano sonne, wake-me-up-when-september-ends, would,
+nutshell, live-forever: li' la citazione e' nella lingua della canzone.
+
+Quando hai finito, rilancia `--versi`: il numero dei CERTI deve scendere.
+E' quella la verifica, non il confronto a occhio.
+```
