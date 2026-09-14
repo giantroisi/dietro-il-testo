@@ -423,3 +423,55 @@ VERIFICA: rilancia --versi e guarda scendere i CERTI. Ma da adesso, se un
 numero crolla a zero, NON FIDARTI: apri una scheda a mano e guarda. E' cosi'
 che ho trovato questo.
 ```
+
+---
+
+## In attesa dal 14 settembre 2026 — `would`, `nutshell`, `live-forever`: le fonti, non solo la sezione 3
+
+```
+Di queste tre avevo controllato SOLO che non riproducessero versi. Adesso le ho
+riaperte fonte per fonte. La qualita' e' buona: nessun fatto inventato, gli
+errori sono di precisione, attribuzione o cornice.
+
+1) `would` — PULITA, 12 su 12. Songfacts conferma anche la frase che gli
+   attribuisci ("Layne Staley had to convince him to do it"), e le due
+   citazioni di Cantrell sono tradotte con fedelta'. Tre nei piccoli:
+   - "il verso PIU' CITATO": superlativo non sostenuto, come in hotel-california.
+   - Il ritorno in classifica del 2019 fu su UN'ALTRA classifica (Hot Rock
+     Songs, 15) rispetto alla Mainstream Rock nominata nella riga prima. Cosi'
+     com'e' scritto sembrano la stessa.
+   - Dentro la citazione da "Music Bank" e' caduta una parola senza puntini di
+     sospensione. Se si virgoletta, si segnala il taglio.
+
+2) `nutshell` — 12 su 13, e L'UNICO ERRORE LO SMENTISCE LA TUA STESSA FONTE.
+   Scrivi, due volte (corpo 2 e frase iconica), che l'MTV Unplugged del 1996 fu
+   "l'ultima volta in cui la FORMAZIONE ORIGINALE lo suono' con Staley".
+   Wikipedia dice "the band", non la formazione originale. E Ultimate Classic
+   Rock, che citi, dice esplicitamente il contrario: a Jar of Flies c'erano
+   "the founding threesome" piu' "still relatively new bassist MIKE INEZ".
+   Il bassista originale, Mike Starr, era gia' uscito. Togli "originale".
+   Regge tutto il resto, ed e' documentato bene: la settimana sola, il posto
+   tranquillo dopo il tour di Dirt e la perdita della casa d'appoggio (testuali
+   su UCR), il primo EP al numero 1 della Billboard 200 (testuale su
+   Songfacts). La citazione di Inez e' resa bene, gioco di parole compreso.
+
+3) `live-forever` — una cornice temporale inventata, e la scheda si contraddice
+   da sola.
+   Scrivi: "Gallagher ha spiegato di averla scritta NEGLI STESSI MESI IN CUI i
+   Nirvana pubblicavano I Hate Myself and Want to Die". Gallagher dice: "it was
+   written in the middle of grunge and all that, and I remember Nirvana had a
+   tune called...". E' una cornice VAGA che hai reso PRECISA.
+   E la precisione e' impossibile: il TUO stesso primo paragrafo dice che il
+   brano nacque nel 1991, e quel pezzo dei Nirvana e' di due anni dopo.
+   Riscrivi la cornice com'e' nella fonte: nel pieno del grunge.
+   DA RIAPRIRE, non ci sono arrivato io: la citazione "lui aveva tutto ed era
+   infelice..." e il sondaggio dei lettori di Q del 2006. Controllale.
+   I due versi ancora fra virgolette nel corpo 1 sono nell'ordine urgente.
+
+BILANCIO DELLE SEI NUOVE: first-date pulita, would pulita con tre nei,
+stop-crying-your-heart-out regge tutta, nutshell un errore, je-so-pazzo
+un'attribuzione sbagliata, live-forever una cornice inventata piu' i versi.
+NESSUN FATTO INVENTATO. E' meglio della media della coda, dove il 14% non
+regge. Resta che cinque su sei erano uscite col bollino e due non lo
+meritavano.
+```
