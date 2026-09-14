@@ -392,3 +392,34 @@ pagina GQ si apre una volta alla volta e non sono arrivato al passaggio. Non
 do' per buono cio' che non ho letto: controlla tu che la frase sia davvero in
 quell'articolo, e se non c'e', trova dove Rodman l'ha detto.
 ```
+
+---
+
+## URGENTE, 14 settembre 2026 — sezione 3, secondo giro: il controllo era rotto
+
+```
+Hai fatto bene le dodici, e --versi diceva 0. NON ERA VERO: il controllo aveva
+due bachi ed erano miei, non tuoi. Li ho corretti. Adesso dice 24.
+
+RIPARTI DA:
+    node scripts/check-virgolette.mjs --versi
+
+E COMINCIA DA live-forever, che avevi gia' sistemato nella frase iconica ma ha
+ANCORA DUE VERSI FRA VIRGOLETTE NEL CORPO 1: uno e' un verso di un brano dei
+Rolling Stones dentro la citazione di Gallagher, l'altro e' un verso di Live
+Forever introdotto da "trasformata poi nel verso". La citazione di Gallagher
+puoi tenerla - e' sua e attribuita - ma il verso citato DENTRO va raccontato,
+non riprodotto. Vale anche per i versi di canzoni ALTRUI: la sezione 3 non
+distingue.
+
+POI LE ALTRE 23, con la stessa regola di metodo di ieri: NON SCRIVERE MAI IL
+VERSO, ne' nella risposta ne' nel commit. Slug, posizione e numero di parole
+bastano.
+Le piu' cariche: doomed (4 casi), danger-acdc (3), stairway-to-heaven (16
+parole nella frase iconica), hard-as-a-rock (24 parole nel corpo),
+number-of-the-beast (13), hallowed-be-thy-name (12), shes-kinda-hot (10).
+
+VERIFICA: rilancia --versi e guarda scendere i CERTI. Ma da adesso, se un
+numero crolla a zero, NON FIDARTI: apri una scheda a mano e guarda. E' cosi'
+che ho trovato questo.
+```

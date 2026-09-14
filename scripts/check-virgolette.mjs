@@ -31,7 +31,16 @@ const canzoni = JSON.parse(readFileSync('dati/canzoni.json', 'utf8'));
 const args = process.argv.slice(2);
 
 // Le virgolette che il sito usa davvero, nelle tre forme che compaiono nei dati.
-const VIRGOLETTE = /[“«"]([^”»"]{2,120})[”»"]/g;
+// IL TETTO A 120 CARATTERI ERA UN BACO, non una prudenza. Una citazione piu'
+// lunga non veniva semplicemente "saltata": la regex falliva su quella coppia
+// di virgolette e ripartiva dalla virgoletta di CHIUSURA, accoppiandola con
+// l'apertura della citazione successiva. Risultato: il testo FRA due
+// citazioni veniva scambiato per una citazione, e quella vera spariva.
+// Su `live-forever` usciva la finta citazione «, trasformata poi nel verso» e
+// il verso vero, subito dopo, non veniva mai visto. Il controllo diceva ZERO
+// casi certi mentre sulla pagina c'erano due versi riprodotti.
+// 400 caratteri coprono le citazioni lunghe che il sito usa davvero.
+const VIRGOLETTE = /[“«"]([^”»"]{2,400})[”»"]/g;
 
 // Un verbo di dire NELLA STESSA FRASE trasforma la citazione in una PROMESSA
 // FORTE: non «si e' scritto cosi'», ma «qualcuno ha detto esattamente questo».
@@ -121,12 +130,21 @@ if (args.includes('--versi')) {
   // «Un disco per l'estate» — passano il filtro delle maiuscole e finiscono qui.
   // Il controllo non decide, mette in fila due colonne: CERTO quando una parola
   // annuncia il verso, DA GUARDARE quando manca.
+  // ORDINE DEI TEST, e ci ho sbagliato una volta. La prima versione scartava
+  // tutto cio' che era DICHIARATO prima di guardare se annunciasse un verso.
+  // Ma una frase puo' fare le due cose insieme — «"C'era quel pezzo che fa
+  // '...'" ha raccontato Gallagher [...] trasformata poi nel verso "..."» — e
+  // in quel caso il verbo di dire vinceva e il verso spariva dall'elenco.
+  // `live-forever` e' rimasto cosi' con due versi riprodotti mentre il
+  // controllo diceva ZERO CASI CERTI. **Il verso ha la precedenza**: se le
+  // parole subito prima annunciano un verso, e' un candidato, che nella frase
+  // ci sia o no qualcuno che parla.
   const certi = [], altri = [];
   for (const c of canzoni) {
     for (const x of analizza(c)) {
-      if (x.dichiarata) continue;
       if (x.parole < 3) continue;
-      (x.verso ? certi : altri).push({ slug: c.slug, ver: !!c.ultimaVerifica, ...x });
+      if (x.verso) certi.push({ slug: c.slug, ver: !!c.ultimaVerifica, ...x });
+      else if (!x.dichiarata) altri.push({ slug: c.slug, ver: !!c.ultimaVerifica, ...x });
     }
   }
   console.log('\nSezione 3: «non riproduciamo versi, ritornelli o traduzioni, nemmeno parziali».');
