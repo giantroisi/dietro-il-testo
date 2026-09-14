@@ -909,7 +909,25 @@ export function paginaArtista(a, ctx) {
   const albumVeri = [...(ctx.albumPerArtista.get(a.slug) || [])].sort((x, y) => (primoAnno(x.anno) || 0) - (primoAnno(y.anno) || 0));
   const riconoscimenti = a.riconoscimenti || [];
 
-  const arco = a.annoPrimo ? (a.annoPrimo === a.annoUltimo ? `${a.annoPrimo}` : `${a.annoPrimo}–${a.annoUltimo}`) : '—';
+  // «ARCO TEMPORALE» DICEVA UNA COSA FALSA SU 83 BIOGRAFIE SU 104.
+  // Il dato veniva da `annoPrimo`/`annoUltimo` in `dati/artisti.json`, dove
+  // quasi sempre i due valori sono uguali: la pagina di Franco Battiato — la
+  // piu' vista del sito fra quelle d'artista, 77 impressioni — dichiarava
+  // «Arco temporale: 1996» per una carriera che va dagli anni Sessanta al 2021.
+  // E i valori non coincidevano nemmeno con le canzoni che raccontiamo: per
+  // AC/DC diceva 1979 con una scheda del 1976.
+  //
+  // La cura non e' riempire a mano 104 archi di carriera, che sono
+  // affermazioni da documentare una per una. E' **smettere di affermare cio'
+  // che non sappiamo**: il numero si ricava dalle schede che il sito ha
+  // davvero, e l'etichetta dice che cosa e'. Un fatto sui nostri dati, non
+  // sulla vita dell'artista.
+  const anniBrani = brani.map((b) => primoAnno(b.anno)).filter((x) => x !== null);
+  const arco = anniBrani.length
+    ? (Math.min(...anniBrani) === Math.max(...anniBrani)
+        ? `${Math.min(...anniBrani)}`
+        : `${Math.min(...anniBrani)}\u2013${Math.max(...anniBrani)}`)
+    : '\u2014';
 
   const snodi = [
     { id: 'canzoni', nome: 'Canzoni', n: brani.length },
@@ -927,7 +945,7 @@ export function paginaArtista(a, ctx) {
 
     <header class="intestazione testa-doppia">
       <div>
-        <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', a.annoPrimo ? `brani dal ${a.annoPrimo}` : null])}</p>
+        <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', anniBrani.length ? `brani dal ${Math.min(...anniBrani)}` : null])}</p>
         <h1>${esc(a.nome)}: significato dei testi e canzoni spiegate</h1>
         ${a.storia ? '' : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
         <div class="affidabilita">
@@ -944,7 +962,7 @@ export function paginaArtista(a, ctx) {
 
     <dl class="fatti">
       <div class="fatto"><dt>Canzoni sul sito</dt><dd>${brani.length}</dd></div>
-      <div class="fatto"><dt>Arco temporale</dt><dd>${esc(arco)}</dd></div>
+      <div class="fatto"><dt>Canzoni raccontate, dal–al</dt><dd>${esc(arco)}</dd></div>
       <div class="fatto"><dt>Album in studio</dt><dd>${albumVeri.length || '—'}</dd></div>
       <div class="fatto"><dt>Generi</dt><dd>${esc(a.generi.length ? a.generi.join(', ') : '—')}</dd></div>
     </dl>

@@ -2885,6 +2885,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita dopo le correzioni, pulita su tutti i controlli. Copiato in root, committato (`59d15e24`), pushato.
 **Aperto**: restano da riaprire, su `live-forever`, la citazione "lui aveva tutto..." e il sondaggio Q del 2006, entrambe segnalate come non ancora verificate.
 
+- **14 settembre 2026 — «Arco temporale» diceva una cosa falsa su 83 biografie su 104, e la più vista era Battiato.**
+  Ho aperto la biografia di Franco Battiato per cominciare il campione indipendente sulle 104 — quelle che portano tutte un bollino autocertificato — e prima ancora di leggere una riga di prosa c'era, nella scheda dei dati: **«Arco temporale: 1996»**. Per una carriera che va dagli anni Sessanta al 2021. È **la pagina d'artista più vista del sito**, 77 impressioni.
+  **Non è un caso isolato: 83 biografie su 104 hanno gli anni incoerenti.** Nella grande maggioranza `annoPrimo` e `annoUltimo` sono **lo stesso numero**, e la pagina lo stampava come se fosse l'arco di una carriera. E non coincidevano nemmeno con le canzoni che il sito racconta: per gli **AC/DC** diceva 1979 con una scheda del **1976**; per **Celentano** 1968 con una scheda del **1958**.
+  **La cura non è riempire a mano 104 archi di carriera.** Sarebbero 104 affermazioni nuove da documentare una per una, cioè esattamente il genere di lavoro che questo sito ha imparato a non fare a memoria. **La cura è smettere di affermare ciò che non sappiamo.** Adesso il numero si ricava dalle schede che il sito ha davvero, e l'etichetta dice che cos'è: **«Canzoni raccontate, dal–al»**. Un fatto sui nostri dati, non sulla vita dell'artista — e quindi vero per costruzione, senza bisogno di una fonte.
+  **Cambia su 32 pagine**: gli AC/DC passano da «1979» a «1976–2020», Celentano da «1968» a «1958–1976», gli a-ha da «1985» a «1985–2022». Sulle altre il valore era già giusto o coincidente.
+  Il sopratitolo («brani dal …») usava lo stesso dato sbagliato ed è stato agganciato al conto vero. **`annoPrimo` e `annoUltimo` non sono più letti da nessuna pagina**: restano in `dati/artisti.json` ma non vale la pena spenderci lavoro.
+  **La cosa da notare sul metodo.** Questo difetto era **visibile a occhio, sulla pagina, da settimane**, e non l'ha trovato nessun controllo: `check-coerenza` dà zero problemi, `check-completezza` dice 311 schede complete su 312. **I controlli guardano i campi che qualcuno ha pensato di controllare.** L'ho trovato perché stavo per fare un'altra cosa e ho letto la pagina invece del codice — che è il terzo caso in cinque giorni, dopo «il 11 settembre» e il colore invisibile del sottolineato.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
