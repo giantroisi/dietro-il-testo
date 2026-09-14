@@ -475,3 +475,52 @@ NESSUN FATTO INVENTATO. E' meglio della media della coda, dove il 14% non
 regge. Resta che cinque su sei erano uscite col bollino e due non lo
 meritavano.
 ```
+
+---
+
+## In attesa dal 14 settembre 2026 — la biografia di `franco-battiato`
+
+```
+E' la biografia PIU' LETTA del sito (77 impressioni sulla pagina artista) e
+porta il bollino "verificata frase per frase" dall'11 settembre. Ho riaperto
+tutte e quattro le fonti. Dodici affermazioni, quattro non reggono.
+
+1) R2-BIS: "Fetus" (1972). LE DUE FONTI CITATE NON DANNO LO STESSO ANNO.
+   Treccani scrive 1971, Rolling Stone scrive 1972. La scheda ha scelto, senza
+   dirlo, e ha scartato quella di livello A. Cerca una fonte A che chiuda la
+   questione, oppure dillo.
+
+2) NON SOSTENUTA: "si trasferi' NEL 1964 prima a Roma e poi a Milano".
+   L'anno non c'e' in nessuna delle fonti citate.
+
+3) NON SOSTENUTA: "per l'etichetta BLA BLA". Cercata su Treccani e su Rolling
+   Stone: assente da tutt'e due.
+
+4) NON SOSTENUTA, E SEMBRA LA PIU' DOCUMENTATA DI TUTTE: 'come nel caso di
+   "Centro di gravita' permanente", dove e' accreditato solo come arrangiatore'.
+   La frase cita i crediti di copertina e fra le fonti c'e' un link a Discogs -
+   MA QUEL LINK E' IL 45 GIRI DI "PER ELISA", un disco diverso. I crediti de
+   "La voce del padrone" non sono citati da nessuna parte.
+   E' il caso peggiore del giro: una fonte precisa messa accanto a
+   un'affermazione che non riguarda. Chi verifica vede il link, lo apre, trova
+   crediti veri, e passa oltre.
+   O aggiungi il link giusto (il 33 giri de "La voce del padrone" su Discogs),
+   o togli l'esempio.
+
+5) DA ATTENUARE: "dal 1979 firmo' gli arrangiamenti E DIRESSE L'ORCHESTRA SUI
+   SUOI ALBUM" suona come un ruolo stabile. Il Fatto dice che Battiato gli
+   affido' la direzione "a piu' riprese", in studio e dal vivo.
+
+REGGE il resto, ed e' buono: 1945 in provincia di Catania, cantautore
+compositore regista e pittore (Treccani documenta sia i film sia le mostre),
+"Pollution" (1973) testuale su Rolling Stone, Giusto Pio e la collaborazione
+dal 1979 con "L'era del cinghiale bianco", e "Per Elisa" scritta con Battiato
+per Alice, vincitrice di Sanremo 1981.
+
+E UNA COSA GENERALE SULLE BIOGRAFIE. Due campioni indipendenti danno il 33% e
+il 46% di affermazioni non sostenute, contro il 14% delle schede di canzone.
+Non e' disattenzione tua: una biografia comprime decenni in ogni frase, e LA
+COMPRESSIONE E' IL MOMENTO IN CUI ENTRA IL DETTAGLIO CHE NESSUNO HA SCRITTO -
+un anno, un nome d'etichetta, un credito. Quando riassumi una vita, ogni
+numero che scrivi va ritrovato nella fonte, non ricordato.
+```
