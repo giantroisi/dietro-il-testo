@@ -132,68 +132,7 @@ del Gargano 2007, Taranto, caporalato nei campi.
 
 ---
 
-## Da decidere con l'autore, non un ordine — il bollino di verifica
 
-```
-Le sei schede della quinta infornata escono con ultimaVerifica: 2026-09-13,
-cioe' col bollino "Verificata frase per frase", messo da chi le ha scritte lo
-stesso giorno in cui le ha scritte.
-
-Non e' una contestazione della buona fede: e' che sulle 14 schede riaperte da
-fuori il 13% delle affermazioni non ha retto, e quelle schede le riteneva a
-posto chi le aveva scritte. L'autoverifica non trova niente: e' il motivo per
-cui la sezione 14 della ROADMAP assegna F70 e F71 a chi NON scrive contenuto.
-
-Per il lettore il bollino di kashmir e quello di nutshell sono identici. Non
-lo sono. Finche' l'autore non decide, NON metterle piu' da solo: scrivi la
-scheda, lascia ultimaVerifica vuoto, e la riapro io.
-```
-
----
-
-## URGENTE, dal 13 settembre 2026 — versi riprodotti: sezione 3
-
-```
-PRIORITA' SU TUTTO IL RESTO. Ci sono versi di canzoni riprodotti fra virgolette
-sulle schede pubblicate. La sezione 3 lo vieta "neppure parzialmente" ed e'
-l'unica regola del sito senza eccezioni.
-
-Come li trovi, non a occhio:
-    node scripts/check-virgolette.mjs --versi
-Ho aggiunto io il modo --versi. Elenca 19 casi CERTI (una parola annuncia il
-verso subito prima delle virgolette, e nessuno lo sta pronunciando) e 123 DA
-GUARDARE. Il controllo non decide: dice dove guardare.
-
-COMINCIA DA QUESTE CINQUE, dove la citazione e' nella lingua della canzone e
-quindi e' quasi certamente il verso:
-    sonne
-    wake-me-up-when-september-ends
-    would            <- scheda nuova, e porta il bollino di verifica
-    nutshell         <- scheda nuova, e porta il bollino di verifica
-    live-forever     <- scheda nuova, e porta il bollino di verifica
-
-POI queste sette, che l'elenco da' come CERTE:
-    take-it-easy (8 parole, e porta il bollino), champagne-supernova (2 casi),
-    breaking-the-law, black-hole-sun, riders-on-the-storm, irene
-
-NOTA, e riguarda me: in una prima versione dell'elenco avevo scritto anche
-dirty-deeds-done-dirt-cheap, should-i-stay, hallowed-be-thy-name,
-losing-my-religion, postmortem, la-guerra-di-piero, un-albero-di-trenta-piani,
-povera-patria. NON sono versi: sono titoli di album o di versioni ("l'edizione
-internazionale di High Voltage") e citazioni di persone. Avevo letto l'esito del
-controllo invece del contesto. Il controllo adesso li esclude da solo.
-
-COME SI CORREGGE. Non si accorcia il verso e non lo si traduce: la sezione 3
-vieta anche le traduzioni. Si RACCONTA che cosa dice quel passaggio, con parole
-nostre, come fa gia' all-the-small-things — che aveva davanti la stessa
-tentazione e non ci e' caduta. Il modello e' quello.
-
-PERCHE' NESSUNO L'AVEVA VISTO, e non e' colpa tua: check-testi non fa questo.
-Apre testoUrl e controlla che porti alla canzone giusta. Non ha mai letto dentro
-le schede. Nessuno degli otto controlli guardava la sezione 3.
-```
-
----
 
 ## In attesa dal 13 settembre 2026 — le tre schede nuove SENZA problemi di sezione 3
 
@@ -289,4 +228,53 @@ lettera, E LA FRASE CHE LA INTRODUCE LE FA DIRE IL CONTRARIO. Chi controlla
 cerca la citazione nella fonte, la trova, e passa oltre. Nessun controllo
 automatico puo' vederlo: si vede solo leggendo la frase INTERA della fonte,
 non cercandoci dentro la stringa.
+```
+
+---
+
+## In attesa dal 14 settembre 2026 — `hotel-california` e `wake-me-up-when-september-ends`
+
+```
+1) `hotel-california` (31 impressioni) — 12 affermazioni, reggono quasi tutte.
+   E' la scheda piu' solida della coda dopo november-rain, e le citazioni
+   lunghe di Henley sono tradotte alla lettera. Complimenti sinceri.
+   Due soli rilievi, e sono due superlativi:
+   - "il verso PIU' CITATO"
+   - "e' AMPIAMENTE interpretato come..."
+   Wikipedia dice che "fans and critics have discussed the meaning": che se ne
+   discute, non che quella lettura prevalga. Togli i superlativi o documentali.
+   E' la forma di aggiunta piu' frequente del sito: nessuno la inventa
+   apposta, si scrive da sola mentre si scrive.
+   FATTA BENE: la frase iconica RACCONTA la battuta finale invece di
+   riprodurla. Terzo caso dopo all-the-small-things e war-pigs. E' il modello.
+
+2) `wake-me-up-when-september-ends` (31 impressioni) — oltre al verso
+   riprodotto che hai gia' nell'elenco --versi, tre cose.
+
+   - R2-BIS, ED E' IL PRIMO CASO VERO DA QUANDO ABBIAMO SCRITTO LA REGOLA.
+     Le due fonti citate NON DANNO LA STESSA DATA della morte del padre:
+        American Songwriter -> 10 settembre 1982
+        Songfacts           ->  1 settembre 1982
+     La scheda ha SCELTO il 10, senza dirlo. La R2-bis dice l'opposto: quando
+     due fonti citate non danno lo stesso dato non si sceglie, si sale di
+     livello e si cerca una fonte A. Qui per giunta la data non e' un dettaglio
+     qualunque: E' UNA CANZONE SU SETTEMBRE.
+     Cerca una fonte A (un'intervista, un necrologio, una biografia seria).
+     Se non la trovi, la scheda deve dire che le fonti discordano.
+
+   - NON SOSTENUTA: "morto di CANCRO ALL'ESOFAGO". Songfacts dice "died of
+     cancer", American Songwriter dice solo "his father's death". L'esofago
+     non c'e' in nessuna delle due.
+
+   - NON SOSTENUTA: "quando il cantante aveva DIECI ANNI". E' vera se fai il
+     conto dalla data di nascita di Armstrong, ma nessuna delle due fonti la
+     contiene. Stessa forma del 1647 di je-so-pazzo e del 1998 di
+     yes-i-know-my-way: IL CALCOLO CHE SEMBRA UN FATTO DOCUMENTATO. Se il
+     conto lo fa il redattore, non e' documentato: o trovi la fonte, o si
+     toglie.
+
+   REGGE, e lo scrivo perche' avevo dubitato io: "gli Sweet Children nacquero
+   esattamente sette anni dopo la morte del padre". Songfacts la afferma alla
+   lettera, nominando anche Mike Dirnt. Avevo dubitato di una fonte che non
+   avevo ancora aperto. Non cambiarla.
 ```
