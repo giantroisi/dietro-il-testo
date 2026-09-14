@@ -2835,6 +2835,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **La frase iconica ripete il corpo**: rimette in fila la testimonianza di Rodman e la descrizione da «Pearl Jam Twenty», che stanno già entrambe nel blocco sopra. È uno dei 38 casi che `check-frase-iconica` trova.
   **Conto della coda: 18 schede, circa 214 affermazioni, 30 non reggono (14%).**
 
+- **14 settembre 2026 — Sezione 3: versi riprodotti fra virgolette, trovati con `check-virgolette.mjs --versi` e corretti senza mai scriverli.**
+  Il nuovo modo `--versi` (aggiunto da chi verifica) ha segnalato 12 casi CERTI: una parola che annuncia il verso ("il verso più citato", "il ritornello", "che ripete") subito prima di una citazione non attribuita a nessuno. Riscritte tutte e dodici le frasi — 9 in frase iconica, 3 in corpo — raccontando con parole nostre cosa dice quel passaggio, senza virgolette e senza ricalcarne la struttura: **breaking-the-law, black-hole-sun, riders-on-the-storm, sonne, champagne-supernova** (due casi, corpo e frase iconica), **irene, would, nutshell, live-forever, wake-me-up-when-september-ends, take-it-easy**.
+  **Tre di queste erano schede della quinta infornata, uscite con `ultimaVerifica` messo lo stesso giorno in cui le ho scritte.** Il bollino non reggeva per `would`, `nutshell`, `live-forever`: rimosso. Da questo momento, come richiesto, le schede nuove escono con `ultimaVerifica` vuoto — non lo metto più io.
+  **Il metodo seguito per non produrre mai il verso**: nessuna lettura del testo violato in questa sessione, nessuna citazione nel ragionamento né nel commit. Le sostituzioni sono state scritte come frasi nuove, non come tagli o traduzioni di quelle vecchie.
+**Verificato**: `node scripts/check-virgolette.mjs --versi` rieseguito dopo la correzione — CERTI sceso da 12 a 0. Pipeline completa: `genera-sito.mjs`, `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove), `check-attribuzioni.mjs` (0), `check-livelli.mjs` (FRENO 53/53, invariato), `check-nature.mjs` (38 schede valide, invariato — `--versi` non tocca `naturaCorpo`). Copiato in root, committato (`faf6f34a`), pushato.
+**Aperto**: 116 casi "DA GUARDARE" restano da riaprire uno per uno — quello che il controllo non può fare da solo.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
