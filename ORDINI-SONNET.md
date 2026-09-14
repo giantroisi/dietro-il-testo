@@ -363,3 +363,32 @@ su 312". Sbagliato: confrontavo pretendendo che una frase CONTENESSE l'altra, e
 bastava "alla rivista GQ" diventato "a GQ" per non vederla. Il numero vero e'
 38. L'ho scritto anche nel registro.
 ```
+
+---
+
+## In attesa dal 14 settembre 2026 — `black-pearl-jam`
+
+```
+`black-pearl-jam` (29 impressioni). Nessuna affermazione inventata: 11 su 11
+reggono su Wikipedia, alla lettera, e la citazione di Vedder sulle canzoni
+fragili e' tradotta con precisione. Tre cose comunque.
+
+1) OMISSIONE CHE PESA. Wikipedia dice PERCHE' la band rifiuto' di farne un
+   singolo: il brano era "too personal", e temevano che il peso emotivo
+   sarebbe stato distrutto da un videoclip. La scheda riporta la citazione di
+   Vedder e SALTA LA RAGIONE, che e' la cosa che il lettore vorrebbe sapere.
+   Aggiungila: e' una riga e cambia la pagina.
+
+2) IMPRECISIONE: il nastro girava per trovare "un cantante E UN BATTERISTA",
+   non solo un cantante.
+
+3) La frase iconica ripete il corpo (testimonianza di Rodman + descrizione da
+   "Pearl Jam Twenty", gia' tutt'e due nel blocco sopra). E' uno dei 38 casi di
+   check-frase-iconica.
+
+DA RIAPRIRE, e non l'ho potuto fare io: la data (2021) e la testata (GQ) della
+testimonianza di Rodman. Wikipedia afferma il fatto ma non la cornice; la
+pagina GQ si apre una volta alla volta e non sono arrivato al passaggio. Non
+do' per buono cio' che non ho letto: controlla tu che la frase sia davvero in
+quell'articolo, e se non c'e', trova dove Rodman l'ha detto.
+```

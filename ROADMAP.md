@@ -2827,6 +2827,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **E riguarda anche il mio metodo, non solo il codice.** Ho riaperto 17 schede chiedendomi *ogni affermazione ha la sua riga nella fonte?* — e su `hey-brother` la risposta era sì, per dieci affermazioni su dieci, e l'ho dichiarata pulita. Non mi ero chiesto **se la riga più esposta del sito stesse dicendo qualcosa.** Verificare che una scheda sia vera e vedere se è fatta bene sono due lavori diversi, e finora ne facevo uno solo.
   **Che cosa misura il controllo.** Non dice che la scheda sia sbagliata: le informazioni possono essere tutte giuste. Dice che **la riga più esposta del sito sta spendendo lo spazio per ripetere** invece che per dare al lettore il motivo di restare. `ragu` e `cattiva` sono i casi di scuola: la frase iconica rimescola le stesse due frasi del corpo, cambiando l'ordine e qualche preposizione.
 
+- **14 settembre 2026 — `black-pearl-jam`: nessuna affermazione inventata, ma la frase iconica non aggiunge niente.**
+  **`black-pearl-jam` (29 impressioni) — 11 affermazioni, tutte sostenute da Wikipedia, alla lettera.**
+  Il demo strumentale «E Ballad» di Stone Gossard del 1990, il nastro fatto girare per trovare un cantante, Vedder benzinaio a San Diego, la voce incisa su tre dei brani e il nastro rispedito a Seattle, il testo scritto durante il viaggio e il titolo cambiato in «Black». E poi il rifiuto di pubblicarlo come singolo nonostante Epic, la citazione di Vedder sulle canzoni fragili schiacciate dal mercato — **tradotta con precisione** — e le telefonate ai direttori delle radio. La descrizione da «Pearl Jam Twenty» del 2011 rende fedelmente le parole di Vedder sulle prime relazioni e sul lasciar andare.
+  - **Due omissioni che valgono più di un rilievo.** Il nastro girava per trovare **«un cantante e un batterista»**, non solo un cantante. E soprattutto: Wikipedia dice **perché** la band rifiutò — il brano era troppo personale, e temevano che il suo peso emotivo sarebbe stato distrutto da un videoclip. **La scheda riporta la citazione e salta la ragione**, che è la cosa che il lettore vorrebbe sapere.
+  - **Non ho potuto verificare la cornice della citazione di Rodman.** Wikipedia afferma il fatto in sé; la data (2021) e la testata (GQ) vengono dalla seconda fonte citata, che si apre una pagina alla volta e non mi ha lasciato raggiungere il passaggio. **Lo scrivo invece di darlo per buono**: resta da riaprire.
+  - **La frase iconica ripete il corpo**: rimette in fila la testimonianza di Rodman e la descrizione da «Pearl Jam Twenty», che stanno già entrambe nel blocco sopra. È uno dei 38 casi che `check-frase-iconica` trova.
+  **Conto della coda: 18 schede, circa 214 affermazioni, 30 non reggono (14%).**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
