@@ -1353,9 +1353,10 @@
     "spotifyId": "35zcvQX8OtnF21hzbmuOZM",
     "corpo": [
       "Contenuta nel secondo album di Vasco Rossi, uscito il 30 aprile 1979, e pubblicata come singolo nel maggio dello stesso anno. Il successo del brano fu tale che l'album venne poi ristampato con il titolo Albachiara al posto di quello originale.",
-      "Vasco raccontò di averla scritta di getto, mentre la madre cucinava, ispirandosi a una ragazzina tredicenne che vedeva spesso passare alla fermata della corriera nella sua Zocca. Il brano gioca sul contrasto tra la timidezza esteriore della ragazza e la ricchezza del suo mondo interiore."
+      "Vasco raccontò di averla scritta di getto, mentre la madre cucinava, ispirandosi a una ragazzina tredicenne che vedeva spesso passare alla fermata della corriera nella sua Zocca. Il brano gioca sul contrasto tra la timidezza esteriore della ragazza e la ricchezza del suo mondo interiore.",
+      "Il testo è accreditato anche al produttore Alan Taylor, che curò l'arrangiamento del brano. Dopo la morte di Taylor, Vasco rivelò di averlo scritto interamente da solo, e di avergli lasciato metà dei diritti in cambio di una chitarra, dicendo di non essersene mai pentito."
     ],
-    "fraseIconica": "Il momento più discusso è la strofa finale, che ritrae la ragazza da sola nella sua stanza in un momento intimo e privato — letto dalla critica musicale come un riferimento discreto e mai esplicito alla scoperta della propria sessualità. Vasco scrisse il brano velocemente nella cucina di sua madre a Zocca nel 1979, ispirandosi a una ragazza che vedeva davvero alla fermata dell'autobus; quando in seguito le rivelò di essere stata la sua musa, lei reagì con imbarazzo e negò tutto, un episodio che Vasco avrebbe poi rielaborato in un altro brano, \"Una canzone per te\".",
+    "fraseIconica": "La strofa finale ritrae la ragazza sola nella sua stanza, in un momento privato e intimo. Quando anni dopo Vasco le rivelò di essere stata la sua musa, lei pensò dapprima a uno scherzo, poi disse che la ragazza della canzone doveva essere molto più piccola di lei, e infine scappò via dichiarandosi offesa: un episodio che Vasco avrebbe poi rielaborato in un altro brano, \"Una canzone per te\".",
     "sezioniExtra": [
       {
         "titolo": "Genesi",
@@ -1369,7 +1370,12 @@
     "fonti": [
       {
         "url": "https://en.wikipedia.org/wiki/Albachiara",
-        "nome": "Wikipedia"
+        "nome": "Wikipedia (voce del brano)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Non_siamo_mica_gli_americani!",
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "album"
       },
       {
         "url": "https://www.noidegli8090.com/albachiara-compie-41-anni-storia-e-significato-del-brano-di-vasco-rossi/",
@@ -1384,6 +1390,21 @@
     "testoFonte": "Letras",
     "temi": [
       "identita"
+    ],
+    "ultimaVerifica": "2026-09-15",
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "D"
+      ]
     ]
   },
   {
@@ -11113,10 +11134,10 @@
     "ascoltiTesto": "81,8 mln ascolti",
     "spotifyId": "1gij27s31tFKcTHa8f1u4g",
     "corpo": [
-      "Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato il 25 settembre 1995 dopo che il batterista Phil Rudd era tornato nella band a dodici anni dal suo addio. Il produttore Rick Rubin, già al lavoro con AC/DC su \"Big Gun\" nel 1993, cercò di riportare il gruppo al suono grezzo degli anni Settanta: secondo Louder, le sedute ai Record Plant Studios di New York durarono dieci settimane frustranti — cinquanta ore di registrazioni mai usate — prima che la band si trasferisse agli Ocean Way Studios di Los Angeles, dove il suono finalmente convinse. Rubin seguiva nello stesso periodo anche l'album dei Red Hot Chili Peppers, dividendo l'attenzione fra i due progetti; il cantante Brian Johnson ha raccontato che quelle settimane di lavoro in studio furono lunghe e tese, ma che il risultato finale ripagò lo sforzo.",
-      "Il videoclip, diretto da David Mallet, mostra Angus Young che suona il celebre assolo sospeso su una palla da demolizione mentre abbatte un edificio. Pubblicato come singolo il 4 settembre 1995, il brano arrivò primo nella classifica Billboard Mainstream Rock Tracks — il secondo numero uno della band in quella classifica dopo \"Big Gun\" — e nella Top 20 in diversi paesi europei e in Oceania."
+      "Scritta da Angus e Malcolm Young, fu il primo singolo estratto da Ballbreaker, tredicesimo album in studio pubblicato il 25 settembre 1995 dopo che il batterista Phil Rudd era tornato nella band a undici anni dal suo addio. Il produttore Rick Rubin, già al lavoro con AC/DC su \"Big Gun\" nel 1993, cercò di riportare il gruppo al suono grezzo degli anni Settanta: le sedute cominciarono a New York — al Power Station secondo Louder, al Record Plant secondo Wikipedia, le due fonti non concordano — e durarono dieci settimane frustranti, con cinquanta ore di registrazioni mai usate (Louder), prima che la band si trasferisse agli Ocean Way Studios di Los Angeles, dove il suono finalmente convinse. Rubin seguiva nello stesso periodo anche l'album dei Red Hot Chili Peppers, dividendo l'attenzione fra i due progetti; il cantante Brian Johnson ha raccontato che quelle settimane di lavoro in studio furono lunghe e tese.",
+      "Il videoclip, diretto da David Mallet, mostra Angus Young che suona il celebre assolo sospeso su una palla da demolizione mentre abbatte un edificio. Pubblicato come singolo — il 4 settembre 1995 secondo la pagina dell'album, il 18 secondo quella del brano, sullo stesso sito — il brano arrivò primo nella classifica Billboard Album Rock Tracks (poi rinominata Mainstream Rock Tracks) — il secondo numero uno della band in quella classifica dopo \"Big Gun\" — e nella Top 20 in diversi paesi europei e in Oceania."
     ],
-    "fraseIconica": "Il brano si apre con un riff diretto e ripetuto, il classico marchio di fabbrica della chitarra di Malcolm Young, seguito da un ritornello scandito che richiama nel titolo l'idea di qualcosa di duro e travolgente, in perfetto stile AC/DC.",
+    "fraseIconica": "Il brano si apre con un riff diretto e ripetuto affidato alla chitarra di Angus Young, seguito da un ritornello scandito che richiama nel titolo l'idea di qualcosa di duro e travolgente, in perfetto stile AC/DC.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/ac-dc/97127/",
     "fonti": [
@@ -11141,7 +11162,19 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": []
+    "temi": [],
+    "ultimaVerifica": "2026-09-15",
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "stiff-upper-lip",
