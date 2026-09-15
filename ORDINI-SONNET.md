@@ -117,3 +117,53 @@ aprendola.
 
 Conto: 5 promesse su 37 aperte. Ne restano 32, le apro io.
 ```
+
+---
+
+## 15 settembre 2026 — LE 37 PROMESSE: riscrivile tutte, non una alla volta
+
+```
+Questo e' un lavoro di gruppo, non una correzione singola, e viene da una cosa
+che ho misurato.
+
+Ho aperto SETTE delle 37 "promesse" scritte dentro i nomi delle fonti - quelle
+frasi fra parentesi che dicono al lettore cosa trovera' cliccando. Il risultato
+e' netto e si ripete:
+
+  L'ESISTENZA DELLA FONTE REGGE SEMPRE. Le pagine ci sono, il materiale
+  annunciato c'e', e si vede che le avevi aperte davvero.
+
+  A ROMPERSI E' SEMPRE LA QUALIFICAZIONE:
+    - hey-jude: "Rolling Stone 1974" -> l'anno non e' sulla pagina
+    - hey-jude: "conferenza stampa 1984" -> c'e' una fonte dell'ottobre 1984,
+      ma che sia una conferenza stampa non risulta
+    - crawling: "due interviste del 2000 e 2002" -> quella del 2002 e' Mike che
+      scrive sul sito ufficiale, un rapporto di studio, non un'intervista
+    - sleepwalking/antivist/shadow-moses: "copia integrale" di un articolo di
+      Metal Hammer -> il blog non attribuisce quel testo a nessuno
+
+  Non e' disonesta': E' LA PAROLA IN PIU' MESSA PER FAR SEMBRARE LA FONTE PIU'
+  SOLIDA DI QUANTO SERVISSE. Era gia' solida senza.
+
+IL LAVORO: prendi tutte e 37 le promesse
+    node scripts/check-attribuzioni.mjs --tutte
+e riscrivile con questa regola sola:
+
+    PROMETTI SOLO QUELLO CHE SI VEDE APRENDO LA PAGINA.
+
+In pratica: tieni il nome della testata e cosa contiene ("raccoglie interviste
+dirette a McCartney e le memorie di Cynthia Lennon"), TOGLI gli anni, i tipi di
+documento e le attribuzioni che non stanno scritti nella pagina che linki.
+Se un dettaglio ti sembra troppo bello da perdere, aprilo e documentalo: ma
+allora va documentato, non ricordato.
+
+NON DEVI VERIFICARLE TU una per una - quelle le sto aprendo io, e finora ne ho
+fatte 7. Tu fai il lavoro di scrittura: togli le qualificazioni non
+verificabili da tutte e 37 in un colpo solo. Quando io trovo qualcosa che vale
+la pena tenere e documentare, te lo mando.
+
+TRE ECCEZIONI che ho gia' controllato e che REGGONO: seven-nation-army (Guitar
+Player cita davvero l'intervista del 2010), nihilist-blues (la citazione di
+Jordan Fish a Kerrang! c'e'), uprising (Mojo e FHM ci sono tutt'e due).
+Quelle lasciale come sono.
+```

@@ -3172,6 +3172,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Conto: 7 promesse su 37 aperte — 5 reggono, 1 regge con due dettagli da attenuare (`hey-jude`), 1 non regge (e vale per tre schede).** Restano 30.
   **La regolarità si conferma, e ormai è abbastanza netta da scriverla come previsione.** In sette promesse, **l'esistenza della fonte regge sempre**: le pagine ci sono, il materiale annunciato c'è, e chi le ha scritte le aveva davvero aperte. **A rompersi è sempre la qualificazione**: l'anno (`hey-jude`, 1974), il tipo di documento (`hey-jude`, «conferenza stampa»; `crawling`, «interviste»), l'attribuzione di una copia (il blog di Metal Fucking Rocks). **Non è disonestà: è la parola in più messa per far sembrare la fonte più solida di quanto serva.** La fonte era già solida senza.
 
+- **15 settembre 2026 — Campione casuale sulle BIOGRAFIE: estratto e registrato prima di guardarlo.**
+  È rimasto l'ultimo buco grande non misurato, ed è quello in cui il bollino è meno guadagnato: **tutte e 104 le biografie dicono al lettore «verificata frase per frase», e da fuori ne è stata riaperta una sola** — Battiato, con 4 affermazioni su 12 non sostenute. Un campione precedente ne dava il 46%. Sulle canzoni il campione casuale ha dato il 24%.
+  **Stesso metodo, stesso seme scritto prima: `20260915`, otto voci estratte dalle 103 con una storia scritta** (esclusa Battiato: non si estrae da un sacco in cui si è già guardato). `node scripts/campione-biografie.mjs` rifà l'estrazione identica.
+  **Le otto**: `evanescence`, `judas-priest`, `adele`, `fleetwood-mac`, `finley`, `al-bano-e-romina-power`, `fulminacci`, `a-ha`.
+  **Due cose si vedono già dalla lista, prima di aprire una sola fonte.**
+  - **Le storie sono corte**: fra due e quattro frasi ciascuna. Meno superficie di una scheda di canzone, quindi meno affermazioni — ma ogni frase comprime di più, ed è la compressione il momento in cui entra il dettaglio inventato.
+  - **`adele` e `finley` hanno UNA SOLA FONTE.** Una biografia con una fonte sola non ha modo di reggere un confronto: se quella pagina non dice qualcosa, non c'è nessun altro posto dove cercarlo. E tutt'e due portano il bollino dall'8 settembre.
+  **Anche qui il numero lo do a campione chiuso.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
