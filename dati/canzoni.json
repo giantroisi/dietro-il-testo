@@ -6581,10 +6581,10 @@
     "ascoltiTesto": "142 mln ascolti",
     "spotifyId": "7v0wFD2nyanfTldSNnHOCX",
     "corpo": [
-      "Scritta dal chitarrista Jeff Hanneman, apre l'album \"Reign in Blood\" e descrive in modo esplicito gli esperimenti condotti dal medico nazista Josef Mengele sui prigionieri di Auschwitz, comprese operazioni senza anestesia e trasfusioni forzate tra gemelli.",
-      "Il contenuto causò un caso editoriale: la Columbia Records si rifiutò di distribuire l'album per via del brano, costringendo il produttore Rick Rubin a farlo uscire tramite Geffen. Sopravvissuti all'Olocausto e le loro famiglie condannarono pubblicamente il pezzo, e per anni la band dovette respingere accuse di simpatie naziste, sempre negate da Hanneman, che definì il brano \"una lezione di storia\". Il riff centrale fu campionato dai Public Enemy in \"She Watch Channel Zero?!\" (1988)."
+      "Scritta dal chitarrista Jeff Hanneman, che ne concepì il testo dopo aver acquistato due libri sul medico nazista Josef Mengele durante un tour del gruppo — una lettura che, ha raccontato, gli rimase in testa fino alle session di registrazione. Il brano apre l'album \"Reign in Blood\" e descrive gli esperimenti di Mengele sui prigionieri di Auschwitz, comprese operazioni senza anestesia e trasfusioni forzate tra gemelli.",
+      "Il contenuto causò un caso editoriale: la Columbia Records, distributrice della Def Jam, si rifiutò di distribuire l'album per il contenuto del brano e per la copertina, giudicati troppo espliciti. L'album fu infine distribuito da Geffen Records. Sopravvissuti all'Olocausto e le loro famiglie condannarono pubblicamente il pezzo, e per anni la band dovette respingere accuse di simpatie naziste. Hanneman le negò sempre, e nel 1987 descrisse il brano come «simile a una lezione di storia». Il riff centrale fu campionato dai Public Enemy in \"She Watch Channel Zero?!\" (1988)."
     ],
-    "fraseIconica": "Il momento più citato del brano è quello in cui il testo nomina esplicitamente Auschwitz — un riferimento diretto e crudo, raro nel metal dell'epoca, che rende fin dal primo verso inequivocabile il legame con gli orrori nazisti documentati nel resto del pezzo.",
+    "fraseIconica": "Il verso non c'è: il brano si apre con Tom Araya che lancia un urlo senza parole — gli bastarono due sole registrazioni per ottenerlo — prima ancora che il testo racconti in modo esplicito gli esperimenti di Mengele su cui è costruito il pezzo.",
     "sezioniExtra": [],
     "testoUrl": "https://readdork.com/lyrics/slayer-angel-of-death",
     "fonti": [
@@ -6593,8 +6593,9 @@
         "nome": "Wikipedia"
       },
       {
-        "url": "https://www.rollingstone.com/music/music-features/how-slayers-controversial-angel-of-death-changed-thrash-band-forever-192311/",
-        "nome": "Rolling Stone"
+        "url": "https://loudwire.com/slayer-reign-in-blood-facts/",
+        "nome": "Loudwire",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -6605,7 +6606,22 @@
     "testoFonte": "Dork",
     "temi": [
       "guerra"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "F",
+        "F",
+        "D",
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "cowboys-from-hell",
