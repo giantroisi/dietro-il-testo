@@ -3077,6 +3077,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **E IL MIO ERRORE, che è il quarto uguale in questo campione.** Letta la sola Wikipedia, avevo segnato come non sostenute sia la genesi («di getto, mentre la madre cucinava», che Wikipedia non ha) sia la reazione della ragazza (Wikipedia dice «sorpresa»). **La seconda fonte citata le contiene tutt'e due**, e con più dettaglio. **Quattro volte in otto schede ho formulato un rilievo prima di aver aperto tutte le fonti che la scheda cita.** La regola vale per me come per chi scrive, e la scrivo per la seconda volta: **un rilievo non esiste finché non ha letto ogni fonte citata, non la prima che basta a sostenerlo.**
   **3 su 11.** Con le prime sette: **otto schede, 95 affermazioni, 23 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 9 di 10: `feeling-this`. Quattro non reggono, e la fonte indica un altro momento memorabile.**
+  **Regge il cuore del racconto, ed è testuale.** Scritta in un solo giorno; Hoppus e DeLonge chiusi in stanze separate senza essersi parlati prima, e la scoperta di aver scritto tutt'e due sul sesso — lui il lato carnale nelle strofe, Hoppus quello romantico nel ritornello. E soprattutto **il finale a cappella nato per errore**: il tecnico che automatizza la dissolvenza della musica e dimentica le tracce vocali, Hoppus **che in quel periodo ascoltava i Beach Boys** e apprezza l'intreccio delle voci rimaste sole, la band che decide di tenerlo. Tutto alla lettera su Wikipedia. La citazione di Hoppus — l'apice della band, il meglio di tutti loro — è **tradotta con fedeltà** da Far Out.
+  - **DURATA INVENTATA**: «si chiusero in due stanze separate **per un'ora**». Le stanze separate ci sono in tutt'e due le fonti; **l'ora non c'è in nessuna**.
+  - **ANNO NON DOCUMENTATO**: «**Nel 2020** Hoppus l'ha indicata come la sua canzone preferita». L'articolo di Far Out è del **9 aprile 2023** e racconta che Hoppus fece le sue scelte in una diretta su Twitch, **senza dire quando**. L'anno è stato aggiunto.
+  - **SUPERLATIVO, E LA FONTE NE INDICA UN ALTRO**: «il **momento più ricordato** è proprio il finale a cappella». Wikipedia usa quell'aggettivo per un punto **diverso**: dice che la canzone è *particolarmente memorabile* per la sezione del ritornello in cui **DeLonge canta volutamente stonato**. Non è solo un superlativo senza fonte: è un superlativo che la fonte assegna a qualcos'altro.
+  - **NON SOSTENUTA**: «una delle **firme sonore più riconoscibili** del disco».
+  - **OMISSIONE CHE SPIEGA IL BRANO**: `Feeling This` è **la traccia che apre l'album** ed è stata **scelta come primo singolo** proprio per presentare la nuova direzione della band. Lo dicono tutt'e due le fonti, in apertura. La scheda non ha né l'una né l'altra cosa — e sono quelle che spiegano perché il pezzo è fatto così.
+  - Nota sulle due fonti: Far Out dice che i due scrissero «entrambe le loro strofe», Wikipedia che Hoppus scrisse i ritornelli e DeLonge le strofe. **La scheda segue Wikipedia, che è la più precisa**: scelta giusta.
+  **4 su 12.** Con le prime otto: **nove schede, 107 affermazioni, 27 non reggono.** Ne resta una.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
