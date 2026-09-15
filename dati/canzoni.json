@@ -10842,7 +10842,18 @@
     "testoFonte": "Letras",
     "temi": [
       "morte-lutto"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "I",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "for-those-about-to-rock",
