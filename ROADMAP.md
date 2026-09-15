@@ -3040,6 +3040,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
 **Aperto**: `cesarecremonini.it` non è ancora classificato in `check-livelli.mjs`, nonostante sia già citato in `dati/artisti.json` per la biografia — stesso schema di `pinodaniele.com`.
 
+- **15 settembre 2026 — Campione casuale, 6 di 10: `back-in-black`. PULITA, tredici su tredici.**
+  La prima del campione casuale che regge per intero, e va detto con la stessa precisione con cui si registrano gli errori. Testuali su Wikipedia: i tre autori con Brian Johnson, la title track del settimo album, la registrazione fra aprile e maggio 1980 ai Compass Point di Nassau, Mutt Lange alla produzione, il tributo a Bon Scott morto improvvisamente nel febbraio dello stesso anno, il riff «fra i più riconoscibili nella storia dell'hard rock», il secondo posto nella classifica VH1 del 2009, e il ritorno in classifica nel Regno Unito nel 2012 col primo posto fra i brani rock.
+  - **La citazione di Metal Hammer è resa alla lettera**: «un mostro di tre accordi» per «three-chord monster of a riff».
+  - **La citazione di Johnson a Mojo è resa bene e con la richiesta della band al posto giusto**: non cupo, «una celebrazione», e i compagni che riconobbero la vita di Bon in versi scritti di getto.
+  - **E c'è una cosa che merita di essere notata.** Il passaggio di Wikipedia che la scheda usa **contiene dentro di sé un pezzo del testo della canzone**, citato da Johnson mentre racconta. **La scheda ha preso il racconto e ha lasciato fuori il verso**: ha riportato che i compagni «riconobbero la vita di Bon in quei versi», senza riprodurli. Aveva la tentazione servita nella fonte e non ci è caduta — come `all-the-small-things`, `war-pigs` e `hotel-california`. **Quando una scheda è scritta bene, il problema della sezione 3 non si pone.**
+  - L'unica cosa discutibile è «il momento **più ricordato**», che altrove ho segnato come superlativo: qui però Wikipedia dice che quel riff è fra i più riconoscibili della storia dell'hard rock e Metal Hammer lo chiama uno dei più grandi di sempre. **La sostanza c'è**, e non la conto come rilievo. La differenza fra questo caso e gli altri è che qui il superlativo è documentato.
+  **13 su 13.** Con le prime cinque: **sei schede, 70 affermazioni, 17 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
