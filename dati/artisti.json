@@ -5039,7 +5039,7 @@
   {
     "slug": "franco-battiato",
     "nome": "Franco Battiato",
-    "storia": "Nato in provincia di Catania nel 1945, si trasferì nel 1964 prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1972) e \"Pollution\" (1973). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop, anche grazie alla fondamentale collaborazione con il compositore e violinista Giusto Pio, che dal 1979 firmò gli arrangiamenti e diresse l'orchestra sui suoi album: secondo i crediti di copertina, Pio risulta coautore della musica in singoli brani — come \"Per Elisa\", scritto per Alice e vincitore di Sanremo 1981 — ma non sistematicamente su ogni canzone del periodo, come nel caso di \"Centro di gravità permanente\", dove è accreditato solo come arrangiatore.",
+    "storia": "Nato in provincia di Catania nel 1945, si trasferì prima a Roma e poi a Milano per costruirsi una carriera lontano dalla Sicilia. Dagli anni '70 partecipò alle correnti di ricerca e sperimentazione europee, pubblicando per l'etichetta Bla Bla album di forte impronta elettronica e d'avanguardia come \"Fetus\" (1971) e \"Pollution\" (1972). Cantautore, compositore, regista e pittore, ha attraversato negli anni successivi generi diversi, unendo con naturalezza la ricerca d'avanguardia e la canzone pop, anche grazie alla fondamentale collaborazione con il compositore e violinista Giusto Pio, che dal 1979 firmò gli arrangiamenti e a più riprese diresse l'orchestra, tanto in studio quanto dal vivo, sui suoi album fino ai primi anni Novanta: secondo i crediti di copertina, Pio risulta coautore della musica in singoli brani — come \"Per Elisa\", scritto per Alice e vincitore di Sanremo 1981 — ma non sistematicamente su ogni canzone del periodo: nei crediti de \"La voce del padrone\" (1981), che contiene anche \"Centro di gravità permanente\", Pio risulta accreditato come arrangiatore e direttore d'orchestra, non come autore della musica, che è firmata dal solo Battiato.",
     "album": [
       {
         "titolo": "Fetus",
@@ -5305,12 +5305,22 @@
         "ruolo": "storia"
       },
       {
+        "url": "https://www.battiato.it/biografia/",
+        "nome": "Sito ufficiale di Franco Battiato — Biografia",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://www.discogs.com/release/528835-Alice-Per-Elisa",
-        "nome": "Discogs — crediti del 45 giri originale (EMI, 1981)",
+        "nome": "Discogs — crediti del 45 giri originale di \"Per Elisa\" (EMI, 1981)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.discogs.com/release/985747-Franco-Battiato-La-Voce-Del-Padrone",
+        "nome": "Discogs — crediti dell'LP \"La voce del padrone\" (EMI, 1981)",
         "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-11"
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "fulminacci",
