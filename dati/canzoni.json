@@ -6909,8 +6909,8 @@
     "ascoltiTesto": "1,39 mld ascolti",
     "spotifyId": "3YRCqOhFifThpSRFJ1VWFM",
     "corpo": [
-      "Axl Rose scrisse il brano da solo, e la sua gestazione fu lunghissima. Un primo abbozzo esisteva già nel 1986, un anno prima delle session di \"Appetite for Destruction\": una versione da 18 minuti, di cui una da 10 fu registrata ai Sound City Studios di Los Angeles con il produttore Manny Charlton, chitarrista dei Nazareth (scelto perché la band amava il suono del suo \"Hair of the Dog\" del 1975); quella versione fu inclusa nella super-deluxe edition di \"Appetite for Destruction\" del 2018. Charlton stesso raccontò al giornalista Malcolm Dome di aver pensato, ascoltando Axl suonarla al piano, che sarebbe dovuta finire già nel primo album — un errore, secondo lui, lasciarla fuori. La band scelse comunque un'altra ballata, \"Sweet Child O' Mine\", che arrivò comunque al numero 1. Secondo MusicRadar, in un'intervista del 1992 con l'emittente musicale MTV, Slash scherzò sulla lunga gestazione del brano: \"Ci abbiamo giocherellato per anni... una volta era lungo tipo 25 minuti!\"",
-      "Fra le principali ispirazioni di Rose ci fu Elton John, in particolare l'undici minuti \"Funeral for a Friend/Love Lies Bleeding\" che apre \"Goodbye Yellow Brick Road\" (1973): i due si sarebbero poi esibiti insieme dal vivo su \"November Rain\" agli MTV Music Awards del 1992, con John al piano, e Rose lo avrebbe definito, nel discorso di introduzione alla Rock and Roll Hall of Fame nel 1994, la sua più grande fonte d'ispirazione. Rose descrisse il brano come una canzone \"sul non voler restare in uno stato di amore non corrisposto\". Registrata definitivamente nel 1990 con il produttore Mike Clink e uscita il 24 febbraio 1992 nell'album \"Use Your Illusion I\" (1991), con quasi 9 minuti di durata divenne all'epoca la canzone più lunga a entrare nella top 10 della Billboard Hot 100. Il video, diretto da Andy Morahan e costato oltre 1,5 milioni di dollari, è stato tra i primi video pre-YouTube a superare il miliardo di visualizzazioni (2018) e poi i due miliardi (2023)."
+      "Axl Rose scrisse il brano da solo, e la sua gestazione fu lunghissima. Un primo abbozzo esisteva già nel 1986, un anno prima della pubblicazione di \"Appetite for Destruction\": una versione da 18 minuti, di cui una da 10 fu registrata ai Sound City Studios di Los Angeles con il produttore Manny Charlton, chitarrista dei Nazareth (scelto perché la band amava il suono del suo \"Hair of the Dog\" del 1975); quella versione fu inclusa nella super-deluxe edition di \"Appetite for Destruction\" del 2018. Charlton stesso raccontò al giornalista Malcolm Dome di aver pensato, ascoltando Axl suonarla al piano, che sarebbe dovuta finire già nel primo album — un errore, secondo lui, lasciarla fuori. La band scelse comunque un'altra ballata, \"Sweet Child O' Mine\", che arrivò comunque al numero 1. Secondo MusicRadar, in un'intervista del 1992 con l'emittente musicale MTV, Slash scherzò sulla lunga gestazione del brano: \"Ci abbiamo giocherellato per anni... una volta era lungo tipo 25 minuti!\"",
+      "Fra le principali ispirazioni di Rose ci fu Elton John, in particolare l'undici minuti \"Funeral for a Friend/Love Lies Bleeding\" che apre \"Goodbye Yellow Brick Road\" (1973): i due si sarebbero poi esibiti insieme dal vivo su \"November Rain\" agli MTV Music Awards del 1992, con John al piano, e Rose lo avrebbe definito, nel discorso di introduzione alla Rock and Roll Hall of Fame nel 1994, la sua più grande fonte d'ispirazione. Rose descrisse il brano come una canzone \"sul non voler restare in uno stato di amore non corrisposto\". Registrata definitivamente nel 1990 con il produttore Mike Clink e uscita il 24 febbraio 1992 nell'album \"Use Your Illusion I\" (1991), con quasi 9 minuti di durata divenne all'epoca la canzone più lunga a entrare nella top 10 della Billboard Hot 100. Il video, diretto da Andy Morahan e costato circa un milione di dollari, è stato tra i primi video pre-YouTube a superare il miliardo di visualizzazioni (2018) e poi i due miliardi (2023)."
     ],
     "fraseIconica": "Il verso più citato è quello sull'impossibilità che qualcosa duri per sempre, nemmeno la pioggia fredda di novembre evocata dal titolo — un'accettazione malinconica dell'impermanenza. Il videoclip, diretto da Andy Morahan, racconta la storia di un matrimonio seguito da un funerale: un espediente narrativo che ha probabilmente contribuito a legare il brano, nell'immaginario popolare, a entrambe le cerimonie.",
     "sezioniExtra": [],
@@ -6929,12 +6929,33 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.udiscovermusic.com/stories/november-rain-story-guns-n-roses/",
+        "nome": "uDiscoverMusic — Jason Draper",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
     "temi": [
       "morte-lutto"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "D",
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "D",
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "highway-star",
