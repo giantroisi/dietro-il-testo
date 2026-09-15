@@ -7376,10 +7376,10 @@
     "ascoltiTesto": "512 mln ascolti",
     "spotifyId": "1mnXT8zNssefzrRkeuD8Ov",
     "corpo": [
-      "Scritta da Geezer Butler con il titolo originale \"Walpurgis\" — una festa pagana legata alla stregoneria — il brano fu rinominato \"War Pigs\" su richiesta dell'etichetta Vertigo, preoccupata dalle connotazioni sataniche del titolo; il testo restò invariato. Butler ha raccontato che l'immagine dei generali paragonati a stregoni non era un riferimento letterale all'occulto ma una metafora politica: \"per me la guerra era il grande Satana\".",
+      "Scritta da Tony Iommi, Ozzy Osbourne, Geezer Butler e Bill Ward, con il testo firmato dal bassista Butler, il brano nacque con il titolo \"Walpurgis\" — una festa legata al sabba delle streghe — poi rinominato \"War Pigs\" su richiesta dell'etichetta Vertigo, preoccupata dalle connotazioni sataniche del titolo; il testo restò invariato. Butler ha raccontato che per lui la guerra era \"il grande Satana\", il male assoluto, non semplicemente un tema di politica o di governo: fu per rendere quell'equivalenza che scelse di paragonare i generali a streghe riunite per un rito oscuro.",
       "Il pezzo nacque nel clima di proteste contro la guerra del Vietnam nel Regno Unito di fine anni '60, mentre Butler temeva di essere richiamato nonostante la leva obbligatoria fosse stata abolita. Il bassista ha definito il brano un'accusa diretta contro \"politici e ricchi che iniziano le guerre a proprio vantaggio e mandano i poveri a morire per loro\"; Ozzy Osbourne ha invece dichiarato che la band \"non sapeva nulla del Vietnam\", descrivendolo più genericamente come un pezzo contro la guerra."
     ],
-    "fraseIconica": "Il verso più citato è quello d'apertura, che paragona i generali riuniti a pianificare la distruzione a streghe radunate per un rito oscuro — un'immagine che per anni ha alimentato la fama sinistra della band, nonostante il messaggio fosse politico e non occulto. Geezer Butler ha spiegato che l'accostamento fra guerra e satanismo era intenzionale, per rendere ancora più netta l'accusa contro chi decide le guerre senza combatterle.",
+    "fraseIconica": "Il verso più citato è quello d'apertura, che paragona i generali riuniti a pianificare la distruzione a streghe radunate per un rito oscuro: un'immagine che Geezer Butler ha detto di aver scelto non come semplice provocazione, ma perché per lui la guerra era davvero \"il grande Satana\", il male assoluto in persona.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/black-sabbath/4252/",
     "fonti": [
@@ -7401,7 +7401,18 @@
     "temi": [
       "critica-sociale",
       "guerra"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "D"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "number-of-the-beast",
