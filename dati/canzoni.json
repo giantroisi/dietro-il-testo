@@ -5239,7 +5239,18 @@
     "testoFonte": "Letras",
     "temi": [
       "amore"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "i-miss-you",
