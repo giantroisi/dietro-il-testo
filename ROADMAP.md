@@ -3053,6 +3053,20 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
 **Aperto**: nulla di nuovo su questa scheda.
 
+- **15 settembre 2026 — Campione casuale, 7 di 10: `hard-as-a-rock`. Tre non reggono, due mie accuse cadono.**
+  **Regge la parte di racconto, ed è documentata bene.** Le dieci settimane frustranti a New York e **le cinquanta ore di registrazioni mai usate** sono testuali su Louder; il trasferimento agli Ocean Way di Los Angeles e la soddisfazione immediata per quel suono stanno su Wikipedia; Rubin già al lavoro su «Big Gun» nel 1993 è confermato da entrambe; il video di David Mallet con Angus sospeso sulla palla da demolizione è testuale; il primo posto nella classifica rock di Billboard, secondo numero uno dopo «Big Gun», è testuale.
+  - **ERRORE DI CALCOLO**: Phil Rudd tornato «a **dodici anni** dal suo addio». Wikipedia dice che suonò con la band **dal 1975 al 1983** e che **accettò di rientrare nell'agosto 1994**: sono **undici** anni. È la quinta volta che un conto fatto a mente diventa un fatto documentato.
+  - **NON SOSTENUTA, e contraddice il giudizio della fonte**: «Brian Johnson ha raccontato che quelle settimane furono lunghe e tese, **ma che il risultato finale ripagò lo sforzo**». La citazione di Johnson su Louder dice **solo** la stanchezza delle troppe riprese; della ricompensa non c'è traccia. E **Louder dice l'opposto sull'album**: nessuna canzone davvero grande, quasi tutto il resto «la definizione di riempitivo». **Un finale consolatorio aggiunto in redazione a un racconto che la fonte chiude male.**
+  - **ATTRIBUZIONE PROBABILMENTE SBAGLIATA**: la frase iconica dà il riff d'apertura a **Malcolm Young**. Nessuna delle due fonti lo dice; l'unica che nomina chi suona quel riff è la recensione NME riportata da Wikipedia, e **nomina Angus**.
+  - **Due fonti, due studi diversi**: Wikipedia dice che le sedute cominciarono ai **Record Plant Studios**, Louder dice al **Power Station**. La scheda ha scelto Wikipedia, in silenzio.
+  - **Due fonti, due date per il singolo**: la voce del brano dà il **18 settembre 1995**, la voce dell'album dà il **4 settembre**. La scheda ha scelto la seconda. Sono **due pagine dello stesso sito** citate tutt'e due.
+  - Minore: la classifica si chiamava **Album Rock Tracks** nel 1995, non ancora Mainstream Rock.
+  **E DUE ACCUSE MIE CHE CADONO, tutt'e due per la stessa ragione: avevo sospettato prima di aprire la fonte.**
+  1. Sulle «cinquanta ore» avevo pensato a una trasformazione di unità, perché Wikipedia parla di **cinquanta riprese**. **Louder dice cinquanta ore, alla lettera.** Sono due fatti diversi che convivono.
+  2. Sui Red Hot Chili Peppers avevo annotato che la scheda toglieva una cautela, perché Wikipedia lo dà come **voce di corridoio**. **Louder lo afferma come fatto**, ed è la fonte migliore. La scheda ha fatto la cosa giusta.
+  **È la seconda e la terza volta in questo campione che dubito di una scheda prima di aver letto la fonte che la sostiene.** La regola che ne esce vale per me esattamente come per chi scrive: **il sospetto non è un rilievo finché non ha aperto la pagina.**
+  **3 su 14.** Con le prime sei: **sette schede, 84 affermazioni, 20 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
