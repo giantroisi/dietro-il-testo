@@ -2990,6 +2990,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Una cosa da guardare per tutto il sito**: `check-link` verifica che un collegamento risponda, non che **mostri qualcosa**. Una pagina che risponde correttamente e poi dice «non sei autorizzato» passa il controllo ed è, per il lettore, una fonte che non esiste. Quante altre siano così non lo sappiamo.
   **3 su 11.** Con le prime due: **tre schede, 36 affermazioni, 10 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 4 di 10: `goodbye-malinconia`. Un brano che non apre l'album che dice di aprire.**
+  **Regge il nucleo, ed è reso con precisione.** Il 28 gennaio 2011, primo estratto dal quinto album, Tony Hadley frontman degli Spandau Ballet, l'omaggio alle sonorità degli anni Ottanta, e soprattutto **la genesi londinese**: Wikipedia riporta Caparezza quasi con le stesse parole della scheda — nata in Inghilterra dopo aver parlato con italiani emigrati a Londra, che «loro malgrado» non sarebbero più tornati nella nazione dove non riuscivano a vivere. E regge il gioco di parole fra lo stato d'animo e lo Stato.
+  - **ERRORE DI FATTO**: «si ritrova anche nella scelta di questo **brano d'apertura**». **`Goodbye Malinconia` non apre «Il sogno eretico».** La voce dell'album dice che i primi due brani sono `Nessun dorma` e `Tutti dormano`, e che il terzo è `Chi se ne frega della musica`. È la confusione fra **primo estratto** e **prima traccia**: il singolo uscì un mese prima del disco, ma nel disco non sta in testa.
+  - **NON SOSTENUTO IL NESSO**: la scheda lega il tema dell'eresia — «tra Giovanna d'Arco, Galileo e Savonarola» — alla scelta di *questo* brano. Quelle figure sono il materiale di **altri pezzi dell'album**: `Sono il tuo sogno eretico` e `Il dito medio di Galileo`. L'eresia è il tema del disco, non di questa canzone.
+  - **CONTRADDICE LA FONTE**: la frase iconica chiama il titolo «un saluto, **quasi liberatorio**». Wikipedia descrive il testo come **«più malinconico e rassegnato»** dei precedenti, e riporta Caparezza che lo spiega così: «Ok, basta combattere, andiamocene!». **Non è liberazione, è resa** — ed è l'artista a dirlo.
+  - **SUPERLATIVO**: «il **verso più citato**».
+  - **Omissione grossa**: la voce dedica una sezione intera alla **polemica con l'allora ministro Gianfranco Rotondi**, che accusò il brano di essere «un'operazione contro il proprio paese», e alle risposte di Caparezza — compreso il chiarimento che nel pezzo «non c'è una sola parola contro Milano». È la cosa più notevole successa a questa canzone, e la scheda non ce l'ha.
+  - **Seconda fonte non verificabile leggendo**: l'altra fonte citata è una **video-intervista** di Rockol. La scheda le attribuisce una spiegazione precisa sull'eresia, ma un video non si controlla per stringa — né io né un lettore possiamo confrontarlo col testo. Dopo il Rolling Stone a pagamento di `angel-of-death`, è **la seconda scheda su quattro** in cui una delle fonti citate non è controllabile leggendo.
+  **4 su 11.** Con le prime tre: **quattro schede, 47 affermazioni, 14 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
