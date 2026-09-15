@@ -3023,6 +3023,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita, pulita (incluso `check-frase-iconica.mjs`, che segnalava altre schede ma non questa). Un commit, pushato.
 **Aperto**: restano sei schede del campione casuale non ancora assegnate (`gli-uomini-e-le-donne-sono-uguali`, `back-in-black`, `hard-as-a-rock`, `albachiara`, `feeling-this`, `giovani-wannabe`).
 
+- **15 settembre 2026 — Campione casuale, 5 di 10: `gli-uomini-e-le-donne-sono-uguali`. Le due fonti non sono d'accordo nemmeno sul TITOLO.**
+  **Regge la parte dichiarata, ed è resa con precisione**: primo singolo da solista dopo lo scioglimento dei Lùnapop, il 30 agosto 2002, la citazione di Cremonini — «ironica e provocatoria», «l'altro lato della medaglia», «l'uomo, ormai, non decide più un bel niente» — e il «corpo estraneo» rispetto a «Bagùs», col parallelo fra «50 Special» e «…Squérez?». Regge anche il secondo posto raggiunto più volte nella classifica Nielsen Music Control.
+  - **R2-BIS SUL TITOLO, e non è un dettaglio: è il nome della pagina.** Le due fonti citate danno **due ordini diversi**. Wikipedia, nell'infobox e nel corpo, scrive **«Le donne e gli uomini sono uguali»**; Recensiamo Musica scrive **«Gli uomini e le donne sono uguali»**. La scheda ha scelto il secondo — e con esso lo slug, il titolo della pagina, l'H1 e l'indirizzo. **Nessuna delle due è di livello A**: la questione si chiude con l'edizione ufficiale, non scegliendo.
+  - **LA FONTE SI CONTRADDICE E LA SCHEDA NON SE N'È ACCORTA.** «Debuttò all'**ottava posizione**»: è quello che dice il testo di Wikipedia, ma **la tabella delle classifiche sulla stessa pagina** dà la prima settimana a **39**, la seconda a 11, e solo la terza a 8. Il debutto all'ottavo posto è smentito dalla riga sotto.
+  - **DUE CLASSIFICHE MESCOLATE**: «rimase per **dodici settimane**» nella classifica italiana. La tabella italiana ha **nove** settimane; le dodici sono quelle della **Nielsen**, che è l'altra tabella. Il numero è vero, ma appartiene a un'altra classifica.
+  - **NON DOCUMENTATA**: «uscito il **15 novembre** dello stesso anno». La data d'uscita di «Bagùs» non è in nessuna delle due fonti.
+  **Il difetto nuovo, e va nominato.** Fin qui il problema era l'affermazione senza fonte. **Qui la fonte c'è, dice il vero, ed è la scheda a non averla letta fino in fondo**: il testo di Wikipedia e la sua tabella si smentiscono, e chi ha scritto ha copiato il testo senza guardare la tabella. È lo stesso errore che ho fatto io con `--versi`, quando ho visto una citazione che cominciava con una virgola e non mi sono chiesto perché.
+  **3 su 10, più la questione del titolo.** Con le prime quattro: **cinque schede, 57 affermazioni, 17 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
