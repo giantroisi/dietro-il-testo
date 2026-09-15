@@ -3108,6 +3108,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **NON SOSTENUTA**: «divenne il singolo di **maggior successo commerciale della band fino a quel momento**». Wikipedia non confronta questo singolo con gli altri della band.
   **2 su 12** — insieme a `giovani-wannabe` la migliore del campione dopo `back-in-black`.
 
+- **15 settembre 2026 — Campione casuale, 10 di 10, corretta: `giovani-wannabe`. Il campione è chiuso.**
+  Riscritta la frase iconica sul contenuto vero — la generazione schiacciata dal mercato del lavoro, il "wannabe" come fame di vita e non come voglia di apparire — già presente e ben reso nel corpo, invece del luogo comune sui social mai detto da Zanotti. Tolto il confronto non sostenuto ("maggior successo commerciale della band fino a quel momento"). Aggiunto il videoclip (31 maggio 2022, regia di Francesco Lorusso, con Francesco Cicconetti e Chiara Pieri), presente su Wikipedia e assente dalla scheda.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato. Con questa le dieci schede del campione casuale sono tutte corrette.
+**Aperto**: nulla su questa scheda. Resta aperto, per l'autore, se lanciare un secondo campione per stringere la banda del 24% (vedi la voce successiva).
+
 - **15 settembre 2026 — IL CAMPIONE CASUALE È CHIUSO. Il numero è 24%, e le pagine più lette erano le migliori.**
   **Dieci schede estratte a sorte fra le 258 mai riaperte, seme `20260915` scritto prima dei risultati. 119 affermazioni controllate una per una. 29 non reggono: il 24%.**
   | scheda | non reggono |
