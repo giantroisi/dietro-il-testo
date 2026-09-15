@@ -3145,6 +3145,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Quello che ho fatto invece:** il controllo resta nel progetto, e **si difende da solo**. Se meno della metà delle fonti risulta leggibile non stampa l'elenco: stampa un avviso che dice di provare `curl -I https://en.wikipedia.org` prima di credere al numero, perché quasi sempre il problema è la rete di chi lancia. **Va eseguito dal terminale vero**, dove la rete c'è — né questo ambiente né la macchina virtuale del ponte la hanno.
   **Il numero sulle fonti che non si aprono resta quindi non misurato**, e lo scrivo come tale: **due casi su sei schede sono un indizio, non una stima.**
 
+- **15 settembre 2026 — Le 37 «promesse» dentro i nomi delle fonti: comincio a controllarle. Prime due, una regge e una no.**
+  Sono affermazioni che il sito pubblica **accanto al collegamento**, per dire al lettore che cosa troverà aprendolo: «cita l'intervista originale del 2010», «copia integrale su…», «raccoglie interviste dirette a McCartney». **Nessuna è mai stata verificata**, e nel campione di agosto una di queste era falsa.
+  - **REGGE — `seven-nation-army`**: la fonte Guitar Player è annunciata come quella che «cita l'intervista originale del 2010», e la pagina dice esattamente questo: riporta le parole di Jack White sull'origine del riff **rimandando a un'intervista del 2010**. Promessa mantenuta.
+  - **NON REGGE — e vale per TRE schede insieme**: `sleepwalking`, `antivist` e `shadow-moses` citano tutt'e tre la stessa pagina, un blog del 2013, presentandola come «Metal Hammer, 14 feb. 2013, di Merlin Alderslade **(copia integrale su Metal Fucking Rocks)**».
+    La pagina **esiste e contiene davvero** una guida traccia per traccia di «Sempiternal» con le dichiarazioni della band: il materiale su cui le tre schede poggiano è lì, e si legge. **Ma il blog non attribuisce quel testo a nessuno**: non c'è la firma di Merlin Alderslade, non c'è il nome di Metal Hammer, non c'è una riga che dica da dove viene. L'unica occorrenza di «Metal Hammer» in pagina è **un link laterale a un podcast che non c'entra**.
+    Quindi: **che sia la copia integrale di quell'articolo non risulta da nessuna parte**. Il lettore che clicca non trova Metal Hammer del 14 febbraio 2013 firmato Alderslade: trova un blog senza attribuzione. **Noi gli abbiamo promesso una cosa e gliene diamo un'altra.**
+    E c'è un secondo problema, che è nostro: **stiamo indicando come fonte quella che sembra la ripubblicazione non attribuita di un pezzo di rivista**, e la stiamo presentando col nome della rivista. Le uscite legittime sono due: trovare l'articolo su Metal Hammer e citare quello, oppure chiamare il blog col suo nome e per quello che è.
+  **Il conto: 2 promesse su 37 controllate, 1 non regge, e quella riguarda 3 schede.** È troppo poco per una percentuale, e lo scrivo prima di essere tentato di darne una.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
