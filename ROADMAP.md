@@ -3032,6 +3032,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Il difetto nuovo, e va nominato.** Fin qui il problema era l'affermazione senza fonte. **Qui la fonte c'è, dice il vero, ed è la scheda a non averla letta fino in fondo**: il testo di Wikipedia e la sua tabella si smentiscono, e chi ha scritto ha copiato il testo senza guardare la tabella. È lo stesso errore che ho fatto io con `--versi`, quando ho visto una citazione che cominciava con una virgola e non mi sono chiesto perché.
   **3 su 10, più la questione del titolo.** Con le prime quattro: **cinque schede, 57 affermazioni, 17 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 5 di 10, corretta: `gli-uomini-e-le-donne-sono-uguali`, e il titolo resta quello che era.**
+  **R2-bis sul titolo, chiuso senza toccare lo slug.** Trovate due fonti indipendenti dell'edizione ufficiale: il sito ufficiale di Cesare Cremonini (tracklist di `Bagùs`) e il CD singolo su Discogs (Warner/PibeDeOro, barcode 5050466048325) usano entrambi «Gli uomini e le donne sono uguali» — lo stesso ordine della pagina. **La stessa voce Wikipedia che nel corpo scrive l'ordine inverso linka, nei suoi collegamenti esterni, Discogs e Genius con il nostro ordine**: si contraddice da sola. Nessun cambio di slug necessario.
+  - **Classifica corretta**: il singolo entrò al 39° posto, non all'8° (che è il picco, raggiunto alla terza settimana) — la tabella di Wikipedia smentiva il suo stesso testo.
+  - **Le "dodici settimane" restituite alla classifica giusta**: sono della Nielsen Music Control (12 settimane per tabella), non dell'italiana (9 per tabella).
+  - **Data dell'album documentata**: 15 novembre 2002, trovata sulla pagina ufficiale dell'album sul sito di Cremonini — che conferma per la terza volta anche il titolo del singolo.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: `cesarecremonini.it` non è ancora classificato in `check-livelli.mjs`, nonostante sia già citato in `dati/artisti.json` per la biografia — stesso schema di `pinodaniele.com`.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
