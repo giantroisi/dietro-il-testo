@@ -2943,6 +2943,24 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   Tre AC/DC su dieci: **è il caso, e va tenuto**. Ripescare per «bilanciare» sarebbe la stessa cosa che cambiare il seme.
   **Che cosa misurerà.** Il tasso d'errore della scheda media, non della vetrina. È l'unico numero che risponde davvero alla domanda «com'è la qualità del sito» — e finora non ce l'avevamo.
 
+- **15 settembre 2026 — L'arretrato di `ORDINI-SONNET.md`: dodici capitoli, dodici commit, tutti chiusi in un giorno.**
+  Nove ordini scritti nei giorni scorsi non erano mai stati eseguiti — non per disattenzione, ma perché la sezione 3 aveva sempre la precedenza. Lavorati tutti, in ordine, un commit per scheda, come richiesto. `ORDINI-SONNET.md` svuotato dei capitoli consegnati, per lo stesso motivo scritto in cima al file: un elenco che accumula ordini vecchi diventa un elenco che nessuno legge.
+  - **`yes-i-know-my-way`**: tolto "anglonapoletano" virgolettato e mai scritto in nessuna fonte. Le due fonti citate erano entrambe C: trovato il sito ufficiale di Pino Daniele (non ancora classificato, segnalato), con due citazioni vere dell'artista sull'album e sulla raccolta del 1998 — corpo riscritto intorno a quelle, non più sull'interpretazione non firmata di Wonderchannel.
+  - **`all-the-small-things`**: già pulita, solo `naturaCorpo` e data.
+  - **`ho-messo-via`**: tolta "o, secondo alcune letture, con la figura paterna" — attribuzione vaga vietata dalla R3, assente da entrambe le fonti.
+  - **`aerials`**: tolta la citazione '"di niente"' messa in bocca a Malakian due volte (corpo e frase iconica), mai pronunciata in nessuna fonte classificata nonostante l'aneddoto circoli online. Sostituita con contenuto vero delle stesse fonti.
+  - **`november-rain`**: corretta la cifra del video (non 1,5 milioni ma circa un milione, uDiscoverMusic) e "delle session" in "della pubblicazione". Le altre due segnalazioni (Sweet Child O' Mine al numero 1, registrata nel 1990) erano in realtà già confermate da MusicRadar riaperta per intero.
+  - **`vieni-a-ballare-in-puglia`**: tolta la dichiarazione di disagio mai fatta da Caparezza, tolto un superlativo. Aggiunta la chiave del titolo che mancava — "ballare" sta per "morire" — e il featuring di Al Bano, con una fonte B nuova (Rockol). La scheda esce dal gruppo senza A/B: 53 → 52.
+  - **`war-pigs`**: le due inversioni più gravi del giro. La citazione di Butler era esatta ma la frase che la introduceva diceva l'opposto — lui dice che la guerra ERA il male assoluto, non una metafora politica del male. Corretta anche l'attribuzione: non "scritta da Butler" ma da tutti e quattro i membri, con Butler paroliere.
+  - **`wake-me-up-when-september-ends`**: R2-bis sulla data di morte del padre di Armstrong (10 o 1 settembre 1982 secondo le due fonti, mai dichiarato); dichiarata la divergenza. Tolti "cancro all'esofago" e "dieci anni", entrambi calcoli/dettagli non nelle fonti citate nonostante veri nel mondo.
+  - **`hotel-california`**: tolti due superlativi ("il verso più citato", "ampiamente interpretato").
+  - **`black-pearl-jam`**: aggiunta la ragione omessa del rifiuto di farne un singolo (troppo personale, timore per il video). **Trovato riaprendo la fonte**: il link GQ citato per la testimonianza di Rodman era quello sbagliato — un profilo del 2021 che non nomina mai Pearl Jam. La fonte vera è un video GQ diverso, stessa data, con la trascrizione completa. Corretto.
+  - **`je-so-pazzo`**: Wikipedia porta due note distinte — Guaitamacchi per il "taramblù", Russano per la lettura di Masaniello. La scheda le aveva scambiate. Corretto, e tolto un anno (1647) che la fonte non dà.
+  - **`would` / `live-forever`**: `would` aveva già tutti e tre i nei sistemati in una correzione precedente. Su `live-forever` riaperti i due punti rimasti "da controllare" — entrambi confermati testuali su Wikipedia, tolta solo la parola "lettori" dal sondaggio Q (la fonte non specifica il tipo di sondaggio).
+  **Una regola nuova applicata per la prima volta**: tutte le schede di questo elenco escono con `ultimaVerifica` alla data della correzione, non vuoto — la verifica esterna era già stata fatta e scritta nel registro prima che io intervenissi; il bollino adesso dice il vero.
+**Verificato**: pipeline completa rieseguita dopo ogni singola scheda (`genera-sito.mjs`, `check-coerenza.mjs`, `check-attribuzioni.mjs`, `check-livelli.mjs`, `check-virgolette.mjs --versi`), sempre pulita prima del commit successivo. Dodici commit distinti, tutti pushati.
+**Aperto**: `pinodaniele.com` non è ancora classificato in `check-livelli.mjs` (segnalato anche nella correzione di `yes-i-know-my-way`) — stesso schema dei siti ufficiali già in tabella.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
