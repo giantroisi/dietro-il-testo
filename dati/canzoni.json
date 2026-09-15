@@ -8219,10 +8219,10 @@
     "ascoltiTesto": "1 mld ascolti",
     "spotifyId": "4e9eGQYsOiBcftrWXwsVco",
     "corpo": [
-      "Testo scritto dal chitarrista Daron Malakian insieme al cantante Serj Tankian, con la musica composta interamente da Malakian; alla domanda sul significato del brano, lo stesso Malakian ha risposto più volte che parla \"di niente\", lasciando volutamente ai fan il compito di trovarci un senso proprio.",
+      "Testo scritto dal chitarrista Daron Malakian insieme al cantante Serj Tankian, con la musica composta interamente da Malakian. Secondo Songfacts, il brano racconta di come le persone possano perdere la propria identità, finendo per assomigliarsi tutte, attraverso l'immagine di un fiume in cui ci si perde per poi ritrovarsi.",
       "Il videoclip, diretto da David Slade in collaborazione con il bassista Shavo Odadjian, segue un ragazzo dall'aspetto in parte alieno in un ambiente che critica la superficialità della cultura delle celebrità. Uscito come terzo singolo dell'album l'11 giugno 2002, il brano raggiunse comunque il primo posto sia nella classifica rock mainstream sia in quella alternative di Billboard nell'autunno del 2002."
     ],
-    "fraseIconica": "Il momento più ricordato è l'invocazione ripetuta a librarsi in alto, come un'antenna verso il cielo, che perde piccolezza e si libera: un'immagine che la band ha sempre rifiutato di spiegare, preferendo lasciarla aperta a chi ascolta.",
+    "fraseIconica": "Il momento più ricordato è l'invocazione ripetuta a librarsi in alto, come un'antenna verso il cielo, che perde piccolezza e si libera. Il batterista John Dolmayan ha descritto il brano, in una dichiarazione riportata da Songfacts, come \"una canzone delicata che porta con sé anche molta rabbia\", nata quasi di getto in sala prove.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/system-of-a-down/39427/",
     "fonti": [
@@ -8244,7 +8244,18 @@
     "testoFonte": "Letras",
     "temi": [
       "liberta-evasione"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "I"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "amnesia-5sos",
