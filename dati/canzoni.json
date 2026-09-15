@@ -7760,7 +7760,7 @@
     "ascoltiTesto": "1,1 mld ascolti",
     "spotifyId": "3ZffCQKLFLUvYM59XKLbVm",
     "corpo": [
-      "Scritta da Billie Joe Armstrong come omaggio al padre, morto di cancro all'esofago il 10 settembre 1982, quando il cantante aveva dieci anni. Dopo il funerale, Armstrong corse a casa e si chiuse in camera; quando la madre bussò alla porta per vedere come stava, rispose semplicemente chiedendole di svegliarlo soltanto quando quel mese doloroso fosse passato — una frase che, quasi identica, sarebbe diventata il titolo del brano.",
+      "Scritta da Billie Joe Armstrong come omaggio al padre, morto di cancro nel settembre del 1982 — le fonti citate non concordano sul giorno esatto, il 10 secondo American Songwriter e l'1 secondo Songfacts. Dopo il funerale, Armstrong corse a casa e si chiuse in camera; quando la madre bussò alla porta per vedere come stava, rispose semplicemente chiedendole di svegliarlo soltanto quando quel mese doloroso fosse passato — una frase che, quasi identica, sarebbe diventata il titolo del brano.",
       "Armstrong ha raccontato di aver evitato per anni di scrivere di quella perdita, e di averla affrontata solo circa vent'anni dopo, quando si è sentito pronto: \"Avevo evitato di scriverne per molti anni, e poi finalmente avere una svolta come quella mi ha fatto stare bene.\" Il brano fu inciso solo dopo quella lunga distanza di tempo dalla morte del padre. Un passaggio del testo, quando accenna al tempo ormai trascorso, allude al fatto che gli Sweet Children, la band che si sarebbe poi trasformata nei Green Day, nacquero esattamente sette anni dopo la morte del padre di Armstrong."
     ],
     "fraseIconica": "Il titolo stesso nasce da un momento privato e reale: la frase pronunciata da un Armstrong bambino, chiuso in camera dopo il funerale del padre, che chiedeva alla madre di lasciarlo in pace fino alla fine di quel mese doloroso.",
@@ -7785,7 +7785,19 @@
     "testoFonte": "Letras",
     "temi": [
       "morte-lutto"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "F",
+        "F"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "welcome-to-the-jungle",
