@@ -8148,8 +8148,8 @@
     "ascoltiTesto": "793 mln ascolti",
     "spotifyId": "5Xak5fmy089t0FYmh3VJiY",
     "corpo": [
-      "Il brano nacque da uno strumentale demo intitolato \"E Ballad\", scritto dal chitarrista Stone Gossard nel 1990 e incluso in un nastro fatto circolare per trovare un cantante per la band. Fu proprio quel nastro a raggiungere Eddie Vedder, allora benzinaio a San Diego: Vedder registrò la voce su tre dei brani proposti e lo rispedì a Seattle, venendo così invitato a raggiungere il gruppo; durante il viaggio scrisse il testo per \"E Ballad\", ribattezzandolo \"Black\".",
-      "Nonostante le pressioni dell'etichetta Epic Records per farne un singolo, la band si rifiutò sempre di pubblicarlo come tale: il cantante Eddie Vedder ha spiegato quella scelta dicendo che \"le canzoni fragili vengono schiacciate dal mercato. Io non voglio farne parte. Non credo che la band voglia farne parte\", arrivando a chiamare personalmente i direttori di alcune radio per assicurarsi che l'etichetta non lo pubblicasse contro la sua volontà. Nel libro \"Pearl Jam Twenty\" (2011) Vedder ha raccontato che il brano parla delle prime relazioni e della capacità di lasciar andare, definendo raro che un rapporto sopravviva alla naturale evoluzione delle persone. Nel 2021 il cestista Dennis Rodman ha raccontato alla rivista GQ che fu proprio l'ascolto di \"Black\" a fermarlo da un tentativo di suicidio nel 1993."
+      "Il brano nacque da uno strumentale demo intitolato \"E Ballad\", scritto dal chitarrista Stone Gossard nel 1990 e incluso in un nastro fatto circolare per trovare un cantante e un batterista per la band. Fu proprio quel nastro a raggiungere Eddie Vedder, allora benzinaio a San Diego: Vedder registrò la voce su tre dei brani proposti e lo rispedì a Seattle, venendo così invitato a raggiungere il gruppo; durante il viaggio scrisse il testo per \"E Ballad\", ribattezzandolo \"Black\".",
+      "Nonostante le pressioni dell'etichetta Epic Records per farne un singolo, la band si rifiutò sempre di pubblicarlo come tale, ritenendolo troppo personale e temendo che il suo peso emotivo sarebbe stato distrutto da un videoclip: il cantante Eddie Vedder ha spiegato quella scelta dicendo che \"le canzoni fragili vengono schiacciate dal mercato. Io non voglio farne parte. Non credo che la band voglia farne parte\", arrivando a chiamare personalmente i direttori di alcune radio per assicurarsi che l'etichetta non lo pubblicasse contro la sua volontà. Nel libro \"Pearl Jam Twenty\" (2011) Vedder ha raccontato che il brano parla delle prime relazioni e della capacità di lasciar andare, definendo raro che un rapporto sopravviva alla naturale evoluzione delle persone. Nel 2021 il cestista Dennis Rodman ha raccontato alla rivista GQ che fu proprio l'ascolto di \"Black\" a fermarlo da un tentativo di suicidio nel 1993."
     ],
     "fraseIconica": "Il momento più toccante legato al brano riguarda una testimonianza esterna: nel 2021 il cestista Dennis Rodman ha raccontato a GQ che fu l'ascolto di \"Black\" a fermarlo da un tentativo di suicidio nel 1993. Lo stesso Eddie Vedder, nel libro \"Pearl Jam Twenty\" (2011), ha descritto il brano come una riflessione sulle prime relazioni e sulla rara capacità di un amore di sopravvivere alla naturale evoluzione delle persone.",
     "sezioniExtra": [],
@@ -8160,8 +8160,8 @@
         "nome": "Wikipedia (riporta il libro \"Pearl Jam Twenty\", 2011, e l'intervista di Cameron Crowe su Rolling Stone, 1993)"
       },
       {
-        "url": "https://www.gq.com/story/dennis-rodman-style-icon-of-the-year-2021",
-        "nome": "GQ, 18 novembre 2021, di Mychal Denzel Smith",
+        "url": "https://www.gq.com/video/watch/10-essentials-10-things-dennis-rodman-cant-live-without",
+        "nome": "GQ — video \"10 Things Dennis Rodman Can't Live Without\", 18 novembre 2021",
         "ruolo": "storia"
       },
       {
@@ -8173,7 +8173,21 @@
     "testoFonte": "Letras",
     "temi": [
       "rottura"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "postmortem",
