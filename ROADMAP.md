@@ -3102,6 +3102,35 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
 **Aperto**: nulla di nuovo. Resta `giovani-wannabe`, decimo e ultimo del campione casuale, non ancora assegnato.
 
+- **15 settembre 2026 — Campione casuale, 10 di 10: `giovani-wannabe`. Due non reggono, e una rovescia l'autore.**
+  **Regge, e con precisione notevole, tutta la parte da Vanity Fair.** Le interviste lette da Zanotti «in cui si dice che i giovani non vogliono lavorare, che hanno troppe pretese»; lo scontro generazionale che comprende i diritti del lavoro, i temi di genere e delle minoranze; e il senso che lui dà a «wannabe» — non una questione anagrafica ma **chi ha fame di vita e di trovare il proprio posto**, che oggi molti non hanno ancora trovato. Tre affermazioni, tre riscontri alla lettera. Reggono anche il 27 maggio 2022, Sony, primo singolo di «Fake News», il primo posto, i sette dischi di platino e il SIAE Music Award 2023.
+  - **LA FRASE ICONICA ROVESCIA L'ARTISTA.** Dice che il brano guarda «all'**ansia di apparire e riuscire** tipica di una generazione cresciuta **sotto lo sguardo costante dei social**». **Nella fonte citata non c'è niente di tutto questo**, e soprattutto Zanotti dice un'altra cosa: parla di una generazione **schiacciata dal mercato del lavoro**, di rivendicazioni su diritti e orari, di uno scontro con chi quei posti li occupa. **Dei social non parla mai.** È lo stesso difetto di `goodbye-malinconia`: la riga più esposta del sito sostituisce il senso dichiarato dall'autore con un luogo comune generazionale.
+  - **NON SOSTENUTA**: «divenne il singolo di **maggior successo commerciale della band fino a quel momento**». Wikipedia non confronta questo singolo con gli altri della band.
+  **2 su 12** — insieme a `giovani-wannabe` la migliore del campione dopo `back-in-black`.
+
+- **15 settembre 2026 — IL CAMPIONE CASUALE È CHIUSO. Il numero è 24%, e le pagine più lette erano le migliori.**
+  **Dieci schede estratte a sorte fra le 258 mai riaperte, seme `20260915` scritto prima dei risultati. 119 affermazioni controllate una per una. 29 non reggono: il 24%.**
+  | scheda | non reggono |
+  |---|---|
+  | `back-in-black` | 0 / 13 |
+  | `giovani-wannabe` | 2 / 12 |
+  | `hard-as-a-rock` | 3 / 14 |
+  | `iron-man` | 3 / 12 |
+  | `albachiara` | 3 / 11 |
+  | `angel-of-death` | 3 / 11 |
+  | `gli-uomini-e-le-donne-sono-uguali` | 3 / 10 |
+  | `for-those-about-to-rock` | 4 / 13 |
+  | `feeling-this` | 4 / 12 |
+  | `goodbye-malinconia` | 4 / 11 |
+  **IL CONFRONTO CHE CONTA: sulle 18 schede riaperte per impressioni il tasso era il 14%. Sul campione casuale è il 24%.** Le pagine più lette erano **migliori della media del sito**, non peggiori. Quel 14% non era una misura del sito: era una misura della vetrina, e mi aveva dato una fotografia più rosea del vero. Va detto in questa direzione, non nell'altra.
+  **Le cautele, e sono serie.**
+  - **Dieci schede sono poche.** La banda grezza attorno al 24% va **dal 17 al 32%**, e quel calcolo assume che le affermazioni siano indipendenti fra loro: non lo sono, stanno a grappoli nella stessa scheda, quindi **l'incertezza vera è più larga di così**.
+  - **«Affermazione» è un'unità che ho deciso io**, tagliando le frasi a giudizio e non a macchina. Con un taglio diverso il denominatore cambia, e la percentuale con lui.
+  - **Ho giudicato da solo.** In questo stesso campione ho sbagliato **quattro rilievi**, tutti perché avevo scritto prima di aprire la seconda fonte citata. Li ho ritirati perché me ne sono accorto: **non ho modo di sapere quanti non ho ritrovato.**
+  - **Una scheda su dieci è pulita per intero.** Non è un campione di macerie.
+  **Che cosa si può dire onestamente, allora.** Che **su una scheda media di questo sito circa una affermazione su quattro non si ritrova nelle fonti che la scheda stessa cita**; che quasi mai si tratta di invenzioni e quasi sempre di date, durate, conteggi, superlativi e cornici aggiunti scrivendo; e che **la riga più esposta di ogni pagina, la frase iconica, è il punto dove il difetto è più frequente e più grave** — tre volte in dieci ha rovesciato o forzato ciò che la fonte diceva.
+  **E che cosa NON si può dire**: che il 24% sia il numero del sito. È il numero di dieci schede, con un'incertezza larga e un solo giudice. **Per stringere la banda servirebbe un secondo campione, e lo dico ora che il primo è chiuso, non dopo aver visto se il risultato mi piace.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
