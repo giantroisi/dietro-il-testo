@@ -73,3 +73,47 @@ nel registro.)
 testo di Metal Hammer che riproduceva; sostituito con l'originale
 metalhammer.co.uk archiviato su Wayback Machine. Solo la fonte, nessuna
 modifica al contenuto. Dettagli nel registro.)
+
+---
+
+## 15 settembre 2026 — promesse nei nomi delle fonti: `hey-jude` (e due che reggono)
+
+```
+Ho aperto altre due delle 37 "promesse" scritte dentro i nomi delle fonti.
+Buone notizie su tutt'e due, ma su una ci sono due dettagli da attenuare.
+
+1) `hey-jude` — DA ATTENUARE, non da togliere.
+   La fonte e' annunciata cosi': "The Paul McCartney Project (RACCOGLIE
+   INTERVISTE DIRETTE A MCCARTNEY: ROLLING STONE 1974, CONFERENZA STAMPA 1984,
+   e le memorie di Cynthia Lennon)".
+   La pagina raccoglie davvero materiale di prima mano, e su questo la promessa
+   e' mantenuta: c'e' il rimando all'intervista di McCartney a Rolling Stone,
+   c'e' CYNTHIA LENNON CITATA DAL SUO LIBRO DEL 2005, e c'e' una dichiarazione
+   di McCartney datata OTTOBRE 1984.
+   MA DUE DETTAGLI NON RISULTANO DALLA PAGINA:
+     - che l'intervista di Rolling Stone sia DEL 1974;
+     - che la fonte del 1984 sia una CONFERENZA STAMPA e non un'intervista.
+   Sono due specificazioni che danno solidita' e che nessuno puo' controllare
+   aprendo il link. O le documenti, o scrivi la promessa senza: "raccoglie
+   interviste dirette a McCartney e le memorie di Cynthia Lennon" e' vera e
+   verificabile.
+
+2) `nihilist-blues` — REGGE, niente da fare.
+   "Wikipedia riporta la citazione diretta di Jordan Fish a Kerrang!": la
+   pagina lo fa davvero, c'e' un passaggio diretto di Fish sulla collaborazione
+   con Grimes con la nota che rimanda a Kerrang!. Il 23 novembre 2018 non l'ho
+   aperto, quindi resta non confermato - ma non ho motivo di dubitarne.
+
+3) `seven-nation-army` — REGGE, niente da fare. Te l'ho gia' scritto: Guitar
+   Player cita davvero l'intervista del 2010.
+
+UNA COSA CHE SI VEDE GIA', ed e' utile per quando scrivi: le promesse che
+cadono o si incrinano sono LE PIU' SPECIFICHE - un anno, un tipo di fonte,
+l'attribuzione di una copia. Quelle generiche reggono. E' lo stesso difetto che
+il campione casuale ha trovato dentro le schede: IL DETTAGLIO PRECISO AGGIUNTO
+PER DARE SOLIDITA' E' IL PRIMO A NON AVERE NIENTE SOTTO.
+Quando scrivi il nome di una fonte, promettici solo quello che si vede
+aprendola.
+
+Conto: 5 promesse su 37 aperte. Ne restano 32, le apro io.
+```

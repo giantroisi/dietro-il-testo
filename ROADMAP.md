@@ -3159,6 +3159,12 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
 **Aperto**: `metalhammer.co.uk` non è ancora classificato in `check-livelli.mjs` — stesso editore (Future plc) di `loudersound.com`, già classificato B.
 
+- **15 settembre 2026 — Promesse nei nomi delle fonti, altre due aperte: reggono tutt'e due.**
+  - **REGGE — `nihilist-blues`**: la fonte è annunciata come «Wikipedia **riporta la citazione diretta di Jordan Fish a Kerrang!**, 23 novembre 2018», e la pagina fa esattamente questo: c'è un passaggio diretto di Fish sulla collaborazione con Grimes, con la nota che rimanda a Kerrang!. **Il 23 novembre 2018 non l'ho verificato** — sta nell'elenco delle note e non l'ho aperto — quindi lo lascio come non confermato, non come falso.
+  - **REGGE in sostanza — `hey-jude`**: la fonte è annunciata come quella che «raccoglie interviste dirette a McCartney: **Rolling Stone 1974, conferenza stampa 1984, e le memorie di Cynthia Lennon**». La pagina raccoglie davvero materiale di prima mano: un rimando all'intervista di McCartney a Rolling Stone, **Cynthia Lennon citata dal suo libro del 2005**, e una dichiarazione di McCartney datata **ottobre 1984**. **Due dettagli però non risultano dalla pagina**: che l'intervista di Rolling Stone sia del **1974**, e che la fonte del 1984 sia una **conferenza stampa** anziché un'intervista. Da attenuare, non da togliere.
+  **Conto aggiornato: 5 promesse aperte su 37 — 3 reggono, 1 regge con due dettagli da attenuare, 1 non regge (e vale per tre schede).** Restano 32.
+  **Una cosa che si vede già.** Le promesse che cadono o si incrinano sono quelle **più specifiche**: un anno, un tipo di fonte, l'attribuzione di una copia. Quelle generiche — «riporta la citazione di X a Y» — reggono. **È lo stesso difetto che il campione casuale ha trovato dentro le schede**: il dettaglio preciso aggiunto per dare solidità è il primo a non avere niente sotto.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
