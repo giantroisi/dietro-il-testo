@@ -3067,6 +3067,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **È la seconda e la terza volta in questo campione che dubito di una scheda prima di aver letto la fonte che la sostiene.** La regola che ne esce vale per me esattamente come per chi scrive: **il sospetto non è un rilievo finché non ha aperto la pagina.**
   **3 su 14.** Con le prime sei: **sette schede, 84 affermazioni, 20 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 8 di 10: `albachiara`. Tre non reggono, e per la quarta volta un mio sospetto cade appena apro la seconda fonte.**
+  **Regge la genesi, ed è testuale**: scritta di getto mentre la madre cucinava, la ragazzina di tredici anni vista passare alla fermata della corriera di Zocca, e la ristampa dell'album col titolo `Albachiara` dopo il successo del brano. Regge anche il seguito: la rivelazione alla «musa», l'imbarazzo, e `Una canzone per te` nata da quell'episodio.
+  - **NON DOCUMENTATA**: l'album «uscito il **30 aprile 1979**». La data non è in nessuna delle due fonti — Wikipedia dà il **25 maggio 1979** per il singolo, e dell'album non dice niente.
+  - **ATTRIBUZIONE VAGA, vietata dalla R3**: la scena finale «letta **dalla critica musicale** come un riferimento discreto…». **Nessuna delle due fonti è critica musicale, e nessuna attribuisce quella lettura a dei critici**: Wikipedia la afferma come descrizione del testo, la seconda fonte la affronta direttamente. «La critica musicale» è la stessa forma di «secondo alcune letture» che abbiamo già corretto su `ho-messo-via`: se non si può nominare chi legge così, quella lettura non esiste per il lettore. In più «**mai esplicito**» è smentito proprio dalla fonte, che è esplicitissima.
+  - **SUPERLATIVO**: «il momento **più discusso**».
+  - **Compressione che perde il pezzo migliore**: «lei reagì con imbarazzo e **negò tutto**». La fonte racconta di più e di meglio: **pensò a uno scherzo**, poi disse che la ragazza della canzone doveva essere **molto più piccola di lei**, e infine **scappò via dichiarandosi offesa**, lasciandolo deluso. «Negò tutto» sta in piedi, ma butta via l'offesa, che è la parte che resta in mente.
+  - **OMISSIONE NOTEVOLE**: Wikipedia racconta che dopo la morte di Alan Taylor — accreditato come coautore del testo — Vasco rivelò di **averlo scritto da solo**, e di avergli lasciato metà dei diritti **in cambio di una chitarra**, aggiungendo di non essersene pentito. È il fatto più sorprendente della pagina, e manca.
+  **E IL MIO ERRORE, che è il quarto uguale in questo campione.** Letta la sola Wikipedia, avevo segnato come non sostenute sia la genesi («di getto, mentre la madre cucinava», che Wikipedia non ha) sia la reazione della ragazza (Wikipedia dice «sorpresa»). **La seconda fonte citata le contiene tutt'e due**, e con più dettaglio. **Quattro volte in otto schede ho formulato un rilievo prima di aver aperto tutte le fonti che la scheda cita.** La regola vale per me come per chi scrive, e la scrivo per la seconda volta: **un rilievo non esiste finché non ha letto ogni fonte citata, non la prima che basta a sostenerlo.**
+  **3 su 11.** Con le prime sette: **otto schede, 95 affermazioni, 23 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
