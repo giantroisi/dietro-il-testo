@@ -3154,6 +3154,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
     E c'è un secondo problema, che è nostro: **stiamo indicando come fonte quella che sembra la ripubblicazione non attribuita di un pezzo di rivista**, e la stiamo presentando col nome della rivista. Le uscite legittime sono due: trovare l'articolo su Metal Hammer e citare quello, oppure chiamare il blog col suo nome e per quello che è.
   **Il conto: 2 promesse su 37 controllate, 1 non regge, e quella riguarda 3 schede.** È troppo poco per una percentuale, e lo scrivo prima di essere tentato di darne una.
 
+- **15 settembre 2026 — Corretta la fonte disallineata: `sleepwalking`, `antivist`, `shadow-moses`.**
+  Trovato l'articolo vero: l'originale su `metalhammer.co.uk`, archiviato su Wayback Machine (14 febbraio 2013, firma «Merlin», stesso testo del blog non attribuito — conferma che il blog era davvero una ripubblicazione, solo senza dirlo). Sostituita la fonte in tutt'e tre le schede con l'URL archiviato: quello che il nome della fonte promette adesso è quello che il lettore trova aprendola. Nessun'altra modifica al contenuto delle tre schede.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: `metalhammer.co.uk` non è ancora classificato in `check-livelli.mjs` — stesso editore (Future plc) di `loudersound.com`, già classificato B.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
