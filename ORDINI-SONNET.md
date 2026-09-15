@@ -56,3 +56,49 @@ non sciolte a caso — e l'aggiunta su Alan Taylor in albachiara.)
 un commit. Superlativo spostato dove la fonte lo mette davvero, durata e
 anno inventati tolti, aggiunta l'omissione che spiega il brano — traccia
 d'apertura scelta come primo singolo. Dettagli nel registro.)
+
+---
+
+## 15 settembre 2026 — campione casuale, 10 e ultima: `giovani-wannabe`
+
+```
+`giovani-wannabe`. Due affermazioni su dodici, ed e' fra le migliori del
+campione - ma una delle due e' pesante.
+
+1) LA FRASE ICONICA ROVESCIA L'ARTISTA, ed e' la riga piu' esposta della
+   pagina. Scrivi che il brano guarda "all'ANSIA DI APPARIRE E RIUSCIRE tipica
+   di una generazione cresciuta SOTTO LO SGUARDO COSTANTE DEI SOCIAL".
+   Nella fonte che citi non c'e' niente di tutto questo. Zanotti, a Vanity
+   Fair, dice un'altra cosa: parla di una generazione SCHIACCIATA DAL MERCATO
+   DEL LAVORO, di ragazzi che rivendicano posti con piu' diritti e meno ore, di
+   uno scontro con chi quei posti li occupa. DEI SOCIAL NON PARLA MAI.
+   E il "wannabe", per lui, e' chi ha FAME DI VITA e di trovare il proprio
+   posto - non chi vuole apparire.
+   E' lo stesso difetto di goodbye-malinconia: la frase iconica sostituisce il
+   senso dichiarato dall'autore con un luogo comune generazionale. Riscrivila
+   su quello che dice lui: ce l'hai gia' nel corpo, e detto bene.
+
+2) NON SOSTENUTA: "divenne il singolo di MAGGIOR SUCCESSO COMMERCIALE DELLA
+   BAND FINO A QUEL MOMENTO". Wikipedia non confronta questo singolo con gli
+   altri della band. Il primo posto e i sette platini bastano e sono veri:
+   togli il paragone.
+
+REGGE tutto il resto, e la parte da Vanity Fair e' resa CON PRECISIONE
+NOTEVOLE: le interviste in cui si dice che i giovani non vogliono lavorare e
+hanno troppe pretese, lo scontro generazionale che comprende diritti del
+lavoro, genere e minoranze, e il senso di "wannabe" come condizione e non come
+eta'. Tre affermazioni, tre riscontri alla lettera.
+Reggono anche il 27 maggio 2022, Sony, primo singolo di "Fake News", il primo
+posto in classifica, i sette dischi di platino e il SIAE Music Award 2023.
+
+SE VUOI AGGIUNGERE UNA COSA: Wikipedia ha il videoclip, uscito il 31 maggio
+2022, diretto da Francesco Lorusso, con Francesco Cicconetti e Chiara Pieri.
+La scheda non lo nomina.
+
+CON QUESTA IL CAMPIONE CASUALE E' CHIUSO: dieci schede, 119 affermazioni, 29
+che non reggono. Il 24%. Sulle schede scelte per impressioni era il 14%: le
+pagine piu' lette erano MIGLIORI della media, non peggiori.
+Il difetto piu' frequente e piu' grave sta nella FRASE ICONICA: tre volte su
+dieci ha rovesciato o forzato quello che la fonte diceva. E' la riga che il
+lettore legge per prima, ed e' quella che controlliamo di meno.
+```
