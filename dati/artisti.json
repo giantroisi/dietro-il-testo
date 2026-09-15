@@ -5330,7 +5330,7 @@
   {
     "slug": "fulminacci",
     "nome": "Fulminacci",
-    "storia": "Filippo Uttinacci, in arte Fulminacci, nasce a Roma nel 1997 e comincia a scrivere canzoni da autodidatta fin da ragazzo. Esordisce nella musica nel 2019 con il singolo \"Borghese in borghese\", a cui segue l'album \"La vita veramente\", premiato con la Targa Tenco per il Miglior Album d'Esordio. Nel 2021 partecipa al Festival di Sanremo tra i Campioni con \"Santa Marinella\"; nel 2023 pubblica il terzo album, \"Infinito +1\".",
+    "storia": "Filippo Uttinacci, in arte Fulminacci, nasce a Roma il 12 settembre 1997. Entra in una scuola di musica a dieci anni, iniziando con la chitarra e poi con la batteria, e scrive le sue prime canzoni a sedici. Esordisce nella musica nel gennaio 2019 con il singolo \"Borghese in borghese\", a cui segue l'album \"La vita veramente\", premiato con la Targa Tenco per il Miglior Album d'Esordio. Nel 2021 partecipa al Festival di Sanremo tra i Campioni con \"Santa Marinella\"; nel 2023 pubblica il terzo album, \"Infinito +1\".",
     "album": [
       {
         "titolo": "La vita veramente",
@@ -5381,9 +5381,14 @@
         "url": "https://www.insidemusic.it/fulminacci-conquista-la-targa-tenco-2019-per-l-opera-prima-grazie-a-la-vita-veramente/",
         "nome": "Inside Music",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fulminacci",
+        "nome": "Wikipedia (EN)",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-09"
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "ghost",
