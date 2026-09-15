@@ -3097,6 +3097,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - Nota sulle due fonti: Far Out dice che i due scrissero «entrambe le loro strofe», Wikipedia che Hoppus scrisse i ritornelli e DeLonge le strofe. **La scheda segue Wikipedia, che è la più precisa**: scelta giusta.
   **4 su 12.** Con le prime otto: **nove schede, 107 affermazioni, 27 non reggono.** Ne resta una.
 
+- **15 settembre 2026 — Campione casuale, 9 di 10, corretta: `feeling-this`.**
+  Tolta la durata inventata («per un'ora») e l'anno non documentato («Nel 2020», sostituito con «in una diretta su Twitch»). Tolta l'affermazione non sostenuta sulle «firme sonore più riconoscibili». Il superlativo spostato dal finale a cappella (che Wikipedia non definisce così) alla sezione del ritornello prima del bridge, dove la fonte lo mette davvero — l'a cappella resta in scheda per quello che è, senza il superlativo indebito. Aggiunta l'omissione che spiega il brano: traccia d'apertura dell'album, scelta come primo singolo per introdurre la nuova direzione della band.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: nulla di nuovo. Resta `giovani-wannabe`, decimo e ultimo del campione casuale, non ancora assegnato.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
