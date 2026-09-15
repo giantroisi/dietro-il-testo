@@ -3013,6 +3013,16 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa (`genera-sito.mjs`, `check-coerenza.mjs`, `check-completezza.mjs`, `check-attribuzioni.mjs`, `check-livelli.mjs`, `check-nature.mjs --frasi`, `check-virgolette.mjs --versi`) rieseguita dopo ogni scheda, sempre pulita. Tre commit, tutti pushati. Le dieci schede/domini sospetti sono stati riaperti uno per uno in browser per verificare il tipo di blocco.
 **Aperto**: le sei schede più esposte elencate sopra restano da correggere — servono fonti alternative leggibili (per `easier` e `shes-kinda-hot`/`shape-of-you`, in particolare, l'unica fonte B citata è irraggiungibile). Restano anche gli altri sei del campione casuale (`gli-uomini-e-le-donne-sono-uguali`, `back-in-black`, `hard-as-a-rock`, `albachiara`, `feeling-this`, `giovani-wannabe`), non ancora assegnati.
 
+- **15 settembre 2026 — Campione casuale, 4 di 10, corretta: `goodbye-malinconia` non apre l'album.**
+  - **ERRORE DI FATTO**: "questo brano d'apertura" — `Goodbye Malinconia` non apre "Il sogno eretico" (i primi brani sono `Nessun dorma`/`Tutti dormano`, poi `Chi se ne frega della musica`); era primo **estratto**, non prima **traccia**. Corretto.
+  - **NESSO NON SOSTENUTO**: la scheda legava le figure eretiche del disco (Giovanna d'Arco, Galileo, Savonarola) alla scelta di *questa* canzone. Sono il materiale di altri due brani (`Sono il tuo sogno eretico`, `Il dito medio di Galileo`). Riscritto distinguendo il tema generale dell'album dall'angolo proprio di questa canzone.
+  - **LA FRASE ICONICA CONTRADDICEVA L'ARTISTA**: il titolo non è "un saluto quasi liberatorio" — Caparezza lo ha descritto come una resa («Ok, basta combattere, andiamocene!»). Riscritta.
+  - Tolto il superlativo "il verso più citato".
+  - **Aggiunta** la cosa più notevole successa a questa canzone, assente dalla scheda: la polemica col ministro Gianfranco Rotondi e la risposta di Caparezza.
+  - **Fonte sostituita**: la fonte Rockol citata era una video-intervista, non verificabile per stringa. Trovato un secondo articolo Rockol (testuale, stesso dominio già classificato B) che copre sia la citazione di Caparezza sulle figure eretiche sia la lettura della canzone come ritratto amaro dell'Italia in crisi. Terza scheda su cinque del campione con una fonte non controllabile leggendo, e la terza in cui si è trovata un'alternativa leggibile sullo stesso dominio invece di attenuare soltanto.
+**Verificato**: pipeline completa rieseguita, pulita (incluso `check-frase-iconica.mjs`, che segnalava altre schede ma non questa). Un commit, pushato.
+**Aperto**: restano sei schede del campione casuale non ancora assegnate (`gli-uomini-e-le-donne-sono-uguali`, `back-in-black`, `hard-as-a-rock`, `albachiara`, `feeling-this`, `giovani-wannabe`).
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
