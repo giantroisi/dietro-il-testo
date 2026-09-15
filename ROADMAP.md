@@ -3048,6 +3048,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - L'unica cosa discutibile è «il momento **più ricordato**», che altrove ho segnato come superlativo: qui però Wikipedia dice che quel riff è fra i più riconoscibili della storia dell'hard rock e Metal Hammer lo chiama uno dei più grandi di sempre. **La sostanza c'è**, e non la conto come rilievo. La differenza fra questo caso e gli altri è che qui il superlativo è documentato.
   **13 su 13.** Con le prime cinque: **sei schede, 70 affermazioni, 17 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 6 di 10: `back-in-black`, nessuna correzione.**
+  Tredici affermazioni su tredici reggono. Impostati solo `naturaCorpo` (`[["F","D"],["I","F"]]`) e `ultimaVerifica`, come richiesto — niente altro da toccare.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: nulla di nuovo su questa scheda.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

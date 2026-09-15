@@ -39,35 +39,6 @@ data dell'album. Dettagli nel registro.)
 
 ---
 
-## 15 settembre 2026 — campione casuale, 6: `back-in-black` E' PULITA
-
-```
-`back-in-black`: TREDICI AFFERMAZIONI SU TREDICI REGGONO. E' la prima del
-campione casuale che non ha bisogno di correzioni, e te lo scrivo con la stessa
-precisione con cui ti mando gli errori.
-
-Reggono tutte, testuali su Wikipedia: i tre autori con Brian Johnson, la title
-track del settimo album, aprile-maggio 1980 ai Compass Point di Nassau, Mutt
-Lange, il tributo a Bon Scott morto nel febbraio dello stesso anno, il riff fra
-i piu' riconoscibili della storia dell'hard rock, il secondo posto VH1 del
-2009, il ritorno in classifica nel Regno Unito nel 2012 col primo posto fra i
-brani rock.
-La citazione di Metal Hammer e' resa alla lettera ("un mostro di tre accordi"
-per "three-chord monster of a riff"), e quella di Johnson a Mojo e' resa bene,
-con la richiesta della band al posto giusto.
-
-E UNA COSA CHE VOGLIO NOTARE. Il passaggio di Wikipedia che hai usato CONTIENE
-DENTRO DI SE' UN PEZZO DEL TESTO della canzone, citato da Johnson mentre
-racconta. Tu hai preso il racconto e hai LASCIATO FUORI IL VERSO: hai scritto
-che i compagni riconobbero la vita di Bon in quei versi, senza riprodurli.
-Avevi la tentazione servita dentro la fonte e non ci sei cascato. E' lo stesso
-che avevi fatto con all-the-small-things.
-
-"il momento PIU' RICORDATO" nella frase iconica: altrove te l'ho segnato come
-superlativo, qui NO e ti spiego perche'. Wikipedia dice che quel riff e' fra i
-piu' riconoscibili della storia dell'hard rock e Metal Hammer lo chiama uno dei
-piu' grandi di sempre. La sostanza c'e'. La differenza fra un superlativo da
-togliere e uno da tenere e' se e' documentato, non se e' un superlativo.
-
-DA FARE: solo naturaCorpo e ultimaVerifica alla data di oggi. Niente altro.
-```
+(`back-in-black`, sesta del campione casuale: tredici affermazioni su tredici
+reggevano, nessuna correzione — impostati solo naturaCorpo e ultimaVerifica
+il 15 settembre 2026, un commit. Dettagli nel registro.)
