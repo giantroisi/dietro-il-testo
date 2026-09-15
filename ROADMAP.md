@@ -2970,6 +2970,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Una cosa che la scheda ha fatto bene e va notata**: Wikipedia, sul passaggio dei cannoni, si contraddice — racconta l'aneddoto e poi aggiunge che le riprese vere furono fatte il mese dopo, perché il camion di registrazione era altrove durante il matrimonio. **La scheda non è caduta nella contraddizione** perché ha poggiato sulla fonte migliore, Louder, che è firmata Mick Wall per Classic Rock e racconta la scena in modo coerente. È il comportamento giusto davanti a una fonte che dubita di sé stessa.
   **4 su 13 — il 31%.** È **una scheda sola** e non si estrapola niente: serve per questo che il campione è di dieci.
 
+- **15 settembre 2026 — Campione casuale, 2 di 10: `iron-man`. Dodici affermazioni, tre non reggono, e una è un'origine inventata.**
+  **Regge quasi tutto, e le citazioni sono rese con cura.** La frase di Ozzy, la passione di Butler per la fantascienza all'epoca della corsa allo spazio, i riferimenti a guerra, politica e inquinamento voluti per rendere il racconto attuale, la risposta secca sul supereroe Marvel — **tutte testuali su Louder**, e la traduzione è fedele. Regge anche tutta la trama: l'uomo che va nel futuro, l'apocalisse, il campo magnetico, la creatura muta derisa che finisce per provocare la fine che aveva visto. E regge la difficoltà di Bill Ward in studio coi microfoni del 1970.
+  - **INVENTATA, ed è l'origine del riff.** La scheda dice che Tony Iommi compose il riff «in sala prove, **ispirandosi al ritmo di grancassa che il batterista Bill Ward stava suonando in quel momento**». **In nessuna delle due fonti c'è niente del genere.** Tutt'e due parlano della grancassa di Ward in un solo punto e per un solo motivo: **la difficoltà tecnica di registrarla in studio**, coi microfoni del 1970. La scheda ha preso un problema di microfonazione e ne ha fatto la scintilla creativa di uno dei riff più famosi del metal. È la compressione che inventa un nesso di causa, ed è il difetto tipico delle biografie ritrovato in una scheda di canzone.
+  - **NON DOCUMENTATA**: «registrato in **appena tre giorni** nel giugno 1970». Il giugno 1970 è su Wikipedia; i tre giorni non ci sono, né lì né su Louder.
+  - **SUPERLATIVO**: «il momento **più citato** è il finale della storia».
+  - **Da attenuare**: la frase di Ozzy è data come citazione testuale, ma Butler la introduce dicendo che **non ricorda esattamente** cosa disse — «era qualcosa tipo». Le virgolette promettono più di quanto la fonte dia.
+  - **Omissione che vale la pena**: Wikipedia aggiunge che Butler, cresciuto in una famiglia cattolica, pensava al protagonista come a **un'allegoria di Cristo** — un Cristo che invece di perdonare si vendica. È la cosa più interessante della pagina e la scheda non ce l'ha.
+  **3 su 12, il 25%.** Con la prima: **due schede, 25 affermazioni, 7 non reggono.** Restano otto.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
