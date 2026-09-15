@@ -9786,16 +9786,17 @@
     "ascoltiTesto": "5,8 mln ascolti",
     "spotifyId": "3REzU1a5ZLJDFxFWkcBO2c",
     "corpo": [
-      "Pubblicata il 28 gennaio 2011 come primo singolo del quinto album in studio, \"Il sogno eretico\", in duetto con il cantante britannico Tony Hadley, storica voce degli Spandau Ballet — un tributo, anche musicale, alle sonorità synth pop degli anni Ottanta. Presentando il disco a Rockol, Caparezza ha spiegato che l'intero album ruota attorno al concetto di eresia, un tema a cui è sempre stato affascinato e che, tra Giovanna d'Arco, Galileo e Savonarola, si ritrova anche nella scelta di questo brano d'apertura.",
-      "Caparezza ha raccontato che il brano nacque a Londra, dopo aver parlato con alcuni dei tanti italiani emigrati lì, che gli confidarono che purtroppo non sarebbero tornati nella nazione in cui non riuscivano più a vivere. Il testo gioca sull'omonimia della parola \"Malinconia\", che indica insieme uno stato d'animo e — in chiave metaforica — uno Stato vero e proprio, quello italiano."
+      "Pubblicato il 28 gennaio 2011 come primo estratto dal quinto album in studio, \"Il sogno eretico\", in duetto con il cantante britannico Tony Hadley, storica voce degli Spandau Ballet — un tributo, anche musicale, alle sonorità synth pop degli anni Ottanta. Caparezza ha spiegato che il concetto di fondo dell'album è l'eresia, perché «molti dei pezzi che avevo scritto parlavano di personaggi eretici: Giovanna D'Arco, Galileo e Savonarola» — figure che compaiono in altri brani del disco, come \"Sono il tuo sogno eretico\" e \"Il dito medio di Galileo\". Goodbye Malinconia segue invece un'altra strada, fotografando a modo suo l'Italia in crisi, fra emigrazione e un futuro che non si annuncia migliore.",
+      "Caparezza ha raccontato che il brano nacque a Londra, dopo aver parlato con alcuni dei tanti italiani emigrati lì, che gli confidarono che purtroppo non sarebbero tornati nella nazione in cui non riuscivano più a vivere. Il testo gioca sull'omonimia della parola \"Malinconia\", che indica insieme uno stato d'animo e — in chiave metaforica — uno Stato vero e proprio, quello italiano.",
+      "Il video del brano suscitò la polemica del ministro Gianfranco Rotondi, che accusò Caparezza di essersi associato a «un'operazione contro il proprio paese». Caparezza rispose in diverse interviste, spiegando di aver voluto fotografare un momento vissuto in prima persona e precisando che nel testo «non c'è una sola parola contro Milano: ci ho solo girato il video»."
     ],
-    "fraseIconica": "Il titolo stesso è il verso più citato: un saluto, quasi liberatorio, rivolto alla malinconia. Primo singolo de \"Il sogno eretico\" (2011), in duetto con Tony Hadley degli Spandau Ballet, nacque dopo conversazioni londinesi con emigrati italiani che non pensavano di poter tornare in un Paese — la \"Malinconia\" del titolo, gioco di parole fra stato d'animo e Stato — in cui non riuscivano più a vivere.",
+    "fraseIconica": "Il titolo gioca sull'omonimia di \"Malinconia\", che è insieme uno stato d'animo e — nella metafora del brano — uno Stato, quello italiano. Non è un saluto liberatorio: lo stesso Caparezza lo ha descritto come una resa, «come se ad un certo punto io dicessi: \"Ok, basta combattere, andiamocene!\"».",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/caparezza/1916071/",
     "fonti": [
       {
-        "url": "https://www.rockol.it/news-214783/il-ritorno-di-caparezza-con-il-sogno-eretico-ecco-la-nostra-video-intervista",
-        "nome": "Rockol, 24 febbraio 2011",
+        "url": "https://www.rockol.it/news-735597/caparezza-anniversario-album-il-sogno-eretico-recensione-video",
+        "nome": "Rockol",
         "ruolo": "storia"
       },
       {
@@ -9804,7 +9805,23 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": []
+    "temi": [],
+    "naturaCorpo": [
+      [
+        "F",
+        "D",
+        "I"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "D"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "non-me-lo-posso-permettere",
