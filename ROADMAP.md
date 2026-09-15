@@ -3371,6 +3371,7 @@ Prima di ogni pubblicazione devono passare:
 - prova automatica di ricerca, filtro, apertura, Indietro e condivisione URL;
 - test mobile e tastiera su un campione rappresentativo;
 - `scripts/check-seo.mjs` (F64): titoli, descrizioni, H1, canonical, sitemap, collegamenti interni e soglie di contenuto per categoria di pagina.
+- `scripts/check-citazioni-nude.mjs` (15 settembre 2026): dentro la frase iconica, ogni citazione fra virgolette di 3+ parole deve avere davanti **chi l'ha detta** oppure **di che opera è il titolo**. Se non ha né l'uno né l'altro è una **citazione nuda**, e in una scheda di canzone una citazione nuda è quasi sempre un verso. Il controllo **non stampa mai il testo fra virgolette**: stampa lo slug, quante parole sono e le parole che le precedono — se il verso finisse nell'output finirebbe anche nella sessione di chi deve toglierlo, e quella sessione si blocca.
 
 ## 9. Definizione di “fatto”
 
