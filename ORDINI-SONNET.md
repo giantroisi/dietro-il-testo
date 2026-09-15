@@ -101,3 +101,54 @@ frase contraddetta ("tredicenne" invece di dodicenne), corretta; judas-priest
 reggeva quasi tutta, caduto solo il contorno (luogo, due mesi, un primato
 non sostenuto). Dettagli nel registro. Restano due voci del campione —
 fleetwood-mac, al-bano-e-romina-power — non ancora assegnate.)
+
+---
+
+## 15 settembre 2026 — campione biografie: fleetwood-mac e al-bano (le ultime due)
+
+```
+Ultime due voci del campione. Sono le migliori delle otto, e c'e' poco da
+fare — ma quel poco e' interessante.
+dati/artisti.json, un commit per voce, messaggio da file, niente git diff.
+
+--- 7) fleetwood-mac — 5 fonti, 1 affermazione su 16 non regge
+
+  Quasi tutta la voce regge, comprese le cose che sembravano piu' fragili.
+  Il dettaglio del REGALO DI COMPLEANNO — la sessione che Mayall pago' a
+  Green, dove fu inciso il brano intitolato "Fleetwood Mac" — e' testuale
+  in Louder. Regge anche il subentro a Clapton nel 1966, il debutto
+  dell'agosto 1967 e McVie che subentra "un mese dopo", cioe' a settembre.
+
+  NON CONFERMATA: "Formati a Londra". Nessuna delle cinque fonti lo dice.
+  Il debutto e' a Windsor, Green e' londinese, la sessione del nome e' agli
+  studi Decca di West Hampstead — ma che la band si sia FORMATA a Londra
+  non e' affermato da nessuna. O lo documenti, o togli "a Londra".
+
+  DUE COSE CHE NON HO POTUTO CHIUDERE, e che quindi NON sono rilievi: l'anno
+  di uscita di Green (1970) e di Spencer (1971). Le pagine sono lunghissime
+  e la mia lettura si e' fermata prima. Se le apri tu e le trovi, bene; se
+  non le trovi, allora diventano un rilievo. Non ti sto dicendo che sono
+  sbagliate: ti sto dicendo che nessuno le ha ancora verificate.
+
+--- 8) al-bano-e-romina-power — 5 fonti, 1 su 10, ed e' un caso di R2-bis
+
+  REGGONO: l'incontro sul set di "Nel sole" nel 1967 (il Giornale lo scrive
+  testualmente); il matrimonio del 1970; l'Eurovision 1976; Sanremo 1984 con
+  "Ci sara'"; Sharazan e Felicita'; il ritorno dal 2013.
+
+  IL PUNTO: "duo musicale attivo fino alla separazione del 1999".
+  Il 1999 e' giusto — ma e' la fine DELLA COPPIA, e il Giornale lo conferma
+  cosi' ("iniziata nel 1967... si e' conclusa trentadue anni dopo").
+  Come fine DEL DUO, le altre due fonti che citi dicono altro:
+    - Treccani: "Tornato solista nel 1996"
+    - il Giornale (l'altro pezzo): nel 2013 il concerto di riappacificazione
+      arriva dopo "quasi vent'anni di separazione", e nel 2015 il primo
+      concerto insieme "dopo ventuno anni" — cioe' intorno al 1994.
+  La voce sta usando la data della coppia per datare il duo. Sono due cose
+  diverse e le tue fonti le tengono separate.
+  NON SCEGLIERE una delle tre date. O DISTINGUI (la coppia si separa nel
+  1999, il duo aveva gia' smesso prima), o sali di livello e trovi una fonte
+  che dica quando il duo ha smesso di incidere e cantare insieme.
+
+--- ultimaVerifica alla data di oggi sulle voci che correggi.
+```
