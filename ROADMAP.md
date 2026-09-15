@@ -3165,6 +3165,13 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **Conto aggiornato: 5 promesse aperte su 37 — 3 reggono, 1 regge con due dettagli da attenuare, 1 non regge (e vale per tre schede).** Restano 32.
   **Una cosa che si vede già.** Le promesse che cadono o si incrinano sono quelle **più specifiche**: un anno, un tipo di fonte, l'attribuzione di una copia. Quelle generiche — «riporta la citazione di X a Y» — reggono. **È lo stesso difetto che il campione casuale ha trovato dentro le schede**: il dettaglio preciso aggiunto per dare solidità è il primo a non avere niente sotto.
 
+- **15 settembre 2026 — Promesse nei nomi delle fonti, altre due: `crawling` e `uprising`. Reggono tutt'e due, con una imprecisione di parola.**
+  - **REGGE — `uprising`**: la fonte MuseWiki è annunciata come quella che «raccoglie le note ufficiali dell'album e **le interviste a Mojo e FHM, 2009**». Sulla pagina ci sono tutt'e due: un articolo **Mojo del luglio 2009** citato per esteso nelle note, e un passaggio **FHM** sul quinto album. Promessa mantenuta.
+  - **REGGE, con una parola imprecisa — `crawling`**: la fonte Linkinpedia è annunciata come quella che «raccoglie le note di copertina di Mike Shinoda per **LP Underground Eleven, 2011**, e **due interviste del 2000 e 2002**». Sulla pagina — che sta sotto il titolo di lavorazione del brano, «Blue» — **LP Underground Eleven compare quattro volte**, c'è il rimando a una **Shoutweb Interview del 2000** con Shinoda, e c'è il **17 luglio 2002**. Tutto il materiale promesso è lì.
+    - **Ma «due interviste» non è esatto**: quella del 2000 è un'intervista, quella del 2002 è **Mike che scrive sul sito ufficiale della band** — un rapporto di studio, non un'intervista. Una parola sola, e cambia cosa il lettore si aspetta di trovare.
+  **Conto: 7 promesse su 37 aperte — 5 reggono, 1 regge con due dettagli da attenuare (`hey-jude`), 1 non regge (e vale per tre schede).** Restano 30.
+  **La regolarità si conferma, e ormai è abbastanza netta da scriverla come previsione.** In sette promesse, **l'esistenza della fonte regge sempre**: le pagine ci sono, il materiale annunciato c'è, e chi le ha scritte le aveva davvero aperte. **A rompersi è sempre la qualificazione**: l'anno (`hey-jude`, 1974), il tipo di documento (`hey-jude`, «conferenza stampa»; `crawling`, «interviste»), l'attribuzione di una copia (il blog di Metal Fucking Rocks). **Non è disonestà: è la parola in più messa per far sembrare la fonte più solida di quanto serva.** La fonte era già solida senza.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
