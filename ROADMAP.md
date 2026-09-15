@@ -3067,6 +3067,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **È la seconda e la terza volta in questo campione che dubito di una scheda prima di aver letto la fonte che la sostiene.** La regola che ne esce vale per me esattamente come per chi scrive: **il sospetto non è un rilievo finché non ha aperto la pagina.**
   **3 su 14.** Con le prime sei: **sette schede, 84 affermazioni, 20 non reggono.**
 
+- **15 settembre 2026 — Campione casuale, 7 di 10, corretta: `hard-as-a-rock`.**
+  Fissati i tre difetti: undici anni (non dodici) per il ritorno di Phil Rudd; tolta la chiusa «ma il risultato finale ripagò lo sforzo», che Louder non dà e che contraddice il suo stesso giudizio sull'album; riff d'apertura riattribuito ad Angus Young (unica fonte che nomina un chitarrista, la recensione NME). Le due divergenze fra fonti — studio (Record Plant/Power Station) e data del singolo (18/4 settembre) — non sono state sciolte a caso: **dichiarate entrambe nel testo**, come richiesto. Corretto anche il nome storico della classifica (Album Rock Tracks nel 1995).
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: nulla di nuovo.
+
 - **15 settembre 2026 — Campione casuale, 8 di 10: `albachiara`. Tre non reggono, e per la quarta volta un mio sospetto cade appena apro la seconda fonte.**
   **Regge la genesi, ed è testuale**: scritta di getto mentre la madre cucinava, la ragazzina di tredici anni vista passare alla fermata della corriera di Zocca, e la ristampa dell'album col titolo `Albachiara` dopo il successo del brano. Regge anche il seguito: la rivelazione alla «musa», l'imbarazzo, e `Una canzone per te` nata da quell'episodio.
   - **NON DOCUMENTATA**: l'album «uscito il **30 aprile 1979**». La data non è in nessuna delle due fonti — Wikipedia dà il **25 maggio 1979** per il singolo, e dell'album non dice niente.
@@ -3076,6 +3081,11 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **OMISSIONE NOTEVOLE**: Wikipedia racconta che dopo la morte di Alan Taylor — accreditato come coautore del testo — Vasco rivelò di **averlo scritto da solo**, e di avergli lasciato metà dei diritti **in cambio di una chitarra**, aggiungendo di non essersene pentito. È il fatto più sorprendente della pagina, e manca.
   **E IL MIO ERRORE, che è il quarto uguale in questo campione.** Letta la sola Wikipedia, avevo segnato come non sostenute sia la genesi («di getto, mentre la madre cucinava», che Wikipedia non ha) sia la reazione della ragazza (Wikipedia dice «sorpresa»). **La seconda fonte citata le contiene tutt'e due**, e con più dettaglio. **Quattro volte in otto schede ho formulato un rilievo prima di aver aperto tutte le fonti che la scheda cita.** La regola vale per me come per chi scrive, e la scrivo per la seconda volta: **un rilievo non esiste finché non ha letto ogni fonte citata, non la prima che basta a sostenerlo.**
   **3 su 11.** Con le prime sette: **otto schede, 95 affermazioni, 23 non reggono.**
+
+- **15 settembre 2026 — Campione casuale, 8 di 10, corretta: `albachiara`.**
+  Data dell'album documentata (30 aprile 1979, trovata sulla voce Wikipedia dell'album e aggiunta come fonte). Tolte l'attribuzione vaga alla «critica musicale» e la frase «mai esplicito», smentita dalla stessa fonte. Tolto il superlativo. Riscritta la scena del riconoscimento con la sequenza intera — scherzo, poi «troppo piccola», poi la fuga offesa — invece della sintesi che ne buttava via la parte più memorabile. Aggiunta la rivelazione di Vasco su Alan Taylor: testo scritto da solo, metà dei diritti ceduti per una chitarra.
+**Verificato**: pipeline completa rieseguita, pulita. Un commit, pushato.
+**Aperto**: nulla di nuovo.
 
 - **15 settembre 2026 — Campione casuale, 9 di 10: `feeling-this`. Quattro non reggono, e la fonte indica un altro momento memorabile.**
   **Regge il cuore del racconto, ed è testuale.** Scritta in un solo giorno; Hoppus e DeLonge chiusi in stanze separate senza essersi parlati prima, e la scoperta di aver scritto tutt'e due sul sesso — lui il lato carnale nelle strofe, Hoppus quello romantico nel ritornello. E soprattutto **il finale a cappella nato per errore**: il tecnico che automatizza la dissolvenza della musica e dimentica le tracce vocali, Hoppus **che in quel periodo ascoltava i Beach Boys** e apprezza l'intreccio delle voci rimaste sole, la band che decide di tenerlo. Tutto alla lettera su Wikipedia. La citazione di Hoppus — l'apice della band, il meglio di tutti loro — è **tradotta con fedeltà** da Far Out.
