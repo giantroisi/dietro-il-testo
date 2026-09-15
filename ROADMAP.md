@@ -2935,6 +2935,14 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   **IL BUCO DI METODO, e riguarda me.** Le 18 schede riaperte **non sono un campione casuale**: sono le più viste, prese dalla coda ordinata per impressioni. **Quel 14% misura le pagine più lette, non il sito.** Non so se le altre 294 vadano meglio o peggio, e non ho il diritto di estrapolare: potrebbero essere state scritte con più calma o con meno. **In cinque giorni di verifica non ho mai preso un campione casuale**, ed è la misura che manca per rispondere davvero alla domanda «com'è la qualità del sito».
   **Il giudizio, in una riga: il sito è più onesto che accurato.** La sua forza è che dichiara ciò che non ha verificato; la sua debolezza è che la maggior parte non è verificata. Le due cose non si compensano, ma la prima è la condizione per riparare la seconda.
 
+- **15 settembre 2026 — Il campione casuale: estratto e scritto PRIMA di guardarlo.**
+  Le 18 schede riaperte finora erano state scelte **per impressioni**. Quel 14% misura le pagine più lette, non il sito, e non ho mai avuto il diritto di estrapolarlo. Questo è il campione che mancava.
+  **Come è stato estratto, e perché conta.** Non con `Math.random`: con un generatore deterministico e **un seme scritto qui — 20260915**. Chiunque rilanci `node scripts/campione-casuale.mjs` ottiene gli stessi dieci slug. **Il seme è scritto prima dei risultati**: cambiarlo dopo aver visto come va sarebbe scegliere il campione invece di estrarlo, ed è il modo più facile per farsi dire dai numeri quello che si vuole sentire.
+  **La popolazione sono le 258 schede mai riaperte da fuori**, non tutte e 312: le 49 già riaperte sono state anche corrette, e includerle abbasserebbe il tasso d'errore per costruzione.
+  **I dieci estratti**: `for-those-about-to-rock`, `iron-man`, `angel-of-death`, `goodbye-malinconia`, `gli-uomini-e-le-donne-sono-uguali`, `back-in-black`, `hard-as-a-rock`, `albachiara`, `feeling-this`, `giovani-wannabe`.
+  Tre AC/DC su dieci: **è il caso, e va tenuto**. Ripescare per «bilanciare» sarebbe la stessa cosa che cambiare il seme.
+  **Che cosa misurerà.** Il tasso d'errore della scheda media, non della vetrina. È l'unico numero che risponde davvero alla domanda «com'è la qualità del sito» — e finora non ce l'avevamo.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
