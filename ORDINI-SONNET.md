@@ -7,6 +7,46 @@ accumula ordini vecchi diventa un elenco che nessuno legge.
 
 ---
 
+## 15 settembre 2026 — ARRETRATO: nove ordini scritti e mai eseguiti
+
+```
+Controllato scheda per scheda: NOVE degli ordini qui sotto non sono mai stati
+fatti. Non e' un rimprovero - ti sono stati consegnati uno alla volta e quelli
+sui versi hanno avuto la precedenza. Ma l'arretrato adesso e' il collo di
+bottiglia, quindi lavoralo TUTTO da questo file, in quest'ordine, committando
+dopo ogni scheda.
+
+Ogni scheda ha il suo capitolo qui sotto, con i rilievi per esteso. Qui c'e'
+solo l'ordine di lavorazione, per impressioni:
+
+  1. fuori-dal-tunnel  -> gia' fatto, salta
+  2. yes-i-know-my-way (43)          "anglonapoletano" + il 1998 + fonti C
+  3. all-the-small-things (41)       e' PULITA: mettile solo naturaCorpo
+  4. ho-messo-via (37)               "secondo alcune letture" senza dire quali
+  5. aerials (36)                    "di niente" messo in bocca a Malakian
+  6. november-rain (36)              1,5 milioni + Sweet Child al numero 1
+  7. vieni-a-ballare-in-puglia (36)  il disagio di Caparezza + "ballare=morire"
+  8. war-pigs (31)                   LE DUE INVERSIONI, la piu' grave del giro
+  9. wake-me-up-when-september-ends  R2-bis sulla data + "cancro all'esofago"
+ 10. hotel-california (31)           due superlativi
+ 11. black-pearl-jam (29)            la ragione del rifiuto, omessa
+ 12. je-so-pazzo                     Guaitamacchi al posto di Russano
+ 13. would / live-forever            i nei rimasti
+
+E UNA REGOLA NUOVA, perche' il giro non si chiude mai.
+Io riapro una scheda da fuori, elenco i difetti, tu li correggi - e poi il
+bollino non ce lo mette nessuno. Diciotto schede sono state verificate da fuori
+e nessuna lo porta.
+Da adesso: QUANDO CORREGGI UNA SCHEDA DI QUESTO ELENCO, metti ultimaVerifica
+alla data della correzione. Non e' autocertificazione: la verifica esterna c'e'
+gia' stata ed e' scritta nel registro, la correzione la completa. Il bollino a
+quel punto dice il vero.
+Vale SOLO per le schede di questo file. Per una scheda nuova che scrivi tu,
+resta la regola di ieri: ultimaVerifica vuoto, la riapro io.
+```
+
+---
+
 ## In attesa dal 13 settembre 2026 — `yes-i-know-my-way`
 
 ```
