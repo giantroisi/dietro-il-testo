@@ -3195,6 +3195,12 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita dopo ogni voce, sempre pulita. Quattro commit distinti, tutti pushati.
 **Aperto**: restano quattro biografie del campione (`evanescence`, `judas-priest`, `fleetwood-mac`, `al-bano-e-romina-power`), non ancora assegnate.
 
+- **15 settembre 2026 — Campione biografie, altre due corrette: `evanescence`, `judas-priest`.**
+  - **`evanescence`**: l'unica **contraddetta** — «lei tredicenne»: Encyclopedia of Arkansas dice che Amy Lee aveva dodici anni quando la famiglia si trasferì in Arkansas nel 1994. Corretta. Tolto anche «a Little Rock» (le fonti dicono solo «in Arkansas»; la famiglia si trasferì a Maumelle), «lui quattordicenne» (età di Ben Moody non documentata), e «con un'etichetta indipendente» per il demo `Origin` — Encyclopedia of Arkansas dice il contrario: fu `Origin` a portare al contratto discografico, non il contrario. Non aggiunto l'anno di quel contratto: le due fonti divergono (2001 contro 2002) e la scheda già non lo scriveva — resta così, per R2-bis, finché non si trova una fonte che risolva.
+  - **`judas-priest`**: voce complicata — due formazioni, un nome riusato — che reggeva quasi tutta. Caduto solo il contorno: «a Birmingham» come luogo di fondazione (Birmingham è la città di Ernie Chataway, spostata lì), il mese «settembre» 1969, la data «aprile 1974» per l'ingresso di Glenn Tipton (in nessuna delle tre fonti), e il primato non sostenuto di Ian Hill come membro più longevo — tenuto invece il suo ingresso nel 1970, quello sì confermato.
+**Verificato**: pipeline completa rieseguita dopo ogni voce, sempre pulita. Due commit distinti, tutti pushati.
+**Aperto**: restano due biografie del campione (`fleetwood-mac`, `al-bano-e-romina-power`), non ancora assegnate.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:

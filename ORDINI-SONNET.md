@@ -95,57 +95,9 @@ al-bano-e-romina-power — non ancora assegnate.)
 
 ---
 
-## 15 settembre 2026 — campione biografie: evanescence e judas-priest
-
-```
-Altre due voci del campione aperte, tutte le fonti citate riaperte.
-Stessa regola di prima: SE LA FONTE NON LO DICE, NON CI VA — o trovi una
-fonte che lo dica e la aggiungi, o togli il dettaglio.
-dati/artisti.json, un commit per voce, messaggio da file, niente git diff.
-
---- 5) evanescence — 2 fonti, 4 affermazioni su 11 non reggono
-
-  CONTRADDETTA: "lei tredicenne". La Encyclopedia of Arkansas — fonte tua —
-  dice che Amy Lee aveva DODICI anni quando la famiglia si trasferi' in
-  Arkansas nel 1994, l'anno in cui conobbe Moody. Va corretta, non attenuata.
-
-  NON CONFERMATE:
-   - l'incontro "a Little Rock": le due fonti dicono "in Arkansas", e la
-     famiglia Lee si trasferi' a MAUMELLE, non a Little Rock. Little Rock e'
-     la citta' da cui i due fondatori "provengono", non il luogo del campo.
-   - "lui quattordicenne": l'eta' di Ben Moody non e' in nessuna delle due.
-   - "con un'etichetta indipendente" per Origin: nessuna delle due lo dice.
-     Encyclopedia of Arkansas dice il contrario del senso: fu Origin a
-     PORTARE al contratto discografico, dopo.
-
-  REGGONO e non si toccano: l'incontro nel 1994; il campo estivo; l'aver
-  iniziato subito a scrivere insieme; la fondazione nel 1995 (Kerrang! la
-  dice esplicitamente); Childish Intentions e Stricken; il significato del
-  nome; il demo Origin del 2000.
-
-  TRAPPOLA DA SAPERE, non un errore di oggi: le tue due fonti NON concordano
-  sull'anno del contratto con la Wind-up — Encyclopedia of Arkansas dice
-  2001, Kerrang! dice 2002. La scheda oggi non scrive quell'anno, e va bene
-  cosi'. Se un giorno vuoi aggiungerlo, NON SCEGLIERE FRA LE DUE: vale la
-  R2-bis, si sale di livello e si cerca una fonte che risolva.
-
---- 6) judas-priest — 3 fonti, 4 affermazioni su 14 non reggono
-
-  Questa voce e' complicata — due formazioni, un nome riusato, sei
-  musicisti — e REGGE QUASI TUTTA, riga per riga. Cade solo il contorno:
-
-   - "a Birmingham": Blabbermouth dice soltanto che la prima formazione nacque
-     nel 1969. Di Birmingham, sulla pagina, e' Ernie Chataway.
-   - "settembre" 1969: il mese non c'e'.
-   - "nell'aprile 1974" per l'ingresso di Glenn Tipton: in nessuna delle tre.
-     Loudwire conferma le due chitarre soliste Tipton/Downing, ma non la data.
-   - "Ian Hill e' il membro rimasto ininterrottamente in formazione piu' a
-     lungo": nessuna fonte lo afferma. Che sia entrato nel 1970 con i Freight
-     si', quello Blabbermouth lo dice.
-
-  Un luogo, due mesi e un primato. Quattro dettagli che nessun lettore
-  chiedeva e che reggono su niente, in una voce per il resto solida.
-
---- SEMPRE: ultimaVerifica alla data di oggi sulle voci che correggi, e
-  tolta del tutto su quelle che non riesci a chiudere.
-```
+(`evanescence` e `judas-priest`, quinta e sesta del campione biografie,
+corrette il 15 settembre 2026 — un commit ciascuna. evanescence aveva una
+frase contraddetta ("tredicenne" invece di dodicenne), corretta; judas-priest
+reggeva quasi tutta, caduto solo il contorno (luogo, due mesi, un primato
+non sostenuto). Dettagli nel registro. Restano due voci del campione —
+fleetwood-mac, al-bano-e-romina-power — non ancora assegnate.)
