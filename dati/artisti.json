@@ -4499,7 +4499,7 @@
   {
     "slug": "finley",
     "nome": "Finley",
-    "storia": "Formati a Legnano, in Lombardia, nel 2002 con il nome Junkies da un gruppo di amici di scuola, cambiarono nome in Finley l'anno successivo, ispirandosi al cognome della stella NBA Michael Finley. Con la formazione di Pedro (Marco Pedretti, voce), Ka (Carmine Ruggiero, chitarra) e Dani (Danilo Calvio, batteria), presenti sin dal 2002, e Ivan (Ivan Moro, basso), subentrato nel 2011 a Stefano Mantegazza, hanno pubblicato sei album in studio, vendendo oltre 300.000 copie tra album e singoli in Italia, e vinto per due volte il premio Best Italian Act agli MTV Europe Music Awards (2006 e 2008).",
+    "storia": "Formati a Legnano, in Lombardia, nel 2002 con il nome Junkies da un gruppo di amici di scuola, cambiarono nome in Finley l'anno successivo, ispirandosi al cognome della stella NBA Michael Finley. Con la formazione di Pedro (Marco Pedretti, voce), Ka (Carmine Ruggiero, chitarra) e Dani (Danilo Calvio, batteria), presenti sin dal 2002, e Ivan (Ivan Moro, basso), subentrato nel 2011 a Stefano Mantegazza, hanno pubblicato sette album in studio, vendendo oltre 300.000 copie tra album e singoli in Italia, e vinto per due volte il premio Best Italian Act agli MTV Europe Music Awards (2006 e 2008).",
     "album": [
       {
         "titolo": "Tutto è possibile",
@@ -4540,9 +4540,14 @@
         "url": "https://www.rockol.it/news-738331/finley-oggi-band-diventerai-una-star-ritorno-intervista",
         "nome": "Rockol — Mattia Marzi",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Finley_(band)",
+        "nome": "Wikipedia (EN)",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "fleetwood-mac",
