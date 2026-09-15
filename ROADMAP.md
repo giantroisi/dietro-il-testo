@@ -2961,6 +2961,15 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita dopo ogni singola scheda (`genera-sito.mjs`, `check-coerenza.mjs`, `check-attribuzioni.mjs`, `check-livelli.mjs`, `check-virgolette.mjs --versi`), sempre pulita prima del commit successivo. Dodici commit distinti, tutti pushati.
 **Aperto**: `pinodaniele.com` non è ancora classificato in `check-livelli.mjs` (segnalato anche nella correzione di `yes-i-know-my-way`) — stesso schema dei siti ufficiali già in tabella.
 
+- **15 settembre 2026 — Campione casuale, 1 di 10: `for-those-about-to-rock`. Tredici affermazioni, quattro non reggono.**
+  **Reggono, e bene, le due citazioni lunghe.** Quella di Angus Young sui cannoni è **tradotta alla lettera** da Louder — «qualcosa di forte… qualcosa di maschile e rock and roll. E cosa c'è di più maschile di un cannone? Viene caricato, spara e distrugge» — e quella su Robert Graves rende con precisione il «That might fit» detto a Zane Lowe. Reggono anche la title track dell'ottavo album, i tre autori, Mutt Lange alla produzione, il saluto dei gladiatori, e i cannoni napoleonici in scala reale diventati elemento fisso dei concerti.
+  - **DATA SBAGLIATA**: «in un'**intervista del 2020** a Zane Lowe». Wikipedia dice **febbraio 2021**.
+  - **ERRORE DI FATTO, e la scheda si smentisce da sola.** Il corpo dice «i celebri colpi di cannone **che aprono il brano**». Louder dice che i cannoni sono **il preludio al finale incendiario**, non l'apertura. E **la frase iconica della stessa scheda** dice un'altra cosa ancora: «i colpi di cannone **che scandiscono il ritornello**». Tre posizioni diverse per lo stesso suono, due delle quali nella stessa pagina.
+  - **DATA NON DOCUMENTATA**: «trasmesso in diretta TV **il 29 luglio 1981**». Il matrimonio è quel giorno nel mondo, ma **nessuna delle due fonti lo scrive**. Ancora il calcolo del redattore che sembra un fatto documentato: quarta volta.
+  - **SUPERLATIVO**: «sono il **momento più ricordato**». Non lo dice nessuno.
+  **Una cosa che la scheda ha fatto bene e va notata**: Wikipedia, sul passaggio dei cannoni, si contraddice — racconta l'aneddoto e poi aggiunge che le riprese vere furono fatte il mese dopo, perché il camion di registrazione era altrove durante il matrimonio. **La scheda non è caduta nella contraddizione** perché ha poggiato sulla fonte migliore, Louder, che è firmata Mick Wall per Classic Rock e racconta la scena in modo coerente. È il comportamento giusto davanti a una fonte che dubita di sé stessa.
+  **4 su 13 — il 31%.** È **una scheda sola** e non si estrapola niente: serve per questo che il campione è di dieci.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
