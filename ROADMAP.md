@@ -2920,6 +2920,21 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: cinque pagine riaperte nel browser (Treccani, Rolling Stone Italia, Il Fatto Quotidiano, Discogs r985747, battiato.it — sia la pagina "Fetus" sia la biografia) e lette per intero. Pipeline completa: `genera-sito.mjs`, `check-coerenza.mjs` (0), `check-completezza.mjs` (0 mancanze nuove), `check-attribuzioni.mjs` (0), `check-livelli.mjs` (FRENO 53/53, invariato — la biografia aveva già fonti A/B). Copiato in root, committato (`1b03902e`), pushato.
 **Aperto**: nessuno per questa biografia.
 
+- **15 settembre 2026 — Stato della qualità, per numeri e non per impressione. E la misura che manca.**
+  **Quello che è solido.** Nessuna scheda è senza fonte: **zero su 312**, con una media di **3,1 fonti**. Nessuna testata è nominata senza essere citata fra le fonti: **zero casi**, contro i 60 della prima misura di `check-attribuzioni`. Nessun verso riprodotto: la sezione 3 è pulita per quanto il controllo arrivi a vedere. E il sito **dice al lettore quali schede sono state riaperte e quali no**, pubblicando su `/metodo` il proprio tasso d'errore: pochissimi siti lo fanno.
+  **Quello che è misurato, ed è la parte scomoda.**
+  - **Schede di canzone, 18 riaperte da fuori: circa 214 affermazioni, 30 non reggono. Il 14%.** Circa **una affermazione su sette**.
+  - **Biografie, due campioni indipendenti: il 46% e il 33%.** Fra una su tre e una su due.
+  - Quasi mai invenzioni: sono **date, nomi d'etichetta, crediti, cornici temporali** aggiunti mentre si scriveva, e **dichiarazioni messe in bocca all'artista** che nessuna fonte contiene. Quest'ultimo caso è tornato **cinque volte in cinque giorni**.
+  **Quello che non sappiamo, ed è la risposta vera alla domanda.**
+  - **263 schede su 312 non sono mai state riaperte da nessuno che non le avesse scritte.** Il bollino ce l'hanno 49.
+  - **102 biografie su 104 sono nella stessa condizione, e portano tutte il bollino.**
+  - **51 schede (16%) non hanno nessuna fonte di livello A o B**: tutto quello che dicono poggia su fonti che la sezione 5 non accetta come prova per le intenzioni dell'autore.
+  - **322 citazioni fra virgolette sono "dichiarate"**, cioè promettono che qualcuno ha pronunciato esattamente quelle parole. Ne sono state verificate poche decine.
+  - **37 "promesse" dentro i nomi delle fonti** — «raccoglie interviste dirette a», «copia integrale su» — mai verificate. Nel campione 8 **una di queste era falsa**.
+  **IL BUCO DI METODO, e riguarda me.** Le 18 schede riaperte **non sono un campione casuale**: sono le più viste, prese dalla coda ordinata per impressioni. **Quel 14% misura le pagine più lette, non il sito.** Non so se le altre 294 vadano meglio o peggio, e non ho il diritto di estrapolare: potrebbero essere state scritte con più calma o con meno. **In cinque giorni di verifica non ho mai preso un campione casuale**, ed è la misura che manca per rispondere davvero alla domanda «com'è la qualità del sito».
+  **Il giudizio, in una riga: il sito è più onesto che accurato.** La sua forza è che dichiara ciò che non ha verificato; la sua debolezza è che la maggior parte non è verificata. Le due cose non si compensano, ma la prima è la condizione per riparare la seconda.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
