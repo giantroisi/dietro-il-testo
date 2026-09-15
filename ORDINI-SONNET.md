@@ -82,3 +82,102 @@ settembre 2026, un commit solo: tenuto il nome della testata e cosa contiene,
 tolti anni, tipi di documento e attribuzioni non verificabili aprendo la
 pagina. Lasciate intatte le tre già confermate reggere — seven-nation-army,
 nihilist-blues, uprising. Dettagli e le 15 schede toccate nel registro.)
+
+---
+
+## 15 settembre 2026 — campione biografie: le prime quattro, corrette
+
+```
+CAMPIONE CASUALE SULLE BIOGRAFIE (seme 20260915, 8 voci). Ne ho aperte quattro
+e riaperto ogni fonte che citano, affermazione per affermazione. Queste sono
+le correzioni verificate. Le altre quattro arrivano dopo.
+
+REGOLA UNICA, la stessa delle promesse: SE LA FONTE NON LO DICE, NON CI VA.
+Dove il fatto ti risulta vero ma la fonte citata non lo contiene, hai due
+strade, e sono tutt'e due buone: TROVI UNA FONTE CHE LO DICA e la aggiungi,
+oppure TOGLI IL DETTAGLIO. Quello che non si puo' fare e' lasciarlo li'.
+
+Tutto in dati/artisti.json. Un commit per voce, messaggio da file
+(git commit -F), e non lanciare git diff.
+
+--- 1) adele — 1 fonte sola (Britannica), 3 affermazioni su 10 non reggono
+
+  a) "si diplomo' alla BRIT School nel 2006"
+     Britannica NON nomina la BRIT School: scrive "una scuola secondaria
+     statale per le arti dello spettacolo". E per l'anno dice che firmo' con
+     la XL "diversi mesi dopo il diploma", nel 2006 — quindi il diploma puo'
+     essere del 2005. Due dettagli, nessuno dei due sulla pagina.
+  b) "oltre 120 milioni di copie"
+     Cifra ASSENTE. Britannica da' 20 milioni per 21 e oltre 20 per 25, e
+     nessun totale di carriera. E' il difetto tipico: la cifra tonda messa
+     per chiudere il paragrafo.
+  c) La biografia si ferma a 25 (2015), ma la stessa fonte racconta anche
+     30 (2021) e "Easy on Me". Non e' un errore, e' un'occasione: la fonte
+     che hai gia' aperto contiene un pezzo di storia che manca.
+
+--- 2) finley — 1 fonte sola (Rockol), 9 affermazioni su 13 non reggono
+
+  REGGONO: Legnano; tutta la formazione con nomi, strumenti e soprannomi;
+  Ivan Moro subentrato a Stefano Mantegazza; le oltre 300.000 copie fra
+  album e singoli. Queste non toccarle: la fonte le dice per davvero.
+
+  NON REGGONO (nessuna e' sulla pagina di Rockol):
+     - la fondazione nel 2002
+     - il nome precedente "Junkies"
+     - "da un gruppo di amici di scuola"
+     - il cambio di nome l'anno successivo
+     - l'origine del nome dal cestista NBA Michael Finley
+     - "presenti sin dal 2002"
+     - "subentrato nel 2011"
+     - i sei album in studio
+     - i due Best Italian Act agli MTV Europe Music Awards (2006 e 2008)
+
+  Nove dettagli su tredici appesi a una fonte che non li contiene. Questa
+  voce ha bisogno di una SECONDA FONTE vera, non di una sforbiciata: se
+  togli tutto quello che Rockol non dice, resta mezza riga.
+
+--- 3) a-ha — 2 fonti, 5 affermazioni su 11 non reggono
+
+  NON CONFERMATE su nessuna delle due:
+     - i ruoli "chitarrista" (Waaktaar) e "tastierista" (Furuholmen)
+     - l'aver fatto ascoltare a Harket una prima versione di "Take on Me"
+       prima di chiamarlo nel gruppo
+     - il nome del gruppo trovato per caso nel quaderno di appunti di Waaktaar
+     - lo scioglimento ANNUNCIATO nel 2009
+     - l'ultimo concerto a Oslo nel dicembre 2010
+  AllMusic dice soltanto che si sciolsero nel 2010. The Electricity Club
+  conferma che a-ha nacque ufficialmente nel settembre 1982, il giorno del
+  23esimo compleanno di Harket: questo si', ed e' piu' preciso di quel che
+  hai scritto.
+
+--- 4) fulminacci — 2 fonti, 4 su 9 non reggono, e UNA E' CONTRADDETTA
+
+  CONTRADDETTA: "Esordisce nella musica nel 2019 con il singolo
+  'Borghese in borghese'". Inside Music — la fonte che citi tu — scrive che
+  "La vita veramente" fu anticipato dal brano "Una sera" e POI dai singoli
+  "La vita veramente" e "Borghese in borghese". L'esordio non e' quello.
+  Questa va corretta, non attenuata.
+
+  NON CONFERMATE:
+     - nato nel 1997 (Quotidiano.net dice "28 anni" a febbraio 2026: puo'
+       essere 1997 o 1998)
+     - "comincia a scrivere canzoni da autodidatta fin da ragazzo"
+     - il terzo album "Infinito +1" del 2023
+
+--- E UNA COSA CHE VALE PER TUTT'E QUATTRO
+
+Tutte e quattro portano ultimaVerifica 2026-09-08, cioe' dicono al lettore
+di essere state verificate. Finley lo dice con nove affermazioni su tredici
+che la sua unica fonte non contiene.
+QUANDO CORREGGI UNA VOCE, RIMETTI ultimaVerifica ALLA DATA DI OGGI. Se una
+voce non riesci a sistemarla tutta, TOGLI ultimaVerifica invece di lasciarla
+vecchia: nessun bollino e' meglio di un bollino che non e' vero.
+
+--- IL FILO, perche' e' sempre lo stesso
+
+Guarda cosa cade: il nome della scuola, il cognome del cestista, la cifra
+tonda di copie, l'anno esatto dello scioglimento. Nessuno di questi
+dettagli serviva. Sono tutti dettagli AGGIUNTI PER DARE SOLIDITA', ed e'
+esattamente lo stesso difetto delle 37 promesse e delle dieci schede del
+campione casuale. Non e' distrazione: e' un'abitudine di scrittura.
+```
