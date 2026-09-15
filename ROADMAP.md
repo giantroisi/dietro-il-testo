@@ -3201,6 +3201,12 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
 **Verificato**: pipeline completa rieseguita dopo ogni voce, sempre pulita. Due commit distinti, tutti pushati.
 **Aperto**: restano due biografie del campione (`fleetwood-mac`, `al-bano-e-romina-power`), non ancora assegnate.
 
+- **15 settembre 2026 — Campione biografie, ultime due corrette: `fleetwood-mac`, `al-bano-e-romina-power`. Campione chiuso, otto voci su otto.**
+  - **`fleetwood-mac`**: un'affermazione su sedici non reggeva — «Formati a Londra», che nessuna delle cinque fonti afferma. Tolto «a Londra». Verificati anche i due dettagli lasciati aperti da Opus (non rilievi, solo da controllare): l'uscita di Green nel 1970 e quella di Spencer nel 1971 sono entrambe confermate con precisione dalla stessa fonte già citata (Ultimate Classic Rock) — Green «by the end of May 1970», Spencer fino a `Kiln House` (1970) poi ai Children of God nei primi mesi del 1971. Nessuna correzione necessaria su questi due punti.
+  - **`al-bano-e-romina-power`**: caso R2-bis puro. «Duo musicale attivo fino alla separazione del 1999» usava la data della fine della COPPIA (confermata dal Giornale: «la loro [storia], iniziata nel 1967... si è conclusa trentadue anni dopo») per datare la fine del DUO — due cose distinte, e le altre fonti citate non concordano fra loro sulla seconda: Treccani dà «tornato solista nel 1996», un altro pezzo del Giornale parla di «quasi vent'anni»/«ventuno anni» di separazione per i concerti del 2013 e 2015, cioè circa il 1994. **Non scelta nessuna delle tre date**: distinta la fine del duo («già nella prima metà degli anni Novanta», che copre entrambe le stime senza sceglierne una) dalla fine del matrimonio (1999, quella sì univoca).
+**Verificato**: pipeline completa rieseguita dopo ogni voce, sempre pulita. Due commit distinti, tutti pushati.
+**Aperto**: nulla di nuovo. Il campione biografie (8 voci) è chiuso: tutte corrette.
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
