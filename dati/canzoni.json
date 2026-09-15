@@ -5526,7 +5526,7 @@
       "Pubblicata nel 1993 come secondo estratto dall'album \"Sopravvissuti e sopravviventi\", la ballata vede Ligabue ripercorrere la propria vita, riconoscendo di essere riuscito a \"mettere via\" — cioè superare — molte fasi ed esperienze del passato, ma non una persona in particolare, mai nominata esplicitamente nel testo.",
       "Il brano è arricchito da un assolo di tromba di Demo Morselli, da un'introduzione al pianoforte di Gianfranco Fornaciari e da un riff di chitarra con bottleneck di Max Cottafavi. Nel 2010 è stato reinterpretato da Elisa nell'album \"Ivy\". OndaRock ha definito il brano «la perla dell'album», per come mette insieme i riff con bottleneck di Cottafavi, il pianoforte di Fornaciari e l'assolo di tromba dentro un blues che gira «come un carillon»."
     ],
-    "fraseIconica": "Il nucleo del testo è l'ammissione di non riuscire a spiegarsi perché, pur avendo messo da parte tanti aspetti della propria vita, non si riesca a fare lo stesso con la persona amata — o, secondo alcune letture, con la figura paterna. Secondo singolo estratto dall'album \"Sopravvissuti e sopravviventi\" (1993), resta una delle ballate più amate del repertorio di Ligabue.",
+    "fraseIconica": "Il nucleo del testo è l'ammissione di non riuscire a spiegarsi perché, pur avendo messo da parte tanti aspetti della propria vita, non si riesca a fare lo stesso con una persona in particolare, mai nominata esplicitamente nel testo. Secondo singolo estratto dall'album \"Sopravvissuti e sopravviventi\" (1993), resta una delle ballate più amate del repertorio di Ligabue.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/ligabue-luciano/22855/",
     "fonti": [
@@ -5548,7 +5548,18 @@
     "testoFonte": "Letras",
     "temi": [
       "rottura"
-    ]
+    ],
+    "naturaCorpo": [
+      [
+        "F"
+      ],
+      [
+        "F",
+        "F",
+        "I"
+      ]
+    ],
+    "ultimaVerifica": "2026-09-15"
   },
   {
     "slug": "hanno-ucciso-luomo-ragno",
