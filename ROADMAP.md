@@ -2979,6 +2979,17 @@ Stesso standard 4A e stesso rigore delle fonti. Un dettaglio è stato scartato i
   - **Omissione che vale la pena**: Wikipedia aggiunge che Butler, cresciuto in una famiglia cattolica, pensava al protagonista come a **un'allegoria di Cristo** — un Cristo che invece di perdonare si vendica. È la cosa più interessante della pagina e la scheda non ce l'ha.
   **3 su 12, il 25%.** Con la prima: **due schede, 25 affermazioni, 7 non reggono.** Restano otto.
 
+- **15 settembre 2026 — Campione casuale, 3 di 10: `angel-of-death`. E una fonte citata che il lettore non può aprire.**
+  **Regge la parte documentaria, e su un tema dove sbagliare costerebbe caro.** Testuali su Wikipedia: Jeff Hanneman autore di musica e testo, il brano che apre «Reign in Blood», gli esperimenti di Josef Mengele ad Auschwitz, le operazioni senza anestesia e le trasfusioni di sangue fra gemelli, il rifiuto di Columbia di distribuire l'album, l'uscita tramite Geffen, lo sdegno dei sopravvissuti all'Olocausto e delle loro famiglie, le accuse di simpatie naziste sempre respinte dalla band, e il campionamento dei Public Enemy in «She Watch Channel Zero?!» del 1988.
+  - **NON SOSTENUTA**: «il testo **nomina esplicitamente Auschwitz**… che rende **fin dal primo verso** inequivocabile il legame». Wikipedia dice che il testo *descrive* gli esperimenti di Mengele ad Auschwitz — non che la parola compaia nel testo, tanto meno nel primo verso. Anzi: la stessa pagina dice che la voce entra con **un urlo senza parole**. Due affermazioni precise sul contenuto e sulla posizione, nessuna delle due documentata.
+  - **SUPERLATIVO**: «il momento **più citato** del brano».
+  - **Da attenuare, e sta dentro le virgolette**: Hanneman «definì il brano "**una lezione di storia**"». La fonte riporta «is **like** a history lesson»: una similitudine diventata identità. Piccolo, ma le virgolette promettono le parole esatte.
+  - **Da attenuare**: «Columbia si rifiutò di distribuire l'album **per via del brano**». La fonte dice per il contenuto **e per la copertina**, giudicati «too graphic».
+  - **Omissione che vale**: Wikipedia riporta il racconto di Hanneman su **come nacque** — comprò due libri su Mengele mentre era in tour, e quella lettura gli rimase in testa fino alle sessioni. È l'origine del pezzo, raccontata da chi l'ha scritto, e la scheda non ce l'ha.
+  **E il problema nuovo: una delle due fonti citate NON È LEGGIBILE.** La pagina di Rolling Stone risponde con un errore di autorizzazione — il contenuto sta dietro un servizio a pagamento. **Non ho potuto verificarci niente**, e nemmeno un lettore potrebbe. Questo lascia aperta l'unica affermazione che Wikipedia non copre: «costringendo **il produttore Rick Rubin** a farlo uscire tramite Geffen». Wikipedia dice che l'album fu distribuito da Geffen, **non che sia stato Rubin a doverlo fare**. La registro come **non verificabile**, non come falsa: è una distinzione che va tenuta.
+  **Una cosa da guardare per tutto il sito**: `check-link` verifica che un collegamento risponda, non che **mostri qualcosa**. Una pagina che risponde correttamente e poi dice «non sei autorizzato» passa il controllo ed è, per il lettore, una fonte che non esiste. Quante altre siano così non lo sappiamo.
+  **3 su 11.** Con le prime due: **tre schede, 36 affermazioni, 10 non reggono.**
+
 ### Regola di aggiornamento
 
 Per ogni intervento eseguito devono essere registrati:
