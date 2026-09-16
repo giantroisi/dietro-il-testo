@@ -421,3 +421,66 @@ dalle altre 96 cambierebbe cio' che il sito promette al lettore, e per la
 sezione 14 quella e' una decisione dell'autore, non nostra. L'ho chiesta a
 lui. Tu non toccare ultimaVerifica sulle voci che non stai lavorando.
 ```
+
+---
+
+## 16 settembre 2026 — IL BOLLINO ESCE DALLE TUE MANI (decisione dell'autore)
+
+```
+Questo ordine CAMBIA UNA REGOLA e annulla una riga che ti avevo dato un'ora
+fa. Leggilo prima di continuare con le sedici biografie.
+
+--- COSA HA DECISO L'AUTORE
+
+Il bollino (`ultimaVerifica`) resta SOLO sulle voci che una mano diversa da
+quella che le ha scritte ha riaperto, fonte per fonte. Su tutte le altre si
+toglie, e si rimette man mano che se lo guadagnano.
+La ragione, sue parole: cosi' il numero e' il conto del lavoro vero, e sale
+solo quando il lavoro e' stato fatto.
+
+--- COSA SIGNIFICA PER TE, ed e' la parte che conta
+
+DA ADESSO NON METTI PIU' TU `ultimaVerifica`. Ne' sulle voci che correggi,
+ne' su quelle nuove. Il bollino lo assegno io quando ho riaperto la voce, e
+lo registro in verifiche/indipendenti.json.
+La riga che ti avevo scritto stamattina - «metti ultimaVerifica alla data di
+oggi se hai davvero riaperto tutto» - NON VALE PIU'. Ignorala.
+
+Non e' una punizione e non c'entra la fiducia. E' la sezione 14: chi scrive
+una voce la verifica mentre la scrive, ed e' la stessa mano che giudica. Il
+tuo ripasso resta lavoro vero e resta scritto nella cronologia di git, che
+non si cancella. Semplicemente non e' la cosa che il bollino promette al
+lettore.
+
+--- IL LAVORO
+
+1. Da dati/artisti.json, TOGLI il campo `ultimaVerifica` da tutte le voci
+   TRANNE queste otto, che ho verificato io:
+     evanescence, judas-priest, adele, fleetwood-mac, finley,
+     al-bano-e-romina-power, fulminacci, a-ha
+   (96 voci da spogliare)
+
+2. Da dati/canzoni.json, TOGLI `ultimaVerifica` da tutte TRANNE queste dieci:
+     for-those-about-to-rock, iron-man, angel-of-death, goodbye-malinconia,
+     gli-uomini-e-le-donne-sono-uguali, back-in-black, hard-as-a-rock,
+     albachiara, feeling-this, giovani-wannabe
+   (56 schede da spogliare — si', anche le canzoni: non me l'aspettavo
+   nemmeno io finche' non ho contato)
+
+3. Lancia `node scripts/check-bollino.mjs`. Deve finire con «Ogni voce che
+   mostra il bollino e' stata riaperta da una mano diversa». Se dice altro,
+   qualcosa e' rimasto.
+
+4. Rigenera il sito e ricopia in radice, cosi' le pagine smettono di
+   mostrarlo. Poi fermati.
+
+Un commit solo per tutto (e' un'operazione meccanica, non tredici decisioni),
+messaggio da file, e NON lanciare git diff: sarebbero centocinquanta righe
+tolte e non c'e' niente da leggere.
+
+--- E LE SEDICI BIOGRAFIE?
+
+Continuale come stanno: apri la seconda fonte, riscrivi quel che regge,
+togli quel che non regge. Solo, non mettere il bollino alla fine. Quando le
+hai finite dimmelo e le riapro io: quelle si' che se lo guadagnano.
+```
