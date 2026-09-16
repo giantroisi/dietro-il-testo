@@ -52,32 +52,69 @@ for (const x of fila.slice(0, 15)) {
 }
 
 // 2) Query che non atterrano su nessuna scheda: la domanda che non serviamo.
-// L'aggancio e' per parole del titolo, non per nome d'artista: i titoli nelle
-// ricerche si scrivono quasi sempre per esteso, i nomi no.
-// L'APOSTROFO VA TOLTO, NON SOSTITUITO CON UNO SPAZIO, e ci sono cascato:
-// «What's My Age Again?» diventava [what, age, again] mentre chi cerca scrive
-// «whats my age again» -> [whats, age, again]. «what» non e' «whats», e la
-// scheda piu' vista del sito risultava DOMANDA NON SERVITA. Le due ricerche in
-// cima all'elenco delle orfane erano due schede che abbiamo gia'.
+//
+// QUESTO PEZZO E' STATO SBAGLIATO QUATTRO VOLTE, ed e' la parte che sceglie
+// cosa scrivere: se e' rotto, si aggiungono canzoni a intuito credendo di
+// seguire un numero. I quattro errori, tutti della stessa famiglia — il
+// confronto pretendeva che la ricerca contenesse ESATTAMENTE tutte le parole
+// del titolo:
+//   1. nomi d'artista cercati per sottostringa: usciva 1 artista su 104;
+//   2. l'apostrofo sostituito da uno spazio: «What's My Age Again?» diventava
+//      [what, age, again] e la scheda piu' vista del sito risultava non servita;
+//   3. solo i titoli delle canzoni, senza le pagine artista: 232 impressioni
+//      contate come domanda scoperta mentre atterravano su artista/...;
+//   4. (16 settembre 2026) L'ARTICOLO E IL NOME DI BATTESIMO. «white stripes»
+//      non conteneva «the» e «the-white-stripes» ESISTE, con una scheda;
+//      «battiato canzoni» non conteneva «franco» e di Battiato ci sono SETTE
+//      schede; «hot fuss killers» non conteneva «the»; «don t look back in
+//      anger» si spezzava in [don, t] e non faceva «dont». Quattro voci su
+//      cinque, in cima all'elenco delle orfane, erano roba che abbiamo gia'.
+//
+// Come regge adesso: le lettere sciolte si riattaccano alla parola prima
+// (don t -> dont), la s finale cade da tutt'e due i lati (whats = what),
+// gli articoli escono dai nomi, il cognome da solo basta se e' lungo, e la
+// forma senza spazi copre chi scrive «pearljam» tutto attaccato.
+const ARTICOLI = new Set(['the', 'and', 'del', 'dei', 'della', 'delle', 'feat']);
 function parole(s) {
-  return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .replace(/['’`]/g, '')
-    .replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter((p) => p.length > 2);
+  const grezze = String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/['\u2019`]/g, '')
+    .replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(Boolean);
+  // «don t look» -> «dont look»: una lettera sola e' quasi sempre la coda di
+  // un apostrofo scritto con lo spazio.
+  const unite = [];
+  for (const w of grezze) {
+    if (w.length === 1 && unite.length) unite[unite.length - 1] += w;
+    else unite.push(w);
+  }
+  return unite.filter((w) => w.length > 2);
 }
-// NON BASTANO I TITOLI DELLE CANZONI, e anche qui mi ero fermato troppo presto.
-// Le pagine `artista/...` prendono 232 impressioni — `artista/franco-battiato`
-// da sola 77 — quindi «canzoni di franco battiato» NON e' domanda non servita:
-// atterra, solo non su una scheda di canzone. Contando i soli titoli, quelle
-// ricerche risultavano orfane e il totale era gonfiato.
-const titoli = [
-  ...canzoni.map((c) => ({ p: parole(c.titolo) })),
-  ...artisti.map((a) => ({ p: parole(a.nome) })),
+// la s finale non distingue niente e rompe tutto: whats/what, songs/song
+const radice = (w) => (w.length >= 5 && w.endsWith('s') ? w.slice(0, -1) : w);
+const radici = (s) => parole(s).map(radice);
+const compatto = (s) => parole(s).filter((w) => !ARTICOLI.has(w)).join('');
+
+const voci = [
+  ...canzoni.map((c) => ({ r: radici(c.titolo), c: compatto(c.titolo), coda: null })),
+  ...artisti.map((a) => {
+    const r = radici(a.nome).filter((w) => !ARTICOLI.has(w));
+    // «battiato» da solo vale per Franco Battiato, «rose» da solo non vale per
+    // Guns N' Roses: sotto le sei lettere un cognome non e' distintivo.
+    const ultima = r.length > 1 ? r[r.length - 1] : null;
+    return { r, c: compatto(a.nome), coda: ultima && ultima.length >= 6 ? ultima : null };
+  }),
 ];
 
 const orfane = [];
 for (const q of query) {
-  const pq = new Set(parole(q.query));
-  const servita = titoli.some((t) => t.p.length && t.p.every((w) => pq.has(w)));
+  const rq = new Set(radici(q.query));
+  const cq = parole(q.query).join('');
+  const servita = voci.some((v) => {
+    const senzaArticoli = v.r.filter((w) => !ARTICOLI.has(w));
+    if (senzaArticoli.length && senzaArticoli.every((w) => rq.has(w))) return true;
+    if (v.c.length >= 6 && cq.includes(v.c)) return true;
+    if (v.coda && rq.has(v.coda)) return true;
+    return false;
+  });
   if (!servita) orfane.push(q);
 }
 orfane.sort((a, b) => Number(b.impressioni || 0) - Number(a.impressioni || 0));
