@@ -6354,7 +6354,7 @@
   {
     "slug": "korn",
     "nome": "Korn",
-    "storia": "Formati a Bakersfield, in California, nel 1993 dai musicisti James \"Munky\" Shaffer, Reginald \"Fieldy\" Arvizu e David Silveria, che reclutarono il cantante Jonathan Davis e il chitarrista Brian \"Head\" Welch. Sono ampiamente considerati la prima band ad essere etichettata \"nu metal\" e tra i suoi pionieri assoluti. Welch lasciò la band nel 2005 per motivi religiosi, rientrando stabilmente nel 2013; il batterista storico David Silveria lasciò nel 2006, sostituito da Ray Luzier dal 2007.",
+    "storia": "Formati a Bakersfield, in California, nel 1993, quando il cantante Jonathan Davis si unì al gruppo L.A.P.D. — i chitarristi James \"Munky\" Shaffer e Brian \"Head\" Welch, il bassista Reginald \"Fieldy\" Arvizu e il batterista David Silveria. Sono ampiamente considerati tra i pionieri del nu metal, genere di cui il loro album di debutto omonimo (1994) gettò le basi. Welch lasciò la band nel 2005 per stare vicino alla figlia e intraprendere un percorso di conversione al cristianesimo, rientrando stabilmente nel 2013; il batterista storico David Silveria lasciò nel 2006, sostituito da Ray Luzier dal 2007.",
     "album": [
       {
         "titolo": "Korn",
@@ -6483,6 +6483,16 @@
       {
         "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/korn-career",
         "nome": "Kerrang (via Hello Rayo) — Scarlett Martin, 1 marzo 2025",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/korn-korn-anniversary/",
+        "nome": "Loudwire — Jon Wiederhorn",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ultimate-guitar.com/news/general_music_news/brian_head_welch_why_i_left_korn_in_2005.html",
+        "nome": "Ultimate Guitar (intervista a Brian Welch)",
         "ruolo": "storia"
       }
     ]
