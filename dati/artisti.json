@@ -5669,7 +5669,7 @@
   {
     "slug": "green-day",
     "nome": "Green Day",
-    "storia": "Nati come Sweet Children nel 1987 a Rodeo, in California, per iniziativa dei quindicenni Billie Joe Armstrong e Mike Dirnt, cresciuti nella scena punk della Gilman Street di Berkeley. Presero il nome definitivo nel 1989 e, con l'arrivo del batterista Tré Cool nel 1990, completarono la formazione che li avrebbe portati al successo mondiale con \"Dookie\" (1994) e, un decennio dopo, con il concept album \"American Idiot\" (2004).",
+    "storia": "Nati come Sweet Children nel 1987 a Rodeo, in California, per iniziativa di Billie Joe Armstrong e Mike Dirnt, amici d'infanzia cresciuti nella scena punk underground della Bay Area californiana. Presero il nome definitivo, Green Day, nel 1989 e, con l'arrivo poco dopo del batterista Tré Cool al posto di Al Sobrante, completarono la formazione che li avrebbe portati al successo mondiale con \"Dookie\" (1994) e, un decennio dopo, con il concept album \"American Idiot\" (2004).",
     "album": [
       {
         "titolo": "39/Smooth",
@@ -5810,6 +5810,11 @@
       {
         "url": "https://www.britannica.com/topic/Green-Day",
         "nome": "Encyclopaedia Britannica — Melissa Albert",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.allmusic.com/artist/green-day-mn0000154544",
+        "nome": "AllMusic — Stephen Thomas Erlewine",
         "ruolo": "storia"
       }
     ]
