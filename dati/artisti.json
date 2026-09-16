@@ -1416,7 +1416,7 @@
   {
     "slug": "blink-182",
     "nome": "Blink-182",
-    "storia": "Nati a Poway, vicino San Diego, nel 1992 dall'incontro tra Tom DeLonge e Mark Hoppus: con il batterista Scott Raynor formavano il trio che avrebbe reinventato il pop punk americano. Raynor fu sostituito nel 1998 da Travis Barker, completando la formazione che con \"Enema of the State\" (1999) portò il genere al successo mainstream.",
+    "storia": "Nati nel 1992 a Poway, vicino San Diego, quando Tom DeLonge — trasferito alla Rancho Bernardo High School dopo l'espulsione dalla Poway High School per essersi presentato ubriaco a una partita — vi conobbe il batterista Scott Raynor e l'amico Kerry Key, la cui fidanzata, Anne Hoppus, gli presentò il fratello Mark, completando il trio che avrebbe reinventato il pop punk americano. Raynor fu sostituito nel 1998 da Travis Barker, completando la formazione che con \"Enema of the State\" (1999) portò il genere al successo mainstream.",
     "album": [
       {
         "titolo": "Cheshire Cat",
@@ -1507,7 +1507,12 @@
     "fonti": [
       {
         "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/blink-182-career",
-        "nome": "Kerrang (via Hello Rayo)",
+        "nome": "Kerrang (via Hello Rayo) — Emma Dodds",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.hellorayo.co.uk/kerrang/entertainment/music/blink-182-facts",
+        "nome": "Kerrang (via Hello Rayo) — Laura Thornton e Emma Dodds",
         "ruolo": "storia"
       }
     ]
