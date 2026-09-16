@@ -261,3 +261,88 @@ specifica. Queste erano specifichissime - il nome di un'intervistatrice, un
 mese, un titolo di libro - e hanno retto. La frase che ti ho dato era piu'
 sicura di quanto i numeri permettessero.
 ```
+
+---
+
+## 16 settembre 2026 — verifica del lotto: prime due schede
+
+```
+Ho verificato due schede su cinque. Le altre tre le sto aprendo.
+Comincio dalle cose buone perche' sono la maggioranza e perche' e' vero.
+
+SOMEBODY TOLD ME: dodici affermazioni su dodici reggono. Ogni riga del tuo
+file di verifica trova sulla pagina la frase che dichiara. La dichiarazione
+di Flowers e' confermata DUE VOLTE da fonti indipendenti fra loro. Zero
+rilievi. E' la scheda migliore del lotto.
+
+FELL IN LOVE WITH A GIRL: quattordici su quindici. Su una c'e' un rilievo
+che non riguarda solo questa scheda.
+
+--- 1) IL RILIEVO CHE CONTA: una prova che non esiste
+
+Affermazione: «Le riprese dal vero venivano convertite in grandi pixel
+quadrati e poi ricostruite fotogramma per fotogramma coi mattoncini».
+
+Nel tuo file di verifica, terza colonna, hai riportato come frase della
+fonte: «Many of the shots were created by first filming live action footage,
+then digitally converting that footage into large square pixels, before
+rebuilding the shots with actual LEGO bricks.»
+
+QUELLA FRASE SU WIKIPEDIA NON C'E'. La pagina dice soltanto che il video e'
+stato girato fotogramma per fotogramma, ricostruendo i mattoncini a ogni
+fotogramma, a volte in modo complesso perche' sembrasse una ripresa vera.
+Delle riprese dal vero convertite in pixel quadrati non c'e' traccia.
+
+E NON E' UNA REVISIONE CAMBIATA SOTTO I PIEDI: ho aperto la cronologia della
+voce. L'ultima modifica e' del 26 LUGLIO 2026, la precedente del 13 aprile.
+La pagina che hai letto stamattina e quella che ho letto io sono identiche.
+
+Togli l'affermazione, o trovane una fonte vera.
+
+Ma la cosa da capire e' piu' grande della riga. LA TERZA COLONNA ERA LA
+GARANZIA DELL'ESPERIMENTO: l'idea era che non si potesse riempirla con
+qualcosa che non esiste, e che quindi un'affermazione senza appoggio si
+smascherasse da sola mentre la scrivi. Si puo' riempirla. LA PROVA NASCE
+PLAUSIBILE ESATTAMENTE COME NASCE PLAUSIBILE IL DETTAGLIO CHE DEVE
+SOSTENERE. Non ti sto accusando di aver barato: questa e' la stessa cosa che
+fa scrivere «Rolling Stone» dove c'era NPR.
+Quando compili quella colonna, COPIA E INCOLLA dalla pagina. Non riscrivere
+a senso quello che ti sembra di aver letto: e' li' che si apre il buco.
+
+--- 2) LA SEZIONE 3 VALE ANCHE PER I FILE DI VERIFICA
+
+In fondo a somebody-told-me.md hai scritto «Non riprodotto in nessuna
+forma: il verso del ritornello...» e poi lo hai riprodotto, per esteso,
+fra virgolette.
+
+La decisione editoriale era giusta - quel verso e' citato per intero sia da
+Blender via Wikipedia sia da uDiscover, e tenerlo fuori dalla scheda e'
+esattamente cio' che la Sezione 3 chiede. Ma il file che lo spiega STA NEL
+REPOSITORY, e' committato e finisce su GitHub. Un verso in verifiche/ e'
+pubblicato quanto un verso in una scheda.
+
+Non e' colpa tua e non l'avevamo previsto: la Sezione 3 l'abbiamo sempre
+applicata alle schede, e questo lotto ha creato per la prima volta dei file
+che PARLANO delle schede. Riscrivi la nota cosi': «Escluso il verso del
+ritornello, citato per intero da Blender via Wikipedia e da uDiscover —
+Sezione 3». Si dice cosa si e' escluso e perche', senza scriverlo.
+E controlla gli altri quattro file, che non ci sia la stessa cosa.
+
+--- 3) UNA COSA DA DECIDERE, non un errore
+
+Su fell-in-love-with-a-girl, TREDICI affermazioni su quindici poggiano su
+Wikipedia, che la Sezione 5 mette al livello C. La R6 e' rispettata alla
+lettera perche' NME e' livello B, ma NME regge due righe su quindici.
+E una delle tredici - «Meg si disse incerta sui tempi stretti, ritenendo che
+i brani avessero bisogno di piu' prove» - e' un'INTENZIONE ATTRIBUITA, e la
+Sezione 5 dice che per quelle il livello C non basta da solo.
+Wikipedia la attribuisce alla sua nota 8: aprila, e se sotto c'e' una fonte
+vera cita quella. Se non c'e', l'affermazione va tolta.
+
+Lo stesso vale, strutturalmente, per stand-by-me e dammit: una fonte di
+livello B e tutto il resto su Wikipedia. somebody-told-me regge meglio anche
+per questo, e dubbi-non-ho e' l'unica con una fonte di livello A.
+
+NON TOCCARE ANCORA dati/lotto-nuovo.json per le altre tre schede: le sto
+verificando. Fai queste due correzioni e i file, poi aspetta.
+```
