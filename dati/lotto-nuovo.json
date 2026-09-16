@@ -200,9 +200,62 @@
     "titolo": "Stand By Me",
     "artista": "Oasis",
     "artistaSlug": "oasis",
-    "ascoltiKworb": 430873461,
-    "kworbUrl": "https://kworb.net/spotify/artist/2DaxqgrOhkeH0fpeiQq2f4_songs.html",
-    "kworbData": "2026-09-15"
+    "anno": "1997",
+    "album": "Be Here Now",
+    "albumSlug": "be-here-now",
+    "genereTesto": "Rock",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#5C1F3E",
+    "colore2": "#3E5C1F",
+    "ascolti": 430873461,
+    "ascoltiTesto": "431 mln ascolti",
+    "spotifyId": "5WTPhYmwwojFP73O7p3Izi",
+    "corpo": [
+      "Scritta da Noel Gallagher, che la compose dopo essersi trasferito a Londra e aver sofferto un'intossicazione alimentare. Sua madre Peggy continuava a telefonargli per assicurarsi che mangiasse bene, così Gallagher provò a cucinarsi un arrosto della domenica e finì per stare male due giorni, tornando poi, come raccontò lui stesso in un'intervista del 1997, ai Pot Noodle. Il brano, quarta traccia di \"Be Here Now\" (1997), il terzo album in studio della band, fu pubblicato come secondo singolo il 22 settembre di quell'anno, raggiungendo il secondo posto della classifica britannica dei singoli; ottenne la certificazione d'oro nell'ottobre 1997, quella di platino nel 2019 e di doppio platino nel 2025, ed entrò anche nella top ten di Finlandia, Islanda, Italia, Norvegia, Spagna e Svezia.",
+      "Il videoclip, girato il 20 settembre 1997 nel quartiere londinese di Feltham, riprende il concetto della campagna pubblicitaria del quotidiano The Guardian intitolata \"The Whole Picture\": scene che sembrano mostrare atti criminali o antisociali si rivelano, viste per intero, gesti di aiuto — un uomo che sembra scassinare un'auto in realtà la apre a chi ne ha perso le chiavi, un finto scasso che è in realtà il soccorso alla vittima di un incidente in moto. Fra il 2021 e il 2023 il brano è stato usato anche in una campagna pubblicitaria della banca britannica Halifax.",
+      "Noel Gallagher, insofferente verso \"Be Here Now\", la suonò raramente dal vivo dopo il relativo tour. Tornò al centro dell'attenzione nel 2019, quando Liam Gallagher la eseguì per la prima volta dal 2001 nel concerto \"MTV Unplugged\", pubblicato l'anno successivo: NME la definì il vero fulcro emotivo dello spettacolo, osservando che il pubblico, cantando insieme a lui, sembrava condividerne i rimpianti. Dal 2022 anche Noel ha ripreso a eseguirla dal vivo, perlopiù in versione acustica, e dalla reunion degli Oasis nel 2025 il brano è tornato stabilmente in scaletta a ogni concerto del tour."
+    ],
+    "fraseIconica": "Il titolo promette conforto, ma l'origine del brano è tutt'altro che solenne: Noel Gallagher lo scrisse dopo essersi intossicato cucinandosi un arrosto della domenica per rassicurare la madre Peggy, che continuava a chiamarlo per sapere se mangiasse bene — un aneddoto casalingo dietro una delle canzoni più amate di \"Be Here Now\".",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/oasis/stand-by-me/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stand_by_Me_(Oasis_song)",
+        "nome": "Wikipedia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nme.com/reviews/album/liam-gallagher-mtv-unplugged-album-review-2685424",
+        "nome": "NME — Jordan Bassett",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/2DaxqgrOhkeH0fpeiQq2f4_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [],
+    "naturaCorpo": [
+      [
+        "F",
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "I",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "dammit",
