@@ -18,8 +18,8 @@
     "ascoltiTesto": "333 mln ascolti",
     "spotifyId": "21Qsj3cMVCx2xF2EVVNbEu",
     "corpo": [
-      "Quarta traccia del terzo album in studio dei White Stripes, \"White Blood Cells\" (2001), uscì come singolo il 21 gennaio 2002 per la XL Recordings. Il testo fu scritto da Jack White, che compose la musica insieme a Meg White; a differenza di molti brani dell'album, risalenti ai primi anni della band, questo fu scritto apposta per il disco. Fu registrato e mixato agli Easley-McCain Recording di Memphis durante i tre giorni di lavorazione dell'intero album: Meg si disse inizialmente incerta su tempi così stretti, ritenendo che i brani avessero bisogno di più prove.",
-      "Il videoclip, diretto da Michel Gondry, è un'animazione realizzata interamente con mattoncini LEGO: le riprese dal vero venivano prima convertite in grandi pixel quadrati e poi ricostruite fotogramma per fotogramma con i mattoncini, per dare l'illusione del movimento. Il figlio di Gondry compare all'inizio del video, intento a costruire con i LEGO. Il video vinse tre MTV Video Music Award nel 2002.",
+      "Quarta traccia del terzo album in studio dei White Stripes, \"White Blood Cells\" (2001), uscì come singolo il 21 gennaio 2002 per la XL Recordings. Il testo fu scritto da Jack White, che compose la musica insieme a Meg White; a differenza di molti brani dell'album, risalenti ai primi anni della band, questo fu scritto apposta per il disco. Fu registrato e mixato agli Easley-McCain Recording di Memphis durante i tre giorni di lavorazione dell'intero album. Secondo quanto raccontò l'ingegnere del suono Stuart Sikes, Meg riteneva che i brani fossero troppo nuovi per essere già registrati.",
+      "Il videoclip, diretto da Michel Gondry, è un'animazione realizzata interamente con mattoncini LEGO: fu girato fotogramma per fotogramma, ricostruendo i mattoncini a ogni fotogramma — talvolta in modo complesso, per dare l'illusione di una ripresa reale. Il figlio di Gondry compare all'inizio del video, intento a costruire con i LEGO. Il video vinse tre MTV Video Music Award nel 2002.",
       "All'uscita del singolo, il recensore Ted Kessler descrisse su NME il brano come \"due minuti fulminanti di rabbia da garage\", osservando come il gruppo — paragonato di volta in volta a Hendrix, Lead Belly, Dylan e Beck — restasse acclamato dalla critica pur senza sfondare nelle vendite come i contemporanei Strokes e Hives."
     ],
     "fraseIconica": "Al posto di un ritornello tradizionale, il brano affida il suo momento più riconoscibile a un coro senza parole fatto di sillabe ripetute — ah-ah-ah-ah, cantate insieme da Jack e Meg dopo ogni strofa — mentre l'arrangiamento si interrompe di colpo alla fine di ogni verso, in appena un minuto e cinquanta secondi complessivi.",
@@ -29,6 +29,11 @@
       {
         "url": "https://en.wikipedia.org/wiki/Fell_in_Love_with_a_Girl",
         "nome": "Wikipedia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ultimateclassicrock.com/white-stripes-white-blood-cells/",
+        "nome": "Ultimate Classic Rock — Corey Irwin",
         "ruolo": "storia"
       },
       {
@@ -50,7 +55,8 @@
       [
         "F",
         "F",
-        "D"
+        "F",
+        "I"
       ],
       [
         "F",

@@ -15,7 +15,5 @@
 | Candidato a due Grammy Award nel 2005 (Miglior Canzone Rock, Miglior Interpretazione Rock di Duo o Gruppo con Voce) | Wikipedia (EN) | tabella "Awards": "2005 — Grammy Awards — Best Rock Song — Nominated" / "Best Rock Performance by a Duo or Group with Vocal — Nominated" |
 | Nel giugno 2025 ha superato il miliardo di ascolti su Spotify, secondo brano della band dopo "Mr. Brightside" | uDiscover Music — Sam Armstrong | "The Killers' 'Somebody Told Me' has joined the Spotify Billions Club... The second single from the band's... Hot Fuss, has been filling dancefloors..."; titolo: "...Joins Spotify Billions Club"; sottotitolo: "their second to reach the streaming milestone" |
 
-Non riprodotto in nessuna forma: il verso del ritornello ("Well somebody told me you had a
-boyfriend / who looked like a girlfriend...") citato per intero sia da Blender (via
-Wikipedia) sia da uDiscover Music. Scartate entrambe le fonti per quel punto specifico —
-Sezione 3.
+Escluso il verso del ritornello, citato per intero da Blender via Wikipedia e da
+uDiscover Music — Sezione 3.

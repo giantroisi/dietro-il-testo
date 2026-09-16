@@ -19,10 +19,10 @@
 | Dal 2022 anche Noel ha ripreso a eseguirla dal vivo, perlopiù in versione acustica | Wikipedia (EN) | "Beginning in 2022, Noel also began performing the song live again, mainly in an acoustic line-up" |
 | Dalla reunion degli Oasis nel 2025 è tornata stabilmente in scaletta a ogni concerto | Wikipedia (EN) | "Since Oasis' reunion in 2025, the song has been performed at every live show as part of the Oasis Live '25 Tour setlist" |
 
-NON riprodotto in nessuna forma: il verso d'apertura del brano ("Made a meal and threw
-it up on Sunday"), citato da Noel Gallagher dentro la propria dichiarazione del 1997 —
-esattamente il tipo di citazione-nella-citazione da non riprodurre mai. Usato solo
-l'aneddoto che la circonda (la madre, l'arrosto, i Pot Noodle), non la frase.
+Escluso il verso d'apertura del brano, citato da Noel Gallagher dentro la propria
+dichiarazione del 1997 — esattamente il tipo di citazione-nella-citazione da non
+riprodurre mai — Sezione 3. Usato solo l'aneddoto che lo circonda (la madre, l'arrosto,
+i Pot Noodle), non la frase.
 
 Scartate per lo stesso motivo, senza aprirle oltre il necessario a verificarlo: le
 recensioni di Pitchfork e Drowned in Sound, note solo tramite la citazione di Wikipedia

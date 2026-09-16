@@ -23,8 +23,7 @@
 | Rimasta per anni il brano di chiusura dei concerti della band | Wikipedia (EN) | "The song has remained a staple of the band's live performances, traditionally serving as its concert closer" |
 | Reinterpretata da numerosi artisti, fra cui Good Charlotte e Hilary Duff | Wikipedia (EN) | elenco delle cover, con collegamenti a "Good Charlotte" e "Hilary Duff" fra gli artisti che l'hanno incisa |
 
-NON riprodotto in nessuna forma: il ritornello del brano ("Well, I guess this is growing
-up") e la battuta "Did you hear he fucked her?", entrambi citati sia da Wikipedia sia
-dalla recensione di Stereogum aperta direttamente — Sezione 3. Usato di quella
-recensione solo il paragone sui riff per chitarristi alle prime armi, mai il testo della
-canzone.
+Escluso il ritornello del brano e una delle sue battute più citate, entrambi presenti
+sia su Wikipedia sia nella recensione di Stereogum aperta direttamente — Sezione 3.
+Usato di quella recensione solo il paragone sui riff per chitarristi alle prime armi,
+mai il testo della canzone.
