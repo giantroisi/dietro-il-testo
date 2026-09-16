@@ -1,0 +1,31 @@
+{
+  "cosa": "Le voci che una MANO DIVERSA da quella che le ha scritte ha riaperto, fonte per fonte. Non e' l'elenco del lavoro fatto: e' l'elenco del lavoro verificato da qualcun altro. Il resto del lavoro sta nella cronologia di git, che non si cancella.",
+  "perche": "Il campo ultimaVerifica dice QUANDO, non CHI. Un ripasso dell'autore e una verifica indipendente lasciano lo stesso identico segno, e valgono cose diverse: sulle otto biografie riaperte da fuori, il 32% delle affermazioni non reggeva, e quelle otto portavano tutte il bollino.",
+  "artisti": {
+    "evanescence": "2026-09-15",
+    "judas-priest": "2026-09-15",
+    "adele": "2026-09-15",
+    "fleetwood-mac": "2026-09-15",
+    "finley": "2026-09-15",
+    "al-bano-e-romina-power": "2026-09-15",
+    "fulminacci": "2026-09-15",
+    "a-ha": "2026-09-15"
+  },
+  "canzoni": {
+    "for-those-about-to-rock": "2026-09-15",
+    "iron-man": "2026-09-15",
+    "angel-of-death": "2026-09-15",
+    "goodbye-malinconia": "2026-09-15",
+    "gli-uomini-e-le-donne-sono-uguali": "2026-09-15",
+    "back-in-black": "2026-09-15",
+    "hard-as-a-rock": "2026-09-15",
+    "albachiara": "2026-09-15",
+    "feeling-this": "2026-09-15",
+    "giovani-wannabe": "2026-09-15",
+    "fell-in-love-with-a-girl": "2026-09-16",
+    "somebody-told-me": "2026-09-16",
+    "dubbi-non-ho": "2026-09-16",
+    "stand-by-me": "2026-09-16",
+    "dammit": "2026-09-16"
+  }
+}
