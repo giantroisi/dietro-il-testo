@@ -3355,7 +3355,7 @@
   {
     "slug": "ed-sheeran",
     "nome": "Ed Sheeran",
-    "storia": "Nato nel 1991 a Halifax e cresciuto a Framlingham, nel Suffolk, lasciò la scuola a sedici anni per dedicarsi interamente alla musica, trasferendosi a Londra nel 2008. Dopo una serie di EP autoprodotti, tra cui \"No. 5 Collaborations Project\" (2011), fu notato da Jamie Foxx; il successivo album di debutto \"+\" (2011) lo lanciò a livello internazionale, seguito da \"x\" (2014) e \"÷\" (2017). Ha venduto oltre 200 milioni di dischi nel mondo.",
+    "storia": "Nato il 17 febbraio 1991 a Halifax, crebbe a Framlingham, nel Suffolk, dove frequentò la Thomas Mills High School; la cittadina e il suo castello gli ispirarono in seguito il brano \"Castle on the Hill\". Dopo una serie di EP pubblicati in autonomia, tra cui \"No. 5 Collaborations Project\" (gennaio 2011), firmò lo stesso anno il suo primo contratto discografico con la Asylum Records, ramo della Atlantic, nella sua casa di Framlingham; l'anno prima aveva attirato l'attenzione di Jamie Foxx, che lo aveva invitato al proprio show radiofonico su SiriusXM. L'album di debutto \"+\" (2011), trainato dal singolo \"The A Team\", gli diede risonanza internazionale, seguito da \"x\" (2014) — che gli valse il Grammy per la Canzone dell'anno con \"Thinking Out Loud\" nel 2016 — e \"÷\" (2017).",
     "album": [
       {
         "titolo": "+",
@@ -3429,6 +3429,16 @@
       {
         "url": "https://www.treccani.it/enciclopedia/ed-sheeran",
         "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.biography.com/musicians/ed-sheeran",
+        "nome": "Biography.com — Tyler Piccotti",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.eadt.co.uk/news/25452600.look-back-framlingham-ed-sheeran/",
+        "nome": "East Anglian Daily Times — Johnny Amos",
         "ruolo": "storia"
       }
     ]
