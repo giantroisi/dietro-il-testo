@@ -77,3 +77,95 @@ volta dei file che parlano delle schede. La regola vale anche li'.
 Va riscritta cosi': «Escluso il verso del ritornello, citato per intero da
 Blender via Wikipedia e da uDiscover — Sezione 3». Si dice cosa si e'
 escluso e perche', senza scriverlo.
+
+## 3. dubbi-non-ho — 14 affermazioni, 1 non regge, 1 non verificata per scelta
+
+REGGONO 12: quarta traccia; quindicesimo album; 12 marzo 1997 CGD East West;
+Plastic Studio, ottobre-dicembre 1996 (confermato ANCHE dal sito ufficiale);
+disco piu' venduto dell'anno, secondo posto al debutto e primo la seconda
+settimana; 900.000 copie secondo Musica e dischi; «Dubbi non ho» fra i
+singoli; i crediti di Ramzy, Katche, Earl, Johnson (sito ufficiale,
+testuali); Rita Marcotulli nei brani 3-5-10 e NON nel 4; disco di platino
+FIMI; rientro in classifica a gennaio 2015, posizione 72; le tre raccolte;
+la morte del 4 gennaio 2015 (Sky TG24, testuale).
+
+### NON REGGE: il dubbio scritto nel file e arrotondato nella scheda
+
+Nel file di verifica Sonnet scrive, correttamente: «il collegamento e'
+dedotto dalla coincidenza di date, NON AFFERMATO ESPLICITAMENTE DA NESSUNA
+FONTE».
+Poi nella scheda lo afferma due volte senza cautela:
+ - corpo: «torno' per una settimana in classifica... NEI GIORNI
+   IMMEDIATAMENTE SUCCESSIVI alla morte improvvisa dell'artista»
+ - frase iconica: «torno' in classifica... PROPRIO NELLA SETTIMANA della
+   morte improvvisa di Pino Daniele»
+E' la R8 al contrario: il dubbio e' stato scritto, ma nel file privato, e
+arrotondato in quello pubblicato.
+In piu' la seconda formulazione e' imprecisa: la morte e' del 4 gennaio, la
+settimana di classifica e' la WK2, dal 5 all'11. Non e' la settimana della
+morte: e' quella dopo.
+
+### NON VERIFICATA PER SCELTA, e da togliere invece che da verificare
+«Sky TG24 ha inserito Dubbi non ho fra le canzoni scelte per ricordarlo».
+Per controllarla dovrei scorrere venti diapositive di una fotogallery fatta
+di versi di canzoni, e non lo faccio (Sezione 3). Ma il punto e' un altro:
+che un sito televisivo abbia messo il brano in una rassegna non e' un fatto
+sulla canzone, e' riempitivo. Va tolta, e allora non c'e' niente da
+verificare.
+
+### E LA FRASE ICONICA E' FATTA DI QUESTE DUE COSE
+Rilegge: «...torno' in classifica proprio nella settimana della morte... e
+undici anni dopo era ancora fra le canzoni scelte da Sky TG24». La frase
+iconica di questa scheda poggia interamente sull'unica deduzione non
+sostenuta e sull'unica riga da buttare. E' la terza volta in due settimane
+che il difetto peggiore di una scheda sta nella frase iconica.
+
+## 4. stand-by-me — 16 affermazioni, REGGONO TUTTE E SEDICI
+Wikipedia riletta per intero e la recensione di NME aperta davvero: la
+citazione di Jordan Bassett e' sulla pagina di NME, firmata, non solo
+ripresa da Wikipedia. Zero rilievi.
+
+## 5. dammit — 20 affermazioni, REGGONO TUTTE
+Verificate una per una su Wikipedia, comprese le piu' specifiche: l'episodio
+di Beavis and Butt-Head, la chitarra acustica a cui mancavano due corde, il
+«fino al punto di urlare» di Trombino, la voce persa l'ultimo giorno, l'organo
+Hammond che all'inizio li faceva ridere, le 28 settimane in classifica, il
+disco d'oro di Dude Ranch. Il paragone di Chris DeVille su Stereogum e'
+riportato testualmente. Zero rilievi.
+
+# ESITO DEL LOTTO — 77 affermazioni, 2 non reggono: il 2,6%
+
+  scheda                      aff.  non reggono
+  fell-in-love-with-a-girl     15        1
+  somebody-told-me             12        0
+  dubbi-non-ho                 14        1
+  stand-by-me                  16        0
+  dammit                       20        0
+  ------------------------------------------
+  TOTALE                       77        2   (2,6%)
+
+Contro il 24% del campione casuale sulle schede vecchie, e il 32% delle
+biografie. LA SEZIONE 4B FUNZIONA, e la previsione dichiarata prima di
+guardare («molto sotto il 24%») e' rispettata.
+
+## Ma prima di festeggiare, quattro cose che il 2,6% non dice
+
+1. E' UN LOTTO SOLO, uno scrittore, cinque canzoni, e scelte apposta fra
+   artisti gia' coperti. Non e' una misura stabile: e' la prima.
+
+2. LE SCHEDE SONO PIU' FEDELI MA ANCHE PIU' MAGRE. Quattro su cinque
+   poggiano quasi tutte su Wikipedia, livello C. Wikipedia e' facile da
+   riportare con esattezza: parte del 2,6% e' fedelta' a una fonte comoda,
+   non solidita' della scheda. Le schede vecchie sbagliavano anche perche'
+   allungavano la mano verso affermazioni piu' ricche.
+   SOLO dubbi-non-ho ha una fonte di livello A, ed e' una delle due con un
+   rilievo: puo' essere un caso, ma va guardato al prossimo lotto.
+
+3. LA GARANZIA HA UN BUCO. La terza colonna del file di verifica si puo'
+   riempire con una frase che non esiste, ed e' successo. Il meccanismo
+   riduce gli errori ma non li rende impossibili, e va verificato anche lui.
+
+4. LA SEZIONE 3 SI E' SPOSTATA DI POSTO. Tre file di verifica su cinque
+   riproducono un verso nella nota che spiega perche' quel verso e' stato
+   escluso. La regola e' stata applicata dove guardavamo e violata dove non
+   guardavamo.
