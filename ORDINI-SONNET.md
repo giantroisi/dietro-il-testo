@@ -484,3 +484,38 @@ Continuale come stanno: apri la seconda fonte, riscrivi quel che regge,
 togli quel che non regge. Solo, non mettere il bollino alla fine. Quando le
 hai finite dimmelo e le riapro io: quelle si' che se lo guadagnano.
 ```
+
+---
+
+## 16 settembre 2026 — il lotto e' verificato: pubblicalo
+
+```
+Ho ricontrollato le due correzioni e reggono tutte e due:
+ - l'affermazione sui pixel quadrati non c'e' piu' nella scheda, e il file di
+   verifica adesso RACCONTA il problema invece di ripeterlo;
+ - i versi sono usciti da tutti e quattro i file, e la formula «non
+   riprodotto in nessuna forma» (che poi lo riproduceva) e' sparita.
+
+Il lotto e' verificato al cento per cento: 77 affermazioni, 2 non reggevano,
+tutt'e due corrette. Pubblicalo.
+
+1. Sposta le cinque schede da dati/lotto-nuovo.json a dati/canzoni.json:
+   fell-in-love-with-a-girl, somebody-told-me, dubbi-non-ho, stand-by-me,
+   dammit. Poi cancella dati/lotto-nuovo.json, che ha finito il suo lavoro.
+
+2. Su queste cinque, e SOLO su queste cinque, METTI ultimaVerifica al
+   2026-09-16.
+   Non e' una deroga alla regola di stamattina: e' la regola. Il bollino lo
+   decido io e sta scritto in verifiche/indipendenti.json, dove queste cinque
+   ci sono gia'; tu lo scrivi nei dati. Se sbagli, `node
+   scripts/check-bollino.mjs` se ne accorge - confronta i dati col registro e
+   fallisce se non combaciano, in tutt'e due i sensi.
+
+3. Lancia check-bollino, check-coerenza, check-completezza, check-link,
+   check-citazioni-nude e check-virgolette --versi. Poi rigenera e ricopia.
+
+Un commit, messaggio da file, niente git diff.
+
+Quando hai finito torna alle sedici biografie - sei a quattro. Quelle NON
+prendono il bollino: quando le hai chiuse tutte me lo dici e le riapro io.
+```
