@@ -297,7 +297,7 @@
   {
     "slug": "ac-dc",
     "nome": "AC/DC",
-    "storia": "Formati a Sydney nel novembre 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, debuttarono dal vivo il 31 dicembre dello stesso anno. Il cantante Bon Scott si unì nel 1974 e guidò la band fino alla morte improvvisa nel 1980; gli succedette Brian Johnson, con cui la band pubblicò lo stesso anno Back in Black, uno degli album più venduti nella storia della musica. Pionieri dell'hard rock, sono rimasti in attività per oltre cinquant'anni nonostante lutti e cambi di formazione.",
+    "storia": "Formati a Sydney nel 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, insieme al cantante Dave Evans, al bassista Larry Van Kriedt e al batterista Colin Burgess, debuttarono dal vivo il 31 dicembre dello stesso anno al Chequers Bar di Sydney. Bon Scott sostituì Evans alla voce nell'autunno del 1974 e guidò la band fino alla morte improvvisa nel febbraio 1980; gli succedette Brian Johnson, con cui la band pubblicò lo stesso anno \"Back in Black\", che vendette oltre dieci milioni di copie solo negli Stati Uniti. Pionieri dell'hard rock, sono rimasti in attività per oltre cinquant'anni nonostante lutti e cambi di formazione.",
     "album": [
       {
         "titolo": "High Voltage",
@@ -490,9 +490,19 @@
         "url": "https://www.britannica.com/topic/AC-DC",
         "nome": "Encyclopaedia Britannica — Gillian G. Gaar",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://americansongwriter.com/on-this-day-in-1973-this-100-hard-rock-band-played-their-first-gig-ever-and-the-rest-is-history/",
+        "nome": "American Songwriter — Erinn Callahan",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/original-acdc-singer-dave-evans-bands-best-singer/",
+        "nome": "Loudwire — Lauryn Schaffner",
+        "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-16"
   },
   {
     "slug": "adele",
