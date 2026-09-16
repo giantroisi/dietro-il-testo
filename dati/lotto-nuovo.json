@@ -262,8 +262,70 @@
     "titolo": "Dammit",
     "artista": "blink-182",
     "artistaSlug": "blink-182",
-    "ascoltiKworb": 391025548,
-    "kworbUrl": "https://kworb.net/spotify/artist/6FBDaR13swtiWwGhX1WQsP_songs.html",
-    "kworbData": "2026-09-15"
+    "anno": "1997",
+    "album": "Dude Ranch",
+    "albumSlug": "dude-ranch",
+    "genereTesto": "Pop punk",
+    "generi": [
+      "punk",
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#1F3E5C",
+    "colore2": "#5C3E1F",
+    "ascolti": 391025548,
+    "ascoltiTesto": "391 mln ascolti",
+    "spotifyId": "6WkSUgo1VdpzgtiXKlFPcY",
+    "corpo": [
+      "Il titolo nacque da un episodio di \"Beavis and Butt-Head\": nella puntata, Beavis esclama ripetutamente \"Dammit! Son of a bitch!\" criticando il video di una canzone dei Comateens, e scherza sul fatto che sarebbe un buon titolo per un pezzo. Secondo singolo di \"Dude Ranch\" (1997), scritto da Mark Hoppus, Tom DeLonge e Scott Raynor, nacque da un riff che Hoppus concepì sperimentando su una chitarra acustica a cui mancavano due corde, costretto a suonare attorno a quelle assenti. A differenza di molti brani del gruppo, ispirati a esperienze personali, il testo racconta una rottura immaginaria: Hoppus ha spiegato che descrive l'imbarazzo di incontrare un'ex passata a qualcun altro, mentre si finge indifferenti al dolore, e ha ricordato che la canzone \"si mise insieme in pochi minuti, senza secondi pensieri, senza troppo ragionarci\".",
+      "Registrata fra dicembre 1996 e gennaio 1997 ai Big Fish Studios di Encinitas, in California, richiese a Hoppus una voce più intensa del solito: il produttore Mark Trombino lo spinse \"fino al punto di urlare\", e nell'ultimo giorno di session Hoppus perse la voce per il fumo, costringendo la band a completare la traccia settimane dopo — un'asprezza vocale che Hoppus disse poi di apprezzare, pur nata per caso. Fu sempre Trombino a proporre di aggiungere un organo Hammond al ritornello finale: un'idea che la band trovò dapprima buffa, salvo ricredersi ascoltando il missaggio definitivo.",
+      "Pubblicata come singolo nel settembre 1997, \"Dammit\" fu il primo grande successo radiofonico della band, raggiungendo l'undicesima posizione della classifica Hot Modern Rock Tracks di Billboard, dove restò per ventotto settimane, e contribuendo alla certificazione d'oro di \"Dude Ranch\" negli Stati Uniti. Il videoclip, diretto da Ken Daurio e Darren Doane, e l'inclusione nella colonna sonora del film \"Can't Hardly Wait\" (1998) ne ampliarono ulteriormente la popolarità.",
+      "Riviste come Consequence, Stereogum e Kerrang! l'hanno indicata come il miglior brano della carriera del gruppo. Su Stereogum, Chris DeVille ha paragonato il fascino del riff d'apertura — capace di ispirare generazioni di chitarristi alle prime armi — a quello di \"Come as You Are\" dei Nirvana e \"Brain Stew\" dei Green Day. Rimasta per anni il brano di chiusura dei concerti della band, è stata reinterpretata da numerosi artisti, fra cui Good Charlotte e Hilary Duff."
+    ],
+    "fraseIconica": "Il titolo non nasce da un momento di ispirazione poetica ma da un cartone animato: Beavis, imitando la propria esclamazione preferita davanti a un videoclip che non gli piace, dice per scherzo che sarebbe un buon titolo per una canzone — e Hoppus lo prende sul serio, costruendoci sopra il brano che sarebbe diventato il primo vero successo radiofonico della band.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/blink-182/dammit/",
+    "fonti": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dammit",
+        "nome": "Wikipedia",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://stereogum.com/1962869/dammit-turns-20/reviews/the-anniversary",
+        "nome": "Stereogum — Chris DeVille",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/6FBDaR13swtiWwGhX1WQsP_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "F",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "I",
+        "F"
+      ]
+    ]
   }
 ]
