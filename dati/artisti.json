@@ -6914,7 +6914,7 @@
   {
     "slug": "limp-bizkit",
     "nome": "Limp Bizkit",
-    "storia": "Formati a Jacksonville, in Florida, nel 1994 dal cantante Fred Durst e dal bassista Sam Rivers, a cui si unì presto il batterista John Otto, nacquero dall'idea di Durst di unire rock e hip hop dopo anni di passione per punk, metal e hip hop. Il chitarrista Wes Borland entrò l'anno successivo, nel 1995, completando la formazione che nel 1996 si allargò al turntablist DJ Lethal, proveniente dagli House of Pain. Il debutto \"Three Dollar Bill, Y'all\" (1997) li fece conoscere nella scena underground, ma il successo commerciale arrivò con \"Significant Other\" (1999) e \"Chocolate Starfish and the Hot Dog Flavored Water\" (2000).",
+    "storia": "Formati a Jacksonville, in Florida, nel 1994 dal cantante Fred Durst e dal bassista Sam Rivers, a cui si unì presto il batterista John Otto, cugino di Rivers. Il chitarrista Wes Borland entrò l'anno successivo, nel 1995, completando la formazione originaria, a cui si aggiunse poi il turntablist DJ Lethal, proveniente dagli House of Pain, conosciuto quando questi erano in tour insieme. Il debutto \"Three Dollar Bill, Y'all\" (1997) li fece conoscere nella scena rap-metal in ascesa, ma il successo commerciale arrivò con \"Significant Other\" (1999) e \"Chocolate Starfish and the Hot Dog Flavored Water\" (2000).",
     "album": [
       {
         "titolo": "Three Dollar Bill, Y'all",
@@ -6979,6 +6979,16 @@
       {
         "url": "https://loudwire.com/why-wes-borland-left-limp-bizkit-twice/",
         "nome": "Loudwire — Philip Trapp",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.allmusic.com/artist/mn0000290502",
+        "nome": "AllMusic — John Bush",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://djlethal.com/pages/about",
+        "nome": "Sito ufficiale di DJ Lethal",
         "ruolo": "storia"
       }
     ]
