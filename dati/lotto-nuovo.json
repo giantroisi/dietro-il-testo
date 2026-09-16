@@ -129,9 +129,71 @@
     "titolo": "Dubbi non ho",
     "artista": "Pino Daniele",
     "artistaSlug": "pino-daniele",
-    "ascoltiKworb": 49330767,
-    "kworbUrl": "https://kworb.net/spotify/artist/2eFv7NVs8R6Go7msuqikeg_songs.html",
-    "kworbData": "2026-09-08"
+    "anno": "1997",
+    "album": "Dimmi cosa succede sulla terra",
+    "albumSlug": "dimmi-cosa-succede-sulla-terra",
+    "genereTesto": "Pop",
+    "generi": [
+      "pop"
+    ],
+    "paese": "it",
+    "colore": "#1F5C4A",
+    "colore2": "#5C4A1F",
+    "ascolti": 49330767,
+    "ascoltiTesto": "49,3 mln ascolti",
+    "spotifyId": "1LBjzNnRG0bjIPkLGIPTDB",
+    "corpo": [
+      "Quarta traccia di \"Dimmi cosa succede sulla terra\" (1997), il quindicesimo album in studio di Pino Daniele, pubblicato il 12 marzo di quell'anno dalla CGD East West e registrato fra ottobre e dicembre 1996 al Plastic Studio di Roma. Fu il disco più venduto dell'anno in Italia — debuttò al secondo posto della classifica FIMI per poi raggiungere il primo nella seconda settimana, con oltre 900.000 copie vendute secondo la rivista Musica e dischi — e \"Dubbi non ho\" ne fu uno dei singoli.",
+      "Al brano parteciparono, secondo i crediti ufficiali del disco, il percussionista Hossam Ramzy, il batterista Manu Katché, il bassista Jimmy Earl e il tastierista Deron Johnson all'Hammond; la tastierista Rita Marcotulli, presente in altri tre brani dell'album, non figura invece in questo.",
+      "\"Dubbi non ho\" ha ottenuto in Italia la certificazione di disco di platino (oltre 100.000 copie) e nel gennaio 2015 tornò per una settimana in classifica, alla posizione 72, nei giorni immediatamente successivi alla morte improvvisa dell'artista, avvenuta il 4 gennaio di quell'anno per un infarto. Il brano fu incluso anche nelle raccolte \"Yes I Know My Way\" (1998), \"Napule è\" (2000) e \"Ricomincio da 30\" (2008), e Sky TG24 lo ha inserito fra le canzoni scelte per ricordare Pino Daniele in una rassegna delle sue frasi più celebri, pubblicata nell'anniversario della scomparsa."
+    ],
+    "fraseIconica": "Più che in un verso, il carattere del brano sta nella sua persistenza: tornò in classifica, settantaduesima posizione in Italia, proprio nella settimana della morte improvvisa di Pino Daniele, il 4 gennaio 2015, e undici anni dopo era ancora fra le canzoni scelte da Sky TG24 per ricordarlo.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.letras.com/pino-daniele/dubbi-non-ho/",
+    "fonti": [
+      {
+        "url": "https://it.wikipedia.org/wiki/Dubbi_non_ho",
+        "nome": "Wikipedia (voce del brano)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/Dimmi_cosa_succede_sulla_terra",
+        "nome": "Wikipedia (voce dell'album)",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://www.pinodaniele.com/music/dimmi-cosa-succede-sulla-terra-1997/",
+        "nome": "Sito ufficiale di Pino Daniele",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://tg24.sky.it/spettacolo/musica/approfondimenti/pino-daniele-frasi-canzoni",
+        "nome": "Sky TG24",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/2eFv7NVs8R6Go7msuqikeg_songs.html",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
+      }
+    ],
+    "testoFonte": "Letras",
+    "temi": [
+      "amore"
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ]
   },
   {
     "slug": "stand-by-me",
