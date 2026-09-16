@@ -9616,7 +9616,7 @@
   {
     "slug": "pearl-jam",
     "nome": "Pearl Jam",
-    "storia": "Formati a Seattle nel 1990 sulle ceneri dei Mother Love Bone, sciolti dopo la morte per overdose del cantante Andrew Wood. Il nucleo storico — Eddie Vedder (voce), Stone Gossard e Mike McCready (chitarre), Jeff Ament (basso) — è rimasto stabile fin dalla fondazione; il batterista Matt Cameron, ex Soundgarden, è nella band dal 1998. Prima di adottare il nome definitivo, il gruppo si chiamò per breve tempo Mookie Blaylock, come il cestista NBA; \"Pearl Jam\" nacque invece come omaggio alle \"jam session\" di Neil Young. Sono considerati, insieme a Nirvana e Soundgarden, tra i pionieri del grunge di Seattle.",
+    "storia": "Formati a Seattle nel 1990 sulle ceneri dei Mother Love Bone, sciolti dopo la morte per overdose di eroina del cantante Andrew Wood. Il nucleo storico — Eddie Vedder (voce), Stone Gossard e Mike McCready (chitarre), Jeff Ament (basso) — è rimasto stabile fin dalla fondazione; il batterista Matt Cameron, ex Soundgarden, è stato nella band dal 1998 al 2025, quando ha annunciato il proprio addio dopo ventisette anni. Prima di adottare il nome definitivo, il gruppo si chiamò per breve tempo Mookie Blaylock, come il cestista NBA; \"Pearl Jam\" nacque invece come omaggio alle \"jam session\" di Neil Young. Sono considerati, insieme a Nirvana e Soundgarden, tra i pionieri del grunge di Seattle.",
     "album": [
       {
         "titolo": "Ten",
@@ -9725,6 +9725,16 @@
       {
         "url": "https://www.britannica.com/topic/Pearl-Jam",
         "nome": "Encyclopaedia Britannica",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.allmusic.com/artist/pearl-jam-mn0000037730/biography",
+        "nome": "AllMusic — Stephen Thomas Erlewine",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nbcnews.com/pop-culture/music/pearl-jam-drummer-matt-cameron-leave-band-nearly-30-years-rcna217369",
+        "nome": "NBC News (Associated Press)",
         "ruolo": "storia"
       }
     ]
