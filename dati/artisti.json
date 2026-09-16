@@ -82,7 +82,7 @@
   {
     "slug": "883",
     "nome": "883",
-    "storia": "Formati a Pavia nel 1988 da Max Pezzali e Mauro Repetto, compagni di classe al liceo Copernico dal 1984, scelsero il nome in omaggio alla cilindrata della Harley-Davidson Sportster 883. Mauro Repetto lasciò il gruppo nel 1994; Max Pezzali continuò a incidere come 883 fino al 2002, abbandonando il nome del duo nel 2003 per proseguire la carriera da solista.",
+    "storia": "Max Pezzali e Mauro Repetto si conobbero come compagni di classe al liceo scientifico Copernico di Pavia e iniziarono a scrivere canzoni insieme; il nome del duo, 883, richiama la cilindrata di un modello della Harley-Davidson. Repetto lasciò il gruppo nel 1994; Max Pezzali continuò a incidere come 883 fino alla raccolta \"Love/Life\" del 2002, con cui ritirò il nome del duo, per poi avviare ufficialmente la carriera da solista nel 2004 con l'album \"Il mondo insieme a te\".",
     "album": [
       {
         "titolo": "Hanno ucciso l'Uomo Ragno",
@@ -159,11 +159,16 @@
     "fonti": [
       {
         "url": "https://www.rockol.it/news-718102/max-pezzali-mauro-repetto-883-canzoni-album-il-mondo-insieme-a-te",
-        "nome": "Rockol",
+        "nome": "Rockol — Paolo Panzeri",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ilgiornale.it/news/storia-e-geografia-degli-883-duo-che-ha-incarnato-provincia-2218889.html",
+        "nome": "il Giornale — Alessandro Gnocchi",
         "ruolo": "storia"
       }
     ],
-    "ultimaVerifica": "2026-09-08"
+    "ultimaVerifica": "2026-09-16"
   },
   {
     "slug": "a-ha",
