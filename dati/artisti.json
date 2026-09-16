@@ -571,7 +571,7 @@
   {
     "slug": "adriano-celentano",
     "nome": "Adriano Celentano",
-    "storia": "Nato a Milano nel 1938, esordì nel 1957 con la sua prima band, i Rock Boys, diventando uno dei primi interpreti del rock and roll in Italia; il modo di muoversi sul palco, dinoccolato e scattante, gli valse il soprannome di \"Molleggiato\". Ha affiancato alla carriera di cantante e cantautore quella di attore e regista fin dagli anni '60. Nel corso dei decenni ha venduto oltre 150 milioni di dischi, diventando una delle figure più popolari della musica e dello spettacolo italiani del dopoguerra.",
+    "storia": "Nato a Milano il 6 gennaio 1938, cominciò a esibirsi dal 1956 nei locali milanesi L'Ancora e Santa Tecla con la sua prima band, i Rock Boys; il 18 maggio 1957 partecipò al primo \"Festival del Rock and Roll e Danze Jazz\", tenutosi al Palaghiaccio di Milano, dove il suo modo di muoversi sul palco, dinoccolato e scattante, gli valse il soprannome di \"Molleggiato\". Ha affiancato alla carriera di cantante e cantautore quella di attore e regista fin dagli anni '60, debuttando alla regia nel 1964 con \"Super rapina a Milano\". È rimasto una delle figure più popolari della musica e dello spettacolo italiani del dopoguerra.",
     "album": [
       {
         "titolo": "Adriano Celentano con Giulio Libano e la sua orchestra",
@@ -904,6 +904,11 @@
       {
         "url": "https://www.treccani.it/enciclopedia/adriano-celentano/",
         "nome": "Treccani",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://milano.fanpage.it/la-milano-di-adriano-celentano-il-ragazzo-della-via-gluck-compie-80-anni/",
+        "nome": "Fanpage — Francesco Loiacono",
         "ruolo": "storia"
       }
     ]
