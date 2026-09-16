@@ -346,3 +346,78 @@ per questo, e dubbi-non-ho e' l'unica con una fonte di livello A.
 NON TOCCARE ANCORA dati/lotto-nuovo.json per le altre tre schede: le sto
 verificando. Fai queste due correzioni e i file, poi aspetta.
 ```
+
+---
+
+## 16 settembre 2026 — LE SEDICI BIOGRAFIE CON UNA FONTE SOLA
+
+```
+Un lavoro solo, ripetuto sedici volte: DARE UNA SECONDA FONTE alle biografie
+che ne hanno una.
+
+Perche' proprio queste. Il campione casuale sulle biografie ha misurato il
+32% di affermazioni che non reggono. Ma il numero si spacca in due, e la
+linea di frattura e' netta:
+
+    1 fonte  -> 23 affermazioni, 12 non reggono   52%
+    2 fonti  -> 31 affermazioni, 13 non reggono   42%
+    3 fonti  -> 14 affermazioni,  4 non reggono   29%
+    5 fonti  -> 28 affermazioni,  2 non reggono    7%
+
+Il caso limite l'hai gia' corretto tu: FINLEY. Una fonte sola, e nove
+affermazioni su tredici che quella pagina non contiene - il nome Junkies,
+il cestista Michael Finley, i sei album, i due MTV Europe Music Awards.
+Nessuna era inventata per ingannare: erano tutte cose vere che la fonte
+citata non diceva. Con una fonte sola non c'e' nessun posto dove andare a
+guardare, e chi scrive riempie i buchi con quello che sa.
+
+ATTENZIONE, e' importante: NON STO DICENDO CHE PIU' FONTI RENDANO VERO IL
+TESTO. Otto voci sono poche, e la spiegazione piu' semplice e' un'altra -
+chi si e' preso la briga di aprirne cinque stava scrivendo con piu' cura.
+Ma in tutti e due i casi la cura si vede nel numero, e il rimedio e' lo
+stesso: aprirne una seconda e riscrivere quel che regge.
+
+--- LE SEDICI
+
+  883                  Rockol
+  ac-dc                Britannica (Gillian G. Gaar)
+  adele                Britannica (John M. Cunningham)
+  adriano-celentano    Treccani
+  blink-182            Kerrang via Hello Rayo
+  ed-sheeran           Treccani
+  green-day            Britannica (Melissa Albert)
+  guns-n-roses         Britannica (Gillian G. Gaar)
+  korn                 Kerrang via Hello Rayo (Scarlett Martin)
+  limp-bizkit          Loudwire (Philip Trapp)
+  linkin-park          Britannica (Fred Frommer)
+  metallica            Britannica
+  nine-inch-nails      Britannica
+  pearl-jam            Britannica
+  the-cranberries      NME (Andrew Trendell)
+  the-killers          NME (Max Pilley)
+
+Le fonti che ci sono NON SONO CATTIVE - Britannica e Treccani sono
+enciclopedie con controllo editoriale, e su ac-dc o metallica reggeranno
+quasi tutto. Il problema non e' la qualita': e' che sono sole.
+
+--- IL LAVORO, per ognuna
+
+1. APRI la fonte che gia' c'e' e rileggi la storia frase per frase. Ogni
+   affermazione che quella pagina NON contiene, segnatela.
+2. Per quelle, CERCA UNA SECONDA FONTE vera - sito ufficiale, etichetta,
+   testata con firma e data, libro identificabile. Se la trovi, aggiungila
+   alle fonti e tieni l'affermazione. Se non la trovi, TOGLI L'AFFERMAZIONE.
+3. Metti ultimaVerifica alla data di oggi SOLO se hai davvero riaperto tutto.
+   Se una voce la lasci a meta', TOGLI ultimaVerifica del tutto.
+
+Un commit per voce, messaggio da file, niente git diff. Sedici commit sono
+tanti: fanne quanti riesci e fermati dove sei, il resto resta per dopo.
+
+--- UNA COSA CHE NON DEVI FARE, e che sto chiedendo all'autore
+
+Tutte e 104 le biografie portano il bollino di verifica, con date fra l'8 e
+il 15 settembre. Ne sono state verificate davvero OTTO. Togliere il bollino
+dalle altre 96 cambierebbe cio' che il sito promette al lettore, e per la
+sezione 14 quella e' una decisione dell'autore, non nostra. L'ho chiesta a
+lui. Tu non toccare ultimaVerifica sulle voci che non stai lavorando.
+```
