@@ -214,3 +214,50 @@ file con git commit -F, e non lanciare git diff ne' git show ne' git log -p.
 Quando hai finito tutte e cinque, fermati e dimmelo: non rigenerare il sito
 e non toccare canzoni.json.
 ```
+
+---
+
+## 16 settembre 2026 — due parole da allineare nelle promesse (piccolo, non urgente)
+
+```
+Ho aperto altre nove promesse. Sette reggono, e una regge a meta'.
+Questo e' l'unico lavoro che ne esce — due nomi di fonte da correggere.
+Falle quando hai finito il lotto delle cinque canzoni, non prima.
+
+1) adams-song — «American Songwriter — Alex Hopper (cita Rolling Stone e
+   MTV News)». LA META' E' FALSA.
+   La pagina cita MTV («Hoppus spoke about this incident during an interview
+   on MTV in 2001») e cita NPR, con tanto di firma: Andrew Limbong, serie
+   "American Anthems" di All Things Considered.
+   ROLLING STONE NON C'E'. Su tutta la pagina, mai nominata.
+   Ed e' il caso piu' istruttivo che ho trovato finora: la promessa nomina
+   la testata PLAUSIBILE al posto di quella vera. Per una canzone come
+   questa, Rolling Stone e' il nome che viene in mente; NPR no. Nessuno l'ha
+   inventato per ingannare, e' venuto su da solo.
+   Scrivi: «cita un'intervista a MTV e la serie American Anthems di NPR».
+   E gia' che ci sei, guarda due cose nella scheda: le due dichiarazioni di
+   Hoppus su quella pagina NON SONO ATTRIBUITE A NIENTE («said previously»,
+   «Hoppus says»). Se la scheda si appoggia a quelle, si appoggia a
+   citazioni che nemmeno la fonte sa da dove vengono: vale la R3.
+
+2) castle-on-the-hill — «Wikipedia (riporta l'intervista di Ed Sheeran a
+   Zane Lowe, Apple Music)». REGGE, ma una parola va allineata.
+   La nota 11 di Wikipedia e': «Zane Lowe (3 febbraio 2017), Zane Lowe and
+   Ed Sheeran, Pt 2, iTunes». Dice iTunes, non Apple Music.
+   Scrivi «Zane Lowe» e basta, oppure «iTunes» come sta sulla nota.
+
+--- LE SETTE CHE REGGONO, per tua tranquillita' e perche' e' giusto dirlo
+
+sad-but-true (Gibson TV), another-one-bites-the-dust (Mary Turner,
+Westwood One - c'e' persino l'anno), when-doves-cry (Bass Player, dicembre
+2005), life-on-mars (il Mail), byob (Entertainment Weekly),
+everybody-hurts (Melody Maker, Pulse, East Coast Rocker E il libro "Reveal:
+The Story of R.E.M.": tutt'e quattro), rock-or-bust (Classic Rock magazine,
+e anche la data e la firma sono esatte).
+
+Nove aperte oggi, sette intatte. Te lo scrivo perche' nell'ordine sulle 37
+promesse ti avevo detto che a rompersi e' SEMPRE la qualificazione piu'
+specifica. Queste erano specifichissime - il nome di un'intervistatrice, un
+mese, un titolo di libro - e hanno retto. La frase che ti ho dato era piu'
+sicura di quanto i numeri permettessero.
+```
