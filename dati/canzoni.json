@@ -8369,18 +8369,23 @@
     "testoUrl": "https://www.letras.com/system-of-a-down/39427/",
     "fonti": [
       {
-        "url": "https://www.songfacts.com/facts/system-of-a-down/aerials",
-        "nome": "Songfacts"
-      },
-      {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://loudwire.com/best-system-of-a-down-songs/",
+        "nome": "Loudwire — Spencer Kaufman, 21 agosto 2012",
+        "ruolo": "storia"
       },
       {
         "url": "https://en.wikipedia.org/wiki/Aerials_(song)",
         "nome": "Wikipedia (voce del brano)",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/system-of-a-down/aerials",
+        "nome": "Songfacts (riporta una dichiarazione di John Dolmayan a MTV)"
+      },
+      {
+        "url": "https://kworb.net/spotify/",
+        "nome": "kworb.net (ascolti Spotify)",
+        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
