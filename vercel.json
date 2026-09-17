@@ -291,11 +291,6 @@
       "permanent": true
     },
     {
-      "source": "/album/blink-182/dude-ranch/",
-      "destination": "/artista/blink-182/",
-      "permanent": true
-    },
-    {
       "source": "/album/blink-182/neighborhoods/",
       "destination": "/artista/blink-182/",
       "permanent": true
@@ -3571,11 +3566,6 @@
       "permanent": true
     },
     {
-      "source": "/album/oasis/be-here-now/",
-      "destination": "/artista/oasis/",
-      "permanent": true
-    },
-    {
       "source": "/album/oasis/standing-on-the-shoulder-of-giants/",
       "destination": "/artista/oasis/",
       "permanent": true
@@ -3857,11 +3847,6 @@
     },
     {
       "source": "/album/pino-daniele/non-calpestare-i-fiori-nel-deserto/",
-      "destination": "/artista/pino-daniele/",
-      "permanent": true
-    },
-    {
-      "source": "/album/pino-daniele/dimmi-cosa-succede-sulla-terra/",
       "destination": "/artista/pino-daniele/",
       "permanent": true
     },
@@ -5047,11 +5032,6 @@
     },
     {
       "source": "/album/the-white-stripes/de-stijl/",
-      "destination": "/artista/the-white-stripes/",
-      "permanent": true
-    },
-    {
-      "source": "/album/the-white-stripes/white-blood-cells/",
       "destination": "/artista/the-white-stripes/",
       "permanent": true
     },

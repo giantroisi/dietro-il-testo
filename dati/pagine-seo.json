@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 312,
+    "nCanzoni": 317,
     "haTestoEditoriale": true
   },
   {
@@ -1597,6 +1597,31 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/fell-in-love-with-a-girl/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/somebody-told-me/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/dubbi-non-ho/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/stand-by-me/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/dammit/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1677,7 +1702,7 @@
     "percorso": "artista/blink-182/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 6,
+    "nCanzoni": 7,
     "haTestoEditoriale": true
   },
   {
@@ -2069,7 +2094,7 @@
     "percorso": "artista/oasis/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 5,
+    "nCanzoni": 6,
     "haTestoEditoriale": true
   },
   {
@@ -2111,7 +2136,7 @@
     "percorso": "artista/pino-daniele/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -2251,7 +2276,7 @@
     "percorso": "artista/the-killers/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2272,7 +2297,7 @@
     "percorso": "artista/the-white-stripes/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2785,6 +2810,13 @@
     "indicizzabile": true,
     "nCanzoni": 3,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/blink-182/dude-ranch/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/blink-182/enema-of-the-state/",
@@ -3641,6 +3673,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/oasis/be-here-now/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/oasis/heathen-chemistry/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -3754,6 +3793,13 @@
   },
   {
     "percorso": "album/pino-daniele/vai-mo/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/pino-daniele/dimmi-cosa-succede-sulla-terra/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -3952,7 +3998,7 @@
     "percorso": "album/the-killers/hot-fuss/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3978,6 +4024,13 @@
   },
   {
     "percorso": "album/the-rolling-stones/beggars-banquet/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
+    "percorso": "album/the-white-stripes/white-blood-cells/",
     "categoria": "indice",
     "indicizzabile": false,
     "nCanzoni": 1,
@@ -4057,14 +4110,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 159,
+    "nCanzoni": 162,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 136,
+    "nCanzoni": 138,
     "haTestoEditoriale": true
   },
   {
@@ -4078,7 +4131,7 @@
     "percorso": "genere/punk/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 25,
+    "nCanzoni": 26,
     "haTestoEditoriale": true
   },
   {
@@ -4099,14 +4152,14 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 68,
+    "nCanzoni": 71,
     "haTestoEditoriale": true
   },
   {
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 55,
+    "nCanzoni": 57,
     "haTestoEditoriale": true
   },
   {

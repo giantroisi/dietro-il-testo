@@ -1369,8 +1369,8 @@
     "titolo": "Dude Ranch",
     "anno": "1997",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -9927,8 +9927,8 @@
     "titolo": "Be Here Now",
     "anno": "1997",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -10752,8 +10752,8 @@
     "titolo": "Dimmi cosa succede sulla terra",
     "anno": "1997",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
@@ -13304,7 +13304,7 @@
     "titolo": "Hot Fuss",
     "anno": "2004",
     "copertina": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "esiste": true,
     "indicizzabile": true,
     "sintetico": false
@@ -13722,8 +13722,8 @@
     "titolo": "White Blood Cells",
     "anno": "2001",
     "copertina": false,
-    "nCanzoni": 0,
-    "esiste": false,
+    "nCanzoni": 1,
+    "esiste": true,
     "indicizzabile": false,
     "sintetico": false
   },
