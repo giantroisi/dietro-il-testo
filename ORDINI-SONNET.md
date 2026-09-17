@@ -519,3 +519,52 @@ Un commit, messaggio da file, niente git diff.
 Quando hai finito torna alle sedici biografie - sei a quattro. Quelle NON
 prendono il bollino: quando le hai chiuse tutte me lo dici e le riapro io.
 ```
+
+---
+
+## 17 settembre 2026 — le dodici citazioni nude (piccolo, e porta un controllo a zero)
+
+```
+Lavoro piccolo e chiuso. `node scripts/check-citazioni-nude.mjs` segnala
+dodici citazioni fra virgolette, dentro la frase iconica, davanti alle quali
+non si vede ne' CHI le ha dette ne' DI CHE COSA sono il titolo.
+
+LE HO GUARDATE TUTTE E DODICI E NON SONO VERSI: undici sono titoli di opere
+che il filtro non riconosce (un quadro di Bacon, un film, un'altra canzone,
+una commedia teatrale, il ritornello che coincide col titolo del brano) e una
+e' una parafrasi di tre parole. Quindi NON e' un problema di Sezione 3: e' un
+problema di leggibilita'. Il lettore vede delle virgolette e non sa di chi
+siano.
+
+Il lavoro e' rendere esplicito nella STESSA FRASE cosa sono:
+
+  mantra                      le parole fra virgolette sono di Oli Sykes
+                              (verificato su Louder/Metal Hammer): scrivilo
+  non-me-lo-posso-permettere  una e' il motto/titolo, l'altra e' il titolo
+                              del trittico di Francis Bacon: dillo
+  stop-crying-your-heart-out  una e' il ritornello che coincide col titolo,
+                              l'altra e' il titolo di un'altra canzone
+  creep                       il titolo di un altro brano
+  africa                      parafrasi di tre parole: togli le virgolette
+                              o attribuisci l'immagine
+  i-will-always-love-you      il titolo di un film
+  drown                       il titolo dell'album
+  hey-brother                 il titolo di un film
+  shot-in-the-dark            l'espressione da cui viene il titolo
+  roxanne                     il titolo della commedia di Rostand
+
+Basta una parola in piu' davanti: «il film "X"», «l'album "Y"», «come disse
+Z». Non riscrivere le frasi iconiche: aggiungi l'appiglio.
+
+QUANDO HAI FINITO il controllo deve dire zero. Da quel momento serve a
+qualcosa: se un giorno ne compare una tredicesima, quella non l'ha guardata
+nessuno. Adesso, con dodici note buone dentro, e' un numero che nessuno legge.
+
+Un commit, messaggio da file, niente git diff.
+
+--- E PRIMA DI QUESTO, se non l'hai ancora fatto
+
+Resta da eseguire l'ordine di pubblicazione del lotto: le cinque schede da
+dati/lotto-nuovo.json a dati/canzoni.json, col bollino al 2026-09-16 su
+quelle cinque. Quello viene prima: sono verificate e ferme.
+```
