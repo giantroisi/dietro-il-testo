@@ -6222,12 +6222,17 @@
     "testoUrl": "https://www.angolotesti.it/N/testi_canzoni_naska_180059/testo_canzone_cattiva_2657670.html",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Naska_(singer)",
-        "nome": "Wikipedia"
+        "url": "https://www.rockol.it/artista/naska",
+        "nome": "Rockol",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.cromosomimedia.com/2023/01/31/naska-cattiva-e-una-relazione-tossica-che-non-riesci-a-mettere-in-stand-by/",
         "nome": "Cromosomi"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Naska_(singer)",
+        "nome": "Wikipedia"
       },
       {
         "url": "https://kworb.net/spotify/artist/4r1DHaB2yIhddOkTF92d1d_songs.html",
