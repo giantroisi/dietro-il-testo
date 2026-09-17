@@ -868,3 +868,45 @@ restare li' a certificare una versione che non esiste piu'.
 Quindi d'ora in poi non serve che ci pensi tu: correggi pure, il controllo
 se ne accorge.
 ```
+
+---
+
+## 17 settembre 2026 — sharazan: l'ammorbidimento non e' arrivato dove serviva
+
+```
+PICCOLO. Da fare quando ti capita, non urgente.
+
+Nel commit delle undici hai scritto che dove la ricerca non trovava niente
+di meglio «l'affermazione debole e' stata tolta o ammorbidita invece di
+restare appoggiata al niente». Giusto, ed e' la cosa da fare. Ma su
+SHARAZAN l'ammorbidimento non e' arrivato nei due punti dove serviva.
+
+La scheda dice, come fatto:
+  corpo: «Il titolo e' una parola inventata che nel testo indica una
+         "terra dei sogni"»
+  frase iconica: «...la terra dei sogni immaginata dal testo»
+
+E tu stesso, nel commit, hai scritto che l'unica fonte disponibile —
+Wikipedia inglese — SU QUESTO PUNTO E' SENZA FONTE, e l'hai citata: «they
+are told to say that...». Cioe' la nostra unica fonte dichiara di non
+sapere, e noi lo scriviamo due volte come se lo sapessimo.
+
+E' il caso della R8: il dubbio si scrive, non si arrotonda. Due strade,
+tutt'e due buone:
+ - TOGLIERE l'interpretazione e tenere il fatto: il titolo e' una parola
+   inventata, e nel brano e' il nome invocato. Quello si vede e basta.
+ - DICHIARARE: «una parola inventata, comunemente letta come il nome di una
+   terra dei sogni, anche se nessuna fonte lo documenta».
+
+Non e' un cavillo: e' esattamente il tipo di frase che il campione casuale
+trova e classifica come "non regge", e che poi costa una riscrittura.
+
+--- E IL PROSSIMO LAVORO GRANDE, quando finisci le biografie
+
+Nel tuo commit c'e' un numero che non avevo: «schede senza fonte A/B scese a
+46 (soglia 53)». Le undici che ti avevo dato erano quelle dove OGNI fonte e'
+di livello C — un sottoinsieme. Le 46 sono la cosa vera.
+Non partire adesso: finisci le quindici biografie, che stanno gia' rendendo
+(tre su tre hanno trovato qualcosa). Le 46 sono il lavoro dopo, e te le do
+misurate.
+```
