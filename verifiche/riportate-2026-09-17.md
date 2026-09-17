@@ -1,0 +1,75 @@
+# «Detto a» oppure «riportato da»: i primi sette punti su ventiquattro
+
+**17 settembre 2026.** `check-riportate.mjs` elenca i punti in cui una scheda
+dichiara che una citazione è stata detta **a una delle sue fonti**. Sono **24**
+su tutto il sito. Non sono ventiquattro errori: sono i ventiquattro posti dove
+l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citata,
+il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
+detta.
+
+Ne ho aperti **sette**. **Quattro reggono, tre no.**
+
+## Reggono — e vale la pena dire perché
+
+| scheda | la fonte scrive | |
+|---|---|---|
+| `doomed` | «stopped by the Loudwire studio… **gave us** insight», «Sykes tells **us**» | l'intervista è loro |
+| `zombie-cranberries` | «O'Riordan **told TIME**» | l'ha ricevuta TIME |
+| `nihilist-blues` | «Amy Lee has spoken **to NME**», «**Lee told NME**» | l'ha ricevuta NME |
+| `fell-in-love-with-a-girl` | la fonte **è** la recensione di Ted Kessler su NME | «descrisse su NME» è esatto per costruzione |
+
+**`zombie-cranberries` è il modello.** Nella stessa scheda ci sono due
+citazioni e due testate diverse, e la scheda le tiene separate: «raccontò
+O'Riordan **a Vox magazine**» per una, «disse la stessa O'Riordan **a TIME**»
+per l'altra. TIME riporta entrambe, ma la scheda attribuisce ciascuna a chi
+l'ha davvero ricevuta. È la R3 fatta bene, senza che nessuno l'avesse chiesto.
+
+**`doomed` è il contrasto perfetto con `drown`**: stessa band, stesso album,
+stessa stagione. Su `doomed` Loudwire scrive «gave us insight» e la scheda può
+dire «a Loudwire»; su `drown` Metal Hammer scrive «Oli *recently described*» e
+la scheda non può dire «a Metal Hammer». La differenza sta in due parole nella
+fonte, e non si vede da nessuna parte se non aprendola.
+
+## Non reggono
+
+- **`drown`** e **`toxicity`** — già nell'esito del campione di oggi.
+- **`chasing-pavements`** (nuovo). La scheda scrive «come ha raccontato **a
+  American Songwriter**». American Songwriter non dice mai che Adele abbia
+  parlato con loro: è un pezzo della rubrica *Behind the Song*, e ogni
+  citazione è introdotta da un secco «said Adele», senza dire dove l'abbia
+  detto. È un articolo che **raccoglie**, non che intervista — e per giunta la
+  catena si ferma lì, perché nemmeno la fonte dichiara da dove prenda le frasi.
+  Forma corretta: «secondo American Songwriter, Adele ha raccontato…».
+  **Tutto il resto della scheda regge**, e alla lettera: le sei del mattino, il
+  litigio nel locale del West End, la corsa lungo Oxford Street, «guardavo
+  questi marciapiedi larghissimi stendersi davanti a me», i quattro mesi di
+  relazione, le dieci canzoni in cinque settimane, l'ex che chiede i diritti e
+  la risposta di Adele, il Grammy del 2009.
+
+## Una imprecisione minore, non un difetto
+
+`nihilist-blues`: «un **gesto** che lei stessa ha definito "molto più potente e
+bello"». Amy Lee quelle parole le usa per **la storia vera** («the real story
+to me is so much more powerful and cool»), non per il gesto. Il senso resta,
+ma la citazione qualifica un'altra cosa.
+
+## Restano diciassette
+
+`teen-spirit`, `hey-jude`, `darkside`, `seven-nation-army`, `antivist`,
+`psychosocial`, `uprising`, `i-miss-you`, `supermassive-black-hole`, `closer`,
+`fade-to-black`, `postmortem`, `fuori-dal-tunnel`, `la-mia-parte-intollerante`,
+`non-me-lo-posso-permettere`, `dicono-di-me`, `il-comico-sai-che-risate`.
+
+Alcuni sono a basso rischio per costruzione — quando la fonte **è**
+l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
+Stone Interview*, `antivist` è la guida traccia per traccia di Metal Hammer),
+«a X» è giusto per forza. I più esposti sono quelli in cui la fonte è un pezzo
+**su** una canzone e non **con** un artista: è lì che si annida il difetto.
+
+## Cosa cambia questo lavoro
+
+Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
+modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
+non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
+quello che serve per chiudere questa classe di difetti su tutto il sito.
+Sette fatte, diciassette rimaste.
