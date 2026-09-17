@@ -10271,6 +10271,11 @@
     "testoUrl": "https://www.letras.com/a-ha/322/",
     "fonti": [
       {
+        "url": "https://a-ha.com/past-tours/mtv-unplugged",
+        "nome": "Sito ufficiale di a-ha",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://en.wikipedia.org/wiki/I%27ve_Been_Losing_You",
         "nome": "Wikipedia"
       },
