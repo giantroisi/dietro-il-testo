@@ -1012,16 +1012,21 @@
     "ascoltiTesto": "785 mln ascolti",
     "spotifyId": "0eY0YgyLAZ4gtM57wwYN7H",
     "corpo": [
-      "Paul McCartney lo compose in auto, mentre andava a trovare Cynthia Lennon e suo figlio Julian, cinque anni, a Weybridge, poco dopo la separazione dei genitori nel maggio 1968 (il divorzio arrivò solo in novembre). Come raccontò lui stesso, secondo The Paul McCartney Project — che cita un'intervista a Rolling Stone del gennaio 1974 — l'idea nacque come \"Hey Jules\": \"Ero mezzo per la sua strada, canticchiando questa cosa, tipo 'Hey Jules'... non so perché\"; poi decise che \"Jude\" suonava \"un po' più country\", ispirandosi anche al personaggio Jud del musical Oklahoma!.",
-      "In una conferenza stampa dell'ottobre 1984 McCartney raccontò un aneddoto curioso legato al cambio di titolo: qualcuno scoprì che \"Jude\" suonava come \"Jew\" (ebreo) e si arrabbiò con lui, convinto che il brano fosse antisemita. Cynthia Lennon, nelle sue memorie, ha raccontato che fu proprio durante quella visita a Weybridge che Paul le disse che la canzone era per Julian — e che, ironicamente, lo stesso John Lennon pensò da subito che il testo parlasse in realtà di lui. Con i suoi 7 minuti e 11 secondi \"Hey Jude\" era, all'epoca, il brano più lungo ad arrivare al numero 1 delle classifiche britanniche. Fu uno dei quattro singoli pubblicati contemporaneamente, nell'agosto 1968, per lanciare l'etichetta Apple dei Beatles, e restò nove settimane in vetta alla classifica statunitense: il più grande successo numero 1 nella storia della band."
+      "Paul McCartney lo compose in auto, mentre andava a trovare Cynthia Lennon e suo figlio Julian, cinque anni, a Weybridge, poco dopo la separazione dei genitori nel maggio 1968 (il divorzio arrivò solo in novembre). Come raccontò lui stesso a Rolling Stone, nel gennaio 1974, l'idea nacque come \"Hey Jules\": \"Ero mezzo per la sua strada, canticchiando questa cosa, tipo 'Hey Jules'... non so perché\"; poi decise che \"Jude\" suonava \"un po' più country\", ispirandosi anche al personaggio Jud del musical Oklahoma! (dettaglio raccontato altrove, nella biografia autorizzata di Barry Miles).",
+      "McCartney raccontò più volte un aneddoto curioso legato al titolo: qualcuno scoprì che \"Jude\" suonava come \"Jew\" (ebreo) e si arrabbiò con lui, convinto che il brano fosse antisemita. Cynthia Lennon, nelle sue memorie, ha raccontato che fu proprio durante quella visita a Weybridge che Paul le disse che la canzone era per Julian — mentre lo stesso John Lennon, in un'intervista del 1980, disse di aver sempre pensato che il testo parlasse in realtà di lui: \"L'ho sempre sentita come una canzone per me... Sta dicendo: 'Hey, Jude — hey, John.'\" Fu uno dei quattro singoli pubblicati contemporaneamente, nell'agosto 1968, per lanciare l'etichetta Apple dei Beatles, e restò nove settimane in vetta alla classifica Billboard Hot 100: il più lungo regno in classifica della storia dei Beatles."
     ],
     "fraseIconica": "Il verso più citato è l'invito a prendere una canzone triste e renderla migliore, seguito dal celebre coro finale di \"na-na-na\" che dura quasi quattro minuti. Paul McCartney scrisse il brano nel 1968 per consolare il piccolo Julian Lennon durante la separazione dei suoi genitori, mesi prima del divorzio effettivo (il titolo di lavorazione era \"Hey Jules\"); John Lennon in seguito disse di aver sempre pensato che il testo parlasse segretamente di lui e del suo rapporto con Yoko Ono, quasi un'approvazione di Paul a lasciarlo andare. Julian venne a conoscenza della storia completa solo nel 1987, incontrando casualmente McCartney in un hotel di New York.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/the-beatles/hey-jude/",
     "fonti": [
       {
-        "url": "https://www.the-paulmccartney-project.com/1968/06/paul-mccartney-visits-cynthia-lennon-and-composes-hey-jude/",
-        "nome": "The Paul McCartney Project (raccoglie interviste dirette a McCartney e le memorie di Cynthia Lennon)",
+        "url": "https://web.archive.org/web/2019/https://www.rollingstone.com/music/music-features/paul-mccartney-the-rolling-stone-interview-3-241349/",
+        "nome": "Rolling Stone (Paul Gambaccini, gennaio 1974, via Wayback Machine)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://web.archive.org/web/2023/https://www.billboard.com/pro/this-week-in-billboard-chart-history-1968-the-beatles-hey-jude-hot-100/",
+        "nome": "Billboard (Gary Trust, via Wayback Machine)",
         "ruolo": "storia"
       },
       {
