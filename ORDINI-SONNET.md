@@ -810,3 +810,61 @@ quelli che cambiano da una fonte all'altra senza che nessuno se ne accorga.
 Un commit per voce, messaggio da file, niente git diff.
 NON mettere il bollino: quelle le riapro io.
 ```
+
+---
+
+## 17 settembre 2026 — undici bollini da togliere (colpa mia, non tua)
+
+```
+PICCOLO E URGENTE, da fare quando finisci la voce che hai in mano — non
+serve interrompere.
+
+`node scripts/check-bollino.mjs` adesso fallisce: undici voci mostrano al
+lettore il bollino di verifica e il registro dice che non sono verificate.
+Non hai sbagliato niente tu: ho tolto io quelle undici dal registro, e il
+motivo e' un difetto mio che ho visto solo oggi.
+
+IL DIFETTO: ogni verifica di questa settimana ha funzionato cosi' — io leggo
+la scheda, trovo i difetti, tu correggi. Quindi QUEL CHE HO LETTO IO E'
+SEMPRE LA VERSIONE ROTTA. La versione corretta, quella che vede il lettore,
+non l'ha mai riaperta nessuno da fuori. Il bollino diceva «verificata» su un
+testo che nessun verificatore aveva visto.
+Credevo riguardasse una voce sola (adele). Riguardava diciotto voci su
+diciotto.
+
+--- COSA FARE
+
+1. TOGLI ultimaVerifica da queste undici:
+
+   biografia:  finley
+
+   canzoni:    for-those-about-to-rock, iron-man, angel-of-death,
+               goodbye-malinconia, gli-uomini-e-le-donne-sono-uguali,
+               back-in-black, hard-as-a-rock, albachiara, feeling-this,
+               giovani-wannabe
+
+2. Lancia check-bollino: deve tornare a finire con «Ogni voce che mostra il
+   bollino e' stata riaperta da una mano diversa». Restano dodici voci col
+   bollino: sette biografie e le cinque canzoni del lotto, che sono le
+   uniche che ho letto DOPO le correzioni.
+
+3. Rigenera e ricopia.
+
+Un commit solo, messaggio da file, niente git diff.
+
+--- SU FINLEY, che e' diverso dalle altre dieci
+
+Le dieci canzoni escono solo per il difetto di metodo: le rileggo io e
+tornano. Finley esce anche per due contraddizioni aperte — sette album
+contro cinque, 300 mila copie contro 1.300.000 — che sono nell'ordine di
+prima. Quelle vanno chiuse prima che io possa rileggerla.
+
+--- E UNA COSA CHE NON CAMBIA
+
+Il registro adesso porta l'IMPRONTA del testo e delle fonti di ogni voce
+verificata. Se tu correggi una voce che ha il bollino, l'impronta non
+combacia piu' e check-bollino lo dice da solo: il bollino scade invece di
+restare li' a certificare una versione che non esiste piu'.
+Quindi d'ora in poi non serve che ci pensi tu: correggi pure, il controllo
+se ne accorge.
+```
