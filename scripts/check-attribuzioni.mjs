@@ -231,6 +231,15 @@ for (const c of canzoni) {
   }
 }
 
+// --slugs: una riga per scheda segnalata, niente altro. Serve a
+// `check-registro.mjs`, che incrocia queste segnalazioni con il registro delle
+// verifiche indipendenti: una voce col bollino non deve comparire qui.
+// Le "promesse" non finiscono in questo elenco: non sono errori.
+if (process.argv.includes('--slugs')) {
+  for (const s of segnalazioni) console.log(s.slug);
+  process.exit(0);
+}
+
 console.log(`\nSchede esaminate: ${canzoni.length}`);
 console.log(`Schede che nominano una testata non citata fra le proprie fonti: ${segnalazioni.length}\n`);
 

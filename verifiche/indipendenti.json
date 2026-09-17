@@ -37,10 +37,6 @@
       "data": "2026-09-16",
       "impronta": "0cf867ec8d02"
     },
-    "somebody-told-me": {
-      "data": "2026-09-16",
-      "impronta": "01a35b1e5797"
-    },
     "dubbi-non-ho": {
       "data": "2026-09-16",
       "impronta": "c802cb8f8f4d"
@@ -70,5 +66,5 @@
       "impronta": "42c50d0dda7a"
     }
   },
-  "scadenza": "Una verifica scade quando il testo cambia. Le dieci schede del campione casuale del 15 settembre sono uscite da questo registro il 17: le avevo lette PRIMA delle correzioni, quindi quel che ho verificato io non e' quel che legge il lettore. Rientrano quando le rileggo nella versione pubblicata. Vale anche per finley, uscita per lo stesso motivo piu' due contraddizioni nuove."
+  "scadenza": "Una verifica scade quando il testo cambia. Le dieci schede del campione casuale del 15 settembre sono uscite da questo registro il 17: le avevo lette PRIMA delle correzioni, quindi quel che ho verificato io non e' quel che legge il lettore. Rientrano quando le rileggo nella versione pubblicata. Vale anche per finley, uscita per lo stesso motivo piu' due contraddizioni nuove. Il 17 settembre e uscita anche somebody-told-me, per un motivo diverso e peggiore: non e cambiato il testo, sono io che l avevo registrata senza lanciare i controlli che gia esistevano. check-attribuzioni la segnalava da giorni. Rientra quando la segnalazione e chiusa."
 }
