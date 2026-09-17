@@ -1795,12 +1795,18 @@
     "testoUrl": "https://www.letras.com/fabrizio-de-andre/la-canzone-di-marinella/",
     "fonti": [
       {
-        "url": "https://it.wikipedia.org/wiki/La_canzone_di_Marinella",
-        "nome": "Wikipedia"
+        "url": "https://www.ondarock.it/speciali/fabrizio-de-andre-femminicidio-ispirazione-prima-hit-mina-canzone-di-marinella/",
+        "nome": "OndaRock",
+        "ruolo": "storia"
       },
       {
-        "url": "https://www.sololibri.net/La-canzone-di-Marinella-De-Andre-significato-vera-storia-analisi.html",
-        "nome": "Sololibri"
+        "url": "https://www.lastampa.it/2012/12/31/edizioni/asti/ecco-come-ho-scovato-la-vera-storia-della-marinella-di-fabrizio-de-andre-ztff93aExr4viEKkecHR5L/pagina.html",
+        "nome": "La Stampa (ed. Asti) — Carlo Francesco Conti, 31 dicembre 2012",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/La_canzone_di_Marinella",
+        "nome": "Wikipedia"
       },
       {
         "url": "https://kworb.net/spotify/",
