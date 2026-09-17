@@ -194,6 +194,14 @@ function attribuzione(frase, nome) {
     // «Billboard ha indicato», «NME scrisse», «inserito da Guitar World»
     `${n}\\s+(?:ha|hanno|aveva|avevano)?\\s*(?:detto|dichiarato|raccontato|scritto|scrisse|indicato|indica|definito|definì|riportato|riporta|riportò|eletto|inserito|descritto|descrive|spiegato|spiega|sostiene|sostenuto|nominato|nomina)`,
     `(?:inserito|eletto|indicato|scelto|classificato|definito|nominato)\\s+[^.;]{0,60}?\\bda\\s+${n}\\b`,
+    // «A Rolling Stone, nel 1974, Van Zant spiegò…» — la testata come
+    // DESTINATARIO, e il verbo del dire DOPO. Il controllo era cieco proprio
+    // qui, cioe' sulla forma piu' comune di questo sito e su quella che la R3
+    // incoraggia. Trovato il 17 settembre 2026 dal campione sulle citazioni:
+    // `sweet-home-alabama` nomina Rolling Stone e Classic Rock, non cita ne'
+    // l'una ne' l'altra, e nessuno se n'era accorto. La forma speculare —
+    // verbo prima, destinatario dopo — esiste gia' due righe piu' su.
+    `\\b(?:a|ad|al|alla|allo)\\s+(?:rivista\\s+|testata\\s+)?${n}\\b[^.;]{0,60}?${dire}`,
   ];
   return forme.some((f) => new RegExp(f, 'iu').test(frase));
 }
