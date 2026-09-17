@@ -2630,12 +2630,14 @@
     "testoUrl": "https://www.letras.com/lucio-dalla/4-marzo-1943/",
     "fonti": [
       {
-        "url": "https://www.soundsblog.it/post/4-marzo-1943-lucio-dalla-testo-significato-canzone-sanremo",
-        "nome": "Soundsblog"
+        "url": "https://www.treccani.it/magazine/lingua_italiana/speciali/Ritratti/Cr_Dalla44.html",
+        "nome": "Treccani",
+        "ruolo": "storia"
       },
       {
-        "url": "https://www.tag24.it/521864-lucio-dalla-4-marzo-1943-significato-censure",
-        "nome": "Tag24"
+        "url": "https://www.avvenire.it/agora/spettacoli/pallottino-e-il-testo-di-431943-cosi-e-nato-dalla_27470",
+        "nome": "Avvenire (intervista a Paola Pallottino)",
+        "ruolo": "storia"
       },
       {
         "url": "https://open.spotify.com/track/3yGyWqmw9eCQPdJJ6iJLWs",
