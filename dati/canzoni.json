@@ -4202,20 +4202,26 @@
     "ascoltiTesto": "325 mln ascolti",
     "spotifyId": "6lFUdRItQEsEuD7dSINL47",
     "corpo": [
-      "Scritta dal cantante Oliver Sykes come dedica alla moglie Hannah Snowdon, \"Follow You\" fa parte dell'album \"That's the Spirit\" (2015), pubblicata come singolo nel febbraio 2016.",
-      "Il testo è una dichiarazione d'amore incondizionato, che riconosce apertamente gli errori commessi all'interno della relazione senza nasconderli, trasformandoli in un punto di partenza per il perdono e per la fiducia reciproca: un promemoria che, anche nei momenti più bui, resta sempre spazio per la redenzione e il cambiamento."
+      "Scritta dal cantante Oliver Sykes, \"Follow You\" fa parte dell'album \"That's the Spirit\" (2015) e fu pubblicata come singolo nel febbraio 2016; in un commento audio per Spotify, Sykes l'ha descritta come dedicata alla sua compagna, senza nominarla.",
+      "Rock Sound l'ha descritta come una vera e propria \"love song\", un incrocio fra PVRIS e Linkin Park; per Alternative Press è \"un'emotiva ballata carica di elettronica frammentata\" — entrambe la indicano come uno dei momenti in cui la band, con l'album \"That's the Spirit\", si aprì a sonorità più melodiche ed elettroniche."
     ],
-    "fraseIconica": "Il testo più citato è la dichiarazione d'amore incondizionato con cui il narratore riconosce apertamente gli errori commessi nella relazione, trasformandoli in un punto di partenza per il perdono reciproco. Oliver Sykes l'ha scritta come dedica alla moglie Hannah Snowdon, un promemoria che anche nei momenti più bui resta sempre spazio per il cambiamento.",
+    "fraseIconica": "Il testo più citato è la dichiarazione d'amore con cui il narratore riconosce apertamente gli errori commessi nella relazione, senza nasconderli. Oliver Sykes l'ha descritta come una dedica alla sua compagna, un promemoria che anche nei momenti più bui resta sempre spazio per il cambiamento.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/bring-me-the-horizon/follow-you/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)",
-        "nome": "Wikipedia"
+        "url": "http://www.rocksound.tv/features/read/this-is-what-the-new-bring-me-the-horizon-album-sounds-like",
+        "nome": "Rock Sound (Andy Biddulph)",
+        "ruolo": "storia"
       },
       {
-        "url": "https://www.musicianwages.com/the-meaning-behind-the-song-follow-you-by-bring-me-the-horizon/",
-        "nome": "Musician Wages"
+        "url": "http://www.altpress.com/reviews/entry/bring_me_the_horizon_thats_the_spirit",
+        "nome": "Alternative Press (Tom Bryant)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)",
+        "nome": "Wikipedia"
       },
       {
         "url": "https://kworb.net/spotify/artist/1Ffb6ejR6Fe5IamqA5oRUF_songs.html",
