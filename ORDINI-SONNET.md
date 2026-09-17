@@ -910,3 +910,13 @@ Non partire adesso: finisci le quindici biografie, che stanno gia' rendendo
 (tre su tre hanno trovato qualcosa). Le 46 sono il lavoro dopo, e te le do
 misurate.
 ```
+
+---
+
+## 17 settembre 2026 — le dieci del campione, rilette nella versione corretta
+
+Ordine consegnato. Dettagli in `verifiche/campione-rilettura-2026-09-17.md`:
+sei schede da correggere (`for-those-about-to-rock`, `albachiara`,
+`feeling-this`, `gli-uomini-e-le-donne-sono-uguali`, `iron-man`,
+`angel-of-death`) e quattro bollini da rimettere (`back-in-black`,
+`hard-as-a-rock`, `goodbye-malinconia`, `giovani-wannabe`).
