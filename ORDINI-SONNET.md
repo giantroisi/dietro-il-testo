@@ -746,3 +746,67 @@ E una cosa che vale per il resto del lavoro: quando aggiungi una fonte,
 CHIEDITI SE HA UNA REDAZIONE DIETRO, non se e' scritta bene. Riffology e'
 scritta meglio di parecchie testate vere. Non e' quello il criterio.
 ```
+
+---
+
+## 17 settembre 2026 — la seconda fonte chiude i buchi e apre le divergenze
+
+```
+Ho riletto le otto biografie che portano il bollino. Quattro reggono
+(evanescence, judas-priest, adele, a-ha) e su fulminacci HO RITIRATO UN MIO
+RILIEVO: la «contraddetta» sull'esordio non esisteva, avevo letto l'ordine
+in cui Inside Music elenca tre brani come se fosse l'ordine di uscita.
+Wikipedia, con una nota per riga, dice che «Borghese in borghese» E' il
+singolo d'esordio, gennaio 2019. La scheda diceva il vero, il numero del
+campione scende dal 32% al 31%, e l'errore era mio.
+
+Adele e a-ha sono il modello: adele ha tolto il nome della BRIT School che
+Britannica non fa, ha sostituito i 120 milioni con le cifre vere, e ha
+aggiunto il capitolo su «30» che stava nella stessa fonte e che nessuno
+aveva usato. a-ha e' piu' corta e piu' vera.
+
+--- MA FINLEY HA UN PROBLEMA NUOVO, E L'HAI CREATO TU AGGIUNGENDO LA FONTE
+
+Con Wikipedia (EN) hai chiuso SETTE dei nove buchi che avevo segnalato: il
+2002, il nome Junkies, gli amici di scuola, il cambio di nome nel 2003,
+Michael Finley, i due Best Italian Act. Erano tutte vere e nessuno le aveva
+documentate: lavoro giusto.
+
+Pero' adesso LE DUE FONTI SI CONTRADDICONO e la scheda non lo dice:
+
+ 1. ALBUM. La scheda dice «sette album in studio». Wikipedia (EN) — la
+    fonte che hai appena aggiunto — dice «five studio albums». La versione
+    precedente della scheda diceva sei. Tre numeri in tre versioni, e quello
+    pubblicato non sta in nessuna delle due fonti citate. Questo va chiuso
+    sul sito ufficiale o su una discografia affidabile, non scegliendo.
+
+ 2. COPIE VENDUTE. Rockol: «oltre 300 mila copie tra album e singoli».
+    Wikipedia (EN): «over 1,300,000 records in Italy». Un fattore quattro.
+    La scheda da' la cifra di Rockol come pacifica. R2-bis: non si sceglie,
+    si sale (FIMI) o si dichiara la divergenza.
+
+ 3. Restano non confermate «presenti sin dal 2002» e «subentrato nel 2011».
+
+--- IL LAVORO VERO, che e' piu' grande di finley
+
+AGGIUNGERE UNA FONTE PUO' CREARE UNA CONTRADDIZIONE CHE PRIMA NON C'ERA.
+Con una fonte sola non esistono divergenze: esistono solo buchi. Alla
+seconda fonte i buchi si chiudono e le divergenze VENGONO A GALLA — ed e'
+un progresso, perche' il disaccordo c'era anche prima e non lo vedeva
+nessuno. Ma nessun controllo automatico lo trova: due numeri diversi su due
+pagine diverse non si incontrano mai finche' qualcuno non li mette accanto.
+
+Tu hai aggiunto una seconda fonte a SEDICI biografie. Finley e' l'unica che
+ho riletto, e aveva due contraddizioni. Le altre quindici non le ha
+riguardate nessuno.
+
+RIPRENDILE, una per una, e per ogni affermazione della storia CONFRONTA LE
+DUE FONTI FRA LORO — non l'affermazione con una fonte, le due fonti fra
+loro. Dove dicono cose diverse, non scegliere: sali di livello, e se non si
+chiude scrivi la divergenza (R5).
+Sospetta soprattutto dei NUMERI: copie vendute, numero di album, anni. Sono
+quelli che cambiano da una fonte all'altra senza che nessuno se ne accorga.
+
+Un commit per voce, messaggio da file, niente git diff.
+NON mettere il bollino: quelle le riapro io.
+```
