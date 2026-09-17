@@ -568,3 +568,67 @@ Resta da eseguire l'ordine di pubblicazione del lotto: le cinque schede da
 dati/lotto-nuovo.json a dati/canzoni.json, col bollino al 2026-09-16 su
 quelle cinque. Quello viene prima: sono verificate e ferme.
 ```
+
+---
+
+## 17 settembre 2026 — quattro cose uscite dall'apertura delle ultime promesse
+
+```
+Le promesse reggono (29 su 31 aperte). Ma aprendo le pagine ho visto quattro
+cose che riguardano le SCHEDE, non le promesse. Sono piccole e precise.
+
+--- 1) dicono-di-me: una data scelta fra due che si contraddicono (R2-bis)
+
+La scheda dice 20 maggio 2008. La voce di Wikipedia che citiamo porta DUE
+date diverse per la stessa uscita: l'infobox dice 30 MAGGIO 2008, il corpo
+dice 20 MAGGIO 2008. Abbiamo preso quella del corpo senza sapere che ce
+n'era un'altra tre righe piu' su.
+
+E' il caso della R2-bis, con l'aggravante che le due fonti in disaccordo
+sono LA STESSA PAGINA. Non scegliere: sali di livello. Sito ufficiale di
+Cremonini, Warner Music Italia, o l'archivio FIMI. Se non si chiude, la R5
+dice di scrivere la divergenza invece di nasconderla.
+
+--- 2) sonne: la storia di Klitschko poggia su una wiki di fan
+
+Tutta la vicenda - la canzone commissionata da un Klitschko per l'ingresso
+sul ring, i due giorni di lavorazione, il fatto che poi non fu usata - sta
+su RammWiki, che la Sezione 5 mette al livello C («database collaborativi»).
+E la Sezione 5 dice che il livello C NON BASTA DA SOLO per le intenzioni
+attribuite all'autore, che e' esattamente cosa sono.
+
+Ma la soluzione e' in bella vista: RammWiki dichiara le proprie fonti, e
+sono di livello A e B — il «Making Of» ufficiale del brano, XAOC Chaos
+Extreme Music Magazine 07/2001, Break Out 04/2001, l'Intervista del CD
+Mutter. CITA QUELLE, non la wiki che le raccoglie.
+Attenzione a una cosa che la wiki stessa segnala: sul QUALE dei due fratelli
+Klitschko le fonti NON concordano (Flake dice Wladimir, il resto della band
+Vitali). Se la scheda nomina uno dei due, vale la R5: si dichiara.
+
+--- 3) knights-of-cydonia: due fonti che la wiki stessa non ha controllato
+
+Su MuseWiki, le due interviste che la nostra promessa annuncia — Under the
+Radar e Los Angeles Times — sono marcate [verify]. E' la wiki che dice di
+non averle verificate. Reggono come promessa (ci sono davvero), ma se la
+scheda ci appoggia sopra dei fatti, quei fatti stanno su una citazione che
+nessuno ha controllato. Stesso rimedio della 2: apri gli originali, o
+attenua.
+
+--- 4) psychosocial: la promessa indica forse la nota sbagliata
+
+«Wikipedia riporta un'intervista a Kerrang»: l'intervista dichiarata Kerrang
+sulla pagina e' UNA SOLA, quella a Jim Root sul rogo delle maschere nel
+video. Le altre dichiarazioni della voce (Jordison, Taylor, Crahan) stanno
+sotto un'altra nota e non sono attribuite a Kerrang nel corpo.
+Guarda a quale delle due si appoggia la scheda. Se e' la seconda, la
+promessa indica la fonte sbagliata e va riscritta.
+
+--- E UNA COSA DA SAPERE, che non e' un lavoro
+
+69 nostre schede citano pagine che PUBBLICANO IL TESTO INTEGRALE della
+canzone: 54 Songfacts, 11 su domini di testi, 3 MuseWiki, 1 RammWiki.
+Non e' una violazione: noi non riproduciamo niente e citarle e' legittimo.
+Ma e' il meccanismo che ieri ha fatto finire un verso dentro tre file di
+verifica su cinque. Quando apri una di quelle pagine, il testo ce l'hai
+davanti: e' li' che serve attenzione, non dopo.
+```
