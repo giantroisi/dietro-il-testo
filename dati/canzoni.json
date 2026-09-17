@@ -2236,7 +2236,7 @@
     "spotifyId": "29qo7iOKckmJ3HitS2HY75",
     "corpo": [
       "Contenuta nel sesto album dell'artista, De Gregori, uscito nel 1978, è un brano contro la guerra in cui la voce narrante si rivolge direttamente a un \"Generale\", simbolo del comando militare e della macchina bellica. De Gregori si ispirò al periodo di leva militare trascorso in Alto Adige, presso il battaglione alpini di stanza a Malles Venosta.",
-      "Uscita anche come singolo insieme al brano \"Natale\", arrivò al quarto posto nella hit parade del 1978, mentre l'album raggiunse l'ottava posizione fra i più venduti dell'anno."
+      "Uscita anche come singolo insieme al brano \"Natale\", arrivò al quinto posto nella hit parade del 1978, mentre l'album raggiunse l'ottava posizione fra i più venduti dell'anno."
     ],
     "fraseIconica": "Il verso più citato è quello in cui il soldato si rivolge direttamente al \"Generale\", indicando cinque medaglie sul petto che paragona a cinque lacrime sulla propria pelle. Scritta e pubblicata nel 1978 (album \"De Gregori\"), la canzone attinge al servizio militare dello stesso De Gregori con gli Alpini in Val Venosta. È un brano contro la guerra: le cinque stelle/medaglie rispecchiano i cinque figli di una contadina, citata prima nel testo, morti in battaglia, trasformando l'onore militare in un simbolo di perdita più che di gloria.",
     "sezioniExtra": [],
@@ -2248,9 +2248,14 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://www.hitparadeitalia.it/hp_yenda/lpe1978.html",
-        "nome": "HitParadeItalia (archivio classifiche 1978)",
+        "url": "https://hitparadeitalia.it/hp_yends/hpe1978.htm",
+        "nome": "HitParadeItalia — Top Annuale Singoli 1978",
         "ruolo": "storia"
+      },
+      {
+        "url": "https://www.hitparadeitalia.it/hp_yenda/lpe1978.html",
+        "nome": "HitParadeItalia — Top Album Annuale 1978",
+        "ruolo": "album"
       },
       {
         "url": "https://en.wikipedia.org/wiki/Generale_(song)",
