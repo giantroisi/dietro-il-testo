@@ -1,31 +1,106 @@
 {
   "cosa": "Le voci che una MANO DIVERSA da quella che le ha scritte ha riaperto, fonte per fonte. Non e' l'elenco del lavoro fatto: e' l'elenco del lavoro verificato da qualcun altro. Il resto del lavoro sta nella cronologia di git, che non si cancella.",
   "perche": "Il campo ultimaVerifica dice QUANDO, non CHI. Un ripasso dell'autore e una verifica indipendente lasciano lo stesso identico segno, e valgono cose diverse: sulle otto biografie riaperte da fuori, il 32% delle affermazioni non reggeva, e quelle otto portavano tutte il bollino.",
+  "impronta": "Ogni voce porta l'impronta del testo E delle fonti com'erano quando le ho riaperte. Se il testo cambia, l'impronta non combacia piu' e check-bollino lo dice: una verifica vale per la versione che ha letto, non per il titolo della voce. Serve a un caso concreto e gia' successo — adele, verificata il 15 settembre e riscritta il 16 con una fonte in piu'.",
   "artisti": {
-    "evanescence": "2026-09-15",
-    "judas-priest": "2026-09-15",
-    "adele": "2026-09-15",
-    "fleetwood-mac": "2026-09-15",
-    "finley": "2026-09-15",
-    "al-bano-e-romina-power": "2026-09-15",
-    "fulminacci": "2026-09-15",
-    "a-ha": "2026-09-15"
+    "evanescence": {
+      "data": "2026-09-15",
+      "impronta": "543c27e74617"
+    },
+    "judas-priest": {
+      "data": "2026-09-15",
+      "impronta": "82090fd93aee"
+    },
+    "adele": {
+      "data": "2026-09-15",
+      "impronta": "b64429f57fd4"
+    },
+    "fleetwood-mac": {
+      "data": "2026-09-15",
+      "impronta": "cc8a2bc13fc8"
+    },
+    "finley": {
+      "data": "2026-09-15",
+      "impronta": "1e0b9c2ae0ec"
+    },
+    "al-bano-e-romina-power": {
+      "data": "2026-09-15",
+      "impronta": "843f98018a8c"
+    },
+    "fulminacci": {
+      "data": "2026-09-15",
+      "impronta": "685eeccbea9f"
+    },
+    "a-ha": {
+      "data": "2026-09-15",
+      "impronta": "03886b93bf86"
+    }
   },
   "canzoni": {
-    "for-those-about-to-rock": "2026-09-15",
-    "iron-man": "2026-09-15",
-    "angel-of-death": "2026-09-15",
-    "goodbye-malinconia": "2026-09-15",
-    "gli-uomini-e-le-donne-sono-uguali": "2026-09-15",
-    "back-in-black": "2026-09-15",
-    "hard-as-a-rock": "2026-09-15",
-    "albachiara": "2026-09-15",
-    "feeling-this": "2026-09-15",
-    "giovani-wannabe": "2026-09-15",
-    "fell-in-love-with-a-girl": "2026-09-16",
-    "somebody-told-me": "2026-09-16",
-    "dubbi-non-ho": "2026-09-16",
-    "stand-by-me": "2026-09-16",
-    "dammit": "2026-09-16"
+    "for-those-about-to-rock": {
+      "data": "2026-09-15",
+      "impronta": "de157c4feb0b"
+    },
+    "iron-man": {
+      "data": "2026-09-15",
+      "impronta": "2dfb35d74ae9"
+    },
+    "angel-of-death": {
+      "data": "2026-09-15",
+      "impronta": "8421973625d6"
+    },
+    "goodbye-malinconia": {
+      "data": "2026-09-15",
+      "impronta": "5ec20ffd5aa7"
+    },
+    "gli-uomini-e-le-donne-sono-uguali": {
+      "data": "2026-09-15",
+      "impronta": "e0b05c315572"
+    },
+    "back-in-black": {
+      "data": "2026-09-15",
+      "impronta": "2fc43be67690"
+    },
+    "hard-as-a-rock": {
+      "data": "2026-09-15",
+      "impronta": "5f922cea57d5"
+    },
+    "albachiara": {
+      "data": "2026-09-15",
+      "impronta": "c64759b0966d"
+    },
+    "feeling-this": {
+      "data": "2026-09-15",
+      "impronta": "b8ec21244360"
+    },
+    "giovani-wannabe": {
+      "data": "2026-09-15",
+      "impronta": "42c50d0dda7a"
+    },
+    "fell-in-love-with-a-girl": {
+      "data": "2026-09-16",
+      "impronta": null,
+      "nota": "voce non trovata nei dati"
+    },
+    "somebody-told-me": {
+      "data": "2026-09-16",
+      "impronta": null,
+      "nota": "voce non trovata nei dati"
+    },
+    "dubbi-non-ho": {
+      "data": "2026-09-16",
+      "impronta": null,
+      "nota": "voce non trovata nei dati"
+    },
+    "stand-by-me": {
+      "data": "2026-09-16",
+      "impronta": null,
+      "nota": "voce non trovata nei dati"
+    },
+    "dammit": {
+      "data": "2026-09-16",
+      "impronta": null,
+      "nota": "voce non trovata nei dati"
+    }
   }
 }

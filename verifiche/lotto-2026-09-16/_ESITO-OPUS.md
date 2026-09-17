@@ -169,3 +169,118 @@ guardare («molto sotto il 24%») e' rispettata.
    riproducono un verso nella nota che spiega perche' quel verso e' stato
    escluso. La regola e' stata applicata dove guardavamo e violata dove non
    guardavamo.
+
+---
+
+# RITIRATO — 17 settembre 2026: la «contraddetta» di fulminacci non c'era
+
+Nel campione sulle biografie avevo classificato come CONTRADDETTA questa
+affermazione: «Esordisce nella musica nel 2019 con il singolo "Borghese in
+borghese"».
+
+Il mio ragionamento era: Inside Music scrive che l'album «La vita veramente»
+fu «anticipato dal brano "Una sera" e dai singoli "La vita veramente" e
+"Borghese in borghese"», e io ho letto quell'ORDINE DI ELENCAZIONE come un
+ORDINE DI USCITA. Ne ho concluso che l'esordio fosse «Una sera» e che la
+scheda dicesse il falso.
+
+Non e' cosi'. Wikipedia (EN), aperta oggi, ha una cronologia con una nota
+per ogni passaggio:
+  - «His debut single, "Borghese in borghese", was released in January 2019
+    by Maciste Dischi» [nota 11]
+  - «His second single, "La vita veramente", was released in February 2019,
+    and followed by "Una sera"» [note 13, 14]
+
+L'esordio e' «Borghese in borghese», e «Una sera» viene dopo, non prima.
+La scheda diceva il vero. Il rilievo era mio e lo ritiro.
+
+COME L'HO SBAGLIATO, perche' e' la parte che serve: ho preso l'ordine in cui
+una frase nomina tre brani e l'ho trattato come la loro cronologia. La frase
+non dice quando sono usciti — dice solo che hanno preceduto l'album. Ci ho
+letto un'informazione che non conteneva, ed e' esattamente il difetto che
+questo lavoro cerca nelle schede: un dettaglio plausibile che la fonte non
+contiene.
+
+## Il numero del campione biografie cambia
+
+  fulminacci: 9 affermazioni, 3 non reggono (era 4)
+  TOTALE: 96 affermazioni, 30 non reggono — 31%, non 32%.
+
+Restano due contraddette vere nel campione, non tre: l'eta' di Amy Lee
+(dodici anni, non tredici) e — no: resta UNA SOLA contraddetta, evanescence.
+Il campione biografie ha trovato una sola affermazione contraddetta dalla
+fonte citata, non due.
+
+## E una cosa sulla riletta in corso
+
+Le correzioni di Sonnet su evanescence e judas-priest reggono tutte:
+ - evanescence: «dodicenne» corretto, «a Little Rock» diventato «in
+   Arkansas», l'eta' di Moody tolta, «etichetta indipendente» sostituito con
+   quel che la fonte dice davvero (il demo porto' al contratto).
+ - judas-priest: tolto «a Birmingham» come luogo di fondazione e spostato
+   dov'e' vero (Chataway, di Birmingham); tolti «settembre» 1969 e «aprile
+   1974»; tolto il primato di Ian Hill, tenuto il suo ingresso nel 1970.
+Sono correzioni SOTTRATTIVE: tolgono quel che non reggeva. Si verificano in
+fretta perche' non aggiungono niente da controllare.
+
+Quella di fulminacci invece e' ADDITIVA — data di nascita completa, la
+scuola di musica a dieci anni, le prime canzoni a sedici, il mese
+dell'esordio — e ha richiesto di aprire la fonte nuova. Regge: sta tutto su
+Wikipedia (EN), con una nota per riga. Ma e' il tipo di correzione che va
+sempre riaperta, perche' aggiunge precisione, ed e' la precisione aggiunta
+il difetto piu' frequente di questo sito.
+
+---
+
+# Riletta delle otto biografie col bollino — 17 settembre 2026
+
+REGGONO NELLA VERSIONE PUBBLICATA: evanescence, judas-priest, adele, a-ha,
+fulminacci (dopo il mio ritiro).
+
+Le correzioni di adele e a-ha sono modello: adele ha tolto il nome della
+BRIT School (Britannica dice solo «una scuola statale per le arti dello
+spettacolo»), ha sostituito i 120 milioni inventati con le due cifre che
+Britannica da' davvero, e ha aggiunto il capitolo su 30 e «Easy on Me» che
+la stessa fonte conteneva e che nessuno aveva usato. a-ha e' diventata piu'
+corta e piu' vera: via i ruoli non dichiarati, via il quaderno di appunti,
+via l'ultimo concerto di Oslo; e al loro posto il dettaglio giusto, la
+fondazione nel settembre 1982 il giorno del ventitreesimo compleanno di
+Harket, che sta testualmente su The Electricity Club.
+
+## FINLEY — la seconda fonte ha chiuso sette buchi e ne ha aperti due
+
+Con l'aggiunta di Wikipedia (EN) sono ora sostenute sette delle nove
+affermazioni che avevo segnalato: la fondazione nel 2002, il nome Junkies,
+gli «amici di scuola», il cambio di nome nel 2003, l'origine dal cestista
+Michael Finley, e i due Best Italian Act del 2006 e 2008. Ottimo lavoro:
+erano tutte vere e nessuno le aveva documentate.
+
+MA LE DUE FONTI ORA SI CONTRADDICONO, e la scheda non lo dice.
+
+1. NUMERO DI ALBUM — CONTRADDETTA DALLA FONTE APPENA AGGIUNTA.
+   La scheda dice «sette album in studio». Wikipedia (EN), la fonte nuova,
+   dice «have released five studio albums». La scheda prima diceva sei.
+   Tre numeri diversi in tre versioni, e quello pubblicato non e' in nessuna
+   delle due fonti citate.
+
+2. COPIE VENDUTE — DIVERGENZA NON DICHIARATA (R2-bis).
+   Rockol: «oltre 300 mila copie tra album e singoli».
+   Wikipedia (EN): «sold over 1,300,000 records in Italy».
+   Un fattore quattro. La scheda riporta la cifra di Rockol come se fosse
+   pacifica. Non si sceglie: si sale di livello (FIMI) o si dichiara.
+
+Restano inoltre non confermate «presenti sin dal 2002» e «subentrato nel
+2011» per Ivan Moro: Wikipedia lo elenca fra i membri e Mantegazza fra gli
+ex, ma la data del ricambio non c'e'.
+
+## LA COSA GENERALE, e vale per tutto il lavoro sulle fonti in corso
+
+AGGIUNGERE UNA FONTE PUO' CREARE UNA CONTRADDIZIONE CHE PRIMA NON C'ERA.
+Con una fonte sola non esistono divergenze: esistono solo buchi. Alla
+seconda fonte i buchi si chiudono e le divergenze compaiono — ed e' un
+progresso, non un peggioramento, perche' prima il disaccordo c'era lo
+stesso, solo che non lo vedeva nessuno.
+Ma vuol dire che dopo ogni aggiunta di fonte VANNO RILETTE ENTRAMBE, non
+solo la nuova. Nessun controllo automatico puo' farlo: due numeri diversi
+per la stessa cosa, scritti in due pagine diverse, non si incontrano mai
+finche' qualcuno non li mette accanto.
