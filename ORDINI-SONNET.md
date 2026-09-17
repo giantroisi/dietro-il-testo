@@ -632,3 +632,69 @@ Ma e' il meccanismo che ieri ha fatto finire un verso dentro tre file di
 verifica su cinque. Quando apri una di quelle pagine, il testo ce l'hai
 davanti: e' li' che serve attenzione, non dopo.
 ```
+
+---
+
+## 17 settembre 2026 — le undici schede che stanno in piedi solo su fonti di livello C
+
+```
+Il metodo che hai usato ieri su sonne e knights-of-cydonia — togliere la
+wiki e citare direttamente le fonti che la wiki stessa dichiara — HA
+FUNZIONATO DUE VOLTE SU DUE, e tutte e due le volte ha fatto emergere
+un'attribuzione sbagliata che nessuno cercava: la citazione dei «due
+giorni» che veniva da Break Out e non dal Making Of, quella su Morricone e
+Dick Dale che veniva da VH1 e non dal Los Angeles Times.
+
+Adesso e' un metodo dimostrato, non un'ipotesi. Applicalo alle schede che
+ne hanno bisogno.
+
+--- LE UNDICI
+
+Sono le schede in cui OGNI fonte di contenuto e' di livello C (Wikipedia,
+Songfacts, wiki di fan). Tolti kworb e Spotify, che servono agli ascolti e
+non ai fatti, non resta niente di livello A o B:
+
+  uprising                  MuseWiki + Wikipedia
+  supermassive-black-hole   «Hot Press» + Wikipedia   <- leggi sotto
+  she-looks-so-perfect      Songfacts + Wikipedia
+  my-exs-best-friend        Wikipedia + Songfacts
+  motivation                Wikipedia + Songfacts
+  aerials                   Songfacts + Wikipedia
+  la-regola-dell-amico      Wikipedia + Wikipedia
+  sharazan                  Wikipedia
+  profumo-nannini           Wikipedia
+  nord-sud-ovest-est        Wikipedia
+  ive-been-losing-you       Wikipedia
+
+Le ultime quattro hanno UNA fonte sola, ed e' Wikipedia. Sono la versione
+canzone di quello che era finley fra le biografie.
+
+--- SUPERMASSIVE-BLACK-HOLE, un caso a parte e istruttivo
+
+La fonte si chiama «Hot Press (Craig Fitzsimons, 26 luglio 2006,
+trascrizione su MuseWiki)» ma L'INDIRIZZO PORTA A MUSEWIKI, non a Hot
+Press. Stiamo citando la trascrizione di una rivista fatta da una wiki di
+fan, e il nome lo dichiara — questo e' corretto, e' una promessa onesta.
+Ma resta che la fonte vera non l'ha aperta nessuno. Cerca l'originale di
+Hot Press; se non e' raggiungibile, la promessa va tenuta com'e' (dice il
+vero) ma la scheda non puo' appoggiarci fatti che nessun altro conferma.
+
+--- IL LAVORO, per ognuna
+
+1. Apri le fonti di livello C che ci sono e guarda SE DICHIARANO DA DOVE
+   VIENE quello che riportano — nota, riferimento, «secondo X». Quasi sempre
+   lo fanno.
+2. Apri quelle, leggile, e CITA QUELLE.
+3. Se una citazione risulta attribuita alla fonte sbagliata, correggila:
+   e' successo due volte su due ieri.
+4. Se non c'e' niente sotto, l'affermazione va tolta. La Sezione 5 dice che
+   il livello C non basta da solo per fatti controversi, intenzioni
+   attribuite all'autore, spiegazioni di copertine, numeri di vendita.
+5. Wikipedia puo' restare come fonte in piu'. Il punto non e' cacciarla: e'
+   che non regga da sola.
+
+Un commit per scheda, messaggio da file, niente git diff. Undici sono tante:
+fanne quante riesci e fermati, il resto resta.
+
+NON mettere ultimaVerifica: quelle le riapro io.
+```
