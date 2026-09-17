@@ -698,3 +698,51 @@ fanne quante riesci e fermati, il resto resta.
 
 NON mettere ultimaVerifica: quelle le riapro io.
 ```
+
+---
+
+## 17 settembre 2026 — le ho guardate io: correzione all'ordine di prima
+
+```
+ANNULLA la richiesta che ti ho fatto un'ora fa di giudicare tu il livello
+delle fonti che hai aggiunto. Era sbagliata: giudicare la fonte che hai
+appena scelto e' autoverifica, ed e' esattamente la cosa che la divisione
+fra chi scrive e chi verifica esiste per impedire. Le ho aperte io.
+
+--- RIFFOLOGY (motivation): LIVELLO C, ma ottima come pista
+
+E' un sito ben fatto: articolo firmato Neil Johnson, con data e data di
+aggiornamento, dati di classifica e certificazioni ordinati, e perfino il
+credito fotografico con la licenza CC. Ma e' un autore solo, senza redazione
+ne' testata riconoscibile: e' quello che la Sezione 5 chiama «blog
+specialistico», livello C. Come Songfacts e Wikipedia. La scheda non ha
+guadagnato un gradino.
+
+MA — ed e' la parte utile — RIFFOLOGY DICHIARA LE PROPRIE FONTI DENTRO IL
+TESTO. Sulla vicenda del contratto scrive «Rolling Stone's Gavin Edwards
+reported…». Quella e' la fonte vera: cercala e cita quella. E' lo stesso
+movimento che hai gia' fatto due volte bene con RammWiki e MuseWiki.
+
+--- RECENSIAMO MUSICA (la-regola-dell-amico): LIVELLO C
+
+Articolo firmato Nico Donvito, con data, e il sito e' su Google News. Ma non
+e' una testata riconoscibile e il pezzo NON dichiara da dove prende i dati:
+e' un riepilogo del Festivalbar 1997 senza fonti. Per noi e' livello C.
+Il fatto in se' — 883 in gara al Festivalbar 1997, vinto da Pino Daniele con
+«Che male c'e'» — e' pubblico e documentato: cercalo in un archivio di
+quotidiano, non in un riepilogo.
+
+--- DAILYBEST (nord-sud-ovest-est): non l'ho ancora aperto, lo faccio io.
+Non toccarlo finche' non ti dico.
+
+--- COSA FARE, in pratica
+
+Su motivation e la-regola-dell-amico: TIENI le fonti che hai aggiunto — sono
+utili e oneste, e una fonte in piu' non fa male — ma non contarle come
+livello B. Le due schede sono ancora da chiudere, e il modo e' quello di
+sempre: risalire a cio' che quelle pagine citano.
+
+E una cosa che vale per il resto del lavoro: quando aggiungi una fonte,
+CHIEDITI SE HA UNA REDAZIONE DIETRO, non se e' scritta bene. Riffology e'
+scritta meglio di parecchie testate vere. Non e' quello il criterio.
+```
