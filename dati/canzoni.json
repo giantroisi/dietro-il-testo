@@ -1514,20 +1514,27 @@
     "ascoltiTesto": "80,8 mln ascolti",
     "spotifyId": "2C4DwZKxkzv3HHNZq1mm5v",
     "corpo": [
-      "Il brano che rivelò Rino Gaetano al grande pubblico, uscito come singolo nell'estate del 1975. Dietro una melodia orecchiabile e un ritornello quasi consolatorio, il testo elenca situazioni di ingiustizia e disparità dell'Italia degli anni Settanta, rivolgendosi in particolare ai colleghi cantautori che continuano a scrivere canzoni d'amore fingendo che tutto vada per il meglio.",
+      "Il brano che attirò l'attenzione del pubblico su Rino Gaetano, uscito come singolo nell'estate del 1975 — anche se, come ha notato Rolling Stone Italia, le vendite iniziali furono modeste (60-70 mila copie) e la canzone diventò davvero il suo brano simbolo solo più avanti, anche dopo la sua morte. Dietro una melodia orecchiabile e un ritornello quasi consolatorio, il testo elenca situazioni di ingiustizia e disparità dell'Italia degli anni Settanta.",
       "Il messaggio di fondo è che, nonostante tutto, il cielo resta lo stesso sopra la testa di chiunque."
     ],
-    "fraseIconica": "Il ritornello più citato è l'osservazione ricorrente che, qualunque sia la condizione descritta in ogni strofa, il cielo sopra continua a essere sempre più blu. Il brano elenca un'ampia sezione della società italiana — dai poveri e senza potere ai ricchi e ai corrotti — accomunati solo dall'invidia e dalla fatica di vivere. Il ritornello, spesso frainteso come un ingenuo messaggio di speranza, è letto dalla critica come profondamente sarcastico: un commento su come ci si distragga con slogan rassicuranti ignorando le vere disuguaglianze.",
+    "fraseIconica": "Il ritornello più citato è l'osservazione ricorrente che, qualunque sia la condizione descritta in ogni strofa, il cielo sopra continua a essere sempre più blu. Il brano elenca un'ampia sezione della società italiana — dai poveri e senza potere ai ricchi e ai corrotti — accomunati solo dall'invidia e dalla fatica di vivere. Il ritornello, spesso frainteso come un ingenuo messaggio di speranza, è letto da parte della critica come sarcastico — un commento su come ci si distragga con slogan rassicuranti ignorando le vere disuguaglianze — anche se lo stesso Gaetano, in vita, deviava sempre le letture politiche: \"Prendete le mie solo come canzoni d'amore... non faccio commenti politici.\"",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/rino-gaetano/ma-il-cielo-e-sempre-piu-blu/",
     "fonti": [
       {
-        "url": "https://www.sololibri.net/Ma-il-cielo-e-sempre-piu-blu-canzone-Rino-Gaetano-significato-analisi-testo.html",
-        "nome": "Sololibri"
+        "url": "https://www.ondarock.it/monografie/rinogaetano/",
+        "nome": "OndaRock",
+        "ruolo": "storia"
       },
       {
-        "url": "https://libreriamo.it/intrattenimento/ma-il-cielo-e-sempre-piu-blu-un-inno-alla-vita-e-alla-rinascita-che-ci-attende/",
-        "nome": "Libreriamo"
+        "url": "https://www.rollingstone.it/musica/storie-musica/ma-il-cielo-e-sempre-piu-blu-e-la-canzone-perfetta-contro-la-paura/507986/",
+        "nome": "Rolling Stone Italia (Francesco Oggiano)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.r3m.it/2020/10/02/le-canzoni-piu-fraintese-di-rino-gaetano/",
+        "nome": "R3M",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/",
