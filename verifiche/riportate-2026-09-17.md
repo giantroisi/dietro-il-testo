@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **sette**. **Quattro reggono, tre no.**
+Ne ho aperti **undici**. **Otto reggono, tre no.**
 
 ## Reggono — e vale la pena dire perché
 
@@ -53,12 +53,58 @@ bello"». Amy Lee quelle parole le usa per **la storia vera** («the real story
 to me is so much more powerful and cool»), non per il gesto. Il senso resta,
 ma la citazione qualifica un'altra cosa.
 
-## Restano diciassette
+## Secondo giro: altri quattro aperti, tutti reggono
 
-`teen-spirit`, `hey-jude`, `darkside`, `seven-nation-army`, `antivist`,
-`psychosocial`, `uprising`, `i-miss-you`, `supermassive-black-hole`, `closer`,
-`fade-to-black`, `postmortem`, `fuori-dal-tunnel`, `la-mia-parte-intollerante`,
-`non-me-lo-posso-permettere`, `dicono-di-me`, `il-comico-sai-che-risate`.
+| scheda | la fonte scrive | |
+|---|---|---|
+| `seven-nation-army` | «**Speaking to GP in 2010**, White said…» | l'ha ricevuta Guitar Player |
+| `psychosocial` | «Corey Taylor and Clown **reveal** the stories…» (Q&A diretto di Tom Bryant) | l'ha ricevuta Louder |
+| `la-mia-parte-intollerante` | «ha raccontato **a Rockol** Capa», «**ci ha raccontato** Caparezza» | l'ha ricevuta Rockol |
+| `darkside` | «Talking about the upcoming album **with NME**» | l'ha ricevuta NME |
+
+**Su `seven-nation-army` mi ero sbagliato io, e vale la pena scriverlo.** Il nome
+della fonte dice «Guitar Player — Jackson Maxwell (cita l'intervista originale
+del 2010)» e l'avevo letto come: Guitar Player riporta l'intervista di un terzo.
+Invece la pagina dice «Speaking to **GP** in 2010»: l'intervista originale del
+2010 è **di Guitar Player stessa**, e l'articolo del 2024 la ripubblica. La
+scheda è esatta, il nome della fonte pure. Se non l'avessi aperta avrei
+segnalato un difetto che non c'è.
+
+E c'è un merito nascosto: quella pagina è datata «Published 13 September 2024»
+ma l'intervista è del 2010, e **la scheda scrive 2010**. È esattamente il
+trabocchetto delle date di Louder, evitato.
+
+Unico rilievo, minuscolo: dentro le virgolette, «Lo pensai come un possibile
+tema per un film di James Bond, **per un attimo**» traduce «I thought about it
+as a possible James Bond theme, **actually**». «Actually» non è «per un attimo»:
+è un intercalare. La durata è aggiunta dalla traduzione.
+
+**Su `psychosocial` va segnalato il contrario di un difetto**: la scheda scrive
+già «**Secondo Wikipedia**, in un'intervista a Kerrang il chitarrista Jim Root
+ha rivelato…». È la R3 uscita 3, applicata senza che nessuno l'avesse chiesta,
+nella stessa scheda che nove giorni fa aveva un paragrafo intero senza fonte.
+
+## La regolarità che si vede a undici punti su ventiquattro
+
+Aperti **11**, ne cadono **3** — e **tutti e tre sono fonti in inglese**.
+Le cinque italiane aperte finora (`la-mia-parte-intollerante`, e per struttura
+`fuori-dal-tunnel`, `non-me-lo-posso-permettere`, `dicono-di-me`,
+`il-comico-sai-che-risate`) non sbagliano, e il motivo si vede nelle fonti
+stesse: Rockol scrive «**ci ha** raccontato Caparezza», «ha raccontato **a
+Rockol** Capa». L'italiano mette il destinatario dentro la frase e non lascia
+scelta.
+
+L'inglese no. «Said Adele», «Oli recently described», «he said» — la stessa
+forma vale per «l'ha detto a noi» e per «l'ha detto da qualche parte», e chi
+traduce deve decidere. **È lì che il difetto entra**, e spiega perché sta tutto
+da una parte sola.
+
+## Restano tredici
+
+`teen-spirit`, `hey-jude`, `antivist`, `uprising`, `i-miss-you`,
+`supermassive-black-hole`, `closer`, `fade-to-black`, `postmortem`,
+`fuori-dal-tunnel`, `non-me-lo-posso-permettere`, `dicono-di-me`,
+`il-comico-sai-che-risate`.
 
 Alcuni sono a basso rischio per costruzione — quando la fonte **è**
 l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
@@ -72,4 +118,4 @@ Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
 modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
-Sette fatte, diciassette rimaste.
+Undici fatte, tredici rimaste.
