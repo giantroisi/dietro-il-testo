@@ -1373,6 +1373,16 @@
     "testoUrl": "https://www.letras.com/vasco-rossi/albachiara/",
     "fonti": [
       {
+        "url": "https://www.rockol.it/news-702642/il-25-maggio-1979-esce-albachiara-di-vasco-rossi/702643",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rds.it/scopri/magazine/musica/storia-della-musica/albachiara-compie-41-anni-liconico-brano-di-vasco-rossi",
+        "nome": "RDS",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://en.wikipedia.org/wiki/Albachiara",
         "nome": "Wikipedia (voce del brano)"
       },
@@ -8172,6 +8182,11 @@
     "testoUrl": "https://www.letras.com/muse/552635/",
     "fonti": [
       {
+        "url": "https://www.loudersound.com/features/10-instrumentals-that-inspired-rock-music",
+        "nome": "Louder (Henry Yates)",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://www.ultimate-guitar.com/articles/features/the_story_behind_knights_of_cydonia_by_muse-68535",
         "nome": "Ultimate Guitar — Maria_Pro, 28 ottobre 2017",
         "ruolo": "storia"
@@ -8780,6 +8795,11 @@
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/claudio-baglioni/3084/",
     "fonti": [
+      {
+        "url": "https://www.fanpage.it/roma/i-luoghi-di-roma-nelle-canzoni-di-claudio-baglioni/",
+        "nome": "Fanpage",
+        "ruolo": "storia"
+      },
       {
         "url": "https://it.wikipedia.org/wiki/Questo_piccolo_grande_amore/Porta_Portese",
         "nome": "Wikipedia"
