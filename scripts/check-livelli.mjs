@@ -72,7 +72,11 @@
 // numero**: scende quando una scheda viene documentata davvero, e sale solo se
 // una riclassificazione onesta scopre che era falso (vedi il commento del giorno
 // 11). Non deve mai salire per far passare qualcosa di nuovo.
-const SOGLIA = 53;
+// 18 settembre 2026: da 53 a 21. Il numero non e' sceso perche' sono state
+// aggiunte fonti: e' sceso perche' 24 domini sono stati classificati e il
+// conto ha smesso di essere un pavimento. Abbassare la soglia serve a una cosa
+// sola — che il terreno guadagnato non si possa perdere in silenzio.
+const SOGLIA = 21;
 
 import { readFileSync } from 'node:fs';
 
