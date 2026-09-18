@@ -9545,6 +9545,16 @@
     "testoUrl": "https://www.letras.com/883/159048/",
     "fonti": [
       {
+        "url": "https://www.rockol.it/news-715985/gli-883-vincono-il-festivalbar-1995",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/news-755018/max-pezzali-inediti-cofanetto-30-anni-la-donna-il-sogno-grande-incubo",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://it.wikipedia.org/wiki/La_donna_il_sogno_%26_il_grande_incubo",
         "nome": "Wikipedia"
       },
@@ -10448,7 +10458,7 @@
     "spotifyId": "2ejkRnZWPACfuqr06gFw1w",
     "corpo": [
       "Scritta da Magne Furuholmen, Morten Harket e Pål Waaktaar, fu pubblicata il 14 marzo 1988 come primo singolo del terzo album in studio, dallo stesso titolo, prodotto da Alan Tarney.",
-      "Il testo utilizza il freddo come metafora delle difficoltà che si incontrano nella vita. Secondo Smooth Radio, Pål Waaktaar-Savoy trasse ispirazione dalla relazione a distanza con la moglie Lauren, e il testo è stato letto come un invito a perseverare, con la promessa che l'amore sopravvive anche alla lontananza fisica. La band l'ha definita una delle canzoni di cui va più fiera, e resta un pilastro fisso dei concerti dal vivo, capace di generare una partecipazione del pubblico particolarmente entusiasta. Fu il settimo e ultimo singolo della band a entrare nella top five britannica, raggiungendo la quinta posizione il 27 marzo 1988."
+      "Il testo utilizza il freddo come metafora delle difficoltà che si incontrano nella vita, letto come un invito a perseverare, con la promessa che l'amore sopravvive anche alla lontananza fisica. Smooth Radio scrive che Pål Waaktaar-Savoy trasse ispirazione dalla relazione a distanza con la moglie Lauren, ma senza citare una fonte propria — e Lauren è legata anche a un'altra canzone dello stesso album, 'Out of Blue Comes Green': non è chiaro se le due storie siano state confuse. La band ha definito 'Stay on These Roads' una delle canzoni di cui va più fiera, e resta un pilastro fisso dei concerti dal vivo, capace di generare una partecipazione del pubblico particolarmente entusiasta. Fu il settimo e ultimo singolo della band a entrare nella top five britannica, raggiungendo la quinta posizione il 27 marzo 1988."
     ],
     "fraseIconica": "Il verso più citato invita a restare su queste strade, un'immagine del freddo come metafora delle difficoltà della vita. Primo singolo del terzo album omonimo (1988), scritto dai tre membri della band, resta ancora oggi un pilastro fisso dei loro concerti dal vivo, capace di generare una partecipazione del pubblico particolarmente entusiasta.",
     "sezioniExtra": [],
@@ -11735,6 +11745,11 @@
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/adriano-celentano/409518/",
     "fonti": [
+      {
+        "url": "https://www.rockol.it/news-714634/adriano-celentano-la-storia-di-svalutation",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
       {
         "url": "https://en.wikipedia.org/wiki/Svalutation",
         "nome": "Wikipedia (voce del brano)"
