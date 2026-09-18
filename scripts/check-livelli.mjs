@@ -141,6 +141,24 @@ const A = new Set([
   // 11 settembre 2026, con le schede nuove di Battiato. Sito ufficiale
   // dell'artista, stessa famiglia dei precedenti.
   'battiato.it',
+  // 18 settembre 2026. Tre siti ufficiali d'artista, stessa famiglia di
+  // zucchero.it, eltonjohn.com e battiato.it, piu' il sito dell'ente che
+  // assegna la Targa Tenco: la sezione 5 mette al livello A «FIMI/RIAA e
+  // istituzioni», e l'albo d'oro di un premio sul sito del premio e' la fonte
+  // primaria del fatto che quel premio e' stato vinto — stesso ragionamento
+  // di riaa.com e grammy.com, gia' qui sopra.
+  // QUESTI QUATTRO NON LI HO APERTI, e lo scrivo perche' questa lista ha la
+  // regola di dire cosa si e' visto: non servono, il livello discende dallo
+  // statuto del dominio, non dal contenuto di una pagina. Vale per A e per B;
+  // per la C qui sotto e' un'altra storia.
+  'muse.mu', 'a-ha.com', 'pinodaniele.com', 'clubtenco.it',
+  // Non era nell'elenco che mi era arrivato, l'ha fatto emergere il controllo
+  // stesso appena gli altri sono entrati: sito ufficiale di Cesare Cremonini.
+  // Questo L'HO APERTO, il 17 settembre: e' la pagina della discografia di
+  // «Bagus», e mi e' servita a stabilire due cose che le altre fonti davano
+  // diverse — l'ordine del titolo «Gli uomini e le donne sono uguali», che la
+  // Wikipedia italiana scrive al contrario, e la data dell'album.
+  'cesarecremonini.it',
 ]);
 
 // Livello B — testate con firma e data, quotidiani, periodici con redazione.
@@ -220,6 +238,24 @@ const B = new Set([
   // dirette virgolettate di Sandro Teti, che il viaggio l'ha organizzato.
   // Materiale primario su una testata registrata e datata.
   'pangea.news',
+  // 18 settembre 2026. Quotidiani, emittenti e periodici con redazione, firma
+  // e data: la sezione 5 li descrive uno per uno senza bisogno di aprirli, ed
+  // e' l'unico modo onesto di dirlo — non li ho aperti, il livello viene dalla
+  // natura della testata. La Stampa, Avvenire e la Gazzetta di Reggio sono
+  // quotidiani registrati; BBC e CNN emittenti; Open una testata online con
+  // direttore responsabile; la Berliner Zeitung un quotidiano tedesco;
+  // metalhammer.co.uk e' il dominio proprio di Metal Hammer, gia' in questa
+  // lista come loudersound.com; XXL e Rock Sound sono periodici musicali
+  // storici.
+  'lastampa.it', 'avvenire.it', 'bbc.com', 'cnn.com', 'open.online',
+  'gazzettadireggio.it', 'berliner-zeitung.de', 'metalhammer.co.uk',
+  'xxlmag.com', 'rocksound.tv',
+  // idobi.com invece L'HO APERTO (17 settembre, pagina su `motivation` dei
+  // Sum 41, via web.archive.org): firma (Lance Fiasco), data, e soprattutto
+  // cita le proprie fonti dentro il testo — «according to an Island Records
+  // spokesperson», «Tour Dates, According To Island Records». E' una redazione
+  // che fa il mestiere, non un aggregatore.
+  'idobi.com',
 ]);
 
 // Livello C — pista di ricerca, mai prova. La costituzione ne nomina due per
@@ -317,6 +353,41 @@ const C = new Set([
   // come prova, la fonte da citare e' la pagina di chi lo pubblica, non
   // l'indirizzo del video.
   'youtube.com',
+  // 17 settembre 2026. Questi sei LI HO APERTI uno per uno, e la motivazione
+  // dice cosa ho visto. Nessuno e' da buttare: sono piste, e due di loro sono
+  // piste ottime perche' dichiarano da dove prendono il materiale.
+  //
+  // ultimate-guitar.com — firma con uno pseudonimo (`Maria_Pro`), nessuna
+  //   redazione, contatori di visite e commenti. MA dentro il testo dichiara
+  //   le fonti a monte: «In the January 2007 issue of Q magazine», «In an
+  //   interview with Kerrang!». Da qui si risale, ed e' il suo valore.
+  // riffology.co — un autore solo, nessuna redazione, e cita le proprie fonti
+  //   nel testo. Stesso profilo del precedente.
+  // velvetmag.it — firma (Chiara Del Zanno) e data, ma il pezzo e' un saggio
+  //   in prima persona costruito attorno alle parole di un video dell'artista:
+  //   le riflessioni di chi scrive e quelle di chi canta stanno nello stesso
+  //   paragrafo. E' esattamente cosi' che `marmellata-25` si e' ritrovata con
+  //   una lettura della giornalista attribuita a Cremonini.
+  // vhnd.com — si chiama «Van Halen News Desk» ma NON e' un canale ufficiale:
+  //   e' un sito di fan, e la pagina citata e' una ripubblicazione di TMZ
+  //   («Posted by TMZ Staff. TMZ has just heard from Eddie Van Halen»).
+  // r3m.it — firma e data, nessuna fonte a monte per nessun fatto.
+  // dailybest.it — firma, data, editore dichiarato in fondo, ma nessuna fonte
+  //   a monte. Nota di metodo: per settimane e' stato archiviato come «non
+  //   apribile» perche' l'estrazione del testo restituiva solo un riquadro
+  //   laterale. Si apre benissimo con l'albero di accessibilita'. Un testo
+  //   dichiarato irraggiungibile puo' essere solo irraggiungibile con lo
+  //   strumento che si e' usato.
+  'ultimate-guitar.com', 'riffology.co', 'velvetmag.it', 'vhnd.com',
+  'r3m.it', 'dailybest.it',
+  //
+  // chorus.fm RESTA FUORI DI PROPOSITO. Il dominio e' protetto da una verifica
+  // anti-bot: «Esecuzione della verifica di sicurezza». Non la si aggira, e
+  // non l'abbiamo aggirata — ci hanno provato due sessioni diverse, con esito
+  // identico. «Non l'ho visto» non e' un livello: resta non classificato, ed
+  // e' la risposta giusta. Conseguenza da tenere presente: `i-miss-you` cita
+  // quella pagina, e nessuno dei nostri strumenti puo' confermare che
+  // contenga quel che promette.
 ]);
 const C_SUFFISSI = ['.wikipedia.org', '.fandom.com', '.wikia.com', '.blogspot.com'];
 
