@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **undici**. **Otto reggono, tre no.**
+Ne ho aperti **quattordici**. **Dieci reggono, tre no, uno non si apre.**
 
 ## Reggono — e vale la pena dire perché
 
@@ -99,12 +99,62 @@ forma vale per «l'ha detto a noi» e per «l'ha detto da qualche parte», e chi
 traduce deve decidere. **È lì che il difetto entra**, e spiega perché sta tutto
 da una parte sola.
 
-## Restano tredici
+## Terzo giro: altri tre, e una scoperta che riguarda un terzo del sito
 
-`teen-spirit`, `hey-jude`, `antivist`, `uprising`, `i-miss-you`,
-`supermassive-black-hole`, `closer`, `fade-to-black`, `postmortem`,
-`fuori-dal-tunnel`, `non-me-lo-posso-permettere`, `dicono-di-me`,
-`il-comico-sai-che-risate`.
+| scheda | esito |
+|---|---|
+| `postmortem` | **regge** — è il giudizio di Dom Lawson pubblicato *su* Louder, non una frase detta *a* Louder, e la scheda lo scrive proprio così: nomina il critico, la sua testata d'origine e dove è uscito. |
+| `uprising` | **regge** — Guitar World intervista Wolstenholme (Q&A di Bryan Beller), e la citazione sui Goldfrapp è lì. |
+| `i-miss-you` | **non verificabile da qui** — vedi sotto. |
+
+### `i-miss-you`: l'attribuzione ora è giusta, ma la fonte non si apre
+
+Il 17 avevo segnalato che la spiegazione di DeLonge sulla vulnerabilità era
+attribuita a un video di Radio X mentre Wikipedia la attribuisce a MTV News.
+È stata corretta, e la fonte nuova è esattamente quella giusta: Corey Moss,
+MTV News, 2003 — il riferimento 7 della pagina Wikipedia.
+
+**Ma la copia archiviata su Wayback carica solo la navigazione del sito MTV:
+il corpo dell'articolo, dai nostri strumenti, non si legge.** Ho provato
+l'estrazione del testo, l'albero di accessibilità e due ricerche mirate:
+niente. Quindi l'attribuzione è corretta *sulla parola di Wikipedia*, e la
+citazione al suo originale non la possiamo confermare.
+
+`i-miss-you` ha ora **due fonti su cinque che nessuno dei nostri strumenti
+riesce a leggere** — questa e `chorus.fm`, che sta dietro una verifica
+anti-bot. Non sono cattive fonti: sono fonti che per noi restano indirizzi.
+
+### La scoperta: il trabocchetto delle date non è di Louder, è di Future
+
+Il 17 avevo scritto che le pagine di Louder portano la data della
+ripubblicazione e non dell'intervista, e avevo trattato la cosa come un
+problema di Louder. È più grande.
+
+- **`uprising`**: il nome della fonte dice «Guitar World — Bryan Beller,
+  **8 gennaio 2020**». Ma l'articolo parla di *The Resistance* come del disco
+  nuovo (2009) e chiama Wolstenholme «**the 30-year-old**» — è nato nel 1978.
+  **L'intervista è del 2009**, la data nel nome è la ripubblicazione.
+- **`seven-nation-army`**: la pagina di Guitar Player è datata 2024 e
+  l'intervista è del 2010. Lì la scheda **scrive 2010**, cioè la cosa giusta.
+
+Louder, Classic Rock, Metal Hammer, Guitar World, Guitar Player, MusicRadar,
+Ultimate Classic Rock: sono tutte dello stesso editore, e ripubblicano il
+proprio archivio con la data di oggi. **Contate: 111 voci del sito citano una
+di queste testate.** È un terzo del catalogo.
+
+Non è un allarme — nella maggior parte dei casi la data non compare nel testo
+della scheda e il problema non si pone. Il punto operativo è più stretto e più
+utile: **quando si cita una testata Future e si vuole scrivere un anno, la data
+in cima alla pagina non è quella buona.** Quella vera sta in fondo («originally
+appeared in Classic Rock #162»), oppure si deduce dal testo — l'età di chi
+parla, il disco chiamato «nuovo». Dieci schede hanno un anno dentro il nome
+della fonte: quelle sono il posto da cui cominciare.
+
+## Restano dieci
+
+`teen-spirit`, `hey-jude`, `antivist`, `supermassive-black-hole`, `closer`,
+`fade-to-black`, `fuori-dal-tunnel`, `non-me-lo-posso-permettere`,
+`dicono-di-me`, `il-comico-sai-che-risate`.
 
 Alcuni sono a basso rischio per costruzione — quando la fonte **è**
 l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
@@ -118,4 +168,4 @@ Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
 modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
-Undici fatte, tredici rimaste.
+Quattordici fatte, dieci rimaste.
