@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **diciotto**. **Tredici reggono, tre no, due non si aprono.**
+Ne ho aperti **ventidue**. **Sedici reggono, quattro no, due non si aprono.**
 
 ## Reggono — e vale la pena dire perché
 
@@ -241,10 +241,55 @@ La pagina di Guitar World e' «Published August 3, 2020» e dichiara in cima:
 Terza volta in due giorni, terza testata dello stesso editore. **`fade-to-black`
 non ci casca**, perche' non scrive nessun anno.
 
-## Restano sei
+## Sesto giro: i quattro italiani — e la mia regolarita' era sbagliata
 
-`hey-jude`, `antivist`, `fuori-dal-tunnel`, `non-me-lo-posso-permettere`,
-`dicono-di-me`, `il-comico-sai-che-risate`.
+| scheda | la fonte scrive | |
+|---|---|---|
+| `fuori-dal-tunnel` | «ci racconta in un'intervista ad ampio raggio» (Claudio Fabretti) | l'ha ricevuta OndaRock |
+| `dicono-di-me` | «"Il protagonista è un mio carissimo amico d'infanzia", **ci racconta** Cesare» | l'ha ricevuta Rockol |
+| `il-comico-sai-che-risate` | «**ci racconta**, nella sede della sua nuova casa discografica» | l'ha ricevuta Rockol |
+| **`non-me-lo-posso-permettere`** | «**Come dice lo stesso autore:**» | **nessuno: e' un profilo critico che cita** |
+
+### `non-me-lo-posso-permettere` non regge, ed e' il caso che mi serviva
+
+La scheda scrive: «come raccontato dallo stesso Caparezza **a OndaRock**,
+"Museica" è "l'audioguida delle mie visioni messe in mostra"».
+
+La citazione e' esatta. Ma la fonte non e' un'intervista: e' la **monografia**
+di Antonio Silvestri, un profilo critico lungo vent'anni di carriera, e
+introduce quel blocco con quattro parole che non nominano nessun destinatario:
+«Come dice lo stesso autore». Caparezza quella frase l'ha detta da qualche
+parte — comunicato, sito, presentazione del disco — e OndaRock la riporta.
+
+### Dove avevo sbagliato io
+
+Il 17 avevo scritto, con una certa soddisfazione, che il difetto e' tutto nelle
+fonti **in inglese**, e che le italiane non sbagliano perche' «l'italiano mette
+il destinatario dentro la frase e non lascia scelta». Avevo tre casi su tre e
+una spiegazione elegante.
+
+**La spiegazione era sbagliata, e questo caso la rompe.** La variabile non e'
+la lingua: e' il **genere del pezzo**.
+- Un'**intervista** dice chi ha ricevuto le parole, in qualunque lingua:
+  «ci ha raccontato», «Lee told NME», «gave us insight», «Speaking to GP».
+- Un **profilo critico, una recensione, una rubrica «behind the song»** cita
+  senza dirlo: «Come dice lo stesso autore», «said Adele», «Oli recently
+  described».
+
+Le quattro schede che cadono lo confermano tutte: `chasing-pavements` (una
+rubrica *Behind the Song*), `drown` (un'intervista che riporta una frase detta
+prima), `toxicity` (una notizia su un podcast), `non-me-lo-posso-permettere`
+(una monografia). **Nessuna di loro cita un'intervista vera.**
+
+Questa e' una regola utile perche' si applica *prima* di aprire la pagina:
+**quando la fonte e' un pezzo SU una canzone e non un colloquio CON un
+artista, «ha detto a X» e' quasi sempre da verificare.** L'altra regola, quella
+sulla lingua, faceva sembrare sicure cinque schede italiane che invece andavano
+guardate — e una infatti era rotta.
+
+## Restano due
+
+`hey-jude` e `antivist`, tutt'e due su Wayback.
 
 Alcuni sono a basso rischio per costruzione — quando la fonte **è**
 l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
@@ -258,4 +303,4 @@ Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
 modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
-Diciotto fatte, sei rimaste.
+Ventidue fatte, due rimaste.
