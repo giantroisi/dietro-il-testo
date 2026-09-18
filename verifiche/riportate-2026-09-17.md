@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **quattordici**. **Dieci reggono, tre no, uno non si apre.**
+Ne ho aperti **sedici**. **Dodici reggono, tre no, uno non si apre.**
 
 ## Reggono — e vale la pena dire perché
 
@@ -150,11 +150,57 @@ appeared in Classic Rock #162»), oppure si deduce dal testo — l'età di chi
 parla, il disco chiamato «nuovo». Dieci schede hanno un anno dentro il nome
 della fonte: quelle sono il posto da cui cominciare.
 
-## Restano dieci
+## Quarto giro: `teen-spirit` e `closer`, tutti e due alla lettera
 
-`teen-spirit`, `hey-jude`, `antivist`, `supermassive-black-hole`, `closer`,
-`fade-to-black`, `fuori-dal-tunnel`, `non-me-lo-posso-permettere`,
-`dicono-di-me`, `il-comico-sai-che-risate`.
+**`teen-spirit`** — la fonte *è* «Kurt Cobain, The Rolling Stone Interview»
+di David Fricke, **27 gennaio 1994**, e la scheda scrive «gennaio 1994».
+La citazione c'è parola per parola: «I was trying to write the ultimate pop
+song. I was basically trying to rip off the Pixies… When I heard the Pixies
+for the first time, I connected with that band so heavily I should have been
+in that band». La traduzione tiene anche il registro — *rip off* diventa
+«scopiazzare», che è la parola giusta.
+
+**`closer`** — la fonte *è* la Fresh Air di Terry Gross su NPR, 19 dicembre
+2011. «I decided to write a conceptual record that told the story of somebody
+that was futilely trying to fill up a hole in their being with whatever it
+might be — sex or drugs, or to try to escape from a sense of emptiness»:
+la scheda la rende intera, «futilely» compreso («cerca **inutilmente**»).
+
+## La cosa che ho imparato oggi, e non riguarda il sito
+
+**Su `teen-spirit` stavo per segnalare un difetto che non esisteva.**
+Ho cercato «Pixies» nella pagina con lo strumento di ricerca: *nessuna
+corrispondenza*. Per un momento la conclusione ovvia era che la citazione non
+ci fosse — il caso `bohemian-rhapsody`, di nuovo. Poi ho estratto il testo
+della pagina e la citazione era lì, per intero, due schermate più in basso.
+
+È la terza volta in tre giorni che **uno strumento dice "non c'è" e un altro
+strumento trova**:
+
+| caso | strumento che ha fallito | strumento che ha visto |
+|---|---|---|
+| `dailybest.it`, archiviato per settimane come «non apribile» | estrazione del testo (dava solo un riquadro laterale) | albero di accessibilità: l'articolo intero |
+| `teen-spirit` | ricerca nella pagina: zero occorrenze di «Pixies» | estrazione del testo: la citazione per intero |
+| `i-miss-you`, MTV su Wayback | **tutti e tre** | nessuno — quello è davvero illeggibile |
+
+**La regola che ne esce, e vale per me più che per chiunque altro: un verdetto
+di "la fonte non lo dice" raggiunto con un solo strumento non è un verdetto.**
+Chi verifica ha un potere asimmetrico — una sua segnalazione costa una
+riscrittura a qualcun altro — e quindi i suoi falsi positivi non sono errori
+minori: sono lo stesso difetto che va a caccia di trovare, con il segno
+invertito.
+
+Oggi ne ho evitati due per un soffio: questo, e `seven-nation-army`, dove
+avevo letto male il nome della fonte. In entrambi i casi mi ha salvato la
+stessa cosa, aprire davvero invece di dedurre. **Che è esattamente ciò che
+questo controllo chiede di fare, e il motivo per cui nomina invece di
+giudicare.**
+
+## Restano otto
+
+`hey-jude`, `antivist`, `supermassive-black-hole`, `fade-to-black`,
+`fuori-dal-tunnel`, `non-me-lo-posso-permettere`, `dicono-di-me`,
+`il-comico-sai-che-risate`.
 
 Alcuni sono a basso rischio per costruzione — quando la fonte **è**
 l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
@@ -168,4 +214,4 @@ Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
 modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
-Quattordici fatte, dieci rimaste.
+Sedici fatte, otto rimaste.
