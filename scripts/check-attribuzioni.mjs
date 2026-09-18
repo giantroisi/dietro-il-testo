@@ -133,7 +133,18 @@ function nominaUnaFonteCitata(c, frase) {
   const f = frase.toLowerCase();
   return (c.fonti || []).some((x) => {
     const n = nomePrincipale(x.nome).trim().toLowerCase();
-    return n.length >= 5 && f.includes(n);
+    if (n.length >= 5 && f.includes(n)) return true;
+    // 17 settembre 2026 — FALSO POSITIVO MIO. `feeling-this` e' stata corretta
+    // esattamente come chiedevo: «secondo Far Out, la frase la disse a NME».
+    // E' la R3 uscita 3, fatta bene. Il controllo continuava a segnalarla
+    // perche' la fonte si chiama «Far Out Magazine, 9 aprile 2023, di Tim
+    // Coffman» e la frase dice «Far Out»: cercavo il nome intero dentro una
+    // frase dove nessuno scriverebbe mai il nome intero.
+    // Un controllo che segnala il lavoro giusto insegna a non guardarlo.
+    // Quindi accetto anche la forma breve: le prime due parole del nome,
+    // se insieme fanno almeno cinque caratteri.
+    const breve = n.split(/\s+/).slice(0, 2).join(' ');
+    return breve.length >= 5 && breve !== n && f.includes(breve);
   });
 }
 
