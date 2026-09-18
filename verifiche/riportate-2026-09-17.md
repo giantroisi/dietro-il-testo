@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **sedici**. **Dodici reggono, tre no, uno non si apre.**
+Ne ho aperti **diciotto**. **Tredici reggono, tre no, due non si aprono.**
 
 ## Reggono — e vale la pena dire perché
 
@@ -196,11 +196,55 @@ stessa cosa, aprire davvero invece di dedurre. **Che è esattamente ciò che
 questo controllo chiede di fare, e il motivo per cui nomina invece di
 giudicare.**
 
-## Restano otto
+## Quinto giro: `supermassive-black-hole` e `fade-to-black`
 
-`hey-jude`, `antivist`, `supermassive-black-hole`, `fade-to-black`,
-`fuori-dal-tunnel`, `non-me-lo-posso-permettere`, `dicono-di-me`,
-`il-comico-sai-che-risate`.
+**`supermassive-black-hole` regge.** La pagina MuseWiki e' la trascrizione di
+un'intervista di Hot Press (Vol. 30 #14, Craig Fitzsimons) presentata come
+«an **exclusive** interview» in cui «Matt Bellamy **tells us**»: Hot Press
+l'ha ricevuta davvero, e il nome della fonte dichiara gia' la mediazione
+(«trascrizione su MuseWiki»). Data «luglio 2006» esatta.
+Un rilievo minimo, dentro le virgolette: «ottenere **piu' controllo** sul
+processo» traduce «get **more involved** in the process». Essere piu'
+coinvolti non e' avere piu' controllo.
+
+**`fade-to-black`, meta' verificata e meta' no.**
+- La citazione a Guitar World regge alla lettera: «I was pretty depressed at
+  the time because our gear had just been stolen, and we had been thrown out
+  of our manager's house».
+- La citazione a Rolling Stone **non e' verificabile**: `rollingstone.com`
+  reindirizza a un cancello a pagamento («You are not authorized to access
+  this content without a valid TollBit Token»). Era gia' registrato che quel
+  dominio e' chiuso; qui lo si vede in atto.
+
+**Un'osservazione utile, da provare e non da promettere**: la Rolling Stone
+*australiana* (`au.rollingstone.com`) invece si apre — e' li' che ho letto
+l'intervista di `teen-spirit`. Quando una pagina di `rollingstone.com` e'
+chiusa, vale la pena cercare lo stesso pezzo sull'edizione australiana. Non
+so se valga sempre: so che e' valso una volta.
+
+### Una distinzione che devo alla mia stessa regola
+
+Il 17 ho contato come difetto, su `sweet-home-alabama`, un inciso tagliato
+dentro le virgolette senza puntini. Qui su `fade-to-black` la citazione si
+ferma dopo «di casa del nostro manager», mentre la fonte prosegue «for
+breaking shit and drinking his liquor cabinet dry». **Non lo conto come lo
+stesso difetto, e la differenza va detta, altrimenti la mia regola diventa
+inservibile**: troncare la coda di una citazione e' normale e non richiede
+segno; tagliarne il mezzo cambia la frase e il segno lo richiede.
+Resta una nota, non un rilievo: la coda tagliata spiegava che erano stati
+cacciati per colpa loro, e ometterla addolcisce appena.
+
+### Terza conferma del trabocchetto delle date
+
+La pagina di Guitar World e' «Published August 3, 2020» e dichiara in cima:
+«This interview was first featured in Guitar World magazine **in 2009**».
+Terza volta in due giorni, terza testata dello stesso editore. **`fade-to-black`
+non ci casca**, perche' non scrive nessun anno.
+
+## Restano sei
+
+`hey-jude`, `antivist`, `fuori-dal-tunnel`, `non-me-lo-posso-permettere`,
+`dicono-di-me`, `il-comico-sai-che-risate`.
 
 Alcuni sono a basso rischio per costruzione — quando la fonte **è**
 l'intervista o la recensione di quella testata (`teen-spirit` è *The Rolling
@@ -214,4 +258,4 @@ Il campione di stamattina diceva che il 50% delle citazioni non regge e che il
 modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
-Sedici fatte, otto rimaste.
+Diciotto fatte, sei rimaste.
