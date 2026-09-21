@@ -7,7 +7,7 @@ l'errore, quando c'è, è invisibile a qualunque controllo — la fonte è citat
 il collegamento funziona, la frase è vera, e sbagliato è solo *a chi* è stata
 detta.
 
-Ne ho aperti **ventidue**. **Sedici reggono, quattro no, due non si aprono.**
+Ne ho aperti **ventidue**. **Quindici reggono, cinque no, due non si aprono.** (Il 18 avevo scritto sedici e quattro: vedi la correzione in fondo.)
 
 ## Reggono — e vale la pena dire perché
 
@@ -304,3 +304,25 @@ modo di sbagliare dominante è questo. Ma «rileggere 163 schede con citazioni»
 non è un compito che si fa. **Ventiquattro pagine da aprire sì**, ed è tutto
 quello che serve per chiudere questa classe di difetti su tutto il sito.
 Ventidue fatte, due rimaste.
+
+
+## Correzione del 21 settembre: `fuori-dal-tunnel` l'avevo dato per buono, ed era rotto
+
+Il 18 ho segnato `fuori-dal-tunnel` come «regge». **Avevo verificato la
+citazione sbagliata.** Il controllo segnalava questa frase: «come ha
+raccontato **a Rockol** nel 2022, fare pace col pezzo». Io ho aperto e
+verificato un'altra citazione della stessa scheda — quella dell'intervista
+di OndaRock del 2018, che regge davvero — e ho chiuso il punto.
+
+L'ha trovato Sonnet, nel suo giro sugli stessi candidati: la frase del 2022
+Caparezza l'ha detta **dal palco**, presentando il pezzo alla prima data del
+tour *Exuvia*, e Rockol la riporta come cronaca del concerto. Non era
+un'intervista. Corretto da lui con il commit `d9b046d9`.
+
+Il conto vero, quindi, e' **cinque difetti su ventidue**, non quattro. E la
+regolarita' che avevo scritto regge anche meglio: la cronaca di un concerto
+e' un altro pezzo **su** qualcosa, non un colloquio **con** qualcuno.
+
+La lezione per me e' precisa: **una scheda con due citazioni attribuite non si
+chiude verificandone una.** Il controllo diceva quale guardare, e io ho
+guardato quella che mi era piu' comoda da trovare.
