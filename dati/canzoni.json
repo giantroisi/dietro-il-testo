@@ -397,14 +397,14 @@
     "paese": null,
     "colore": "#A65A22",
     "colore2": "#6E4A80",
-    "ascolti": 2200000000,
-    "ascoltiTesto": "2,2 mld ascolti",
+    "ascolti": 2300000000,
+    "ascoltiTesto": "2,3 mld ascolti",
     "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
     "corpo": [
-      "Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), il brano racconta — nelle parole dello stesso Henley, che nel 2016 in un'intervista a CBS Mornings ammise di non riuscire a spiegarne il senso in poche frasi — \"un viaggio dall'innocenza all'esperienza\". \"Non parla davvero della California, parla dell'America\", disse Henley. \"Parla del lato oscuro del sogno americano, di eccesso, di narcisismo, dell'industria musicale... può avere un milione di interpretazioni.\" La California è lo scenario, ma il significato, per lo stesso autore, è applicabile ovunque.",
-      "Vinse il Grammy Award come Record of the Year nel 1978 ed è rimasta nella scaletta dal vivo della band per decenni, nonostante i suoi sei minuti e mezzo di durata."
+      "Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), \"Hotel California\" è stato descritto da Henley, in un’intervista a CBS Mornings del 2016, come un viaggio dall’innocenza all’esperienza. Per lui la California è lo scenario di una storia che parla dell’America e del lato oscuro del sogno americano: eccessi, narcisismo e industria musicale. Henley ha aggiunto che il brano ammette molte interpretazioni.",
+      "Vinse il Grammy Award come Record of the Year nel 1978 e restò nella scaletta dal vivo degli Eagles per decenni."
     ],
-    "fraseIconica": "Il verso finale è la battuta del portiere di notte, che dice agli ospiti che possono fare il check-out quando vogliono, ma non potranno mai andarsene davvero — la svolta che rivela come l'\"hotel\" sia in realtà una trappola senza uscita. Fan e critica ne discutono da decenni: una delle letture più diffuse lo interpreta come una metafora degli eccessi seducenti ma distruttivi dell'industria musicale e della fama nella California del Sud degli anni '70, dove una libertà solo apparente nasconde l'impossibilità di uscirne una volta entrati.",
+    "fraseIconica": "Quando Gayle King gli chiese di riassumere il significato in due frasi, Henley disse che non ci sarebbe riuscito: la canzone, spiegò, attraversa il lato oscuro del sogno americano e può avere molte interpretazioni. La sua risposta lascia aperto il racconto senza imporre una soluzione unica al mistero dell’hotel.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/the-eagles/63266/",
     "fonti": [
@@ -418,7 +418,7 @@
         "nome": "Wikipedia"
       },
       {
-        "url": "https://kworb.net/spotify/",
+        "url": "https://kworb.net/spotify/artist/0ECwFtbIWEVNwjlrfc6xoL_songs.html",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
       }
@@ -437,7 +437,8 @@
       [
         "F"
       ]
-    ]
+    ],
+    "descrizioneSeo": "Don Henley spiega \"Hotel California\": una storia sul lato oscuro del sogno americano, fra eccessi, narcisismo e industria musicale."
   },
   {
     "slug": "enter-sandman",
@@ -5337,10 +5338,10 @@
     "ascoltiTesto": "1,6 mld ascolti",
     "spotifyId": "2m1hi0nfMR9vdGC8UcrnwU",
     "corpo": [
-      "Scritta principalmente da Tom DeLonge verso la fine delle session di scrittura di \"Enema of the State\" (1999), nacque come risposta alla fidanzata dell'epoca, Jennifer Jenkins, che si era lamentata del fatto che scrivesse sempre canzoni dedicate ad altre ragazze. Il secondo verso si ispira a un gesto romantico della stessa Jenkins, che una notte lasciò delle rose sulle scale dopo che DeLonge era rimasto a registrare fino a tardi.",
-      "DeLonge ha raccontato di essersi ispirato ai Ramones per l'uso dei cori \"na na\", volendo unire un omaggio al punk più classico a un ritornello pensato per la radio. Il brano divenne uno dei maggiori successi della band, aiutando a consacrare il pop punk come genere mainstream a cavallo del nuovo millennio."
+      "Scritta principalmente da Tom DeLonge verso la fine della scrittura di \"Enema of the State\" (1999), fu dedicata alla fidanzata dell’epoca, Jennifer Jenkins. Una scena del brano si ispira a un gesto di Jenkins: gli lasciò delle rose sulle scale mentre lui registrava fino a tardi.",
+      "Secondo American Songwriter, i cori senza parole rendono omaggio ai Ramones, una delle band preferite di DeLonge. Il musicista cercava anche un ritornello adatto alla radio. Il brano divenne uno dei maggiori successi del gruppo."
     ],
-    "fraseIconica": "Il verso più citato racconta di rose lasciate sulle scale come sorpresa — un episodio realmente accaduto a Tom DeLonge, che trovò dei fiori lasciati dalla sua ragazza dell'epoca al suo ritorno a casa dopo le registrazioni dell'album. Il coro finale è un omaggio dichiarato ai Ramones, tra i gruppi preferiti di DeLonge.",
+    "fraseIconica": "L’episodio delle rose sulle scale venne da un gesto di Jennifer Jenkins, che le lasciò lì una sera in cui DeLonge era rimasto a registrare fino a tardi. Anche i cori hanno un riferimento preciso: l’omaggio ai Ramones.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/blink-182/all-the-small-things/",
     "fonti": [
@@ -5354,7 +5355,8 @@
       },
       {
         "url": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
-        "nome": "American Songwriter"
+        "nome": "American Songwriter, Catherine Walthall, 16 agosto 2022",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/artist/6FBDaR13swtiWwGhX1WQsP_songs.html",
@@ -5375,7 +5377,8 @@
         "D",
         "F"
       ]
-    ]
+    ],
+    "descrizioneSeo": "Tom DeLonge dedicò \"All the Small Things\" a Jennifer Jenkins: una scena nasce da un gesto reale, mentre i cori rendono omaggio ai Ramones."
   },
   {
     "slug": "i-miss-you",
@@ -6508,26 +6511,31 @@
     "spotifyId": "7ppPZa3TRUSGKaks9wH7VT",
     "corpo": [
       "Scritta da Noel Gallagher, uscì come singolo il 19 febbraio 1996: è il quinto estratto dall'album del 1995 \"(What's the Story) Morning Glory?\", e raggiunse la prima posizione della classifica britannica.",
-      "Il testo racconta la storia di una donna, Sally, che guarda alla propria vita senza rimpianti. Sulla sua identità Gallagher ha dato nel tempo risposte diverse: secondo Radio X, che riporta una sua intervista a NPR, il cantante ha lasciato intendere che il nome gli fosse rimasto impresso la sera in cui scrisse la canzone, appena uscito da uno strip club, mentre in altre occasioni ha ricondotto l'ispirazione a \"Sally Cinnamon\" degli Stone Roses, il gruppo a cui ha attribuito la scoperta della propria vocazione musicale. L'influenza dei Beatles e di John Lennon resta comunque dichiarata ed esplicita: l'introduzione al pianoforte richiama \"Imagine\", e uno dei versi del ritornello evoca, senza nominarla, la protesta a letto per la pace organizzata da Lennon e Yoko Ono."
+      "Nel 2018 Gallagher spiegò a NPR World Cafe di aver immaginato Sally come una donna che ripensa alla propria vita senza rimpianti; definì la canzone, all’origine, un gesto di sfida. Nella stessa intervista raccontò di averla scritta dopo essere uscito da uno strip club, senza però attribuire a una persona incontrata lì il nome Sally. Radio X presenta il collegamento con \"Sally Cinnamon\" degli Stone Roses come una supposizione di alcuni fan. La testata segnala inoltre un richiamo alla protesta a letto per la pace di John Lennon e Yoko Ono."
     ],
-    "fraseIconica": "Nacque quasi per caso durante un soundcheck a Parigi, due giorni prima del primo grande concerto della band in un palazzetto, a Sheffield: secondo quanto riportato da Songfacts, che cita un'intervista di Gallagher a Uncut del 2007, mentre suonava gli accordi senza cantare, il fratello Liam gli chiese cosa stesse suonando, e poi se nel testo comparisse il nome della protagonista che sarebbe diventata \"Sally\" — un'intuizione che a Noel sembrò subito perfetta, al punto da riscriverla quella sera stessa in camerino.",
+    "fraseIconica": "Nel 2018, parlando con NPR World Cafe, Gallagher ricordò il momento in cui una folla cantò il brano dopo la commemorazione delle vittime dell’attentato alla Manchester Arena. Disse che quella scena gli mostrò quanto una canzone possa aiutare le persone a condividere un’esperienza: il brano, nato come sfida, era diventato per lui quasi un inno.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/oasis/dont-look-back-in-anger/",
     "fonti": [
       {
-        "url": "https://www.songfacts.com/facts/oasis/dont-look-back-in-anger",
-        "nome": "Songfacts (cita un'intervista di Gallagher a Uncut)",
+        "url": "https://www.npr.org/sections/world-cafe/2018/03/15/593476549/noel-gallagher-on-world-cafe",
+        "nome": "NPR World Cafe, intervista a Noel Gallagher, 15 marzo 2018",
         "ruolo": "storia"
       },
       {
         "url": "https://www.radiox.co.uk/artists/oasis/dont-look-back-in-anger-single-story-meaning-lyrics/",
-        "nome": "Radio X — Jenny Mensah (cita un'intervista di Gallagher a NPR)",
+        "nome": "Radio X, Jenny Mensah, 15 maggio 2025",
         "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/artist/2DaxqgrOhkeH0fpeiQq2f4_songs.html",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.officialcharts.com/charts/singles-chart/19960225/7501/",
+        "nome": "Official Charts, classifica singoli 25 febbraio 1996",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -6543,7 +6551,8 @@
         "D",
         "F"
       ]
-    ]
+    ],
+    "descrizioneSeo": "Noel Gallagher racconta Sally e il significato di \"Don’t Look Back in Anger\", singolo degli Oasis del 1996 tratto da \"(What’s the Story) Morning Glory?\"."
   },
   {
     "slug": "ringo-starr",
