@@ -8939,6 +8939,16 @@
     "testoUrl": "https://www.letras.com/bennato-edoardo/3820/",
     "fonti": [
       {
+        "url": "https://www.rockol.it/recensioni-musicali/album/7488/edoardo-bennato-sono-solo-canzonette",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ondarock.it/italia/edoardobennato.htm",
+        "nome": "OndaRock",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://it.wikipedia.org/wiki/Sono_solo_canzonette",
         "nome": "Wikipedia"
       },
@@ -12888,6 +12898,26 @@
     "testoUrl": "https://www.angolotesti.it/L/testi_canzoni_ligabue_1027/testo_canzone_la_ragazza_dei_tuoi_sogni_2502230.html",
     "fonti": [
       {
+        "url": "https://www.rockol.it/news-716889/ligabue-la-ragazza-dei-tuoi-sogni-nuova-canzone-recensione",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2020/09/10/ligabue-il-nuovo-singolo-nella-rcf-arena-campovolo-deserta_b715e653-b91d-445b-b4a3-4e86d1656401.html",
+        "nome": "ANSA",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/news-716900/ligabue-il-video-del-singolo-la-ragazza-dei-tuoi-sogni",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2021/04/16/ligabue-rinviato-al-2022-30-anni-in-un-nuovo-giorno_4152c4d1-04f6-46b1-8db2-de271a23433d.html",
+        "nome": "ANSA",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://it.wikipedia.org/wiki/7_(album_Ligabue)",
         "nome": "Wikipedia (voce dell'album)"
       },
@@ -12931,6 +12961,16 @@
     "sezioniExtra": [],
     "testoUrl": "https://www.angolotesti.it/L/testi_canzoni_ligabue_1027/testo_canzone_riderai_2667791.html",
     "fonti": [
+      {
+        "url": "https://www.rockol.it/news-736837/ligabue-nuovo-singolo-riderai-concerti-club-roma-e-milano-biglietti",
+        "nome": "Rockol",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2023/04/24/ligabue-il-28-aprile-esce-il-nuovo-singolo-riderai_62758ed4-362a-4215-917a-72dc4d6ca1f8.html",
+        "nome": "ANSA",
+        "ruolo": "storia"
+      },
       {
         "url": "https://it.wikipedia.org/wiki/Dedicato_a_noi",
         "nome": "Wikipedia (voce dell'album)"
@@ -13200,6 +13240,11 @@
     "testoUrl": "https://www.letras.com/adriano-celentano/607893/",
     "fonti": [
       {
+        "url": "https://www.ilgiornale.it/news/celentano-canta-e-balla-morandi.html",
+        "nome": "il Giornale",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://www.agorairc.it/la-donna-e-il-forestiero-una-lettura-di-un-testo-di-una-canzone-di-adriano-celentano/",
         "nome": "Agorà IRC — Giuseppe Esposito",
         "ruolo": "storia"
@@ -13243,6 +13288,11 @@
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/adriano-celentano/606930/",
     "fonti": [
+      {
+        "url": "https://www.ilgiorno.it/cultura/sanremo-2017-2ca959db",
+        "nome": "Il Giorno",
+        "ruolo": "storia"
+      },
       {
         "url": "https://hitparadeitalia.it/voli/articoli/ch710417.htm",
         "nome": "Hit Parade Italia (da Musica & Dischi, 17 aprile 1971)",
