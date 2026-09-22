@@ -157,15 +157,6 @@ a { color: inherit; }
 .testata-scorrevole.scorso .testata-cerca,
 .testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (max-width: 820px) {
-  /* Il bottone del tema e' fuori dal flusso: l'imbottitura sposta il contenuto
-     e non lui, che resta ancorato al bordo della scatola. Prima stava a
-     sinistra e la D, primo elemento nel flusso, gli finiva esattamente sotto —
-     stessi pixel, (24, 18), trovato misurando i due rettangoli e non guardando
-     lo screenshot. Ora sta a destra e lo spazio a sinistra e' tutto della
-     ricerca. */
-  .testata-scorrevole.scorso .testata-in {
-    flex-wrap: nowrap; align-items: center; padding-right: 50px;
-  }
   .testata-scorrevole.scorso .testata-cerca { max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -208,12 +199,24 @@ a { color: inherit; }
 :root[data-theme="light"] .tema .luna { display: none; }
 
 @media (max-width: 820px) {
-  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; position: relative; }
-  .testata-nav { display: none; }
-  .tema { position: absolute; right: 0; left: auto; top: 18px; }
-  .marchio { flex-basis: 100%; justify-content: center; }
-  .marchio img { width: 176px; }
-  .testata-cerca { flex-basis: 100%; max-width: none; }
+  .testata-in { flex-wrap: wrap; gap: 8px; min-height: 0; padding: 10px 0; }
+  .marchio { order: 0; justify-content: flex-start; }
+  .marchio img { width: 140px; }
+  .testata-nav { display: flex; order: 1; margin-left: auto; gap: 0; font-size: 11px; }
+  .testata-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 7px; }
+  .tema { order: 2; margin-left: 0; width: 44px; height: 44px; }
+  .testata-cerca { order: 3; flex-basis: 100%; max-width: none; }
+  .testata-scorrevole .testata-nav { margin-left: 0; }
+  .testata-scorrevole .tema { margin-left: auto; }
+}
+@media (max-width: 380px) {
+  .testata-in { column-gap: 6px; }
+  .marchio img { width: 128px; }
+  .testata-nav { font-size: 10px; }
+  .testata-nav a { padding-inline: 5px; }
+}
+@media (max-width: 340px) {
+  .marchio img { width: 96px; }
 }
 
 /* ---------------------------------------------------------------- ricerca */
@@ -824,8 +827,9 @@ a { color: inherit; }
 .filtro {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .07em;
   text-transform: uppercase; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
   background: var(--surface); color: var(--text);
-  border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px;
+  border: 1px solid var(--border); border-radius: 999px; padding: 10px 14px;
 }
 .filtro:hover { border-color: var(--sistema); }
 .filtro[aria-pressed="true"] { background: var(--sistema); border-color: var(--sistema); color: #fff; }
