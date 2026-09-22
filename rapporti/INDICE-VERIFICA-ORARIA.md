@@ -17,4 +17,4 @@ Routine automatica avviata il 22/09/2026 (~16:14, Europa/Roma), un ciclo ogni 60
 
 ## Log
 
-_(ancora vuoto: il primo ciclo programmato aggiungerà qui la prima riga)_
+- 2026-09-22 ~16:14 — `sound-of-silence-disturbed` — 17 affermazioni: 8 confermate, 4 con riserva, 5 non confermate, 0 contraddette — file: [rapporti/orario/01-sound-of-silence-disturbed.md](orario/01-sound-of-silence-disturbed.md) — difetto principale: l'intera frase iconica (scarto vocale, "riscoperta" del testo, fedeltà del testo) è senza copertura nelle due fonti citate.
