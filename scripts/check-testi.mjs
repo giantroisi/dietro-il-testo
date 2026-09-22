@@ -11,6 +11,9 @@ const canzoni = JSON.parse(readFileSync('dati/canzoni.json', 'utf8'));
 
 function normalizza(s) {
   return String(s || '')
+    .replace(/&#(?:39|8217|x27|x2019);|&(?:apos|rsquo);/gi, "'")
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
