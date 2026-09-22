@@ -746,7 +746,7 @@ export function paginaCanzone(c, ctx) {
       <h2>La storia</h2>
       <div class="prosa">
         ${corpoHtml}
-        ${legendaNature}
+${legendaNature ? `        ${legendaNature}` : ''}
       </div>
     </section>
 

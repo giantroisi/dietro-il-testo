@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/whats-my-age-again.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano","name":"What's My Age Again?","byArtist":{"@type":"MusicGroup","name":"Blink-182","url":"https://www.dietroiltesto.it/artista/blink-182/"},"inAlbum":{"@type":"MusicAlbum","name":"Enema of the State"},"datePublished":"1999","url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","description":"Mark Hoppus definì \"What’s My Age Again?\" autobiografica: una canzone sui vent’anni e sull’immaturità, tratta da \"Enema of the State\"."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"What's My Age Again?","item":"https://www.dietroiltesto.it/canzone/whats-my-age-again/"}]},{"@type":"Article","headline":"What's My Age Again?","about":{"@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","dateModified":"2026-09-21"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano","name":"What's My Age Again?","byArtist":{"@type":"MusicGroup","name":"Blink-182","url":"https://www.dietroiltesto.it/artista/blink-182/"},"inAlbum":{"@type":"MusicAlbum","name":"Enema of the State"},"datePublished":"1999","url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","description":"Mark Hoppus definì \"What’s My Age Again?\" autobiografica: una canzone sui vent’anni e sull’immaturità, tratta da \"Enema of the State\"."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"What's My Age Again?","item":"https://www.dietroiltesto.it/canzone/whats-my-age-again/"}]},{"@type":"Article","headline":"What's My Age Again?","about":{"@id":"https://www.dietroiltesto.it/canzone/whats-my-age-again/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/whats-my-age-again/","dateModified":"2026-09-22"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -186,15 +186,6 @@ a { color: inherit; }
 .testata-scorrevole.scorso .testata-cerca,
 .testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (max-width: 820px) {
-  /* Il bottone del tema e' fuori dal flusso: l'imbottitura sposta il contenuto
-     e non lui, che resta ancorato al bordo della scatola. Prima stava a
-     sinistra e la D, primo elemento nel flusso, gli finiva esattamente sotto —
-     stessi pixel, (24, 18), trovato misurando i due rettangoli e non guardando
-     lo screenshot. Ora sta a destra e lo spazio a sinistra e' tutto della
-     ricerca. */
-  .testata-scorrevole.scorso .testata-in {
-    flex-wrap: nowrap; align-items: center; padding-right: 50px;
-  }
   .testata-scorrevole.scorso .testata-cerca { max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -237,12 +228,24 @@ a { color: inherit; }
 :root[data-theme="light"] .tema .luna { display: none; }
 
 @media (max-width: 820px) {
-  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; position: relative; }
-  .testata-nav { display: none; }
-  .tema { position: absolute; right: 0; left: auto; top: 18px; }
-  .marchio { flex-basis: 100%; justify-content: center; }
-  .marchio img { width: 176px; }
-  .testata-cerca { flex-basis: 100%; max-width: none; }
+  .testata-in { flex-wrap: wrap; gap: 8px; min-height: 0; padding: 10px 0; }
+  .marchio { order: 0; justify-content: flex-start; }
+  .marchio img { width: 140px; }
+  .testata-nav { display: flex; order: 1; margin-left: auto; gap: 0; font-size: 11px; }
+  .testata-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 7px; }
+  .tema { order: 2; margin-left: 0; width: 44px; height: 44px; }
+  .testata-cerca { order: 3; flex-basis: 100%; max-width: none; }
+  .testata-scorrevole .testata-nav { margin-left: 0; }
+  .testata-scorrevole .tema { margin-left: auto; }
+}
+@media (max-width: 380px) {
+  .testata-in { column-gap: 6px; }
+  .marchio img { width: 128px; }
+  .testata-nav { font-size: 10px; }
+  .testata-nav a { padding-inline: 5px; }
+}
+@media (max-width: 340px) {
+  .marchio img { width: 96px; }
 }
 
 /* ---------------------------------------------------------------- ricerca */
@@ -853,8 +856,9 @@ a { color: inherit; }
 .filtro {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .07em;
   text-transform: uppercase; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
   background: var(--surface); color: var(--text);
-  border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px;
+  border: 1px solid var(--border); border-radius: 999px; padding: 10px 14px;
 }
 .filtro:hover { border-color: var(--sistema); }
 .filtro[aria-pressed="true"] { background: var(--sistema); border-color: var(--sistema); color: #fff; }
@@ -871,7 +875,7 @@ a { color: inherit; }
 
   <header class="testata">
     <div class="col testata-in">
-      <button class="tema" type="button" data-tema aria-label="Cambia tema chiaro o scuro" aria-pressed="false">
+      <button class="tema" type="button" data-cambia-tema aria-label="Cambia tema chiaro o scuro" aria-pressed="false">
         <svg class="sole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M5.9 5.9 4.4 4.4M19.6 19.6l-1.5-1.5M18.1 5.9l1.5-1.5M4.4 19.6l1.5-1.5"/></svg>
         <svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 13.4A8.2 8.2 0 1 1 10.6 4a6.6 6.6 0 0 0 9.4 9.4Z"/></svg>
       </button>
@@ -925,7 +929,7 @@ a { color: inherit; }
           <a href="../../anni/1990/">anni Novanta</a>
         </div>
         <div class="affidabilita">
-          
+          <span class="verifica">Ultima revisione <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 22 settembre 2026</span>
         </div>
         <!-- Condivisione. Il bottone "Instagram" non pubblica niente e non
              potrebbe: Instagram non espone alcun indirizzo di condivisione dal
@@ -943,7 +947,7 @@ a { color: inherit; }
           data-titolo="What's My Age Again?"
           data-artista="Blink-182"
           data-anno="1999"
-          data-frase="Il titolo originale del brano era &quot;Peter Pan Complex&quot;, poi cambiato dall'etichetta perché ritenuto poco comprensibile per il pubblico: il testo affronta con ironia il tema dell'immaturità e si chiude con il protagonista che sceglie di prendersela comoda nel crescere, senza curarsi troppo del giudizio altrui. Il celebre video, con la band che corre per le strade di Los Angeles quasi del tutto nuda, contribuì non poco a renderlo uno dei brani più iconici della loro discografia."
+          data-frase="Il regista Marcos Siega ideò il video dopo aver visto il filmato di uno streaker. Per parte delle riprese a Los Angeles, i musicisti indossarono slip color carne per evitare problemi legali."
           data-colore="#1F6E4A"
           data-colore2="#3E3E3E"
           data-slug="whats-my-age-again"
@@ -976,7 +980,7 @@ a { color: inherit; }
       <section class="blocco testa-momento" id="momento" style="border-top:0;padding-top:0">
       <figure class="momento">
         <span class="etichetta">Momento iconico</span>
-        <p>Il titolo originale del brano era &quot;Peter Pan Complex&quot;, poi cambiato dall'etichetta perché ritenuto poco comprensibile per il pubblico: il testo affronta con ironia il tema dell'immaturità e si chiude con il protagonista che sceglie di prendersela comoda nel crescere, senza curarsi troppo del giudizio altrui. Il celebre video, con la band che corre per le strade di Los Angeles quasi del tutto nuda, contribuì non poco a renderlo uno dei brani più iconici della loro discografia.</p>
+        <p>Il regista Marcos Siega ideò il video dopo aver visto il filmato di uno streaker. Per parte delle riprese a Los Angeles, i musicisti indossarono slip color carne per evitare problemi legali.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
       </section>
@@ -987,9 +991,9 @@ a { color: inherit; }
     <section class="blocco" id="storia">
       <h2>La storia</h2>
       <div class="prosa">
-        <p>Mark Hoppus ha raccontato, ospite del podcast di Chris DeMakes, che il riff d'apertura nacque per errore: stava provando a imparare l'intro di basso di &quot;J.A.R.&quot; dei Green Day, lo eseguì sbagliato, e il risultato gli piacque abbastanza da diventare la base del nuovo brano. Il testo, ha raccontato ancora Hoppus, nacque come una canzoncina scherzosa e molto più volgare della versione finale, che pensava comunque di registrare come traccia goliardica per il gruppo; solo in un secondo momento, rendendosi conto che aveva del potenziale, la riscrisse in circa cinque minuti nel proprio salotto.</p>
-        <p>Il titolo di lavorazione era &quot;Peter Pan Complex&quot;, diretto riferimento al rifiuto di crescere; l’etichetta MCA Records lo giudicò un riferimento troppo poco chiaro per il grande pubblico, suggerendo di cambiarlo nel titolo definitivo, cosa a cui la band, inizialmente contraria, finì per acconsentire. Pubblicata nell’aprile 1999 come singolo di lancio di &quot;Enema of the State&quot;, scalò le classifiche in diversi paesi, arrivando fra i primi cinque in Italia. In una dichiarazione a Billboard del 1999, riportata da The Ringer, Hoppus definì la canzone autobiografica e la collegò al proprio comportamento immaturo durante i vent’anni.</p>
-        
+        <p><span class="aff aff-D"><span class="aff-testo">Mark Hoppus ha raccontato, ospite del podcast di Chris DeMakes, che il riff d'apertura nacque per errore: stava provando a imparare l'intro di basso di &quot;J.A.R.&quot; dei Green Day, lo eseguì sbagliato, e il risultato gli piacque abbastanza da diventare la base del nuovo brano.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Secondo iHeart, Hoppus ha raccontato nello stesso podcast che il testo nacque come scherzo in una versione molto più volgare di quella finale e che, dopo averne intuito il potenziale, ne riscrisse la maggior parte in circa cinque minuti.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p>Il titolo di lavorazione era &quot;Peter Pan Complex&quot;, un richiamo al rifiuto di crescere; secondo iHeart, l’etichetta chiese alla band di cambiarlo. Pubblicata nell’aprile 1999 come primo singolo di &quot;Enema of the State&quot;, la canzone contribuì a far conoscere il gruppo a un pubblico più ampio. <span class="aff aff-D"><span class="aff-testo">In una dichiarazione a Billboard del 1999, riportata da The Ringer, Hoppus definì la canzone autobiografica e la collegò al proprio comportamento immaturo durante i vent’anni.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
     </section>
 
@@ -1036,10 +1040,10 @@ a { color: inherit; }
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
-      <p class="stato-verifica da-verificare">Questa scheda <b>non è ancora stata verificata frase per frase</b>: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. <a href="../../metodo/#verifica">Perché te lo diciamo</a></p>
+      <p class="stato-verifica verificata">Verificata frase per frase il 22 settembre 2026. <a href="../../metodo/#verifica">Che cosa vuol dire</a></p>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sulla storia</span>
-        <ol class="fonti"><li><span class="num">01</span><a href="https://www.nme.com/news/music/mark-hoppus-green-day-inspired-intro-to-blink-182-whats-my-age-again-2793676" target="_blank" rel="noopener">NME</a></li><li><span class="num">02</span><a href="https://www.billboard.com/music/rock/blink-182-green-day-song-inspired-whats-my-age-again-9469620/" target="_blank" rel="noopener">Billboard</a></li><li><span class="num">03</span><a href="https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state" target="_blank" rel="noopener">The Ringer</a></li><li><span class="num">04</span><a href="https://en.wikipedia.org/wiki/What's_My_Age_Again%3F" target="_blank" rel="noopener">Wikipedia (EN) — scheda del singolo</a></li></ol>
+        <ol class="fonti"><li><span class="num">01</span><a href="https://www.nme.com/news/music/mark-hoppus-green-day-inspired-intro-to-blink-182-whats-my-age-again-2793676" target="_blank" rel="noopener">NME</a></li><li><span class="num">02</span><a href="https://www.billboard.com/music/rock/blink-182-green-day-song-inspired-whats-my-age-again-9469620/" target="_blank" rel="noopener">Billboard</a></li><li><span class="num">03</span><a href="https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state" target="_blank" rel="noopener">The Ringer</a></li><li><span class="num">04</span><a href="https://en.wikipedia.org/wiki/What's_My_Age_Again%3F" target="_blank" rel="noopener">Wikipedia (EN) — scheda del singolo</a></li><li><span class="num">05</span><a href="https://www.iheart.com/content/2020-10-20-mark-hoppus-says-whats-my-age-again-riff-was-inspired-by-green-day/" target="_blank" rel="noopener">iHeart — dichiarazioni di Mark Hoppus nel podcast di Chris DeMakes</a></li><li><span class="num">06</span><a href="https://music.apple.com/us/album/whats-my-age-again-single/1774077656" target="_blank" rel="noopener">Apple Music</a></li><li><span class="num">07</span><a href="https://www.blink182.com/pages/discography" target="_blank" rel="noopener">blink-182 — discografia ufficiale</a></li></ol>
       </div>
       <div class="fonti-gruppo">
         <span class="fonti-etichetta">Sugli ascolti</span>

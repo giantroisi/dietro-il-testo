@@ -12,7 +12,7 @@
   } catch (e) {}
 })();
 </script>
-<meta name="description" content="La musica.">
+<meta name="description" content="Alive dei Pearl Jam: Stone Gossard inviò a Eddie Vedder il demo di «Dollar Short»; il testo nacque dopo, da un'esperienza familiare rielaborata.">
 
 
 <link rel="canonical" href="https://www.dietroiltesto.it/canzone/alive/">
@@ -22,7 +22,7 @@
 <meta property="og:type" content="music.song">
 <meta property="og:site_name" content="Dietro il testo">
 <meta property="og:title" content="Significato di Alive – Pearl Jam">
-<meta property="og:description" content="La musica.">
+<meta property="og:description" content="Alive dei Pearl Jam: Stone Gossard inviò a Eddie Vedder il demo di «Dollar Short»; il testo nacque dopo, da un'esperienza familiare rielaborata.">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/alive/">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://www.dietroiltesto.it/og/alive.png">
@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/alive.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/alive/#brano","name":"Alive","byArtist":{"@type":"MusicGroup","name":"Pearl Jam","url":"https://www.dietroiltesto.it/artista/pearl-jam/"},"inAlbum":{"@type":"MusicAlbum","name":"Ten"},"datePublished":"1991","url":"https://www.dietroiltesto.it/canzone/alive/","description":"La musica."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Alive","item":"https://www.dietroiltesto.it/canzone/alive/"}]},{"@type":"Article","headline":"Alive","about":{"@id":"https://www.dietroiltesto.it/canzone/alive/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/alive/","dateModified":"2026-09-17"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/alive/#brano","name":"Alive","byArtist":{"@type":"MusicGroup","name":"Pearl Jam","url":"https://www.dietroiltesto.it/artista/pearl-jam/"},"inAlbum":{"@type":"MusicAlbum","name":"Ten"},"datePublished":"1991","url":"https://www.dietroiltesto.it/canzone/alive/","description":"Alive dei Pearl Jam: Stone Gossard inviò a Eddie Vedder il demo di «Dollar Short»; il testo nacque dopo, da un'esperienza familiare rielaborata."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Alive","item":"https://www.dietroiltesto.it/canzone/alive/"}]},{"@type":"Article","headline":"Alive","about":{"@id":"https://www.dietroiltesto.it/canzone/alive/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/alive/","dateModified":"2026-09-22"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -186,15 +186,6 @@ a { color: inherit; }
 .testata-scorrevole.scorso .testata-cerca,
 .testata-scorrevole.scorso .marchio-d { opacity: 1; transform: none; }
 @media (max-width: 820px) {
-  /* Il bottone del tema e' fuori dal flusso: l'imbottitura sposta il contenuto
-     e non lui, che resta ancorato al bordo della scatola. Prima stava a
-     sinistra e la D, primo elemento nel flusso, gli finiva esattamente sotto —
-     stessi pixel, (24, 18), trovato misurando i due rettangoli e non guardando
-     lo screenshot. Ora sta a destra e lo spazio a sinistra e' tutto della
-     ricerca. */
-  .testata-scorrevole.scorso .testata-in {
-    flex-wrap: nowrap; align-items: center; padding-right: 50px;
-  }
   .testata-scorrevole.scorso .testata-cerca { max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -237,12 +228,24 @@ a { color: inherit; }
 :root[data-theme="light"] .tema .luna { display: none; }
 
 @media (max-width: 820px) {
-  .testata-in { flex-wrap: wrap; gap: 14px; min-height: 0; position: relative; }
-  .testata-nav { display: none; }
-  .tema { position: absolute; right: 0; left: auto; top: 18px; }
-  .marchio { flex-basis: 100%; justify-content: center; }
-  .marchio img { width: 176px; }
-  .testata-cerca { flex-basis: 100%; max-width: none; }
+  .testata-in { flex-wrap: wrap; gap: 8px; min-height: 0; padding: 10px 0; }
+  .marchio { order: 0; justify-content: flex-start; }
+  .marchio img { width: 140px; }
+  .testata-nav { display: flex; order: 1; margin-left: auto; gap: 0; font-size: 11px; }
+  .testata-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 7px; }
+  .tema { order: 2; margin-left: 0; width: 44px; height: 44px; }
+  .testata-cerca { order: 3; flex-basis: 100%; max-width: none; }
+  .testata-scorrevole .testata-nav { margin-left: 0; }
+  .testata-scorrevole .tema { margin-left: auto; }
+}
+@media (max-width: 380px) {
+  .testata-in { column-gap: 6px; }
+  .marchio img { width: 128px; }
+  .testata-nav { font-size: 10px; }
+  .testata-nav a { padding-inline: 5px; }
+}
+@media (max-width: 340px) {
+  .marchio img { width: 96px; }
 }
 
 /* ---------------------------------------------------------------- ricerca */
@@ -853,8 +856,9 @@ a { color: inherit; }
 .filtro {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .07em;
   text-transform: uppercase; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
   background: var(--surface); color: var(--text);
-  border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px;
+  border: 1px solid var(--border); border-radius: 999px; padding: 10px 14px;
 }
 .filtro:hover { border-color: var(--sistema); }
 .filtro[aria-pressed="true"] { background: var(--sistema); border-color: var(--sistema); color: #fff; }
@@ -871,7 +875,7 @@ a { color: inherit; }
 
   <header class="testata">
     <div class="col testata-in">
-      <button class="tema" type="button" data-tema aria-label="Cambia tema chiaro o scuro" aria-pressed="false">
+      <button class="tema" type="button" data-cambia-tema aria-label="Cambia tema chiaro o scuro" aria-pressed="false">
         <svg class="sole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M5.9 5.9 4.4 4.4M19.6 19.6l-1.5-1.5M18.1 5.9l1.5-1.5M4.4 19.6l1.5-1.5"/></svg>
         <svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 13.4A8.2 8.2 0 1 1 10.6 4a6.6 6.6 0 0 0 9.4 9.4Z"/></svg>
       </button>
@@ -989,7 +993,7 @@ a { color: inherit; }
       <div class="prosa">
         <p>La musica, con il titolo di lavorazione &quot;Dollar Short&quot;, esisteva già prima della nascita di Pearl Jam: era stata suonata dal vivo a Portland dalla stessa formazione quando si chiamava ancora Mother Love Bone, con un testo completamente diverso scritto dal cantante Andy Wood. Dopo la morte di Wood, il chitarrista Stone Gossard tenne il demo da parte per anni, colpito da quel passaggio minore/maggiore, prima di spedirlo a Eddie Vedder a San Diego. Vedder ha raccontato che il testo gli venne tutto insieme mentre faceva surf al largo di Pacific Beach: &quot;Non presi nessun'onda quel giorno, tranne una — quella grande.&quot;</p>
         <p>Nel testo, scritto come racconto in parte inventato ma radicato nella sua storia vera, Vedder attinse a un episodio della propria vita: da adolescente sua madre gli rivelò che l'uomo che aveva sempre creduto suo padre era in realtà il patrigno, e che il padre biologico, morto di sclerosi multipla, era qualcuno che aveva conosciuto da bambino senza sapere chi fosse davvero. &quot;Credo che avrei solo voluto sapere se mi amava, e quanto&quot;, ha raccontato Vedder. &quot;Arrivato all'adolescenza, non mi fidavo più di nessun adulto.&quot; Il brano fa parte di una trilogia narrativa insieme a &quot;Once&quot; e &quot;Footsteps&quot;: la prima e l'ultima strofa raccontano eventi reali, mentre la strofa centrale è invenzione narrativa di Vedder. In un'intervista per VH1 Storytellers, Vedder raccontò che fu il pubblico stesso, cantando il ritornello dal vivo come un grido di celebrazione anziché di angoscia, a &quot;togliere la maledizione&quot; a quelle parole.</p>
-        
+
       </div>
     </section>
 
@@ -1014,7 +1018,7 @@ a { color: inherit; }
         <a class="scheda" href="../../canzone/black-pearl-jam/" style="--identita:#2E5C4A">
           <span class="sopra">Pearl Jam <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>
           <span class="titolo">Black</span>
-          <span class="gancio">Il brano nacque da uno strumentale demo intitolato &quot;E Ballad&quot;, scritto dal chitarrista Stone Gossard nel 1990 e…</span>
+          <span class="gancio">«Black» nacque da uno strumentale di Stone Gossard chiamato «E Ballad», inserito nel nastro di demo usato dal gruppo…</span>
         </a>
         <a class="scheda" href="../../canzone/jeremy/" style="--identita:#5C4A2E">
           <span class="sopra">Pearl Jam <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1991</span>

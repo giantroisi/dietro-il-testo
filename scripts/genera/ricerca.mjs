@@ -16,6 +16,7 @@ export function generaRicerca(ctx) {
       // il testo della canzone — coerente con P3) così un verso ricordato a
       // memoria e riformulato dall'utente può comunque portare alla scheda.
       k: [c.titolo, c.artista, c.album, c.genereTesto, c.fraseIconica].filter(Boolean).join(' ').toLowerCase(),
+      h: [c.titolo, c.artista, c.album].filter(Boolean).join(' ').toLowerCase(),
     })),
     ...ctx.artisti.map((a) => ({
       t: 1, // artista
@@ -23,6 +24,7 @@ export function generaRicerca(ctx) {
       s: `artista/${a.slug}/`,
       d: `${a.canzoni.length} ${a.canzoni.length === 1 ? 'canzone' : 'canzoni'}`,
       k: a.nome.toLowerCase(),
+      h: a.nome.toLowerCase(),
     })),
     ...ctx.album.map((al) => ({
       t: 2, // album
@@ -30,15 +32,15 @@ export function generaRicerca(ctx) {
       s: `album/${al.artistaSlug}/${al.slug}/`,
       d: [ctx.artistiPerSlug.get(al.artistaSlug)?.nome, al.anno].filter(Boolean).join(` ${SEGNO} `),
       k: [al.titolo, ctx.artistiPerSlug.get(al.artistaSlug)?.nome].filter(Boolean).join(' ').toLowerCase(),
+      h: [al.titolo, ctx.artistiPerSlug.get(al.artistaSlug)?.nome].filter(Boolean).join(' ').toLowerCase(),
     })),
   ];
 
   const percorsiCanzoni = ctx.canzoni.map((c) => `canzone/${c.slug}/`);
 
-  // Le raccolte servono al client per la proposta a campo vuoto: sul telefono
-  // la navigazione dell'intestazione e' nascosta e queste pagine vivono solo
-  // nel piede, a 3200px dall'inizio. Il campo di ricerca e' l'unico elemento
-  // che l'utente ha gia' sotto il pollice: quando e' vuoto, propone.
+  // Le raccolte servono al client per la proposta a campo vuoto: la testata
+  // porta ad Archivio e Metodo, mentre il campo suggerisce subito i generi
+  // e i decenni senza costringere a scorrere fino al piede.
   const raccolteClient = (ctx.raccolte || []).map((x) => ({
     n: x.nome,
     s: x.percorso,
@@ -136,13 +138,13 @@ export function generaRicerca(ctx) {
     var scuro = esplicito
       ? esplicito === 'dark'
       : window.matchMedia('(prefers-color-scheme: dark)').matches;
-    Array.prototype.forEach.call(document.querySelectorAll('[data-tema]'), function (b) {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-cambia-tema]'), function (b) {
       b.setAttribute('aria-pressed', scuro ? 'true' : 'false');
       b.setAttribute('aria-label', scuro ? 'Passa al tema chiaro' : 'Passa al tema scuro');
     });
   }
 
-  Array.prototype.forEach.call(document.querySelectorAll('[data-tema]'), function (b) {
+  Array.prototype.forEach.call(document.querySelectorAll('[data-cambia-tema]'), function (b) {
     b.addEventListener('click', function () {
       var esplicito = document.documentElement.getAttribute('data-theme');
       var scuro = esplicito
@@ -166,9 +168,12 @@ export function generaRicerca(ctx) {
     for (var i = 0; i < INDICE.length; i++) {
       var v = INDICE[i];
       var chiave = senzaAccenti(v.k);
+      var chiaveDiretta = senzaAccenti(v.h);
       var ok = true;
       var approssimato = false;
+      var diretto = true;
       for (var j = 0; j < termini.length; j++) {
+        if (chiaveDiretta.indexOf(termini[j]) === -1 && !corrispondeApprox(termini[j], chiaveDiretta)) diretto = false;
         if (chiave.indexOf(termini[j]) !== -1) continue;
         // F28: un termine non trovato alla lettera può comunque corrispondere
         // a un refuso di una parola della chiave — un solo carattere di
@@ -181,7 +186,12 @@ export function generaRicerca(ctx) {
       var nome = senzaAccenti(v.n);
       /* esatto > inizia con > contiene > approssimato; a parità gli artisti vengono prima */
       var punti = approssimato ? 4 : nome === n ? 0 : nome.indexOf(n) === 0 ? 1 : chiave.indexOf(n) === 0 ? 2 : 3;
-      esiti.push({ v: v, p: punti * 10 + (v.t === 1 ? 0 : v.t === 0 ? 1 : 2) });
+      esiti.push({ v: v, p: punti * 10 + (v.t === 1 ? 0 : v.t === 0 ? 1 : 2), diretto: diretto });
+    }
+    // Se titolo, artista o album corrispondono, non mostrare risultati che
+    // citano il termine solo nel contesto della frase iconica o del genere.
+    if (esiti.some(function (e) { return e.diretto; })) {
+      esiti = esiti.filter(function (e) { return e.diretto; });
     }
     esiti.sort(function (a, b) { return a.p - b.p || a.v.n.localeCompare(b.v.n, 'it'); });
     return esiti.slice(0, 8).map(function (e) { return e.v; });

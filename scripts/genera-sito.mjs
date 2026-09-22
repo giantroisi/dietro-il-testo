@@ -372,15 +372,26 @@ const oggi = new Date().toISOString().slice(0, 10);
 
 // F40: `lastmod` riflette una vera modifica di contenuto, non la data di build.
 // Confronta l'HTML appena generato con quello già pubblicato in ROOT (l'ultima
-// versione online, copiata lì dal rituale di pubblicazione) ignorando la riga
-// "Ultima revisione" e il campo `dateModified` (F59) — gli unici due che
-// cambierebbero comunque ogni giorno anche a contenuto identico, il secondo
-// proprio perché DEVE valere quanto il lastmod che stiamo ancora calcolando.
-// Se il resto coincide, la pagina riusa il lastmod già presente nella sitemap
-// precedente; altrimenti prende la data di oggi.
+// versione online, copiata lì dal rituale di pubblicazione). Le date generate,
+// il CSS incorporato, l'attributo tecnico del pulsante del tema e il totale
+// globale nel piede non sono aggiornamenti editoriali della singola pagina:
+// ignorarli evita di cambiare lastmod/dateModified in tutto il catalogo.
+// Anche l'anteprima di un'altra canzone nei suggerimenti non cambia l'articolo.
+// Testo proprio, link e dati strutturati restano nel confronto.
 const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
 const RIGA_DATA_MODIFICA = /,?"dateModified":"[^"]*"/g;
-const normalizza = (html) => html.replace(RIGA_REVISIONE, '').replace(RIGA_DATA_MODIFICA, '');
+const BLOCCO_STILE = /<style>[\s\S]*?<\/style>/g;
+const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-)?tema(?=\s)/g;
+const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
+const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
+const normalizza = (html) => html
+  .replace(RIGA_REVISIONE, '')
+  .replace(RIGA_DATA_MODIFICA, '')
+  .replace(BLOCCO_STILE, '')
+  .replace(ATTR_PULSANTE_TEMA, '$1')
+  .replace(TOTALI_PIEDE, '$1{totali}')
+  .replace(GANCI_CORRELATI, '$1{anteprima}$2')
+  .replace(/^[ \t]+$/gm, '');
 // Cattura (non rimuove) il dateModified già scritto in una pagina — serve da
 // F65/C3 in poi: una pagina "esiste" ma non "indicizzabile" (F50, nCanzoni
 // 1-2, senza copertina) non entra mai in nessuna sitemap, quindi il lastmod
@@ -405,14 +416,39 @@ for (const nome of existsSync(ROOT) ? readdirSync(ROOT) : []) {
   }
 }
 
+const canzoniCambiate = [];
+
+function primaDifferenza(vecchio, nuovo) {
+  const righeVecchie = vecchio.split('\n');
+  const righeNuove = nuovo.split('\n');
+  const limite = Math.max(righeVecchie.length, righeNuove.length);
+  for (let i = 0; i < limite; i++) {
+    if (righeVecchie[i] !== righeNuove[i]) {
+      const prima = righeVecchie[i] || '';
+      const dopo = righeNuove[i] || '';
+      let colonna = 0;
+      while (colonna < prima.length && colonna < dopo.length && prima[colonna] === dopo[colonna]) colonna++;
+      const inizio = Math.max(0, colonna - 35);
+      return `riga ${i + 1}, colonna ${colonna + 1}: ${JSON.stringify(prima.slice(inizio, colonna + 85))} → ${JSON.stringify(dopo.slice(inizio, colonna + 85))}`;
+    }
+  }
+  return 'differenza non individuata';
+}
+
 function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
   const fileVecchio = join(ROOT, percorsoFile);
   if (existsSync(fileVecchio)) {
     const contenutoVecchio = readFileSync(fileVecchio, 'utf8');
-    if (normalizza(contenutoVecchio) === normalizza(contenutoNuovo)) {
+    const vecchioNormalizzato = normalizza(contenutoVecchio);
+    const nuovoNormalizzato = normalizza(contenutoNuovo);
+    if (vecchioNormalizzato === nuovoNormalizzato) {
       const precedente = vecchiLastmod.get(percorsoUrl) || contenutoVecchio.match(DATA_MODIFICA_CATTURA)?.[1];
       if (precedente) return precedente;
+    } else if (percorsoUrl.startsWith('canzone/')) {
+      canzoniCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
     }
+  } else if (percorsoUrl.startsWith('canzone/')) {
+    canzoniCambiate.push({ percorsoUrl, differenza: 'pagina precedente assente' });
   }
   return oggi;
 }
@@ -464,6 +500,12 @@ for (const c of canzoni) {
   const { lastmod } = scriviConLastmod(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, html);
   lastmodCanzoni.set(c.slug, lastmod);
   manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
+}
+if (canzoniCambiate.length > canzoni.length / 2) {
+  console.warn(`ATTENZIONE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. Controllare i lastmod prima di pubblicare.`);
+  for (const { percorsoUrl, differenza } of canzoniCambiate.slice(0, 5)) {
+    console.warn(`  /${percorsoUrl} — ${differenza}`);
+  }
 }
 const lastmodArtisti = new Map();
 for (const a of artisti) {
