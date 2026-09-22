@@ -1,0 +1,28 @@
+seme: 2026-09-22-campione-dieci
+schede totali: 317 · escluse: 34 · candidate: 283
+ 1. stairway-to-heaven — «Stairway to Heaven», Led Zeppelin · 0023f67c8725
+ 2. bocca-di-rosa — «Bocca di rosa», Fabrizio De André · 00f87f092137
+ 3. my-immortal — «My Immortal», Evanescence · 01cb71cae0a9
+ 4. ragu — «Ragù», Fulminacci · 01fc879a85da
+ 5. overkill — «Overkill», Motörhead · 02cb9a236ddc
+ 6. cielo-stanza — «Il cielo in una stanza», Mina · 053f17607f8e
+ 7. paint-it-black — «Paint It Black», The Rolling Stones · 05922211f4d1
+ 8. creep — «Creep», Radiohead · 064291dd2ffc
+ 9. marinella — «La canzone di Marinella», Fabrizio De André · 07c8a085c10f
+10. bandiera-bianca — «Bandiera bianca», Franco Battiato · 082ac41c8f80
+
+Impronte del testo al momento del sorteggio (base: main 84e7bcfd, copia 8ea00375):
+  stairway-to-heaven: 6ec18756f2fe
+  bocca-di-rosa: d719d7b3b984
+  my-immortal: c7aae1fbf88d
+  ragu: f470d7840a30
+  overkill: e1f8ee1c2361
+  cielo-stanza: 96c70c58e3fc
+  paint-it-black: a3b0f3a391b7
+  creep: c9b8c3e8a995
+  marinella: df19fca4f1d3
+  bandiera-bianca: 2ee914ffe3b9
+
+Registrato il 2026-09-22 PRIMA di aprire qualsiasi fonte.
+Criterio di esclusione: ultimaVerifica presente (28) o voce nel registro indipendenti.json (14); unione = 34.
+Comando per riprodurre: node scripts/campione-dieci.mjs 2026-09-22-campione-dieci 10
