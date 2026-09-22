@@ -332,12 +332,36 @@ function dataLeggibile(d) {
   return `${Number(m[3])} ${mesi[Number(m[2]) - 1]} ${m[1]}`;
 }
 
-/** F34: il player Spotify in apertura, al posto del segnaposto, quando c'è un ID verificato. */
+/** Il lettore Spotify si collega alla terza parte solo dopo un clic esplicito. */
 function playerIntestazione(c) {
-  return `<div class="player-intestazione">
-        <iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${esc(c.titolo)} su Spotify"></iframe>
+  return `<div class="player-intestazione" data-player-spotify data-spotify-id="${esc(c.spotifyId)}" data-spotify-titolo="${esc(c.titolo)}">
+        <div class="player-attesa">
+          <span class="player-attesa-titolo">Ascolta su Spotify</span>
+          <button type="button" class="bottone" data-attiva-spotify hidden>Carica il lettore</button>
+          <p>Il lettore si collega a Spotify solo quando lo attivi.</p>
+        </div>
+        <a class="player-esterno" href="https://open.spotify.com/track/${esc(c.spotifyId)}" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
       </div>`;
 }
+
+const STILE_PLAYER = `
+.player-attesa {
+  min-height: 152px; padding: 16px; box-sizing: border-box;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 10px;
+  background: color-mix(in srgb, var(--identita) 12%, var(--surface));
+}
+.player-attesa-titolo { font-family: var(--font-display); font-size: 21px; line-height: 1.1; }
+.player-attesa .bottone { min-height: 44px; cursor: pointer; }
+.player-attesa [hidden] { display: none; }
+.player-attesa p { margin: 0; font-size: 11px; line-height: 1.45; color: var(--text-muted); }
+.player-esterno {
+  display: flex; align-items: center; justify-content: center; min-height: 44px;
+  box-sizing: border-box; padding: 8px 12px; border-top: 1px solid var(--border);
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em;
+  text-align: center; color: var(--text);
+}
+.player-esterno:hover { color: var(--sistema); }
+`;
 
 // F58: parole che non possono mai essere l'ultima di una descrizione tagliata
 // — congiunzioni, preposizioni, pronomi relativi — perché lasciano la frase
@@ -860,6 +884,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
+    stileExtra: c.spotifyId ? STILE_PLAYER : undefined,
     corpo,
     datiStrutturati: conBreadcrumb(
       {
@@ -1788,7 +1813,7 @@ export function paginaPrivacy(ctx) {
     <section class="blocco" style="border-top:0;padding-top:0">
       <h2>Quello che non facciamo</h2>
       <div class="prosa">
-        <p>Non c'è nessuno strumento di statistica: né Google Analytics né alternative. Non sappiamo quante persone visitano il sito, da dove arrivano o cosa leggono. Non ci sono cookie di profilazione, non ci sono pixel di tracciamento, non c'è pubblicità e non vendiamo niente a nessuno.</p>
+        <p>Non c'è nessuno strumento di statistica: né Google Analytics né alternative. Non sappiamo quante persone visitano il sito, da dove arrivano o cosa leggono. Non impostiamo cookie nostri di profilazione, non usiamo pixel di tracciamento, non c'è pubblicità e non vendiamo niente a nessuno.</p>
         <p>Non ci sono moduli da compilare, quindi non raccogliamo nomi, indirizzi o password: non esiste un account da creare.</p>
       </div>
     </section>
@@ -1796,8 +1821,8 @@ export function paginaPrivacy(ctx) {
     <section class="blocco">
       <h2>Il player Spotify, che è l'eccezione</h2>
       <div class="prosa">
-        <p>Quasi tutte le schede canzone incorporano il lettore di Spotify, perché poter ascoltare il brano mentre si legge è metà del senso di questo sito. Quel lettore però è un contenuto di Spotify, non nostro: quando la pagina si apre, il tuo browser si collega ai server di Spotify, che possono impostare cookie propri e conoscere il tuo indirizzo IP e la pagina che stai leggendo.</p>
-        <p>Su quei dati non abbiamo nessun controllo e non li vediamo: il trattamento è di Spotify e segue la sua informativa. Se preferisci evitarlo, un blocco dei cookie di terze parti nel browser impedisce al lettore di caricarsi, e il resto della pagina continua a funzionare.</p>
+        <p>Quasi tutte le schede canzone offrono il lettore di Spotify, perché poter ascoltare il brano mentre si legge è metà del senso di questo sito. Il lettore non si carica quando apri la pagina: si collega a Spotify solo se premi «Carica il lettore». Puoi leggere la scheda senza attivarlo.</p>
+        <p>Quando lo attivi, il browser contatta Spotify, che può ricevere il tuo indirizzo IP e impostare cookie propri. Su quei dati non abbiamo controllo e non li vediamo: il trattamento segue l'informativa di Spotify. Il collegamento «Apri il brano su Spotify» porta invece fuori da questo sito.</p>
       </div>
       <div class="azioni">
         <a class="bottone" href="https://www.spotify.com/it/legal/privacy-policy/" target="_blank" rel="noopener">Informativa di Spotify</a>
@@ -1839,7 +1864,7 @@ export function paginaPrivacy(ctx) {
     profondita: 1,
     percorso: 'privacy/',
     titolo: 'Privacy',
-    descrizione: 'Nessuna statistica, nessun cookie di profilazione, nessuna pubblicità. L\'unica eccezione è il lettore Spotify incorporato nelle schede: qui è spiegata.',
+    descrizione: 'Nessuna statistica o pubblicità. Il lettore Spotify si collega al servizio solo se scegli di attivarlo: qui spieghiamo come funziona.',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     corpo,
