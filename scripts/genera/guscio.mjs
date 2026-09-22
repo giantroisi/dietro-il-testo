@@ -217,7 +217,7 @@ ${
 }
 ${o.datiStrutturati ? `<script type="application/ld+json">${JSON.stringify(o.datiStrutturati)}</script>` : ''}
 <style>${STILE}</style>
-${identita}
+${o.stileExtra ? `<style>${o.stileExtra}</style>\n` : ''}${identita}
 </head>
 <body>
 <a class="salta" href="#contenuto">Vai al contenuto</a>

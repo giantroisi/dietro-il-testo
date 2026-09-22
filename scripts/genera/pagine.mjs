@@ -160,6 +160,40 @@ function riquadroVisivo(nome, nota = 'Spazio immagine') {
       </div>`;
 }
 
+/** Grafica tipografica originale per gli album, senza simulare una copertina. */
+function riquadroAlbum(album, artista) {
+  return `<div class="visivo visivo-album" aria-hidden="true">
+        <span class="visivo-album-testa">Dietro il testo <span>／</span> Album</span>
+        <span class="sigla">${esc(sigla(album.titolo))}</span>
+        <span class="visivo-album-piede"><span>${esc(artista || '')}</span><span>${esc(album.anno || '')}</span></span>
+      </div>`;
+}
+
+const STILE_ALBUM = `
+.visivo-album {
+  display: flex; flex-direction: column; justify-content: space-between;
+  padding: 20px; box-sizing: border-box;
+  background:
+    repeating-linear-gradient(135deg, transparent 0 17px, color-mix(in srgb, var(--identita) 12%, transparent) 18px 19px),
+    linear-gradient(150deg, color-mix(in srgb, var(--identita) 42%, var(--surface)), var(--surface));
+}
+.visivo-album::before {
+  content: ''; position: absolute; inset: 10px; border: 1px solid color-mix(in srgb, var(--text) 28%, transparent);
+  border-radius: 8px; pointer-events: none;
+}
+.visivo-album .sigla { align-self: center; font-size: clamp(56px, 9vw, 82px); line-height: 1; }
+.visivo-album-testa,
+.visivo-album-piede {
+  position: relative; z-index: 1; width: 100%; display: flex; justify-content: space-between; gap: 12px;
+  font-family: var(--font-mono); font-size: 10px; line-height: 1.35;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--text);
+}
+.visivo-album-testa { justify-content: flex-start; }
+.visivo-album-testa span { opacity: .55; }
+.visivo-album-piede span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.visivo-album-piede span:last-child { flex: 0 0 auto; }
+`;
+
 // F18: le pagine artista stanno a `artista/<slug>/`, cioe' due livelli sotto
 // la radice; i ritratti stanno in `/ritratti/`.
 const RADICE_RITRATTI = '../../ritratti/';
@@ -1098,7 +1132,7 @@ export function paginaAlbum(al, ctx) {
           ${rigaRevisione(al.ultimaVerifica)}
         </div>
       </div>
-      ${riquadroVisivo(al.titolo)}
+      ${riquadroAlbum(al, a?.nome)}
     </header>
 
     <section class="blocco" id="copertina" style="border-top:0;padding-top:0">
@@ -1180,6 +1214,7 @@ export function paginaAlbum(al, ctx) {
     // la pagina esiste (chi ha il link diretto la trova) ma resta fuori
     // dall'indice dei motori.
     noindexFollow: !al.indicizzabile,
+    stileExtra: STILE_ALBUM,
     corpo,
     datiStrutturati: conBreadcrumb(
       {

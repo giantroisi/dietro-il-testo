@@ -139,7 +139,8 @@
       correnti = lista;
       attivo = -1;
       if (!lista.length) {
-        box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con il nome della band o il titolo esatto.</p>';
+        box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con una parte del titolo o il nome dell’artista.</p>' +
+          '<a class="esito" href="' + RADICE + 'archivio/"><b>Esplora l’archivio</b><span>tutte le canzoni, filtrabili</span></a>';
         box.hidden = false;
         return;
       }
