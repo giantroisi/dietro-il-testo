@@ -1,0 +1,25 @@
+# 10 · bandiera-bianca — «Bandiera bianca», Franco Battiato
+
+Fonti aperte il 22/09/2026:
+- RS = https://www.rollingstone.it/musica/quando-battiato-cantava-bandiera-bianca-a-discoring/563023/ — Fabio Zuffanti, 27 maggio 2021, estratto dal suo libro «Segnali di vita» (Baldini + Castoldi) (B)
+- D = https://www.discogs.com/release/2192582-Franco-Battiato-La-Voce-Del-Padrone — database collaborativo (C). **È la stampa olandese** (EMI 1A 064-18558, «Country: Netherlands»), non l'LP originale italiano
+- K = https://kworb.net/spotify/artist/4lianjyuR1tqf6oUX8kjrZ_songs.html («Last updated: 2026/09/15»)
+- SP = https://open.spotify.com/track/7fQ5piWnEFBc3whfqMjapM («Bandiera Bianca – Remastered 2021», La Voce Del Padrone (Remastered 2021), 1981, 5:22)
+- Testo su Letras letto; non trascritto. RS cita alcuni versi e la poesia di Fusinato: non li riporto.
+
+| # | Affermazione (testo esatto) | Esito | Fonte · punto | Correzione |
+|---|---|---|---|---|
+| 1 | anno «1981», album «La voce del padrone», genere «Pop rock / New wave» | CONFERMATA | RS; D: 1981, traccia A2, «Style: New Wave» | — |
+| 2 | «Uscì come singolo il 17 settembre 1981, quattro giorni prima dell'album "La voce del padrone" di cui anticipava la pubblicazione» | CONFERMATA | RS: «pubblicato come singolo il 17 settembre 1981, quattro giorni prima dell'uscita dell'album» | — |
+| 3 | «ed è accreditata interamente a Franco Battiato per testo e musica secondo i crediti di copertina dell'LP» | CONFERMATA CON RISERVA | D: «Arranged By, Vocals, Lyrics By, Music By – Franco Battiato» (crediti dell'album, non del singolo brano). La pagina è la stampa **olandese**, mentre il nome della fonte dice «LP originale (EMI, 1981)» | nome fonte → «Discogs — crediti dell'LP (stampa olandese EMI, 1981)», oppure la stampa italiana |
+| 4 | «Fu presentata dal vivo alla Mostra Internazionale di Musica Leggera di Venezia, con un coro di gondolieri nel ruolo di madrigalisti.» | CONFERMATA | RS: «presentato alla Mostra Internazionale di Musica Leggera di Venezia, con un coro di finti Madrigalisti interpretati da una serie di gondolieri». («Dal vivo» non c'è, ma è implicito) | — |
+| 5 | «È il terzo videoclip diretto da Battiato in prima persona, dopo quelli di "L'era del cinghiale bianco" e "Up Patriots to Arms".» | CONFERMATA | RS: «il terzo di una serie da lui diretti inaugurata da L'era del cinghiale bianco e proseguita con Up patriots to arms» | — |
+| 6 | «Il video alterna inquadrature di Battiato che canta a spezzoni di pubblicità televisive, partite di calcio, scene di guerra, telegiornali e vecchi film, intervallati da scene di un pranzo in campagna in cui compaiono Giusto Pio e i familiari del cantautore.» | CONFERMATA | RS: stessi elementi; il pranzo «in un cascinale di campagna, con ospiti Giusto Pio, la mamma e il fratello di Franco» | — |
+| 7 | «Nelle settimane successive Battiato portò il brano in diversi programmi Rai» | CONFERMATA CON RISERVA | RS: «in varie trasmissioni televisive», senza dire che fossero tutte Rai; Discoring era «sul primo canale Rai» | «in varie trasmissioni televisive» |
+| 8 | «fra cui una comparsa a "Discoring" in cui si presentò dietro un podio elettorale invaso di microfoni, cantando in playback fino a tirare fuori un megafono nel ritornello, mentre un coro di musicisti della Scala diretto da Giusto Pio interveniva alle sue spalle» | CONFERMATA | RS, stesso punto | — |
+| 9 | Frase iconica: «Il brano usa il gesto della resa come specchio ironico della società dell'epoca, fra terrorismo, corruzione e conformismo culturale, intrecciando citazioni letterarie e musicali — da Fusinato a Bob Dylan — in un collage satirico…» | CONFERMATA CON RISERVA | RS: «uno dei più riusciti collage verbali»; cita Dylan (le prime due strofe) e Fusinato («L'ultima ora di Venezia», 1849); parla degli anni del terrorismo, degli «abusi del potere», del culto del look e delle «immondizie musicali». «Corruzione» e «conformismo culturale» sono sintesi accettabili | — |
+| 10 | «…più vicino alla lotta che alla rassegnazione.» | CONTRADDETTA | RS dice il contrario: rispetto a «Up patriots to arms», «adesso è come se Battiato avesse capito che non c'è forza che possa contrastare l'oceano di brutture … Non resta quindi che issare bandiera bianca e dichiarare la propria resa»; Battiato usa Fusinato «per ribadire che non c'è speranza per un mondo migliore, meglio arrendersi» | «…in un collage satirico che, per Rolling Stone, si chiude in una resa dichiarata» |
+| 11 | Descrizione (meta): «Uscì come singolo il 17 settembre 1981, quattro giorni prima dell'album…» | CONFERMATA | = voce 2 | — |
+| 12 | ascolti 17.553.913, «18 mln ascolti», fonte pagina Spotify del brano | CONFERMATA (arrotondato; numero esatto superato) | K: riga «Bandiera Bianca – Remastered 2021», link 7fQ5piWnEFBc3whfqMjapM = **stesso ID**, 17.587.900 (15/09); SP: 17.629.191 (22/09) | numero → 17.629.191 (22/09/2026); il testo «18 mln» resta valido |
+| 13 | spotifyId «7fQ5piWnEFBc3whfqMjapM» | CONFERMATO | SP: La Voce Del Padrone (Remastered 2021) | — |
+| 14 | testoUrl Letras | CONFERMATO | pagina «Bandiera Bianca» | — |
