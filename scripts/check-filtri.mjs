@@ -1,68 +1,67 @@
-import fs from 'node:fs';
+#!/usr/bin/env node
+// Controlla che i filtri dell'archivio riflettano i dati correnti.
+// Uso: node scripts/genera-sito.mjs && node scripts/check-filtri.mjs
 
-const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
-const cards = [...html.matchAll(/<article class="card"([^>]*)>([\s\S]*?)<\/article>/g)].map((match) => {
-  const [, attributes, body] = match;
-  const id = (body.match(/class="card-title" href="#([^"]+)"/) || [])[1];
-  return {
-    id,
-    artist: (body.match(/data-artist="([^"]+)"/) || [])[1]?.replaceAll('&amp;', '&'),
-    title: (body.match(/class="card-title"[^>]*>([^<]+)</) || [])[1]?.replaceAll('&amp;', '&'),
-    genres: ((attributes.match(/data-generi="([^"]+)"/) || [])[1] || '').split(/\s+/).filter(Boolean),
-    country: (attributes.match(/data-paese="([^"]+)"/) || [])[1] || ''
-  };
-});
+import { existsSync, readFileSync } from 'node:fs';
 
-const expected = { rock: 74, metal: 52, pop: 58, punk: 17, rap: 4, elettronica: 9 };
-let failed = false;
+const root = new URL('../', import.meta.url);
+const canzoni = JSON.parse(readFileSync(new URL('dati/canzoni.json', root), 'utf8'));
+const artisti = JSON.parse(readFileSync(new URL('dati/artisti.json', root), 'utf8'));
+const perArtista = new Map(artisti.map((a) => [a.slug, a]));
+const pagina = new URL('sito/archivio/index.html', root);
 
-console.log(`Schede controllate: ${cards.length}`);
-for (const [genre, count] of Object.entries(expected)) {
-  const actual = cards.filter((card) => card.genres.includes(genre)).length;
-  console.log(`${genre}: ${actual}`);
-  if (actual !== count) failed = true;
+if (!existsSync(pagina)) {
+  console.error('Manca sito/archivio/index.html: esegui prima node scripts/genera-sito.mjs');
+  process.exit(1);
 }
 
-const italian = cards.filter((card) => card.country === 'it');
-console.log(`provenienza italiana: ${italian.length}`);
-if (italian.length !== 33) failed = true;
+const html = readFileSync(pagina, 'utf8');
+const problemi = [];
+const attributo = (tag, nome) => tag.match(new RegExp(`\\b${nome}="([^"]*)"`))?.[1] ?? null;
+const schede = new Map();
 
-const rapTitles = cards.filter((card) => card.genres.includes('rap')).map((card) => card.title).sort();
-const requiredRap = ['Bulls on Parade', 'Killing in the Name', 'Lose Yourself', 'Vieni a ballare in Puglia'].sort();
-if (JSON.stringify(rapTitles) !== JSON.stringify(requiredRap)) {
-  console.error(`Filtro rap inatteso: ${rapTitles.join(', ')}`);
-  failed = true;
+for (const match of html.matchAll(/<a class="scheda"[^>]*>/g)) {
+  const tag = match[0];
+  const slug = attributo(tag, 'href')?.match(/canzone\/([^/]+)\/$/)?.[1];
+  if (!slug) { problemi.push('Scheda senza URL di canzone'); continue; }
+  if (schede.has(slug)) problemi.push(`Scheda duplicata: ${slug}`);
+  schede.set(slug, {
+    generi: (attributo(tag, 'data-generi') || '').split(/\s+/).filter(Boolean),
+    paese: attributo(tag, 'data-paese'),
+    temi: (attributo(tag, 'data-temi') || '').split(/\s+/).filter(Boolean),
+  });
 }
 
-const checks = [
-  ['Bring Me the Horizon', 'metal', true],
-  ['Michael Jackson', 'metal', false],
-  ['Blink-182', 'punk', true],
-  ['Metallica', 'punk', false],
-  ['Vasco Rossi', 'it', true],
-  ['Toto', 'it', false]
-];
+if (!html.includes('data-paese="it"') || !html.includes('>Artisti italiani</button>')) {
+  problemi.push('Manca il pulsante del filtro Artisti italiani');
+}
+if (schede.size !== canzoni.length) problemi.push(`Schede nell'archivio: ${schede.size}, nei dati: ${canzoni.length}`);
 
-for (const [artist, token, expectedValue] of checks) {
-  const artistCards = cards.filter((card) => card.artist === artist);
-  const actual = artistCards.some((card) => token === 'it' ? card.country === 'it' : card.genres.includes(token));
-  if (actual !== expectedValue) {
-    console.error(`Controllo fallito: ${artist} / ${token}`);
-    failed = true;
+const slugs = new Set();
+for (const c of canzoni) {
+  if (slugs.has(c.slug)) problemi.push(`Slug duplicato nei dati: ${c.slug}`);
+  slugs.add(c.slug);
+  const artista = perArtista.get(c.artistaSlug);
+  if (!artista) { problemi.push(`Artista mancante: ${c.slug}`); continue; }
+  const paeseAtteso = artista.paese === 'it' ? 'it' : '';
+  if ((c.paese || '') !== paeseAtteso) problemi.push(`${c.slug}: paese ${JSON.stringify(c.paese)}, atteso ${JSON.stringify(paeseAtteso)}`);
+
+  const scheda = schede.get(c.slug);
+  if (!scheda) { problemi.push(`Scheda assente dall'archivio: ${c.slug}`); continue; }
+  if (scheda.paese !== paeseAtteso) problemi.push(`${c.slug}: data-paese ${JSON.stringify(scheda.paese)}, atteso ${JSON.stringify(paeseAtteso)}`);
+  for (const campo of ['generi', 'temi']) {
+    if (JSON.stringify(scheda[campo]) !== JSON.stringify(c[campo] || [])) {
+      problemi.push(`${c.slug}: data-${campo} diverso dai dati`);
+    }
   }
 }
+for (const slug of schede.keys()) if (!slugs.has(slug)) problemi.push(`Scheda non presente nei dati: ${slug}`);
 
-const sections = [...html.matchAll(/<section class="song" id="([^"]+)"([^>]*)>/g)];
-if (cards.length !== 157 || sections.length !== 157) failed = true;
-for (const card of cards) {
-  const section = sections.find((item) => item[1] === card.id);
-  const sectionGenres = (section?.[2].match(/data-generi="([^"]+)"/) || [])[1] || '';
-  const sectionCountry = (section?.[2].match(/data-paese="([^"]+)"/) || [])[1] || '';
-  if (sectionGenres !== card.genres.join(' ') || sectionCountry !== card.country) {
-    console.error(`Card e scheda non allineate: ${card.id}`);
-    failed = true;
-  }
+const italiane = canzoni.filter((c) => c.paese === 'it').length;
+console.log(`Schede controllate: ${canzoni.length}; artisti italiani nel filtro: ${italiane}`);
+if (problemi.length) {
+  problemi.slice(0, 30).forEach((p) => console.error(p));
+  if (problemi.length > 30) console.error(`…e altri ${problemi.length - 30} problemi`);
+  process.exit(1);
 }
-
-if (failed) process.exit(1);
-console.log('Filtri normalizzati: tutti i controlli superati.');
+console.log('Filtri e attributi dell’archivio coerenti con i dati.');

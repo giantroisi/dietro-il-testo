@@ -4112,3 +4112,11 @@ La copia resta separata dall'originale. Il generatore ha prodotto 687 pagine; `c
 L'autore ha autorizzato il trasferimento nella cartella principale e la pubblicazione il 22 settembre 2026. Il controllo di rete dei 317 collegamenti ai testi ha trovato 313 pagine corrette, tre pagine Slayer su Readdork che rispondono 403 e un falso positivo su «Sweet Child O' Mine»: Letras codifica l'apostrofo come `&#39;` nei metadati. Le tre schede Slayer rimandano ora alle pagine testuali corrispondenti su Cifra Club, aperte e controllate; `check-testi.mjs` decodifica le entità HTML comuni prima del confronto. La seconda prova mirata dei quattro link ha dato 4 su 4 corretti. Le 313 altre pagine erano già passate nel controllo completo di rete.
 
 `check-completezza` indica 316 schede complete su 317; «The Sound of Silence» è già segnata come da integrare perché manca il player Spotify, e non è stata modificata in questo intervento. Questa lacuna preesistente non viene presentata come verificata o completa.
+
+## 28. Filtro «Artisti italiani»: recuperate 47 schede, 23 settembre 2026
+
+Il filtro confronta `data-paese` con `it`, ma 40 canzoni di artisti già classificati italiani usavano `Italia` e altre 7 avevano il campo vuoto. Di conseguenza mostrava solo 60 delle 107 canzoni pertinenti. Nella copia separata `dietro-il-testo-filtri-paese-2026-09-23` i 47 valori sono stati normalizzati a `it`, usando esclusivamente la classificazione già presente nelle rispettive schede artista. Nessun testo editoriale o collegamento è stato cambiato.
+
+Il vecchio `check-filtri.mjs` controllava la struttura precedente del sito e si aspettava 157 canzoni: dava errori anche quando l'archivio attuale era corretto. Ora confronta le 317 schede dell'archivio generato con i dati di canzoni e artisti, compresi genere, paese e tema; segnala anche schede o slug mancanti e duplicati.
+
+**Verifica:** generazione di 687 pagine senza avvisi; `check-filtri` conferma 317 schede e 107 canzoni nel filtro italiano; `check-seo` zero problemi su 688 pagine; `check-coerenza` zero sulle 317 canzoni; sitemap invariate; `git diff --check` pulito. Nel browser, il filtro porta a `?paese=it` e a «107 di 317 canzoni»: «24.000 baci» e «Bandiera bianca», prima escluse, sono visibili. A 390 × 844 px nessuno scorrimento orizzontale né errori di console. Nessuna pubblicazione.
