@@ -1341,7 +1341,7 @@ export function paginaHome(ctx) {
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
         <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
                autocomplete="off" spellcheck="false" data-campo>
-        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+        <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
       </div>
 
       <div class="suggerimenti">
@@ -1885,7 +1885,7 @@ export function paginaErrore404(ctx) {
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
         <input type="search" placeholder="Canzone, artista o band…" aria-label="Cerca nel sito"
                autocomplete="off" spellcheck="false" data-campo>
-        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+        <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
       </div>
       <div class="azioni" style="margin-top:22px">
         <a class="bottone pieno" href="${r}">Torna alla home</a>

@@ -373,7 +373,7 @@ const oggi = new Date().toISOString().slice(0, 10);
 // F40: `lastmod` riflette una vera modifica di contenuto, non la data di build.
 // Confronta l'HTML appena generato con quello già pubblicato in ROOT (l'ultima
 // versione online, copiata lì dal rituale di pubblicazione). Le date generate,
-// il CSS incorporato, l'attributo tecnico del pulsante del tema e il totale
+// il CSS incorporato, gli attributi tecnici di tema e ricerca e il totale
 // globale nel piede non sono aggiornamenti editoriali della singola pagina:
 // ignorarli evita di cambiare lastmod/dateModified in tutto il catalogo.
 // Anche l'anteprima di un'altra canzone nei suggerimenti non cambia l'articolo.
@@ -382,6 +382,7 @@ const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
 const RIGA_DATA_MODIFICA = /,?"dateModified":"[^"]*"/g;
 const BLOCCO_STILE = /<style>[\s\S]*?<\/style>/g;
 const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-)?tema(?=\s)/g;
+const ATTR_ESITI_RICERCA = /(<div class="esiti" hidden data-esiti) role="[^"]+" aria-label="[^"]+"/g;
 const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
 const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
 const normalizza = (html) => html
@@ -389,6 +390,7 @@ const normalizza = (html) => html
   .replace(RIGA_DATA_MODIFICA, '')
   .replace(BLOCCO_STILE, '')
   .replace(ATTR_PULSANTE_TEMA, '$1')
+  .replace(ATTR_ESITI_RICERCA, '$1')
   .replace(TOTALI_PIEDE, '$1{totali}')
   .replace(GANCI_CORRELATI, '$1{anteprima}$2')
   .replace(/^[ \t]+$/gm, '');

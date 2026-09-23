@@ -201,22 +201,9 @@ export function generaRicerca(ctx) {
     var campo = radice.querySelector('[data-campo]');
     var box = radice.querySelector('[data-esiti]');
     if (!campo || !box) return;
-    var correnti = [];
-    var attivo = -1;
-
-    function chiudi() { box.hidden = true; attivo = -1; }
-
-    function evidenzia() {
-      var voci = box.querySelectorAll('.esito');
-      Array.prototype.forEach.call(voci, function (el, i) {
-        el.classList.toggle('attivo', i === attivo);
-        if (i === attivo && el.scrollIntoView) el.scrollIntoView({ block: 'nearest' });
-      });
-    }
+    function chiudi() { box.hidden = true; }
 
     function disegna(lista) {
-      correnti = lista;
-      attivo = -1;
       if (!lista.length) {
         box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con il nome della band o il titolo esatto.</p>';
         box.hidden = false;
@@ -240,8 +227,6 @@ export function generaRicerca(ctx) {
        con le frecce e con Invio come tutto il resto. */
     function proponi() {
       if (!RACCOLTE.length) { chiudi(); return; }
-      correnti = [];
-      attivo = -1;
       var html = '<p class="esiti-gruppo">Sfoglia per genere</p>';
       var decenniAperti = false;
       RACCOLTE.forEach(function (x) {
@@ -252,7 +237,6 @@ export function generaRicerca(ctx) {
       html += '<a class="esito" href="' + RADICE + 'archivio/"><b>Archivio completo</b><span>tutte le canzoni, filtrabili</span></a>';
       box.innerHTML = html;
       box.hidden = false;
-      correnti = [];
     }
 
     campo.addEventListener('input', function () {
@@ -264,20 +248,40 @@ export function generaRicerca(ctx) {
 
     campo.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { chiudi(); campo.blur(); return; }
-      if (!correnti.length || box.hidden) {
+      if (box.hidden) {
         if (e.key === 'Enter' && campo.value.trim().length >= 2) {
           var primi = cerca(campo.value);
           if (primi.length) { e.preventDefault(); location.href = RADICE + primi[0].s; }
         }
         return;
       }
-      if (e.key === 'ArrowDown') { e.preventDefault(); attivo = Math.min(attivo + 1, correnti.length - 1); evidenzia(); }
-      else if (e.key === 'ArrowUp') { e.preventDefault(); attivo = Math.max(attivo - 1, -1); evidenzia(); }
-      else if (e.key === 'Enter') {
+      var voci = box.querySelectorAll('.esito');
+      if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && voci.length) {
         e.preventDefault();
-        var scelto = attivo >= 0 ? correnti[attivo] : correnti[0];
-        if (scelto) location.href = RADICE + scelto.s;
+        voci[e.key === 'ArrowDown' ? 0 : voci.length - 1].focus();
+      } else if (e.key === 'Enter' && voci.length) {
+        e.preventDefault();
+        location.href = voci[0].href;
       }
+    });
+
+    box.addEventListener('keydown', function (e) {
+      var voci = box.querySelectorAll('.esito');
+      var indice = Array.prototype.indexOf.call(voci, document.activeElement);
+      if (indice < 0) return;
+      if (e.key === 'Escape') { e.preventDefault(); campo.focus(); chiudi(); }
+      else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        voci[Math.min(indice + 1, voci.length - 1)].focus();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (indice === 0) campo.focus();
+        else voci[indice - 1].focus();
+      }
+    });
+
+    radice.addEventListener('focusout', function (e) {
+      if (!radice.contains(e.relatedTarget)) chiudi();
     });
 
     campo.addEventListener('focus', function () {

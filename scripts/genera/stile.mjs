@@ -267,7 +267,7 @@ a { color: inherit; }
   padding: 9px 16px; text-decoration: none; text-align: left;
   border: 0; background: none; font: inherit; color: inherit; cursor: pointer;
 }
-.esito:hover, .esito.attivo { background: var(--surface-alt); }
+.esito:hover, .esito:focus-visible { background: var(--surface-alt); }
 .esito b { font-weight: 600; }
 .esito span { color: var(--text-muted); font-size: 13px; }
 .esito .sotto {
