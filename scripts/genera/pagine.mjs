@@ -223,11 +223,12 @@ export function ritrattoArtista(a) {
   return {
     pubblicata: true,
     html: `<figure class="ritratto">
-        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="eager" fetchpriority="high" decoding="async">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="${esc(rt.alt || `Foto di ${a.nome}`)}" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           <a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
           ${SEGNO}
           <a href="${esc(rt.licenzaUrl)}" rel="license nofollow noopener">${esc(rt.licenza)}</a>
+          ${rt.notaCredito ? `${SEGNO} ${esc(rt.notaCredito)}` : ''}
         </figcaption>
       </figure>`,
   };
