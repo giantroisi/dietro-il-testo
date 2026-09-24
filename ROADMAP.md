@@ -4112,3 +4112,9 @@ La copia resta separata dall'originale. Il generatore ha prodotto 687 pagine; `c
 L'autore ha autorizzato il trasferimento nella cartella principale e la pubblicazione il 22 settembre 2026. Il controllo di rete dei 317 collegamenti ai testi ha trovato 313 pagine corrette, tre pagine Slayer su Readdork che rispondono 403 e un falso positivo su «Sweet Child O' Mine»: Letras codifica l'apostrofo come `&#39;` nei metadati. Le tre schede Slayer rimandano ora alle pagine testuali corrispondenti su Cifra Club, aperte e controllate; `check-testi.mjs` decodifica le entità HTML comuni prima del confronto. La seconda prova mirata dei quattro link ha dato 4 su 4 corretti. Le 313 altre pagine erano già passate nel controllo completo di rete.
 
 `check-completezza` indica 316 schede complete su 317; «The Sound of Silence» è già segnata come da integrare perché manca il player Spotify, e non è stata modificata in questo intervento. Questa lacuna preesistente non viene presentata come verificata o completa.
+
+## 29. Protezione facoltativa: gestione delle credenziali malformate
+
+Una richiesta con intestazione `Authorization: Basic a` causava un errore durante la decodifica Base64, invece di ricevere `401`. Inoltre, una password configurata con `:` veniva rifiutata perché la coppia utente/password era divisa su tutti i due punti. Il middleware ora intercetta l'errore di decodifica e separa la coppia solo al primo `:`.
+
+Nella copia separata sono passati otto casi locali: protezione disattiva, credenziali mancanti, Base64 malformato, schema diverso da Basic, password errata, password con `:`, nome utente errato e separatore mancante. La risposta di accesso negato mantiene `401` e l'intestazione `WWW-Authenticate`. La verifica sull'infrastruttura Vercel richiede che la protezione facoltativa sia attivata; nessuna pubblicazione è stata fatta.
