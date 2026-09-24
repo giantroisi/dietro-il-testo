@@ -1,0 +1,37 @@
+{
+  "slug": "galway-girl",
+  "titolo": "Galway Girl",
+  "artista": "Ed Sheeran",
+  "artistaSlug": "ed-sheeran",
+  "anno": "2017",
+  "album": "÷",
+  "albumSlug": "divide",
+  "genereTesto": "Pop con elementi folk irlandesi",
+  "generi": ["pop"],
+  "paese": null,
+  "colore": "#1F6B4A",
+  "colore2": "#8A5C1F",
+  "ascolti": null,
+  "ascoltiTesto": null,
+  "spotifyId": "0afhq8XCExXpqazXczTSve",
+  "corpo": [
+    "Durante la lavorazione di ÷, Sheeran ospitò i Beoga per un giorno in più e cercò un'idea per una canzone: partì dalla violinista Niamh Dunne. Spiegò a The Irish Times che Dunne ispirò solo l'inizio e che il resto del racconto non riguarda una persona reale. Disse anche di aver cercato un titolo diverso perché Steve Earle aveva già scritto una canzone intitolata Galway Girl, ma alla fine scelse di tenere lo stesso nome.",
+    "I cinque membri dei Beoga figurano fra i nove autori accreditati; i crediti dell'album attribuiscono la produzione a Mike Elizondo. Nella registrazione compaiono il violino di Dunne, le fisarmoniche di Seán Graham e Damian McKee e il bodhrán di Eamon Murray.",
+    "Il manager Stuart Camp ricordò che l'etichetta non avrebbe rimpianto l'esclusione del brano dall'album, senza dire che ne avesse imposto la rimozione. Galway Girl raggiunse il secondo posto nella classifica britannica dei singoli e il primo in quella irlandese."
+  ],
+  "naturaCorpo": [["D", "D", "D"], ["F", "F"], ["F", "F"]],
+  "fraseIconica": "La canzone immagina l'incontro fra una musicista irlandese e un uomo inglese, seguito da una notte di musica e ballo. Sheeran distingue esplicitamente questa scena inventata dallo spunto iniziale preso da Niamh Dunne.",
+  "sezioniExtra": [],
+  "testoUrl": "https://www.vagalume.com.br/ed-sheeran/galway-girl.html",
+  "testoFonte": "Vagalume",
+  "fonti": [
+    {"url": "https://www.irishtimes.com/culture/music/ed-sheeran-i-grew-up-on-planxty-and-the-chieftains-1.2985287", "nome": "The Irish Times — Shilpa Ganatra, intervista a Ed Sheeran", "ruolo": "storia"},
+    {"url": "https://www.qobuz.com/ca-en/album/ed-sheeran/0190295851262", "nome": "Qobuz — crediti dell'album ÷, traccia 6", "ruolo": "crediti"},
+    {"url": "https://www.latimes.com/entertainment/movies/la-et-mn-ed-sheeran-documentary-20180918-story.html", "nome": "Los Angeles Times — Amy Kaufman, intervista a Sheeran", "ruolo": "storia"},
+    {"url": "https://www.musicbusinessworldwide.com/stuart-camp-ed-sheeran-weve-never-disagreed-over-anything-major-99-of-the-time-we-think-the-same-way/", "nome": "Music Business Worldwide — intervista a Stuart Camp", "ruolo": "storia"},
+    {"url": "https://www.officialcharts.com/songs/ed-sheeran-galway-girl/", "nome": "Official Charts Company — archivio del singolo", "ruolo": "classifiche"}
+  ],
+  "temi": ["amore"],
+  "descrizioneSeo": "Sheeran racconta come nacque Galway Girl con i Beoga: Niamh Dunne ispirò solo l'inizio, mentre la storia d'amore è inventata.",
+  "ultimaVerifica": "2026-09-24"
+}
