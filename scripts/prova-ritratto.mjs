@@ -55,6 +55,21 @@ for (const pezzo of ['Tizio Fotografo', 'CC BY-SA 4.0', 'creativecommons.org', '
   console.log(`${c ? 'ok       ' : 'FALLITO  '} il credito contiene: ${pezzo}`);
 }
 
+const contestualizzato = ritrattoArtista({
+  nome: 'Prova Band',
+  slug: 'prova',
+  ritratto: {
+    ...completo,
+    alt: 'Due membri di Prova Band sul palco nel 2022',
+    notaCredito: 'Ritaglio Commons · versione ridimensionata',
+  },
+}).html;
+for (const pezzo of ['alt="Due membri di Prova Band sul palco nel 2022"', 'Ritaglio Commons · versione ridimensionata']) {
+  const c = contestualizzato.includes(pezzo);
+  if (!c) falliti++;
+  console.log(`${c ? 'ok       ' : 'FALLITO  '} ritratto contestualizzato: ${pezzo}`);
+}
+
 console.log(falliti
   ? `\n${falliti} controlli falliti: la regola non protegge quello che dice di proteggere.`
   : '\nTutti i controlli passano: senza attribuzione completa la foto non viene pubblicata,\ne quando viene pubblicata il credito e per intero in pagina.');

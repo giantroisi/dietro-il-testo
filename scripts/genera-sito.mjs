@@ -6,9 +6,9 @@
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import { basename, dirname, join } from 'node:path';
 
-import { SITO } from './genera/guscio.mjs';
+import { RITRATTI, SITO } from './genera/guscio.mjs';
 import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
@@ -568,17 +568,24 @@ if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
 // generatore e' morto senza scriverle, lasciando un sito senza sitemap che
 // sembrava completo. Un'immagine mancante e' un difetto; un sito senza
 // sitemap e' un sito invisibile.
-// Si copiano SOLO le immagini in cima a `ritratti/`, una per una. La copia
-// ricorsiva dell'intera cartella tirava dentro anche `ritratti/anteprime/`,
-// che sono i provini da guardare prima di scegliere e non vanno pubblicati; e
-// bastava un file rotto la' dentro per interrompere tutta la copia dopo il
-// primo ritratto - successo davvero, con sei foto su sette rimaste a terra
-// senza che nessuno se ne accorgesse. Una foto che fallisce ora fa saltare
-// solo se stessa, e lo dice.
+// Si copiano SOLO le immagini registrate per un artista e con i dati minimi
+// di attribuzione. Nella cartella ci sono anche file scartati o in attesa di
+// verifica: copiarli nel sito li renderebbe accessibili pur senza usarli in
+// pagina. Ogni file viene copiato separatamente, cosi' un errore non ferma
+// la generazione delle sitemap.
 if (existsSync(join(ROOT, 'ritratti'))) {
   let copiati = 0;
-  for (const nome of readdirSync(join(ROOT, 'ritratti'))) {
-    if (!/\.(jpe?g|png|webp)$/i.test(nome)) continue;
+  const selezionati = new Set();
+  for (const a of artisti) {
+    const rt = a.ritratto || RITRATTI[a.slug];
+    if (!rt?.file) continue;
+    const attribuito = rt.propria
+      ? rt.concerto && rt.data
+      : rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
+    if (!attribuito || rt.file !== basename(rt.file) || !/\.(jpe?g|png|webp)$/i.test(rt.file)) continue;
+    selezionati.add(rt.file);
+  }
+  for (const nome of selezionati) {
     try {
       mkdirSync(join(OUT, 'ritratti'), { recursive: true });
       cpSync(join(ROOT, 'ritratti', nome), join(OUT, 'ritratti', nome), { force: true });

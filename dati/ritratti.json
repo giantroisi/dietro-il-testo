@@ -112,12 +112,18 @@
     "titoloOriginale": "File:Cesare Cremonini m2o 2024 (cropped).jpg"
   },
   "pearl-jam": {
-    "file": "pearl-jam.jpg",
-    "autore": "Drew de F Fawkes from Guildford, United Kingdom",
-    "licenza": "CC BY 2.0",
-    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
-    "fonte": "https://commons.wikimedia.org/wiki/File:Eddie_Vedder_&_Johnny_Marr,_Pearl_Jam,_BST_Hyde_Park_2022_(52209161403).jpg",
-    "titoloOriginale": "File:Eddie Vedder & Johnny Marr, Pearl Jam, BST Hyde Park 2022 (52209161403).jpg"
+    "file": "pearl-jam-gruppo.jpg",
+    "autore": "Lugnuts",
+    "titolare": "Lugnuts",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pearl_Jam_2022.jpg",
+    "titoloOriginale": "File:Pearl Jam 2022.jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/pearl-jam/"],
+    "modifiche": "Ritaglio Commons di 4TheWynne; miniatura a 960 pixel, senza modifiche locali",
+    "alt": "I Pearl Jam sul palco al BST Hyde Park di Londra nel 2022, visti dalla platea",
+    "notaCredito": "Londra 2022 · ritaglio Commons di 4TheWynne · versione ridimensionata"
   },
   "slipknot": {
     "file": "slipknot.jpg",
@@ -219,6 +225,90 @@
     "pagineUso": ["artista/ed-sheeran/"],
     "modifiche": "Ridimensionata a 1280 pixel di larghezza, senza ritaglio",
     "alt": "Ed Sheeran alla conferenza stampa della Berlinale 2018",
-    "notaCredito": "Ed Sheeran-6995.jpg · versione ridimensionata"
+    "notaCredito": "Berlinale 2018 · versione ridimensionata, senza ritaglio"
+  },
+  "adele": {
+    "file": "adele.jpg",
+    "autore": "Marc E. (marcen27)",
+    "titolare": "Marc E. (marcen27)",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+    "titoloOriginale": "File:Adele 2016.jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/adele/"],
+    "modifiche": "Ritaglio Commons di ThiefOfBagdad; miniatura a 960 pixel, senza modifiche locali",
+    "alt": "Adele sorride sul palco del Glasgow SSE Hydro nel 2016",
+    "notaCredito": "Glasgow 2016 · ritaglio Commons di ThiefOfBagdad · versione ridimensionata"
+  },
+  "coldplay": {
+    "file": "coldplay.jpg",
+    "autore": "Raph_PH",
+    "titolare": "Raph_PH",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Coldplay_2017,_cropped_01.jpg",
+    "titoloOriginale": "File:Coldplay 2017, cropped 01.jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/coldplay/"],
+    "modifiche": "Ritaglio Commons di Minerva97, versione aggiornata da Y2kcrazyjoker4; miniatura a 960 pixel, senza modifiche locali",
+    "alt": "I quattro Coldplay insieme sul palco al Rose Bowl di Pasadena nel 2017",
+    "notaCredito": "Pasadena 2017 · ritaglio Commons di Minerva97, versione Y2kcrazyjoker4 · ridimensionata"
+  },
+  "oasis": {
+    "file": "oasis-gallagher-2005.jpg",
+    "autore": "Will Fresch",
+    "titolare": "Will Fresch",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Oasis_Noel_and_Liam_WF.jpg",
+    "titoloOriginale": "File:Oasis Noel and Liam WF.jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/oasis/"],
+    "modifiche": "Ritaglio Commons di CherryX; nessuna modifica locale",
+    "alt": "Liam Gallagher canta e Noel Gallagher suona la chitarra con gli Oasis a San Diego nel 2005",
+    "notaCredito": "San Diego 2005 · ritaglio Commons di CherryX · nessuna modifica locale"
+  },
+  "ac-dc": {
+    "file": "ac-dc-angus-brian.jpg",
+    "autore": "Joan Sorolla",
+    "titolare": "Joan Sorolla",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Angus_Young_i_Brian_Johnson_(AC_DC)_(5256948139).jpg",
+    "titoloOriginale": "File:Angus Young i Brian Johnson (AC DC) (5256948139).jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/ac-dc/"],
+    "modifiche": "File Commons originale, senza modifiche locali",
+    "alt": "Angus Young su Brian Johnson durante un concerto degli AC/DC",
+    "notaCredito": "Angus Young e Brian Johnson · file originale, senza modifiche"
+  },
+  "adriano-celentano": {
+    "file": "adriano-celentano-2008.jpg",
+    "autore": "Nikita Kozyrev, Mara e Margarita Ulianova",
+    "titolare": "Nikita Kozyrev",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Adriano_Celentano_2008.jpg",
+    "titoloOriginale": "File:Adriano Celentano 2008.jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/adriano-celentano/"],
+    "modifiche": "Ritaglio Commons caricato da StomboyCarGeek; nessuna modifica locale",
+    "alt": "Adriano Celentano sorride alla Mostra del cinema di Venezia nel 2008",
+    "notaCredito": "Venezia 2008 · ritaglio Commons di StomboyCarGeek · nessuna modifica locale"
+  },
+  "pinguini-tattici-nucleari": {
+    "file": "pinguini-tattici-nucleari-assago.jpg",
+    "autore": "Dario Crespi",
+    "titolare": "Dario Crespi",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pinguini_Tattici_Nucleari_in_Assago_Forum,_2022-07-04_(1).jpg",
+    "titoloOriginale": "File:Pinguini Tattici Nucleari in Assago Forum, 2022-07-04 (1).jpg",
+    "verificataIl": "2026-09-24",
+    "pagineUso": ["artista/pinguini-tattici-nucleari/"],
+    "modifiche": "Miniatura Wikimedia a 960 pixel, senza ritaglio locale",
+    "alt": "I Pinguini Tattici Nucleari sul palco del Forum di Assago nel 2022",
+    "notaCredito": "Assago 2022 · versione ridimensionata, senza ritaglio locale"
   }
 }
