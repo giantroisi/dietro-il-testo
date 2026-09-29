@@ -1,0 +1,151 @@
+- link "Vai al contenuto":
+  - /url: "#contenuto"
+- banner:
+  - button "Passa al tema chiaro" [pressed]:
+  - link "Dietro il testo — home":
+    - /url: ../../
+    - img "Dietro il testo"
+  - searchbox "Cerca nel sito"
+  - navigation "Principale":
+    - link "Archivio":
+      - /url: ../../archivio/
+    - link "Metodo":
+      - /url: ../../metodo/
+- main:
+  - navigation "Percorso":
+    - link "Home":
+      - /url: ../../
+    - text: /
+    - link "Metal":
+      - /url: ../../genere/metal/
+    - text: / Aerials
+  - paragraph:
+    - text: System of a Down
+    - text: "2001"
+    - text: Toxicity
+  - heading "Significato di Aerials dei System of a Down" [level=1]
+  - generic: Ascolta su Spotify
+  - button "Carica il lettore"
+  - paragraph: Il lettore si collega a Spotify solo quando lo attivi.
+  - link "Apri il brano su Spotify ↗":
+    - /url: https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco
+  - generic: Raccolte
+  - link "Metal":
+    - /url: ../../genere/metal/
+  - link "anni Duemila":
+    - /url: ../../anni/2000/
+  - text: Ultima revisione
+  - text: 22 settembre 2026
+  - button "Condividi"
+  - button "Instagram"
+  - figure:
+    - generic: Momento iconico
+    - paragraph: Nel videoclip, un ragazzo dall’aspetto insolito diventa oggetto di curiosità e viene trattato come una celebrità. Le immagini aprono una domanda su come gli altri guardano una persona, senza fissare un significato ufficiale del brano.
+    - generic: "Descritto con parole nostre: non riproduciamo il testo della canzone."
+  - heading "La storia" [level=2]
+  - paragraph:
+    - text: «Aerials» compare in «Toxicity», l’album dei System of a Down pubblicato nel 2001. Nei crediti della registrazione diffusa dal canale ufficiale del gruppo compaiono i quattro componenti, insieme al produttore Rick Rubin.
+    - generic: Pitchfork interpreta il testo come una ricerca di unità fra le persone e di libertà da una visione ristretta. — Interpretazione accreditata
+  - paragraph:
+    - text: Il videoclip ufficiale alterna la band alla storia di un ragazzo dall’aspetto insolito che viene fotografato e trattato come una celebrità.
+    - generic: "Quella sequenza mette in scena il contrasto fra l’identità del ragazzo e lo sguardo degli altri: è una lettura delle immagini, non una spiegazione dichiarata dalla band. — Interpretazione accreditata"
+  - paragraph:
+    - text: In questa scheda
+    - generic: le dichiarazioni dell'artista
+    - text: e
+    - generic: le interpretazioni accreditate
+    - text: sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.
+  - heading "Continua" [level=2]
+  - link "Leggi il testo su Letras":
+    - /url: https://www.letras.com/system-of-a-down/39427/
+  - link "Tutto su System of a Down":
+    - /url: ../../artista/system-of-a-down/
+  - link "L'album Toxicity":
+    - /url: ../../album/system-of-a-down/toxicity/
+  - heading "Continua da qui" [level=2]
+  - link "System of a Down 2001 Chop Suey! Il brano nacque durante il tour del primo album, quando il chitarrista Daron Malakian iniziò a scriverlo da solo,… →":
+    - /url: ../../canzone/chop-suey/
+    - text: System of a Down
+    - text: "2001"
+    - generic: Chop Suey!
+    - generic: Il brano nacque durante il tour del primo album, quando il chitarrista Daron Malakian iniziò a scriverlo da solo,… →
+  - 'link "System of a Down 2001 Toxicity Title track dell''album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per… →"':
+    - /url: ../../canzone/toxicity/
+    - text: System of a Down
+    - text: "2001"
+    - generic: Toxicity
+    - generic: "Title track dell'album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per… →"
+  - link "System of a Down 2005 B.Y.O.B. Il titolo sta per \"Bring Your Own Bombs\" (\"portati le bombe da solo\"), gioco di parole ironico sull'espressione da… →":
+    - /url: ../../canzone/byob/
+    - text: System of a Down
+    - text: "2005"
+    - generic: B.Y.O.B.
+    - generic: Il titolo sta per "Bring Your Own Bombs" ("portati le bombe da solo"), gioco di parole ironico sull'espressione da… →
+  - link "Evanescence 2003 Bring Me to Life Primo singolo dell'album d'esordio \"Fallen\", uscito nel 2003. →":
+    - /url: ../../canzone/bring-me-to-life/
+    - text: Evanescence
+    - text: "2003"
+    - generic: Bring Me to Life
+    - generic: Primo singolo dell'album d'esordio "Fallen", uscito nel 2003. →
+  - heading "Fonti" [level=2]
+  - paragraph:
+    - text: Verificata frase per frase il 22 settembre 2026.
+    - link "Che cosa vuol dire":
+      - /url: ../../metodo/#verifica
+  - generic: Sulla storia
+  - list:
+    - generic: "01"
+    - link "System of a Down — Aerials, videoclip ufficiale":
+      - /url: https://www.youtube.com/watch?v=L-iepu3EtyE
+    - generic: "02"
+    - link "Pitchfork — recensione di Toxicity":
+      - /url: https://pitchfork.com/reviews/albums/system-of-a-down-toxicity/
+  - generic: Sui crediti
+  - list:
+    - generic: "01"
+    - link "System of a Down — Aerials, audio ufficiale e crediti Columbia Records":
+      - /url: https://www.youtube.com/watch?v=e-2251_at-k
+  - link "Come verifichiamo":
+    - /url: ../../metodo/
+  - link "Segnala un errore":
+    - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20correzione%3A%20Aerials
+- contentinfo:
+  - strong: Dietro il testo
+  - text: — 317 canzoni, 104 artisti. Ogni scheda è scritta con parole originali e verificata su fonti citate.
+  - paragraph: "Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali: i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero, ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità. I colori richiamano l'immaginario visivo di band e album, non i loro loghi."
+  - navigation "Raccolte":
+    - paragraph: Raccolte
+    - link "Archivio completo":
+      - /url: ../../archivio/
+    - link "Rock":
+      - /url: ../../genere/rock/
+    - link "Pop":
+      - /url: ../../genere/pop/
+    - link "Metal":
+      - /url: ../../genere/metal/
+    - link "Punk":
+      - /url: ../../genere/punk/
+    - link "anni Settanta":
+      - /url: ../../anni/1970/
+    - link "anni Ottanta":
+      - /url: ../../anni/1980/
+    - link "anni Novanta":
+      - /url: ../../anni/1990/
+    - link "anni Duemila":
+      - /url: ../../anni/2000/
+    - link "anni Duemiladieci":
+      - /url: ../../anni/2010/
+  - navigation "Il sito":
+    - paragraph: Il sito
+    - link "Metodo e fonti":
+      - /url: ../../metodo/
+    - link "Chi c'è dietro":
+      - /url: ../../chi-siamo/
+    - link "Segnala un errore":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione
+    - link "Proponi una canzone":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone
+    - link "Privacy":
+      - /url: ../../privacy/
+    - link "Note legali":
+      - /url: ../../note-legali/

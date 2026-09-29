@@ -1,0 +1,170 @@
+- link "Vai al contenuto":
+  - /url: "#contenuto"
+- banner:
+  - button "Passa al tema chiaro" [pressed]:
+  - navigation "Principale":
+    - link "Archivio":
+      - /url: archivio/
+    - link "Metodo":
+      - /url: metodo/
+- main:
+  - link "Dietro il testo — home":
+    - /url: ./
+    - img "Dietro il testo"
+  - heading "Cosa c'è dietro le canzoni che ami." [level=1]
+  - paragraph:
+    - text: 317 canzoni raccontate, 104 artisti
+    - text: ogni scheda con le sue fonti
+  - searchbox "Cerca nel sito" [active]: zzzzzznonpresente
+  - region "Suggerimenti di ricerca":
+    - paragraph: Nessun risultato. Prova con una parte del titolo o il nome dell’artista.
+    - link "Esplora l’archivio tutte le canzoni, filtrabili":
+      - /url: ./archivio/
+      - generic: Esplora l’archivio
+      - generic: tutte le canzoni, filtrabili
+  - generic: Prova
+  - button "Bohemian Rhapsody":
+    - text: Bohemian Rhapsody
+  - button "Metallica":
+    - text: Metallica
+  - button "Nirvana":
+    - text: Nirvana
+  - button "Vasco Rossi":
+    - text: Vasco Rossi
+  - button "Portami a caso ✦"
+  - paragraph: Canzone in evidenza
+  - article:
+    - paragraph:
+      - text: Coldplay
+      - text: "2000"
+    - paragraph: Yellow
+    - paragraph: Il verso più citato è l'invito d'apertura a guardare le stelle e vedere come brillano per la persona a cui ci si rivolge.
+    - link "Leggi la scheda":
+      - /url: ./canzone/yellow/
+    - link "Coldplay":
+      - /url: ./artista/coldplay/
+    - button "Cambia":
+      - text: Cambia
+  - paragraph: Artisti da esplorare
+  - heading "Storia, dischi e canzoni." [level=2]
+  - link "Tutti i 104 artisti →":
+    - /url: archivio/#artisti
+  - link "rock Bring Me the Horizon 17 canzoni 8 album →":
+    - /url: artista/bring-me-the-horizon/
+    - generic: rock
+    - generic: Bring Me the Horizon
+    - text: 17 canzoni
+    - text: 8 album →
+  - link "rock AC/DC 16 canzoni 16 album →":
+    - /url: artista/ac-dc/
+    - generic: rock
+    - generic: AC/DC
+    - text: 16 canzoni
+    - text: 16 album →
+  - link "pop Italia Adriano Celentano 14 canzoni 39 album →":
+    - /url: artista/adriano-celentano/
+    - text: pop
+    - text: Italia
+    - generic: Adriano Celentano
+    - text: 14 canzoni
+    - text: 39 album →
+  - link "rock Italia Ligabue 14 canzoni 14 album →":
+    - /url: artista/ligabue/
+    - text: rock
+    - text: Italia
+    - generic: Ligabue
+    - text: 14 canzoni
+    - text: 14 album →
+  - link "pop a-ha 11 canzoni 11 album →":
+    - /url: artista/a-ha/
+    - generic: pop
+    - generic: a-ha
+    - text: 11 canzoni
+    - text: 11 album →
+  - link "rap Italia Caparezza 10 canzoni 8 album →":
+    - /url: artista/caparezza/
+    - text: rap
+    - text: Italia
+    - generic: Caparezza
+    - text: 10 canzoni
+    - text: 8 album →
+  - paragraph: Ultime aggiunte
+  - heading "Appena raccontate." [level=2]
+  - link "Tutte le 317 canzoni →":
+    - /url: archivio/
+  - 'link "Dude Ranch 1997 Dammit Il titolo nacque da un episodio di \"Beavis and Butt-Head\": nella puntata, Beavis esclama ripetutamente \"Dammit! →"':
+    - /url: canzone/dammit/
+    - text: Dude Ranch
+    - text: "1997"
+    - generic: Dammit
+    - generic: "Il titolo nacque da un episodio di \"Beavis and Butt-Head\": nella puntata, Beavis esclama ripetutamente \"Dammit! →"
+  - link "Be Here Now 1997 Stand By Me Scritta da Noel Gallagher, che la compose dopo essersi trasferito a Londra e aver sofferto un'intossicazione… →":
+    - /url: canzone/stand-by-me/
+    - text: Be Here Now
+    - text: "1997"
+    - generic: Stand By Me
+    - generic: Scritta da Noel Gallagher, che la compose dopo essersi trasferito a Londra e aver sofferto un'intossicazione… →
+  - link "Dimmi cosa succede sulla terra 1997 Dubbi non ho Quarta traccia di \"Dimmi cosa succede sulla terra\" (1997), il quindicesimo album in studio di Pino Daniele,… →":
+    - /url: canzone/dubbi-non-ho/
+    - text: Dimmi cosa succede sulla terra
+    - text: "1997"
+    - generic: Dubbi non ho
+    - generic: Quarta traccia di "Dimmi cosa succede sulla terra" (1997), il quindicesimo album in studio di Pino Daniele,… →
+  - link "Hot Fuss 2004 Somebody Told Me Scritta da tutti e quattro i membri della band — Brandon Flowers, Dave Keuning, Mark Stoermer e Ronnie Vannucci Jr. →":
+    - /url: canzone/somebody-told-me/
+    - text: Hot Fuss
+    - text: "2004"
+    - generic: Somebody Told Me
+    - generic: Scritta da tutti e quattro i membri della band — Brandon Flowers, Dave Keuning, Mark Stoermer e Ronnie Vannucci Jr. →
+  - link "White Blood Cells 2001 Fell in Love with a Girl Quarta traccia del terzo album in studio dei White Stripes, \"White Blood Cells\" (2001), uscì come singolo il 21… →":
+    - /url: canzone/fell-in-love-with-a-girl/
+    - text: White Blood Cells
+    - text: "2001"
+    - generic: Fell in Love with a Girl
+    - generic: Quarta traccia del terzo album in studio dei White Stripes, "White Blood Cells" (2001), uscì come singolo il 21… →
+  - link "Take Off Your Pants and Jacket 2001 First Date Scritta principalmente da Tom DeLonge, con crediti aggiuntivi a Mark Hoppus e Travis Barker, uscì il 24 settembre… →":
+    - /url: canzone/first-date/
+    - text: Take Off Your Pants and Jacket
+    - text: "2001"
+    - generic: First Date
+    - generic: Scritta principalmente da Tom DeLonge, con crediti aggiuntivi a Mark Hoppus e Travis Barker, uscì il 24 settembre… →
+- contentinfo:
+  - strong: Dietro il testo
+  - text: — 317 canzoni, 104 artisti. Ogni scheda è scritta con parole originali e verificata su fonti citate.
+  - paragraph: "Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali: i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero, ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità. I colori richiamano l'immaginario visivo di band e album, non i loro loghi."
+  - navigation "Raccolte":
+    - paragraph: Raccolte
+    - link "Archivio completo":
+      - /url: archivio/
+    - link "Rock":
+      - /url: genere/rock/
+    - link "Pop":
+      - /url: genere/pop/
+    - link "Metal":
+      - /url: genere/metal/
+    - link "Punk":
+      - /url: genere/punk/
+    - link "anni Settanta":
+      - /url: anni/1970/
+    - link "anni Ottanta":
+      - /url: anni/1980/
+    - link "anni Novanta":
+      - /url: anni/1990/
+    - link "anni Duemila":
+      - /url: anni/2000/
+    - link "anni Duemiladieci":
+      - /url: anni/2010/
+  - navigation "Il sito":
+    - paragraph: Il sito
+    - link "Metodo e fonti":
+      - /url: metodo/
+    - link "Chi c'è dietro":
+      - /url: chi-siamo/
+    - link "Segnala un errore":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione
+    - link "Proponi una canzone":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone
+    - link "Privacy":
+      - /url: privacy/
+    - link "Note legali":
+      - /url: note-legali/

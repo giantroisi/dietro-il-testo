@@ -1,0 +1,126 @@
+[
+  {
+    "url": "https://www.dietroiltesto.it/",
+    "file": "index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 52893,
+    "sha256": "0dac0cd1cfdea781cf84839860698c8eb56305fb9b261ed4b1d0ebd2191a3227",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/archivio/",
+    "file": "archivio/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 251583,
+    "sha256": "b83d63f4f0f9f8e1213c5cdb90d4ebb0f4231ad43d087f14a14bbb7e944143c2",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/canzone/aerials/",
+    "file": "canzone/aerials/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 56970,
+    "sha256": "4d8c902af747ee64463af625e5b024c351f0c08bda9432b8e5b23a49b239a52c",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/album/system-of-a-down/toxicity/",
+    "file": "album/system-of-a-down/toxicity/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 49226,
+    "sha256": "5930da4fa8df48078305a32654003c17d2c5fefaa609254903ad40669c9faa30",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/artista/iron-maiden/",
+    "file": "artista/iron-maiden/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 54294,
+    "sha256": "6bf84188eb8c4d94e42bb00c5c10a31341c2db3ce0e6abc8b174f5c935cc777f",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/artista/system-of-a-down/",
+    "file": "artista/system-of-a-down/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 51138,
+    "sha256": "482b34e26d0d3aa813d20f101392c1a9f26b71afbee7c04638db43a27c2c2f28",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/artista/alice-in-chains/",
+    "file": "artista/alice-in-chains/index.html",
+    "status": "200",
+    "exit": 0,
+    "bytes": 51164,
+    "sha256": "ca7a6caa25cb9e7fb4174363007899c069f4881689248caedbcfca54ca84b611",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/ritratti/iron-maiden-o2-2017.jpg",
+    "file": "ritratti/iron-maiden-o2-2017.jpg",
+    "status": "200",
+    "exit": 0,
+    "bytes": 138852,
+    "sha256": "d66a4327af47a9f3f4764821eafeba9a65e7116a5a47621d803eb916d97b5881",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/ritratti/system-of-a-down-concerto-2013.jpg",
+    "file": "ritratti/system-of-a-down-concerto-2013.jpg",
+    "status": "200",
+    "exit": 0,
+    "bytes": 203375,
+    "sha256": "c6faa7236eb5f3e9a9369c4e92c189eb3a74182e804e8d3720e6b4ca96fd1503",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/ritratti/alice-in-chains-rock-am-ring-2019.jpg",
+    "file": "ritratti/alice-in-chains-rock-am-ring-2019.jpg",
+    "status": "200",
+    "exit": 0,
+    "bytes": 311763,
+    "sha256": "62f4f2c6d5c26bb889cc926373142fc943134d11a0f6069481706f38ba921893",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/ricerca.js",
+    "file": "ricerca.js",
+    "status": "200",
+    "exit": 0,
+    "bytes": 449476,
+    "sha256": "63c2f2cbc3af5d75589a8a1a968b629e875ce5049463fbfd4833d997f6397c5b",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/ricerca.json",
+    "file": "ricerca.json",
+    "status": "404",
+    "exit": 56,
+    "error": "curl: (56) The requested URL returned error: 404\n"
+  },
+  {
+    "url": "https://www.dietroiltesto.it/robots.txt",
+    "file": "robots.txt",
+    "status": "200",
+    "exit": 0,
+    "bytes": 74,
+    "sha256": "edd06e4dc0ef760932884b66da5b526f7c67185817604cd42dea126fec796af0",
+    "identico": true
+  },
+  {
+    "url": "https://www.dietroiltesto.it/sitemap.xml",
+    "file": "sitemap.xml",
+    "status": "200",
+    "exit": 0,
+    "bytes": 525,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]

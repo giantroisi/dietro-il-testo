@@ -1,0 +1,106 @@
+- link "Vai al contenuto":
+  - /url: "#contenuto"
+- banner:
+  - button "Passa al tema chiaro" [pressed]:
+  - link "Dietro il testo — home":
+    - /url: ../../../
+    - img "Dietro il testo"
+  - searchbox "Cerca nel sito"
+  - navigation "Principale":
+    - link "Archivio":
+      - /url: ../../../archivio/
+    - link "Metodo":
+      - /url: ../../../metodo/
+- main:
+  - navigation "Percorso":
+    - link "Home":
+      - /url: ../../../
+    - text: /
+    - link "System of a Down":
+      - /url: ../../../artista/system-of-a-down/
+    - text: / Toxicity
+  - paragraph:
+    - text: System of a Down
+    - text: "2001"
+    - text: Album in studio
+  - heading "Toxicity" [level=1]
+  - paragraph: Certificato 6x platino RIAA, debuttò al numero 1 della Billboard 200.
+  - generic: Copertina documentata
+  - text: Dietro il testo
+  - generic: ／
+  - text: Album
+  - generic: T
+  - generic: System of a Down
+  - generic: "2001"
+  - heading "La copertina" [level=2]
+  - figure:
+    - generic: Cosa raffigura
+    - paragraph: Raffigura la celebre scritta Hollywood, in una versione minimalista e spogliata del suo solito glamour firmata da Vartan Malakian (padre del chitarrista Daron); l'idea nacque quando il bassista Shavo Odadjian, fuori dagli studi di registrazione, vide la scritta vera e propose di sostituirla idealmente col nome della band, dato che erano di Los Angeles. Per usarla legalmente la band pagò 20 mila dollari di licenza alla Camera di Commercio di Hollywood, proprietaria dei diritti sul simbolo.
+  - heading "Canzoni raccontate da questo album" [level=2]
+  - link "Toxicity 2001 Chop Suey! Il brano nacque durante il tour del primo album, quando il chitarrista Daron Malakian iniziò a scriverlo da solo,… →":
+    - /url: ../../../canzone/chop-suey/
+    - text: Toxicity
+    - text: "2001"
+    - generic: Chop Suey!
+    - generic: Il brano nacque durante il tour del primo album, quando il chitarrista Daron Malakian iniziò a scriverlo da solo,… →
+  - 'link "Toxicity 2001 Toxicity Title track dell''album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per… →"':
+    - /url: ../../../canzone/toxicity/
+    - text: Toxicity
+    - text: "2001"
+    - generic: Toxicity
+    - generic: "Title track dell'album prodotto da Rick Rubin: la band registrò oltre trenta brani prima di selezionarne quindici per… →"
+  - link "Toxicity 2001 Aerials «Aerials» compare in «Toxicity», l’album dei System of a Down pubblicato nel 2001. →":
+    - /url: ../../../canzone/aerials/
+    - text: Toxicity
+    - text: "2001"
+    - generic: Aerials
+    - generic: «Aerials» compare in «Toxicity», l’album dei System of a Down pubblicato nel 2001. →
+  - heading "Altri album di System of a Down" [level=2]
+  - link "Mezmerize 2005":
+    - /url: ../../../album/system-of-a-down/mezmerize/
+    - generic: Mezmerize
+    - generic: "2005"
+  - link "Torna a System of a Down":
+    - /url: ../../../artista/system-of-a-down/
+  - link "Segnala un errore":
+    - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20Toxicity
+- contentinfo:
+  - strong: Dietro il testo
+  - text: — 317 canzoni, 104 artisti. Ogni scheda è scritta con parole originali e verificata su fonti citate.
+  - paragraph: "Non riproduciamo testi né traduzioni delle canzoni, nemmeno parziali: i momenti iconici sono descritti a parole nostre. Per leggere un testo per intero, ogni scheda rimanda a una fonte esterna che se ne assume la responsabilità. I colori richiamano l'immaginario visivo di band e album, non i loro loghi."
+  - navigation "Raccolte":
+    - paragraph: Raccolte
+    - link "Archivio completo":
+      - /url: ../../../archivio/
+    - link "Rock":
+      - /url: ../../../genere/rock/
+    - link "Pop":
+      - /url: ../../../genere/pop/
+    - link "Metal":
+      - /url: ../../../genere/metal/
+    - link "Punk":
+      - /url: ../../../genere/punk/
+    - link "anni Settanta":
+      - /url: ../../../anni/1970/
+    - link "anni Ottanta":
+      - /url: ../../../anni/1980/
+    - link "anni Novanta":
+      - /url: ../../../anni/1990/
+    - link "anni Duemila":
+      - /url: ../../../anni/2000/
+    - link "anni Duemiladieci":
+      - /url: ../../../anni/2010/
+  - navigation "Il sito":
+    - paragraph: Il sito
+    - link "Metodo e fonti":
+      - /url: ../../../metodo/
+    - link "Chi c'è dietro":
+      - /url: ../../../chi-siamo/
+    - link "Segnala un errore":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione
+    - link "Proponi una canzone":
+      - /url: mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone
+    - link "Privacy":
+      - /url: ../../../privacy/
+    - link "Note legali":
+      - /url: ../../../note-legali/

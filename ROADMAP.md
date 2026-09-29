@@ -4138,3 +4138,14 @@ Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. 
 **Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
 
 **Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.
+
+
+## 29. Pubblicazione autorizzata e verifica online, 29 settembre 2026
+
+Il proprietario ha scritto «Confermo la pubblicazione». Inviato al ramo `main` il commit `02f952a473d53b8c35180a6eb43220850515ba0c` del lotto cumulativo già approvato e trasferito. La produzione Vercel `dpl_EqEhqpspk5yv3YB2pbyqtkMXXa5v` risulta **READY**, con domini assegnati, e il sito è attivo su https://www.dietroiltesto.it/. I riferimenti «pubblicazione non eseguita» dei §§27–28 descrivono lo stato storico prima di questa autorizzazione.
+
+**Prove.** Controlli locali passati, 1018 file del pacchetto identici alla radice; 13 risorse previste del dominio pubblico rispondono HTTP 200 e coincidono byte per byte con la versione approvata. Ricerca senza risultati e apertura di Aerials da tastiera funzionano. A 390 × 844 la navigazione della testata apre l'archivio e il filtro italiano annuncia 107 di 317, con pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le tre foto approvate caricano con testo alternativo e crediti; la grafica originale dell'album Toxicity è presente. Prove e limiti in `rapporti/pubblicazione-sito-2026-09-29/README.md`.
+
+**Limiti conservati.** Il browser interno verifica la creazione dell'iframe Spotify pubblico ma ne mostra il contenuto vuoto; la prova Chrome della stessa versione prima della pubblicazione resta al §28. Nessuna verifica della riproduzione integrale o dell'uscita acustica. Non sono stati controllati in rete tutti i link esterni. Un controllo aggiuntivo su `/ricerca.json` ha restituito il 404 atteso per un file inesistente e non utilizzato; l'indice effettivo è in `ricerca.js`.
+
+**Stato: lotto approvato pubblicato e controllato.** Catalogo e verifica editoriale invariati; il file non tracciato SEO-LASTMOD è preservato. Le altre proposte fotografiche, le nuove schede e il lavoro editoriale dell'altra AI restano separati. Nessun uso di GSC. Il rapporto e questo aggiornamento sono conservati in un commit locale successivo, senza un secondo invio alla produzione.
