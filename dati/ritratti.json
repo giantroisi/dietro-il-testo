@@ -330,5 +330,40 @@
         "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Chains_-_2019158181303_2019-06-07_Rock_am_Ring_-_0198_-_5DSR0483.jpg"
       }
     ]
+  },
+  "evanescence": {
+    "file": "evanescence-verona-2019.jpg",
+    "autore": "100Music",
+    "titolareDichiarato": "100Music, autore e titolare dichiarato su Wikimedia Commons (Own work); nessun titolare diverso indicato",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Evanescence_performing_live_at_Arena_di_Verona_Open_Air_Festival_-_Verona,_Italy_on_Monday_September_2nd,_2019.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Evanescence_performing_live_at_Arena_di_Verona_Open_Air_Festival_-_Verona,_Italy_on_Monday_September_2nd,_2019.jpg",
+    "titoloOriginale": "Evanescence performing live at Arena di Verona Open Air Festival - Verona, Italy on Monday September 2nd, 2019.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Evanescence_performing_live_at_Arena_di_Verona_Open_Air_Festival_-_Verona%2C_Italy_on_Monday_September_2nd%2C_2019.jpg",
+    "dataScatto": "2019-09-02",
+    "dataVerifica": "2026-09-29",
+    "paginaUso": "/artista/evanescence/",
+    "alt": "Gli Evanescence sul palco dell'Arena di Verona nel 2019, con la cantante al centro, i musicisti, la batteria e le luci del concerto",
+    "modifiche": "Nessuna modifica: file originale 1064 × 710 px, copiato senza ridimensionamento, ritaglio o ritocco; riduzione soltanto nella visualizzazione CSS.",
+    "creditoVisibile": "Evanescence — Arena di Verona, 2019 · Foto di 100Music · CC BY-SA 4.0 · file originale, senza modifiche",
+    "dimensioni": {
+      "larghezza": 1064,
+      "altezza": 710
+    },
+    "byte": 237703,
+    "sha256": "294f2c6d3701b0a960d1e30499bac1b039b4e0d9e891b84f41935414a2aea995",
+    "creditoParti": [
+      {
+        "testo": "Evanescence — Arena di Verona, 2019",
+        "url": "https://commons.wikimedia.org/wiki/File:Evanescence_performing_live_at_Arena_di_Verona_Open_Air_Festival_-_Verona,_Italy_on_Monday_September_2nd,_2019.jpg"
+      },
+      " · Foto di 100Music · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+      },
+      " · file originale, senza modifiche"
+    ]
   }
 }

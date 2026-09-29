@@ -4149,3 +4149,12 @@ Il proprietario ha scritto «Confermo la pubblicazione». Inviato al ramo `main`
 **Limiti conservati.** Il browser interno verifica la creazione dell'iframe Spotify pubblico ma ne mostra il contenuto vuoto; la prova Chrome della stessa versione prima della pubblicazione resta al §28. Nessuna verifica della riproduzione integrale o dell'uscita acustica. Non sono stati controllati in rete tutti i link esterni. Un controllo aggiuntivo su `/ricerca.json` ha restituito il 404 atteso per un file inesistente e non utilizzato; l'indice effettivo è in `ricerca.js`.
 
 **Stato: lotto approvato pubblicato e controllato.** Catalogo e verifica editoriale invariati; il file non tracciato SEO-LASTMOD è preservato. Le altre proposte fotografiche, le nuove schede e il lavoro editoriale dell'altra AI restano separati. Nessun uso di GSC. Il rapporto e questo aggiornamento sono conservati in un commit locale successivo, senza un secondo invio alla produzione.
+
+
+## 30. Candidatura fotografica Evanescence, 29 settembre 2026
+
+Preparata nella copia separata `/Users/gianmicheletroisi/.codex/worktrees/foto-evanescence-2026-09-29/dietro-il-testo` una fotografia degli Evanescence sul palco all'Arena di Verona nel 2019. La pagina originale Commons, riaperta nel browser, dichiara autore e titolare 100Music, provenienza Own work e licenza CC BY-SA 4.0. Conservato il file originale 1064 × 710 px senza modifiche e aggiunti credito visibile, fonte, collegamento alla licenza, testo alternativo e dossier tracciabile.
+
+**Prove:** file esaminato visivamente; foto e credito presenti nell'anteprima su http://127.0.0.1:8786/artista/evanescence/; controllo desktop e mobile 390 × 844 senza fuoriuscite o errori di console. Generazione, prove dei ritratti, controllo SEO su 688 pagine e differenze Git passano. I volti sono piccoli nel formato della pagina: la scelta visiva resta al proprietario. Rapporto, licenza e screenshot in `rapporti/licenze/foto-evanescence-verona-2019-2026-09-29/README.md`.
+
+**Stato: candidatura verificata in attesa di revisione.** Catalogo, testi, fonti e date editoriali invariati; file dell'altra AI e cartella principale non modificati. Nessuna nuova scheda, trasferimento, push, pubblicazione o uso di GSC. La produzione resta quella approvata al §29.

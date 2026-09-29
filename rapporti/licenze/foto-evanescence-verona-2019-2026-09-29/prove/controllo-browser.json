@@ -1,0 +1,52 @@
+{
+  "metrics": [
+    {
+      "credit": [
+        {
+          "links": [
+            {
+              "text": "Evanescence — Arena di Verona, 2019",
+              "url": "https://commons.wikimedia.org/wiki/File:Evanescence_performing_live_at_Arena_di_Verona_Open_Air_Festival_-_Verona,_Italy_on_Monday_September_2nd,_2019.jpg"
+            },
+            {
+              "text": "CC BY-SA 4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+            }
+          ],
+          "text": "Evanescence — Arena di Verona, 2019 · Foto di 100Music · CC BY-SA 4.0 · file originale, senza modifiche"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Gli Evanescence sul palco dell'Arena di Verona nel 2019, con la cantante al centro, i musicisti, la batteria e le luci del concerto",
+          "height": 200.8515625,
+          "loaded": true,
+          "naturalHeight": 710,
+          "naturalWidth": 1064,
+          "src": "http://127.0.0.1:8786/ritratti/evanescence-verona-2019.jpg",
+          "width": 299.9921875
+        }
+      ],
+      "scrollWidth": 1280,
+      "url": "http://127.0.0.1:8786/artista/evanescence/",
+      "viewport": 1280
+    },
+    {
+      "credit": [
+        "Evanescence — Arena di Verona, 2019 · Foto di 100Music · CC BY-SA 4.0 · file originale, senza modifiche"
+      ],
+      "images": [
+        {
+          "alt": "Gli Evanescence sul palco dell'Arena di Verona nel 2019, con la cantante al centro, i musicisti, la batteria e le luci del concerto",
+          "height": 187.5,
+          "loaded": true,
+          "width": 279.984375
+        }
+      ],
+      "scrollWidth": 390,
+      "url": "http://127.0.0.1:8786/artista/evanescence/",
+      "viewport": 390
+    }
+  ],
+  "console": []
+}

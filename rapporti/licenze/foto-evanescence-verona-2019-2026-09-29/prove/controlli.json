@@ -1,0 +1,14 @@
+{
+  "prova-ritratto.mjs": {
+    "exit": 0,
+    "output": "ok        nessun ritratto nei dati  →  riquadro grafico\nok        ritratto completo  →  foto pubblicata\nok        manca l'autore  →  riquadro grafico\nok        manca la licenza  →  riquadro grafico\nok        manca il link licenza  →  riquadro grafico\nok        manca la pagina fonte  →  riquadro grafico\nok        manca il file  →  riquadro grafico\nok        il credito contiene: Tizio Fotografo\nok        il credito contiene: CC BY-SA 4.0\nok        il credito contiene: creativecommons.org\nok        il credito contiene: commons.wikimedia.org\nok        il credito contiene: <figcaption>\n\nTutti i controlli passano: senza attribuzione completa la foto non viene pubblicata,\ne quando viene pubblicata il credito e per intero in pagina.\n"
+  },
+  "prova-ritratto-credito.mjs": {
+    "exit": 0,
+    "output": "OK: crediti approvati, file identici, alt e dimensioni; esclusione dei crediti incompleti e dei link eseguibili.\n"
+  },
+  "check-seo.mjs": {
+    "exit": 0,
+    "output": "Pagine controllate: 688\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+  }
+}
