@@ -21,7 +21,7 @@ La pagina di Franco Battiato, artista già presente con sette canzoni, mostra un
 | File | JPEG, 578 × 656 px, 252413 byte |
 | SHA-256 | `196b1011a32272c861c6d1e42ef90c5cfc5c2cbefa3831871a19896356ed4465` |
 
-Letti i dati della pagina originale e le condizioni sul sito di Creative Commons; riaperta la revisione nel browser e controllati autore, lavoro proprio e dichiarazione CC BY-SA 4.0. La licenza richiede attribuzione, collegamento alle condizioni e indicazione delle modifiche; eventuali adattamenti devono mantenere una licenza uguale o compatibile. Non ci si basa sulla sola presenza di un URL. Prove: `prove/commons-originale.html`, `prove/commons-browser.txt` e `prove/commons-licenza.png`.
+Letti i dati della pagina originale e le condizioni sul sito di Creative Commons; riaperta la revisione nel browser e controllati autore, lavoro proprio e dichiarazione CC BY-SA 4.0. La licenza richiede attribuzione, collegamento alle condizioni e indicazione delle modifiche; eventuali adattamenti devono mantenere una licenza uguale o compatibile. Non ci si basa sulla sola presenza di un URL. Prove: `prove/commons-originale.html.gz` (pagina conservata integralmente, compressa senza alterazioni), `prove/commons-browser.txt` e `prove/commons-licenza.png`.
 
 **Credito visibile:** Franco Battiato 2013 · Foto di Estevoaei · CC BY-SA 4.0 · file originale da Wikimedia Commons. Licenza e pagina del file sono collegamenti visibili sotto la foto.
 
