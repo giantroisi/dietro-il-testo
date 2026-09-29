@@ -1,0 +1,22 @@
+[
+  {
+    "controllo": "check-filtri",
+    "esito": 0
+  },
+  {
+    "controllo": "check-seo",
+    "esito": 0
+  },
+  {
+    "controllo": "check-coerenza",
+    "esito": 0
+  },
+  {
+    "controllo": "check-link",
+    "esito": 0
+  },
+  {
+    "controllo": "prova-ritratto-credito",
+    "esito": 0
+  }
+]

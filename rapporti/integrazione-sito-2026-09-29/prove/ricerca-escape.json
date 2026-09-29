@@ -1,0 +1,33 @@
+{
+  "active": {
+    "href": null,
+    "tag": "INPUT",
+    "text": "bohemian"
+  },
+  "brokenImages": [],
+  "regions": [
+    {
+      "hidden": true,
+      "links": [],
+      "text": ""
+    },
+    {
+      "hidden": true,
+      "links": [
+        {
+          "text": "Bohemian RhapsodyQueen  1975",
+          "url": "http://127.0.0.1:8780/canzone/bohemian-rhapsody/"
+        }
+      ],
+      "text": "CanzoniBohemian RhapsodyQueen  1975"
+    }
+  ],
+  "scrollWidth": 1280,
+  "url": "http://127.0.0.1:8780/",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "label": "ricerca-escape",
+  "logs": []
+}

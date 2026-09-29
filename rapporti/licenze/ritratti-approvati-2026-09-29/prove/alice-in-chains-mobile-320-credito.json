@@ -1,0 +1,48 @@
+{
+  "slug": "alice-in-chains",
+  "label": "mobile-320-credito",
+  "alt": "Un chitarrista degli Alice in Chains al Rock am Ring nel 2019, con la chitarra e un braccio alzato",
+  "bodyWidth": 320,
+  "brokenImages": [],
+  "credit": "© Sven Mandel / CC-BY-SA-4.0 · Rock am Ring, 2019 · ridimensionata da Wikimedia Commons",
+  "creditBounds": {
+    "bottom": 594.3203125,
+    "top": 547.0703125
+  },
+  "h1": "Alice in Chains: significato dei testi e canzoni spiegate",
+  "links": [
+    {
+      "rel": "nofollow noopener",
+      "text": "Sven Mandel",
+      "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Chains_-_2019158181303_2019-06-07_Rock_am_Ring_-_0198_-_5DSR0483.jpg"
+    },
+    {
+      "rel": "license nofollow noopener",
+      "text": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+    },
+    {
+      "rel": "nofollow noopener",
+      "text": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Chains_-_2019158181303_2019-06-07_Rock_am_Ring_-_0198_-_5DSR0483.jpg"
+    }
+  ],
+  "loaded": true,
+  "natural": {
+    "height": 1440,
+    "width": 960
+  },
+  "overlay": false,
+  "rendered": {
+    "bottom": 539.0703125,
+    "height": 330,
+    "top": 209.0703125,
+    "width": 220.6640625
+  },
+  "url": "http://127.0.0.1:8779/artista/alice-in-chains/",
+  "viewport": {
+    "height": 740,
+    "width": 320
+  },
+  "logs": []
+}

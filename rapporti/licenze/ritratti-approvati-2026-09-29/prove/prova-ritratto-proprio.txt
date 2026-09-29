@@ -1,0 +1,9 @@
+ok   completa         pubblicata=true
+ok   senza data       pubblicata=false — foto propria senza data
+ok   senza concerto   pubblicata=false — foto propria senza concerto
+ok   senza file       pubblicata=false
+ok   commons ok       pubblicata=true
+ok   commons monca    pubblicata=false — attribuzione incompleta
+ok   didascalia: contiene credito, concerto e data, e nessun nome di persona
+
+Tutti i controlli passati.

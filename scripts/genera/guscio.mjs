@@ -110,7 +110,7 @@ function testata(r, { conRicerca = true, conMarchio = true, marchioD = false } =
           <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
           <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
                  autocomplete="off" spellcheck="false" data-campo>
-          <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+          <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
         </div>
       </div>`
           : ''
@@ -217,7 +217,7 @@ ${
 }
 ${o.datiStrutturati ? `<script type="application/ld+json">${JSON.stringify(o.datiStrutturati)}</script>` : ''}
 <style>${STILE}</style>
-${identita}
+${o.stileExtra ? `<style>${o.stileExtra}</style>\n` : ''}${identita}
 </head>
 <body>
 <a class="salta" href="#contenuto">Vai al contenuto</a>

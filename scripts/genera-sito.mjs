@@ -6,10 +6,10 @@
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import { basename, dirname, join } from 'node:path';
 
-import { SITO } from './genera/guscio.mjs';
-import { paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
+import { RITRATTI, SITO } from './genera/guscio.mjs';
+import { ritrattoArtista, paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -373,7 +373,7 @@ const oggi = new Date().toISOString().slice(0, 10);
 // F40: `lastmod` riflette una vera modifica di contenuto, non la data di build.
 // Confronta l'HTML appena generato con quello già pubblicato in ROOT (l'ultima
 // versione online, copiata lì dal rituale di pubblicazione). Le date generate,
-// il CSS incorporato, l'attributo tecnico del pulsante del tema e il totale
+// il CSS incorporato, gli attributi tecnici di tema e ricerca e il totale
 // globale nel piede non sono aggiornamenti editoriali della singola pagina:
 // ignorarli evita di cambiare lastmod/dateModified in tutto il catalogo.
 // Anche l'anteprima di un'altra canzone nei suggerimenti non cambia l'articolo.
@@ -382,6 +382,7 @@ const RIGA_REVISIONE = /<span class="verifica">Ultima revisione.*?<\/span>/s;
 const RIGA_DATA_MODIFICA = /,?"dateModified":"[^"]*"/g;
 const BLOCCO_STILE = /<style>[\s\S]*?<\/style>/g;
 const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-)?tema(?=\s)/g;
+const ATTR_ESITI_RICERCA = /(<div class="esiti" hidden data-esiti) role="[^"]+" aria-label="[^"]+"/g;
 const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
 const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
 const normalizza = (html) => html
@@ -389,6 +390,7 @@ const normalizza = (html) => html
   .replace(RIGA_DATA_MODIFICA, '')
   .replace(BLOCCO_STILE, '')
   .replace(ATTR_PULSANTE_TEMA, '$1')
+  .replace(ATTR_ESITI_RICERCA, '$1')
   .replace(TOTALI_PIEDE, '$1{totali}')
   .replace(GANCI_CORRELATI, '$1{anteprima}$2')
   .replace(/^[ \t]+$/gm, '');
@@ -568,17 +570,22 @@ if (existsSync(join(ROOT, 'dati', 'indexnow.json'))) {
 // generatore e' morto senza scriverle, lasciando un sito senza sitemap che
 // sembrava completo. Un'immagine mancante e' un difetto; un sito senza
 // sitemap e' un sito invisibile.
-// Si copiano SOLO le immagini in cima a `ritratti/`, una per una. La copia
-// ricorsiva dell'intera cartella tirava dentro anche `ritratti/anteprime/`,
-// che sono i provini da guardare prima di scegliere e non vanno pubblicati; e
-// bastava un file rotto la' dentro per interrompere tutta la copia dopo il
-// primo ritratto - successo davvero, con sei foto su sette rimaste a terra
-// senza che nessuno se ne accorgesse. Una foto che fallisce ora fa saltare
-// solo se stessa, e lo dice.
+// Si copiano SOLO le immagini registrate per un artista e con i dati minimi
+// di attribuzione. Nella cartella ci sono anche file scartati o in attesa di
+// verifica: copiarli nel sito li renderebbe accessibili pur senza usarli in
+// pagina. Ogni file viene copiato separatamente, cosi' un errore non ferma
+// la generazione delle sitemap.
 if (existsSync(join(ROOT, 'ritratti'))) {
   let copiati = 0;
-  for (const nome of readdirSync(join(ROOT, 'ritratti'))) {
-    if (!/\.(jpe?g|png|webp)$/i.test(nome)) continue;
+  const selezionati = new Set();
+  for (const a of artisti) {
+    const rt = a.ritratto || RITRATTI[a.slug];
+    if (!rt?.file) continue;
+    const attribuito = ritrattoArtista(a).pubblicata;
+    if (!attribuito || rt.file !== basename(rt.file) || !/\.(jpe?g|png|webp)$/i.test(rt.file)) continue;
+    selezionati.add(rt.file);
+  }
+  for (const nome of selezionati) {
     try {
       mkdirSync(join(OUT, 'ritratti'), { recursive: true });
       cpSync(join(ROOT, 'ritratti', nome), join(OUT, 'ritratti', nome), { force: true });

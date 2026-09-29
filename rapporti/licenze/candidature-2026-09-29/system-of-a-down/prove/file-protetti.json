@@ -1,0 +1,13 @@
+{
+  "verifica": "2026-09-29",
+  "invariati": true,
+  "sha256": {
+    "rapporti/licenze/ritratto-finley-2026-09-27.md": "c0cc63f25d738eb1bd7283dfdec6b7cdd4d4b7f67ad76bd0dbabb4de053240a9",
+    "ritratti/finley-bologna-2022.jpg": "1acb8c1a6d80f5b29bf33a62288dae3ca4406b77e7605df3821e13b4b498d988",
+    "dati/ritratti.json": "789f3dd2435fcda7866c0656d7d961a9d50cf560b3222553c26595e3c94b4591",
+    "dati/ritratti-scelti.json": "54a891b4fb839ac8ea895e2b38a6ef61a83c46c0ef40f13359a58ca90301c75b",
+    "dati/artisti.json": "e04dcf1c2c60839bbb0fce473477dcdf768f3022746532616bd33665eae1dcaf",
+    "dati/canzoni.json": "53c2efa7165597fc0403a71da0c515869651ae2aad6995a7208ad498c9de9574",
+    "scripts/genera/pagine.mjs": "f8354b89d7a5be52ad9c052a268f1035c93e99a894ed33d6e5752840d0bd6f6a"
+  }
+}

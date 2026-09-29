@@ -1,0 +1,33 @@
+{
+  "active": {
+    "href": "http://127.0.0.1:8780/archivio/",
+    "tag": "A",
+    "text": "Esplora l’archivio\ntutte le canzoni, filtrabili"
+  },
+  "brokenImages": [],
+  "regions": [
+    {
+      "hidden": true,
+      "links": [],
+      "text": ""
+    },
+    {
+      "hidden": false,
+      "links": [
+        {
+          "text": "Esplora l’archivio\ntutte le canzoni, filtrabili",
+          "url": "http://127.0.0.1:8780/archivio/"
+        }
+      ],
+      "text": "Nessun risultato. Prova con una parte del titolo o il nome dell’artista.\n\nEsplora l’archivio\ntutte le canzoni, filtrabili"
+    }
+  ],
+  "scrollWidth": 1280,
+  "url": "http://127.0.0.1:8780/",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "label": "ricerca-vuota-tab",
+  "logs": []
+}

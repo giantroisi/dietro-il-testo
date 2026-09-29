@@ -12,8 +12,15 @@ export default function middleware(request) {
 
   const intestazione = request.headers.get('authorization');
   if (intestazione?.startsWith('Basic ')) {
-    const [u, p] = atob(intestazione.slice(6)).split(':');
-    if (u === utente && p === password) return;
+    try {
+      const credenziali = atob(intestazione.slice(6));
+      const separatore = credenziali.indexOf(':');
+      if (separatore !== -1 &&
+          credenziali.slice(0, separatore) === utente &&
+          credenziali.slice(separatore + 1) === password) return;
+    } catch {
+      // Un valore Base64 malformato deve ricevere 401, non causare un errore.
+    }
   }
 
   return new Response('Accesso riservato: il sito è ancora in costruzione.', {

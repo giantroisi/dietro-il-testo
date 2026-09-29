@@ -1,0 +1,35 @@
+{
+  "fotoConDossier": 22,
+  "fotoApprovate": [
+    "iron-maiden",
+    "system-of-a-down",
+    "alice-in-chains"
+  ],
+  "altreFoto": [
+    "ac-dc-duo",
+    "adele",
+    "adriano-celentano",
+    "al-bano-romina",
+    "coldplay",
+    "david-bowie",
+    "elton-john",
+    "eminem",
+    "finley",
+    "foo-fighters",
+    "francesco-de-gregori",
+    "gianna-nannini",
+    "nine-inch-nails",
+    "oasis",
+    "pearl-jam-gruppo",
+    "pinguini-tattici-nucleari",
+    "rem",
+    "tracy-chapman",
+    "zucchero"
+  ],
+  "nuoveSchedeInPreparazione": [
+    "galway-girl",
+    "nightswimming"
+  ],
+  "rapportiEditorialiAltraAI": 45,
+  "altraFotoPreparataSenzaDossierSeparato": "ed-sheeran"
+}

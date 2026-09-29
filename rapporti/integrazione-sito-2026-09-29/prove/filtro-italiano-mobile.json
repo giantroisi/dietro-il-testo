@@ -1,0 +1,106 @@
+{
+  "count": "107 di 317 canzoni",
+  "pressed": "true",
+  "touch": [
+    {
+      "height": 44,
+      "text": "TUTTI"
+    },
+    {
+      "height": 44,
+      "text": "ROCK"
+    },
+    {
+      "height": 44,
+      "text": "METAL"
+    },
+    {
+      "height": 44,
+      "text": "POP"
+    },
+    {
+      "height": 44,
+      "text": "PUNK"
+    },
+    {
+      "height": 44,
+      "text": "RAP / HIP HOP"
+    },
+    {
+      "height": 44,
+      "text": "ELETTRONICA"
+    },
+    {
+      "height": 44,
+      "text": "ARTISTI ITALIANI"
+    },
+    {
+      "height": 44,
+      "text": "OGNI TEMA"
+    },
+    {
+      "height": 44,
+      "text": "AMORE"
+    },
+    {
+      "height": 44,
+      "text": "SALUTE MENTALE"
+    },
+    {
+      "height": 44,
+      "text": "CRITICA SOCIALE"
+    },
+    {
+      "height": 44,
+      "text": "IDENTITÀ"
+    },
+    {
+      "height": 44,
+      "text": "RIBELLIONE"
+    },
+    {
+      "height": 44,
+      "text": "MORTE E LUTTO"
+    },
+    {
+      "height": 44,
+      "text": "DIPENDENZA"
+    },
+    {
+      "height": 44,
+      "text": "ROTTURE"
+    },
+    {
+      "height": 44,
+      "text": "ALIENAZIONE"
+    },
+    {
+      "height": 44,
+      "text": "NOSTALGIA"
+    },
+    {
+      "height": 44,
+      "text": "GUERRA"
+    },
+    {
+      "height": 44,
+      "text": "INDUSTRIA MUSICALE"
+    },
+    {
+      "height": 44,
+      "text": "OSSESSIONE E GELOSIA"
+    },
+    {
+      "height": 44,
+      "text": "LIBERTÀ ED EVASIONE"
+    }
+  ],
+  "url": "http://127.0.0.1:8780/archivio/?paese=it",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  },
+  "visibleSongs": 107,
+  "width": 390,
+  "logs": []
+}

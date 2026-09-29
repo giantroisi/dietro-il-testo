@@ -1,0 +1,15 @@
+ok        nessun ritratto nei dati  →  riquadro grafico
+ok        ritratto completo  →  foto pubblicata
+ok        manca l'autore  →  riquadro grafico
+ok        manca la licenza  →  riquadro grafico
+ok        manca il link licenza  →  riquadro grafico
+ok        manca la pagina fonte  →  riquadro grafico
+ok        manca il file  →  riquadro grafico
+ok        il credito contiene: Tizio Fotografo
+ok        il credito contiene: CC BY-SA 4.0
+ok        il credito contiene: creativecommons.org
+ok        il credito contiene: commons.wikimedia.org
+ok        il credito contiene: <figcaption>
+
+Tutti i controlli passano: senza attribuzione completa la foto non viene pubblicata,
+e quando viene pubblicata il credito e per intero in pagina.
