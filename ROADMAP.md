@@ -4138,3 +4138,16 @@ Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. 
 **Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
 
 **Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.
+
+
+## 29. Candidatura isolata della foto dei Cranberries a Singapore, 29 settembre 2026
+
+Preparata una fotografia per la pagina artista già presente con Zombie. Riaperti Commons (revisione `1109046127`), pubblicazione originale Flickr e cronologia pubblica della licenza: CC BY 2.0 attuale e originale dal 6 aprile 2012. L’autrice è Celine Jacinto (shutterbugger | engr); data dello scatto 2 aprile 2012 a Singapore. Riaperto il riepilogo ufficiale della licenza. La dicitura «all rights reserved» nella descrizione è registrata nel dossier insieme ai riscontri specifici CC e al controllo storico Commons del 2 marzo 2019. Conservati avviso ©, filigrana e titolo nel credito.
+
+File originale ispezionato, 2941 × 1653 px e 300079 byte, senza ritocco o ritaglio. Palco blu, cinque esecutori visibili e pubblico davanti; nessuna identificazione dei singoli. **Limite reale:** foto larga e scura, con volti piccoli nell’anteprima; aggiunge contesto storico del concerto del 2012.
+
+Copia `/Users/gianmicheletroisi/.codex/worktrees/foto-cranberries-2026-09-29/dietro-il-testo`, da `02f952a4`; dossier `rapporti/licenze/foto-cranberries-singapore-2012-2026-09-29/README.md`. Anteprima http://127.0.0.1:8785/artista/the-cranberries/. Helper sul solo output ignorato con `noindex,nofollow`, sei file protetti identici prima/dopo, dati editoriali e registri invariati.
+
+**Prove completate:** immagine caricata, alt e credito con tre link corretti; nessuna fuoriuscita a 1280, 390 e 320 px; zero avvisi/errori di console osservati nel browser interno. Passano sintassi dell’helper e controllo esistente dei crediti. Screenshot, riscontri di licenza e misure nel dossier.
+
+**Stato: pronta per la revisione.** Altri lotti e lavoro dell’altra AI preservati. Nessuna integrazione nella cartella principale, nuova scheda, push o pubblicazione. Nessun uso di GSC.

@@ -1,0 +1,1018 @@
+- link "Jump to content":
+  - /url: "#bodyContent"
+- banner:
+  - navigation "Site":
+    - generic "Main menu":
+      - button "Main menu"
+      - generic: Main menu
+      - option "Qafár af"
+      - option "Arbërisht"
+      - option "аԥсшәа"
+      - option "Abron"
+      - option "bahasa ambon"
+      - option "Acèh"
+      - option "Kwéyòl Sent Lisi"
+      - option "عراقي"
+      - option "адыгабзэ"
+      - option "адыгабзэ"
+      - option "تونسي / Tûnsî"
+      - option "تونسي"
+      - option "Tûnsî"
+      - option "Afrikaans"
+      - option "Aghem"
+      - option "Aanteegan an' Baabyuudan"
+      - option "Akan"
+      - option "Gegë"
+      - option "Alemannisch"
+      - option "алтай тил"
+      - option "አማርኛ"
+      - option "Pangcah"
+      - option "aragonés"
+      - option "Ænglisc"
+      - option "Obolo"
+      - option "अंगिका"
+      - option "شامي"
+      - option "العربية"
+      - option "ܐܪܡܝܐ"
+      - option "mapudungun"
+      - option "جازايرية"
+      - option "الدارجة"
+      - option "مصرى"
+      - option "অসমীয়া"
+      - option "American sign language"
+      - option "asturianu"
+      - option "Atikamekw"
+      - option "авар"
+      - option "Kotava"
+      - option "अवधी"
+      - option "Aymar aru"
+      - option "azərbaycanca"
+      - option "تۆرکجه"
+      - option "башҡортса"
+      - option "Tuki"
+      - option "Basa Bali"
+      - option "ᬩᬲᬩᬮᬶ"
+      - option "Boarisch"
+      - option "Basaa"
+      - option "žemaitėška"
+      - option "Bamum"
+      - option "Batak Toba"
+      - option "Batak Toba"
+      - option "Ghomála'"
+      - option "جهلسری بلوچی"
+      - option "wawle"
+      - option "Bikol Central"
+      - option "Bajau Sama"
+      - option "беларуская"
+      - option "беларуская (тарашкевіца)"
+      - option "беларуская (тарашкевіца)"
+      - option "Betawi"
+      - option "Bafut"
+      - option "ରେମସାମ୍"
+      - option "български"
+      - option "हरियाणवी"
+      - option "روچ کپتین بلوچی"
+      - option "भोजपुरी"
+      - option "भोजपुरी"
+      - option "Bislama"
+      - option "Banjar"
+      - option "Baka"
+      - option "Bakoko"
+      - option "Kom"
+      - option "ပအိုဝ်ႏဘာႏသာႏ"
+      - option "bamanankan"
+      - option "বাংলা"
+      - option "བོད་ཡིག"
+      - option "bòo pìkkà"
+      - option "বিষ্ণুপ্রিয়া মণিপুরী"
+      - option "بختیاری"
+      - option "Mka'a"
+      - option "brezhoneg"
+      - option "Bráhuí"
+      - option "bosanski"
+      - option "Batak Mandailing"
+      - option "Iriga Bicolano"
+      - option "Basa Ugi"
+      - option "ᨅᨔ ᨕᨘᨁᨗ"
+      - option "буряад"
+      - option "Medumba"
+      - option "català"
+      - option "Kaqchikel"
+      - option "Carolinian"
+      - option "Chavacano de Zamboanga"
+      - option "𑄌𑄋𑄴𑄟𑄳𑄦"
+      - option "閩東語 / Mìng-dĕ̤ng-ngṳ̄"
+      - option "閩東語（傳統漢字）"
+      - option "Mìng-dĕ̤ng-ngṳ̄ (Bàng-uâ-cê)"
+      - option "нохчийн"
+      - option "Cebuano"
+      - option "Chamoru"
+      - option "chinuk wawa"
+      - option "Chahta anumpa"
+      - option "ᏣᎳᎩ"
+      - option "Tsetsêhestâhese"
+      - option "کوردی"
+      - option "Hakha Chin"
+      - option "corsu"
+      - option "ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ"
+      - option "Capiceño"
+      - option "莆仙語 / Pó-sing-gṳ̂"
+      - option "莆仙语（简体）"
+      - option "莆仙語（繁體）"
+      - option "Pó-sing-gṳ̂ (Báⁿ-uā-ci̍)"
+      - option "Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ"
+      - option "qırımtatarca"
+      - option "къырымтатарджа (Кирилл)"
+      - option "qırımtatarca (Latin)"
+      - option "tatarşa"
+      - option "čeština"
+      - option "kaszëbsczi"
+      - option "словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ"
+      - option "чӑвашла"
+      - option "Cymraeg"
+      - option "dansk"
+      - option "dagbanli"
+      - option "Deutsch"
+      - option "Österreichisches Deutsch"
+      - option "Schweizer Hochdeutsch"
+      - option "Deutsch (Sie-Form)"
+      - option "Dagaare"
+      - option "Thuɔŋjäŋ"
+      - option "Zazaki"
+      - option "долган тыла"
+      - option "dolnoserbski"
+      - option "ଦେଶିଆ"
+      - option "Kadazandusun"
+      - option "डोटेली"
+      - option "Duala"
+      - option "ދިވެހިބަސް"
+      - option "ཇོང་ཁ"
+      - option "eʋegbe"
+      - option "Efịk"
+      - option "Emiliàn"
+      - option "Ελληνικά"
+      - option "emiliàn e rumagnòl"
+      - option "English" [selected]
+      - option "Canadian English"
+      - option "British English"
+      - option "American English"
+      - option "Esperanto"
+      - option "español"
+      - option "español de América Latina"
+      - option "español (formal)"
+      - option "eesti"
+      - option "Eton"
+      - option "Ejagham"
+      - option "euskara"
+      - option "Ewondo"
+      - option "estremeñu"
+      - option "فارسی"
+      - option "mfantse"
+      - option "Fulfulde"
+      - option "suomi"
+      - option "meänkieli"
+      - option "võro"
+      - option "Na Vosa Vakaviti"
+      - option "kvääni"
+      - option "Fe'fe'"
+      - option "føroyskt"
+      - option "fɔ̀ngbè"
+      - option "français"
+      - option "français cadien"
+      - option "arpetan"
+      - option "Nordfriisk"
+      - option "Oostfräisk"
+      - option "furlan"
+      - option "poor’íŋ belé’ŋ"
+      - option "Frysk"
+      - option "Gaeilge"
+      - option "Ga"
+      - option "Gagauz"
+      - option "贛語"
+      - option "赣语（简体）"
+      - option "贛語（繁體）"
+      - option "kréyòl Gwadloup"
+      - option "kriyòl gwiyannen"
+      - option "Gàidhlig"
+      - option "گوجری"
+      - option "गुज्जरी"
+      - option "galego"
+      - option "на̄ни"
+      - option "گیلکی"
+      - option "Avañe'ẽ"
+      - option "गोंयची कोंकणी / Gõychi Konknni"
+      - option "गोंयची कोंकणी"
+      - option "Gõychi Konknni"
+      - option "Bahasa Hulontalo"
+      - option "𐌲𐌿𐍄𐌹𐍃𐌺"
+      - option "Ghanaian Pidgin"
+      - option "Ἀρχαία ἑλληνικὴ"
+      - option "Alemannisch"
+      - option "ગુજરાતી"
+      - option "wayuunaiki"
+      - option "farefare"
+      - option "gungbe"
+      - option "Gaelg"
+      - option "Gbaya"
+      - option "Hausa"
+      - option "客家語 / Hak-kâ-ngî"
+      - option "客家语（简体）"
+      - option "客家語（繁體）"
+      - option "Hak-kâ-ngî (Pha̍k-fa-sṳ)"
+      - option "Hawaiʻi"
+      - option "עברית"
+      - option "हिन्दी"
+      - option "Fiji Hindi"
+      - option "Fiji Hindi"
+      - option "Ilonggo"
+      - option "kihunde"
+      - option "ہندکو"
+      - option "Hiri Motu"
+      - option "𑢹𑣉𑣉 𑣎𑣋𑣜"
+      - option "Ho"
+      - option "hrvatski"
+      - option "Hunsrik"
+      - option "hornjoserbsce"
+      - option "湘語"
+      - option "Kreyòl ayisyen"
+      - option "magyar"
+      - option "magyar (formal)"
+      - option "հայերեն"
+      - option "Արեւմտահայերէն"
+      - option "Otsiherero"
+      - option "interlingua"
+      - option "Jaku Iban"
+      - option "ibibio"
+      - option "Bahasa Indonesia"
+      - option "Interlingue"
+      - option "Igbo"
+      - option "Igala"
+      - option "ꆇꉙ"
+      - option "Iñupiatun"
+      - option "ᐃᓄᒃᑎᑐᑦ"
+      - option "inuktitut"
+      - option "Ilokano"
+      - option "гӀалгӀай"
+      - option "Ido"
+      - option "íslenska"
+      - option "Isu"
+      - option "medžuslovjansky"
+      - option "меджусловјанскы"
+      - option "medžuslovjansky"
+      - option "italiano"
+      - option "ᐃᓄᒃᑎᑐᑦ / inuktitut"
+      - option "日本語"
+      - option "Patois"
+      - option "la .lojban."
+      - option "jysk"
+      - option "Jawa"
+      - option "ꦗꦮ"
+      - option "ქართული"
+      - option "Qaraqalpaqsha"
+      - option "Taqbaylit"
+      - option "Karai-karai"
+      - option "Jju"
+      - option "адыгэбзэ"
+      - option "адыгэбзэ"
+      - option "Kabɩyɛ"
+      - option "Tyap"
+      - option "kabuverdianu"
+      - option "Kera"
+      - option "Kongo"
+      - option "Kumoring"
+      - option "गेम्येहाक़ गिपन"
+      - option "کھوار"
+      - option "Gĩkũyũ"
+      - option "Kırmancki"
+      - option "Kwanyama"
+      - option "хакас"
+      - option "ဖၠုံလိက်"
+      - option "қазақша"
+      - option "قازاقشا (تٴوتە)"
+      - option "قازاقشا (جۇنگو)"
+      - option "қазақша (кирил)"
+      - option "қазақша (Қазақстан)"
+      - option "qazaqşa (latın)"
+      - option "qazaqşa (Türkïya)"
+      - option "kalaallisut"
+      - option "ភាសាខ្មែរ"
+      - option "ಕನ್ನಡ"
+      - option "Yerwa Kanuri"
+      - option "한국어"
+      - option "조선말"
+      - option "перем коми"
+      - option "kanuri"
+      - option "къарачай-малкъар"
+      - option "Krio"
+      - option "Kinaray-a"
+      - option "karjal"
+      - option "کٲشُر"
+      - option "کٲشُر"
+      - option "कॉशुर"
+      - option "Bafia"
+      - option "Ripoarisch"
+      - option "စှီၤ"
+      - option "kurdî"
+      - option "کوردی (عەرەبی)"
+      - option "kurdî (latînî)"
+      - option "къумукъ"
+      - option "Kʋsaal"
+      - option "коми"
+      - option "kernowek"
+      - option "кыргызча"
+      - option "Latina"
+      - option "Ladino"
+      - option "Lëtzebuergesch"
+      - option "лакку"
+      - option "Nomaande"
+      - option "лезги"
+      - option "Lingua Franca Nova"
+      - option "Luganda"
+      - option "Limburgs"
+      - option "Ligure"
+      - option "Līvõ kēļ"
+      - option "Lampung Api"
+      - option "لەکی"
+      - option "Lakȟótiyapi"
+      - option "Ladin"
+      - option "lombard"
+      - option "lingála"
+      - option "Lamnso'"
+      - option "ລາວ"
+      - option "Silozi"
+      - option "لۊری شومالی"
+      - option "lietuvių"
+      - option "latgaļu"
+      - option "ciluba"
+      - option "Mizo ţawng"
+      - option "لئری دوٙمینی"
+      - option "latviešu"
+      - option "文言"
+      - option "Lazuri"
+      - option "Madhurâ"
+      - option "मगही"
+      - option "मैथिली"
+      - option "Basa Banyumasan"
+      - option "vùn màsànà"
+      - option "Maka"
+      - option "мокшень"
+      - option "Malagasy"
+      - option "Ebon"
+      - option "олык марий"
+      - option "Māori"
+      - option "Minangkabau"
+      - option "македонски"
+      - option "മലയാളം"
+      - option "монгол"
+      - option "manju gisun"
+      - option "manju gisun"
+      - option "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ"
+      - option "ꯃꯤꯇꯩ ꯂꯣꯟ"
+      - option "ဘာသာမန်"
+      - option "молдовеняскэ"
+      - option "moore"
+      - option "मराठी"
+      - option "Mara"
+      - option "кырык мары"
+      - option "Bahasa Melayu"
+      - option "بهاس ملايو"
+      - option "Malti"
+      - option "Mundang"
+      - option "Baso Palembang"
+      - option "Mvskoke"
+      - option "Mirandés"
+      - option "မြန်မာဘာသာ"
+      - option "эрзянь"
+      - option "مازِرونی"
+      - option "Dorerin Naoero"
+      - option "Nāhuatl"
+      - option "閩南語 / Bân-lâm-gí"
+      - option "閩南語"
+      - option "閩南語（傳統漢字）"
+      - option "Bân-lâm-gí (Pe̍h-ōe-jī)"
+      - option "Bân-lâm-gí (Tâi-lô)"
+      - option "Napulitano"
+      - option "norsk bokmål"
+      - option "Plattdüütsch"
+      - option "Nedersaksies"
+      - option "नेपाली"
+      - option "नेपाल भाषा"
+      - option "Oshiwambo"
+      - option "Ngémba"
+      - option "Li Niha"
+      - option "కొలామి"
+      - option "Niuē"
+      - option "Nederlands"
+      - option "Nederlands (informeel)"
+      - option "Ngombala"
+      - option "Kwasio"
+      - option "nawdm"
+      - option "norsk nynorsk"
+      - option "Ngiemboon"
+      - option "Nda'nda'"
+      - option "norsk"
+      - option "ᨣᩤᩴᨾᩮᩬᩥᨦ"
+      - option "ногайша"
+      - option "Novial"
+      - option "ߒߞߏ"
+      - option "isiNdebele seSewula"
+      - option "Nouormand"
+      - option "Sesotho sa Leboa"
+      - option "Nupe"
+      - option "Diné bizaad"
+      - option "Chi-Chewa"
+      - option "runyankore"
+      - option "Orunyoro"
+      - option "Nyunga"
+      - option "occitan"
+      - option "Ojibwemowin"
+      - option "livvinkarjala"
+      - option "Oromoo"
+      - option "ଓଡ଼ିଆ"
+      - option "ирон"
+      - option "Wažáže íe"
+      - option "لسان عثمانى"
+      - option "ਪੰਜਾਬੀ"
+      - option "Pangasinan"
+      - option "Kapampangan"
+      - option "Papiamentu"
+      - option "Papiamento"
+      - option "Picard"
+      - option "Naijá"
+      - option "Deitsch"
+      - option "Plautdietsch"
+      - option "Pälzisch"
+      - option "पालि"
+      - option "Norfuk / Pitkern"
+      - option "polski"
+      - option "Piemontèis"
+      - option "پنجابی"
+      - option "Ποντιακά"
+      - option "Nawat"
+      - option "prūsiskan"
+      - option "پښتو"
+      - option "português"
+      - option "português do Brasil"
+      - option "pinayuanan"
+      - option "Runa Simi"
+      - option "Qatzijob\\ʼal"
+      - option "Runa shimi"
+      - option "Rumagnôl"
+      - option "Tarifit"
+      - option "ရခိုင်"
+      - option "rumantsch"
+      - option "romaňi čhib"
+      - option "kaalengo tšimb"
+      - option "romani čhib"
+      - option "ikirundi"
+      - option "română"
+      - option "armãneashti"
+      - option "tarandíne"
+      - option "руски"
+      - option "русский"
+      - option "русиньскый"
+      - option "armãneashti"
+      - option "Vlăheşte"
+      - option "Влахесте"
+      - option "Vlăheşte"
+      - option "мыхаӀбишды"
+      - option "Ikinyarwanda"
+      - option "मारवाड़ी"
+      - option "沖縄口"
+      - option "संस्कृतम्"
+      - option "саха тыла"
+      - option "Sasak"
+      - option "ᱥᱟᱱᱛᱟᱲᱤ"
+      - option "sardu"
+      - option "sicilianu"
+      - option "Scots"
+      - option "سنڌي"
+      - option "Sassaresu"
+      - option "کوردی خوارگ"
+      - option "davvisámegiella"
+      - option "davvisámegiella (Suoma bealde)"
+      - option "davvisámegiella (Norgga bealde)"
+      - option "davvisámegiella (Ruoŧa bealde)"
+      - option "Cmique Itom"
+      - option "Koyraboro Senni"
+      - option "Sängö"
+      - option "žemaitėška"
+      - option "srpskohrvatski / српскохрватски"
+      - option "српскохрватски (ћирилица)"
+      - option "srpskohrvatski (latinica)"
+      - option "Taclḥit"
+      - option "Taclḥit"
+      - option "ⵜⴰⵛⵍⵃⵉⵜ"
+      - option "တႆး"
+      - option "tacawit"
+      - option "tacawit"
+      - option "සිංහල"
+      - option "Simple English"
+      - option "кӣллт са̄мь кӣлл"
+      - option "bidumsámegiella"
+      - option "ubmejesámiengiälla"
+      - option "slovenčina"
+      - option "سرائیکی"
+      - option "سرائیکی"
+      - option "slovenščina"
+      - option "Schläsch"
+      - option "Gagana Samoa"
+      - option "åarjelsaemien"
+      - option "julevsámegiella"
+      - option "anarâškielâ"
+      - option "nuõrttsääʹmǩiõll"
+      - option "chiShona"
+      - option "Soomaaliga"
+      - option "shqip"
+      - option "српски / srpski"
+      - option "српски (ћирилица)"
+      - option "srpski (latinica)"
+      - option "Sranantongo"
+      - option "sardu campidanesu"
+      - option "mbia cheë"
+      - option "SiSwati"
+      - option "Sesotho"
+      - option "Seeltersk"
+      - option "себертатар"
+      - option "Sunda"
+      - option "svenska"
+      - option "ლუშნუ"
+      - option "Kiswahili"
+      - option "ꠍꠤꠟꠐꠤ"
+      - option "ślůnski"
+      - option "Sakizaya"
+      - option "தமிழ்"
+      - option "Tayal"
+      - option "ತುಳು"
+      - option "ᥖᥭᥰ ᥖᥬᥲ ᥑᥨᥒᥰ"
+      - option "తెలుగు"
+      - option "tetun"
+      - option "тоҷикӣ"
+      - option "тоҷикӣ"
+      - option "tojikī"
+      - option "ไทย"
+      - option "काेचिला थारु"
+      - option "ትግርኛ"
+      - option "ትግሬ"
+      - option "Türkmençe"
+      - option "Tagalog"
+      - option "tolışi"
+      - option "толыши"
+      - option "Setswana"
+      - option "lea faka-Tonga"
+      - option "toki pona"
+      - option "Tok Pisin"
+      - option "Tanapag"
+      - option "Türkçe"
+      - option "Ṫuroyo"
+      - option "Seediq"
+      - option "Xitsonga"
+      - option "татарча / tatarça"
+      - option "татарча"
+      - option "tatarça"
+      - option "Orutooro"
+      - option "chiTumbuka"
+      - option "Tunen"
+      - option "Twi"
+      - option "reo tahiti"
+      - option "тыва дыл"
+      - option "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+      - option "удмурт"
+      - option "ئۇيغۇرچە / Uyghurche"
+      - option "ئۇيغۇرچە"
+      - option "Uyghurche"
+      - option "українська"
+      - option "اردو"
+      - option "oʻzbekcha / ўзбекча"
+      - option "ўзбекча"
+      - option "oʻzbekcha"
+      - option "Tshivenda"
+      - option "vèneto"
+      - option "vepsän kel’"
+      - option "Tiếng Việt"
+      - option "West-Vlams"
+      - option "Mainfränkisch"
+      - option "emakhuwa"
+      - option "Volapük"
+      - option "Vaďďa"
+      - option "võro"
+      - option "Vute"
+      - option "walon"
+      - option "wolaytta"
+      - option "Winaray"
+      - option "Pidgin (Cameroon)"
+      - option "Fakaʻuvea"
+      - option "waale"
+      - option "Wolof"
+      - option "吴语"
+      - option "吴语（简体）"
+      - option "吳語（正體）"
+      - option "Wyandot"
+      - option "хальмг"
+      - option "isiXhosa"
+      - option "მარგალური"
+      - option "saisiyat"
+      - option "Nugunu"
+      - option "Yambeta"
+      - option "Yangben"
+      - option "Yemba"
+      - option "ייִדיש"
+      - option "Yorùbá"
+      - option "Nhẽẽgatú"
+      - option "maaya t’aan"
+      - option "粵語"
+      - option "粵语（简体）"
+      - option "粵語（繁體）"
+      - option "Vahcuengh"
+      - option "Zeêuws"
+      - option "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ"
+      - option "tamaziɣt tanawayt"
+      - option "中文"
+      - option "文言"
+      - option "中文（中国大陆）"
+      - option "中文（简体）"
+      - option "中文（繁體）"
+      - option "中文（香港）"
+      - option "Bân-lâm-gú"
+      - option "中文（澳門）"
+      - option "中文（马来西亚）"
+      - option "中文（新加坡）"
+      - option "中文（臺灣）"
+      - option "粵語"
+      - option "isiZulu"
+  - link "Wikimedia Commons":
+    - /url: /wiki/Main_Page
+    - img "Wikimedia Commons"
+  - search:
+    - searchbox "Search Wikimedia Commons"
+    - button "Search"
+  - navigation "Personal tools":
+    - list:
+      - link "English":
+        - /url: "#"
+        - generic: English
+    - list:
+      - link "Donate":
+        - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=commons.wikimedia.org&uselang=en
+      - link "Create account":
+        - /url: /w/index.php?title=Special:CreateAccount&returnto=File%3AThe+Cranberries+Live+in+Singapore+2012+%286904103454%29.jpg
+      - link "Log in":
+        - /url: /w/index.php?title=Special:UserLogin&returnto=File%3AThe+Cranberries+Live+in+Singapore+2012+%286904103454%29.jpg
+- link:
+  - /url: "#"
+- text: View Wikimedia Commons in
+- link "italiano":
+  - /url: "#"
+- navigation "Contents":
+  - heading "Contents" [level=2]
+  - button "Hide Contents": hide
+  - list:
+    - link "Beginning":
+      - /url: "#"
+      - generic: Beginning
+    - link "File":
+      - /url: "#file"
+      - generic: File
+    - list
+    - link "Summary":
+      - /url: "#Summary"
+      - generic: Summary
+    - list
+    - link "Licensing":
+      - /url: "#Licensing"
+      - generic: Licensing
+    - list
+    - link "File history":
+      - /url: "#filehistory"
+      - generic: File history
+    - list
+    - link "File usage on Commons":
+      - /url: "#filelinks"
+      - generic: File usage on Commons
+    - list
+    - link "Metadata":
+      - /url: "#metadata"
+      - generic: Metadata
+    - list
+- main:
+  - heading "File:The Cranberries Live in Singapore 2012 (6904103454).jpg" [level=1]:
+    - generic: File:The Cranberries Live in Singapore 2012 (6904103454).jpg
+  - navigation "Namespaces":
+    - list:
+      - link "File":
+        - /url: /wiki/File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg
+        - generic: File
+      - link "Discussion":
+        - /url: /w/index.php?title=File_talk:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&action=edit&redlink=1
+        - generic: Discussion
+  - navigation "Views":
+    - list:
+      - link "Read":
+        - /url: /wiki/File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg
+        - generic: Read
+      - link "Edit":
+        - /url: /w/index.php?title=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&action=edit
+        - generic: Edit
+      - link "View history":
+        - /url: /w/index.php?title=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&action=history
+        - generic: View history
+  - navigation "Page tools":
+    - button "Tools"
+    - generic: Tools
+  - navigation "Appearance":
+    - generic: Appearance
+    - button "Hide Appearance": hide
+    - generic: Text
+    - list:
+      - radio "Small" [disabled]
+      - generic: Small
+      - radio "Standard" [disabled]
+      - generic: Standard
+      - radio "Large" [disabled]
+      - generic: Large
+      - paragraph: This page always uses small font size
+    - generic: Width
+    - list:
+      - radio "Standard" [checked]
+      - generic: Standard
+      - radio "Wide"
+      - generic: Wide
+    - text: Color
+    - generic: (beta)
+    - list:
+      - radio "Automatic"
+      - generic: Automatic
+      - radio "Light" [checked]
+      - generic: Light
+      - radio "Dark"
+      - generic: Dark
+  - generic "File:The Cranberries Live in Singapore 2012 (6904103454).jpg":
+    - button "Download all sizes":
+      - text: Download
+      - generic: all sizes
+    - button "Use this file on the web":
+      - text: Use this file
+      - generic: on the web
+    - button "Use this file on a wiki":
+      - text: Use this file
+      - generic: on a wiki
+    - link "Email a link to this file":
+      - /url: mailto:?subject=The%20Cranberries%20Live%20in%20Singapore%202012%20(6904103454)&body=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AThe_Cranberries_Live_in_Singapore_2012_(6904103454).jpg%0A%0Ashutterbugger%20%7C%20engr%2C%20CC%20BY%202.0%20%3Chttps%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F2.0%3E%2C%20via%20Wikimedia%20Commons
+      - text: Email a link
+      - generic: to this file
+    - link "Information about reusing":
+      - /url: /wiki/Special:MyLanguage/Commons:Reusing_content_outside_Wikimedia
+      - text: Information
+      - generic: about reusing
+    - generic "Remove these icons":
+    - link "File:The Cranberries Live in Singapore 2012 (6904103454).jpg":
+      - /url: https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+      - img "File:The Cranberries Live in Singapore 2012 (6904103454).jpg"
+    - text: "Size of this preview:"
+    - link "960 × 540 pixels":
+      - /url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg/960px-The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+    - text: .
+    - text: "Other resolutions:"
+    - link "330 × 185 pixels":
+      - /url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg/330px-The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+    - text: "|"
+    - link "1,280 × 719 pixels":
+      - /url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg/1280px-The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+    - text: "|"
+    - link "2,941 × 1,653 pixels":
+      - /url: https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled
+    - text: .
+    - link "Original file":
+      - /url: https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+    - generic: "(2,941 × 1,653 pixels, file size: 293 KB, MIME type: image/jpeg)"
+    - button "Open in Media Viewer": Open in Media Viewer
+    - tablist:
+      - tab "File information" [selected]:
+        - generic: File information
+      - tab "Structured data":
+        - generic: Structured data
+    - tabpanel "File information":
+      - heading "Captions Edit" [level=3]:
+        - text: Captions
+        - button "Edit"
+      - generic: English
+      - generic: Add a one-line explanation of what this file represents
+      - heading "Summary" [level=2]
+      - link "edit":
+        - /url: /w/index.php?title=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&action=edit&section=1
+      - table:
+        - rowgroup:
+          - row "Description The Cranberries Live in Singapore 2012 © celine jacinto 2012. all rights reserved. <a href=\"http://www.cheljacinto.tumblr.com\" rel=\"nofollow\">Tumblr Blog</a>":
+            - cell "Description"
+            - cell "The Cranberries Live in Singapore 2012 © celine jacinto 2012. all rights reserved. <a href=\"http://www.cheljacinto.tumblr.com\" rel=\"nofollow\">Tumblr Blog</a>":
+              - paragraph: The Cranberries Live in Singapore 2012
+              - paragraph: © celine jacinto 2012. all rights reserved.
+              - text: <a href="
+              - link "http://www.cheljacinto.tumblr.com":
+                - /url: https://www.cheljacinto.tumblr.com
+              - text: "\" rel=\"nofollow\">Tumblr Blog</a>"
+          - row "Date 2 April 2012, 21:17":
+            - cell "Date"
+            - cell "2 April 2012, 21:17":
+              - time: 2 April 2012, 21:17
+          - row "Source The Cranberries Live in Singapore 2012":
+            - cell "Source"
+            - cell "The Cranberries Live in Singapore 2012":
+              - link "The Cranberries Live in Singapore 2012":
+                - /url: https://www.flickr.com/photos/celinejacinto/6904103454/
+          - row "Author shutterbugger | engr":
+            - cell "Author"
+            - cell "shutterbugger | engr":
+              - link "shutterbugger | engr":
+                - /url: https://www.flickr.com/people/12544404@N06
+      - table:
+        - rowgroup:
+          - 'row "Camera location Show location on an interactive map1° 17′ 54.32″ N, 103° 51′ 12.3″ E Kartographer map based on OpenStreetMap. View this and other nearby images on: OpenStreetMap info"':
+            - rowheader "Camera location"
+            - cell "Show location on an interactive map1° 17′ 54.32″ N, 103° 51′ 12.3″ E Kartographer map based on OpenStreetMap.":
+              - img "Show location on an interactive map"
+              - link "1° 17′ 54.32″ N, 103° 51′ 12.3″ E":
+                - /url: https://geohack.toolforge.org/geohack.php?pagename=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&params=001.298421_N_0103.853416_E_globe:Earth_type:camera_source:Flickr_&language=en
+              - link "Kartographer map based on OpenStreetMap.":
+                - /url: "#/maplink/0"
+                - generic "Kartographer map based on OpenStreetMap.":
+                  - img "Kartographer map based on OpenStreetMap."
+            - 'cell "View this and other nearby images on: OpenStreetMap"':
+              - text: "View this and other nearby images on:"
+              - link "OpenStreetMap":
+                - /url: https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=001.298421&lon=0103.853416
+            - cell "info":
+              - link "info":
+                - /url: /wiki/Commons:Geocoding
+                - img "info"
+      - heading "Licensing" [level=2]
+      - link "edit":
+        - /url: /w/index.php?title=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&action=edit&section=2
+      - generic "w:en:Creative Commons":
+        - img "w:en:Creative Commons"
+      - generic "attribution":
+        - img "attribution"
+      - text: This file is licensed under the
+      - link "Creative Commons":
+        - /url: https://en.wikipedia.org/wiki/en:Creative_Commons
+      - link "Attribution 2.0 Generic":
+        - /url: //creativecommons.org/licenses/by/2.0/deed.en
+      - text: license.
+      - definition:
+        - text: "You are free:"
+        - list:
+          - listitem: to share – to copy, distribute and transmit the work
+          - listitem: to remix – to adapt the work
+      - definition:
+        - text: "Under the following conditions:"
+        - list:
+          - listitem: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+      - table:
+        - rowgroup:
+          - row "This image was originally posted to Flickr by shutterbugger | engr at https://flickr.com/photos/12544404@N06/6904103454. It was reviewed on 2 March 2019 by FlickreviewR 2 and was confirmed to be licensed under the terms of the cc-by-2.0.":
+            - cell:
+            - cell "This image was originally posted to Flickr by shutterbugger | engr at https://flickr.com/photos/12544404@N06/6904103454. It was reviewed on 2 March 2019 by FlickreviewR 2 and was confirmed to be licensed under the terms of the cc-by-2.0.":
+              - text: This image was originally posted to
+              - link "Flickr":
+                - /url: https://en.wikipedia.org/wiki/Flickr
+              - text: by shutterbugger | engr at
+              - link "https://flickr.com/photos/12544404@N06/6904103454":
+                - /url: https://flickr.com/photos/12544404@N06/6904103454
+              - text: . It was reviewed on 2 March 2019 by
+              - link "FlickreviewR 2":
+                - /url: /wiki/User:FlickreviewR_2
+              - text: and was confirmed to be licensed under the terms of the cc-by-2.0.
+            - cell:
+      - paragraph
+      - paragraph: Category:The Cranberries concert in Singapore (2012)
+      - heading "File history" [level=2]
+      - paragraph: Click on a date/time to view the file as it appeared at that time.
+      - table:
+        - rowgroup:
+          - row "Date/Time Thumbnail Dimensions User Comment":
+            - columnheader
+            - columnheader "Date/Time"
+            - columnheader "Thumbnail"
+            - columnheader "Dimensions"
+            - columnheader "User"
+            - columnheader "Comment"
+          - 'row "current 20:26, 2 March 2019 Thumbnail for version as of 20:26, 2 March 2019 2,941 × 1,653 (293 KB) AgWoolridge (talk | contribs) Transferred from Flickr via #flickr2commons"':
+            - cell "current"
+            - cell "20:26, 2 March 2019":
+              - link "20:26, 2 March 2019":
+                - /url: https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+            - cell "Thumbnail for version as of 20:26, 2 March 2019":
+              - link "Thumbnail for version as of 20:26, 2 March 2019":
+                - /url: https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Cranberries_Live_in_Singapore_2012_%286904103454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+                - img "Thumbnail for version as of 20:26, 2 March 2019"
+            - cell "2,941 × 1,653 (293 KB)"
+            - cell "AgWoolridge (talk | contribs)":
+              - link "AgWoolridge":
+                - /url: /w/index.php?title=User:AgWoolridge&action=edit&redlink=1
+              - text: (
+              - link "talk":
+                - /url: /wiki/User_talk:AgWoolridge
+              - text: "|"
+              - link "contribs":
+                - /url: /wiki/Special:Contributions/AgWoolridge
+              - text: )
+            - 'cell "Transferred from Flickr via #flickr2commons"'
+      - paragraph: You cannot overwrite this file.
+      - heading "File usage on Commons" [level=2]
+      - paragraph: There are no pages that use this file.
+      - heading "Metadata" [level=2]
+      - paragraph: This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.
+      - table:
+        - rowgroup:
+          - row "Camera manufacturer Canon":
+            - rowheader "Camera manufacturer"
+            - cell "Canon":
+              - link "Canon":
+                - /url: https://en.wikipedia.org/wiki/Canon_Inc.
+          - row "Camera model Canon PowerShot S100":
+            - rowheader "Camera model"
+            - cell "Canon PowerShot S100":
+              - link "Canon PowerShot S100":
+                - /url: https://en.wikipedia.org/wiki/Special:Search?search=Canon+PowerShot+S100
+          - row "Exposure time 1/400 sec (0.0025)":
+            - rowheader "Exposure time"
+            - cell "1/400 sec (0.0025)"
+          - row "F-number f/4":
+            - rowheader "F-number":
+              - link "F-number":
+                - /url: https://en.wikipedia.org/wiki/F-number
+            - cell "f/4"
+          - row "ISO speed rating 3,200":
+            - rowheader "ISO speed rating"
+            - cell "3,200"
+          - row "Date and time of data generation 21:17, 2 April 2012":
+            - rowheader "Date and time of data generation"
+            - cell "21:17, 2 April 2012"
+          - row "Lens focal length 5.52 mm":
+            - rowheader "Lens focal length"
+            - cell "5.52 mm"
+          - row "Label Green":
+            - rowheader "Label"
+            - cell "Green"
+          - row "Show extended details":
+            - cell "Show extended details":
+              - button "Show extended details"
+    - link "Category":
+      - /url: /wiki/Special:MyLanguage/Commons:Categories
+    - text: ":"
+    - list:
+      - link "The Cranberries concert in Singapore (2012)":
+        - /url: /wiki/Category:The_Cranberries_concert_in_Singapore_(2012)
+    - text: "Hidden categories:"
+    - list:
+      - link "Files with coordinates missing SDC location of creation":
+        - /url: /wiki/Category:Files_with_coordinates_missing_SDC_location_of_creation
+      - link "CC-BY-2.0":
+        - /url: /wiki/Category:CC-BY-2.0
+      - link "Flickr images reviewed by FlickreviewR 2":
+        - /url: /wiki/Category:Flickr_images_reviewed_by_FlickreviewR_2
+      - link "Singapore photographs taken on 2012-04-02":
+        - /url: /wiki/Category:Singapore_photographs_taken_on_2012-04-02
+- contentinfo:
+  - list:
+    - listitem: This page was last edited on 4 November 2025, at 16:18.
+    - text: Files are available under licenses specified on their description page. All structured data from the file namespace is available under the
+    - link "Creative Commons CC0 License":
+      - /url: https://creativecommons.org/publicdomain/zero/1.0/
+    - text: ; all unstructured text is available under the
+    - link "Creative Commons Attribution-ShareAlike License":
+      - /url: https://creativecommons.org/licenses/by-sa/4.0/
+    - text: ; additional terms may apply. By using this site, you agree to the
+    - link "Terms of Use":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    - text: and the
+    - link "Privacy Policy":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    - text: .
+  - list:
+    - link "Privacy policy":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    - link "About Wikimedia Commons":
+      - /url: /wiki/Commons:Welcome
+    - link "Disclaimers":
+      - /url: /wiki/Commons:General_disclaimer
+    - link "Legal & safety contacts":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+    - link "Code of Conduct":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+    - link "Developers":
+      - /url: https://developer.wikimedia.org
+    - link "Statistics":
+      - /url: https://stats.wikimedia.org/#/commons.wikimedia.org
+    - link "Cookie statement":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+    - link "Mobile view":
+      - /url: //commons.wikimedia.org/w/index.php?title=File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg&mobileaction=toggle_view_mobile
+  - list:
+    - link "Wikimedia Foundation":
+      - /url: https://www.wikimedia.org/
+      - img "Wikimedia Foundation"
+    - link "Powered by MediaWiki":
+      - /url: https://www.mediawiki.org/
+      - img "Powered by MediaWiki"
+- list

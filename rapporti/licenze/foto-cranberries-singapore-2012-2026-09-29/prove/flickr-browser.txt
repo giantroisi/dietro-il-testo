@@ -1,0 +1,416 @@
+- paragraph:
+  - link "Passa a Flickr Pro per nascondere questi annunci":
+    - /url: /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=ads_upsell&utm_content=upgrade
+- navigation "Principale":
+  - heading "Logo Flickr. Se clicchi su di esso, vai alla home page" [level=1]:
+  - menubar:
+    - menuitem "Esplora"
+    - link "MODE":
+      - /url: https://modefestival.com/
+    - menuitem "Passa a Pro":
+      - generic: ✨ Passa a Pro
+  - menubar:
+    - menuitem:
+      - search:
+        - generic "Cerca":
+          - img "Cerca"
+        - list
+        - textbox "Cerca":
+          - /placeholder: Foto, persone o gruppi
+      - menu
+    - menuitem "Carica":
+      - link "Carica":
+        - /url: /upload
+    - menuitem "Entra":
+      - link "Accedi":
+        - /url: /signin
+    - menuitem "Registrati":
+      - link "Registrati":
+        - /url: /signup
+- link "←":
+  - /url: https://www.flickr.com/photos/celinejacinto/7050194677/in/photostream/
+  - generic: ←
+- img "The Cranberries Live in Singapore 2012 | da shutterbugger | engr"
+- link "→":
+  - /url: https://www.flickr.com/photos/celinejacinto/6904103146/in/photostream/
+  - generic: →
+- link "⤢":
+  - /url: /photos/celinejacinto/6904103454/in/photostream/lightbox/
+  - generic: ⤢
+- generic "Condividi foto":
+  - generic "Condividi foto":
+- link "Scarica questa foto":
+  - /url: /photos/celinejacinto/6904103454/sizes/l/
+- link "Torna al fotostream":
+  - /url: /photos/celinejacinto/with/6904103454/
+  - text: Torna al fotostream
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050194677/in/photostream/
+- link "Fans =)":
+  - /url: /photos/celinejacinto/7050194981/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050195219/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904103454/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904103146/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193765/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193473/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/7050195443/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/6904104694/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/7050195855/in/photostream/
+- link "Noel Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/6904105230/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050196483/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050196773/in/photostream/
+- link "Technical difficulties right before \"Roses\"":
+  - /url: /photos/celinejacinto/6904106082/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904106282/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050197385/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050254453/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904164442/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904164674/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904165016/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904165272/in/photostream/
+- 'link "Week 14: In Awe"':
+  - /url: /photos/celinejacinto/7050259405/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193127/in/photostream/
+- link "Dolores O'riordan":
+  - /url: /photos/celinejacinto/7050192585/in/photostream/
+- link "Setlist":
+  - /url: /photos/celinejacinto/6904101538/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904101126/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904100550/in/photostream/
+- link "Mike Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/6904099452/in/photostream/
+- link "Noel Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/7050189941/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904098942/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904098380/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904097288/in/photostream/
+- 'link "Week 9: Where \"J\" is the New \"G\""':
+  - /url: /photos/celinejacinto/6867292932/in/photostream/
+- 'link "Week 11: Braving the Irish Pub"':
+  - /url: /photos/celinejacinto/6867292404/in/photostream/
+- 'link "Week 10: Standing on the Edge of Safe"':
+  - /url: /photos/celinejacinto/6867291714/in/photostream/
+- 'link "Week 12: On Selecting"':
+  - /url: /photos/celinejacinto/6867291272/in/photostream/
+- 'link "Week 8: Waiting Indefinitely"':
+  - /url: /photos/celinejacinto/6834458698/in/photostream/
+- generic: ←
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050194677/in/photostream/
+- link "Fans =)":
+  - /url: /photos/celinejacinto/7050194981/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050195219/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904103454/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904103146/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193765/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193473/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/7050195443/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/6904104694/in/photostream/
+- link "Dolores O'riordan of the Cranberries":
+  - /url: /photos/celinejacinto/7050195855/in/photostream/
+- link "Noel Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/6904105230/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050196483/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050196773/in/photostream/
+- link "Technical difficulties right before \"Roses\"":
+  - /url: /photos/celinejacinto/6904106082/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904106282/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050197385/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050254453/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904164442/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904164674/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904165016/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904165272/in/photostream/
+- 'link "Week 14: In Awe"':
+  - /url: /photos/celinejacinto/7050259405/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/7050193127/in/photostream/
+- link "Dolores O'riordan":
+  - /url: /photos/celinejacinto/7050192585/in/photostream/
+- link "Setlist":
+  - /url: /photos/celinejacinto/6904101538/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904101126/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904100550/in/photostream/
+- link "Mike Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/6904099452/in/photostream/
+- link "Noel Hogan of The Cranberries":
+  - /url: /photos/celinejacinto/7050189941/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904098942/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904098380/in/photostream/
+- link "The Cranberries Live in Singapore 2012":
+  - /url: /photos/celinejacinto/6904097288/in/photostream/
+- 'link "Week 9: Where \"J\" is the New \"G\""':
+  - /url: /photos/celinejacinto/6867292932/in/photostream/
+- 'link "Week 11: Braving the Irish Pub"':
+  - /url: /photos/celinejacinto/6867292404/in/photostream/
+- 'link "Week 10: Standing on the Edge of Safe"':
+  - /url: /photos/celinejacinto/6867291714/in/photostream/
+- 'link "Week 12: On Selecting"':
+  - /url: /photos/celinejacinto/6867291272/in/photostream/
+- 'link "Week 8: Waiting Indefinitely"':
+  - /url: /photos/celinejacinto/6834458698/in/photostream/
+- generic: →
+- link:
+  - /url: /photos/celinejacinto/
+- link "shutterbugger | engr":
+  - /url: /photos/celinejacinto/
+- paragraph: shutterbugger | engr
+- button "Segui"
+- generic "Premi invio per modificare il titolo o la descrizione.":
+  - heading "The Cranberries Live in Singapore 2012" [level=1]
+  - textbox
+  - heading "The Cranberries Live in Singapore 2012 © celine jacinto 2012. all rights reserved. Tumblr Blog" [level=2]:
+    - paragraph: The Cranberries Live in Singapore 2012
+    - paragraph
+    - paragraph: © celine jacinto 2012. all rights reserved.
+    - paragraph
+    - paragraph:
+      - link "Tumblr Blog":
+        - /url: http://www.cheljacinto.tumblr.com
+  - textbox
+- generic: 755 visualizzaz.
+- generic: • 0 preferiti
+- generic: • 0 commenti
+- generic: Caricata il 6 aprile 2012
+- generic: Scattata il 2 aprile 2012
+- list:
+  - generic "Canon PowerShot S100"
+  - link "Canon PowerShot S100":
+    - /url: https://www.flickr.com/cameras/canon/powershot_s100
+  - generic: 5.2-26.0 mm
+  - generic: Mostra impostazioni
+  - link "Singapore, Central Singapore, Singapore":
+    - /url: https://www.flickr.com/search/?lat=1.298421&lon=103.853416&radius=0.25&has_geo=1&view_all=1
+  - region "Map"
+  - link "Protomaps":
+    - /url: https://protomaps.com
+  - link "© OpenStreetMap":
+    - /url: https://openstreetmap.org
+- heading "Commenti (0)" [level=1]
+- link "Mostra il tuo gradimento con il regalo di Flickr Pro":
+  - /url: "?giftPro"
+- button
+- list
+- textbox "Aggiungi un commento a questa foto"
+- button "Aggiungi commento"
+- navigation:
+  - complementary:
+    - paragraph:
+      - text: Immagini sponsorizzate da
+    - paragraph:
+      - 'link "OFFERTA LIMITATA: 20% di sconto con il codice FLICKR20"':
+        - /url: https://www.istockphoto.com/plans-and-pricing?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "A shot from the crowd at a summer festival in Quebec city, Canada. Bright stage lights and a low angle view for dramatic effect.":
+      - /url: https://www.istockphoto.com/photo/rock-concert-low-angle-view-with-bright-light-effect-gm182146339-101141?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Music concert scene and audience":
+      - /url: https://www.istockphoto.com/photo/consert-gm1288804038-384655873?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Young music band performing at rock concert":
+      - /url: https://www.istockphoto.com/photo/young-musicians-on-the-stage-gm1144876255-307976532?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Professional Asian male musicians deliver an energetic performance during a concert set. The bassist jumps in mid-air while the drummer plays under vibrant blue stage lighting and smoke.Asian male drummer and bassist perform live on an illuminated concert stage with dramatic blue and orange lighting, haze, instruments, and live music atmosphere inside an indoor venue in Bangkok.":
+      - /url: https://www.istockphoto.com/photo/asian-male-drummer-and-bassist-performing-live-on-illuminated-concert-stage-in-gm2267151625-679781955?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Rock band performs on stage":
+      - /url: https://www.istockphoto.com/photo/rock-band-performs-on-stage-gm1257015746-368238971?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Concert hall crowded with people in front of a stage lit for the gig.":
+      - /url: https://www.istockphoto.com/photo/concert-crowd-in-front-of-a-live-stage-gm905891272-249773888?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Young music band performing at rock concert":
+      - /url: https://www.istockphoto.com/photo/rock-concert-gm1050893186-280987226?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - link "Rock band playing on the live concert.":
+      - /url: https://www.istockphoto.com/photo/rock-band-on-the-stage-gm962016184-262722829?utm_source=flickr&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_term=2000s 2012&utm_content=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcelinejacinto%2F6904103454%2F&ref=sponsored
+    - paragraph:
+      - link "Passa a Flickr Pro per nascondere questi annunci":
+        - /url: /account/upgrade/pro?utm_campaign=getty-search&utm_source=desktop&utm_medium=ads_upsell&utm_content=upgrade
+- heading "Questa foto è presente in 1 album" [level=5]
+- list:
+  - link:
+    - /url: /photos/celinejacinto/albums/72157629751788677
+  - link "The Cranberries Live in Singapore 2012":
+    - /url: /photos/celinejacinto/albums/72157629751788677
+  - generic: 32 elementi
+- link "Tag":
+  - /url: /photos/tags/
+- list:
+  - link "2000s":
+    - /url: /photos/tags/2000s
+  - link "2012":
+    - /url: /photos/tags/2012
+  - link "90s":
+    - /url: /photos/tags/90s
+  - link "album":
+    - /url: /photos/tags/album
+  - link "april":
+    - /url: /photos/tags/april
+  - link "band":
+    - /url: /photos/tags/band
+  - link "canon":
+    - /url: /photos/tags/canon
+  - link "concert":
+    - /url: /photos/tags/concert
+  - link "cranberries":
+    - /url: /photos/tags/cranberries
+  - link "indoor":
+    - /url: /photos/tags/indoor
+  - link "ireland":
+    - /url: /photos/tags/ireland
+  - link "irish":
+    - /url: /photos/tags/irish
+  - link "light":
+    - /url: /photos/tags/light
+  - link "live":
+    - /url: /photos/tags/live
+  - link "low":
+    - /url: /photos/tags/low
+  - link "music":
+    - /url: /photos/tags/music
+  - link "musika":
+    - /url: /photos/tags/musika
+  - link "rock":
+    - /url: /photos/tags/rock
+  - link "roses":
+    - /url: /photos/tags/roses
+  - link "s100":
+    - /url: /photos/tags/s100
+  - link "singapore":
+    - /url: /photos/tags/singapore
+  - link "stadium":
+    - /url: /photos/tags/stadium
+  - link "thecranberries":
+    - /url: /photos/tags/thecranberries
+- list
+- heading "Ulteriori informazioni" [level=3]
+- text: Licenza (
+- button "Cronologia"
+- text: )
+- link "CC BY 2.0":
+  - /url: https://creativecommons.org/licenses/by/2.0/deed.it
+- link "Alcuni diritti sono riservati":
+  - /url: https://creativecommons.org/licenses/by/2.0/deed.it
+- button:
+- generic "Si è verificato un errore durante l’aggiornamento della privacy. Riprova."
+- generic: Impostazioni privacy visualizzazione
+- generic: Pubblica
+- generic "Si è verificato un errore durante l’aggiornamento del livello di sicurezza. Riprova."
+- generic: Livello di sicurezza
+- generic: Sicuro
+- generic: Tipo di contenuto
+- generic: Foto
+- generic "Tasti di scelta rapida":
+  - generic: S
+  - generic: Cerca
+  - generic "Freccia sinistra"
+  - generic "Freccia destra"
+  - generic: Naviga tra le foto
+  - generic: <
+  - generic: ">"
+  - generic: Naviga tra le anteprime
+  - generic: Z
+  - generic: Zoom
+  - generic: B
+  - generic: Torna al contesto
+- contentinfo:
+  - contentinfo:
+    - list:
+      - link "Info":
+        - /url: /about
+      - link "Opportunità di lavoro":
+        - /url: /jobs
+      - link "Blog":
+        - /url: //blog.flickr.net/en
+      - link "Pubblicità":
+        - /url: https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+      - link "Sviluppatori":
+        - /url: /services/developer
+      - link "Cookie":
+        - /url: /help/cookies
+      - link "Linee guida":
+        - /url: /help/guidelines
+      - link "Aiuto":
+        - /url: //flickrhelp.com
+      - link "Segnala abuso":
+        - /url: /abuse
+      - link "Italiano":
+        - /url: /change_language.gne?lang=it-IT&csrf=
+    - list:
+      - link "Note legali":
+        - /url: /help/legal
+      - link "Privacy":
+        - /url: /help/privacy
+      - link "Condizioni":
+        - /url: /help/terms
+    - link:
+      - /url: https://www.awesome.co/
+    - generic: Riunire le persone attraverso la fotografia.
+    - link:
+      - /url: https://www.onepercentfortheplanet.org/
+    - link:
+      - /url: https://www.greatplacetowork.com/certified-company/7051750
+    - link:
+      - /url: https://www.climateneutral.org/brand/flickr
+    - link:
+      - /url: https://www.conservationalliance.com/
+    - link:
+      - /url: https://www.tugboatinstitute.com/certified-evergreen/
+    - list:
+      - link "Facebook":
+        - /url: https://www.facebook.com/flickr
+      - link "YouTube":
+        - /url: https://www.youtube.com/user/smugmug
+      - link "Instagram":
+        - /url: https://www.instagram.com/flickr/
+- generic "Chiudi"
+- generic: Cronologia delle licenze
+- generic: "Nota: non sono presenti dati relativi alla cronologia delle licenze precedenti il giorno 17 luglio 2008"
+- table:
+  - rowgroup:
+    - row "Data 6 aprile 2012 alle ore 11:36:23 CEST":
+      - rowheader "Data"
+      - cell "6 aprile 2012 alle ore 11:36:23 CEST"
+    - row "Original License CC BY 2.0":
+      - rowheader "Original License"
+      - cell "CC BY 2.0":
+        - link "CC BY 2.0":
+          - /url: https://creativecommons.org/licenses/by/2.0/
+- button "Chiudi"

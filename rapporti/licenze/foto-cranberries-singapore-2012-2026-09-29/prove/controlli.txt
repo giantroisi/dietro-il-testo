@@ -1,0 +1,9 @@
+PASS: JPEG originale, 2941 × 1653 px, 300079 byte; SHA-256 verificato.
+PASS: file copiato nell’anteprima identico al download; filigrana conservata.
+PASS: Commons, Flickr originale, cronologia Flickr e riepilogo ufficiale CC riaperti.
+PASS: licenza attuale e originale Flickr CC BY 2.0; Commons conferma il riesame del 2 marzo 2019.
+PASS: immagine caricata, alt completo, data e credito con tre link corretti.
+PASS: nessuna fuoriuscita a 1280, 390 e 320 px; zero avvisi/errori di console osservati nel browser interno.
+PASS: sei file protetti identici prima/dopo; candidatura noindex,nofollow.
+PASS: sintassi helper e controllo esistente prova-ritratto-credito.mjs.
+LIMITE: foto larga e scura, volti piccoli alle dimensioni del sito; contesto storico del concerto del 2012.

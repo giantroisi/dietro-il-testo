@@ -1,0 +1,70 @@
+{
+  "misure": [
+    {
+      "credit": "Singapore, 2 aprile 2012 · The Cranberries Live in Singapore 2012 · © Celine Jacinto (shutterbugger | engr) 2012 · CC BY 2.0 · file originale senza modifiche · Flickr / Wikimedia Commons",
+      "image": {
+        "alt": "The Cranberries in concerto a Singapore nel 2012, ripresi dal pubblico con il palco illuminato di blu",
+        "complete": true,
+        "displayHeight": 169.484375,
+        "displayWidth": 299.984375,
+        "naturalHeight": 1653,
+        "naturalWidth": 2941,
+        "src": "../../ritratti/cranberries-singapore-2012.jpg"
+      },
+      "links": [
+        {
+          "text": "CC BY 2.0",
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "text": "Flickr",
+          "url": "https://www.flickr.com/photos/celinejacinto/6904103454/"
+        },
+        {
+          "text": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Cranberries_Live_in_Singapore_2012_(6904103454).jpg"
+        }
+      ],
+      "robots": "noindex,nofollow",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "credit": "Singapore, 2 aprile 2012 · The Cranberries Live in Singapore 2012 · © Celine Jacinto (shutterbugger | engr) 2012 · CC BY 2.0 · file originale senza modifiche · Flickr / Wikimedia Commons",
+      "figure": {
+        "bottom": 639.0703125,
+        "left": 24,
+        "right": 366,
+        "top": 394.0703125
+      },
+      "image": {
+        "complete": true,
+        "displayHeight": 158.25,
+        "displayWidth": 279.9921875,
+        "naturalHeight": 1653,
+        "naturalWidth": 2941
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "credit": "Singapore, 2 aprile 2012 · The Cranberries Live in Singapore 2012 · © Celine Jacinto (shutterbugger | engr) 2012 · CC BY 2.0 · file originale senza modifiche · Flickr / Wikimedia Commons",
+      "figure": {
+        "bottom": 639.0703125,
+        "left": 24,
+        "right": 304,
+        "top": 394.0703125
+      },
+      "image": {
+        "complete": true,
+        "displayHeight": 158.25,
+        "displayWidth": 279.9921875,
+        "naturalHeight": 1653,
+        "naturalWidth": 2941
+      },
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "console": []
+}
