@@ -4112,3 +4112,12 @@ La copia resta separata dall'originale. Il generatore ha prodotto 687 pagine; `c
 L'autore ha autorizzato il trasferimento nella cartella principale e la pubblicazione il 22 settembre 2026. Il controllo di rete dei 317 collegamenti ai testi ha trovato 313 pagine corrette, tre pagine Slayer su Readdork che rispondono 403 e un falso positivo su «Sweet Child O' Mine»: Letras codifica l'apostrofo come `&#39;` nei metadati. Le tre schede Slayer rimandano ora alle pagine testuali corrispondenti su Cifra Club, aperte e controllate; `check-testi.mjs` decodifica le entità HTML comuni prima del confronto. La seconda prova mirata dei quattro link ha dato 4 su 4 corretti. Le 313 altre pagine erano già passate nel controllo completo di rete.
 
 `check-completezza` indica 316 schede complete su 317; «The Sound of Silence» è già segnata come da integrare perché manca il player Spotify, e non è stata modificata in questo intervento. Questa lacuna preesistente non viene presentata come verificata o completa.
+
+
+## 27. Fotografia candidata dei System of a Down, 29 settembre 2026
+
+Preparata in una copia separata già esistente la fotografia di concerto scelta in `dati/ritratti-scelti.json`, mancante nel registro principale. [Dossier](rapporti/licenze/ritratto-system-of-a-down-2026-09-29.md), metadati e file sotto `rapporti/licenze/`. Riaperte Flickr e Commons: autore madSec e CC BY 2.0 concordano. Scaricata e ispezionata la versione 960 × 649 px, senza ritocchi locali. Predisposti titolo originale, fonte, licenza, data di verifica, modifica tecnica, alt e pagina d'uso.
+
+Provata la pagina artista temporanea a 1280, 390 e 320 px: foto intera, tutte le immagini caricate, credito completo visibile, nessuno scorrimento orizzontale e nessun errore o avviso di console registrato. Il controllo SEO trova zero problemi su 688 pagine. L'inquadratura è ampia e i musicisti sono piccoli: è una foto di contesto dal vivo, non un ritratto ravvicinato. Le prove sono conservate nel dossier.
+
+Il registro e il generatore non sono stati modificati. L'HTML temporaneo contiene alt e credito completi che il generatore corrente non legge ancora dai metadati: prima dell'integrazione serviranno revisione, conservazione di questi dati nella pagina finale e verifica dei lastmod sulla base corrente. L'anteprima segnala 317 date modificate per assenza delle pagine precedenti, quindi non è un pacchetto da pubblicare. La candidatura Finley, i testi editoriali, la cartella principale e il lavoro dell'altra AI restano intatti. Nessun trasferimento, push o pubblicazione.
