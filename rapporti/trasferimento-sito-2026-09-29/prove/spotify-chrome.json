@@ -1,0 +1,19 @@
+{
+  "prima": {
+    "iframe": 0,
+    "url": "http://127.0.0.1:8780/canzone/aerials/"
+  },
+  "dopo": {
+    "iframe": 1,
+    "src": "https://open.spotify.com/embed/track/4e9eGQYsOiBcftrWXwsVco?utm_source=generator"
+  },
+  "anteprimaSecondi": 24,
+  "pausaVisibile": false,
+  "audioNelDOM": false,
+  "statoPausaOsservatoDurantePrimoAvvio": true,
+  "progressioneOsservataSecondi": [
+    7,
+    24
+  ],
+  "limite": "Anteprima Spotify senza accesso: dopo il campione il servizio invita ad aprire Spotify; brano integrale non provato."
+}

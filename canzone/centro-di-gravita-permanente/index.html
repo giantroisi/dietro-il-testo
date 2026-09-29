@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/centro-di-gravita-permanente.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/#brano","name":"Centro di gravità permanente","byArtist":{"@type":"MusicGroup","name":"Franco Battiato","url":"https://www.dietroiltesto.it/artista/franco-battiato/"},"inAlbum":{"@type":"MusicAlbum","name":"La voce del padrone"},"datePublished":"1981","url":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/","description":"Centro di gravità permanente di Franco Battiato: il pensiero di Gurdjieff ispirò un brano dell’album La voce del padrone."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Centro di gravità permanente","item":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/"}]},{"@type":"Article","headline":"Centro di gravità permanente","about":{"@id":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/","dateModified":"2026-09-22"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/#brano","name":"Centro di gravità permanente","byArtist":{"@type":"MusicGroup","name":"Franco Battiato","url":"https://www.dietroiltesto.it/artista/franco-battiato/"},"inAlbum":{"@type":"MusicAlbum","name":"La voce del padrone"},"datePublished":"1981","url":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/","description":"Centro di gravità permanente di Franco Battiato: il pensiero di Gurdjieff ispirò un brano dell’album La voce del padrone."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Centro di gravità permanente","item":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/"}]},{"@type":"Article","headline":"Centro di gravità permanente","about":{"@id":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/","dateModified":"2026-09-29"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -296,7 +296,7 @@ a { color: inherit; }
   padding: 9px 16px; text-decoration: none; text-align: left;
   border: 0; background: none; font: inherit; color: inherit; cursor: pointer;
 }
-.esito:hover, .esito.attivo { background: var(--surface-alt); }
+.esito:hover, .esito:focus-visible { background: var(--surface-alt); }
 .esito b { font-weight: 600; }
 .esito span { color: var(--text-muted); font-size: 13px; }
 .esito .sotto {
@@ -868,6 +868,24 @@ a { color: inherit; }
 }
 .is-nascosto { display: none !important; }
 </style>
+<style>
+.player-attesa {
+  min-height: 152px; padding: 16px; box-sizing: border-box;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 10px;
+  background: color-mix(in srgb, var(--identita) 12%, var(--surface));
+}
+.player-attesa-titolo { font-family: var(--font-display); font-size: 21px; line-height: 1.1; }
+.player-attesa .bottone { min-height: 44px; cursor: pointer; }
+.player-attesa [hidden] { display: none; }
+.player-attesa p { margin: 0; font-size: 11px; line-height: 1.45; color: var(--text-muted); }
+.player-esterno {
+  display: flex; align-items: center; justify-content: center; min-height: 44px;
+  box-sizing: border-box; padding: 8px 12px; border-top: 1px solid var(--border);
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em;
+  text-align: center; color: var(--text);
+}
+.player-esterno:hover { color: var(--sistema); }
+</style>
 <style>:root{--identita:#2E5C6B;--identita-testo:#2E5C6B;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -888,7 +906,7 @@ a { color: inherit; }
           <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
           <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
                  autocomplete="off" spellcheck="false" data-campo>
-          <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+          <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
         </div>
       </div>
       <nav class="testata-nav" aria-label="Principale">
@@ -919,8 +937,13 @@ a { color: inherit; }
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
         <h1>Significato di Centro di gravità permanente</h1>
       </div>
-      <div class="player-intestazione">
-        <iframe src="https://open.spotify.com/embed/track/5DlMR554Db6jiWPRWe95al?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Centro di gravità permanente su Spotify"></iframe>
+      <div class="player-intestazione" data-player-spotify data-spotify-id="5DlMR554Db6jiWPRWe95al" data-spotify-titolo="Centro di gravità permanente">
+        <div class="player-attesa">
+          <span class="player-attesa-titolo">Ascolta su Spotify</span>
+          <button type="button" class="bottone" data-attiva-spotify hidden>Carica il lettore</button>
+          <p>Il lettore si collega a Spotify solo quando lo attivi.</p>
+        </div>
+        <a class="player-esterno" href="https://open.spotify.com/track/5DlMR554Db6jiWPRWe95al" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">

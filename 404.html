@@ -292,7 +292,7 @@ a { color: inherit; }
   padding: 9px 16px; text-decoration: none; text-align: left;
   border: 0; background: none; font: inherit; color: inherit; cursor: pointer;
 }
-.esito:hover, .esito.attivo { background: var(--surface-alt); }
+.esito:hover, .esito:focus-visible { background: var(--surface-alt); }
 .esito b { font-weight: 600; }
 .esito span { color: var(--text-muted); font-size: 13px; }
 .esito .sotto {
@@ -900,7 +900,7 @@ a { color: inherit; }
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
         <input type="search" placeholder="Canzone, artista o band…" aria-label="Cerca nel sito"
                autocomplete="off" spellcheck="false" data-campo>
-        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+        <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
       </div>
       <div class="azioni" style="margin-top:22px">
         <a class="bottone pieno" href="">Torna alla home</a>

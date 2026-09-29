@@ -4127,3 +4127,14 @@ L'autore ha autorizzato il trasferimento nella cartella principale e la pubblica
 **Limiti e coda.** Il pulsante Spotify crea il solo iframe atteso e mantiene il collegamento esterno, ma il contenuto resta vuoto nel browser interno: riproduzione audio ancora da confermare in un browser ordinario. Altre 19 candidature fotografiche con dossier, la preparazione Ed Sheeran e le due nuove schede Galway Girl/Nightswimming restano separate. I rapporti dell'altra AI coprono 45 schede e contengono proposte ancora da applicare; i suoi file non sono stati modificati. Nessun uso di GSC.
 
 **Stato: copia cumulativa verificata localmente, in attesa della decisione sulla pubblicazione.** Non trasferita nella cartella principale, nessun push o pubblicazione. L'approvazione «tutte e tre» riguarda le tre foto già incluse; vale ancora la richiesta di mostrare il risultato prima della pubblicazione. La routine deve preservare questo lotto e non modificarne gli stessi file mentre attende la decisione.
+
+
+## 28. Trasferimento autorizzato nella cartella principale, 29 settembre 2026
+
+Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. Il lotto cumulativo `4608d9bc` del §27 è stato integrato in `main` con avanzamento diretto dalla base `84e7bcfd`; rigenerato il sito e aggiornati 693 file generati nella radice. Confrontati tutti i 1018 file del pacchetto con quelli della radice: contenuti identici. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è stato preservato e confrontato prima/dopo. La copia separata resta conservata.
+
+**Chiuso il limite del riquadro Spotify vuoto per Chrome.** Il lettore Aerials carica titolo e artista corretti, passa da zero a un iframe dopo l'attivazione, mostra Pause e avanza da 7 a 24 secondi. Alla fine dell'anteprima il servizio invita ad aprire Spotify; il brano integrale e l'uscita acustica non sono stati verificati. Nessun accesso a un account o modifica delle estensioni. L'esito precedente nel browser interno resta documentato come prova storica.
+
+**Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
+
+**Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.

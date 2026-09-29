@@ -296,7 +296,7 @@ a { color: inherit; }
   padding: 9px 16px; text-decoration: none; text-align: left;
   border: 0; background: none; font: inherit; color: inherit; cursor: pointer;
 }
-.esito:hover, .esito.attivo { background: var(--surface-alt); }
+.esito:hover, .esito:focus-visible { background: var(--surface-alt); }
 .esito b { font-weight: 600; }
 .esito span { color: var(--text-muted); font-size: 13px; }
 .esito .sotto {
@@ -888,7 +888,7 @@ a { color: inherit; }
           <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
           <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
                  autocomplete="off" spellcheck="false" data-campo>
-          <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+          <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
         </div>
       </div>
       <nav class="testata-nav" aria-label="Principale">
@@ -916,7 +916,7 @@ a { color: inherit; }
         <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
         <input type="search" placeholder="Canzone, artista o album…" aria-label="Cerca nel sito"
                autocomplete="off" spellcheck="false" data-campo>
-        <div class="esiti" hidden data-esiti role="listbox" aria-label="Risultati"></div>
+        <div class="esiti" hidden data-esiti role="region" aria-label="Suggerimenti di ricerca"></div>
       </div>
 
       <div class="suggerimenti">
@@ -931,13 +931,13 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">Canzone in evidenza</p>
-      <article class="pillola" data-pillola style="--identita:#3E1F5C">
-        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Blink-182 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</p>
-        <p class="gancio" data-pillola-titolo>I Miss You</p>
-        <p class="estratto" data-pillola-estratto>Il verso più ricordato propone di vivere come i due protagonisti di &quot;Nightmare Before Christmas&quot;, festeggiando Halloween a Natale — un'immagine diventata il marchio di fabbrica del brano.</p>
+      <article class="pillola" data-pillola style="--identita:#1F6E6E">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Avicii <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2013</p>
+        <p class="gancio" data-pillola-titolo>Wake Me Up</p>
+        <p class="estratto" data-pillola-estratto>Il verso più citato è quello in cui il narratore ammette di aver provato a portare il peso del mondo sulle spalle, scoprendo di avere soltanto due mani — un'immagine dei propri limiti di fronte alle troppe responsabilità e aspettative da soddisfare.</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/i-miss-you/" data-pillola-link>Leggi la scheda</a>
-          <a class="bottone" href="artista/blink-182/" data-pillola-artista>Blink-182</a>
+          <a class="bottone pieno" href="canzone/wake-me-up/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/avicii/" data-pillola-artista>Avicii</a>
           <button type="button" class="bottone" data-altra-pillola>Cambia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>

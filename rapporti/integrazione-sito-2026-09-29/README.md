@@ -1,5 +1,7 @@
 # Integrazione cumulativa — Dietro il testo, 29 settembre 2026
 
+> **Aggiornamento del 29 settembre, dopo l'approvazione:** il lotto è stato trasferito nella cartella principale e l'anteprima Spotify è stata verificata in Chrome. La pubblicazione resta da eseguire. Vedi il [rapporto del trasferimento](../trasferimento-sito-2026-09-29/README.md). Le sezioni seguenti descrivono la preparazione precedente al trasferimento.
+
 ## Stato e problema osservato
 
 La cartella principale è al commit `84e7bcfd` del 22 settembre 2026. Gli interventi successivi sono rimasti in copie separate: le loro anteprime non rappresentavano una versione cumulativa del sito. Il 29 settembre la pagina pubblica degli Iron Maiden mostrava ancora la grafica originale, senza la fotografia approvata. Il riscontro è conservato in `prove/confronto-online.json`; non equivale a una verifica dell'intero sito pubblico o del commit effettivamente distribuito.

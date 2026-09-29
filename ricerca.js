@@ -79,6 +79,27 @@
   });
   applicaTema();
 
+  /* Il solo link al brano non scarica l'embed. Il clic crea l'iframe e avvia
+     esplicitamente il collegamento a Spotify; senza JavaScript resta il link. */
+  Array.prototype.forEach.call(document.querySelectorAll('[data-attiva-spotify]'), function (b) {
+    b.hidden = false;
+    b.addEventListener('click', function () {
+      var area = b.closest('[data-player-spotify]');
+      var id = area && area.getAttribute('data-spotify-id');
+      if (!id || !/^[A-Za-z0-9]{22}$/.test(id)) return;
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://open.spotify.com/embed/track/' + id + '?utm_source=generator';
+      iframe.width = '100%';
+      iframe.height = '152';
+      iframe.title = (area.getAttribute('data-spotify-titolo') || 'Brano') + ' su Spotify';
+      iframe.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.setAttribute('loading', 'eager');
+      area.replaceChild(iframe, b.parentNode);
+      iframe.focus();
+    });
+  });
+
   /* ---------------------------------------------------------- ricerca */
 
   function cerca(q) {
@@ -122,24 +143,12 @@
     var campo = radice.querySelector('[data-campo]');
     var box = radice.querySelector('[data-esiti]');
     if (!campo || !box) return;
-    var correnti = [];
-    var attivo = -1;
-
-    function chiudi() { box.hidden = true; attivo = -1; }
-
-    function evidenzia() {
-      var voci = box.querySelectorAll('.esito');
-      Array.prototype.forEach.call(voci, function (el, i) {
-        el.classList.toggle('attivo', i === attivo);
-        if (i === attivo && el.scrollIntoView) el.scrollIntoView({ block: 'nearest' });
-      });
-    }
+    function chiudi() { box.hidden = true; }
 
     function disegna(lista) {
-      correnti = lista;
-      attivo = -1;
       if (!lista.length) {
-        box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con il nome della band o il titolo esatto.</p>';
+        box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con una parte del titolo o il nome dell’artista.</p>' +
+          '<a class="esito" href="' + RADICE + 'archivio/"><b>Esplora l’archivio</b><span>tutte le canzoni, filtrabili</span></a>';
         box.hidden = false;
         return;
       }
@@ -161,8 +170,6 @@
        con le frecce e con Invio come tutto il resto. */
     function proponi() {
       if (!RACCOLTE.length) { chiudi(); return; }
-      correnti = [];
-      attivo = -1;
       var html = '<p class="esiti-gruppo">Sfoglia per genere</p>';
       var decenniAperti = false;
       RACCOLTE.forEach(function (x) {
@@ -173,7 +180,6 @@
       html += '<a class="esito" href="' + RADICE + 'archivio/"><b>Archivio completo</b><span>tutte le canzoni, filtrabili</span></a>';
       box.innerHTML = html;
       box.hidden = false;
-      correnti = [];
     }
 
     campo.addEventListener('input', function () {
@@ -185,20 +191,40 @@
 
     campo.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { chiudi(); campo.blur(); return; }
-      if (!correnti.length || box.hidden) {
+      if (box.hidden) {
         if (e.key === 'Enter' && campo.value.trim().length >= 2) {
           var primi = cerca(campo.value);
           if (primi.length) { e.preventDefault(); location.href = RADICE + primi[0].s; }
         }
         return;
       }
-      if (e.key === 'ArrowDown') { e.preventDefault(); attivo = Math.min(attivo + 1, correnti.length - 1); evidenzia(); }
-      else if (e.key === 'ArrowUp') { e.preventDefault(); attivo = Math.max(attivo - 1, -1); evidenzia(); }
-      else if (e.key === 'Enter') {
+      var voci = box.querySelectorAll('.esito');
+      if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && voci.length) {
         e.preventDefault();
-        var scelto = attivo >= 0 ? correnti[attivo] : correnti[0];
-        if (scelto) location.href = RADICE + scelto.s;
+        voci[e.key === 'ArrowDown' ? 0 : voci.length - 1].focus();
+      } else if (e.key === 'Enter' && voci.length) {
+        e.preventDefault();
+        location.href = voci[0].href;
       }
+    });
+
+    box.addEventListener('keydown', function (e) {
+      var voci = box.querySelectorAll('.esito');
+      var indice = Array.prototype.indexOf.call(voci, document.activeElement);
+      if (indice < 0) return;
+      if (e.key === 'Escape') { e.preventDefault(); campo.focus(); chiudi(); }
+      else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        voci[Math.min(indice + 1, voci.length - 1)].focus();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (indice === 0) campo.focus();
+        else voci[indice - 1].focus();
+      }
+    });
+
+    radice.addEventListener('focusout', function (e) {
+      if (!radice.contains(e.relatedTarget)) chiudi();
     });
 
     campo.addEventListener('focus', function () {
