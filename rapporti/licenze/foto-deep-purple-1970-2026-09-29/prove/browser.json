@@ -1,0 +1,91 @@
+{
+  "browser": "Codex In-app Browser",
+  "verifiche": [
+    {
+      "credit": "Kiel, 28 maggio 1970 · Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee · Foto: Friedrich Magnussen / Stadtarchiv Kiel (22.125) · Titolare: Gesellschaft für Kieler Stadtgeschichte · CC BY-SA 3.0 DE · file originale da Wikimedia Commons",
+      "creditLinks": [
+        {
+          "label": "CC BY-SA 3.0 DE",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+        },
+        {
+          "label": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Rockband_Deep_Purple_in_der_Ostseehalle_zum_Auftakt_ihrer_Deutschlandtournee_(Kiel_22.125).jpg"
+        }
+      ],
+      "photo": [
+        {
+          "alt": "Deep Purple sul palco della Ostseehalle di Kiel nel 1970, ripresi di lato in bianco e nero con il pubblico davanti",
+          "box": {
+            "bottom": 351.5859375,
+            "height": 199.2734375,
+            "left": 900,
+            "right": 1199.9921875,
+            "top": 152.3125,
+            "width": 299.9921875,
+            "x": 900,
+            "y": 152.3125
+          },
+          "height": 662,
+          "loaded": true,
+          "src": "../../ritratti/deep-purple-kiel-1970.jpg",
+          "width": 1000
+        }
+      ],
+      "robots": "noindex,nofollow",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "credit": "Kiel, 28 maggio 1970 · Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee · Foto: Friedrich Magnussen / Stadtarchiv Kiel (22.125) · Titolare: Gesellschaft für Kieler Stadtgeschichte · CC BY-SA 3.0 DE · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 646.90625,
+        "height": 288.53125,
+        "left": 24,
+        "right": 366,
+        "top": 358.375,
+        "width": 342,
+        "x": 24,
+        "y": 358.375
+      },
+      "photo": {
+        "bottom": 544.40625,
+        "height": 186.03125,
+        "left": 24,
+        "right": 303.9921875,
+        "top": 358.375,
+        "width": 279.9921875,
+        "x": 24,
+        "y": 358.375
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "credit": "Kiel, 28 maggio 1970 · Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee · Foto: Friedrich Magnussen / Stadtarchiv Kiel (22.125) · Titolare: Gesellschaft für Kieler Stadtgeschichte · CC BY-SA 3.0 DE · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 698.3515625,
+        "height": 304.28125,
+        "left": 24,
+        "right": 304,
+        "top": 394.0703125,
+        "width": 280,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "photo": {
+        "bottom": 580.1015625,
+        "height": 186.03125,
+        "left": 24,
+        "right": 303.9921875,
+        "top": 394.0703125,
+        "width": 279.9921875,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "logs": []
+}

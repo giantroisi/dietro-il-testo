@@ -1,0 +1,54 @@
+{
+  "artistaSlug": "deep-purple",
+  "stato": "candidatura-da-approvare",
+  "dataVerifica": "2026-09-29",
+  "paginaUso": "/artista/deep-purple/",
+  "titoloOriginale": "Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee",
+  "autore": "Friedrich Magnussen",
+  "titolare": "Gesellschaft für Kieler Stadtgeschichte",
+  "fonte": "https://commons.wikimedia.org/wiki/File:Rockband_Deep_Purple_in_der_Ostseehalle_zum_Auftakt_ihrer_Deutschlandtournee_(Kiel_22.125).jpg",
+  "revisioneVerificata": "1038531602",
+  "provenienza": "Stadtarchiv Kiel, Fotoarchiv",
+  "identificativoArchivio": "22.125",
+  "collezione": "2.3 - Bildnachlass Friedrich Magnussen (1914-1987)",
+  "dataScattoSecondoFonte": "1970-05-28",
+  "luogoSecondoFonte": "Ostseehalle, Kiel",
+  "licenza": "CC BY-SA 3.0 DE",
+  "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+  "urlFile": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rockband_Deep_Purple_in_der_Ostseehalle_zum_Auftakt_ihrer_Deutschlandtournee_%28Kiel_22.125%29.jpg",
+  "modifiche": "Nessuna modifica al JPEG; conservati inquadratura, bordi e segni della scansione. Visualizzazione proporzionale con il CSS esistente.",
+  "dimensioni": {
+    "larghezza": 1000,
+    "altezza": 662
+  },
+  "byte": 127464,
+  "sha256": "534f2f1d2247154e651d1008fb6641f036c07022b31ac8d743eaaaa187c93bb7",
+  "sha1Commons": "2faef0e3a73de03fc76585f9426f6c57b267d7c1",
+  "esameVisivo": "File aperto e confrontato: scena di concerto in bianco e nero, tre musicisti distinguibili sul palco e pubblico davanti, ripresa laterale. Contesto e soggetto identificati dalla scheda archivistica; non attribuiti nomi ai singoli musicisti.",
+  "limiteVisivo": "Immagine storica del 1970, non ritratto frontale o foto della formazione attuale; non mostra tutti i componenti e i volti sono poco visibili. Segni di scansione e bordi originali conservati.",
+  "registroProposto": {
+    "file": "deep-purple-kiel-1970.jpg",
+    "autore": "Friedrich Magnussen",
+    "licenza": "CC BY-SA 3.0 DE",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Rockband_Deep_Purple_in_der_Ostseehalle_zum_Auftakt_ihrer_Deutschlandtournee_(Kiel_22.125).jpg",
+    "titoloOriginale": "Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee",
+    "alt": "Deep Purple sul palco della Ostseehalle di Kiel nel 1970, ripresi di lato in bianco e nero con il pubblico davanti",
+    "dimensioni": {
+      "larghezza": 1000,
+      "altezza": 662
+    },
+    "creditoParti": [
+      "Kiel, 28 maggio 1970 · Rockband Deep Purple in der Ostseehalle zum Auftakt ihrer Deutschlandtournee · Foto: Friedrich Magnussen / Stadtarchiv Kiel (22.125) · Titolare: Gesellschaft für Kieler Stadtgeschichte · ",
+      {
+        "testo": "CC BY-SA 3.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+      },
+      " · file originale da ",
+      {
+        "testo": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Rockband_Deep_Purple_in_der_Ostseehalle_zum_Auftakt_ihrer_Deutschlandtournee_(Kiel_22.125).jpg"
+      }
+    ]
+  }
+}

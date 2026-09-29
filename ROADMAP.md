@@ -4138,3 +4138,16 @@ Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. 
 **Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
 
 **Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.
+
+
+## 29. Candidatura isolata della foto storica dei Deep Purple, 29 settembre 2026
+
+Preparata una foto per l’artista già presente con tre canzoni. Riaperta la pagina originale Commons, revisione `1038531602`: opera di Friedrich Magnussen, fonte Stadtarchiv Kiel / Fotoarchiv, identificativo `22.125`, titolare Gesellschaft für Kieler Stadtgeschichte, Ostseehalle di Kiel il 28 maggio 1970. Riaperta su Creative Commons la licenza specifica CC BY-SA 3.0 DE. Conservati nel credito visibile titolo originale, autore, archivio, identificativo, titolare e collegamenti alla licenza e alla fonte, con l’anno dello scatto esplicito.
+
+Scaricato e ispezionato il JPEG originale, 1000 × 662 px e 127464 byte, senza ritaglio o ritocco. File servito identico e SHA-1 corrispondente al dato di Commons. Contesto storico documentato dalla fonte; tre musicisti distinguibili di lato, volti poco visibili: non una foto frontale del gruppo completo o della formazione attuale. Conservati bordi e segni della scansione.
+
+Copia `/Users/gianmicheletroisi/.codex/worktrees/foto-deep-purple-2026-09-29/dietro-il-testo`, da `02f952a4`; dossier `rapporti/licenze/foto-deep-purple-1970-2026-09-29/README.md`. Anteprima locale http://127.0.0.1:8784/artista/deep-purple/. Helper sul solo output ignorato, con `noindex,nofollow`; la rigenerazione normale ripristina la grafica originale. Sei file protetti identici prima/dopo, senza modifiche ai registri, alle schede o ai generatori.
+
+**Prove:** immagine caricata, testo alternativo e attribuzione completi, anno storico visibile; nessuna fuoriuscita a 1280, 390 e 320 px. Nessun avviso/errore di console osservato nel browser interno; passano sintassi dell’helper e controllo esistente dei crediti. Screenshot, licenza e misure nel dossier.
+
+**Stato: candidatura pronta per la revisione del proprietario.** Altri lotti e lavoro dell’altra AI preservati. Cartella principale al commit `02f952a4`, file non tracciato conservato. Nessuna integrazione nei registri, trasferimento, push o pubblicazione. Controllato anche il freno, che risulta tolto (9 su 317 schede con una sola fonte pertinente, soglia 27); nessuna nuova scheda aggiunta in questo ciclo e nessun uso di GSC.

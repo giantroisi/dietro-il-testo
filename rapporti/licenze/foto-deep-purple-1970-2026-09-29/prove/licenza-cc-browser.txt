@@ -1,0 +1,258 @@
+- link "Skip to content":
+  - /url: "#main-content-marker"
+- combobox:
+  - option "Languages available" [disabled]
+  - option "aragonés"
+  - option "Azərbaycanca"
+  - option "Bahasa Indonesia"
+  - option "Basque"
+  - option "català"
+  - option "dansk"
+  - option "Deutsch"
+  - option "eesti"
+  - option "English" [selected]
+  - option "español"
+  - option "Esperanto"
+  - option "français"
+  - option "frysk"
+  - option "Gaeilge"
+  - option "galego"
+  - option "Hrvatski"
+  - option "italiano"
+  - option "latviešu"
+  - option "Lietuviškai"
+  - option "Magyar"
+  - option "Melayu"
+  - option "Nederlands"
+  - option "norsk"
+  - option "polski"
+  - option "Português"
+  - option "Português Brasileiro"
+  - option "Română"
+  - option "Slovensky"
+  - option "Slovenščina"
+  - option "srpski (latinica)"
+  - option "suomi"
+  - option "svenska"
+  - option "Türkçe"
+  - option "Íslenska"
+  - option "česky"
+  - option "Ελληνικά"
+  - option "беларуская"
+  - option "български"
+  - option "Русский"
+  - option "Українська"
+  - option "العربيّة"
+  - option "فارسی"
+  - option "हिंदी"
+  - option "বাংলা"
+  - option "日本語"
+  - option "简体中文"
+  - option "繁體中文"
+  - option "한국어"
+- banner:
+  - heading "Creative Commons" [level=1]:
+    - link "Creative Commons":
+      - /url: /
+  - navigation:
+    - list:
+      - link "Who We Are":
+        - /url: /who-we-are
+      - link "What We Do":
+        - /url: /what-we-do
+      - link "Blog":
+        - /url: /blog
+      - link "Support Us":
+        - /url: /support
+      - link "Donate":
+        - /url: https://giving.gofundme.com/campaign/778218/donate
+- main:
+  - heading "Attribution-ShareAlike 3.0 Germany" [level=1]
+  - generic: CC BY-SA 3.0 DE
+  - heading "Deed" [level=2]
+  - heading "Notice" [level=2]
+  - paragraph:
+    - text: This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+    - link "more user-friendly and more internationally robust":
+      - /url: /version4/
+    - text: . If you are
+    - link "licensing your own work":
+      - /url: /choose/
+    - text: ", we strongly recommend the use of the 4.0 license instead:"
+    - link "Deed - Attribution-ShareAlike 4.0 International":
+      - /url: ../../4.0/deed.en
+  - article:
+    - heading "Canonical URL:" [level=2]
+    - link "https://creativecommons.org/licenses/by-sa/3.0/de/":
+      - /url: https://creativecommons.org/licenses/by-sa/3.0/de/
+  - link "See the legal code":
+    - /url: legalcode.de
+  - heading "You are free to:" [level=2]
+  - list:
+    - strong: Share
+    - text: — copy and redistribute the material in any medium or format for any purpose, even commercially.
+    - strong: Adapt
+    - text: — remix, transform, and build upon the material for any purpose, even commercially.
+    - listitem: The licensor cannot revoke these freedoms as long as you follow the license terms.
+  - heading "Under the following terms:" [level=2]
+  - list:
+    - strong: Attribution
+    - text: — You must give
+    - link "appropriate credit":
+      - /url: "#ref-appropriate-credit"
+    - text: ", provide a link to the license, and"
+    - link "indicate if changes were made":
+      - /url: "#ref-indicate-changes"
+    - text: . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+    - strong: ShareAlike
+    - text: — If you remix, transform, or build upon the material, you must distribute your contributions under the
+    - link "same license":
+      - /url: "#ref-same-license"
+    - text: as the original.
+    - strong: No additional restrictions
+    - text: — You may not apply legal terms or
+    - link "technological measures":
+      - /url: "#ref-technological-measures"
+    - text: that legally restrict others from doing anything the license permits.
+  - heading "Notices:" [level=2]
+  - paragraph:
+    - text: You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable
+    - link "exception or limitation":
+      - /url: "#ref-exception-or-limitation"
+    - text: .
+  - paragraph:
+    - text: No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as
+    - link "publicity, privacy, or moral rights":
+      - /url: "#ref-publicity-privacy-or-moral-rights"
+    - text: may limit how you use the material.
+  - paragraph: Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+  - list:
+    - link "Learn more about our work":
+      - /url: /about/
+    - strong:
+      - link "Learn more about CC Licensing":
+        - /url: /share-your-work/cclicenses/
+    - link "Support our work":
+      - /url: /donate/
+    - link "Use the license for your own material.":
+      - /url: /choose/
+    - link "Licenses List":
+      - /url: /licenses/list.en
+    - link "Public Domain List":
+      - /url: /publicdomain/list.en
+  - article:
+    - heading "Footnotes" [level=2]
+    - list:
+      - article:
+        - link "return to reference":
+          - /url: "#src-appropriate-credit"
+          - generic: return to reference
+        - strong: appropriate credit
+        - text: — If supplied, you must provide the name of the creator and attribution parties, a copyright notice, a license notice, a disclaimer notice, and a link to the material. CC licenses prior to Version 4.0 also require you to provide the title of the material if supplied, and may have other slight differences.
+        - list:
+          - link "More info":
+            - /url: https://wiki.creativecommons.org/License_Versions#Detailed_attribution_comparison_chart
+      - article:
+        - link "return to reference":
+          - /url: "#src-indicate-changes"
+          - generic: return to reference
+        - strong: indicate if changes were made
+        - text: — In 4.0, you must indicate if you modified the material and retain an indication of previous modifications. In 3.0 and earlier license versions, the indication of changes is only required if you create a derivative.
+        - list:
+          - link "Marking guide":
+            - /url: https://wiki.creativecommons.org/Best_practices_for_attribution#This_is_a_good_attribution_for_material_you_modified_slightly
+          - link "More info":
+            - /url: "https://wiki.creativecommons.org/License_Versions#Modifications_and_adaptations_must_be_marked_as_such "
+      - article:
+        - link "return to reference":
+          - /url: "#src-same-license"
+          - generic: return to reference
+        - strong: same license
+        - text: — You may also use a license listed as compatible at
+        - link "https://creativecommons.org/compatiblelicenses":
+          - /url: https://creativecommons.org/compatiblelicenses
+        - list:
+          - link "More info":
+            - /url: /faq/#if-i-derive-or-adapt-material-offered-under-a-creative-commons-license-which-cc-licenses-can-i-use
+      - article:
+        - link "return to reference":
+          - /url: "#src-technological-measures"
+          - generic: return to reference
+        - strong: technological measures
+        - text: — The license prohibits application of effective technological measures, defined with reference to Article 11 of the WIPO Copyright Treaty.
+        - list:
+          - link "More info":
+            - /url: https://wiki.creativecommons.org/License_Versions#Application_of_effective_technological_measures_by_users_of_CC-licensed_works_prohibited
+      - article:
+        - link "return to reference":
+          - /url: "#src-exception-or-limitation"
+          - generic: return to reference
+        - strong: exception or limitation
+        - text: — The rights of users under exceptions and limitations, such as fair use and fair dealing, are not affected by the CC licenses.
+        - list:
+          - link "More info":
+            - /url: /faq/#do-creative-commons-licenses-affect-exceptions-and-limitations-to-copyright-such-as-fair-dealing-and-fair-use
+      - article:
+        - link "return to reference":
+          - /url: "#src-publicity-privacy-or-moral-rights"
+          - generic: return to reference
+        - strong: publicity, privacy, or moral rights
+        - text: — You may need to get additional permissions before using the material as you intend.
+        - list:
+          - link "More info":
+            - /url: https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees
+- contentinfo:
+  - link "Creative Commons":
+    - /url: /
+  - textbox "Search"
+  - button "submit"
+  - navigation "Footer menu":
+    - list:
+      - link "Who we are":
+        - /url: /who-we-are
+      - link "What we do":
+        - /url: /what-we-do
+      - link "Blog":
+        - /url: /blog
+      - link "Support us":
+        - /url: /support
+      - link "Store":
+        - /url: https://creative-commons-shop.fourthwall.com/
+      - link "Contact":
+        - /url: /contact
+      - link "Privacy":
+        - /url: /privacy
+      - link "Policies":
+        - /url: /policies
+      - link "Terms":
+        - /url: /terms
+  - heading "Contact Us" [level=2]
+  - paragraph:
+    - text: Creative Commons
+    - text: PO Box 1866, Mountain View,
+    - text: CA 94042
+  - paragraph:
+    - link "info@creativecommons.org":
+      - /url: mailto:info@creativecommons.org
+  - navigation "Social menu":
+    - list:
+      - link "Bluesky":
+        - /url: https://bsky.app/profile/creativecommons.bsky.social
+      - link "Mastodon":
+        - /url: https://mastodon.social/@creativecommons
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/creative-commons/
+  - heading "Subscribe to our newsletter" [level=2]
+  - link "Subscribe":
+    - /url: https://mail.creativecommons.org/subscribe
+  - paragraph:
+    - text: Except where otherwise
+    - link "noted":
+      - /url: /policies/#license
+    - text: ", content on this site is licensed under a"
+    - link "Creative Commons Attribution 4.0 International license":
+      - /url: /licenses/by/4.0/
+    - text: . Icons by
+    - link "Font Awesome":
+      - /url: https://fontawesome.com/
+    - text: .
