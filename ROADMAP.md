@@ -4112,3 +4112,14 @@ La copia resta separata dall'originale. Il generatore ha prodotto 687 pagine; `c
 L'autore ha autorizzato il trasferimento nella cartella principale e la pubblicazione il 22 settembre 2026. Il controllo di rete dei 317 collegamenti ai testi ha trovato 313 pagine corrette, tre pagine Slayer su Readdork che rispondono 403 e un falso positivo su «Sweet Child O' Mine»: Letras codifica l'apostrofo come `&#39;` nei metadati. Le tre schede Slayer rimandano ora alle pagine testuali corrispondenti su Cifra Club, aperte e controllate; `check-testi.mjs` decodifica le entità HTML comuni prima del confronto. La seconda prova mirata dei quattro link ha dato 4 su 4 corretti. Le 313 altre pagine erano già passate nel controllo completo di rete.
 
 `check-completezza` indica 316 schede complete su 317; «The Sound of Silence» è già segnata come da integrare perché manca il player Spotify, e non è stata modificata in questo intervento. Questa lacuna preesistente non viene presentata come verificata o completa.
+
+
+## 27. Candidato Nightswimming, 29 settembre 2026
+
+Preparata una nuova scheda dei R.E.M. in `rapporti/scheda-nightswimming-2026-09-29.json`, accompagnata dal dossier di riscontro frase per frase. Riaperte interviste dirette a Mills, Buck e Litt, crediti R.E.M.HQ, lettura critica firmata di American Songwriter, cataloghi Spotify e Apple Music e destinazione del testo. La scheda distingue dichiarazioni e interpretazioni e riusa artista e album già presenti. Il candidato Galway Girl è rimasto invariato; nessun dato del sito è stato integrato nella copia di lavoro.
+
+**Freno prima della preparazione:** 317 schede, 9 a fonte narrativa unica (soglia 27), zero con sola fonte album, zero senza fonte sul brano: tolto. F67: zero voci C1–C4 mai tentate. La prova temporanea contiene 318 brani senza aumento dei contatori del freno.
+
+**Verifica:** anteprima generata solo in `/private/tmp/dit-nightswimming-2026-09-29`, aperta su `http://127.0.0.1:8775/canzone/nightswimming/`. Zero problemi nei controlli di coerenza, link strutturali, SEO e nature. Ricerca e percorsi canzone/artista/album provati nel browser; a 320 e 390 px nessuno scorrimento orizzontale. Screenshot nel dossier.
+
+**Limite da risolvere prima dell'integrazione:** il lettore Spotify aperto direttamente mostra il brano corretto; nell'iframe dell'anteprima resta vuoto. La causa non è accertata e la riproduzione incorporata non è dichiarata verificata. Restano la revisione del proprietario e la conferma tecnica in un browser normale. La completezza editoriale del candidato non certifica il funzionamento dell'iframe. Cartella principale, file non tracciati e lavoro dell'altra AI conservati; nessun push o pubblicazione.
