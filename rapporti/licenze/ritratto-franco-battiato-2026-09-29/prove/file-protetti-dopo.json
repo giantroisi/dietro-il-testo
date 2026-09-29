@@ -1,0 +1,8 @@
+{
+  "dati/canzoni.json": "5f0b5de9a4ca9e5b31accd5b1ec5e0e5aff3e8019111a47eda07318f12f08e30",
+  "dati/artisti.json": "e04dcf1c2c60839bbb0fce473477dcdf768f3022746532616bd33665eae1dcaf",
+  "dati/ritratti.json": "5c914026de8ab6eb77b0454dc2e2b8c00062e1cb89507d64ef000af01f81bc1a",
+  "dati/ritratti-scelti.json": "2a3a83120a11b791a035017959a803c3ae6e0efab3992ab97379ddc615467db5",
+  "scripts/genera-sito.mjs": "be4de33085c781b429cbfd6231fdb73ff0c4c1480fc53645e5e81e7c92ad2414",
+  "scripts/genera/pagine.mjs": "709fa92d3cbee21e310b9bacbe2b7c6ab0407d7f1c4c0948084e8c878f3b7dcd"
+}

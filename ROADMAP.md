@@ -4138,3 +4138,14 @@ Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. 
 **Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
 
 **Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.
+
+
+## 29. Candidatura isolata del ritratto di Franco Battiato, 29 settembre 2026
+
+Preparata una foto per l’artista già presente con sette canzoni. Riaperta la pagina originale di Wikimedia Commons (revisione `1259992219`): autore e titolare dichiarato Estevoaei, lavoro proprio, CC BY-SA 4.0, concerto al Teatro Circo Price di Madrid del 21 marzo 2013. Letta la licenza sul sito di Creative Commons. Scaricato e ispezionato il JPEG originale, 578 × 656 px; registrati fonte, autore, titolare dichiarato, licenza, data di verifica, pagina d’uso, credito visibile, testo alternativo, modifiche (nessuna) e impronta del file. Il soggetto è riconoscibile; limite estetico reale: scatto di concerto leggermente mosso e morbido.
+
+Copia `/Users/gianmicheletroisi/.codex/worktrees/ritratto-battiato-2026-09-29/dietro-il-testo`, creata da `02f952a4`. Dossier `rapporti/licenze/ritratto-franco-battiato-2026-09-29/README.md`; anteprima locale http://127.0.0.1:8782/artista/franco-battiato/. Un helper applica il generatore ufficiale del ritratto esclusivamente all’output ignorato `sito/` e aggiunge `noindex,nofollow`; rigenerando il sito torna la grafica originale. Non modificati i registri dei ritratti, i dati editoriali o i generatori. Impronte dei sei file protetti identiche prima/dopo.
+
+**Prove:** immagine caricata e file servito identico al download; credito e testo alternativo verificati; nessuna fuoriuscita orizzontale a 1280, 390 e 320 px, credito leggibile; nessun avviso/errore di console osservato. Verifica effettuata nel browser interno perché Chrome non era disponibile nel ciclo. Passano la sintassi dell’helper e il controllo esistente dei crediti. Screenshot e misure nel dossier.
+
+**Stato: candidatura pronta per la revisione del proprietario.** Nessuna integrazione nei registri, trasferimento, push o pubblicazione. Cartella principale al commit `02f952a4`, file non tracciato preservato; lotti in revisione e lavoro dell’altra AI non modificati. Nessuna nuova scheda e nessun uso di GSC.

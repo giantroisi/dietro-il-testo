@@ -1,0 +1,72 @@
+{
+  "browser": "Codex In-app Browser",
+  "chromeDisponibile": false,
+  "verifiche": [
+    {
+      "credit": "Franco Battiato 2013 · Foto di Estevoaei · CC BY-SA 4.0 · file originale da Wikimedia Commons",
+      "images": [
+        {
+          "alt": "Franco Battiato al microfono, con cuffie e braccia alzate, al Teatro Circo Price di Madrid nel 2013",
+          "height": 656,
+          "loaded": true,
+          "src": "../../ritratti/franco-battiato-2013.jpg",
+          "width": 578
+        }
+      ],
+      "robots": "noindex,nofollow",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "credit": "Franco Battiato 2013 · Foto di Estevoaei · CC BY-SA 4.0 · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 751.078125,
+        "height": 357.0078125,
+        "left": 24,
+        "right": 366,
+        "top": 394.0703125,
+        "width": 342,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "photo": {
+        "bottom": 711.578125,
+        "height": 317.5078125,
+        "left": 24,
+        "right": 303.9921875,
+        "top": 394.0703125,
+        "width": 279.9921875,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "credit": "Franco Battiato 2013 · Foto di Estevoaei · CC BY-SA 4.0 · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 766.828125,
+        "height": 372.7578125,
+        "left": 24,
+        "right": 304,
+        "top": 394.0703125,
+        "width": 280,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "photo": {
+        "bottom": 711.578125,
+        "height": 317.5078125,
+        "left": 24,
+        "right": 303.9921875,
+        "top": 394.0703125,
+        "width": 279.9921875,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "logs": []
+}

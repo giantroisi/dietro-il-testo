@@ -1,0 +1,8 @@
+PASS: file originale JPEG, 578 × 656 px, 252413 byte.
+PASS: SHA-256 sorgente e copia servita identici.
+PASS: immagine caricata, alt completo, credito con autore, licenza e fonte.
+PASS: nessuna fuoriuscita orizzontale a 1280, 390 e 320 px.
+PASS: anteprima noindex,nofollow; zero avvisi/errori di console osservati.
+PASS: sei file protetti identici prima/dopo e dati editoriali invariati.
+PASS: sintassi crea-anteprima.mjs; prova-ritratto-credito.mjs passa.
+LIMITE: Chrome non disponibile durante questo ciclo; prove effettuate nel browser interno.
