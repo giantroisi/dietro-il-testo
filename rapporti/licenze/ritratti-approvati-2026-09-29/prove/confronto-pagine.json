@@ -1,0 +1,50 @@
+{
+  "baseGit": "84e7bcfd",
+  "pagineConfrontate": 688,
+  "htmlModificati": [
+    "artista/alice-in-chains/index.html",
+    "artista/iron-maiden/index.html",
+    "artista/system-of-a-down/index.html"
+  ],
+  "dateCanzoniInvariate": 317,
+  "dateModificate": [
+    {
+      "pagina": "artista/iron-maiden/index.html",
+      "prima": "2026-09-17",
+      "dopo": "2026-09-29"
+    },
+    {
+      "pagina": "artista/alice-in-chains/index.html",
+      "prima": "2026-09-22",
+      "dopo": "2026-09-29"
+    },
+    {
+      "pagina": "artista/system-of-a-down/index.html",
+      "prima": "2026-09-22",
+      "dopo": "2026-09-29"
+    }
+  ],
+  "lastmodSitemapModificati": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/alice-in-chains/",
+      "prima": "2026-09-22",
+      "dopo": "2026-09-29"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/iron-maiden/",
+      "prima": "2026-09-17",
+      "dopo": "2026-09-29"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/system-of-a-down/",
+      "prima": "2026-09-22",
+      "dopo": "2026-09-29"
+    }
+  ],
+  "fileProtettiSHA256": {
+    "COSTITUZIONE.md": "098efdb5a96157937eafb668353ee3a6e0826f50d5fae8fbd571dbe6d7eb894f",
+    "dati/canzoni.json": "53c2efa7165597fc0403a71da0c515869651ae2aad6995a7208ad498c9de9574",
+    "dati/artisti.json": "e04dcf1c2c60839bbb0fce473477dcdf768f3022746532616bd33665eae1dcaf"
+  },
+  "notaBaseline": "Confronto con identica rigenerazione della base: la pillola della homepage ruota giornalmente anche senza questa modifica."
+}

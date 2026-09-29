@@ -4112,3 +4112,15 @@ La copia resta separata dall'originale. Il generatore ha prodotto 687 pagine; `c
 L'autore ha autorizzato il trasferimento nella cartella principale e la pubblicazione il 22 settembre 2026. Il controllo di rete dei 317 collegamenti ai testi ha trovato 313 pagine corrette, tre pagine Slayer su Readdork che rispondono 403 e un falso positivo su «Sweet Child O' Mine»: Letras codifica l'apostrofo come `&#39;` nei metadati. Le tre schede Slayer rimandano ora alle pagine testuali corrispondenti su Cifra Club, aperte e controllate; `check-testi.mjs` decodifica le entità HTML comuni prima del confronto. La seconda prova mirata dei quattro link ha dato 4 su 4 corretti. Le 313 altre pagine erano già passate nel controllo completo di rete.
 
 `check-completezza` indica 316 schede complete su 317; «The Sound of Silence» è già segnata come da integrare perché manca il player Spotify, e non è stata modificata in questo intervento. Questa lacuna preesistente non viene presentata come verificata o completa.
+
+## 27. Tre fotografie approvate integrate — 29 settembre 2026
+
+Il proprietario ha approvato le fotografie di Iron Maiden, System of a Down e Alice in Chains. Inseriti i tre file verificati nel registro, aggiornato il generatore per mantenere testi alternativi descrittivi, dimensioni e crediti completi, e sostituita la precedente scelta Iron Maiden con quella approvata. Il credito di Alice in Chains conserva la formula richiesta da Sven Mandel; quelli CC BY 2.0 conservano anche i titoli originali. La riduzione effettuata da Commons è dichiarata e i JPEG sono identici ai file verificati.
+
+Lavoro svolto nella copia `/Users/gianmicheletroisi/.codex/worktrees/ritratti-approvati-2026-09-29/dietro-il-testo`, partendo da `84e7bcfd`. [Rapporto e licenze](rapporti/licenze/integrazione-ritratti-approvati-2026-09-29.md), dossier originali e prove sono conservati nella copia. Nessuna modifica ai testi editoriali affidati all’altra AI.
+
+Verificati i casi di attribuzione incompleta, la corrispondenza degli asset e la conservazione byte per byte delle 27 figure precedenti. Generazione, SEO, coerenza e collegamenti passano. Il confronto di 688 pagine con la rigenerazione della stessa base isola tre HTML artista modificati; le date delle 317 canzoni restano invariate. Browser a 1280, 390 e 320 px: foto intere, crediti completi, niente scorrimento orizzontale o immagini rotte, zero errori o avvisi di console registrati. A 320 px controllato anche il credito Alice in Chains dopo lo scorrimento; verificato il ritorno alla home.
+
+Anteprima finale sulla porta locale 8779. Integrazione completata nella copia separata; cartella principale e file non tracciati conservati. Nessun push o pubblicazione.
+
+**Lotto chiuso, in attesa della revisione finale del proprietario per eventuale trasferimento e pubblicazione.** Conservare questi file nelle prossime esecuzioni della routine e scegliere un intervento indipendente.

@@ -1,0 +1,48 @@
+{
+  "slug": "iron-maiden",
+  "label": "desktop",
+  "alt": "Gli Iron Maiden in concerto all'O2 di Londra nel 2017, con musicisti, strumenti e scenografia sul palco",
+  "bodyWidth": 1280,
+  "brokenImages": [],
+  "credit": "IronMaidenO2_270517-51 · Foto di Raph_PH · CC BY 2.0 · ridimensionata da Wikimedia Commons",
+  "creditBounds": {
+    "bottom": 361.125,
+    "top": 329.625
+  },
+  "h1": "Iron Maiden: significato dei testi e canzoni spiegate",
+  "links": [
+    {
+      "rel": "nofollow noopener",
+      "text": "IronMaidenO2_270517-51",
+      "url": "https://www.flickr.com/photos/69880995@N04/34145629044/"
+    },
+    {
+      "rel": "license nofollow noopener",
+      "text": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/deed.it"
+    },
+    {
+      "rel": "nofollow noopener",
+      "text": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Iron_Maiden_-_The_O2_-_Saturday_27th_May_2017_IronMaidenO2_270517-51_(34145629044).jpg"
+    }
+  ],
+  "loaded": true,
+  "natural": {
+    "height": 539,
+    "width": 960
+  },
+  "overlay": false,
+  "rendered": {
+    "bottom": 321.625,
+    "height": 169.3125,
+    "top": 152.3125,
+    "width": 299.9921875
+  },
+  "url": "http://127.0.0.1:8779/artista/iron-maiden/",
+  "viewport": {
+    "height": 900,
+    "width": 1280
+  },
+  "logs": []
+}

@@ -196,6 +196,31 @@ const RADICE_RITRATTI = '../../ritratti/';
  * che per chi legge vale piu' del nome di un fotografo. */
 const CREDITO_PROPRIO = 'Dietro il testo';
 
+// Crediti composti da testo e collegamenti, senza HTML nei dati. Se manca
+// autore, fonte o licenza nel credito personalizzato, la foto resta esclusa.
+function creditoRitratto(rt) {
+  if (!Array.isArray(rt.creditoParti) || !rt.creditoParti.length) return null;
+  const parti = rt.creditoParti;
+  const valida = parti.every((p) => {
+    if (typeof p === 'string') return true;
+    if (!p || typeof p.testo !== 'string' || !p.testo.trim() || typeof p.url !== 'string') return false;
+    try { return ['https:', 'http:'].includes(new URL(p.url).protocol); }
+    catch { return false; }
+  });
+  if (!valida) return null;
+  const testo = parti.map((p) => typeof p === 'string' ? p : p.testo).join('');
+  if (!testo.includes(rt.autore) || !parti.some((p) => p.url === rt.fonte)
+      || !parti.some((p) => p.url === rt.licenzaUrl)) return null;
+  return parti.map((p) => typeof p === 'string' ? esc(p)
+    : `<a href="${esc(p.url)}" rel="${p.url === rt.licenzaUrl ? 'license ' : ''}nofollow noopener">${esc(p.testo)}</a>`).join('');
+}
+
+function dimensioniRitratto(rt) {
+  const { larghezza, altezza } = rt.dimensioni || {};
+  return Number.isSafeInteger(larghezza) && larghezza > 0 && Number.isSafeInteger(altezza) && altezza > 0
+    ? ` width="${larghezza}" height="${altezza}"` : '';
+}
+
 export function ritrattoArtista(a) {
   const rt = a.ritratto || RITRATTI[a.slug];
   if (!rt || !rt.file) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: null };
@@ -208,7 +233,7 @@ export function ritrattoArtista(a) {
     return {
       pubblicata: true,
       html: `<figure class="ritratto">
-        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="eager" fetchpriority="high" decoding="async">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="${esc(rt.alt || `Foto di ${a.nome}`)}"${dimensioniRitratto(rt)} loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           Foto di ${esc(CREDITO_PROPRIO)}
           ${SEGNO}
@@ -220,14 +245,18 @@ export function ritrattoArtista(a) {
 
   const completo = rt.autore && rt.licenza && rt.licenzaUrl && rt.fonte;
   if (!completo) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: 'attribuzione incompleta' };
+  const creditoPersonalizzato = rt.creditoParti === undefined ? null : creditoRitratto(rt);
+  if (rt.creditoParti !== undefined && !creditoPersonalizzato) {
+    return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: 'credito personalizzato incompleto o non valido' };
+  }
   return {
     pubblicata: true,
     html: `<figure class="ritratto">
-        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="Foto di ${esc(a.nome)}" loading="eager" fetchpriority="high" decoding="async">
+        <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="${esc(rt.alt || `Foto di ${a.nome}`)}"${dimensioniRitratto(rt)} loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
-          <a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
+          ${creditoPersonalizzato || `<a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
           ${SEGNO}
-          <a href="${esc(rt.licenzaUrl)}" rel="license nofollow noopener">${esc(rt.licenza)}</a>
+          <a href="${esc(rt.licenzaUrl)}" rel="license nofollow noopener">${esc(rt.licenza)}</a>`}
         </figcaption>
       </figure>`,
   };
