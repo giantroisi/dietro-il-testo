@@ -4138,3 +4138,16 @@ Il proprietario ha confermato il trasferimento e collegato l'estensione Chrome. 
 **Controlli nella cartella principale:** passano `check-filtri`, `check-seo`, `check-coerenza`, `check-link` e `prova-ritratto-credito`; differenze Git senza errori. Homepage e navigazione all'archivio funzionano in Chrome. A 390 × 844 il filtro italiano mostra 107 di 317 canzoni, 107 schede visibili, pulsante alto 44 px e nessuna fuoriuscita orizzontale. Le prove e il rapporto sono in `rapporti/trasferimento-sito-2026-09-29/README.md`.
 
 **Stato: trasferimento completato, pubblicazione non eseguita.** L'ultima autorizzazione nomina il trasferimento. Le altre immagini, le due nuove schede e le proposte sui 45 rapporti dell'altra AI restano separate; i suoi file non sono stati modificati. Nessun push, nessun uso di GSC. Testi, fonti, stato e ultima verifica delle canzoni restano quelli della base, salvo i 47 campi paese del lotto approvato.
+
+
+## 29. Candidatura isolata del ritratto di Pino Daniele, 29 settembre 2026
+
+Preparato il file `Pino Daniele 2009.jpg` per l’artista già presente con tre canzoni. Riaperta la pagina originale Commons, revisione `1129800419`: autore Iaconianni family, provenienza Fotoguru.it, CC BY-SA 3.0 e attestazione pubblica dell’autorizzazione del titolare verificata da Wikimedia VRT (ticket `2008042810014876`). Letto il riepilogo ufficiale della licenza. Non consultata la corrispondenza privata VRT; titolare non nominato separatamente nella pagina.
+
+Scaricato e ispezionato il JPEG originale senza modifiche, 333 × 500 px e 52900 byte; soggetto corrispondente, SHA-1 identico a quello pubblicato da Commons e copia servita identica. Registrati autore, fonte, licenza, prova pubblica di autorizzazione, data della verifica, pagina d’uso, modifiche, credito visibile e testo alternativo. Limite reale: risoluzione adatta al riquadro attuale, non ad ingrandimenti.
+
+Copia `/Users/gianmicheletroisi/.codex/worktrees/ritratto-pino-daniele-2026-09-29/dietro-il-testo`, creata da `02f952a4`. Dossier `rapporti/licenze/ritratto-pino-daniele-2026-09-29/README.md`; anteprima locale http://127.0.0.1:8783/artista/pino-daniele/. L’helper usa il generatore ufficiale e modifica solo l’output ignorato, con `noindex,nofollow`; la rigenerazione normale ripristina la grafica originale. Registri, schede e generatori invariati, con sei impronte confrontate prima/dopo. La candidatura Battiato e gli altri lotti in revisione non sono stati toccati.
+
+**Prove:** immagine caricata, alt e credito corretti, due collegamenti visibili; nessuna fuoriuscita a 1280, 390 e 320 px e nessun avviso/errore di console osservato nel browser interno. Passano sintassi dell’helper e controllo esistente dei crediti. Screenshot e misure nel dossier. Il controllo di stato della vecchia copia UX non si è concluso: interrotto il solo processo di lettura, nessuna modifica a quei file.
+
+**Stato: candidatura pronta per la revisione del proprietario.** Nessuna integrazione nei registri, trasferimento, push o pubblicazione. Cartella principale e file non tracciati preservati; non modificato il lavoro dell’altra AI, che ha prodotto un nuovo rapporto su `in-the-end`. Nessuna nuova scheda e nessun uso di GSC.

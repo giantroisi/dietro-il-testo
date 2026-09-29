@@ -1,0 +1,8 @@
+PASS: JPEG originale, 333 × 500 px, 52900 byte.
+PASS: SHA-256 del file e SHA-1 pubblicato da Commons corrispondono; copia servita identica.
+PASS: autore, licenza e attestazione VRT riaperti nella pagina originale.
+PASS: immagine caricata, alt completo, credito visibile e collegamenti corretti.
+PASS: nessuna fuoriuscita orizzontale a 1280, 390 e 320 px; console senza avvisi/errori osservati.
+PASS: noindex,nofollow sulla candidatura, sei file protetti invariati.
+PASS: sintassi helper e prova-ritratto-credito.mjs.
+LIMITE: file originale di 333 × 500 px; lettera privata VRT non consultata, verificata l’attestazione pubblica.

@@ -1,0 +1,91 @@
+{
+  "browser": "Codex In-app Browser",
+  "verifiche": [
+    {
+      "credit": "Pino Daniele 2009 · Foto di Iaconianni family (Fotoguru.it) · CC BY-SA 3.0 · file originale da Wikimedia Commons",
+      "creditLinks": [
+        {
+          "label": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "label": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Pino_Daniele_2009.jpg"
+        }
+      ],
+      "photo": [
+        {
+          "alt": "Pino Daniele al microfono con una chitarra elettrica bianca, nel 2009",
+          "box": {
+            "bottom": 472.3125,
+            "height": 320,
+            "left": 900,
+            "right": 1113.78125,
+            "top": 152.3125,
+            "width": 213.78125,
+            "x": 900,
+            "y": 152.3125
+          },
+          "height": 500,
+          "loaded": true,
+          "src": "../../ritratti/pino-daniele-2009.jpg",
+          "width": 333
+        }
+      ],
+      "robots": "noindex,nofollow",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "credit": "Pino Daniele 2009 · Foto di Iaconianni family (Fotoguru.it) · CC BY-SA 3.0 · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 743.625,
+        "height": 385.25,
+        "left": 24,
+        "right": 366,
+        "top": 358.375,
+        "width": 342,
+        "x": 24,
+        "y": 358.375
+      },
+      "photo": {
+        "bottom": 688.375,
+        "height": 330,
+        "left": 24,
+        "right": 244.4453125,
+        "top": 358.375,
+        "width": 220.4453125,
+        "x": 24,
+        "y": 358.375
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "credit": "Pino Daniele 2009 · Foto di Iaconianni family (Fotoguru.it) · CC BY-SA 3.0 · file originale da Wikimedia Commons",
+      "figure": {
+        "bottom": 779.3203125,
+        "height": 385.25,
+        "left": 24,
+        "right": 296,
+        "top": 394.0703125,
+        "width": 272,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "photo": {
+        "bottom": 724.0703125,
+        "height": 330,
+        "left": 24,
+        "right": 244.4453125,
+        "top": 394.0703125,
+        "width": 220.4453125,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "logs": []
+}
