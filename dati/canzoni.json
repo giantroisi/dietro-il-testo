@@ -1116,10 +1116,10 @@
     "ascoltiTesto": "477 mln ascolti",
     "spotifyId": "44AxeBXrK9LQlGjXyT2oZQ",
     "corpo": [
-      "Racconta la conquista europea del Nord America dal punto di vista delle pianure insanguinate, alternando la prospettiva dei coloni e quella dei popoli nativi sterminati e privati delle proprie terre.",
-      "Fu il primo singolo della band con Bruce Dickinson alla voce e il primo Top 10 britannico della band (#7). Nel tour successivo, la nipote di un capo Apache viaggiò dal Nevada fino a una tappa in Texas per ringraziare la band con un dono, in segno di riconoscenza per il tema del brano."
+      "Racconta la conquista europea del Nord America e la violenza contro i popoli nativi. Il racconto comincia dalla loro prospettiva, poi mostra dall'esterno i coloni che li considerano inferiori.",
+      "Fu il primo singolo della band con Bruce Dickinson alla voce e raggiunse il numero 7 nel Regno Unito. Secondo Metal Hammer, durante il tour dell'album la nipote di un capo Apache viaggiò dal Nevada a una tappa in Texas per consegnare doni alla band come ringraziamento."
     ],
-    "fraseIconica": "Il ritornello più citato è l'urgente invito a fuggire verso le colline, a correre per salvarsi la vita. Il brano racconta il genocidio dei popoli nativi americani cambiando prospettiva narrativa: la prima strofa è raccontata dal punto di vista dei nativi (con immagini che evocano l'arrivo di Colombo e la schiavitù degli Arawak nei Caraibi), poi il punto di vista passa ai coloni invasori, che disumanizzano le persone che stanno sterminando. L'immagine della fuga nel ritornello è diventata uno dei cori dal vivo più noti della band.",
+    "fraseIconica": "Il ritornello ripete il titolo come un grido d'allarme. Il brano racconta la violenza della conquista europea del Nord America: prima segue i popoli nativi, poi descrive dall'esterno lo sguardo disumanizzante dei coloni.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/iron-maiden/run-to-the-hills/",
     "fonti": [
@@ -1132,6 +1132,11 @@
         "nome": "American Songwriter"
       },
       {
+        "url": "https://www.loudersound.com/features/iron-maiden-story-behind-run-to-the-hills",
+        "nome": "Metal Hammer — Joe Daly",
+        "ruolo": "storia"
+      },
+      {
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
@@ -1141,7 +1146,8 @@
     "temi": [
       "guerra",
       "critica-sociale"
-    ]
+    ],
+    "descrizioneSeo": "Run to the Hills degli Iron Maiden racconta la conquista europea del Nord America cambiando prospettiva dai popoli nativi ai coloni."
   },
   {
     "slug": "breaking-the-law",
