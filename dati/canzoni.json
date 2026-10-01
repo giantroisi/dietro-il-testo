@@ -453,35 +453,33 @@
     "paese": null,
     "colore": "#6B6B6E",
     "colore2": "#7A1A1A",
-    "ascolti": 2200000000,
-    "ascoltiTesto": "2,2 mld ascolti",
     "spotifyId": "5sICkBXVmaCQk5aISGR3x1",
     "corpo": [
-      "Racconta gli incubi infantili legati a una figura minacciosa, il \"Sandman\", intrecciando la celebre preghiera della buonanotte con immagini più cupe. Fu il primo brano scritto per l'album omonimo del 1991, nato nella casa di Lars Ulrich a Berkeley; il riff fu in parte ispirato da Louder Than Love dei Soundgarden.",
-      "Segnò la svolta della band verso un suono più accessibile, contribuendo a oltre 30 milioni di copie vendute dell'album e restando la canzone più ascoltata di Metallica su Spotify."
+      "Kirk Hammett ideò il riff iniziale di \"Enter Sandman\", che il gruppo sviluppò nella casa di Lars Ulrich a Berkeley. Secondo American Songwriter, fu il primo brano scritto per \"Metallica\" (1991). Il catalogo ufficiale accredita la composizione a Hammett, James Hetfield e Ulrich.",
+      "Nel testo pubblicato, il rituale della buonanotte apre a immagini di paura e incubi infantili. Hetfield aveva preparato una prima stesura che includeva un riferimento alla morte in culla; secondo American Songwriter, Ulrich e il produttore Bob Rock gli dissero che poteva scrivere un testo migliore, e il cantante lo riscrisse. L'album, noto come \"Black Album\", adottò arrangiamenti più diretti sotto la guida di Rock, secondo la storia ufficiale dei Metallica."
     ],
-    "fraseIconica": "Il ritornello più citato è quello che contrappone l'uscita dalla luce all'ingresso nella notte. James Hetfield costruì il brano attorno al rituale della nanna di un bambino, riscrivendo la figura rassicurante del Sandman come qualcosa di più sinistro, capace di portare incubi invece di sonno tranquillo; il concetto lirico originale, poi ammorbidito prima della registrazione, riguardava esplicitamente la morte in culla (SIDS), e un verso della prima stesura fu cambiato proprio per attenuarne la durezza.",
+    "fraseIconica": "La buonanotte diventa l'ingresso negli incubi di un bambino. Prima di arrivare a questo testo, Hetfield riscrisse una stesura iniziale dopo che Ulrich e il produttore Bob Rock gli dissero che poteva fare di meglio.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/metallica/enter-sandman/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Enter_Sandman",
-        "nome": "Wikipedia"
+        "url": "https://www.metallica.com/songs/enter-sandman.html",
+        "nome": "Metallica — catalogo ufficiale e crediti",
+        "ruolo": "storia"
       },
       {
         "url": "https://americansongwriter.com/behind-the-history-and-meaning-of-the-metallica-song-enter-sandman/",
-        "nome": "American Songwriter"
+        "nome": "American Songwriter — Jacob Uitti, 2023",
+        "ruolo": "storia"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.metallica.com/history/",
+        "nome": "Metallica — storia ufficiale del gruppo",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "morte-lutto"
-    ]
+    "temi": []
   },
   {
     "slug": "chop-suey",
