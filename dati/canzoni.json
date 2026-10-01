@@ -5022,24 +5022,40 @@
     "ascoltiTesto": "1,3 mld ascolti",
     "spotifyId": "1hwJKpe0BPUsq6UUrwBWTw",
     "corpo": [
-      "Scritta da Billie Joe Armstrong insieme a Mike Dirnt e Tré Cool, nacque durante la pre-produzione di \"American Idiot\" (2004), quando Armstrong trascorse alcune settimane da solo a New York, camminando per la città per schiarirsi le idee. Il titolo prende spunto da un poster di James Dean che lo ritrae mentre attraversa la città con un soprabito addosso.",
-      "All'interno del concept album, il brano è cantato dal punto di vista di Jesus of Suburbia, il protagonista della storia, e usa l'immagine del camminare da soli come metafora della distanza emotiva e della solitudine, in un percorso di vita segnato da delusioni e sogni non realizzati."
+      "Billie Joe Armstrong ha raccontato a People che, mentre scriveva American Idiot, trascorse da solo oltre due mesi in un appartamento a New York per concentrarsi senza distrazioni. Ha descritto Boulevard of Broken Dreams come una canzone sulla solitudine che si può provare anche nel caos della città. Il titolo riprende un dipinto di Gottfried Helnwein raffigurante James Dean: il sito dell'artista documenta che Armstrong ne parlò in una puntata di VH1 Storytellers del 2005.",
+      "Nel racconto di American Idiot, il brano segue Jesus of Suburbia dopo l'arrivo in città: alla libertà cercata si affianca l'isolamento. Il sito di Helnwein distingue questo ritratto di James Dean dall'altro suo dipinto omonimo che rappresenta quattro icone del cinema e della musica in un locale."
     ],
-    "fraseIconica": "Il verso più citato è quello d'apertura, in cui il narratore descrive la propria come l'unica strada solitaria che abbia mai conosciuto — un'immagine di isolamento che può colpire anche in mezzo alla folla, se nessuno intorno ascolta davvero. Secondo Songfacts, il titolo nacque da una fotografia del 1948 di James Dean che cammina per le strade di New York, con la scritta \"Boulevard of Broken Dreams\" sotto l'immagine: Armstrong ha raccontato di aver \"rubato\" il titolo proprio da quella foto.",
-    "sezioniExtra": [],
-    "testoUrl": "https://www.letras.com/green-day/boulevard-of-broken-dreams/",
+    "fraseIconica": "All'inizio, il protagonista si immagina separato dagli altri mentre attraversa la città. Armstrong ha spiegato a People che il nucleo del brano è la solitudine: anche circondati dal movimento e dal rumore si può restare isolati.",
+    "sezioniExtra": [
+      {
+        "titolo": "Curiosità",
+        "paragrafi": [
+          "Boulevard of Broken Dreams ha vinto il Grammy per la registrazione dell'anno nel 2006. La Recording Academy accredita come produttori Rob Cavallo e Green Day."
+        ],
+        "coppie": []
+      }
+    ],
+    "testoUrl": "https://www.letras.com/green-day/101227/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
-        "nome": "Wikipedia"
+        "url": "https://people.com/billie-joe-armstrong-breaks-down-green-day-hits-exclusive-8430564",
+        "nome": "People — Jeff Nelson, intervista a Billie Joe Armstrong",
+        "ruolo": "storia"
       },
       {
-        "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
-        "nome": "Songfacts"
+        "url": "https://www.helnwein.com/article/3097-Helnweins-Boulevard-of-Broken-Dreams?category=artist&site=en&subcategory=news_update",
+        "nome": "Gottfried Helnwein — archivio dell'artista",
+        "ruolo": "storia"
       },
       {
-        "url": "https://extrachill.com/green-day-boulevard-of-broken-dreams-meaning/",
-        "nome": "Extra Chill"
+        "url": "https://www.helnwein.com/article/6369-The-Meaning-Behind-Boulevard-of-Broken-Dreams-by-Green-Day-and-Walking-Alone-with-James-Dean?category=news&site=cs&subcategory=news_update",
+        "nome": "Gottfried Helnwein — American Songwriter, Thom Donovan",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.grammy.com/awards/categories/record-of-the-year/2006/",
+        "nome": "Recording Academy — Record of the Year 2006",
+        "ruolo": "storia"
       },
       {
         "url": "https://kworb.net/spotify/artist/7oPftvlwr6VrsViSDV7fJY_songs.html",
@@ -5048,6 +5064,7 @@
       }
     ],
     "testoFonte": "Letras",
+    "descrizioneSeo": "Boulevard of Broken Dreams dei Green Day: Armstrong racconta la solitudine a New York e il titolo ispirato a un dipinto di Gottfried Helnwein.",
     "temi": [
       "alienazione"
     ]
