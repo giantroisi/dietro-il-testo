@@ -354,29 +354,22 @@
     "paese": null,
     "colore": "#8A1414",
     "colore2": "#4A4A4A",
-    "ascolti": 2300000000,
-    "ascoltiTesto": "2,3 mld ascolti",
     "spotifyId": "2zYzyRzz6pRmhPzyfMEC8s",
     "corpo": [
-      "Title track del sesto album della band, uscito il 27 luglio 1979. Il titolo nacque quasi per scherzo, quando il chitarrista Angus Young descrisse la massacrante tournée del 1978 come \"un'autostrada per l'inferno\"; secondo il futuro cantante Brian Johnson, il testo fu scritto da Bon Scott durante le lunghe ore morte sul pullman della band.",
-      "Fu l'ultimo album inciso con Scott, morto nel 1980, e resta oggi il brano di gran lunga più ascoltato di sempre degli AC/DC su Spotify."
+      "Brano d'apertura dell'album omonimo del 1979, prodotto da Robert \"Mutt\" Lange. American Songwriter presenta due possibili spiegazioni del titolo: un'espressione usata da Angus Young per descrivere i tour americani e un richiamo alla Canning Highway, che attraversa Fremantle, dove viveva Bon Scott.",
+      "Brian Johnson, in un'intervista a The Metro ripresa da American Songwriter, racconta che Scott lavorò al testo durante i viaggi sul pullman della band. Highway to Hell fu l'ultimo album degli AC/DC con Scott, morto nel 1980."
     ],
-    "fraseIconica": "Il verso più citato è quello in cui si dichiara che non ci sono cartelli di stop né limiti di velocità a fermarlo — un'immagine di slancio inarrestabile spesso letta come un riferimento alla vita massacrante dei tour. Una teoria ben documentata lega il titolo alla Canning Highway di Perth, vicino a dove viveva il cantante Bon Scott, una strada con una ripida discesa nei pressi di un pub malfamato dove più persone persero la vita guidando troppo veloce; un'altra versione attribuisce la frase a un'espressione che il chitarrista Angus Young usava per descrivere i massacranti tour americani della band.",
+    "fraseIconica": "Il ritornello trasforma il titolo in un'immagine di viaggio senza tregua. Per American Songwriter, può richiamare i tour americani o la Canning Highway legata a Bon Scott.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/ac-dc/615/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Highway_to_Hell_(song)",
-        "nome": "Wikipedia"
+        "url": "https://www.acdc.com/music/highway-to-hell/",
+        "nome": "AC/DC — archivio ufficiale dell'album"
       },
       {
         "url": "https://americansongwriter.com/behind-the-meaning-of-highway-to-hell-by-ac-dc/",
         "nome": "American Songwriter"
-      },
-      {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
