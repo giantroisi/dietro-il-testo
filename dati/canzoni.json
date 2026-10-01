@@ -6114,24 +6114,29 @@
     "ascoltiTesto": null,
     "spotifyId": "7qiZfU4dY1lWllzX7mPBI3",
     "corpo": [
-      "Scritta da Ed Sheeran con Steve Mac, Johnny McDaid, Kevin Briggs, Kandi Burruss e Tameka Cottle, nacque durante una session organizzata più per fornire brani ad altri artisti che per l'album di Sheeran stesso, dato che riteneva di avere già abbastanza materiale per il disco \"÷\". Il pezzo era stato pensato inizialmente per Rihanna, prima di rivelarsi perfetto per la voce dello stesso Sheeran.",
-      "Il testo racconta l'incontro con una ragazza in un bar, mentre l'autore è lì con gli amici, e il progressivo trasformarsi dell'attrazione fisica in un legame più profondo. Divenne il brano più ascoltato in streaming del 2017 e vinse il Grammy Award come miglior interpretazione pop solista."
+      "Shape of You nacque da una sessione di scrittura fra Ed Sheeran, Steve Mac e Johnny McDaid. Mac racconta a Music Business Worldwide che Sheeran considerava già finito l'album ÷ e che i tre non pensavano di destinare il nuovo brano a lui. Valutarono di proporlo a Rihanna; secondo Mac, fu poi Ben Cook dell'etichetta Atlantic UK a suggerire che diventasse un singolo di Sheeran.",
+      "Stereogum legge il brano come il racconto di un incontro e dell'attrazione che ne segue. Ai crediti dei tre autori originari si aggiunsero Kandi Burruss, Tameka Cottle e Kevin Briggs, autori di No Scrubs delle TLC: Pitchfork documenta l'aggiunta successiva dei loro nomi. Nel 2018 Shape of You vinse il Grammy per la migliore interpretazione pop solista."
     ],
-    "fraseIconica": "Il momento più citato è l'apertura, in cui il narratore racconta di aver incontrato la persona amata in un bar invece che in un locale — un dettaglio autobiografico più che una scelta casuale. Ed Sheeran ha raccontato di aver scritto il brano pensando inizialmente a Rihanna, ma di essersene riappropriato a metà stesura quando si rese conto che alcuni versi troppo specifici, come quello sul juke-box, sarebbero suonati strani in bocca a un'altra interprete.",
+    "fraseIconica": "Nella nostra lettura, l'apertura sceglie una scena quotidiana per dare concretezza all'attrazione raccontata nel brano.",
+    "descrizioneSeo": "Shape of You nacque in una sessione pensata per altri artisti: Steve Mac racconta come il brano finì poi fra i singoli di Ed Sheeran.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/ed-sheeran/shape-of-you/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Shape_of_You",
-        "nome": "Wikipedia"
+        "url": "https://www.musicbusinessworldwide.com/steve-mac-there-are-no-rules-to-pop-music-now-it-just-has-to-be-of-great-quality/",
+        "nome": "Music Business Worldwide — intervista a Steve Mac"
       },
       {
-        "url": "https://www.songfacts.com/facts/ed-sheeran/shape-of-you",
-        "nome": "Songfacts"
+        "url": "https://stereogum.com/2287609/the-number-ones-ed-sheerans-shape-of-you/columns/the-number-ones",
+        "nome": "Stereogum — lettura del brano"
       },
       {
-        "url": "https://www.billboard.com/music/pop/ed-sheeran-shape-of-you-songwriting-process-interview-8077771/",
-        "nome": "Billboard"
+        "url": "https://pitchfork.com/news/72389-ed-sheeran-gives-tlc-no-scrubs-writers-credit-on-shape-of-you/",
+        "nome": "Pitchfork — crediti aggiunti per No Scrubs"
+      },
+      {
+        "url": "https://www.grammy.com/awards/categories/best-pop-solo-performance/2018/",
+        "nome": "Recording Academy — Grammy 2018"
       }
     ],
     "testoFonte": "Letras",
