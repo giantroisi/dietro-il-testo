@@ -4159,3 +4159,9 @@ Nella copia separata è stata riscritta la frase iconica a livello di funzione d
 **Verifica.** Rigenerate la pagina e la sola immagine condivisibile `og/highway-to-hell.png`, ispezionata per intero senza troncamenti. Su desktop (1280 px) e mobile (390 px) la frase nuova è leggibile; sul mobile non c'è scorrimento orizzontale e il browser non registra errori di console. L'anteprima non contiene più la traduzione segnalata. `check-coerenza`, `check-seo`, `check-link`, `check-attribuzioni --tutte` e `git diff --check` passano; il controllo delle attribuzioni lascia 30 avvisi informativi preesistenti su altre schede. Il catalogo resta di 317 canzoni, 104 artisti e 251 album.
 
 **Stato:** proposta locale isolata, pronta per la revisione del proprietario; nessun trasferimento, push o pubblicazione. Le altre schede in revisione restano nelle rispettive copie. Non è stata eseguita una verifica editoriale completa della scheda né di tutto l'archivio.
+
+## 31. Highway to Hell applicata nella cartella principale, 1 ottobre 2026
+
+Il proprietario ha scritto «applica e procedi» dopo aver visto la proposta del §30. Il commit `c2279c74` è stato integrato con avanzamento diretto in `main` locale. Rigenerato il sito: 26 file pubblicabili sono cambiati, fra cui la pagina della canzone, le anteprime collegate, l'indice di ricerca e le sitemap. Tutti i file del pacchetto generato coincidono byte per byte con quelli della cartella principale. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` conserva lo stesso hash SHA-256 precedente.
+
+**Controlli:** `check-coerenza`, `check-seo`, `check-link`, `check-filtri`, `check-nature` e `git diff --check` passano. La verifica visiva desktop e mobile della pagina e dell'immagine condivisibile è documentata al §30. La modifica è nella cartella principale locale; non è stata inviata a GitHub né pubblicata online. Le correzioni di altre schede e le proposte di immagini restano in copie separate.
