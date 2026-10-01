@@ -14,30 +14,32 @@
     "paese": null,
     "colore": "#A6192E",
     "colore2": "#A6821A",
-    "ascolti": 3200000000,
-    "ascoltiTesto": "3,2 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "7tFiyTwD0nx5a1eklYtX2J",
     "corpo": [
-      "Pubblicata il 31 ottobre 1975, è una \"mock opera\" nata dalla fusione di tre brani separati scritti da Freddie Mercury, con un coro bombastico, un recitativo teatrale e frasi in italiano storpiato che parodiano l'opera lirica classica.",
-      "Mercury non ha mai rivelato ufficialmente il significato del testo, lasciando convivere diverse interpretazioni dei fan. Il chitarrista Brian May ha ipotizzato che riguardi le lotte personali di Mercury contro le aspettative della società; altri vi hanno letto un racconto velato sul percorso di accettazione della propria omosessualità.",
-      "Il brano restò per nove settimane al numero 1 della classifica singoli britannica, vendendo oltre un milione di copie in poche settimane, e nel dicembre 2018 è diventato il brano del XX secolo più ascoltato in streaming di sempre. Con oltre 3,2 miliardi di ascolti, è oggi il brano più ascoltato su Spotify tra quelli raccontati in questo sito."
+      "Pubblicata il 31 ottobre 1975 come singolo dall'album A Night at the Opera, Bohemian Rhapsody unisce passaggi vocali, operistici e rock. Freddie Mercury aveva pensato a materiale per più canzoni e decise di riunirlo in un unico brano. La registrazione fu prodotta dai Queen con Roy Thomas Baker.",
+      "Mercury non spiegò nel dettaglio il significato del testo e invitò gli ascoltatori a formarsi una propria interpretazione. Brian May ha ricordato che Mercury nascondeva insicurezze legate alla propria infanzia e riteneva che avesse messo molto di sé nella canzone: è una lettura di May, non una spiegazione confermata da Mercury.",
+      "Secondo la Official Charts Company, il singolo rimase nove settimane al numero uno nel Regno Unito e tornò in vetta nel 1991, dopo la morte di Mercury. Lo stesso archivio lo indica come il singolo più venduto degli anni Settanta nel paese, con 2,62 milioni di copie complessive. Nel dicembre 2018 fu presentato come il brano del Novecento più ascoltato in streaming a livello mondiale."
     ],
-    "fraseIconica": "Il momento più discusso è la confessione alla madre, nella sezione centrale, in cui il narratore ammette di aver appena ucciso un uomo e che la sua vita è ormai finita. Mercury descrisse il testo come \"rime casuali senza senso\", senza mai confermare un significato letterale e invitando ognuno a farsi la propria idea; sono altri, non l'artista stesso, ad aver proposto le letture più diffuse, dalla metafora sulla fine simbolica del \"vecchio sé\" legata alla sua sessualità a un racconto di omicidio reale, fino a un riferimento al rapporto complicato con la storica amica Mary Austin.",
+    "fraseIconica": "Nella prima parte del brano, una confessione di omicidio rivolta alla madre cambia il tono del racconto. Mercury non ne diede una spiegazione definitiva e invitò gli ascoltatori a trarre le proprie conclusioni.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/queen/bohemian-rhapsody/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
-        "nome": "Wikipedia"
+        "url": "https://www.queenonline.com/news/original-bohemian-rhapsody-test-pressing-to-be-auctioned-for-the-brit-trust",
+        "nome": "Queen — storia del singolo e crediti di produzione",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.officialcharts.com/songs/queen-bohemian-rhapsody/",
+        "nome": "Official Charts Company — Bohemian Rhapsody",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/",
-        "nome": "uDiscoverMusic"
-      },
-      {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "nome": "uDiscoverMusic — Martin Chilton",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
