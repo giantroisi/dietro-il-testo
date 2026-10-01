@@ -586,36 +586,41 @@
     "anno": "1991 / 1992",
     "album": "Metallica (\"Black Album\")",
     "albumSlug": "metallica-black-album",
-    "genereTesto": "Heavy metal / Ballata",
+    "genereTesto": "Ballata rock",
     "generi": [
       "metal"
     ],
     "paese": null,
     "colore": "#4A4A6E",
     "colore2": "#6B1A1A",
-    "ascolti": 1700000000,
-    "ascoltiTesto": "1,7 mld ascolti",
     "spotifyId": "3ZFwuJwUpIl0GeXsvF1ELf",
     "corpo": [
-      "Terzo singolo dell'omonimo album, uscito il 20 aprile 1992. James Hetfield lo scrisse pensando alla nostalgia per la propria compagna durante un lungo tour, componendo parti del testo direttamente sul pullman e in camere d'albergo. Le orchestrazioni furono curate dal compositore Michael Kamen.",
-      "È una delle tre canzoni di Metallica ad aver superato il miliardo di ascolti su Spotify, insieme a \"Enter Sandman\" e \"Master of Puppets\"."
+      "Inclusa nell'album \"Metallica\" del 1991, \"Nothing Else Matters\" uscì come terzo singolo il 20 aprile 1992. Il catalogo ufficiale accredita la composizione a James Hetfield e Lars Ulrich. Hetfield raccontò di aver scritto il testo per sé durante un tour, mentre sentiva la lontananza da casa, senza pensare inizialmente di proporlo al gruppo.",
+      "I crediti della ristampa ufficiale indicano Bob Rock alla produzione con Hetfield e Ulrich e Michael Kamen all'orchestrazione. La canzone si apre con un arpeggio di chitarra acustica, in contrasto con il suono più duro che aveva caratterizzato molti brani del gruppo."
     ],
-    "fraseIconica": "Il verso più citato è quello sulla fiducia — l'averla cercata e ritrovata in lei. James Hetfield scrisse il brano in privato, mentre era in tour e sentiva la mancanza della fidanzata, parlandole al telefono con la cornetta incastrata tra spalla e orecchio mentre componeva — da cui la semplicità quasi nuda della parte di chitarra. In un'intervista del 2013 all'Howard Stern Show ha chiarito che il brano non riguarda solo una relazione romantica, ma anche la fiducia e il legame fraterno tra i membri della band.",
+    "fraseIconica": "L'arpeggio iniziale di chitarra acustica introduce una ballata arricchita dall'orchestrazione di Michael Kamen. Hetfield raccontò di averla scritta per sé, lontano da casa durante un tour.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/metallica/nothing-else-matters/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Nothing_Else_Matters",
-        "nome": "Wikipedia"
+        "url": "https://www.metallica.com/songs/nothing-else-matters.html",
+        "nome": "Metallica — catalogo ufficiale del brano"
       },
       {
         "url": "https://americansongwriter.com/behind-metallicas-vulnerable-hit-nothing-else-matters/",
-        "nome": "American Songwriter"
+        "nome": "American Songwriter — origine e pubblicazione"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.metallica.com/releases/reissues/metallica-remastered-deluxe-box-set-reissue.html",
+        "nome": "Metallica — crediti della ristampa ufficiale"
+      },
+      {
+        "url": "https://www.metallica.com/releases/singles/?srule=old-to-new",
+        "nome": "Metallica — archivio ufficiale dei singoli"
+      },
+      {
+        "url": "https://www.metallica.com/history/",
+        "nome": "Metallica — storia ufficiale del gruppo"
       }
     ],
     "testoFonte": "Letras",
