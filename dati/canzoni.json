@@ -491,23 +491,31 @@
     "anno": "2001",
     "album": "Toxicity",
     "albumSlug": "toxicity",
-    "genereTesto": "Alternative / Nu metal",
+    "genereTesto": "Alternative metal / Nu metal",
     "generi": [
       "metal"
     ],
     "paese": null,
     "colore": "#6E7A2E",
     "colore2": "#A65A22",
-    "ascolti": 2100000000,
-    "ascoltiTesto": "2,1 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "2DlHlPMa4M17kufBvI2lEN",
     "corpo": [
-      "Il brano nacque durante il tour del primo album, quando il chitarrista Daron Malakian iniziò a scriverlo da solo, seduto sul retro del camper con una chitarra acustica. Come raccontò lui stesso a Metal Hammer nel novembre 2025, il pensiero di fondo era il modo in cui si giudica la morte in maniera diversa a seconda delle circostanze — la stessa disgrazia, un incidente d'auto, letta con occhi diversi se chi lo causa era ubriaco o no. Il titolo di lavorazione era semplicemente \"Suicide\", preso dal verso più forte del brano; fu Malakian stesso, non l'etichetta, a volerlo cambiare prima di sceglierlo come primo singolo: \"Non parlava davvero di suicidio\", disse, \"era un titolo pigro\". Scelse \"Chop Suey!\", gioco di parole su \"suicide\" tagliato a metà e insieme un omaggio ai vecchi film gangster in bianco e nero che guardava da bambino, dove si diceva \"ne faremo chop suey\" per minacciare di uccidere qualcuno.",
-      "Il singolo uscì il 13 agosto 2001, tre settimane prima dell'album \"Toxicity\" (4 settembre) e circa un mese prima degli attentati dell'11 settembre. Nei giorni successivi, il gruppo radiofonico Clear Channel inserì il brano in una lista interna di oltre 160 canzoni ritenute \"discutibili\" da evitare in onda — insieme, fra le altre, a brani di Rage Against the Machine, AC/DC e persino \"Ironic\" di Alanis Morissette — senza che si trattasse di un bando ufficiale. Lungi dal danneggiarne la carriera, l'episodio coincise con l'esplosione di popolarità della canzone, diventata oggi il brano di gran lunga più ascoltato della band, con oltre un miliardo di stream su Spotify e altrettante visualizzazioni su YouTube — la prima canzone metal a raggiungere quella cifra."
+      "Chop Suey! nacque durante il tour del primo album dei System of a Down. Daron Malakian iniziò a scriverlo sul letto in fondo al camper della band, con una chitarra acustica; Serj Tankian ne rielaborò l'apertura. In un servizio di Metal Hammer pubblicato nel novembre 2025, Malakian ha spiegato che il brano riguarda il diverso giudizio riservato a chi muore secondo le circostanze: nell'esempio da lui fatto, la percezione cambia se la persona morta in un incidente era ubriaca. La band e il produttore Rick Rubin lavorarono al brano ai Cello Studios di Hollywood. Metal Hammer riporta come titolo di lavorazione \"Suicide\": dopo aver scelto il pezzo come primo singolo, la band lo cambiò in \"Chop Suey!\", un gioco di parole che per Malakian richiama anche i film gangster che guardava da bambino.",
+      "Il singolo uscì il 13 agosto 2001, tre settimane prima dell'album Toxicity. Dopo l'11 settembre, Clear Channel lo inserì in una lista interna di canzoni che le proprie emittenti potevano evitare e lo ritirò dalla rete: non fu un bando ufficiale. Metal Hammer osserva che l'episodio non fermò la diffusione del brano."
     ],
-    "fraseIconica": "Il verso più citato è quello che dà il senso al titolo di lavorazione originale del brano, \"Suicide\", poi cambiato da Daron Malakian stesso in \"Chop Suey!\" prima dell'uscita come primo singolo. Lo stesso Malakian ha dichiarato che il brano \"non parlava davvero di suicidio\" in senso letterale, ma piuttosto del modo giudicante con cui si guarda alla morte a seconda delle circostanze in cui avviene.",
-    "sezioniExtra": [],
-    "testoUrl": "https://www.letras.com/system-of-a-down/chop-suey/",
+    "fraseIconica": "L'apertura, rielaborata da Serj Tankian, incalza con la voce. Le strofe ritmiche e spigolose cedono poi a un ritornello melodico: due registri nello stesso brano.",
+    "sezioniExtra": [
+      {
+        "titolo": "Curiosità",
+        "paragrafi": [
+          "Malakian ha raccontato che, dopo l'uscita del video, alcuni fan lo riconobbero in un centro commerciale mentre era in tournée. Era la prima volta che gli succedeva."
+        ],
+        "coppie": []
+      }
+    ],
+    "testoUrl": "https://www.letras.com/system-of-a-down/39417/",
     "fonti": [
       {
         "url": "https://www.loudersound.com/music/tracks-singles/the-story-of-chop-suey-system-of-a-down",
@@ -516,18 +524,12 @@
       },
       {
         "url": "https://en.wikipedia.org/wiki/Chop_Suey!",
-        "nome": "Wikipedia"
-      },
-      {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "nome": "Wikipedia (scheda del singolo)"
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "salute-mentale"
-    ]
+    "descrizioneSeo": "Come nacque Chop Suey! dei System of a Down: il contributo di Malakian e Tankian, il cambio di titolo e la lista radiofonica dopo l'11 settembre.",
+    "temi": []
   },
   {
     "slug": "paranoid",
