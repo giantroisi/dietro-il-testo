@@ -4181,3 +4181,11 @@ Il proprietario ha autorizzato a procedere dopo la presentazione del lotto §32.
 Sul dominio pubblico, quattro schede corrette, l'archivio e due immagini condivisibili sono identici ai file locali approvati. Paranoid è stata controllata nel browser a 390 px, senza fuoriuscita orizzontale o errori di console. La cache dell'immagine OG versionata richiede la rivalidazione. Il connettore Vercel non ha consentito la lettura dello stato amministrativo per un errore di autorizzazione 403; i controlli HTTP confermano le risorse campionate online. Dettagli e limiti in `rapporti/pubblicazione-correzioni-2026-10-02/README.md`.
 
 **Stato:** lotto pubblicato; controllo editoriale complessivo e altre proposte dell'altra AI ancora aperti. Il prossimo ciclo ordinario della routine è **immagini mancanti**, seguito da **nuove pagine** complete e verificate; si alterna solo dopo un risultato concluso.
+
+## 34. Ciclo immagini: proposta My Chemical Romance, 2 ottobre 2026
+
+Per la pagina artista già presente dei My Chemical Romance è stata preparata una foto del concerto a Wembley dell'11 luglio 2026. La pagina originale [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_@_Wembley_Stadium,_11_July_2026_B-Stage_15.jpg) identifica gruppo, data, autore Hullian111 e licenza CC BY-SA 4.0 dichiarata dal titolare. Il file è stato controllato visivamente: mostra il gruppo sul palco circolare, anche se i volti non sono ravvicinati. Registro, testo alternativo, credito visibile, fonte, licenza, modifiche e impronta del file sono nel [dossier](rapporti/licenze/ritratto-my-chemical-romance-2026-10-02.md).
+
+La pagina generata è stata verificata nel browser su desktop e a 390 px: immagine caricata, credito e collegamenti presenti, nessuna fuoriuscita orizzontale né errore di console. Passano il controllo del credito e dell'impronta, SEO, coerenza, collegamenti e integrità Git. Catalogo invariato: 317 canzoni, 104 artisti, 251 album.
+
+**Ultimo ciclo completato: immagini. Prossimo ciclo ordinario: nuova pagina completa e verificata.** Questa è una proposta locale pronta per la revisione del proprietario nella copia `codex/ritratto-mcr-2026-10-02`; nessun trasferimento, push o pubblicazione.
