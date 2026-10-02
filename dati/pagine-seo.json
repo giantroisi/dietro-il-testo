@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 317,
+    "nCanzoni": 318,
     "haTestoEditoriale": true
   },
   {
@@ -1622,6 +1622,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/the-scientist/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1744,7 +1749,7 @@
     "percorso": "artista/coldplay/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3008,6 +3013,13 @@
     "haTestoEditoriale": true
   },
   {
+    "percorso": "album/coldplay/a-rush-of-blood-to-the-head/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/daft-punk/random-access-memories/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -4110,14 +4122,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 162,
+    "nCanzoni": 163,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 138,
+    "nCanzoni": 139,
     "haTestoEditoriale": true
   },
   {
@@ -4159,7 +4171,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 57,
+    "nCanzoni": 58,
     "haTestoEditoriale": true
   },
   {

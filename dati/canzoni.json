@@ -15875,5 +15875,110 @@
     ],
     "ultimaVerifica": "2026-09-16",
     "descrizioneSeo": "Dammit dei blink-182: il riff di chitarra accompagna la storia immaginaria di un incontro imbarazzante con un'ex, raccontata da Mark Hoppus."
+  },
+  {
+    "slug": "the-scientist",
+    "titolo": "The Scientist",
+    "artista": "Coldplay",
+    "artistaSlug": "coldplay",
+    "anno": "2002",
+    "album": "A Rush of Blood to the Head",
+    "albumSlug": "a-rush-of-blood-to-the-head",
+    "genereTesto": "Alternative rock e pop rock",
+    "generi": [
+      "rock",
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#A68A1F",
+    "colore2": "#3E4A5C",
+    "ascolti": null,
+    "ascoltiTesto": null,
+    "spotifyId": "75JFxkI2RXiU7L9VXzMkle",
+    "corpo": [
+      "The Scientist è la quarta traccia di A Rush of Blood to the Head, pubblicato dai Coldplay il 26 agosto 2002. Il sito ufficiale del gruppo data al 4 novembre dello stesso anno l’uscita del singolo, che comprende anche 1.36 e I Ran Away.",
+      "Secondo Rhino, Martin cercava ancora un pezzo per il secondo album quando, a Liverpool, dopo aver ascoltato All Things Must Pass di George Harrison, provò a suonare Isn’t It a Pity e trovò la progressione di The Scientist. In una conversazione del 2002 con Hotpress, Will Champion descrisse la scrittura del brano come un punto di svolta per il disco.",
+      "Nella nostra lettura del testo, chi parla chiede scusa e vorrebbe tornare all’inizio di un rapporto. Le immagini di numeri, domande e scienza vengono accostate alla difficoltà di spiegare ciò che prova: il brano non fornisce il racconto verificabile di una vicenda personale di Martin.",
+      "I crediti pubblicati da Qobuz indicano Chris Martin, Jonny Buckland, Guy Berryman e Will Champion come autori e accreditano la produzione ai Coldplay e a Ken Nelson. Nella stessa scheda Audrey Riley è indicata per l’arrangiamento degli archi.",
+      "Il video ufficiale percorre una vicenda a ritroso. In un’intervista concessa a NPO 3FM nel novembre 2002, Martin attribuì l’idea al regista Jamie Thraves e raccontò di aver imparato a mimare il brano al contrario per le riprese.",
+      "Nella stessa intervista Buckland spiegò che il gruppo prevedeva The Scientist come secondo singolo anche negli Stati Uniti, ma alcune radio americane avevano iniziato a trasmettere Clocks: per questo i due mercati seguirono percorsi diversi."
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "D"
+      ],
+      [
+        "I",
+        "I"
+      ],
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "D"
+      ],
+      [
+        "D"
+      ]
+    ],
+    "fraseIconica": "Il desiderio di ricominciare diventa, nella nostra lettura, una richiesta di riportare il rapporto al suo inizio.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.coldplay.com/song/the-scientist/",
+    "testoFonte": "Coldplay",
+    "fonti": [
+      {
+        "url": "https://www.coldplay.com/song/the-scientist/",
+        "nome": "Coldplay — testo ufficiale e collocazione nell’album",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.coldplay.com/release/a-rush-of-blood-to-the-head/",
+        "nome": "Coldplay — data e scaletta di A Rush of Blood to the Head",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://www.coldplay.com/release/the-scientist/",
+        "nome": "Coldplay — data e tracce del singolo",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rhino.com/article/single-stories-coldplay-the-scientist",
+        "nome": "Rhino — genesi di The Scientist, 17 dicembre 2018",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.hotpress.com/music/set-your-controls-for-the-heart-of-the-sun-2615786",
+        "nome": "Hotpress — Peter Murphy intervista Will Champion, 9 ottobre 2002",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.qobuz.com/us-en/album/the-scientist-coldplay/0724355164056",
+        "nome": "Qobuz — crediti di autori e produzione",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.npo3fm.nl/nieuws/3fm-nieuws/806508ac-c93c-4c4a-a688-1b084625e6cb/coldplay-aan-het-woord",
+        "nome": "NPO 3FM — intervista ai Coldplay, 20 novembre 2002",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://open.spotify.com/embed/track/75JFxkI2RXiU7L9VXzMkle",
+        "nome": "Spotify — The Scientist dei Coldplay",
+        "ruolo": "storia"
+      }
+    ],
+    "descrizioneSeo": "The Scientist dei Coldplay: la nascita del brano, il desiderio di ricominciare e il video girato al contrario.",
+    "ultimaVerifica": "2026-10-02",
+    "statoEditoriale": "completa",
+    "temi": [
+      "amore"
+    ]
   }
 ]
