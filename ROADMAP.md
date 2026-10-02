@@ -4197,3 +4197,9 @@ Preparata nella copia `codex/ritratto-radiohead-2026-10-02` una foto composita d
 Generati 687 pagine più 404; controlli sui crediti, SEO, coerenza e collegamenti passati. La pagina artista è stata verificata nel browser desktop, con immagine caricata, credito leggibile e zero errori di console. L'override mobile del browser interno non ha avuto effetto, quindi la prova visiva a 390 px resta da completare. Nessun trasferimento, invio al remoto o pubblicazione. Il §36 Nightswimming è nella sua copia separata: quando si uniranno i lotti, ROADMAP.md e `dati/ritratti.json` dovranno essere fusi per voce.
 
 **Stato:** proposta fotografica verificata e isolata, in attesa di revisione. Ultimo ciclo ordinario completato: **immagini**; prossimo ciclo: **nuove pagine**.
+
+## 43. Revisione congiunta dei ritratti MCR e Radiohead, 2 ottobre 2026
+
+Le proposte fotografiche dei §§34 e 37 sono state riunite in una terza copia separata, senza modificare i lotti originali. Licenze, attribuzioni, file e soggetti sono stati ricontrollati; la prova mobile mancante per Radiohead è stata completata. Il montaggio Radiohead risultava troppo piccolo a 390 px (280 × 103 px): una regola applicata soltanto alla sua pagina lo porta a 342 × 126 px, senza tagliare i cinque volti. MCR conserva la scena di concerto e il suo limite visivo documentato. Dettagli e prove sono nel [rapporto di revisione](rapporti/revisione-ritratti-mcr-radiohead-2026-10-02.md).
+
+Passano i controlli di crediti, SEO, coerenza, collegamenti e integrità delle differenze. Nessun nuovo ciclo ordinario è stato concluso: si tratta della revisione di due cicli immagini già preparati. **Lotto congiunto locale pronto da esaminare; nessun trasferimento, push o pubblicazione.**

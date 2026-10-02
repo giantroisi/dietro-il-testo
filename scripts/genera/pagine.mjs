@@ -258,6 +258,8 @@ function dimensioniRitratto(rt) {
 export function ritrattoArtista(a) {
   const rt = a.ritratto || RITRATTI[a.slug];
   if (!rt || !rt.file) return { html: riquadroVisivo(a.nome), pubblicata: false, motivo: null };
+  const formatoPanoramico = rt.dimensioni?.larghezza / rt.dimensioni?.altezza > 2;
+  const classeRitratto = formatoPanoramico ? 'ritratto ritratto--panoramico' : 'ritratto';
 
   if (rt.propria) {
     const manca = ['concerto', 'data'].filter((k) => !rt[k]);
@@ -266,7 +268,7 @@ export function ritrattoArtista(a) {
     }
     return {
       pubblicata: true,
-      html: `<figure class="ritratto">
+      html: `<figure class="${classeRitratto}">
         <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="${esc(rt.alt || `Foto di ${a.nome}`)}"${dimensioniRitratto(rt)} loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           Foto di ${esc(CREDITO_PROPRIO)}
@@ -285,7 +287,7 @@ export function ritrattoArtista(a) {
   }
   return {
     pubblicata: true,
-    html: `<figure class="ritratto">
+    html: `<figure class="${classeRitratto}">
         <img src="${RADICE_RITRATTI}${esc(rt.file)}" alt="${esc(rt.alt || `Foto di ${a.nome}`)}"${dimensioniRitratto(rt)} loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           ${creditoPersonalizzato || `<a href="${esc(rt.fonte)}" rel="nofollow noopener">Foto</a> di ${esc(rt.autore)}
@@ -977,6 +979,8 @@ function rigaArtista(a, r) {
 
 export function paginaArtista(a, ctx) {
   const r = radice(2);
+  const rt = a.ritratto || RITRATTI[a.slug];
+  const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
   // F50/F51: la discografia mostra tutte le voci (originali + quelle emerse
   // dalle canzoni raccontate), ordinate per anno; quelle senza pagina restano
@@ -1120,6 +1124,9 @@ export function paginaArtista(a, ctx) {
     // pubblicata (P6 impone che esista) ma fuori dall'indice dei motori.
     noindexFollow: !a._indicizzabile,
     corpo,
+    // Un montaggio panoramico contiene più volti: a 280 px diventano troppo
+    // piccoli. La regola è inserita solo nella pagina che usa quel formato.
+    stileExtra: ritrattoPanoramico ? '@media (max-width: 860px) { .testa-doppia .ritratto--panoramico img { width: 100%; max-width: 100%; } .testa-doppia .ritratto--panoramico figcaption { max-width: 100%; } }' : undefined,
     datiStrutturati: conBreadcrumb(
       {
         '@type': 'MusicGroup',
