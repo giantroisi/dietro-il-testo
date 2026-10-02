@@ -4209,3 +4209,9 @@ Passano i controlli di crediti, SEO, coerenza, collegamenti e integrità delle d
 Il proprietario ha approvato entrambe le immagini del §43. La copia congiunta è stata integrata con avanzamento diretto nel `main` locale. Le due pagine artista e i due file immagine coincidono byte per byte con la nuova generazione del sito; il file non tracciato `SEO-LASTMOD-2026-09-21.md` conserva lo stesso hash SHA-256. La generazione produce 687 pagine più 404 e copia 32 ritratti. Passano `prova-ritratto-credito`, `check-seo` (688 pagine), `check-coerenza` (317 canzoni e 104 artisti) e `check-link`.
 
 **Stato:** integrazione locale completata. Nessun invio al remoto o pubblicazione eseguiti per questo lotto. La revisione prosegue con le proposte Ed Sheeran e AC/DC in una copia separata.
+
+## 45. Revisione congiunta dei ritratti Ed Sheeran e AC/DC, 2 ottobre 2026
+
+Riunite in una copia separata le due proposte fotografiche, lasciando intatti i rami originali. Le pagine Commons sono state riaperte per licenza, autore e soggetto; i file locali sono stati ispezionati e confrontati con gli hash registrati. Generate le due pagine artista e la sitemap. Le anteprime a 390 px e su desktop mostrano immagini caricate, crediti leggibili e nessuna fuoriuscita orizzontale. La foto Ed Sheeran è scura e di profilo; quella AC/DC rappresenta una formazione storica. Dettagli nel [rapporto di revisione](rapporti/revisione-ritratti-ed-acdc-2026-10-02.md).
+
+Passano il controllo dei crediti, SEO, coerenza, collegamenti e integrità delle differenze. Non è un nuovo ciclo ordinario: si revisionano proposte già preparate. **Lotto locale pronto per il proprietario; nessun trasferimento, push o pubblicazione.**
