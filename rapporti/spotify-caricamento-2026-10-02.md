@@ -16,3 +16,9 @@ La pagina Privacy e la sua descrizione per i motori di ricerca dichiarano ora ch
 ## Limiti e stato
 
 Il caricamento automatico comporta una richiesta a Spotify già quando si apre la pagina e può incidere sui tempi di caricamento. La descrizione Privacy è stata aggiornata per riflettere il nuovo comportamento; questo controllo non è una valutazione legale formale. La copia è pronta per la revisione del proprietario. Nessun trasferimento alla cartella principale, push o pubblicazione.
+
+## Integrazione della 317ª scheda, 2 ottobre 2026
+
+Dopo l'autorizzazione a pubblicare il lettore per tutte le canzoni, il primo lotto di 316 schede è stato trasferito e pubblicato. La scheda rimanente è «The Sound of Silence» di Simon & Garfunkel, che racconta sia la versione acustica del 1964 sia il singolo elettrico del 1965. La [pagina del brano su Spotify](https://open.spotify.com/track/3fQqLAWWcc9SZHP2NVgrOC), riaperta il 2 ottobre 2026, identifica «The Sound of Silence - Overdubbed Version» dei Simon & Garfunkel nell'album *Sounds Of Silence*. L'[anteprima ufficiale](https://open.spotify.com/embed/track/3fQqLAWWcc9SZHP2NVgrOC) mostra lo stesso titolo e gli stessi artisti. Questa è la versione sovraincisa descritta nella scheda; il lettore non rappresenta la registrazione acustica iniziale.
+
+Aggiunto soltanto l'ID Spotify nei dati. Rigenerati la scheda e la sitemap delle canzoni; il corpo editoriale, le fonti precedenti e la data di verifica non sono stati cambiati. La pagina mostra il lettore automaticamente e il collegamento esterno porta alla medesima registrazione. Non è stata eseguita una nuova verifica frase per frase della scheda né una prova dell'audio integrale.
