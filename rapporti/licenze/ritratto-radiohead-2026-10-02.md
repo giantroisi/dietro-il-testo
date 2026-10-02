@@ -1,0 +1,16 @@
+# Ritratto Radiohead — verifica del 2 ottobre 2026
+
+## Origine, soggetto e licenza
+
+- **Pagina d'uso:** `/artista/radiohead/`.
+- **Opera:** [RadioheadO2211125 composite.jpg](https://commons.wikimedia.org/wiki/File:RadioheadO2211125_composite.jpg), montaggio dei cinque componenti della band al concerto del 21 novembre 2025 all'O2 di Londra, da sinistra Ed O'Brien, Thom Yorke, Colin Greenwood, Phil Selway e Jonny Greenwood secondo la descrizione del file. La pagina Commons è stata riaperta il 2 ottobre 2026 e dichiara la licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), l'autore delle foto Raph_PH e l'assemblaggio caricato e successivamente ampliato da Miklogfeather.
+- **Foto originali:** le cinque pagine Flickr di Raph_PH collegate ai componenti del montaggio sono state aperte il 2 ottobre 2026: [Ed O'Brien](https://www.flickr.com/photos/raph_ph/54955791798/), [Thom Yorke](https://www.flickr.com/photos/raph_ph/54955791708/), [Colin Greenwood](https://www.flickr.com/photos/raph_ph/54955914460/), [Phil Selway](https://www.flickr.com/photos/raph_ph/54955848039/) e [Jonny Greenwood](https://www.flickr.com/photos/raph_ph/54955791678/). Ognuna espone CC BY 4.0 nella propria sezione «Licenza». L'[album originale Flickr](https://www.flickr.com/photos/raph_ph/albums/72177720330630937) attribuisce le foto a Raph_PH.
+- **Identificazione visiva:** aperti il montaggio su Commons e il file derivato scaricato; si vedono cinque persone in riquadri distinti, in corrispondenza ai nomi dichiarati da Commons. È un montaggio, non una singola fotografia collettiva. Per la pagina artista è più leggibile della foto panoramica di palco esaminata e scartata nello stesso ciclo.
+- **File usato:** miniatura Wikimedia 1280 × 465 px, 178.115 byte, SHA-256 `ccbb7db382e0c3f47ebe4fa06d8b2010f11969167b20b18d18bd6054774abc06`; originale 5940 × 2160 px. Ridimensionamento operato da Wikimedia, nessun ritaglio o ritocco locale.
+- **Credito visibile:** link al montaggio Commons, «da foto di Raph_PH · pubblicato e ampliato da Miklogfeather», link CC BY 4.0 e indicazione del ridimensionamento Wikimedia. L'alt descrive il montaggio e il concerto senza fingere che i cinque siano ripresi nello stesso istante.
+
+## Prove e limiti
+
+La generazione locale produce 687 pagine più 404 e include 31 ritratti. Nella pagina artista il file carica con larghezza naturale 1280 px, il credito con i suoi collegamenti e l'alt richiesto. Nel browser a 1280 px l'immagine è leggibile e non risultano errori di console. `prova-ritratto-credito`, `check-seo` (688 pagine), `check-coerenza` (317 canzoni e 104 artisti) e `check-link` passano. La funzione di ridimensionamento del browser interno non ha applicato l'override a 390 px: la resa mobile non è stata confermata visivamente in questo ciclo.
+
+Nessuna scheda canzone o testo editoriale è stato modificato. La proposta resta separata, senza trasferimento nella cartella principale, push o pubblicazione. La foto My Chemical Romance (§34) e la scheda Nightswimming (§36, in un'altra copia) restano lotti indipendenti in revisione. Quando saranno eventualmente integrati, il registro comune `dati/ritratti.json` e ROADMAP.md richiederanno una fusione per voce, senza sovrascrivere gli altri lotti.
