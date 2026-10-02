@@ -449,5 +449,38 @@
       },
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
+  },
+  "ac-dc": {
+    "file": "ac-dc-angus-brian-barcellona.jpg",
+    "autore": "Joan Sorolla",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Angus_Young_i_Brian_Johnson_(AC_DC)_(5256948139).jpg",
+    "titoloOriginale": "Angus Young i Brian Johnson (AC DC) (5256948139).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Angus_Young_i_Brian_Johnson_%28AC_DC%29_%285256948139%29.jpg",
+    "dataVerifica": "2026-10-02",
+    "paginaUso": "/artista/ac-dc/",
+    "alt": "Angus Young suona la chitarra sulle spalle di Brian Johnson durante un concerto degli AC/DC",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Joan Sorolla · Angus Young i Brian Johnson (AC DC) (5256948139).jpg · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 621,
+      "altezza": 918
+    },
+    "byte": 376344,
+    "sha256": "e9289d2f45a36f6d5d7f1384aaa838685d896fbb6b26a169d01502c955378370",
+    "creditoParti": [
+      "Foto di Joan Sorolla · ",
+      {
+        "testo": "Angus Young i Brian Johnson (AC DC) (5256948139).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Angus_Young_i_Brian_Johnson_(AC_DC)_(5256948139).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }
