@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 317,
+    "nCanzoni": 318,
     "haTestoEditoriale": true
   },
   {
@@ -1622,6 +1622,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/nightswimming/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -2157,7 +2162,7 @@
     "percorso": "artista/r-e-m/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -3837,7 +3842,7 @@
     "percorso": "album/r-e-m/automatic-for-the-people/",
     "categoria": "indice",
     "indicizzabile": false,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": false
   },
   {
@@ -4110,7 +4115,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 162,
+    "nCanzoni": 163,
     "haTestoEditoriale": true
   },
   {
@@ -4152,7 +4157,7 @@
     "percorso": "anni/1990/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 71,
+    "nCanzoni": 72,
     "haTestoEditoriale": true
   },
   {
