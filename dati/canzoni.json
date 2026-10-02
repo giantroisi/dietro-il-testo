@@ -15875,5 +15875,101 @@
     ],
     "ultimaVerifica": "2026-09-16",
     "descrizioneSeo": "Dammit dei blink-182: il riff di chitarra accompagna la storia immaginaria di un incontro imbarazzante con un'ex, raccontata da Mark Hoppus."
+  },
+  {
+    "slug": "here-comes-the-sun",
+    "titolo": "Here Comes the Sun",
+    "artista": "The Beatles",
+    "artistaSlug": "the-beatles",
+    "anno": "1969",
+    "album": "Abbey Road",
+    "albumSlug": "abbey-road",
+    "genereTesto": "Folk rock e pop rock",
+    "generi": [
+      "rock",
+      "pop"
+    ],
+    "paese": null,
+    "colore": "#3E7A2C",
+    "colore2": "#8A6A2E",
+    "ascolti": null,
+    "ascoltiTesto": null,
+    "spotifyId": "6dGnYIeXmHdcikdzNNDMm2",
+    "corpo": [
+      "Here Comes the Sun è una composizione di George Harrison pubblicata dai Beatles in Abbey Road il 26 settembre 1969. Nel disco apre la seconda facciata, prima della sequenza che comprende Because e i brani del lungo medley.",
+      "La scheda ufficiale del gruppo colloca la registrazione fra luglio e agosto 1969 e attribuisce la produzione a George Martin. Cameron Colbeck, sul sito degli Abbey Road Studios, documenta l’aggiunta del sintetizzatore Moog da parte di Harrison anche a questo brano.",
+      "Jon Dennis, sul Guardian, legge le canzoni di Harrison in Abbey Road come espressioni di ottimismo. In questa lettura, il passaggio dal freddo al sole dà forma a una sensazione di sollievo: è un’interpretazione del testo, non una spiegazione delle intenzioni personali di Harrison.",
+      "Nel 2012 il Guardian raccontò che, ascoltando i nastri multitraccia per un contenuto aggiuntivo del documentario Living in the Material World, George Martin, Giles Martin e Dhani Harrison ritrovarono un assolo di chitarra registrato per il brano ma non usato nella versione pubblicata.",
+      "L’edizione per il cinquantesimo anniversario di Abbey Road affianca al nuovo mix del disco una registrazione di sessione indicata come Take 9: è un ascolto distinto dalla traccia dell’album. Il lettore Spotify in questa pagina propone invece la rimasterizzazione del 2009 della canzone pubblicata, non la Take 9.",
+      "Il sito ufficiale dei Beatles documenta anche una successiva esecuzione di Harrison al Concert for Bangladesh, il 1° agosto 1971 a Madison Square Garden, accompagnato da Pete Ham dei Badfinger."
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ],
+      [
+        "I",
+        "I"
+      ],
+      [
+        "F"
+      ],
+      [
+        "F",
+        "F"
+      ],
+      [
+        "F"
+      ]
+    ],
+    "fraseIconica": "Il passaggio dal freddo alla luce rende immediata, nella nostra lettura, l’idea di un sollievo che torna possibile.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.thebeatles.com/here-comes-sun",
+    "testoFonte": "The Beatles",
+    "fonti": [
+      {
+        "url": "https://www.thebeatles.com/here-comes-sun",
+        "nome": "The Beatles — testo autorizzato, uscita e crediti del brano",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.abbeyroad.com/news/the-genius-of-george-harrison-as-told-by-abbey-roads-cameron-colbeck-2737",
+        "nome": "Abbey Road Studios — Cameron Colbeck, uso del Moog, 25 febbraio 2021",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.theguardian.com/music/musicblog/2014/oct/01/beatles-songs-cover-versions-10-of-the-best",
+        "nome": "The Guardian — Jon Dennis, lettura del brano come ottimismo, 1 ottobre 2014",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.theguardian.com/music/2012/mar/28/new-george-harrison-guitar-solo",
+        "nome": "The Guardian — Sean Michaels, assolo non utilizzato, 28 marzo 2012",
+        "ruolo": "curiosità"
+      },
+      {
+        "url": "https://www.thebeatles.com/abbey-road-remixed-2019",
+        "nome": "The Beatles — Abbey Road Anniversary Edition e Take 9",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://www.thebeatles.com/1st-august-1971-george-plays-here-comes-sun-sold-out-audience-concert-bangladesh",
+        "nome": "The Beatles — esecuzione al Concert for Bangladesh",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://open.spotify.com/embed/track/6dGnYIeXmHdcikdzNNDMm2",
+        "nome": "Spotify — Here Comes the Sun, Remastered 2009 dei Beatles"
+      }
+    ],
+    "descrizioneSeo": "Here Comes the Sun dei Beatles: George Harrison, Abbey Road, il Moog, un assolo rimasto fuori dal disco e il ritorno della luce nel testo.",
+    "ultimaVerifica": "2026-10-02",
+    "statoEditoriale": "completa",
+    "temi": []
   }
 ]
