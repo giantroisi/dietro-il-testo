@@ -369,5 +369,51 @@
         "url": "https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_@_Wembley_Stadium,_11_July_2026_B-Stage_15.jpg"
       }
     ]
+  },
+  "radiohead": {
+    "file": "radiohead-o2-2025-composite.jpg",
+    "autore": "Raph_PH",
+    "titolareDichiarato": "Raph_PH per le cinque foto originarie; montaggio pubblicato da Miklogfeather su Wikimedia Commons",
+    "licenza": "CC BY 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:RadioheadO2211125_composite.jpg",
+    "pagineOriginali": [
+      "https://www.flickr.com/photos/raph_ph/54955791798/",
+      "https://www.flickr.com/photos/raph_ph/54955791708/",
+      "https://www.flickr.com/photos/raph_ph/54955914460/",
+      "https://www.flickr.com/photos/raph_ph/54955848039/",
+      "https://www.flickr.com/photos/raph_ph/54955791678/"
+    ],
+    "titoloOriginale": "RadioheadO2211125 composite.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/RadioheadO2211125_composite.jpg/1280px-RadioheadO2211125_composite.jpg",
+    "dataScatto": "2025-11-21",
+    "dataVerifica": "2026-10-02",
+    "paginaUso": "/artista/radiohead/",
+    "alt": "Montaggio di cinque foto dei componenti dei Radiohead al concerto londinese del 2025",
+    "modifiche": "Montaggio di cinque fotografie attribuite a Raph_PH, caricato e ampliato da Miklogfeather su Wikimedia Commons; qui usata la miniatura 1280 × 465 px, ridimensionata da Wikimedia Commons dall’originale 5940 × 2160 px; nessun ritaglio o ritocco locale.",
+    "creditoVisibile": "Montaggio Radiohead 2025 da foto di Raph_PH · pubblicato e ampliato da Miklogfeather · CC BY 4.0 · ridimensionato da Wikimedia Commons",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 465
+    },
+    "byte": 178115,
+    "sha256": "ccbb7db382e0c3f47ebe4fa06d8b2010f11969167b20b18d18bd6054774abc06",
+    "limiteVisivo": "È un montaggio di cinque foto dello stesso concerto, non una fotografia collettiva scattata in un solo momento.",
+    "creditoParti": [
+      {
+        "testo": "Montaggio Radiohead 2025",
+        "url": "https://commons.wikimedia.org/wiki/File:RadioheadO2211125_composite.jpg"
+      },
+      " da foto di Raph_PH · pubblicato e ampliato da Miklogfeather · ",
+      {
+        "testo": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      " · ridimensionato da ",
+      {
+        "testo": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:RadioheadO2211125_composite.jpg"
+      }
+    ]
   }
 }
