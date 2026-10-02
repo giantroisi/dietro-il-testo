@@ -415,5 +415,39 @@
         "url": "https://commons.wikimedia.org/wiki/File:RadioheadO2211125_composite.jpg"
       }
     ]
+  },
+  "ed-sheeran": {
+    "file": "ed-sheeran-philadelphia-2023.jpg",
+    "autore": "Patrick Cristiano",
+    "titolareDichiarato": "Patrick Cristiano, autore e titolare dichiarato sulla pagina Wikimedia Commons",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_in_Philadelphia_06.jpg",
+    "titoloOriginale": "Ed Sheeran in Philadelphia 06.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ed_Sheeran_in_Philadelphia_06.jpg",
+    "dataScatto": "2023-06-03",
+    "dataVerifica": "2026-10-02",
+    "paginaUso": "/artista/ed-sheeran/",
+    "alt": "Ed Sheeran canta al microfono con una chitarra sul palco a Filadelfia nel 2023",
+    "modifiche": "File originale Wikimedia Commons 1446 × 1750 px, già compresso prima del caricamento su Commons; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Patrick Cristiano · CC BY-SA 4.0 · originale Wikimedia Commons, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 1446,
+      "altezza": 1750
+    },
+    "byte": 115939,
+    "sha256": "df5fd100385b9224bfab0b5324d4a7ab15e7a12753d4b7da50a08f59ae714633",
+    "creditoParti": [
+      {
+        "testo": "Foto",
+        "url": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_in_Philadelphia_06.jpg"
+      },
+      " di Patrick Cristiano · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale Wikimedia Commons, nessuna modifica locale"
+    ]
   }
 }
