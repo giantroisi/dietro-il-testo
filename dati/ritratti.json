@@ -330,5 +330,44 @@
         "url": "https://commons.wikimedia.org/wiki/File:Alice_in_Chains_-_2019158181303_2019-06-07_Rock_am_Ring_-_0198_-_5DSR0483.jpg"
       }
     ]
+  },
+  "my-chemical-romance": {
+    "file": "my-chemical-romance-wembley-2026.jpg",
+    "autore": "Hullian111",
+    "titolareDichiarato": "Hullian111 (autore e titolare dichiarante sulla pagina Wikimedia Commons)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_@_Wembley_Stadium,_11_July_2026_B-Stage_15.jpg",
+    "titoloOriginale": "My Chemical Romance @ Wembley Stadium, 11 July 2026 B-Stage 15.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/My_Chemical_Romance_%40_Wembley_Stadium%2C_11_July_2026_B-Stage_15.jpg/960px-My_Chemical_Romance_%40_Wembley_Stadium%2C_11_July_2026_B-Stage_15.jpg",
+    "dataScatto": "2026-07-11",
+    "dataVerifica": "2026-10-02",
+    "paginaUso": "/artista/my-chemical-romance/",
+    "alt": "I My Chemical Romance su un palco circolare a Wembley nel 2026, circondati dal pubblico",
+    "modifiche": "Versione 960 × 720 px ridimensionata da Wikimedia Commons dall’originale 4.608 × 3.456 px; nessun ritaglio o ritocco locale.",
+    "creditoVisibile": "My Chemical Romance @ Wembley Stadium, 11 July 2026 B-Stage 15 · Foto di Hullian111 · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 720
+    },
+    "byte": 192788,
+    "sha256": "c50cf7016891c8ad8d8ae81f51b542d88b57f4ca46b818939656b336cf5363da",
+    "limiteVisivo": "Scena ampia di concerto con più musicisti sul palco; documenta la band dal vivo, ma non è un ritratto ravvicinato dei volti.",
+    "creditoParti": [
+      {
+        "testo": "My Chemical Romance @ Wembley Stadium, 11 July 2026 B-Stage 15",
+        "url": "https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_@_Wembley_Stadium,_11_July_2026_B-Stage_15.jpg"
+      },
+      " · Foto di Hullian111 · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · ridimensionata da ",
+      {
+        "testo": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_@_Wembley_Stadium,_11_July_2026_B-Stage_15.jpg"
+      }
+    ]
   }
 }
