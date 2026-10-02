@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 317,
+    "nCanzoni": 318,
     "haTestoEditoriale": true
   },
   {
@@ -1622,6 +1622,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/yesterday/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -2248,7 +2253,7 @@
     "percorso": "artista/the-beatles/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -3967,6 +3972,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/the-beatles/help/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/the-beatles/singolo-poi-in-hey-jude-1970/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -4117,7 +4129,7 @@
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 138,
+    "nCanzoni": 139,
     "haTestoEditoriale": true
   },
   {
