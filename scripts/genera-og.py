@@ -13,6 +13,7 @@ Uso: python3 scripts/genera-og.py [--slug <slug>]
 """
 
 import argparse
+import hashlib
 import json
 import re
 import textwrap
@@ -244,6 +245,8 @@ def main():
     canzoni_tutte = json.loads((ROOT / "dati" / "canzoni.json").read_text(encoding="utf-8"))
     artisti = json.loads((ROOT / "dati" / "artisti.json").read_text(encoding="utf-8"))
     out_dir = ROOT / "og"
+    versioni_path = ROOT / "dati" / "og-versioni.json"
+    versioni = json.loads(versioni_path.read_text(encoding="utf-8")) if versioni_path.exists() else {}
 
     if not args.solo_generiche:
         canzoni = canzoni_tutte
@@ -252,7 +255,10 @@ def main():
             if not canzoni:
                 raise SystemExit(f"Nessuna canzone con slug '{args.slug}'")
         for c in canzoni:
-            genera_immagine(c, out_dir / f"{c['slug']}.png")
+            immagine = out_dir / f"{c['slug']}.png"
+            genera_immagine(c, immagine)
+            versioni[c['slug']] = hashlib.sha256(immagine.read_bytes()).hexdigest()[:12]
+        versioni_path.write_text(json.dumps(versioni, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"Immagini generate: {len(canzoni)} in {out_dir}")
 
     if not args.slug:

@@ -909,7 +909,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
-    ogImage: `og/${c.slug}.png`,
+    ogImage: `og/${c.slug}.png${c.ogVersione ? `?v=${c.ogVersione}` : ''}`,
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,

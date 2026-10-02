@@ -5,6 +5,7 @@
 // Uso: node scripts/genera-sito.mjs [--out sito]
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { basename, dirname, join } from 'node:path';
 
@@ -26,6 +27,18 @@ let ganci = {};
 const percorsoGanci = join(ROOT, 'dati', 'ganci.json');
 if (existsSync(percorsoGanci)) ganci = JSON.parse(readFileSync(percorsoGanci, 'utf8'));
 for (const c of canzoni) c.gancio = ganci[c.slug] || null;
+
+// Le cartoline corrette mantengono il nome file, ma ricevono un URL nuovo
+// basato sul contenuto. Evita che una cache mostri la vecchia frase iconica.
+const percorsoVersioniOg = join(ROOT, 'dati', 'og-versioni.json');
+const versioniOg = existsSync(percorsoVersioniOg) ? JSON.parse(readFileSync(percorsoVersioniOg, 'utf8')) : {};
+for (const [slug, versione] of Object.entries(versioniOg)) {
+  const immagine = join(ROOT, 'og', `${slug}.png`);
+  if (!/^[a-f0-9]{12}$/.test(versione) || !existsSync(immagine)) throw new Error(`Versione OG non valida: ${slug}`);
+  const hash = createHash('sha256').update(readFileSync(immagine)).digest('hex').slice(0, 12);
+  if (hash !== versione) throw new Error(`Cartolina OG cambiata senza rigenerare la versione: ${slug}`);
+}
+for (const c of canzoni) c.ogVersione = versioniOg[c.slug] || null;
 
 // ------------------------------------------------------------- contesto
 
@@ -718,7 +731,7 @@ const vercelJson = {
     })),
     {
       source: '/og/(.*)',
-      headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' }],
     },
   ],
 };
