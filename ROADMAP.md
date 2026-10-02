@@ -4203,3 +4203,9 @@ Generati 687 pagine più 404; controlli sui crediti, SEO, coerenza e collegament
 Le proposte fotografiche dei §§34 e 37 sono state riunite in una terza copia separata, senza modificare i lotti originali. Licenze, attribuzioni, file e soggetti sono stati ricontrollati; la prova mobile mancante per Radiohead è stata completata. Il montaggio Radiohead risultava troppo piccolo a 390 px (280 × 103 px): una regola applicata soltanto alla sua pagina lo porta a 342 × 126 px, senza tagliare i cinque volti. MCR conserva la scena di concerto e il suo limite visivo documentato. Dettagli e prove sono nel [rapporto di revisione](rapporti/revisione-ritratti-mcr-radiohead-2026-10-02.md).
 
 Passano i controlli di crediti, SEO, coerenza, collegamenti e integrità delle differenze. Nessun nuovo ciclo ordinario è stato concluso: si tratta della revisione di due cicli immagini già preparati. **Lotto congiunto locale pronto da esaminare; nessun trasferimento, push o pubblicazione.**
+
+## 44. Integrazione locale dei ritratti MCR e Radiohead, 2 ottobre 2026
+
+Il proprietario ha approvato entrambe le immagini del §43. La copia congiunta è stata integrata con avanzamento diretto nel `main` locale. Le due pagine artista e i due file immagine coincidono byte per byte con la nuova generazione del sito; il file non tracciato `SEO-LASTMOD-2026-09-21.md` conserva lo stesso hash SHA-256. La generazione produce 687 pagine più 404 e copia 32 ritratti. Passano `prova-ritratto-credito`, `check-seo` (688 pagine), `check-coerenza` (317 canzoni e 104 artisti) e `check-link`.
+
+**Stato:** integrazione locale completata. Nessun invio al remoto o pubblicazione eseguiti per questo lotto. La revisione prosegue con le proposte Ed Sheeran e AC/DC in una copia separata.
