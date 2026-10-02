@@ -158,27 +158,6 @@ export function generaRicerca(ctx) {
   });
   applicaTema();
 
-  /* Il solo link al brano non scarica l'embed. Il clic crea l'iframe e avvia
-     esplicitamente il collegamento a Spotify; senza JavaScript resta il link. */
-  Array.prototype.forEach.call(document.querySelectorAll('[data-attiva-spotify]'), function (b) {
-    b.hidden = false;
-    b.addEventListener('click', function () {
-      var area = b.closest('[data-player-spotify]');
-      var id = area && area.getAttribute('data-spotify-id');
-      if (!id || !/^[A-Za-z0-9]{22}$/.test(id)) return;
-      var iframe = document.createElement('iframe');
-      iframe.src = 'https://open.spotify.com/embed/track/' + id + '?utm_source=generator';
-      iframe.width = '100%';
-      iframe.height = '152';
-      iframe.title = (area.getAttribute('data-spotify-titolo') || 'Brano') + ' su Spotify';
-      iframe.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
-      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-      iframe.setAttribute('loading', 'eager');
-      area.replaceChild(iframe, b.parentNode);
-      iframe.focus();
-    });
-  });
-
   /* ---------------------------------------------------------- ricerca */
 
   function cerca(q) {
