@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 319,
+    "nCanzoni": 321,
     "haTestoEditoriale": true
   },
   {
@@ -1632,6 +1632,16 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/here-comes-the-sun/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
+    "percorso": "canzone/the-scientist/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -1754,7 +1764,7 @@
     "percorso": "artista/coldplay/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 1,
+    "nCanzoni": 2,
     "haTestoEditoriale": true
   },
   {
@@ -2258,7 +2268,7 @@
     "percorso": "artista/the-beatles/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 2,
+    "nCanzoni": 3,
     "haTestoEditoriale": true
   },
   {
@@ -3016,6 +3026,13 @@
     "indicizzabile": true,
     "nCanzoni": 1,
     "haTestoEditoriale": true
+  },
+  {
+    "percorso": "album/coldplay/a-rush-of-blood-to-the-head/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
   },
   {
     "percorso": "album/daft-punk/random-access-memories/",
@@ -3984,6 +4001,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/the-beatles/abbey-road/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/the-beatles/singolo-poi-in-hey-jude-1970/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -4127,14 +4151,14 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 163,
+    "nCanzoni": 165,
     "haTestoEditoriale": true
   },
   {
     "percorso": "genere/pop/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 139,
+    "nCanzoni": 141,
     "haTestoEditoriale": true
   },
   {
@@ -4176,7 +4200,7 @@
     "percorso": "anni/2000/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 57,
+    "nCanzoni": 58,
     "haTestoEditoriale": true
   },
   {

@@ -4239,3 +4239,11 @@ Il proprietario ha approvato il lotto congiunto del §47. Il ramo `codex/revisio
 Passano `check-seo` (691 pagine), `check-coerenza` (319 canzoni, 104 artisti), `check-completezza` (319/319), `check-link`, `check-nature`, `check-freno` e `git diff --check`. Home, Nightswimming, Yesterday e album *Help!* rispondono HTTP 200 nell'anteprima della cartella principale. Le due pagine erano già state esaminate nel browser, anche a 390 px, nella copia congiunta identica ai file generati; durante questa integrazione il servizio di controllo visivo non era disponibile, quindi non si dichiara una nuova prova visiva sulla radice. Riproduzione integrale Spotify non verificata.
 
 **Stato:** integrazione locale completata. Nessun push o pubblicazione; le altre proposte restano isolate e la revisione della coda prosegue.
+
+## 49. Revisione congiunta di Here Comes the Sun e The Scientist, 3 ottobre 2026
+
+Le due proposte originali sono state riunite in una copia separata basata sul `main` locale dopo il §48; i rami di partenza restano intatti. Riaperti e confrontati i riferimenti decisivi per fatti, dichiarazioni, interpretazioni, date, crediti e versioni Spotify. Il [rapporto con fonti, prove e limiti](rapporti/revisione-schede-beatles-coldplay-2026-10-03.md) documenta il controllo.
+
+Prima dell'aggiunta `check-freno` era tolto; dopo l'aggiunta delle due schede i contatori del debito restano invariati. La generazione produce 694 pagine più 404: 321 canzoni, 104 artisti e 254 album. Passano coerenza, completezza 321/321, collegamenti, SEO, etichette editoriali, attribuzioni e integrità delle differenze. Nel browser le pagine sono state verificate a 390 e 1280 px, senza fuoriuscita orizzontale o errori di console. I lettori Spotify hanno mostrato titolo e artista dopo il caricamento; l'audio integrale non è stato provato.
+
+**Stato:** lotto locale pronto per la revisione del proprietario nella copia `codex/revisione-schede-beatles-coldplay-2026-10-03`; nessun trasferimento, push o pubblicazione. È la revisione di cicli di nuove pagine già preparati, non un nuovo ciclo della rotazione.
