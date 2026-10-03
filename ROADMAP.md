@@ -4223,3 +4223,11 @@ Il proprietario ha chiesto di procedere dopo la presentazione del lotto del §45
 Passano `prova-ritratto-credito`, `check-seo` (688 pagine), `check-coerenza` (317 canzoni e 104 artisti), `check-link` e `git diff --check`. Nell'anteprima della cartella principale, entrambe le pagine caricano foto e crediti su desktop e a 390 × 844 px; sul mobile non c'è scorrimento orizzontale e non risultano errori di console. Restano i limiti visivi del §45: ritratto Ed Sheeran scuro e di profilo, foto AC/DC di una formazione storica.
 
 **Stato:** integrazione locale completata. Nessun invio al remoto o pubblicazione per questo lotto. La revisione prosegue sulle proposte di nuove schede ancora isolate.
+
+## 47. Revisione congiunta delle schede Nightswimming e Yesterday, 3 ottobre 2026
+
+Le due proposte precedenti sono state riunite in una copia separata, preservando i rami originali. Riaperti i riferimenti decisivi, distinti i fatti dalle interpretazioni e controllati i dati aggiornati di artisti, album, indici e SEO. Il [rapporto con fonti, prove e limiti](rapporti/revisione-schede-rem-beatles-2026-10-03.md) documenta la revisione.
+
+Prima dell'aggiunta `check-freno` era tolto; dopo l'aggiunta di due schede i suoi contatori di debito restano invariati. La generazione produce 690 pagine più 404. Passano coerenza, completezza 319/319, collegamenti, SEO, etichette editoriali e integrità delle differenze. Le due pagine e i percorsi verso artista e album sono stati verificati nel browser a 1280 e 390 px; i lettori Spotify caricano titolo e artista, senza scorrimento orizzontale. Riproduzione integrale non verificata.
+
+**Stato:** lotto locale pronto per la revisione del proprietario, senza trasferimento, push o pubblicazione. La pagina ufficiale *Help!* è stata aperta nel browser dopo un timeout del lettore Web: data del disco, ricordo di Martin e durata del primo posto USA confermati. È la revisione di cicli di nuove pagine già preparati, non un nuovo ciclo della rotazione.
