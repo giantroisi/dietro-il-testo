@@ -4731,11 +4731,6 @@
       "permanent": true
     },
     {
-      "source": "/album/the-beatles/help/",
-      "destination": "/artista/the-beatles/",
-      "permanent": true
-    },
-    {
       "source": "/album/the-beatles/rubber-soul/",
       "destination": "/artista/the-beatles/",
       "permanent": true

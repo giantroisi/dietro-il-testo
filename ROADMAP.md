@@ -4231,3 +4231,11 @@ Le due proposte precedenti sono state riunite in una copia separata, preservando
 Prima dell'aggiunta `check-freno` era tolto; dopo l'aggiunta di due schede i suoi contatori di debito restano invariati. La generazione produce 690 pagine più 404. Passano coerenza, completezza 319/319, collegamenti, SEO, etichette editoriali e integrità delle differenze. Le due pagine e i percorsi verso artista e album sono stati verificati nel browser a 1280 e 390 px; i lettori Spotify caricano titolo e artista, senza scorrimento orizzontale. Riproduzione integrale non verificata.
 
 **Stato:** lotto locale pronto per la revisione del proprietario, senza trasferimento, push o pubblicazione. La pagina ufficiale *Help!* è stata aperta nel browser dopo un timeout del lettore Web: data del disco, ricordo di Martin e durata del primo posto USA confermati. È la revisione di cicli di nuove pagine già preparati, non un nuovo ciclo della rotazione.
+
+## 48. Integrazione locale di Nightswimming e Yesterday, 3 ottobre 2026
+
+Il proprietario ha approvato il lotto congiunto del §47. Il ramo `codex/revisione-schede-rem-beatles-2026-10-03` è stato integrato con avanzamento diretto nel `main` locale. Rigenerate 690 pagine più 404 e copiati i file statici nella radice pubblicabile: le due nuove pagine canzone, l'album *Help!*, gli indici, la ricerca e le sitemap rispecchiano ora 319 canzoni. Il confronto `rsync` con checksum non trova differenze tra la generazione e i file della radice. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` conserva il precedente hash SHA-256.
+
+Passano `check-seo` (691 pagine), `check-coerenza` (319 canzoni, 104 artisti), `check-completezza` (319/319), `check-link`, `check-nature`, `check-freno` e `git diff --check`. Home, Nightswimming, Yesterday e album *Help!* rispondono HTTP 200 nell'anteprima della cartella principale. Le due pagine erano già state esaminate nel browser, anche a 390 px, nella copia congiunta identica ai file generati; durante questa integrazione il servizio di controllo visivo non era disponibile, quindi non si dichiara una nuova prova visiva sulla radice. Riproduzione integrale Spotify non verificata.
+
+**Stato:** integrazione locale completata. Nessun push o pubblicazione; le altre proposte restano isolate e la revisione della coda prosegue.
