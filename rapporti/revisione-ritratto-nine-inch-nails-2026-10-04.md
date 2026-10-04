@@ -1,0 +1,9 @@
+# Nine Inch Nails — candidatura non promossa, 4 ottobre 2026
+
+La candidatura del 27 settembre è stata riesaminata senza toccare la copia originale. La [pagina Flickr dell'autrice aliina s.](https://www.flickr.com/photos/chocolate_starfish__/53402307105/) espone la licenza CC BY 2.0; [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nine_Inch_Nails_-_20.06.2022_-_O2_Apollo_Manchester.jpg) registra il controllo della stessa licenza il 24 giugno 2024. Il file locale di 960 × 540 px coincide con l'hash documentato nella candidatura, `500bfb91e8ff32b5afd9f6aae5b2b69984edb9729dfe82ba02aeb40b7490052d`. La foto raffigura il gruppo sul palco di Manchester il 20 giugno 2022.
+
+È stata provata temporaneamente sulla pagina `/artista/nine-inch-nails/` con titolo, autore, licenza, fonte, alt e nota sul ridimensionamento. Generazione e controlli di credito, coerenza, SEO e collegamenti erano positivi; nell'anteprima a 1280 e 390 px il file caricava, il credito era visibile e non c'erano fuoriuscite orizzontali o errori di console.
+
+**Esito visivo:** nel riquadro artista da 300 px su desktop e 280 px su mobile la scena è scura e i volti sono troppo piccoli per riconoscere la band. La foto fornisce il contesto di concerto ma aggiunge poca riconoscibilità alla scheda. La candidatura non viene promossa. Il collegamento temporaneo e la copia del file sono stati rimossi; la generazione finale torna a 34 ritratti e lascia la grafica originale. `prova-ritratto-credito` passa dopo il ripristino. Una nuova candidatura dovrà privilegiare volti distinguibili nel riquadro effettivo, conservando licenza e attribuzione documentate.
+
+Nessun trasferimento, push o pubblicazione; le proposte degli altri artisti restano intatte. Questa verifica senza foto adottata non conclude un ciclo immagini.
