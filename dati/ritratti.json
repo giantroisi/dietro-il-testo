@@ -450,6 +450,40 @@
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
   },
+  "tracy-chapman": {
+    "file": "tracy-chapman-cactus-2009.jpg",
+    "autore": "Hans Hillewaert",
+    "titolareDichiarato": "Hans Hillewaert, indicato come fotografo e titolare del copyright nella pagina Wikimedia Commons",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tracy_Chapman_1.jpg",
+    "titoloOriginale": "Tracy Chapman 1.jpg",
+    "dataScatto": "2009-07-10",
+    "dataVerifica": "2026-10-04",
+    "paginaUso": "/artista/tracy-chapman/",
+    "alt": "Tracy Chapman canta e suona la chitarra al Cactus Festival di Bruges nel 2009",
+    "modifiche": "Miniatura 960 × 1280 px ridimensionata da Wikimedia Commons dall'originale 2478 × 3304 px; nessun ritaglio o ritocco locale.",
+    "creditoVisibile": "Tracy Chapman 1.jpg · © Hans Hillewaert · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1280
+    },
+    "byte": 152935,
+    "sha256": "79c19a3e9bcc9eee762ef8e3a1b61a9e56eccd1f0912191f08a7c3cc5a765d3d",
+    "creditoRichiesto": "© Hans Hillewaert",
+    "creditoParti": [
+      {
+        "testo": "Tracy Chapman 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tracy_Chapman_1.jpg"
+      },
+      " · © Hans Hillewaert · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · ridimensionata da Wikimedia Commons, nessuna modifica locale"
+    ]
+  },
   "ac-dc": {
     "file": "ac-dc-angus-brian-barcellona.jpg",
     "autore": "Joan Sorolla",
