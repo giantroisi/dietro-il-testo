@@ -450,6 +450,40 @@
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
   },
+  "pino-daniele": {
+    "file": "pino-daniele-2009.jpg",
+    "autore": "Iaconianni family",
+    "titolareDichiarato": "Non nominato separatamente sulla pagina del file; Wikimedia Commons attesta la conferma del titolare verificata dal Volunteer Response Team, ticket 2008042810014876",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pino_Daniele_2009.jpg",
+    "titoloOriginale": "Pino Daniele 2009.jpg",
+    "provenienzaIndicata": "Fotoguru.it, come riportato dalla pagina Wikimedia Commons",
+    "dataScatto": "2009-01-01",
+    "dataVerifica": "2026-10-04",
+    "paginaUso": "/artista/pino-daniele/",
+    "alt": "Pino Daniele canta al microfono con una chitarra elettrica bianca nel 2009",
+    "modifiche": "File originale Wikimedia Commons 333 × 500 px, senza ritaglio, ridimensionamento o ritocco locale; visualizzazione proporzionale tramite CSS.",
+    "creditoVisibile": "Pino Daniele 2009.jpg · Foto di Iaconianni family (Fotoguru.it) · CC BY-SA 3.0 · file originale Wikimedia Commons, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 333,
+      "altezza": 500
+    },
+    "byte": 52900,
+    "sha256": "078232cae5326536451edd3d9ba36bbe1000b38926af600f1b9a6cc9b83fc1fb",
+    "creditoParti": [
+      {
+        "testo": "Pino Daniele 2009.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pino_Daniele_2009.jpg"
+      },
+      " · Foto di Iaconianni family (Fotoguru.it) · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      " · file originale Wikimedia Commons, nessuna modifica locale"
+    ]
+  },
   "ac-dc": {
     "file": "ac-dc-angus-brian-barcellona.jpg",
     "autore": "Joan Sorolla",
