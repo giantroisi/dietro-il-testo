@@ -450,6 +450,41 @@
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
   },
+  "oasis": {
+    "file": "oasis-gallagher-2005.jpg",
+    "autore": "Will Fresch",
+    "titolareDichiarato": "Will Fresch, autore indicato da Wikimedia Commons; la licenza è collegata alla pubblicazione dell'account Flickr freschwill",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Oasis_Noel_and_Liam_WF.jpg",
+    "paginaOriginale": "https://www.flickr.com/photos/freschwill/44256675/",
+    "titoloOriginale": "Oasis Noel and Liam WF.jpg",
+    "dataScatto": "2005-09-18",
+    "dataVerifica": "2026-10-04",
+    "paginaUso": "/artista/oasis/",
+    "alt": "Liam Gallagher canta al microfono e Noel Gallagher suona la chitarra durante un concerto degli Oasis a San Diego nel 2005",
+    "modifiche": "CherryX ha ritagliato il file su Wikimedia Commons da 740 × 500 a 740 × 492 px nel 2012; questa copia usa la versione Commons senza ulteriori modifiche locali.",
+    "creditoVisibile": "Oasis Noel and Liam WF.jpg · Foto di Will Fresch · CC BY-SA 2.0 · ritaglio Commons di CherryX, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 740,
+      "altezza": 492
+    },
+    "byte": 299620,
+    "sha256": "a9454a2ab1302ef8db660f0c5034a972d9fe24a414ab15adc5dbba0080b337e2",
+    "limiteVisivo": "Liam è in primo piano e Noel è più piccolo e sullo sfondo. La foto ritrae i due fratelli nel 2005, non l'intera formazione o una formazione attuale.",
+    "creditoParti": [
+      {
+        "testo": "Oasis Noel and Liam WF.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Oasis_Noel_and_Liam_WF.jpg"
+      },
+      " · Foto di Will Fresch · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · ritaglio Commons di CherryX, nessuna modifica locale"
+    ]
+  },
   "ac-dc": {
     "file": "ac-dc-angus-brian-barcellona.jpg",
     "autore": "Joan Sorolla",
