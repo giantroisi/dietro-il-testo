@@ -4247,3 +4247,11 @@ Le due proposte originali sono state riunite in una copia separata basata sul `m
 Prima dell'aggiunta `check-freno` era tolto; dopo l'aggiunta delle due schede i contatori del debito restano invariati. La generazione produce 694 pagine più 404: 321 canzoni, 104 artisti e 254 album. Passano coerenza, completezza 321/321, collegamenti, SEO, etichette editoriali, attribuzioni e integrità delle differenze. Nel browser le pagine sono state verificate a 390 e 1280 px, senza fuoriuscita orizzontale o errori di console. I lettori Spotify hanno mostrato titolo e artista dopo il caricamento; l'audio integrale non è stato provato.
 
 **Stato:** lotto locale pronto per la revisione del proprietario nella copia `codex/revisione-schede-beatles-coldplay-2026-10-03`; nessun trasferimento, push o pubblicazione. È la revisione di cicli di nuove pagine già preparati, non un nuovo ciclo della rotazione.
+
+## 50. Integrazione locale di Here Comes the Sun e The Scientist, 4 ottobre 2026
+
+Il proprietario ha approvato entrambe le schede del §49. Il ramo `codex/revisione-schede-beatles-coldplay-2026-10-03` è stato integrato con avanzamento diretto nel `main` locale. Rigenerate 694 pagine più 404 e sincronizzata la radice pubblicabile: ora comprende 321 canzoni, 104 artisti e 254 album. Il confronto con checksum non trova differenze tra il pacchetto generato e i file della radice. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` conserva l'hash SHA-256 precedente.
+
+Passano `check-freno`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-link`, `check-seo` (695 pagine), `check-nature` e il controllo d'integrità delle differenze. Le due pagine sono state riaperte nell'anteprima del `main` a 390 px: titoli e momenti iconici leggibili, larghezza del documento pari alla viewport, nessun errore di console; i lettori Spotify caricano titolo e artista dopo una breve attesa. La revisione desktop a 1280 px è documentata al §49. L'audio integrale non è stato provato.
+
+**Stato:** integrazione locale completata, senza invio al remoto o pubblicazione. La revisione delle altre proposte procede anche quando un lotto successivo è in attesa del proprietario: ogni lotto resta isolato e richiede la propria approvazione per il trasferimento.

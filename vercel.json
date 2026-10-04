@@ -476,11 +476,6 @@
       "permanent": true
     },
     {
-      "source": "/album/coldplay/a-rush-of-blood-to-the-head/",
-      "destination": "/artista/coldplay/",
-      "permanent": true
-    },
-    {
       "source": "/album/coldplay/x-y/",
       "destination": "/artista/coldplay/",
       "permanent": true
@@ -4752,11 +4747,6 @@
     },
     {
       "source": "/album/the-beatles/yellow-submarine/",
-      "destination": "/artista/the-beatles/",
-      "permanent": true
-    },
-    {
-      "source": "/album/the-beatles/abbey-road/",
       "destination": "/artista/the-beatles/",
       "permanent": true
     },
