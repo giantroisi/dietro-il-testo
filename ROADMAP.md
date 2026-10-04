@@ -4255,3 +4255,9 @@ Il proprietario ha approvato entrambe le schede del §49. Il ramo `codex/revisio
 Passano `check-freno`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-link`, `check-seo` (695 pagine), `check-nature` e il controllo d'integrità delle differenze. Le due pagine sono state riaperte nell'anteprima del `main` a 390 px: titoli e momenti iconici leggibili, larghezza del documento pari alla viewport, nessun errore di console; i lettori Spotify caricano titolo e artista dopo una breve attesa. La revisione desktop a 1280 px è documentata al §49. L'audio integrale non è stato provato.
 
 **Stato:** integrazione locale completata, senza invio al remoto o pubblicazione. La revisione delle altre proposte procede anche quando un lotto successivo è in attesa del proprietario: ogni lotto resta isolato e richiede la propria approvazione per il trasferimento.
+
+## 54. Revisione del ritratto Zucchero, 4 ottobre 2026
+
+Ripresa e verificata in una nuova copia separata la fotografia preparata il 25 settembre: la pagina originale Wikimedia Commons conferma soggetto, luogo, data, autore, titolare dichiarato e licenza CC BY-SA 4.0. Il file è stato osservato e collegato a `/artista/zucchero/` con credito visibile, link a fonte e licenza, alt e indicazione delle modifiche precedenti e del ridimensionamento. Dettagli nel [rapporto di revisione](rapporti/revisione-ritratto-zucchero-2026-10-04.md).
+
+La generazione produce 694 pagine più 404 e copia 35 ritratti. Passano il controllo dei crediti, SEO, coerenza, collegamenti e integrità delle differenze. A 1280 e 390 px l'anteprima mostra foto e credito senza scorrimento orizzontale o errori di console. **Stato:** proposta isolata in attesa di revisione, nessun trasferimento, push o pubblicazione. I §§51–53 sono documentati in altre copie separate per Pearl Jam, Oasis e Tracy Chapman: in caso di integrazione occorre unire per voce `dati/ritratti.json` e la Roadmap.
