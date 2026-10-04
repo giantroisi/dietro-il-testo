@@ -112,12 +112,40 @@
     "titoloOriginale": "File:Cesare Cremonini m2o 2024 (cropped).jpg"
   },
   "pearl-jam": {
-    "file": "pearl-jam.jpg",
-    "autore": "Drew de F Fawkes from Guildford, United Kingdom",
-    "licenza": "CC BY 2.0",
-    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
-    "fonte": "https://commons.wikimedia.org/wiki/File:Eddie_Vedder_&_Johnny_Marr,_Pearl_Jam,_BST_Hyde_Park_2022_(52209161403).jpg",
-    "titoloOriginale": "File:Eddie Vedder & Johnny Marr, Pearl Jam, BST Hyde Park 2022 (52209161403).jpg"
+    "file": "pearl-jam-gruppo.jpg",
+    "autore": "Lugnuts",
+    "titolareDichiarato": "Lugnuts, autore e titolare dichiarante sulla pagina Wikimedia Commons",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pearl_Jam_2022.jpg",
+    "paginaOriginale": "https://commons.wikimedia.org/wiki/File:PearlJam-London2022-02.jpg",
+    "titoloOriginale": "Pearl Jam 2022.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Pearl_Jam_2022.jpg/960px-Pearl_Jam_2022.jpg",
+    "dataScatto": "2022-07-09",
+    "dataVerifica": "2026-10-04",
+    "paginaUso": "/artista/pearl-jam/",
+    "alt": "I Pearl Jam sul palco al BST Hyde Park di Londra nel 2022, visti dalla platea",
+    "modifiche": "La fotografia di Lugnuts è stata ritagliata in altezza dell’11% da 4TheWynne su Wikimedia Commons; qui si usa la miniatura 960 × 640 px ridimensionata da Commons, senza altre modifiche locali.",
+    "creditoVisibile": "Foto di Lugnuts · CC BY-SA 4.0 · ritaglio Commons di 4TheWynne, versione ridimensionata",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 640
+    },
+    "byte": 115798,
+    "sha256": "db0f211ecb1df0f5764b9e7bb11465bb26c974a5e6d65825f1915593688ec3f2",
+    "limiteVisivo": "Foto del palco vista dalla platea: documenta la band in concerto, ma i volti sono piccoli.",
+    "creditoParti": [
+      {
+        "testo": "Foto",
+        "url": "https://commons.wikimedia.org/wiki/File:Pearl_Jam_2022.jpg"
+      },
+      " di Lugnuts · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · ritaglio Commons di 4TheWynne, versione ridimensionata"
+    ]
   },
   "slipknot": {
     "file": "slipknot.jpg",
