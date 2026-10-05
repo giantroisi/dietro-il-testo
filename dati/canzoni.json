@@ -16283,5 +16283,94 @@
     "temi": [
       "amore"
     ]
+  },
+  {
+    "slug": "blackbird",
+    "titolo": "Blackbird",
+    "artista": "The Beatles",
+    "artistaSlug": "the-beatles",
+    "anno": "1968",
+    "album": "The Beatles",
+    "albumSlug": "the-beatles",
+    "genereTesto": "Folk",
+    "generi": [
+      "rock"
+    ],
+    "paese": null,
+    "colore": "#3E7A2C",
+    "colore2": "#8A6A2E",
+    "ascolti": null,
+    "ascoltiTesto": null,
+    "spotifyId": "5jgFfDIR6FR0gvlA56Nakr",
+    "corpo": [
+      "Blackbird è un brano dei Beatles pubblicato il 22 novembre 1968 nel doppio album The Beatles, spesso chiamato White Album. La scheda ufficiale del gruppo indica Paul McCartney come autore del brano, pur riportando il credito Lennon-McCartney, George Martin come produttore e l’11 giugno 1968 come data di registrazione.",
+      "McCartney ha raccontato che lui e George Harrison suonavano per gioco l’inizio di una bourrée di Bach sulla chitarra. Secondo il suo ricordo, modificò l’intreccio fra basso e melodia che gli piaceva in quel passaggio: da lì prese avvio Blackbird.",
+      "Parlando nel 2016 del suo incontro con due donne dei Little Rock Nine, McCartney ha spiegato che intendeva rivolgersi alle persone coinvolte nelle lotte per i diritti civili e offrire loro incoraggiamento.",
+      "Il testo autorizzato dal sito dei Beatles sviluppa l’immagine dell’uccello e del volo senza nominare esplicitamente una lotta politica. Nella spiegazione che McCartney ha dato molti anni dopo, il brano era pensato come incoraggiamento a chi attraversava le lotte per i diritti civili.",
+      "Nel 2018 la ristampa del White Album ha incluso una ripresa di sessione identificata come Take 28, distinta dalla registrazione pubblicata sull’album originale. Il lettore qui incorporato è invece la traccia Blackbird - Remastered 2009, verificata sulla pagina Spotify: non propone la ripresa alternativa."
+    ],
+    "naturaCorpo": [
+      [
+        "F",
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ],
+      [
+        "D"
+      ],
+      [
+        "F",
+        "D"
+      ],
+      [
+        "F",
+        "F"
+      ]
+    ],
+    "fraseIconica": "Nel nostro ascolto, un’immagine di volo fa dell’uscita dalla difficoltà una possibilità di libertà; McCartney la collega alle lotte per i diritti civili.",
+    "sezioniExtra": [],
+    "testoUrl": "https://www.thebeatles.com/blackbird",
+    "testoFonte": "The Beatles",
+    "fonti": [
+      {
+        "url": "https://www.thebeatles.com/blackbird",
+        "nome": "The Beatles — uscita, album, registrazione, crediti e testo autorizzato",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.thebeatles.com/beatles-0",
+        "nome": "The Beatles — album The Beatles, 22 novembre 1968",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://www.paulmccartney.com/news/paul-and-lily-cole-discuss-hope-for-the-future-full-transcript",
+        "nome": "Paul McCartney — conversazione con Lily Cole, origine musicale da Bach",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.paulmccartney.com/news/new-qanda-paul-on-2016",
+        "nome": "Paul McCartney — Q&A 2016, significato legato ai diritti civili",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.thebeatles.com/beatles-white-album-special-anniversary-releases-2018",
+        "nome": "The Beatles — ristampa 2018 e Blackbird Take 28",
+        "ruolo": "curiosità"
+      },
+      {
+        "url": "https://open.spotify.com/embed/track/5jgFfDIR6FR0gvlA56Nakr",
+        "nome": "Spotify — Blackbird, Remastered 2009 dei Beatles",
+        "ruolo": "ascolti"
+      }
+    ],
+    "descrizioneSeo": "Blackbird dei Beatles: Paul McCartney racconta il legame con Bach e i diritti civili, dall’album The Beatles alla Take 28 della ristampa.",
+    "ultimaVerifica": "2026-10-05",
+    "statoEditoriale": "completa",
+    "temi": [
+      "speranza"
+    ]
   }
 ]

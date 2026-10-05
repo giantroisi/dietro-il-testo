@@ -8,7 +8,7 @@
     "percorso": "archivio/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 321,
+    "nCanzoni": 322,
     "haTestoEditoriale": true
   },
   {
@@ -1642,6 +1642,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "canzone/blackbird/",
+    "categoria": "articolo",
+    "indicizzabile": true
+  },
+  {
     "percorso": "artista/5-seconds-of-summer/",
     "categoria": "indice",
     "indicizzabile": true,
@@ -2268,7 +2273,7 @@
     "percorso": "artista/the-beatles/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 3,
+    "nCanzoni": 4,
     "haTestoEditoriale": true
   },
   {
@@ -4001,6 +4006,13 @@
     "haTestoEditoriale": false
   },
   {
+    "percorso": "album/the-beatles/the-beatles/",
+    "categoria": "indice",
+    "indicizzabile": false,
+    "nCanzoni": 1,
+    "haTestoEditoriale": false
+  },
+  {
     "percorso": "album/the-beatles/abbey-road/",
     "categoria": "indice",
     "indicizzabile": false,
@@ -4151,7 +4163,7 @@
     "percorso": "genere/rock/",
     "categoria": "indice",
     "indicizzabile": true,
-    "nCanzoni": 165,
+    "nCanzoni": 166,
     "haTestoEditoriale": true
   },
   {
