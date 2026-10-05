@@ -482,5 +482,41 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "david-bowie": {
+    "file": "david-bowie-rock-am-ring-1987.jpg",
+    "autore": "Elmar J. Lordemann (Jo Atmon)",
+    "titolareDichiarato": "Elmar J. Lordemann (Jo Atmon), autore della fotografia dichiarata opera propria sulla pagina del file",
+    "licenza": "CC BY-SA 2.0 DE",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "fonte": "https://commons.wikimedia.org/wiki/File:David_Bowie_(1987).jpg",
+    "paginaOriginale": "https://commons.wikimedia.org/wiki/File:David_Bowie_(1987).jpg",
+    "titoloOriginale": "David Bowie (1987).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/David_Bowie_%281987%29.jpg",
+    "dataScatto": "1987-06-07",
+    "dataVerifica": "2026-10-05",
+    "paginaUso": "/artista/david-bowie/",
+    "alt": "David Bowie canta seduto con il microfono e un abito rosso al Rock am Ring nel 1987",
+    "modifiche": "File originale Wikimedia Commons 761 × 945 px, senza ritaglio, ridimensionamento o ritocco locale; nella pagina è mostrato per intero.",
+    "creditoVisibile": "Foto di Elmar J. Lordemann (Jo Atmon) · David Bowie (1987).jpg · CC BY-SA 2.0 DE · nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 761,
+      "altezza": 945
+    },
+    "byte": 299264,
+    "sha256": "c35dbe92d712ce84600a1d7d0bbc7415387686177d08e80629ab43357c7c4fbe",
+    "creditoParti": [
+      "Foto di Elmar J. Lordemann (Jo Atmon) · ",
+      {
+        "testo": "David Bowie (1987).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:David_Bowie_(1987).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+      },
+      " · nessuna modifica locale"
+    ]
   }
 }
