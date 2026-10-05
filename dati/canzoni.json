@@ -7749,29 +7749,30 @@
     "paese": null,
     "colore": "#7A1F1F",
     "colore2": "#2E2E4A",
-    "ascolti": 317702396,
-    "ascoltiTesto": "318 mln ascolti",
     "spotifyId": "47FmjOhMMPiCsqLD6nbIgZ",
     "corpo": [
-      "Il bassista Steve Harris scrisse il brano dopo un incubo influenzato in parte dal film horror \"Damien: Omen II\" (1978) e in parte dal poema settecentesco \"Tam o' Shanter\" di Robert Burns. Harris ha respinto più volte le accuse di satanismo rivolte alla band: \"fondamentalmente quella canzone parla di un sogno, non riguarda l'adorazione del diavolo\", dichiarò nel 1983; a Rolling Stone nel 2019 ha aggiunto che l'ispirazione veniva più dai film horror e dalla lettura che da un reale interesse per l'occulto.",
-      "Il brano si apre con una citazione recitata tratta dall'Apocalisse di Giovanni. La band avrebbe voluto l'attore horror Vincent Price come voce recitante, ma — come ha raccontato il cantante Bruce Dickinson — l'attore chiese un compenso troppo alto per il budget a disposizione della band: al suo posto fu ingaggiato l'attore Barry Clayton per 300 sterline."
+      "In un’intervista del 1983, la domanda introduttiva collega la canzone a \"Omen II\"; Steve Harris risponde che il brano parla di un sogno, non dell’adorazione del diavolo. Intervistato nel 2019 da Rolling Stone, Harris ha invece richiamato \"The Omen\" e ha detto che l’influenza maggiore veniva dal poema \"Tam o’ Shanter\" di Robert Burns. Le due interviste menzionano film diversi.",
+      "Il brano si apre con una voce recitante che richiama l’Apocalisse. Secondo Bruce Dickinson, la band avrebbe voluto Vincent Price per l’introduzione, ma il compenso richiesto era fuori budget; la voce fu affidata a Barry Clayton."
     ],
-    "fraseIconica": "Il momento più discusso è la citazione biblica recitata in apertura, tratta dall'Apocalisse, che introduce il numero simbolo della bestia come immagine di terrore prima ancora che entri la voce cantata. Steve Harris ha sempre respinto le accuse di satanismo legate al brano, insistendo che il testo nasce da un incubo e da suggestioni horror e letterarie, non da un interesse reale per l'occulto — una precisazione che non ha impedito al numero del titolo di restare per anni al centro di controversie religiose attorno alla band.",
+    "fraseIconica": "La voce recitata richiama l’Apocalisse. Steve Harris ha spiegato che il brano racconta un sogno, non l’adorazione del diavolo.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/iron-maiden/19281/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/The_Number_of_the_Beast_(song)",
-        "nome": "Wikipedia"
+        "url": "https://songlexikon.de/songs/numberofthebeast/",
+        "nome": "Songlexikon — analisi del brano (Università di Friburgo)"
+      },
+      {
+        "url": "https://www.ironmaiden-bg.com/web/index.php/en/piece-of-mind-interviews-and-articles/1227-steve-harris-1983-interview-en-july",
+        "nome": "Intervista a Steve Harris di John Stix (1983, ripubblicata da Iron Maiden Bulgaria)"
+      },
+      {
+        "url": "https://es.rollingstone.com/arg-steve-harris-de-iron-maiden/",
+        "nome": "Rolling Stone en Español — intervista a Steve Harris (2019)"
       },
       {
         "url": "https://parade.com/news/1982-rock-classic-was-partly-inspired-by-a-chilling-horror-movie-and-it-shows",
-        "nome": "Parade"
-      },
-      {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "nome": "Parade — racconto di Bruce Dickinson sulla voce introduttiva"
       }
     ],
     "testoFonte": "Letras",
