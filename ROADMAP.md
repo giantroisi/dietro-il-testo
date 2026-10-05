@@ -4255,3 +4255,11 @@ Il proprietario ha approvato entrambe le schede del §49. Il ramo `codex/revisio
 Passano `check-freno`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-link`, `check-seo` (695 pagine), `check-nature` e il controllo d'integrità delle differenze. Le due pagine sono state riaperte nell'anteprima del `main` a 390 px: titoli e momenti iconici leggibili, larghezza del documento pari alla viewport, nessun errore di console; i lettori Spotify caricano titolo e artista dopo una breve attesa. La revisione desktop a 1280 px è documentata al §49. L'audio integrale non è stato provato.
 
 **Stato:** integrazione locale completata, senza invio al remoto o pubblicazione. La revisione delle altre proposte procede anche quando un lotto successivo è in attesa del proprietario: ogni lotto resta isolato e richiede la propria approvazione per il trasferimento.
+
+## 56. Ciclo immagini: ritratto Elton John, 5 ottobre 2026
+
+Per la pagina `/artista/elton-john/` è stata preparata in una copia separata una fotografia dell’artista a Glastonbury nel 2023. La pagina originale [Flickr di Raph_PH](https://www.flickr.com/photos/raph_ph/53009098414/) espone CC BY 2.0; [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Elton_John_2023.jpg) documenta il ritaglio usato. Il soggetto e il file sono stati controllati visivamente. Autore, licenza, pagina d’uso, alt, data di verifica, modifiche e credito visibile sono registrati in `dati/ritratti.json` e nel [dossier fotografico](rapporti/licenze/ritratto-elton-john-2026-10-05.md).
+
+La generazione produce 694 pagine più 404 e copia 35 ritratti. Passano i controlli di credito, provenienza, SEO, coerenza, link e integrità delle differenze. Nell’anteprima desktop e a 390 px la fotografia è caricata e il credito è leggibile; la pagina mobile non supera la larghezza della finestra. Nessun contenuto editoriale dell’artista è stato riverificato.
+
+**Stato:** proposta fotografica locale nel ramo `codex/ritratto-elton-john-2026-10-05`, in attesa di revisione; nessun trasferimento nel `main`, push o pubblicazione. Ultimo ciclo ordinario concluso: **immagini**. Prossimo: **manutenzione delle schede esistenti**. Le altre proposte restano isolate.

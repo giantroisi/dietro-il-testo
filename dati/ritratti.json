@@ -482,5 +482,45 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "elton-john": {
+    "file": "elton-john-glastonbury-2023.jpg",
+    "autore": "Raph_PH",
+    "titolareDichiarato": "Raph_PH, autore della fotografia indicato dalla pagina Flickr originale; la fotografia è pubblicata lì con licenza CC BY 2.0.",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Elton_John_2023.jpg",
+    "paginaOriginale": "https://www.flickr.com/photos/raph_ph/53009098414/",
+    "titoloOriginale": "Glasto2023 (419 of 468)",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elton_John_2023.jpg",
+    "dataScatto": "2023-06-25",
+    "dataVerifica": "2026-10-05",
+    "paginaUso": "/artista/elton-john/",
+    "alt": "Elton John sorride sul palco a Glastonbury nel 2023, con occhiali arancioni e giacca dorata",
+    "modifiche": "La fotografia Flickr è stata ritagliata da JeffLynne1977 su Wikimedia Commons (41% in orizzontale e 42% in verticale) prima di questa copia; qui usato il file Commons 1532 × 2007 px senza ulteriori ritagli, ridimensionamenti o ritocchi locali.",
+    "creditoVisibile": "Glasto2023 (419 of 468) · Foto di Raph_PH · CC BY 2.0 · ritaglio di JeffLynne1977 su Wikimedia Commons, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 1532,
+      "altezza": 2007
+    },
+    "byte": 1688362,
+    "sha256": "02f275cf88c9dcedce659a3621bee6fcf9999234cbcb63164198c58aa526831d",
+    "creditoParti": [
+      {
+        "testo": "Glasto2023 (419 of 468)",
+        "url": "https://www.flickr.com/photos/raph_ph/53009098414/"
+      },
+      " · Foto di Raph_PH · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · ritaglio di JeffLynne1977 su ",
+      {
+        "testo": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Elton_John_2023.jpg"
+      },
+      ", nessuna modifica locale"
+    ]
   }
 }
