@@ -761,6 +761,10 @@ a { color: inherit; }
 }
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+/* Componente commerciale futuro: avviso leggibile accanto al solo link testuale. */
+.link-affiliato { border: 1px solid var(--border); border-left: 3px solid var(--sistema); border-radius: var(--r); padding: 16px 18px; max-width: 70ch; }
+.link-affiliato-avviso { margin: 0 0 8px; color: var(--text); font-weight: 700; }
+.link-affiliato a { color: var(--sistema); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--font-mono); font-size: 11.5px;
