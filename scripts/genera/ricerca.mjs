@@ -201,13 +201,22 @@ export function generaRicerca(ctx) {
     var campo = radice.querySelector('[data-campo]');
     var box = radice.querySelector('[data-esiti]');
     if (!campo || !box) return;
-    function chiudi() { box.hidden = true; }
+    // Il pannello cambia mentre si digita, ma i link da soli non annunciano
+    // quanti risultati siano arrivati a chi usa uno screen reader.
+    var annuncio = document.createElement('span');
+    annuncio.className = 'annuncio-ricerca';
+    annuncio.setAttribute('role', 'status');
+    annuncio.setAttribute('aria-live', 'polite');
+    annuncio.setAttribute('aria-atomic', 'true');
+    radice.appendChild(annuncio);
+    function chiudi() { box.hidden = true; annuncio.textContent = ''; }
 
     function disegna(lista) {
       if (!lista.length) {
         box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con una parte del titolo o il nome dell’artista.</p>' +
           '<a class="esito" href="' + RADICE + 'archivio/"><b>Esplora l’archivio</b><span>tutte le canzoni, filtrabili</span></a>';
         box.hidden = false;
+        annuncio.textContent = 'Nessun risultato. È disponibile il link Esplora l’archivio.';
         return;
       }
       var html = '';
@@ -221,6 +230,7 @@ export function generaRicerca(ctx) {
       });
       box.innerHTML = html;
       box.hidden = false;
+      annuncio.textContent = lista.length + (lista.length === 1 ? ' risultato disponibile.' : ' risultati disponibili.');
     }
 
     /* Campo vuoto: invece di non fare niente, il pannello propone le raccolte.
@@ -238,6 +248,7 @@ export function generaRicerca(ctx) {
       html += '<a class="esito" href="' + RADICE + 'archivio/"><b>Archivio completo</b><span>tutte le canzoni, filtrabili</span></a>';
       box.innerHTML = html;
       box.hidden = false;
+      annuncio.textContent = RACCOLTE.length + ' raccolte suggerite e link all’archivio.';
     }
 
     campo.addEventListener('input', function () {

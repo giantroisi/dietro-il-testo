@@ -4255,3 +4255,11 @@ Il proprietario ha approvato entrambe le schede del §49. Il ramo `codex/revisio
 Passano `check-freno`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-link`, `check-seo` (695 pagine), `check-nature` e il controllo d'integrità delle differenze. Le due pagine sono state riaperte nell'anteprima del `main` a 390 px: titoli e momenti iconici leggibili, larghezza del documento pari alla viewport, nessun errore di console; i lettori Spotify caricano titolo e artista dopo una breve attesa. La revisione desktop a 1280 px è documentata al §49. L'audio integrale non è stato provato.
 
 **Stato:** integrazione locale completata, senza invio al remoto o pubblicazione. La revisione delle altre proposte procede anche quando un lotto successivo è in attesa del proprietario: ogni lotto resta isolato e richiede la propria approvazione per il trasferimento.
+
+## 51. Qualità tecnica: risultati della ricerca accessibili, 5 ottobre 2026
+
+La ricerca globale mostrava gli esiti in un pannello dinamico senza annunciarne il numero, in contrasto con P7. Nella copia separata `codex/ricerca-esiti-accessibili-2026-10-05` è stata aggiunta una regione di stato che comunica il numero dei risultati, l'assenza di risultati o le raccolte suggerite. Il [rapporto di verifica](rapporti/ricerca-esiti-accessibili-2026-10-05.md) riporta prove e limiti.
+
+Generazione, SEO, collegamenti e integrità delle differenze passano. Nel browser sono stati controllati risultati, messaggio senza esiti, suggerimenti, focus da tastiera, desktop e mobile a 390 px; nessun errore di console o scorrimento orizzontale. La prova con uno screen reader reale resta da fare.
+
+**Stato:** ciclo **qualità tecnica** completato nella copia separata e pronto per revisione. Nessun trasferimento, push o pubblicazione. Prossimo ciclo ordinario: **nuove pagine**.
