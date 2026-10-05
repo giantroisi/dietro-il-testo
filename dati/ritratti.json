@@ -482,5 +482,45 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "adele": {
+    "file": "adele-glasgow-2016.jpg",
+    "autore": "Marc E. (marcen27)",
+    "titolareDichiarato": "L’account Flickr marcen27 (Marc E.) pubblica la fotografia con licenza CC BY 2.0; non è indicato un titolare distinto.",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+    "paginaOriginale": "https://www.flickr.com/photos/marcen27/26102821816/",
+    "titoloOriginale": "Adele 3",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Adele_2016.jpg",
+    "dataScatto": "2016-03-26",
+    "dataVerifica": "2026-10-05",
+    "paginaUso": "/artista/adele/",
+    "alt": "Adele sorride sul palco a Glasgow nel 2016, con un abito scuro brillante",
+    "modifiche": "Ritaglio già pubblicato su Wikimedia Commons da ThiefOfBagdad dalla fotografia Flickr «Adele 3»; file Commons 1607 × 2134 px, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Adele 3 · foto di Marc E. (marcen27) · CC BY 2.0 · ritaglio su Wikimedia Commons, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 1607,
+      "altezza": 2134
+    },
+    "byte": 943380,
+    "sha256": "f5776f86c58db221cfa6a560a4d0d9d54d2c83ddcb2e9ff34e40fc95bda55f87",
+    "creditoParti": [
+      {
+        "testo": "Adele 3",
+        "url": "https://www.flickr.com/photos/marcen27/26102821816/"
+      },
+      " · foto di Marc E. (marcen27) · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · ritaglio su ",
+      {
+        "testo": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+      },
+      ", nessuna modifica locale"
+    ]
   }
 }
