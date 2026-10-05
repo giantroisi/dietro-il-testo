@@ -1820,6 +1820,51 @@ export function paginaChiSiamo(ctx) {
   });
 }
 
+// Pagina pubblica preparatoria. Nessuna dichiarazione di adesione al programma:
+// il Tracking ID è vuoto e i link commerciali non sono ancora attivi.
+export function paginaAffiliazioni(ctx) {
+  const r = radice(1);
+  const corpo = `
+  <div class="col">
+    ${apertura(r, 'Affiliazioni', 'Trasparenza commerciale', 'Affiliazioni.', 'Come riconoscerai eventuali collegamenti commerciali, se verranno introdotti.')}
+
+    <section class="blocco" style="border-top:0;padding-top:0">
+      <h2>Oggi e in futuro</h2>
+      <div class="prosa">
+        <p>Dietro il testo si sta preparando a richiedere l’iscrizione al Programma Affiliazione Amazon Italia. Al momento non sono attivi collegamenti affiliati. In futuro alcune pagine potranno contenere link affiliati a prodotti pertinenti al loro contenuto.</p>
+        <p>Se seguirai uno di quei link e farai un acquisto idoneo, il sito potrà ricevere una commissione. Per te non ci saranno costi aggiuntivi per il fatto di aver usato il collegamento.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Le scelte editoriali restano indipendenti</h2>
+      <div class="prosa">
+        <p>Un’affiliazione non determina quali canzoni, artisti o album raccontiamo e non influenza valutazioni, analisi o interpretazioni. Prima vengono le fonti e la pertinenza del contenuto.</p>
+        <p>Selezioneremo un prodotto solo quando avrà un legame concreto con la pagina che stai leggendo. Non inseriremo collegamenti per riempire spazi o per suggerire acquisti estranei alla storia raccontata.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Come li riconoscerai</h2>
+      <div class="prosa">
+        <p>Ogni eventuale link affiliato sarà testuale e avrà un avviso visibile accanto. Il prezzo, la disponibilità e le condizioni dell’acquisto saranno quelli mostrati dal venditore quando visiterai il suo sito. Non li anticiperemo qui.</p>
+        <p>Il semplice collegamento non carica contenuti Amazon su Dietro il testo. Dopo il clic uscirai da questo sito: trovi i dettagli sul trattamento dei dati nella nostra <a href="${r}privacy/">pagina Privacy</a> e nell’informativa del sito di destinazione.</p>
+      </div>
+    </section>
+  </div>`;
+
+  return pagina({
+    profondita: 1,
+    percorso: 'affiliazioni/',
+    titolo: 'Affiliazioni',
+    descrizione: 'Come Dietro il testo segnalerà eventuali link affiliati, manterrà indipendenti le scelte editoriali e selezionerà solo prodotti pertinenti.',
+    totali: ctx.totali,
+    raccolte: ctx.raccolte,
+    corpo,
+    datiStrutturati: briciole('Affiliazioni', 'affiliazioni/'),
+  });
+}
+
 // F62 — Informativa privacy. Scritta sui fatti verificati del sito, non su un
 // modello generico: nessun analytics, nessun cookie nostro, un solo elemento
 // di terze parti (il player Spotify). Dire il falso qui sarebbe grave quanto
@@ -1849,6 +1894,15 @@ export function paginaPrivacy(ctx) {
       </div>
       <div class="azioni">
         <a class="bottone" href="https://www.spotify.com/it/legal/privacy-policy/" target="_blank" rel="noopener">Informativa di Spotify</a>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Eventuali link affiliati</h2>
+      <div class="prosa">
+        <p>Al momento non ci sono link affiliati attivi. Se ne aggiungeremo, saranno normali collegamenti esterni e li segnaleremo vicino al testo del link. La loro sola presenza su questa pagina non caricherà risorse Amazon e non installerà direttamente cookie Amazon nel tuo browser tramite il nostro sito.</p>
+        <p>Solo dopo il clic entrerai su Amazon: il browser contatterà quel sito, che tratterà i dati secondo la propria <a href="https://www.amazon.it/gp/help/customer/display.html?nodeId=200545460" target="_blank" rel="noopener">informativa sulla privacy</a>. Eventuali widget, banner o script di terze parti richiederanno una valutazione separata prima di essere attivati.</p>
+        <p>Spieghiamo le nostre regole editoriali nella pagina <a href="${r}affiliazioni/">Affiliazioni</a>.</p>
       </div>
     </section>
 
@@ -1918,6 +1972,14 @@ export function paginaNoteLegali(ctx) {
       <div class="prosa">
         <p>Non ospitiamo copertine, fotografie o loghi di cui non abbiamo una licenza o un'autorizzazione documentata: il fatto che un'immagine sia reperibile online non la rende riutilizzabile. Gli spazi colorati delle pagine sono grafica originale.</p>
         <p>I nomi di artisti, band, album ed etichette appartengono ai rispettivi titolari e sono citati per identificare le opere di cui parliamo. I colori di ogni pagina richiamano un immaginario visivo; non riproducono marchi registrati.</p>
+      </div>
+    </section>
+
+    <section class="blocco">
+      <h2>Collegamenti affiliati futuri</h2>
+      <div class="prosa">
+        <p>Il sito non mostra ancora link affiliati. In futuro potremo aggiungere normali collegamenti testuali verso prodotti pertinenti, con un avviso accanto al link. Un eventuale acquisto potrà generare una commissione senza costi aggiuntivi per chi legge; non cambierà le nostre scelte editoriali.</p>
+        <p>Un link testuale, da solo, non installa direttamente cookie Amazon attraverso questo sito. Dopo il clic si entra su Amazon, che tratta i dati secondo la propria informativa. Widget, banner o script di terze parti saranno valutati separatamente prima di qualsiasi attivazione. Maggiori dettagli nella pagina <a href="${r}affiliazioni/">Affiliazioni</a> e in <a href="${r}privacy/">Privacy</a>.</p>
       </div>
     </section>
 

@@ -148,6 +148,7 @@ function piede(r, totali, raccolte = []) {
           <a href="mailto:${esc(AUTORE.email)}?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
           <a href="mailto:${esc(AUTORE.email)}?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
           <a href="${r}privacy/">Privacy</a>
+          <a href="${r}affiliazioni/">Affiliazioni</a>
           <a href="${r}note-legali/">Note legali</a>
         </nav>
       </div>

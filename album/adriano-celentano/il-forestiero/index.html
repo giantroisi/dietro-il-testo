@@ -786,6 +786,10 @@ a { color: inherit; }
 }
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+/* Componente commerciale futuro: avviso leggibile accanto al solo link testuale. */
+.link-affiliato { border: 1px solid var(--border); border-left: 3px solid var(--sistema); border-radius: var(--r); padding: 16px 18px; max-width: 70ch; }
+.link-affiliato-avviso { margin: 0 0 8px; color: var(--text); font-weight: 700; }
+.link-affiliato a { color: var(--sistema); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--font-mono); font-size: 11.5px;
@@ -899,7 +903,7 @@ a { color: inherit; }
         <svg class="sole" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M5.9 5.9 4.4 4.4M19.6 19.6l-1.5-1.5M18.1 5.9l1.5-1.5M4.4 19.6l1.5-1.5"/></svg>
         <svg class="luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 13.4A8.2 8.2 0 1 1 10.6 4a6.6 6.6 0 0 0 9.4 9.4Z"/></svg>
       </button>
-      
+
       <a class="marchio" href="../../../" aria-label="Dietro il testo — home">
         <img src="../../../logo.png" alt="Dietro il testo" width="1061" height="245">
       </a>
@@ -930,10 +934,10 @@ a { color: inherit; }
       <div>
         <p class="sopratitolo">Adriano Celentano <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Album in studio</p>
         <h1>Il forestiero</h1>
-        
+
         <div class="affidabilita">
           <span class="bollo">Copertina documentata</span>
-          
+
         </div>
       </div>
       <div class="visivo visivo-album" aria-hidden="true">
@@ -1057,6 +1061,7 @@ a { color: inherit; }
           <a href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
           <a href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
           <a href="../../../privacy/">Privacy</a>
+          <a href="../../../affiliazioni/">Affiliazioni</a>
           <a href="../../../note-legali/">Note legali</a>
         </nav>
       </div>

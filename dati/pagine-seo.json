@@ -27,6 +27,11 @@
     "indicizzabile": true
   },
   {
+    "percorso": "affiliazioni/",
+    "categoria": "servizio",
+    "indicizzabile": true
+  },
+  {
     "percorso": "note-legali/",
     "categoria": "servizio",
     "indicizzabile": true

@@ -790,6 +790,10 @@ a { color: inherit; }
 }
 
 .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+/* Componente commerciale futuro: avviso leggibile accanto al solo link testuale. */
+.link-affiliato { border: 1px solid var(--border); border-left: 3px solid var(--sistema); border-radius: var(--r); padding: 16px 18px; max-width: 70ch; }
+.link-affiliato-avviso { margin: 0 0 8px; color: var(--text); font-weight: 700; }
+.link-affiliato a { color: var(--sistema); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .bottone {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--font-mono); font-size: 11.5px;
@@ -882,7 +886,7 @@ a { color: inherit; }
       <a class="marchio-d" href="./" aria-label="Dietro il testo — home">
         <img src="logo.png" alt="" width="1061" height="245">
       </a>
-      
+
       <div class="testata-cerca">
         <div class="cerca" data-cerca>
           <svg class="lente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
@@ -931,13 +935,13 @@ a { color: inherit; }
 
     <div class="pillola-riquadro">
       <p class="occhiello">Canzone in evidenza</p>
-      <article class="pillola" data-pillola style="--identita:#6B3E1F">
-        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Eros Ramazzotti <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1996</p>
-        <p class="gancio" data-pillola-titolo>L'aurora</p>
-        <p class="estratto" data-pillola-estratto>Il momento più ricordato è l'invocazione all'alba come promessa di rinascita, rivolta alla figlia appena nata ma anche a se stesso: un augurio che le cose vadano meglio, pronunciato nel momento più sereno della propria vita.</p>
+      <article class="pillola" data-pillola style="--identita:#3E2E5C">
+        <p class="occhiello" style="color:var(--identita-testo)" data-pillola-meta>Evanescence <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2003</p>
+        <p class="gancio" data-pillola-titolo>My Immortal</p>
+        <p class="estratto" data-pillola-estratto>Il momento più ricordato è l'invocazione a una presenza che rifiuta di andarsene nonostante il tempo passato — un fantasma emotivo più che letterale, capace di restare vivo nella memoria anche quando tutto il resto è cambiato.</p>
         <div class="azioni">
-          <a class="bottone pieno" href="canzone/laurora/" data-pillola-link>Leggi la scheda</a>
-          <a class="bottone" href="artista/eros-ramazzotti/" data-pillola-artista>Eros Ramazzotti</a>
+          <a class="bottone pieno" href="canzone/my-immortal/" data-pillola-link>Leggi la scheda</a>
+          <a class="bottone" href="artista/evanescence/" data-pillola-artista>Evanescence</a>
           <button type="button" class="bottone" data-altra-pillola>Cambia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg></button>
         </div>
       </article>
@@ -1060,6 +1064,7 @@ a { color: inherit; }
           <a href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20segnalazione">Segnala un errore</a>
           <a href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20proponi%20una%20canzone">Proponi una canzone</a>
           <a href="privacy/">Privacy</a>
+          <a href="affiliazioni/">Affiliazioni</a>
           <a href="note-legali/">Note legali</a>
         </nav>
       </div>
