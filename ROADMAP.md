@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Proposta isolata: Killing in the Name, 5 ottobre 2026
+
+**Filone: manutenzione prioritaria di una scheda già online.** L'archivio ufficiale delle classifiche britanniche smentisce il verbo «riportò» nella storia del numero 1 del 2009: nel 1993 il brano si fermò al n. 25. Il rapporto indipendente dell'altra AI è stato usato come segnalazione; Official Charts, American Songwriter, Wikipedia e la pagina Kworb citata sono state riaperte. Problema, fonti, passaggi pertinenti e limiti sono nel [rapporto di correzione](rapporti/correzione-killing-in-the-name-2026-10-05.md).
+
+Nella copia separata sono stati corretti corpo, frase iconica, descrizione SEO e fonti; il numero di ascolti privo di una fonte pertinente per l'ID Spotify della pagina è stato tolto. Rigenerate la pagina e l'immagine condivisibile della canzone. Non è stata attribuita `ultimaVerifica`, perché non è una verifica integrale della scheda. Passano coerenza, SEO, link, natura editoriale e controllo delle differenze. La pagina è stata ispezionata nel browser a 1280 e 390 px, senza errore di console o fuoriuscita orizzontale; l'immagine OG è leggibile.
+
+**Stato:** proposta locale pronta per revisione nella copia `correzione-killing-2026-10-05`; nessun trasferimento, push o pubblicazione. Questo intervento urgente non modifica la posizione della rotazione ordinaria: il prossimo filone resta immagini, da ricontrollare sulla Roadmap quando riprenderà.

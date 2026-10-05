@@ -694,14 +694,13 @@
     "paese": null,
     "colore": "#8A1A1A",
     "colore2": "#2E2E2E",
-    "ascolti": 1300000000,
-    "ascoltiTesto": "1,3 mld ascolti",
     "spotifyId": "0N4NO2BmOIBWrCQ9r8Ei8m",
+    "descrizioneSeo": "Il primo singolo dei Rage Against the Machine: dalle origini del riff al numero 1 britannico conquistato per la prima volta nel 2009.",
     "corpo": [
-      "Singolo di apertura dell'album d'esordio omonimo, uscito nel 1992. È un brano di protesta contro gli abusi di potere della polizia, ispirato al pestaggio di Rodney King da parte degli agenti di Los Angeles nel 1991, e paragona esplicitamente le forze dell'ordine al Ku Klux Klan.",
-      "Il riff nacque quasi per caso, quando il chitarrista Tom Morello lo suonò per mostrare a un allievo l'accordatura in \"Drop D\". Una campagna social nel dicembre 2009 lo riportò al numero 1 delle classifiche britanniche, 17 anni dopo l'uscita."
+      "Primo singolo estratto dall'album d'esordio omonimo del 1992. American Songwriter lo descrive come un brano di protesta contro gli abusi di potere e collega la sua scrittura al pestaggio di Rodney King da parte della polizia di Los Angeles nel 1991; Wikipedia presenta questo legame come un'associazione fatta dalla critica. La canzone accosta la polizia di Los Angeles al Ku Klux Klan.",
+      "Il riff nacque durante una lezione di chitarra: Tom Morello lo suonò mostrando a un allievo l'accordatura in Drop D. Nel 1993 il singolo si fermò al numero 25 della classifica britannica; una campagna organizzata sui social lo portò per la prima volta al numero 1 nel dicembre 2009."
     ],
-    "fraseIconica": "Il momento più citato è il finale furioso del brano, in cui Zack de la Rocha ripete ossessivamente e a squarciagola un unico rifiuto di obbedire — il frammento più memato e usato genericamente come inno anti-autoritario. Tom Morello improvvisò il riff principale durante una lezione di chitarra sull'accordatura in Drop D; il testo collega direttamente le forze dell'ordine al razzismo istituzionale ed è comunemente associato al pestaggio di Rodney King del 1991 e alle rivolte che ne seguirono.",
+    "fraseIconica": "Zack de la Rocha chiude il brano con una frase ripetuta a intensità crescente, fino all'urlo finale: la protesta assume la forma di un rifiuto.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/rage-against-the-machine/killing-in-the-name/",
     "fonti": [
@@ -714,9 +713,9 @@
         "nome": "American Songwriter"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.officialcharts.com/songs/rage-against-the-machine-killing-in-the-name/",
+        "nome": "Official Charts (storico del brano)",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
