@@ -1079,7 +1079,7 @@ export function paginaArtista(a, ctx) {
     ${
       a.storia
         ? `<section class="blocco" id="storia">
-      <h2>La storia del gruppo</h2>
+      <h2>La storia</h2>
       <div class="prosa"><p>${esc(a.storia)}</p></div>
       ${
         // 8 settembre 2026. Le biografie sono rimaste per mesi senza fonti
@@ -1095,7 +1095,7 @@ export function paginaArtista(a, ctx) {
       }
     </section>`
         : `<section class="blocco" id="storia">
-      <h2>La storia del gruppo</h2>
+      <h2>La storia</h2>
       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
     </section>`
     }
