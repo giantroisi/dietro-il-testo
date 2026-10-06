@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 54. Correzione mirata di «Il mio canto libero», 6 ottobre 2026
+
+Il rapporto indipendente `LOTTO-02-2026-10-05.md` ha segnalato una frase iconica troppo vicina a due versi, un superlativo senza prova, l'attribuzione incompleta del brano e dati di ascolto superati. Le fonti sono state riaperte: Fanpage per ruoli, genesi e interpretazione; Sony Music per la tracklist dell'album; Spotify per l'edizione collegata. Il numero d'ordine dell'album è stato omesso perché le discografie consultate non concordano. La nuova frase iconica descrive il contrasto narrativo senza riprodurre il testo e l'immagine condivisibile è stata rigenerata. I dettagli e le fonti sono nel [rapporto dedicato](rapporti/correzione-canto-libero-2026-10-06.md).
+
+Passano coerenza, SEO, link, etichette editoriali, freno e controllo delle differenze. Pagina, lettore e fonti sono stati visti nel browser a 1280 e 390 px, senza overflow mobile né errori di console. L'audio integrale e il link esterno a Letras non sono stati riverificati. È una correzione circoscritta di una scheda online, non un ciclo della rotazione ordinaria; `ultimaVerifica` resta assente finché non sarà completata una riverifica indipendente dell'intera scheda.
+
+**Stato:** proposta nella copia `codex/correzione-canto-libero-2026-10-06`; nessun trasferimento nel `main`, push o pubblicazione. Le proposte per *Africa* e *Killing in the Name* restano isolate e in attesa di approvazione.

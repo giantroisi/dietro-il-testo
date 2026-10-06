@@ -1663,29 +1663,26 @@
     "paese": "it",
     "colore": "#A6691E",
     "colore2": "#3E6B4E",
-    "ascolti": 75800000,
-    "ascoltiTesto": "75,8 mln ascolti",
     "spotifyId": "2SvXqxiG2ntfkEWvuABT7u",
     "corpo": [
-      "Scritta da Mogol dopo l'inizio di una nuova relazione, la canzone è insieme una dichiarazione d'amore e una difesa della libertà di scegliere i propri sentimenti al di là delle convenzioni sociali, in un linguaggio ricco di immagini allegoriche tipico della coppia Battisti-Mogol.",
-      "Dà il titolo al settimo album di Battisti, pubblicato nel novembre 1972, considerato una pietra miliare della musica leggera italiana."
+      "Il testo di Mogol, sulla musica di Lucio Battisti, racconta un amore che cerca spazio in un mondo ostile. Secondo Fanpage, Mogol scrisse le parole dopo la separazione dalla moglie e l'incontro con Gabriella Marazzi.",
+      "Pubblicata come singolo nel novembre 1972, la canzone chiude l'album omonimo di Battisti. La lettura di Fanpage mette al centro il contrasto tra il legame della coppia e le pressioni del mondo esterno."
     ],
-    "fraseIconica": "Il verso più citato è la dichiarazione che lei stessa è il suo \"canto libero\", e che con lei il senso di immensità si apre oltre ciò che l'occhio può vedere. Scritta da Mogol (testo) e Battisti (musica), la canzone fu composta dopo che Mogol si era separato dalla moglie e aveva iniziato una relazione con la pittrice e poetessa Gabriella Marazzi. Il brano descrive l'amore come un sentimento elevato, quasi sacro, a rischio di essere soffocato dalla quotidianità, e per questo destinato a innalzarsi in uno spazio sconfinato e liberatorio.",
+    "fraseIconica": "Il ritornello porta in primo piano l'intimità della coppia; le strofe le oppongono un mondo ostile. È il contrasto su cui Fanpage basa la sua lettura del brano.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/battisti-lucio/579083/",
     "fonti": [
       {
-        "url": "https://it.wikipedia.org/wiki/Il_mio_canto_libero_(brano_musicale)",
-        "nome": "Wikipedia"
-      },
-      {
         "url": "https://music.fanpage.it/il-significato-de-il-mio-canto-libero-la-canzone-di-battisti-e-mogol-sullamore-ritrovato/",
-        "nome": "Fanpage"
+        "nome": "Fanpage — storia e interpretazione"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://store.sonymusic.it/products/il-mio-canto-libero-180gr-marbleyellow-blue-black-192khz",
+        "nome": "Sony Music — tracklist dell'album"
+      },
+      {
+        "url": "https://open.spotify.com/track/2SvXqxiG2ntfkEWvuABT7u",
+        "nome": "Spotify — edizione dell'album del 1972"
       }
     ],
     "testoFonte": "Letras",
