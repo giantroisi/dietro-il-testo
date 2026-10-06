@@ -3112,33 +3112,38 @@
     "paese": null,
     "colore": "#1A1A1A",
     "colore2": "#8C1D1D",
-    "ascolti": 123000000,
-    "ascoltiTesto": "123 mln ascolti",
     "spotifyId": "27tX58NOpv1YKQ0abW7EPy",
     "corpo": [
-      "Ultimo brano di \"The Downward Spiral\" (1994), scritto da Trent Reznor e pubblicato l'anno successivo come singolo promozionale. Chiude concettualmente il percorso dell'album, un viaggio attraverso autodistruzione, dipendenza e perdita di controllo vissuto dal protagonista immaginario del disco. Reznor lo ha definito il brano più personale che abbia mai scritto, al punto da sentirsi a disagio nel mostrarlo così apertamente: da allora è diventato il pezzo che chiude fisso ogni concerto della band.",
-      "Nel 2002 il produttore Rick Rubin propose una cover al country Johnny Cash, allora quasi settantenne e in gravi condizioni di salute: la nuova versione, accompagnata da un video che ripercorreva la sua vita e carriera, spostò il significato della canzone verso una meditazione sul tempo che passa e sui rimpianti di un'intera esistenza. Lo stesso Reznor ammise che, dopo aver visto quel video, sentì che il brano \"non gli apparteneva più\"."
+      "Ultima traccia di \"The Downward Spiral\" (1994), scritta da Trent Reznor e pubblicata come singolo nel 1995. Il significato resta aperto: American Songwriter riporta sia la lettura come addio disperato sia quella di una possibilità di resistere alla depressione. In un'intervista al Los Angeles Times nel 2005, Reznor disse di aver pensato al proprio dolore e di aver cercato di immaginare il vuoto più profondo; guardando agli anni successivi, descrisse il brano come una profezia autoavveratasi.",
+      "Nel 2002 Johnny Cash ne registrò una versione per l'album \"American IV: The Man Comes Around\", prodotto da Rick Rubin. Il video diretto da Mark Romanek, uscito l'anno seguente, alterna l'interpretazione di Cash a immagini della sua vita e lo mostra in condizioni di salute fragili. Secondo American Songwriter, Reznor era inizialmente perplesso sull'idea della cover; dopo aver visto il video, disse che quella canzone non gli apparteneva più."
     ],
-    "fraseIconica": "Il verso più citato è quello finale, in cui il narratore osserva le macerie della propria vita e le definisce il suo \"impero di polvere\". Scritta da Trent Reznor per \"The Downward Spiral\" (1994), un album che racconta la discesa di un narratore verso disperazione e autodistruzione, la frase catturava secondo Reznor il vuoto dello stile di vita da tossicodipendente di cui stava scrivendo — un \"impero\" costruito sul nulla, sulla polvere. All'epoca della scrittura non aveva ancora vissuto realmente quella vita; ha raccontato in seguito che il brano si rivelò stranamente profetico, perché droga e dipendenza presero davvero il controllo della sua vita negli anni successivi.",
+    "fraseIconica": "Il finale apre uno spiraglio nella disperazione senza imporre una conclusione netta. Reznor ha raccontato di aver scritto il brano pensando al proprio dolore e al vuoto più profondo che riuscisse a immaginare.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/nine-inch-nails/hurt/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)",
-        "nome": "Wikipedia"
+        "url": "https://shop.nin.com/products/the-downward-spiral-cd",
+        "nome": "Nine Inch Nails — scaletta ufficiale di The Downward Spiral"
       },
       {
-        "url": "https://www.songfacts.com/facts/nine-inch-nails/hurt",
-        "nome": "Songfacts"
+        "url": "https://www.latimes.com/archives/la-xpm-2005-apr-10-ca-reznor10-story.html",
+        "nome": "Los Angeles Times — intervista a Trent Reznor, Robert Hilburn"
       },
       {
         "url": "https://americansongwriter.com/hurt-by-nine-inch-nails-johnny-cash-behind-song-meaning/",
-        "nome": "American Songwriter"
+        "nome": "American Songwriter — Jacob Uitti"
       },
       {
-        "url": "https://kworb.net/spotify/artist/0X380XXQSNBYuleKzav5UO_songs.html",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.johnnycash.com/music/american-iv-the-man-comes-around/",
+        "nome": "Johnny Cash — American IV e video di Hurt"
+      },
+      {
+        "url": "https://shop.mca.com/products/johnny-cash-american-iv-the-man-comes-around-2lp-vinyl",
+        "nome": "MCA — crediti dell'album American IV"
+      },
+      {
+        "url": "https://open.spotify.com/track/27tX58NOpv1YKQ0abW7EPy",
+        "nome": "Spotify — registrazione incorporata"
       }
     ],
     "testoFonte": "Letras",
