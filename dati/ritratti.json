@@ -482,5 +482,31 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "red-hot-chili-peppers": {
+    "file": "red-hot-chili-peppers-londra-2022.jpg",
+    "autore": "Kreepin Deth",
+    "titolare": "Kreepin Deth, secondo la dichiarazione dell'autore sulla pagina originale",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:RHCP_Live_in_London_26_June_2022.jpg",
+    "titoloOriginale": "RHCP Live in London 26 June 2022.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/RHCP_Live_in_London_26_June_2022.jpg",
+    "dataScatto": "2022-06-26",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/red-hot-chili-peppers/",
+    "alt": "I quattro Red Hot Chili Peppers si esibiscono sul palco a Londra nel 2022",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Kreepin Deth · RHCP Live in London 26 June 2022.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": { "larghezza": 1464, "altezza": 915 },
+    "byte": 332725,
+    "sha256": "da11ecf0f83beb39b8cf36bc5a362d1e6240e165049b98167a02ac100cf15097",
+    "creditoParti": [
+      "Foto di Kreepin Deth · ",
+      { "testo": "RHCP Live in London 26 June 2022.jpg", "url": "https://commons.wikimedia.org/wiki/File:RHCP_Live_in_London_26_June_2022.jpg" },
+      " · ",
+      { "testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/" },
+      " · originale senza modifiche locali"
+    ]
   }
 }
