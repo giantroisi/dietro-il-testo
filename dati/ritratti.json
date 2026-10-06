@@ -482,5 +482,463 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "the-police": {
+    "file": "the-police.jpg",
+    "autore": "Justin",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:The_Police_05.jpg",
+    "titoloOriginale": "The Police 05.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Police_05.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/the-police/",
+    "alt": "Stewart Copeland alla batteria, Sting al basso e Andy Summers alla chitarra durante un concerto dei Police",
+    "modifiche": "File originale Wikimedia Commons; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "The Police 05.jpg · Foto di Justin · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 872,
+      "altezza": 482
+    },
+    "byte": 81030,
+    "sha256": "aeffaf46cf63a285a5ad132283a50b897bf8048af2b5ecf8e5c35f596511d43b",
+    "creditoParti": [
+      {
+        "testo": "The Police 05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Police_05.jpg"
+      },
+      " · Foto di Justin · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "depeche-mode": {
+    "file": "depeche-mode-denver-2017.jpg",
+    "autore": "Julio Enriquez",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Depeche_Mode_Pepsi_Center_08.25.17_(36010459024).jpg",
+    "titoloOriginale": "Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Depeche_Mode_Pepsi_Center_08.25.17_%2836010459024%29.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/depeche-mode/",
+    "alt": "Martin Gore e Dave Gahan dei Depeche Mode cantano insieme durante un concerto del 2017",
+    "modifiche": "File originale Wikimedia Commons 2001 × 1334 px, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Julio Enriquez · Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 2001,
+      "altezza": 1334
+    },
+    "byte": 141829,
+    "sha256": "bd2a49177d3dca8cbc4a90bd7447fc3228db95c0218c6542461ffc595ce8368e",
+    "creditoParti": [
+      "Foto di Julio Enriquez · ",
+      {
+        "testo": "Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Depeche_Mode_Pepsi_Center_08.25.17_(36010459024).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "coldplay": {
+    "file": "coldplay-2008.jpg",
+    "autore": "wonker",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Coldplay_(2591221662).jpg",
+    "titoloOriginale": "Coldplay (2591221662).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Coldplay_%282591221662%29.jpg",
+    "dataScatto": "2008-06-18",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/coldplay/",
+    "alt": "I quattro membri dei Coldplay suonano e cantano insieme durante un’esibizione nel 2008",
+    "modifiche": "File originale Wikimedia Commons 1600 × 1200 px, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di wonker · Coldplay (2591221662).jpg · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1600,
+      "altezza": 1200
+    },
+    "byte": 893370,
+    "sha256": "38a7b55d7999ffef6faf033f4c2928901ee33bc426975f699849c04880aab50d",
+    "creditoParti": [
+      "Foto di wonker · ",
+      {
+        "testo": "Coldplay (2591221662).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coldplay_(2591221662).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "david-bowie": {
+    "file": "david-bowie-ziggy-santa-monica-1972.jpg",
+    "autore": "Boris Yaro",
+    "titolareDichiarato": "The Regents of the University of California (UCLA Library)",
+    "licenza": "CC BY 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fonte": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj",
+    "titoloOriginale": "David Bowie, as Ziggy Stardust, performing at the Santa Monica Civic Auditorium, Calif., 1972",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/David_Bowie%2C_as_Ziggy_Stardust%2C_performing_at_the_Santa_Monica_Civic_Auditorium.jpg",
+    "dataScatto": "1972-10-23",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/david-bowie/",
+    "alt": "David Bowie nei panni di Ziggy Stardust canta al microfono e suona la chitarra al Santa Monica Civic Auditorium nel 1972",
+    "modifiche": "File originale da Wikimedia Commons 2554 × 3850 px; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Boris Yaro · Los Angeles Times, 1972 · CC BY 4.0 · originale UCLA Library, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 2554,
+      "altezza": 3850
+    },
+    "byte": 2963508,
+    "sha256": "76d3fe2ac5366821c830cd373d146c21d8936d02c9e5e119ff8ff5330cfd5a7b",
+    "creditoParti": [
+      "Foto di Boris Yaro · Los Angeles Times, 1972 · ",
+      {
+        "testo": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      " · ",
+      {
+        "testo": "originale UCLA Library",
+        "url": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj"
+      },
+      ", nessuna modifica locale"
+    ]
+  },
+  "the-killers": {
+    "file": "the-killers-brandon-flowers-razzmatazz-2024.jpg",
+    "autore": "Wilnel José Verdú Guerrero",
+    "titolareDichiarato": "Wilnel José Verdú Guerrero (pagina originale Wikimedia Commons, opera propria)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:The_Killers,_Razzmatazz_01.jpg",
+    "titoloOriginale": "The Killers, Razzmatazz 01.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/The_Killers%2C_Razzmatazz_01.jpg",
+    "dataScatto": "2024-04-10",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/the-killers/",
+    "alt": "Brandon Flowers canta al microfono durante un concerto dei The Killers al Razzmatazz di Barcellona nel 2024",
+    "modifiche": "File originale Wikimedia Commons, 1980 × 3520 px nell’orientamento visivo indicato dalla scheda; EXIF ruota la matrice JPEG 3520 × 1980 px; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Brandon Flowers dei The Killers · foto di Wilnel José Verdú Guerrero · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1980,
+      "altezza": 3520
+    },
+    "byte": 1365656,
+    "sha256": "46db1201d665d18a83808533f617a0f1be04eea409c26013b06f14b12f08da0f",
+    "creditoParti": [
+      "Brandon Flowers dei The Killers · foto di ",
+      {
+        "testo": "Wilnel José Verdú Guerrero",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Killers,_Razzmatazz_01.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "ghost": {
+    "file": "ghost-papa-emeritus-download-2013.jpg",
+    "autore": "Thargol",
+    "titolareDichiarato": "Thargol (pagina originale Wikimedia Commons, opera propria e dichiarazione del titolare)",
+    "licenza": "CC0 1.0",
+    "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.it",
+    "fonte": "https://commons.wikimedia.org/wiki/File:130616--papa_emeritus.jpg",
+    "titoloOriginale": "130616--papa emeritus.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/130616--papa_emeritus.jpg",
+    "dataScatto": "2013-06-16",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/ghost/",
+    "alt": "Papa Emeritus, cantante mascherato dei Ghost, sul palco del Download Festival nel 2013 con le braccia alzate",
+    "modifiche": "File originale Wikimedia Commons, 913 × 960 px; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Papa Emeritus dei Ghost · foto di Thargol · CC0 1.0 · Download Festival 2013 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 913,
+      "altezza": 960
+    },
+    "byte": 71440,
+    "sha256": "48425f3011f2f3bafca40442a7d775866ceff965679dc6ed65f1e9ca8f0aed39",
+    "limiteVisivo": "Raffigura soltanto Papa Emeritus nella formazione scenica del 2013, non il gruppo intero né la formazione attuale.",
+    "creditoParti": [
+      "Papa Emeritus dei Ghost · foto di ",
+      {
+        "testo": "Thargol",
+        "url": "https://commons.wikimedia.org/wiki/File:130616--papa_emeritus.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.it"
+      },
+      " · Download Festival 2013 · originale senza modifiche locali"
+    ]
+  },
+  "foo-fighters": {
+    "file": "foo-fighters-dave-grohl-2011.jpg",
+    "autore": "Ryanw2313",
+    "titolareDichiarato": "Ryanw2313, autore e titolare dichiarato sulla pagina Wikimedia Commons",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Dave_Grohl.jpg",
+    "titoloOriginale": "Dave Grohl.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dave_Grohl.jpg",
+    "dataScatto": "2011-07-03",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/foo-fighters/",
+    "alt": "Dave Grohl dei Foo Fighters durante un concerto al National Bowl nel 2011",
+    "modifiche": "Originale Wikimedia Commons 3648 × 2736 px ridimensionato proporzionalmente a 1400 × 1050 px e ricompresso in JPEG al 78%; nessun ritaglio o ritocco.",
+    "creditoVisibile": "Dave Grohl.jpg · foto di Ryanw2313 · CC BY-SA 3.0 · ridimensionata e ricompressa",
+    "dimensioni": {
+      "larghezza": 1400,
+      "altezza": 1050
+    },
+    "byte": 200228,
+    "sha256": "19e5d3cdfc6ec78d40151ad1949c0faae3f2e69f5453bc619f31f085ea31e618",
+    "creditoParti": [
+      {
+        "testo": "Dave Grohl.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Dave_Grohl.jpg"
+      },
+      " · foto di Ryanw2313 · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      " · ridimensionata e ricompressa"
+    ]
+  },
+  "adele": {
+    "file": "adele-glasgow-2016.jpg",
+    "autore": "Marc E. (marcen27)",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+    "fonteOriginale": "https://www.flickr.com/photos/marcen27/26102821816/",
+    "titoloOriginale": "Adele 3",
+    "titoloFile": "Adele 2016.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Adele_2016.jpg",
+    "dataScatto": "2016-03-26",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/adele/",
+    "alt": "Adele sorride sul palco della SSE Hydro di Glasgow nel 2016",
+    "modifiche": "Foto originale Adele 3 su Flickr; ritaglio precedente su Wikimedia Commons (Adele 2016.jpg, 1607 × 2134 px) attribuito all'utente ThiefOfBagdad nella cronologia; versione locale ridimensionata proporzionalmente a 903 × 1200 px e ricompressa in JPEG all'80%, senza ulteriori ritagli o ritocchi.",
+    "creditoVisibile": "Adele 3 · foto di Marc E. (marcen27) · ritaglio Commons di ThiefOfBagdad · CC BY 2.0 · ridimensionata e ricompressa",
+    "dimensioni": {
+      "larghezza": 903,
+      "altezza": 1200
+    },
+    "byte": 240929,
+    "sha256": "94c3b7eadf0f743f2f12a22d0a2727250d311812d5e9e6ef77bb4a86abcb36f4",
+    "creditoParti": [
+      {
+        "testo": "Adele 3",
+        "url": "https://www.flickr.com/photos/marcen27/26102821816/"
+      },
+      " · foto di Marc E. (marcen27) · ",
+      {
+        "testo": "ritaglio Commons di ThiefOfBagdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · ridimensionata e ricompressa"
+    ]
+  },
+  "whitney-houston": {
+    "file": "whitney-houston-ritratto.jpg",
+    "autore": "John Mathew Smith & www.celebrity-photos.com",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_2000.jpg",
+    "fonteOriginale": "https://www.flickr.com/photos/kingkongphoto/5112487951/",
+    "titoloOriginale": "WHITNEY HUSTON",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Whitney_Houston_2000.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/whitney-houston/",
+    "alt": "Whitney Houston sorride con occhiali ovali scuri e una giacca nera",
+    "modifiche": "File originale Wikimedia Commons di 1560 × 2276 px, identico alla foto visibile sulla pagina Flickr dell'autore; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "WHITNEY HUSTON (titolo originale) · foto di John Mathew Smith & www.celebrity-photos.com · file Wikimedia Commons · CC BY-SA 2.0 · nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 1560,
+      "altezza": 2276
+    },
+    "byte": 190427,
+    "sha256": "bec82b4ce555e413aa8e55b02f02f461630b60ee6fe7c1cf0648f279b712df4c",
+    "creditoParti": [
+      {
+        "testo": "WHITNEY HUSTON (titolo originale)",
+        "url": "https://www.flickr.com/photos/kingkongphoto/5112487951/"
+      },
+      " · foto di John Mathew Smith & www.celebrity-photos.com · ",
+      {
+        "testo": "file Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_2000.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · nessuna modifica locale"
+    ]
+  },
+  "the-clash": {
+    "file": "the-clash-oslo-1980.jpg",
+    "autore": "Helge Øverås",
+    "titolare": "Helge Øverås (dichiarazione dell'autore sulla pagina Commons)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Clash_21051980_12_800.jpg",
+    "titoloOriginale": "Clash 21051980 12 800.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Clash_21051980_12_800.jpg",
+    "dataScatto": "1980-05-21",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/the-clash/",
+    "alt": "Joe Strummer, Mick Jones e Paul Simonon dei Clash sul palco a Oslo nel 1980",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Helge Øverås · Clash 21051980 12 800.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 800,
+      "altezza": 468
+    },
+    "byte": 65937,
+    "sha256": "62f70178df4e18db7f87a5f57657fbf3ab11e8f86ce74230a2fc2120049ee5e6",
+    "creditoParti": [
+      "Foto di Helge Øverås · ",
+      {
+        "testo": "Clash 21051980 12 800.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Clash_21051980_12_800.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "elton-john": {
+    "file": "elton-john-palmesus-2017.jpg",
+    "autore": "Jørund Føreland Pedersen",
+    "titolare": "Jørund Føreland Pedersen (metadati del file: Joerund F Pedersen)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Elton_John_Palmesus_2017-1.jpg",
+    "titoloOriginale": "Elton John Palmesus 2017-1.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Elton_John_Palmesus_2017-1.jpg",
+    "dataScatto": "2017-06-29",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/elton-john/",
+    "alt": "Elton John accanto al pianoforte sul palco a Kristiansand nel 2017",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Jørund Føreland Pedersen · Elton John Palmesus 2017-1.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1600,
+      "altezza": 1067
+    },
+    "byte": 600693,
+    "sha256": "c417c94b574010da1014de1b9da4c0981f6000f6fc82799edfaef7894a559874",
+    "creditoParti": [
+      "Foto di Jørund Føreland Pedersen · ",
+      {
+        "testo": "Elton John Palmesus 2017-1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Elton_John_Palmesus_2017-1.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "red-hot-chili-peppers": {
+    "file": "red-hot-chili-peppers-londra-2022.jpg",
+    "autore": "Kreepin Deth",
+    "titolare": "Kreepin Deth, secondo la dichiarazione dell'autore sulla pagina originale",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:RHCP_Live_in_London_26_June_2022.jpg",
+    "titoloOriginale": "RHCP Live in London 26 June 2022.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/RHCP_Live_in_London_26_June_2022.jpg",
+    "dataScatto": "2022-06-26",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/red-hot-chili-peppers/",
+    "alt": "I quattro Red Hot Chili Peppers si esibiscono sul palco a Londra nel 2022",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Kreepin Deth · RHCP Live in London 26 June 2022.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1464,
+      "altezza": 915
+    },
+    "byte": 332725,
+    "sha256": "da11ecf0f83beb39b8cf36bc5a362d1e6240e165049b98167a02ac100cf15097",
+    "creditoParti": [
+      "Foto di Kreepin Deth · ",
+      {
+        "testo": "RHCP Live in London 26 June 2022.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RHCP_Live_in_London_26_June_2022.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
+  "fall-out-boy": {
+    "file": "fall-out-boy-londra-2023.jpg",
+    "autore": "Drew de F Fawkes",
+    "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY 2.0 esposta sull'account Flickr di Drew de F Fawkes",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://www.flickr.com/photos/guynamedfawkes/52755936394/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Fall_Out_Boy,_Heaven,_London_(52755936394).jpg",
+    "titoloOriginale": "Fall Out Boy, Heaven, London",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Fall_Out_Boy%2C_Heaven%2C_London_%2852755936394%29.jpg/1280px-Fall_Out_Boy%2C_Heaven%2C_London_%2852755936394%29.jpg",
+    "dataScatto": "2023-03-16",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/fall-out-boy/",
+    "alt": "I Fall Out Boy suonano sul palco dell'Heaven di Londra nel 2023",
+    "modifiche": "Versione da 1280 × 721 px generata da Wikimedia Commons a partire dall'originale; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina.",
+    "creditoVisibile": "Foto di Drew de F Fawkes · Fall Out Boy, Heaven, London · CC BY 2.0 · versione web Wikimedia Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 721
+    },
+    "byte": 195926,
+    "sha256": "3588ad2573ef4fc2f75a66ee658f4ba38176509c430c3e645eb4f8daae22f6b8",
+    "creditoParti": [
+      "Foto di Drew de F Fawkes · ",
+      {
+        "testo": "Fall Out Boy, Heaven, London",
+        "url": "https://www.flickr.com/photos/guynamedfawkes/52755936394/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · versione web Wikimedia Commons, nessun ritocco locale"
+    ]
   }
 }

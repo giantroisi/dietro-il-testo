@@ -4263,3 +4263,113 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Ritratto The Police: proposta con licenza libera, 6 ottobre 2026
+
+**Filone completato nella copia separata: immagini.** Per `/artista/the-police/` è stata preparata una foto del trio in concerto nel 2007. Il file originale è su Wikimedia Commons, con attribuzione a Justin e licenza CC BY 2.0, utilizzabile anche commercialmente; la pagina registra la verifica Flickr compiuta da un revisore nel 2008. Il vecchio link Flickr oggi risponde 404, limite registrato nel [dossier](rapporti/licenze/ritratto-the-police-2026-10-06.md). Foto, credito visibile con link, alt, origine, licenza, data di verifica, uso, modifiche e hash sono documentati. La foto mostra tutti e tre i membri della formazione storica senza presentarla come formazione attuale.
+
+Generati 695 pagine più 404 e 35 ritratti. Passano i controlli di credito e integrità dell’immagine, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e differenze Git. Anteprima desktop e mobile a 390 px verificate: immagine e credito leggibili, immagine caricata, nessuna fuoriuscita orizzontale o errore di console della pagina.
+
+**Stato:** proposta solo nella copia `codex/ritratto-the-police-2026-10-06`; la cartella principale, il remoto e il sito pubblico non sono stati modificati. Richiede revisione del proprietario prima di qualsiasi integrazione.
+
+## 53. Ciclo immagini: Depeche Mode, 6 ottobre 2026
+
+Preparata in una copia separata la fotografia di Martin Gore e Dave Gahan per `/artista/depeche-mode/`. La pagina Flickr del fotografo Julio Enriquez e la scheda Wikimedia Commons espongono CC BY 2.0; la licenza consente il riuso commerciale. Il file originale è stato ispezionato e copiato senza modifiche. Fonte, autore, licenza, obblighi, hash, alt e credito visibile sono nel [dossier fotografico](rapporti/licenze/ritratto-depeche-mode-2026-10-06.md) e in `dati/ritratti.json`.
+
+La generazione produce 695 pagine più 404 e 35 ritratti. Passano il controllo crediti, SEO (696 HTML), coerenza (321 canzoni, 104 artisti), collegamenti e integrità delle differenze. La pagina artista è stata verificata nel browser a 1280 e 390 px: file caricato, credito leggibile e nessuna fuoriuscita orizzontale. Il riquadro mostra due componenti e non la formazione completa.
+
+**Stato:** proposta verificata nel ramo `codex/ritratto-depeche-mode-2026-10-06`, in attesa di revisione. Nessun trasferimento, push o pubblicazione. Il §52 della proposta The Police è in un altro ramo; all’eventuale integrazione vanno fuse per voce le due aggiunte distinte a `dati/ritratti.json` e mantenute entrambe le sezioni della Roadmap. Ultimo ciclo fotografico completato come proposta: **Depeche Mode**.
+
+## 54. Ciclo immagini: Coldplay, 6 ottobre 2026
+
+Preparata in una copia separata una foto dei quattro Coldplay durante un’esibizione del 2008 per `/artista/coldplay/`. La pagina Flickr del fotografo/account wonker espone CC BY 2.0; Wikimedia Commons conferma la licenza e il controllo FlickreviewR. L’atto Creative Commons permette il riuso commerciale. Il JPEG originale è stato ispezionato e copiato senza modifiche. Autore, titolare non indicato separatamente, fonte, licenza, hash, alt e credito visibile sono nel [dossier fotografico](rapporti/licenze/ritratto-coldplay-2026-10-06.md) e in `dati/ritratti.json`.
+
+La generazione produce 695 pagine più 404 e 35 ritratti. Passano il controllo crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e integrità delle differenze. La pagina artista è stata verificata nel browser a 1280 e 390 px: foto caricata, credito leggibile e nessuna fuoriuscita orizzontale. La foto mostra i quattro membri nella formazione del 2008; i volti sono piccoli su mobile.
+
+**Stato:** proposta verificata nel ramo `codex/ritratto-coldplay-2026-10-06`, in attesa di revisione. Nessun trasferimento, push o pubblicazione. I §§52 e 53 sono nelle proposte isolate The Police e Depeche Mode; all’eventuale integrazione vanno fuse per voce le tre aggiunte distinte a `dati/ritratti.json` e mantenute tutte le sezioni della Roadmap. Ultimo ciclo fotografico completato come proposta: **Coldplay**.
+
+## 55. Ciclo immagini: ritratto David Bowie, 6 ottobre 2026
+
+Preparata in una copia separata una foto del 1972 di David Bowie nei panni di Ziggy Stardust per `/artista/david-bowie/`. La [scheda originale UCLA Library](https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj) identifica soggetto, fotografo Boris Yaro, data, titolare dichiarato e licenza CC BY 4.0; il file è stato controllato visivamente. Autore, titolo, URL originale e del file, licenza, obblighi, data di verifica, alt, credito visibile e assenza di modifiche locali sono registrati in `dati/ritratti.json` e nel [dossier](rapporti/licenze/ritratto-david-bowie-2026-10-06.md).
+
+La pagina generata e quella pubblicabile coincidono. Passano controllo crediti e file, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e integrità delle differenze. Nell'anteprima a 1280 e 390 px la foto è caricata senza tagli, il credito è leggibile, la canonical è corretta, non vi sono errori di console né scorrimento orizzontale.
+
+**Stato:** proposta verificata e isolata; nessuna integrazione nel main, push o pubblicazione. Le proposte fotografiche The Police (§52), Depeche Mode (§53) e Coldplay (§54) restano indipendenti e in attesa di revisione: le voci distinte di `dati/ritratti.json` e le sezioni di Roadmap andranno unite una per volta. La foto Bowie documenta un momento del 1972, non l'intera carriera.
+
+## 56. Proposta fotografica The Killers, 6 ottobre 2026
+
+Nella copia separata `codex/ritratto-the-killers-2026-10-06` è stato preparato per `/artista/the-killers/` un ritratto di Brandon Flowers durante un concerto dei The Killers. La [pagina originale su Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Killers,_Razzmatazz_01.jpg) dichiara l’opera propria di Wilnel José Verdú Guerrero e la licenza CC BY-SA 4.0, che consente anche il riuso commerciale. Il file è stato visto e copiato senza modifiche; autore, titolare dichiarato, URL originale, hash, alt, credito visibile, licenza, data e limiti visivi sono registrati nel [dossier](rapporti/licenze/ritratto-the-killers-2026-10-06.md) e in `dati/ritratti.json`.
+
+La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano `prova-ritratto-credito`, `check-seo` (696 file HTML), `check-coerenza` (321 canzoni e 104 artisti), `check-link` e l’integrità delle differenze. Nell’anteprima della copia separata la pagina carica ritratto e credito a 1280 e 390 px, senza fuoriuscita orizzontale né errori di console. La mano alzata copre parte del volto e l’immagine mostra il cantante, non tutti i membri del gruppo.
+
+**Stato:** proposta isolata e verificata, in attesa di revisione del proprietario. Nessun trasferimento nel `main`, push o pubblicazione. Per un’eventuale integrazione con gli altri lotti fotografici ancora in attesa occorre fondere le singole voci di `dati/ritratti.json` e i rispettivi paragrafi della Roadmap, senza sostituire l’intero file.
+
+## 57. Proposta fotografica Ghost, 6 ottobre 2026
+
+Nella copia separata `codex/ritratto-ghost-verificato-2026-10-06` è stato preparato per `/artista/ghost/` un ritratto di Papa Emeritus al Download Festival 2013. La [pagina originale Commons](https://commons.wikimedia.org/wiki/File:130616--papa_emeritus.jpg) dichiara Thargol autore e titolare e rende la foto disponibile con dedizione CC0 1.0, che consente anche il riuso commerciale. Il JPEG è stato ispezionato e copiato senza modifiche. Il [dossier](rapporti/licenze/ritratto-ghost-2026-10-06.md) e `dati/ritratti.json` registrano autore, titolo, fonte, file, diritti, data, pagina d’uso, credito, alt e limiti. Due alternative sono state scartate: una troppo distante e una con metadati d’autore discordanti.
+
+La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano `prova-ritratto-credito`, `check-seo` (696 file HTML), `check-coerenza` (321 canzoni e 104 artisti), `check-link` e il confronto fra pagina generata e pubblicabile. L’anteprima a 1280 e 390 px mostra la foto e il credito senza scorrimento orizzontale né errori di console. Il ritratto documenta il personaggio scenico del 2013, non l’intera formazione attuale.
+
+**Stato:** proposta isolata e verificata, in attesa di revisione del proprietario. Nessun trasferimento nel `main`, push o pubblicazione. Per integrarla con gli altri lotti fotografici in attesa occorre fondere le singole voci di `dati/ritratti.json` e le rispettive sezioni della Roadmap, senza sostituire gli interi file.
+
+## 58. Proposta immagine Foo Fighters, 6 ottobre 2026
+
+Nella copia `codex/ritratto-foo-fighters-2026-10-06` è stata preparata per `/artista/foo-fighters/` una foto di Dave Grohl del 2011. La [pagina originale Commons](https://commons.wikimedia.org/wiki/File:Dave_Grohl.jpg) attribuisce lo scatto a Ryanw2313, che lo dichiara opera propria e lo rilascia sotto [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), licenza che consente riuso commerciale e adattamenti con attribuzione e condivisione allo stesso modo. Il file è stato controllato visivamente e il suo SHA-1 coincide con quello pubblicato da Commons. È stato ridimensionato e ricompresso senza ritaglio; autore, titolare dichiarato, fonte, file originale, licenza, modifiche, data di verifica, alt, pagina d'uso e credito visibile sono nel JSON e nel [dossier](rapporti/licenze/ritratto-foo-fighters-2026-10-06.md).
+
+Passano il controllo dei crediti e degli hash, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e confronto dei file generati. Nel browser desktop e a 390 px la foto e il credito sono leggibili; su mobile non compare scorrimento orizzontale e la pagina locale non genera errori di console. La foto mostra il frontman nel 2011, non la formazione completa o attuale. **Stato: proposta verificata e isolata, in attesa di approvazione; nessun trasferimento, push o pubblicazione.** Le altre proposte fotografiche restano intatte; in futuro le voci distinte di `dati/ritratti.json` e le sezioni della Roadmap andranno unite senza sovrascriverle.
+
+## 59. Proposta di ritratto Adele, 6 ottobre 2026 — IMMAGINI
+
+La scheda artista `/artista/adele/` usava la grafica originale. Preparato in copia separata il ritratto derivato dalla foto “Adele 3” di Marc E. (`marcen27`), scattata a Glasgow nel 2016. La pagina originale Flickr e il ritaglio Commons sono stati riaperti; entrambi indicano CC BY 2.0, che permette uso commerciale e modifiche con attribuzione. Il soggetto è stato verificato visivamente. Il [dossier della licenza](rapporti/licenze/ritratto-adele-2026-10-06.md) registra URL originali, titolo, autore, verifica della licenza, hash, trasformazioni, credito e alt.
+
+La versione locale è 903 × 1200 px, con credito visibile sotto la foto. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano il controllo dei crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e confronto della pagina generata. L'anteprima desktop e mobile a 390 px mostra immagine e credito, senza fuoriuscita orizzontale o errori di console.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-adele-2026-10-06`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. La voce `adele` del JSON condiviso dovrà essere integrata senza sovrascrivere le voci distinte dei lotti fotografici in revisione.
+
+## 60. Proposta di ritratto Whitney Houston, 6 ottobre 2026 — IMMAGINI
+
+La pagina artista `/artista/whitney-houston/` aveva soltanto la grafica originale. Preparato in copia separata un ritratto riconoscibile di Whitney Houston. La [pagina Flickr dell'autore](https://www.flickr.com/photos/kingkongphoto/5112487951/) e la [pagina del file Commons](https://commons.wikimedia.org/wiki/File:Whitney_Houston_2000.jpg) sono state riaperte e controllate visivamente; entrambe indicano CC BY-SA 2.0. Il [dossier fotografico](rapporti/licenze/ritratto-whitney-houston-2026-10-06.md) documenta fonte, autore, licenza, titolo originale, file, alt, credito visibile e data del controllo. La data dello scatto non viene affermata: le due pagine riportano indicazioni divergenti.
+
+Il file originale Commons, senza modifiche locali, misura 1560 × 2276 px. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano controllo del credito, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e confronto della pagina generata. Le anteprime desktop e mobile a 390 px mostrano fotografia e credito, senza fuoriuscita orizzontale o errori di console.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-whitney-houston-2026-10-06`, in attesa di approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. Quando sarà integrato, aggiungere soltanto la voce `whitney-houston` nel JSON condiviso senza sovrascrivere gli altri lotti fotografici pendenti.
+
+## 61. Proposta di foto The Clash, 6 ottobre 2026 — IMMAGINI
+
+La pagina `/artista/the-clash/` usava la grafica originale. Preparata in copia separata una foto di Joe Strummer, Mick Jones e Paul Simonon sul palco a Oslo nel 1980, scattata da Helge Øverås. La pagina originale Wikimedia Commons e la cronologia del caricamento sono state riaperte per controllare autore, titolarità e licenza; la licenza CC BY-SA 4.0 permette riuso commerciale con attribuzione e modifiche con condivisione alla stessa licenza. Il file originale è stato confrontato tramite SHA-1 con Commons e ispezionato visivamente. Il [dossier della licenza](rapporti/licenze/ritratto-the-clash-2026-10-06.md) documenta provenienza, limiti, obblighi, credito, alt e hash.
+
+La foto locale è l'originale 800 × 468 px, senza modifiche. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano i controlli su crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e confronto fra pagina generata e copia nella radice. Nell'anteprima desktop e mobile a 390 px l'immagine si carica, il credito è presente, la canonical è corretta, non c'è fuoriuscita orizzontale e non risultano errori di console. Il soggetto a destra della foto è poco illuminato.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-the-clash-2026-10-06`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. La voce `the-clash` del JSON condiviso dovrà essere integrata senza sovrascrivere le voci distinte delle altre proposte fotografiche in revisione.
+
+## 62. Proposta di foto Elton John, 6 ottobre 2026 — IMMAGINI
+
+La pagina `/artista/elton-john/` usava la grafica originale. Preparata in copia separata una foto di Elton John sul palco a Kristiansand nel 2017, scattata da Jørund Føreland Pedersen. Riaperti la pagina Commons con dichiarazione di opera propria, i metadati che indicano anche il titolare del copyright e la licenza CC BY-SA 4.0, che permette riuso commerciale e adattamenti con attribuzione e condivisione alla stessa licenza. Il soggetto è stato controllato visivamente. Il [dossier della licenza](rapporti/licenze/ritratto-elton-john-2026-10-06.md) registra provenienza, titolo, URL, autore, obblighi, hash, credito, alt e modifiche.
+
+Il file locale è l'originale 1600 × 1067 px, senza modifiche. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano controllo crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti, integrità della pagina generata e `git diff --check`. L'anteprima desktop e mobile a 390 px mostra foto e credito, canonical corretta, nessuna fuoriuscita orizzontale né errore di console.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-elton-john-2026-10-06`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. La voce `elton-john` del JSON condiviso andrà integrata senza sovrascrivere quelle distinte degli altri lotti in revisione.
+
+## 63. Ciclo immagini: Red Hot Chili Peppers, 6 ottobre 2026
+
+Preparata nella copia `codex/ritratto-red-hot-chili-peppers-2026-10-06` una foto dei quattro Red Hot Chili Peppers sul palco a Londra nel 2022. L'autore Kreepin Deth ha caricato su Wikimedia Commons il proprio lavoro con licenza CC BY-SA 4.0, che consente riuso commerciale e modifiche con attribuzione e condivisione allo stesso modo. La pagina originale, la licenza, il file e i soggetti sono stati ricontrollati; l'originale è stato copiato senza modifiche locali. Il dossier `rapporti/licenze/ritratto-red-hot-chili-peppers-2026-10-06.md` registra fonte, hash, credito, alt, obblighi, limiti e un'immagine stampa scartata per la discrepanza tra Commons e la fonte originale.
+
+La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano i controlli di crediti, SEO, coerenza, collegamenti e integrità delle differenze. L'anteprima locale desktop e mobile mostra immagine caricata, credito leggibile, canonical corretta, nessuna fuoriuscita orizzontale e nessun errore di console. I volti sono piccoli nella foto di palco, specialmente a 390 px.
+
+**Stato:** ciclo immagini preparato e verificato in copia separata, in attesa di approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. L'eventuale integrazione richiede la fusione della sola voce `red-hot-chili-peppers` in `dati/ritratti.json`, senza sovrascrivere altre proposte.
+
+## 64. Ciclo immagini: Fall Out Boy, 6 ottobre 2026
+
+Preparata nella copia `codex/ritratto-fall-out-boy-2026-10-06` una foto dei quattro Fall Out Boy sul palco londinese dell'Heaven nel 2023. La [pagina Flickr originale](https://www.flickr.com/photos/guynamedfawkes/52755936394/) attribuisce l'immagine a Drew de F Fawkes ed espone CC BY 2.0; la licenza ufficiale consente riuso commerciale e modifiche con attribuzione. Una foto alternativa del 2007 è stata esclusa perché la fonte originale restituisce 403. Il [dossier di licenza](rapporti/licenze/ritratto-fall-out-boy-2026-10-06.md) documenta file, provenienza, autore, licenza, credito, alt, modifiche e limiti.
+
+La versione web Commons da 1280 × 721 px pesa 195.926 byte e coincide con l'hash registrato. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano controlli di crediti, SEO, coerenza, collegamenti e integrità delle differenze. L'anteprima locale desktop e mobile conferma caricamento, credito visibile, canonical corretta, nessuno scorrimento orizzontale ed errori di console assenti. Due membri restano piccoli nell'inquadratura, soprattutto a 390 px.
+
+**Stato:** ciclo immagini preparato e verificato in copia separata, in attesa di approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. Nell'integrazione occorre aggiungere la sola voce `fall-out-boy` al JSON condiviso, preservando le voci degli altri lotti in revisione.
+
+## 65. Integrazione dei 13 ritratti e preparazione della pubblicazione, 6 ottobre 2026
+
+Su richiesta del proprietario di pubblicare tutto, le proposte fotografiche dei §§52–64 sono state riunite nella copia `codex/pubblicazione-ritratti-2026-10-06`, partendo dal `main` locale `e38dc438`. Le tredici voci sono state fuse singolarmente in `dati/ritratti.json`; foto, dossier, pagine artista e sitemap artisti corrispondono alle rispettive proposte. Le copie originali non sono state modificate. Con questo lotto il sito passa da 34 a 47 ritratti per 104 artisti.
+
+Prima dell'integrazione, sono stati confrontati gli hash di tutti i file con i metadati, controllati i crediti e le licenze documentate nei dossier, e rigenerate le 695 pagine più 404. Passano `prova-ritratto-credito`, `check-seo` (696 HTML), `check-coerenza` (321 canzoni e 104 artisti), `check-link`, `check-completezza`, `check-affiliazioni`, `check-freno`, `check-nature` e `git diff --check`. Le 13 pagine sono state riaperte nell'anteprima locale a larghezza desktop e 390 px: immagini caricate, alt e crediti presenti, canonical corretta e nessuna fuoriuscita orizzontale. La generazione ha prodotto anche una diversa scelta giornaliera per la home e una nuova data nella sitemap delle pagine: questi due file, estranei al lotto, non sono stati inclusi.
+
+**Stato:** lotto integrato e verificato nella copia di pubblicazione; il trasferimento nel `main` locale e la verifica sul dominio sono i passi successivi della stessa richiesta. Le note «in attesa di approvazione» nei §§52–64 descrivono lo stato delle proposte al momento della loro preparazione e sono superate dalla richiesta del proprietario e da questa integrazione.
