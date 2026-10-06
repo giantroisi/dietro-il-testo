@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "gianna-nannini": {
+    "file": "gianna-nannini-live-2017.jpg",
+    "autore": "Stefan Brending",
+    "titolareDichiarato": "Stefan Brending / www.2eight.de, come indicato nei metadati Commons",
+    "licenza": "CC BY-SA 3.0 DE",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+    "titoloOriginale": "2017 Gianna Nannini - by 2eight - DSC3431.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg/960px-2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+    "dataScatto": "2017-04-02",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/gianna-nannini/",
+    "alt": "Gianna Nannini canta al microfono durante un concerto a Norimberga nel 2017",
+    "modifiche": "Versione web da 960 × 1442 px generata da Wikimedia Commons dall’originale 1363 × 2048 px; nessun ritaglio o ritocco locale. Il CSS la scala senza tagli.",
+    "creditoVisibile": "Foto: Stefan Brending · 2017 Gianna Nannini - by 2eight - DSC3431 · CC BY-SA 3.0 DE · versione web Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1442
+    },
+    "byte": 373827,
+    "sha256": "8ce252e8fde25865b2a46c7e86d266d8498b234ed9962f3a21ddbb55a3265330",
+    "creditoParti": [
+      "Foto: Stefan Brending · ",
+      {
+        "testo": "2017 Gianna Nannini - by 2eight - DSC3431",
+        "url": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 3.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode"
+      },
+      " · versione web Commons, nessun ritocco locale"
+    ]
   }
 }
