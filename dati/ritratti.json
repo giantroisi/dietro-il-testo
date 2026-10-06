@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "guns-n-roses": {
+    "file": "guns-n-roses-londra-2017.jpg",
+    "autore": "Mermin Sven",
+    "titolareDichiarato": "Mermin Sven dichiara sulla pagina Commons di essere il titolare del copyright e pubblica l'opera con CC BY-SA 4.0",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+    "titoloOriginale": "Reformation des Guns N' Roses , photo exceptionnelle des trois précurseurs du groupe mythique.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg/960px-Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+    "dataScatto": "2017-06-17",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/guns-n-roses/",
+    "alt": "Axl Rose, Slash e Duff McKagan dei Guns N’ Roses sul palco a Londra nel 2017",
+    "modifiche": "Versione web da 960 × 1200 px generata da Wikimedia Commons; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina. La cronologia Commons registra una precedente versione ritagliata nel 2021 e il ripristino delle dimensioni originali nel 2026.",
+    "creditoVisibile": "Foto di Mermin Sven · Guns N’ Roses a Londra, 2017 · CC BY-SA 4.0 · versione web Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1200
+    },
+    "byte": 258003,
+    "sha256": "7cccc1bcd098044d7c04b0d766c5bcd1c544efe8f39c6dc94acbe7474ded9068",
+    "creditoParti": [
+      "Foto di Mermin Sven · ",
+      {
+        "testo": "Guns N’ Roses a Londra, 2017",
+        "url": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · versione web Commons, nessun ritocco locale"
+    ]
   }
 }
