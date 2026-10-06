@@ -1946,30 +1946,39 @@
     "paese": null,
     "colore": "#C2822E",
     "colore2": "#3E6E5A",
-    "ascolti": 2100000000,
-    "ascoltiTesto": "2,1 mld ascolti",
-    "spotifyId": "1aTAR21kFePsDBHnc74Hli",
+    "spotifyId": "2374M0fQpWi3dLnB54qaLX",
     "corpo": [
-      "Ultimo brano di \"Toto IV\", quarto album della band, uscito nel 1982: come ha raccontato il tastierista David Paich a MusicRadar, fu una \"canzone dell'undicesima ora\", scritta all'ultimo momento e quasi esclusa dal disco, mentre il resto della band puntava su altri brani come possibili singoli. Nacque mentre Paich sperimentava col suo nuovo sintetizzatore Yamaha CS-80, componendo il ritornello in appena dieci minuti; disse di essersi sentito quasi sopraffatto dalla rapidità con cui gli era venuto in mente, tanto da pensare che qualcosa di più grande di lui stesse guidando la scrittura in quel momento. La sezione ritmica africana dell'apertura fu registrata dal batterista Jeff Porcaro con il percussionista Lenny Castro; i suoni simili a una kalimba nel ritornello vennero da un secondo sintetizzatore, lo Yamaha GS-1, mentre un vero marimba basso fu suonato da Joe Porcaro.",
-      "Paich non era mai stato in Africa: l'ispirazione venne da un documentario televisivo notturno sulle difficoltà del continente, visto da adulto, e dai ricordi d'infanzia nella scuola cattolica in cui aveva frequentato da ragazzo, dove i missionari raccontavano dei loro viaggi e di come benedicessero ogni cosa sul posto — la gente, le Bibbie, i raccolti, la pioggia. Il brano, che secondo Paich decollò prima nei club da ballo di New York, divenne l'unico numero 1 della band nella Billboard Hot 100, raggiunto nel febbraio 1983."
+      "Africa chiude Toto IV, il quarto album dei Toto, pubblicato nel 1982. David Paich raccontò a Grantland che la canzone fu aggiunta quando il disco era quasi finito e rischiò di restarne fuori. Divenne il primo e unico numero uno statunitense della band, secondo le note ufficiali dell'album.",
+      "Paich raccontò al Guardian di aver immaginato un incontro con un missionario isolato, prendendo spunto anche dagli insegnanti della scuola cattolica che aveva frequentato: alcuni avevano svolto lavoro missionario in Africa. Quando scrisse il brano non vi era mai stato; per descriverne i paesaggi si basò su letture di National Geographic. A MusicRadar spiegò inoltre che il ritornello gli venne all'improvviso e che sviluppò poi il brano sul sintetizzatore Yamaha CS-80; nel ritornello, uno Yamaha GS-1 produce il suono simile a una kalimba, mentre Joe Porcaro suonò un marimba basso."
     ],
-    "fraseIconica": "Il verso più citato è quello in cui il narratore dice di benedire le piogge sull'Africa. Il tastierista David Paich, che scrisse gran parte del brano senza mai essere stato in Africa, si ispirò a un documentario televisivo notturno sulle difficoltà del continente e ai ricordi d'infanzia di insegnanti missionari che raccontavano di benedire villaggi, raccolti e libri. La frase sulla benedizione della pioggia non va letta come un riferimento meteorologico letterale, ma come un legame spirituale con la terra, con la pioggia simbolo di rinascita dopo la siccità.",
+    "fraseIconica": "Jeff Porcaro e Lenny Castro costruirono l'apertura con un loop di percussioni. David Paich vi aggiunse lo Yamaha CS-80: la registrazione prese forma uno strumento alla volta.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/toto/africa/",
     "fonti": [
       {
-        "url": "https://www.musicradar.com/news/david-paich-africa-synths-beatles-hendrix",
-        "nome": "MusicRadar — Ben Rogerson",
+        "url": "https://www.musicradar.com/news/recording-week-2023-totos-david-paich-on-the-making-of-africa",
+        "nome": "MusicRadar — Ben Rogerson (2023; cita l'intervista del 2013)",
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Africa_(Toto_song)",
-        "nome": "Wikipedia"
+        "url": "https://www.theguardian.com/culture/2018/jan/30/toto-how-we-made-africa",
+        "nome": "The Guardian — Dave Simpson, intervista a Paich",
+        "ruolo": "storia"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://grantland.com/hollywood-prospectus/q80s-totos-dave-paich-on-writing-and-recording-africa/",
+        "nome": "Grantland — Melissa Locker, intervista a Paich",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://totoofficial.com/wp-content/uploads/2019/06/TOTO_Liners_2.pdf",
+        "nome": "Toto — note ufficiali degli album",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+        "nome": "Spotify — Africa dall'album Toto IV",
+        "ruolo": "album"
       }
     ],
     "testoFonte": "Letras",

@@ -1,0 +1,21 @@
+# Africa — correzione mirata, 6 ottobre 2026
+
+**Origine del rilievo.** `LOTTO-02-2026-10-05.md` è stato usato come segnalazione, non come verifica sostitutiva. Le fonti indicate sotto sono state riaperte prima della modifica. La scheda non riceve `ultimaVerifica`: questo intervento corregge i punti segnalati, senza certificare una revisione indipendente completa.
+
+## Problema e decisioni
+
+| Punto | Evidenza riaperta | Intervento |
+| --- | --- | --- |
+| Lettore di una raccolta mentre la scheda presenta *Toto IV* | La [vecchia pagina Spotify](https://open.spotify.com/track/1aTAR21kFePsDBHnc74Hli) mostra *Milestones - Toto* (2013, 4:56). La [nuova pagina](https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX) e la [riga Africa di Kworb](https://kworb.net/spotify/artist/0PFtn5NtBbbUNbU9EAmIWF_songs.html) puntano allo stesso ID dell'edizione *Toto IV* (1982, 4:55). Il titolo da solo non è stato usato come prova. | Sostituito l'ID incorporato con quello dell'album presentato. |
+| Numero degli ascolti e fonte generica | Il dato `2,1 mld` era superato. La pagina generica `kworb.net/spotify/` non dà il dato per brano; la pagina artista lo aggiorna continuamente. | Rimossi il numero non datato e la fonte generica. Non è stato inserito un nuovo numero destinato a diventare presto impreciso. |
+| Interviste confuse | [MusicRadar, Ben Rogerson, 2023](https://www.musicradar.com/news/recording-week-2023-totos-david-paich-on-the-making-of-africa) attribuisce a *Prog* il racconto della canzone arrivata all'ultimo momento; riporta separatamente un'intervista a MusicRadar del 2013 sul ritornello e sui sintetizzatori. Nell'[intervista diretta di Grantland, 2015](https://grantland.com/hollywood-prospectus/q80s-totos-dave-paich-on-writing-and-recording-africa/) Paich conferma che il brano fu aggiunto alla fine dei lavori e rischiò l'esclusione. | Riformulata la storia attribuendo il ricordo a Paich nell'intervista diretta a Grantland; MusicRadar è associato solo ai dettagli che contiene. |
+| Genesi e interpretazione del testo | Nell'[intervista diretta al Guardian, 2018](https://www.theguardian.com/culture/2018/jan/30/toto-how-we-made-africa) Paich parla degli insegnanti della scuola cattolica che avevano lavorato come missionari in Africa, del personaggio immaginato e delle letture di *National Geographic*. Il Guardian contiene anche l'elenco che mancava dalle vecchie fonti citate. MusicRadar documenta CS-80, GS-1, loop di Jeff Porcaro e Lenny Castro e marimba basso di Joe Porcaro. | Eliminati il documentario non riscontrato nelle fonti ora citate, i dieci minuti non presenti in MusicRadar e l'interpretazione simbolica non attribuita. L'elenco è stato omesso per concisione. La nuova frase iconica descrive la costruzione musicale senza rendere il verso in italiano. |
+| Posizione nell'album e primato statunitense | Le [note ufficiali dei Toto](https://totoofficial.com/wp-content/uploads/2019/06/TOTO_Liners_2.pdf), pagina 4 del PDF, documentano *Africa* come traccia conclusiva di *Toto IV* e primo e unico numero uno statunitense del gruppo. L'[elenco ufficiale delle tracce](https://shop.totoofficial.com/products/toto-iv-cd) pone *Africa* al numero 10. | Mantenute le due affermazioni, ora con fonte primaria visibile. Omesse altre cifre e la data mensile della vetta non necessarie alla scheda. |
+
+## Verifiche locali
+
+- Rigenerati il sito e `og/africa.png`; l'immagine è stata aperta visivamente e contiene per intero la nuova frase. La pagina usa la nuova versione dell'immagine condivisibile.
+- In browser a 1280 px e 390 px, la scheda mostra il nuovo momento iconico e il lettore Spotify con la copertina di *Toto IV*, titolo e artista. A 390 px la larghezza del documento è 390 px. Nessun errore di console rilevato; riproduzione audio integrale non provata.
+- `check-coerenza` (321 canzoni, 104 artisti), `check-seo` (696 pagine), `check-link`, `check-nature`, `check-freno` e `git diff --check` passano. Il catalogo resta invariato.
+
+**Stato:** proposta nella copia `codex/correzione-africa-2026-10-06`, da rivedere. Nessun trasferimento nel `main`, push o pubblicazione. *Thriller* e *Il mio canto libero*, pure segnalate nel rapporto allegato, non sono comprese in questo lotto. La proposta *Killing in the Name* (§52 della sua copia) resta separata e non approvata.
