@@ -791,29 +791,31 @@
     "paese": null,
     "colore": "#5C3D80",
     "colore2": "#6B6F76",
-    "ascolti": 1100000000,
-    "ascoltiTesto": "1,1 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "6GkTKjv1XbFVdI2D8vvDPu",
     "corpo": [
-      "Pubblicato il 28 ottobre 2002 come tema portante del film 8 Mile, è diventato il primo numero 1 di Eminem nella Billboard Hot 100, restandoci per dodici settimane consecutive. Il primo verso ricalca da vicino la trama del film, riassumendo il percorso del personaggio B-Rabbit interpretato dallo stesso Eminem.",
-      "Il tema centrale è cogliere l'occasione della vita quando si presenta, prima che sfumi per sempre. Nel 2003 il brano ha vinto l'Oscar per la Miglior Canzone Originale, primo brano hip-hop della storia a riuscirci."
+      "Pubblicata nel 2002 nella colonna sonora di \"8 Mile\", la canzone accompagna il percorso del rapper Jimmy \"B-Rabbit\" Smith, interpretato da Eminem. American Songwriter la descrive come semi-autobiografica e riporta una dichiarazione del coautore Jeff Bass: la base musicale risale al settembre 2001, mentre Eminem sviluppò le parole dopo aver ricevuto il copione del film.",
+      "Nel 2003 \"Lose Yourself\" vinse l'Oscar per la Miglior Canzone Originale. L'Academy accredita la musica a Eminem, Jeff Bass e Luis Resto e il testo a Eminem; American Songwriter la indica come la prima canzone rap ad aver ottenuto quel premio."
     ],
-    "fraseIconica": "Il verso più citato è quello sull'avere una sola occasione, una sola opportunità, per cogliere il proprio momento — la dichiarazione \"carpe diem\" al centro del brano. Scritta nei panni del personaggio Jimmy \"B-Rabbit\" Smith per il film \"8 Mile\" (2002) ma rispecchiando deliberatamente l'ascesa reale di Eminem dalla povertà di Detroit, questa frase è diventata un riferimento motivazionale tanto diffuso da essere citata anche da un giudice federale in un'aula di tribunale nel 2015. Vinse il primo Oscar della storia per una canzone rap.",
+    "fraseIconica": "Jeff Bass racconta che la chitarra udibile nel brano era già presente nella prima base. Le chitarre distorte immaginate per i ritornelli furono invece sostituite dalle tastiere nella versione pubblicata.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/eminem/lose-yourself/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Lose_Yourself",
-        "nome": "Wikipedia"
-      },
-      {
         "url": "https://americansongwriter.com/behind-the-song-eminem-lose-yourself/",
-        "nome": "American Songwriter"
+        "nome": "American Songwriter — intervista riportata a Jeff Bass",
+        "ruolo": "storia"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.oscars.org/oscars/ceremonies/2003",
+        "nome": "Academy Awards — vincitori 2003 e crediti",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.eminem.com/news/stream-now-8-mile-20th-anniversary-expanded-edition/",
+        "nome": "Eminem — 8 Mile, edizione del ventennale",
+        "ruolo": "album"
       }
     ],
     "testoFonte": "Letras",

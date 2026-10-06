@@ -4263,3 +4263,13 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Correzione circoscritta di Lose Yourself, 6 ottobre 2026
+
+Preparata in una copia separata una correzione prioritaria della scheda già online. Il momento iconico conteneva una parafrasi molto vicina al verso iniziale, un superlativo non provato e un episodio giudiziario privo di fonte pertinente. Il corpo attribuiva a Eminem un'intenzione biografica non dimostrata. Inoltre mostrava «1,1 mld ascolti» con un rimando generico a Kworb: la riga specifica trovata su Kworb collega un ID diverso da quello del lettore incorporato.
+
+Riaperti American Songwriter, l'Academy, il sito ufficiale di Eminem, il player Spotify e la riga Kworb. Riscritti corpo e momento iconico su fatti attribuiti, aggiornate le fonti e rimossi il numero statico di ascolti e l'aneddoto giudiziario. Rigenerati pagina, anteprime correlate, ricerca e immagine condivisibile versionata. Fonti, prove e limiti sono nel [rapporto di correzione](rapporti/correzione-lose-yourself-2026-10-06.md).
+
+Passano coerenza, completezza, collegamenti, SEO, nature, freno, affiliazioni, attribuzioni, integrità delle differenze e confronto fra pacchetto generato e radice pubblicabile. La pagina è stata vista nel browser a 1280 e 390 px, con player caricato, canonical corretta, nessuna fuoriuscita orizzontale o errore di console. L'audio integrale non è stato provato; la scheda non è dichiarata verificata frase per frase nel suo complesso.
+
+**Stato:** proposta locale nel ramo `codex/correzione-lose-yourself-2026-10-06`, senza trasferimento al `main`, push o pubblicazione. Questa correzione prioritaria non consuma un ciclo ordinario: il prossimo filone della rotazione resta da ricavare dalla Roadmap integrata. All'integrazione, fondere questa sezione per contenuto con eventuali altre sezioni numerate 52 preparate in copie isolate.
