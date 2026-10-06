@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "electric-callboy": {
+    "file": "electric-callboy-ilosaarirock-2024.jpg",
+    "autore": "AAT",
+    "titolareDichiarato": "AAT, autore e titolare dichiarato nella pagina Commons; nessun titolare diverso indicato",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Electric_Callboy_(2024).jpg",
+    "titoloOriginale": "Electric Callboy (2024).jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Electric_Callboy_%282024%29.jpg/1280px-Electric_Callboy_%282024%29.jpg",
+    "dataScatto": "2024-07-14",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/electric-callboy/",
+    "alt": "Quattro membri degli Electric Callboy si esibiscono sul palco dell’Ilosaarirock nel 2024",
+    "modifiche": "Versione web da 1280 × 960 px generata da Wikimedia Commons dall’originale; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina.",
+    "creditoVisibile": "Foto di AAT · Electric Callboy, Ilosaarirock 2024 · CC BY-SA 4.0 · versione web Wikimedia Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 960
+    },
+    "byte": 340569,
+    "sha256": "50b9cd013bc51f32cf7bdc321d07ef18958e69cf7b0d6eedec80af4da1352057",
+    "creditoParti": [
+      "Foto di AAT · ",
+      {
+        "testo": "Electric Callboy, Ilosaarirock 2024",
+        "url": "https://commons.wikimedia.org/wiki/File:Electric_Callboy_(2024).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · versione web Wikimedia Commons, nessun ritocco locale"
+    ]
   }
 }
