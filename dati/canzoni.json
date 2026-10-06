@@ -972,14 +972,14 @@
     "paese": null,
     "colore": "#2E6E9E",
     "colore2": "#8A8578",
-    "ascolti": 846520,
-    "ascoltiTesto": "847 mila ascolti",
-    "spotifyId": "0OnzB7ZlwHIWKAnM8G2XZg",
+    "ascolti": null,
+    "ascoltiTesto": null,
+    "spotifyId": "7pKfPomDEeI4TPT6EOYjn9",
     "corpo": [
-      "Scritta come appello per la pace nel mondo, la canzone invita ad \"immaginare\" un'umanità senza confini religiosi o nazionali capace di vivere in unità. Lennon si ispirò ad alcune poesie del libro \"Grapefruit\" (1964) di Yoko Ono. Fu registrata il 27 maggio 1971 negli Ascot Sound Studios, ricavati da Lennon e Ono nel seminterrato della loro tenuta di Tittenhurst Park, con Phil Spector e la stessa Ono alla produzione; alla session parteciparono Alan White alla batteria, Nicky Hopkins al piano e Klaus Voormann al basso.",
-      "Secondo MusicRadar, in un'intervista radiofonica registrata a New York il 6 dicembre 1980 con il giornalista della BBC Andy Peebles — due giorni prima di essere ucciso — Lennon disse che il brano \"dovrebbe essere accreditato come canzone di Lennon/Ono\": \"Buona parte del testo e del concetto viene da Yoko. Ma a quei tempi ero più egoista, più macho, e ho tralasciato il suo contributo: veniva direttamente da 'Grapefruit', il suo libro.\" Ono fu formalmente riconosciuta come coautrice solo nel 2018. Lennon descrisse altrove il brano come \"anti-religioso, anti-nazionalista, anti-convenzionale, anticapitalista — ma essendo edulcorato viene accettato\", e raccontò che un'organizzazione religiosa gli aveva chiesto una volta il permesso di modificare un verso del testo, senza capire che quella modifica ne avrebbe tradito completamente il senso."
+      "Pubblicata nell'album \"Imagine\" del 1971, la canzone propone una visione di pace e convivenza oltre le divisioni nazionali e religiose. Lennon riconobbe l'influenza del libro \"Grapefruit\" di Yoko Ono sul concetto del brano. La registrazione di base iniziò il 27 maggio 1971 agli Ascot Sound Studios, nella tenuta di Tittenhurst Park; il 4 luglio furono aggiunti gli archi al Record Plant di New York. La registrazione pubblicata comprende Lennon alla voce e al piano, Klaus Voormann al basso, Alan White alla batteria e i Flux Fiddlers agli archi. Nicky Hopkins suonò una parte aggiuntiva di piano durante le sessioni, che non fu mantenuta nel mix finale.",
+      "Secondo MusicRadar, in un'intervista radiofonica con Andy Peebles del 6 dicembre 1980 Lennon attribuì a Ono una parte del testo e del concetto e disse che il brano avrebbe dovuto portare entrambi i nomi. Nel giugno 2017 la National Music Publishers' Association annunciò che Ono sarebbe stata aggiunta tra gli autori; la scheda ufficiale del singolo oggi accredita Lennon e Ono. Lennon definì il messaggio della canzone critico verso religione, nazionalismo, convenzioni e capitalismo, osservando che la sua forma musicale ne aveva favorito l'accoglienza."
     ],
-    "fraseIconica": "Il verso più citato è quello finale, in cui il narratore ammette di poter essere considerato un sognatore, ma sottolinea di non essere il solo. Lennon attinse in modo significativo dal libro concettuale del 1964 di Yoko Ono, \"Grapefruit\"; nel dicembre 1980 dichiarò, in un'intervista radiofonica ripresa da MusicRadar, che il brano avrebbe dovuto essere accreditato come canzone di Lennon/Ono per il contributo di lei al testo e al concept, e Ono fu ufficialmente aggiunta come coautrice nel 2018.",
+    "fraseIconica": "La semplicità dell'arrangiamento fu una scelta precisa: durante il mix Lennon volle che il pianoforte restasse al centro della canzone. Gli archi furono aggiunti in seguito, senza cancellarne il carattere essenziale.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/john-lennon/imagine/",
     "fonti": [
@@ -989,13 +989,19 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Imagine_(song)",
-        "nome": "Wikipedia"
+        "url": "https://www.johnlennon.com/music/singles/imagine/",
+        "nome": "John Lennon — Imagine (singolo e crediti)",
+        "ruolo": "crediti"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.johnlennon.com/music/albums/imagine-the-ultimate-collection/",
+        "nome": "John Lennon — Imagine: The Ultimate Collection",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nmpa.org/yoko-ono-will-share-credit-for-john-lennons-imagine-ny-times/",
+        "nome": "NMPA — annuncio del credito a Yoko Ono, 2017",
+        "ruolo": "crediti"
       }
     ],
     "testoFonte": "Letras",
