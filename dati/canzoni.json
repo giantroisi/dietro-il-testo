@@ -2372,14 +2372,14 @@
     "paese": null,
     "colore": "#5C6B3E",
     "colore2": "#7A1F1F",
-    "ascolti": 1800000000,
-    "ascoltiTesto": "1,8 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "2IZZqH4K02UIYg5EohpNHF",
     "corpo": [
-      "Dolores O'Riordan scrisse \"Zombie\" nella primavera del 1993 su una chitarra acustica, nel suo appartamento di Limerick, mentre era in tour in Inghilterra e vide in televisione un servizio sull'attentato dell'IRA a Warrington: due ordigni piazzati in cestini della spazzatura nel centro della cittadina inglese uccisero il dodicenne Tim Parry e il piccolo Jonathan Ball, di soli tre anni, e ferirono decine di persone. \"Ricordo di aver visto una delle madri in televisione, semplicemente devastata\", raccontò O'Riordan a Vox magazine. Fu solo nelle prove successive con la band che il brano si trasformò nell'inno rock, con ritornello urlato e chitarre distorte, che conosciamo oggi.",
-      "Il brano segnò una svolta sonora per i Cranberries: prodotto da Stephen Street e registrato in Inghilterra, fra i Manor Studios di Oxford e i Townhouse Studios di Londra, abbandonò le atmosfere delicate dei primi singoli per un impasto di chitarre distorte più vicino al grunge che al dream pop delle origini — presentandolo, disse la stessa O'Riordan a TIME, come segno di una band che stava diventando \"un po' più esplicita\". Pubblicato il 19 settembre 1994 come primo singolo dell'album \"No Need to Argue\", diventò il brano più identificativo della band. Dopo la morte di O'Riordan nel 2018, Colin Parry — il padre di Tim, una delle due giovani vittime di Warrington — la ringraziò pubblicamente in televisione per un testo che definì \"maestoso e molto vero\", capace di far capire a molti, con parole scritte da una band irlandese, il dolore vissuto da tante famiglie durante quegli anni di violenza."
+      "Nel 1993, durante un tour in Inghilterra, Dolores O'Riordan vide in televisione la notizia dell'attentato dell'IRA a Warrington. Il 20 marzo due bombe esplosero in città: Johnathan Ball, tre anni, morì quel giorno; Tim Parry, dodici anni, morì cinque giorni dopo. La cantante ricordò di aver visto una delle madri sconvolta in televisione, in una dichiarazione a Vox riportata da TIME. TIME racconta che O'Riordan scrisse «Zombie» su una chitarra acustica nel suo appartamento di Limerick.",
+      "Secondo il chitarrista Noel Hogan, O'Riordan portò alle prove una prima versione acustica e chiese alla band un suono più pesante perché la canzone esprimeva rabbia. Hogan aggiunse chitarre distorte; Stephen Street produsse il brano, incluso nel secondo album «No Need to Argue» del 1994. Dopo la morte di O'Riordan nel 2018, Colin Parry, padre di Tim, la ringraziò per la forza e la sincerità della canzone: TIME riferisce che lo disse a BBC Breakfast Ulster."
     ],
-    "fraseIconica": "Il ritornello più citato è quello scandito che insiste sul fatto che la violenza sia ancora \"nella testa\" di chi la compie, puntando il dito contro la mentalità dei responsabili più che su un singolo evento. Dolores O'Riordan scrisse il brano dopo l'attentato dell'IRA a Warrington, in Inghilterra, nel marzo 1993, che uccise due bambini e ferì decine di persone. Lo definì una protesta contro la violenza, contro chi agiva \"in nome dell'Irlanda\" perpetuando uno schema di conflitto rimasto identico, a suo dire, dal 1916.",
+    "fraseIconica": "Nel ritornello la voce si fa insistente e le chitarre più dense: il suono dà corpo alla rabbia che O'Riordan voleva esprimere, come raccontò il chitarrista Noel Hogan.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/the-cranberries/8907/",
     "fonti": [
@@ -2389,13 +2389,12 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)",
-        "nome": "Wikipedia"
+        "url": "https://timparryjohnathanballfoundation.org.uk/",
+        "nome": "Fondazione Tim Parry e Johnathan Ball — cronologia dell'attentato"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://www.musicradar.com/artists/the-way-she-delivered-it-was-more-important-than-the-actual-subject-matter-her-delivery-of-that-chorus-is-so-powerful-how-the-cranberries-created-the-monster-hit-zombie",
+        "nome": "MusicRadar — intervista a Noel Hogan"
       }
     ],
     "testoFonte": "Letras",
