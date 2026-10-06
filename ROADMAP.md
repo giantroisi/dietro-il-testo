@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Correzione circoscritta di Black Hole Sun, 6 ottobre 2026
+
+Riaperti i riferimenti su nascita del titolo, racconto di Chris Cornell, album, classifica, Grammy e versione Spotify. Il momento iconico online parafrasava da vicino il ritornello e aggiungeva interpretazioni non attestate; il numero degli ascolti era collegato a un ID Kworb diverso da quello incorporato. Sono stati riscritti corpo e momento iconico, tolti il conteggio e l'ordine controverso del singolo, e aggiornate le fonti. Il [rapporto](rapporti/correzione-black-hole-sun-2026-10-06.md) distingue prove e limiti.
+
+Rigenerati i file della scheda, delle pagine che la richiamano, la ricerca, la sitemap e l'immagine OG. Passano coerenza, completezza, link, SEO, etichette, freno e integrità delle differenze; l'anteprima desktop e mobile a 390 px non mostra scorrimento orizzontale o errori di console. Non è una verifica editoriale completa di §4B e non sposta il turno della rotazione ordinaria, trattandosi della correzione prioritaria di una scheda già online.
+
+**Stato:** proposta isolata nel ramo `codex/correzione-black-hole-sun-2026-10-06`, in attesa di revisione; nessun trasferimento, push o pubblicazione. Questo numero di sezione è locale alla copia e va riconciliato con altri §52 prima di una futura integrazione.
