@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "fleetwood-mac": {
+    "file": "fleetwood-mac-sacramento-2014.jpg",
+    "autore": "Steffane Lui (Steff su Flickr)",
+    "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY 2.0 esposta sull'account Flickr di Steffane Lui",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://www.flickr.com/photos/steffanelui/15883204261/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Fleetwood_Mac_November_2014.jpg",
+    "titoloOriginale": "Fleetwood Mac",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Fleetwood_Mac_November_2014.jpg",
+    "dataScatto": "2014-11-24",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/fleetwood-mac/",
+    "alt": "I Fleetwood Mac si esibiscono sul palco a Sacramento nel 2014",
+    "modifiche": "File originale Wikimedia Commons derivato dalla foto Flickr di Steffane Lui; nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Steffane Lui (Steff su Flickr) · Fleetwood Mac · CC BY 2.0 · originale Commons senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1607,
+      "altezza": 894
+    },
+    "byte": 647977,
+    "sha256": "3b196afb65c08828279f09b99a3dfa1d4dd6de21c61fe5fa101ea98e026123c8",
+    "creditoParti": [
+      "Foto di Steffane Lui (Steff su Flickr) · ",
+      {
+        "testo": "Fleetwood Mac",
+        "url": "https://www.flickr.com/photos/steffanelui/15883204261/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale Commons senza modifiche locali"
+    ]
   }
 }
