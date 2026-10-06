@@ -3207,33 +3207,30 @@
     "paese": null,
     "colore": "#4A3F52",
     "colore2": "#8C6E3E",
-    "ascolti": 2900000000,
-    "ascoltiTesto": "2,9 mld ascolti",
     "spotifyId": "0ofHAoxe9vBkTCp2UQIavz",
     "corpo": [
-      "Scritta da Stevie Nicks e registrata per l'album \"Rumours\" (1977), nacque in appena dieci minuti, una sera in cui la cantante si ritirò da sola in uno studio adiacente con un pianoforte elettrico Fender Rhodes, mentre il resto della band lavorava a un altro brano. Il giorno seguente, su sua insistenza, il gruppo ne registrò una prima demo, nonostante lo scetticismo iniziale di alcuni membri.",
-      "Il testo nasce dalla rottura sentimentale tra Nicks e il chitarrista Lindsey Buckingham, sullo sfondo di un periodo turbolento per l'intera band, segnato anche dal divorzio di Christine e John McVie e dalla separazione di Mick Fleetwood dalla moglie. Divenne l'unico singolo dei Fleetwood Mac a raggiungere il primo posto della classifica statunitense."
+      "Scritta da Stevie Nicks per \"Rumours\" (1977), nacque durante le sessioni dell'album. Nicks raccontò di essersi spostata in un altro studio con un pianoforte Fender Rhodes, quando non era richiesta nella sala principale, e di aver scritto il brano in circa dieci minuti. Lo fece ascoltare agli altri e il gruppo lo registrò il giorno dopo. Christine McVie lo trovò inizialmente monotono, mentre Lindsey Buckingham contribuì a costruirne l'arrangiamento.",
+      "La canzone riguarda la relazione ormai in crisi tra Nicks e Buckingham, che continuavano a lavorare insieme nella band. Durante la registrazione di \"Rumours\", anche il matrimonio di John e Christine McVie si stava concludendo e Mick Fleetwood affrontava un divorzio. Il singolo raggiunse il primo posto della Billboard Hot 100. Il lettore Spotify incorporato propone \"Dreams – 2004 Remaster\" dall'edizione \"Rumours (Super Deluxe)\"."
     ],
-    "fraseIconica": "Il verso più citato è quello d'apertura del ritornello, che paragona il tuono, che arriva solo con la pioggia, a certe verità emotive che emergono solo nel pieno della tempesta. Stevie Nicks scrisse \"Dreams\" nel 1976 durante le registrazioni di \"Rumours\", dopo la rottura con il compagno di band Lindsey Buckingham, con cui continuava comunque a suonare. Il verso è letto più come metafora che come osservazione meteorologica: la passione e il conflitto (\"il tuono\") diventano visibili solo attraverso le conseguenze che provocano (\"la pioggia\").",
+    "fraseIconica": "Il cuore della canzone è il rapporto con Lindsey Buckingham, compagno di band anche dopo la rottura. Nicks ha raccontato di avergli consegnato la cassetta di \"Dreams\" e che lui la suonò nonostante la tensione tra loro.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/fleetwood-mac/dreams/",
     "fonti": [
       {
-        "url": "https://en.wikipedia.org/wiki/Dreams_(Fleetwood_Mac_song)",
-        "nome": "Wikipedia"
+        "url": "https://www.rhino.com/article/once-upon-a-time-in-the-top-spot-fleetwood-mac-dreams",
+        "nome": "Rhino — storia della composizione e classifica"
       },
       {
-        "url": "https://www.songfacts.com/facts/fleetwood-mac/dreams",
-        "nome": "Songfacts"
+        "url": "https://www.rhino.com/article/once-upon-a-time-in-the-top-spot-fleetwood-mac-dreams-0",
+        "nome": "Rhino — ricordi di Nicks e McVie sull'arrangiamento"
       },
       {
-        "url": "https://faroutmagazine.co.uk/fleetwood-mac-stevie-nicks-dreams-story-behind-the-song/",
-        "nome": "Far Out Magazine"
+        "url": "https://www.fleetwoodmacofficial.com/album/rumours",
+        "nome": "Fleetwood Mac — tracklist ufficiale di Rumours"
       },
       {
-        "url": "https://kworb.net/spotify/artist/08GQAI4eElDnROBrJRGE0X_songs.html",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz",
+        "nome": "Spotify — versione incorporata"
       }
     ],
     "testoFonte": "Letras",

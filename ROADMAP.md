@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Correzione mirata di Dreams in copia separata, 6 ottobre 2026
+
+Il rapporto indipendente `LOTTO-03-2026-10-06.md` ha segnalato un momento iconico vicino alla traduzione di un verso, un superlativo senza prova, lo scambio fra la separazione dei McVie e il divorzio di Mick Fleetwood e la versione Spotify non dichiarata. Dopo la riapertura delle pagine Rhino, della discografia ufficiale, di Spotify e della riga Kworb, sono stati riscritti il corpo e il momento iconico, dichiarata l'edizione *2004 Remaster* del lettore e tolto il conteggio statico associato a un ID diverso. Rigenerate la scheda, le pagine che la riprendono, la ricerca, la sitemap canzoni e l'immagine condivisibile. Dettagli e limiti nel [rapporto](rapporti/correzione-dreams-2026-10-06.md).
+
+Passano coerenza, completezza, collegamenti, SEO, etichette editoriali, freno e integrità delle differenze. Anteprima desktop e mobile controllata: nessuna fuoriuscita orizzontale, canonical e iframe corretti, immagine OG leggibile. Gli errori di console osservati sono del lettore Spotify. La data di verifica complessiva della scheda non è avanzata.
+
+**Stato:** proposta locale isolata nella copia `codex/correzione-dreams-2026-10-06`, in attesa del proprietario. Nessun trasferimento, push o pubblicazione. La correzione di un problema online prioritario non consuma il ciclo ordinario; gli altri lotti in revisione restano separati.
