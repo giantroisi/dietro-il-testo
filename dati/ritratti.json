@@ -905,6 +905,46 @@
       " · originale senza modifiche locali"
     ]
   },
+  "bon-jovi": {
+    "file": "bon-jovi-hyde-park-2013.jpg",
+    "autore": "Mark Kent",
+    "titolareDichiarato": "Mark Kent, autore indicato sulla pagina Flickr; nessun titolare diverso dichiarato",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://www.flickr.com/photos/flamesworddragon/9243557962/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Bonjoviband2013.png",
+    "titoloOriginale": "BJB 008",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bonjoviband2013.png",
+    "dataScatto": "2013-07-05",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/bon-jovi/",
+    "alt": "I Bon Jovi si esibiscono sul palco di Hyde Park a Londra nel 2013",
+    "modifiche": "Il PNG di Commons è un ritaglio del file Flickr realizzato da FMSky nel 2025; versione locale ridimensionata da 1855 × 960 a 1280 × 662 px e convertita in JPEG qualità 82, senza ulteriori ritagli o ritocchi.",
+    "creditoVisibile": "Foto di Mark Kent · BJB 008 · ritaglio Commons di FMSky, versione JPEG ridimensionata · CC BY-SA 2.0",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 662
+    },
+    "byte": 201475,
+    "sha256": "fa4d997bc08ef7094591cb254394cd283c6cc8599bdf691fdce233046a866b79",
+    "creditoParti": [
+      "Foto di Mark Kent · ",
+      {
+        "testo": "BJB 008",
+        "url": "https://www.flickr.com/photos/flamesworddragon/9243557962/"
+      },
+      " · ",
+      {
+        "testo": "ritaglio Commons di FMSky",
+        "url": "https://commons.wikimedia.org/wiki/File:Bonjoviband2013.png"
+      },
+      ", versione JPEG ridimensionata · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
+    ]
+  },
   "fall-out-boy": {
     "file": "fall-out-boy-londra-2023.jpg",
     "autore": "Drew de F Fawkes",
