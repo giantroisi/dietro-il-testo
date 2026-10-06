@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "deep-purple": {
+    "file": "deep-purple-oslo-2009.jpg",
+    "autore": "Rockman",
+    "titolare": "Rockman, secondo la dichiarazione dell'autore sulla pagina originale",
+    "licenza": "CC BY 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Deep_Purple.jpg",
+    "titoloOriginale": "Deep Purple.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Deep_Purple.jpg",
+    "dataScatto": "2009",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/deep-purple/",
+    "alt": "Roger Glover e Steve Morse dei Deep Purple suonano a Oslo nel 2009",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Rockman · Deep Purple.jpg · CC BY 3.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1116,
+      "altezza": 744
+    },
+    "byte": 75538,
+    "sha256": "534949a8cfd5f15aafa43b4f11e7656cfae93c5cbd0d49fc581f7289221bfdbb",
+    "creditoParti": [
+      "Foto di Rockman · ",
+      {
+        "testo": "Deep Purple.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Deep_Purple.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }
