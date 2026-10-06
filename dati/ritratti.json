@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "disturbed": {
+    "file": "disturbed-nova-rock-2016.jpg",
+    "autore": "Biha",
+    "titolareDichiarato": "Biha, che dichiara l'opera propria e la pubblica come titolare su Wikimedia Commons",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Disturbed_-_Novarock_-_2016-06-10-17-23-45.jpg",
+    "titoloOriginale": "Disturbed - Novarock - 2016-06-10-17-23-45.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Disturbed_-_Novarock_-_2016-06-10-17-23-45.jpg/1280px-Disturbed_-_Novarock_-_2016-06-10-17-23-45.jpg",
+    "dataScatto": "2016-06-10",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/disturbed/",
+    "alt": "David Draiman dei Disturbed sul palco del Nova Rock nel 2016, con le braccia alzate",
+    "modifiche": "Versione web Wikimedia Commons da 1280 × 853 px ridimensionata dall'originale 5184 × 3456 px; nessun ritaglio o ritocco locale. La pagina applica soltanto la scala CSS.",
+    "creditoVisibile": "Foto di Biha · Disturbed, Nova Rock 2016 · CC BY-SA 4.0 · versione web ridimensionata, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 853
+    },
+    "byte": 175566,
+    "sha256": "fbdaeb29859e07edccceb98bf5d542b75c1f968e12555b6e3bd3b203a686bdb0",
+    "creditoParti": [
+      "Foto di Biha · ",
+      {
+        "testo": "Disturbed, Nova Rock 2016",
+        "url": "https://commons.wikimedia.org/wiki/File:Disturbed_-_Novarock_-_2016-06-10-17-23-45.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · versione web ridimensionata, nessun ritocco locale"
+    ]
   }
 }
