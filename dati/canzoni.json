@@ -741,14 +741,14 @@
     "paese": null,
     "colore": "#2E4A8A",
     "colore2": "#6E4A2E",
-    "ascolti": 1200000000,
-    "ascoltiTesto": "1,2 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "7ygpwy2qP3NbrxVkHvUhXY",
     "corpo": [
-      "Uscita il 30 ottobre 1995, scritta da Noel Gallagher. A NME, che il 30 settembre 1995 gli dedicò un'intervista traccia per traccia sull'intero album \"(What's the Story) Morning Glory?\", Gallagher disse che il brano parlava della sua allora fidanzata (poi moglie) Meg Mathews: la sua azienda era appena fallita ed era abbattuta, e il senso della canzone era che non aveva motivo di esserlo, visto che era lei a dover rimettere ordine nella sua vita quando lui era \"a pezzi\". Il titolo fu ispirato da \"Wonderwall Music\", colonna sonora scritta da George Harrison nel 1968 per l'omonimo film psichedelico, di cui Gallagher era un appassionato.",
-      "Dopo il divorzio da Mathews nel 2001, Gallagher rivide questa versione. In un documentario della BBC del 2002 disse: \"Il significato di quella canzone mi fu tolto dai media che ci si buttarono sopra — e come fai a dire alla tua ragazza che non parla di lei, una volta che lei l'ha già letto?\". Ne diede allora una lettura diversa, descrivendola come una canzone su \"un amico immaginario che viene a salvarti da te stesso\". Il brano raggiunse il #2 in Gran Bretagna e l'#8 negli Stati Uniti, aprendo per la prima volta al pubblico pop americano la strada degli Oasis; nel 2025 ha superato il miliardo di ascolti su Spotify."
+      "Pubblicata come singolo il 30 ottobre 1995, «Wonderwall» è una canzone scritta da Noel Gallagher per l'album «(What's the Story) Morning Glory?». Secondo Radio X, Gallagher disse a NME che il brano parlava della sua allora fidanzata Meg Matthews. L'articolo riporta anche la sua spiegazione: dopo il fallimento dell'azienda di lei, Gallagher descrisse il bisogno che Meg aiutasse lui a rimettere ordine nella propria vita. Il titolo è stato collegato al film «Wonderwall» del 1968, con una colonna sonora di George Harrison, ma Radio X presenta questo legame come un'ipotesi.",
+      "Radio X riporta anche una spiegazione diversa, attribuita a Gallagher in un documentario BBC del 2002: il destinatario sarebbe un amico immaginario che aiuta il narratore. Le due dichiarazioni non consentono di indicare con certezza una sola persona reale dietro la canzone. Il singolo raggiunse il secondo posto nella classifica britannica e l'ottavo nella Billboard Hot 100. Il 15 ottobre 2020 Sony Music Japan annunciò che «Wonderwall» aveva superato il miliardo di ascolti su Spotify, primo brano degli anni Novanta a raggiungere quel traguardo."
     ],
-    "fraseIconica": "Il verso più citato è quello del ritornello in cui si dice che forse quella persona è colei che lo salverà, il suo \"wonderwall\". Nel 1995 Noel Gallagher disse a NME che il brano era dedicato alla sua allora fidanzata (poi moglie) Meg Mathews; dopo il divorzio nel 2001 rivide la versione ufficiale in un documentario della BBC, spiegando che si trattava in realtà di un \"amico immaginario che viene a salvarti da te stesso\". Il titolo fu preso in prestito da un album strumentale del 1968 di George Harrison, \"Wonderwall Music\", colonna sonora dell'omonimo film.",
+    "fraseIconica": "Nel ritornello il narratore affida la speranza di essere aiutato a una figura lasciata indefinita. Noel Gallagher ha dato spiegazioni diverse della sua identità: non è possibile fissarla con certezza in una sola persona reale.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/oasis/wonderwall/",
     "fonti": [
@@ -758,23 +758,20 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://oasisinterviews.blogspot.com/1995/09/noel-gallagher-nme-30th-september-1995.html",
-        "nome": "Archivio interviste Oasis (trascrizione di NME, 30 settembre 1995)"
+        "url": "https://www.sonymusic.co.jp/artist/Oasis/info/522989",
+        "nome": "Sony Music Japan — miliardo di ascolti (15 ottobre 2020)"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Wonderwall",
-        "nome": "Wikipedia"
+        "url": "https://www.officialcharts.com/songs/oasis-wonderwall/",
+        "nome": "Official Charts — Wonderwall"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://ca.billboard.com/music/rock/oasis-wonderwall-team-england-world-cup-anthem-1236293831/",
+        "nome": "Billboard — posizione nella Hot 100"
       }
     ],
     "testoFonte": "Letras",
-    "temi": [
-      "amore"
-    ]
+    "temi": []
   },
   {
     "slug": "lose-yourself",
