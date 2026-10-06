@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "eminem": {
+    "file": "eminem-concert-for-valor-2014.jpg",
+    "autore": "EJ Hersom / DoD News",
+    "titolareDichiarato": "Non indicato separatamente; l’account DoD News distribuisce la fotografia e i metadati indicano EJ Hersom / DoD News",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://www.flickr.com/photos/127934495@N07/15747702546",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Eminem_performing_in_2014.jpg",
+    "titoloOriginale": "141111-D-DB155-024",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Eminem_performing_in_2014.jpg",
+    "dataScatto": "2014-11-11",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/eminem/",
+    "alt": "Eminem si esibisce con cappuccio e microfono al Concert for Valor di Washington nel 2014",
+    "modifiche": "File originale Commons da 1440 × 960 px; nessun ritaglio, ridimensionamento o ritocco locale. Il CSS lo scala per la pagina.",
+    "creditoVisibile": "Foto di EJ Hersom / DoD News · 141111-D-DB155-024 · CC BY 2.0 · file originale, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1440,
+      "altezza": 960
+    },
+    "byte": 991831,
+    "sha256": "4bb3b949498f7284831da25115ce442510590603cec5416274075de3935cba11",
+    "creditoParti": [
+      "Foto di EJ Hersom / DoD News · ",
+      {
+        "testo": "141111-D-DB155-024",
+        "url": "https://www.flickr.com/photos/127934495@N07/15747702546"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · file originale, nessun ritocco locale"
+    ]
   }
 }
