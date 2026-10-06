@@ -1900,28 +1900,36 @@
     "colore": "#6B5A4A",
     "colore2": "#4A4A52",
     "ascolti": 2800000000,
-    "ascoltiTesto": "2,8 mld ascolti",
+    "ascoltiTesto": "oltre 2,8 mld ascolti",
     "spotifyId": "1y1sChqjzdNWzwdHQADMrR",
     "corpo": [
-      "Tredicesimo e ultimo brano di \"Meteora\", secondo album della band, pubblicato come terzo singolo l'8 settembre 2003. Fu una delle ultime canzoni scritte per il disco, completata appena una settimana prima dell'inizio delle registrazioni agli NRG Studios, nell'agosto 2002: secondo quanto raccontato dalla band, prese forma \"velocemente e quasi senza sforzo\" attorno al riff di tastiera dell'apertura. \"È una specie di canzone su quei momenti in cui non hai più niente da provare, o semplicemente non te ne importa più\", disse Mike Shinoda al sito Shoutweb nel marzo 2003. \"È quasi come l'esaurimento, che poi era proprio quello che sentivamo dopo il tour di [Hybrid Theory] l'anno prima.\"",
-      "Chester Bennington la registrò mentre era malato da cinque settimane, durante le sessioni finali di missaggio dell'album: resta una delle sue interpretazioni vocali più intense, in cui la voce si spezza sotto il peso di solitudine e disaffezione. Rimase per dodici settimane al numero 1 della classifica rock statunitense. Nel 2004 il remix \"Numb/Encore\", realizzato insieme a Jay-Z per l'album mash-up \"Collision Course\" targato MTV, diede al brano una seconda vita e valse alla band un Grammy nel 2006 per la Miglior Collaborazione Rap/Sung — premio che Shinoda, sul palco, girò simbolicamente a Jay-Z, ricordando che fu proprio il rapper a chiedere espressamente di collaborare con i Linkin Park quando MTV gli propose l'idea. Il brano ha oggi superato il miliardo di stream sia su Spotify sia su YouTube."
+      "\"Numb\" è la tredicesima e ultima traccia di \"Meteora\", secondo album dei Linkin Park, pubblicato nel 2003. Secondo il racconto di Metal Hammer, fu tra le ultime canzoni scritte per il disco: prese forma intorno al motivo iniziale di tastiera una settimana prima dell'avvio delle registrazioni agli NRG Studios nell'agosto 2002. Mike Shinoda la descrisse a Shoutweb come una canzone sui momenti in cui ci si sente svuotati o indifferenti, accostandola alla stanchezza provata dopo il tour di \"Hybrid Theory\".",
+      "Durante le registrazioni Chester Bennington fu malato per cinque settimane; incise la voce mentre il resto dell'album veniva mixato. \"Numb\" rimase dodici settimane al numero 1 della classifica statunitense Modern Rock Tracks di Billboard. Nel 2004 \"Numb/Encore\", collaborazione con Jay-Z pubblicata nell'EP \"Collision Course\", diede nuova visibilità al brano. La registrazione vinse il Grammy 2006 per la miglior collaborazione rap/cantata; durante il ringraziamento Shinoda ricordò che Jay-Z aveva scelto i Linkin Park quando MTV gli propose il progetto."
     ],
-    "fraseIconica": "Il verso più citato è quello del ritornello in cui il narratore afferma che la pressione costante lo ha reso incapace di sentire ancora la presenza dell'altra persona. Il co-autore Mike Shinoda ha descritto il brano come una riflessione sui momenti di vuoto emotivo o indifferenza; il testo è ampiamente letto come un confronto con le aspettative di una figura genitoriale o autoritaria, con l'insensibilità che funziona come difesa psicologica contro un giudizio costante.",
+    "fraseIconica": "Per Mike Shinoda, \"Numb\" racconta l'esaurimento emotivo: il sentirsi svuotati o indifferenti, una sensazione che la band conosceva dopo il tour di \"Hybrid Theory\".",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/linkin-park/numb/",
     "fonti": [
       {
         "url": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
-        "nome": "Metal Hammer (via Louder) — Dannii Leivers",
+        "nome": "Metal Hammer (via Louder) — storia di Numb",
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)",
-        "nome": "Wikipedia"
+        "url": "https://meteora20desk.linkinpark.com/music",
+        "nome": "Linkin Park — discografia ufficiale di Meteora"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
+        "url": "https://www.loudersound.com/features/the-a-z-of-linkin-park-chester-bennington-mike-shinoda",
+        "nome": "Metal Hammer — classifica Modern Rock Tracks"
+      },
+      {
+        "url": "https://live.grammy.com/videos/48th-annual-grammy-award-best-rapsung-collaboration",
+        "nome": "Grammy — premio Numb/Encore"
+      },
+      {
+        "url": "https://kworb.net/spotify/artist/6XyY86QOPPrYVGvF9ch6wz_songs.html",
+        "nome": "Kworb — ascolti Linkin Park",
         "ruolo": "ascolti"
       }
     ],
