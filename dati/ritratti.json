@@ -482,5 +482,39 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "coldplay": {
+    "file": "coldplay-2008.jpg",
+    "autore": "wonker",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Coldplay_(2591221662).jpg",
+    "titoloOriginale": "Coldplay (2591221662).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Coldplay_%282591221662%29.jpg",
+    "dataScatto": "2008-06-18",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/coldplay/",
+    "alt": "I quattro membri dei Coldplay suonano e cantano insieme durante un’esibizione nel 2008",
+    "modifiche": "File originale Wikimedia Commons 1600 × 1200 px, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di wonker · Coldplay (2591221662).jpg · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1600,
+      "altezza": 1200
+    },
+    "byte": 893370,
+    "sha256": "38a7b55d7999ffef6faf033f4c2928901ee33bc426975f699849c04880aab50d",
+    "creditoParti": [
+      "Foto di wonker · ",
+      {
+        "testo": "Coldplay (2591221662).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coldplay_(2591221662).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }

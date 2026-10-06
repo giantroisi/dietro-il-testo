@@ -4263,3 +4263,12 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+
+## 54. Ciclo immagini: Coldplay, 6 ottobre 2026
+
+Preparata in una copia separata una foto dei quattro Coldplay durante un’esibizione del 2008 per `/artista/coldplay/`. La pagina Flickr del fotografo/account wonker espone CC BY 2.0; Wikimedia Commons conferma la licenza e il controllo FlickreviewR. L’atto Creative Commons permette il riuso commerciale. Il JPEG originale è stato ispezionato e copiato senza modifiche. Autore, titolare non indicato separatamente, fonte, licenza, hash, alt e credito visibile sono nel [dossier fotografico](rapporti/licenze/ritratto-coldplay-2026-10-06.md) e in `dati/ritratti.json`.
+
+La generazione produce 695 pagine più 404 e 35 ritratti. Passano il controllo crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e integrità delle differenze. La pagina artista è stata verificata nel browser a 1280 e 390 px: foto caricata, credito leggibile e nessuna fuoriuscita orizzontale. La foto mostra i quattro membri nella formazione del 2008; i volti sono piccoli su mobile.
+
+**Stato:** proposta verificata nel ramo `codex/ritratto-coldplay-2026-10-06`, in attesa di revisione. Nessun trasferimento, push o pubblicazione. I §§52 e 53 sono nelle proposte isolate The Police e Depeche Mode; all’eventuale integrazione vanno fuse per voce le tre aggiunte distinte a `dati/ritratti.json` e mantenute tutte le sezioni della Roadmap. Ultimo ciclo fotografico completato come proposta: **Coldplay**.
