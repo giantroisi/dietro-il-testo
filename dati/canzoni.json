@@ -836,14 +836,12 @@
     "paese": null,
     "colore": "#A31F27",
     "colore2": "#A6791E",
-    "ascolti": 916000000,
-    "ascoltiTesto": "916 mln ascolti",
     "spotifyId": "3mCHHqfRktiCRetZ1KiJHE",
     "corpo": [
-      "Scritta da Rod Temperton, che aveva già firmato diversi brani per l'album precedente di Jackson, \"Off the Wall\". Nella sua concezione originaria, con il titolo di lavorazione \"Starlight\", il brano aveva un tema celeste, non horror; Temperton considerò anche il titolo \"Midnight Man\" prima di arrivare a \"Thriller\". In un'intervista del 2018, per il 35° anniversario del brano, raccontò di essersi svegliato una mattina con quella parola in testa, certo che avrebbe funzionato in cima alle classifiche Billboard e sul merchandising. Riscrisse il testo in un paio d'ore virando verso l'immaginario horror, e la nuova versione convinse subito sia lui sia Michael.",
-      "Fu l'attrice Peggy Lipton — all'epoca moglie del produttore Quincy Jones — a suggerire per la parte parlata finale il suo amico, l'attore horror Vincent Price: Temperton scrisse il testo del monologo di Price nel taxi che li portava in studio. Il video, uscito il 2 dicembre 1983 e diretto da John Landis (ispirato ai film \"I Was a Teenage Werewolf\" e \"An American Werewolf in London\", che lo stesso Jackson aveva visto prima di ingaggiarlo), costò circa un milione di dollari, superò i 13 minuti di durata e raddoppiò le vendite dell'album; fu il primo video musicale a entrare nel National Film Registry, nel 2009. La celebre \"danza degli zombie\" nacque dalla collaborazione tra Jackson e il coreografo Michael Peters, che secondo lo stesso Jackson studiarono davanti allo specchio come far muovere gli zombie senza risultare comici."
+      "Scritta da Rod Temperton, che aveva già firmato diversi brani per l'album precedente di Jackson, \"Off the Wall\". Nella sua concezione originaria, con il titolo di lavorazione \"Starlight\", il brano aveva un tema celeste, non horror; Temperton considerò anche il titolo \"Midnight Man\" prima di arrivare a \"Thriller\". In un'intervista del 2018, per il 35° anniversario del brano, raccontò di essersi svegliato una mattina con quella parola in testa e di averla immaginata nelle classifiche Billboard e sul merchandising. Riscrisse il testo in un paio d'ore virando verso l'immaginario horror; secondo il suo ricordo riportato da American Songwriter, la nuova versione funzionò dopo alcune prove al microfono con Jackson.",
+      "Fu l'attrice Peggy Lipton a suggerire per la parte parlata finale il suo amico Vincent Price: secondo Quincy Jones, Temperton scrisse il passaggio durante il tragitto in auto verso lo studio. Il video, uscito il 2 dicembre 1983 e diretto da John Landis (ispirato ai film \"I Was a Teenage Werewolf\" e \"An American Werewolf in London\", che lo stesso Jackson aveva visto prima di ingaggiarlo), costò circa un milione di dollari, superò i 13 minuti di durata e raddoppiò le vendite dell'album; fu il primo video musicale a entrare nel National Film Registry, nel 2009. La celebre \"danza degli zombie\" nacque dalla collaborazione tra Jackson e il coreografo Michael Peters, che secondo lo stesso Jackson studiarono davanti allo specchio come far muovere gli zombie senza risultare comici."
     ],
-    "fraseIconica": "Il momento più iconico non è un verso cantato ma il monologo parlato di Vincent Price che chiude il brano, culminato nella sua celebre risata. L'autore Rod Temperton voleva una voce classica da film horror per quel \"rap\" finale, e fu la moglie del produttore Quincy Jones, Peggy Lipton, a suggerire Price, che registrò la sua parte in appena due riprese. Il segmento ebbe talmente successo da rilanciare la carriera dell'attore presso una nuova generazione di fan, e resta l'elemento più citato del brano e del cortometraggio che lo accompagna.",
+    "fraseIconica": "Il finale affida a Vincent Price una voce parlata da film horror. Secondo Quincy Jones, Rod Temperton scrisse quel passaggio durante il tragitto verso lo studio di registrazione.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/michael-jackson/295689/",
     "fonti": [
@@ -853,13 +851,16 @@
         "ruolo": "storia"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
-        "nome": "Wikipedia"
+        "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/QuincyJonesInterview.pdf",
+        "nome": "Library of Congress — intervista a Quincy Jones"
       },
       {
-        "url": "https://kworb.net/spotify/",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
+        "url": "https://loc.gov/loc/lcib/10012/news.html",
+        "nome": "Library of Congress — National Film Registry"
+      },
+      {
+        "url": "https://open.spotify.com/track/3mCHHqfRktiCRetZ1KiJHE",
+        "nome": "Spotify — registrazione incorporata"
       }
     ],
     "testoFonte": "Letras",
