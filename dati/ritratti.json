@@ -482,5 +482,45 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "adele": {
+    "file": "adele-glasgow-2016.jpg",
+    "autore": "Marc E. (marcen27)",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+    "fonteOriginale": "https://www.flickr.com/photos/marcen27/26102821816/",
+    "titoloOriginale": "Adele 3",
+    "titoloFile": "Adele 2016.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Adele_2016.jpg",
+    "dataScatto": "2016-03-26",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/adele/",
+    "alt": "Adele sorride sul palco della SSE Hydro di Glasgow nel 2016",
+    "modifiche": "Foto originale Adele 3 su Flickr; ritaglio precedente su Wikimedia Commons (Adele 2016.jpg, 1607 × 2134 px) attribuito all'utente ThiefOfBagdad nella cronologia; versione locale ridimensionata proporzionalmente a 903 × 1200 px e ricompressa in JPEG all'80%, senza ulteriori ritagli o ritocchi.",
+    "creditoVisibile": "Adele 3 · foto di Marc E. (marcen27) · ritaglio Commons di ThiefOfBagdad · CC BY 2.0 · ridimensionata e ricompressa",
+    "dimensioni": {
+      "larghezza": 903,
+      "altezza": 1200
+    },
+    "byte": 240929,
+    "sha256": "94c3b7eadf0f743f2f12a22d0a2727250d311812d5e9e6ef77bb4a86abcb36f4",
+    "creditoParti": [
+      {
+        "testo": "Adele 3",
+        "url": "https://www.flickr.com/photos/marcen27/26102821816/"
+      },
+      " · foto di Marc E. (marcen27) · ",
+      {
+        "testo": "ritaglio Commons di ThiefOfBagdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · ridimensionata e ricompressa"
+    ]
   }
 }

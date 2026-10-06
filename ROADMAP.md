@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 59. Proposta di ritratto Adele, 6 ottobre 2026 — IMMAGINI
+
+La scheda artista `/artista/adele/` usava la grafica originale. Preparato in copia separata il ritratto derivato dalla foto “Adele 3” di Marc E. (`marcen27`), scattata a Glasgow nel 2016. La pagina originale Flickr e il ritaglio Commons sono stati riaperti; entrambi indicano CC BY 2.0, che permette uso commerciale e modifiche con attribuzione. Il soggetto è stato verificato visivamente. Il [dossier della licenza](rapporti/licenze/ritratto-adele-2026-10-06.md) registra URL originali, titolo, autore, verifica della licenza, hash, trasformazioni, credito e alt.
+
+La versione locale è 903 × 1200 px, con credito visibile sotto la foto. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano il controllo dei crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e confronto della pagina generata. L'anteprima desktop e mobile a 390 px mostra immagine e credito, senza fuoriuscita orizzontale o errori di console.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-adele-2026-10-06`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. La voce `adele` del JSON condiviso dovrà essere integrata senza sovrascrivere le voci distinte dei lotti fotografici in revisione.
