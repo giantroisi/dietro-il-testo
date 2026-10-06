@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Correzione mirata di Everlong, 6 ottobre 2026
+
+Riaperto il rilievo della verifica indipendente su una scheda già online. La dichiarazione originale di Louise Post attribuisce a Grohl la richiesta della parte vocale senza parole; la scheda la presentava come idea di Post. Rimossi inoltre dettagli senza fonte, un superlativo sulle classifiche mondiali, una parafrasi troppo aderente al ritornello e un conteggio Kworb associato a un ID Spotify diverso dal lettore incorporato. La frase iconica, il corpo, le fonti e i dati collegati sono stati corretti insieme. Il [dossier](rapporti/correzione-everlong-2026-10-06.md) registra fonti riaperte, scelte, verifiche e limiti. `ultimaVerifica` non è stata avanzata, perché l'intervento non è una revisione integrale della scheda.
+
+Rigenerati la pagina, gli indici interessati, la ricerca, la sitemap e l'immagine OG. Passano coerenza, completezza 321/321, collegamenti, SEO (696 HTML), natura editoriale, freno e integrità delle differenze; `sito/` e radice pubblicabile coincidono. Anteprima desktop e a 390 px verificata nel browser: lettore e fonti caricati, canonical corretta, nessuna fuoriuscita orizzontale o errore di console. Questo intervento prioritario sulle violazioni P1/P2/P3 non avanza la rotazione ordinaria.
+
+**Stato:** proposta isolata in `codex/correzione-everlong-2026-10-06`, pronta per revisione. Nessun trasferimento nel `main`, push o pubblicazione.
