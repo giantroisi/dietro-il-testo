@@ -482,5 +482,41 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "ghost": {
+    "file": "ghost-papa-emeritus-download-2013.jpg",
+    "autore": "Thargol",
+    "titolareDichiarato": "Thargol (pagina originale Wikimedia Commons, opera propria e dichiarazione del titolare)",
+    "licenza": "CC0 1.0",
+    "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.it",
+    "fonte": "https://commons.wikimedia.org/wiki/File:130616--papa_emeritus.jpg",
+    "titoloOriginale": "130616--papa emeritus.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/130616--papa_emeritus.jpg",
+    "dataScatto": "2013-06-16",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/ghost/",
+    "alt": "Papa Emeritus, cantante mascherato dei Ghost, sul palco del Download Festival nel 2013 con le braccia alzate",
+    "modifiche": "File originale Wikimedia Commons, 913 × 960 px; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Papa Emeritus dei Ghost · foto di Thargol · CC0 1.0 · Download Festival 2013 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 913,
+      "altezza": 960
+    },
+    "byte": 71440,
+    "sha256": "48425f3011f2f3bafca40442a7d775866ceff965679dc6ed65f1e9ca8f0aed39",
+    "limiteVisivo": "Raffigura soltanto Papa Emeritus nella formazione scenica del 2013, non il gruppo intero né la formazione attuale.",
+    "creditoParti": [
+      "Papa Emeritus dei Ghost · foto di ",
+      {
+        "testo": "Thargol",
+        "url": "https://commons.wikimedia.org/wiki/File:130616--papa_emeritus.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.it"
+      },
+      " · Download Festival 2013 · originale senza modifiche locali"
+    ]
   }
 }
