@@ -482,5 +482,37 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "the-police": {
+    "file": "the-police.jpg",
+    "autore": "Justin",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:The_Police_05.jpg",
+    "titoloOriginale": "The Police 05.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Police_05.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/the-police/",
+    "alt": "Stewart Copeland alla batteria, Sting al basso e Andy Summers alla chitarra durante un concerto dei Police",
+    "modifiche": "File originale Wikimedia Commons; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "The Police 05.jpg · Foto di Justin · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 872,
+      "altezza": 482
+    },
+    "byte": 81030,
+    "sha256": "aeffaf46cf63a285a5ad132283a50b897bf8048af2b5ecf8e5c35f596511d43b",
+    "creditoParti": [
+      {
+        "testo": "The Police 05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Police_05.jpg"
+      },
+      " · Foto di Justin · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }

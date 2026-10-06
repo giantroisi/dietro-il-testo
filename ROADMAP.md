@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 52. Ritratto The Police: proposta con licenza libera, 6 ottobre 2026
+
+**Filone completato nella copia separata: immagini.** Per `/artista/the-police/` è stata preparata una foto del trio in concerto nel 2007. Il file originale è su Wikimedia Commons, con attribuzione a Justin e licenza CC BY 2.0, utilizzabile anche commercialmente; la pagina registra la verifica Flickr compiuta da un revisore nel 2008. Il vecchio link Flickr oggi risponde 404, limite registrato nel [dossier](rapporti/licenze/ritratto-the-police-2026-10-06.md). Foto, credito visibile con link, alt, origine, licenza, data di verifica, uso, modifiche e hash sono documentati. La foto mostra tutti e tre i membri della formazione storica senza presentarla come formazione attuale.
+
+Generati 695 pagine più 404 e 35 ritratti. Passano i controlli di credito e integrità dell’immagine, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e differenze Git. Anteprima desktop e mobile a 390 px verificate: immagine e credito leggibili, immagine caricata, nessuna fuoriuscita orizzontale o errore di console della pagina.
+
+**Stato:** proposta solo nella copia `codex/ritratto-the-police-2026-10-06`; la cartella principale, il remoto e il sito pubblico non sono stati modificati. Richiede revisione del proprietario prima di qualsiasi integrazione.
