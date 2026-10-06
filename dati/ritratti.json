@@ -482,5 +482,40 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "david-bowie": {
+    "file": "david-bowie-ziggy-santa-monica-1972.jpg",
+    "autore": "Boris Yaro",
+    "titolareDichiarato": "The Regents of the University of California (UCLA Library)",
+    "licenza": "CC BY 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "fonte": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj",
+    "titoloOriginale": "David Bowie, as Ziggy Stardust, performing at the Santa Monica Civic Auditorium, Calif., 1972",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/David_Bowie%2C_as_Ziggy_Stardust%2C_performing_at_the_Santa_Monica_Civic_Auditorium.jpg",
+    "dataScatto": "1972-10-23",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/david-bowie/",
+    "alt": "David Bowie nei panni di Ziggy Stardust canta al microfono e suona la chitarra al Santa Monica Civic Auditorium nel 1972",
+    "modifiche": "File originale da Wikimedia Commons 2554 × 3850 px; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Boris Yaro · Los Angeles Times, 1972 · CC BY 4.0 · originale UCLA Library, nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 2554,
+      "altezza": 3850
+    },
+    "byte": 2963508,
+    "sha256": "76d3fe2ac5366821c830cd373d146c21d8936d02c9e5e119ff8ff5330cfd5a7b",
+    "creditoParti": [
+      "Foto di Boris Yaro · Los Angeles Times, 1972 · ",
+      {
+        "testo": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      " · ",
+      {
+        "testo": "originale UCLA Library",
+        "url": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj"
+      },
+      ", nessuna modifica locale"
+    ]
   }
 }

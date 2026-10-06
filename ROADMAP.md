@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 55. Ciclo immagini: ritratto David Bowie, 6 ottobre 2026
+
+Preparata in una copia separata una foto del 1972 di David Bowie nei panni di Ziggy Stardust per `/artista/david-bowie/`. La [scheda originale UCLA Library](https://digital.library.ucla.edu/catalog/ark:/21198/zz0002nncj) identifica soggetto, fotografo Boris Yaro, data, titolare dichiarato e licenza CC BY 4.0; il file è stato controllato visivamente. Autore, titolo, URL originale e del file, licenza, obblighi, data di verifica, alt, credito visibile e assenza di modifiche locali sono registrati in `dati/ritratti.json` e nel [dossier](rapporti/licenze/ritratto-david-bowie-2026-10-06.md).
+
+La pagina generata e quella pubblicabile coincidono. Passano controllo crediti e file, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti e integrità delle differenze. Nell'anteprima a 1280 e 390 px la foto è caricata senza tagli, il credito è leggibile, la canonical è corretta, non vi sono errori di console né scorrimento orizzontale.
+
+**Stato:** proposta verificata e isolata; nessuna integrazione nel main, push o pubblicazione. Le proposte fotografiche The Police (§52), Depeche Mode (§53) e Coldplay (§54) restano indipendenti e in attesa di revisione: le voci distinte di `dati/ritratti.json` e le sezioni di Roadmap andranno unite una per volta. La foto Bowie documenta un momento del 1972, non l'intera carriera.
