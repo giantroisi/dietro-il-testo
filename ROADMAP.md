@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 62. Proposta di foto Elton John, 6 ottobre 2026 — IMMAGINI
+
+La pagina `/artista/elton-john/` usava la grafica originale. Preparata in copia separata una foto di Elton John sul palco a Kristiansand nel 2017, scattata da Jørund Føreland Pedersen. Riaperti la pagina Commons con dichiarazione di opera propria, i metadati che indicano anche il titolare del copyright e la licenza CC BY-SA 4.0, che permette riuso commerciale e adattamenti con attribuzione e condivisione alla stessa licenza. Il soggetto è stato controllato visivamente. Il [dossier della licenza](rapporti/licenze/ritratto-elton-john-2026-10-06.md) registra provenienza, titolo, URL, autore, obblighi, hash, credito, alt e modifiche.
+
+Il file locale è l'originale 1600 × 1067 px, senza modifiche. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano controllo crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti, integrità della pagina generata e `git diff --check`. L'anteprima desktop e mobile a 390 px mostra foto e credito, canonical corretta, nessuna fuoriuscita orizzontale né errore di console.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-elton-john-2026-10-06`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. La voce `elton-john` del JSON condiviso andrà integrata senza sovrascrivere quelle distinte degli altri lotti in revisione.

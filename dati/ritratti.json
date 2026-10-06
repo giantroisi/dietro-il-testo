@@ -450,6 +450,41 @@
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
   },
+  "elton-john": {
+    "file": "elton-john-palmesus-2017.jpg",
+    "autore": "Jørund Føreland Pedersen",
+    "titolare": "Jørund Føreland Pedersen (metadati del file: Joerund F Pedersen)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Elton_John_Palmesus_2017-1.jpg",
+    "titoloOriginale": "Elton John Palmesus 2017-1.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Elton_John_Palmesus_2017-1.jpg",
+    "dataScatto": "2017-06-29",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/elton-john/",
+    "alt": "Elton John accanto al pianoforte sul palco a Kristiansand nel 2017",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Jørund Føreland Pedersen · Elton John Palmesus 2017-1.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1600,
+      "altezza": 1067
+    },
+    "byte": 600693,
+    "sha256": "c417c94b574010da1014de1b9da4c0981f6000f6fc82799edfaef7894a559874",
+    "creditoParti": [
+      "Foto di Jørund Føreland Pedersen · ",
+      {
+        "testo": "Elton John Palmesus 2017-1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Elton_John_Palmesus_2017-1.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
   "ac-dc": {
     "file": "ac-dc-angus-brian-barcellona.jpg",
     "autore": "Joan Sorolla",
