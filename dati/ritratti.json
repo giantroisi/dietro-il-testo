@@ -482,5 +482,43 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "whitney-houston": {
+    "file": "whitney-houston-ritratto.jpg",
+    "autore": "John Mathew Smith & www.celebrity-photos.com",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_2000.jpg",
+    "fonteOriginale": "https://www.flickr.com/photos/kingkongphoto/5112487951/",
+    "titoloOriginale": "WHITNEY HUSTON",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Whitney_Houston_2000.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/whitney-houston/",
+    "alt": "Whitney Houston sorride con occhiali ovali scuri e una giacca nera",
+    "modifiche": "File originale Wikimedia Commons di 1560 × 2276 px, identico alla foto visibile sulla pagina Flickr dell'autore; nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "WHITNEY HUSTON (titolo originale) · foto di John Mathew Smith & www.celebrity-photos.com · file Wikimedia Commons · CC BY-SA 2.0 · nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 1560,
+      "altezza": 2276
+    },
+    "byte": 190427,
+    "sha256": "bec82b4ce555e413aa8e55b02f02f461630b60ee6fe7c1cf0648f279b712df4c",
+    "creditoParti": [
+      {
+        "testo": "WHITNEY HUSTON (titolo originale)",
+        "url": "https://www.flickr.com/photos/kingkongphoto/5112487951/"
+      },
+      " · foto di John Mathew Smith & www.celebrity-photos.com · ",
+      {
+        "testo": "file Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_2000.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · nessuna modifica locale"
+    ]
   }
 }
