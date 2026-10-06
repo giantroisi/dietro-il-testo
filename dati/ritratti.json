@@ -482,5 +482,38 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "depeche-mode": {
+    "file": "depeche-mode-denver-2017.jpg",
+    "autore": "Julio Enriquez",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Depeche_Mode_Pepsi_Center_08.25.17_(36010459024).jpg",
+    "titoloOriginale": "Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Depeche_Mode_Pepsi_Center_08.25.17_%2836010459024%29.jpg",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/depeche-mode/",
+    "alt": "Martin Gore e Dave Gahan dei Depeche Mode cantano insieme durante un concerto del 2017",
+    "modifiche": "File originale Wikimedia Commons 2001 × 1334 px, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Julio Enriquez · Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 2001,
+      "altezza": 1334
+    },
+    "byte": 141829,
+    "sha256": "bd2a49177d3dca8cbc4a90bd7447fc3228db95c0218c6542461ffc595ce8368e",
+    "creditoParti": [
+      "Foto di Julio Enriquez · ",
+      {
+        "testo": "Depeche Mode Pepsi Center 08.25.17 (36010459024).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Depeche_Mode_Pepsi_Center_08.25.17_(36010459024).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }

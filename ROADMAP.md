@@ -4263,3 +4263,12 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+
+## 53. Ciclo immagini: Depeche Mode, 6 ottobre 2026
+
+Preparata in una copia separata la fotografia di Martin Gore e Dave Gahan per `/artista/depeche-mode/`. La pagina Flickr del fotografo Julio Enriquez e la scheda Wikimedia Commons espongono CC BY 2.0; la licenza consente il riuso commerciale. Il file originale è stato ispezionato e copiato senza modifiche. Fonte, autore, licenza, obblighi, hash, alt e credito visibile sono nel [dossier fotografico](rapporti/licenze/ritratto-depeche-mode-2026-10-06.md) e in `dati/ritratti.json`.
+
+La generazione produce 695 pagine più 404 e 35 ritratti. Passano il controllo crediti, SEO (696 HTML), coerenza (321 canzoni, 104 artisti), collegamenti e integrità delle differenze. La pagina artista è stata verificata nel browser a 1280 e 390 px: file caricato, credito leggibile e nessuna fuoriuscita orizzontale. Il riquadro mostra due componenti e non la formazione completa.
+
+**Stato:** proposta verificata nel ramo `codex/ritratto-depeche-mode-2026-10-06`, in attesa di revisione. Nessun trasferimento, push o pubblicazione. Il §52 della proposta The Police è in un altro ramo; all’eventuale integrazione vanno fuse per voce le due aggiunte distinte a `dati/ritratti.json` e mantenute entrambe le sezioni della Roadmap. Ultimo ciclo fotografico completato come proposta: **Depeche Mode**.
