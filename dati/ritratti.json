@@ -482,5 +482,39 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "foo-fighters": {
+    "file": "foo-fighters-dave-grohl-2011.jpg",
+    "autore": "Ryanw2313",
+    "titolareDichiarato": "Ryanw2313, autore e titolare dichiarato sulla pagina Wikimedia Commons",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Dave_Grohl.jpg",
+    "titoloOriginale": "Dave Grohl.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dave_Grohl.jpg",
+    "dataScatto": "2011-07-03",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/foo-fighters/",
+    "alt": "Dave Grohl dei Foo Fighters durante un concerto al National Bowl nel 2011",
+    "modifiche": "Originale Wikimedia Commons 3648 × 2736 px ridimensionato proporzionalmente a 1400 × 1050 px e ricompresso in JPEG al 78%; nessun ritaglio o ritocco.",
+    "creditoVisibile": "Dave Grohl.jpg · foto di Ryanw2313 · CC BY-SA 3.0 · ridimensionata e ricompressa",
+    "dimensioni": {
+      "larghezza": 1400,
+      "altezza": 1050
+    },
+    "byte": 200228,
+    "sha256": "19e5d3cdfc6ec78d40151ad1949c0faae3f2e69f5453bc619f31f085ea31e618",
+    "creditoParti": [
+      {
+        "testo": "Dave Grohl.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Dave_Grohl.jpg"
+      },
+      " · foto di Ryanw2313 · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      " · ridimensionata e ricompressa"
+    ]
   }
 }
