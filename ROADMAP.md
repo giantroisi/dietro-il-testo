@@ -4263,3 +4263,11 @@ Il proprietario ha chiesto di integrare gli aggiornamenti dopo la pubblicazione 
 Passano `check-affiliazioni`, `check-seo` (696 file HTML), `check-link`, `check-coerenza` (321 canzoni e 104 artisti), `check-completezza` (321/321), `check-freno`, il confronto con checksum fra `sito/` e la radice e `git diff --check`. Nell'anteprima mobile a 390 px sono stati controllati Affiliazioni, Nightswimming, Yesterday, Here Comes the Sun, The Scientist e Radiohead: nessuna fuoriuscita orizzontale o errore di console. La canonical di Affiliazioni punta all'URL pubblico corretto. Il generatore elimina ora le righe vuote indentate dall'HTML, che il merge aveva reintrodotto nei file appena generati.
 
 **Stato:** integrazione nel `main` locale; nessun nuovo push o deploy. La Fase 2 Amazon resta inattiva finché il proprietario non comunica il Tracking ID. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` resta intatto.
+
+## 64. Ciclo immagini: Fall Out Boy, 6 ottobre 2026
+
+Preparata nella copia `codex/ritratto-fall-out-boy-2026-10-06` una foto dei quattro Fall Out Boy sul palco londinese dell'Heaven nel 2023. La [pagina Flickr originale](https://www.flickr.com/photos/guynamedfawkes/52755936394/) attribuisce l'immagine a Drew de F Fawkes ed espone CC BY 2.0; la licenza ufficiale consente riuso commerciale e modifiche con attribuzione. Una foto alternativa del 2007 è stata esclusa perché la fonte originale restituisce 403. Il [dossier di licenza](rapporti/licenze/ritratto-fall-out-boy-2026-10-06.md) documenta file, provenienza, autore, licenza, credito, alt, modifiche e limiti.
+
+La versione web Commons da 1280 × 721 px pesa 195.926 byte e coincide con l'hash registrato. La generazione produce 695 pagine più 404 e copia 35 ritratti. Passano controlli di crediti, SEO, coerenza, collegamenti e integrità delle differenze. L'anteprima locale desktop e mobile conferma caricamento, credito visibile, canonical corretta, nessuno scorrimento orizzontale ed errori di console assenti. Due membri restano piccoli nell'inquadratura, soprattutto a 390 px.
+
+**Stato:** ciclo immagini preparato e verificato in copia separata, in attesa di approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. Nell'integrazione occorre aggiungere la sola voce `fall-out-boy` al JSON condiviso, preservando le voci degli altri lotti in revisione.

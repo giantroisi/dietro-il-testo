@@ -482,5 +482,41 @@
       },
       " · originale senza modifiche locali"
     ]
+  },
+  "fall-out-boy": {
+    "file": "fall-out-boy-londra-2023.jpg",
+    "autore": "Drew de F Fawkes",
+    "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY 2.0 esposta sull'account Flickr di Drew de F Fawkes",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://www.flickr.com/photos/guynamedfawkes/52755936394/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Fall_Out_Boy,_Heaven,_London_(52755936394).jpg",
+    "titoloOriginale": "Fall Out Boy, Heaven, London",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Fall_Out_Boy%2C_Heaven%2C_London_%2852755936394%29.jpg/1280px-Fall_Out_Boy%2C_Heaven%2C_London_%2852755936394%29.jpg",
+    "dataScatto": "2023-03-16",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/fall-out-boy/",
+    "alt": "I Fall Out Boy suonano sul palco dell'Heaven di Londra nel 2023",
+    "modifiche": "Versione da 1280 × 721 px generata da Wikimedia Commons a partire dall'originale; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina.",
+    "creditoVisibile": "Foto di Drew de F Fawkes · Fall Out Boy, Heaven, London · CC BY 2.0 · versione web Wikimedia Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 721
+    },
+    "byte": 195926,
+    "sha256": "3588ad2573ef4fc2f75a66ee658f4ba38176509c430c3e645eb4f8daae22f6b8",
+    "creditoParti": [
+      "Foto di Drew de F Fawkes · ",
+      {
+        "testo": "Fall Out Boy, Heaven, London",
+        "url": "https://www.flickr.com/photos/guynamedfawkes/52755936394/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · versione web Wikimedia Commons, nessun ritocco locale"
+    ]
   }
 }
