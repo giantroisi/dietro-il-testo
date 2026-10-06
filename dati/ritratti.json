@@ -450,6 +450,41 @@
       " · originale Wikimedia Commons, nessuna modifica locale"
     ]
   },
+  "the-clash": {
+    "file": "the-clash-oslo-1980.jpg",
+    "autore": "Helge Øverås",
+    "titolare": "Helge Øverås (dichiarazione dell'autore sulla pagina Commons)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Clash_21051980_12_800.jpg",
+    "titoloOriginale": "Clash 21051980 12 800.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Clash_21051980_12_800.jpg",
+    "dataScatto": "1980-05-21",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/the-clash/",
+    "alt": "Joe Strummer, Mick Jones e Paul Simonon dei Clash sul palco a Oslo nel 1980",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale.",
+    "creditoVisibile": "Foto di Helge Øverås · Clash 21051980 12 800.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 800,
+      "altezza": 468
+    },
+    "byte": 65937,
+    "sha256": "62f70178df4e18db7f87a5f57657fbf3ab11e8f86ce74230a2fc2120049ee5e6",
+    "creditoParti": [
+      "Foto di Helge Øverås · ",
+      {
+        "testo": "Clash 21051980 12 800.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Clash_21051980_12_800.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
   "ac-dc": {
     "file": "ac-dc-angus-brian-barcellona.jpg",
     "autore": "Joan Sorolla",
