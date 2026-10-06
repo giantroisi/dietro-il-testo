@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "eagles": {
+    "file": "eagles-live-2008.jpg",
+    "autore": "Steve Alexander",
+    "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY-SA 2.0 esposta sull'account Flickr di Steve Alexander",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://www.flickr.com/photos/10724473@N03/3077147093/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:The_Eagles_in_performance,_2008.jpg",
+    "titoloOriginale": "Eagles",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/The_Eagles_in_performance%2C_2008.jpg",
+    "dataScatto": "2008-12-02",
+    "dataVerifica": "2026-10-06",
+    "paginaUso": "/artista/eagles/",
+    "alt": "Gli Eagles si esibiscono sul palco durante il tour Long Road out of Eden nel 2008",
+    "modifiche": "File originale Wikimedia Commons derivato dalla foto Flickr di Steve Alexander; nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Steve Alexander · Eagles · CC BY-SA 2.0 · originale Commons senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1000,
+      "altezza": 667
+    },
+    "byte": 346305,
+    "sha256": "b36b79557023b55e586981f6e8fe288510577d41b7ec7e1c0cfad8cb751c6069",
+    "creditoParti": [
+      "Foto di Steve Alexander · ",
+      {
+        "testo": "Eagles",
+        "url": "https://www.flickr.com/photos/10724473@N03/3077147093/"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · originale Commons senza modifiche locali"
+    ]
   }
 }
