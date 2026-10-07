@@ -966,5 +966,31 @@
       {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
       " · nessun ritocco locale"
     ]
+  },
+  "pink-floyd": {
+    "file": "pink-floyd.jpg",
+    "autore": "TimDuncan",
+    "titolareDichiarato": "TimDuncan, autore e titolare dichiarato sulla pagina Commons",
+    "licenza": "CC BY 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:PinkFloyd1973.jpg",
+    "titoloOriginale": "PinkFloyd1973.jpg — Pink Floyd, Dark Side of the Moon, Earls Court",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/PinkFloyd1973.jpg",
+    "dataScatto": "1973-05-18",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/pink-floyd/",
+    "alt": "Pink Floyd sul palco dell'Earls Court nel 1973, con musicisti, batteria e coriste sotto fasci di luce",
+    "modifiche": "File originale Commons 805 × 443 px copiato senza ritagli o ritocchi locali; il CSS ne ridimensiona soltanto la visualizzazione.",
+    "creditoVisibile": "Foto di TimDuncan · Pink Floyd, Dark Side of the Moon, Earls Court, 1973 · CC BY 3.0 · nessun ritocco locale",
+    "dimensioni": {"larghezza": 805, "altezza": 443},
+    "byte": 168863,
+    "sha256": "8aab0d77d22308860a808e7e24a7d9eb5e152a68ceb8638cf6797644f2719763",
+    "creditoParti": [
+      "Foto di TimDuncan · ",
+      {"testo": "Pink Floyd, Dark Side of the Moon, Earls Court, 1973", "url": "https://commons.wikimedia.org/wiki/File:PinkFloyd1973.jpg"},
+      " · ",
+      {"testo": "CC BY 3.0", "url": "https://creativecommons.org/licenses/by/3.0/"},
+      " · nessun ritocco locale"
+    ]
   }
 }

@@ -4381,3 +4381,11 @@ Il proprietario ha approvato la proposta `codex/ritratto-tool-foto-2026-10-07` (
 I quattro file trasferiti sono identici byte per byte alla proposta già verificata nel browser desktop e mobile. Nel `main` passano i controlli di crediti e file, SEO (696 HTML, zero rilievi), coerenza (321 canzoni e 104 artisti, zero rilievi), link, completezza, affiliazioni, freno, natura e `git diff --check`. La canonical della pagina è `https://www.dietroiltesto.it/artista/tool/`.
 
 **Stato:** integrazione locale approvata e verificata. Nessun push o pubblicazione autorizzati con questa approvazione. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è rimasto invariato.
+
+## 67. Proposta di foto Pink Floyd, 7 ottobre 2026 — IMMAGINI
+
+La pagina `/artista/pink-floyd/` usava la grafica originale. Preparata in copia separata una fotografia dei Pink Floyd sul palco dell'Earls Court nel 1973, caricata dall'autore TimDuncan su Wikimedia Commons. La [pagina originale](https://commons.wikimedia.org/wiki/File:PinkFloyd1973.jpg) dichiara opera propria e licenza CC BY 3.0; la pagina ufficiale della licenza conferma il riuso commerciale e la possibilità di adattamento con attribuzione. Il file è stato controllato visivamente e copiato senza modifiche. Il [dossier di licenza](rapporti/licenze/ritratto-pink-floyd-2026-10-07.md) registra provenienza, autore, titolarità dichiarata, file, hash, obblighi, credito, alt e limiti.
+
+La generazione produce 695 pagine più 404 e copia 49 ritratti. Passano controllo dei crediti, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti, confronto fra pagina generata e copia nella radice e `git diff --check`. Nell'anteprima desktop a 1280 px e mobile a 390 px la foto si carica, il credito è presente, la canonical è corretta, non c'è fuoriuscita orizzontale e la console non segnala errori. I volti restano piccoli, soprattutto sullo schermo mobile.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-pink-floyd-2026-10-07`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. Integrare la sola voce `pink-floyd` nel JSON condiviso senza sovrascrivere altri lotti.
