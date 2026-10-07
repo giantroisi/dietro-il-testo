@@ -940,5 +940,31 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "lynyrd-skynyrd": {
+    "file": "lynyrd-skynyrd.jpg",
+    "autore": "Jimmy Barnes Photography",
+    "titolareDichiarato": "Jimmy Barnes Photography; la pagina Commons dichiara opera propria e rilascio da parte del titolare",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg",
+    "titoloOriginale": "Ronnie Van Zant of Lynyrd Skynyrd performing Free Bird at Soldier Field in Chicago",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg",
+    "dataScatto": "1977-07-10",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/lynyrd-skynyrd/",
+    "alt": "Ronnie Van Zant dei Lynyrd Skynyrd canta sul palco con il microfono durante un concerto del 1977",
+    "modifiche": "File originale Commons 514 × 720 px, copiato senza ritaglio o ritocco; solo ridimensionamento di visualizzazione CSS.",
+    "creditoVisibile": "Foto di Jimmy Barnes Photography · Ronnie Van Zant dei Lynyrd Skynyrd, 1977 · CC BY-SA 4.0 · nessun ritocco locale",
+    "dimensioni": {"larghezza": 514, "altezza": 720},
+    "byte": 59920,
+    "sha256": "c55bdc0505df388f7f22652836863ad1e81a980ee8f064a382fa4923790e36c8",
+    "creditoParti": [
+      "Foto di Jimmy Barnes Photography · ",
+      {"testo": "Ronnie Van Zant dei Lynyrd Skynyrd, 1977", "url": "https://commons.wikimedia.org/wiki/File:Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg"},
+      " · ",
+      {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
+      " · nessun ritocco locale"
+    ]
   }
 }
