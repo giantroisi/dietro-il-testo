@@ -1,4 +1,40 @@
 {
+  "ozzy-osbourne": {
+    "file": "ozzy-osbourne-philadelphia-2010.jpg",
+    "autore": "Kevin Burkett",
+    "titolareDichiarato": "Non indicato separatamente dall'autore sull'account Flickr di Kevin Burkett",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://www.flickr.com/photos/24514780@N02/4311089266/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Ozzy_Osbourne-2010.jpg",
+    "titoloOriginale": "Ozzy Osbourne in Philly",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ozzy_Osbourne-2010.jpg/960px-Ozzy_Osbourne-2010.jpg",
+    "dataScatto": "2010-01-27",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/ozzy-osbourne/",
+    "alt": "Ozzy Osbourne a un incontro per la firma della sua autobiografia a Filadelfia nel 2010",
+    "modifiche": "Versione web Wikimedia Commons ridimensionata a 960 × 1104 px dall'originale di Kevin Burkett; nessun ritaglio o ritocco locale. Sola scala CSS.",
+    "creditoVisibile": "Foto di Kevin Burkett · Ozzy Osbourne in Philly · CC BY-SA 2.0 · versione Commons ridimensionata, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1104
+    },
+    "byte": 380108,
+    "sha256": "e626756f3391076b2bc39a56572d5ebaaa8ebb3c2fa339cac68d661a0cd5c267",
+    "creditoParti": [
+      "Foto di Kevin Burkett · ",
+      {
+        "testo": "Ozzy Osbourne in Philly",
+        "url": "https://www.flickr.com/photos/24514780@N02/4311089266/"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · versione Commons ridimensionata, nessun ritocco locale"
+    ]
+  },
   "black-sabbath": {
     "file": "black-sabbath.jpg",
     "autore": "Shane Hirschman",
