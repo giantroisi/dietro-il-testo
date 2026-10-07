@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "renato-zero": {
+    "file": "renato-zero-2013.jpg",
+    "autore": "Francesco Maresca",
+    "titolareDichiarato": "Francesco Maresca per la fotografia originale, secondo la sua dichiarazione su Commons; StomboyCarGeek per il ritaglio derivato",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Renato_Zero_2013.jpg",
+    "fonteOriginale": "https://commons.wikimedia.org/wiki/File:Renato_Zero.jpg",
+    "titoloOriginale": "Renato Zero 2013.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Renato_Zero_2013.jpg",
+    "dataScatto": "2013-05-04",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/renato-zero/",
+    "alt": "Renato Zero sul palco durante un concerto nel 2013, con un braccio alzato",
+    "modifiche": "Ritaglio preparato su Wikimedia Commons da StomboyCarGeek a partire dalla fotografia di Francesco Maresca; file del ritaglio copiato senza ulteriori modifiche locali; sola scala CSS.",
+    "creditoVisibile": "Foto di Francesco Maresca, ritaglio di StomboyCarGeek · Renato Zero 2013.jpg · CC BY-SA 3.0 · nessuna ulteriore modifica locale",
+    "dimensioni": {
+      "larghezza": 2368,
+      "altezza": 1796
+    },
+    "byte": 1280130,
+    "sha256": "17bcddae25deef2096efdfea927fecf0cd3a44fef79ff33f8e808805fefdbfa1",
+    "creditoParti": [
+      "Foto di Francesco Maresca, ritaglio di StomboyCarGeek · ",
+      {
+        "testo": "Renato Zero 2013.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Renato_Zero_2013.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+      },
+      " · nessuna ulteriore modifica locale"
+    ]
   }
 }
