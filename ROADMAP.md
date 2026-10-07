@@ -4381,3 +4381,11 @@ Il proprietario ha approvato la proposta `codex/ritratto-tool-foto-2026-10-07` (
 I quattro file trasferiti sono identici byte per byte alla proposta già verificata nel browser desktop e mobile. Nel `main` passano i controlli di crediti e file, SEO (696 HTML, zero rilievi), coerenza (321 canzoni e 104 artisti, zero rilievi), link, completezza, affiliazioni, freno, natura e `git diff --check`. La canonical della pagina è `https://www.dietroiltesto.it/artista/tool/`.
 
 **Stato:** integrazione locale approvata e verificata. Nessun push o pubblicazione autorizzati con questa approvazione. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è rimasto invariato.
+
+## 67. Proposta di foto Prince, 7 ottobre 2026 — IMMAGINI
+
+La pagina `/artista/prince/` usava la grafica originale. Preparato in copia separata un ritratto di Prince mentre suona la chitarra, estratto su Wikimedia Commons da una foto caricata da Levi Seacer con dichiarazione di opera propria e licenza CC BY-SA 4.0. Sono state riaperte le pagine del [ritaglio](https://commons.wikimedia.org/wiki/File:Prince_(cropped).jpg), del [file di partenza](https://commons.wikimedia.org/wiki/File:Levi_%26_Prince.jpg) e della [licenza](https://creativecommons.org/licenses/by-sa/4.0/). Il file è stato controllato visivamente. Il [dossier](rapporti/licenze/ritratto-prince-2026-10-07.md) registra attribuzione dichiarata, versioni, modifiche precedenti, licenza, hash, credito, alt e limiti. La data 2014 riportata su Commons non è stata presentata come data dello scatto.
+
+La generazione produce 695 pagine più 404 e copia 49 ritratti. Passano i controlli di crediti e file, SEO (696 HTML), coerenza (321 canzoni e 104 artisti), collegamenti, confronto fra pagina generata e copia nella radice e `git diff --check`. L'anteprima locale a 1280 e 390 px conferma immagine caricata, credito visibile, canonical corretta, nessuna fuoriuscita orizzontale e nessun errore di console. Il ritaglio è a bassa risoluzione ma leggibile alle dimensioni previste.
+
+**Stato:** ciclo IMMAGINI preparato e verificato nella copia `codex/ritratto-prince-2026-10-07`; attende approvazione specifica. Nessun trasferimento nel `main`, push o pubblicazione. In fase d'integrazione aggiungere la sola voce `prince` al JSON condiviso, preservando altri lotti.

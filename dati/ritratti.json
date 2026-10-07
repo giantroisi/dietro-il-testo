@@ -966,5 +966,30 @@
       {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
       " · nessun ritocco locale"
     ]
+  },
+  "prince": {
+    "file": "prince.jpg",
+    "autore": "Levi Seacer",
+    "titolareDichiarato": "Levi Seacer, autore e titolare dichiarato sulla pagina Commons del file di partenza",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Prince_(cropped).jpg",
+    "titoloOriginale": "Prince (cropped).jpg, estratto da Levi & Prince.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Prince_%28cropped%29.jpg",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/prince/",
+    "alt": "Prince suona una chitarra elettrica sul palco in una fotografia in bianco e nero ripresa dal basso",
+    "modifiche": "La versione Commons deriva da Levi & Prince.jpg: Magnolia677 ha ritagliato e corretto il contrasto del file di partenza, Damian Vo ha estratto Prince. Nessun ulteriore ritaglio o ritocco locale; il CSS ridimensiona la visualizzazione.",
+    "creditoVisibile": "Immagine attribuita a Levi Seacer su Commons · ritaglio di Damian Vo da versione ritoccata da Magnolia677 · Prince dal vivo · CC BY-SA 4.0 · nessun ritocco locale",
+    "dimensioni": {"larghezza": 289, "altezza": 407},
+    "byte": 81070,
+    "sha256": "939e47dca0228f026e52d739364d86d2fc1b39c00d6268e823daa6169fdce851",
+    "creditoParti": [
+      "Immagine attribuita a Levi Seacer su Commons · ritaglio di Damian Vo da versione ritoccata da Magnolia677 · ",
+      {"testo": "Prince dal vivo", "url": "https://commons.wikimedia.org/wiki/File:Prince_(cropped).jpg"},
+      " · ",
+      {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
+      " · nessun ritocco locale"
+    ]
   }
 }
