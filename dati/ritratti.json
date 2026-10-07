@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "the-rolling-stones": {
+    "file": "rolling-stones-londra-2018.jpg",
+    "autore": "Raph_PH",
+    "titolareDichiarato": "Raph_PH; licenza CC BY 2.0 indicata sulla pagina Flickr originale",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/deed.it",
+    "fonte": "https://www.flickr.com/photos/raph_ph/41437871065/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Mick_Jagger_waves_to_crowd_during_Rolling_Stones_concert_in_London_-_22_May_2018_(41437871065).jpg",
+    "titoloOriginale": "StonesLondon220518-107",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mick_Jagger_waves_to_crowd_during_Rolling_Stones_concert_in_London_-_22_May_2018_%2841437871065%29.jpg/1280px-Mick_Jagger_waves_to_crowd_during_Rolling_Stones_concert_in_London_-_22_May_2018_%2841437871065%29.jpg",
+    "dataScatto": "2018-05-22",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/the-rolling-stones/",
+    "alt": "Mick Jagger saluta il pubblico accanto a Ronnie Wood durante un concerto dei Rolling Stones a Londra nel 2018",
+    "modifiche": "Versione web 1280 × 720 px generata da Wikimedia Commons dall’originale; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina.",
+    "creditoVisibile": "Foto: Raph_PH · StonesLondon220518-107 · CC BY 2.0 · versione web Commons senza ritocchi locali",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 720
+    },
+    "byte": 153446,
+    "sha256": "f30795dbcea695a4f9168500716b3dd2f60dfb289cea95735f561693d0150ff2",
+    "creditoParti": [
+      "Foto: Raph_PH · ",
+      {
+        "testo": "StonesLondon220518-107",
+        "url": "https://www.flickr.com/photos/raph_ph/41437871065/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/deed.it"
+      },
+      " · versione web Commons senza ritocchi locali"
+    ]
   }
 }
