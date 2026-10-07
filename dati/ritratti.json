@@ -905,6 +905,42 @@
       " · originale senza modifiche locali"
     ]
   },
+  "simon-garfunkel": {
+    "file": "simon-garfunkel-jazz-fest-2010.jpg",
+    "autore": "Alaina Buzas",
+    "titolareDichiarato": "Alaina Buzas (metadati EXIF del file originale)",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://www.flickr.com/photos/23132451@N03/4551381640/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Simon_%26_Garfunkel,_Jazz_Fest_2010.jpg",
+    "titoloOriginale": "Simon and Garfunkel. Yes.",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Simon_%26_Garfunkel%2C_Jazz_Fest_2010.jpg",
+    "dataScatto": "2010-04-24",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/simon-garfunkel/",
+    "alt": "Art Garfunkel e Paul Simon cantano insieme sul palco al Jazz Fest del 2010",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di Alaina Buzas · Simon and Garfunkel. Yes. · CC BY 2.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 3008,
+      "altezza": 2000
+    },
+    "byte": 433881,
+    "sha256": "653c8154c297df3bb8e446a8dbdf2bb936ae99e7e18bdf5854fe6bc759d3ddb1",
+    "creditoParti": [
+      "Foto di Alaina Buzas · ",
+      {
+        "testo": "Simon and Garfunkel. Yes.",
+        "url": "https://www.flickr.com/photos/23132451@N03/4551381640/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale senza modifiche locali"
+    ]
+  },
   "fall-out-boy": {
     "file": "fall-out-boy-londra-2023.jpg",
     "autore": "Drew de F Fawkes",
