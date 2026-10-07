@@ -2419,14 +2419,14 @@
     "paese": null,
     "colore": "#4A5E8A",
     "colore2": "#8A2E3E",
-    "ascolti": 2400000000,
-    "ascoltiTesto": "2,4 mld ascolti",
+    "ascolti": null,
+    "ascoltiTesto": null,
     "spotifyId": "37ZJ0p5Jm13JPevGcx4SkF",
     "corpo": [
-      "Contenuta in \"Slippery When Wet\", terzo album della band, uscito il 18 agosto 1986, scritta da Jon Bon Jovi, Richie Sambora e Desmond Child — al suo primo lavoro con la band dopo aver già firmato \"I Was Made for Lovin' You\" dei Kiss e brani per Cher e Bonnie Tyler. Pubblicata come secondo singolo il 31 ottobre 1986, sul lato B di \"Wild in the Streets\". Scritta sullo sfondo delle difficoltà economiche della working class americana durante il secondo mandato di Ronald Reagan, il testo racconta la storia di Tommy e Gina, una coppia che si sostiene a vicenda nonostante le difficoltà: lui operaio portuale in sciopero e senza stipendio, lei cameriera in una tavola calda.",
+      "Contenuta in \"Slippery When Wet\", terzo album della band, uscito il 18 agosto 1986, scritta da Jon Bon Jovi, Richie Sambora e Desmond Child — al suo primo lavoro con la band dopo aver già firmato \"I Was Made for Lovin' You\" dei Kiss e brani per Cher e Bonnie Tyler. Pubblicata come secondo singolo il 31 ottobre 1986, con \"Wild in the Streets\" sul lato B. Scritta sullo sfondo delle difficoltà economiche della working class americana durante il secondo mandato di Ronald Reagan, il testo racconta la storia di Tommy e Gina, una coppia che si sostiene a vicenda nonostante le difficoltà: lui operaio portuale in sciopero e senza stipendio, lei cameriera in una tavola calda.",
       "\"Tommy e Gina non sono due persone specifiche, rappresentano uno stile di vita\", ha detto Jon Bon Jovi, ma i due autori attinsero comunque da esperienze reali. Il nome di Gina nacque dalla compagna dell'epoca di Desmond Child, la cantautrice Maria Vidal, che lavorava alla tavola calda Once Upon a Stove e fu soprannominata così perché ricordava l'attrice italiana Gina Lollobrigida; Tommy, invece, si ispirò in parte a un amico di Jon, ex stella del baseball ai tempi del liceo, costretto a rinunciare ai propri sogni e a lavorare in fabbrica dopo aver messo incinta la fidanzata. Il brano divenne il primo numero 1 della band nella classifica rock di Billboard e il loro secondo consecutivo numero 1 nella Hot 100. Considerata la canzone simbolo della band — Tommy e Gina sarebbero tornati anche nel successivo successo \"It's My Life\" (2000) — ha venduto oltre 13 milioni di copie nel mondo ed è tornata più volte in classifica a distanza di decenni dall'uscita."
     ],
-    "fraseIconica": "Il ritornello più citato è la promessa ai due protagonisti, Tommy e Gina, che ce la faranno tenendosi stretti e affidandosi alla fede, anche senza nient'altro su cui contare. Jon Bon Jovi ha spiegato che i due non sono persone specifiche ma rappresentano uno stile di vita: a differenza del precedente \"Runaway\", dove la protagonista era senza nome, questa volta volle dare un'identità ai personaggi raccontando una storia. Il dettaglio della cameriera in una tavola calda richiama la vita reale del co-autore Desmond Child, che guidava un taxi mentre la sua compagna, la cantante Maria Vidal, lavorava proprio in un locale di quel tipo.",
+    "fraseIconica": "Il ritornello concentra la fiducia reciproca di Tommy e Gina: nelle difficoltà economiche la coppia sceglie di sostenersi. Jon Bon Jovi ha detto che non sono persone specifiche, ma rappresentano uno stile di vita. La Gina del racconto riprende il soprannome di Maria Vidal, che allora lavorava in una tavola calda.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/bon-jovi/livin-on-a-prayer/",
     "fonti": [
@@ -2438,11 +2438,6 @@
       {
         "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
         "nome": "Wikipedia"
-      },
-      {
-        "url": "https://kworb.net/spotify/artist/58lV9VcRSjABbAbfWS6skp_songs.html",
-        "nome": "kworb.net (ascolti Spotify)",
-        "ruolo": "ascolti"
       }
     ],
     "testoFonte": "Letras",
