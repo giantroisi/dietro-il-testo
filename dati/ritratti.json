@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "eros-ramazzotti": {
+    "file": "eros-ramazzotti-2022.jpg",
+    "autore": "Alexander Khanin",
+    "titolareDichiarato": "@DEDA_SASHA nei metadati Commons; autore Alexander Khanin",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Eros_Ramazzotti_2022.jpg",
+    "titoloOriginale": "Eros Ramazzotti 2022.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Eros_Ramazzotti_2022.jpg",
+    "dataScatto": "2022-10-06",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/eros-ramazzotti/",
+    "alt": "Eros Ramazzotti canta con un microfono durante un concerto in Israele nel 2022",
+    "modifiche": "File originale 1023 × 1000 px; nessun ritaglio o ritocco locale. Il CSS lo ridimensiona senza tagli.",
+    "creditoVisibile": "Foto: Alexander Khanin · Eros Ramazzotti 2022.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 1023,
+      "altezza": 1000
+    },
+    "byte": 238206,
+    "sha256": "42a37561c1ff8eaa940bf65ac3320de80757e77cad84771f8e42758284b9e406",
+    "creditoParti": [
+      "Foto: Alexander Khanin · ",
+      {
+        "testo": "Eros Ramazzotti 2022.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Eros_Ramazzotti_2022.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }
