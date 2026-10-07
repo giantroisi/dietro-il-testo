@@ -1,4 +1,40 @@
 {
+  "the-cranberries": {
+    "file": "cranberries-dolores-2010.jpg",
+    "autore": "Dolitsa",
+    "titolareDichiarato": "Dolitsa (opera propria e dichiarazione CC0 del titolare sulla pagina Wikimedia Commons)",
+    "licenza": "CC0 1.0",
+    "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:DoloresO%27Riordan.jpg",
+    "titoloOriginale": "DoloresO'Riordan.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/DoloresO%27Riordan.jpg",
+    "dataScatto": "2010-05-12",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/the-cranberries/",
+    "alt": "Dolores O'Riordan, voce dei Cranberries, canta sul palco durante il tour della reunion nel 2010",
+    "modifiche": "File originale Wikimedia Commons, 539 × 720 px; nessun ritaglio, ridimensionamento o ritocco locale. Sola scala CSS.",
+    "creditoVisibile": "Dolores O'Riordan dei Cranberries · foto di Dolitsa · CC0 1.0 · tour 2010 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 539,
+      "altezza": 720
+    },
+    "byte": 66677,
+    "sha256": "edda5aa2847b9d4a2ba7cfe4bd41875acc4beda39042d48f097033521e51d069",
+    "limiteVisivo": "Raffigura solo la cantante Dolores O'Riordan nel 2010, non tutti i membri del gruppo.",
+    "creditoParti": [
+      "Dolores O'Riordan dei Cranberries · foto di ",
+      {
+        "testo": "Dolitsa",
+        "url": "https://commons.wikimedia.org/wiki/File:DoloresO%27Riordan.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      " · tour 2010 · originale senza modifiche locali"
+    ]
+  },
   "black-sabbath": {
     "file": "black-sabbath.jpg",
     "autore": "Shane Hirschman",
