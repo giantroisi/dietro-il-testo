@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "queen": {
+    "file": "queen-frankfurt-1984.jpg",
+    "autore": "Thomas Steffan",
+    "titolareDichiarato": "Thomas Steffan; autorizzazione del titolare confermata da Wikimedia VRT, ticket 2006050910012003",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Queen_1984_011.jpg",
+    "titoloOriginale": "Queen 1984 011.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Queen_1984_011.jpg",
+    "dataScatto": "1984",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/queen/",
+    "alt": "I Queen in concerto a Francoforte nel 1984, con Freddie Mercury al microfono",
+    "modifiche": "File corrente di Wikimedia Commons copiato senza ritagli o ritocchi locali; sola scala CSS. La cronologia Commons riporta una successiva versione del file nel 2006.",
+    "creditoVisibile": "Foto di Thomas Steffan · Queen 1984 011.jpg · CC BY-SA 3.0 · nessuna modifica locale",
+    "dimensioni": {
+      "larghezza": 871,
+      "altezza": 689
+    },
+    "byte": 625991,
+    "sha256": "1446a1fbeb98736f1bb0aa27afc8d2976c825496f62164b468ba6128d86efe9f",
+    "creditoParti": [
+      "Foto di Thomas Steffan · ",
+      {
+        "testo": "Queen 1984 011.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Queen_1984_011.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+      },
+      " · nessuna modifica locale"
+    ]
   }
 }
