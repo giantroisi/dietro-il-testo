@@ -940,5 +940,40 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "franco-battiato": {
+    "file": "franco-battiato-perugia-2016.jpg",
+    "autore": "SurrealReplicant",
+    "titolareDichiarato": "SurrealReplicant, secondo la dichiarazione di opera propria sulla pagina originale",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg",
+    "titoloOriginale": "Franco Battiato.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Franco_Battiato.jpg",
+    "dataScatto": "2016-04-30",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/franco-battiato/",
+    "alt": "Franco Battiato al microfono durante un concerto a Perugia nel 2016",
+    "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+    "creditoVisibile": "Foto di SurrealReplicant · Franco Battiato.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+    "dimensioni": {
+      "larghezza": 798,
+      "altezza": 1417
+    },
+    "byte": 338340,
+    "sha256": "c184e51948d3c378f53867d18a78d67c34270f3b1bc7b92fc6ca6a08e8eaa6f7",
+    "creditoParti": [
+      "Foto di SurrealReplicant · ",
+      {
+        "testo": "Franco Battiato.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      },
+      " · originale senza modifiche locali"
+    ]
   }
 }
