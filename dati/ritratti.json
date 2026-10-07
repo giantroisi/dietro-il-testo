@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "limp-bizkit": {
+    "file": "limp-bizkit.jpg",
+    "autore": "ECarterSterling",
+    "titolareDichiarato": "ECarterSterling, account che pubblica e licenzia la foto su Flickr; nessun titolare diverso indicato",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://www.flickr.com/photos/188354731@N05/51319449775/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Limp_Bizkit_-_Festival_of_the_Lakes_-_7_15_2021_(51319449775).jpg",
+    "titoloOriginale": "Limp Bizkit - Festival of the Lakes - 7/15/2021",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Limp_Bizkit_-_Festival_of_the_Lakes_-_7_15_2021_%2851319449775%29.jpg/960px-Limp_Bizkit_-_Festival_of_the_Lakes_-_7_15_2021_%2851319449775%29.jpg",
+    "dataScatto": "2021-07-15",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/limp-bizkit/",
+    "alt": "Fred Durst, cantante dei Limp Bizkit, con un microfono sul palco del Festival of the Lakes nel 2021",
+    "modifiche": "Versione 960 × 1280 px ridimensionata da Wikimedia Commons dall'originale; nessun ritaglio o ritocco locale. Adattamento fotografico condiviso con CC BY-SA 2.0.",
+    "creditoVisibile": "Foto di ECarterSterling · Limp Bizkit - Festival of the Lakes - 7/15/2021 · CC BY-SA 2.0 · versione web Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1280
+    },
+    "byte": 201301,
+    "sha256": "dceaa2eeb426b76ae8e453cfe8d593d46a5e3018e4c5294d89cb1d1d5de02a9d",
+    "creditoParti": [
+      "Foto di ECarterSterling · ",
+      {
+        "testo": "Limp Bizkit - Festival of the Lakes - 7/15/2021",
+        "url": "https://www.flickr.com/photos/188354731@N05/51319449775/"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · versione web Commons, nessun ritocco locale"
+    ]
   }
 }
