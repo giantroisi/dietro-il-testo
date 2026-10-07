@@ -940,5 +940,41 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "rammstein": {
+    "file": "rammstein-cantante-2011.jpg",
+    "autore": "Steve Collis",
+    "titolareDichiarato": "Non indicato separatamente dall’autore Steve Collis; licenza CC BY 2.0 sulla pagina Flickr originale",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/deed.it",
+    "fonte": "https://www.flickr.com/photos/swampa/5424599316/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Rammstein_(5424599316)_(cropped).jpg",
+    "titoloOriginale": "Rammstein",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rammstein_%285424599316%29_%28cropped%29.jpg",
+    "dataScatto": "2011-01-30",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/rammstein/",
+    "alt": "Il cantante dei Rammstein sul palco con le braccia aperte durante un concerto nel 2011",
+    "modifiche": "Ritaglio eseguito da Helper201 su Wikimedia Commons nel 2022 dall’originale di Steve Collis; nessun ulteriore ritaglio o ritocco locale. Il CSS ridimensiona la visualizzazione.",
+    "creditoVisibile": "Foto: Steve Collis · Rammstein · CC BY 2.0 · ritaglio Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1099,
+      "altezza": 1131
+    },
+    "byte": 379825,
+    "sha256": "4cb44f206334d5c38756cfcb6540b036235b47255304b422d8ba1d6ec9085186",
+    "creditoParti": [
+      "Foto: Steve Collis · ",
+      {
+        "testo": "Rammstein",
+        "url": "https://www.flickr.com/photos/swampa/5424599316/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/deed.it"
+      },
+      " · ritaglio Commons, nessun ritocco locale"
+    ]
   }
 }
