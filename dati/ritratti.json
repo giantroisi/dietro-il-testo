@@ -940,5 +940,31 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "led-zeppelin": {
+    "file": "led-zeppelin.jpg",
+    "autore": "Jim Summaria",
+    "titolareDichiarato": "Jim Summaria; autorizzazione del titolare confermata da Wikimedia VRT, ticket 2012011710008963",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_with_Robert_Plant_2_-_Led_Zeppelin_-_1977.jpg",
+    "titoloOriginale": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Jimmy_Page_with_Robert_Plant_2_-_Led_Zeppelin_-_1977.jpg",
+    "dataScatto": "1977",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/led-zeppelin/",
+    "alt": "Robert Plant canta al microfono accanto al chitarrista Jimmy Page durante un concerto dei Led Zeppelin nel 1977",
+    "modifiche": "Originale corrente Commons 1846 × 1663 px copiato senza modifiche locali; la cronologia Commons registra correzioni di contrasto nel 2009 e dei livelli nel 2018. Il CSS ridimensiona solo la visualizzazione.",
+    "creditoVisibile": "Foto di Jim Summaria · Jimmy Page e Robert Plant dei Led Zeppelin, 1977 · CC BY-SA 3.0 · versione Commons con livelli corretti, nessun ritocco locale",
+    "dimensioni": {"larghezza": 1846, "altezza": 1663},
+    "byte": 508831,
+    "sha256": "4cdbd8c54c1e87cd2722e1857112145e7af2baf68139a173ec4105dc84f8df55",
+    "creditoParti": [
+      "Foto di Jim Summaria · ",
+      {"testo": "Jimmy Page e Robert Plant dei Led Zeppelin, 1977", "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_with_Robert_Plant_2_-_Led_Zeppelin_-_1977.jpg"},
+      " · ",
+      {"testo": "CC BY-SA 3.0", "url": "https://creativecommons.org/licenses/by-sa/3.0/"},
+      " · versione Commons con livelli corretti, nessun ritocco locale"
+    ]
   }
 }
