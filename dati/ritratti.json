@@ -940,5 +940,31 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "tool": {
+    "file": "tool.jpg",
+    "autore": "Lugnuts",
+    "titolareDichiarato": "Lugnuts, autore e titolare dichiarato sulla pagina Commons",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tool_live_Birmingham_2022.jpg",
+    "titoloOriginale": "Tool live Birmingham 2022",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tool_live_Birmingham_2022.jpg",
+    "dataScatto": "2022-05-04",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/tool/",
+    "alt": "I Tool si esibiscono su un palco illuminato di viola a Birmingham nel 2022, con musicisti e batteria davanti alla scenografia",
+    "modifiche": "File originale Commons 1024 × 576 px copiato senza ritagli o ritocchi locali; il CSS ne ridimensiona soltanto la visualizzazione.",
+    "creditoVisibile": "Foto di Lugnuts · Tool dal vivo a Birmingham, 2022 · CC BY-SA 4.0 · nessun ritocco locale",
+    "dimensioni": {"larghezza": 1024, "altezza": 576},
+    "byte": 229421,
+    "sha256": "619c7a4a228d709302bdaab07c0fab2d6d52b57a5e62a28c8a0041dab536a10d",
+    "creditoParti": [
+      "Foto di Lugnuts · ",
+      {"testo": "Tool dal vivo a Birmingham, 2022", "url": "https://commons.wikimedia.org/wiki/File:Tool_live_Birmingham_2022.jpg"},
+      " · ",
+      {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
+      " · nessun ritocco locale"
+    ]
   }
 }
