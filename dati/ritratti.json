@@ -1,4 +1,45 @@
 {
+  "john-lennon": {
+    "file": "john-lennon-1969.jpg",
+    "autore": "Joost Evers / Anefo",
+    "titolareDichiarato": "Nationaal Archief (indicato come titolare e CC0 nella scheda originale)",
+    "licenza": "CC0 1.0",
+    "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg",
+    "archivioOriginale": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84",
+    "titoloOriginale": "John Lennon 1969 (cropped).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/John_Lennon_1969_%28cropped%29.jpg",
+    "dataScatto": "1969-03-31",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/john-lennon/",
+    "alt": "Primo piano in bianco e nero di John Lennon con barba e occhiali nel 1969",
+    "modifiche": "Ritaglio archivistico già presente su Wikimedia Commons; file Commons copiato senza ulteriori ritagli, ridimensionamenti o ritocchi locali. Sola scala CSS.",
+    "creditoVisibile": "John Lennon, 1969 · foto di Joost Evers / Anefo · Nationaal Archief · CC0 1.0 · ritaglio archivistico",
+    "dimensioni": {
+      "larghezza": 612,
+      "altezza": 883
+    },
+    "byte": 284759,
+    "sha256": "c220f7bf48995f050bb23eaf3113a741240a6c47259400d919fd94b204438832",
+    "creditoParti": [
+      "John Lennon, 1969 · foto di ",
+      {
+        "testo": "Joost Evers / Anefo",
+        "url": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg"
+      },
+      " · ",
+      {
+        "testo": "Nationaal Archief",
+        "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84"
+      },
+      " · ",
+      {
+        "testo": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      " · ritaglio archivistico"
+    ]
+  },
   "black-sabbath": {
     "file": "black-sabbath.jpg",
     "autore": "Shane Hirschman",
