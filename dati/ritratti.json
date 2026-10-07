@@ -905,6 +905,41 @@
       " · originale senza modifiche locali"
     ]
   },
+  "toto": {
+    "file": "toto-town-hall-2016.jpg",
+    "autore": "Skhmusic",
+    "titolareDichiarato": "Skhmusic (autore e titolare dichiarato su Wikimedia Commons)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Toto_at_Town_Hall_In_New_York_City.jpg",
+    "titoloOriginale": "Toto at Town Hall In New York City.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Toto_at_Town_Hall_In_New_York_City.jpg/960px-Toto_at_Town_Hall_In_New_York_City.jpg",
+    "dataScatto": "2016-08-27",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/toto/",
+    "alt": "Steve Lukather alla chitarra e Joseph Williams al microfono con i Toto a New York nel 2016",
+    "modifiche": "Versione web da 960 × 1440 px generata da Wikimedia Commons dall'originale 2040 × 3060 px; nessun ritaglio o ritocco locale. Ridimensionamento indicato nel credito; opera derivata disponibile sotto CC BY-SA 4.0.",
+    "creditoVisibile": "Foto di Skhmusic · Toto at Town Hall In New York City.jpg · CC BY-SA 4.0 · versione web ridimensionata da Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1440
+    },
+    "byte": 280253,
+    "sha256": "056fe02b67a7242b9e85cece889ecf7863f1b75d855c6856cf4ce6d030df5211",
+    "creditoParti": [
+      "Foto di Skhmusic · ",
+      {
+        "testo": "Toto at Town Hall In New York City.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Toto_at_Town_Hall_In_New_York_City.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · versione web ridimensionata da Commons, nessun ritocco locale"
+    ]
+  },
   "fall-out-boy": {
     "file": "fall-out-boy-londra-2023.jpg",
     "autore": "Drew de F Fawkes",
