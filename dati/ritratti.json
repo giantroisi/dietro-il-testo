@@ -940,5 +940,42 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "soundgarden": {
+    "file": "soundgarden.jpg",
+    "autore": "musicisentropy",
+    "titolareDichiarato": "musicisentropy, account Flickr indicato come autore e licenziante; nessun titolare diverso dichiarato",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://www.flickr.com/photos/45654212@N00/4908666471/",
+    "paginaCommons": "https://commons.wikimedia.org/wiki/File:Soundgarden_Chicago.jpg",
+    "titoloOriginale": "Soundgarden",
+    "titoloCommons": "Soundgarden Chicago.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Soundgarden_Chicago.jpg/1280px-Soundgarden_Chicago.jpg",
+    "dataScatto": "2010-08-08",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/soundgarden/",
+    "alt": "Chris Cornell, Matt Cameron e Ben Shepherd dei Soundgarden suonano al Lollapalooza di Chicago nel 2010",
+    "modifiche": "Versione da 1280 × 960 px ridimensionata da Wikimedia Commons dall'originale; nessun ritaglio o ritocco locale. Adattamento fotografico condiviso secondo CC BY-SA 2.0.",
+    "creditoVisibile": "Foto di musicisentropy · Soundgarden · CC BY-SA 2.0 · versione web Wikimedia Commons, nessun ritocco locale",
+    "dimensioni": {
+      "larghezza": 1280,
+      "altezza": 960
+    },
+    "byte": 272225,
+    "sha256": "c8a9fcf02becf34794b43107e003456883439a514f615719559f3cab1dd58ac3",
+    "creditoParti": [
+      "Foto di musicisentropy · ",
+      {
+        "testo": "Soundgarden",
+        "url": "https://www.flickr.com/photos/45654212@N00/4908666471/"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · versione web Wikimedia Commons, nessun ritocco locale"
+    ]
   }
 }
