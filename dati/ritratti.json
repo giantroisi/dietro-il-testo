@@ -940,5 +940,49 @@
       },
       " · versione web Wikimedia Commons, nessun ritocco locale"
     ]
+  },
+  "edoardo-bennato": {
+    "file": "edoardo-bennato-2007.jpg",
+    "autore": "Antonio Suscetta (Andò)",
+    "autoreRitaglio": "Lorenzo De Leonardis2",
+    "titolareDichiarato": "Account Flickr Antonio Suscetta / Andò per la fotografia; ritaglio pubblicato su Commons da Lorenzo De Leonardis2",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Edoardo_Bennato_(cropped).jpg",
+    "fonteOriginale": "https://www.flickr.com/photos/minodda/552025419/",
+    "paginaCommonsOriginale": "https://commons.wikimedia.org/wiki/File:Edoardo_Bennato.jpg",
+    "titoloOriginale": "Edoardo Bennato (cropped).jpg",
+    "titoloOriginaleFlickr": "benn",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Edoardo_Bennato_%28cropped%29.jpg",
+    "dataScatto": "2007-06-14",
+    "dataVerifica": "2026-10-07",
+    "paginaUso": "/artista/edoardo-bennato/",
+    "alt": "Edoardo Bennato canta al microfono con la chitarra durante un concerto nel 2007",
+    "modifiche": "Ritaglio effettuato su Commons da Lorenzo De Leonardis2 a partire dalla foto Flickr di Antonio Suscetta; nessuna ulteriore modifica locale, solo ridimensionamento CSS.",
+    "creditoVisibile": "Foto di Antonio Suscetta (Andò) · benn (Flickr) · ritaglio di Lorenzo De Leonardis2 · Edoardo Bennato (cropped).jpg · CC BY 2.0 · nessuna ulteriore modifica locale",
+    "dimensioni": {
+      "larghezza": 336,
+      "altezza": 498
+    },
+    "byte": 179029,
+    "sha256": "8d097aaf7143be7ba1618c99f5cc473487389830f7c56c49334a4a4f3caf52be",
+    "creditoParti": [
+      "Foto di Antonio Suscetta (Andò) · ",
+      {
+        "testo": "benn (Flickr)",
+        "url": "https://www.flickr.com/photos/minodda/552025419/"
+      },
+      " · ritaglio di Lorenzo De Leonardis2 · ",
+      {
+        "testo": "Edoardo Bennato (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Edoardo_Bennato_(cropped).jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · nessuna ulteriore modifica locale"
+    ]
   }
 }
