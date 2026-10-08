@@ -1,0 +1,663 @@
+{
+  "data": "2026-10-08",
+  "copia": "/private/tmp/dit-pulsante-amazon-2026-10-08",
+  "albumEsaminati": [
+    "album/franco-battiato/come-un-cammello-in-una-grondaia",
+    "album/franco-battiato/fisiognomica",
+    "album/franco-battiato/l-era-del-cinghiale-bianco",
+    "album/franco-battiato/la-voce-del-padrone",
+    "album/franco-battiato/limboscata",
+    "album/franco-battiato/patriots",
+    "album/oasis/be-here-now",
+    "album/oasis/definitely-maybe",
+    "album/oasis/heathen-chemistry",
+    "album/oasis/whats-the-story-morning-glory",
+    "album/ac-dc/back-in-black",
+    "album/ac-dc/ballbreaker",
+    "album/ac-dc/black-ice",
+    "album/ac-dc/blow-up-your-video",
+    "album/ac-dc/dirty-deeds-done-dirt-cheap",
+    "album/ac-dc/flick-of-the-switch",
+    "album/ac-dc/fly-on-the-wall",
+    "album/ac-dc/for-those-about-to-rock-we-salute-you",
+    "album/ac-dc/high-voltage",
+    "album/ac-dc/highway-to-hell",
+    "album/ac-dc/let-there-be-rock",
+    "album/ac-dc/power-up",
+    "album/ac-dc/powerage",
+    "album/ac-dc/rock-or-bust",
+    "album/ac-dc/stiff-upper-lip",
+    "album/ac-dc/the-razors-edge",
+    "album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
+    "album/pinguini-tattici-nucleari/fake-news",
+    "album/pinguini-tattici-nucleari/fuori-dall-hype",
+    "album/pinguini-tattici-nucleari/gioventu-brucata",
+    "album/pinguini-tattici-nucleari/hello-world",
+    "album/pinguini-tattici-nucleari/il-re-e-nudo",
+    "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "album/michael-jackson/bad",
+    "album/michael-jackson/off-the-wall",
+    "album/michael-jackson/thriller",
+    "album/cesare-cremonini/possibili-scenari",
+    "album/caparezza/prisoner-709",
+    "album/adriano-celentano/i-mali-del-secolo",
+    "album/the-killers/hot-fuss"
+  ],
+  "giaPresenti": [
+    "album/oasis/heathen-chemistry",
+    "album/oasis/whats-the-story-morning-glory"
+  ],
+  "nuoveAssociazioni": [
+    {
+      "key": "album/ac-dc/highway-to-hell",
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "asin": "B0000CDLKT",
+      "source": "https://www.amazon.it/Highway-Hell-AC-DC/dp/B0000CDLKT",
+      "href": "https://www.amazon.it/Highway-Hell-AC-DC/dp/B0000CDLKT?&linkCode=ll2&tag=dietroiltesto-21&linkId=4bf7973c0869012f59acae2149e5f2b1&ref_=as_li_ss_tl",
+      "tracks": [
+        "Highway to Hell"
+      ],
+      "prime": true
+    },
+    {
+      "key": "album/cesare-cremonini/possibili-scenari",
+      "title": "Possibili scenari",
+      "artist": "Cesare Cremonini",
+      "asin": "B076ZY4ZCG",
+      "source": "https://www.amazon.it/Possibili-Scenari-Cremonini-C/dp/B076ZY4ZCG",
+      "href": "https://www.amazon.it/Possibili-Scenari-Cremonini-C/dp/B076ZY4ZCG?&linkCode=ll2&tag=dietroiltesto-21&linkId=f324459afff992966491d56a9cc25952&ref_=as_li_ss_tl",
+      "tracks": [
+        "Poetica"
+      ],
+      "prime": true
+    },
+    {
+      "key": "album/the-killers/hot-fuss",
+      "title": "Hot Fuss",
+      "artist": "The Killers",
+      "asin": "B01DVG3ZZQ",
+      "source": "https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ",
+      "href": "https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ?&linkCode=ll2&tag=dietroiltesto-21&linkId=075731115c147ffcc767c262d4108ccc&ref_=as_li_ss_tl",
+      "tracks": [
+        "Mr. Brightside",
+        "Somebody Told Me"
+      ],
+      "prime": true,
+      "titleAmazon": "Hot Fuzz",
+      "trackSource": "https://shop.thekillersmusic.com/products/hot-fuss-lp"
+    },
+    {
+      "key": "album/franco-battiato/patriots",
+      "title": "Patriots",
+      "artist": "Franco Battiato",
+      "asin": "B0778THHRN",
+      "source": "https://www.amazon.it/Patriots-Battiato-F/dp/B0778THHRN",
+      "href": "https://www.amazon.it/Patriots-Battiato-F/dp/B0778THHRN?&linkCode=ll2&tag=dietroiltesto-21&linkId=c8e6a4957f1cdaa8a0e5df1b2d36ac62&ref_=as_li_ss_tl",
+      "tracks": [
+        "Prospettiva Nevski"
+      ],
+      "prime": true
+    },
+    {
+      "key": "album/franco-battiato/l-era-del-cinghiale-bianco",
+      "title": "L'era del cinghiale bianco",
+      "artist": "Franco Battiato",
+      "asin": "B07VGRX5LT",
+      "source": "https://www.amazon.it/cinghiale-bianco-Anniversary-Vinile-standard/dp/B07VGRX5LT",
+      "href": "https://www.amazon.it/cinghiale-bianco-Anniversary-Vinile-standard/dp/B07VGRX5LT?&linkCode=ll2&tag=dietroiltesto-21&linkId=a06dbd8952d0d7b80bdfe26d3cd0b586&ref_=as_li_ss_tl",
+      "tracks": [
+        "L'era del cinghiale bianco"
+      ],
+      "prime": true,
+      "edition": "40th Anniversary edition — vinile standard"
+    },
+    {
+      "key": "album/oasis/definitely-maybe",
+      "title": "Definitely Maybe",
+      "artist": "Oasis",
+      "asin": "B00IN5KZ6S",
+      "source": "https://www.amazon.it/Definitely-Maybe-Oasis/dp/B00IN5KZ6S",
+      "href": "https://www.amazon.it/Definitely-Maybe-Oasis/dp/B00IN5KZ6S?&linkCode=ll2&tag=dietroiltesto-21&linkId=603a55a5fee29717427bfd8d9c7d5e44&ref_=as_li_ss_tl",
+      "tracks": [
+        "Live Forever"
+      ],
+      "prime": true
+    },
+    {
+      "key": "album/oasis/be-here-now",
+      "title": "Be Here Now",
+      "artist": "Oasis",
+      "asin": "B0B5XZBM4X",
+      "source": "https://www.amazon.it/Here-Silver-Coloured-Vinyl-Anniversary/dp/B0B5XZBM4X",
+      "href": "https://www.amazon.it/Here-Silver-Coloured-Vinyl-Anniversary/dp/B0B5XZBM4X?&linkCode=ll2&tag=dietroiltesto-21&linkId=dd40c36eb7edb5dad61a1937d1c6bb75&ref_=as_li_ss_tl",
+      "tracks": [
+        "Stand By Me"
+      ],
+      "prime": true,
+      "edition": "Vinile argento — 25° Anniversary",
+      "offer": "Venditore DVDMAX-IT",
+      "shipping": "Amazon"
+    },
+    {
+      "key": "album/michael-jackson/thriller",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "asin": "B01B2M9H76",
+      "source": "https://www.amazon.it/thriller-michael-jackson/dp/B01B2M9H76",
+      "href": "https://www.amazon.it/thriller-michael-jackson/dp/B01B2M9H76?&linkCode=ll2&tag=dietroiltesto-21&linkId=2464c47debeff145978601406f5dd81c&ref_=as_li_ss_tl",
+      "tracks": [
+        "Billie Jean",
+        "Thriller",
+        "Beat It"
+      ],
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon"
+    },
+    {
+      "key": "album/michael-jackson/bad",
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "asin": "B0851MXSZQ",
+      "source": "https://www.amazon.it/Bad-Jackson-Michael/dp/B0851MXSZQ",
+      "href": "https://www.amazon.it/Bad-Jackson-Michael/dp/B0851MXSZQ?&linkCode=ll2&tag=dietroiltesto-21&linkId=a3567ece25fac0eab8dfe0d929b4fe5f&ref_=as_li_ss_tl",
+      "tracks": [
+        "Man in the Mirror"
+      ],
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon"
+    },
+    {
+      "key": "album/michael-jackson/off-the-wall",
+      "title": "Off the Wall",
+      "artist": "Michael Jackson",
+      "asin": "B01B2M9M58",
+      "source": "https://www.amazon.it/Off-Wall-Michael-Jackson/dp/B01B2M9M58",
+      "href": "https://www.amazon.it/Off-Wall-Michael-Jackson/dp/B01B2M9M58?&linkCode=ll2&tag=dietroiltesto-21&linkId=b46d90f069680c4c2d9ab6b611c25e5b&ref_=as_li_ss_tl",
+      "tracks": [],
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon"
+    },
+    {
+      "key": "album/ac-dc/back-in-black",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "asin": "B0CQPMY1MS",
+      "source": "https://www.amazon.it/Back-Black-AC-DC/dp/B0CQPMY1MS",
+      "href": "https://www.amazon.it/Back-Black-AC-DC/dp/B0CQPMY1MS?&linkCode=ll2&tag=dietroiltesto-21&linkId=6821fa4620c68382b1d88ed2d405db40&ref_=as_li_ss_tl",
+      "tracks": [
+        "Back in Black"
+      ],
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon"
+    },
+    {
+      "key": "album/ac-dc/dirty-deeds-done-dirt-cheap",
+      "title": "Dirty Deeds Done Dirt Cheap",
+      "artist": "AC/DC",
+      "asin": "B0CQPP6SSJ",
+      "source": "https://www.amazon.it/Dirty-Deeds-Done-Dirt-Cheap/dp/B0CQPP6SSJ",
+      "href": "https://www.amazon.it/Dirty-Deeds-Done-Dirt-Cheap/dp/B0CQPP6SSJ?&linkCode=ll2&tag=dietroiltesto-21&linkId=c310ee22d78919a909ec5b1e720dbef7&ref_=as_li_ss_tl",
+      "tracks": [
+        "Dirty Deeds Done Dirt Cheap"
+      ],
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon"
+    },
+    {
+      "key": "album/ac-dc/let-there-be-rock",
+      "title": "Let There Be Rock",
+      "artist": "AC/DC",
+      "asin": "B0CXC9ZVH4",
+      "source": "https://www.amazon.it/There-Rock-Anniversary-Color-Vinyl/dp/B0CXC9ZVH4",
+      "href": "https://www.amazon.it/There-Rock-Anniversary-Color-Vinyl/dp/B0CXC9ZVH4?&linkCode=ll2&tag=dietroiltesto-21&linkId=f2eb5156c0fda7b5c3261f65b67642e3&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "titleAmazon": "Let There Be Rock (50th Anniversary Gold Color",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Let There Be Rock"
+        }
+      ],
+      "edition": "50th Anniversary Gold Color Vinyl"
+    },
+    {
+      "key": "album/ac-dc/ballbreaker",
+      "title": "Ballbreaker",
+      "artist": "AC/DC",
+      "asin": "B0CXC5696C",
+      "source": "https://www.amazon.it/Ballbreaker-50th-Anniversary-Color-Vinyl/dp/B0CXC5696C",
+      "href": "https://www.amazon.it/Ballbreaker-50th-Anniversary-Color-Vinyl/dp/B0CXC5696C?&linkCode=ll2&tag=dietroiltesto-21&linkId=82e1ecdc3e11f8e4740ef0d67be0f4b3&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Hard as a Rock"
+        }
+      ],
+      "edition": "50th Anniversary Gold Color Vinyl"
+    },
+    {
+      "key": "album/ac-dc/black-ice",
+      "title": "Black Ice",
+      "artist": "AC/DC",
+      "asin": "B001FO7JTA",
+      "source": "https://www.amazon.it/Black-Ice-Ac-Dc/dp/B001FO7JTA",
+      "href": "https://www.amazon.it/Black-Ice-Ac-Dc/dp/B001FO7JTA?&linkCode=ll2&tag=dietroiltesto-21&linkId=f6ef86309738e17d0d1bf5c2d454d757&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Rock N Roll Train"
+        }
+      ],
+      "edition": ""
+    },
+    {
+      "key": "album/ac-dc/flick-of-the-switch",
+      "title": "Flick of the Switch",
+      "artist": "AC/DC",
+      "asin": "B0000CDLL5",
+      "source": "https://www.amazon.it/Flick-Switch-Ac-Dc/dp/B0000CDLL5",
+      "href": "https://www.amazon.it/Flick-Switch-Ac-Dc/dp/B0000CDLL5?&linkCode=ll2&tag=dietroiltesto-21&linkId=068278199629bc0f3b964a8fb89417bf&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Flick of the Switch"
+        }
+      ],
+      "edition": ""
+    },
+    {
+      "key": "album/ac-dc/for-those-about-to-rock-we-salute-you",
+      "title": "For Those About to Rock (We Salute You)",
+      "artist": "AC/DC",
+      "asin": "B0000CDLKZ",
+      "source": "https://www.amazon.it/Those-About-Rock-Ac-Dc/dp/B0000CDLKZ",
+      "href": "https://www.amazon.it/Those-About-Rock-Ac-Dc/dp/B0000CDLKZ?&linkCode=ll2&tag=dietroiltesto-21&linkId=602584a091b968a43b1d5ed2ab5ed79c&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "For Those About to Rock"
+        }
+      ],
+      "edition": ""
+    },
+    {
+      "key": "album/ac-dc/power-up",
+      "title": "Power Up",
+      "artist": "AC/DC",
+      "asin": "B08KH2L8DH",
+      "source": "https://www.amazon.it/Power-Up-Wide-180-Gr/dp/B08KH2L8DH",
+      "href": "https://www.amazon.it/Power-Up-Wide-180-Gr/dp/B08KH2L8DH?&linkCode=ll2&tag=dietroiltesto-21&linkId=201b55cde5a27351af80a6aa505fae6e&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Shot in the Dark"
+        }
+      ],
+      "edition": "LP 180 g"
+    },
+    {
+      "key": "album/ac-dc/rock-or-bust",
+      "title": "Rock or Bust",
+      "artist": "AC/DC",
+      "asin": "B00O3UBFJI",
+      "source": "https://www.amazon.it/Rock-Bust-1LP-1CD-Ac/dp/B00O3UBFJI",
+      "href": "https://www.amazon.it/Rock-Bust-1LP-1CD-Ac/dp/B00O3UBFJI?&linkCode=ll2&tag=dietroiltesto-21&linkId=257c1cfa2e7e32979e8ff5d7e8d47a63&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Rock or Bust"
+        }
+      ],
+      "edition": "Vinile con copertina lenticolare 3D"
+    },
+    {
+      "key": "album/ac-dc/stiff-upper-lip",
+      "title": "Stiff Upper Lip",
+      "artist": "AC/DC",
+      "asin": "B0CXBVB771",
+      "source": "https://www.amazon.it/Stiff-Upper-Anniversary-Color-Vinyl/dp/B0CXBVB771",
+      "href": "https://www.amazon.it/Stiff-Upper-Anniversary-Color-Vinyl/dp/B0CXBVB771?&linkCode=ll2&tag=dietroiltesto-21&linkId=508f0856d6146b2c9c94c40d49c2dd4b&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "tracks": [
+        {
+          "present": true,
+          "track": "Stiff Upper Lip"
+        }
+      ],
+      "edition": "50th Anniversary Gold Color Vinyl"
+    },
+    {
+      "key": "album/pinguini-tattici-nucleari/fake-news",
+      "title": "Fake News",
+      "artist": "Pinguini Tattici Nucleari",
+      "asin": "B0BK1429S4",
+      "source": "https://www.amazon.it/Fake-News-Azzurro-Trasparente-Scioglimento/dp/B0BK1429S4",
+      "href": "https://www.amazon.it/Fake-News-Azzurro-Trasparente-Scioglimento/dp/B0BK1429S4?&linkCode=ll2&tag=dietroiltesto-21&linkId=7fbcbddb3bdf27eb1d56c5995a20d927&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "edition": "2 LP Azzurro Trasparente (Scioglimento)",
+      "tracks": [
+        {
+          "track": "Giovani Wannabe",
+          "present": true
+        }
+      ]
+    },
+    {
+      "key": "album/pinguini-tattici-nucleari/fuori-dall-hype",
+      "title": "Fuori dall’Hype",
+      "artist": "Pinguini Tattici Nucleari",
+      "asin": "B09KYBRGNQ",
+      "source": "https://www.amazon.it/Fuori-DallHype-Ringo-Starr-Orange/dp/B09KYBRGNQ",
+      "href": "https://www.amazon.it/Fuori-DallHype-Ringo-Starr-Orange/dp/B09KYBRGNQ?&linkCode=ll2&tag=dietroiltesto-21&linkId=88f66f8cfe0bca00287068a2ba7b34bb&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "edition": "Fuori dall’Hype Ringo Starr — vinile arancione",
+      "tracks": [
+        {
+          "track": "Fuori Dall'Hype",
+          "present": true
+        },
+        {
+          "track": "Sashimi",
+          "present": true
+        },
+        {
+          "track": "Ringo Starr",
+          "present": true
+        },
+        {
+          "track": "Ridere",
+          "present": true
+        }
+      ]
+    },
+    {
+      "key": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+      "title": "Fuori dall’Hype Ringo Starr",
+      "artist": "Pinguini Tattici Nucleari",
+      "asin": "B09KYBRGNQ",
+      "source": "https://www.amazon.it/Fuori-DallHype-Ringo-Starr-Orange/dp/B09KYBRGNQ",
+      "href": "https://www.amazon.it/Fuori-DallHype-Ringo-Starr-Orange/dp/B09KYBRGNQ?&linkCode=ll2&tag=dietroiltesto-21&linkId=88f66f8cfe0bca00287068a2ba7b34bb&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "edition": "Fuori dall’Hype Ringo Starr — vinile arancione",
+      "tracks": [
+        {
+          "track": "Fuori Dall'Hype",
+          "present": true
+        },
+        {
+          "track": "Sashimi",
+          "present": true
+        },
+        {
+          "track": "Ringo Starr",
+          "present": true
+        },
+        {
+          "track": "Ridere",
+          "present": true
+        }
+      ]
+    },
+    {
+      "key": "album/pinguini-tattici-nucleari/hello-world",
+      "title": "Hello World",
+      "artist": "Pinguini Tattici Nucleari",
+      "asin": "B0DYGDBXYB",
+      "source": "https://www.amazon.it/Hello-World-LP-Yellow-Sun/dp/B0DYGDBXYB",
+      "href": "https://www.amazon.it/Hello-World-LP-Yellow-Sun/dp/B0DYGDBXYB?&linkCode=ll2&tag=dietroiltesto-21&linkId=0bee7985b394af2fda019d438cd7456d&ref_=as_li_ss_tl",
+      "prime": true,
+      "offer": "Speditore / Venditore\nAmazon",
+      "edition": "LP Yellow Sun",
+      "tracks": [
+        {
+          "track": "Islanda",
+          "present": true
+        }
+      ]
+    },
+    {
+      "key": "album/ac-dc/high-voltage",
+      "title": "High Voltage",
+      "artist": "AC/DC",
+      "asin": "B0000CDLKU",
+      "source": "https://www.amazon.it/High-Voltage-AC-DC/dp/B0000CDLKU",
+      "href": "https://www.amazon.it/dp/B0000CDLKU/ref=nosim?tag=dietroiltesto-21",
+      "prime": true,
+      "offer": "Speditore / Venditore Amazon",
+      "tracks": [
+        {
+          "track": "It's a Long Way to the Top",
+          "present": true
+        }
+      ],
+      "method": "formato-documentato-amazon",
+      "reason": "SiteStripe mostra resi frequenti e nasconde Scarica link; nessun avviso di esclusione visibile.",
+      "esito": "Operazione riuscita: il link è stato associato a un tag o sub-tag valido per il tuo ID Affiliazione."
+    }
+  ],
+  "senzaVinilePrimeVerificato": [
+    {
+      "pagina": "album/caparezza/prisoner-709",
+      "fonti": [
+        "https://www.amazon.it/Prisoner-709-Esclusiva-Discoteca-Laziale/dp/B074KWLQ83"
+      ],
+      "motivo": "Vinile senza offerta principale; offerte alternative consultate senza badge Prime verificabile. Nessun filtro Prime disponibile.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/adriano-celentano/i-mali-del-secolo",
+      "fonti": [
+        "https://www.amazon.it/I-MALI-DEL-SECOLO-vinile/dp/B0D45M2MLP"
+      ],
+      "motivo": "Nessuna offerta principale; sette alternative consultate senza badge Prime verificabile. La consegna gratuita non prova Prime.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/franco-battiato/la-voce-del-padrone",
+      "fonti": [
+        "https://www.amazon.it/Voce-Del-Padrone-Battiato-Franco/dp/B095GS5FV8",
+        "https://www.amazon.it/voce-del-padrone-battiato-franco/dp/B0GZFBW5MK"
+      ],
+      "motivo": "Edizione 40th Anniversary offerta da VipVideo Pistoia senza Prime; edizione 15 maggio 2026 Amazon senza badge Prime. Tabella edizioni riaperta.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/franco-battiato/limboscata",
+      "fonti": [
+        "https://www.amazon.it/Limboscata-180-Rimasterizzato-Franco-Battiato/dp/B07FQ3JNWJ",
+        "https://www.amazon.it/LImboscata-Anniversario-Colorata-Numerata-Limitata/dp/B09HFJJGRG"
+      ],
+      "motivo": "Edizione standard senza offerta principale; 25th Anniversary casamusicaleniccoli senza Prime; alternative riaperte.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/franco-battiato/fisiognomica",
+      "fonti": [
+        "https://www.amazon.it/Fisiognomica-Battiato-F/dp/B078XGY4SM"
+      ],
+      "motivo": "Amazon indica consegna per membri Prime, ma non mostra il badge Prime richiesto nell’offerta. Riaperta pagina e tabella edizioni, controllo visivo.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/franco-battiato/come-un-cammello-in-una-grondaia",
+      "fonti": [
+        "https://www.amazon.it/s?k=Franco%20Battiato%20Come%20un%20cammello%20in%20una%20grondaia%20vinile"
+      ],
+      "motivo": "Ricerca mirata: nessun risultato vinile pertinente; ebook diverso escluso.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/ac-dc/powerage",
+      "fonti": [
+        "https://www.amazon.it/Powerage-Ac-Dc/dp/B0000CDLL0",
+        "https://www.amazon.it/Powerage-AC-DC/dp/B0CQPPQ9S8"
+      ],
+      "motivo": "Edizione standard e riedizione 2024 senza offerta principale o badge Prime; consultata tabella altre edizioni.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/ac-dc/blow-up-your-video",
+      "fonti": [
+        "https://www.amazon.it/AC-DC-BLOW-YOUR-VIDEO/dp/B00KJMVZIU"
+      ],
+      "motivo": "Vinile senza offerta principale o Prime; altre edizioni visibili solo CD.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/ac-dc/fly-on-the-wall",
+      "fonti": [
+        "https://www.amazon.it/Fly-Wall-Rmst-Ac-Dc/dp/B0000CF35J"
+      ],
+      "motivo": "Amazon indica consegna differita per membri Prime, ma non mostra il badge Prime richiesto; alternative visibili solo CD. Controllo visivo.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/ac-dc/the-razors-edge",
+      "fonti": [
+        "https://www.amazon.it/Razors-Edge-Ac-Dc/dp/B0000CDLKX"
+      ],
+      "motivo": "Vinile senza offerta principale o badge Prime; nessun altro vinile Prime nella tabella edizioni.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/pinguini-tattici-nucleari/diamo-un-calcio-all-aldila",
+      "fonti": [
+        "https://www.amazon.it/s?k=Pinguini+Tattici+Nucleari+Diamo+un+calcio+all+aldila+vinile"
+      ],
+      "motivo": "Ricerca mirata: nessun vinile pertinente; libro a fumetti escluso.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/pinguini-tattici-nucleari/gioventu-brucata",
+      "fonti": [
+        "https://www.amazon.it/s?k=Pinguini+Tattici+Nucleari+Gioventu+Brucata+vinile"
+      ],
+      "motivo": "Ricerca mirata: nessun vinile pertinente; libro a fumetti escluso.",
+      "dataVerifica": "2026-10-08"
+    },
+    {
+      "pagina": "album/pinguini-tattici-nucleari/il-re-e-nudo",
+      "fonti": [
+        "https://www.amazon.it/s?k=Pinguini+Tattici+Nucleari+Il+Re+e+Nudo+vinile"
+      ],
+      "motivo": "Ricerca mirata: nessun vinile pertinente; libri esclusi.",
+      "dataVerifica": "2026-10-08"
+    }
+  ],
+  "pagineModificate": [
+    "album/ac-dc/back-in-black",
+    "album/ac-dc/ballbreaker",
+    "album/ac-dc/black-ice",
+    "album/ac-dc/dirty-deeds-done-dirt-cheap",
+    "album/ac-dc/flick-of-the-switch",
+    "album/ac-dc/for-those-about-to-rock-we-salute-you",
+    "album/ac-dc/high-voltage",
+    "album/ac-dc/highway-to-hell",
+    "album/ac-dc/let-there-be-rock",
+    "album/ac-dc/power-up",
+    "album/ac-dc/rock-or-bust",
+    "album/ac-dc/stiff-upper-lip",
+    "album/cesare-cremonini/possibili-scenari",
+    "album/franco-battiato/l-era-del-cinghiale-bianco",
+    "album/franco-battiato/patriots",
+    "album/michael-jackson/bad",
+    "album/michael-jackson/off-the-wall",
+    "album/michael-jackson/thriller",
+    "album/oasis/be-here-now",
+    "album/oasis/definitely-maybe",
+    "album/pinguini-tattici-nucleari/fake-news",
+    "album/pinguini-tattici-nucleari/fuori-dall-hype",
+    "album/pinguini-tattici-nucleari/hello-world",
+    "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "album/the-killers/hot-fuss",
+    "artista/883",
+    "artista/ac-dc",
+    "artista/alice-in-chains",
+    "artista/blink-182",
+    "artista/bring-me-the-horizon",
+    "artista/caparezza",
+    "artista/cesare-cremonini",
+    "artista/eagles",
+    "artista/franco-battiato",
+    "artista/limp-bizkit",
+    "artista/michael-jackson",
+    "artista/oasis",
+    "artista/pinguini-tattici-nucleari",
+    "artista/the-killers",
+    "canzone/back-in-black",
+    "canzone/beat-it",
+    "canzone/billie-jean",
+    "canzone/dirty-deeds-done-dirt-cheap",
+    "canzone/flick-of-the-switch",
+    "canzone/for-those-about-to-rock",
+    "canzone/fuori-dall-hype",
+    "canzone/giovani-wannabe",
+    "canzone/hard-as-a-rock",
+    "canzone/highway-to-hell",
+    "canzone/islanda",
+    "canzone/its-a-long-way-to-the-top",
+    "canzone/l-era-del-cinghiale-bianco",
+    "canzone/let-there-be-rock",
+    "canzone/live-forever",
+    "canzone/man-in-the-mirror",
+    "canzone/mr-brightside",
+    "canzone/poetica",
+    "canzone/prospettiva-nevski",
+    "canzone/ridere",
+    "canzone/ringo-starr",
+    "canzone/rock-n-roll-train",
+    "canzone/rock-or-bust",
+    "canzone/sashimi",
+    "canzone/shot-in-the-dark",
+    "canzone/somebody-told-me",
+    "canzone/stand-by-me",
+    "canzone/stiff-upper-lip",
+    "canzone/thriller"
+  ],
+  "controlliBrowser": {
+    "desktop": 1280,
+    "mobile": 390,
+    "pagine": 68,
+    "esito": "tutte positive",
+    "campione320": [
+      "artista/pinguini-tattici-nucleari",
+      "artista/bring-me-the-horizon",
+      "artista/ac-dc",
+      "artista/cesare-cremonini",
+      "album/ac-dc/for-those-about-to-rock-we-salute-you",
+      "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+      "canzone/its-a-long-way-to-the-top",
+      "canzone/l-era-del-cinghiale-bianco"
+    ],
+    "numeroVisibile": {
+      "artista": 4,
+      "album": 3,
+      "canzone": 3
+    },
+    "overflow": false
+  },
+  "totali": {
+    "album": 42,
+    "canzoni": 62,
+    "artisti": 14,
+    "asinDistinti": 41
+  }
+}

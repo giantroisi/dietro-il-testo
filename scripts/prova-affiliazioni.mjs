@@ -47,6 +47,6 @@ if(artistEntry){
 const configPath=root+'dati/affiliazioni.json', savedConfig=readFileSync(configPath,'utf8');
 try {
  writeFileSync(configPath,JSON.stringify({trackingId:''}));
- const result=spawnSync(process.execPath,['--input-type=module','-e',`import assert from 'node:assert/strict'; import { TRACKING_ID_AMAZON, amazonPerScheda, amazonPerArtista, informativaAmazonPerScheda } from './scripts/genera/affiliazioni.mjs'; assert.equal(TRACKING_ID_AMAZON,''); assert.equal(amazonPerScheda('${slug}'),''); for(const posizione of ['immagine','storia','album'])assert.equal(amazonPerArtista('blink-182',posizione),''); assert.equal(informativaAmazonPerScheda('artista/blink-182'),'');`],{cwd:root,encoding:'utf8'});
+ const result=spawnSync(process.execPath,['--input-type=module','-e',`import assert from 'node:assert/strict'; import { TRACKING_ID_AMAZON, amazonPerScheda, amazonPerArtista, informativaAmazonPerScheda } from './scripts/genera/affiliazioni.mjs'; assert.equal(TRACKING_ID_AMAZON,''); assert.equal(amazonPerScheda('${slug}'),''); for(const posizione of ['immagine','storia','album','canzoni'])assert.equal(amazonPerArtista('blink-182',posizione),''); assert.equal(informativaAmazonPerScheda('artista/blink-182'),'');`],{cwd:root,encoding:'utf8'});
  assert.equal(result.status,0,result.stderr); console.log('OK: ID vuoto disattiva il prodotto configurato');
 }finally{writeFileSync(configPath,savedConfig);}

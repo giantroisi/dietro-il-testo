@@ -14,12 +14,12 @@ export const TRACKING_ID_AMAZON = config.trackingId.trim();
 export const DICHIARAZIONE_AMAZON = 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei';
 export const PRODOTTI_AMAZON = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-prodotti.json'), 'utf8'));
 export const SCELTE_AMAZON_ARTISTI = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-artisti.json'), 'utf8'));
-export const POSIZIONI_AMAZON_ARTISTA = ['immagine', 'storia', 'album'];
+export const POSIZIONI_AMAZON_ARTISTA = ['immagine', 'storia', 'album', 'canzoni'];
 // Le scelte rimandano al catalogo degli album, senza duplicare URL o prove.
 export function prodottiAmazonPerArtista(slug) {
   const scelte = SCELTE_AMAZON_ARTISTI[slug];
   if (!scelte) return [];
-  if (!Array.isArray(scelte) || scelte.length !== 3) throw new Error('Servono tre scelte Amazon per artista');
+  if (!Array.isArray(scelte) || scelte.length !== POSIZIONI_AMAZON_ARTISTA.length) throw new Error('Servono quattro scelte Amazon per artista');
   return scelte.map(chiave => {
     const prodotto = PRODOTTI_AMAZON[chiave];
     if (!chiave.startsWith(`album/${slug}/`) || !prodotto || prodotto.formato !== 'Vinile' || !prodotto.primeVerificato || !prodotto.provaPrime) {

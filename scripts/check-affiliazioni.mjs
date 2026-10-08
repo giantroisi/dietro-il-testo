@@ -29,7 +29,7 @@ if (TRACKING_ID_AMAZON) {
  const artisti=JSON.parse(readFileSync(new URL('../dati/artisti.json',import.meta.url),'utf8'));
  for(const slug of Object.keys(SCELTE_AMAZON_ARTISTI)){
   if(!artisti.some(a=>a.slug===slug))fail(`${slug}: artista configurato inesistente`);
-  expectedPages.set(`artista/${slug}/index.html`,{products:prodottiAmazonPerArtista(slug),count:3,artist:true});
+  expectedPages.set(`artista/${slug}/index.html`,{products:prodottiAmazonPerArtista(slug),count:POSIZIONI_AMAZON_ARTISTA.length,artist:true});
  }
 }
 const foundPages=new Set();

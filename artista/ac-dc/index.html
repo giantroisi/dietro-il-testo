@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/ac-dc/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"AC/DC","url":"https://www.dietroiltesto.it/artista/ac-dc/","dateModified":"2026-10-02","description":"Formati a Sydney nel 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, insieme al cantante Dave Evans, al bassista Larry Van Kriedt e al batterista Colin Burgess, debuttarono dal vivo il 31 dicembre dello stesso anno al Chequers Bar di Sydney."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"AC/DC","item":"https://www.dietroiltesto.it/artista/ac-dc/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"AC/DC","url":"https://www.dietroiltesto.it/artista/ac-dc/","dateModified":"2026-10-08","description":"Formati a Sydney nel 1973 dai fratelli Angus e Malcolm Young, rispettivamente alla chitarra solista e ritmica, insieme al cantante Dave Evans, al bassista Larry Van Kriedt e al batterista Colin Burgess, debuttarono dal vivo il 31 dicembre dello stesso anno al Chequers Bar di Sydney."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"AC/DC","item":"https://www.dietroiltesto.it/artista/ac-dc/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -868,6 +868,30 @@ a { color: inherit; }
 }
 .is-nascosto { display: none !important; }
 </style>
+<style>.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}
+        .artista-con-acquisti { grid-template-areas:"identita player"; }
+        .artista-visivo-acquisto { grid-area:player;min-width:0; }
+        .artista-visivo-acquisto .acquisto-affiliato { padding:14px !important;margin-top:16px !important; }
+        @media (max-width:860px) { .artista-con-acquisti { grid-template-areas:"identita" "player"; } }
+      </style>
 <style>:root{--identita:#8A1414;--identita-testo:#8A1414;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -906,8 +930,8 @@ a { color: inherit; }
       AC/DC
     </nav>
 
-    <header class="intestazione testa-doppia">
-      <div>
+    <header class="intestazione testa-doppia artista-con-acquisti">
+      <div class="testa-identita">
         <p class="sopratitolo">Artista <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> brani dal 1976</p>
         <h1>AC/DC: significato dei testi e canzoni spiegate</h1>
 
@@ -916,12 +940,19 @@ a { color: inherit; }
 
         </div>
       </div>
-      <figure class="ritratto">
+      <div class="artista-visivo-acquisto"><figure class="ritratto">
         <img src="../../ritratti/ac-dc-angus-brian-barcellona.jpg" alt="Angus Young suona la chitarra sulle spalle di Brian Johnson durante un concerto degli AC/DC" width="621" height="918" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           Foto di Joan Sorolla · <a href="https://commons.wikimedia.org/wiki/File:Angus_Young_i_Brian_Johnson_(AC_DC)_(5256948139).jpg" rel="nofollow noopener">Angus Young i Brian Johnson (AC DC) (5256948139).jpg</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license nofollow noopener">CC BY 2.0</a> · originale senza modifiche locali
         </figcaption>
-      </figure>
+      </figure><aside class="acquisto-affiliato" data-acquisto-posizione="immagine" aria-label="Highway to Hell su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Highway to Hell</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">AC/DC <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Highway-Hell-AC-DC/dp/B0000CDLKT?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=4bf7973c0869012f59acae2149e5f2b1&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Highway to Hell — AC/DC in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></div>
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
@@ -1022,6 +1053,13 @@ a { color: inherit; }
         </a>
       </div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="canzoni" aria-label="Power Up su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Power Up</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">AC/DC <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Power-Up-Wide-180-Gr/dp/B08KH2L8DH?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=201b55cde5a27351af80a6aa505fae6e&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Power Up — AC/DC in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
@@ -1093,6 +1131,13 @@ a { color: inherit; }
       </div>
 
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="album" aria-label="Let There Be Rock su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Let There Be Rock</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">AC/DC <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/There-Rock-Anniversary-Color-Vinyl/dp/B0CXC9ZVH4?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=f2eb5156c0fda7b5c3261f65b67642e3&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Let There Be Rock — AC/DC in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
@@ -1102,6 +1147,13 @@ a { color: inherit; }
         <ol class="fonti"><li><span class="num">01</span><a href="https://www.britannica.com/topic/AC-DC" target="_blank" rel="noopener">Encyclopaedia Britannica — Gillian G. Gaar</a></li><li><span class="num">02</span><a href="https://americansongwriter.com/on-this-day-in-1973-this-100-hard-rock-band-played-their-first-gig-ever-and-the-rest-is-history/" target="_blank" rel="noopener">American Songwriter — Erinn Callahan</a></li><li><span class="num">03</span><a href="https://loudwire.com/original-acdc-singer-dave-evans-bands-best-singer/" target="_blank" rel="noopener">Loudwire — Lauryn Schaffner</a></li></ol>
       </div></div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="storia" aria-label="Back in Black su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Back in Black</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">AC/DC <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Back-Black-AC-DC/dp/B0CQPMY1MS?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=6821fa4620c68382b1d88ed2d405db40&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Back in Black — AC/DC in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco">
       <div class="azioni">
@@ -1109,6 +1161,7 @@ a { color: inherit; }
         <a class="bottone" href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20AC%2FDC">Segnala un errore</a>
       </div>
     </section>
+    <p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

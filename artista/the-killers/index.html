@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/the-killers/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"The Killers","url":"https://www.dietroiltesto.it/artista/the-killers/","dateModified":"2026-10-06","description":"Formati a Las Vegas nel 2001 dal cantante Brandon Flowers, appena uscito dal gruppo synth-pop Blush Response, e dal chitarrista Dave Keuning, conosciuto tramite un annuncio pubblicato su un giornale locale, presero il nome da una band immaginaria vista nel video del brano \"Crystal\" dei New Order."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"The Killers","item":"https://www.dietroiltesto.it/artista/the-killers/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"The Killers","url":"https://www.dietroiltesto.it/artista/the-killers/","dateModified":"2026-10-08","description":"Formati a Las Vegas nel 2001 dal cantante Brandon Flowers, appena uscito dal gruppo synth-pop Blush Response, e dal chitarrista Dave Keuning, conosciuto tramite un annuncio pubblicato su un giornale locale, presero il nome da una band immaginaria vista nel video del brano \"Crystal\" dei New Order."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"The Killers","item":"https://www.dietroiltesto.it/artista/the-killers/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -868,6 +868,30 @@ a { color: inherit; }
 }
 .is-nascosto { display: none !important; }
 </style>
+<style>.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}
+        .artista-con-acquisti { grid-template-areas:"identita player"; }
+        .artista-visivo-acquisto { grid-area:player;min-width:0; }
+        .artista-visivo-acquisto .acquisto-affiliato { padding:14px !important;margin-top:16px !important; }
+        @media (max-width:860px) { .artista-con-acquisti { grid-template-areas:"identita" "player"; } }
+      </style>
 <style>:root{--identita:#8A1F2E;--identita-testo:#8A1F2E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -906,8 +930,8 @@ a { color: inherit; }
       The Killers
     </nav>
 
-    <header class="intestazione testa-doppia">
-      <div>
+    <header class="intestazione testa-doppia artista-con-acquisti">
+      <div class="testa-identita">
         <p class="sopratitolo">Artista <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> brani dal 2003</p>
         <h1>The Killers: significato dei testi e canzoni spiegate</h1>
 
@@ -916,12 +940,19 @@ a { color: inherit; }
 
         </div>
       </div>
-      <figure class="ritratto">
+      <div class="artista-visivo-acquisto"><figure class="ritratto">
         <img src="../../ritratti/the-killers-brandon-flowers-razzmatazz-2024.jpg" alt="Brandon Flowers canta al microfono durante un concerto dei The Killers al Razzmatazz di Barcellona nel 2024" width="1980" height="3520" loading="eager" fetchpriority="high" decoding="async">
         <figcaption>
           Brandon Flowers dei The Killers · foto di <a href="https://commons.wikimedia.org/wiki/File:The_Killers,_Razzmatazz_01.jpg" rel="nofollow noopener">Wilnel José Verdú Guerrero</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license nofollow noopener">CC BY-SA 4.0</a> · originale senza modifiche locali
         </figcaption>
-      </figure>
+      </figure><aside class="acquisto-affiliato" data-acquisto-posizione="immagine" aria-label="Hot Fuss su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Hot Fuss</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Killers <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=075731115c147ffcc767c262d4108ccc&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Hot Fuss — The Killers in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></div>
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
@@ -952,6 +983,13 @@ a { color: inherit; }
         </a>
       </div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="canzoni" aria-label="Hot Fuss su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Hot Fuss</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Killers <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=075731115c147ffcc767c262d4108ccc&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Hot Fuss — The Killers in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
@@ -987,6 +1025,13 @@ a { color: inherit; }
       </div>
 
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="album" aria-label="Hot Fuss su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Hot Fuss</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Killers <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=075731115c147ffcc767c262d4108ccc&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Hot Fuss — The Killers in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
@@ -996,6 +1041,13 @@ a { color: inherit; }
         <ol class="fonti"><li><span class="num">01</span><a href="https://www.nme.com/news/music/watch-the-killers-brandon-flowers-join-new-order-for-bizarre-love-triangle-in-salt-lake-city-3863267" target="_blank" rel="noopener">NME — Max Pilley</a></li><li><span class="num">02</span><a href="https://www.allmusic.com/artist/the-killers-mn0000670226" target="_blank" rel="noopener">AllMusic — Neil Z. Yeung</a></li><li><span class="num">03</span><a href="https://www.allmusic.com/artist/david-keuning-mn0000868154" target="_blank" rel="noopener">AllMusic — Andrew Leahey (biografia di David Keuning)</a></li></ol>
       </div></div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="storia" aria-label="Hot Fuss su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Hot Fuss</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Killers <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Hot-Fuss-Killers/dp/B01DVG3ZZQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=075731115c147ffcc767c262d4108ccc&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Hot Fuss — The Killers in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco">
       <div class="azioni">
@@ -1003,6 +1055,7 @@ a { color: inherit; }
         <a class="bottone" href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20The%20Killers">Segnala un errore</a>
       </div>
     </section>
+    <p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

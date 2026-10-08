@@ -340,3 +340,15 @@ Le fonti di livello C non bastano da sole per fatti controversi, intenzioni attr
 ### Fonti da non usare come prova
 
 Post social non verificati, forum, commenti, video senza provenienza, testi generati automaticamente, pagine che si copiano a vicenda e siti privi di autore/data.
+
+## 6. Collegamenti di acquisto agli album
+
+Regola autorizzata dal proprietario l’8 ottobre 2026.
+
+- Si propongono **vinili**, con **badge Prime verificato nell’offerta selezionata sulla pagina originale Amazon**. La spedizione gratuita da sola non prova Prime. Non si sostituisce il vinile con un CD senza una nuova decisione esplicita del proprietario.
+- La scelta riguarda gli album già presenti sul sito e gli album delle canzoni raccontate. Prima di inserire un prodotto si verificano artista, album, formato ed edizione; se la canzone richiede una riedizione o una tracklist particolare, si verifica che quella versione la contenga. Se manca un vinile Prime pertinente e verificabile, non si inserisce un collegamento sostitutivo non conforme.
+- Ogni album ha un unico prodotto nel catalogo commerciale: la pagina album e tutte le canzoni che ne fanno parte riutilizzano lo stesso collegamento. Le pagine artista attingono al medesimo catalogo, privilegiando album diversi quando sono disponibili vinili verificati.
+- Le pagine canzone e album con prodotto configurato mostrano **tre riquadri di acquisto visibili**, sia su desktop sia su mobile. Le pagine artista ne mostrano **quattro**, includendo il richiamo sotto le canzoni richiesto successivamente dal proprietario. Nelle canzoni: sotto il titolo, sotto il momento iconico su desktop o Spotify su mobile, sotto la storia; se Spotify manca, il richiamo intermedio resta sotto il momento iconico anche su mobile. Negli album: sotto il titolo, sotto la sezione copertina, sotto le tracce. Negli artisti: vicino alla foto o grafica originale, sotto l’elenco delle canzoni, sotto la storia, sotto la discografia.
+- Il pulsante è «Acquista su Amazon», adattato allo spazio disponibile. Le informazioni commerciali non sostituiscono il contenuto editoriale. L’informativa resta presente nelle pagine con collegamenti, nel posizionamento stabilito dal proprietario e documentato nella Roadmap; eventuali limiti rispetto alle regole della piattaforma vanno dichiarati, non trattati come conformità acquisita.
+- Il catalogo registra pagina originale, ASIN, formato/edizione, URL affiliato ufficiale, Tracking ID, metodo di generazione, data e prova della verifica Prime. Non si inventano prezzi o disponibilità, non si copiano immagini prive di autorizzazione. Una verifica Prime descrive l’offerta controllata in quella data e non garantisce che rimanga invariata.
+- Prima della pubblicazione si verificano il percorso artista → album → canzone, la corrispondenza dei prodotti, il numero di riquadri previsto per ciascun tipo di pagina e la leggibilità su desktop e mobile. Le modifiche commerciali non attestano una nuova verifica integrale dei contenuti editoriali.

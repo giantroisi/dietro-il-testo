@@ -2,24 +2,29 @@
   "eagles": [
     "album/eagles/hotel-california",
     "album/eagles/hotel-california",
+    "album/eagles/hotel-california",
     "album/eagles/hotel-california"
   ],
   "blink-182": [
     "album/blink-182/enema-of-the-state",
     "album/blink-182/take-off-your-pants-and-jacket",
-    "album/blink-182/enema-of-the-state"
+    "album/blink-182/enema-of-the-state",
+    "album/blink-182/take-off-your-pants-and-jacket"
   ],
   "bring-me-the-horizon": [
     "album/bring-me-the-horizon/sempiternal",
     "album/bring-me-the-horizon/post-human-nex-gen",
-    "album/bring-me-the-horizon/thats-the-spirit"
+    "album/bring-me-the-horizon/thats-the-spirit",
+    "album/bring-me-the-horizon/amo"
   ],
   "oasis": [
     "album/oasis/heathen-chemistry",
+    "album/oasis/be-here-now",
     "album/oasis/whats-the-story-morning-glory",
-    "album/oasis/heathen-chemistry"
+    "album/oasis/definitely-maybe"
   ],
   "alice-in-chains": [
+    "album/alice-in-chains/facelift",
     "album/alice-in-chains/facelift",
     "album/alice-in-chains/facelift",
     "album/alice-in-chains/facelift"
@@ -27,14 +32,17 @@
   "caparezza": [
     "album/caparezza/il-sogno-eretico",
     "album/caparezza/il-sogno-eretico",
+    "album/caparezza/il-sogno-eretico",
     "album/caparezza/il-sogno-eretico"
   ],
   "cesare-cremonini": [
-    "album/cesare-cremonini/bagus",
+    "album/cesare-cremonini/possibili-scenari",
     "album/cesare-cremonini/maggese",
-    "album/cesare-cremonini/bagus"
+    "album/cesare-cremonini/bagus",
+    "album/cesare-cremonini/possibili-scenari"
   ],
   "883": [
+    "album/883/la-dura-legge-del-gol",
     "album/883/la-dura-legge-del-gol",
     "album/883/la-dura-legge-del-gol",
     "album/883/la-dura-legge-del-gol"
@@ -42,6 +50,37 @@
   "limp-bizkit": [
     "album/limp-bizkit/significant-other",
     "album/limp-bizkit/significant-other",
+    "album/limp-bizkit/significant-other",
     "album/limp-bizkit/significant-other"
+  ],
+  "franco-battiato": [
+    "album/franco-battiato/patriots",
+    "album/franco-battiato/l-era-del-cinghiale-bianco",
+    "album/franco-battiato/patriots",
+    "album/franco-battiato/l-era-del-cinghiale-bianco"
+  ],
+  "ac-dc": [
+    "album/ac-dc/highway-to-hell",
+    "album/ac-dc/back-in-black",
+    "album/ac-dc/let-there-be-rock",
+    "album/ac-dc/power-up"
+  ],
+  "pinguini-tattici-nucleari": [
+    "album/pinguini-tattici-nucleari/fake-news",
+    "album/pinguini-tattici-nucleari/hello-world",
+    "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "album/pinguini-tattici-nucleari/fake-news"
+  ],
+  "michael-jackson": [
+    "album/michael-jackson/thriller",
+    "album/michael-jackson/bad",
+    "album/michael-jackson/off-the-wall",
+    "album/michael-jackson/thriller"
+  ],
+  "the-killers": [
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss"
   ]
 }

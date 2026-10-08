@@ -814,7 +814,7 @@ export function paginaCanzone(c, ctx) {
       </figure>`
           : `<p class="vuoto">Il momento iconico di questa canzone non è stato ancora individuato.</p>`
       }
-      ${amazonCompattoPerScheda(c, true)}</section>
+      ${amazonCompattoPerScheda(c, Boolean(c.spotifyId))}</section>
     </header>
 
     ${indiceHtml}
@@ -983,6 +983,7 @@ export function paginaArtista(a, ctx) {
   const acquistoImmagine = amazonPerArtista(a.slug, 'immagine');
   const acquistoStoria = amazonPerArtista(a.slug, 'storia');
   const acquistoAlbum = amazonPerArtista(a.slug, 'album');
+  const acquistoCanzoni = amazonPerArtista(a.slug, 'canzoni');
   const rt = a.ritratto || RITRATTI[a.slug];
   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
@@ -1056,6 +1057,7 @@ export function paginaArtista(a, ctx) {
         ${brani.map((b) => schedaCanzone(b, r)).join('\n        ')}
       </div>
     </section>
+    ${acquistoCanzoni}
 
     ${
       albumVeri.length
