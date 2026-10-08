@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/il-ragazzo-della-via-gluck.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/#brano","name":"Il ragazzo della via Gluck","byArtist":{"@type":"MusicGroup","name":"Adriano Celentano","url":"https://www.dietroiltesto.it/artista/adriano-celentano/"},"inAlbum":{"@type":"MusicAlbum","name":"Il ragazzo della via Gluck"},"datePublished":"1966","url":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/","description":"Musica di Adriano Celentano, testo di Luciano Beretta e Miki Del Prete, uscì il 17 gennaio 1966."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Il ragazzo della via Gluck","item":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/"}]},{"@type":"Article","headline":"Il ragazzo della via Gluck","about":{"@id":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/","dateModified":"2026-10-03"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/#brano","name":"Il ragazzo della via Gluck","byArtist":{"@type":"MusicGroup","name":"Adriano Celentano","url":"https://www.dietroiltesto.it/artista/adriano-celentano/"},"inAlbum":{"@type":"MusicAlbum","name":"Il ragazzo della via Gluck"},"datePublished":"1966","url":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/","description":"Musica di Adriano Celentano, testo di Luciano Beretta e Miki Del Prete, uscì il 17 gennaio 1966."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Il ragazzo della via Gluck","item":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/"}]},{"@type":"Article","headline":"Il ragazzo della via Gluck","about":{"@id":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/","dateModified":"2026-10-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -880,7 +880,25 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
-</style>
+.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}</style>
 <style>:root{--identita:#3E4A3E;--identita-testo:#3E4A3E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -930,11 +948,24 @@ a { color: inherit; }
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>Significato di Il ragazzo della via Gluck</h1>
+        <h1>Significato di Il ragazzo della via Gluck</h1><aside class="acquisto-affiliato" aria-label="Il ragazzo della via Gluck su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Il ragazzo della via Gluck</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Adriano Celentano <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/RAGAZZO-DELLA-VIA-GLUCK-vinile/dp/B0D45KJRRQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=61c2b209b2f02d87c2e9f84531ccb123&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il ragazzo della via Gluck — Adriano Celentano in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/2He8YboCjtGF53iJudHiTl?utm_source=generator" width="100%" height="152" title="Il ragazzo della via Gluck su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/2He8YboCjtGF53iJudHiTl" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
+        <a class="player-esterno" href="https://open.spotify.com/track/2He8YboCjtGF53iJudHiTl" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a><aside class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto aria-label="Il ragazzo della via Gluck su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il ragazzo della via Gluck</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Adriano Celentano <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/RAGAZZO-DELLA-VIA-GLUCK-vinile/dp/B0D45KJRRQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=61c2b209b2f02d87c2e9f84531ccb123&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il ragazzo della via Gluck — Adriano Celentano in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">
@@ -997,7 +1028,13 @@ a { color: inherit; }
         <p>Il ritornello racconta il ritorno del protagonista nel quartiere dov'è cresciuto, ormai irriconoscibile: al posto dei prati e delle case basse, palazzi e cemento, un paesaggio d'infanzia cancellato dal progresso.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-      </section>
+      <aside class="acquisto-affiliato acquisto-desktop" data-acquisto-compatto aria-label="Il ragazzo della via Gluck su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il ragazzo della via Gluck</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Adriano Celentano <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/RAGAZZO-DELLA-VIA-GLUCK-vinile/dp/B0D45KJRRQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=61c2b209b2f02d87c2e9f84531ccb123&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il ragazzo della via Gluck — Adriano Celentano in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></section>
     </header>
 
 
@@ -1009,7 +1046,13 @@ a { color: inherit; }
         <p>Al Festival di Sanremo 1966, dove Celentano si presentò con un seguito di cinquanta persone dopo cinque anni di assenza dalla kermesse, il brano fu eliminato già dopo la prima serata, complice anche un'esibizione infelice del Trio del Clan. Divenne però uno dei suoi maggiori successi commerciali e uno dei primi brani italiani a portare in classifica un tema ambientale, il rimpianto per il verde di periferia sostituito dal cemento. Lo stesso anno Giorgio Gaber, amico di lunga data di Celentano, gli rispose con &quot;La risposta al ragazzo della via Gluck&quot;, un brano che ribaltava ironicamente il punto di vista a favore di chi in periferia ci abita ancora.</p>
 
       </div>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Il ragazzo della via Gluck su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il ragazzo della via Gluck</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Adriano Celentano <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/RAGAZZO-DELLA-VIA-GLUCK-vinile/dp/B0D45KJRRQ?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=61c2b209b2f02d87c2e9f84531ccb123&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il ragazzo della via Gluck — Adriano Celentano in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
 
 
@@ -1103,7 +1146,7 @@ a { color: inherit; }
           <span class="gancio">Cover italiana di &quot;Tower of Strength&quot;, scritta da Burt Bacharach e Bob Hilliard e portata al successo nel 1961 da…</span>
         </a>
       </div>
-    </section>
+    </section><p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

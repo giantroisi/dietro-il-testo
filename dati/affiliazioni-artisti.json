@@ -8,8 +8,8 @@
   "blink-182": [
     "album/blink-182/enema-of-the-state",
     "album/blink-182/take-off-your-pants-and-jacket",
-    "album/blink-182/enema-of-the-state",
-    "album/blink-182/take-off-your-pants-and-jacket"
+    "album/blink-182/dude-ranch",
+    "album/blink-182/dude-ranch"
   ],
   "bring-me-the-horizon": [
     "album/bring-me-the-horizon/sempiternal",
@@ -82,5 +82,53 @@
     "album/the-killers/hot-fuss",
     "album/the-killers/hot-fuss",
     "album/the-killers/hot-fuss"
+  ],
+  "coldplay": [
+    "album/coldplay/a-rush-of-blood-to-the-head",
+    "album/coldplay/a-rush-of-blood-to-the-head",
+    "album/coldplay/a-rush-of-blood-to-the-head",
+    "album/coldplay/a-rush-of-blood-to-the-head"
+  ],
+  "the-beatles": [
+    "album/the-beatles/abbey-road",
+    "album/the-beatles/help",
+    "album/the-beatles/abbey-road",
+    "album/the-beatles/help"
+  ],
+  "evanescence": [
+    "album/evanescence/fallen",
+    "album/evanescence/fallen",
+    "album/evanescence/fallen",
+    "album/evanescence/fallen"
+  ],
+  "a-ha": [
+    "album/a-ha/hunting-high-and-low",
+    "album/a-ha/hunting-high-and-low",
+    "album/a-ha/hunting-high-and-low",
+    "album/a-ha/hunting-high-and-low"
+  ],
+  "adriano-celentano": [
+    "album/adriano-celentano/il-ragazzo-della-via-gluck",
+    "album/adriano-celentano/svalutation",
+    "album/adriano-celentano/yuppi-du",
+    "album/adriano-celentano/il-ragazzo-della-via-gluck"
+  ],
+  "queen": [
+    "album/queen/a-night-at-the-opera",
+    "album/queen/the-game",
+    "album/queen/a-night-at-the-opera",
+    "album/queen/the-game"
+  ],
+  "metallica": [
+    "album/metallica/master-of-puppets",
+    "album/metallica/ride-the-lightning",
+    "album/metallica/master-of-puppets",
+    "album/metallica/ride-the-lightning"
+  ],
+  "guns-n-roses": [
+    "album/guns-n-roses/appetite-for-destruction",
+    "album/guns-n-roses/use-your-illusion-i",
+    "album/guns-n-roses/appetite-for-destruction",
+    "album/guns-n-roses/use-your-illusion-i"
   ]
 }

@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/guns-n-roses/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Guns N' Roses","url":"https://www.dietroiltesto.it/artista/guns-n-roses/","dateModified":"2026-09-17","description":"Formati a Los Angeles nel 1985 dalla fusione tra i membri di Hollywood Rose (Axl Rose, Izzy Stradlin) e L.A. Guns, con l'arrivo di Slash e del bassista Duff McKagan a completare la formazione classica insieme al batterista Steven Adler."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Guns N' Roses","item":"https://www.dietroiltesto.it/artista/guns-n-roses/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Guns N' Roses","url":"https://www.dietroiltesto.it/artista/guns-n-roses/","dateModified":"2026-10-08","description":"Formati a Los Angeles nel 1985 dalla fusione tra i membri di Hollywood Rose (Axl Rose, Izzy Stradlin) e L.A. Guns, con l'arrivo di Slash e del bassista Duff McKagan a completare la formazione classica insieme al batterista Steven Adler."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Guns N' Roses","item":"https://www.dietroiltesto.it/artista/guns-n-roses/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -868,6 +868,30 @@ a { color: inherit; }
 }
 .is-nascosto { display: none !important; }
 </style>
+<style>.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}
+        .artista-con-acquisti { grid-template-areas:"identita player"; }
+        .artista-visivo-acquisto { grid-area:player;min-width:0; }
+        .artista-visivo-acquisto .acquisto-affiliato { padding:14px !important;margin-top:16px !important; }
+        @media (max-width:860px) { .artista-con-acquisti { grid-template-areas:"identita" "player"; } }
+      </style>
 <style>:root{--identita:#8A1A2E;--identita-testo:#8A1A2E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -906,8 +930,8 @@ a { color: inherit; }
       Guns N' Roses
     </nav>
 
-    <header class="intestazione testa-doppia">
-      <div>
+    <header class="intestazione testa-doppia artista-con-acquisti">
+      <div class="testa-identita">
         <p class="sopratitolo">Artista <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> brani dal 1987</p>
         <h1>Guns N' Roses: significato dei testi e canzoni spiegate</h1>
 
@@ -916,10 +940,17 @@ a { color: inherit; }
 
         </div>
       </div>
-      <div class="visivo" role="img" aria-label="Guns N' Roses">
+      <div class="artista-visivo-acquisto"><div class="visivo" role="img" aria-label="Guns N' Roses">
         <span class="sigla" aria-hidden="true">GR</span>
         <span class="nota" aria-hidden="true">Spazio immagine</span>
-      </div>
+      </div><aside class="acquisto-affiliato" data-acquisto-posizione="immagine" aria-label="Appetite for Destruction su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Appetite for Destruction</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Guns N’ Roses <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Appetite-Destruction-Guns-N-Roses/dp/B07Z75ZRSL?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.wWesIHUjCVY7PBN-euMu9xsclq84S5QmuuPULac7tzzEuLi4lO04EuU2AjCnorEttVI0ySfpGjqj3MY6Usm13o2v_n7XZRs4JPn8QzPzpBBCek7qnFXNM2t_iLgOmuKSwLURrHzRj7ITWMobAR4EdOYs7zQMhyFCcSr6iKgjmqCK93zoZ1m3uB57gYo_unZD.KOFXCT9hNVuqq-9RFI9_ade752zZJHaPZwhun9Nd5S0&amp;dib_tag=se&amp;keywords=Appetite+for+Destruction+vinile&amp;qid=1791473652&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a5ad4ef3fd65acbfcb433a2bc40ec3fb&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Appetite for Destruction — Guns N’ Roses in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></div>
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
@@ -960,6 +991,13 @@ a { color: inherit; }
         </a>
       </div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="canzoni" aria-label="Use Your Illusion I su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Use Your Illusion I</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Guns N’ Roses <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Use-Your-Illusion-Guns-Roses/dp/B0BFX7L2HS?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=4f2d2603f3b63af8ef7263f329b92608&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Use Your Illusion I — Guns N’ Roses in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="dischi">
       <h2>Discografia in studio</h2>
@@ -991,6 +1029,13 @@ a { color: inherit; }
       </div>
 
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="album" aria-label="Appetite for Destruction su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Appetite for Destruction</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Guns N’ Roses <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Appetite-Destruction-Guns-N-Roses/dp/B07Z75ZRSL?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.wWesIHUjCVY7PBN-euMu9xsclq84S5QmuuPULac7tzzEuLi4lO04EuU2AjCnorEttVI0ySfpGjqj3MY6Usm13o2v_n7XZRs4JPn8QzPzpBBCek7qnFXNM2t_iLgOmuKSwLURrHzRj7ITWMobAR4EdOYs7zQMhyFCcSr6iKgjmqCK93zoZ1m3uB57gYo_unZD.KOFXCT9hNVuqq-9RFI9_ade752zZJHaPZwhun9Nd5S0&amp;dib_tag=se&amp;keywords=Appetite+for+Destruction+vinile&amp;qid=1791473652&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a5ad4ef3fd65acbfcb433a2bc40ec3fb&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Appetite for Destruction — Guns N’ Roses in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
@@ -1000,6 +1045,13 @@ a { color: inherit; }
         <ol class="fonti"><li><span class="num">01</span><a href="https://www.britannica.com/topic/Guns-N-Roses" target="_blank" rel="noopener">Encyclopaedia Britannica — Gillian G. Gaar</a></li><li><span class="num">02</span><a href="https://www.allmusic.com/artist/guns-n-roses-mn0000540883" target="_blank" rel="noopener">AllMusic — Stephen Thomas Erlewine</a></li><li><span class="num">03</span><a href="https://www.radiox.co.uk/artists/guns-n-roses/how-did-the-band-form-name-meaning/" target="_blank" rel="noopener">Radio X Classic Rock</a></li></ol>
       </div></div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="storia" aria-label="Use Your Illusion I su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Use Your Illusion I</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Guns N’ Roses <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Use-Your-Illusion-Guns-Roses/dp/B0BFX7L2HS?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=4f2d2603f3b63af8ef7263f329b92608&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Use Your Illusion I — Guns N’ Roses in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco">
       <div class="azioni">
@@ -1007,6 +1059,7 @@ a { color: inherit; }
         <a class="bottone" href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20Guns%20N'%20Roses">Segnala un errore</a>
       </div>
     </section>
+    <p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 
