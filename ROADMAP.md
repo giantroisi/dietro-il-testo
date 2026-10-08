@@ -4381,3 +4381,9 @@ Il proprietario ha approvato la proposta `codex/ritratto-tool-foto-2026-10-07` (
 I quattro file trasferiti sono identici byte per byte alla proposta già verificata nel browser desktop e mobile. Nel `main` passano i controlli di crediti e file, SEO (696 HTML, zero rilievi), coerenza (321 canzoni e 104 artisti, zero rilievi), link, completezza, affiliazioni, freno, natura e `git diff --check`. La canonical della pagina è `https://www.dietroiltesto.it/artista/tool/`.
 
 **Stato:** integrazione locale approvata e verificata. Nessun push o pubblicazione autorizzati con questa approvazione. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è rimasto invariato.
+
+## Proposta fotografica Fulminacci, 8 ottobre 2026 — IMMAGINI
+
+Preparato e verificato un ritratto di Fulminacci alla conferenza stampa di Sanremo 2026: Ferdinando Traversa, ritaglio preesistente di Danyele, CC BY-SA 4.0. Originale e pagina del ritaglio riaperti; licenza commerciale e modifiche documentate nel dossier `rapporti/licenze/ritratto-fulminacci-2026-10-08.md`. JPEG locale identico al file Commons, senza ulteriori modifiche, credito e alt visibili.
+
+Passano generazione (695 pagine più 404), controllo crediti/file, SEO, link e diff. Anteprime desktop 1280 px e mobile 390 px: foto caricata, credito leggibile, canonical corretta, nessuna fuoriuscita orizzontale. Limite: file da 1,25 MiB e fiori in primo piano. Copia `/Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-fulminacci-ritratto`. Filone IMMAGINI concluso come proposta verificata. In attesa di approvazione specifica; nessuna integrazione, push o pubblicazione. Integrare soltanto la voce fulminacci nel JSON condiviso.
