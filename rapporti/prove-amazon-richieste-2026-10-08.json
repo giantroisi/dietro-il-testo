@@ -1,0 +1,164 @@
+{
+  "data": "2026-10-08",
+  "commitPubblicato": "f96d7c0e1",
+  "metodo": "GET HTTPS con curl e confronto byte per byte dei 21 HTML pubblici con la copia verificata",
+  "pagine": [
+    {
+      "route": "album/oasis/heathen-chemistry/",
+      "ok": true,
+      "bytes": 54841,
+      "sha256": "356c600936ded7d097166b9a85b5ecfa09c9eef13297d5852c212d3a22932ce9",
+      "error": ""
+    },
+    {
+      "route": "album/alice-in-chains/facelift/",
+      "ok": true,
+      "bytes": 54764,
+      "sha256": "567b6921eedbf15cc613a096115308119db6723dc750dd64ac134ca921ed7748",
+      "error": ""
+    },
+    {
+      "route": "album/caparezza/il-sogno-eretico/",
+      "ok": true,
+      "bytes": 55717,
+      "sha256": "06613de3d67eaeeb27323d1294e8682647edc2d7502131aa265d819e873eeacf",
+      "error": ""
+    },
+    {
+      "route": "album/cesare-cremonini/bagus/",
+      "ok": true,
+      "bytes": 55438,
+      "sha256": "f15598a1409cac4c27463b9015d3ae531d59ede5b9297091afc54a285071e53f",
+      "error": ""
+    },
+    {
+      "route": "album/oasis/whats-the-story-morning-glory/",
+      "ok": true,
+      "bytes": 56959,
+      "sha256": "bdfdffb7071c816859c1617d1ea0da81ad8b16135354dcdea1ec808b6fed8b7d",
+      "error": ""
+    },
+    {
+      "route": "album/883/la-dura-legge-del-gol/",
+      "ok": true,
+      "bytes": 55470,
+      "sha256": "c2d6ab0b5bf5d4218e24b0bc6dd67bc69acc8aef8239da9b678b4a6abee579ca",
+      "error": ""
+    },
+    {
+      "route": "album/limp-bizkit/significant-other/",
+      "ok": true,
+      "bytes": 54426,
+      "sha256": "53f1ef7a6678c782043b0b1ba76acb9592a2920411446366d5dc79b0e7d1cb56",
+      "error": ""
+    },
+    {
+      "route": "album/cesare-cremonini/maggese/",
+      "ok": true,
+      "bytes": 55652,
+      "sha256": "ef0b20604e205470853db7533f62886ed6297fc1e65eeb528152c0c31da248de",
+      "error": ""
+    },
+    {
+      "route": "album/blink-182/take-off-your-pants-and-jacket/",
+      "ok": true,
+      "bytes": 56008,
+      "sha256": "8ff60b30f43b045673bd25950e7164771536e141b1d7156afa02e0c978722000",
+      "error": ""
+    },
+    {
+      "route": "canzone/wonderwall/",
+      "ok": true,
+      "bytes": 66960,
+      "sha256": "cb3b1a65463cbce2f5574e81b2f85d41f81be65019d25771d274094307360447",
+      "error": ""
+    },
+    {
+      "route": "canzone/marmellata-25/",
+      "ok": true,
+      "bytes": 66150,
+      "sha256": "f2a8b4d5666937024d27b0408bb3419367ff642f768e812b705650d79fd5ee1f",
+      "error": ""
+    },
+    {
+      "route": "canzone/break-stuff/",
+      "ok": true,
+      "bytes": 64800,
+      "sha256": "35bd7fed982737f0bfd38325d6ded32184fb2a8c3678d0207ca8b4d2d356c393",
+      "error": ""
+    },
+    {
+      "route": "canzone/dont-look-back-in-anger/",
+      "ok": true,
+      "bytes": 67328,
+      "sha256": "e31764cac402addb0af0e1bff67060dfc053e04e9639a178af62a830463bd645",
+      "error": ""
+    },
+    {
+      "route": "canzone/man-in-the-box/",
+      "ok": true,
+      "bytes": 64232,
+      "sha256": "b6b51f563240adec3ac24c39517d87734f96e4d1db40beb5475c22ac4275d7ef",
+      "error": ""
+    },
+    {
+      "route": "canzone/champagne-supernova/",
+      "ok": true,
+      "bytes": 66480,
+      "sha256": "e20ed87ca9c4e3a06b1826f3de1222297474e42632bb35e8f80f12b2a9d16162",
+      "error": ""
+    },
+    {
+      "route": "canzone/la-regola-dell-amico/",
+      "ok": true,
+      "bytes": 65976,
+      "sha256": "bd57e153a850603a1cdd0e04d72920c1624abb27e495baf4c4b4ae701eee9cd1",
+      "error": ""
+    },
+    {
+      "route": "canzone/goodbye-malinconia/",
+      "ok": true,
+      "bytes": 68320,
+      "sha256": "870ac305d4b29b18db9d136392e0b10fa3ceb68655e92a7c656d690e72fc158b",
+      "error": ""
+    },
+    {
+      "route": "canzone/gli-uomini-e-le-donne-sono-uguali/",
+      "ok": true,
+      "bytes": 66921,
+      "sha256": "6c7df9bc5507582764491427a752df3c2e7653c3707ad9f195af3420ecd227f9",
+      "error": ""
+    },
+    {
+      "route": "canzone/legalize-the-premier/",
+      "ok": true,
+      "bytes": 67242,
+      "sha256": "3713453935f70b4c4bb8f3b85f1c3e3ba58911c27887cfbb4e13997c4150feb7",
+      "error": ""
+    },
+    {
+      "route": "canzone/stop-crying-your-heart-out/",
+      "ok": true,
+      "bytes": 65229,
+      "sha256": "cf255ae886b04106953f4105f953bfbb54496b2b44f820aae8d2d75fd6b724e8",
+      "error": ""
+    },
+    {
+      "route": "canzone/first-date/",
+      "ok": true,
+      "bytes": 67980,
+      "sha256": "d06269e7bbfbb2d2f2ca94984cb7dd3a54e6ed2c742a1873c78f8c2520cdff22",
+      "error": ""
+    }
+  ],
+  "browserLive": {
+    "percorso": "album/blink-182/take-off-your-pants-and-jacket/ → canzone/first-date/",
+    "desktop": "1280×900",
+    "mobile": "390×844",
+    "riquadriVisibili": 3,
+    "asin": "B01K788XEE",
+    "trackingId": "dietroiltesto-21",
+    "overflow": false,
+    "pulsantiNelRiquadro": true
+  }
+}

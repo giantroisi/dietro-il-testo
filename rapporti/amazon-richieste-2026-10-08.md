@@ -66,3 +66,7 @@ I link di Il sogno eretico, Morning Glory e Take Off Your Pants and Jacket si es
 ## Limiti e stato
 
 Informativa a fine pagina come richiesto dal proprietario: resta il limite di posizionamento già comunicato e documentato nel §70 della Roadmap; non si attesta conformità di quel posizionamento. Nessuna verifica editoriale integrale delle schede svolta con questo intervento. Main e copia dell’altra AI preservati; routine fotografica ancora sospesa. Commit, integrazione e pubblicazione da registrare dopo la verifica finale.
+
+## Pubblicazione confermata
+
+Pubblicazione confermata: commit `f96d7c0e1` su origin/main. Tutte le 21 pagine HTTPS live identiche byte per byte ai file verificati. Percorso album Take Off Your Pants and Jacket → First Date verificato in browser desktop e mobile: tre riquadri visibili, ASIN B01K788XEE, tag dietroiltesto-21, nessun overflow e pulsanti nel riquadro. Prove in `rapporti/prove-amazon-richieste-2026-10-08.json`. Main: ricerca.mjs e due non tracciati preservati. Nessun ID deploy o log Vercel attestato.
