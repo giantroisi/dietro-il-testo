@@ -226,5 +226,244 @@
     "artista/green-day/index.html": "31db0b75c89780baf07888de7328ed70140537eb711d02fb2f6cad91977956cb",
     "artista/muse/index.html": "269000c65d9cc164f924eb54cf2e6ca398d08a788f097cb350ce82406b659d4d",
     "artista/nirvana/index.html": "1afb23edf1cc5cf292f6413b009570f122f3d31916224e42e4ce344f4e164f71"
+  },
+  "live": {
+    "checked_at": "2026-10-08T16:17:14.828850+00:00",
+    "content_commit": "91c79f3f1fe2581f4638b98df1cf8e77dfe79a6b",
+    "deployment": "dpl_3XntcjkCyoAmrEyNiAFiwAAJMUC1",
+    "state": "READY",
+    "target": "production",
+    "pages": [
+      {
+        "route": "album/a-ha/minor-earth-major-sky/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/minor-earth-major-sky/",
+        "expected_sha256": "929aac20da985bd0735787aa7ed7c9b0168c827e841e85f2330ac763baf18996",
+        "received_sha256": "929aac20da985bd0735787aa7ed7c9b0168c827e841e85f2330ac763baf18996",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/ed-sheeran/divide/index.html",
+        "url": "https://www.dietroiltesto.it/album/ed-sheeran/divide/",
+        "expected_sha256": "244b6d90c24f5c6c539888d6330afc118e506d479f911783554f5afb7bc43736",
+        "received_sha256": "244b6d90c24f5c6c539888d6330afc118e506d479f911783554f5afb7bc43736",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/linkin-park/hybrid-theory/index.html",
+        "url": "https://www.dietroiltesto.it/album/linkin-park/hybrid-theory/",
+        "expected_sha256": "4edb2c966f1af5878ed9d48dd9c86b8128e0b52f2cf1f97f664a2087d0506dbf",
+        "received_sha256": "4edb2c966f1af5878ed9d48dd9c86b8128e0b52f2cf1f97f664a2087d0506dbf",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/linkin-park/meteora/index.html",
+        "url": "https://www.dietroiltesto.it/album/linkin-park/meteora/",
+        "expected_sha256": "a68e4eb069127f6fdcf1a6d85ea891e4d503ca7b635cf40c612d666ec010030b",
+        "received_sha256": "a68e4eb069127f6fdcf1a6d85ea891e4d503ca7b635cf40c612d666ec010030b",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/green-day/dookie/index.html",
+        "url": "https://www.dietroiltesto.it/album/green-day/dookie/",
+        "expected_sha256": "f482dab7334f270413d611f92f2fea011a38bfd29f001e8acfda82af911a8bfc",
+        "received_sha256": "f482dab7334f270413d611f92f2fea011a38bfd29f001e8acfda82af911a8bfc",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/muse/black-holes-and-revelations/index.html",
+        "url": "https://www.dietroiltesto.it/album/muse/black-holes-and-revelations/",
+        "expected_sha256": "7b4b1bd055c0725f258075f14b6eba573a7ce4be76a0fa8a8ca523c1abc27141",
+        "received_sha256": "7b4b1bd055c0725f258075f14b6eba573a7ce4be76a0fa8a8ca523c1abc27141",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/nirvana/nevermind/index.html",
+        "url": "https://www.dietroiltesto.it/album/nirvana/nevermind/",
+        "expected_sha256": "58b142a8e1fae9031922fcf7e5fc48ae8945f1e1f20edff4841c7795f597c4a9",
+        "received_sha256": "58b142a8e1fae9031922fcf7e5fc48ae8945f1e1f20edff4841c7795f597c4a9",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/in-the-end/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/in-the-end/",
+        "expected_sha256": "93eb944fc9537a6beb0b4febc8174cdea6eeb16b02caa209a889865969151e85",
+        "received_sha256": "93eb944fc9537a6beb0b4febc8174cdea6eeb16b02caa209a889865969151e85",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/teen-spirit/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/teen-spirit/",
+        "expected_sha256": "94689021746f7ea472fc0f234e42cc4789c20ab8d815e456a26e8df44abdbe2a",
+        "received_sha256": "94689021746f7ea472fc0f234e42cc4789c20ab8d815e456a26e8df44abdbe2a",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/numb/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/numb/",
+        "expected_sha256": "b7e8c63ad0e1da4dcf881d1762e85af54d3c4e82e3a1f5f1943d323f62715c11",
+        "received_sha256": "b7e8c63ad0e1da4dcf881d1762e85af54d3c4e82e3a1f5f1943d323f62715c11",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/basket-case/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/basket-case/",
+        "expected_sha256": "6d82a455913c5fd6332224c6120a54e5978481b0024240aded73a82389e474fa",
+        "received_sha256": "6d82a455913c5fd6332224c6120a54e5978481b0024240aded73a82389e474fa",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/crawling/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/crawling/",
+        "expected_sha256": "ae09cf5e97baec0b8b2c1e55a0ccd23069bb8fa68c51286df8eef8f299ebaed9",
+        "received_sha256": "ae09cf5e97baec0b8b2c1e55a0ccd23069bb8fa68c51286df8eef8f299ebaed9",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/one-step-closer/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/one-step-closer/",
+        "expected_sha256": "98eb9fcb30c295506f437f4051b087be82987cd24356ba6f7f3bfcc9ed5a0848",
+        "received_sha256": "98eb9fcb30c295506f437f4051b087be82987cd24356ba6f7f3bfcc9ed5a0848",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/starlight/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/starlight/",
+        "expected_sha256": "bae8dc835113b95b29995a58a9cc3e9e9dd529007d99460e114a4b9f62da26c8",
+        "received_sha256": "bae8dc835113b95b29995a58a9cc3e9e9dd529007d99460e114a4b9f62da26c8",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/shape-of-you/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/shape-of-you/",
+        "expected_sha256": "3a9624ae11c47659dbde86a7d84bccdf5e3e371787a5670043f7ff091414a2e5",
+        "received_sha256": "3a9624ae11c47659dbde86a7d84bccdf5e3e371787a5670043f7ff091414a2e5",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/supermassive-black-hole/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/supermassive-black-hole/",
+        "expected_sha256": "979638452bc5b0a853c1d5fa6f04222007942aa86295278eaf8271e72b52d7f9",
+        "received_sha256": "979638452bc5b0a853c1d5fa6f04222007942aa86295278eaf8271e72b52d7f9",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/knights-of-cydonia/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/knights-of-cydonia/",
+        "expected_sha256": "3ee50ba0e78f4933a7cb113cefb29dea834897cc4858cf71bd681ffdd44e5f34",
+        "received_sha256": "3ee50ba0e78f4933a7cb113cefb29dea834897cc4858cf71bd681ffdd44e5f34",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/castle-on-the-hill/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/castle-on-the-hill/",
+        "expected_sha256": "cff0ea33ea517ec3c76d67135e1edfea025434f3a0bfffc437934c31078c36cd",
+        "received_sha256": "cff0ea33ea517ec3c76d67135e1edfea025434f3a0bfffc437934c31078c36cd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/summer-moved-on/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/summer-moved-on/",
+        "expected_sha256": "7626168bb54cacb4e7e724d71d23b3651b2c1b8c37cfb45561627a4743f87fa2",
+        "received_sha256": "7626168bb54cacb4e7e724d71d23b3651b2c1b8c37cfb45561627a4743f87fa2",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/come-as-you-are/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/come-as-you-are/",
+        "expected_sha256": "02bcc46b7cdb34f82ce14a65779fe3def5fb009a081f8185943efc168d73dca6",
+        "received_sha256": "02bcc46b7cdb34f82ce14a65779fe3def5fb009a081f8185943efc168d73dca6",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/a-ha/index.html",
+        "url": "https://www.dietroiltesto.it/artista/a-ha/",
+        "expected_sha256": "662d05338dc94c82e1bc3807f4d40d36bb76fbe3bb0b51500e972e545c22f6dd",
+        "received_sha256": "662d05338dc94c82e1bc3807f4d40d36bb76fbe3bb0b51500e972e545c22f6dd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/ed-sheeran/index.html",
+        "url": "https://www.dietroiltesto.it/artista/ed-sheeran/",
+        "expected_sha256": "96dadc67bdc9fa86bb2d0b96fee7d00940d086daccea5427cad44f8bd1005319",
+        "received_sha256": "96dadc67bdc9fa86bb2d0b96fee7d00940d086daccea5427cad44f8bd1005319",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/linkin-park/index.html",
+        "url": "https://www.dietroiltesto.it/artista/linkin-park/",
+        "expected_sha256": "9bcd58e7eec9f48e0168f446e31ba1b33afa55aa6304b247731ef9e78443dc57",
+        "received_sha256": "9bcd58e7eec9f48e0168f446e31ba1b33afa55aa6304b247731ef9e78443dc57",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/green-day/index.html",
+        "url": "https://www.dietroiltesto.it/artista/green-day/",
+        "expected_sha256": "31db0b75c89780baf07888de7328ed70140537eb711d02fb2f6cad91977956cb",
+        "received_sha256": "31db0b75c89780baf07888de7328ed70140537eb711d02fb2f6cad91977956cb",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/muse/index.html",
+        "url": "https://www.dietroiltesto.it/artista/muse/",
+        "expected_sha256": "269000c65d9cc164f924eb54cf2e6ca398d08a788f097cb350ce82406b659d4d",
+        "received_sha256": "269000c65d9cc164f924eb54cf2e6ca398d08a788f097cb350ce82406b659d4d",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/nirvana/index.html",
+        "url": "https://www.dietroiltesto.it/artista/nirvana/",
+        "expected_sha256": "1afb23edf1cc5cf292f6413b009570f122f3d31916224e42e4ce344f4e164f71",
+        "received_sha256": "1afb23edf1cc5cf292f6413b009570f122f3d31916224e42e4ce344f4e164f71",
+        "identical": true,
+        "error": ""
+      }
+    ],
+    "browser": {
+      "mobile_path": [
+        "artista/muse/",
+        "album/muse/black-holes-and-revelations/",
+        "canzone/knights-of-cydonia/"
+      ],
+      "width": 390,
+      "artist_count": 4,
+      "song_count": 3,
+      "asin": "B000G03S94",
+      "tag": "dietroiltesto-21",
+      "overflow": false,
+      "artist_boundary_ok": true,
+      "desktop": {
+        "route": "canzone/shape-of-you/",
+        "width": 1280,
+        "count": 3,
+        "asin": "B01N216CIO",
+        "overflow": false,
+        "contained": true
+      }
+    }
   }
 }

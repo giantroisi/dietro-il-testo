@@ -77,3 +77,6 @@ Gli ASIN sono stati riaperti direttamente su Amazon.it; le pagine delle alternat
 - Dossier e prove conservati; altra AI, lotti precedenti e file estranei nel main preservati. Routine sospesa. Informativa in fondo come richiesto, limite §70 invariato. Nessun prezzo, asset Amazon, promessa Prime pubblicata o dato GSC.
 
 Pubblicazione richiesta: esito live da completare.
+
+
+Pubblicazione confermata: commit `91c79f3f1` su origin/main, deploy `dpl_3XntcjkCyoAmrEyNiAFiwAAJMUC1` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 26 pagine HTTPS identiche byte per byte ai file verificati. Percorso Muse → Black Holes and Revelations → Knights of Cydonia in browser mobile positivo: quattro riquadri artista, tre nella canzone, stesso ASIN B000G03S94 e tag, nessun overflow. Shape of You desktop: tre riquadri, ASIN B01N216CIO, pulsanti contenuti e nessun overflow. Main e file estranei preservati, routine sospesa.
