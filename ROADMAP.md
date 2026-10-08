@@ -4409,3 +4409,7 @@ Il proprietario ha richiesto esplicitamente il modello di Dottorciclismo: solo �
 ## 71. Riquadro prodotto Amazon, 8 ottobre 2026
 
 Richiesto un riquadro come nell’esempio indicato dal proprietario: aggiunti nome album, artista e formato verificati al catalogo, visualizzati sopra «Acquista su Amazon». Grafica vettoriale originale di un disco, decorativa e nascosta agli screen reader; non è una riproduzione della copertina né un’immagine copiata da Amazon. Nessun prezzo, recensione o promessa Prime nel blocco. Informativa a fine scheda mantenuta come espressamente richiesto (§70, limite di conformità già comunicato). Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`. Generazione, affiliazioni, prove negative, SEO e link superati; browser mobile 390 px e desktop 1280 px senza overflow. Copertina effettiva non inserita: serve una fonte e un’autorizzazione adatte.
+
+## 72. Riquadro tipografico del disco, 8 ottobre 2026
+
+Su richiesta «proviamo», rimosso il disco generico. Titolo in carattere editoriale, artista e formato, superficie sobria e pulsante «Vedi su Amazon» nel colore del sito. Desktop: titolo e pulsante affiancati; mobile: pulsante sotto. Nessun prezzo o copertina non autorizzata. Informativa e destinazione invariate. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`. Generazione, affiliazioni, prove negative, SEO e link superati; controllati desktop 1280 px e mobile 390 px nei temi chiaro e scuro, senza overflow.

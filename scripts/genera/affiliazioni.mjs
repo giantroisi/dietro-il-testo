@@ -36,13 +36,13 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
   }
 
   if (![titolo, artista, formato].every(v => typeof v === 'string' && v.trim())) throw new Error('Identità del prodotto incompleta');
-  return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding:18px;border:1px solid var(--border);border-radius:8px;background:var(--surface);margin-top:16px">
-    <svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" style="flex:none"><circle cx="48" cy="48" r="46" fill="var(--text)"/><circle cx="48" cy="48" r="35" fill="none" stroke="var(--surface)" opacity=".3"/><circle cx="48" cy="48" r="29" fill="none" stroke="var(--surface)" opacity=".3"/><circle cx="48" cy="48" r="16" fill="var(--surface)"/><circle cx="48" cy="48" r="3" fill="var(--text)"/></svg>
-    <div style="flex:1 1 180px;min-width:0">
-      <p style="margin:0;font-weight:700">${esc(titolo)}</p>
-      <p style="margin:4px 0 12px">${esc(artista)} · ${esc(formato)}</p>
-      <a class="bottone" href="${esc(url.href)}" aria-label="Acquista su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener">Acquista su Amazon</a>
+  return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;gap:18px 24px;padding:22px 24px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 240px;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">${esc(titolo)}</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">${esc(artista)} <span aria-hidden="true">·</span> ${esc(formato)}</p>
     </div>
+    <a class="bottone pieno" href="${esc(url.href)}" aria-label="Vedi su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener" style="flex:none">Vedi su Amazon <span aria-hidden="true">↗</span></a>
   </aside>`;
 }
 
