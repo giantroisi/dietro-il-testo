@@ -51,3 +51,18 @@ export function informativaAmazonPerScheda(slug) {
     ? `<p class="nota-affiliazioni">${esc(DICHIARAZIONE_AMAZON)}. ${esc(AVVISO_AFFILIATO)}. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>`
     : '';
 }
+
+// I due richiami aggiuntivi si mostrano soltanto su schermi piccoli.
+export const STILE_AMAZON_MOBILE = `.acquisto-mobile { display:none !important; }
+@media (max-width:760px) { .acquisto-mobile { display:flex !important; } }`;
+export function amazonMobilePerScheda(slug) {
+  const html = amazonPerScheda(slug);
+  return html
+    .replace('class="acquisto-affiliato"', 'class="acquisto-affiliato acquisto-mobile"')
+    .replace('gap:18px 24px;padding:22px 24px', 'gap:10px 16px;padding:12px 14px')
+    .replace('margin-top:20px', 'margin-top:12px')
+    .replace('flex:1 1 240px', 'flex:1 1 160px')
+    .replace(/      <p[^>]*>Il disco<\/p>\n/, '')
+    .replace('font-size:24px', 'font-size:18px')
+    .replace('class="bottone pieno"', 'class="bottone"');
+}

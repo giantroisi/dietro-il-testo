@@ -2,7 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
-import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda } from './affiliazioni.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -368,7 +368,7 @@ function dataLeggibile(d) {
 function playerIntestazione(c) {
   return `<div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" title="${esc(c.titolo)} su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/${esc(c.spotifyId)}" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
+        <a class="player-esterno" href="https://open.spotify.com/track/${esc(c.spotifyId)}" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>${amazonMobilePerScheda(c.slug)}
       </div>`;
 }
 
@@ -825,7 +825,7 @@ export function paginaCanzone(c, ctx) {
         ${corpoHtml}
 ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
-    </section>
+    </section>${amazonMobilePerScheda(c.slug)}
 
     ${extra}
 
@@ -903,7 +903,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
-    stileExtra: c.spotifyId ? STILE_PLAYER : undefined,
+    stileExtra: (c.spotifyId ? STILE_PLAYER : '') + (amazonPerScheda(c.slug) ? STILE_AMAZON_MOBILE : ''),
     corpo,
     datiStrutturati: conBreadcrumb(
       {

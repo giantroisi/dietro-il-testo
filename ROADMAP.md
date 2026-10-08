@@ -4413,3 +4413,7 @@ Richiesto un riquadro come nell’esempio indicato dal proprietario: aggiunti no
 ## 72. Riquadro tipografico del disco, 8 ottobre 2026
 
 Su richiesta «proviamo», rimosso il disco generico. Titolo in carattere editoriale, artista e formato, superficie sobria e pulsante «Vedi su Amazon» nel colore del sito. Desktop: titolo e pulsante affiancati; mobile: pulsante sotto. Nessun prezzo o copertina non autorizzata. Informativa e destinazione invariate. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`. Generazione, affiliazioni, prove negative, SEO e link superati; controllati desktop 1280 px e mobile 390 px nei temi chiaro e scuro, senza overflow.
+
+## 73. Tre posizioni Amazon su mobile, 8 ottobre 2026
+
+Su richiesta esplicita, aggiunti due richiami compatti allo stesso prodotto: sotto il collegamento esterno Spotify e dopo la storia. Riquadro principale sotto il titolo mantenuto. Le due aggiunte sono nascoste sopra 760 px: desktop conserva un solo riquadro. Nessun nuovo prodotto, URL ufficiale identico in tutti e tre i collegamenti, informativa unica a fine scheda. Il componente si attiva solo nelle schede con prodotto configurato; senza Spotify non genera il relativo richiamo. Generazione, affiliazioni, prove negative, SEO e link superati; browser 390 px: tre riquadri visibili, nessun overflow, posizione sotto Spotify e dopo la storia controllata; 1280 px: uno visibile. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`.
