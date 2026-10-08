@@ -4381,3 +4381,9 @@ Il proprietario ha approvato la proposta `codex/ritratto-tool-foto-2026-10-07` (
 I quattro file trasferiti sono identici byte per byte alla proposta già verificata nel browser desktop e mobile. Nel `main` passano i controlli di crediti e file, SEO (696 HTML, zero rilievi), coerenza (321 canzoni e 104 artisti, zero rilievi), link, completezza, affiliazioni, freno, natura e `git diff --check`. La canonical della pagina è `https://www.dietroiltesto.it/artista/tool/`.
 
 **Stato:** integrazione locale approvata e verificata. Nessun push o pubblicazione autorizzati con questa approvazione. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è rimasto invariato.
+
+## Proposta fotografica Domenico Modugno, 8 ottobre 2026 — IMMAGINI
+
+Preparata una foto di Modugno a Sanremo 1962 dall'archivio Touring Club Italiano: autore non identificato, CC BY-SA 4.0 e autorizzazione VRT pubblicamente documentata sulla pagina originale riaperta. Dossier `rapporti/licenze/ritratto-modugno-2026-10-08.md`; versione Commons 960×1203 px, senza modifiche locali, credito TCI e licenza visibili.
+
+Passano generazione (695 pagine più 404), crediti/file, SEO, link e diff. Anteprime desktop 1280 px e mobile 390 px: fotografia caricata, credito leggibile, canonical corretta, nessuna fuoriuscita. Limiti: autore ignoto e segni della stampa storica conservati. Copia `/Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-modugno-ritratto`. IMMAGINI concluso come proposta verificata, in attesa di approvazione; nessuna integrazione, push o pubblicazione. Integrare soltanto la voce domenico-modugno nel JSON.

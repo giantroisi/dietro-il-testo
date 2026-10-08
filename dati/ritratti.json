@@ -956,15 +956,61 @@
     "alt": "I Tool si esibiscono su un palco illuminato di viola a Birmingham nel 2022, con musicisti e batteria davanti alla scenografia",
     "modifiche": "File originale Commons 1024 × 576 px copiato senza ritagli o ritocchi locali; il CSS ne ridimensiona soltanto la visualizzazione.",
     "creditoVisibile": "Foto di Lugnuts · Tool dal vivo a Birmingham, 2022 · CC BY-SA 4.0 · nessun ritocco locale",
-    "dimensioni": {"larghezza": 1024, "altezza": 576},
+    "dimensioni": {
+      "larghezza": 1024,
+      "altezza": 576
+    },
     "byte": 229421,
     "sha256": "619c7a4a228d709302bdaab07c0fab2d6d52b57a5e62a28c8a0041dab536a10d",
     "creditoParti": [
       "Foto di Lugnuts · ",
-      {"testo": "Tool dal vivo a Birmingham, 2022", "url": "https://commons.wikimedia.org/wiki/File:Tool_live_Birmingham_2022.jpg"},
+      {
+        "testo": "Tool dal vivo a Birmingham, 2022",
+        "url": "https://commons.wikimedia.org/wiki/File:Tool_live_Birmingham_2022.jpg"
+      },
       " · ",
-      {"testo": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"},
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
       " · nessun ritocco locale"
     ]
+  },
+  "domenico-modugno": {
+    "file": "modugno-sanremo-1962.jpg",
+    "autore": "Autore non identificato",
+    "titolare": "Touring Club Italiano (autorizzazione documentata sulla pagina Commons)",
+    "licenza": "CC BY-SA 4.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Photo_Sanremo._XII_Festival_della_Canzone_Italiana._Domenico_Modugno_performs_his_song_Addio_addio_1962_-_Touring_Club_Italiano_04_2067.jpg",
+    "fonteOriginale": "https://commons.wikimedia.org/wiki/File:Photo_Sanremo._XII_Festival_della_Canzone_Italiana._Domenico_Modugno_performs_his_song_Addio_addio_1962_-_Touring_Club_Italiano_04_2067.jpg",
+    "titoloOriginale": "Sanremo. XII Festival della canzone italiana. Domenico Modugno interpreta la sua canzone Addio addio",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Photo_Sanremo._XII_Festival_della_Canzone_Italiana._Domenico_Modugno_performs_his_song_Addio_addio_1962_-_Touring_Club_Italiano_04_2067.jpg/960px-Photo_Sanremo._XII_Festival_della_Canzone_Italiana._Domenico_Modugno_performs_his_song_Addio_addio_1962_-_Touring_Club_Italiano_04_2067.jpg",
+    "dataScatto": "1962",
+    "dataVerifica": "2026-10-08",
+    "paginaUso": "/artista/domenico-modugno/",
+    "alt": "Domenico Modugno canta al microfono al Festival di Sanremo del 1962, in una fotografia dell’archivio Touring Club Italiano",
+    "modifiche": "Versione web Commons a 960 px della scansione TCI; nessun ulteriore ritaglio, ricompressione o ritocco locale. Conservati i segni della stampa storica; CC BY-SA 4.0.",
+    "creditoRichiesto": "Touring Club Italiano",
+    "creditoVisibile": "Archivio Touring Club Italiano · Autore non identificato · CC BY-SA 4.0 · versione web Commons",
+    "creditoParti": [
+      {
+        "testo": "Archivio Touring Club Italiano",
+        "url": "https://commons.wikimedia.org/wiki/File:Photo_Sanremo._XII_Festival_della_Canzone_Italiana._Domenico_Modugno_performs_his_song_Addio_addio_1962_-_Touring_Club_Italiano_04_2067.jpg"
+      },
+      " · Autore non identificato · ",
+      {
+        "testo": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      " · versione web Commons"
+    ],
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1203
+    },
+    "byte": 168049,
+    "sha256": "dd1cb621367aa061472f4c6b8364d6971af0eb756ad9c87387f11c02a6c6fa50",
+    "autorizzazioneVRT": "2022090510003181"
   }
 }
