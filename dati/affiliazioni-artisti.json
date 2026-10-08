@@ -103,9 +103,9 @@
   ],
   "a-ha": [
     "album/a-ha/hunting-high-and-low",
+    "album/a-ha/minor-earth-major-sky",
     "album/a-ha/hunting-high-and-low",
-    "album/a-ha/hunting-high-and-low",
-    "album/a-ha/hunting-high-and-low"
+    "album/a-ha/minor-earth-major-sky"
   ],
   "adriano-celentano": [
     "album/adriano-celentano/il-ragazzo-della-via-gluck",
@@ -130,5 +130,35 @@
     "album/guns-n-roses/use-your-illusion-i",
     "album/guns-n-roses/appetite-for-destruction",
     "album/guns-n-roses/use-your-illusion-i"
+  ],
+  "ed-sheeran": [
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide"
+  ],
+  "linkin-park": [
+    "album/linkin-park/hybrid-theory",
+    "album/linkin-park/meteora",
+    "album/linkin-park/hybrid-theory",
+    "album/linkin-park/meteora"
+  ],
+  "green-day": [
+    "album/green-day/dookie",
+    "album/green-day/dookie",
+    "album/green-day/dookie",
+    "album/green-day/dookie"
+  ],
+  "muse": [
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations"
+  ],
+  "nirvana": [
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind"
   ]
 }

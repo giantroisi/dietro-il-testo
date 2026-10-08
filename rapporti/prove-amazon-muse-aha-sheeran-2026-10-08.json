@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-08",
+  "pages": [
+    "album/a-ha/minor-earth-major-sky/index.html",
+    "album/ed-sheeran/divide/index.html",
+    "album/linkin-park/hybrid-theory/index.html",
+    "album/linkin-park/meteora/index.html",
+    "album/green-day/dookie/index.html",
+    "album/muse/black-holes-and-revelations/index.html",
+    "album/nirvana/nevermind/index.html",
+    "canzone/in-the-end/index.html",
+    "canzone/teen-spirit/index.html",
+    "canzone/numb/index.html",
+    "canzone/basket-case/index.html",
+    "canzone/crawling/index.html",
+    "canzone/one-step-closer/index.html",
+    "canzone/starlight/index.html",
+    "canzone/shape-of-you/index.html",
+    "canzone/supermassive-black-hole/index.html",
+    "canzone/knights-of-cydonia/index.html",
+    "canzone/castle-on-the-hill/index.html",
+    "canzone/summer-moved-on/index.html",
+    "canzone/come-as-you-are/index.html",
+    "artista/a-ha/index.html",
+    "artista/ed-sheeran/index.html",
+    "artista/linkin-park/index.html",
+    "artista/green-day/index.html",
+    "artista/muse/index.html",
+    "artista/nirvana/index.html"
+  ],
+  "products": [
+    {
+      "key": "album/a-ha/minor-earth-major-sky",
+      "title": "Minor Earth, Major Sky",
+      "artist": "a-ha",
+      "asin": "B07WLBQWPW",
+      "source": "https://www.amazon.it/Minor-Earth-Major-Sky-Remastered/dp/B07WLBQWPW",
+      "href": "https://www.amazon.it/Minor-Earth-Major-Sky-Remastered/dp/B07WLBQWPW?&linkCode=ll2&tag=dietroiltesto-21&linkId=5e627f37ada5441d2f57424b1712a106&ref_=as_li_ss_tl",
+      "edition": "Remastered"
+    },
+    {
+      "key": "album/ed-sheeran/divide",
+      "title": "Divide",
+      "artist": "Ed Sheeran",
+      "asin": "B01N216CIO",
+      "source": "https://www.amazon.it/Divide-ed-sheeran/dp/B01N216CIO",
+      "href": "https://www.amazon.it/Divide-ed-sheeran/dp/B01N216CIO?&linkCode=ll2&tag=dietroiltesto-21&linkId=a4a54e041a577874240cf6ab59e2f56b&ref_=as_li_ss_tl"
+    },
+    {
+      "key": "album/linkin-park/hybrid-theory",
+      "title": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "asin": "B00F5YTHYQ",
+      "source": "https://www.amazon.it/Hybrid-Theory-Linkin-Park/dp/B00F5YTHYQ",
+      "href": "https://www.amazon.it/Hybrid-Theory-Linkin-Park/dp/B00F5YTHYQ?&linkCode=ll2&tag=dietroiltesto-21&linkId=fac513106e173936d91a056e36b45c17&ref_=as_li_ss_tl"
+    },
+    {
+      "key": "album/linkin-park/meteora",
+      "title": "Meteora",
+      "artist": "Linkin Park",
+      "asin": "B0D5J29LLL",
+      "source": "https://www.amazon.it/Meteora-Vinile-Translucent-Gold-Splatter/dp/B0D5J29LLL",
+      "href": "https://www.amazon.it/Meteora-Vinile-Translucent-Gold-Splatter/dp/B0D5J29LLL?&linkCode=ll2&tag=dietroiltesto-21&linkId=3c78c4d7adad6f9f97ff9159328a8e42&ref_=as_li_ss_tl"
+    },
+    {
+      "key": "album/green-day/dookie",
+      "title": "Dookie",
+      "artist": "Green Day",
+      "asin": "B001U7WUW8",
+      "source": "https://www.amazon.it/Dookie-Green-Day/dp/B001U7WUW8",
+      "href": "https://www.amazon.it/Dookie-Green-Day/dp/B001U7WUW8?&linkCode=ll2&tag=dietroiltesto-21&linkId=ccef6be2ed9c3c12ebefa7d23deef0d3&ref_=as_li_ss_tl"
+    },
+    {
+      "key": "album/muse/black-holes-and-revelations",
+      "title": "Black Holes and Revelations",
+      "artist": "Muse",
+      "asin": "B000G03S94",
+      "source": "https://www.amazon.it/Black-Holes-Revelations-Muse/dp/B000G03S94",
+      "href": "https://www.amazon.it/dp/B000G03S94/ref=nosim?tag=dietroiltesto-21",
+      "edition": "3Imp.Usa",
+      "method": "formato-documentato-amazon"
+    },
+    {
+      "key": "album/nirvana/nevermind",
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "asin": "B0000088DC",
+      "source": "https://www.amazon.it/Nevermind-Nirvana/dp/B0000088DC",
+      "href": "https://www.amazon.it/dp/B0000088DC/ref=nosim?tag=dietroiltesto-21",
+      "seller": "DISC JOCKEY 70",
+      "method": "formato-documentato-amazon"
+    }
+  ],
+  "checks": {
+    "generated": 695,
+    "html_checked": 696,
+    "affiliate_links_dom": 672,
+    "seo_errors": 0,
+    "link_errors": 0,
+    "negative_tests": 9,
+    "empty_tracking_disables": true
+  },
+  "browser": [
+    {
+      "width": 1280,
+      "height": 900,
+      "routes": [
+        "album/a-ha/minor-earth-major-sky/index.html",
+        "album/ed-sheeran/divide/index.html",
+        "album/linkin-park/hybrid-theory/index.html",
+        "album/linkin-park/meteora/index.html",
+        "album/green-day/dookie/index.html",
+        "album/muse/black-holes-and-revelations/index.html",
+        "album/nirvana/nevermind/index.html",
+        "canzone/in-the-end/index.html",
+        "canzone/teen-spirit/index.html",
+        "canzone/numb/index.html",
+        "canzone/basket-case/index.html",
+        "canzone/crawling/index.html",
+        "canzone/one-step-closer/index.html",
+        "canzone/starlight/index.html",
+        "canzone/shape-of-you/index.html",
+        "canzone/supermassive-black-hole/index.html",
+        "canzone/knights-of-cydonia/index.html",
+        "canzone/castle-on-the-hill/index.html",
+        "canzone/summer-moved-on/index.html",
+        "canzone/come-as-you-are/index.html",
+        "artista/a-ha/index.html",
+        "artista/ed-sheeran/index.html",
+        "artista/linkin-park/index.html",
+        "artista/green-day/index.html",
+        "artista/muse/index.html",
+        "artista/nirvana/index.html"
+      ],
+      "passed": 26
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "routes": [
+        "album/a-ha/minor-earth-major-sky/index.html",
+        "album/ed-sheeran/divide/index.html",
+        "album/linkin-park/hybrid-theory/index.html",
+        "album/linkin-park/meteora/index.html",
+        "album/green-day/dookie/index.html",
+        "album/muse/black-holes-and-revelations/index.html",
+        "album/nirvana/nevermind/index.html",
+        "canzone/in-the-end/index.html",
+        "canzone/teen-spirit/index.html",
+        "canzone/numb/index.html",
+        "canzone/basket-case/index.html",
+        "canzone/crawling/index.html",
+        "canzone/one-step-closer/index.html",
+        "canzone/starlight/index.html",
+        "canzone/shape-of-you/index.html",
+        "canzone/supermassive-black-hole/index.html",
+        "canzone/knights-of-cydonia/index.html",
+        "canzone/castle-on-the-hill/index.html",
+        "canzone/summer-moved-on/index.html",
+        "canzone/come-as-you-are/index.html",
+        "artista/a-ha/index.html",
+        "artista/ed-sheeran/index.html",
+        "artista/linkin-park/index.html",
+        "artista/green-day/index.html",
+        "artista/muse/index.html",
+        "artista/nirvana/index.html"
+      ],
+      "passed": 26
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "routes": [
+        "album/muse/black-holes-and-revelations/index.html",
+        "canzone/knights-of-cydonia/index.html",
+        "canzone/summer-moved-on/index.html",
+        "artista/linkin-park/index.html"
+      ],
+      "passed": 4
+    }
+  ],
+  "browser_assertions": [
+    "tre riquadri visibili per album/canzoni; quattro per artisti",
+    "nessun overflow",
+    "pulsanti contenuti",
+    "canonical corretta",
+    "tag dietroiltesto-21",
+    "informativa presente",
+    "riquadro artista fra canzoni e discografia"
+  ],
+  "copied_urls_identical": 7,
+  "navigation": {
+    "path": [
+      "artista/ed-sheeran/",
+      "album/ed-sheeran/divide/",
+      "canzone/castle-on-the-hill/"
+    ],
+    "width": 390,
+    "verified": true,
+    "asin": "B01N216CIO"
+  },
+  "local_sha256": {
+    "album/a-ha/minor-earth-major-sky/index.html": "929aac20da985bd0735787aa7ed7c9b0168c827e841e85f2330ac763baf18996",
+    "album/ed-sheeran/divide/index.html": "244b6d90c24f5c6c539888d6330afc118e506d479f911783554f5afb7bc43736",
+    "album/linkin-park/hybrid-theory/index.html": "4edb2c966f1af5878ed9d48dd9c86b8128e0b52f2cf1f97f664a2087d0506dbf",
+    "album/linkin-park/meteora/index.html": "a68e4eb069127f6fdcf1a6d85ea891e4d503ca7b635cf40c612d666ec010030b",
+    "album/green-day/dookie/index.html": "f482dab7334f270413d611f92f2fea011a38bfd29f001e8acfda82af911a8bfc",
+    "album/muse/black-holes-and-revelations/index.html": "7b4b1bd055c0725f258075f14b6eba573a7ce4be76a0fa8a8ca523c1abc27141",
+    "album/nirvana/nevermind/index.html": "58b142a8e1fae9031922fcf7e5fc48ae8945f1e1f20edff4841c7795f597c4a9",
+    "canzone/in-the-end/index.html": "93eb944fc9537a6beb0b4febc8174cdea6eeb16b02caa209a889865969151e85",
+    "canzone/teen-spirit/index.html": "94689021746f7ea472fc0f234e42cc4789c20ab8d815e456a26e8df44abdbe2a",
+    "canzone/numb/index.html": "b7e8c63ad0e1da4dcf881d1762e85af54d3c4e82e3a1f5f1943d323f62715c11",
+    "canzone/basket-case/index.html": "6d82a455913c5fd6332224c6120a54e5978481b0024240aded73a82389e474fa",
+    "canzone/crawling/index.html": "ae09cf5e97baec0b8b2c1e55a0ccd23069bb8fa68c51286df8eef8f299ebaed9",
+    "canzone/one-step-closer/index.html": "98eb9fcb30c295506f437f4051b087be82987cd24356ba6f7f3bfcc9ed5a0848",
+    "canzone/starlight/index.html": "bae8dc835113b95b29995a58a9cc3e9e9dd529007d99460e114a4b9f62da26c8",
+    "canzone/shape-of-you/index.html": "3a9624ae11c47659dbde86a7d84bccdf5e3e371787a5670043f7ff091414a2e5",
+    "canzone/supermassive-black-hole/index.html": "979638452bc5b0a853c1d5fa6f04222007942aa86295278eaf8271e72b52d7f9",
+    "canzone/knights-of-cydonia/index.html": "3ee50ba0e78f4933a7cb113cefb29dea834897cc4858cf71bd681ffdd44e5f34",
+    "canzone/castle-on-the-hill/index.html": "cff0ea33ea517ec3c76d67135e1edfea025434f3a0bfffc437934c31078c36cd",
+    "canzone/summer-moved-on/index.html": "7626168bb54cacb4e7e724d71d23b3651b2c1b8c37cfb45561627a4743f87fa2",
+    "canzone/come-as-you-are/index.html": "02bcc46b7cdb34f82ce14a65779fe3def5fb009a081f8185943efc168d73dca6",
+    "artista/a-ha/index.html": "662d05338dc94c82e1bc3807f4d40d36bb76fbe3bb0b51500e972e545c22f6dd",
+    "artista/ed-sheeran/index.html": "96dadc67bdc9fa86bb2d0b96fee7d00940d086daccea5427cad44f8bd1005319",
+    "artista/linkin-park/index.html": "9bcd58e7eec9f48e0168f446e31ba1b33afa55aa6304b247731ef9e78443dc57",
+    "artista/green-day/index.html": "31db0b75c89780baf07888de7328ed70140537eb711d02fb2f6cad91977956cb",
+    "artista/muse/index.html": "269000c65d9cc164f924eb54cf2e6ca398d08a788f097cb350ce82406b659d4d",
+    "artista/nirvana/index.html": "1afb23edf1cc5cf292f6413b009570f122f3d31916224e42e4ce344f4e164f71"
+  }
+}
