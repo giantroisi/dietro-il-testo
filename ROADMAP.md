@@ -4387,3 +4387,7 @@ I quattro file trasferiti sono identici byte per byte alla proposta già verific
 Preparata in copia indipendente la correzione del rilievo sostanziale del lotto 08 dell'altra AI: dichiarazione di Jones e collegamento a Ellen Foley, improprio «title track», doppio album e ruolo di Glyn Johns, catena del racconto di Ely e versione divergente di Strummer, picco 1982 del singolo a doppio lato A. Fonti pertinenti riaperte; dossier in `rapporti/correzione-should-i-stay-2026-10-08.md`. Aggiornati corpo, frase iconica, fonti, pagina, ricerca e OG. Non attestata una verifica integrale della scheda.
 
 Generazione completata (695 pagine più 404); passano SEO, coerenza, completezza, link, natura e diff. Browser desktop 1280 px e mobile 390 px: testo leggibile, canonical corretta, nessuna fuoriuscita orizzontale. Copia: `/Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-correzione-should-i-stay`. **Stato:** proposta verificata, in attesa di approvazione specifica; nessuna integrazione, push o pubblicazione. Concluso un intervento di manutenzione urgente; la priorità della routine torna alle immagini.
+
+## 67. Pubblicazione approvata, 8 ottobre 2026
+
+Il proprietario ha autorizzato pubblicazione del lavoro completato: correzione Should I Stay or Should I Go, foto Tool già integrata, Fulminacci, Domenico Modugno e Toto Cutugno. Voci fotografiche unite singolarmente, conservate copie originali e non tracciati. Dossier delle licenze nelle rispettive pagine di rapporto.
