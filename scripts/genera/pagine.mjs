@@ -1264,7 +1264,7 @@ export function paginaAlbum(al, ctx) {
     // la pagina esiste (chi ha il link diretto la trova) ma resta fuori
     // dall'indice dei motori.
     noindexFollow: !al.indicizzabile,
-    stileExtra: STILE_ALBUM,
+    stileExtra: STILE_ALBUM + (amazonPerScheda(prodottoAlbum) ? STILE_AMAZON_MOBILE : ''),
     corpo,
     datiStrutturati: conBreadcrumb(
       {
