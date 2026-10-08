@@ -30,3 +30,5 @@ Adeguato check-affiliazioni: superato il vecchio tetto dei tre prodotti iniziali
 Generazione 695 pagine più 404; affiliazioni, sei prove negative e disattivazione ID vuoto, SEO su 696 HTML e link interni/esterni: superati. Tutte le 16 pagine aperte nel browser a 1280 e 390 px: tre riquadri visibili, canonical e collegamento Affiliazioni corretti, nessun overflow, pulsante compatto dentro il riquadro. NeX GEn, il titolo album più lungo, controllato anche a 320 px, senza fuoriuscite. Le sitemap cambiano solo per le 16 pagine.
 
 Copia /private/tmp/dit-pulsante-amazon-2026-10-08, ramo codex/amazon-bmth-altri-album-2026-10-08. Preparato e verificato, pubblicazione richiesta ancora da confermare live. Main: ricerca.mjs modificato e due file non tracciati preservati.
+
+Pubblicazione confermata: commit `878713796` su origin/main. Tutte le 16 nuove pagine live sono identiche byte per byte ai file locali; percorso album That's the Spirit → Follow You verificato nel browser live, tre riquadri, ASIN B012BCLPB2, tag dietroiltesto-21 e nessun overflow. Main: ricerca.mjs e due file non tracciati preservati.
