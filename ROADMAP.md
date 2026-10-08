@@ -4405,3 +4405,7 @@ Su richiesta del proprietario, il collegamento di Hotel California passa dalle f
 ## 70. Presentazione Amazon richiesta dal proprietario, 8 ottobre 2026
 
 Il proprietario ha richiesto esplicitamente il modello di Dottorciclismo: solo «Acquista su Amazon» nel pulsante sotto il titolo, informativa a fine scheda. La guida ufficiale Amazon GHQNZAU6669EZS98, riaperta oggi, indica invece un avviso vicino al link: differenza comunicata al proprietario prima di applicare la richiesta; non attestata conformità di questo posizionamento. Componente e prove adattati, URL e rel invariati. Generazione, affiliazioni, cinque prove negative, disattivazione ID vuoto, SEO e link superati; browser mobile senza overflow. Nessun nuovo prodotto introdotto.
+
+## 71. Riquadro prodotto Amazon, 8 ottobre 2026
+
+Richiesto un riquadro come nell’esempio indicato dal proprietario: aggiunti nome album, artista e formato verificati al catalogo, visualizzati sopra «Acquista su Amazon». Grafica vettoriale originale di un disco, decorativa e nascosta agli screen reader; non è una riproduzione della copertina né un’immagine copiata da Amazon. Nessun prezzo, recensione o promessa Prime nel blocco. Informativa a fine scheda mantenuta come espressamente richiesto (§70, limite di conformità già comunicato). Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`. Generazione, affiliazioni, prove negative, SEO e link superati; browser mobile 390 px e desktop 1280 px senza overflow. Copertina effettiva non inserita: serve una fonte e un’autorizzazione adatte.

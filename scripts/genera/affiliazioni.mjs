@@ -21,7 +21,7 @@ export function amazonPerScheda(slug) {
 export const AVVISO_AFFILIATO = 'Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te';
 
 /** Produce solo un link testuale già verificato. Con ID vuoto non produce HTML. */
-export function collegamentoAmazon({ href, testo, origine } = {}) {
+export function collegamentoAmazon({ href, testo, origine, titolo, artista, formato } = {}) {
   if (!TRACKING_ID_AMAZON || !href) return '';
   if (origine !== 'strumento-ufficiale-amazon') throw new Error('Link Amazon privo di verifica ufficiale');
   if (typeof testo !== 'string' || !testo.trim()) throw new Error('Testo del link Amazon assente');
@@ -35,8 +35,14 @@ export function collegamentoAmazon({ href, testo, origine } = {}) {
     throw new Error('Tracking ID del link Amazon non corrispondente alla configurazione');
   }
 
-  return `<aside class="acquisto-affiliato" aria-label="Acquisto su Amazon">
-    <a class="bottone" href="${esc(url.href)}" aria-label="Acquista su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener">Acquista su Amazon</a>
+  if (![titolo, artista, formato].every(v => typeof v === 'string' && v.trim())) throw new Error('Identità del prodotto incompleta');
+  return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding:18px;border:1px solid var(--border);border-radius:8px;background:var(--surface);margin-top:16px">
+    <svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" style="flex:none"><circle cx="48" cy="48" r="46" fill="var(--text)"/><circle cx="48" cy="48" r="35" fill="none" stroke="var(--surface)" opacity=".3"/><circle cx="48" cy="48" r="29" fill="none" stroke="var(--surface)" opacity=".3"/><circle cx="48" cy="48" r="16" fill="var(--surface)"/><circle cx="48" cy="48" r="3" fill="var(--text)"/></svg>
+    <div style="flex:1 1 180px;min-width:0">
+      <p style="margin:0;font-weight:700">${esc(titolo)}</p>
+      <p style="margin:4px 0 12px">${esc(artista)} · ${esc(formato)}</p>
+      <a class="bottone" href="${esc(url.href)}" aria-label="Acquista su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener">Acquista su Amazon</a>
+    </div>
   </aside>`;
 }
 
