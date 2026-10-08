@@ -47,3 +47,6 @@ Questi esiti riguardano le offerte viste oggi, non attestano indisponibilità as
 - Nessun prezzo, asset Amazon o promessa Prime pubblicata. Prime vale per l’offerta controllata in questa data. Informativa a fondo pagina come richiesto, limite Roadmap §70 invariato. Nessun dato GSC.
 
 Pubblicazione richiesta: verifica live da completare.
+
+
+Pubblicazione confermata: commit `a4404d9e0` su origin/main, deploy `dpl_5M5egSjvhUwvTE8vB4jVKh8Gi78d` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 19 pagine HTTPS sono identiche byte per byte ai file controllati. Percorso Battiato → Fisiognomica → E ti vengo a cercare mobile positivo: quattro riquadri artista e tre canzone, CD B0018BDARU condiviso e indicato nel riquadro, tag corretto, nessun overflow. Sonne desktop: tre riquadri, vinile B073G3ZLDJ e pulsanti contenuti. Main, ricerca e due file SEO non tracciati preservati; routine sospesa.

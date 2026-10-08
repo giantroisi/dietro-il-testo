@@ -1252,6 +1252,245 @@
     "linksDom": 866
   },
   "publication": {
-    "status": "pending"
+    "status": "verified",
+    "contentCommit": "a4404d9e0a7ff75da7b8e349e99d13b4a822ee5f",
+    "deploymentId": "dpl_5M5egSjvhUwvTE8vB4jVKh8Gi78d",
+    "deploymentState": "READY",
+    "deploymentTarget": "production",
+    "productionAlias": "www.dietroiltesto.it",
+    "deploymentCommitMatches": true,
+    "githubVercelStatus": "success",
+    "http": [
+      {
+        "route": "album/caparezza/verita-supposte/index.html",
+        "url": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+        "httpStatus": 200,
+        "expectedSha256": "d25030488313aabe5cb0ebc89c27c35dd7ef902ffb6dc9afba55936d866a790d",
+        "receivedSha256": "d25030488313aabe5cb0ebc89c27c35dd7ef902ffb6dc9afba55936d866a790d",
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna/index.html",
+        "url": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+        "httpStatus": 200,
+        "expectedSha256": "286d6e78d9d41c664b731c8c026b2344e9e3daed5d1fb6c8b0eacfd4b8d909f0",
+        "receivedSha256": "286d6e78d9d41c664b731c8c026b2344e9e3daed5d1fb6c8b0eacfd4b8d909f0",
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/fisiognomica/index.html",
+        "url": "https://www.dietroiltesto.it/album/franco-battiato/fisiognomica/",
+        "httpStatus": 200,
+        "expectedSha256": "2ed60f14985e8e6645f1112a743c28cf048886d8714eaa6e13ca053b935b1349",
+        "receivedSha256": "2ed60f14985e8e6645f1112a743c28cf048886d8714eaa6e13ca053b935b1349",
+        "ok": true
+      },
+      {
+        "route": "album/ligabue/miss-mondo/index.html",
+        "url": "https://www.dietroiltesto.it/album/ligabue/miss-mondo/",
+        "httpStatus": 200,
+        "expectedSha256": "3177ddc080ccb560e5fa384183f19020e27a91eb40904a3cd1efdbfa65f7ec5b",
+        "receivedSha256": "3177ddc080ccb560e5fa384183f19020e27a91eb40904a3cd1efdbfa65f7ec5b",
+        "ok": true
+      },
+      {
+        "route": "album/pino-daniele/vai-mo/index.html",
+        "url": "https://www.dietroiltesto.it/album/pino-daniele/vai-mo/",
+        "httpStatus": 200,
+        "expectedSha256": "a2b9000358e8f6d7b4883734af7696287660fa5fdc2bed9746db81ad5b183515",
+        "receivedSha256": "a2b9000358e8f6d7b4883734af7696287660fa5fdc2bed9746db81ad5b183515",
+        "ok": true
+      },
+      {
+        "route": "album/rammstein/mutter/index.html",
+        "url": "https://www.dietroiltesto.it/album/rammstein/mutter/",
+        "httpStatus": 200,
+        "expectedSha256": "8cc43e7e85797feeb86e7feef2b8af89e2df3a23d6f51d30e3fa5b54d088be55",
+        "receivedSha256": "8cc43e7e85797feeb86e7feef2b8af89e2df3a23d6f51d30e3fa5b54d088be55",
+        "ok": true
+      },
+      {
+        "route": "artista/caparezza/index.html",
+        "url": "https://www.dietroiltesto.it/artista/caparezza/",
+        "httpStatus": 200,
+        "expectedSha256": "8ac19336de5c54ad1b0b08942d2e07f482ee1a2b4af75a8ff294b4e5f72d5ca1",
+        "receivedSha256": "8ac19336de5c54ad1b0b08942d2e07f482ee1a2b4af75a8ff294b4e5f72d5ca1",
+        "ok": true
+      },
+      {
+        "route": "artista/cesare-cremonini/index.html",
+        "url": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+        "httpStatus": 200,
+        "expectedSha256": "a4458913e4d68a0efebccc3fa38f3747eb9e70a30ccde60daab7714d65ead929",
+        "receivedSha256": "a4458913e4d68a0efebccc3fa38f3747eb9e70a30ccde60daab7714d65ead929",
+        "ok": true
+      },
+      {
+        "route": "artista/franco-battiato/index.html",
+        "url": "https://www.dietroiltesto.it/artista/franco-battiato/",
+        "httpStatus": 200,
+        "expectedSha256": "e9bc73c7d136359922f6d2fef1af64d66c94668e0b6161dc61baef11375e50f9",
+        "receivedSha256": "e9bc73c7d136359922f6d2fef1af64d66c94668e0b6161dc61baef11375e50f9",
+        "ok": true
+      },
+      {
+        "route": "artista/ligabue/index.html",
+        "url": "https://www.dietroiltesto.it/artista/ligabue/",
+        "httpStatus": 200,
+        "expectedSha256": "a8c7e2cf2f86b982e00a17a650a66541b05a64b81ae194d7bb2726e49295b373",
+        "receivedSha256": "a8c7e2cf2f86b982e00a17a650a66541b05a64b81ae194d7bb2726e49295b373",
+        "ok": true
+      },
+      {
+        "route": "artista/pino-daniele/index.html",
+        "url": "https://www.dietroiltesto.it/artista/pino-daniele/",
+        "httpStatus": 200,
+        "expectedSha256": "6fd6ad9b7b92086c5b366e83082cc149923406321fe12316bb475487c253ff8d",
+        "receivedSha256": "6fd6ad9b7b92086c5b366e83082cc149923406321fe12316bb475487c253ff8d",
+        "ok": true
+      },
+      {
+        "route": "artista/rammstein/index.html",
+        "url": "https://www.dietroiltesto.it/artista/rammstein/",
+        "httpStatus": 200,
+        "expectedSha256": "091dc3195690f8d95136b8009e9690d75dc606c95c05eb9931b360e17b0829de",
+        "receivedSha256": "091dc3195690f8d95136b8009e9690d75dc606c95c05eb9931b360e17b0829de",
+        "ok": true
+      },
+      {
+        "route": "canzone/dicono-di-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dicono-di-me/",
+        "httpStatus": 200,
+        "expectedSha256": "2ba661367ed1b991decdf6c5a8114d3059448bba170e2846ccece9329f57a636",
+        "receivedSha256": "2ba661367ed1b991decdf6c5a8114d3059448bba170e2846ccece9329f57a636",
+        "ok": true
+      },
+      {
+        "route": "canzone/e-ti-vengo-a-cercare/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "httpStatus": 200,
+        "expectedSha256": "2bed2e10073e83ac0c3a904d52086dc749180215879651f04259b4f922cf8d53",
+        "receivedSha256": "2bed2e10073e83ac0c3a904d52086dc749180215879651f04259b4f922cf8d53",
+        "ok": true
+      },
+      {
+        "route": "canzone/fuori-dal-tunnel/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+        "httpStatus": 200,
+        "expectedSha256": "c200a173ba530db4b783240434bfcd85620ec0cd223905b9139b4d171306f5ab",
+        "receivedSha256": "c200a173ba530db4b783240434bfcd85620ec0cd223905b9139b4d171306f5ab",
+        "ok": true
+      },
+      {
+        "route": "canzone/sonne/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sonne/",
+        "httpStatus": 200,
+        "expectedSha256": "4384064b9b0fc92d71e331aef4ef392115bd75efc7d21999cc573a3a305bd2db",
+        "receivedSha256": "4384064b9b0fc92d71e331aef4ef392115bd75efc7d21999cc573a3a305bd2db",
+        "ok": true
+      },
+      {
+        "route": "canzone/una-vita-da-mediano/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+        "httpStatus": 200,
+        "expectedSha256": "4c4e362f1017d707fcb997d5b4380d1bf1ae509259fa3cdd2f7294a23008e858",
+        "receivedSha256": "4c4e362f1017d707fcb997d5b4380d1bf1ae509259fa3cdd2f7294a23008e858",
+        "ok": true
+      },
+      {
+        "route": "canzone/vengo-dalla-luna/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+        "httpStatus": 200,
+        "expectedSha256": "ed429765944d53f0220b7b406838f9ce99a8850095437045622ecd5ab21b3680",
+        "receivedSha256": "ed429765944d53f0220b7b406838f9ce99a8850095437045622ecd5ab21b3680",
+        "ok": true
+      },
+      {
+        "route": "canzone/yes-i-know-my-way/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yes-i-know-my-way/",
+        "httpStatus": 200,
+        "expectedSha256": "51197bfa1dd0d450020cd318a1ec4e8ddfd1a02f25897bbdd400d4c498624c10",
+        "receivedSha256": "51197bfa1dd0d450020cd318a1ec4e8ddfd1a02f25897bbdd400d4c498624c10",
+        "ok": true
+      }
+    ],
+    "liveBrowser": {
+      "checks": [
+        {
+          "route": "artista/franco-battiato",
+          "width": 390,
+          "asins": [
+            "B0778THHRN",
+            "B07VGRX5LT",
+            "B0778THHRN",
+            "B0018BDARU"
+          ],
+          "canonical": "https://www.dietroiltesto.it/artista/franco-battiato/",
+          "contained": true,
+          "count": 4,
+          "disclosure": true,
+          "overflow": false,
+          "positions": [
+            "immagine",
+            "canzoni",
+            "album",
+            "storia"
+          ],
+          "songBoundary": true,
+          "tag": true,
+          "ok": true
+        },
+        {
+          "route": "canzone/e-ti-vengo-a-cercare",
+          "width": 390,
+          "asins": [
+            "B0018BDARU",
+            "B0018BDARU",
+            "B0018BDARU"
+          ],
+          "canonical": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+          "contained": true,
+          "count": 3,
+          "disclosure": true,
+          "overflow": false,
+          "positions": [
+            null,
+            null,
+            null
+          ],
+          "songBoundary": true,
+          "tag": true,
+          "ok": true
+        },
+        {
+          "route": "canzone/sonne",
+          "width": 1280,
+          "asins": [
+            "B073G3ZLDJ",
+            "B073G3ZLDJ",
+            "B073G3ZLDJ"
+          ],
+          "canonical": "https://www.dietroiltesto.it/canzone/sonne/",
+          "contained": true,
+          "count": 3,
+          "disclosure": true,
+          "overflow": false,
+          "positions": [
+            null,
+            null,
+            null
+          ],
+          "songBoundary": true,
+          "tag": true,
+          "ok": true
+        }
+      ],
+      "flow": {
+        "route": "Battiato → Fisiognomica → E ti vengo a cercare",
+        "width": 390,
+        "ok": true
+      }
+    },
+    "tls": "normale verifica dei certificati TLS con curl"
   }
 }
