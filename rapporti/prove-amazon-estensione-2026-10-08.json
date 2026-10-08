@@ -659,5 +659,581 @@
     "canzoni": 62,
     "artisti": 14,
     "asinDistinti": 41
+  },
+  "pubblicazione": {
+    "commit": "0614bcbfd528364b9a5221c643fc318d9bb8dfe0",
+    "remoto": "origin/main",
+    "deploymentId": "dpl_BjM84P44ggVtHN1SiwTV5QX3xCDc",
+    "deploymentUrl": "dietro-il-testo-5hfjfb0uu-giantroisi1.vercel.app",
+    "statoVercel": "READY",
+    "target": "production",
+    "alias": "www.dietroiltesto.it",
+    "statoGitHubVercel": "success",
+    "https": [
+      {
+        "route": "album/ac-dc/back-in-black",
+        "ok": true,
+        "bytes": 56546,
+        "sha256": "37787a600010c5a22554fe96d0ef403a7b11852f62d27585e6c8fb86155a480f",
+        "expectedSha256": "37787a600010c5a22554fe96d0ef403a7b11852f62d27585e6c8fb86155a480f",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/ballbreaker",
+        "ok": true,
+        "bytes": 56284,
+        "sha256": "46edcffbe494062543d1f7fe58558cd3bfd0f6c8b083c543e9bf9ebbec3c5991",
+        "expectedSha256": "46edcffbe494062543d1f7fe58558cd3bfd0f6c8b083c543e9bf9ebbec3c5991",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/black-ice",
+        "ok": true,
+        "bytes": 56175,
+        "sha256": "eed8a605a564e3f80490c5e18d8e2c0c9f8baae823b031ba8c0991367cc41a1f",
+        "expectedSha256": "eed8a605a564e3f80490c5e18d8e2c0c9f8baae823b031ba8c0991367cc41a1f",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/dirty-deeds-done-dirt-cheap",
+        "ok": true,
+        "bytes": 56746,
+        "sha256": "9104b05f7eac456abd692470c29999c285dcad1ad82faa9b5b39e3b533c539df",
+        "expectedSha256": "9104b05f7eac456abd692470c29999c285dcad1ad82faa9b5b39e3b533c539df",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/flick-of-the-switch",
+        "ok": true,
+        "bytes": 56590,
+        "sha256": "944f64158f13b23c7806c98cadbf4b1682562d0aaff243c883d830b884547b24",
+        "expectedSha256": "944f64158f13b23c7806c98cadbf4b1682562d0aaff243c883d830b884547b24",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/for-those-about-to-rock-we-salute-you",
+        "ok": true,
+        "bytes": 56889,
+        "sha256": "be497112e9eddbfca39c463e0a7b8bab58181a416ca64a42b6093675039915a0",
+        "expectedSha256": "be497112e9eddbfca39c463e0a7b8bab58181a416ca64a42b6093675039915a0",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/high-voltage",
+        "ok": true,
+        "bytes": 55996,
+        "sha256": "473904e6495b79d66e46a18a84ab6b8375053e1c07b7ebaae5d0a6f3b74e176a",
+        "expectedSha256": "473904e6495b79d66e46a18a84ab6b8375053e1c07b7ebaae5d0a6f3b74e176a",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/highway-to-hell",
+        "ok": true,
+        "bytes": 56466,
+        "sha256": "21f33c25ced417716c8a5eb274e6fff88e12632a885207731e42a6cc75093436",
+        "expectedSha256": "21f33c25ced417716c8a5eb274e6fff88e12632a885207731e42a6cc75093436",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/let-there-be-rock",
+        "ok": true,
+        "bytes": 56405,
+        "sha256": "678fde61c3e30dde1dfef7098eb6ac817bb3be0d1823b3e30a8405a264005820",
+        "expectedSha256": "678fde61c3e30dde1dfef7098eb6ac817bb3be0d1823b3e30a8405a264005820",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/power-up",
+        "ok": true,
+        "bytes": 56343,
+        "sha256": "0996a21c41bffabb16170fdaba4df183597feb593edf13694c8c1d2313dfde57",
+        "expectedSha256": "0996a21c41bffabb16170fdaba4df183597feb593edf13694c8c1d2313dfde57",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/rock-or-bust",
+        "ok": true,
+        "bytes": 56440,
+        "sha256": "78c43ee12fbf45905dbe2439f12f0201456c38bb45663e6357005ab1371626fd",
+        "expectedSha256": "78c43ee12fbf45905dbe2439f12f0201456c38bb45663e6357005ab1371626fd",
+        "error": ""
+      },
+      {
+        "route": "album/ac-dc/stiff-upper-lip",
+        "ok": true,
+        "bytes": 56321,
+        "sha256": "4b37c4b2f9051d6e15428da64a85a2a5bd01c5396a8147f72e7c867faaf0b5fc",
+        "expectedSha256": "4b37c4b2f9051d6e15428da64a85a2a5bd01c5396a8147f72e7c867faaf0b5fc",
+        "error": ""
+      },
+      {
+        "route": "album/cesare-cremonini/possibili-scenari",
+        "ok": true,
+        "bytes": 55048,
+        "sha256": "703e9c9b45c4d817711eb38ef731f55b1fbf9d782277107a453eadd527848845",
+        "expectedSha256": "703e9c9b45c4d817711eb38ef731f55b1fbf9d782277107a453eadd527848845",
+        "error": ""
+      },
+      {
+        "route": "album/franco-battiato/l-era-del-cinghiale-bianco",
+        "ok": true,
+        "bytes": 54982,
+        "sha256": "198d5f226d11c0752aa9033d0f5d7150cb4ae2a55eb53b51f55739bb7807a1ce",
+        "expectedSha256": "198d5f226d11c0752aa9033d0f5d7150cb4ae2a55eb53b51f55739bb7807a1ce",
+        "error": ""
+      },
+      {
+        "route": "album/franco-battiato/patriots",
+        "ok": true,
+        "bytes": 54558,
+        "sha256": "c4fef51c8e171cda77b8b54fa1b16ac46ea2d42bdc780da78ae503263803ee17",
+        "expectedSha256": "c4fef51c8e171cda77b8b54fa1b16ac46ea2d42bdc780da78ae503263803ee17",
+        "error": ""
+      },
+      {
+        "route": "album/michael-jackson/bad",
+        "ok": true,
+        "bytes": 54055,
+        "sha256": "77b3b6fb5cb7a737469b7ae313d91954fde4cc01f98eebd058f8c50ce7500a1a",
+        "expectedSha256": "77b3b6fb5cb7a737469b7ae313d91954fde4cc01f98eebd058f8c50ce7500a1a",
+        "error": ""
+      },
+      {
+        "route": "album/michael-jackson/off-the-wall",
+        "ok": true,
+        "bytes": 53952,
+        "sha256": "e1674278ad57fd76ed60066a97e8f2ab39706c104e92256a614b6421290506c4",
+        "expectedSha256": "e1674278ad57fd76ed60066a97e8f2ab39706c104e92256a614b6421290506c4",
+        "error": ""
+      },
+      {
+        "route": "album/michael-jackson/thriller",
+        "ok": true,
+        "bytes": 55212,
+        "sha256": "5f8da3ed87fcc2fd7bcfbc0bae1da7e87ecd1a18d2e6fea1a278d23e8f73223b",
+        "expectedSha256": "5f8da3ed87fcc2fd7bcfbc0bae1da7e87ecd1a18d2e6fea1a278d23e8f73223b",
+        "error": ""
+      },
+      {
+        "route": "album/oasis/be-here-now",
+        "ok": true,
+        "bytes": 54347,
+        "sha256": "d4f763604bfe015dd701ab517d78e0bed486349f7312f1eb0ff44fedc4e1c49f",
+        "expectedSha256": "d4f763604bfe015dd701ab517d78e0bed486349f7312f1eb0ff44fedc4e1c49f",
+        "error": ""
+      },
+      {
+        "route": "album/oasis/definitely-maybe",
+        "ok": true,
+        "bytes": 54660,
+        "sha256": "120f4b7faf17716ab1cb729290f3b68043daab1df27f88ac4fa54325a0d1d258",
+        "expectedSha256": "120f4b7faf17716ab1cb729290f3b68043daab1df27f88ac4fa54325a0d1d258",
+        "error": ""
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/fake-news",
+        "ok": true,
+        "bytes": 55292,
+        "sha256": "839510dc083a9319689e3f83d5617ea727ce404d548388f2659fee1d168ad15f",
+        "expectedSha256": "839510dc083a9319689e3f83d5617ea727ce404d548388f2659fee1d168ad15f",
+        "error": ""
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/fuori-dall-hype",
+        "ok": true,
+        "bytes": 55697,
+        "sha256": "8bfb5e6441a70a26519bb7f6c34df90f2a2516bd43c77366a648d8a687fa1c55",
+        "expectedSha256": "8bfb5e6441a70a26519bb7f6c34df90f2a2516bd43c77366a648d8a687fa1c55",
+        "error": ""
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/hello-world",
+        "ok": true,
+        "bytes": 55302,
+        "sha256": "8b324b2b014f525959dc952b4247bf78b9f3a3ed34e8266c913dda02d46c1c76",
+        "expectedSha256": "8b324b2b014f525959dc952b4247bf78b9f3a3ed34e8266c913dda02d46c1c76",
+        "error": ""
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+        "ok": true,
+        "bytes": 56070,
+        "sha256": "955e3065d4490ab82c825d9e156fb043fd150d874efa2057e82c3e374ef604e2",
+        "expectedSha256": "955e3065d4490ab82c825d9e156fb043fd150d874efa2057e82c3e374ef604e2",
+        "error": ""
+      },
+      {
+        "route": "album/the-killers/hot-fuss",
+        "ok": true,
+        "bytes": 54068,
+        "sha256": "447eff1b1c0e972fac3ddd43678d7dcf53305db8a5d3d73f8449ac055c7a3cf2",
+        "expectedSha256": "447eff1b1c0e972fac3ddd43678d7dcf53305db8a5d3d73f8449ac055c7a3cf2",
+        "error": ""
+      },
+      {
+        "route": "artista/883",
+        "ok": true,
+        "bytes": 61018,
+        "sha256": "b29c1f40529d6e644f0bf713d0fca9f4336b1b36c08868ae1f5c94e160c33e2c",
+        "expectedSha256": "b29c1f40529d6e644f0bf713d0fca9f4336b1b36c08868ae1f5c94e160c33e2c",
+        "error": ""
+      },
+      {
+        "route": "artista/ac-dc",
+        "ok": true,
+        "bytes": 67118,
+        "sha256": "0c9e6f289321f6cb44f00cce724d87f9c9aedb155fce5ca1da17a3368578a3e1",
+        "expectedSha256": "0c9e6f289321f6cb44f00cce724d87f9c9aedb155fce5ca1da17a3368578a3e1",
+        "error": ""
+      },
+      {
+        "route": "artista/alice-in-chains",
+        "ok": true,
+        "bytes": 59786,
+        "sha256": "5fb2f7d7926315346cbd862487e1d6f7c24309f909b66ac4c3237146fd98d745",
+        "expectedSha256": "5fb2f7d7926315346cbd862487e1d6f7c24309f909b66ac4c3237146fd98d745",
+        "error": ""
+      },
+      {
+        "route": "artista/blink-182",
+        "ok": true,
+        "bytes": 63099,
+        "sha256": "a368f1c0139c83d56d830f43268d1050f81942be77473beadd0b0b69cccbcd03",
+        "expectedSha256": "a368f1c0139c83d56d830f43268d1050f81942be77473beadd0b0b69cccbcd03",
+        "error": ""
+      },
+      {
+        "route": "artista/bring-me-the-horizon",
+        "ok": true,
+        "bytes": 66474,
+        "sha256": "2123a77bc92c048cb879232759374764409aeba23ea109243ea25b544a7cf302",
+        "expectedSha256": "2123a77bc92c048cb879232759374764409aeba23ea109243ea25b544a7cf302",
+        "error": ""
+      },
+      {
+        "route": "artista/caparezza",
+        "ok": true,
+        "bytes": 63142,
+        "sha256": "aa3184f1f7e9f37caa9902bf733e7b8dd50c4fd852762aae0afb0d469ed67b20",
+        "expectedSha256": "aa3184f1f7e9f37caa9902bf733e7b8dd50c4fd852762aae0afb0d469ed67b20",
+        "error": ""
+      },
+      {
+        "route": "artista/cesare-cremonini",
+        "ok": true,
+        "bytes": 62233,
+        "sha256": "32fc70d0fbb1f994ab3c1a7f0fc7b320788afc4e3d33bc9dda0e54b227393ba8",
+        "expectedSha256": "32fc70d0fbb1f994ab3c1a7f0fc7b320788afc4e3d33bc9dda0e54b227393ba8",
+        "error": ""
+      },
+      {
+        "route": "artista/eagles",
+        "ok": true,
+        "bytes": 59361,
+        "sha256": "9195e4ceac7b2057f44b3d53563178d4d7ce1dfc48624071dc9e6e9d7f1f1aa1",
+        "expectedSha256": "9195e4ceac7b2057f44b3d53563178d4d7ce1dfc48624071dc9e6e9d7f1f1aa1",
+        "error": ""
+      },
+      {
+        "route": "artista/franco-battiato",
+        "ok": true,
+        "bytes": 66671,
+        "sha256": "d6021900d200c228f14e08a0b80226fe0e24803fa9aee473d1137979d76eff13",
+        "expectedSha256": "d6021900d200c228f14e08a0b80226fe0e24803fa9aee473d1137979d76eff13",
+        "error": ""
+      },
+      {
+        "route": "artista/limp-bizkit",
+        "ok": true,
+        "bytes": 57871,
+        "sha256": "e0899a6fc133a82d50fdded02df26385404473e44919f2de1b11198475be4d82",
+        "expectedSha256": "e0899a6fc133a82d50fdded02df26385404473e44919f2de1b11198475be4d82",
+        "error": ""
+      },
+      {
+        "route": "artista/michael-jackson",
+        "ok": true,
+        "bytes": 59487,
+        "sha256": "e52b6f1e0b7d6fc787e205ee36deecd34033b84f8165ec8a6469eedf218a082e",
+        "expectedSha256": "e52b6f1e0b7d6fc787e205ee36deecd34033b84f8165ec8a6469eedf218a082e",
+        "error": ""
+      },
+      {
+        "route": "artista/oasis",
+        "ok": true,
+        "bytes": 60779,
+        "sha256": "6d54c449d50aba3bc57edc2bf27c56a6d9133e98a110a56bfa2ad22a7e406c1e",
+        "expectedSha256": "6d54c449d50aba3bc57edc2bf27c56a6d9133e98a110a56bfa2ad22a7e406c1e",
+        "error": ""
+      },
+      {
+        "route": "artista/pinguini-tattici-nucleari",
+        "ok": true,
+        "bytes": 61812,
+        "sha256": "930a6e006935a4a8426614f08d4433a456e8623c772f397406eaa48baf5b7bca",
+        "expectedSha256": "930a6e006935a4a8426614f08d4433a456e8623c772f397406eaa48baf5b7bca",
+        "error": ""
+      },
+      {
+        "route": "artista/the-killers",
+        "ok": true,
+        "bytes": 57985,
+        "sha256": "5cb5e18417411f28767a088f43b67e8d6c0e805f42d6901723289f7f8a6e4cdf",
+        "expectedSha256": "5cb5e18417411f28767a088f43b67e8d6c0e805f42d6901723289f7f8a6e4cdf",
+        "error": ""
+      },
+      {
+        "route": "canzone/back-in-black",
+        "ok": true,
+        "bytes": 66885,
+        "sha256": "a6b1a73d840d6c7a575b564e11a22963b5706c0dab8accd6ea318124d86e0f94",
+        "expectedSha256": "a6b1a73d840d6c7a575b564e11a22963b5706c0dab8accd6ea318124d86e0f94",
+        "error": ""
+      },
+      {
+        "route": "canzone/beat-it",
+        "ok": true,
+        "bytes": 64035,
+        "sha256": "219b8915bbab4af402a247fab717ab58fe7bceee0b4d0ea373baeec6b6ef749a",
+        "expectedSha256": "219b8915bbab4af402a247fab717ab58fe7bceee0b4d0ea373baeec6b6ef749a",
+        "error": ""
+      },
+      {
+        "route": "canzone/billie-jean",
+        "ok": true,
+        "bytes": 64239,
+        "sha256": "1139058d5f27468dbfae4ccf258c72202d5c12980f26d2dc1c2dd3d5c0737477",
+        "expectedSha256": "1139058d5f27468dbfae4ccf258c72202d5c12980f26d2dc1c2dd3d5c0737477",
+        "error": ""
+      },
+      {
+        "route": "canzone/dirty-deeds-done-dirt-cheap",
+        "ok": true,
+        "bytes": 67565,
+        "sha256": "097c29cfb4c2a255ecff8f62005f214133a658ba575cdd75756805a968fd6922",
+        "expectedSha256": "097c29cfb4c2a255ecff8f62005f214133a658ba575cdd75756805a968fd6922",
+        "error": ""
+      },
+      {
+        "route": "canzone/flick-of-the-switch",
+        "ok": true,
+        "bytes": 66373,
+        "sha256": "5ecb2c35ebc88e24de1bc0b20413464370fdd6362191d89c069e07f03377c40a",
+        "expectedSha256": "5ecb2c35ebc88e24de1bc0b20413464370fdd6362191d89c069e07f03377c40a",
+        "error": ""
+      },
+      {
+        "route": "canzone/for-those-about-to-rock",
+        "ok": true,
+        "bytes": 68857,
+        "sha256": "3d3081ad6a7c6477544ac85004f1e5156a70a0ead8ccd3125b108fcc265cbfe7",
+        "expectedSha256": "3d3081ad6a7c6477544ac85004f1e5156a70a0ead8ccd3125b108fcc265cbfe7",
+        "error": ""
+      },
+      {
+        "route": "canzone/fuori-dall-hype",
+        "ok": true,
+        "bytes": 66595,
+        "sha256": "2659a6b1947fbe4673523830f79343a459e1f4c4d440caee51e5e673d4eb0918",
+        "expectedSha256": "2659a6b1947fbe4673523830f79343a459e1f4c4d440caee51e5e673d4eb0918",
+        "error": ""
+      },
+      {
+        "route": "canzone/giovani-wannabe",
+        "ok": true,
+        "bytes": 66637,
+        "sha256": "92bd2379d0120b42bcf7f601a39e93e1e51f8fd143dfb7db04eeca11ea9615a3",
+        "expectedSha256": "92bd2379d0120b42bcf7f601a39e93e1e51f8fd143dfb7db04eeca11ea9615a3",
+        "error": ""
+      },
+      {
+        "route": "canzone/hard-as-a-rock",
+        "ok": true,
+        "bytes": 67506,
+        "sha256": "3fc2b06725728b5d35e17435506d635dbec13e2f977c576dcf698c2c5aa80cdd",
+        "expectedSha256": "3fc2b06725728b5d35e17435506d635dbec13e2f977c576dcf698c2c5aa80cdd",
+        "error": ""
+      },
+      {
+        "route": "canzone/highway-to-hell",
+        "ok": true,
+        "bytes": 65482,
+        "sha256": "43a0e18335219814f0000b08ab5edeaf684a36d41ce2827c8e0de73ca17d1e4c",
+        "expectedSha256": "43a0e18335219814f0000b08ab5edeaf684a36d41ce2827c8e0de73ca17d1e4c",
+        "error": ""
+      },
+      {
+        "route": "canzone/islanda",
+        "ok": true,
+        "bytes": 65665,
+        "sha256": "1f93dfa5423e0ae40b0be302223f66d9945e24c9b66799ea8b4c1ffa8d7c6954",
+        "expectedSha256": "1f93dfa5423e0ae40b0be302223f66d9945e24c9b66799ea8b4c1ffa8d7c6954",
+        "error": ""
+      },
+      {
+        "route": "canzone/its-a-long-way-to-the-top",
+        "ok": true,
+        "bytes": 66546,
+        "sha256": "3992b86eae0311b4d5d470c208bfde6bf2d939ec7932ee3dde3ce06338fc20a4",
+        "expectedSha256": "3992b86eae0311b4d5d470c208bfde6bf2d939ec7932ee3dde3ce06338fc20a4",
+        "error": ""
+      },
+      {
+        "route": "canzone/l-era-del-cinghiale-bianco",
+        "ok": true,
+        "bytes": 66424,
+        "sha256": "43b2d88a541d43a2b0c9c4f19296d2e48f9503663fc0d839548b3ffd1700e47c",
+        "expectedSha256": "43b2d88a541d43a2b0c9c4f19296d2e48f9503663fc0d839548b3ffd1700e47c",
+        "error": ""
+      },
+      {
+        "route": "canzone/let-there-be-rock",
+        "ok": true,
+        "bytes": 66859,
+        "sha256": "b35b0090785fab50546547b3edd0c86fd5d4d3ef01a79e4f66c116f8b713b998",
+        "expectedSha256": "b35b0090785fab50546547b3edd0c86fd5d4d3ef01a79e4f66c116f8b713b998",
+        "error": ""
+      },
+      {
+        "route": "canzone/live-forever",
+        "ok": true,
+        "bytes": 66204,
+        "sha256": "85d9618c492127a3721225241d7cb9be0aeef27b0aaf2dbb00d95a675c22c5da",
+        "expectedSha256": "85d9618c492127a3721225241d7cb9be0aeef27b0aaf2dbb00d95a675c22c5da",
+        "error": ""
+      },
+      {
+        "route": "canzone/man-in-the-mirror",
+        "ok": true,
+        "bytes": 64833,
+        "sha256": "afb26c929f61560c435e87bef5e61418add640c88c9b7ca2de451244750a2cc0",
+        "expectedSha256": "afb26c929f61560c435e87bef5e61418add640c88c9b7ca2de451244750a2cc0",
+        "error": ""
+      },
+      {
+        "route": "canzone/mr-brightside",
+        "ok": true,
+        "bytes": 63532,
+        "sha256": "4b27656fb2780bd7b818d29cd5e2de9be49e676a2231f1ce99242915eb9eab05",
+        "expectedSha256": "4b27656fb2780bd7b818d29cd5e2de9be49e676a2231f1ce99242915eb9eab05",
+        "error": ""
+      },
+      {
+        "route": "canzone/poetica",
+        "ok": true,
+        "bytes": 65256,
+        "sha256": "5cd41a52be06ccc1e9d0107f07149c926ba3972278bf02802e28bcc30882815f",
+        "expectedSha256": "5cd41a52be06ccc1e9d0107f07149c926ba3972278bf02802e28bcc30882815f",
+        "error": ""
+      },
+      {
+        "route": "canzone/prospettiva-nevski",
+        "ok": true,
+        "bytes": 65902,
+        "sha256": "4b44ad73b7a33ddb561770e286875e4c65b760a043933b06ed6d2ee7062fd4d8",
+        "expectedSha256": "4b44ad73b7a33ddb561770e286875e4c65b760a043933b06ed6d2ee7062fd4d8",
+        "error": ""
+      },
+      {
+        "route": "canzone/ridere",
+        "ok": true,
+        "bytes": 65714,
+        "sha256": "aff49bba412703742dcc8029941b641f14ff61a5814590d9a07503608410cb5a",
+        "expectedSha256": "aff49bba412703742dcc8029941b641f14ff61a5814590d9a07503608410cb5a",
+        "error": ""
+      },
+      {
+        "route": "canzone/ringo-starr",
+        "ok": true,
+        "bytes": 66139,
+        "sha256": "cf1942a1552a709dcd9cf85774477bd8227b6b57dce3806e674289b4d78819be",
+        "expectedSha256": "cf1942a1552a709dcd9cf85774477bd8227b6b57dce3806e674289b4d78819be",
+        "error": ""
+      },
+      {
+        "route": "canzone/rock-n-roll-train",
+        "ok": true,
+        "bytes": 66196,
+        "sha256": "3eda2e7566794cbed12654180ef36b6e9169878b41a340a552412ade98fa0f72",
+        "expectedSha256": "3eda2e7566794cbed12654180ef36b6e9169878b41a340a552412ade98fa0f72",
+        "error": ""
+      },
+      {
+        "route": "canzone/rock-or-bust",
+        "ok": true,
+        "bytes": 66467,
+        "sha256": "cfb915f20eb800cc64d670398b317a330b15d8cd03de49fe501d52a8404f13c3",
+        "expectedSha256": "cfb915f20eb800cc64d670398b317a330b15d8cd03de49fe501d52a8404f13c3",
+        "error": ""
+      },
+      {
+        "route": "canzone/sashimi",
+        "ok": true,
+        "bytes": 65513,
+        "sha256": "8a12d462cc23a36b918cd3ab72ea9d4691a20da845810b948a53dfc22dc44275",
+        "expectedSha256": "8a12d462cc23a36b918cd3ab72ea9d4691a20da845810b948a53dfc22dc44275",
+        "error": ""
+      },
+      {
+        "route": "canzone/shot-in-the-dark",
+        "ok": true,
+        "bytes": 66257,
+        "sha256": "0ad45e2a735be6dcdf07883e42192cdca5ba882bab796dda7744301010b6d597",
+        "expectedSha256": "0ad45e2a735be6dcdf07883e42192cdca5ba882bab796dda7744301010b6d597",
+        "error": ""
+      },
+      {
+        "route": "canzone/somebody-told-me",
+        "ok": true,
+        "bytes": 64721,
+        "sha256": "dd57b4909f4050c7dfcdb5382aa3a7bf34be0f9c81129ccf626c18f588b842d5",
+        "expectedSha256": "dd57b4909f4050c7dfcdb5382aa3a7bf34be0f9c81129ccf626c18f588b842d5",
+        "error": ""
+      },
+      {
+        "route": "canzone/stand-by-me",
+        "ok": true,
+        "bytes": 65832,
+        "sha256": "73bec85c84e3649a880d821e55f6437b4617768bac310fefdd83376c52870010",
+        "expectedSha256": "73bec85c84e3649a880d821e55f6437b4617768bac310fefdd83376c52870010",
+        "error": ""
+      },
+      {
+        "route": "canzone/stiff-upper-lip",
+        "ok": true,
+        "bytes": 66391,
+        "sha256": "ccf19430b542b29e0715994096d8cea3bb0b84ec1550ed3633c5fc6a7616fbe8",
+        "expectedSha256": "ccf19430b542b29e0715994096d8cea3bb0b84ec1550ed3633c5fc6a7616fbe8",
+        "error": ""
+      },
+      {
+        "route": "canzone/thriller",
+        "ok": true,
+        "bytes": 64586,
+        "sha256": "5d72df42f6af6a9cb8c42da72a68e96cc992a786d91b1888ece53fcc7a42faa0",
+        "expectedSha256": "5d72df42f6af6a9cb8c42da72a68e96cc992a786d91b1888ece53fcc7a42faa0",
+        "error": ""
+      }
+    ],
+    "percorsiBrowser": {
+      "mobile390": [
+        "artista/pinguini-tattici-nucleari",
+        "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+        "canzone/ringo-starr"
+      ],
+      "desktop1280": [
+        "artista/ac-dc",
+        "album/ac-dc/high-voltage",
+        "canzone/its-a-long-way-to-the-top"
+      ]
+    },
+    "esitoBrowser": "positivo: 4 artista, 3 album/canzone, ASIN e tag corretti, nessun overflow",
+    "spazioDisco": {
+      "evento": "Push ricevuto dal remoto ma aggiornamento riferimento locale fallito per disco pieno",
+      "azione": "Eliminata solo cartella sito/ generata nella copia temporanea, dopo aver concluso verifiche e fermato il server",
+      "liberatiMB": 107,
+      "originMainRipristinato": true,
+      "spazioResiduoMiB": 224
+    }
   }
 }

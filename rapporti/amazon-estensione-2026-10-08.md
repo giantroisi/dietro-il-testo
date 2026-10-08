@@ -89,3 +89,8 @@ Copia: `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/amazon-estensi
 Informativa a fondo pagina secondo la richiesta del proprietario; il limite di conformità descritto in ROADMAP §70 resta dichiarato. Non viene attestata una nuova verifica editoriale integrale delle schede. Nessuna immagine prodotto Amazon, prezzo, promessa di disponibilità, dato GSC, analytics aggiuntivo o dato account privato. Prime e venditori possono cambiare dopo il controllo.
 
 Pubblicazione richiesta nell’incarico corrente; esito HTTPS live da completare.
+
+
+Pubblicazione confermata: commit `0614bcbfd` su origin/main. Deploy `dpl_BjM84P44ggVtHN1SiwTV5QX3xCDc`, stato READY, produzione, commit corrispondente e alias www.dietroiltesto.it verificati tramite metadata Vercel; controllo GitHub Vercel success. Tutte le 68 pagine HTTPS sono identiche byte per byte ai file locali. Percorsi live Pinguini → Fuori dall’Hype Sanremo → Ringo Starr (390 px) e AC/DC → High Voltage → It’s a Long Way to the Top (1280 px) positivi: conteggi 4/3/3, prodotti e tag corretti, nessun overflow. Le prove JSON includono SHA-256 attesi e ricevuti.
+
+Durante il push il remoto ha ricevuto il commit, ma il riferimento locale non si è aggiornato per spazio esaurito. Fermato il server e rimossa soltanto l’anteprima rigenerabile `sito/` della copia temporanea (107 MB), conservando sorgenti, HTML pubblicati e report. Fetch completato e origin/main riallineato. Il disco resta quasi pieno (224 MiB disponibili alla verifica): richiede pulizia del proprietario. Ricerca.js, generatore della ricerca e due documenti SEO non tracciati restano identici alla fotografia precedente l’integrazione.
