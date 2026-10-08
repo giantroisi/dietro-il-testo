@@ -898,9 +898,15 @@ a { color: inherit; }
  padding:12px 18px;text-decoration:none;
 }
 .acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
 .acquisto-mobile { display:none !important; }
 .acquisto-desktop { display:flex !important; }
 @media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
 }</style>
@@ -969,8 +975,8 @@ a { color: inherit; }
     <section class="blocco" id="copertina" style="border-top:0;padding-top:0">
       <h2>La copertina</h2>
       <figure class="momento"><span class="etichetta">Cosa raffigura</span><p>Concept del fotografo David Goldman con la modella e infermiera Janine Lindemulder; Mark Hoppus dichiarò a CMJ New Music Monthly di aver voluto &quot;un'infermiera sexy&quot; in copertina.</p></figure>
-    </section><aside class="acquisto-affiliato" aria-label="Enema of the State su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
-    <div style="flex:1 1 160px;min-width:0">
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Enema of the State su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
       <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Enema of the State</p>
       <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Blink-182 <span aria-hidden="true">·</span> Vinile</p>
     </div>
@@ -996,8 +1002,8 @@ a { color: inherit; }
           <span class="gancio">Scritta principalmente dal bassista Mark Hoppus, nacque dalla solitudine vissuta durante i tour: mentre i compagni di…</span>
         </a>
       </div>
-    </section><aside class="acquisto-affiliato" aria-label="Enema of the State su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
-    <div style="flex:1 1 160px;min-width:0">
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Enema of the State su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
       <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Enema of the State</p>
       <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Blink-182 <span aria-hidden="true">·</span> Vinile</p>
     </div>

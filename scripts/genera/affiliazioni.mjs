@@ -69,19 +69,26 @@ export const STILE_AMAZON_MOBILE = `.acquisto-affiliato .bottone {
  padding:12px 18px;text-decoration:none;
 }
 .acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
 .acquisto-mobile { display:none !important; }
 .acquisto-desktop { display:flex !important; }
 @media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
 }`;
 export function amazonMobilePerScheda(slug) {
   const html = amazonPerScheda(slug);
   return html
-    .replace('class="acquisto-affiliato"', 'class="acquisto-affiliato acquisto-mobile"')
-    .replace('gap:18px 24px;padding:20px 22px', 'gap:10px 16px;padding:12px 14px')
+    .replace('class="acquisto-affiliato"', 'class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto')
+    .replace('flex-wrap:wrap', 'flex-wrap:nowrap')
+    .replace('gap:18px 24px;padding:20px 22px', 'gap:10px 12px;padding:12px 14px')
     .replace('margin-top:20px', 'margin-top:12px')
-    .replace('flex:1 1 100%', 'flex:1 1 160px')
+    .replace('flex:1 1 100%', 'flex:1 1 0')
     .replace('justify-content:flex-start', 'justify-content:space-between')
     .replace(/      <p[^>]*>Il disco<\/p>\n/, '')
     .replace('font-size:24px', 'font-size:18px')

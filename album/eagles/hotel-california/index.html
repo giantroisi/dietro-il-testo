@@ -898,9 +898,15 @@ a { color: inherit; }
  padding:12px 18px;text-decoration:none;
 }
 .acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
 .acquisto-mobile { display:none !important; }
 .acquisto-desktop { display:flex !important; }
 @media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
 }</style>
@@ -969,8 +975,8 @@ a { color: inherit; }
     <section class="blocco" id="copertina" style="border-top:0;padding-top:0">
       <h2>La copertina</h2>
       <figure class="momento"><span class="etichetta">Cosa raffigura</span><p>Una fotografia del Beverly Hills Hotel poco prima del tramonto, scattata dal fotografo David Alexander su indicazione del direttore artistico John Kosh, a cui Don Henley aveva chiesto un'immagine che restituisse &quot;gloria appassita, perdita dell'innocenza e decadenza&quot;; la troupe fotografò la scena da una piattaforma elevatrice parcheggiata di fronte, senza il consenso dell'hotel, che dopo l'uscita del disco minacciò azioni legali per la pubblicità non richiesta.</p></figure>
-    </section><aside class="acquisto-affiliato" aria-label="Hotel California su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
-    <div style="flex:1 1 160px;min-width:0">
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Hotel California su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
       <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Hotel California</p>
       <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Eagles <span aria-hidden="true">·</span> Vinile</p>
     </div>
@@ -986,8 +992,8 @@ a { color: inherit; }
           <span class="gancio">Scritto da Don Felder (musica) con Don Henley e Glenn Frey (testo), &quot;Hotel California&quot; è stato descritto da Henley,…</span>
         </a>
       </div>
-    </section><aside class="acquisto-affiliato" aria-label="Hotel California su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
-    <div style="flex:1 1 160px;min-width:0">
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Hotel California su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
       <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Hotel California</p>
       <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Eagles <span aria-hidden="true">·</span> Vinile</p>
     </div>
