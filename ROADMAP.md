@@ -4381,3 +4381,9 @@ Il proprietario ha approvato la proposta `codex/ritratto-tool-foto-2026-10-07` (
 I quattro file trasferiti sono identici byte per byte alla proposta già verificata nel browser desktop e mobile. Nel `main` passano i controlli di crediti e file, SEO (696 HTML, zero rilievi), coerenza (321 canzoni e 104 artisti, zero rilievi), link, completezza, affiliazioni, freno, natura e `git diff --check`. La canonical della pagina è `https://www.dietroiltesto.it/artista/tool/`.
 
 **Stato:** integrazione locale approvata e verificata. Nessun push o pubblicazione autorizzati con questa approvazione. Il file non tracciato `SEO-LASTMOD-2026-09-21.md` è rimasto invariato.
+
+## 67. Correzione circoscritta di Should I Stay or Should I Go, 8 ottobre 2026
+
+Preparata in copia indipendente la correzione del rilievo sostanziale del lotto 08 dell'altra AI: dichiarazione di Jones e collegamento a Ellen Foley, improprio «title track», doppio album e ruolo di Glyn Johns, catena del racconto di Ely e versione divergente di Strummer, picco 1982 del singolo a doppio lato A. Fonti pertinenti riaperte; dossier in `rapporti/correzione-should-i-stay-2026-10-08.md`. Aggiornati corpo, frase iconica, fonti, pagina, ricerca e OG. Non attestata una verifica integrale della scheda.
+
+Generazione completata (695 pagine più 404); passano SEO, coerenza, completezza, link, natura e diff. Browser desktop 1280 px e mobile 390 px: testo leggibile, canonical corretta, nessuna fuoriuscita orizzontale. Copia: `/Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-correzione-should-i-stay`. **Stato:** proposta verificata, in attesa di approvazione specifica; nessuna integrazione, push o pubblicazione. Concluso un intervento di manutenzione urgente; la priorità della routine torna alle immagini.
