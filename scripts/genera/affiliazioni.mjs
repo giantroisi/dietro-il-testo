@@ -13,8 +13,17 @@ export const TRACKING_ID_AMAZON = config.trackingId.trim();
 
 export const DICHIARAZIONE_AMAZON = 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei';
 export const PRODOTTI_AMAZON = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-prodotti.json'), 'utf8'));
+const canzoni = JSON.parse(readFileSync(join(dirname(configPath), 'canzoni.json'), 'utf8'));
+const canzoniPerSlug = new Map(canzoni.map(c => [c.slug, c]));
+// Un solo prodotto per album: le canzoni ereditano la destinazione del disco.
+// L'artista fa parte della chiave per distinguere album omonimi.
+export function prodottoAmazonPerScheda(scheda) {
+  if (typeof scheda === 'string' && scheda.startsWith('album/')) return PRODOTTI_AMAZON[scheda];
+  const c = typeof scheda === 'string' ? canzoniPerSlug.get(scheda) : scheda;
+  return c ? PRODOTTI_AMAZON[`album/${c.artistaSlug}/${c._albumSlugPagina || c.albumSlug}`] : undefined;
+}
 export function amazonPerScheda(slug) {
-  const prodotto = PRODOTTI_AMAZON[slug];
+  const prodotto = prodottoAmazonPerScheda(slug);
   return prodotto ? collegamentoAmazon(prodotto) : '';
 }
 
@@ -46,13 +55,13 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
   </aside>`;
 }
 
-export function informativaAmazonPerScheda(slug) {
-  return TRACKING_ID_AMAZON && PRODOTTI_AMAZON[slug]
-    ? `<p class="nota-affiliazioni">${esc(DICHIARAZIONE_AMAZON)}. ${esc(AVVISO_AFFILIATO)}. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>`
+export function informativaAmazonPerScheda(slug, radice = '../../') {
+  return TRACKING_ID_AMAZON && prodottoAmazonPerScheda(slug)
+    ? `<p class="nota-affiliazioni">${esc(DICHIARAZIONE_AMAZON)}. ${esc(AVVISO_AFFILIATO)}. <a href="${esc(radice)}affiliazioni/">Informazioni sulle affiliazioni</a>.</p>`
     : '';
 }
 
-// I due richiami aggiuntivi si mostrano soltanto su schermi piccoli.
+// Alterna il richiamo sotto Spotify su mobile e sotto il momento su desktop.
 export const STILE_AMAZON_MOBILE = `.acquisto-mobile { display:none !important; }
 .acquisto-desktop { display:flex !important; }
 @media (max-width:760px) {

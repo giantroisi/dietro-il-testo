@@ -8,7 +8,7 @@ const config=JSON.parse(readFileSync(root+'dati/affiliazioni.json','utf8'));
 const products=JSON.parse(readFileSync(root+'dati/affiliazioni-prodotti.json','utf8'));
 const slug=Object.keys(products)[0];
 if(!config.trackingId||!slug){console.log('Nessun prodotto attivo: verifica negativa non applicabile.');process.exit(0);}
-const page=root+`sito/canzone/${slug}/index.html`,original=readFileSync(page,'utf8');
+const page=root+`sito/${slug}/index.html`,original=readFileSync(page,'utf8');
 const check=()=>spawnSync(process.execPath,[root+'scripts/check-affiliazioni.mjs'],{encoding:'utf8'});
 assert.equal(check().status,0,'Il sito di partenza deve essere conforme');
 const mutations=[
@@ -16,6 +16,7 @@ const mutations=[
  ['tag assente',s=>s.replaceAll(`tag=${config.trackingId}`,'altro=senza-tag')],
  ['rel incompleto',s=>s.replace('rel="sponsored nofollow noopener"','rel="noopener"')],
  ['avviso assente',s=>s.replace('Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te','')],
+ ...(Object.values(products).length>1 ? [['altro album verificato ma non pertinente',s=>s.replaceAll(Object.values(products)[0].href.replaceAll('&','&amp;'),Object.values(products)[1].href.replaceAll('&','&amp;'))]] : []),
  ['link non dichiarato',s=>s.replace('class="acquisto-affiliato"','class="altro"')],
 ];
 try {

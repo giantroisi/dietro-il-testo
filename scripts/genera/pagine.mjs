@@ -368,7 +368,7 @@ function dataLeggibile(d) {
 function playerIntestazione(c) {
   return `<div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/${esc(c.spotifyId)}?utm_source=generator" width="100%" height="152" title="${esc(c.titolo)} su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/${esc(c.spotifyId)}" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>${amazonMobilePerScheda(c.slug)}
+        <a class="player-esterno" href="https://open.spotify.com/track/${esc(c.spotifyId)}" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>${amazonMobilePerScheda(c)}
       </div>`;
 }
 
@@ -750,7 +750,7 @@ export function paginaCanzone(c, ctx) {
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>${esc(titoloH1Canzone(c))}</h1>${amazonPerScheda(c.slug)}
+        <h1>${esc(titoloH1Canzone(c))}</h1>${amazonPerScheda(c)}
       </div>
       ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
       <div class="testa-contorno">
@@ -814,7 +814,7 @@ export function paginaCanzone(c, ctx) {
       </figure>`
           : `<p class="vuoto">Il momento iconico di questa canzone non è stato ancora individuato.</p>`
       }
-      ${amazonCompattoPerScheda(c.slug, true)}</section>
+      ${amazonCompattoPerScheda(c, true)}</section>
     </header>
 
     ${indiceHtml}
@@ -825,7 +825,7 @@ export function paginaCanzone(c, ctx) {
         ${corpoHtml}
 ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
-    </section>${amazonCompattoPerScheda(c.slug)}
+    </section>${amazonCompattoPerScheda(c)}
 
     ${extra}
 
@@ -872,7 +872,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
     </section>`
         : ''
-    }${informativaAmazonPerScheda(c.slug)}
+    }${informativaAmazonPerScheda(c)}
   </div>`;
 
   // F58: mai il primo pezzo del corpo tagliato a lunghezza fissa — frasi
@@ -903,7 +903,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
-    stileExtra: (c.spotifyId ? STILE_PLAYER : '') + (amazonPerScheda(c.slug) ? STILE_AMAZON_MOBILE : ''),
+    stileExtra: (c.spotifyId ? STILE_PLAYER : '') + (amazonPerScheda(c) ? STILE_AMAZON_MOBILE : ''),
     corpo,
     datiStrutturati: conBreadcrumb(
       {
@@ -1149,6 +1149,7 @@ export function paginaArtista(a, ctx) {
 
 export function paginaAlbum(al, ctx) {
   const r = radice(3);
+  const prodottoAlbum = `album/${al.artistaSlug}/${al.slug}`;
   const a = ctx.artistiPerSlug.get(al.artistaSlug);
   // F53: confronta lo slug di pagina disambiguato, non lo slug originale della
   // canzone — nel caso di due album omonimi (es. Korn 1994/2007) i due slug
@@ -1174,7 +1175,7 @@ export function paginaAlbum(al, ctx) {
     <header class="intestazione testa-doppia">
       <div>
         <p class="sopratitolo">${conSegno([a?.nome, al.anno])} ${SEGNO} Album in studio</p>
-        <h1>${esc(al.titolo)}</h1>
+        <h1>${esc(al.titolo)}</h1>${amazonPerScheda(prodottoAlbum)}
         ${al.nota ? `<p class="sintesi">${esc(al.nota[0].toUpperCase() + al.nota.slice(1))}.</p>` : ''}
         <div class="affidabilita">
           <span class="bollo${al.copertina ? '' : ' attesa'}">${al.copertina ? 'Copertina documentata' : 'Copertina non documentata'}</span>
@@ -1191,7 +1192,7 @@ export function paginaAlbum(al, ctx) {
           ? `<figure class="momento"><span class="etichetta">Cosa raffigura</span><p>${esc(al.copertina)}</p></figure>`
           : `<p class="vuoto">Non risulta disponibile una spiegazione ufficiale verificabile della copertina di questo album. Quando la troveremo, la aggiungeremo con la fonte.</p>`
       }
-    </section>
+    </section>${amazonCompattoPerScheda(prodottoAlbum)}
 
     ${
       brani.length
@@ -1205,7 +1206,7 @@ export function paginaAlbum(al, ctx) {
       <h2>Canzoni da questo album</h2>
       <p class="vuoto">Nessuna canzone di questo album è ancora raccontata sul sito.</p>
     </section>`
-    }
+    }${amazonCompattoPerScheda(prodottoAlbum)}
 
     ${
       altriAlbum.length
@@ -1230,7 +1231,7 @@ export function paginaAlbum(al, ctx) {
         <a class="bottone pieno" href="${r}artista/${al.artistaSlug}/">Torna a ${esc(a?.nome || 'artista')}</a>
         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${al.titolo}`)}">Segnala un errore</a>
       </div>
-    </section>
+    </section>${informativaAmazonPerScheda(prodottoAlbum, r)}
   </div>`;
 
   return pagina({
