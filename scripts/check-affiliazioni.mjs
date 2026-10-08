@@ -18,8 +18,8 @@ function walk(dir) {
  for (const entry of readdirSync(dir)) {
   const path=join(dir,entry); if(statSync(path).isDirectory()){walk(path);continue;} if(!path.endsWith('.html'))continue;
   const html=readFileSync(path,'utf8'), rel=path.slice(out.length);
-  const blocks=[...html.matchAll(/<aside class="acquisto-affiliato(?: acquisto-mobile)?"[\s\S]*?<\/aside>/g)].map(m=>m[0]);
-  if(blocks.length>3)fail(`${rel}: oltre tre posizioni`);
+  const blocks=[...html.matchAll(/<aside class="acquisto-affiliato(?: acquisto-(?:mobile|desktop))?"[\s\S]*?<\/aside>/g)].map(m=>m[0]);
+  if(blocks.length>4)fail(`${rel}: oltre quattro blocchi per le due disposizioni`);
   if(blocks.length && !rel.startsWith('canzone/'))fail(`${rel}: prodotto fuori da una scheda canzone`);
   for(const block of blocks){
    count++; if(!TRACKING_ID_AMAZON)fail(`${rel}: link attivo senza ID`);
@@ -49,7 +49,7 @@ if(TRACKING_ID_AMAZON){
  }
 }
 const songs=JSON.parse(readFileSync(new URL('../dati/canzoni.json',import.meta.url),'utf8'));
-const expected=TRACKING_ID_AMAZON?Object.keys(PRODOTTI_AMAZON).reduce((n,slug)=>n+(songs.find(c=>c.slug===slug)?.spotifyId?3:2),0):0;
+const expected=TRACKING_ID_AMAZON?Object.keys(PRODOTTI_AMAZON).reduce((n,slug)=>n+(songs.find(c=>c.slug===slug)?.spotifyId?4:3),0):0;
 if(count!==expected)fail(`Prodotti renderizzati ${count}, attesi ${expected}`);
 for(const file of ['index.html','privacy/index.html','note-legali/index.html','canzone/aerials/index.html'])if(!/href="(?:\.\.\/)*affiliazioni\/"/.test(readFileSync(join(out,file),'utf8')))fail(`${file}: footer assente`);
 if(errors.length){errors.forEach(e=>console.error(e));process.exit(1);}

@@ -2,7 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
-import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -814,7 +814,7 @@ export function paginaCanzone(c, ctx) {
       </figure>`
           : `<p class="vuoto">Il momento iconico di questa canzone non è stato ancora individuato.</p>`
       }
-      </section>
+      ${amazonCompattoPerScheda(c.slug, true)}</section>
     </header>
 
     ${indiceHtml}
@@ -825,7 +825,7 @@ export function paginaCanzone(c, ctx) {
         ${corpoHtml}
 ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
-    </section>${amazonMobilePerScheda(c.slug)}
+    </section>${amazonCompattoPerScheda(c.slug)}
 
     ${extra}
 

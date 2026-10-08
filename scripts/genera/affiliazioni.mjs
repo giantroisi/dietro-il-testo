@@ -36,7 +36,7 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
   }
 
   if (![titolo, artista, formato].every(v => typeof v === 'string' && v.trim())) throw new Error('Identità del prodotto incompleta');
-  return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;gap:18px 24px;padding:22px 24px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+  return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
     <div style="flex:1 1 240px;min-width:0">
       <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
       <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">${esc(titolo)}</p>
@@ -54,15 +54,23 @@ export function informativaAmazonPerScheda(slug) {
 
 // I due richiami aggiuntivi si mostrano soltanto su schermi piccoli.
 export const STILE_AMAZON_MOBILE = `.acquisto-mobile { display:none !important; }
-@media (max-width:760px) { .acquisto-mobile { display:flex !important; } }`;
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}`;
 export function amazonMobilePerScheda(slug) {
   const html = amazonPerScheda(slug);
   return html
     .replace('class="acquisto-affiliato"', 'class="acquisto-affiliato acquisto-mobile"')
-    .replace('gap:18px 24px;padding:22px 24px', 'gap:10px 16px;padding:12px 14px')
+    .replace('gap:18px 24px;padding:20px 22px', 'gap:10px 16px;padding:12px 14px')
     .replace('margin-top:20px', 'margin-top:12px')
     .replace('flex:1 1 240px', 'flex:1 1 160px')
     .replace(/      <p[^>]*>Il disco<\/p>\n/, '')
     .replace('font-size:24px', 'font-size:18px')
     .replace('class="bottone pieno"', 'class="bottone"');
+}
+
+export function amazonCompattoPerScheda(slug, soloDesktop = false) {
+  return amazonMobilePerScheda(slug).replace('acquisto-affiliato acquisto-mobile', soloDesktop ? 'acquisto-affiliato acquisto-desktop' : 'acquisto-affiliato');
 }
