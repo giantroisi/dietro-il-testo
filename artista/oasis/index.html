@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/artista/oasis/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Oasis","url":"https://www.dietroiltesto.it/artista/oasis/","dateModified":"2026-09-17","description":"Formati a Manchester nel 1991 con il nome The Rain dal chitarrista Paul \"Bonehead\" Arthurs, dal bassista Paul \"Guigsy\" McGuigan e dal batterista Tony McCarroll, cambiarono nome in Oasis quando entrò come cantante Liam Gallagher."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Oasis","item":"https://www.dietroiltesto.it/artista/oasis/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicGroup","name":"Oasis","url":"https://www.dietroiltesto.it/artista/oasis/","dateModified":"2026-10-08","description":"Formati a Manchester nel 1991 con il nome The Rain dal chitarrista Paul \"Bonehead\" Arthurs, dal bassista Paul \"Guigsy\" McGuigan e dal batterista Tony McCarroll, cambiarono nome in Oasis quando entrò come cantante Liam Gallagher."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Oasis","item":"https://www.dietroiltesto.it/artista/oasis/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -868,6 +868,30 @@ a { color: inherit; }
 }
 .is-nascosto { display: none !important; }
 </style>
+<style>.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}
+        .artista-con-acquisti { grid-template-areas:"identita player"; }
+        .artista-visivo-acquisto { grid-area:player;min-width:0; }
+        .artista-visivo-acquisto .acquisto-affiliato { padding:14px !important;margin-top:16px !important; }
+        @media (max-width:860px) { .artista-con-acquisti { grid-template-areas:"identita" "player"; } }
+      </style>
 <style>:root{--identita:#2E4A8A;--identita-testo:#2E4A8A;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -906,8 +930,8 @@ a { color: inherit; }
       Oasis
     </nav>
 
-    <header class="intestazione testa-doppia">
-      <div>
+    <header class="intestazione testa-doppia artista-con-acquisti">
+      <div class="testa-identita">
         <p class="sopratitolo">Artista <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> brani dal 1994</p>
         <h1>Oasis: significato dei testi e canzoni spiegate</h1>
 
@@ -916,10 +940,17 @@ a { color: inherit; }
 
         </div>
       </div>
-      <div class="visivo" role="img" aria-label="Oasis">
+      <div class="artista-visivo-acquisto"><div class="visivo" role="img" aria-label="Oasis">
         <span class="sigla" aria-hidden="true">O</span>
         <span class="nota" aria-hidden="true">Spazio immagine</span>
-      </div>
+      </div><aside class="acquisto-affiliato" data-acquisto-posizione="immagine" aria-label="Heathen Chemistry su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Heathen Chemistry</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Heathen-Chemistry-Oasis/dp/B002BSIW72?dib=eyJ2IjoiMSJ9.Osk7lsmVMDuAtOmhk0f2cQ.as-BWVALmzkqw78TF4YNupy7uhQ1-dgnM7XUgoTVPvg&amp;dib_tag=se&amp;keywords=Oasis+Heathen+Chemistry+vinile&amp;qid=1791463776&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=653b6a56227acb331c603e4626fc34e7&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Heathen Chemistry di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></div>
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
@@ -1005,6 +1036,13 @@ a { color: inherit; }
       </div>
 
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="album" aria-label="Heathen Chemistry su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Heathen Chemistry</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Heathen-Chemistry-Oasis/dp/B002BSIW72?dib=eyJ2IjoiMSJ9.Osk7lsmVMDuAtOmhk0f2cQ.as-BWVALmzkqw78TF4YNupy7uhQ1-dgnM7XUgoTVPvg&amp;dib_tag=se&amp;keywords=Oasis+Heathen+Chemistry+vinile&amp;qid=1791463776&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=653b6a56227acb331c603e4626fc34e7&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Heathen Chemistry di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="storia">
       <h2>La storia del gruppo</h2>
@@ -1014,6 +1052,13 @@ a { color: inherit; }
         <ol class="fonti"><li><span class="num">01</span><a href="https://www.britannica.com/topic/Oasis-British-rock-group" target="_blank" rel="noopener">Britannica — Laura Payne</a></li><li><span class="num">02</span><a href="https://www.nme.com/news/music/oasis-line-up-band-reunion-tour-members-2025-3845348" target="_blank" rel="noopener">NME — Andrew Trendell</a></li></ol>
       </div></div>
     </section>
+    <aside class="acquisto-affiliato" data-acquisto-compatto data-acquisto-posizione="storia" aria-label="(What's the Story) Morning Glory? — 30th Anniversary Deluxe su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">(What's the Story) Morning Glory? — 30th Anniversary Deluxe</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Morning-Anniversary-Deluxe-Amazon-Exclusive/dp/B0FDZ6612M?dib=eyJ2IjoiMSJ9.u6puW2pkaMp-L1ugPUMH7VQLSXZ5r8mlQfhjAiPRgVU816uopUThiQKQfrYQabAroi90Eq_PtJpcAGkHTF1vinfklHJlEQImpjh_9Nn_Kc4.-hc-j_7MgX8mEKnbSYxNgOWQ27VnPWxVKbeQXVdR26Q&amp;dib_tag=se&amp;keywords=oasis+what%27s+the+story+morning+glory+vinyl&amp;qid=1791464160&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.fca66a76-6518-40f2-959f-2dca30e9c5d1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a10debf283f508557d05d619756667cd&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — (What's the Story) Morning Glory? — 30th Anniversary Deluxe di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco">
       <div class="azioni">
@@ -1021,6 +1066,7 @@ a { color: inherit; }
         <a class="bottone" href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20Oasis">Segnala un errore</a>
       </div>
     </section>
+    <p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

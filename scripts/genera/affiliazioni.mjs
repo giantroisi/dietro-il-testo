@@ -13,6 +13,21 @@ export const TRACKING_ID_AMAZON = config.trackingId.trim();
 
 export const DICHIARAZIONE_AMAZON = 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei';
 export const PRODOTTI_AMAZON = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-prodotti.json'), 'utf8'));
+export const SCELTE_AMAZON_ARTISTI = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-artisti.json'), 'utf8'));
+export const POSIZIONI_AMAZON_ARTISTA = ['immagine', 'storia', 'album'];
+// Le scelte rimandano al catalogo degli album, senza duplicare URL o prove.
+export function prodottiAmazonPerArtista(slug) {
+  const scelte = SCELTE_AMAZON_ARTISTI[slug];
+  if (!scelte) return [];
+  if (!Array.isArray(scelte) || scelte.length !== 3) throw new Error('Servono tre scelte Amazon per artista');
+  return scelte.map(chiave => {
+    const prodotto = PRODOTTI_AMAZON[chiave];
+    if (!chiave.startsWith(`album/${slug}/`) || !prodotto || prodotto.formato !== 'Vinile' || !prodotto.primeVerificato || !prodotto.provaPrime) {
+      throw new Error('Il prodotto artista deve essere un vinile Prime verificato dello stesso artista');
+    }
+    return prodotto;
+  });
+}
 const canzoni = JSON.parse(readFileSync(join(dirname(configPath), 'canzoni.json'), 'utf8'));
 const canzoniPerSlug = new Map(canzoni.map(c => [c.slug, c]));
 // Un solo prodotto per album: le canzoni ereditano la destinazione del disco.
@@ -63,7 +78,10 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
 }
 
 export function informativaAmazonPerScheda(slug, radice = '../../') {
-  return TRACKING_ID_AMAZON && prodottoAmazonPerScheda(slug)
+  const haProdotto = typeof slug === 'string' && slug.startsWith('artista/')
+    ? prodottiAmazonPerArtista(slug.slice(8)).length > 0
+    : Boolean(prodottoAmazonPerScheda(slug));
+  return TRACKING_ID_AMAZON && haProdotto
     ? `<p class="nota-affiliazioni">${esc(DICHIARAZIONE_AMAZON)}. ${esc(AVVISO_AFFILIATO)}. <a href="${esc(radice)}affiliazioni/">Informazioni sulle affiliazioni</a>.</p>`
     : '';
 }
@@ -89,7 +107,10 @@ export const STILE_AMAZON_MOBILE = `.acquisto-affiliato .bottone {
  .acquisto-desktop { display:none !important; }
 }`;
 export function amazonMobilePerScheda(slug) {
-  const html = amazonPerScheda(slug);
+  return compattaAmazon(amazonPerScheda(slug));
+}
+
+function compattaAmazon(html) {
   return html
     .replace('class="acquisto-affiliato"', 'class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto')
     .replace('flex-wrap:wrap', 'flex-wrap:nowrap')
@@ -104,4 +125,15 @@ export function amazonMobilePerScheda(slug) {
 
 export function amazonCompattoPerScheda(slug, soloDesktop = false) {
   return amazonMobilePerScheda(slug).replace('acquisto-affiliato acquisto-mobile', soloDesktop ? 'acquisto-affiliato acquisto-desktop' : 'acquisto-affiliato');
+}
+
+export function amazonPerArtista(slug, posizione) {
+  const indice = POSIZIONI_AMAZON_ARTISTA.indexOf(posizione);
+  if (indice < 0) throw new Error('Posizione Amazon artista non valida');
+  const prodotto = prodottiAmazonPerArtista(slug)[indice];
+  if (!prodotto) return '';
+  const html = collegamentoAmazon(prodotto);
+  const riquadro = posizione === 'immagine' ? html
+    : compattaAmazon(html).replace('acquisto-affiliato acquisto-mobile', 'acquisto-affiliato');
+  return riquadro.replace(' aria-label=', ` data-acquisto-posizione="${posizione}" aria-label=`);
 }

@@ -24,9 +24,29 @@ try {
 }finally{writeFileSync(page,original);}
 assert.equal(check().status,0,'HTML ripristinato deve passare');
 
+// La pagina artista può mostrare più album: devono restare nelle posizioni
+// scelte e appartenere al gruppo corretto, anche se un altro URL è verificato.
+const artistChoices=JSON.parse(readFileSync(root+'dati/affiliazioni-artisti.json','utf8'));
+const artistEntry=Object.entries(artistChoices).find(([,keys])=>new Set(keys).size>1);
+if(artistEntry){
+ const [artist,keys]=artistEntry;
+ const artistPage=root+`sito/artista/${artist}/index.html`,saved=readFileSync(artistPage,'utf8');
+ const escapeHref=s=>s.replaceAll('&','&amp;');
+ const foreign=Object.entries(products).find(([key])=>!key.startsWith(`album/${artist}/`))[1];
+ const artistMutations=[
+  ['vinile di un altro artista',s=>s.replace(escapeHref(products[keys[0]].href),escapeHref(foreign.href))],
+  ['album corretto nella posizione sbagliata',s=>s.replace(escapeHref(products[keys[0]].href),escapeHref(products[keys[1]].href))],
+  ['posizione artista duplicata',s=>s.replace('data-acquisto-posizione="immagine"','data-acquisto-posizione="storia"')],
+ ];
+ try{
+  for(const [name,mutate]of artistMutations){const changed=mutate(saved);assert.notEqual(changed,saved);writeFileSync(artistPage,changed);assert.notEqual(check().status,0,`Controllo non blocca ${name}`);console.log(`OK: bloccato ${name}`);}
+ }finally{writeFileSync(artistPage,saved);}
+ assert.equal(check().status,0,'Pagina artista ripristinata deve passare');
+}
+
 const configPath=root+'dati/affiliazioni.json', savedConfig=readFileSync(configPath,'utf8');
 try {
  writeFileSync(configPath,JSON.stringify({trackingId:''}));
- const result=spawnSync(process.execPath,['--input-type=module','-e',`import assert from 'node:assert/strict'; import { TRACKING_ID_AMAZON, amazonPerScheda } from './scripts/genera/affiliazioni.mjs'; assert.equal(TRACKING_ID_AMAZON,''); assert.equal(amazonPerScheda('${slug}'),'');`],{cwd:root,encoding:'utf8'});
+ const result=spawnSync(process.execPath,['--input-type=module','-e',`import assert from 'node:assert/strict'; import { TRACKING_ID_AMAZON, amazonPerScheda, amazonPerArtista, informativaAmazonPerScheda } from './scripts/genera/affiliazioni.mjs'; assert.equal(TRACKING_ID_AMAZON,''); assert.equal(amazonPerScheda('${slug}'),''); for(const posizione of ['immagine','storia','album'])assert.equal(amazonPerArtista('blink-182',posizione),''); assert.equal(informativaAmazonPerScheda('artista/blink-182'),'');`],{cwd:root,encoding:'utf8'});
  assert.equal(result.status,0,result.stderr); console.log('OK: ID vuoto disattiva il prodotto configurato');
 }finally{writeFileSync(configPath,savedConfig);}

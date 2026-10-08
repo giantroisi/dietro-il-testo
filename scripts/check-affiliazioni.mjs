@@ -2,7 +2,7 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import assert from 'node:assert/strict';
-import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, AVVISO_AFFILIATO, PRODOTTI_AMAZON, prodottoAmazonPerScheda, collegamentoAmazon } from './genera/affiliazioni.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, AVVISO_AFFILIATO, PRODOTTI_AMAZON, SCELTE_AMAZON_ARTISTI, POSIZIONI_AMAZON_ARTISTA, prodottiAmazonPerArtista, prodottoAmazonPerScheda, collegamentoAmazon } from './genera/affiliazioni.mjs';
 const out = new URL('../sito/', import.meta.url).pathname;
 const errors = [];
 const fail = m => errors.push(m);
@@ -18,14 +18,19 @@ const expectedPages=new Map();
 if (TRACKING_ID_AMAZON) {
  for (const [route,p] of Object.entries(PRODOTTI_AMAZON)) {
   if (!/^album\/[^/]+\/[^/]+$/.test(route)) fail(`${route}: chiave prodotto non riferita a un album`);
-  expectedPages.set(route+'/index.html', {p,count:3});
+  expectedPages.set(route+'/index.html', {products:[p],count:3});
   if (!p.primeVerificato || !p.provaPrime) fail(`${route}: verifica Prime assente`);
   const asin=p.prodotto?.match(/\bASIN ([A-Z0-9]{10})\b/)?.[1];
   try {
    if(!asin || new URL(p.href).pathname.match(/\/dp\/([A-Z0-9]{10})/)?.[1]!==asin || new URL(p.fonte).pathname.match(/\/dp\/([A-Z0-9]{10})/)?.[1]!==asin)fail(`${route}: ASIN non coerente tra prodotto, fonte e link ufficiale`);
   } catch { fail(`${route}: fonte o link non validi`); }
  }
- for(const c of songs){const p=prodottoAmazonPerScheda(c);if(p)expectedPages.set(`canzone/${c.slug}/index.html`,{p,count:c.spotifyId?4:3});}
+ for(const c of songs){const p=prodottoAmazonPerScheda(c);if(p)expectedPages.set(`canzone/${c.slug}/index.html`,{products:[p],count:c.spotifyId?4:3});}
+ const artisti=JSON.parse(readFileSync(new URL('../dati/artisti.json',import.meta.url),'utf8'));
+ for(const slug of Object.keys(SCELTE_AMAZON_ARTISTI)){
+  if(!artisti.some(a=>a.slug===slug))fail(`${slug}: artista configurato inesistente`);
+  expectedPages.set(`artista/${slug}/index.html`,{products:prodottiAmazonPerArtista(slug),count:3,artist:true});
+ }
 }
 const foundPages=new Set();
 let count=0;
@@ -36,8 +41,15 @@ function walk(dir) {
   const blocks=[...html.matchAll(/<aside class="acquisto-affiliato(?: acquisto-(?:mobile|desktop))?"[\s\S]*?<\/aside>/g)].map(m=>m[0]);
   if(blocks.length>4)fail(`${rel}: oltre quattro blocchi per le due disposizioni`);
   const expectedPage=expectedPages.get(rel);
-  if(blocks.length && !expectedPage)fail(`${rel}: prodotto fuori dalle pagine dell’album configurato`);
+  if(blocks.length && !expectedPage)fail(`${rel}: prodotto fuori dalle pagine configurate`);
   if(expectedPage){foundPages.add(rel);if(blocks.length!==expectedPage.count)fail(`${rel}: riquadri ${blocks.length}, attesi ${expectedPage.count}`);}
+  if(expectedPage?.artist){
+   for(const [i,posizione]of POSIZIONI_AMAZON_ARTISTA.entries()){
+    const matching=blocks.filter(b=>attr(b,'data-acquisto-posizione')===posizione);
+    if(matching.length!==1)fail(`${rel}: posizione ${posizione} mancante o duplicata`);
+    else if(decode(attr(matching[0].match(/<a\b[^>]*>/)?.[0]||'','href'))!==expectedPage.products[i].href)fail(`${rel}: prodotto errato in posizione ${posizione}`);
+   }
+  }
   for(const block of blocks){
    count++; if(!TRACKING_ID_AMAZON)fail(`${rel}: link attivo senza ID`);
    if(!html.includes(AVVISO_AFFILIATO)||!html.includes(DICHIARAZIONE_AMAZON))fail(`${rel}: indicazione affiliata assente`);
@@ -51,7 +63,7 @@ function walk(dir) {
    if(u.protocol!=='https:'||u.hostname!=='www.amazon.it'||u.username||u.password||u.port||u.searchParams.getAll('tag').length!==1||u.searchParams.get('tag')!==TRACKING_ID_AMAZON)fail(`${rel}: destinazione o tag errato`);
    if(!blocks.some(b=>b.includes(m[0])))fail(`${rel}: link Amazon non dichiarato`);
    if(!['sponsored','nofollow','noopener'].every(t=>attr(m[0],'rel').split(/\s+/).includes(t)))fail(`${rel}: rel incompleto`);
-   if(expectedPage?.p.href!==href)fail(`${rel}: URL diverso dal prodotto del proprio album`);
+   if(!expectedPage?.products.some(p=>p.href===href))fail(`${rel}: URL diverso dai prodotti della propria pagina`);
   }
   for(const m of html.matchAll(/<(?:script|img|iframe|link)\b[^>]*>/g))if(/(?:src|href)="[^"]*(?:amazon\.|amazonaws|amzn\.|images-amazon|media-amazon)/i.test(m[0]))fail(`${rel}: risorsa Amazon caricata`);
  }

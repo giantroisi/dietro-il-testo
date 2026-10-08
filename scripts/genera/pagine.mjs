@@ -2,7 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
-import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -980,6 +980,9 @@ function rigaArtista(a, r) {
 
 export function paginaArtista(a, ctx) {
   const r = radice(2);
+  const acquistoImmagine = amazonPerArtista(a.slug, 'immagine');
+  const acquistoStoria = amazonPerArtista(a.slug, 'storia');
+  const acquistoAlbum = amazonPerArtista(a.slug, 'album');
   const rt = a.ritratto || RITRATTI[a.slug];
   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
@@ -1023,8 +1026,8 @@ export function paginaArtista(a, ctx) {
       ${esc(a.nome)}
     </nav>
 
-    <header class="intestazione testa-doppia">
-      <div>
+    <header class="intestazione testa-doppia${acquistoImmagine ? ' artista-con-acquisti' : ''}">
+      <div${acquistoImmagine ? ' class="testa-identita"' : ''}>
         <p class="sopratitolo">${conSegno([a.paese === 'it' ? 'Italia' : 'Artista', anniBrani.length ? `brani dal ${Math.min(...anniBrani)}` : null])}</p>
         <h1>${esc(a.nome)}: significato dei testi e canzoni spiegate</h1>
         ${a.storia ? '' : `<p class="sintesi">${brani.length} ${brani.length === 1 ? 'canzone raccontata' : 'canzoni raccontate'} su questo sito.</p>`}
@@ -1033,7 +1036,7 @@ export function paginaArtista(a, ctx) {
           ${rigaRevisione(a.ultimaVerifica)}
         </div>
       </div>
-      ${ritrattoArtista(a).html}
+      ${acquistoImmagine ? `<div class="artista-visivo-acquisto">${ritrattoArtista(a).html}${acquistoImmagine}</div>` : ritrattoArtista(a).html}
     </header>
 
     <nav class="snodi" aria-label="Sezioni della pagina">
@@ -1076,6 +1079,7 @@ export function paginaArtista(a, ctx) {
     </section>`
         : ''
     }
+    ${acquistoAlbum}
 
     ${
       a.storia
@@ -1100,6 +1104,7 @@ export function paginaArtista(a, ctx) {
       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
     </section>`
     }
+    ${acquistoStoria}
 
     <section class="blocco">
       <div class="azioni">
@@ -1107,6 +1112,7 @@ export function paginaArtista(a, ctx) {
         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
       </div>
     </section>
+    ${informativaAmazonPerScheda(`artista/${a.slug}`, r)}
   </div>`;
 
   return pagina({
@@ -1127,7 +1133,15 @@ export function paginaArtista(a, ctx) {
     corpo,
     // Un montaggio panoramico contiene più volti: a 280 px diventano troppo
     // piccoli. La regola è inserita solo nella pagina che usa quel formato.
-    stileExtra: ritrattoPanoramico ? '@media (max-width: 860px) { .testa-doppia .ritratto--panoramico img { width: 100%; max-width: 100%; } .testa-doppia .ritratto--panoramico figcaption { max-width: 100%; } }' : undefined,
+    stileExtra: [
+      ritrattoPanoramico ? '@media (max-width: 860px) { .testa-doppia .ritratto--panoramico img { width: 100%; max-width: 100%; } .testa-doppia .ritratto--panoramico figcaption { max-width: 100%; } }' : '',
+      acquistoImmagine ? `${STILE_AMAZON_MOBILE}
+        .artista-con-acquisti { grid-template-areas:"identita player"; }
+        .artista-visivo-acquisto { grid-area:player;min-width:0; }
+        .artista-visivo-acquisto .acquisto-affiliato { padding:14px !important;margin-top:16px !important; }
+        @media (max-width:860px) { .artista-con-acquisti { grid-template-areas:"identita" "player"; } }
+      ` : '',
+    ].filter(Boolean).join('\n') || undefined,
     datiStrutturati: conBreadcrumb(
       {
         '@type': 'MusicGroup',
