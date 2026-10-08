@@ -12,7 +12,7 @@ if (TRACKING_ID_AMAZON && !/^[a-z0-9-]+-21$/.test(TRACKING_ID_AMAZON)) fail('Tra
 const info = readFileSync(join(out,'affiliazioni/index.html'),'utf8');
 if (TRACKING_ID_AMAZON && !info.includes(DICHIARAZIONE_AMAZON)) fail('Dichiarazione obbligatoria assente');
 if (!TRACKING_ID_AMAZON && info.includes(DICHIARAZIONE_AMAZON)) fail('Dichiarazione attiva senza ID');
-if (Object.keys(PRODOTTI_AMAZON).length > 3) fail('Oltre tre prodotti iniziali');
+// Il catalogo cresce solo con prodotti verificati, uno per album.
 const songs=JSON.parse(readFileSync(new URL('../dati/canzoni.json',import.meta.url),'utf8'));
 const expectedPages=new Map();
 if (TRACKING_ID_AMAZON) {
@@ -20,6 +20,10 @@ if (TRACKING_ID_AMAZON) {
   if (!/^album\/[^/]+\/[^/]+$/.test(route)) fail(`${route}: chiave prodotto non riferita a un album`);
   expectedPages.set(route+'/index.html', {p,count:3});
   if (!p.primeVerificato || !p.provaPrime) fail(`${route}: verifica Prime assente`);
+  const asin=p.prodotto?.match(/\bASIN ([A-Z0-9]{10})\b/)?.[1];
+  try {
+   if(!asin || new URL(p.href).pathname.match(/\/dp\/([A-Z0-9]{10})/)?.[1]!==asin || new URL(p.fonte).pathname.match(/\/dp\/([A-Z0-9]{10})/)?.[1]!==asin)fail(`${route}: ASIN non coerente tra prodotto, fonte e link ufficiale`);
+  } catch { fail(`${route}: fonte o link non validi`); }
  }
  for(const c of songs){const p=prodottoAmazonPerScheda(c);if(p)expectedPages.set(`canzone/${c.slug}/index.html`,{p,count:c.spotifyId?4:3});}
 }
