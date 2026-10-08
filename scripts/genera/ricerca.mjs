@@ -203,6 +203,20 @@ export function generaRicerca(ctx) {
     if (!campo || !box) return;
     function chiudi() { box.hidden = true; }
 
+    /* 8 ottobre 2026 — il clic sui suggerimenti non apriva la pagina su Safari
+     * e Firefox in macOS. La' un link NON riceve il fuoco quando lo clicchi
+     * (comportamento di sistema), quindi al mousedown il campo perdeva il fuoco
+     * e il focusout qui sotto arrivava con relatedTarget null: il pannello si
+     * chiudeva e il click successivo non trovava piu' il link sotto il cursore.
+     * Verificato sul sito pubblicato con elementFromPoint, non dedotto.
+     * Qui si impedisce lo spostamento di fuoco sul mousedown: il campo resta
+     * attivo, il pannello resta aperto e il click arriva al link. preventDefault
+     * su mousedown non annulla il click, quindi la navigazione parte normalmente,
+     * e la selezione da tastiera non e' toccata perche' non passa da qui. */
+    box.addEventListener('mousedown', function (e) {
+      if (e.target.closest && e.target.closest('.esito')) e.preventDefault();
+    });
+
     function disegna(lista) {
       if (!lista.length) {
         box.innerHTML = '<p class="esiti-vuoto">Nessun risultato. Prova con una parte del titolo o il nome dell’artista.</p>' +
@@ -282,7 +296,11 @@ export function generaRicerca(ctx) {
     });
 
     radice.addEventListener('focusout', function (e) {
-      if (!radice.contains(e.relatedTarget)) chiudi();
+      /* relatedTarget null vuol dire "il fuoco e' finito in nessun posto che si
+       * possa vedere": succede al mousedown su un link in Safari e quando la
+       * finestra perde il fuoco. Non e' un buon motivo per chiudere: a chiudere
+       * bastano il click fuori dal riquadro e Escape, gestiti piu' sotto. */
+      if (e.relatedTarget && !radice.contains(e.relatedTarget)) chiudi();
     });
 
     campo.addEventListener('focus', function () {
