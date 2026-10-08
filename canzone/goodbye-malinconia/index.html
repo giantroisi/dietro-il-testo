@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/goodbye-malinconia.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/#brano","name":"Goodbye Malinconia","byArtist":{"@type":"MusicGroup","name":"Caparezza","url":"https://www.dietroiltesto.it/artista/caparezza/"},"inAlbum":{"@type":"MusicAlbum","name":"Il sogno eretico"},"datePublished":"2011","url":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/","description":"Pubblicato il 28 gennaio 2011 come primo estratto dal quinto album in studio, \"Il sogno eretico\", in duetto con il cantante britannico Tony Hadley."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Goodbye Malinconia","item":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/"}]},{"@type":"Article","headline":"Goodbye Malinconia","about":{"@id":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/","dateModified":"2026-10-02"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/#brano","name":"Goodbye Malinconia","byArtist":{"@type":"MusicGroup","name":"Caparezza","url":"https://www.dietroiltesto.it/artista/caparezza/"},"inAlbum":{"@type":"MusicAlbum","name":"Il sogno eretico"},"datePublished":"2011","url":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/","description":"Pubblicato il 28 gennaio 2011 come primo estratto dal quinto album in studio, \"Il sogno eretico\", in duetto con il cantante britannico Tony Hadley."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Goodbye Malinconia","item":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/"}]},{"@type":"Article","headline":"Goodbye Malinconia","about":{"@id":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/goodbye-malinconia/","dateModified":"2026-10-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -880,7 +880,25 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
-</style>
+.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}</style>
 <style>:root{--identita:#1F6E5C;--identita-testo:#1F6E5C;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -930,11 +948,24 @@ a { color: inherit; }
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>Significato di Goodbye Malinconia di Caparezza</h1>
+        <h1>Significato di Goodbye Malinconia di Caparezza</h1><aside class="acquisto-affiliato" aria-label="Il sogno eretico su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Il sogno eretico</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Caparezza <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/SOGNO-ERETICO-2-LP/dp/B0FR2HH7KY?dib=eyJ2IjoiMSJ9.aZRIixs0WIkApf1HUBGzZA.qYbBsSjJiDz-Gm8XqGXUK_awCchb_Fl3PKVF0bj_3-Y&amp;dib_tag=se&amp;keywords=Caparezza+Il+sogno+eretico+vinile&amp;qid=1791464024&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=56afd31eac886668769ad11aa9f4f0c4&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il sogno eretico di Caparezza in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/3REzU1a5ZLJDFxFWkcBO2c?utm_source=generator" width="100%" height="152" title="Goodbye Malinconia su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/3REzU1a5ZLJDFxFWkcBO2c" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
+        <a class="player-esterno" href="https://open.spotify.com/track/3REzU1a5ZLJDFxFWkcBO2c" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a><aside class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto aria-label="Il sogno eretico su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il sogno eretico</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Caparezza <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/SOGNO-ERETICO-2-LP/dp/B0FR2HH7KY?dib=eyJ2IjoiMSJ9.aZRIixs0WIkApf1HUBGzZA.qYbBsSjJiDz-Gm8XqGXUK_awCchb_Fl3PKVF0bj_3-Y&amp;dib_tag=se&amp;keywords=Caparezza+Il+sogno+eretico+vinile&amp;qid=1791464024&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=56afd31eac886668769ad11aa9f4f0c4&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il sogno eretico di Caparezza in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">
@@ -997,7 +1028,13 @@ a { color: inherit; }
         <p>Il titolo gioca sull'omonimia di &quot;Malinconia&quot;, che è insieme uno stato d'animo e — nella metafora del brano — uno Stato, quello italiano. Non è un saluto liberatorio: lo stesso Caparezza lo ha descritto come una resa, «come se ad un certo punto io dicessi: &quot;Ok, basta combattere, andiamocene!&quot;».</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-      </section>
+      <aside class="acquisto-affiliato acquisto-desktop" data-acquisto-compatto aria-label="Il sogno eretico su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il sogno eretico</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Caparezza <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/SOGNO-ERETICO-2-LP/dp/B0FR2HH7KY?dib=eyJ2IjoiMSJ9.aZRIixs0WIkApf1HUBGzZA.qYbBsSjJiDz-Gm8XqGXUK_awCchb_Fl3PKVF0bj_3-Y&amp;dib_tag=se&amp;keywords=Caparezza+Il+sogno+eretico+vinile&amp;qid=1791464024&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=56afd31eac886668769ad11aa9f4f0c4&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il sogno eretico di Caparezza in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></section>
     </header>
 
 
@@ -1010,7 +1047,13 @@ a { color: inherit; }
         <p>Il video del brano suscitò la polemica del ministro Gianfranco Rotondi, che accusò Caparezza di essersi associato a «un'operazione contro il proprio paese». <span class="aff aff-D"><span class="aff-testo">Caparezza rispose in diverse interviste, spiegando di aver voluto fotografare un momento vissuto in prima persona e precisando che nel testo «non c'è una sola parola contro Milano: ci ho solo girato il video».</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
         <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Il sogno eretico su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Il sogno eretico</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Caparezza <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/SOGNO-ERETICO-2-LP/dp/B0FR2HH7KY?dib=eyJ2IjoiMSJ9.aZRIixs0WIkApf1HUBGzZA.qYbBsSjJiDz-Gm8XqGXUK_awCchb_Fl3PKVF0bj_3-Y&amp;dib_tag=se&amp;keywords=Caparezza+Il+sogno+eretico+vinile&amp;qid=1791464024&amp;sr=8-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=56afd31eac886668769ad11aa9f4f0c4&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Il sogno eretico di Caparezza in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
 
 
@@ -1095,7 +1138,7 @@ a { color: inherit; }
           <span class="gancio">Scritta da Michele Salvemini (Caparezza) insieme a Diego Perrone, frontman dei I Medusa che presta la voce anche al…</span>
         </a>
       </div>
-    </section>
+    </section><p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

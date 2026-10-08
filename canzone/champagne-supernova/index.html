@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/champagne-supernova.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/champagne-supernova/#brano","name":"Champagne Supernova","byArtist":{"@type":"MusicGroup","name":"Oasis","url":"https://www.dietroiltesto.it/artista/oasis/"},"inAlbum":{"@type":"MusicAlbum","name":"(What's the Story) Morning Glory?"},"datePublished":"1995","url":"https://www.dietroiltesto.it/canzone/champagne-supernova/","description":"Champagne Supernova degli Oasis: Noel Gallagher non le attribuisce un significato unico e collega il testo ai ricordi della scena musicale."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Champagne Supernova","item":"https://www.dietroiltesto.it/canzone/champagne-supernova/"}]},{"@type":"Article","headline":"Champagne Supernova","about":{"@id":"https://www.dietroiltesto.it/canzone/champagne-supernova/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/champagne-supernova/","dateModified":"2026-10-02"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/champagne-supernova/#brano","name":"Champagne Supernova","byArtist":{"@type":"MusicGroup","name":"Oasis","url":"https://www.dietroiltesto.it/artista/oasis/"},"inAlbum":{"@type":"MusicAlbum","name":"(What's the Story) Morning Glory?"},"datePublished":"1995","url":"https://www.dietroiltesto.it/canzone/champagne-supernova/","description":"Champagne Supernova degli Oasis: Noel Gallagher non le attribuisce un significato unico e collega il testo ai ricordi della scena musicale."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Champagne Supernova","item":"https://www.dietroiltesto.it/canzone/champagne-supernova/"}]},{"@type":"Article","headline":"Champagne Supernova","about":{"@id":"https://www.dietroiltesto.it/canzone/champagne-supernova/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/champagne-supernova/","dateModified":"2026-10-08"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -880,7 +880,25 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
-</style>
+.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}</style>
 <style>:root{--identita:#6E5C1F;--identita-testo:#6E5C1F;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -930,11 +948,24 @@ a { color: inherit; }
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>Significato di Champagne Supernova</h1>
+        <h1>Significato di Champagne Supernova</h1><aside class="acquisto-affiliato" aria-label="(What's the Story) Morning Glory? — 30th Anniversary Deluxe su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">(What's the Story) Morning Glory? — 30th Anniversary Deluxe</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Morning-Anniversary-Deluxe-Amazon-Exclusive/dp/B0FDZ6612M?dib=eyJ2IjoiMSJ9.u6puW2pkaMp-L1ugPUMH7VQLSXZ5r8mlQfhjAiPRgVU816uopUThiQKQfrYQabAroi90Eq_PtJpcAGkHTF1vinfklHJlEQImpjh_9Nn_Kc4.-hc-j_7MgX8mEKnbSYxNgOWQ27VnPWxVKbeQXVdR26Q&amp;dib_tag=se&amp;keywords=oasis+what%27s+the+story+morning+glory+vinyl&amp;qid=1791464160&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.fca66a76-6518-40f2-959f-2dca30e9c5d1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a10debf283f508557d05d619756667cd&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — (What's the Story) Morning Glory? — 30th Anniversary Deluxe di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/6EMynpZ10GVcwVqiLZj6Ye?utm_source=generator" width="100%" height="152" title="Champagne Supernova su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/6EMynpZ10GVcwVqiLZj6Ye" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
+        <a class="player-esterno" href="https://open.spotify.com/track/6EMynpZ10GVcwVqiLZj6Ye" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a><aside class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto aria-label="(What's the Story) Morning Glory? — 30th Anniversary Deluxe su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">(What's the Story) Morning Glory? — 30th Anniversary Deluxe</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Morning-Anniversary-Deluxe-Amazon-Exclusive/dp/B0FDZ6612M?dib=eyJ2IjoiMSJ9.u6puW2pkaMp-L1ugPUMH7VQLSXZ5r8mlQfhjAiPRgVU816uopUThiQKQfrYQabAroi90Eq_PtJpcAGkHTF1vinfklHJlEQImpjh_9Nn_Kc4.-hc-j_7MgX8mEKnbSYxNgOWQ27VnPWxVKbeQXVdR26Q&amp;dib_tag=se&amp;keywords=oasis+what%27s+the+story+morning+glory+vinyl&amp;qid=1791464160&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.fca66a76-6518-40f2-959f-2dca30e9c5d1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a10debf283f508557d05d619756667cd&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — (What's the Story) Morning Glory? — 30th Anniversary Deluxe di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">
@@ -997,7 +1028,13 @@ a { color: inherit; }
         <p>Il momento più cantato dal vivo è il ritornello che evoca un'esplosione luminosa di champagne nel cielo notturno, un'immagine che secondo lo stesso Gallagher non ha un significato letterale preciso: la sua forza sta nell'essere diventata, per decine di migliaia di persone che la cantano insieme, qualcosa di diverso per ciascuno.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-      </section>
+      <aside class="acquisto-affiliato acquisto-desktop" data-acquisto-compatto aria-label="(What's the Story) Morning Glory? — 30th Anniversary Deluxe su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">(What's the Story) Morning Glory? — 30th Anniversary Deluxe</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Morning-Anniversary-Deluxe-Amazon-Exclusive/dp/B0FDZ6612M?dib=eyJ2IjoiMSJ9.u6puW2pkaMp-L1ugPUMH7VQLSXZ5r8mlQfhjAiPRgVU816uopUThiQKQfrYQabAroi90Eq_PtJpcAGkHTF1vinfklHJlEQImpjh_9Nn_Kc4.-hc-j_7MgX8mEKnbSYxNgOWQ27VnPWxVKbeQXVdR26Q&amp;dib_tag=se&amp;keywords=oasis+what%27s+the+story+morning+glory+vinyl&amp;qid=1791464160&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.fca66a76-6518-40f2-959f-2dca30e9c5d1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a10debf283f508557d05d619756667cd&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — (What's the Story) Morning Glory? — 30th Anniversary Deluxe di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></section>
     </header>
 
 
@@ -1009,7 +1046,13 @@ a { color: inherit; }
         <p>Un verso che paragona la velocità a quella di un proiettile d'artiglieria nasce da un dettaglio inatteso: Gallagher lo scrisse per farlo rimare con la parola precedente, prendendo spunto dal maggiordomo Brackett delle serie per bambini britanniche &quot;Camberwick Green&quot; e &quot;Trumpton&quot;, pur ammettendo che quel personaggio, nella finzione, camminava piuttosto lentamente. Interrogato ancora decenni dopo sul significato letterale del testo, Gallagher ha risposto semplicemente di non saperlo: &quot;Cosa diavolo significa? Dovrei saperlo, visto che l'ho scritta, e non ne ho la più pallida idea.&quot;</p>
 
       </div>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="(What's the Story) Morning Glory? — 30th Anniversary Deluxe su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">(What's the Story) Morning Glory? — 30th Anniversary Deluxe</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Oasis <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Morning-Anniversary-Deluxe-Amazon-Exclusive/dp/B0FDZ6612M?dib=eyJ2IjoiMSJ9.u6puW2pkaMp-L1ugPUMH7VQLSXZ5r8mlQfhjAiPRgVU816uopUThiQKQfrYQabAroi90Eq_PtJpcAGkHTF1vinfklHJlEQImpjh_9Nn_Kc4.-hc-j_7MgX8mEKnbSYxNgOWQ27VnPWxVKbeQXVdR26Q&amp;dib_tag=se&amp;keywords=oasis+what%27s+the+story+morning+glory+vinyl&amp;qid=1791464160&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.fca66a76-6518-40f2-959f-2dca30e9c5d1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=a10debf283f508557d05d619756667cd&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — (What's the Story) Morning Glory? — 30th Anniversary Deluxe di Oasis in vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
 
 
@@ -1078,7 +1121,7 @@ a { color: inherit; }
           <span class="gancio">Scritta interamente da Noel Gallagher e prodotta dalla band, uscì il 28 maggio 2002 negli Stati Uniti e il 17 giugno…</span>
         </a>
       </div>
-    </section>
+    </section><p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 
