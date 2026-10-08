@@ -2,6 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -862,7 +863,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
     </section>
 
-    ${
+    ${amazonPerScheda(c.slug)}${
       altre.length
         ? `<section class="blocco" id="correlate">
       <h2>Altre canzoni di ${esc(c.artista)}</h2>
@@ -1776,7 +1777,7 @@ export function paginaChiSiamo(ctx) {
     <section class="blocco">
       <h2>Cosa questo sito non è</h2>
       <div class="prosa">
-        <p>Non è un archivio di testi: non ne pubblichiamo nemmeno un verso. Non è una rivista musicale, non recensisce e non dà voti. Non vende niente e non ospita pubblicità.</p>
+        <p>Non è un archivio di testi: non ne pubblichiamo nemmeno un verso. Non è una rivista musicale, non recensisce e non dà voti. Non vende prodotti direttamente. Può contenere link affiliati testuali a prodotti pertinenti, segnalati con un avviso; non ospita banner pubblicitari.</p>
         <p>Non è nemmeno una fonte primaria: quello che leggi qui è il risultato di una lettura di altre fonti, sempre citate in fondo a ogni scheda. Se un fatto ti interessa davvero, il collegamento per andare a controllare è lì.</p>
       </div>
     </section>
@@ -1820,19 +1821,18 @@ export function paginaChiSiamo(ctx) {
   });
 }
 
-// Pagina pubblica preparatoria. Nessuna dichiarazione di adesione al programma:
-// il Tracking ID è vuoto e i link commerciali non sono ancora attivi.
+// Informativa commerciale: la dichiarazione dipende dalla configurazione.
 export function paginaAffiliazioni(ctx) {
   const r = radice(1);
   const corpo = `
   <div class="col">
-    ${apertura(r, 'Affiliazioni', 'Trasparenza commerciale', 'Affiliazioni.', 'Come riconoscerai eventuali collegamenti commerciali, se verranno introdotti.')}
+    ${apertura(r, 'Affiliazioni', 'Trasparenza commerciale', 'Affiliazioni.', 'Come riconoscere i collegamenti commerciali e le nostre regole editoriali.')}
 
     <section class="blocco" style="border-top:0;padding-top:0">
-      <h2>Oggi e in futuro</h2>
+      <h2>Trasparenza sui collegamenti</h2>
       <div class="prosa">
-        <p>Dietro il testo si sta preparando a richiedere l’iscrizione al Programma Affiliazione Amazon Italia. Al momento non sono attivi collegamenti affiliati. In futuro alcune pagine potranno contenere link affiliati a prodotti pertinenti al loro contenuto.</p>
-        <p>Se seguirai uno di quei link e farai un acquisto idoneo, il sito potrà ricevere una commissione. Per te non ci saranno costi aggiuntivi per il fatto di aver usato il collegamento.</p>
+        <p>${TRACKING_ID_AMAZON ? DICHIARAZIONE_AMAZON + ". Alcune pagine possono contenere link affiliati a prodotti pertinenti al loro contenuto." : "Al momento non sono attivi collegamenti affiliati. In futuro alcune pagine potranno contenere link affiliati a prodotti pertinenti al loro contenuto."}</p>
+        <p>Se segui un link affiliato e fai un acquisto idoneo, il sito potrà ricevere una commissione. Per te non ci saranno costi aggiuntivi per il fatto di aver usato il collegamento.</p>
       </div>
     </section>
 
@@ -1840,14 +1840,14 @@ export function paginaAffiliazioni(ctx) {
       <h2>Le scelte editoriali restano indipendenti</h2>
       <div class="prosa">
         <p>Un’affiliazione non determina quali canzoni, artisti o album raccontiamo e non influenza valutazioni, analisi o interpretazioni. Prima vengono le fonti e la pertinenza del contenuto.</p>
-        <p>Selezioneremo un prodotto solo quando avrà un legame concreto con la pagina che stai leggendo. Non inseriremo collegamenti per riempire spazi o per suggerire acquisti estranei alla storia raccontata.</p>
+        <p>Selezioniamo un prodotto solo quando ha un legame concreto con la pagina che stai leggendo. Non inseriamo collegamenti per riempire spazi o per suggerire acquisti estranei alla storia raccontata.</p>
       </div>
     </section>
 
     <section class="blocco">
-      <h2>Come li riconoscerai</h2>
+      <h2>Come riconoscere i link</h2>
       <div class="prosa">
-        <p>Ogni eventuale link affiliato sarà testuale e avrà un avviso visibile accanto. Il prezzo, la disponibilità e le condizioni dell’acquisto saranno quelli mostrati dal venditore quando visiterai il suo sito. Non li anticiperemo qui.</p>
+        <p>Ogni link affiliato è testuale e ha un avviso visibile accanto. Il prezzo, la disponibilità e le condizioni dell’acquisto saranno quelli mostrati dal venditore quando visiterai il suo sito. Non li anticiperemo qui.</p>
         <p>Il semplice collegamento non carica contenuti Amazon su Dietro il testo. Dopo il clic uscirai da questo sito: trovi i dettagli sul trattamento dei dati nella nostra <a href="${r}privacy/">pagina Privacy</a> e nell’informativa del sito di destinazione.</p>
       </div>
     </section>
@@ -1857,7 +1857,7 @@ export function paginaAffiliazioni(ctx) {
     profondita: 1,
     percorso: 'affiliazioni/',
     titolo: 'Affiliazioni',
-    descrizione: 'Come Dietro il testo segnalerà eventuali link affiliati, manterrà indipendenti le scelte editoriali e selezionerà solo prodotti pertinenti.',
+    descrizione: 'Come Dietro il testo segnala i link affiliati e mantiene indipendenti le scelte editoriali, selezionando prodotti pertinenti.',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     corpo,
@@ -1881,7 +1881,7 @@ export function paginaPrivacy(ctx) {
     <section class="blocco" style="border-top:0;padding-top:0">
       <h2>Quello che non facciamo</h2>
       <div class="prosa">
-        <p>Non c'è nessuno strumento di statistica: né Google Analytics né alternative. Non sappiamo quante persone visitano il sito, da dove arrivano o cosa leggono. Non impostiamo cookie nostri di profilazione, non usiamo pixel di tracciamento, non c'è pubblicità e non vendiamo niente a nessuno.</p>
+        <p>Non c'è nessuno strumento di statistica: né Google Analytics né alternative. Non sappiamo quante persone visitano il sito, da dove arrivano o cosa leggono. Non impostiamo cookie nostri di profilazione, non usiamo pixel di tracciamento, non ospitiamo banner pubblicitari e non vendiamo prodotti direttamente. I link affiliati testuali sono descritti qui sotto.</p>
         <p>Non ci sono moduli da compilare, quindi non raccogliamo nomi, indirizzi o password: non esiste un account da creare.</p>
       </div>
     </section>
@@ -1898,9 +1898,9 @@ export function paginaPrivacy(ctx) {
     </section>
 
     <section class="blocco">
-      <h2>Eventuali link affiliati</h2>
+      <h2>Link affiliati</h2>
       <div class="prosa">
-        <p>Al momento non ci sono link affiliati attivi. Se ne aggiungeremo, saranno normali collegamenti esterni e li segnaleremo vicino al testo del link. La loro sola presenza su questa pagina non caricherà risorse Amazon e non installerà direttamente cookie Amazon nel tuo browser tramite il nostro sito.</p>
+        <p>I link affiliati sono normali collegamenti esterni, segnalati vicino al testo del link. La loro sola presenza nelle nostre pagine non carica risorse Amazon e non installa direttamente cookie Amazon nel tuo browser tramite il nostro sito.</p>
         <p>Solo dopo il clic entrerai su Amazon: il browser contatterà quel sito, che tratterà i dati secondo la propria <a href="https://www.amazon.it/gp/help/customer/display.html?nodeId=200545460" target="_blank" rel="noopener">informativa sulla privacy</a>. Eventuali widget, banner o script di terze parti richiederanno una valutazione separata prima di essere attivati.</p>
         <p>Spieghiamo le nostre regole editoriali nella pagina <a href="${r}affiliazioni/">Affiliazioni</a>.</p>
       </div>
@@ -1941,7 +1941,7 @@ export function paginaPrivacy(ctx) {
     profondita: 1,
     percorso: 'privacy/',
     titolo: 'Privacy',
-    descrizione: 'Nessuna statistica o pubblicità. Nelle schede con lettore Spotify, il browser contatta il servizio già quando si apre la pagina: qui spieghiamo come funziona.',
+    descrizione: 'Privacy di Dietro il testo: link affiliati, lettore Spotify, servizi esterni e trattamento dei dati. Nessuno strumento di statistica o profilazione.',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     corpo,
@@ -1976,9 +1976,9 @@ export function paginaNoteLegali(ctx) {
     </section>
 
     <section class="blocco">
-      <h2>Collegamenti affiliati futuri</h2>
+      <h2>Collegamenti affiliati</h2>
       <div class="prosa">
-        <p>Il sito non mostra ancora link affiliati. In futuro potremo aggiungere normali collegamenti testuali verso prodotti pertinenti, con un avviso accanto al link. Un eventuale acquisto potrà generare una commissione senza costi aggiuntivi per chi legge; non cambierà le nostre scelte editoriali.</p>
+        <p>Il sito può mostrare normali collegamenti testuali affiliati verso prodotti pertinenti, con un avviso accanto al link. Un eventuale acquisto potrà generare una commissione senza costi aggiuntivi per chi legge; non cambierà le nostre scelte editoriali.</p>
         <p>Un link testuale, da solo, non installa direttamente cookie Amazon attraverso questo sito. Dopo il clic si entra su Amazon, che tratta i dati secondo la propria informativa. Widget, banner o script di terze parti saranno valutati separatamente prima di qualsiasi attivazione. Maggiori dettagli nella pagina <a href="${r}affiliazioni/">Affiliazioni</a> e in <a href="${r}privacy/">Privacy</a>.</p>
       </div>
     </section>

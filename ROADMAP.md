@@ -4391,3 +4391,7 @@ Generazione completata (695 pagine più 404); passano SEO, coerenza, completezza
 ## 67. Pubblicazione approvata, 8 ottobre 2026
 
 Il proprietario ha autorizzato pubblicazione del lavoro completato: correzione Should I Stay or Should I Go, foto Tool già integrata, Fulminacci, Domenico Modugno e Toto Cutugno. Voci fotografiche unite singolarmente, conservate copie originali e non tracciati. Dossier delle licenze nelle rispettive pagine di rapporto.
+
+## 68. Fase 2 Amazon autorizzata, 8 ottobre 2026
+
+Il proprietario ha autorizzato l'attivazione e la pubblicazione e ha scelto il formato vinile. Configurato dietroiltesto-21, aggiornate Affiliazioni, Privacy, Note legali e Chi siamo; primo e unico link testuale al vinile Hotel California degli Eagles, verificato su Amazon.it e generato da SiteStripe. Nessun prezzo o risorsa Amazon nelle pagine. Controlli e prove negative superati, desktop/mobile e temi verificati. Dettagli, file, evidenze e limiti nel [rapporto](rapporti/attivazione-amazon-2026-10-08.md). Riallineate le date sitemap dei cinque interventi appena pubblicati ai dateModified effettivi. Le copie fotografiche originali e i non tracciati restano intatti.

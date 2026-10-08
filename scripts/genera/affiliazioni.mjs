@@ -1,4 +1,4 @@
-// Collegamenti commerciali: la configurazione resta vuota fino alla Fase 2.
+// Collegamenti commerciali: il Tracking ID e i prodotti sono centralizzati.
 // Non costruire URL o tag a mano: `href` dovrà arrivare da uno strumento
 // ufficiale Amazon ed essere verificato prima di inserirlo nei contenuti.
 import { readFileSync } from 'node:fs';
@@ -11,11 +11,18 @@ const config = JSON.parse(readFileSync(configPath, 'utf8'));
 if (typeof config.trackingId !== 'string') throw new Error('Tracking ID non valido');
 export const TRACKING_ID_AMAZON = config.trackingId.trim();
 
+export const DICHIARAZIONE_AMAZON = 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei';
+export const PRODOTTI_AMAZON = JSON.parse(readFileSync(join(dirname(configPath), 'affiliazioni-prodotti.json'), 'utf8'));
+export function amazonPerScheda(slug) {
+  const prodotto = PRODOTTI_AMAZON[slug];
+  return prodotto ? collegamentoAmazon(prodotto) : '';
+}
+
 export const AVVISO_AFFILIATO = 'Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te';
 
 /** Produce solo un link testuale già verificato. Con ID vuoto non produce HTML. */
 export function collegamentoAmazon({ href, testo, origine } = {}) {
-  if (!TRACKING_ID_AMAZON) return '';
+  if (!TRACKING_ID_AMAZON || !href) return '';
   if (origine !== 'strumento-ufficiale-amazon') throw new Error('Link Amazon privo di verifica ufficiale');
   if (typeof testo !== 'string' || !testo.trim()) throw new Error('Testo del link Amazon assente');
 
@@ -29,6 +36,7 @@ export function collegamentoAmazon({ href, testo, origine } = {}) {
   }
 
   return `<aside class="link-affiliato" aria-label="Collegamento affiliato">
+    <p>${esc(DICHIARAZIONE_AMAZON)}</p>
     <p class="link-affiliato-avviso">${esc(AVVISO_AFFILIATO)}</p>
     <a href="${esc(url.href)}" target="_blank" rel="sponsored nofollow noopener">${esc(testo.trim())}</a>
   </aside>`;
