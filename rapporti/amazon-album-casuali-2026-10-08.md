@@ -76,3 +76,6 @@ Due candidati casuali scartati: 21st Century Breakdown B006ARLYJ8 senza offerta 
 - Main, file estranei, altra AI e lotti precedenti preservati. Routine sospesa. Informativa a fondo pagina come richiesto, limite Roadmap §70 invariato. Nessun prezzo, immagine Amazon, promessa Prime pubblicata o dato GSC.
 
 Pubblicazione richiesta: verifica live da completare.
+
+
+Pubblicazione confermata: commit `676419a5b` su origin/main, deploy `dpl_DFxXKLxxF2cGDMR7Fq6rtTcBPrxK` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 40 pagine HTTPS identiche byte per byte ai file controllati, con normali certificati TLS. Percorso Pink Floyd → Wish You Were Here → canzone verificato su mobile: quattro riquadri artista, tre canzone, ASIN B0FPK4H4HC e tag corretti, nessun overflow. Everlong desktop: tre riquadri, ASIN B005STGJDA, pulsanti contenuti. Main, ricerca e due documenti SEO non tracciati preservati; routine sospesa.
