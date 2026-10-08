@@ -20,3 +20,6 @@ Costituzione §6 aggiornata con dicitura aggiuntiva, leggibilità e nome accessi
 ## Percorso e limiti
 
 Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/etichette-pulsanti-affiliati-2026-10-08`, base `21354405b`. Copiati solo 254 HTML interessati e voci sitemap pertinenti; main, altra AI, ricerca e file non tracciati preservati. Routine sospesa. La dicitura segnala direttamente l’affiliazione, senza attestare una verifica legale completa delle altre condizioni del programma. Pubblicazione richiesta, esito live da completare.
+
+
+Pubblicazione confermata: commit `55b831ee6` su origin/main, deploy `dpl_4AUL2dSHYWib61jUtFq6HXnX3cvo` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 254 pagine HTTPS identiche byte per byte ai file controllati. Browser live Hotel California canzone/album ed Eagles artista a 1280 e 390 px: sei verifiche positive, tre/quattro riquadri previsti, dicitura 12 px sulla seconda riga contenuta nel pulsante, nome accessibile con affiliazione e nessun overflow. Main, cataloghi, ricerca e due file SEO non tracciati preservati; routine sospesa.
