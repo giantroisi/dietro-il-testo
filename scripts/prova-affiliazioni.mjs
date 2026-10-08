@@ -4,6 +4,12 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import assert from 'node:assert/strict';
 const root=new URL('../',import.meta.url).pathname;
+const {pulsanteAcquistoAffiliato}=await import('./genera/affiliazioni.mjs');
+// Un altro partner usa lo stesso componente, senza generare un URL commerciale reale.
+const ticketFixture=pulsanteAcquistoAffiliato({href:'https://example.test/evento?aff=prova',etichetta:'Acquista su TicketOne'});
+assert.ok(ticketFixture.includes('Acquista su TicketOne</span><span class="pulsante-affiliato-avviso">link affiliato</span>'));
+assert.ok(ticketFixture.includes('aria-label="Acquista su TicketOne — link affiliato"'));
+console.log('OK: dicitura visibile e accessibile nel componente per altri partner');
 const config=JSON.parse(readFileSync(root+'dati/affiliazioni.json','utf8'));
 const products=JSON.parse(readFileSync(root+'dati/affiliazioni-prodotti.json','utf8'));
 const slug=Object.keys(products)[0];
@@ -18,6 +24,8 @@ const mutations=[
  ['avviso assente',s=>s.replace('Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te','')],
  ...(Object.values(products).length>1 ? [['altro album verificato ma non pertinente',s=>s.replaceAll(Object.values(products)[0].href.replaceAll('&','&amp;'),Object.values(products)[1].href.replaceAll('&','&amp;'))]] : []),
  ['link non dichiarato',s=>s.replace('class="acquisto-affiliato"','class="altro"')],
+ ['dicitura nel pulsante assente',s=>s.replace('<span class="pulsante-affiliato-avviso">link affiliato</span>','')],
+ ['affiliazione assente nel nome accessibile',s=>s.replace(' — link affiliato" target=', '" target=')],
 ];
 try {
  for(const [name,mutate]of mutations){const changed=mutate(original);assert.notEqual(changed,original);writeFileSync(page,changed);assert.notEqual(check().status,0,`Controllo non blocca ${name}`);console.log(`OK: bloccato ${name}`);}

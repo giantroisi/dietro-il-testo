@@ -4543,3 +4543,9 @@ Generazione, affiliazioni, quattordici prove negative e ID vuoto, SEO e link sup
 
 
 Pubblicazione confermata: commit `bca28e3fb` su origin/main, deploy `dpl_E4MSNiLp8HxpNLi2dpu23EntL6Gc` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 26 pagine HTTPS identiche byte per byte ai file controllati. Percorso Black Sabbath → Paranoid → Iron Man mobile positivo: stesso ASIN B0FRX45DJ9 e tag, quattro riquadri artista e tre canzone, nessun overflow. Linkin Park desktop: quattro riquadri, CD Minutes to Midnight indicato sotto storia, vinili nelle altre posizioni. Main, ricerca e due file SEO non tracciati preservati; routine sospesa.
+
+## 90. Dicitura dentro tutti i pulsanti affiliati, 8 ottobre 2026
+
+Pulsanti su due righe: etichetta principale invariata, «link affiliato» a 12 px nella seconda riga e nel nome accessibile. Componente e stili condivisi per altri partner; nessun TicketOne attivo nel progetto, fixture verificata senza URL commerciale reale. Costituzione §6 aggiornata; controllo dei pulsanti sponsored indipendente dal dominio. 929 pulsanti in 254 pagine; URL, tag, Tracking ID, target, rel, normali link esterni e disclosure footer confrontati e invariati.
+
+Generazione, affiliazioni, sedici prove negative e ID vuoto, SEO e link superati. Browser nove pagine a 1280, 390 e 320 px, tre anche in tema scuro a 1280 e 320 px: 33 verifiche positive. Tre riquadri album/canzone e quattro band; font 12 px, seconda riga dentro il pulsante, nomi accessibili corretti, nessun overflow. Contrasto minimo 10.45:1 con gradiente normale/hover. Dossier `rapporti/etichette-pulsanti-affiliati-2026-10-08.md` e prove JSON. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/etichette-pulsanti-affiliati-2026-10-08`, base 21354405b. Solo HTML e sitemap pertinenti trasferiti; main, altra AI e file estranei preservati, routine sospesa. Pubblicazione richiesta, verifica live da completare.

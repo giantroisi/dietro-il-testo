@@ -44,6 +44,15 @@ export function amazonPerScheda(slug) {
 
 export const AVVISO_AFFILIATO = 'Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te';
 
+// Componente condiviso anche per futuri pulsanti di altri partner.
+export function pulsanteAcquistoAffiliato({ href, etichetta, descrizione = '', icona = '' }) {
+  return `<a class="bottone pieno pulsante-affiliato" href="${esc(href)}" aria-label="${esc(etichetta)}${descrizione ? ' — ' + esc(descrizione) : ''} — link affiliato" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><span class="pulsante-affiliato-principale">${icona}${esc(etichetta)}</span><span class="pulsante-affiliato-avviso">link affiliato</span></a>`;
+}
+
+export const STILE_PULSANTI_AFFILIATI = `.pulsante-affiliato { display:inline-flex;flex-direction:column;align-items:center;justify-content:center; }
+.pulsante-affiliato-principale { display:inline-flex;align-items:center;justify-content:center;gap:var(--spazio-icona,8px); }
+.pulsante-affiliato-avviso { display:block;font-size:12px;line-height:1.2;font-weight:400;color:inherit;text-transform:none;letter-spacing:0; }`;
+
 /** Produce solo un link testuale già verificato. Con ID vuoto non produce HTML. */
 export function collegamentoAmazon({ href, testo, origine, titolo, artista, formato, documentazioneLink, verificaTracking, esitoControlloLink } = {}) {
   if (!TRACKING_ID_AMAZON || !href) return '';
@@ -74,7 +83,7 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
       <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">${esc(titolo)}</p>
       <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">${esc(artista)} <span aria-hidden="true">·</span> ${esc(formato)}</p>
     </div>
-    <a class="bottone pieno" href="${esc(url.href)}" aria-label="Acquista su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+    ${pulsanteAcquistoAffiliato({ href: url.href, etichetta: 'Acquista su Amazon', descrizione: testo.trim(), icona: '<svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>' })}
   </aside>`;
 }
 
@@ -89,24 +98,25 @@ export function informativaAmazonPerScheda(slug, radice = '../../') {
 
 // Alterna il richiamo sotto Spotify su mobile e sotto il momento su desktop.
 export const STILE_AMAZON_MOBILE = `.acquisto-affiliato .bottone {
- display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ display:inline-flex;align-items:center;justify-content:center;gap:3px;--spazio-icona:10px;
  font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
  color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
  padding:12px 18px;text-decoration:none;
 }
 .acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
-.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;--spazio-icona:8px;white-space:nowrap; }
 .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
 .acquisto-mobile { display:none !important; }
 .acquisto-desktop { display:flex !important; }
 @media (max-width:760px) {
- .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;--spazio-icona:6px; }
  .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
  .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
  .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
-}`;
+}
+${STILE_PULSANTI_AFFILIATI}`;
 export function amazonMobilePerScheda(slug) {
   return compattaAmazon(amazonPerScheda(slug));
 }
@@ -121,7 +131,7 @@ function compattaAmazon(html) {
     .replace('justify-content:flex-start', 'justify-content:space-between')
     .replace(/      <p[^>]*>Il disco<\/p>\n/, '')
     .replace('font-size:24px', 'font-size:18px')
-    .replace('class="bottone pieno"', 'class="bottone"');
+    .replace('class="bottone pieno pulsante-affiliato"', 'class="bottone pulsante-affiliato"');
 }
 
 export function amazonCompattoPerScheda(slug, soloDesktop = false) {

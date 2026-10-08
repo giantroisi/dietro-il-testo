@@ -70,6 +70,11 @@ function walk(dir) {
    if(renderedProduct&&!text.includes(`· ${renderedProduct.formato}`))fail(`${rel}: formato mostrato diverso dal prodotto`);
   }
   for(const m of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/g)){
+   // Tutti i partner: la dichiarazione deve essere dentro il pulsante e nel nome accessibile.
+   if(attr(m[0],'rel').split(/\s+/).includes('sponsored') && attr(m[0],'class').split(/\s+/).includes('bottone')){
+    if(!/<span class="pulsante-affiliato-avviso">link affiliato<\/span>/.test(m[0]))fail(`${rel}: dicitura nel pulsante affiliato assente`);
+    if(!/\blink affiliato\b/i.test(attr(m[0],'aria-label')))fail(`${rel}: nome accessibile del pulsante non dichiara affiliazione`);
+   }
    const href=decode(attr(m[0],'href'));let u;try{u=new URL(href)}catch{continue;}
    if(!/(^|\.)amazon\./i.test(u.hostname))continue;
    // Unico collegamento informativo non commerciale: privacy ufficiale Amazon.

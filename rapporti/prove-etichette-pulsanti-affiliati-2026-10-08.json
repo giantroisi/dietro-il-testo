@@ -1,0 +1,3900 @@
+{
+  "date": "2026-10-08",
+  "baseCommit": "21354405b",
+  "branch": "codex/etichette-pulsanti-affiliati-2026-10-08",
+  "pages": [
+    "album/883/la-dura-legge-del-gol/index.html",
+    "album/a-ha/hunting-high-and-low/index.html",
+    "album/a-ha/minor-earth-major-sky/index.html",
+    "album/a-ha/true-north/index.html",
+    "album/ac-dc/back-in-black/index.html",
+    "album/ac-dc/ballbreaker/index.html",
+    "album/ac-dc/black-ice/index.html",
+    "album/ac-dc/dirty-deeds-done-dirt-cheap/index.html",
+    "album/ac-dc/flick-of-the-switch/index.html",
+    "album/ac-dc/for-those-about-to-rock-we-salute-you/index.html",
+    "album/ac-dc/high-voltage/index.html",
+    "album/ac-dc/highway-to-hell/index.html",
+    "album/ac-dc/let-there-be-rock/index.html",
+    "album/ac-dc/power-up/index.html",
+    "album/ac-dc/rock-or-bust/index.html",
+    "album/ac-dc/stiff-upper-lip/index.html",
+    "album/adriano-celentano/il-ragazzo-della-via-gluck/index.html",
+    "album/adriano-celentano/svalutation/index.html",
+    "album/adriano-celentano/yuppi-du/index.html",
+    "album/alice-in-chains/dirt/index.html",
+    "album/alice-in-chains/facelift/index.html",
+    "album/black-sabbath/paranoid/index.html",
+    "album/blink-182/dude-ranch/index.html",
+    "album/blink-182/enema-of-the-state/index.html",
+    "album/blink-182/take-off-your-pants-and-jacket/index.html",
+    "album/bon-jovi/slippery-when-wet/index.html",
+    "album/bring-me-the-horizon/amo/index.html",
+    "album/bring-me-the-horizon/post-human-nex-gen/index.html",
+    "album/bring-me-the-horizon/post-human-survival-horror/index.html",
+    "album/bring-me-the-horizon/sempiternal/index.html",
+    "album/bring-me-the-horizon/suicide-season/index.html",
+    "album/bring-me-the-horizon/thats-the-spirit/index.html",
+    "album/caparezza/il-sogno-eretico/index.html",
+    "album/caparezza/verita-supposte/index.html",
+    "album/cesare-cremonini/bagus/index.html",
+    "album/cesare-cremonini/il-primo-bacio-sulla-luna/index.html",
+    "album/cesare-cremonini/maggese/index.html",
+    "album/cesare-cremonini/possibili-scenari/index.html",
+    "album/coldplay/a-rush-of-blood-to-the-head/index.html",
+    "album/coldplay/parachutes/index.html",
+    "album/depeche-mode/violator/index.html",
+    "album/eagles/hotel-california/index.html",
+    "album/ed-sheeran/divide/index.html",
+    "album/evanescence/fallen/index.html",
+    "album/foo-fighters/the-colour-and-the-shape/index.html",
+    "album/franco-battiato/fisiognomica/index.html",
+    "album/franco-battiato/l-era-del-cinghiale-bianco/index.html",
+    "album/franco-battiato/patriots/index.html",
+    "album/green-day/american-idiot/index.html",
+    "album/green-day/dookie/index.html",
+    "album/guns-n-roses/appetite-for-destruction/index.html",
+    "album/guns-n-roses/use-your-illusion-i/index.html",
+    "album/led-zeppelin/led-zeppelin-iv/index.html",
+    "album/led-zeppelin/physical-graffiti/index.html",
+    "album/ligabue/miss-mondo/index.html",
+    "album/limp-bizkit/significant-other/index.html",
+    "album/linkin-park/hybrid-theory/index.html",
+    "album/linkin-park/meteora/index.html",
+    "album/metallica/master-of-puppets/index.html",
+    "album/metallica/metallica-black-album/index.html",
+    "album/metallica/ride-the-lightning/index.html",
+    "album/michael-jackson/bad/index.html",
+    "album/michael-jackson/off-the-wall/index.html",
+    "album/michael-jackson/thriller/index.html",
+    "album/muse/black-holes-and-revelations/index.html",
+    "album/nirvana/nevermind/index.html",
+    "album/oasis/be-here-now/index.html",
+    "album/oasis/definitely-maybe/index.html",
+    "album/oasis/heathen-chemistry/index.html",
+    "album/oasis/whats-the-story-morning-glory/index.html",
+    "album/pearl-jam/ten/index.html",
+    "album/pinguini-tattici-nucleari/fake-news/index.html",
+    "album/pinguini-tattici-nucleari/fuori-dall-hype/index.html",
+    "album/pinguini-tattici-nucleari/hello-world/index.html",
+    "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/index.html",
+    "album/pink-floyd/the-wall/index.html",
+    "album/pink-floyd/wish-you-were-here/index.html",
+    "album/pino-daniele/vai-mo/index.html",
+    "album/queen/a-night-at-the-opera/index.html",
+    "album/queen/the-game/index.html",
+    "album/rage-against-the-machine/evil-empire/index.html",
+    "album/rammstein/mutter/index.html",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik/index.html",
+    "album/the-beatles/abbey-road/index.html",
+    "album/the-beatles/help/index.html",
+    "album/the-doors/l-a-woman/index.html",
+    "album/the-killers/hot-fuss/index.html",
+    "artista/883/index.html",
+    "artista/a-ha/index.html",
+    "artista/ac-dc/index.html",
+    "artista/adriano-celentano/index.html",
+    "artista/alice-in-chains/index.html",
+    "artista/black-sabbath/index.html",
+    "artista/blink-182/index.html",
+    "artista/bon-jovi/index.html",
+    "artista/bring-me-the-horizon/index.html",
+    "artista/caparezza/index.html",
+    "artista/cesare-cremonini/index.html",
+    "artista/coldplay/index.html",
+    "artista/depeche-mode/index.html",
+    "artista/eagles/index.html",
+    "artista/ed-sheeran/index.html",
+    "artista/evanescence/index.html",
+    "artista/foo-fighters/index.html",
+    "artista/franco-battiato/index.html",
+    "artista/green-day/index.html",
+    "artista/guns-n-roses/index.html",
+    "artista/led-zeppelin/index.html",
+    "artista/ligabue/index.html",
+    "artista/limp-bizkit/index.html",
+    "artista/linkin-park/index.html",
+    "artista/metallica/index.html",
+    "artista/michael-jackson/index.html",
+    "artista/muse/index.html",
+    "artista/nirvana/index.html",
+    "artista/oasis/index.html",
+    "artista/pearl-jam/index.html",
+    "artista/pinguini-tattici-nucleari/index.html",
+    "artista/pink-floyd/index.html",
+    "artista/pino-daniele/index.html",
+    "artista/queen/index.html",
+    "artista/rage-against-the-machine/index.html",
+    "artista/rammstein/index.html",
+    "artista/red-hot-chili-peppers/index.html",
+    "artista/the-beatles/index.html",
+    "artista/the-doors/index.html",
+    "artista/the-killers/index.html",
+    "canzone/adams-song/index.html",
+    "canzone/alive/index.html",
+    "canzone/all-the-small-things/index.html",
+    "canzone/american-idiot/index.html",
+    "canzone/another-one-bites-the-dust/index.html",
+    "canzone/antivist/index.html",
+    "canzone/back-in-black/index.html",
+    "canzone/basket-case/index.html",
+    "canzone/beat-it/index.html",
+    "canzone/billie-jean/index.html",
+    "canzone/black-pearl-jam/index.html",
+    "canzone/bohemian-rhapsody/index.html",
+    "canzone/boulevard-of-broken-dreams/index.html",
+    "canzone/break-stuff/index.html",
+    "canzone/bring-me-to-life/index.html",
+    "canzone/bulls-on-parade/index.html",
+    "canzone/can-you-feel-my-heart/index.html",
+    "canzone/castle-on-the-hill/index.html",
+    "canzone/champagne-supernova/index.html",
+    "canzone/chelsea-smile/index.html",
+    "canzone/come-as-you-are/index.html",
+    "canzone/comfortably-numb/index.html",
+    "canzone/crawling/index.html",
+    "canzone/dammit/index.html",
+    "canzone/darkside/index.html",
+    "canzone/dicono-di-me/index.html",
+    "canzone/die4u/index.html",
+    "canzone/dirty-deeds-done-dirt-cheap/index.html",
+    "canzone/dont-look-back-in-anger/index.html",
+    "canzone/doomed/index.html",
+    "canzone/drown/index.html",
+    "canzone/e-ti-vengo-a-cercare/index.html",
+    "canzone/enjoy-the-silence/index.html",
+    "canzone/enter-sandman/index.html",
+    "canzone/everlong/index.html",
+    "canzone/fade-to-black/index.html",
+    "canzone/first-date/index.html",
+    "canzone/flick-of-the-switch/index.html",
+    "canzone/follow-you/index.html",
+    "canzone/for-those-about-to-rock/index.html",
+    "canzone/fuori-dal-tunnel/index.html",
+    "canzone/fuori-dall-hype/index.html",
+    "canzone/giovani-wannabe/index.html",
+    "canzone/gli-uomini-e-le-donne-sono-uguali/index.html",
+    "canzone/goodbye-malinconia/index.html",
+    "canzone/happy-song/index.html",
+    "canzone/hard-as-a-rock/index.html",
+    "canzone/here-comes-the-sun/index.html",
+    "canzone/highway-to-hell/index.html",
+    "canzone/hotel-california/index.html",
+    "canzone/il-ragazzo-della-via-gluck/index.html",
+    "canzone/in-the-end/index.html",
+    "canzone/iron-man/index.html",
+    "canzone/islanda/index.html",
+    "canzone/its-a-long-way-to-the-top/index.html",
+    "canzone/jeremy/index.html",
+    "canzone/kashmir/index.html",
+    "canzone/knights-of-cydonia/index.html",
+    "canzone/l-era-del-cinghiale-bianco/index.html",
+    "canzone/la-regola-dell-amico/index.html",
+    "canzone/legalize-the-premier/index.html",
+    "canzone/let-there-be-rock/index.html",
+    "canzone/live-forever/index.html",
+    "canzone/livin-on-a-prayer/index.html",
+    "canzone/lost/index.html",
+    "canzone/man-in-the-box/index.html",
+    "canzone/man-in-the-mirror/index.html",
+    "canzone/mantra/index.html",
+    "canzone/marmellata-25/index.html",
+    "canzone/master-of-puppets/index.html",
+    "canzone/mr-brightside/index.html",
+    "canzone/my-immortal/index.html",
+    "canzone/nihilist-blues/index.html",
+    "canzone/nothing-else-matters/index.html",
+    "canzone/november-rain/index.html",
+    "canzone/numb/index.html",
+    "canzone/one-step-closer/index.html",
+    "canzone/paradise-city/index.html",
+    "canzone/paranoid/index.html",
+    "canzone/parasite-eve/index.html",
+    "canzone/personal-jesus/index.html",
+    "canzone/poetica/index.html",
+    "canzone/prospettiva-nevski/index.html",
+    "canzone/ridere/index.html",
+    "canzone/riders-on-the-storm/index.html",
+    "canzone/ringo-starr/index.html",
+    "canzone/rock-n-roll-train/index.html",
+    "canzone/rock-or-bust/index.html",
+    "canzone/sad-but-true/index.html",
+    "canzone/sashimi/index.html",
+    "canzone/shadow-moses/index.html",
+    "canzone/shape-of-you/index.html",
+    "canzone/shot-in-the-dark/index.html",
+    "canzone/sleepwalking/index.html",
+    "canzone/somebody-told-me/index.html",
+    "canzone/sonne/index.html",
+    "canzone/stairway-to-heaven/index.html",
+    "canzone/stand-by-me/index.html",
+    "canzone/starlight/index.html",
+    "canzone/stiff-upper-lip/index.html",
+    "canzone/stop-crying-your-heart-out/index.html",
+    "canzone/summer-moved-on/index.html",
+    "canzone/supermassive-black-hole/index.html",
+    "canzone/svalutation/index.html",
+    "canzone/sweet-child/index.html",
+    "canzone/take-on-me/index.html",
+    "canzone/teen-spirit/index.html",
+    "canzone/the-scientist/index.html",
+    "canzone/thriller/index.html",
+    "canzone/throne/index.html",
+    "canzone/una-vita-da-mediano/index.html",
+    "canzone/under-the-bridge/index.html",
+    "canzone/vengo-dalla-luna/index.html",
+    "canzone/wake-me-up-when-september-ends/index.html",
+    "canzone/wanted-dead-or-alive/index.html",
+    "canzone/war-pigs/index.html",
+    "canzone/welcome-to-the-jungle/index.html",
+    "canzone/whats-my-age-again/index.html",
+    "canzone/wish-you-were-here/index.html",
+    "canzone/wonderful-life/index.html",
+    "canzone/wonderwall/index.html",
+    "canzone/would/index.html",
+    "canzone/yellow/index.html",
+    "canzone/yes-i-know-my-way/index.html",
+    "canzone/yesterday/index.html",
+    "canzone/you-have-what-it-takes/index.html",
+    "canzone/yuppi-du/index.html"
+  ],
+  "preservation": [
+    {
+      "route": "album/883/la-dura-legge-del-gol/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/a-ha/hunting-high-and-low/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/a-ha/minor-earth-major-sky/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/a-ha/true-north/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/back-in-black/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/ballbreaker/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/black-ice/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/dirty-deeds-done-dirt-cheap/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/flick-of-the-switch/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/for-those-about-to-rock-we-salute-you/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/high-voltage/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/highway-to-hell/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/let-there-be-rock/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/power-up/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/rock-or-bust/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ac-dc/stiff-upper-lip/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/adriano-celentano/il-ragazzo-della-via-gluck/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/adriano-celentano/svalutation/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/adriano-celentano/yuppi-du/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/alice-in-chains/dirt/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/alice-in-chains/facelift/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/black-sabbath/paranoid/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/blink-182/dude-ranch/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/blink-182/enema-of-the-state/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/blink-182/take-off-your-pants-and-jacket/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bon-jovi/slippery-when-wet/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/amo/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/post-human-nex-gen/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/post-human-survival-horror/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/sempiternal/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/suicide-season/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/bring-me-the-horizon/thats-the-spirit/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/caparezza/il-sogno-eretico/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/caparezza/verita-supposte/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/cesare-cremonini/bagus/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/cesare-cremonini/maggese/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/cesare-cremonini/possibili-scenari/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/coldplay/a-rush-of-blood-to-the-head/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/coldplay/parachutes/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/depeche-mode/violator/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/eagles/hotel-california/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ed-sheeran/divide/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/evanescence/fallen/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/foo-fighters/the-colour-and-the-shape/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/franco-battiato/fisiognomica/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/franco-battiato/l-era-del-cinghiale-bianco/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/franco-battiato/patriots/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/green-day/american-idiot/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/green-day/dookie/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/guns-n-roses/appetite-for-destruction/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/guns-n-roses/use-your-illusion-i/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/led-zeppelin/led-zeppelin-iv/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/led-zeppelin/physical-graffiti/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/ligabue/miss-mondo/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/limp-bizkit/significant-other/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/linkin-park/hybrid-theory/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/linkin-park/meteora/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/metallica/master-of-puppets/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/metallica/metallica-black-album/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/metallica/ride-the-lightning/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/michael-jackson/bad/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/michael-jackson/off-the-wall/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/michael-jackson/thriller/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/muse/black-holes-and-revelations/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/nirvana/nevermind/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/oasis/be-here-now/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/oasis/definitely-maybe/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/oasis/heathen-chemistry/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/oasis/whats-the-story-morning-glory/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pearl-jam/ten/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pinguini-tattici-nucleari/fake-news/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pinguini-tattici-nucleari/fuori-dall-hype/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pinguini-tattici-nucleari/hello-world/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pink-floyd/the-wall/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pink-floyd/wish-you-were-here/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/pino-daniele/vai-mo/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/queen/a-night-at-the-opera/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/queen/the-game/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/rage-against-the-machine/evil-empire/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/rammstein/mutter/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/red-hot-chili-peppers/blood-sugar-sex-magik/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/the-beatles/abbey-road/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/the-beatles/help/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/the-doors/l-a-woman/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "album/the-killers/hot-fuss/index.html",
+      "buttons": 3,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/883/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/a-ha/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/ac-dc/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/adriano-celentano/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/alice-in-chains/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/black-sabbath/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/blink-182/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/bon-jovi/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/bring-me-the-horizon/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/caparezza/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/cesare-cremonini/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/coldplay/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/depeche-mode/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/eagles/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/ed-sheeran/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/evanescence/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/foo-fighters/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/franco-battiato/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/green-day/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/guns-n-roses/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/led-zeppelin/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/ligabue/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/limp-bizkit/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/linkin-park/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/metallica/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/michael-jackson/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/muse/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/nirvana/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/oasis/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/pearl-jam/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/pinguini-tattici-nucleari/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/pink-floyd/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/pino-daniele/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/queen/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/rage-against-the-machine/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/rammstein/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/red-hot-chili-peppers/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/the-beatles/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/the-doors/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "artista/the-killers/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/adams-song/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/alive/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/all-the-small-things/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/american-idiot/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/another-one-bites-the-dust/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/antivist/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/back-in-black/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/basket-case/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/beat-it/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/billie-jean/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/black-pearl-jam/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/bohemian-rhapsody/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/boulevard-of-broken-dreams/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/break-stuff/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/bring-me-to-life/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/bulls-on-parade/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/can-you-feel-my-heart/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/castle-on-the-hill/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/champagne-supernova/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/chelsea-smile/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/come-as-you-are/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/comfortably-numb/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/crawling/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/dammit/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/darkside/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/dicono-di-me/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/die4u/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/dirty-deeds-done-dirt-cheap/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/dont-look-back-in-anger/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/doomed/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/drown/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/e-ti-vengo-a-cercare/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/enjoy-the-silence/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/enter-sandman/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/everlong/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/fade-to-black/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/first-date/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/flick-of-the-switch/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/follow-you/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/for-those-about-to-rock/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/fuori-dal-tunnel/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/fuori-dall-hype/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/giovani-wannabe/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/gli-uomini-e-le-donne-sono-uguali/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/goodbye-malinconia/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/happy-song/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/hard-as-a-rock/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/here-comes-the-sun/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/highway-to-hell/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/hotel-california/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/il-ragazzo-della-via-gluck/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/in-the-end/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/iron-man/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/islanda/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/its-a-long-way-to-the-top/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/jeremy/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/kashmir/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/knights-of-cydonia/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/l-era-del-cinghiale-bianco/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/la-regola-dell-amico/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/legalize-the-premier/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/let-there-be-rock/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/live-forever/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/livin-on-a-prayer/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/lost/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/man-in-the-box/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/man-in-the-mirror/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/mantra/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/marmellata-25/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/master-of-puppets/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/mr-brightside/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/my-immortal/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/nihilist-blues/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/nothing-else-matters/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/november-rain/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/numb/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/one-step-closer/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/paradise-city/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/paranoid/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/parasite-eve/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/personal-jesus/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/poetica/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/prospettiva-nevski/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/ridere/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/riders-on-the-storm/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/ringo-starr/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/rock-n-roll-train/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/rock-or-bust/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/sad-but-true/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/sashimi/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/shadow-moses/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/shape-of-you/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/shot-in-the-dark/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/sleepwalking/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/somebody-told-me/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/sonne/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/stairway-to-heaven/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/stand-by-me/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/starlight/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/stiff-upper-lip/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/stop-crying-your-heart-out/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/summer-moved-on/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/supermassive-black-hole/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/svalutation/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/sweet-child/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/take-on-me/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/teen-spirit/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/the-scientist/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/thriller/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/throne/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/una-vita-da-mediano/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/under-the-bridge/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/vengo-dalla-luna/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/wake-me-up-when-september-ends/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/wanted-dead-or-alive/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/war-pigs/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/welcome-to-the-jungle/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/whats-my-age-again/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/wish-you-were-here/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/wonderful-life/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/wonderwall/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/would/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/yellow/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/yes-i-know-my-way/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/yesterday/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/you-have-what-it-takes/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    },
+    {
+      "route": "canzone/yuppi-du/index.html",
+      "buttons": 4,
+      "urlsTargetsRelsUnchanged": true,
+      "ordinaryLinksUnchanged": true,
+      "footerUnchanged": true
+    }
+  ],
+  "browser": [
+    {
+      "route": "canzone/hotel-california",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/eagles/hotel-california",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/eagles",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/you-have-what-it-takes",
+      "width": 1280,
+      "asins": [
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/bring-me-the-horizon/post-human-nex-gen",
+      "width": 1280,
+      "asins": [
+        "B0C7MQFC8P",
+        "B0C7MQFC8P",
+        "B0C7MQFC8P"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-nex-gen/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/coldplay",
+      "width": 1280,
+      "asins": [
+        "B0FDGPZTWL",
+        "B0FDGRFD3L",
+        "B0FDGQB5CW",
+        "B0FDGRFD3L"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/coldplay/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/linkin-park",
+      "width": 1280,
+      "asins": [
+        "B00F5YTHYQ",
+        "B00F5YTHYQ",
+        "B0D5J29LLL",
+        "B000OCXMAE"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/linkin-park/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/fuori-dal-tunnel",
+      "width": 1280,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/caparezza/verita-supposte",
+      "width": 1280,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/hotel-california",
+      "width": 390,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/eagles/hotel-california",
+      "width": 390,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/eagles",
+      "width": 390,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/you-have-what-it-takes",
+      "width": 390,
+      "asins": [
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/bring-me-the-horizon/post-human-nex-gen",
+      "width": 390,
+      "asins": [
+        "B0C7MQFC8P",
+        "B0C7MQFC8P",
+        "B0C7MQFC8P"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-nex-gen/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/coldplay",
+      "width": 390,
+      "asins": [
+        "B0FDGPZTWL",
+        "B0FDGRFD3L",
+        "B0FDGQB5CW",
+        "B0FDGRFD3L"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/coldplay/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/linkin-park",
+      "width": 390,
+      "asins": [
+        "B00F5YTHYQ",
+        "B00F5YTHYQ",
+        "B0D5J29LLL",
+        "B000OCXMAE"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/linkin-park/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/fuori-dal-tunnel",
+      "width": 390,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/caparezza/verita-supposte",
+      "width": 390,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/hotel-california",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/eagles/hotel-california",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/eagles",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/you-have-what-it-takes",
+      "width": 320,
+      "asins": [
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y",
+        "B0B5C7SS3Y"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/bring-me-the-horizon/post-human-nex-gen",
+      "width": 320,
+      "asins": [
+        "B0C7MQFC8P",
+        "B0C7MQFC8P",
+        "B0C7MQFC8P"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-nex-gen/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/coldplay",
+      "width": 320,
+      "asins": [
+        "B0FDGPZTWL",
+        "B0FDGRFD3L",
+        "B0FDGQB5CW",
+        "B0FDGRFD3L"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/coldplay/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "artista/linkin-park",
+      "width": 320,
+      "asins": [
+        "B00F5YTHYQ",
+        "B00F5YTHYQ",
+        "B0D5J29LLL",
+        "B000OCXMAE"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/linkin-park/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/fuori-dal-tunnel",
+      "width": 320,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "album/caparezza/verita-supposte",
+      "width": 320,
+      "asins": [
+        "B0000D9X01",
+        "B0000D9X01",
+        "B0000D9X01"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ]
+    },
+    {
+      "route": "canzone/hotel-california",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    },
+    {
+      "route": "album/eagles/hotel-california",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    },
+    {
+      "route": "artista/eagles",
+      "width": 1280,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    },
+    {
+      "route": "canzone/hotel-california",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    },
+    {
+      "route": "album/eagles/hotel-california",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    },
+    {
+      "route": "artista/eagles",
+      "width": 320,
+      "asins": [
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI",
+        "B00OJ43HFI"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true,
+      "labels": [
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        },
+        {
+          "accessible": true,
+          "background": "linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75))",
+          "color": "rgb(17, 17, 17)",
+          "font": 12,
+          "inside": true,
+          "secondLine": true,
+          "text": "link affiliato"
+        }
+      ],
+      "theme": "dark"
+    }
+  ],
+  "contrast": {
+    "textRgb": [
+      17,
+      17,
+      17
+    ],
+    "backgroundEndpoints": [
+      [
+        247,
+        223,
+        165
+      ],
+      [
+        240,
+        193,
+        75
+      ],
+      [
+        245,
+        215,
+        142
+      ],
+      [
+        238,
+        185,
+        51
+      ]
+    ],
+    "ratios": [
+      14.434953062635213,
+      11.18114474943573,
+      13.481848904697138,
+      10.451159730862951
+    ],
+    "minimum": 10.451159730862951
+  },
+  "ticketOne": {
+    "existingButtons": 0,
+    "sharedComponentTested": true,
+    "testUrl": "https://example.test/evento?aff=prova",
+    "productionLinkCreated": false
+  },
+  "sitemapEntries": {
+    "sitemap-album.xml": 52,
+    "sitemap-artisti.xml": 40,
+    "sitemap-canzoni.xml": 127
+  }
+}
