@@ -1,0 +1,85 @@
+{
+  "data": "2026-10-08",
+  "commitPubblicato": "45066822e",
+  "metodo": "GET HTTPS e confronto byte per byte dei nove HTML artista con la copia verificata",
+  "pagine": [
+    {
+      "route": "artista/eagles/",
+      "ok": true,
+      "bytes": 57642,
+      "sha256": "262422446afa9f47ae0bf9ee06f8273fbb9f13216130aeed32074973be12d7c1",
+      "error": ""
+    },
+    {
+      "route": "artista/blink-182/",
+      "ok": true,
+      "bytes": 61274,
+      "sha256": "26441484f098f9bd367586f9072fbee0ecd47ff6e9b9de0d7b1117b5e061348f",
+      "error": ""
+    },
+    {
+      "route": "artista/bring-me-the-horizon/",
+      "ok": true,
+      "bytes": 65192,
+      "sha256": "709909da73294c6c20d723126581ab1c1b1e74b710e1a79f88a2db9364214522",
+      "error": ""
+    },
+    {
+      "route": "artista/oasis/",
+      "ok": true,
+      "bytes": 59663,
+      "sha256": "78cb8edc81aaddaba07d1fae963980a051b8bd8d57d326dfa98c6e6be9334c07",
+      "error": ""
+    },
+    {
+      "route": "artista/alice-in-chains/",
+      "ok": true,
+      "bytes": 58287,
+      "sha256": "9e48240c28e63b940bf439189aea7ceb3aa37f3c7a2c73453384b49afcb93af9",
+      "error": ""
+    },
+    {
+      "route": "artista/caparezza/",
+      "ok": true,
+      "bytes": 61674,
+      "sha256": "6cfe933313f67a331ddfddc608479117582bf8b846b6afcff16094d15fe7d909",
+      "error": ""
+    },
+    {
+      "route": "artista/cesare-cremonini/",
+      "ok": true,
+      "bytes": 61046,
+      "sha256": "a4c5509402c0e688351055442976322f2aeb6e16fefc5c9ca60eacd6f29706b5",
+      "error": ""
+    },
+    {
+      "route": "artista/883/",
+      "ok": true,
+      "bytes": 59410,
+      "sha256": "382bf0263e4e32c25c373e008c5b54a8682f7b7791f831f1c050e5bef94daf02",
+      "error": ""
+    },
+    {
+      "route": "artista/limp-bizkit/",
+      "ok": true,
+      "bytes": 56318,
+      "sha256": "e7bdf1b18964e3a505832130a30f7f4f1111a8ae86a91fe9eee3b5f038495d19",
+      "error": ""
+    }
+  ],
+  "browserLive": {
+    "artista": "bring-me-the-horizon",
+    "desktop": "1280×900",
+    "mobile": "390×844",
+    "riquadriVisibili": 3,
+    "posizioniCorrette": true,
+    "overflow": false,
+    "vinili": [
+      "B00B66RK6E",
+      "B012BCLPB2",
+      "B0C7MQFC8P"
+    ],
+    "percorso": "artista/bring-me-the-horizon/ → album/bring-me-the-horizon/sempiternal/ → canzone/can-you-feel-my-heart/",
+    "vinileCondiviso": "B00B66RK6E"
+  }
+}

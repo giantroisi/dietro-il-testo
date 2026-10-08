@@ -36,3 +36,7 @@ Tre vinili diversi per BMTH; due alternati per Blink-182, Oasis e Cremonini. Neg
 ## Stato e limiti
 
 Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/amazon-artisti-2026-10-08`. Main, file non tracciati e copia dell’altra AI preservati. Routine ancora sospesa. Totale: **17 prodotti su 59 pagine** (17 album, 33 canzoni, 9 artisti), 177 riquadri visibili per disposizione. Non tutte le 104 pagine artista hanno un prodotto verificato: questo lotto riguarda i nove artisti del catalogo Amazon attuale. La verifica Prime è dell’offerta del giorno e può cambiare. Rimane il limite sull’informativa a fondo pagina comunicato nel §70 della Roadmap; non viene attestata conformità di quel posizionamento. Pubblicazione richiesta: registrare la verifica live dopo integrazione e push.
+
+## Pubblicazione confermata
+
+Pubblicazione confermata: commit `45066822e` su origin/main. Tutte le nove pagine artista HTTPS live identiche byte per byte ai file verificati. BMTH controllato nel browser desktop/mobile: tre riquadri, Sempiternal B00B66RK6E vicino alla foto, NeX GEn B0C7MQFC8P sotto la storia, That’s the Spirit B012BCLPB2 sotto la discografia, nessun overflow. Percorso live artista → Sempiternal → Can You Feel My Heart verificato su mobile, stesso vinile B00B66RK6E e tre riquadri in ciascuna pagina. Prove `rapporti/prove-amazon-artisti-2026-10-08.json`. Main e file estranei preservati.
