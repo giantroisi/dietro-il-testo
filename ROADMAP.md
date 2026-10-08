@@ -4395,3 +4395,5 @@ Il proprietario ha autorizzato pubblicazione del lavoro completato: correzione S
 ## 68. Fase 2 Amazon autorizzata, 8 ottobre 2026
 
 Il proprietario ha autorizzato l'attivazione e la pubblicazione e ha scelto il formato vinile. Configurato dietroiltesto-21, aggiornate Affiliazioni, Privacy, Note legali e Chi siamo; primo e unico link testuale al vinile Hotel California degli Eagles, verificato su Amazon.it e generato da SiteStripe. Nessun prezzo o risorsa Amazon nelle pagine. Controlli e prove negative superati, desktop/mobile e temi verificati. Dettagli, file, evidenze e limiti nel [rapporto](rapporti/attivazione-amazon-2026-10-08.md). Riallineate le date sitemap dei cinque interventi appena pubblicati ai dateModified effettivi. Le copie fotografiche originali e i non tracciati restano intatti.
+
+Esito del §68: commit 3a0035585 integrato e pubblicato da Git. Otto file live identici ai locali; destinazione Amazon del link live confermata come Hotel California degli Eagles in vinile, con tag dietroiltesto-21. Verifica browser desktop/mobile positiva. Il connettore Vercel resta non accessibile (403), quindi non sono dichiarati ID deploy o log di piattaforma.

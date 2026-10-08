@@ -27,3 +27,11 @@ Copiate nella radice soltanto le cinque pagine interessate, tutte identiche alla
 Commit fotografico f76d02c67 inviato su origin/main dopo approvazione nominativa dei cinque interventi. Confrontati sul dominio dieci file (quattro pagine artista, canzone Should I Stay, tre JPEG, immagine OG e ricerca.js): tutti identici ai locali. Copie originali, file non tracciati SEO e copia dell'altra AI preservati.
 
 Il connettore Vercel restituisce 403 per il team giantroisi1; il sito pubblica comunque da Git e l'esito viene verificato sul dominio. Non si dichiara un ID deploy o un'ispezione dei log Vercel non disponibili. La ricerca immagini riprende dopo questo incarico; l'automazione non riceve un'autorizzazione permanente ad aggiungere altri prodotti.
+
+## Esito live
+
+Commit Fase 2: 3a0035585, integrato in main con fast-forward e inviato su origin/main. Pubblicazione da Git confermata sul dominio https://www.dietroiltesto.it/. Confronto byte per byte di Affiliazioni, Privacy, Note legali, Chi siamo, Hotel California e tre sitemap: otto file identici ai locali. In una prima richiesta tre informative erano ancora precedenti; la richiesta successiva le ha trovate tutte aggiornate.
+
+Browser live: Hotel California e Affiliazioni a 1280 px e 390 px; formula, avviso, rel, canonical, link footer e assenza overflow confermati; nessun errore di console rilevato. Apertura dell'URL estratto dal link live in Chrome: Amazon mostra Hotel California, Eagles, formato Vinile, canonical B00OJ43HFI e tag dietroiltesto-21. Nessun acquisto effettuato.
+
+File Fase 2: dati/affiliazioni.json, dati/affiliazioni-prodotti.json, scripts/genera/affiliazioni.mjs, scripts/genera/pagine.mjs, scripts/check-affiliazioni.mjs, scripts/prova-affiliazioni.mjs; HTML Affiliazioni, Privacy, Note legali, Chi siamo e Hotel California; sitemap-pagine.xml, sitemap-canzoni.xml e sitemap-artisti.xml; ROADMAP.md e questo rapporto. Il sito non richiede altre informazioni personali per questa attivazione.
