@@ -1,6 +1,6 @@
 // Collegamenti commerciali: il Tracking ID e i prodotti sono centralizzati.
-// Non costruire URL o tag a mano: `href` dovrà arrivare da uno strumento
-// ufficiale Amazon ed essere verificato prima di inserirlo nei contenuti.
+// URL copiati dagli strumenti Amazon oppure nel formato della guida ufficiale,
+// con esito del Controllo Link documentato prima dell'inserimento.
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -30,9 +30,9 @@ export function amazonPerScheda(slug) {
 export const AVVISO_AFFILIATO = 'Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te';
 
 /** Produce solo un link testuale già verificato. Con ID vuoto non produce HTML. */
-export function collegamentoAmazon({ href, testo, origine, titolo, artista, formato } = {}) {
+export function collegamentoAmazon({ href, testo, origine, titolo, artista, formato, documentazioneLink, verificaTracking, esitoControlloLink } = {}) {
   if (!TRACKING_ID_AMAZON || !href) return '';
-  if (origine !== 'strumento-ufficiale-amazon') throw new Error('Link Amazon privo di verifica ufficiale');
+  if (!['strumento-ufficiale-amazon', 'formato-documentato-amazon'].includes(origine)) throw new Error('Link Amazon privo di verifica ufficiale');
   if (typeof testo !== 'string' || !testo.trim()) throw new Error('Testo del link Amazon assente');
 
   let url;
@@ -43,6 +43,13 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
   if (url.searchParams.getAll('tag').length !== 1 || url.searchParams.get('tag') !== TRACKING_ID_AMAZON) {
     throw new Error('Tracking ID del link Amazon non corrispondente alla configurazione');
   }
+  if (origine === 'formato-documentato-amazon' && (
+    documentazioneLink !== 'https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC' ||
+    !/^\d{4}-\d{2}-\d{2}$/.test(verificaTracking || '') ||
+    esitoControlloLink !== 'Operazione riuscita: il link è stato associato a un tag o sub-tag valido per il tuo ID Affiliazione.' ||
+    !/^\/dp\/[A-Z0-9]{10}\/ref=nosim$/.test(url.pathname) ||
+    url.search !== `?tag=${TRACKING_ID_AMAZON}` || url.hash
+  )) throw new Error('Formato Amazon documentato o verifica Controllo Link assente');
 
   if (![titolo, artista, formato].every(v => typeof v === 'string' && v.trim())) throw new Error('Identità del prodotto incompleta');
   return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">

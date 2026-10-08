@@ -62,6 +62,13 @@ if(TRACKING_ID_AMAZON){
  if(known){
   assert.throws(()=>collegamentoAmazon({...known,href:known.href.replace(TRACKING_ID_AMAZON,'tag-errato-21')}));
   assert.throws(()=>collegamentoAmazon({...known,origine:'non-verificata'}));
+  const documented=Object.values(PRODOTTI_AMAZON).find(p=>p.origine==='formato-documentato-amazon');
+  if(documented){
+   assert.doesNotThrow(()=>collegamentoAmazon(documented));
+   assert.throws(()=>collegamentoAmazon({...documented,esitoControlloLink:''}));
+   assert.throws(()=>collegamentoAmazon({...documented,documentazioneLink:''}));
+   assert.throws(()=>collegamentoAmazon({...documented,href:documented.href+'&extra=1'}));
+  }
   for(const [slug,p] of Object.entries(PRODOTTI_AMAZON))if(!p.dataVerifica||!p.prodotto||!p.prova)fail(`${slug}: provenienza della verifica incompleta`);
  }
 }

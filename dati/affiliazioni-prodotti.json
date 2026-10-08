@@ -96,5 +96,22 @@
     "formato": "Vinile",
     "primeVerificato": "2026-10-08",
     "provaPrime": "Badge Prime visibile nell’offerta selezionata; spedito e venduto da Amazon, senza indicazione usato o seconda mano."
+  },
+  "album/bring-me-the-horizon/post-human-survival-horror": {
+    "href": "https://www.amazon.it/dp/B08L1SPQ5Y/ref=nosim?tag=dietroiltesto-21",
+    "testo": "Post Human: Survival Horror dei Bring Me The Horizon in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "Post Human: Survival Horror — Bring Me The Horizon — Vinile 180 gr — ASIN B08L1SPQ5Y",
+    "dataVerifica": "2026-10-08",
+    "prova": "Pagina aperta dal proprietario in Chrome verificata: titolo, artista, formato Vinile 180 gr, ASIN e Parasite Eve nella tracklist. SiteStripe mostra avviso di resi frequenti senza pulsante link. Collegamento composto secondo la guida ufficiale GP38PJ6EUR6PFBEC in HTTPS, verificato con esito positivo nel Controllo Link Amazon per dietroiltesto-21; non generato da SiteStripe.",
+    "fonte": "https://www.amazon.it/Post-Human-Survival-Bring-Horizon/dp/B08L1SPQ5Y",
+    "titolo": "Post Human: Survival Horror",
+    "artista": "Bring Me The Horizon",
+    "formato": "Vinile",
+    "primeVerificato": "2026-10-08",
+    "provaPrime": "Badge Prime visibile nell’offerta selezionata; spedizione e vendita Amazon, formato Vinile, nessuna indicazione usato nell’offerta principale.",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "2026-10-08",
+    "esitoControlloLink": "Operazione riuscita: il link è stato associato a un tag o sub-tag valido per il tuo ID Affiliazione."
   }
 }
