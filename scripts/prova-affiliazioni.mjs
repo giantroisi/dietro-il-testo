@@ -44,6 +44,28 @@ if(artistEntry){
  assert.equal(check().status,0,'Pagina artista ripristinata deve passare');
 }
 
+// Un CD deve restare riconoscibile e avere una ricerca del vinile documentata.
+const cdEntry=Object.entries(products).find(([,p])=>p.formato==='CD');
+if(cdEntry){
+ const [cdKey,cd]=cdEntry;
+ const cdPage=root+`sito/${cdKey}/index.html`,savedCdPage=readFileSync(cdPage,'utf8');
+ const catalogPath=root+'dati/affiliazioni-prodotti.json',savedCatalog=readFileSync(catalogPath,'utf8');
+ try{
+  const mislabeled=savedCdPage.replace('·</span> CD</p>','·</span> Vinile</p>');
+  assert.notEqual(mislabeled,savedCdPage);writeFileSync(cdPage,mislabeled);
+  assert.notEqual(check().status,0,'Controllo non blocca CD etichettato Vinile');
+  console.log('OK: bloccato CD etichettato Vinile');writeFileSync(cdPage,savedCdPage);
+  for(const [name,change]of [
+   ['CD senza ricerca del vinile',p=>({...p,provaRicercaVinile:''})],
+   ['formato non autorizzato',p=>({...p,formato:'Audio Cassetta'})],
+  ]){
+   writeFileSync(catalogPath,JSON.stringify({...products,[cdKey]:change(cd)}));
+   assert.notEqual(check().status,0,`Controllo non blocca ${name}`);console.log(`OK: bloccato ${name}`);
+  }
+ }finally{writeFileSync(cdPage,savedCdPage);writeFileSync(catalogPath,savedCatalog);}
+ assert.equal(check().status,0,'CD e catalogo ripristinati devono passare');
+}
+
 const configPath=root+'dati/affiliazioni.json', savedConfig=readFileSync(configPath,'utf8');
 try {
  writeFileSync(configPath,JSON.stringify({trackingId:''}));

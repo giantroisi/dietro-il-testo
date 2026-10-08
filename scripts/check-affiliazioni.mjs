@@ -19,6 +19,8 @@ if (TRACKING_ID_AMAZON) {
  for (const [route,p] of Object.entries(PRODOTTI_AMAZON)) {
   if (!/^album\/[^/]+\/[^/]+$/.test(route)) fail(`${route}: chiave prodotto non riferita a un album`);
   expectedPages.set(route+'/index.html', {products:[p],count:3});
+  if (!['Vinile','CD'].includes(p.formato)) fail(`${route}: formato non ammesso`);
+  if (p.formato==='CD' && (!p.provaRicercaVinile || !p.fonteRicercaVinile)) fail(`${route}: ricerca del vinile prima del CD non documentata`);
   if (!p.primeVerificato || !p.provaPrime) fail(`${route}: verifica Prime assente`);
   const asin=p.prodotto?.match(/\bASIN ([A-Z0-9]{10})\b/)?.[1];
   try {
@@ -54,6 +56,9 @@ function walk(dir) {
    count++; if(!TRACKING_ID_AMAZON)fail(`${rel}: link attivo senza ID`);
    if(!html.includes(AVVISO_AFFILIATO)||!html.includes(DICHIARAZIONE_AMAZON))fail(`${rel}: indicazione affiliata assente`);
    const text=block.replace(/<[^>]*>/g,''); if(/€|\bEUR\b|\bPrime\b|stelle|disponibil/i.test(text))fail(`${rel}: dati commerciali nel blocco`);
+   const renderedHref=decode(attr(block.match(/<a\b[^>]*>/)?.[0]||'','href'));
+   const renderedProduct=expectedPage?.products.find(p=>p.href===renderedHref);
+   if(renderedProduct&&!text.includes(`· ${renderedProduct.formato}`))fail(`${rel}: formato mostrato diverso dal prodotto`);
   }
   for(const m of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/g)){
    const href=decode(attr(m[0],'href'));let u;try{u=new URL(href)}catch{continue;}

@@ -1,0 +1,1257 @@
+{
+  "date": "2026-10-08",
+  "baseCommit": "984ad7da17ab8df8dfcdda07487869f962d00c24",
+  "branch": "codex/amazon-dodici-album-2026-10-08",
+  "request": "Dodici album; precedenza vinile Prime, CD Prime se manca il vinile Prime",
+  "products": {
+    "album/caparezza/verita-supposte": {
+      "href": "https://www.amazon.it/Verita-Supposte-Caparezza/dp/B0000D9X01?&linkCode=ll2&tag=dietroiltesto-21&linkId=8e73bdb3115800705c54e6c47442e652&ref_=as_li_ss_tl",
+      "testo": "Verità supposte — Caparezza in CD su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Verità supposte — Caparezza — CD — ASIN B0000D9X01",
+      "titolo": "Verità supposte",
+      "artista": "Caparezza",
+      "formato": "CD",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Verita-Supposte-Caparezza/dp/B0000D9X01",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon.",
+      "fonteRicercaVinile": "https://www.amazon.it/VERIT%C3%80-SUPPOSTE-2-LP-Caparezza/dp/B0FR2HJNV5",
+      "provaRicercaVinile": "Vinile senza offerta selezionata Prime. Controllo diretto del 2026-10-08 prima del CD, secondo la nuova autorizzazione del proprietario."
+    },
+    "album/ligabue/miss-mondo": {
+      "href": "https://www.amazon.it/Miss-Mondo-Doppio-vinile-Nero/dp/B0F8KXZCVX?&linkCode=ll2&tag=dietroiltesto-21&linkId=ebaf7b9289ef770f19422d5578e7fab8&ref_=as_li_ss_tl",
+      "testo": "Miss Mondo — Ligabue in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Miss Mondo — Ligabue — Vinile — Doppio vinile nero — ASIN B0F8KXZCVX",
+      "titolo": "Miss Mondo",
+      "artista": "Ligabue",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Miss-Mondo-Doppio-vinile-Nero/dp/B0F8KXZCVX",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon."
+    },
+    "album/franco-battiato/fisiognomica": {
+      "href": "https://www.amazon.it/Fisiognomica-battiato-franco/dp/B0018BDARU?&linkCode=ll2&tag=dietroiltesto-21&linkId=1d3c66495514a0e3a0233ccd2996059f&ref_=as_li_ss_tl",
+      "testo": "Fisiognomica — Franco Battiato in CD su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Fisiognomica — Franco Battiato — CD — ASIN B0018BDARU",
+      "titolo": "Fisiognomica",
+      "artista": "Franco Battiato",
+      "formato": "CD",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Fisiognomica-battiato-franco/dp/B0018BDARU",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon.",
+      "fonteRicercaVinile": "https://www.amazon.it/Fisiognomica-Battiato-F/dp/B078XGY4SM",
+      "provaRicercaVinile": "Vinile Amazon senza badge Prime. Controllo diretto del 2026-10-08 prima del CD, secondo la nuova autorizzazione del proprietario."
+    },
+    "album/cesare-cremonini/il-primo-bacio-sulla-luna": {
+      "href": "https://www.amazon.it/Primo-Bacio-Sulla-Luna/dp/B07BF46VKC?&linkCode=ll2&tag=dietroiltesto-21&linkId=4471020d0e2efd1bf503b76ea84f0454&ref_=as_li_ss_tl",
+      "testo": "Il primo bacio sulla Luna — Cesare Cremonini in CD su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Il primo bacio sulla Luna — Cesare Cremonini — CD — ASIN B07BF46VKC",
+      "titolo": "Il primo bacio sulla Luna",
+      "artista": "Cesare Cremonini",
+      "formato": "CD",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Primo-Bacio-Sulla-Luna/dp/B07BF46VKC",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon.",
+      "fonteRicercaVinile": "https://www.amazon.it/PRIMO-BACIO-SULLA-LUNA-LP/dp/B0FB94ZLQK",
+      "provaRicercaVinile": "Vinile senza offerta selezionata Prime. Controllo diretto del 2026-10-08 prima del CD, secondo la nuova autorizzazione del proprietario."
+    },
+    "album/pino-daniele/vai-mo": {
+      "href": "https://www.amazon.it/Vai-Mo-Pino-Daniele/dp/B078XGY4SN?&linkCode=ll2&tag=dietroiltesto-21&linkId=e3f354c10b2778dc54709bf2ae7eb615&ref_=as_li_ss_tl",
+      "testo": "Vai mo' — Pino Daniele in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Vai mo' — Pino Daniele — Vinile — Remastered 2017 — ASIN B078XGY4SN",
+      "titolo": "Vai mo'",
+      "artista": "Pino Daniele",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Vai-Mo-Pino-Daniele/dp/B078XGY4SN",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon.",
+      "fonteTraccia": "https://www.ibs.it/vai-mo-2017-remastered-vinile-pino-daniele/e/5054197931710",
+      "provaTraccia": "Pagina prodotto IBS riaperta nel browser: stesso EAN 5054197931710 letto nei dettagli Amazon, traccia 2 Yes I Know My Way."
+    },
+    "album/rammstein/mutter": {
+      "href": "https://www.amazon.it/Mutter-Rammstein/dp/B073G3ZLDJ?&linkCode=ll2&tag=dietroiltesto-21&linkId=7966e13853f3d9804f17ed6a02b289ac&ref_=as_li_ss_tl",
+      "testo": "Mutter — Rammstein in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Mutter — Rammstein — Vinile — 2 LP — ASIN B073G3ZLDJ",
+      "titolo": "Mutter",
+      "artista": "Rammstein",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon riaperta: artista, titolo, formato e offerta nuova verificati; link completo SiteStripe dietroiltesto-21 appena copiato e conservato senza modifiche.",
+      "fonte": "https://www.amazon.it/Mutter-Rammstein/dp/B073G3ZLDJ",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nell’offerta nuova selezionata desktop_qualifiedBuyBox; vendita e spedizione Amazon.",
+      "fonteTraccia": "https://shop.rammstein.de/en/catalog/rammstein-album-mutter-vinyl.html",
+      "provaTraccia": "Negozio ufficiale Rammstein riaperto: Mutter su doppio vinile, Sonne nel lato A."
+    }
+  },
+  "negativeResearch": [
+    {
+      "key": "album/caparezza/prisoner-709",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/Prisoner-709-Esclusiva-Discoteca-Laziale/dp/B074KWLQ83",
+      "reason": "Vinile senza badge Prime nell’offerta selezionata."
+    },
+    {
+      "key": "album/caparezza/prisoner-709",
+      "format": "CD",
+      "source": "https://www.amazon.it/Prisoner-709-Caparezza/dp/B074CN8GWW/ref=tmm_acd_swatch_0",
+      "reason": "CD senza badge Prime nell’offerta selezionata."
+    },
+    {
+      "key": "album/adriano-celentano/i-mali-del-secolo",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/I-MALI-DEL-SECOLO-vinile/dp/B0D45M2MLP",
+      "reason": "Vinile senza badge Prime nell’offerta selezionata."
+    },
+    {
+      "key": "album/adriano-celentano/i-mali-del-secolo",
+      "format": "CD",
+      "source": "https://www.amazon.it/Mali-Del-Secolo-Adriano-Celentano/dp/B000006TAA",
+      "reason": "CD senza badge Prime nell’offerta selezionata."
+    },
+    {
+      "key": "album/a-ha/scoundrel-days",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/HA-SCOUNDREL-DAYS-ha/dp/B000091NPJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.sUNDxLZnWCeMhB20BlMT2kemw67dFOtiCdebQxBCO10.FtgXij7_zdetjYrAGq-JezFOP_qF97e82O_BTaE1yQI&dib_tag=se&keywords=a-ha+scoundrel+days+vinyl&qid=1791478494&sr=8-1",
+      "reason": "Vinile senza badge Prime nell’offerta selezionata."
+    },
+    {
+      "key": "album/a-ha/scoundrel-days",
+      "format": "CD",
+      "source": "https://www.amazon.it/Scoundrel-Days-Ha/dp/B000005S5N",
+      "reason": "CD standard senza offerta selezionata Prime."
+    },
+    {
+      "key": "album/a-ha/scoundrel-days",
+      "format": "CD",
+      "source": "https://www.amazon.it/dp/B003OACHLS",
+      "reason": "CD Deluxe senza offerta selezionata Prime."
+    },
+    {
+      "key": "album/caparezza/verita-supposte",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/VERIT%C3%80-SUPPOSTE-2-LP-Caparezza/dp/B0FR2HJNV5",
+      "reason": "Vinile senza offerta selezionata Prime."
+    },
+    {
+      "key": "album/andrea-bocelli-e-giorgia/bocelli-album",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/s?k=Andrea+Bocelli+Bocelli+vinile",
+      "reason": "Ricerca del titolo esatto: risultati per altri album, nessun vinile Bocelli pertinente trovato."
+    },
+    {
+      "key": "album/andrea-bocelli-e-giorgia/bocelli-album",
+      "format": "CD",
+      "source": "https://www.amazon.it/Bocelli-Andrea/dp/B000ERU1ZS",
+      "reason": "CD DVDSAT senza badge Prime."
+    },
+    {
+      "key": "album/andrea-bocelli-e-giorgia/bocelli-album",
+      "format": "Audio Cassetta",
+      "source": "https://www.amazon.it/Bocelli-Andrea/dp/B00004ZIVE",
+      "reason": "Formato cassetta: escluso."
+    },
+    {
+      "key": "album/franco-battiato/fisiognomica",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/Fisiognomica-Battiato-F/dp/B078XGY4SM",
+      "reason": "Vinile Amazon senza badge Prime."
+    },
+    {
+      "key": "album/ligabue/lambrusco-coltelli-rose-pop-corn",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/Ligabue-Lambrusco-Coltelli-Rose-Corn/dp/B00SWR9SAQ",
+      "reason": "Candidato del titolo senza formato e offerta Prime verificabili."
+    },
+    {
+      "key": "album/ligabue/lambrusco-coltelli-rose-pop-corn",
+      "format": "CD",
+      "source": "https://www.amazon.it/Lambrusco-Coltelli-Rose-Pop-Corn/dp/B00000IHLX",
+      "reason": "CD ARCANGELO senza badge Prime."
+    },
+    {
+      "key": "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/PRIMO-BACIO-SULLA-LUNA-LP/dp/B0FB94ZLQK",
+      "reason": "Vinile senza offerta selezionata Prime."
+    },
+    {
+      "key": "album/avicii/true",
+      "format": "Vinile",
+      "source": "https://www.amazon.it/Avicii-True/dp/B0F2GKMX33",
+      "reason": "Vinile Amazon US senza Prime."
+    },
+    {
+      "key": "album/avicii/true",
+      "format": "CD",
+      "source": "https://www.amazon.it/True-Avicii/dp/B00E95ED32",
+      "reason": "CD senza offerta Prime selezionata."
+    },
+    {
+      "key": "album/avicii/true",
+      "format": "CD",
+      "source": "https://www.amazon.it/True-Avicii/dp/B00J4B66FE",
+      "reason": "Seconda edizione CD senza offerta Prime selezionata."
+    },
+    {
+      "key": "album/andrea-bocelli-e-giorgia/bocelli-album",
+      "format": "CD",
+      "source": "https://www.amazon.it/Bocelli-Andrea-1995-08-02/dp/B01K8MFFLS",
+      "reason": "Edizione CD del 1995 senza offerta Prime selezionata."
+    }
+  ],
+  "browser": {
+    "localBrowser": [
+      {
+        "route": "album/caparezza/verita-supposte",
+        "width": 1280,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/ligabue/miss-mondo",
+        "width": 1280,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/ligabue/miss-mondo/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/fisiognomica",
+        "width": 1280,
+        "asins": [
+          "B0018BDARU",
+          "B0018BDARU",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/franco-battiato/fisiognomica/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+        "width": 1280,
+        "asins": [
+          "B07BF46VKC",
+          "B07BF46VKC",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/pino-daniele/vai-mo",
+        "width": 1280,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/pino-daniele/vai-mo/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/rammstein/mutter",
+        "width": 1280,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/rammstein/mutter/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/yes-i-know-my-way",
+        "width": 1280,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/yes-i-know-my-way/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/sonne",
+        "width": 1280,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/sonne/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/fuori-dal-tunnel",
+        "width": 1280,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/dicono-di-me",
+        "width": 1280,
+        "asins": [
+          "B07BF46VKC",
+          "B07BF46VKC",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/dicono-di-me/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/una-vita-da-mediano",
+        "width": 1280,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/vengo-dalla-luna",
+        "width": 1280,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/e-ti-vengo-a-cercare",
+        "width": 1280,
+        "asins": [
+          "B0018BDARU",
+          "B0018BDARU",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/franco-battiato",
+        "width": 1280,
+        "asins": [
+          "B0778THHRN",
+          "B07VGRX5LT",
+          "B0778THHRN",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/franco-battiato/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/caparezza",
+        "width": 1280,
+        "asins": [
+          "B0FR2HH7KY",
+          "B0FR2HH7KY",
+          "B0FR2HH7KY",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/caparezza/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/ligabue",
+        "width": 1280,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/ligabue/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/cesare-cremonini",
+        "width": 1280,
+        "asins": [
+          "B076ZY4ZCG",
+          "B076ZY4ZCG",
+          "B0FB95Y5RH",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/rammstein",
+        "width": 1280,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/rammstein/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/pino-daniele",
+        "width": 1280,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/pino-daniele/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/caparezza/verita-supposte",
+        "width": 390,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/ligabue/miss-mondo",
+        "width": 390,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/ligabue/miss-mondo/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/fisiognomica",
+        "width": 390,
+        "asins": [
+          "B0018BDARU",
+          "B0018BDARU",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/franco-battiato/fisiognomica/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+        "width": 390,
+        "asins": [
+          "B07BF46VKC",
+          "B07BF46VKC",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/pino-daniele/vai-mo",
+        "width": 390,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/pino-daniele/vai-mo/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/rammstein/mutter",
+        "width": 390,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/rammstein/mutter/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/yes-i-know-my-way",
+        "width": 390,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/yes-i-know-my-way/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/sonne",
+        "width": 390,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/sonne/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/fuori-dal-tunnel",
+        "width": 390,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/dicono-di-me",
+        "width": 390,
+        "asins": [
+          "B07BF46VKC",
+          "B07BF46VKC",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/dicono-di-me/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/una-vita-da-mediano",
+        "width": 390,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/vengo-dalla-luna",
+        "width": 390,
+        "asins": [
+          "B0000D9X01",
+          "B0000D9X01",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/e-ti-vengo-a-cercare",
+        "width": 390,
+        "asins": [
+          "B0018BDARU",
+          "B0018BDARU",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/franco-battiato",
+        "width": 390,
+        "asins": [
+          "B0778THHRN",
+          "B07VGRX5LT",
+          "B0778THHRN",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/franco-battiato/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/caparezza",
+        "width": 390,
+        "asins": [
+          "B0FR2HH7KY",
+          "B0FR2HH7KY",
+          "B0FR2HH7KY",
+          "B0000D9X01"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/caparezza/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/ligabue",
+        "width": 390,
+        "asins": [
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX",
+          "B0F8KXZCVX"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/ligabue/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/cesare-cremonini",
+        "width": 390,
+        "asins": [
+          "B076ZY4ZCG",
+          "B076ZY4ZCG",
+          "B0FB95Y5RH",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/rammstein",
+        "width": 390,
+        "asins": [
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ",
+          "B073G3ZLDJ"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/rammstein/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/pino-daniele",
+        "width": 390,
+        "asins": [
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN",
+          "B078XGY4SN"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/pino-daniele/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+        "width": 320,
+        "asins": [
+          "B07BF46VKC",
+          "B07BF46VKC",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/e-ti-vengo-a-cercare",
+        "width": 320,
+        "asins": [
+          "B0018BDARU",
+          "B0018BDARU",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/franco-battiato",
+        "width": 320,
+        "asins": [
+          "B0778THHRN",
+          "B07VGRX5LT",
+          "B0778THHRN",
+          "B0018BDARU"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/franco-battiato/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/cesare-cremonini",
+        "width": 320,
+        "asins": [
+          "B076ZY4ZCG",
+          "B076ZY4ZCG",
+          "B0FB95Y5RH",
+          "B07BF46VKC"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      }
+    ],
+    "originalLinks": [
+      {
+        "key": "album/caparezza/verita-supposte",
+        "hrefMatches": true,
+        "formatShown": true
+      },
+      {
+        "key": "album/ligabue/miss-mondo",
+        "hrefMatches": true,
+        "formatShown": true
+      },
+      {
+        "key": "album/franco-battiato/fisiognomica",
+        "hrefMatches": true,
+        "formatShown": true
+      },
+      {
+        "key": "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+        "hrefMatches": true,
+        "formatShown": true
+      },
+      {
+        "key": "album/pino-daniele/vai-mo",
+        "hrefMatches": true,
+        "formatShown": true
+      },
+      {
+        "key": "album/rammstein/mutter",
+        "hrefMatches": true,
+        "formatShown": true
+      }
+    ],
+    "flow": {
+      "route": "Caparezza → Verità supposte → Fuori dal tunnel",
+      "width": 390,
+      "ok": true
+    }
+  },
+  "changedRoutes": [
+    "album/caparezza/verita-supposte/index.html",
+    "album/cesare-cremonini/il-primo-bacio-sulla-luna/index.html",
+    "album/franco-battiato/fisiognomica/index.html",
+    "album/ligabue/miss-mondo/index.html",
+    "album/pino-daniele/vai-mo/index.html",
+    "album/rammstein/mutter/index.html",
+    "artista/caparezza/index.html",
+    "artista/cesare-cremonini/index.html",
+    "artista/franco-battiato/index.html",
+    "artista/ligabue/index.html",
+    "artista/pino-daniele/index.html",
+    "artista/rammstein/index.html",
+    "canzone/dicono-di-me/index.html",
+    "canzone/e-ti-vengo-a-cercare/index.html",
+    "canzone/fuori-dal-tunnel/index.html",
+    "canzone/sonne/index.html",
+    "canzone/una-vita-da-mediano/index.html",
+    "canzone/vengo-dalla-luna/index.html",
+    "canzone/yes-i-know-my-way/index.html"
+  ],
+  "sitemapUpdates": {
+    "album": 2,
+    "canzoni": 7,
+    "artisti": 6
+  },
+  "checks": {
+    "generation": 695,
+    "seoHtml": 696,
+    "affiliateLinksDom": 866,
+    "negativeTests": 12,
+    "emptyTrackingId": true,
+    "seoErrors": 0,
+    "linkErrors": 0
+  },
+  "totals": {
+    "albumProducts": 82,
+    "asins": 81,
+    "songs": 118,
+    "artists": 37,
+    "pages": 237,
+    "linksDom": 866
+  },
+  "publication": {
+    "status": "pending"
+  }
+}

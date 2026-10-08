@@ -22,8 +22,8 @@ export function prodottiAmazonPerArtista(slug) {
   if (!Array.isArray(scelte) || scelte.length !== POSIZIONI_AMAZON_ARTISTA.length) throw new Error('Servono quattro scelte Amazon per artista');
   return scelte.map(chiave => {
     const prodotto = PRODOTTI_AMAZON[chiave];
-    if (!chiave.startsWith(`album/${slug}/`) || !prodotto || prodotto.formato !== 'Vinile' || !prodotto.primeVerificato || !prodotto.provaPrime) {
-      throw new Error('Il prodotto artista deve essere un vinile Prime verificato dello stesso artista');
+    if (!chiave.startsWith(`album/${slug}/`) || !prodotto || !['Vinile', 'CD'].includes(prodotto.formato) || !prodotto.primeVerificato || !prodotto.provaPrime) {
+      throw new Error('Il prodotto artista deve essere un vinile o CD Prime verificato dello stesso artista');
     }
     return prodotto;
   });
@@ -66,6 +66,7 @@ export function collegamentoAmazon({ href, testo, origine, titolo, artista, form
     url.search !== `?tag=${TRACKING_ID_AMAZON}` || url.hash
   )) throw new Error('Formato Amazon documentato o verifica Controllo Link assente');
 
+  if (!['Vinile', 'CD'].includes(formato)) throw new Error('Formato Amazon non ammesso');
   if (![titolo, artista, formato].every(v => typeof v === 'string' && v.trim())) throw new Error('Identità del prodotto incompleta');
   return `<aside class="acquisto-affiliato" aria-label="${esc(titolo)} su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
     <div style="flex:1 1 100%;min-width:0">
