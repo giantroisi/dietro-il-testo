@@ -18,12 +18,12 @@ function walk(dir) {
  for (const entry of readdirSync(dir)) {
   const path=join(dir,entry); if(statSync(path).isDirectory()){walk(path);continue;} if(!path.endsWith('.html'))continue;
   const html=readFileSync(path,'utf8'), rel=path.slice(out.length);
-  const blocks=[...html.matchAll(/<aside class="link-affiliato"[\s\S]*?<\/aside>/g)].map(m=>m[0]);
+  const blocks=[...html.matchAll(/<aside class="acquisto-affiliato"[\s\S]*?<\/aside>/g)].map(m=>m[0]);
   if(blocks.length>1)fail(`${rel}: più di un prodotto`);
   if(blocks.length && !rel.startsWith('canzone/'))fail(`${rel}: prodotto fuori da una scheda canzone`);
   for(const block of blocks){
    count++; if(!TRACKING_ID_AMAZON)fail(`${rel}: link attivo senza ID`);
-   if(!block.includes(AVVISO_AFFILIATO)||!block.includes(DICHIARAZIONE_AMAZON))fail(`${rel}: avviso o dichiarazione assente`);
+   if(!block.includes('· link affiliato</a>'))fail(`${rel}: indicazione affiliata assente`);
    const text=block.replace(/<[^>]*>/g,''); if(/€|\bEUR\b|\bPrime\b|stelle|disponibil/i.test(text))fail(`${rel}: dati commerciali nel blocco`);
   }
   for(const m of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/g)){

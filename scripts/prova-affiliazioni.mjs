@@ -15,9 +15,8 @@ const mutations=[
  ['tag errato',s=>s.replaceAll(`tag=${config.trackingId}`,'tag=errato-21')],
  ['tag assente',s=>s.replaceAll(`tag=${config.trackingId}`,'altro=senza-tag')],
  ['rel incompleto',s=>s.replace('rel="sponsored nofollow noopener"','rel="noopener"')],
- ['avviso assente',s=>s.replace('Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te','')],
- ['dichiarazione assente',s=>s.replace('In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei','')],
- ['link non dichiarato',s=>s.replace('class="link-affiliato"','class="altro"')],
+ ['avviso assente',s=>s.replace('· link affiliato</a>','</a>')],
+ ['link non dichiarato',s=>s.replace('class="acquisto-affiliato"','class="altro"')],
 ];
 try {
  for(const [name,mutate]of mutations){const changed=mutate(original);assert.notEqual(changed,original);writeFileSync(page,changed);assert.notEqual(check().status,0,`Controllo non blocca ${name}`);console.log(`OK: bloccato ${name}`);}

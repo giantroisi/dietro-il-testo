@@ -750,7 +750,7 @@ export function paginaCanzone(c, ctx) {
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>${esc(titoloH1Canzone(c))}</h1>
+        <h1>${esc(titoloH1Canzone(c))}</h1>${amazonPerScheda(c.slug)}
       </div>
       ${c.spotifyId ? playerIntestazione(c) : riquadroVisivo(c.titolo)}
       <div class="testa-contorno">
@@ -863,7 +863,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
     </section>
 
-    ${amazonPerScheda(c.slug)}${
+    ${
       altre.length
         ? `<section class="blocco" id="correlate">
       <h2>Altre canzoni di ${esc(c.artista)}</h2>

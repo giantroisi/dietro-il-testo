@@ -35,9 +35,7 @@ export function collegamentoAmazon({ href, testo, origine } = {}) {
     throw new Error('Tracking ID del link Amazon non corrispondente alla configurazione');
   }
 
-  return `<aside class="link-affiliato" aria-label="Collegamento affiliato">
-    <p>${esc(DICHIARAZIONE_AMAZON)}</p>
-    <p class="link-affiliato-avviso">${esc(AVVISO_AFFILIATO)}</p>
-    <a href="${esc(url.href)}" target="_blank" rel="sponsored nofollow noopener">${esc(testo.trim())}</a>
+  return `<aside class="acquisto-affiliato" aria-label="Acquisto su Amazon">
+    <a class="bottone" href="${esc(url.href)}" aria-label="Acquista il vinile su Amazon — ${esc(testo.trim())} — link affiliato" target="_blank" rel="sponsored nofollow noopener">Acquista il vinile su Amazon · link affiliato</a>
   </aside>`;
 }
