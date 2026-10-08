@@ -20,3 +20,5 @@ Generazione: 695 pagine + 404. Check affiliazioni: 108 link DOM; sei prove negat
 
 ## Copia e limiti
 Copia: /private/tmp/dit-pulsante-amazon-2026-10-08 . Ramo: codex/amazon-survival-horror-2026-10-08 . Aggiornati solo catalogo, verifica del metodo, due pagine e documentazione. Main e file estranei preservati. Prezzi, badge Prime pubblico, copertine Amazon e recensioni non inseriti. Prime verificato al controllo, non promessa futura. Avviso resi ancora presente su Amazon; nessun giudizio sulle ragioni. Informativa a fondo pagina mantiene il limite già documentato nel §70 Roadmap. Routine fotografica ancora sospesa. Pubblicazione richiesta; conferma live da registrare.
+
+Pubblicazione confermata: commit `91b98b577` su origin/main. Le due pagine HTTPS live sono identiche byte per byte ai file verificati. Percorso album → Parasite Eve controllato in browser: tre riquadri visibili, URL B08L1SPQ5Y e tag dietroiltesto-21, nessun overflow. Il collegamento documentato aperto direttamente raggiunge Post Human: Survival Horror, Bring Me The Horizon, Formato Vinile, ASIN B08L1SPQ5Y. File estranei nel main preservati.
