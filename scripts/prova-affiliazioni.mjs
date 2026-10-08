@@ -15,7 +15,7 @@ const mutations=[
  ['tag errato',s=>s.replaceAll(`tag=${config.trackingId}`,'tag=errato-21')],
  ['tag assente',s=>s.replaceAll(`tag=${config.trackingId}`,'altro=senza-tag')],
  ['rel incompleto',s=>s.replace('rel="sponsored nofollow noopener"','rel="noopener"')],
- ['avviso assente',s=>s.replace('· link affiliato</a>','</a>')],
+ ['avviso assente',s=>s.replace('Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te','')],
  ['link non dichiarato',s=>s.replace('class="acquisto-affiliato"','class="altro"')],
 ];
 try {

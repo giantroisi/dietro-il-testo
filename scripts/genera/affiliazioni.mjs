@@ -36,6 +36,12 @@ export function collegamentoAmazon({ href, testo, origine } = {}) {
   }
 
   return `<aside class="acquisto-affiliato" aria-label="Acquisto su Amazon">
-    <a class="bottone" href="${esc(url.href)}" aria-label="Acquista il vinile su Amazon — ${esc(testo.trim())} — link affiliato" target="_blank" rel="sponsored nofollow noopener">Acquista il vinile su Amazon · link affiliato</a>
+    <a class="bottone" href="${esc(url.href)}" aria-label="Acquista su Amazon — ${esc(testo.trim())}" target="_blank" rel="sponsored nofollow noopener">Acquista su Amazon</a>
   </aside>`;
+}
+
+export function informativaAmazonPerScheda(slug) {
+  return TRACKING_ID_AMAZON && PRODOTTI_AMAZON[slug]
+    ? `<p class="nota-affiliazioni">${esc(DICHIARAZIONE_AMAZON)}. ${esc(AVVISO_AFFILIATO)}. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>`
+    : '';
 }

@@ -2,7 +2,7 @@
 // approvata nella Costituzione (ROADMAP.md, sezione 4).
 
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
-import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda } from './affiliazioni.mjs';
+import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -872,7 +872,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}
       </div>
     </section>`
         : ''
-    }
+    }${informativaAmazonPerScheda(c.slug)}
   </div>`;
 
   // F58: mai il primo pezzo del corpo tagliato a lunghezza fissa — frasi

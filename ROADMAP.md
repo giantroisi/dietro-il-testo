@@ -4401,3 +4401,7 @@ Esito del §68: commit 3a0035585 integrato e pubblicato da Git. Otto file live i
 ## 69. Pulsante Amazon nell’intestazione, 8 ottobre 2026
 
 Su richiesta del proprietario, il collegamento di Hotel California passa dalle fonti all’intestazione, subito dopo il titolo. Un solo pulsante «Acquista il vinile su Amazon · link affiliato»; dichiarazione e informazioni complete restano in Affiliazioni. URL SiteStripe e attributi rel invariati. Copia isolata: `/private/tmp/dit-pulsante-amazon-2026-10-08`. Generazione 695 pagine più 404, controlli affiliazioni e cinque prove negative, ID vuoto, SEO e collegamenti superati; browser 390×844 e 1280×900: pulsante vicino al titolo, nessuna fuoriuscita orizzontale. Non sono stati aggiunti prodotti. Verifica Prime ancora da completare.
+
+## 70. Presentazione Amazon richiesta dal proprietario, 8 ottobre 2026
+
+Il proprietario ha richiesto esplicitamente il modello di Dottorciclismo: solo «Acquista su Amazon» nel pulsante sotto il titolo, informativa a fine scheda. La guida ufficiale Amazon GHQNZAU6669EZS98, riaperta oggi, indica invece un avviso vicino al link: differenza comunicata al proprietario prima di applicare la richiesta; non attestata conformità di questo posizionamento. Componente e prove adattati, URL e rel invariati. Generazione, affiliazioni, cinque prove negative, disattivazione ID vuoto, SEO e link superati; browser mobile senza overflow. Nessun nuovo prodotto introdotto.

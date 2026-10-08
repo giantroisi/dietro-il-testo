@@ -23,7 +23,7 @@ function walk(dir) {
   if(blocks.length && !rel.startsWith('canzone/'))fail(`${rel}: prodotto fuori da una scheda canzone`);
   for(const block of blocks){
    count++; if(!TRACKING_ID_AMAZON)fail(`${rel}: link attivo senza ID`);
-   if(!block.includes('· link affiliato</a>'))fail(`${rel}: indicazione affiliata assente`);
+   if(!html.includes(AVVISO_AFFILIATO)||!html.includes(DICHIARAZIONE_AMAZON))fail(`${rel}: indicazione affiliata assente`);
    const text=block.replace(/<[^>]*>/g,''); if(/€|\bEUR\b|\bPrime\b|stelle|disponibil/i.test(text))fail(`${rel}: dati commerciali nel blocco`);
   }
   for(const m of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/g)){
