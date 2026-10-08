@@ -18,3 +18,5 @@ Su richiesta del proprietario, un solo prodotto viene configurato per album e ar
 Controlli: generazione 695 pagine più 404; affiliazioni (22 collegamenti DOM in sei pagine), sei prove negative incluso prodotto verificato ma di un altro album, ID vuoto, SEO 696 HTML e collegamenti interni: tutti superati. Browser: le due pagine album e le tre canzoni Blink controllate a 1280 o 390 px, tre riquadri visibili, nessun overflow; tutte le canzoni Blink controllate anche mobile. Canonical e collegamento informativa corretti. Nessuna modifica editoriale o a dati dell’altra AI. Il file ricerca.mjs modificato nel main resta fuori dall’intervento.
 
 Stato estensione: verificata localmente, pubblicazione richiesta nell’incarico attuale, ancora da confermare sul dominio.
+
+Pubblicazione confermata: commit `fd00bf51d` su origin/main. Sei pagine live confrontate byte per byte con i file locali (due album, quattro canzoni), tutte identiche. Percorso album Enema of the State → What's My Age Again? verificato nel browser live: tre riquadri visibili, destinazione B01K788W36 e link Affiliazioni corretto. Main: ricerca.mjs e i due file non tracciati preservati.
