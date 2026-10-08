@@ -1,0 +1,2430 @@
+{
+  "localBrowser": [
+    {
+      "route": "album/pink-floyd/the-wall",
+      "width": 1280,
+      "asins": [
+        "B01IOED4BK",
+        "B01IOED4BK",
+        "B01IOED4BK"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pink-floyd/the-wall/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/metallica/metallica-black-album",
+      "width": 1280,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/metallica/metallica-black-album/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/coldplay/parachutes",
+      "width": 1280,
+      "asins": [
+        "B0FDGQB5CW",
+        "B0FDGQB5CW",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/coldplay/parachutes/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+      "width": 1280,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/green-day/american-idiot",
+      "width": 1280,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/green-day/american-idiot/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/foo-fighters/the-colour-and-the-shape",
+      "width": 1280,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/foo-fighters/the-colour-and-the-shape/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pink-floyd/wish-you-were-here",
+      "width": 1280,
+      "asins": [
+        "B0FPK4H4HC",
+        "B0FPK4H4HC",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pink-floyd/wish-you-were-here/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/led-zeppelin/physical-graffiti",
+      "width": 1280,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00RUT3AQ0",
+        "B00RUT3AQ0"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/led-zeppelin/physical-graffiti/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pearl-jam/ten",
+      "width": 1280,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pearl-jam/ten/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/led-zeppelin/led-zeppelin-iv",
+      "width": 1280,
+      "asins": [
+        "B00M30T9F2",
+        "B00M30T9F2",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/led-zeppelin/led-zeppelin-iv/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/the-doors/l-a-woman",
+      "width": 1280,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/the-doors/l-a-woman/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/rage-against-the-machine/evil-empire",
+      "width": 1280,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/rage-against-the-machine/evil-empire/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/enter-sandman",
+      "width": 1280,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/enter-sandman/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/nothing-else-matters",
+      "width": 1280,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/nothing-else-matters/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/stairway-to-heaven",
+      "width": 1280,
+      "asins": [
+        "B00M30T9F2",
+        "B00M30T9F2",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/stairway-to-heaven/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/wish-you-were-here",
+      "width": 1280,
+      "asins": [
+        "B0FPK4H4HC",
+        "B0FPK4H4HC",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/wish-you-were-here/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/under-the-bridge",
+      "width": 1280,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/under-the-bridge/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/yellow",
+      "width": 1280,
+      "asins": [
+        "B0FDGQB5CW",
+        "B0FDGQB5CW",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/yellow/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/riders-on-the-storm",
+      "width": 1280,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/riders-on-the-storm/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/american-idiot",
+      "width": 1280,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/american-idiot/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/boulevard-of-broken-dreams",
+      "width": 1280,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/boulevard-of-broken-dreams/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/everlong",
+      "width": 1280,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/everlong/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/bulls-on-parade",
+      "width": 1280,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/bulls-on-parade/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/alive",
+      "width": 1280,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/alive/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/jeremy",
+      "width": 1280,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/jeremy/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/wake-me-up-when-september-ends",
+      "width": 1280,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/wake-me-up-when-september-ends/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/sad-but-true",
+      "width": 1280,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/sad-but-true/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/black-pearl-jam",
+      "width": 1280,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/black-pearl-jam/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/kashmir",
+      "width": 1280,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00RUT3AQ0",
+        "B00RUT3AQ0"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/kashmir/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/comfortably-numb",
+      "width": 1280,
+      "asins": [
+        "B01IOED4BK",
+        "B01IOED4BK",
+        "B01IOED4BK"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/pink-floyd",
+      "width": 1280,
+      "asins": [
+        "B01IOED4BK",
+        "B0FPK4H4HC",
+        "B01IOED4BK",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/pink-floyd/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/metallica",
+      "width": 1280,
+      "asins": [
+        "B0757JMQG8",
+        "B0757JMQG8",
+        "B08X65NN27",
+        "B01DB80YH6"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/metallica/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/coldplay",
+      "width": 1280,
+      "asins": [
+        "B0FDGPZTWL",
+        "B0FDGQB5CW",
+        "B0FDGPZTWL",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/coldplay/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/red-hot-chili-peppers",
+      "width": 1280,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/red-hot-chili-peppers/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/green-day",
+      "width": 1280,
+      "asins": [
+        "B001U7WUW8",
+        "B00061Q83Q",
+        "B001U7WUW8",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/green-day/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/foo-fighters",
+      "width": 1280,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/foo-fighters/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/led-zeppelin",
+      "width": 1280,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00M30T9F2",
+        "B00RUT3AQ0",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/pearl-jam",
+      "width": 1280,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/pearl-jam/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/the-doors",
+      "width": 1280,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/the-doors/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/rage-against-the-machine",
+      "width": 1280,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/rage-against-the-machine/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pink-floyd/the-wall",
+      "width": 390,
+      "asins": [
+        "B01IOED4BK",
+        "B01IOED4BK",
+        "B01IOED4BK"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pink-floyd/the-wall/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/metallica/metallica-black-album",
+      "width": 390,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/metallica/metallica-black-album/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/coldplay/parachutes",
+      "width": 390,
+      "asins": [
+        "B0FDGQB5CW",
+        "B0FDGQB5CW",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/coldplay/parachutes/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+      "width": 390,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/green-day/american-idiot",
+      "width": 390,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/green-day/american-idiot/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/foo-fighters/the-colour-and-the-shape",
+      "width": 390,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/foo-fighters/the-colour-and-the-shape/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pink-floyd/wish-you-were-here",
+      "width": 390,
+      "asins": [
+        "B0FPK4H4HC",
+        "B0FPK4H4HC",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pink-floyd/wish-you-were-here/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/led-zeppelin/physical-graffiti",
+      "width": 390,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00RUT3AQ0",
+        "B00RUT3AQ0"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/led-zeppelin/physical-graffiti/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pearl-jam/ten",
+      "width": 390,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pearl-jam/ten/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/led-zeppelin/led-zeppelin-iv",
+      "width": 390,
+      "asins": [
+        "B00M30T9F2",
+        "B00M30T9F2",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/led-zeppelin/led-zeppelin-iv/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/the-doors/l-a-woman",
+      "width": 390,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/the-doors/l-a-woman/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/rage-against-the-machine/evil-empire",
+      "width": 390,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/rage-against-the-machine/evil-empire/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/enter-sandman",
+      "width": 390,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/enter-sandman/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/nothing-else-matters",
+      "width": 390,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/nothing-else-matters/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/stairway-to-heaven",
+      "width": 390,
+      "asins": [
+        "B00M30T9F2",
+        "B00M30T9F2",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/stairway-to-heaven/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/wish-you-were-here",
+      "width": 390,
+      "asins": [
+        "B0FPK4H4HC",
+        "B0FPK4H4HC",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/wish-you-were-here/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/under-the-bridge",
+      "width": 390,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/under-the-bridge/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/yellow",
+      "width": 390,
+      "asins": [
+        "B0FDGQB5CW",
+        "B0FDGQB5CW",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/yellow/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/riders-on-the-storm",
+      "width": 390,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/riders-on-the-storm/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/american-idiot",
+      "width": 390,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/american-idiot/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/boulevard-of-broken-dreams",
+      "width": 390,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/boulevard-of-broken-dreams/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/everlong",
+      "width": 390,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/everlong/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/bulls-on-parade",
+      "width": 390,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/bulls-on-parade/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/alive",
+      "width": 390,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/alive/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/jeremy",
+      "width": 390,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/jeremy/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/wake-me-up-when-september-ends",
+      "width": 390,
+      "asins": [
+        "B00061Q83Q",
+        "B00061Q83Q",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/wake-me-up-when-september-ends/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/sad-but-true",
+      "width": 390,
+      "asins": [
+        "B08X65NN27",
+        "B08X65NN27",
+        "B08X65NN27"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/sad-but-true/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/black-pearl-jam",
+      "width": 390,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/black-pearl-jam/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/kashmir",
+      "width": 390,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00RUT3AQ0",
+        "B00RUT3AQ0"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/kashmir/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/comfortably-numb",
+      "width": 390,
+      "asins": [
+        "B01IOED4BK",
+        "B01IOED4BK",
+        "B01IOED4BK"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/pink-floyd",
+      "width": 390,
+      "asins": [
+        "B01IOED4BK",
+        "B0FPK4H4HC",
+        "B01IOED4BK",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/pink-floyd/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/metallica",
+      "width": 390,
+      "asins": [
+        "B0757JMQG8",
+        "B0757JMQG8",
+        "B08X65NN27",
+        "B01DB80YH6"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/metallica/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/coldplay",
+      "width": 390,
+      "asins": [
+        "B0FDGPZTWL",
+        "B0FDGQB5CW",
+        "B0FDGPZTWL",
+        "B0FDGQB5CW"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/coldplay/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/red-hot-chili-peppers",
+      "width": 390,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/red-hot-chili-peppers/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/green-day",
+      "width": 390,
+      "asins": [
+        "B001U7WUW8",
+        "B00061Q83Q",
+        "B001U7WUW8",
+        "B00061Q83Q"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/green-day/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/foo-fighters",
+      "width": 390,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/foo-fighters/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/led-zeppelin",
+      "width": 390,
+      "asins": [
+        "B00RUT3AQ0",
+        "B00M30T9F2",
+        "B00RUT3AQ0",
+        "B00M30T9F2"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/pearl-jam",
+      "width": 390,
+      "asins": [
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1",
+        "B06Y6J6XV1"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/pearl-jam/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/the-doors",
+      "width": 390,
+      "asins": [
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV",
+        "B00004WNNV"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/the-doors/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/rage-against-the-machine",
+      "width": 390,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/rage-against-the-machine/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/pink-floyd/wish-you-were-here",
+      "width": 320,
+      "asins": [
+        "B0FPK4H4HC",
+        "B0FPK4H4HC",
+        "B0FPK4H4HC"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/pink-floyd/wish-you-were-here/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "album/foo-fighters/the-colour-and-the-shape",
+      "width": 320,
+      "asins": [
+        "B005STGJDA",
+        "B005STGJDA",
+        "B005STGJDA"
+      ],
+      "canonical": "https://www.dietroiltesto.it/album/foo-fighters/the-colour-and-the-shape/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/red-hot-chili-peppers",
+      "width": 320,
+      "asins": [
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76",
+        "B005VPLZ76"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/red-hot-chili-peppers/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "artista/rage-against-the-machine",
+      "width": 320,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/artista/rage-against-the-machine/",
+      "contained": true,
+      "count": 4,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        "immagine",
+        "canzoni",
+        "album",
+        "storia"
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    },
+    {
+      "route": "canzone/bulls-on-parade",
+      "width": 320,
+      "asins": [
+        "B07DV6VWJ4",
+        "B07DV6VWJ4",
+        "B07DV6VWJ4"
+      ],
+      "canonical": "https://www.dietroiltesto.it/canzone/bulls-on-parade/",
+      "contained": true,
+      "count": 3,
+      "disclosure": true,
+      "overflow": false,
+      "positions": [
+        null,
+        null,
+        null
+      ],
+      "songBoundary": true,
+      "tag": true,
+      "ok": true
+    }
+  ],
+  "originalLinkComparison": [
+    {
+      "key": "album/pink-floyd/the-wall",
+      "ok": true
+    },
+    {
+      "key": "album/metallica/metallica-black-album",
+      "ok": true
+    },
+    {
+      "key": "album/coldplay/parachutes",
+      "ok": true
+    },
+    {
+      "key": "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+      "ok": true
+    },
+    {
+      "key": "album/green-day/american-idiot",
+      "ok": true
+    },
+    {
+      "key": "album/foo-fighters/the-colour-and-the-shape",
+      "ok": true
+    },
+    {
+      "key": "album/pink-floyd/wish-you-were-here",
+      "ok": true
+    },
+    {
+      "key": "album/led-zeppelin/physical-graffiti",
+      "ok": true
+    },
+    {
+      "key": "album/pearl-jam/ten",
+      "ok": true
+    },
+    {
+      "key": "album/led-zeppelin/led-zeppelin-iv",
+      "ok": true
+    },
+    {
+      "key": "album/the-doors/l-a-woman",
+      "ok": true
+    },
+    {
+      "key": "album/rage-against-the-machine/evil-empire",
+      "ok": true
+    }
+  ],
+  "negativeResearch": [
+    {
+      "key": "album/green-day/21st-century-breakdown",
+      "source": "https://www.amazon.it/GREEN-DAY-21ST-CENTURY-BREAKDOWN/dp/B006ARLYJ8",
+      "reason": "Vinile senza offerta selezionata Prime."
+    },
+    {
+      "key": "album/metallica/and-justice-for-all",
+      "source": "https://www.amazon.it/Justice-All-Metallica/dp/B07GX5PVZF",
+      "reason": "Vinile venduto/spedito CALAVIBES senza badge Prime."
+    },
+    {
+      "key": "album/muse/the-resistance",
+      "source": "https://www.amazon.it/Muse-Resistance/dp/B0DYPLT1HW",
+      "prime": false,
+      "offer": "Speditore / Venditore\nAmazon US",
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/ac-dc/powerage",
+      "source": "https://www.amazon.it/Powerage-Ac-Dc/dp/B0000CDLL0",
+      "prime": false,
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/ac-dc/powerage",
+      "source": "https://www.amazon.it/Powerage-AC-DC/dp/B0CQPPQ9S8",
+      "prime": false,
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/caparezza/verita-supposte",
+      "source": "https://www.amazon.it/VERIT%C3%80-SUPPOSTE-2-LP-Caparezza/dp/B0FR2HJNV5",
+      "prime": false,
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/caparezza/le-dimensioni-del-mio-caos",
+      "source": "https://www.amazon.it/DIMENSIONI-DEL-MIO-CAOS-LP/dp/B0FR2DZKLX",
+      "prime": false,
+      "offer": "Speditore / Venditore\nAmazon",
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/caparezza/prisoner-709",
+      "source": "https://www.amazon.it/Prisoner-709-Esclusiva-Discoteca-Laziale/dp/B074KWLQ83",
+      "prime": false,
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/caparezza/exuvia",
+      "source": "https://www.amazon.it/Exuvia-Vinile-Nero-Caparezza/dp/B09498DVFF",
+      "prime": false,
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/a-ha/stay-on-these-roads",
+      "source": "https://www.amazon.it/these-roads-Vinyl-record-Vinyl-LP/dp/B000091NRZ",
+      "prime": false,
+      "offer": "Speditore / Venditore \n    \n \n        \n                    ELETTRODOMESTICI SHOP",
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    },
+    {
+      "key": "album/r-e-m/automatic-for-the-people",
+      "source": "https://www.amazon.it/Automatic-People-R-M/dp/B000002MG0",
+      "prime": false,
+      "offer": "Speditore / Venditore\ncoseon-de",
+      "reason": "Riaperto: badge Prime assente nell’offerta selezionata."
+    }
+  ],
+  "flow": {
+    "route": "Coldplay → Parachutes → Yellow",
+    "width": 390,
+    "ok": true
+  },
+  "date": "2026-10-08",
+  "baseCommit": "7f7ca71af4cbae62c30ee2c0ca2cd0b89196f6c3",
+  "branch": "codex/amazon-album-casuali-2026-10-08",
+  "products": {
+    "album/pink-floyd/the-wall": {
+      "href": "https://www.amazon.it/Wall-Pink-Floyd/dp/B01IOED4BK?&linkCode=ll2&tag=dietroiltesto-21&linkId=7cd4aa2a6f94fc0698e89ca096812ce0&ref_=as_li_ss_tl",
+      "testo": "The Wall — Pink Floyd in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "The Wall — Pink Floyd — Vinile — 2 LP — ASIN B01IOED4BK",
+      "titolo": "The Wall",
+      "artista": "Pink Floyd",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Wall-Pink-Floyd/dp/B01IOED4BK",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/metallica/metallica-black-album": {
+      "href": "https://www.amazon.it/Black-Album-30Th-Anniversary-Remastered/dp/B08X65NN27?&linkCode=ll2&tag=dietroiltesto-21&linkId=d11561706483e278a8ec2dd3126502da&ref_=as_li_ss_tl",
+      "testo": "The Black Album — Metallica in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "The Black Album — Metallica — Vinile — 30th Anniversary Remastered, 180 g — ASIN B08X65NN27",
+      "titolo": "The Black Album",
+      "artista": "Metallica",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Black-Album-30Th-Anniversary-Remastered/dp/B08X65NN27",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/coldplay/parachutes": {
+      "href": "https://www.amazon.it/Parachutes-Vinile-trasparente-Ecorecord-Coldplay/dp/B0FDGQB5CW?&linkCode=ll2&tag=dietroiltesto-21&linkId=314336cd763241aa13ad692264b91c10&ref_=as_li_ss_tl",
+      "testo": "Parachutes — Coldplay in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Parachutes — Coldplay — Vinile — Vinile trasparente Ecorecord — ASIN B0FDGQB5CW",
+      "titolo": "Parachutes",
+      "artista": "Coldplay",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Parachutes-Vinile-trasparente-Ecorecord-Coldplay/dp/B0FDGQB5CW",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon.",
+      "fonteTraccia": "https://ukstore.coldplay.com/products/parachutes-clear-ecorecord",
+      "provaTraccia": "Negozio ufficiale Coldplay, stessa edizione Clear Ecorecord: Yellow nella tracklist lato A."
+    },
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik": {
+      "href": "https://www.amazon.it/Blood-Sugar-Magik-Chili-Peppers/dp/B005VPLZ76?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.mgiyjmciUMQRwh2M-Kn47A.IHbbvQuiRjYXnpKsxCIw1-i59bMDvW0i1vL97UhzpVc&dib_tag=se&keywords=Blood+Sugar+Sex+Magik+vinile&qid=1791476923&sr=8-1&linkCode=ll2&tag=dietroiltesto-21&linkId=817b450833415243a89aa8e8cffd192c&ref_=as_li_ss_tl",
+      "testo": "Blood Sugar Sex Magik — Red Hot Chili Peppers in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Blood Sugar Sex Magik — Red Hot Chili Peppers — Vinile — ASIN B005VPLZ76",
+      "titolo": "Blood Sugar Sex Magik",
+      "artista": "Red Hot Chili Peppers",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Blood-Sugar-Magik-Chili-Peppers/dp/B005VPLZ76",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/green-day/american-idiot": {
+      "href": "https://www.amazon.it/American-Idiot-Green-Day/dp/B00061Q83Q?&linkCode=ll2&tag=dietroiltesto-21&linkId=f944d201cbb72f3b9d6da394e7489d1a&ref_=as_li_ss_tl",
+      "testo": "American Idiot — Green Day in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "American Idiot — Green Day — Vinile — ASIN B00061Q83Q",
+      "titolo": "American Idiot",
+      "artista": "Green Day",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/American-Idiot-Green-Day/dp/B00061Q83Q",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/foo-fighters/the-colour-and-the-shape": {
+      "href": "https://www.amazon.it/Colour-Shape-2-LP/dp/B005STGJDA?&linkCode=ll2&tag=dietroiltesto-21&linkId=ae1aaaa937ae032e93a9e2bfbe670702&ref_=as_li_ss_tl",
+      "testo": "The Colour and the Shape — Foo Fighters in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "The Colour and the Shape — Foo Fighters — Vinile — 2 LP — ASIN B005STGJDA",
+      "titolo": "The Colour and the Shape",
+      "artista": "Foo Fighters",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Colour-Shape-2-LP/dp/B005STGJDA",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon.",
+      "fonteTraccia": "https://ukstore.foofighters.com/products/the-colour-and-the-shape-vinyl-lp",
+      "provaTraccia": "Negozio ufficiale Foo Fighters, doppio vinile: Everlong nel lato C."
+    },
+    "album/pink-floyd/wish-you-were-here": {
+      "href": "https://www.amazon.it/Wish-Were-Here-50th-Anniversary/dp/B0FPK4H4HC?&linkCode=ll2&tag=dietroiltesto-21&linkId=3c8285f897eb7dd42a761df7bf8128fa&ref_=as_li_ss_tl",
+      "testo": "Wish You Were Here (50th Anniversary, 3 LP) — Pink Floyd in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Wish You Were Here (50th Anniversary, 3 LP) — Pink Floyd — Vinile — 50th Anniversary, 3 LP — ASIN B0FPK4H4HC",
+      "titolo": "Wish You Were Here (50th Anniversary, 3 LP)",
+      "artista": "Pink Floyd",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Wish-Were-Here-50th-Anniversary/dp/B0FPK4H4HC",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/led-zeppelin/physical-graffiti": {
+      "href": "https://www.amazon.it/Physical-Graffiti-Led-Zeppelin/dp/B00RUT3AQ0?&linkCode=ll2&tag=dietroiltesto-21&linkId=52ea1694a0bf2f0dcb0f6388bf4e771f&ref_=as_li_ss_tl",
+      "testo": "Physical Graffiti — Led Zeppelin in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Physical Graffiti — Led Zeppelin — Vinile — 40th Anniversary Remastered — ASIN B00RUT3AQ0",
+      "titolo": "Physical Graffiti",
+      "artista": "Led Zeppelin",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Physical-Graffiti-Led-Zeppelin/dp/B00RUT3AQ0",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/pearl-jam/ten": {
+      "href": "https://www.amazon.it/Ten-Pearl-Jam/dp/B06Y6J6XV1?&linkCode=ll2&tag=dietroiltesto-21&linkId=a2f62ad55742cbdfdca2c02022293459&ref_=as_li_ss_tl",
+      "testo": "Ten — Pearl Jam in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Ten — Pearl Jam — Vinile — ASIN B06Y6J6XV1",
+      "titolo": "Ten",
+      "artista": "Pearl Jam",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/Ten-Pearl-Jam/dp/B06Y6J6XV1",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/led-zeppelin/led-zeppelin-iv": {
+      "href": "https://www.amazon.it/LED-Zeppelin-IV/dp/B00M30T9F2?&linkCode=ll2&tag=dietroiltesto-21&linkId=0bb64c6e251f87110970b7edf9b1008b&ref_=as_li_ss_tl",
+      "testo": "Led Zeppelin IV — Led Zeppelin in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "Led Zeppelin IV — Led Zeppelin — Vinile — Remastered, 1 LP — ASIN B00M30T9F2",
+      "titolo": "Led Zeppelin IV",
+      "artista": "Led Zeppelin",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/LED-Zeppelin-IV/dp/B00M30T9F2",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon."
+    },
+    "album/the-doors/l-a-woman": {
+      "href": "https://www.amazon.it/L-Woman-Doors/dp/B00004WNNV?&linkCode=ll2&tag=dietroiltesto-21&linkId=3cd4e44777648654b1e4818c56bedc1f&ref_=as_li_ss_tl",
+      "testo": "L.A. Woman — The Doors in vinile su Amazon",
+      "origine": "strumento-ufficiale-amazon",
+      "prodotto": "L.A. Woman — The Doors — Vinile — 1 LP — ASIN B00004WNNV",
+      "titolo": "L.A. Woman",
+      "artista": "The Doors",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Link completo SiteStripe dietroiltesto-21 appena copiato senza modifiche.",
+      "fonte": "https://www.amazon.it/L-Woman-Doors/dp/B00004WNNV",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon.",
+      "provaTraccia": "Descrizione Brani della pagina originale Amazon riaperta: Riders On The Storm fra le tracce del lato B; dettagli prodotto un disco."
+    },
+    "album/rage-against-the-machine/evil-empire": {
+      "href": "https://www.amazon.it/dp/B07DV6VWJ4/ref=nosim?tag=dietroiltesto-21",
+      "testo": "Evil Empire — Rage Against the Machine in vinile su Amazon",
+      "origine": "formato-documentato-amazon",
+      "prodotto": "Evil Empire — Rage Against the Machine — Vinile — ASIN B07DV6VWJ4",
+      "titolo": "Evil Empire",
+      "artista": "Rage Against the Machine",
+      "formato": "Vinile",
+      "dataVerifica": "2026-10-08",
+      "prova": "Pagina originale Amazon.it riaperta: titolo, artista, formato ed edizione verificati. Avviso resi SiteStripe; formato documentato con Controllo Link autenticato positivo.",
+      "fonte": "https://www.amazon.it/Evil-Empire-Rage-Against-Machine/dp/B07DV6VWJ4",
+      "primeVerificato": "2026-10-08",
+      "provaPrime": "Badge Prime visibile nel riquadro desktop_qualifiedBuyBox dell’offerta nuova selezionata; vendita e spedizione Amazon.",
+      "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+      "verificaTracking": "2026-10-08",
+      "esitoControlloLink": "Operazione riuscita: il link è stato associato a un tag o sub-tag valido per il tuo ID Affiliazione."
+    }
+  },
+  "randomQueue": [
+    {
+      "key": "album/green-day/21st-century-breakdown",
+      "title": "21st Century Breakdown",
+      "artist": "Green Day",
+      "tracks": [
+        "21 Guns"
+      ]
+    },
+    {
+      "key": "album/pink-floyd/the-wall",
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "tracks": [
+        "Comfortably Numb"
+      ]
+    },
+    {
+      "key": "album/metallica/metallica-black-album",
+      "title": "Metallica (\"Black Album\")",
+      "artist": "Metallica",
+      "tracks": [
+        "Enter Sandman",
+        "Nothing Else Matters",
+        "Sad But True"
+      ]
+    },
+    {
+      "key": "album/coldplay/parachutes",
+      "title": "Parachutes",
+      "artist": "Coldplay",
+      "tracks": [
+        "Yellow"
+      ]
+    },
+    {
+      "key": "album/rage-against-the-machine/evil-empire",
+      "title": "Evil Empire",
+      "artist": "Rage Against the Machine",
+      "tracks": [
+        "Bulls on Parade"
+      ]
+    },
+    {
+      "key": "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+      "title": "Blood Sugar Sex Magik",
+      "artist": "Red Hot Chili Peppers",
+      "tracks": [
+        "Under the Bridge"
+      ]
+    },
+    {
+      "key": "album/green-day/american-idiot",
+      "title": "American Idiot",
+      "artist": "Green Day",
+      "tracks": [
+        "American Idiot",
+        "Boulevard of Broken Dreams",
+        "Wake Me Up When September Ends"
+      ]
+    },
+    {
+      "key": "album/foo-fighters/the-colour-and-the-shape",
+      "title": "The Colour and the Shape",
+      "artist": "Foo Fighters",
+      "tracks": [
+        "Everlong"
+      ]
+    },
+    {
+      "key": "album/pink-floyd/wish-you-were-here",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "tracks": [
+        "Wish You Were Here"
+      ]
+    },
+    {
+      "key": "album/led-zeppelin/physical-graffiti",
+      "title": "Physical Graffiti",
+      "artist": "Led Zeppelin",
+      "tracks": [
+        "Kashmir"
+      ]
+    },
+    {
+      "key": "album/pearl-jam/ten",
+      "title": "Ten",
+      "artist": "Pearl Jam",
+      "tracks": [
+        "Alive",
+        "Jeremy",
+        "Black"
+      ]
+    },
+    {
+      "key": "album/metallica/and-justice-for-all",
+      "title": "...And Justice for All",
+      "artist": "Metallica",
+      "tracks": [
+        "One"
+      ]
+    },
+    {
+      "key": "album/led-zeppelin/led-zeppelin-iv",
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "tracks": [
+        "Stairway to Heaven"
+      ]
+    },
+    {
+      "key": "album/the-doors/l-a-woman",
+      "title": "L.A. Woman",
+      "artist": "The Doors",
+      "tracks": [
+        "Riders on the Storm"
+      ]
+    },
+    {
+      "key": "album/rage-against-the-machine/rage-against-the-machine",
+      "title": "Rage Against the Machine",
+      "artist": "Rage Against the Machine",
+      "tracks": [
+        "Killing in the Name"
+      ]
+    },
+    {
+      "key": "album/radiohead/pablo-honey",
+      "title": "Pablo Honey",
+      "artist": "Radiohead",
+      "tracks": [
+        "Creep"
+      ]
+    }
+  ],
+  "changedRoutes": [
+    "album/pink-floyd/the-wall/index.html",
+    "album/metallica/metallica-black-album/index.html",
+    "album/coldplay/parachutes/index.html",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik/index.html",
+    "album/green-day/american-idiot/index.html",
+    "album/foo-fighters/the-colour-and-the-shape/index.html",
+    "album/pink-floyd/wish-you-were-here/index.html",
+    "album/led-zeppelin/physical-graffiti/index.html",
+    "album/pearl-jam/ten/index.html",
+    "album/led-zeppelin/led-zeppelin-iv/index.html",
+    "album/the-doors/l-a-woman/index.html",
+    "album/rage-against-the-machine/evil-empire/index.html",
+    "canzone/enter-sandman/index.html",
+    "canzone/nothing-else-matters/index.html",
+    "canzone/stairway-to-heaven/index.html",
+    "canzone/wish-you-were-here/index.html",
+    "canzone/under-the-bridge/index.html",
+    "canzone/yellow/index.html",
+    "canzone/riders-on-the-storm/index.html",
+    "canzone/american-idiot/index.html",
+    "canzone/boulevard-of-broken-dreams/index.html",
+    "canzone/everlong/index.html",
+    "canzone/bulls-on-parade/index.html",
+    "canzone/alive/index.html",
+    "canzone/jeremy/index.html",
+    "canzone/wake-me-up-when-september-ends/index.html",
+    "canzone/sad-but-true/index.html",
+    "canzone/black-pearl-jam/index.html",
+    "canzone/kashmir/index.html",
+    "canzone/comfortably-numb/index.html",
+    "artista/pink-floyd/index.html",
+    "artista/metallica/index.html",
+    "artista/coldplay/index.html",
+    "artista/red-hot-chili-peppers/index.html",
+    "artista/green-day/index.html",
+    "artista/foo-fighters/index.html",
+    "artista/led-zeppelin/index.html",
+    "artista/pearl-jam/index.html",
+    "artista/the-doors/index.html",
+    "artista/rage-against-the-machine/index.html"
+  ],
+  "checks": {
+    "generation": 695,
+    "htmlSeo": 696,
+    "affiliateLinksDom": 808,
+    "seoErrors": 0,
+    "linkErrors": 0,
+    "negativeTests": 9,
+    "emptyTrackingId": true
+  },
+  "totals": {
+    "albumProducts": 76,
+    "distinctAsins": 75,
+    "songs": 111,
+    "artists": 34,
+    "pages": 221
+  },
+  "publication": {
+    "status": "pending"
+  },
+  "sitemapUpdates": {
+    "album": 10,
+    "songs": 18,
+    "artists": 10,
+    "existingNoindexAlbumPages": [
+      "album/pink-floyd/the-wall",
+      "album/led-zeppelin/physical-graffiti"
+    ]
+  }
+}

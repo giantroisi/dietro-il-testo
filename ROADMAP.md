@@ -4508,3 +4508,13 @@ Generazione, affiliazioni, nove prove negative, ID vuoto, SEO e link superati; b
 
 
 Pubblicazione confermata: commit `91c79f3f1` su origin/main, deploy `dpl_3XntcjkCyoAmrEyNiAFiwAAJMUC1` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 26 pagine HTTPS identiche byte per byte ai file verificati. Percorso Muse → Black Holes and Revelations → Knights of Cydonia in browser mobile positivo: quattro riquadri artista, tre nella canzone, stesso ASIN B000G03S94 e tag, nessun overflow. Shape of You desktop: tre riquadri, ASIN B01N216CIO, pulsanti contenuti e nessun overflow. Main e file estranei preservati, routine sospesa.
+
+## 87. Dodici album alternativi a caso, 8 ottobre 2026
+
+Su richiesta del proprietario, per dodici album già collegati scelti altri dischi esistenti e senza prodotto in un ordine casuale fra sedici candidati. Preparati The Wall, The Black Album, Parachutes, Blood Sugar Sex Magik, American Idiot, The Colour and the Shape, Wish You Were Here 50th Anniversary 3 LP, Physical Graffiti, Ten, Led Zeppelin IV, L.A. Woman ed Evil Empire. Tutti vinili con badge Prime nell’offerta nuova Amazon verificata. Undici link completi SiteStripe copiati e preservati; Evil Empire, avviso resi SiteStripe, formato documentato con Controllo Link autenticato positivo. Tracce Yellow/Everlong incrociate con le rispettive edizioni nel negozio ufficiale.
+
+Riaperti gli otto album richiesti ancora scoperti: The Resistance, Powerage (due edizioni), Verità supposte, Le dimensioni del mio caos, Prisoner 709, Exuvia, Stay on These Roads e Automatic for the People: nessuna offerta Prime verificabile. Non attivati. Due candidati casuali scartati per assenza Prime. Gli album alternativi vengono collegati nelle proprie schede; i dischi precedenti restano disponibili.
+
+Dodici album, 18 canzoni e 10 artisti: 40 pagine modificate, 37 nuove pagine coperte. Tre riquadri visibili in canzoni/album, quattro negli artisti, anche fra canzoni e discografia. Totale 76 voci album, 75 ASIN, 111 canzoni, 34 artisti, 221 pagine e 808 link DOM. Generazione, affiliazioni, nove prove negative, ID vuoto, SEO e link superati; browser tutte le 40 pagine a 1280 e 390 px, cinque a 320 px: 85 verifiche positive. Confronto dei dodici URL con gli originali positivo; percorso Coldplay → Parachutes → Yellow mobile positivo. Solo HTML e voci sitemap pertinenti trasferiti.
+
+Dossier `rapporti/amazon-album-casuali-2026-10-08.md`, prove JSON omonime. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/amazon-album-casuali-2026-10-08`, base 7f7ca71af. Routine sospesa, altra AI e file estranei preservati; limite informativa §70 invariato. Pubblicazione richiesta, verifica live da completare.

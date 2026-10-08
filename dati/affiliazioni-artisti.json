@@ -85,9 +85,9 @@
   ],
   "coldplay": [
     "album/coldplay/a-rush-of-blood-to-the-head",
+    "album/coldplay/parachutes",
     "album/coldplay/a-rush-of-blood-to-the-head",
-    "album/coldplay/a-rush-of-blood-to-the-head",
-    "album/coldplay/a-rush-of-blood-to-the-head"
+    "album/coldplay/parachutes"
   ],
   "the-beatles": [
     "album/the-beatles/abbey-road",
@@ -122,8 +122,8 @@
   "metallica": [
     "album/metallica/master-of-puppets",
     "album/metallica/ride-the-lightning",
-    "album/metallica/master-of-puppets",
-    "album/metallica/ride-the-lightning"
+    "album/metallica/metallica-black-album",
+    "album/metallica/master-of-puppets"
   ],
   "guns-n-roses": [
     "album/guns-n-roses/appetite-for-destruction",
@@ -145,9 +145,9 @@
   ],
   "green-day": [
     "album/green-day/dookie",
+    "album/green-day/american-idiot",
     "album/green-day/dookie",
-    "album/green-day/dookie",
-    "album/green-day/dookie"
+    "album/green-day/american-idiot"
   ],
   "muse": [
     "album/muse/black-holes-and-revelations",
@@ -160,5 +160,47 @@
     "album/nirvana/nevermind",
     "album/nirvana/nevermind",
     "album/nirvana/nevermind"
+  ],
+  "pink-floyd": [
+    "album/pink-floyd/the-wall",
+    "album/pink-floyd/wish-you-were-here",
+    "album/pink-floyd/the-wall",
+    "album/pink-floyd/wish-you-were-here"
+  ],
+  "red-hot-chili-peppers": [
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik"
+  ],
+  "foo-fighters": [
+    "album/foo-fighters/the-colour-and-the-shape",
+    "album/foo-fighters/the-colour-and-the-shape",
+    "album/foo-fighters/the-colour-and-the-shape",
+    "album/foo-fighters/the-colour-and-the-shape"
+  ],
+  "led-zeppelin": [
+    "album/led-zeppelin/physical-graffiti",
+    "album/led-zeppelin/led-zeppelin-iv",
+    "album/led-zeppelin/physical-graffiti",
+    "album/led-zeppelin/led-zeppelin-iv"
+  ],
+  "pearl-jam": [
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten"
+  ],
+  "the-doors": [
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman"
+  ],
+  "rage-against-the-machine": [
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire"
   ]
 }
