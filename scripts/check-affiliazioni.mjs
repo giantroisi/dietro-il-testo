@@ -14,11 +14,20 @@ if (TRACKING_ID_AMAZON && !info.includes(DICHIARAZIONE_AMAZON)) fail('Dichiarazi
 if (!TRACKING_ID_AMAZON && info.includes(DICHIARAZIONE_AMAZON)) fail('Dichiarazione attiva senza ID');
 // Il catalogo cresce solo con prodotti verificati, uno per album.
 const songs=JSON.parse(readFileSync(new URL('../dati/canzoni.json',import.meta.url),'utf8'));
+const albums=JSON.parse(readFileSync(new URL('../dati/album-computati.json',import.meta.url),'utf8'));
+const albumsByRoute=new Map(albums.map(a=>[`album/${a.artistaSlug}/${a.slug}`,a]));
 const expectedPages=new Map();
 if (TRACKING_ID_AMAZON) {
  for (const [route,p] of Object.entries(PRODOTTI_AMAZON)) {
   if (!/^album\/[^/]+\/[^/]+$/.test(route)) fail(`${route}: chiave prodotto non riferita a un album`);
-  expectedPages.set(route+'/index.html', {products:[p],count:3});
+  const album=albumsByRoute.get(route);
+  if(!album)fail(`${route}: album non presente nella discografia`);
+  if(album?.esiste){
+   if(p.soloArtista)fail(`${route}: scheda album esistente esclusa dal prodotto`);
+   expectedPages.set(route+'/index.html', {products:[p],count:3});
+  }else if(!p.soloArtista || !SCELTE_AMAZON_ARTISTI[album?.artistaSlug]?.includes(route)){
+   fail(`${route}: prodotto senza scheda album deve essere dichiarato e utilizzato nell’artista`);
+  }
   if (!['Vinile','CD'].includes(p.formato)) fail(`${route}: formato non ammesso`);
   if (p.formato==='CD' && (!p.provaRicercaVinile || !p.fonteRicercaVinile)) fail(`${route}: ricerca del vinile prima del CD non documentata`);
   if (!p.primeVerificato || !p.provaPrime) fail(`${route}: verifica Prime assente`);

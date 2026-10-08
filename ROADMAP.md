@@ -4532,3 +4532,11 @@ Generazione, affiliazioni, dodici prove negative e ID vuoto, SEO e link superati
 
 
 Pubblicazione confermata: commit `a4404d9e0` su origin/main, deploy `dpl_5M5egSjvhUwvTE8vB4jVKh8Gi78d` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 19 pagine HTTPS sono identiche byte per byte ai file controllati. Percorso Battiato → Fisiognomica → E ti vengo a cercare mobile positivo: quattro riquadri artista e tre canzone, CD B0018BDARU condiviso e indicato nel riquadro, tag corretto, nessun overflow. Sonne desktop: tre riquadri, vinile B073G3ZLDJ e pulsanti contenuti. Main, ricerca e due file SEO non tracciati preservati; routine sospesa.
+
+## 89. Dodici prodotti, cinque schede album e sette alternative nelle band, 8 ottobre 2026
+
+Tre album richiesti scoperti (Paranoid, Slippery When Wet, Violator) e nove alternative dello stesso artista per quelli già collegati. Undici vinili Prime e CD Prime Minutes to Midnight dopo vinile senza Prime. Undici link SiteStripe completi copiati e preservati; Wasting Light nel formato ufficiale documentato con Controllo Link positivo. Paranoid Deluxe incrociato sul codice U6418705 per le tracce originali.
+
+Sette alternative sono nella discografia senza scheda album: prodotti soloArtista nelle band, senza creare pagine editoriali. Regola in Costituzione §6; controllo blocca eccezioni implicite e album inventati. Cinque album, nove canzoni e dodici artisti: 26 pagine, 17 nuove coperte; tre riquadri album/canzone e quattro artista. Catalogo 94 voci, 93 ASIN; 87 pagine album, 127 canzoni, 40 artisti = 254 pagine, 929 link DOM.
+
+Generazione, affiliazioni, quattordici prove negative e ID vuoto, SEO e link superati. Browser 26 pagine a 1280 e 390 px, quattro a 320 px: 56 verifiche positive. Dodici URL originali confrontati; percorso Black Sabbath → Paranoid → Iron Man mobile positivo. Solo HTML e voci sitemap pertinenti trasferiti. Dossier `rapporti/amazon-album-alternative-2026-10-08.md`, prove JSON omonime. Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/amazon-album-alternative-2026-10-08`, base f921c9009. Main, altra AI e file estranei preservati, routine sospesa; limite informativa §70 invariato. Pubblicazione richiesta, esito live da completare.

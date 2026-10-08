@@ -66,6 +66,23 @@ if(cdEntry){
  assert.equal(check().status,0,'CD e catalogo ripristinati devono passare');
 }
 
+// Nessuna eccezione implicita per i prodotti di dischi senza scheda propria.
+const artistOnly=Object.entries(products).find(([,p])=>p.soloArtista);
+if(artistOnly){
+ const [key,p]=artistOnly, catalogPath=root+'dati/affiliazioni-prodotti.json';
+ const saved=readFileSync(catalogPath,'utf8');
+ try{
+  writeFileSync(catalogPath,JSON.stringify({...products,[key]:{...p,soloArtista:false}}));
+  assert.notEqual(check().status,0,'Prodotto senza pagina non dichiarato deve essere bloccato');
+  console.log('OK: bloccato prodotto senza scheda non dichiarato');
+  const invented={...products};delete invented[key];invented[key+'-inesistente']=p;
+  writeFileSync(catalogPath,JSON.stringify(invented));
+  assert.notEqual(check().status,0,'Album inventato deve essere bloccato');
+  console.log('OK: bloccato album fuori dalla discografia');
+ }finally{writeFileSync(catalogPath,saved);}
+ assert.equal(check().status,0,'Catalogo ripristinato deve passare');
+}
+
 const configPath=root+'dati/affiliazioni.json', savedConfig=readFileSync(configPath,'utf8');
 try {
  writeFileSync(configPath,JSON.stringify({trackingId:''}));
