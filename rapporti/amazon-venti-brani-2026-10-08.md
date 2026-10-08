@@ -88,3 +88,6 @@ Sono limiti della ricerca svolta, non affermazioni di indisponibilità assoluta.
 Copia `/private/tmp/dit-pulsante-amazon-2026-10-08`, ramo `codex/amazon-venti-brani-2026-10-08`, base main 000b7f4d0. Routine sospesa, altra AI e lotti precedenti preservati. Informativa in fondo su richiesta del proprietario, con limite già registrato in ROADMAP §70. Nessun prezzo, copertina Amazon, promessa Prime pubblicata, dato GSC o dato privato dell’account.
 
 Pubblicazione richiesta: integrazione e verifica HTTPS live da completare.
+
+
+Pubblicazione confermata: commit `bd044902a` su origin/main. Deploy `dpl_GC16auQzEtCkP2CwYK6toutybJsS`, READY, produzione, commit e alias www.dietroiltesto.it verificati tramite metadata Vercel; controllo GitHub Vercel success. Tutte le 42 pagine HTTPS live identiche byte per byte ai file verificati. Percorso Celentano → Il ragazzo della via Gluck album → canzone controllato nel browser mobile: quattro riquadri artista, tre nella canzone, ASIN B0D45KJRRQ condiviso, nessun overflow. The Scientist desktop: tre riquadri, ASIN B0FDGPZTWL, tag corretto e pulsanti contenuti. Main: generatore ricerca, ricerca.js e due documenti SEO non tracciati preservati. Routine sospesa.

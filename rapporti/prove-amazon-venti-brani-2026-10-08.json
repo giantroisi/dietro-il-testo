@@ -229,5 +229,372 @@
     "artista/metallica/index.html": "9cb0a3c1b3f43e4a6eb7e6d58310e1ad9e6e032b998e39aca8570a65b8bb8c21",
     "artista/guns-n-roses/index.html": "6910fe2821c2ad93594952a9cee9c4e2b4c7f4d8149c7e0c6497abe19cd1ded1"
   },
-  "copied_urls_identical": 15
+  "copied_urls_identical": 15,
+  "live": {
+    "checked_at": "2026-10-08T15:45:31.386538+00:00",
+    "content_commit": "bd044902a90db10e7e0475d9ef85111510b5d2c1",
+    "deployment": "dpl_GC16auQzEtCkP2CwYK6toutybJsS",
+    "deployment_state": "READY",
+    "target": "production",
+    "pages": [
+      {
+        "route": "album/coldplay/a-rush-of-blood-to-the-head/index.html",
+        "url": "https://www.dietroiltesto.it/album/coldplay/a-rush-of-blood-to-the-head/",
+        "expected_sha256": "5154fa8d594b9895317937dd13974e98d4029d3f0a74b381b2a9e0dd9eae9e5f",
+        "received_sha256": "5154fa8d594b9895317937dd13974e98d4029d3f0a74b381b2a9e0dd9eae9e5f",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/the-beatles/abbey-road/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-beatles/abbey-road/",
+        "expected_sha256": "66fb2387f1f64716890ccf0aafc73e850f71e8b273b8f71533afe66acb940428",
+        "received_sha256": "66fb2387f1f64716890ccf0aafc73e850f71e8b273b8f71533afe66acb940428",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/evanescence/fallen/index.html",
+        "url": "https://www.dietroiltesto.it/album/evanescence/fallen/",
+        "expected_sha256": "6ff4a22a7ea612fada6b9032426c4376890d8fd2fa5e2daae7420f0a07fc43b1",
+        "received_sha256": "6ff4a22a7ea612fada6b9032426c4376890d8fd2fa5e2daae7420f0a07fc43b1",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/a-ha/hunting-high-and-low/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/hunting-high-and-low/",
+        "expected_sha256": "0128b62967bb52cb9b9080553ce873df2993de7968598a8dcd7b78c4cc3aee60",
+        "received_sha256": "0128b62967bb52cb9b9080553ce873df2993de7968598a8dcd7b78c4cc3aee60",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/blink-182/dude-ranch/index.html",
+        "url": "https://www.dietroiltesto.it/album/blink-182/dude-ranch/",
+        "expected_sha256": "91ad0a83dd65768021e0f81055b61817b1ad4d5e51b620733c5aa51259662b85",
+        "received_sha256": "91ad0a83dd65768021e0f81055b61817b1ad4d5e51b620733c5aa51259662b85",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/adriano-celentano/il-ragazzo-della-via-gluck/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/il-ragazzo-della-via-gluck/",
+        "expected_sha256": "90fbe1d846a348d7755adffb7a1434d27c6e726adf99d6fa2d9949f278665fde",
+        "received_sha256": "90fbe1d846a348d7755adffb7a1434d27c6e726adf99d6fa2d9949f278665fde",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/adriano-celentano/svalutation/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/svalutation/",
+        "expected_sha256": "af9ffbb7246550e7d51549becc2270bd11f2832a085beef11e604aff49422bda",
+        "received_sha256": "af9ffbb7246550e7d51549becc2270bd11f2832a085beef11e604aff49422bda",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/adriano-celentano/yuppi-du/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/yuppi-du/",
+        "expected_sha256": "ec84230f2bd4557ccd06b6cc39243794a604f11adb0311129812c9364df7c7d3",
+        "received_sha256": "ec84230f2bd4557ccd06b6cc39243794a604f11adb0311129812c9364df7c7d3",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/queen/a-night-at-the-opera/index.html",
+        "url": "https://www.dietroiltesto.it/album/queen/a-night-at-the-opera/",
+        "expected_sha256": "8b287fa8ded4d94dad04ad98f53689a303268b06a21bbf10e85ec647e34da7a5",
+        "received_sha256": "8b287fa8ded4d94dad04ad98f53689a303268b06a21bbf10e85ec647e34da7a5",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/queen/the-game/index.html",
+        "url": "https://www.dietroiltesto.it/album/queen/the-game/",
+        "expected_sha256": "0ec7b58e00816d09f146f96b73afe4a612fa51ff3560b37cfe8b6546569d0ea4",
+        "received_sha256": "0ec7b58e00816d09f146f96b73afe4a612fa51ff3560b37cfe8b6546569d0ea4",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/metallica/master-of-puppets/index.html",
+        "url": "https://www.dietroiltesto.it/album/metallica/master-of-puppets/",
+        "expected_sha256": "c662c2b5139505f67a1bebf08cc61b85a9734636330464c38f708fce9e6fe2d1",
+        "received_sha256": "c662c2b5139505f67a1bebf08cc61b85a9734636330464c38f708fce9e6fe2d1",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/metallica/ride-the-lightning/index.html",
+        "url": "https://www.dietroiltesto.it/album/metallica/ride-the-lightning/",
+        "expected_sha256": "af10c64cd0df56b8c4930e474331499ea8a1855b6e860e870d893a0daaf97954",
+        "received_sha256": "af10c64cd0df56b8c4930e474331499ea8a1855b6e860e870d893a0daaf97954",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/guns-n-roses/appetite-for-destruction/index.html",
+        "url": "https://www.dietroiltesto.it/album/guns-n-roses/appetite-for-destruction/",
+        "expected_sha256": "0e7777f56eae9b6c9d4dc84969b36ebc7eb68db8c489d408429d6c3330685159",
+        "received_sha256": "0e7777f56eae9b6c9d4dc84969b36ebc7eb68db8c489d408429d6c3330685159",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/guns-n-roses/use-your-illusion-i/index.html",
+        "url": "https://www.dietroiltesto.it/album/guns-n-roses/use-your-illusion-i/",
+        "expected_sha256": "dd4bd5ac6b4413ffd08ad42e0f9cfe4ac7f5bb003637d9df7f587a8945c99492",
+        "received_sha256": "dd4bd5ac6b4413ffd08ad42e0f9cfe4ac7f5bb003637d9df7f587a8945c99492",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "album/the-beatles/help/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-beatles/help/",
+        "expected_sha256": "44e1acaa653095bc8d744da305fd39fe1d2887bda023a13918737d715cdf8471",
+        "received_sha256": "44e1acaa653095bc8d744da305fd39fe1d2887bda023a13918737d715cdf8471",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/bohemian-rhapsody/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/bohemian-rhapsody/",
+        "expected_sha256": "8f0d469c4a7add66bae48f124a24dba44a2f5e8007aeac509e2df7e6df6e38d6",
+        "received_sha256": "8f0d469c4a7add66bae48f124a24dba44a2f5e8007aeac509e2df7e6df6e38d6",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/sweet-child/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sweet-child/",
+        "expected_sha256": "0cc4183ff3a952424209eda787baaced38aa13b2be67a9149fb6feeb29d8f352",
+        "received_sha256": "0cc4183ff3a952424209eda787baaced38aa13b2be67a9149fb6feeb29d8f352",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/bring-me-to-life/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/bring-me-to-life/",
+        "expected_sha256": "26a3a5db295395058017c47b3cac3eabf5f336aa9680ecedf6d4f3f6815c005b",
+        "received_sha256": "26a3a5db295395058017c47b3cac3eabf5f336aa9680ecedf6d4f3f6815c005b",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/master-of-puppets/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/master-of-puppets/",
+        "expected_sha256": "be9152938122babe390836d87cb6fafe4b0285125f7450ab64856f5931b303cd",
+        "received_sha256": "be9152938122babe390836d87cb6fafe4b0285125f7450ab64856f5931b303cd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/take-on-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/take-on-me/",
+        "expected_sha256": "46c01d37dd8e6aaf0c590994096ae723464fec4ad6b6e5963c19f5f83e8115fd",
+        "received_sha256": "46c01d37dd8e6aaf0c590994096ae723464fec4ad6b6e5963c19f5f83e8115fd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/november-rain/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/november-rain/",
+        "expected_sha256": "c774a9598a43f3f2bc9b24991fb2fd8a20494b48e2edb1a3b9a9d0f014b28feb",
+        "received_sha256": "c774a9598a43f3f2bc9b24991fb2fd8a20494b48e2edb1a3b9a9d0f014b28feb",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/fade-to-black/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fade-to-black/",
+        "expected_sha256": "6c1b602125126ed81d458f958a2010efcf6d5cf175da740026243372596c1bcd",
+        "received_sha256": "6c1b602125126ed81d458f958a2010efcf6d5cf175da740026243372596c1bcd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/paradise-city/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/paradise-city/",
+        "expected_sha256": "5ebc890c4f70038f150d720e60c3139ecb81d48593b54b4d367044d901335c30",
+        "received_sha256": "5ebc890c4f70038f150d720e60c3139ecb81d48593b54b4d367044d901335c30",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/welcome-to-the-jungle/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/welcome-to-the-jungle/",
+        "expected_sha256": "28baaf560e01dc61d8451c277f690ac4f7824350a882a5f11f864ae3c3dd3355",
+        "received_sha256": "28baaf560e01dc61d8451c277f690ac4f7824350a882a5f11f864ae3c3dd3355",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/my-immortal/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/my-immortal/",
+        "expected_sha256": "fa321335c6c3dd2b3e94761921200c68aa6512607238f41bb145418cd3f49d5f",
+        "received_sha256": "fa321335c6c3dd2b3e94761921200c68aa6512607238f41bb145418cd3f49d5f",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/il-ragazzo-della-via-gluck/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/",
+        "expected_sha256": "2497f43208ba1344422e42862b9a55ed5c8b769fde9fa7b9381b455c78429986",
+        "received_sha256": "2497f43208ba1344422e42862b9a55ed5c8b769fde9fa7b9381b455c78429986",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/svalutation/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/svalutation/",
+        "expected_sha256": "6fcf5cdb20085ba418238a12d5a8965cd79400d6e12f50b862ad7789e58e2acd",
+        "received_sha256": "6fcf5cdb20085ba418238a12d5a8965cd79400d6e12f50b862ad7789e58e2acd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/yuppi-du/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yuppi-du/",
+        "expected_sha256": "e6965e07aa79c2facc953dfea51d47ac2d05acc855c779ee6e10d2ff1aeb4d0a",
+        "received_sha256": "e6965e07aa79c2facc953dfea51d47ac2d05acc855c779ee6e10d2ff1aeb4d0a",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/another-one-bites-the-dust/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/another-one-bites-the-dust/",
+        "expected_sha256": "8e82cc374280df7a4c4a202f676a06c24187008db027b3a846de3774916cf3b8",
+        "received_sha256": "8e82cc374280df7a4c4a202f676a06c24187008db027b3a846de3774916cf3b8",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/dammit/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dammit/",
+        "expected_sha256": "3e9628eb987a5df097733ba2f17bfea41cfcb9b31423348c80fd7308abf6aaac",
+        "received_sha256": "3e9628eb987a5df097733ba2f17bfea41cfcb9b31423348c80fd7308abf6aaac",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/yesterday/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yesterday/",
+        "expected_sha256": "8d0391b99622c194a89f6b39e2aa329ae38936d9783fa50ea58c604a319a0e07",
+        "received_sha256": "8d0391b99622c194a89f6b39e2aa329ae38936d9783fa50ea58c604a319a0e07",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/here-comes-the-sun/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/here-comes-the-sun/",
+        "expected_sha256": "3376f196faa502f222b00780c622e04509673538b8ad964ff1f335d2bfe1f23a",
+        "received_sha256": "3376f196faa502f222b00780c622e04509673538b8ad964ff1f335d2bfe1f23a",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "canzone/the-scientist/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/the-scientist/",
+        "expected_sha256": "d563898f14cb953a8ead558a1690820c693f65fcb0a303ebc4301064255f41e5",
+        "received_sha256": "d563898f14cb953a8ead558a1690820c693f65fcb0a303ebc4301064255f41e5",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/coldplay/index.html",
+        "url": "https://www.dietroiltesto.it/artista/coldplay/",
+        "expected_sha256": "7e5b708bb0e0f15bfe6bc7af5bd90829b04c47e6ce556bb7f29dd05113f7dfdd",
+        "received_sha256": "7e5b708bb0e0f15bfe6bc7af5bd90829b04c47e6ce556bb7f29dd05113f7dfdd",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/the-beatles/index.html",
+        "url": "https://www.dietroiltesto.it/artista/the-beatles/",
+        "expected_sha256": "ebbd8998bfa3e3302fddbbeec5c843e0ba0cf6d8231376f5a7cc40297a4612c7",
+        "received_sha256": "ebbd8998bfa3e3302fddbbeec5c843e0ba0cf6d8231376f5a7cc40297a4612c7",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/evanescence/index.html",
+        "url": "https://www.dietroiltesto.it/artista/evanescence/",
+        "expected_sha256": "b0ef9e0a03eff4b2f90898f12fe94a398217adec2c51bc8e66c393c997bdc357",
+        "received_sha256": "b0ef9e0a03eff4b2f90898f12fe94a398217adec2c51bc8e66c393c997bdc357",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/a-ha/index.html",
+        "url": "https://www.dietroiltesto.it/artista/a-ha/",
+        "expected_sha256": "2d042a4f0649c326225dc43b8cc0ee0a9aea9cc25a19c6ab2f50ad0ac88b1006",
+        "received_sha256": "2d042a4f0649c326225dc43b8cc0ee0a9aea9cc25a19c6ab2f50ad0ac88b1006",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/blink-182/index.html",
+        "url": "https://www.dietroiltesto.it/artista/blink-182/",
+        "expected_sha256": "fb846c55f4de456dd6d456ab854780bbe56c663f56ecbd7a73c52573e050981d",
+        "received_sha256": "fb846c55f4de456dd6d456ab854780bbe56c663f56ecbd7a73c52573e050981d",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/adriano-celentano/index.html",
+        "url": "https://www.dietroiltesto.it/artista/adriano-celentano/",
+        "expected_sha256": "e3ca9f527b406cdc9abe49f7ee6f86e9ca746fa39484ffdb2dcd3835d910035d",
+        "received_sha256": "e3ca9f527b406cdc9abe49f7ee6f86e9ca746fa39484ffdb2dcd3835d910035d",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/queen/index.html",
+        "url": "https://www.dietroiltesto.it/artista/queen/",
+        "expected_sha256": "8ba9aec272469fef7e8e87c64b49694a263afa58a834d5d48d5eba1527d6161d",
+        "received_sha256": "8ba9aec272469fef7e8e87c64b49694a263afa58a834d5d48d5eba1527d6161d",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/metallica/index.html",
+        "url": "https://www.dietroiltesto.it/artista/metallica/",
+        "expected_sha256": "9cb0a3c1b3f43e4a6eb7e6d58310e1ad9e6e032b998e39aca8570a65b8bb8c21",
+        "received_sha256": "9cb0a3c1b3f43e4a6eb7e6d58310e1ad9e6e032b998e39aca8570a65b8bb8c21",
+        "identical": true,
+        "error": ""
+      },
+      {
+        "route": "artista/guns-n-roses/index.html",
+        "url": "https://www.dietroiltesto.it/artista/guns-n-roses/",
+        "expected_sha256": "6910fe2821c2ad93594952a9cee9c4e2b4c7f4d8149c7e0c6497abe19cd1ded1",
+        "received_sha256": "6910fe2821c2ad93594952a9cee9c4e2b4c7f4d8149c7e0c6497abe19cd1ded1",
+        "identical": true,
+        "error": ""
+      }
+    ],
+    "browser": {
+      "mobile_path": [
+        "artista/adriano-celentano/",
+        "album/adriano-celentano/il-ragazzo-della-via-gluck/",
+        "canzone/il-ragazzo-della-via-gluck/"
+      ],
+      "width": 390,
+      "artist_count": 4,
+      "song_count": 3,
+      "same_asin": "B0D45KJRRQ",
+      "artist_boundary_ok": true,
+      "overflow": false,
+      "desktop": {
+        "route": "canzone/the-scientist/",
+        "width": 1280,
+        "count": 3,
+        "asin": "B0FDGPZTWL",
+        "overflow": false,
+        "contained": true,
+        "tag": "dietroiltesto-21"
+      }
+    }
+  }
 }
