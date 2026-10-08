@@ -36,3 +36,6 @@ Generazione: 695 pagine più 404. Affiliazioni: 929 link DOM validi. SEO e colle
 Catalogo: 94 voci, 93 ASIN; 87 pagine album, 127 canzoni, 40 artisti = 254 pagine coperte. Le sette voci solo artista non vengono contate come pagine album.
 
 Copia: `/private/tmp/dit-pulsante-amazon-2026-10-08`; ramo `codex/amazon-album-alternative-2026-10-08`, base `f921c9009cd6ad839f1e7b5283e09f4a3bb072b8`. Main e file non pertinenti preservati; copia altra AI non modificata. Routine fotografica sospesa. Prezzi, copertine e promessa Prime non pubblicati; Prime può cambiare. Informativa footer richiesta dal proprietario, limite Roadmap §70 invariato. Pubblicazione autorizzata, verifica live da completare.
+
+
+Pubblicazione confermata: commit `bca28e3fb` su origin/main, deploy `dpl_E4MSNiLp8HxpNLi2dpu23EntL6Gc` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 26 pagine HTTPS identiche byte per byte ai file controllati. Percorso Black Sabbath → Paranoid → Iron Man mobile positivo: stesso ASIN B0FRX45DJ9 e tag, quattro riquadri artista e tre canzone, nessun overflow. Linkin Park desktop: quattro riquadri, CD Minutes to Midnight indicato sotto storia, vinili nelle altre posizioni. Main, ricerca e due file SEO non tracciati preservati; routine sospesa.

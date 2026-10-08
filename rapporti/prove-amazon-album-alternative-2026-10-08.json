@@ -1616,5 +1616,295 @@
     "Disponibilità Prime verificata nella data, modificabile da Amazon",
     "Sette prodotti solo nelle pagine artista: dischi già in discografia senza scheda album; nessuna nuova pagina editoriale",
     "Informativa nel footer come richiesto dal proprietario; limite §70 invariato"
-  ]
+  ],
+  "publication": {
+    "commit": "bca28e3fb42634838208a7bc3802e51f77c08181",
+    "deployment": "dpl_E4MSNiLp8HxpNLi2dpu23EntL6Gc",
+    "state": "READY",
+    "target": "production",
+    "alias": "www.dietroiltesto.it",
+    "githubVercelStatus": "success",
+    "httpsPages": [
+      {
+        "route": "album/a-ha/true-north/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/true-north/",
+        "httpStatus": 200,
+        "expectedSha256": "ae8abf20bcb0c9330a611c587d6f307cbc1fa84000f990bd0b668093beeb3751",
+        "receivedSha256": "ae8abf20bcb0c9330a611c587d6f307cbc1fa84000f990bd0b668093beeb3751",
+        "ok": true
+      },
+      {
+        "route": "album/alice-in-chains/dirt/index.html",
+        "url": "https://www.dietroiltesto.it/album/alice-in-chains/dirt/",
+        "httpStatus": 200,
+        "expectedSha256": "5e991309e693dc7a21f4f7a0ac1a8b1f143143034320863b959fd9447eb0885c",
+        "receivedSha256": "5e991309e693dc7a21f4f7a0ac1a8b1f143143034320863b959fd9447eb0885c",
+        "ok": true
+      },
+      {
+        "route": "album/black-sabbath/paranoid/index.html",
+        "url": "https://www.dietroiltesto.it/album/black-sabbath/paranoid/",
+        "httpStatus": 200,
+        "expectedSha256": "8da84d330b306199d48806d50a3d24286b0efb2646151c82e561bcd858d91929",
+        "receivedSha256": "8da84d330b306199d48806d50a3d24286b0efb2646151c82e561bcd858d91929",
+        "ok": true
+      },
+      {
+        "route": "album/bon-jovi/slippery-when-wet/index.html",
+        "url": "https://www.dietroiltesto.it/album/bon-jovi/slippery-when-wet/",
+        "httpStatus": 200,
+        "expectedSha256": "449c6460ee1e434ea28670470790a261376fdaaebf37828cab58232814507aea",
+        "receivedSha256": "449c6460ee1e434ea28670470790a261376fdaaebf37828cab58232814507aea",
+        "ok": true
+      },
+      {
+        "route": "album/depeche-mode/violator/index.html",
+        "url": "https://www.dietroiltesto.it/album/depeche-mode/violator/",
+        "httpStatus": 200,
+        "expectedSha256": "62fdf5b7fe1158fd060a974a16ac6b49d4d3435b5fa391e644b362f1e8bdd3be",
+        "receivedSha256": "62fdf5b7fe1158fd060a974a16ac6b49d4d3435b5fa391e644b362f1e8bdd3be",
+        "ok": true
+      },
+      {
+        "route": "artista/a-ha/index.html",
+        "url": "https://www.dietroiltesto.it/artista/a-ha/",
+        "httpStatus": 200,
+        "expectedSha256": "78bf2b03d58fec1eb3b55f43a9c715ef6959c4ca3499a9e266b83064321002fe",
+        "receivedSha256": "78bf2b03d58fec1eb3b55f43a9c715ef6959c4ca3499a9e266b83064321002fe",
+        "ok": true
+      },
+      {
+        "route": "artista/alice-in-chains/index.html",
+        "url": "https://www.dietroiltesto.it/artista/alice-in-chains/",
+        "httpStatus": 200,
+        "expectedSha256": "25a4875772ef7bebced7bb7d862f3717fe7e755ca1f6e735101fc524c645f8bb",
+        "receivedSha256": "25a4875772ef7bebced7bb7d862f3717fe7e755ca1f6e735101fc524c645f8bb",
+        "ok": true
+      },
+      {
+        "route": "artista/black-sabbath/index.html",
+        "url": "https://www.dietroiltesto.it/artista/black-sabbath/",
+        "httpStatus": 200,
+        "expectedSha256": "a62bf671c8986f70be0db181ddbbf07676c64214e729fc59c4bdd2daa1c47149",
+        "receivedSha256": "a62bf671c8986f70be0db181ddbbf07676c64214e729fc59c4bdd2daa1c47149",
+        "ok": true
+      },
+      {
+        "route": "artista/blink-182/index.html",
+        "url": "https://www.dietroiltesto.it/artista/blink-182/",
+        "httpStatus": 200,
+        "expectedSha256": "3996f9263c352d27ce4dfc6cfaf432ddf0f47bdd158de9943e7409f9632b6b72",
+        "receivedSha256": "3996f9263c352d27ce4dfc6cfaf432ddf0f47bdd158de9943e7409f9632b6b72",
+        "ok": true
+      },
+      {
+        "route": "artista/bon-jovi/index.html",
+        "url": "https://www.dietroiltesto.it/artista/bon-jovi/",
+        "httpStatus": 200,
+        "expectedSha256": "5ebbd0925998324cbaa2be1eab40aee5ea95a1f4e942c10e2732c2675a9d78e9",
+        "receivedSha256": "5ebbd0925998324cbaa2be1eab40aee5ea95a1f4e942c10e2732c2675a9d78e9",
+        "ok": true
+      },
+      {
+        "route": "artista/coldplay/index.html",
+        "url": "https://www.dietroiltesto.it/artista/coldplay/",
+        "httpStatus": 200,
+        "expectedSha256": "31b5959eec7b0981057ad803351358e9a79fbb1309482328a9696445894e93c8",
+        "receivedSha256": "31b5959eec7b0981057ad803351358e9a79fbb1309482328a9696445894e93c8",
+        "ok": true
+      },
+      {
+        "route": "artista/depeche-mode/index.html",
+        "url": "https://www.dietroiltesto.it/artista/depeche-mode/",
+        "httpStatus": 200,
+        "expectedSha256": "d2a29e2c14b498adcb1f822d4db963e4d4e88c5862c963f395292dea6f62d4fb",
+        "receivedSha256": "d2a29e2c14b498adcb1f822d4db963e4d4e88c5862c963f395292dea6f62d4fb",
+        "ok": true
+      },
+      {
+        "route": "artista/foo-fighters/index.html",
+        "url": "https://www.dietroiltesto.it/artista/foo-fighters/",
+        "httpStatus": 200,
+        "expectedSha256": "d2f1c7bd0df88b8c590388ffb018a6a22fe0ba3a3422ec440ec45f7162d16b48",
+        "receivedSha256": "d2f1c7bd0df88b8c590388ffb018a6a22fe0ba3a3422ec440ec45f7162d16b48",
+        "ok": true
+      },
+      {
+        "route": "artista/guns-n-roses/index.html",
+        "url": "https://www.dietroiltesto.it/artista/guns-n-roses/",
+        "httpStatus": 200,
+        "expectedSha256": "b68cedd398ad68b56b09b4fbf272f4b3d53b08b515ae82ad56292ab2f411e98e",
+        "receivedSha256": "b68cedd398ad68b56b09b4fbf272f4b3d53b08b515ae82ad56292ab2f411e98e",
+        "ok": true
+      },
+      {
+        "route": "artista/led-zeppelin/index.html",
+        "url": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+        "httpStatus": 200,
+        "expectedSha256": "9bec79a42302519c9de7b57281ee4a4581659452fd3d183ed45df67cedaf4f2b",
+        "receivedSha256": "9bec79a42302519c9de7b57281ee4a4581659452fd3d183ed45df67cedaf4f2b",
+        "ok": true
+      },
+      {
+        "route": "artista/linkin-park/index.html",
+        "url": "https://www.dietroiltesto.it/artista/linkin-park/",
+        "httpStatus": 200,
+        "expectedSha256": "ffc4878df4dfa6b9ef55bf35af7bb8248ef6be01b2c8a46e1143b5eb7034e084",
+        "receivedSha256": "ffc4878df4dfa6b9ef55bf35af7bb8248ef6be01b2c8a46e1143b5eb7034e084",
+        "ok": true
+      },
+      {
+        "route": "artista/oasis/index.html",
+        "url": "https://www.dietroiltesto.it/artista/oasis/",
+        "httpStatus": 200,
+        "expectedSha256": "01a60949f280edf69dc8afc232e49322eeabbdac8ac8da8cfd40b280b755cc08",
+        "receivedSha256": "01a60949f280edf69dc8afc232e49322eeabbdac8ac8da8cfd40b280b755cc08",
+        "ok": true
+      },
+      {
+        "route": "canzone/enjoy-the-silence/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/enjoy-the-silence/",
+        "httpStatus": 200,
+        "expectedSha256": "a5b983d63d0734b27cdb5093bd98dc598aef8dae87bdc59900a6bea34e98b7a1",
+        "receivedSha256": "a5b983d63d0734b27cdb5093bd98dc598aef8dae87bdc59900a6bea34e98b7a1",
+        "ok": true
+      },
+      {
+        "route": "canzone/iron-man/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/iron-man/",
+        "httpStatus": 200,
+        "expectedSha256": "2c76926fda80a69a57d28575eafc6bf64b819276552b6b6fa7da1a2617472bf6",
+        "receivedSha256": "2c76926fda80a69a57d28575eafc6bf64b819276552b6b6fa7da1a2617472bf6",
+        "ok": true
+      },
+      {
+        "route": "canzone/livin-on-a-prayer/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/livin-on-a-prayer/",
+        "httpStatus": 200,
+        "expectedSha256": "6a6f81f321ff3b5b80e9f872163366c76bd4925a3548254b1139726bea563683",
+        "receivedSha256": "6a6f81f321ff3b5b80e9f872163366c76bd4925a3548254b1139726bea563683",
+        "ok": true
+      },
+      {
+        "route": "canzone/paranoid/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/paranoid/",
+        "httpStatus": 200,
+        "expectedSha256": "f6ede08a6024466557fd674d10dc8be9893616e4bfd0c6292388efe2f2d50ae9",
+        "receivedSha256": "f6ede08a6024466557fd674d10dc8be9893616e4bfd0c6292388efe2f2d50ae9",
+        "ok": true
+      },
+      {
+        "route": "canzone/personal-jesus/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/personal-jesus/",
+        "httpStatus": 200,
+        "expectedSha256": "19cbc386beb2be08d8ed5b9797cfffce9acbbf9dab0682981b40cc9168a20dd4",
+        "receivedSha256": "19cbc386beb2be08d8ed5b9797cfffce9acbbf9dab0682981b40cc9168a20dd4",
+        "ok": true
+      },
+      {
+        "route": "canzone/wanted-dead-or-alive/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/",
+        "httpStatus": 200,
+        "expectedSha256": "c426eeeb799caf44098d71e597619090175bcb6f141211068e02a7a7d11ef87d",
+        "receivedSha256": "c426eeeb799caf44098d71e597619090175bcb6f141211068e02a7a7d11ef87d",
+        "ok": true
+      },
+      {
+        "route": "canzone/war-pigs/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/war-pigs/",
+        "httpStatus": 200,
+        "expectedSha256": "c79b6d5794583048e6056b4965f038102c04cad4c9ed9e1c32df2971eb9874eb",
+        "receivedSha256": "c79b6d5794583048e6056b4965f038102c04cad4c9ed9e1c32df2971eb9874eb",
+        "ok": true
+      },
+      {
+        "route": "canzone/would/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/would/",
+        "httpStatus": 200,
+        "expectedSha256": "63fd2ad667fa673d346c1813824243c87a4a2d91d394e67dbc6b22d1fad19f4f",
+        "receivedSha256": "63fd2ad667fa673d346c1813824243c87a4a2d91d394e67dbc6b22d1fad19f4f",
+        "ok": true
+      },
+      {
+        "route": "canzone/you-have-what-it-takes/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+        "httpStatus": 200,
+        "expectedSha256": "c2e6d74379ea301a6abccd6deccdf12f1bb708e23b135fa4a6b3766323dbfa26",
+        "receivedSha256": "c2e6d74379ea301a6abccd6deccdf12f1bb708e23b135fa4a6b3766323dbfa26",
+        "ok": true
+      }
+    ],
+    "browser": [
+      {
+        "route": "artista/black-sabbath",
+        "width": 390,
+        "asins": [
+          "B0FRX45DJ9",
+          "B0FRX45DJ9",
+          "B0FRX45DJ9",
+          "B0FRX45DJ9"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/black-sabbath/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/iron-man",
+        "width": 390,
+        "asins": [
+          "B0FRX45DJ9",
+          "B0FRX45DJ9",
+          "B0FRX45DJ9"
+        ],
+        "canonical": "https://www.dietroiltesto.it/canzone/iron-man/",
+        "contained": true,
+        "count": 3,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          null,
+          null,
+          null
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/linkin-park",
+        "width": 1280,
+        "asins": [
+          "B00F5YTHYQ",
+          "B00F5YTHYQ",
+          "B0D5J29LLL",
+          "B000OCXMAE"
+        ],
+        "canonical": "https://www.dietroiltesto.it/artista/linkin-park/",
+        "contained": true,
+        "count": 4,
+        "disclosure": true,
+        "overflow": false,
+        "positions": [
+          "immagine",
+          "canzoni",
+          "album",
+          "storia"
+        ],
+        "songBoundary": true,
+        "tag": true,
+        "ok": true
+      }
+    ]
+  }
 }
