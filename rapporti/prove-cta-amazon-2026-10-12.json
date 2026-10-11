@@ -2480,5 +2480,2163 @@
     "sitemap-canzoni.xml": 127,
     "sitemap-pagine.xml": 3
   },
-  "otherPartners": "Componente condiviso mantiene la dicitura per partner diversi da Amazon; fixture TicketOne positiva, nessun TicketOne attivo modificato."
+  "otherPartners": "Componente condiviso mantiene la dicitura per partner diversi da Amazon; fixture TicketOne positiva, nessun TicketOne attivo modificato.",
+  "publication": {
+    "commit": "a0862635c820eb3ff216a5265bb133fd71bd311c",
+    "deployment": "dpl_7iyRegL4uXhpz2sS7TdCn8mug6tN",
+    "state": "READY",
+    "target": "production",
+    "alias": "www.dietroiltesto.it",
+    "githubVercelStatus": "success",
+    "httpsPages": [
+      {
+        "route": "album/883/la-dura-legge-del-gol/index.html",
+        "url": "https://www.dietroiltesto.it/album/883/la-dura-legge-del-gol/",
+        "httpStatus": 200,
+        "expectedSha256": "6952b07d964e6cf646cd3f958af8ab68a2220d07105227244efa4c24850b5830",
+        "receivedSha256": "6952b07d964e6cf646cd3f958af8ab68a2220d07105227244efa4c24850b5830",
+        "ok": true
+      },
+      {
+        "route": "album/a-ha/hunting-high-and-low/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/hunting-high-and-low/",
+        "httpStatus": 200,
+        "expectedSha256": "e6740c9a0afb3c2ed0e35659e63fddb0c253be7732313f3abbc2fc71f5f720f2",
+        "receivedSha256": "e6740c9a0afb3c2ed0e35659e63fddb0c253be7732313f3abbc2fc71f5f720f2",
+        "ok": true
+      },
+      {
+        "route": "album/a-ha/minor-earth-major-sky/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/minor-earth-major-sky/",
+        "httpStatus": 200,
+        "expectedSha256": "44d9158628c693745070afe5ccf96d7517446c933824d1761fe935f7920c90cb",
+        "receivedSha256": "44d9158628c693745070afe5ccf96d7517446c933824d1761fe935f7920c90cb",
+        "ok": true
+      },
+      {
+        "route": "album/a-ha/true-north/index.html",
+        "url": "https://www.dietroiltesto.it/album/a-ha/true-north/",
+        "httpStatus": 200,
+        "expectedSha256": "65f3bd56fad018dd6a14788491f36d1e7f1ee7ce08ce36bbcedc9a6016ae1ad3",
+        "receivedSha256": "65f3bd56fad018dd6a14788491f36d1e7f1ee7ce08ce36bbcedc9a6016ae1ad3",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/back-in-black/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/back-in-black/",
+        "httpStatus": 200,
+        "expectedSha256": "14711f44baf3e55afbb26a892bfadf32d800e28db72723164faa98586198f978",
+        "receivedSha256": "14711f44baf3e55afbb26a892bfadf32d800e28db72723164faa98586198f978",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/ballbreaker/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/ballbreaker/",
+        "httpStatus": 200,
+        "expectedSha256": "05924851f5d7512b71fdd8cd72c66e4c3637c4b4579ef69df873f15576f21026",
+        "receivedSha256": "05924851f5d7512b71fdd8cd72c66e4c3637c4b4579ef69df873f15576f21026",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/black-ice/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/black-ice/",
+        "httpStatus": 200,
+        "expectedSha256": "71c238eac28642c52c99f3812eb4c06ffbbac5a209bb7a6f08aa0fb32a5ddbe7",
+        "receivedSha256": "71c238eac28642c52c99f3812eb4c06ffbbac5a209bb7a6f08aa0fb32a5ddbe7",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/dirty-deeds-done-dirt-cheap/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/dirty-deeds-done-dirt-cheap/",
+        "httpStatus": 200,
+        "expectedSha256": "989a5021a25b9660ff8601257293956962fe9b18780559cae2906cee7bdaba9f",
+        "receivedSha256": "989a5021a25b9660ff8601257293956962fe9b18780559cae2906cee7bdaba9f",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/flick-of-the-switch/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/flick-of-the-switch/",
+        "httpStatus": 200,
+        "expectedSha256": "2c881f15614f7bb3d4921bd2cc3771ff95400f0c18fcf02da8e6abcd91266009",
+        "receivedSha256": "2c881f15614f7bb3d4921bd2cc3771ff95400f0c18fcf02da8e6abcd91266009",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/for-those-about-to-rock-we-salute-you/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/for-those-about-to-rock-we-salute-you/",
+        "httpStatus": 200,
+        "expectedSha256": "39c8e8af36cfd86a9f6b6e19db61937aa33b06b1aa24f9630e5542b68e417ae1",
+        "receivedSha256": "39c8e8af36cfd86a9f6b6e19db61937aa33b06b1aa24f9630e5542b68e417ae1",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/high-voltage/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/high-voltage/",
+        "httpStatus": 200,
+        "expectedSha256": "0a61d535d371ed919ac0c3cf5136935ceb6cf4d8de8232cc5ea1175e5c82f5da",
+        "receivedSha256": "0a61d535d371ed919ac0c3cf5136935ceb6cf4d8de8232cc5ea1175e5c82f5da",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/highway-to-hell/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/highway-to-hell/",
+        "httpStatus": 200,
+        "expectedSha256": "1c6f50ee6f0092936629a6f5d869ec4175cf851975ed6b26e70ac6dcf2c621d1",
+        "receivedSha256": "1c6f50ee6f0092936629a6f5d869ec4175cf851975ed6b26e70ac6dcf2c621d1",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/let-there-be-rock/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/let-there-be-rock/",
+        "httpStatus": 200,
+        "expectedSha256": "598ec2631d5ed6a2072f2d1c17f4c638530bfbf7c5d8f64cb8d4a112aace0dc6",
+        "receivedSha256": "598ec2631d5ed6a2072f2d1c17f4c638530bfbf7c5d8f64cb8d4a112aace0dc6",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/power-up/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/power-up/",
+        "httpStatus": 200,
+        "expectedSha256": "ef3450652c9c3822e8200256db23a3b1a95bb3f5e48d40af8de3cdb720337a6f",
+        "receivedSha256": "ef3450652c9c3822e8200256db23a3b1a95bb3f5e48d40af8de3cdb720337a6f",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/rock-or-bust/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/rock-or-bust/",
+        "httpStatus": 200,
+        "expectedSha256": "06ba7116cfe07e2c5fdfa38f9a4aaf5c967fdb4b045b417c40a1fefd0c73c4ec",
+        "receivedSha256": "06ba7116cfe07e2c5fdfa38f9a4aaf5c967fdb4b045b417c40a1fefd0c73c4ec",
+        "ok": true
+      },
+      {
+        "route": "album/ac-dc/stiff-upper-lip/index.html",
+        "url": "https://www.dietroiltesto.it/album/ac-dc/stiff-upper-lip/",
+        "httpStatus": 200,
+        "expectedSha256": "e1afb465c156614d5b6391b8b9ff35b418a55ec2e7f7bd064c82ce1ed1b3ba0f",
+        "receivedSha256": "e1afb465c156614d5b6391b8b9ff35b418a55ec2e7f7bd064c82ce1ed1b3ba0f",
+        "ok": true
+      },
+      {
+        "route": "album/adriano-celentano/il-ragazzo-della-via-gluck/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/il-ragazzo-della-via-gluck/",
+        "httpStatus": 200,
+        "expectedSha256": "957ed89ac02ac4f70af02ab1bdfd06fda75eb99e4ed266a5f30faf6a387d19d3",
+        "receivedSha256": "957ed89ac02ac4f70af02ab1bdfd06fda75eb99e4ed266a5f30faf6a387d19d3",
+        "ok": true
+      },
+      {
+        "route": "album/adriano-celentano/svalutation/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/svalutation/",
+        "httpStatus": 200,
+        "expectedSha256": "9150c5f39cbaba9d8c1755a7bc8697758128528a95d5ae364324f5b31dc9a2ed",
+        "receivedSha256": "9150c5f39cbaba9d8c1755a7bc8697758128528a95d5ae364324f5b31dc9a2ed",
+        "ok": true
+      },
+      {
+        "route": "album/adriano-celentano/yuppi-du/index.html",
+        "url": "https://www.dietroiltesto.it/album/adriano-celentano/yuppi-du/",
+        "httpStatus": 200,
+        "expectedSha256": "68631580f84e0715907372a2eff420f4f4a49bc6825f33d3fd7ca864d352d58c",
+        "receivedSha256": "68631580f84e0715907372a2eff420f4f4a49bc6825f33d3fd7ca864d352d58c",
+        "ok": true
+      },
+      {
+        "route": "album/alice-in-chains/dirt/index.html",
+        "url": "https://www.dietroiltesto.it/album/alice-in-chains/dirt/",
+        "httpStatus": 200,
+        "expectedSha256": "649b635a06275e71420b5b6a0b9857a87a3ac122a55aa17fc68eb949edb8dfb5",
+        "receivedSha256": "649b635a06275e71420b5b6a0b9857a87a3ac122a55aa17fc68eb949edb8dfb5",
+        "ok": true
+      },
+      {
+        "route": "album/alice-in-chains/facelift/index.html",
+        "url": "https://www.dietroiltesto.it/album/alice-in-chains/facelift/",
+        "httpStatus": 200,
+        "expectedSha256": "7a725bf52dc3d0c08bbdd1fce6eef2a8da5afa20e25c7312e4424169edd3ae89",
+        "receivedSha256": "7a725bf52dc3d0c08bbdd1fce6eef2a8da5afa20e25c7312e4424169edd3ae89",
+        "ok": true
+      },
+      {
+        "route": "album/black-sabbath/paranoid/index.html",
+        "url": "https://www.dietroiltesto.it/album/black-sabbath/paranoid/",
+        "httpStatus": 200,
+        "expectedSha256": "9e5abd97eb69c70542acfd51d853dce70d2b36f8c30867f067bc32a3e18e415b",
+        "receivedSha256": "9e5abd97eb69c70542acfd51d853dce70d2b36f8c30867f067bc32a3e18e415b",
+        "ok": true
+      },
+      {
+        "route": "album/blink-182/dude-ranch/index.html",
+        "url": "https://www.dietroiltesto.it/album/blink-182/dude-ranch/",
+        "httpStatus": 200,
+        "expectedSha256": "9c93691b9e083bab7fc07cc93e1c2db0c266a427162dc4400087cc6e008796d6",
+        "receivedSha256": "9c93691b9e083bab7fc07cc93e1c2db0c266a427162dc4400087cc6e008796d6",
+        "ok": true
+      },
+      {
+        "route": "album/blink-182/enema-of-the-state/index.html",
+        "url": "https://www.dietroiltesto.it/album/blink-182/enema-of-the-state/",
+        "httpStatus": 200,
+        "expectedSha256": "698e874fe45216b04bf45a549c204da1c16cf24e6f45eb8476493d56d1e65715",
+        "receivedSha256": "698e874fe45216b04bf45a549c204da1c16cf24e6f45eb8476493d56d1e65715",
+        "ok": true
+      },
+      {
+        "route": "album/blink-182/take-off-your-pants-and-jacket/index.html",
+        "url": "https://www.dietroiltesto.it/album/blink-182/take-off-your-pants-and-jacket/",
+        "httpStatus": 200,
+        "expectedSha256": "7d4c175204991d8542e32e1a8f97a51d83a9567d4dae91838db548a5bfc0efad",
+        "receivedSha256": "7d4c175204991d8542e32e1a8f97a51d83a9567d4dae91838db548a5bfc0efad",
+        "ok": true
+      },
+      {
+        "route": "album/bon-jovi/slippery-when-wet/index.html",
+        "url": "https://www.dietroiltesto.it/album/bon-jovi/slippery-when-wet/",
+        "httpStatus": 200,
+        "expectedSha256": "516f63f05bdda9bfd651bcb83261c900d5b477103afabb52dd4c56b9d16a47a3",
+        "receivedSha256": "516f63f05bdda9bfd651bcb83261c900d5b477103afabb52dd4c56b9d16a47a3",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/amo/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/amo/",
+        "httpStatus": 200,
+        "expectedSha256": "68383278b1014f0148bb23f2a159f54ac22a359f64752740e96eac86c20f6de2",
+        "receivedSha256": "68383278b1014f0148bb23f2a159f54ac22a359f64752740e96eac86c20f6de2",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/post-human-nex-gen/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-nex-gen/",
+        "httpStatus": 200,
+        "expectedSha256": "1d7959e6feed0e6b8616e8aa198bb6bce66a282076a5e727327a550b989ff03f",
+        "receivedSha256": "1d7959e6feed0e6b8616e8aa198bb6bce66a282076a5e727327a550b989ff03f",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/post-human-survival-horror/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-survival-horror/",
+        "httpStatus": 200,
+        "expectedSha256": "8643594bba5de8ddd582233e1069fe01608f7af02a08607eb6766c376e6653d1",
+        "receivedSha256": "8643594bba5de8ddd582233e1069fe01608f7af02a08607eb6766c376e6653d1",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/sempiternal/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/sempiternal/",
+        "httpStatus": 200,
+        "expectedSha256": "8a07743331b82bb9009a594c14d8221220568def58afa464324e71ea51bd4549",
+        "receivedSha256": "8a07743331b82bb9009a594c14d8221220568def58afa464324e71ea51bd4549",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/suicide-season/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/suicide-season/",
+        "httpStatus": 200,
+        "expectedSha256": "9ee2fef7700cf053e727123cacd205199cd39447a0cf77310d28a16e55d7282a",
+        "receivedSha256": "9ee2fef7700cf053e727123cacd205199cd39447a0cf77310d28a16e55d7282a",
+        "ok": true
+      },
+      {
+        "route": "album/bring-me-the-horizon/thats-the-spirit/index.html",
+        "url": "https://www.dietroiltesto.it/album/bring-me-the-horizon/thats-the-spirit/",
+        "httpStatus": 200,
+        "expectedSha256": "5920e4ec198f997f253307f692228f070bb10b4ca95f0a82b63ab9fe24c2b654",
+        "receivedSha256": "5920e4ec198f997f253307f692228f070bb10b4ca95f0a82b63ab9fe24c2b654",
+        "ok": true
+      },
+      {
+        "route": "album/caparezza/il-sogno-eretico/index.html",
+        "url": "https://www.dietroiltesto.it/album/caparezza/il-sogno-eretico/",
+        "httpStatus": 200,
+        "expectedSha256": "65598d6092629560a033f4bc13c96489ca31a947eb479df78e0f5d8951065bca",
+        "receivedSha256": "65598d6092629560a033f4bc13c96489ca31a947eb479df78e0f5d8951065bca",
+        "ok": true
+      },
+      {
+        "route": "album/caparezza/verita-supposte/index.html",
+        "url": "https://www.dietroiltesto.it/album/caparezza/verita-supposte/",
+        "httpStatus": 200,
+        "expectedSha256": "4bf7ac48c8f9688f2ea6e37df3f08f5774624d3d1b074eb9e5bbb15a4a88054e",
+        "receivedSha256": "4bf7ac48c8f9688f2ea6e37df3f08f5774624d3d1b074eb9e5bbb15a4a88054e",
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/bagus/index.html",
+        "url": "https://www.dietroiltesto.it/album/cesare-cremonini/bagus/",
+        "httpStatus": 200,
+        "expectedSha256": "384abcfc6f0f3d718d3b28898b6f59a00e5142040114544647c2482ebb0e675e",
+        "receivedSha256": "384abcfc6f0f3d718d3b28898b6f59a00e5142040114544647c2482ebb0e675e",
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/il-primo-bacio-sulla-luna/index.html",
+        "url": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+        "httpStatus": 200,
+        "expectedSha256": "da50c67260da0dec08c58d92becf405a321b7eecf0f118c05a6aab1a7140e863",
+        "receivedSha256": "da50c67260da0dec08c58d92becf405a321b7eecf0f118c05a6aab1a7140e863",
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/maggese/index.html",
+        "url": "https://www.dietroiltesto.it/album/cesare-cremonini/maggese/",
+        "httpStatus": 200,
+        "expectedSha256": "9659a0830a0c6396d7b1f45100c58edaf9229fe1d05ba7e0065fc0400bb7cd87",
+        "receivedSha256": "9659a0830a0c6396d7b1f45100c58edaf9229fe1d05ba7e0065fc0400bb7cd87",
+        "ok": true
+      },
+      {
+        "route": "album/cesare-cremonini/possibili-scenari/index.html",
+        "url": "https://www.dietroiltesto.it/album/cesare-cremonini/possibili-scenari/",
+        "httpStatus": 200,
+        "expectedSha256": "393faf6c1e79e93530388af5c7fb62a02c09f6353aa3982cf9bc65b943d46841",
+        "receivedSha256": "393faf6c1e79e93530388af5c7fb62a02c09f6353aa3982cf9bc65b943d46841",
+        "ok": true
+      },
+      {
+        "route": "album/coldplay/a-rush-of-blood-to-the-head/index.html",
+        "url": "https://www.dietroiltesto.it/album/coldplay/a-rush-of-blood-to-the-head/",
+        "httpStatus": 200,
+        "expectedSha256": "c93187ae79dabdbaad0c76973a8dda6b812c020aa0e2b816a1439165563a9602",
+        "receivedSha256": "c93187ae79dabdbaad0c76973a8dda6b812c020aa0e2b816a1439165563a9602",
+        "ok": true
+      },
+      {
+        "route": "album/coldplay/parachutes/index.html",
+        "url": "https://www.dietroiltesto.it/album/coldplay/parachutes/",
+        "httpStatus": 200,
+        "expectedSha256": "732c7e5eaab17a60e200d94f28300e905a9d29fca7c85c1a6b7c2e1ccdad1ec6",
+        "receivedSha256": "732c7e5eaab17a60e200d94f28300e905a9d29fca7c85c1a6b7c2e1ccdad1ec6",
+        "ok": true
+      },
+      {
+        "route": "album/depeche-mode/violator/index.html",
+        "url": "https://www.dietroiltesto.it/album/depeche-mode/violator/",
+        "httpStatus": 200,
+        "expectedSha256": "e4634a4c9773d867dd89382664285fb10efbb31aff402983abdcb14fdadb8395",
+        "receivedSha256": "e4634a4c9773d867dd89382664285fb10efbb31aff402983abdcb14fdadb8395",
+        "ok": true
+      },
+      {
+        "route": "album/eagles/hotel-california/index.html",
+        "url": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+        "httpStatus": 200,
+        "expectedSha256": "e3a8380ce16a1bbe81eda5da2a847785e0b1e509f93cce192dd18f9fe5381eaf",
+        "receivedSha256": "e3a8380ce16a1bbe81eda5da2a847785e0b1e509f93cce192dd18f9fe5381eaf",
+        "ok": true
+      },
+      {
+        "route": "album/ed-sheeran/divide/index.html",
+        "url": "https://www.dietroiltesto.it/album/ed-sheeran/divide/",
+        "httpStatus": 200,
+        "expectedSha256": "e92f8e692286bdac12ed0514675a85039d1d97218a228465d738ccdfd0ac07bb",
+        "receivedSha256": "e92f8e692286bdac12ed0514675a85039d1d97218a228465d738ccdfd0ac07bb",
+        "ok": true
+      },
+      {
+        "route": "album/evanescence/fallen/index.html",
+        "url": "https://www.dietroiltesto.it/album/evanescence/fallen/",
+        "httpStatus": 200,
+        "expectedSha256": "f8724a370192623466ba225fdd31d56b86eb23da54893ac8c14da7a8fedffec4",
+        "receivedSha256": "f8724a370192623466ba225fdd31d56b86eb23da54893ac8c14da7a8fedffec4",
+        "ok": true
+      },
+      {
+        "route": "album/foo-fighters/the-colour-and-the-shape/index.html",
+        "url": "https://www.dietroiltesto.it/album/foo-fighters/the-colour-and-the-shape/",
+        "httpStatus": 200,
+        "expectedSha256": "12a761f3469b590cf71ce8fe2327d586bea6a339cf308a07e4a67032f831ad64",
+        "receivedSha256": "12a761f3469b590cf71ce8fe2327d586bea6a339cf308a07e4a67032f831ad64",
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/fisiognomica/index.html",
+        "url": "https://www.dietroiltesto.it/album/franco-battiato/fisiognomica/",
+        "httpStatus": 200,
+        "expectedSha256": "58d1f8f61ecf56b264fa51ad47c24ac82e68be09c5ed62a34332bda4dd5df911",
+        "receivedSha256": "58d1f8f61ecf56b264fa51ad47c24ac82e68be09c5ed62a34332bda4dd5df911",
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/l-era-del-cinghiale-bianco/index.html",
+        "url": "https://www.dietroiltesto.it/album/franco-battiato/l-era-del-cinghiale-bianco/",
+        "httpStatus": 200,
+        "expectedSha256": "2c5b31a06e0128fda9ee77fa00aa174388f18d72d858ae51c53a005b6f5a1e72",
+        "receivedSha256": "2c5b31a06e0128fda9ee77fa00aa174388f18d72d858ae51c53a005b6f5a1e72",
+        "ok": true
+      },
+      {
+        "route": "album/franco-battiato/patriots/index.html",
+        "url": "https://www.dietroiltesto.it/album/franco-battiato/patriots/",
+        "httpStatus": 200,
+        "expectedSha256": "5ae473bca4d657e2f794d0d92feeb7977186b595b3276cf86404359f2f55b1f7",
+        "receivedSha256": "5ae473bca4d657e2f794d0d92feeb7977186b595b3276cf86404359f2f55b1f7",
+        "ok": true
+      },
+      {
+        "route": "album/green-day/american-idiot/index.html",
+        "url": "https://www.dietroiltesto.it/album/green-day/american-idiot/",
+        "httpStatus": 200,
+        "expectedSha256": "ccbcb58cabc4059e7885397e0d8624d7234cbbaa649897a64e1a3fadf9f38edc",
+        "receivedSha256": "ccbcb58cabc4059e7885397e0d8624d7234cbbaa649897a64e1a3fadf9f38edc",
+        "ok": true
+      },
+      {
+        "route": "album/green-day/dookie/index.html",
+        "url": "https://www.dietroiltesto.it/album/green-day/dookie/",
+        "httpStatus": 200,
+        "expectedSha256": "886fec04646308c296d5cadd39653a20aace02d52b437afad0d5af18d0585405",
+        "receivedSha256": "886fec04646308c296d5cadd39653a20aace02d52b437afad0d5af18d0585405",
+        "ok": true
+      },
+      {
+        "route": "album/guns-n-roses/appetite-for-destruction/index.html",
+        "url": "https://www.dietroiltesto.it/album/guns-n-roses/appetite-for-destruction/",
+        "httpStatus": 200,
+        "expectedSha256": "40fb017cb4223cf38be9e2d6ced36f618aae544e61be496646483398ba78226d",
+        "receivedSha256": "40fb017cb4223cf38be9e2d6ced36f618aae544e61be496646483398ba78226d",
+        "ok": true
+      },
+      {
+        "route": "album/guns-n-roses/use-your-illusion-i/index.html",
+        "url": "https://www.dietroiltesto.it/album/guns-n-roses/use-your-illusion-i/",
+        "httpStatus": 200,
+        "expectedSha256": "726fdd1baf5164350eb7f237943326fa1bdcea4e55f82dfcbd45400706056168",
+        "receivedSha256": "726fdd1baf5164350eb7f237943326fa1bdcea4e55f82dfcbd45400706056168",
+        "ok": true
+      },
+      {
+        "route": "album/led-zeppelin/led-zeppelin-iv/index.html",
+        "url": "https://www.dietroiltesto.it/album/led-zeppelin/led-zeppelin-iv/",
+        "httpStatus": 200,
+        "expectedSha256": "7b3879b2c0fa6678c23b7bdd7607664ca3f2bbe0e5f32bc51c713bf3108ce040",
+        "receivedSha256": "7b3879b2c0fa6678c23b7bdd7607664ca3f2bbe0e5f32bc51c713bf3108ce040",
+        "ok": true
+      },
+      {
+        "route": "album/led-zeppelin/physical-graffiti/index.html",
+        "url": "https://www.dietroiltesto.it/album/led-zeppelin/physical-graffiti/",
+        "httpStatus": 200,
+        "expectedSha256": "34a52e67ecf6f03b7bf4255d83c0d2e81ae609988608c9cd2dd4e00b850649f9",
+        "receivedSha256": "34a52e67ecf6f03b7bf4255d83c0d2e81ae609988608c9cd2dd4e00b850649f9",
+        "ok": true
+      },
+      {
+        "route": "album/ligabue/miss-mondo/index.html",
+        "url": "https://www.dietroiltesto.it/album/ligabue/miss-mondo/",
+        "httpStatus": 200,
+        "expectedSha256": "42766cb93bfd403e4f1e02d818ff85544f65a0cff2d07ba27ce7aafbb5645a7a",
+        "receivedSha256": "42766cb93bfd403e4f1e02d818ff85544f65a0cff2d07ba27ce7aafbb5645a7a",
+        "ok": true
+      },
+      {
+        "route": "album/limp-bizkit/significant-other/index.html",
+        "url": "https://www.dietroiltesto.it/album/limp-bizkit/significant-other/",
+        "httpStatus": 200,
+        "expectedSha256": "f8d8f63a178e8d04b3e1fad7c1d3aa6119fb0b111c70bf19fff19161f5ce9c47",
+        "receivedSha256": "f8d8f63a178e8d04b3e1fad7c1d3aa6119fb0b111c70bf19fff19161f5ce9c47",
+        "ok": true
+      },
+      {
+        "route": "album/linkin-park/hybrid-theory/index.html",
+        "url": "https://www.dietroiltesto.it/album/linkin-park/hybrid-theory/",
+        "httpStatus": 200,
+        "expectedSha256": "229d50d34862337e950fbb3467380111a06825d442036921df45f4b7a956d493",
+        "receivedSha256": "229d50d34862337e950fbb3467380111a06825d442036921df45f4b7a956d493",
+        "ok": true
+      },
+      {
+        "route": "album/linkin-park/meteora/index.html",
+        "url": "https://www.dietroiltesto.it/album/linkin-park/meteora/",
+        "httpStatus": 200,
+        "expectedSha256": "a148e5a041432ab90dfcaeca82568f4fb91e2ec35fa0ce6ef453b3cf2979d5d5",
+        "receivedSha256": "a148e5a041432ab90dfcaeca82568f4fb91e2ec35fa0ce6ef453b3cf2979d5d5",
+        "ok": true
+      },
+      {
+        "route": "album/metallica/master-of-puppets/index.html",
+        "url": "https://www.dietroiltesto.it/album/metallica/master-of-puppets/",
+        "httpStatus": 200,
+        "expectedSha256": "c4a8d146cabe86a320afeda0bad4cd581c25dd7e82b75679333715cb5133f096",
+        "receivedSha256": "c4a8d146cabe86a320afeda0bad4cd581c25dd7e82b75679333715cb5133f096",
+        "ok": true
+      },
+      {
+        "route": "album/metallica/metallica-black-album/index.html",
+        "url": "https://www.dietroiltesto.it/album/metallica/metallica-black-album/",
+        "httpStatus": 200,
+        "expectedSha256": "42fb78bbdc1bffc61488c8fdc40961deeb82d366b67befcc34dd331016261927",
+        "receivedSha256": "42fb78bbdc1bffc61488c8fdc40961deeb82d366b67befcc34dd331016261927",
+        "ok": true
+      },
+      {
+        "route": "album/metallica/ride-the-lightning/index.html",
+        "url": "https://www.dietroiltesto.it/album/metallica/ride-the-lightning/",
+        "httpStatus": 200,
+        "expectedSha256": "bb5a240b5a9d83f79582256b5777b527e871c8463ff1eff780e118c2c9aea20a",
+        "receivedSha256": "bb5a240b5a9d83f79582256b5777b527e871c8463ff1eff780e118c2c9aea20a",
+        "ok": true
+      },
+      {
+        "route": "album/michael-jackson/bad/index.html",
+        "url": "https://www.dietroiltesto.it/album/michael-jackson/bad/",
+        "httpStatus": 200,
+        "expectedSha256": "b4aee68670465ad1e1500616a7a91c2984c821444b6df2abdc36b32fac394c87",
+        "receivedSha256": "b4aee68670465ad1e1500616a7a91c2984c821444b6df2abdc36b32fac394c87",
+        "ok": true
+      },
+      {
+        "route": "album/michael-jackson/off-the-wall/index.html",
+        "url": "https://www.dietroiltesto.it/album/michael-jackson/off-the-wall/",
+        "httpStatus": 200,
+        "expectedSha256": "269fdd3d9637d2edebf8d3a39345e94dd1a15353683c975c9c19cc53ae9fe545",
+        "receivedSha256": "269fdd3d9637d2edebf8d3a39345e94dd1a15353683c975c9c19cc53ae9fe545",
+        "ok": true
+      },
+      {
+        "route": "album/michael-jackson/thriller/index.html",
+        "url": "https://www.dietroiltesto.it/album/michael-jackson/thriller/",
+        "httpStatus": 200,
+        "expectedSha256": "f3786213d2af4ff2514cc2663181a5054610f12148e41d24dd9578082c6c4c3d",
+        "receivedSha256": "f3786213d2af4ff2514cc2663181a5054610f12148e41d24dd9578082c6c4c3d",
+        "ok": true
+      },
+      {
+        "route": "album/muse/black-holes-and-revelations/index.html",
+        "url": "https://www.dietroiltesto.it/album/muse/black-holes-and-revelations/",
+        "httpStatus": 200,
+        "expectedSha256": "97b2b7144d023c724d8f715fa7ccdd7a918dbd2838370d521994d9285ba37bf6",
+        "receivedSha256": "97b2b7144d023c724d8f715fa7ccdd7a918dbd2838370d521994d9285ba37bf6",
+        "ok": true
+      },
+      {
+        "route": "album/nirvana/nevermind/index.html",
+        "url": "https://www.dietroiltesto.it/album/nirvana/nevermind/",
+        "httpStatus": 200,
+        "expectedSha256": "da9057b8735479dcd45be515e956e71e1ba44972d2857f7e687e5e1aad28951a",
+        "receivedSha256": "da9057b8735479dcd45be515e956e71e1ba44972d2857f7e687e5e1aad28951a",
+        "ok": true
+      },
+      {
+        "route": "album/oasis/be-here-now/index.html",
+        "url": "https://www.dietroiltesto.it/album/oasis/be-here-now/",
+        "httpStatus": 200,
+        "expectedSha256": "3d6e1e60e45a5fbbcb2630daee8f8b647539b5103a8f03e45aa60a0f758f969b",
+        "receivedSha256": "3d6e1e60e45a5fbbcb2630daee8f8b647539b5103a8f03e45aa60a0f758f969b",
+        "ok": true
+      },
+      {
+        "route": "album/oasis/definitely-maybe/index.html",
+        "url": "https://www.dietroiltesto.it/album/oasis/definitely-maybe/",
+        "httpStatus": 200,
+        "expectedSha256": "1434b05621721d5ecbae609e925ffe9e78e40ab4e989f8cd7fd383016f666c85",
+        "receivedSha256": "1434b05621721d5ecbae609e925ffe9e78e40ab4e989f8cd7fd383016f666c85",
+        "ok": true
+      },
+      {
+        "route": "album/oasis/heathen-chemistry/index.html",
+        "url": "https://www.dietroiltesto.it/album/oasis/heathen-chemistry/",
+        "httpStatus": 200,
+        "expectedSha256": "21f1a225e0a0ad09d27ad4bf322f62b8dd9504e719ee8deccb318ef5e8e86ff1",
+        "receivedSha256": "21f1a225e0a0ad09d27ad4bf322f62b8dd9504e719ee8deccb318ef5e8e86ff1",
+        "ok": true
+      },
+      {
+        "route": "album/oasis/whats-the-story-morning-glory/index.html",
+        "url": "https://www.dietroiltesto.it/album/oasis/whats-the-story-morning-glory/",
+        "httpStatus": 200,
+        "expectedSha256": "b08eceb3aba7e46306ccd171e268d6a0d11ae89a83027a4ec59d1be847636f88",
+        "receivedSha256": "b08eceb3aba7e46306ccd171e268d6a0d11ae89a83027a4ec59d1be847636f88",
+        "ok": true
+      },
+      {
+        "route": "album/pearl-jam/ten/index.html",
+        "url": "https://www.dietroiltesto.it/album/pearl-jam/ten/",
+        "httpStatus": 200,
+        "expectedSha256": "a37cd03a1184404b13f59221e58997bb2aa41869348087bb48f0571e8c5eea60",
+        "receivedSha256": "a37cd03a1184404b13f59221e58997bb2aa41869348087bb48f0571e8c5eea60",
+        "ok": true
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/fake-news/index.html",
+        "url": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/fake-news/",
+        "httpStatus": 200,
+        "expectedSha256": "be3616d0b77def49abc48c91eb810c5890024b1f9f541e9087d54592f5ca2ce6",
+        "receivedSha256": "be3616d0b77def49abc48c91eb810c5890024b1f9f541e9087d54592f5ca2ce6",
+        "ok": true
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/fuori-dall-hype/index.html",
+        "url": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/fuori-dall-hype/",
+        "httpStatus": 200,
+        "expectedSha256": "305e79089fbd896091bb9e15f29751e5199caa2e823713ecfd95fe759920acca",
+        "receivedSha256": "305e79089fbd896091bb9e15f29751e5199caa2e823713ecfd95fe759920acca",
+        "ok": true
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/hello-world/index.html",
+        "url": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/hello-world/",
+        "httpStatus": 200,
+        "expectedSha256": "410cda75a261e3bbbbc1a71c39e4c05b4246a7cdcee583d79bda780e7bdadfaf",
+        "receivedSha256": "410cda75a261e3bbbbc1a71c39e4c05b4246a7cdcee583d79bda780e7bdadfaf",
+        "ok": true
+      },
+      {
+        "route": "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/index.html",
+        "url": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype/",
+        "httpStatus": 200,
+        "expectedSha256": "20485c80e80dd39cac8928bfa89a304dfce94d5a1e3c7edb9d589c0946e0dffa",
+        "receivedSha256": "20485c80e80dd39cac8928bfa89a304dfce94d5a1e3c7edb9d589c0946e0dffa",
+        "ok": true
+      },
+      {
+        "route": "album/pink-floyd/the-wall/index.html",
+        "url": "https://www.dietroiltesto.it/album/pink-floyd/the-wall/",
+        "httpStatus": 200,
+        "expectedSha256": "a98bd2d9a8b8d29acade07436470ecba693263c4d576deac1eec23bac7e0133c",
+        "receivedSha256": "a98bd2d9a8b8d29acade07436470ecba693263c4d576deac1eec23bac7e0133c",
+        "ok": true
+      },
+      {
+        "route": "album/pink-floyd/wish-you-were-here/index.html",
+        "url": "https://www.dietroiltesto.it/album/pink-floyd/wish-you-were-here/",
+        "httpStatus": 200,
+        "expectedSha256": "66b39f1a23f829bcf087104c2763f222c0d3898e245b5a9b995e55466725f10d",
+        "receivedSha256": "66b39f1a23f829bcf087104c2763f222c0d3898e245b5a9b995e55466725f10d",
+        "ok": true
+      },
+      {
+        "route": "album/pino-daniele/vai-mo/index.html",
+        "url": "https://www.dietroiltesto.it/album/pino-daniele/vai-mo/",
+        "httpStatus": 200,
+        "expectedSha256": "5ed09c95032a154e99c48d35b1094e6aa9f9096754103d16e1e8d032455172b4",
+        "receivedSha256": "5ed09c95032a154e99c48d35b1094e6aa9f9096754103d16e1e8d032455172b4",
+        "ok": true
+      },
+      {
+        "route": "album/queen/a-night-at-the-opera/index.html",
+        "url": "https://www.dietroiltesto.it/album/queen/a-night-at-the-opera/",
+        "httpStatus": 200,
+        "expectedSha256": "8f630f2ab347cde87f80c0b82ad7d2521f9cd6b23c4f6d6456c992eb125f9873",
+        "receivedSha256": "8f630f2ab347cde87f80c0b82ad7d2521f9cd6b23c4f6d6456c992eb125f9873",
+        "ok": true
+      },
+      {
+        "route": "album/queen/the-game/index.html",
+        "url": "https://www.dietroiltesto.it/album/queen/the-game/",
+        "httpStatus": 200,
+        "expectedSha256": "d01776c251cd6b66bd4dedeaaf529249f16f47c833bbe3bec306b080de0946d6",
+        "receivedSha256": "d01776c251cd6b66bd4dedeaaf529249f16f47c833bbe3bec306b080de0946d6",
+        "ok": true
+      },
+      {
+        "route": "album/rage-against-the-machine/evil-empire/index.html",
+        "url": "https://www.dietroiltesto.it/album/rage-against-the-machine/evil-empire/",
+        "httpStatus": 200,
+        "expectedSha256": "5a896b27b05a7570d0373c49bde45a9e0f5b7bf535a6b47356d3453ee6bc4788",
+        "receivedSha256": "5a896b27b05a7570d0373c49bde45a9e0f5b7bf535a6b47356d3453ee6bc4788",
+        "ok": true
+      },
+      {
+        "route": "album/rammstein/mutter/index.html",
+        "url": "https://www.dietroiltesto.it/album/rammstein/mutter/",
+        "httpStatus": 200,
+        "expectedSha256": "bad9ed651e81c6f081f6847380bf784f8c855be77fd4f6732bff0b18cafce421",
+        "receivedSha256": "bad9ed651e81c6f081f6847380bf784f8c855be77fd4f6732bff0b18cafce421",
+        "ok": true
+      },
+      {
+        "route": "album/red-hot-chili-peppers/blood-sugar-sex-magik/index.html",
+        "url": "https://www.dietroiltesto.it/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+        "httpStatus": 200,
+        "expectedSha256": "81ad0e2fdadc092c7ef23fdfff67e3c5d75fc6b023e77cf2279641ae6ab69b81",
+        "receivedSha256": "81ad0e2fdadc092c7ef23fdfff67e3c5d75fc6b023e77cf2279641ae6ab69b81",
+        "ok": true
+      },
+      {
+        "route": "album/the-beatles/abbey-road/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-beatles/abbey-road/",
+        "httpStatus": 200,
+        "expectedSha256": "3058b5309ba0e2bdffaf4309e1a3a75c0b7e39760c418db4d57f1ec5ceb5028e",
+        "receivedSha256": "3058b5309ba0e2bdffaf4309e1a3a75c0b7e39760c418db4d57f1ec5ceb5028e",
+        "ok": true
+      },
+      {
+        "route": "album/the-beatles/help/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-beatles/help/",
+        "httpStatus": 200,
+        "expectedSha256": "d3f3a82cc611593b4463cd19196345d00465ac6cba9d2b352575d0f5314206bb",
+        "receivedSha256": "d3f3a82cc611593b4463cd19196345d00465ac6cba9d2b352575d0f5314206bb",
+        "ok": true
+      },
+      {
+        "route": "album/the-doors/l-a-woman/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-doors/l-a-woman/",
+        "httpStatus": 200,
+        "expectedSha256": "6ae2cde25cf68c950b5fadcc1486cfb80250c1a74d137e9eb503e20492fae8b5",
+        "receivedSha256": "6ae2cde25cf68c950b5fadcc1486cfb80250c1a74d137e9eb503e20492fae8b5",
+        "ok": true
+      },
+      {
+        "route": "album/the-killers/hot-fuss/index.html",
+        "url": "https://www.dietroiltesto.it/album/the-killers/hot-fuss/",
+        "httpStatus": 200,
+        "expectedSha256": "fe768c2398bab3b66231680a12d6fd4d93b512f78d39d119d93ecb5b2eeaedd2",
+        "receivedSha256": "fe768c2398bab3b66231680a12d6fd4d93b512f78d39d119d93ecb5b2eeaedd2",
+        "ok": true
+      },
+      {
+        "route": "artista/883/index.html",
+        "url": "https://www.dietroiltesto.it/artista/883/",
+        "httpStatus": 200,
+        "expectedSha256": "ba2d1885e47bc26478dbd438af27622ed099c1ceca06bc3e74119202ae593a8c",
+        "receivedSha256": "ba2d1885e47bc26478dbd438af27622ed099c1ceca06bc3e74119202ae593a8c",
+        "ok": true
+      },
+      {
+        "route": "artista/a-ha/index.html",
+        "url": "https://www.dietroiltesto.it/artista/a-ha/",
+        "httpStatus": 200,
+        "expectedSha256": "224a25f10d4b755943ccf32b26e02797e28b135e17441c4564942366340d51a4",
+        "receivedSha256": "224a25f10d4b755943ccf32b26e02797e28b135e17441c4564942366340d51a4",
+        "ok": true
+      },
+      {
+        "route": "artista/ac-dc/index.html",
+        "url": "https://www.dietroiltesto.it/artista/ac-dc/",
+        "httpStatus": 200,
+        "expectedSha256": "2166bc2b4e5cc449a58ce1a3afb0b4ae1c8ffd3cd9381bef4e4983dfb21c3230",
+        "receivedSha256": "2166bc2b4e5cc449a58ce1a3afb0b4ae1c8ffd3cd9381bef4e4983dfb21c3230",
+        "ok": true
+      },
+      {
+        "route": "artista/adriano-celentano/index.html",
+        "url": "https://www.dietroiltesto.it/artista/adriano-celentano/",
+        "httpStatus": 200,
+        "expectedSha256": "a36a312b0b9ebe7edf9874c1b0a84657d64f478359224bb166af92bbe11fa70a",
+        "receivedSha256": "a36a312b0b9ebe7edf9874c1b0a84657d64f478359224bb166af92bbe11fa70a",
+        "ok": true
+      },
+      {
+        "route": "artista/alice-in-chains/index.html",
+        "url": "https://www.dietroiltesto.it/artista/alice-in-chains/",
+        "httpStatus": 200,
+        "expectedSha256": "88d33c33a33bce6f5dd82648098e700e6f1ad4063c815862691a549dd3e66cdc",
+        "receivedSha256": "88d33c33a33bce6f5dd82648098e700e6f1ad4063c815862691a549dd3e66cdc",
+        "ok": true
+      },
+      {
+        "route": "artista/black-sabbath/index.html",
+        "url": "https://www.dietroiltesto.it/artista/black-sabbath/",
+        "httpStatus": 200,
+        "expectedSha256": "7999961cbdf29ef685ed942c99eebc9f16a71daaaff0ab0b7f44d207f5284de3",
+        "receivedSha256": "7999961cbdf29ef685ed942c99eebc9f16a71daaaff0ab0b7f44d207f5284de3",
+        "ok": true
+      },
+      {
+        "route": "artista/blink-182/index.html",
+        "url": "https://www.dietroiltesto.it/artista/blink-182/",
+        "httpStatus": 200,
+        "expectedSha256": "a14e839c095fcd6dc35da92f1dcd7e93cf63fc04eddb7bf69f193aff759a9ffe",
+        "receivedSha256": "a14e839c095fcd6dc35da92f1dcd7e93cf63fc04eddb7bf69f193aff759a9ffe",
+        "ok": true
+      },
+      {
+        "route": "artista/bon-jovi/index.html",
+        "url": "https://www.dietroiltesto.it/artista/bon-jovi/",
+        "httpStatus": 200,
+        "expectedSha256": "ce83abae3d2cf667b27b20e746179fb1aab8391065afff1edb297935d449ca1a",
+        "receivedSha256": "ce83abae3d2cf667b27b20e746179fb1aab8391065afff1edb297935d449ca1a",
+        "ok": true
+      },
+      {
+        "route": "artista/bring-me-the-horizon/index.html",
+        "url": "https://www.dietroiltesto.it/artista/bring-me-the-horizon/",
+        "httpStatus": 200,
+        "expectedSha256": "f8f33feb0aec217cce1db2f6911396098e6e9de90f590ad63853a48de513985a",
+        "receivedSha256": "f8f33feb0aec217cce1db2f6911396098e6e9de90f590ad63853a48de513985a",
+        "ok": true
+      },
+      {
+        "route": "artista/caparezza/index.html",
+        "url": "https://www.dietroiltesto.it/artista/caparezza/",
+        "httpStatus": 200,
+        "expectedSha256": "175c7458b3ee30d91841c978de03e05bf592768054bcde09736f9879d47f81bc",
+        "receivedSha256": "175c7458b3ee30d91841c978de03e05bf592768054bcde09736f9879d47f81bc",
+        "ok": true
+      },
+      {
+        "route": "artista/cesare-cremonini/index.html",
+        "url": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+        "httpStatus": 200,
+        "expectedSha256": "9382e210ea73bd50cef3b8e91dbeb70c9f2bd1e417eb9c980968e56ba3cdfdd0",
+        "receivedSha256": "9382e210ea73bd50cef3b8e91dbeb70c9f2bd1e417eb9c980968e56ba3cdfdd0",
+        "ok": true
+      },
+      {
+        "route": "artista/coldplay/index.html",
+        "url": "https://www.dietroiltesto.it/artista/coldplay/",
+        "httpStatus": 200,
+        "expectedSha256": "bab780580864f23e50d7013eb88d2f02c073beace1d554e39ceeaba5224296df",
+        "receivedSha256": "bab780580864f23e50d7013eb88d2f02c073beace1d554e39ceeaba5224296df",
+        "ok": true
+      },
+      {
+        "route": "artista/depeche-mode/index.html",
+        "url": "https://www.dietroiltesto.it/artista/depeche-mode/",
+        "httpStatus": 200,
+        "expectedSha256": "3c54b028a61aca517a81daafd5c9243f639853081c9df19e461565656605fba3",
+        "receivedSha256": "3c54b028a61aca517a81daafd5c9243f639853081c9df19e461565656605fba3",
+        "ok": true
+      },
+      {
+        "route": "artista/eagles/index.html",
+        "url": "https://www.dietroiltesto.it/artista/eagles/",
+        "httpStatus": 200,
+        "expectedSha256": "ff27d97b349dad209c45dc3cba2b670971b811cc2989460c8530e9215c1b5222",
+        "receivedSha256": "ff27d97b349dad209c45dc3cba2b670971b811cc2989460c8530e9215c1b5222",
+        "ok": true
+      },
+      {
+        "route": "artista/ed-sheeran/index.html",
+        "url": "https://www.dietroiltesto.it/artista/ed-sheeran/",
+        "httpStatus": 200,
+        "expectedSha256": "074e6569e354cbc4c067fc2946b04ef9988599d136650addc83e5d529dfdd4ae",
+        "receivedSha256": "074e6569e354cbc4c067fc2946b04ef9988599d136650addc83e5d529dfdd4ae",
+        "ok": true
+      },
+      {
+        "route": "artista/evanescence/index.html",
+        "url": "https://www.dietroiltesto.it/artista/evanescence/",
+        "httpStatus": 200,
+        "expectedSha256": "5782d84281532b709724f3cc18841dba103551c8c1b3a78d6d74969babb68181",
+        "receivedSha256": "5782d84281532b709724f3cc18841dba103551c8c1b3a78d6d74969babb68181",
+        "ok": true
+      },
+      {
+        "route": "artista/foo-fighters/index.html",
+        "url": "https://www.dietroiltesto.it/artista/foo-fighters/",
+        "httpStatus": 200,
+        "expectedSha256": "52cd2d9201545ade506a3465608160db3b08c20b760297227a0a58c6d691218d",
+        "receivedSha256": "52cd2d9201545ade506a3465608160db3b08c20b760297227a0a58c6d691218d",
+        "ok": true
+      },
+      {
+        "route": "artista/franco-battiato/index.html",
+        "url": "https://www.dietroiltesto.it/artista/franco-battiato/",
+        "httpStatus": 200,
+        "expectedSha256": "e41f25a3eff0f6d76f6dbd7d767ff931340b3f2654e1c8c87dece1d0b392c46a",
+        "receivedSha256": "e41f25a3eff0f6d76f6dbd7d767ff931340b3f2654e1c8c87dece1d0b392c46a",
+        "ok": true
+      },
+      {
+        "route": "artista/green-day/index.html",
+        "url": "https://www.dietroiltesto.it/artista/green-day/",
+        "httpStatus": 200,
+        "expectedSha256": "3e9829ee2d938d421fe8bc88095ca202526e01186810bf78d255b420315c5c8a",
+        "receivedSha256": "3e9829ee2d938d421fe8bc88095ca202526e01186810bf78d255b420315c5c8a",
+        "ok": true
+      },
+      {
+        "route": "artista/guns-n-roses/index.html",
+        "url": "https://www.dietroiltesto.it/artista/guns-n-roses/",
+        "httpStatus": 200,
+        "expectedSha256": "d1df82cb360b383614406f9e7c7429ddb312e3a3a1f27334b6209f9f99d306d8",
+        "receivedSha256": "d1df82cb360b383614406f9e7c7429ddb312e3a3a1f27334b6209f9f99d306d8",
+        "ok": true
+      },
+      {
+        "route": "artista/led-zeppelin/index.html",
+        "url": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+        "httpStatus": 200,
+        "expectedSha256": "27472cfd0c1f7574b5636f29be629775e926d896f5115e2098537b4147dc5827",
+        "receivedSha256": "27472cfd0c1f7574b5636f29be629775e926d896f5115e2098537b4147dc5827",
+        "ok": true
+      },
+      {
+        "route": "artista/ligabue/index.html",
+        "url": "https://www.dietroiltesto.it/artista/ligabue/",
+        "httpStatus": 200,
+        "expectedSha256": "e5171d6e8448f143db50686f41bcd47b7dd0b3378a9263f8f379413d8c0a6dcb",
+        "receivedSha256": "e5171d6e8448f143db50686f41bcd47b7dd0b3378a9263f8f379413d8c0a6dcb",
+        "ok": true
+      },
+      {
+        "route": "artista/limp-bizkit/index.html",
+        "url": "https://www.dietroiltesto.it/artista/limp-bizkit/",
+        "httpStatus": 200,
+        "expectedSha256": "6d28996216878eece6beb928592ca546cd060df4f2bc393c4007465bbc5b1534",
+        "receivedSha256": "6d28996216878eece6beb928592ca546cd060df4f2bc393c4007465bbc5b1534",
+        "ok": true
+      },
+      {
+        "route": "artista/linkin-park/index.html",
+        "url": "https://www.dietroiltesto.it/artista/linkin-park/",
+        "httpStatus": 200,
+        "expectedSha256": "560c8be84f1b591194e706b313b33d50b60472294f9288fb2684a5b2986ba136",
+        "receivedSha256": "560c8be84f1b591194e706b313b33d50b60472294f9288fb2684a5b2986ba136",
+        "ok": true
+      },
+      {
+        "route": "artista/metallica/index.html",
+        "url": "https://www.dietroiltesto.it/artista/metallica/",
+        "httpStatus": 200,
+        "expectedSha256": "52cc751602d6952574dd341c0effcbd5fadb923a6344e4cddc33cbf7a5a8e495",
+        "receivedSha256": "52cc751602d6952574dd341c0effcbd5fadb923a6344e4cddc33cbf7a5a8e495",
+        "ok": true
+      },
+      {
+        "route": "artista/michael-jackson/index.html",
+        "url": "https://www.dietroiltesto.it/artista/michael-jackson/",
+        "httpStatus": 200,
+        "expectedSha256": "c27aa7848312c30a196db960aefba9891e888ffdfbd16b7b03fdf61f489ea921",
+        "receivedSha256": "c27aa7848312c30a196db960aefba9891e888ffdfbd16b7b03fdf61f489ea921",
+        "ok": true
+      },
+      {
+        "route": "artista/muse/index.html",
+        "url": "https://www.dietroiltesto.it/artista/muse/",
+        "httpStatus": 200,
+        "expectedSha256": "205c952543f2bdcdd72b6ec6ad14da0380658e27b9e28a8525f450e7c67ce037",
+        "receivedSha256": "205c952543f2bdcdd72b6ec6ad14da0380658e27b9e28a8525f450e7c67ce037",
+        "ok": true
+      },
+      {
+        "route": "artista/nirvana/index.html",
+        "url": "https://www.dietroiltesto.it/artista/nirvana/",
+        "httpStatus": 200,
+        "expectedSha256": "e739cd29fbd895544506dcfc4f48ed539c1ef979d11e6d4a0ab48b3a16d0b359",
+        "receivedSha256": "e739cd29fbd895544506dcfc4f48ed539c1ef979d11e6d4a0ab48b3a16d0b359",
+        "ok": true
+      },
+      {
+        "route": "artista/oasis/index.html",
+        "url": "https://www.dietroiltesto.it/artista/oasis/",
+        "httpStatus": 200,
+        "expectedSha256": "5f61d060039db596265be31aac016caf4d7497ab4061c28273c91313196cfd95",
+        "receivedSha256": "5f61d060039db596265be31aac016caf4d7497ab4061c28273c91313196cfd95",
+        "ok": true
+      },
+      {
+        "route": "artista/pearl-jam/index.html",
+        "url": "https://www.dietroiltesto.it/artista/pearl-jam/",
+        "httpStatus": 200,
+        "expectedSha256": "9062ac19c279c7690ee05814bd08e8ea6d64168f78524d709720ce9938247846",
+        "receivedSha256": "9062ac19c279c7690ee05814bd08e8ea6d64168f78524d709720ce9938247846",
+        "ok": true
+      },
+      {
+        "route": "artista/pinguini-tattici-nucleari/index.html",
+        "url": "https://www.dietroiltesto.it/artista/pinguini-tattici-nucleari/",
+        "httpStatus": 200,
+        "expectedSha256": "23579144540360e681650c5076c25419b734ee6423d06f00221e78f09959fb9c",
+        "receivedSha256": "23579144540360e681650c5076c25419b734ee6423d06f00221e78f09959fb9c",
+        "ok": true
+      },
+      {
+        "route": "artista/pink-floyd/index.html",
+        "url": "https://www.dietroiltesto.it/artista/pink-floyd/",
+        "httpStatus": 200,
+        "expectedSha256": "7436ef7a5fd818df7e8fa7c1e2c52db66fcfeb897b120b7187d18d7e968eb8db",
+        "receivedSha256": "7436ef7a5fd818df7e8fa7c1e2c52db66fcfeb897b120b7187d18d7e968eb8db",
+        "ok": true
+      },
+      {
+        "route": "artista/pino-daniele/index.html",
+        "url": "https://www.dietroiltesto.it/artista/pino-daniele/",
+        "httpStatus": 200,
+        "expectedSha256": "62a3de606420f29d9e843d70fe8607805b5a701a02d699dfb7328ef53e347bfa",
+        "receivedSha256": "62a3de606420f29d9e843d70fe8607805b5a701a02d699dfb7328ef53e347bfa",
+        "ok": true
+      },
+      {
+        "route": "artista/queen/index.html",
+        "url": "https://www.dietroiltesto.it/artista/queen/",
+        "httpStatus": 200,
+        "expectedSha256": "c1aa228822c6f1afd0581ff413dbd5ce2191e628f74b7e6406eb90c8a282c848",
+        "receivedSha256": "c1aa228822c6f1afd0581ff413dbd5ce2191e628f74b7e6406eb90c8a282c848",
+        "ok": true
+      },
+      {
+        "route": "artista/rage-against-the-machine/index.html",
+        "url": "https://www.dietroiltesto.it/artista/rage-against-the-machine/",
+        "httpStatus": 200,
+        "expectedSha256": "1591fbe1a50fc184dd6794e5d7b0ca5d7bbe9be9d47ce88761b75237bc807506",
+        "receivedSha256": "1591fbe1a50fc184dd6794e5d7b0ca5d7bbe9be9d47ce88761b75237bc807506",
+        "ok": true
+      },
+      {
+        "route": "artista/rammstein/index.html",
+        "url": "https://www.dietroiltesto.it/artista/rammstein/",
+        "httpStatus": 200,
+        "expectedSha256": "4b9b35a2f202910217b64557290de16c48f50684e3b50556d102cd2f13b2fb17",
+        "receivedSha256": "4b9b35a2f202910217b64557290de16c48f50684e3b50556d102cd2f13b2fb17",
+        "ok": true
+      },
+      {
+        "route": "artista/red-hot-chili-peppers/index.html",
+        "url": "https://www.dietroiltesto.it/artista/red-hot-chili-peppers/",
+        "httpStatus": 200,
+        "expectedSha256": "aa7a2b4096ae306f57bd6e95482ede50f186fb8962635c4ec53c8ce8c9b8b92c",
+        "receivedSha256": "aa7a2b4096ae306f57bd6e95482ede50f186fb8962635c4ec53c8ce8c9b8b92c",
+        "ok": true
+      },
+      {
+        "route": "artista/the-beatles/index.html",
+        "url": "https://www.dietroiltesto.it/artista/the-beatles/",
+        "httpStatus": 200,
+        "expectedSha256": "4d8862835edf83bf568ce2a368f8084cf44996a2efc48a65cd8a9cce7cd644de",
+        "receivedSha256": "4d8862835edf83bf568ce2a368f8084cf44996a2efc48a65cd8a9cce7cd644de",
+        "ok": true
+      },
+      {
+        "route": "artista/the-doors/index.html",
+        "url": "https://www.dietroiltesto.it/artista/the-doors/",
+        "httpStatus": 200,
+        "expectedSha256": "0fb70bc11f729ea4eaf7e547e1384a7a51d941d506569de1820017f650686cb1",
+        "receivedSha256": "0fb70bc11f729ea4eaf7e547e1384a7a51d941d506569de1820017f650686cb1",
+        "ok": true
+      },
+      {
+        "route": "artista/the-killers/index.html",
+        "url": "https://www.dietroiltesto.it/artista/the-killers/",
+        "httpStatus": 200,
+        "expectedSha256": "1e1d134d1fce55372247ce44c164dbcac54617325f5420c4458faf9099a84140",
+        "receivedSha256": "1e1d134d1fce55372247ce44c164dbcac54617325f5420c4458faf9099a84140",
+        "ok": true
+      },
+      {
+        "route": "canzone/adams-song/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/adams-song/",
+        "httpStatus": 200,
+        "expectedSha256": "b231a05db48147d5c0a7df53a369609c29c9000c75b69e813bcef2c1f01a15ed",
+        "receivedSha256": "b231a05db48147d5c0a7df53a369609c29c9000c75b69e813bcef2c1f01a15ed",
+        "ok": true
+      },
+      {
+        "route": "canzone/alive/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/alive/",
+        "httpStatus": 200,
+        "expectedSha256": "87d330800bd1af955a9235064ddbd806abee05b9affab39482dd752c55223a6b",
+        "receivedSha256": "87d330800bd1af955a9235064ddbd806abee05b9affab39482dd752c55223a6b",
+        "ok": true
+      },
+      {
+        "route": "canzone/all-the-small-things/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/all-the-small-things/",
+        "httpStatus": 200,
+        "expectedSha256": "444b53c89118fe3c1da590735ae27e95a1f827d45c1dc94c53e4abaa981e9c51",
+        "receivedSha256": "444b53c89118fe3c1da590735ae27e95a1f827d45c1dc94c53e4abaa981e9c51",
+        "ok": true
+      },
+      {
+        "route": "canzone/american-idiot/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/american-idiot/",
+        "httpStatus": 200,
+        "expectedSha256": "36f7a3b6acddc103342288ab7f56a5a4172cf9da7a112c8c32c6e2d023c9c58a",
+        "receivedSha256": "36f7a3b6acddc103342288ab7f56a5a4172cf9da7a112c8c32c6e2d023c9c58a",
+        "ok": true
+      },
+      {
+        "route": "canzone/another-one-bites-the-dust/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/another-one-bites-the-dust/",
+        "httpStatus": 200,
+        "expectedSha256": "abe9a47659516e09f80ccb0103734c591f43b4a8e5905d1662b298863acd24f0",
+        "receivedSha256": "abe9a47659516e09f80ccb0103734c591f43b4a8e5905d1662b298863acd24f0",
+        "ok": true
+      },
+      {
+        "route": "canzone/antivist/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/antivist/",
+        "httpStatus": 200,
+        "expectedSha256": "baa0a9d7c3b1f7a0612a15c6ca64ed9c1cdf059e2b98cd61c4f86a4a2dcfa75c",
+        "receivedSha256": "baa0a9d7c3b1f7a0612a15c6ca64ed9c1cdf059e2b98cd61c4f86a4a2dcfa75c",
+        "ok": true
+      },
+      {
+        "route": "canzone/back-in-black/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/back-in-black/",
+        "httpStatus": 200,
+        "expectedSha256": "6e939db623200ba0e0ea13ad9c0122af3c37f7639a367a60bab38e517d21d026",
+        "receivedSha256": "6e939db623200ba0e0ea13ad9c0122af3c37f7639a367a60bab38e517d21d026",
+        "ok": true
+      },
+      {
+        "route": "canzone/basket-case/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/basket-case/",
+        "httpStatus": 200,
+        "expectedSha256": "f603b2661b1efd8f065aebb9fbfd91ab7d261461103f98e2b6e5b076432ed067",
+        "receivedSha256": "f603b2661b1efd8f065aebb9fbfd91ab7d261461103f98e2b6e5b076432ed067",
+        "ok": true
+      },
+      {
+        "route": "canzone/beat-it/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/beat-it/",
+        "httpStatus": 200,
+        "expectedSha256": "32576789289b97399bb4ea4c04b9e823973401755e6c22d463c00eb7a1a1f1a0",
+        "receivedSha256": "32576789289b97399bb4ea4c04b9e823973401755e6c22d463c00eb7a1a1f1a0",
+        "ok": true
+      },
+      {
+        "route": "canzone/billie-jean/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/billie-jean/",
+        "httpStatus": 200,
+        "expectedSha256": "f414299c599e440f3ba53f88200d55444e90ed610881a8ccfcc83b204f5ad570",
+        "receivedSha256": "f414299c599e440f3ba53f88200d55444e90ed610881a8ccfcc83b204f5ad570",
+        "ok": true
+      },
+      {
+        "route": "canzone/black-pearl-jam/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/black-pearl-jam/",
+        "httpStatus": 200,
+        "expectedSha256": "7b9de97230058b10b564646c91a88201f97e787f23e3c5ac055cc96dc635922e",
+        "receivedSha256": "7b9de97230058b10b564646c91a88201f97e787f23e3c5ac055cc96dc635922e",
+        "ok": true
+      },
+      {
+        "route": "canzone/bohemian-rhapsody/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/bohemian-rhapsody/",
+        "httpStatus": 200,
+        "expectedSha256": "c1e7671617f6d950c9ee786c2d1798aa40e9b132dabc0d7770aac136fdb2473c",
+        "receivedSha256": "c1e7671617f6d950c9ee786c2d1798aa40e9b132dabc0d7770aac136fdb2473c",
+        "ok": true
+      },
+      {
+        "route": "canzone/boulevard-of-broken-dreams/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/boulevard-of-broken-dreams/",
+        "httpStatus": 200,
+        "expectedSha256": "5dd7039f56189aa407dc8ac327703e1983760c6648a16934e3b62145e00eac77",
+        "receivedSha256": "5dd7039f56189aa407dc8ac327703e1983760c6648a16934e3b62145e00eac77",
+        "ok": true
+      },
+      {
+        "route": "canzone/break-stuff/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/break-stuff/",
+        "httpStatus": 200,
+        "expectedSha256": "f3d3fd31d1640d3f0306587af6a07b13a8ea3818f2b058af50588e32dd9fd941",
+        "receivedSha256": "f3d3fd31d1640d3f0306587af6a07b13a8ea3818f2b058af50588e32dd9fd941",
+        "ok": true
+      },
+      {
+        "route": "canzone/bring-me-to-life/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/bring-me-to-life/",
+        "httpStatus": 200,
+        "expectedSha256": "7ae93e8542d76443d3f362607ec5b641b71a8d3238b8c0bc2a7d47965f3adf76",
+        "receivedSha256": "7ae93e8542d76443d3f362607ec5b641b71a8d3238b8c0bc2a7d47965f3adf76",
+        "ok": true
+      },
+      {
+        "route": "canzone/bulls-on-parade/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/bulls-on-parade/",
+        "httpStatus": 200,
+        "expectedSha256": "b991678cf29ea99f16b4b945a48b805ab86f258a90c7a9309d83a7f1c3f75ca6",
+        "receivedSha256": "b991678cf29ea99f16b4b945a48b805ab86f258a90c7a9309d83a7f1c3f75ca6",
+        "ok": true
+      },
+      {
+        "route": "canzone/can-you-feel-my-heart/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/can-you-feel-my-heart/",
+        "httpStatus": 200,
+        "expectedSha256": "36049c1fe8f4b13abf341ffc229be2b20ce57122aa43adc8c861f0308e1c7dc8",
+        "receivedSha256": "36049c1fe8f4b13abf341ffc229be2b20ce57122aa43adc8c861f0308e1c7dc8",
+        "ok": true
+      },
+      {
+        "route": "canzone/castle-on-the-hill/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/castle-on-the-hill/",
+        "httpStatus": 200,
+        "expectedSha256": "032af5a571ad0892833d5f0684b13942bc88ea247ad57085a4d12b3d6f40a40b",
+        "receivedSha256": "032af5a571ad0892833d5f0684b13942bc88ea247ad57085a4d12b3d6f40a40b",
+        "ok": true
+      },
+      {
+        "route": "canzone/champagne-supernova/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/champagne-supernova/",
+        "httpStatus": 200,
+        "expectedSha256": "bd4fffce503fcc6525264e468f2bc717e8cb0c1404048096a28dfb53dd25d88a",
+        "receivedSha256": "bd4fffce503fcc6525264e468f2bc717e8cb0c1404048096a28dfb53dd25d88a",
+        "ok": true
+      },
+      {
+        "route": "canzone/chelsea-smile/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/chelsea-smile/",
+        "httpStatus": 200,
+        "expectedSha256": "1ef5305de885eaba2f480a087bd581cbf841a60ad370e719f644ea518d76de7e",
+        "receivedSha256": "1ef5305de885eaba2f480a087bd581cbf841a60ad370e719f644ea518d76de7e",
+        "ok": true
+      },
+      {
+        "route": "canzone/come-as-you-are/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/come-as-you-are/",
+        "httpStatus": 200,
+        "expectedSha256": "bf5dcc85d0087faaf9edb44977a282b077526c0e5b5c37f9e21fd59003e39825",
+        "receivedSha256": "bf5dcc85d0087faaf9edb44977a282b077526c0e5b5c37f9e21fd59003e39825",
+        "ok": true
+      },
+      {
+        "route": "canzone/comfortably-numb/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+        "httpStatus": 200,
+        "expectedSha256": "2e89b82d30b7ad2616ccb4bc1ad1119d632f73344e200511881584c3e4220f78",
+        "receivedSha256": "2e89b82d30b7ad2616ccb4bc1ad1119d632f73344e200511881584c3e4220f78",
+        "ok": true
+      },
+      {
+        "route": "canzone/crawling/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/crawling/",
+        "httpStatus": 200,
+        "expectedSha256": "3c61d882db1d9b4a8e80664d004e519d7dec966e18939367f76920b8f61cf1eb",
+        "receivedSha256": "3c61d882db1d9b4a8e80664d004e519d7dec966e18939367f76920b8f61cf1eb",
+        "ok": true
+      },
+      {
+        "route": "canzone/dammit/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dammit/",
+        "httpStatus": 200,
+        "expectedSha256": "cd2f07849c995e070caf0a5ddcbc7cea526a1274883f2e80c48ccca76ae5de24",
+        "receivedSha256": "cd2f07849c995e070caf0a5ddcbc7cea526a1274883f2e80c48ccca76ae5de24",
+        "ok": true
+      },
+      {
+        "route": "canzone/darkside/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/darkside/",
+        "httpStatus": 200,
+        "expectedSha256": "6b79f76ac7754be641ea045451526923f61c3b0140537420c34bf542206eb58c",
+        "receivedSha256": "6b79f76ac7754be641ea045451526923f61c3b0140537420c34bf542206eb58c",
+        "ok": true
+      },
+      {
+        "route": "canzone/dicono-di-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dicono-di-me/",
+        "httpStatus": 200,
+        "expectedSha256": "0ebc8148d3e547d029a7a874685cbc383293d2bb8db8ef64ffcedcf075670ac6",
+        "receivedSha256": "0ebc8148d3e547d029a7a874685cbc383293d2bb8db8ef64ffcedcf075670ac6",
+        "ok": true
+      },
+      {
+        "route": "canzone/die4u/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/die4u/",
+        "httpStatus": 200,
+        "expectedSha256": "f07a438cebe2197e545640517d85af2cb53a287efeaf61035381c0fd9aca2089",
+        "receivedSha256": "f07a438cebe2197e545640517d85af2cb53a287efeaf61035381c0fd9aca2089",
+        "ok": true
+      },
+      {
+        "route": "canzone/dirty-deeds-done-dirt-cheap/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dirty-deeds-done-dirt-cheap/",
+        "httpStatus": 200,
+        "expectedSha256": "f47772ee1a98f80276f3455981a9fead89b010924eb66b032e9820dd8921114c",
+        "receivedSha256": "f47772ee1a98f80276f3455981a9fead89b010924eb66b032e9820dd8921114c",
+        "ok": true
+      },
+      {
+        "route": "canzone/dont-look-back-in-anger/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dont-look-back-in-anger/",
+        "httpStatus": 200,
+        "expectedSha256": "050636918f86a068e7c71c2680f96b76956c8a07c011547e79b61ddaf01a8cc6",
+        "receivedSha256": "050636918f86a068e7c71c2680f96b76956c8a07c011547e79b61ddaf01a8cc6",
+        "ok": true
+      },
+      {
+        "route": "canzone/doomed/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/doomed/",
+        "httpStatus": 200,
+        "expectedSha256": "c3bfc09e201c51ff79fbba2042231a220ee7bb104b6ff2a69373824d79039b63",
+        "receivedSha256": "c3bfc09e201c51ff79fbba2042231a220ee7bb104b6ff2a69373824d79039b63",
+        "ok": true
+      },
+      {
+        "route": "canzone/drown/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/drown/",
+        "httpStatus": 200,
+        "expectedSha256": "82a2b4e1335a4193c0abc83cf0fd5a131a4208623461e1b278d4e9e4e7ed2d8c",
+        "receivedSha256": "82a2b4e1335a4193c0abc83cf0fd5a131a4208623461e1b278d4e9e4e7ed2d8c",
+        "ok": true
+      },
+      {
+        "route": "canzone/e-ti-vengo-a-cercare/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "httpStatus": 200,
+        "expectedSha256": "0a01787e9e845bb7779f565c17478d04c9e65deefff2e58abcecfaabe0b817e2",
+        "receivedSha256": "0a01787e9e845bb7779f565c17478d04c9e65deefff2e58abcecfaabe0b817e2",
+        "ok": true
+      },
+      {
+        "route": "canzone/enjoy-the-silence/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/enjoy-the-silence/",
+        "httpStatus": 200,
+        "expectedSha256": "5d64fc836fcc77fb0b6ce8473897eca0e74391d52e7ed0ed552e7797c2cb58d9",
+        "receivedSha256": "5d64fc836fcc77fb0b6ce8473897eca0e74391d52e7ed0ed552e7797c2cb58d9",
+        "ok": true
+      },
+      {
+        "route": "canzone/enter-sandman/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/enter-sandman/",
+        "httpStatus": 200,
+        "expectedSha256": "71c54c10ec536c667f79685131bcb4184a216e0515e91cf846982af2cf9d1367",
+        "receivedSha256": "71c54c10ec536c667f79685131bcb4184a216e0515e91cf846982af2cf9d1367",
+        "ok": true
+      },
+      {
+        "route": "canzone/everlong/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/everlong/",
+        "httpStatus": 200,
+        "expectedSha256": "985d1d9487e49cd7cafcbe55981228c4440c7d4c55a0351b270a449f8da29618",
+        "receivedSha256": "985d1d9487e49cd7cafcbe55981228c4440c7d4c55a0351b270a449f8da29618",
+        "ok": true
+      },
+      {
+        "route": "canzone/fade-to-black/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fade-to-black/",
+        "httpStatus": 200,
+        "expectedSha256": "38e1a13450e841ca63ee1c4207282112fea592174f974d093d69116fdde332e3",
+        "receivedSha256": "38e1a13450e841ca63ee1c4207282112fea592174f974d093d69116fdde332e3",
+        "ok": true
+      },
+      {
+        "route": "canzone/first-date/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/first-date/",
+        "httpStatus": 200,
+        "expectedSha256": "b02ef7986d2e6a5630dfdb0df8819350c1751f77a50222934665e5a9b0640305",
+        "receivedSha256": "b02ef7986d2e6a5630dfdb0df8819350c1751f77a50222934665e5a9b0640305",
+        "ok": true
+      },
+      {
+        "route": "canzone/flick-of-the-switch/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/flick-of-the-switch/",
+        "httpStatus": 200,
+        "expectedSha256": "b77798168c00a50439184180d4ce27b9082af80ff7de56e6e84a8fb485b09fda",
+        "receivedSha256": "b77798168c00a50439184180d4ce27b9082af80ff7de56e6e84a8fb485b09fda",
+        "ok": true
+      },
+      {
+        "route": "canzone/follow-you/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/follow-you/",
+        "httpStatus": 200,
+        "expectedSha256": "66173fcaa3adc0933366d9b5a9b215deb1c2e80caba72e0217d6a8e29d8ec18b",
+        "receivedSha256": "66173fcaa3adc0933366d9b5a9b215deb1c2e80caba72e0217d6a8e29d8ec18b",
+        "ok": true
+      },
+      {
+        "route": "canzone/for-those-about-to-rock/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/for-those-about-to-rock/",
+        "httpStatus": 200,
+        "expectedSha256": "1504c28ff8ffece5bc1389fa63d6e3ecc7085357e7750cfe282055fe161bd0e9",
+        "receivedSha256": "1504c28ff8ffece5bc1389fa63d6e3ecc7085357e7750cfe282055fe161bd0e9",
+        "ok": true
+      },
+      {
+        "route": "canzone/fuori-dal-tunnel/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+        "httpStatus": 200,
+        "expectedSha256": "2177d3af0601ce4f3e104b6ea1c258d301e1affdeae351aebc3d980586fc76e3",
+        "receivedSha256": "2177d3af0601ce4f3e104b6ea1c258d301e1affdeae351aebc3d980586fc76e3",
+        "ok": true
+      },
+      {
+        "route": "canzone/fuori-dall-hype/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fuori-dall-hype/",
+        "httpStatus": 200,
+        "expectedSha256": "f69b78c35fb67b536933063be12282690fcb550ea975209efc1ced2efb875fac",
+        "receivedSha256": "f69b78c35fb67b536933063be12282690fcb550ea975209efc1ced2efb875fac",
+        "ok": true
+      },
+      {
+        "route": "canzone/giovani-wannabe/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/giovani-wannabe/",
+        "httpStatus": 200,
+        "expectedSha256": "c9f7be49aa3d2eb00a574bbad099f3c62515b7332f1fc051e80694733c6dc16c",
+        "receivedSha256": "c9f7be49aa3d2eb00a574bbad099f3c62515b7332f1fc051e80694733c6dc16c",
+        "ok": true
+      },
+      {
+        "route": "canzone/gli-uomini-e-le-donne-sono-uguali/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/gli-uomini-e-le-donne-sono-uguali/",
+        "httpStatus": 200,
+        "expectedSha256": "f3da48ffe9e831e0750c20bfedc6587395474b41f33da08edcb2994c671b38c7",
+        "receivedSha256": "f3da48ffe9e831e0750c20bfedc6587395474b41f33da08edcb2994c671b38c7",
+        "ok": true
+      },
+      {
+        "route": "canzone/goodbye-malinconia/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/goodbye-malinconia/",
+        "httpStatus": 200,
+        "expectedSha256": "b08c3ccbe75aa19f57cde0d1cebbcb6b0975cdb7c6ec4790b82fdd5e07fcd62d",
+        "receivedSha256": "b08c3ccbe75aa19f57cde0d1cebbcb6b0975cdb7c6ec4790b82fdd5e07fcd62d",
+        "ok": true
+      },
+      {
+        "route": "canzone/happy-song/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/happy-song/",
+        "httpStatus": 200,
+        "expectedSha256": "032591ade5ae86dd224c16a3f92ff7559ae97eede2149727a626549c312f03f2",
+        "receivedSha256": "032591ade5ae86dd224c16a3f92ff7559ae97eede2149727a626549c312f03f2",
+        "ok": true
+      },
+      {
+        "route": "canzone/hard-as-a-rock/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/hard-as-a-rock/",
+        "httpStatus": 200,
+        "expectedSha256": "feab89fb2ed9ba6010adbefb910660c7677ecb989fdccdb5696e1fc05b9c5546",
+        "receivedSha256": "feab89fb2ed9ba6010adbefb910660c7677ecb989fdccdb5696e1fc05b9c5546",
+        "ok": true
+      },
+      {
+        "route": "canzone/here-comes-the-sun/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/here-comes-the-sun/",
+        "httpStatus": 200,
+        "expectedSha256": "449ff15f4e76c590af989534d9fc51b2347ff8d6820f1de0fe70af8127af373f",
+        "receivedSha256": "449ff15f4e76c590af989534d9fc51b2347ff8d6820f1de0fe70af8127af373f",
+        "ok": true
+      },
+      {
+        "route": "canzone/highway-to-hell/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/highway-to-hell/",
+        "httpStatus": 200,
+        "expectedSha256": "e5ebd82fa34b4f6e4c38bdef442bfc50f66212ec9ca020ac30863d62c3b0ecfa",
+        "receivedSha256": "e5ebd82fa34b4f6e4c38bdef442bfc50f66212ec9ca020ac30863d62c3b0ecfa",
+        "ok": true
+      },
+      {
+        "route": "canzone/hotel-california/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/hotel-california/",
+        "httpStatus": 200,
+        "expectedSha256": "4990c7744023a8b5551de3e93d0f9def1764a90890deaef46ea5fb8546ca1cb7",
+        "receivedSha256": "4990c7744023a8b5551de3e93d0f9def1764a90890deaef46ea5fb8546ca1cb7",
+        "ok": true
+      },
+      {
+        "route": "canzone/il-ragazzo-della-via-gluck/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/",
+        "httpStatus": 200,
+        "expectedSha256": "4bf097241cbb5259088bdadadea1e76e8aadc036dac8a1089acda993a475176c",
+        "receivedSha256": "4bf097241cbb5259088bdadadea1e76e8aadc036dac8a1089acda993a475176c",
+        "ok": true
+      },
+      {
+        "route": "canzone/in-the-end/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/in-the-end/",
+        "httpStatus": 200,
+        "expectedSha256": "43ed89e5003b47c874c5ae5eb4e4cdc39633d9c23b6fe8f76195cc1f0aa15e48",
+        "receivedSha256": "43ed89e5003b47c874c5ae5eb4e4cdc39633d9c23b6fe8f76195cc1f0aa15e48",
+        "ok": true
+      },
+      {
+        "route": "canzone/iron-man/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/iron-man/",
+        "httpStatus": 200,
+        "expectedSha256": "84f3bce2d7f07aa29f29c273ef8485c2b01676adddd81793344fc0e04fd0c28d",
+        "receivedSha256": "84f3bce2d7f07aa29f29c273ef8485c2b01676adddd81793344fc0e04fd0c28d",
+        "ok": true
+      },
+      {
+        "route": "canzone/islanda/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/islanda/",
+        "httpStatus": 200,
+        "expectedSha256": "1c436c0f650cdc5d7409f84c206a23c4ea7fc0435c27e95197c2752a13537f50",
+        "receivedSha256": "1c436c0f650cdc5d7409f84c206a23c4ea7fc0435c27e95197c2752a13537f50",
+        "ok": true
+      },
+      {
+        "route": "canzone/its-a-long-way-to-the-top/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/its-a-long-way-to-the-top/",
+        "httpStatus": 200,
+        "expectedSha256": "a1095114d0e7010555a24e95a40112159b5495c072d44b03b5dc2fbe9bb195de",
+        "receivedSha256": "a1095114d0e7010555a24e95a40112159b5495c072d44b03b5dc2fbe9bb195de",
+        "ok": true
+      },
+      {
+        "route": "canzone/jeremy/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/jeremy/",
+        "httpStatus": 200,
+        "expectedSha256": "4b6e256ca77fac38e9fc9411ef997c1fd4a5b62178b095bb8fb82bf9b08376c1",
+        "receivedSha256": "4b6e256ca77fac38e9fc9411ef997c1fd4a5b62178b095bb8fb82bf9b08376c1",
+        "ok": true
+      },
+      {
+        "route": "canzone/kashmir/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/kashmir/",
+        "httpStatus": 200,
+        "expectedSha256": "04901d63c417571517b42b5db3fb4d5032ebba62fc77902264c89c8d9f756f8d",
+        "receivedSha256": "04901d63c417571517b42b5db3fb4d5032ebba62fc77902264c89c8d9f756f8d",
+        "ok": true
+      },
+      {
+        "route": "canzone/knights-of-cydonia/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/knights-of-cydonia/",
+        "httpStatus": 200,
+        "expectedSha256": "0f8831aa6d531e3aa212056f28559a71434c6886c2163ddc15bf16a742dbbf2e",
+        "receivedSha256": "0f8831aa6d531e3aa212056f28559a71434c6886c2163ddc15bf16a742dbbf2e",
+        "ok": true
+      },
+      {
+        "route": "canzone/l-era-del-cinghiale-bianco/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/l-era-del-cinghiale-bianco/",
+        "httpStatus": 200,
+        "expectedSha256": "3713c821d8dd8bccddf2eeac955396b2a17e283358875421b785b221d08971cd",
+        "receivedSha256": "3713c821d8dd8bccddf2eeac955396b2a17e283358875421b785b221d08971cd",
+        "ok": true
+      },
+      {
+        "route": "canzone/la-regola-dell-amico/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/la-regola-dell-amico/",
+        "httpStatus": 200,
+        "expectedSha256": "ef85a63ef78e3d0cba227fb37c4331a2b6be7d51dab86f152a11de6cc5903783",
+        "receivedSha256": "ef85a63ef78e3d0cba227fb37c4331a2b6be7d51dab86f152a11de6cc5903783",
+        "ok": true
+      },
+      {
+        "route": "canzone/legalize-the-premier/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/legalize-the-premier/",
+        "httpStatus": 200,
+        "expectedSha256": "e517f4930e6056ab62fad6e38b1bf1c18b093a591ebc5d96cbf93674eb5f3086",
+        "receivedSha256": "e517f4930e6056ab62fad6e38b1bf1c18b093a591ebc5d96cbf93674eb5f3086",
+        "ok": true
+      },
+      {
+        "route": "canzone/let-there-be-rock/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/let-there-be-rock/",
+        "httpStatus": 200,
+        "expectedSha256": "75b551ee9559d4764b2284b6376e4c630ffe6936ce54268f1ccd39bb3b13f70b",
+        "receivedSha256": "75b551ee9559d4764b2284b6376e4c630ffe6936ce54268f1ccd39bb3b13f70b",
+        "ok": true
+      },
+      {
+        "route": "canzone/live-forever/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/live-forever/",
+        "httpStatus": 200,
+        "expectedSha256": "2d09e2038215f66d349dc51023da633d8dbe33a932526887270649c5e375ff82",
+        "receivedSha256": "2d09e2038215f66d349dc51023da633d8dbe33a932526887270649c5e375ff82",
+        "ok": true
+      },
+      {
+        "route": "canzone/livin-on-a-prayer/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/livin-on-a-prayer/",
+        "httpStatus": 200,
+        "expectedSha256": "ccd0ad7012aaa7ccca4404632c4072ec48ca9419662395865c01250d73135fe5",
+        "receivedSha256": "ccd0ad7012aaa7ccca4404632c4072ec48ca9419662395865c01250d73135fe5",
+        "ok": true
+      },
+      {
+        "route": "canzone/lost/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/lost/",
+        "httpStatus": 200,
+        "expectedSha256": "55220e432fbc924eb8025dc1e2a7bde49faa1e5a388beec7e444427de5fa72a0",
+        "receivedSha256": "55220e432fbc924eb8025dc1e2a7bde49faa1e5a388beec7e444427de5fa72a0",
+        "ok": true
+      },
+      {
+        "route": "canzone/man-in-the-box/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/man-in-the-box/",
+        "httpStatus": 200,
+        "expectedSha256": "b1e8f001f1f2f2f4914afc4f948081ae355a3096d0ac234d8b6c43f3faf18a3d",
+        "receivedSha256": "b1e8f001f1f2f2f4914afc4f948081ae355a3096d0ac234d8b6c43f3faf18a3d",
+        "ok": true
+      },
+      {
+        "route": "canzone/man-in-the-mirror/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/man-in-the-mirror/",
+        "httpStatus": 200,
+        "expectedSha256": "59774132e17e34d9d2fcef9ea8a7f681dcc1e726d93c853fd99cf20d8a3c79d2",
+        "receivedSha256": "59774132e17e34d9d2fcef9ea8a7f681dcc1e726d93c853fd99cf20d8a3c79d2",
+        "ok": true
+      },
+      {
+        "route": "canzone/mantra/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/mantra/",
+        "httpStatus": 200,
+        "expectedSha256": "b93dcf9d7069ea167149c320286bb5433bc773da64efeb9241186087764224df",
+        "receivedSha256": "b93dcf9d7069ea167149c320286bb5433bc773da64efeb9241186087764224df",
+        "ok": true
+      },
+      {
+        "route": "canzone/marmellata-25/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/marmellata-25/",
+        "httpStatus": 200,
+        "expectedSha256": "f0b20819b070d02bacaad118ecf0454618d677675c0acd33a75daf1db7666c67",
+        "receivedSha256": "f0b20819b070d02bacaad118ecf0454618d677675c0acd33a75daf1db7666c67",
+        "ok": true
+      },
+      {
+        "route": "canzone/master-of-puppets/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/master-of-puppets/",
+        "httpStatus": 200,
+        "expectedSha256": "bf17f877d8bf7982960474c0f478dab8a1309082a69c7cc4237d7660f6d4fe54",
+        "receivedSha256": "bf17f877d8bf7982960474c0f478dab8a1309082a69c7cc4237d7660f6d4fe54",
+        "ok": true
+      },
+      {
+        "route": "canzone/mr-brightside/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/mr-brightside/",
+        "httpStatus": 200,
+        "expectedSha256": "fe87ccce42fe57f57cbb59c6fc85d351a2f18fe7358afd105904bc7b9668d268",
+        "receivedSha256": "fe87ccce42fe57f57cbb59c6fc85d351a2f18fe7358afd105904bc7b9668d268",
+        "ok": true
+      },
+      {
+        "route": "canzone/my-immortal/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/my-immortal/",
+        "httpStatus": 200,
+        "expectedSha256": "34c29b8004ee3bf4a6a44da0da3bb0bbb865c1fe064a81e7269324384277faf4",
+        "receivedSha256": "34c29b8004ee3bf4a6a44da0da3bb0bbb865c1fe064a81e7269324384277faf4",
+        "ok": true
+      },
+      {
+        "route": "canzone/nihilist-blues/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/nihilist-blues/",
+        "httpStatus": 200,
+        "expectedSha256": "d04a9fce8f8431f88e6a10a0c9f4dd8140220355f8bdf3c1bb5f8b19a91e7850",
+        "receivedSha256": "d04a9fce8f8431f88e6a10a0c9f4dd8140220355f8bdf3c1bb5f8b19a91e7850",
+        "ok": true
+      },
+      {
+        "route": "canzone/nothing-else-matters/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/nothing-else-matters/",
+        "httpStatus": 200,
+        "expectedSha256": "68e734f4e97aa933014b4c213e0c4b126fb2a151e9351a4d04d6c2cc92b8e767",
+        "receivedSha256": "68e734f4e97aa933014b4c213e0c4b126fb2a151e9351a4d04d6c2cc92b8e767",
+        "ok": true
+      },
+      {
+        "route": "canzone/november-rain/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/november-rain/",
+        "httpStatus": 200,
+        "expectedSha256": "c911a7367becc9d8983b9facc98b95560f5ca2f2abd11f0c28985cee0bac09a9",
+        "receivedSha256": "c911a7367becc9d8983b9facc98b95560f5ca2f2abd11f0c28985cee0bac09a9",
+        "ok": true
+      },
+      {
+        "route": "canzone/numb/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/numb/",
+        "httpStatus": 200,
+        "expectedSha256": "ab6f51e5f08803a9a3b83cdc3eff69208456bd3324a8cbea9820ca43db5db374",
+        "receivedSha256": "ab6f51e5f08803a9a3b83cdc3eff69208456bd3324a8cbea9820ca43db5db374",
+        "ok": true
+      },
+      {
+        "route": "canzone/one-step-closer/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/one-step-closer/",
+        "httpStatus": 200,
+        "expectedSha256": "f81bacfb2033bc75795f908fc8a9e597f0d7055675afd6fe031caeba2f46e57c",
+        "receivedSha256": "f81bacfb2033bc75795f908fc8a9e597f0d7055675afd6fe031caeba2f46e57c",
+        "ok": true
+      },
+      {
+        "route": "canzone/paradise-city/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/paradise-city/",
+        "httpStatus": 200,
+        "expectedSha256": "31b02a3bcfa4bc260d13b004f52bb12eab793dd65fde6fe3755fd9bad2b88289",
+        "receivedSha256": "31b02a3bcfa4bc260d13b004f52bb12eab793dd65fde6fe3755fd9bad2b88289",
+        "ok": true
+      },
+      {
+        "route": "canzone/paranoid/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/paranoid/",
+        "httpStatus": 200,
+        "expectedSha256": "50dcf288acf49424f3faeeda48f9a1c489f893673bc872760d44365732542fda",
+        "receivedSha256": "50dcf288acf49424f3faeeda48f9a1c489f893673bc872760d44365732542fda",
+        "ok": true
+      },
+      {
+        "route": "canzone/parasite-eve/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/parasite-eve/",
+        "httpStatus": 200,
+        "expectedSha256": "1a3b57415086f9c69392a1174f985ca27596a32f3e2079e078166bb8cfb698c1",
+        "receivedSha256": "1a3b57415086f9c69392a1174f985ca27596a32f3e2079e078166bb8cfb698c1",
+        "ok": true
+      },
+      {
+        "route": "canzone/personal-jesus/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/personal-jesus/",
+        "httpStatus": 200,
+        "expectedSha256": "673fff932531cd81f948fa146d71079f6a8cfeb7e1aef3a9280166fcd4d23a7f",
+        "receivedSha256": "673fff932531cd81f948fa146d71079f6a8cfeb7e1aef3a9280166fcd4d23a7f",
+        "ok": true
+      },
+      {
+        "route": "canzone/poetica/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/poetica/",
+        "httpStatus": 200,
+        "expectedSha256": "c0573cb07090ff8fb9a2063f613cd9e76888269ebf7e70aaee89484969a3c239",
+        "receivedSha256": "c0573cb07090ff8fb9a2063f613cd9e76888269ebf7e70aaee89484969a3c239",
+        "ok": true
+      },
+      {
+        "route": "canzone/prospettiva-nevski/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/prospettiva-nevski/",
+        "httpStatus": 200,
+        "expectedSha256": "12fb2197f96708c075eac8880990c04095a1deadbf260c5a8c2ffe0d339d1b0d",
+        "receivedSha256": "12fb2197f96708c075eac8880990c04095a1deadbf260c5a8c2ffe0d339d1b0d",
+        "ok": true
+      },
+      {
+        "route": "canzone/ridere/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/ridere/",
+        "httpStatus": 200,
+        "expectedSha256": "d4f9cc077515e952fcd33c2f72c5641a0e23d87ab1b3431e04ceb768cf518f40",
+        "receivedSha256": "d4f9cc077515e952fcd33c2f72c5641a0e23d87ab1b3431e04ceb768cf518f40",
+        "ok": true
+      },
+      {
+        "route": "canzone/riders-on-the-storm/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/riders-on-the-storm/",
+        "httpStatus": 200,
+        "expectedSha256": "143509e01ca837f8e9d1446e074b1303d115695d3ef8d495b4c8a91c5d4c73d2",
+        "receivedSha256": "143509e01ca837f8e9d1446e074b1303d115695d3ef8d495b4c8a91c5d4c73d2",
+        "ok": true
+      },
+      {
+        "route": "canzone/ringo-starr/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/ringo-starr/",
+        "httpStatus": 200,
+        "expectedSha256": "096cd4bcea28c4d5fcb1e5c5b4e62b2a7f39839b7b7bef6df292e0670b970223",
+        "receivedSha256": "096cd4bcea28c4d5fcb1e5c5b4e62b2a7f39839b7b7bef6df292e0670b970223",
+        "ok": true
+      },
+      {
+        "route": "canzone/rock-n-roll-train/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/rock-n-roll-train/",
+        "httpStatus": 200,
+        "expectedSha256": "4ee876fab41b44f6ba79cf0f167c3f9ff0b56d1ed3eccf272d4189e2567e434f",
+        "receivedSha256": "4ee876fab41b44f6ba79cf0f167c3f9ff0b56d1ed3eccf272d4189e2567e434f",
+        "ok": true
+      },
+      {
+        "route": "canzone/rock-or-bust/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/rock-or-bust/",
+        "httpStatus": 200,
+        "expectedSha256": "50a11881ed0072f631704c88ba8fbc2fa3b4ad52e8243fc06891acaeb4799b6a",
+        "receivedSha256": "50a11881ed0072f631704c88ba8fbc2fa3b4ad52e8243fc06891acaeb4799b6a",
+        "ok": true
+      },
+      {
+        "route": "canzone/sad-but-true/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sad-but-true/",
+        "httpStatus": 200,
+        "expectedSha256": "12a2336249e31277b5d3621233d657700629cc471802be34bbc047eb8a9f0602",
+        "receivedSha256": "12a2336249e31277b5d3621233d657700629cc471802be34bbc047eb8a9f0602",
+        "ok": true
+      },
+      {
+        "route": "canzone/sashimi/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sashimi/",
+        "httpStatus": 200,
+        "expectedSha256": "ee2e03d1400e9ce27fd035c451599ec392790e3eece60c9b08df417c908723fb",
+        "receivedSha256": "ee2e03d1400e9ce27fd035c451599ec392790e3eece60c9b08df417c908723fb",
+        "ok": true
+      },
+      {
+        "route": "canzone/shadow-moses/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/shadow-moses/",
+        "httpStatus": 200,
+        "expectedSha256": "d62c2f395ff62dce4970f699f5d013bc7a1f41be98e914e86f39ab72797cc8b0",
+        "receivedSha256": "d62c2f395ff62dce4970f699f5d013bc7a1f41be98e914e86f39ab72797cc8b0",
+        "ok": true
+      },
+      {
+        "route": "canzone/shape-of-you/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/shape-of-you/",
+        "httpStatus": 200,
+        "expectedSha256": "1884e33a43b3d5cc1404e351d0456b305dafcb18a60ea2bfcd1cd2fd2735aebe",
+        "receivedSha256": "1884e33a43b3d5cc1404e351d0456b305dafcb18a60ea2bfcd1cd2fd2735aebe",
+        "ok": true
+      },
+      {
+        "route": "canzone/shot-in-the-dark/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/shot-in-the-dark/",
+        "httpStatus": 200,
+        "expectedSha256": "90f1dee4a7115e2e00a2977dcca0324a4219d8d3698552204b6fe30215d2f571",
+        "receivedSha256": "90f1dee4a7115e2e00a2977dcca0324a4219d8d3698552204b6fe30215d2f571",
+        "ok": true
+      },
+      {
+        "route": "canzone/sleepwalking/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sleepwalking/",
+        "httpStatus": 200,
+        "expectedSha256": "45e1cfd17ea2e2460fe538bb400f7b95aa72524f3beedd59f0d58099e06b279e",
+        "receivedSha256": "45e1cfd17ea2e2460fe538bb400f7b95aa72524f3beedd59f0d58099e06b279e",
+        "ok": true
+      },
+      {
+        "route": "canzone/somebody-told-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/somebody-told-me/",
+        "httpStatus": 200,
+        "expectedSha256": "fe3ffa5f5d5ee66ee881c10a4753d6dd7be0d62ca5301465f821ca80620ca8ba",
+        "receivedSha256": "fe3ffa5f5d5ee66ee881c10a4753d6dd7be0d62ca5301465f821ca80620ca8ba",
+        "ok": true
+      },
+      {
+        "route": "canzone/sonne/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sonne/",
+        "httpStatus": 200,
+        "expectedSha256": "1cbf5917e0a25607c9550dddadef46d654984dcce346dc0cfe0749b7fa3f3d7f",
+        "receivedSha256": "1cbf5917e0a25607c9550dddadef46d654984dcce346dc0cfe0749b7fa3f3d7f",
+        "ok": true
+      },
+      {
+        "route": "canzone/stairway-to-heaven/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/stairway-to-heaven/",
+        "httpStatus": 200,
+        "expectedSha256": "6771aa53d7ce8e8f753fbb8cc9cae894083a46863c48502f22bd887d16a52d15",
+        "receivedSha256": "6771aa53d7ce8e8f753fbb8cc9cae894083a46863c48502f22bd887d16a52d15",
+        "ok": true
+      },
+      {
+        "route": "canzone/stand-by-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/stand-by-me/",
+        "httpStatus": 200,
+        "expectedSha256": "bbddef9973aa12e83455b6c5381555fbb49271b72da6bbfa7d6907d6bf929eb7",
+        "receivedSha256": "bbddef9973aa12e83455b6c5381555fbb49271b72da6bbfa7d6907d6bf929eb7",
+        "ok": true
+      },
+      {
+        "route": "canzone/starlight/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/starlight/",
+        "httpStatus": 200,
+        "expectedSha256": "2e6dcf59517176dc20bea32293fa045103f5885b5eb13e0b720faa246a568aac",
+        "receivedSha256": "2e6dcf59517176dc20bea32293fa045103f5885b5eb13e0b720faa246a568aac",
+        "ok": true
+      },
+      {
+        "route": "canzone/stiff-upper-lip/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/stiff-upper-lip/",
+        "httpStatus": 200,
+        "expectedSha256": "8901f5ff56bf0b5809e952ef774b0ea4216ffcad70bfa38a1971af1505e5d2ee",
+        "receivedSha256": "8901f5ff56bf0b5809e952ef774b0ea4216ffcad70bfa38a1971af1505e5d2ee",
+        "ok": true
+      },
+      {
+        "route": "canzone/stop-crying-your-heart-out/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/stop-crying-your-heart-out/",
+        "httpStatus": 200,
+        "expectedSha256": "b03414ce3f753ac095c8e1818858ae31a780b7eea56538d9c55558adebd14915",
+        "receivedSha256": "b03414ce3f753ac095c8e1818858ae31a780b7eea56538d9c55558adebd14915",
+        "ok": true
+      },
+      {
+        "route": "canzone/summer-moved-on/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/summer-moved-on/",
+        "httpStatus": 200,
+        "expectedSha256": "0c46e47b1048a2c84dc20e3b3b2b9c78a0aaeeb64c962e70c7d0ecf7f2c3cb45",
+        "receivedSha256": "0c46e47b1048a2c84dc20e3b3b2b9c78a0aaeeb64c962e70c7d0ecf7f2c3cb45",
+        "ok": true
+      },
+      {
+        "route": "canzone/supermassive-black-hole/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/supermassive-black-hole/",
+        "httpStatus": 200,
+        "expectedSha256": "364b89a6be22dfbf560ab66e20294c1881bd7093d87139de10e3cd8b32a24af8",
+        "receivedSha256": "364b89a6be22dfbf560ab66e20294c1881bd7093d87139de10e3cd8b32a24af8",
+        "ok": true
+      },
+      {
+        "route": "canzone/svalutation/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/svalutation/",
+        "httpStatus": 200,
+        "expectedSha256": "d912ea028af9c3119acc1cd998f904ad51a3a5a07fd07481e276d0f5c3daff24",
+        "receivedSha256": "d912ea028af9c3119acc1cd998f904ad51a3a5a07fd07481e276d0f5c3daff24",
+        "ok": true
+      },
+      {
+        "route": "canzone/sweet-child/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sweet-child/",
+        "httpStatus": 200,
+        "expectedSha256": "6b8b168dcb2b31fbe8c8bc82b90f9c449598ebfafabba36f95aa55b22a41a677",
+        "receivedSha256": "6b8b168dcb2b31fbe8c8bc82b90f9c449598ebfafabba36f95aa55b22a41a677",
+        "ok": true
+      },
+      {
+        "route": "canzone/take-on-me/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/take-on-me/",
+        "httpStatus": 200,
+        "expectedSha256": "414705c59f0188e4d014345828c25e2f431e35296a0483664a083c4f2bb90c22",
+        "receivedSha256": "414705c59f0188e4d014345828c25e2f431e35296a0483664a083c4f2bb90c22",
+        "ok": true
+      },
+      {
+        "route": "canzone/teen-spirit/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/teen-spirit/",
+        "httpStatus": 200,
+        "expectedSha256": "918d23bbf2a997e3deeeef9bd50a0cad0a420d82bab39ed0c6c0737327c935f0",
+        "receivedSha256": "918d23bbf2a997e3deeeef9bd50a0cad0a420d82bab39ed0c6c0737327c935f0",
+        "ok": true
+      },
+      {
+        "route": "canzone/the-scientist/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/the-scientist/",
+        "httpStatus": 200,
+        "expectedSha256": "486426636bb56fa550356a4d097bcef279af928004e90483637bee75d22e62f0",
+        "receivedSha256": "486426636bb56fa550356a4d097bcef279af928004e90483637bee75d22e62f0",
+        "ok": true
+      },
+      {
+        "route": "canzone/thriller/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/thriller/",
+        "httpStatus": 200,
+        "expectedSha256": "9defc3b07827f36dbc2bbd63fa6d068139a832676f207bba6e021839995671ba",
+        "receivedSha256": "9defc3b07827f36dbc2bbd63fa6d068139a832676f207bba6e021839995671ba",
+        "ok": true
+      },
+      {
+        "route": "canzone/throne/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/throne/",
+        "httpStatus": 200,
+        "expectedSha256": "00a518964904b212717038c7c2749317d9d20850c9457b1be50d6c74e2571e98",
+        "receivedSha256": "00a518964904b212717038c7c2749317d9d20850c9457b1be50d6c74e2571e98",
+        "ok": true
+      },
+      {
+        "route": "canzone/una-vita-da-mediano/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+        "httpStatus": 200,
+        "expectedSha256": "eb687a127e9f63408944ddc6a8621425064ca423faba3a21dc83b64bc142ca65",
+        "receivedSha256": "eb687a127e9f63408944ddc6a8621425064ca423faba3a21dc83b64bc142ca65",
+        "ok": true
+      },
+      {
+        "route": "canzone/under-the-bridge/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/under-the-bridge/",
+        "httpStatus": 200,
+        "expectedSha256": "7d926402802e7e6b3e06eab3f1ca6e002f2cc0fce54ec1e53d8958920c181e2f",
+        "receivedSha256": "7d926402802e7e6b3e06eab3f1ca6e002f2cc0fce54ec1e53d8958920c181e2f",
+        "ok": true
+      },
+      {
+        "route": "canzone/vengo-dalla-luna/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+        "httpStatus": 200,
+        "expectedSha256": "99d070fc7a5e66926f5010d61068b6a078609da58b034adef925823ea32ee72b",
+        "receivedSha256": "99d070fc7a5e66926f5010d61068b6a078609da58b034adef925823ea32ee72b",
+        "ok": true
+      },
+      {
+        "route": "canzone/wake-me-up-when-september-ends/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wake-me-up-when-september-ends/",
+        "httpStatus": 200,
+        "expectedSha256": "d0715c44f15fc6ab46541d7a1042be8e07a2f581f53da1cfc0e861cf9b53ca24",
+        "receivedSha256": "d0715c44f15fc6ab46541d7a1042be8e07a2f581f53da1cfc0e861cf9b53ca24",
+        "ok": true
+      },
+      {
+        "route": "canzone/wanted-dead-or-alive/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/",
+        "httpStatus": 200,
+        "expectedSha256": "586c48350b41cb189346c7edd95d70df9f40b6687efec80348db675018a9816d",
+        "receivedSha256": "586c48350b41cb189346c7edd95d70df9f40b6687efec80348db675018a9816d",
+        "ok": true
+      },
+      {
+        "route": "canzone/war-pigs/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/war-pigs/",
+        "httpStatus": 200,
+        "expectedSha256": "26f7ee0e1fc10fded29d7c6efa1feb9f27abe5d4ba3bbdc5794f77b85696d388",
+        "receivedSha256": "26f7ee0e1fc10fded29d7c6efa1feb9f27abe5d4ba3bbdc5794f77b85696d388",
+        "ok": true
+      },
+      {
+        "route": "canzone/welcome-to-the-jungle/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/welcome-to-the-jungle/",
+        "httpStatus": 200,
+        "expectedSha256": "663727bf9420ab8ea6d78aa8abca08ca68cf71ce70a6da17e18e3a5dc66131e9",
+        "receivedSha256": "663727bf9420ab8ea6d78aa8abca08ca68cf71ce70a6da17e18e3a5dc66131e9",
+        "ok": true
+      },
+      {
+        "route": "canzone/whats-my-age-again/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+        "httpStatus": 200,
+        "expectedSha256": "10716a7fca1f9e83b0cf282d5f01bd53723cc1e6571ecce7bf3c759c4823ec17",
+        "receivedSha256": "10716a7fca1f9e83b0cf282d5f01bd53723cc1e6571ecce7bf3c759c4823ec17",
+        "ok": true
+      },
+      {
+        "route": "canzone/wish-you-were-here/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wish-you-were-here/",
+        "httpStatus": 200,
+        "expectedSha256": "c88ef999017b821b2c14115f4f0cb4e36c271d86542330a4fb2f344de760bb06",
+        "receivedSha256": "c88ef999017b821b2c14115f4f0cb4e36c271d86542330a4fb2f344de760bb06",
+        "ok": true
+      },
+      {
+        "route": "canzone/wonderful-life/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wonderful-life/",
+        "httpStatus": 200,
+        "expectedSha256": "28fdd4a27db3024cc3a6cbb4874fc2ba538e5b99f9ba021990869ab6dff38c7e",
+        "receivedSha256": "28fdd4a27db3024cc3a6cbb4874fc2ba538e5b99f9ba021990869ab6dff38c7e",
+        "ok": true
+      },
+      {
+        "route": "canzone/wonderwall/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/wonderwall/",
+        "httpStatus": 200,
+        "expectedSha256": "e2b0cdaf9deca5693e0f8dcd57a573b17d8b03ad7ca92ba1b7cf809f8bb8e051",
+        "receivedSha256": "e2b0cdaf9deca5693e0f8dcd57a573b17d8b03ad7ca92ba1b7cf809f8bb8e051",
+        "ok": true
+      },
+      {
+        "route": "canzone/would/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/would/",
+        "httpStatus": 200,
+        "expectedSha256": "c756f5a25c3064cc116976841329ec40150f85aef1cddbbac039b2cdd1de81f3",
+        "receivedSha256": "c756f5a25c3064cc116976841329ec40150f85aef1cddbbac039b2cdd1de81f3",
+        "ok": true
+      },
+      {
+        "route": "canzone/yellow/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yellow/",
+        "httpStatus": 200,
+        "expectedSha256": "d8a55317511f2e107efc622940ee84a19eb762c8d72b0891601c03f29150a63f",
+        "receivedSha256": "d8a55317511f2e107efc622940ee84a19eb762c8d72b0891601c03f29150a63f",
+        "ok": true
+      },
+      {
+        "route": "canzone/yes-i-know-my-way/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yes-i-know-my-way/",
+        "httpStatus": 200,
+        "expectedSha256": "19272040407bf528b9c67f670db9fc97af3ddb242b2e0700fe70db0d151de6b2",
+        "receivedSha256": "19272040407bf528b9c67f670db9fc97af3ddb242b2e0700fe70db0d151de6b2",
+        "ok": true
+      },
+      {
+        "route": "canzone/yesterday/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yesterday/",
+        "httpStatus": 200,
+        "expectedSha256": "a19ea43b3de04c5ac24f8954e22f1076db4913d9468a20198564e1f2b9d700fc",
+        "receivedSha256": "a19ea43b3de04c5ac24f8954e22f1076db4913d9468a20198564e1f2b9d700fc",
+        "ok": true
+      },
+      {
+        "route": "canzone/you-have-what-it-takes/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+        "httpStatus": 200,
+        "expectedSha256": "455184388b9930c07f634a70ca40c7dbb300df8c40d2484bf8109f770d929eb3",
+        "receivedSha256": "455184388b9930c07f634a70ca40c7dbb300df8c40d2484bf8109f770d929eb3",
+        "ok": true
+      },
+      {
+        "route": "canzone/yuppi-du/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/yuppi-du/",
+        "httpStatus": 200,
+        "expectedSha256": "596b923421db1f2517d8b9492e35c8cef0e9b7e2400fb4e97dd351bea07f1abc",
+        "receivedSha256": "596b923421db1f2517d8b9492e35c8cef0e9b7e2400fb4e97dd351bea07f1abc",
+        "ok": true
+      },
+      {
+        "route": "affiliazioni/index.html",
+        "url": "https://www.dietroiltesto.it/affiliazioni/",
+        "httpStatus": 200,
+        "expectedSha256": "edca91f95ee3e18e690be3ccccaa68dd5315c9d8701a2886cc8385a8b267684b",
+        "receivedSha256": "edca91f95ee3e18e690be3ccccaa68dd5315c9d8701a2886cc8385a8b267684b",
+        "ok": true
+      },
+      {
+        "route": "privacy/index.html",
+        "url": "https://www.dietroiltesto.it/privacy/",
+        "httpStatus": 200,
+        "expectedSha256": "acbd471530086d4ee778245a60be5ef449b406109426d4cf01a85b97961b4b8a",
+        "receivedSha256": "acbd471530086d4ee778245a60be5ef449b406109426d4cf01a85b97961b4b8a",
+        "ok": true
+      },
+      {
+        "route": "note-legali/index.html",
+        "url": "https://www.dietroiltesto.it/note-legali/",
+        "httpStatus": 200,
+        "expectedSha256": "48dd087b3509d6371bbacabbcd40c4278b7e1d0d1efbfa4ea31f8c5d453feb76",
+        "receivedSha256": "48dd087b3509d6371bbacabbcd40c4278b7e1d0d1efbfa4ea31f8c5d453feb76",
+        "ok": true
+      }
+    ],
+    "browser": [
+      {
+        "route": "canzone/hotel-california",
+        "width": 1280,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+        "contained": true,
+        "count": 3,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/eagles/hotel-california",
+        "width": 1280,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+        "contained": true,
+        "count": 3,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/eagles",
+        "width": 1280,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+        "contained": true,
+        "count": 4,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "canzone/hotel-california",
+        "width": 390,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/canzone/hotel-california/",
+        "contained": true,
+        "count": 3,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "album/eagles/hotel-california",
+        "width": 390,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+        "contained": true,
+        "count": 3,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      },
+      {
+        "route": "artista/eagles",
+        "width": 390,
+        "accessible": true,
+        "canonical": "https://www.dietroiltesto.it/artista/eagles/",
+        "contained": true,
+        "count": 4,
+        "ctaOnly": true,
+        "footerLast": true,
+        "mentions": 1,
+        "notes": 1,
+        "overflow": false,
+        "tag": true,
+        "ok": true
+      }
+    ]
+  }
 }
