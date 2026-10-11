@@ -1864,7 +1864,7 @@ export function paginaAffiliazioni(ctx) {
     <section class="blocco">
       <h2>Come riconoscere i link</h2>
       <div class="prosa">
-        <p>Ogni link affiliato è testuale e ha un avviso visibile accanto. Il prezzo, la disponibilità e le condizioni dell’acquisto saranno quelli mostrati dal venditore quando visiterai il suo sito. Non li anticiperemo qui.</p>
+        <p>I collegamenti affiliati sono testuali. Per Amazon, l’informativa compare una sola volta in fondo a ciascuna pagina che contiene pulsanti di acquisto. Il prezzo, la disponibilità e le condizioni dell’acquisto saranno quelli mostrati dal venditore quando visiterai il suo sito. Non li anticiperemo qui.</p>
         <p>Il semplice collegamento non carica contenuti Amazon su Dietro il testo. Dopo il clic uscirai da questo sito: trovi i dettagli sul trattamento dei dati nella nostra <a href="${r}privacy/">pagina Privacy</a> e nell’informativa del sito di destinazione.</p>
       </div>
     </section>
@@ -1917,7 +1917,7 @@ export function paginaPrivacy(ctx) {
     <section class="blocco">
       <h2>Link affiliati</h2>
       <div class="prosa">
-        <p>I link affiliati sono normali collegamenti esterni, segnalati vicino al testo del link. La loro sola presenza nelle nostre pagine non carica risorse Amazon e non installa direttamente cookie Amazon nel tuo browser tramite il nostro sito.</p>
+        <p>I link affiliati sono normali collegamenti esterni. Per Amazon, l’informativa si trova in fondo a ogni pagina che contiene pulsanti di acquisto. La loro sola presenza nelle nostre pagine non carica risorse Amazon e non installa direttamente cookie Amazon nel tuo browser tramite il nostro sito.</p>
         <p>Solo dopo il clic entrerai su Amazon: il browser contatterà quel sito, che tratterà i dati secondo la propria <a href="https://www.amazon.it/gp/help/customer/display.html?nodeId=200545460" target="_blank" rel="noopener">informativa sulla privacy</a>. Eventuali widget, banner o script di terze parti richiederanno una valutazione separata prima di essere attivati.</p>
         <p>Spieghiamo le nostre regole editoriali nella pagina <a href="${r}affiliazioni/">Affiliazioni</a>.</p>
       </div>
@@ -1995,7 +1995,7 @@ export function paginaNoteLegali(ctx) {
     <section class="blocco">
       <h2>Collegamenti affiliati</h2>
       <div class="prosa">
-        <p>Il sito può mostrare normali collegamenti testuali affiliati verso prodotti pertinenti, con un avviso accanto al link. Un eventuale acquisto potrà generare una commissione senza costi aggiuntivi per chi legge; non cambierà le nostre scelte editoriali.</p>
+        <p>Il sito può mostrare normali collegamenti testuali affiliati verso prodotti pertinenti. Per Amazon, l’informativa compare una sola volta in fondo a ogni pagina che contiene pulsanti di acquisto. Un eventuale acquisto potrà generare una commissione senza costi aggiuntivi per chi legge; non cambierà le nostre scelte editoriali.</p>
         <p>Un link testuale, da solo, non installa direttamente cookie Amazon attraverso questo sito. Dopo il clic si entra su Amazon, che tratta i dati secondo la propria informativa. Widget, banner o script di terze parti saranno valutati separatamente prima di qualsiasi attivazione. Maggiori dettagli nella pagina <a href="${r}affiliazioni/">Affiliazioni</a> e in <a href="${r}privacy/">Privacy</a>.</p>
       </div>
     </section>

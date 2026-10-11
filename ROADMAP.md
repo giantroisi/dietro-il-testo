@@ -4552,3 +4552,9 @@ Generazione, affiliazioni, sedici prove negative e ID vuoto, SEO e link superati
 
 
 Pubblicazione confermata: commit `55b831ee6` su origin/main, deploy `dpl_4AUL2dSHYWib61jUtFq6HXnX3cvo` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 254 pagine HTTPS identiche byte per byte ai file controllati. Browser live Hotel California canzone/album ed Eagles artista a 1280 e 390 px: sei verifiche positive, tre/quattro riquadri previsti, dicitura 12 px sulla seconda riga contenuta nel pulsante, nome accessibile con affiliazione e nessun overflow. Main, cataloghi, ricerca e due file SEO non tracciati preservati; routine sospesa.
+
+## 91. Ripristino della sola CTA nei pulsanti Amazon, 12 ottobre 2026
+
+Su richiesta del proprietario, rimossa la dicitura «link affiliato» dai 929 pulsanti Amazon: sola CTA su una riga e informativa una volta in fondo alle 254 pagine interessate. Template condiviso Amazon aggiornato; variante degli altri partner preservata. URL, tag, Tracking ID, target, rel, cataloghi e normali link invariati. Costituzione §6 allineata; Affiliazioni, Privacy e Note legali descrivono il posizionamento effettivo dell’informativa.
+
+Generazione, affiliazioni, sedici prove negative e ID vuoto, SEO e link superati. Nove pagine a 1280, 390 e 320 px: 27 verifiche positive, tre/quattro riquadri visibili, unica informativa in fondo, nessun overflow; tre pagine informative verificate mobile. Confronto delle 254 schede dopo la seconda generazione positivo. Solo 257 HTML e voci sitemap pertinenti copiati. Dossier `rapporti/cta-amazon-2026-10-12.md` e prove JSON omonime. Copia `/private/tmp/dit-cta-amazon-2026-10-12`, ramo `codex/cta-amazon-2026-10-12`, base e958c76b2. Main, altra AI, cataloghi e file estranei preservati; routine sospesa. Pubblicazione richiesta, esito live da completare.

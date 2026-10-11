@@ -24,8 +24,8 @@ const mutations=[
  ['avviso assente',s=>s.replace('Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te','')],
  ...(Object.values(products).length>1 ? [['altro album verificato ma non pertinente',s=>s.replaceAll(Object.values(products)[0].href.replaceAll('&','&amp;'),Object.values(products)[1].href.replaceAll('&','&amp;'))]] : []),
  ['link non dichiarato',s=>s.replace('class="acquisto-affiliato"','class="altro"')],
- ['dicitura nel pulsante assente',s=>s.replace('<span class="pulsante-affiliato-avviso">link affiliato</span>','')],
- ['affiliazione assente nel nome accessibile',s=>s.replace(' — link affiliato" target=', '" target=')],
+ ['dicitura aggiunta al pulsante Amazon',s=>s.replace('</svg>Acquista su Amazon</a>','</svg>Acquista su Amazon<span>link affiliato</span></a>')],
+ ['informativa nel footer duplicata',s=>s.replace('<p class="nota-affiliazioni">','<p class="nota-affiliazioni">Informativa duplicata</p><p class="nota-affiliazioni">')],
 ];
 try {
  for(const [name,mutate]of mutations){const changed=mutate(original);assert.notEqual(changed,original);writeFileSync(page,changed);assert.notEqual(check().status,0,`Controllo non blocca ${name}`);console.log(`OK: bloccato ${name}`);}

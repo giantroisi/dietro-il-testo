@@ -54,6 +54,7 @@ function walk(dir) {
   const expectedPage=expectedPages.get(rel);
   if(blocks.length && !expectedPage)fail(`${rel}: prodotto fuori dalle pagine configurate`);
   if(expectedPage){foundPages.add(rel);if(blocks.length!==expectedPage.count)fail(`${rel}: riquadri ${blocks.length}, attesi ${expectedPage.count}`);}
+  if(expectedPage && (html.match(/<p class="nota-affiliazioni">/g)||[]).length!==1)fail(`${rel}: informativa Amazon deve comparire una sola volta in fondo alla pagina`);
   if(expectedPage?.artist){
    for(const [i,posizione]of POSIZIONI_AMAZON_ARTISTA.entries()){
     const matching=blocks.filter(b=>attr(b,'data-acquisto-posizione')===posizione);
@@ -70,17 +71,18 @@ function walk(dir) {
    if(renderedProduct&&!text.includes(`· ${renderedProduct.formato}`))fail(`${rel}: formato mostrato diverso dal prodotto`);
   }
   for(const m of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/g)){
-   // Tutti i partner: la dichiarazione deve essere dentro il pulsante e nel nome accessibile.
-   if(attr(m[0],'rel').split(/\s+/).includes('sponsored') && attr(m[0],'class').split(/\s+/).includes('bottone')){
+   const href=decode(attr(m[0],'href'));let u;try{u=new URL(href)}catch{continue;}
+   // Gli altri partner mantengono la dicitura; Amazon usa la sola CTA e il footer.
+   if(!/(^|\.)amazon\./i.test(u.hostname) && attr(m[0],'rel').split(/\s+/).includes('sponsored') && attr(m[0],'class').split(/\s+/).includes('bottone')){
     if(!/<span class="pulsante-affiliato-avviso">link affiliato<\/span>/.test(m[0]))fail(`${rel}: dicitura nel pulsante affiliato assente`);
     if(!/\blink affiliato\b/i.test(attr(m[0],'aria-label')))fail(`${rel}: nome accessibile del pulsante non dichiara affiliazione`);
    }
-   const href=decode(attr(m[0],'href'));let u;try{u=new URL(href)}catch{continue;}
    if(!/(^|\.)amazon\./i.test(u.hostname))continue;
    // Unico collegamento informativo non commerciale: privacy ufficiale Amazon.
    if(u.hostname==='www.amazon.it' && u.pathname==='/gp/help/customer/display.html' && u.searchParams.get('nodeId')==='200545460' && !u.searchParams.has('tag'))continue;
    if(u.protocol!=='https:'||u.hostname!=='www.amazon.it'||u.username||u.password||u.port||u.searchParams.getAll('tag').length!==1||u.searchParams.get('tag')!==TRACKING_ID_AMAZON)fail(`${rel}: destinazione o tag errato`);
    if(!blocks.some(b=>b.includes(m[0])))fail(`${rel}: link Amazon non dichiarato`);
+   if(m[0].replace(/<[^>]*>/g,'').trim()!=='Acquista su Amazon')fail(`${rel}: pulsante Amazon deve mostrare soltanto la CTA`);
    if(!['sponsored','nofollow','noopener'].every(t=>attr(m[0],'rel').split(/\s+/).includes(t)))fail(`${rel}: rel incompleto`);
    if(!expectedPage?.products.some(p=>p.href===href))fail(`${rel}: URL diverso dai prodotti della propria pagina`);
   }
