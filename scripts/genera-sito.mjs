@@ -523,10 +523,11 @@ for (const c of canzoni) {
   manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
 }
 if (canzoniCambiate.length > canzoni.length / 2) {
-  console.warn(`ATTENZIONE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. Controllare i lastmod prima di pubblicare.`);
+  console.error(`ERRORE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. La generazione viene interrotta per proteggere i lastmod.`);
   for (const { percorsoUrl, differenza } of canzoniCambiate.slice(0, 5)) {
-    console.warn(`  /${percorsoUrl} — ${differenza}`);
+    console.error(`  /${percorsoUrl} — ${differenza}`);
   }
+  throw new Error('Variazione massiva dei lastmod: controllare le differenze prima di pubblicare.');
 }
 const lastmodArtisti = new Map();
 for (const a of artisti) {
