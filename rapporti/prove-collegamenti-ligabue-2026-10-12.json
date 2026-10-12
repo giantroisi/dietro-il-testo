@@ -1,0 +1,466 @@
+{
+  "base": "8512f7467cdde5f9fb92596387990743d7e5a008",
+  "copia": "/Users/gianmicheletroisi/.codex/worktrees/collegamenti-ligabue-2026-10-12/dietro-il-testo",
+  "pagineMisurate": 696,
+  "htmlModificati": [
+    {
+      "file": "canzone/ho-messo-via/index.html",
+      "sha256Prima": "781884aa5b4bf34ad558542694fbfa7767c1321103d537271578de21bf5fa898",
+      "sha256Dopo": "f603fdc04992dd1c1739193356e5f45b4496a3fe25be8b4dda5e048de986e5aa",
+      "aggiunti": [
+        "canzone/luci-damerica/",
+        "canzone/riderai/"
+      ],
+      "rimossi": []
+    },
+    {
+      "file": "canzone/una-vita-da-mediano/index.html",
+      "sha256Prima": "eb687a127e9f63408944ddc6a8621425064ca423faba3a21dc83b64bc142ca65",
+      "sha256Dopo": "1a9e091460c9022f1c25c952eda43166418cb9142307a7f3f0d2f23aa7c2e3a9",
+      "aggiunti": [
+        "canzone/luci-damerica/",
+        "canzone/riderai/"
+      ],
+      "rimossi": []
+    },
+    {
+      "file": "canzone/urlando-contro-il-cielo/index.html",
+      "sha256Prima": "635b801124b869379793cf1b85b50f55204388c14507353b3dd5afdbd4d4f06e",
+      "sha256Dopo": "8b2bd6f5c2701f77621eadbe3592d6503abbb66b08f8de62650a8ee36620216f",
+      "aggiunti": [
+        "canzone/luci-damerica/",
+        "canzone/riderai/"
+      ],
+      "rimossi": []
+    }
+  ],
+  "nuoviCollegamentiUnici": 6,
+  "linkInterniDOM": {
+    "prima": 22610,
+    "dopo": 22616
+  },
+  "destinazioni": {
+    "canzone/luci-damerica/": {
+      "pagineInEntrataPrima": 10,
+      "pagineInEntrataDopo": 13
+    },
+    "canzone/riderai/": {
+      "pagineInEntrataPrima": 9,
+      "pagineInEntrataDopo": 12
+    }
+  },
+  "preservati": "Rimuovendo solo i tre nuovi paragrafi, tutti gli HTML sono identici byte per byte alla base: date, title, description, dati strutturati, affiliate e altri link invariati.",
+  "fontiStoriche": {
+    "rilevate": {
+      "file": "/Users/gianmicheletroisi/Downloads/dietroiltestoind/dit-405-rilevate-2026-10-08.csv",
+      "tabellaOriginale": "/Users/gianmicheletroisi/Downloads/dietroiltesto-2/Tabella.csv",
+      "metadati": "/Users/gianmicheletroisi/Downloads/dietroiltesto-2/Metadati.csv",
+      "righe": 405,
+      "destinazioni": [
+        {
+          "URL": "https://www.dietroiltesto.it/canzone/luci-damerica/",
+          "Ultima scansione": "1970-01-01"
+        },
+        {
+          "URL": "https://www.dietroiltesto.it/canzone/riderai/",
+          "Ultima scansione": "1970-01-01"
+        }
+      ],
+      "sha256": "a20cd1723654c1ad504b94abd87f52a5118f34610ee9e08c2a9733d190570443"
+    },
+    "rendimento": {
+      "file": "/Users/gianmicheletroisi/Downloads/dietroiltesto.it-Performance-on-Search-2026-10-04-2.xlsx",
+      "foglio": "Pagine",
+      "periodo": "Ultimi 28 giorni, export nominato 4 ottobre 2026",
+      "celle": {
+        "una-vita-da-mediano": "A26:D26",
+        "urlando-contro-il-cielo": "A29:D29",
+        "ho-messo-via": "A52:D52"
+      },
+      "impressioni": {
+        "una-vita-da-mediano": 144,
+        "urlando-contro-il-cielo": 119,
+        "ho-messo-via": 37
+      }
+    },
+    "limite": "Esportazioni storiche locali: non attestano indicizzazione/scansione attuali. Nessun accesso GSC né richiesta di scansione."
+  },
+  "browser": {
+    "paths": [
+      {
+        "width": 1280,
+        "source": "una-vita-da-mediano",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia"
+      },
+      {
+        "width": 1280,
+        "source": "una-vita-da-mediano",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia"
+      },
+      {
+        "width": 1280,
+        "source": "urlando-contro-il-cielo",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/urlando-contro-il-cielo/#storia"
+      },
+      {
+        "width": 1280,
+        "source": "urlando-contro-il-cielo",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/urlando-contro-il-cielo/#storia"
+      },
+      {
+        "width": 1280,
+        "source": "ho-messo-via",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/ho-messo-via/#storia"
+      },
+      {
+        "width": 1280,
+        "source": "ho-messo-via",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/ho-messo-via/#storia"
+      },
+      {
+        "width": 390,
+        "source": "una-vita-da-mediano",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia"
+      },
+      {
+        "width": 390,
+        "source": "una-vita-da-mediano",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia"
+      },
+      {
+        "width": 390,
+        "source": "urlando-contro-il-cielo",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/urlando-contro-il-cielo/#storia"
+      },
+      {
+        "width": 390,
+        "source": "urlando-contro-il-cielo",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/urlando-contro-il-cielo/#storia"
+      },
+      {
+        "width": 390,
+        "source": "ho-messo-via",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Luci d'America di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/luci-damerica/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/ho-messo-via/#storia"
+      },
+      {
+        "width": 390,
+        "source": "ho-messo-via",
+        "method": "tastiera Enter",
+        "sourceState": {
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "text": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "text": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai."
+        },
+        "target": {
+          "overflow": false,
+          "title": "Significato di Riderai di Ligabue",
+          "url": "http://127.0.0.1:8772/canzone/riderai/"
+        },
+        "returned": "http://127.0.0.1:8772/canzone/ho-messo-via/#storia"
+      }
+    ],
+    "small": [
+      {
+        "count": 2,
+        "overflow": false,
+        "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+        "url": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia",
+        "width": 320
+      },
+      {
+        "count": 2,
+        "overflow": false,
+        "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+        "url": "http://127.0.0.1:8772/canzone/urlando-contro-il-cielo/#storia",
+        "width": 320
+      },
+      {
+        "count": 2,
+        "overflow": false,
+        "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+        "url": "http://127.0.0.1:8772/canzone/ho-messo-via/#storia",
+        "width": 320
+      }
+    ],
+    "tap": {
+      "width": 390,
+      "source": "una-vita-da-mediano",
+      "method": "clic sul testo visibile",
+      "url": "http://127.0.0.1:8772/canzone/luci-damerica/",
+      "heading": "Significato di Luci d'America di Ligabue",
+      "returned": "http://127.0.0.1:8772/canzone/una-vita-da-mediano/#storia"
+    },
+    "focus": {
+      "desktop": "Riderai, outline rgb(167,148,245) solid 2px",
+      "labels": "titolo della canzone, link sottolineati"
+    },
+    "note": "Su mobile il clic automatico al centro del riquadro del link su due righe non attivava Luci d’America. Verificati Enter su ciascun link e clic sul testo visibile positivo."
+  },
+  "onlinePrima": [
+    {
+      "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+      "httpSuccess": true,
+      "identicoAlMain": true,
+      "sha256": "eb687a127e9f63408944ddc6a8621425064ca423faba3a21dc83b64bc142ca65"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/",
+      "httpSuccess": true,
+      "identicoAlMain": true,
+      "sha256": "635b801124b869379793cf1b85b50f55204388c14507353b3dd5afdbd4d4f06e"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/ho-messo-via/",
+      "httpSuccess": true,
+      "identicoAlMain": true,
+      "sha256": "781884aa5b4bf34ad558542694fbfa7767c1321103d537271578de21bf5fa898"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/luci-damerica/",
+      "httpSuccess": true,
+      "identicoAlMain": true,
+      "sha256": "2d45b22ec2ad7b5abf15aa6bcbf12bc989d0775ccc17843815f32ee1ffdbf649"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/riderai/",
+      "httpSuccess": true,
+      "identicoAlMain": true,
+      "sha256": "444397b33570c56794156291a39273c5e512acbc87c97dcab2284c0e993131e8"
+    }
+  ],
+  "controlli": {
+    "collegamentiContestuali": "3 percorsi, 6 link; dati, destinazioni e posizione corretti",
+    "link": "321 canzoni, 104 artisti; 0 problemi",
+    "SEO": "696 pagine; 0 problemi",
+    "affiliazioni": "997 link; configurazione e informative corrette",
+    "coerenza": "321 canzoni, 104 artisti; 0 problemi",
+    "modello": "3 render in memoria conservano il paragrafo; helper vuoto per le altre 318 canzoni",
+    "sintassiDiff": "node --check su modello/modulo; git diff --check positivi",
+    "generazione": "Nessuna rigenerazione completa: sito/ è una copia dei file pubblici tracciati con solo tre HTML aggiornati"
+  },
+  "stato": "Preparato e verificato, in revisione; nessuna integrazione main, push o pubblicazione.",
+  "limitiCopie": "Copie gestite e altra AI controllate: nessuna modifica ai file del lotto nelle copie rispondenti. I controlli Git delle 12 vecchie copie sotto Documents/ChatGPT/Vediamo terminano per timeout; lasciate intatte. La registrazione della nuova copia nel pannello app fallisce per limite di 100 allegati; checkout esistente e utilizzabile, non ricreato."
+}

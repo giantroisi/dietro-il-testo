@@ -4,6 +4,7 @@
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
+import { collegamentiContestuali } from './collegamenti-contestuali.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
 // collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
@@ -622,6 +623,7 @@ export const SEGNAPOSTO_DATA_MODIFICA = '__DATA_MODIFICA__';
 export function paginaCanzone(c, ctx) {
   const r = radice(2);
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
+  const percorsoContestuale = collegamentiContestuali(c, ctx.canzoniPerSlug, r);
   // 8 settembre 2026. `altre` (altre canzoni dello stesso artista) e `collegate`
   // («continua da qui») pescavano dagli stessi brani: misurato sulle pagine
   // pubblicate, **226 schede su 282 ripetevano almeno una canzone nei due
@@ -823,7 +825,7 @@ export function paginaCanzone(c, ctx) {
       <h2>La storia</h2>
       <div class="prosa">
         ${corpoHtml}
-${legendaNature ? `        ${legendaNature}` : ''}
+${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale ? `\n        ${percorsoContestuale}` : ''}
       </div>
     </section>${amazonCompattoPerScheda(c)}
 
