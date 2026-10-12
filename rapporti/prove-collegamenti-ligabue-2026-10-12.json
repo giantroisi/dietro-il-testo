@@ -461,6 +461,411 @@
     "sintassiDiff": "node --check su modello/modulo; git diff --check positivi",
     "generazione": "Nessuna rigenerazione completa: sito/ è una copia dei file pubblici tracciati con solo tre HTML aggiornati"
   },
-  "stato": "Preparato e verificato, in revisione; nessuna integrazione main, push o pubblicazione.",
-  "limitiCopie": "Copie gestite e altra AI controllate: nessuna modifica ai file del lotto nelle copie rispondenti. I controlli Git delle 12 vecchie copie sotto Documents/ChatGPT/Vediamo terminano per timeout; lasciate intatte. La registrazione della nuova copia nel pannello app fallisce per limite di 100 allegati; checkout esistente e utilizzabile, non ricreato."
+  "stato": "Pubblicato e verificato sul dominio reale.",
+  "limitiCopie": "Copie gestite e altra AI controllate: nessuna modifica ai file del lotto nelle copie rispondenti. I controlli Git delle 12 vecchie copie sotto Documents/ChatGPT/Vediamo terminano per timeout; lasciate intatte. La registrazione della nuova copia nel pannello app fallisce per limite di 100 allegati; checkout esistente e utilizzabile, non ricreato.",
+  "pubblicazione": {
+    "verificatoIl": "2026-10-12T17:01:24.710838+00:00",
+    "approvazione": "Messaggio diretto del proprietario «approvo» nella chat 01a11af7-beab-78b0-b17e-ef7e453a415b dopo proposta nominativa del lotto 503adbad9; letto e verificato prima di procedere.",
+    "integrazione": {
+      "commit": "503adbad9c572ac1cc66aa4f319e64ec18d16649",
+      "filesDelLotto": [
+        "ROADMAP.md",
+        "canzone/ho-messo-via/index.html",
+        "canzone/una-vita-da-mediano/index.html",
+        "canzone/urlando-contro-il-cielo/index.html",
+        "dati/collegamenti-contestuali.json",
+        "rapporti/collegamenti-ligabue-2026-10-12.md",
+        "rapporti/prove-collegamenti-ligabue-2026-10-12.json",
+        "rapporti/prove-collegamenti-ligabue-2026-10-12/desktop.jpg",
+        "rapporti/prove-collegamenti-ligabue-2026-10-12/mobile.jpg",
+        "scripts/check-collegamenti-contestuali.mjs",
+        "scripts/genera/collegamenti-contestuali.mjs",
+        "scripts/genera/pagine.mjs"
+      ],
+      "htmlOSitemapConfrontati": 702,
+      "htmlModificati": [
+        "canzone/ho-messo-via/index.html",
+        "canzone/una-vita-da-mediano/index.html",
+        "canzone/urlando-contro-il-cielo/index.html"
+      ],
+      "soloParagrafiAggiunti": true,
+      "dateMetadatiSitemapAffiliate": "invariati byte per byte, escluse solo le tre aggiunte HTML autorizzate",
+      "nonTracciatiPreservati": {
+        "SEO-AFFILIAZIONE-FASE2.md": "e94005ed03b5c2ef6b948b7b87fdf8da972c95afacfadfecad454c5fd9a95593",
+        "SEO-LASTMOD-2026-09-21.md": "60c097924257c6c028c2ac2bbed8970fc73c8da25770cee2f03210c0eeeac45b"
+      },
+      "copiaIdenticaPerFileDelLotto": true
+    },
+    "deployment": {
+      "id": "dpl_AteBHttNRVBpj7huYZhGk1xNjxeZ",
+      "name": "dietro-il-testo",
+      "url": "dietro-il-testo-39htjfof6-giantroisi1.vercel.app",
+      "type": "LAMBDAS",
+      "state": "READY",
+      "createdAt": 1791824000106,
+      "creator": {
+        "uid": "VcYPlqffHId38bRolg25XhSC",
+        "username": "giantroisi"
+      },
+      "project": {
+        "id": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+        "name": "dietro-il-testo",
+        "framework": null
+      },
+      "meta": {
+        "githubCommitRef": "main",
+        "githubCommitSha": "503adbad9c572ac1cc66aa4f319e64ec18d16649",
+        "githubCommitMessage": "Aggiunge sei collegamenti contestuali fra schede Ligabue",
+        "githubRepo": "dietro-il-testo",
+        "githubOrg": "giantroisi"
+      },
+      "alias": [
+        "www.dietroiltesto.it",
+        "dietro-il-testo.vercel.app",
+        "dietroiltesto.it",
+        "dietro-il-testo-giantroisi1.vercel.app",
+        "dietro-il-testo-git-main-giantroisi1.vercel.app"
+      ],
+      "target": "production",
+      "regions": [
+        "iad1"
+      ],
+      "buildingAt": 1791824001379,
+      "ready": 1791824013654,
+      "readyState": "READY",
+      "source": "git",
+      "aliasError": null
+    },
+    "HTTPS": [
+      {
+        "path": "canzone/una-vita-da-mediano/",
+        "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "1a9e091460c9022f1c25c952eda43166418cb9142307a7f3f0d2f23aa7c2e3a9"
+      },
+      {
+        "path": "canzone/urlando-contro-il-cielo/",
+        "url": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "8b2bd6f5c2701f77621eadbe3592d6503abbb66b08f8de62650a8ee36620216f"
+      },
+      {
+        "path": "canzone/ho-messo-via/",
+        "url": "https://www.dietroiltesto.it/canzone/ho-messo-via/",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "f603fdc04992dd1c1739193356e5f45b4496a3fe25be8b4dda5e048de986e5aa"
+      },
+      {
+        "path": "canzone/luci-damerica/",
+        "url": "https://www.dietroiltesto.it/canzone/luci-damerica/",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "2d45b22ec2ad7b5abf15aa6bcbf12bc989d0775ccc17843815f32ee1ffdbf649"
+      },
+      {
+        "path": "canzone/riderai/",
+        "url": "https://www.dietroiltesto.it/canzone/riderai/",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "444397b33570c56794156291a39273c5e512acbc87c97dcab2284c0e993131e8"
+      },
+      {
+        "path": "sitemap-album.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "8d134fd3448a761a71d9522fdff809ba04ec2a9fd8623397d49472be6cd2211a"
+      },
+      {
+        "path": "sitemap-artisti.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "d97b41f25eeecfbe8ad41609356ef0a12e7d56d05b2797824e71def0c2501e14"
+      },
+      {
+        "path": "sitemap-canzoni.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "20cab3c09de95daf7c2b7ecbc48e3ef1bab00239f9ef5faaf98e6e8163127a43"
+      },
+      {
+        "path": "sitemap-pagine.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+      },
+      {
+        "path": "sitemap-raccolte.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+      },
+      {
+        "path": "sitemap.xml",
+        "url": "https://www.dietroiltesto.it/sitemap.xml",
+        "HTTPok": true,
+        "identicoAlMain": true,
+        "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+      }
+    ],
+    "browser": {
+      "pages": [
+        {
+          "width": 1280,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Una vita da mediano di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 1280,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Urlando contro il cielo di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 1280,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Ho messo via di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        },
+        {
+          "width": 390,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Una vita da mediano di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 390,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Urlando contro il cielo di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 390,
+          "links": [
+            {
+              "href": "../../canzone/luci-damerica/",
+              "title": "Luci d'America"
+            },
+            {
+              "href": "../../canzone/riderai/",
+              "title": "Riderai"
+            }
+          ],
+          "overflow": false,
+          "paragraph": "Continua fra le canzoni di Ligabue: Luci d'America e Riderai.",
+          "title": "Significato di Ho messo via di Ligabue",
+          "url": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        }
+      ],
+      "paths": [
+        {
+          "width": 1280,
+          "source": "una-vita-da-mediano",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 1280,
+          "source": "una-vita-da-mediano",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 1280,
+          "source": "urlando-contro-il-cielo",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 1280,
+          "source": "urlando-contro-il-cielo",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 1280,
+          "source": "ho-messo-via",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        },
+        {
+          "width": 1280,
+          "source": "ho-messo-via",
+          "method": "clic",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        },
+        {
+          "width": 390,
+          "source": "una-vita-da-mediano",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 390,
+          "source": "una-vita-da-mediano",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/#storia"
+        },
+        {
+          "width": 390,
+          "source": "urlando-contro-il-cielo",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 390,
+          "source": "urlando-contro-il-cielo",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/#storia"
+        },
+        {
+          "width": 390,
+          "source": "ho-messo-via",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Luci d'America di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/luci-damerica/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        },
+        {
+          "width": 390,
+          "source": "ho-messo-via",
+          "method": "Enter",
+          "target": {
+            "overflow": false,
+            "title": "Significato di Riderai di Ligabue",
+            "url": "https://www.dietroiltesto.it/canzone/riderai/"
+          },
+          "returned": "https://www.dietroiltesto.it/canzone/ho-messo-via/#storia"
+        }
+      ]
+    },
+    "erroriBrowser": [],
+    "logBuild": "15 lines\n1\n⌘\nF\n18:53:21.090 \nRunning build in Washington, D.C., USA (East) – iad1\n18:53:21.091 \nBuild machine configuration: 2 cores, 8 GB\n18:53:21.202 \nCloning github.com/giantroisi/dietro-il-testo (Branch: main, Commit: 503adba)\n18:53:21.203 \nPrevious build caches not available.\n18:53:24.390 \nCloning completed: 3.187s\n18:53:25.430 \nRunning \"vercel build\"\n18:53:25.444 \nVercel CLI 62.7.0\n18:53:26.530 \nWarning: middleware.js uses the deprecated \"edge\" runtime. Migrate to the Node.js runtime for better performance and reliability by exporting `const config = { runtime: 'nodejs' }`. Learn more: https://vercel.com/docs/routing-middleware#runtime-options\n18:53:26.610 \nWarning: Node.js functions are compiled from ESM to CommonJS. If this is not intended, add \"type\": \"module\" to your package.json file.\n18:53:26.610 \nCompiling \"middleware.js\" from ESM to CommonJS...\n18:53:27.491 \nBuild Completed in /vercel/output [1s]\n18:53:27.520 \nDeploying outputs...\n18:53:33.907 \nDeployment completed\n18:53:33.912 \nCreating build cache...\n18:53:34.489 \nSkipping cache upload because no files were prepared",
+    "controlliRipetutiDopoIntegrazione": [
+      "contestuali: 3 percorsi / 6 link",
+      "link: 321 canzoni / 104 artisti / 0 problemi",
+      "SEO: 696 pagine / 0 problemi",
+      "affiliazioni: 997 link / 0 problemi",
+      "coerenza: 321 canzoni / 104 artisti / 0 problemi",
+      "git diff --check: positivo"
+    ],
+    "limiteConnettore": "Elenco deployment ed eventi build MCP: 403 sullo scope giantroisi1. CLI Vercel/gh non disponibili. Singolo deployment MCP positivo, dashboard autenticata e log di build consultati nel browser. Nessun aggiramento o rilancio.",
+    "segnalazioniMotori": "Nessuna richiesta GSC o IndexNow."
+  }
 }

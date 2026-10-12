@@ -1,6 +1,6 @@
 # Collegamenti contestuali Ligabue — 12 ottobre 2026
 
-**Stato: preparato e verificato, in revisione. Non integrato e non pubblicato.**
+**Stato: approvato, integrato e pubblicato; produzione verificata il 12 ottobre 2026.**
 
 ## Problema e scelta del lotto
 
@@ -66,9 +66,9 @@ Anteprima costruita copiando le risorse pubbliche già tracciate in `sito/` e so
 
 [Prove e hash](prove-collegamenti-ligabue-2026-10-12.json)
 
-![Anteprima desktop](prove-collegamenti-ligabue-2026-10-12/desktop.jpg)
+![Produzione desktop — Ho messo via](prove-collegamenti-ligabue-2026-10-12/desktop.jpg)
 
-![Anteprima mobile](prove-collegamenti-ligabue-2026-10-12/mobile.jpg)
+![Produzione mobile — Una vita da mediano](prove-collegamenti-ligabue-2026-10-12/mobile.jpg)
 
 ## File del lotto
 
@@ -85,13 +85,29 @@ Anteprima costruita copiando le risorse pubbliche già tracciate in `sito/` e so
 11. `rapporti/prove-collegamenti-ligabue-2026-10-12/desktop.jpg`.
 12. `rapporti/prove-collegamenti-ligabue-2026-10-12/mobile.jpg`.
 
-## Copia, limiti e integrazione futura
+## Copia, limiti e integrazione
 
 Copia: `/Users/gianmicheletroisi/.codex/worktrees/collegamenti-ligabue-2026-10-12/dietro-il-testo`.
 Ramo: `codex/collegamenti-ligabue-2026-10-12`. Base: `8512f7467cdde5f9fb92596387990743d7e5a008`.
 
 Main e due documenti SEO non tracciati preservati. Copia dell’altra AI soltanto letta; risultano modificati due suoi rapporti, nessun file di questo lotto. Copie gestite rispondenti senza modifiche pertinenti; i controlli Git delle dodici vecchie copie in Documents/ChatGPT/Vediamo vanno in timeout: lasciate intatte. La nuova copia esiste correttamente; registrazione nell’app rifiutata per limite di 100 allegati, senza creare copie duplicate.
 
-Il lotto resta isolato fino alla revisione. Per un’eventuale integrazione approvata si trasferiscono solo i file elencati e si unisce la nuova sezione della Roadmap; se nel frattempo esiste il JSON di collegamenti contestuali, unire le tre chiavi invece di sovrascrivere voci altrui. Nessuna modifica delle date o rigenerazione completa necessaria.
+Dopo approvazione nominativa del proprietario, main e origin/main erano ancora sulla base 8512f7467: integrazione fast-forward dei soli dodici file, senza conflitti. Il JSON dei collegamenti contestuali non esisteva in main; aggiunte esclusivamente le tre chiavi autorizzate, senza sostituire dati di altri lotti. Nessuna modifica delle date o rigenerazione completa.
 
 Il risultato misura raggiungibilità interna. Non promette scansione, indicizzazione o incremento del traffico e non aggiorna l’etichetta storica delle destinazioni in GSC. Filone concluso nella copia: collegamenti contestuali fra pagine esistenti.
+
+
+## Pubblicazione verificata
+
+- Commit dei contenuti approvati: `503adbad9c572ac1cc66aa4f319e64ec18d16649`, inviato a `origin/main`.
+- Deployment: `dpl_AteBHttNRVBpj7huYZhGk1xNjxeZ`, **READY**, **production**, sorgente Git main e commit corrispondente, alias `www.dietroiltesto.it` assegnato senza errori.
+- URL deployment: https://dietro-il-testo-39htjfof6-giantroisi1.vercel.app.
+- Dashboard autenticata: stato Current/Ready, durata 12 secondi; log «Build Completed» e «Deployment completed». Avvisi sul runtime edge deprecato di middleware.js e conversione ESM/CommonJS: riguardano file invariati e non sono stati corretti ampliando il lotto.
+- Dopo integrazione ripetuti tutti i sei controlli richiesti sulla copia allineata a main, con confronto byte per byte dei dodici file: contestuali, link, SEO, affiliazioni, coerenza e diff, tutti positivi.
+- Confronto col main precedente su **702 HTML e sitemap**: cambiano soltanto i tre paragrafi di navigazione autorizzati. Date/datePublished/dateModified/lastmod, title, description e tutti i collegamenti affiliati preservati anche nelle pagine sorgente; ogni altro HTML e tutte le sitemap identici. Hash dei due documenti SEO non tracciati invariati.
+- Sul dominio reale le **cinque pagine coinvolte e sei sitemap** sono identiche byte per byte a main, con HTTPS valido.
+- Browser sul dominio reale a **1280 e 390 px**: cinque pagine uniche per larghezza; tutti i sei collegamenti provati e ritorno alle sorgenti, **12 percorsi completi** in totale, nessun overflow. Clic desktop ed Enter mobile, titoli delle destinazioni corretti.
+- Console del browser: **zero errori** registrati durante i percorsi; nessun errore HTTP sulle undici risorse pubbliche controllate. La prova è circoscritta a questi percorsi, non un monitoraggio globale del traffico.
+- Elenco deployment/eventi via connettore Vercel respinti 403; CLI assenti. Verifica completata tramite dashboard autenticata, log visibili e metadata MCP del singolo deployment: nessuna richiesta di nuovo login e nessun rilancio manuale.
+- Roadmap, dossier, JSON delle prove e i due screenshot già elencati nel lotto aggiornati con il risultato online. Nessun nuovo file aggiunto al perimetro.
+- **Nessuna richiesta GSC o IndexNow.**
