@@ -505,7 +505,7 @@
   "base": "984d94f61418df667d5fba1eb84cf7125ac06e9b",
   "branch": "codex/cura-luna-mobile-2026-10-12",
   "copia": "/Users/gianmicheletroisi/.codex/worktrees/cura-luna-mobile-2026-10-12/dietro-il-testo",
-  "stato": "Preparato e verificato; non integrato, inviato o pubblicato.",
+  "stato": "Approvato specificamente, integrato, inviato a origin/main e pubblicato. Produzione verificata.",
   "deltaGaranti": {
     "nuoveChiavi": 0,
     "rimosse": 1,
@@ -519,5 +519,486 @@
   "nonTracciatiPreservati": {
     "SEO-AFFILIAZIONE-FASE2.md": "e94005ed03b5c2ef6b948b7b87fdf8da972c95afacfadfecad454c5fd9a95593",
     "SEO-LASTMOD-2026-09-21.md": "60c097924257c6c028c2ac2bbed8970fc73c8da25770cee2f03210c0eeeac45b"
+  },
+  "pubblicazione": {
+    "verificatoIl": "2026-10-12T18:32:44.273716+00:00",
+    "approvazione": "Risposta diretta del proprietario alla domanda nominativa sul lotto 6ddf6ec27: Approvo questo lotto con i limiti dichiarati. Include integrazione, push e pubblicazione.",
+    "commitContenuti": "6ddf6ec272df46f25845415a45956762d3032a4b",
+    "integrazione": "Fast-forward da 984d94f61, main/origin/main sulla base, nessun conflitto; tutti i 29 file confrontati byte per byte con la copia verificata.",
+    "deployment": {
+      "id": "dpl_Aa1K3KvWLaXtRB2ZfPMGQVgzsfUN",
+      "name": "dietro-il-testo",
+      "url": "dietro-il-testo-m2l7yjjx1-giantroisi1.vercel.app",
+      "type": "LAMBDAS",
+      "state": "READY",
+      "createdAt": 1791829700052,
+      "creator": {
+        "uid": "VcYPlqffHId38bRolg25XhSC",
+        "username": "giantroisi"
+      },
+      "project": {
+        "id": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+        "name": "dietro-il-testo",
+        "framework": null
+      },
+      "meta": {
+        "githubCommitRef": "main",
+        "githubCommitSha": "6ddf6ec272df46f25845415a45956762d3032a4b",
+        "githubCommitMessage": "Rivedi La cura e Vengo dalla Luna con fonti, mobile e percorsi",
+        "githubRepo": "dietro-il-testo",
+        "githubOrg": "giantroisi"
+      },
+      "alias": [
+        "www.dietroiltesto.it",
+        "dietro-il-testo.vercel.app",
+        "dietroiltesto.it",
+        "dietro-il-testo-giantroisi1.vercel.app",
+        "dietro-il-testo-git-main-giantroisi1.vercel.app"
+      ],
+      "target": "production",
+      "regions": [
+        "iad1"
+      ],
+      "buildingAt": 1791829704874,
+      "ready": 1791829721876,
+      "readyState": "READY",
+      "source": "git",
+      "aliasError": null
+    },
+    "buildSecondi": 17.002,
+    "HTTPS": [
+      {
+        "path": "canzone/la-cura/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+        "identico": true,
+        "sha256": "205c51e635cc57577df2010ac5f17f0968fd3ee4c392a5964d0fb46938618bdd"
+      },
+      {
+        "path": "canzone/vengo-dalla-luna/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+        "identico": true,
+        "sha256": "199265f05ae849026a0583291ce2a0c7549414e6467a6a398634e756727a3fc6"
+      },
+      {
+        "path": "canzone/e-ti-vengo-a-cercare/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+        "identico": true,
+        "sha256": "55eca44b8f7376bb0b31fbe89fff8325b8efd865f1b6b6bc9fa714b552c4896f"
+      },
+      {
+        "path": "canzone/fuori-dal-tunnel/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+        "identico": true,
+        "sha256": "4d12e99aa1050e8d82fee52895d9543c9840f4b72cc15a6a97b525993e373ad4"
+      },
+      {
+        "path": "sitemap-raccolte.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+        "identico": true,
+        "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+      },
+      {
+        "path": "sitemap-album.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+        "identico": true,
+        "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+      },
+      {
+        "path": "sitemap-canzoni.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+        "identico": true,
+        "sha256": "29fc453d1d901f478f386503f77bc76dc0313675d0960edf899af92cab4467f8"
+      },
+      {
+        "path": "sitemap-artisti.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+        "identico": true,
+        "sha256": "978cd10e0ac44dfb94120f6182b1440958ec4a4368815a1d7cc83058c42b64ac"
+      },
+      {
+        "path": "sitemap-pagine.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+        "identico": true,
+        "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+      },
+      {
+        "path": "sitemap.xml",
+        "url": "https://www.dietroiltesto.it/sitemap.xml",
+        "identico": true,
+        "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+      },
+      {
+        "path": "og/la-cura.png",
+        "url": "https://www.dietroiltesto.it/og/la-cura.png",
+        "identico": true,
+        "sha256": "6d981ab08306cc8a150f5ef2b9673801bb5c16868f67c3aae608df6e54f60e63"
+      },
+      {
+        "path": "og/vengo-dalla-luna.png",
+        "url": "https://www.dietroiltesto.it/og/vengo-dalla-luna.png",
+        "identico": true,
+        "sha256": "9d92f8d8c4a979ad14a4b8857c089b600c440492a6a8011a06b277eacc17f69d"
+      }
+    ],
+    "browser": {
+      "layout": [
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 1280,
+          "grids": [
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            },
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "width": 1280
+        },
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 1280,
+          "grids": [
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            },
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "width": 1280
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+              "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé. — interpretazione accreditata",
+              "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+            }
+          ],
+          "docWidth": 1280,
+          "grids": [
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            },
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            }
+          ],
+          "h1": 1,
+          "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+          "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+          "width": 1280
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone. — dichiarato dall'artista",
+              "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia. — dichiarato dall'artista",
+              "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+            }
+          ],
+          "docWidth": 1280,
+          "grids": [
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            },
+            {
+              "client": 1118,
+              "clipped": 0,
+              "cols": "372px 372px 372px",
+              "scroll": 1118
+            }
+          ],
+          "h1": 1,
+          "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+          "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+          "width": 1280
+        },
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 390,
+          "grids": [
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            },
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "width": 390
+        },
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 390,
+          "grids": [
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            },
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "width": 390
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+              "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé.\n— interpretazione accreditata",
+              "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+            }
+          ],
+          "docWidth": 390,
+          "grids": [
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            },
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            }
+          ],
+          "h1": 1,
+          "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+          "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+          "width": 390
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone.\n— dichiarato dall'artista",
+              "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia.\n— dichiarato dall'artista",
+              "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+            }
+          ],
+          "docWidth": 390,
+          "grids": [
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            },
+            {
+              "client": 340,
+              "clipped": 0,
+              "cols": "340px",
+              "scroll": 340
+            }
+          ],
+          "h1": 1,
+          "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+          "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+          "width": 390
+        },
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 320,
+          "grids": [
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            },
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "width": 320
+        },
+        {
+          "broken": [],
+          "context": [],
+          "docWidth": 320,
+          "grids": [
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            },
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            }
+          ],
+          "h1": 1,
+          "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+          "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "width": 320
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+              "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé.\n— interpretazione accreditata",
+              "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+            }
+          ],
+          "docWidth": 320,
+          "grids": [
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            },
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            }
+          ],
+          "h1": 1,
+          "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+          "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+          "width": 320
+        },
+        {
+          "broken": [],
+          "context": [
+            {
+              "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone.\n— dichiarato dall'artista",
+              "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia.\n— dichiarato dall'artista",
+              "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+            }
+          ],
+          "docWidth": 320,
+          "grids": [
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            },
+            {
+              "client": 270,
+              "clipped": 0,
+              "cols": "270px",
+              "scroll": 270
+            }
+          ],
+          "h1": 1,
+          "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+          "url": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+          "width": 320
+        }
+      ],
+      "paths": [
+        {
+          "h1": "Significato di La cura di Franco Battiato",
+          "scroll": 390,
+          "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "width": 390
+        },
+        {
+          "h1": "Significato di Vengo dalla Luna di Caparezza",
+          "scroll": 390,
+          "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "width": 390
+        },
+        {
+          "h1": "Significato di La cura di Franco Battiato",
+          "scroll": 1280,
+          "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "width": 1280
+        },
+        {
+          "h1": "Significato di Vengo dalla Luna di Caparezza",
+          "scroll": 1280,
+          "url": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "width": 1280
+        }
+      ],
+      "errors": [],
+      "notaClic": "Il centro del bounding box del link La cura su due righe ricadeva nel paragrafo, non nel testo cliccabile. Clic effettivo sulla parola cura positivo."
+    },
+    "screenshot": {
+      "online-desktop.jpg": "e756cae7b056d0738ce326a839ef60fc70d392884eb7f820efa082e0f2ed2d20",
+      "online-mobile320.jpg": "2e66240f9d11d1e61a1d39c6d26738f8b84b37328084606e28f3189ff3aaf901"
+    },
+    "controlliDopoIntegrazione": [
+      "SEO 696 HTML: 0 problemi",
+      "link interni: 0 problemi",
+      "affiliazioni: 1065 link, positivo",
+      "contestuali: 5 percorsi / 8 link, positivo",
+      "coerenza e nature: positivo",
+      "diff, metadati, sitemap e non tracciati: positivo"
+    ],
+    "notaControlli": "Primo check contestuali in main ha letto il vecchio sito/ ignorato e ha segnalato percorso assente. Non modificata questa anteprima estranea. Tutti i 29 file tracciati confrontati con la copia allineata e controlli ripetuti sul suo sito/ corrispondente. I quattro HTML pubblici sono identici a main, non al vecchio sito/ ignorato.",
+    "limiteVercel": "Metadata del singolo deployment leggibili; lettura progetto ed eventi/log: 403 sullo scope giantroisi1. CLI non disponibile. Stato READY, SHA, progetto e alias verificati dal deployment; nessuna scansione globale dei log né rilancio manuale.",
+    "GSC": "Nessun accesso, ispezione live, richiesta di indicizzazione o IndexNow.",
+    "routine": "PAUSED, non riattivata."
   }
 }

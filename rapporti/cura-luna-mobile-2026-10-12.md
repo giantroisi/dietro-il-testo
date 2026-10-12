@@ -1,6 +1,6 @@
 # La cura, Vengo dalla Luna e due collegamenti contestuali — 12 ottobre 2026
 
-**Stato: preparato e verificato nella copia separata; non integrato e non pubblicato.**
+**Stato: approvato specificamente, integrato e pubblicato; produzione verificata il 12 ottobre 2026.**
 
 ## Problemi e intervento circoscritto
 
@@ -77,6 +77,26 @@ Base: `984d94f61418df667d5fba1eb84cf7125ac06e9b`.
 
 Registrazione dell'allegato app fallita per limite di 100 identità; il checkout Git esiste ed è stato usato senza duplicarlo. Main, i due documenti SEO non tracciati, copia dell'altra AI e proposte precedenti preservati. Routine sospesa.
 
-La richiesta del nuovo lotto arriva dalla chat di coordinamento; il precedente «approvo» umano in questa chat riguardava il lotto Amazon §94 già pubblicato. Prima di integrare, push o pubblicare questo lotto si presenta il risultato al proprietario e si richiede la sua conferma specifica. Non è stato incontrato un rifiuto della revisione automatica sulla pubblicazione: non è stata tentata.
+La richiesta iniziale arriva dalla chat di coordinamento. Dopo presentazione del lotto 6ddf6ec27 e dei limiti, il proprietario ha risposto direttamente alla domanda nominativa: **«Approvo questo lotto con i limiti dichiarati»**, autorizzando integrazione, push e pubblicazione. Il precedente «approvo» Amazon non è stato usato per questo nuovo lotto.
 
-Per integrare dopo approvazione: verificare main/origin ancora sulla base, fast-forward del commit del solo lotto; in caso di divergenza, unire solo le due voci canzoni e le due chiavi contestuali, senza sovrascrivere voci di altri lotti. Pubblicare solo i quattro HTML e i due OG inclusi, insieme a modelli e documentazione del lotto; verificare i quattro HTTPS e il deployment. Nessuna rigenerazione completa necessaria.
+Main/origin erano ancora sulla base 984d94f61: eseguito fast-forward del solo commit approvato 6ddf6ec27, senza conflitti né sovrascrittura di altri lotti. Tutti i 29 file confrontati con la copia. Nessuna rigenerazione completa; quattro HTML e due OG pubblicati con modelli e documentazione.
+
+
+## Pubblicazione verificata
+
+- Commit contenuti: `6ddf6ec272df46f25845415a45956762d3032a4b`, inviato a `origin/main` dopo approvazione nominativa.
+- Deployment: `dpl_Aa1K3KvWLaXtRB2ZfPMGQVgzsfUN`, **READY**, **production**, progetto `prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm`, sorgente Git main e SHA esatto. Alias `www.dietroiltesto.it` presente, nessun aliasError. Build 17 secondi.
+- URL: https://dietro-il-testo-m2l7yjjx1-giantroisi1.vercel.app.
+- **Quattro pagine, sei sitemap e due OG HTTPS** identici byte per byte a main. Gli HTML non compresi nel lotto e le sitemap sono rimasti identici alla base; title, description, canonical e datePublished delle quattro pagine invariati. DateModified al 12 ottobre soltanto per le quattro pagine coinvolte.
+- Browser live: quattro pagine a **1280, 390 e 320 px**, **12 casi positivi**, griglie 372/340/270 px, nessuna scheda tagliata, H1 unico, nessuna immagine locale rotta o overflow.
+- Due link seguiti su desktop e mobile, **quattro percorsi completi** e ritorno alle sorgenti. Desktop con clic, mobile da tastiera. Il clic automatico al centro del bounding box di «La cura», disposto su due righe, cadeva fra i due frammenti: clic sulla parola effettiva positivo; è un limite del clic automatico, non un collegamento interrotto.
+- Console: zero errori nel percorso verificato. Non è una scansione globale dei log del sito.
+- Ripetuti SEO, link, affiliazioni, contestuali, coerenza, nature e diff. Il primo check contestuali in main leggeva `sito/` ignorato, una vecchia anteprima: non è stata modificata. I **29 file tracciati** coincidono con la copia allineata, sulla cui anteprima corrispondente i controlli sono positivi; il pubblico coincide con gli HTML tracciati.
+- Metadata del deployment disponibili. Lettura progetto ed eventi/build log via connettore Vercel respinta 403; CLI non disponibile. Verifica completata con stato, SHA, progetto, alias e risposta HTTPS effettiva. Log globali non consultati; nessun rilancio o modifica alle protezioni.
+- GitHub combined status restituisce zero check; non è stato interpretato come prova di build riuscita. La prova del rilascio è il metadata Vercel READY e il confronto pubblico.
+- Limiti editoriali approvati invariati: description Vengo non qualificata sui crediti, disaccordo dichiarato nel corpo, nessun bollino indipendente nuovo; vecchi gates globali documentati sopra.
+- Routine **PAUSED**, file SEO non tracciati e altra AI preservati. **Nessuna richiesta GSC o IndexNow.**
+
+![Produzione a 320 pixel](prove-cura-luna-mobile-2026-10-12/online-mobile320.jpg)
+
+![Collegamento contestuale desktop pubblicato](prove-cura-luna-mobile-2026-10-12/online-desktop.jpg)
