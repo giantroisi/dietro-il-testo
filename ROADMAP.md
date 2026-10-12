@@ -4587,3 +4587,12 @@ Copia /Users/gianmicheletroisi/.codex/worktrees/collegamenti-ligabue-2026-10-12/
 Pubblicazione approvata nominativamente dal proprietario e verificata: main/origin/main ancora sulla base 8512f7467, integrazione fast-forward senza conflitti del commit 503adbad9, solo dodici file autorizzati e tre chiavi nuove nel JSON prima assente. Ripetuti contestuali, link, SEO, affiliazioni, coerenza e diff: positivi. Confronto su 702 HTML/sitemap rispetto alla base: soltanto i tre paragrafi aggiunti, date/datePublished/dateModified/lastmod, title, description, affiliazioni e documenti non tracciati preservati.
 
 Deploy dpl_AteBHttNRVBpj7huYZhGk1xNjxeZ READY production, commit 503adbad9 e alias www.dietroiltesto.it verificati; build completata in 12 secondi, avvisi su middleware invariato, nessun errore di build. Cinque pagine HTTPS e sei sitemap identiche a main. Browser online desktop/mobile: sei percorsi per larghezza, dodici completi e ritorno alle sorgenti, nessun overflow o errore console. Dossier, prove JSON e screenshot del lotto aggiornati; connettore elenchi/log 403, verifica completata via dashboard autenticata e metadata del singolo deploy. Nessuna richiesta GSC o IndexNow. Filone concluso: collegamenti contestuali pubblicati e verificati.
+
+
+## 94. Amazon: altre dieci canzoni — 12 ottobre 2026
+
+Lotto completato e verificato in copia separata, ancora da approvare per pubblicazione. Dieci canzoni senza prodotto coperte con Machine Head (Deep Purple, 3), All Killer No Filler (Sum 41, 3), Rumours (Fleetwood Mac, 2) e Immortalized (Disturbed, 2). Tre vinili Prime e un CD Prime dopo ricerca del vinile senza badge. Stessi prodotti anche nelle quattro pagine album e quattro band: 18 pagine. Quattro link nel formato documentato Amazon, Tracking ID dietroiltesto-21, Controllo Link autenticato positivo.
+
+40 verifiche browser desktop/mobile, otto percorsi band → album → canzone, quattro destinazioni Amazon cliccate. Generazione, SEO, affiliazioni (1.065 link), link interni e percorsi contestuali Ligabue positivi. Editoriale e stato di verifica preservati; aggiornati solo i lastmod delle pagine effettivamente modificate.
+
+Filone concluso: **AFFILIAZIONI / altre dieci canzoni**. Copia: `/private/tmp/dit-amazon-dieci-2026-10-12`; branch `codex/amazon-altre-dieci-2026-10-12`. Main e copia dell’altra AI intatti; routine sospesa. Dettagli, fonti, limiti e istruzioni d’integrazione: `rapporti/amazon-altre-dieci-2026-10-12.md`; prove: `rapporti/prove-amazon-altre-dieci-2026-10-12.json`.
