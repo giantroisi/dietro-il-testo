@@ -4561,3 +4561,11 @@ Generazione, affiliazioni, sedici prove negative e ID vuoto, SEO e link superati
 
 
 Pubblicazione confermata: commit `a0862635c` su origin/main, deploy `dpl_7iyRegL4uXhpz2sS7TdCn8mug6tN` READY in produzione, commit e alias www.dietroiltesto.it verificati; GitHub Vercel success. Tutte le 257 pagine HTTPS identiche byte per byte ai file controllati. Browser live Hotel California canzone/album ed Eagles artista a 1280 e 390 px: sei verifiche positive, sola CTA nei pulsanti, tre/quattro riquadri previsti, unica informativa in fondo e nessun overflow. Screenshot online mobile controllato visivamente. Main, cataloghi, ricerca e due file SEO non tracciati preservati; routine sospesa.
+
+## 92. Amazon per dieci canzoni scoperte, 12 ottobre 2026
+
+Preparati Toxicity (Chop Suey!, Toxicity, Aerials), The Number of the Beast (Run to the Hills, The Number of the Beast, Hallowed Be Thy Name), Reign in Blood (Raining Blood, Angel of Death, Postmortem) e Pablo Honey (Creep). Tre vinili Prime e CD Prime Slayer dopo due vinili senza badge/disponibilità. Quattro URL nel formato ufficiale Amazon riaperto e Controllo Link autenticato positivo; SiteStripe copia ma clipboard browser vuota, lettura sistema respinta dalla revisione automatica e non effettuata. Tracklist Amazon e Sony ufficiale verificate.
+
+18 nuove pagine, tre riquadri in album/canzoni e quattro negli artisti. Catalogo 98 voci, 97 ASIN, 91 album, 137 canzoni, 44 artisti = 272 pagine; 997 link DOM. Generazione, protezione lastmod, affiliazioni, sedici prove negative, ID vuoto, SEO e link superati. Browser tutte le 18 pagine a 1280 e 390 pixel, quattro a 320: 40 verifiche positive. Percorso System of a Down → Toxicity → Chop Suey! positivo. Solo HTML e voci sitemap pertinenti copiati.
+
+Dossier `rapporti/amazon-dieci-canzoni-2026-10-12.md`, prove JSON omonime. Copia `/private/tmp/dit-amazon-dieci-2026-10-12`, ramo `codex/amazon-dieci-2026-10-12`, base 6cb578ad2. Main, ricerca, documenti SEO non tracciati e altra AI preservati. Filone concluso: collegamenti affiliati. Routine sospesa. Pubblicazione autorizzata, verifica live da completare.
