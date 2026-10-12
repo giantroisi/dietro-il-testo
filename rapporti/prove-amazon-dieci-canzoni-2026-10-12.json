@@ -1358,5 +1358,286 @@
     "IDvuoto": "positivo",
     "SEO": "zero problemi",
     "linkInterni": "zero problemi"
+  },
+  "pubblicazione": {
+    "commit": "8deaddc5db2ee639219facd04a633eafee16151a",
+    "deploy": "dpl_BEPpu3bv7xQpjBnpkxCnoK8FdVen",
+    "stato": "READY",
+    "ambiente": "production",
+    "alias": "www.dietroiltesto.it",
+    "commitDeployVerificato": true,
+    "HTTPS": [
+      {
+        "path": "album/system-of-a-down/toxicity/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "ac9f1e38d2562f017388014c1b1246d7dedf4835a1ab0053dbbf5e8a17bf6d9e"
+      },
+      {
+        "path": "artista/system-of-a-down/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "5a2a90e16fb984abad2e8ee3647c9c1dcbc8d72380d03f9dce1244a3a0b85e6b"
+      },
+      {
+        "path": "canzone/chop-suey/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "bbfb1b36a6d7d469065074114bc1b5788092c97341855a5ab876d9fc769a56f1"
+      },
+      {
+        "path": "canzone/toxicity/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "c2885a40cbcd57d8536f239a5d919698d6d5180515755524be572c2066e351a1"
+      },
+      {
+        "path": "canzone/aerials/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "e79151acfab2692e11cf88fb6a5488bd9ffe8e9ad5e76d5a287ca78195f3aaf4"
+      },
+      {
+        "path": "album/iron-maiden/the-number-of-the-beast/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "f06ab08b341280cdecd9e06d8d4f0bfced4f9a107dc116883e17213045fa30db"
+      },
+      {
+        "path": "artista/iron-maiden/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "a8d3f931f3fc5698bb63aa5e9177899472d78271e17dc9f905670976561e10bf"
+      },
+      {
+        "path": "canzone/run-to-the-hills/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "8a7d1773b3f0e3912b8c96163ac0597fcee59ab999174c93405db9995c675bca"
+      },
+      {
+        "path": "canzone/number-of-the-beast/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "bc6d8927a93d568a7e16be109e6f94a54c4ee8efeeff7722e3fc1b8230ec9c9f"
+      },
+      {
+        "path": "canzone/hallowed-be-thy-name/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "d43d8c07583486ff1e6a714e7507ebcb7454f68c47aba9672c355ae8c26c62e6"
+      },
+      {
+        "path": "album/slayer/reign-in-blood/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "4364deb3303608df992e431e81456786c6046db2454c4f1c5cf8e2229f0d19ad"
+      },
+      {
+        "path": "artista/slayer/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "d0665898979900358072ebf801545d1525d69ee776f1c8fccd5b8ba1412bee43"
+      },
+      {
+        "path": "canzone/raining-blood/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "c9c93462a1bda4716e947d44eb189c7965e7ebd89eedff08b451f620dcd4258d"
+      },
+      {
+        "path": "canzone/angel-of-death/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "f669459348639d6332305e3ef6f5aa001de59aceadb76dd985df4342da38351a"
+      },
+      {
+        "path": "canzone/postmortem/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "bf5e0990fafd4201e5e7dcf54358b3923eaaa00c00329701b838c262a87b4fc8"
+      },
+      {
+        "path": "album/radiohead/pablo-honey/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "7f4716d3c31ea2fe86ec861d65a63dde9ab512d98c04174ef271c5d35ec7142c"
+      },
+      {
+        "path": "artista/radiohead/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "ddc1ee66f7a71036edfba92bb41152dd3815597f57223d013849346c20f68335"
+      },
+      {
+        "path": "canzone/creep/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "c55c2d84973278acb3349a8f93fce86bcb201f52c39f6a1ec55e15e15d0d0d84"
+      }
+    ],
+    "browser": [
+      {
+        "boxes": 3,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "canzone/chop-suey/",
+        "width": 1280,
+        "ok": true
+      },
+      {
+        "boxes": 3,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "album/system-of-a-down/toxicity/",
+        "width": 1280,
+        "ok": true
+      },
+      {
+        "boxes": 4,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "artista/slayer/",
+        "width": 1280,
+        "ok": true
+      },
+      {
+        "boxes": 3,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "canzone/chop-suey/",
+        "width": 390,
+        "ok": true
+      },
+      {
+        "boxes": 3,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B07K8TW1L2/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "album/system-of-a-down/toxicity/",
+        "width": 390,
+        "ok": true
+      },
+      {
+        "boxes": 4,
+        "disclosure": 1,
+        "links": [
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "contained": true,
+            "href": "https://www.amazon.it/dp/B00BV0W8RQ/ref=nosim?tag=dietroiltesto-21",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "path": "artista/slayer/",
+        "width": 390,
+        "ok": true
+      }
+    ],
+    "primoControllo": "Versione precedente online; connettore lista progetti 403. Dopo accesso proprietario in Chrome, dashboard e metadata della pubblicazione verificati: nuovo commit READY, alias assegnato. Nessun nuovo deploy manuale necessario."
   }
 }
