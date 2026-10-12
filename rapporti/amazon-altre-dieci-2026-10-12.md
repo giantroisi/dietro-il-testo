@@ -29,8 +29,13 @@ Fonti aggiuntive riaperte: [uDiscover Music, edizione 25° anniversario Sum 41](
 Screenshot: `prove-amazon-altre-dieci-2026-10-12/desktop.jpg` e `mobile.jpg`. Prove strutturate: `prove-amazon-altre-dieci-2026-10-12.json`.
 
 ## Stato e limiti
-Preparato e verificato nella copia `/private/tmp/dit-amazon-dieci-2026-10-12`, branch `codex/amazon-altre-dieci-2026-10-12`, base `342a5f52a5436a97bdd4ae5e14d1a0ba27cd8290`. Main, file non tracciati e copia dell’altra AI preservati. Nessun trasferimento, push o pubblicazione di questo nuovo lotto. Serve l’approvazione specifica alla pubblicazione.
+Preparato e verificato nella copia `/private/tmp/dit-amazon-dieci-2026-10-12`, branch `codex/amazon-altre-dieci-2026-10-12`, base `342a5f52a5436a97bdd4ae5e14d1a0ba27cd8290`. Main, file non tracciati e copia dell’altra AI preservati. Il proprietario ha approvato specificamente questo lotto; integrato in main con fast-forward, inviato al remoto e pubblicato.
 
 Prime e disponibilità sono verifiche puntuali, non garanzie future. Il controllo commerciale non costituisce una revisione editoriale delle schede. La routine rimane sospesa; nessun dato GSC utilizzato.
 
 Integrazione futura: aggiungere solo le quattro nuove chiavi in `dati/affiliazioni-prodotti.json` e le quattro nuove band in `dati/affiliazioni-artisti.json`; integrare i 18 HTML e solo le voci sitemap pertinenti. Gli altri prodotti e percorsi restano invariati.
+
+## Pubblicazione verificata
+Commit contenuti `0cfdf96c0e175dcfc3d13ee785c2389cc629c1a2`, deployment `dpl_HCcfgaU2LiWN6Be9brfcc56NWmxT` READY in produzione. Team giantroisi1, progetto dietro-il-testo, SHA e alias www.dietroiltesto.it verificati con dashboard autenticata e metadata Vercel; build 16 secondi. Ripetuti generazione, affiliazioni, SEO, link interni, collegamenti contestuali e diff dopo l’integrazione: positivi.
+
+18 HTML e tre sitemap HTTPS identici byte per byte ai file approvati. Dodici verifiche browser live (sei pagine a 1280 e 390 px) positive: tre/quattro riquadri, sola CTA, unica informativa, prodotti corretti e nessun overflow. Percorso Disturbed → Immortalized → The Sound of Silence realmente effettuato su mobile. Screenshot online controllato visivamente; zero errori console. Main e due documenti SEO non tracciati preservati, routine sospesa.

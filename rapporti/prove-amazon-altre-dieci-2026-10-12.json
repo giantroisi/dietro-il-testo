@@ -2341,5 +2341,524 @@
     "collegamentiLigabue": "3 percorsi, 6 link preservati",
     "consoleAnteprima": "zero errori",
     "editoriale": "Paragrafi, titolo, meta description e stato verifica invariati sulle 18 pagine."
+  },
+  "pubblicazione": {
+    "approvazione": "Il proprietario ha risposto approvo alla richiesta nominativa di pubblicazione del lotto delle dieci canzoni, quattro album e quattro band.",
+    "commit": "0cfdf96c0e175dcfc3d13ee785c2389cc629c1a2",
+    "deployment": "dpl_HCcfgaU2LiWN6Be9brfcc56NWmxT",
+    "stato": "READY",
+    "target": "production",
+    "alias": "www.dietroiltesto.it",
+    "buildSecondi": 16,
+    "HTTPS": [
+      {
+        "path": "album/deep-purple/machine-head/index.html",
+        "url": "https://www.dietroiltesto.it/album/deep-purple/machine-head/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "1bf13701d8a7faea00219fbeb71d6b43018317f8b9a448d6fd4bbe30244f20e3"
+      },
+      {
+        "path": "artista/deep-purple/index.html",
+        "url": "https://www.dietroiltesto.it/artista/deep-purple/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "cfc501f95b72ed612fcb9ddc82a4bf7a62c4841eea6a7e7e6dabb4e2b9f96324"
+      },
+      {
+        "path": "canzone/smoke-on-the-water/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/smoke-on-the-water/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "e5f47a1cc371248f98de2e12c6813981ce3e4f2ca204c0949615ce9ff9504564"
+      },
+      {
+        "path": "canzone/highway-star/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/highway-star/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "b28daed3854f9e5667a9f5bcddd2a55fd8104441d1c21efed58a766f5b04e0cc"
+      },
+      {
+        "path": "canzone/space-truckin/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/space-truckin/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "6ae7afa395ea03245678f5b3aed53074edc82b435466baf527ec7994075761e5"
+      },
+      {
+        "path": "album/sum-41/all-killer-no-filler/index.html",
+        "url": "https://www.dietroiltesto.it/album/sum-41/all-killer-no-filler/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "51d60b084940e7d4b79c0c5bce469fe6e15796c25674435ac541e2f45f2fae73"
+      },
+      {
+        "path": "artista/sum-41/index.html",
+        "url": "https://www.dietroiltesto.it/artista/sum-41/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "c12d92ba8bb86795cb9b28794d9598eb37f6b91b297adf4f3bfcf8135e543d64"
+      },
+      {
+        "path": "canzone/fat-lip/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/fat-lip/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "47d21fe1964c04035ad5bdfc0c4de86dc599af08c91c6b78b859d7782f18d849"
+      },
+      {
+        "path": "canzone/in-too-deep/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/in-too-deep/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "22c58e709af85f59545a6abe358439227b2cba67ef9ba709a0db7d0b04e53d99"
+      },
+      {
+        "path": "canzone/motivation/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/motivation/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "dc0bd230875d92d8c6ec45af08a6c8bfd9b7c79d3bd479b32ada8a1da31219f4"
+      },
+      {
+        "path": "album/fleetwood-mac/rumours/index.html",
+        "url": "https://www.dietroiltesto.it/album/fleetwood-mac/rumours/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "5725fa3de3bc3b1ecf7675be2ec50e4417420da2fb850dae6ad09f0c0c270bce"
+      },
+      {
+        "path": "artista/fleetwood-mac/index.html",
+        "url": "https://www.dietroiltesto.it/artista/fleetwood-mac/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "e85bfbbf3b057b3829428e87d948526dd8ed27461c50d169ef45c0892ee30c01"
+      },
+      {
+        "path": "canzone/dreams/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/dreams/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "63bd7ac4558387a4a529dc546958702551aa1465f9c8c685291916471056f14d"
+      },
+      {
+        "path": "canzone/go-your-own-way/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/go-your-own-way/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "7944573fdb21f9a0bcc3de6cb49e259924461504335dbe101876f36d754168b8"
+      },
+      {
+        "path": "album/disturbed/immortalized/index.html",
+        "url": "https://www.dietroiltesto.it/album/disturbed/immortalized/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "4c025ce4e9d077ad869e117ae9ed17683336599e9327d00e1141bd1e96e69b03"
+      },
+      {
+        "path": "artista/disturbed/index.html",
+        "url": "https://www.dietroiltesto.it/artista/disturbed/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "859e8f640f7d601eb8f4893a6d5799343066937b846f2d382a4c2da55bf17db9"
+      },
+      {
+        "path": "canzone/sound-of-silence-disturbed/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "24c8c67c50ec82a750b4495ec2cb9680d2b3fa1a577c4e6045adaafc7076b399"
+      },
+      {
+        "path": "canzone/the-light-disturbed/index.html",
+        "url": "https://www.dietroiltesto.it/canzone/the-light-disturbed/",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "be210bbd224104e00e10660397df1b2050e93bb4fca1def9785bfd63a2f04dad"
+      },
+      {
+        "path": "sitemap-canzoni.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "29fc453d1d901f478f386503f77bc76dc0313675d0960edf899af92cab4467f8"
+      },
+      {
+        "path": "sitemap-album.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+      },
+      {
+        "path": "sitemap-artisti.xml",
+        "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+        "HTTPok": true,
+        "identico": true,
+        "sha256": "978cd10e0ac44dfb94120f6182b1440958ec4a4368815a1d7cc83058c42b64ac"
+      }
+    ],
+    "browser": [
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nMachine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Machine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Machine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "canzone/smoke-on-the-water/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nAll Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "All Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "All Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "album/sum-41/all-killer-no-filler/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nRumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "immagine",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "canzoni",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "album",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "storia",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "artista/fleetwood-mac/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "canzone/sound-of-silence-disturbed/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "album/disturbed/immortalized/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "immagine",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "canzoni",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "album",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "storia",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 1280,
+        "path": "artista/disturbed/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nMachine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Machine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Machine Head\n\nDeep Purple · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B016AAL1XI/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "canzone/smoke-on-the-water/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nAll Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "All Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "All Killer No Filler\n\nSum 41 · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0H3M16NSJ/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "album/sum-41/all-killer-no-filler/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nRumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "immagine",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "canzoni",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "album",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Rumours\n\nFleetwood Mac · Vinile\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0DSJTCRH2/ref=nosim?tag=dietroiltesto-21",
+            "position": "storia",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "artista/fleetwood-mac/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "canzone/sound-of-silence-disturbed/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": null,
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "album/disturbed/immortalized/",
+        "ok": true
+      },
+      {
+        "disclosures": 1,
+        "links": [
+          {
+            "format": "IL DISCO\n\nImmortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "immagine",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "canzoni",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "album",
+            "text": "Acquista su Amazon"
+          },
+          {
+            "format": "Immortalized\n\nDisturbed · CD\n\nAcquista su Amazon",
+            "href": "https://www.amazon.it/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21",
+            "position": "storia",
+            "text": "Acquista su Amazon"
+          }
+        ],
+        "overflow": false,
+        "width": 390,
+        "path": "artista/disturbed/",
+        "ok": true
+      }
+    ],
+    "percorsoMobile": "Disturbed → Immortalized → The Sound of Silence: navigazione reale nel browser positiva",
+    "screenshot": "prove-amazon-altre-dieci-2026-10-12/online-mobile.jpg",
+    "console": "zero errori",
+    "controlliIntegrazione": [
+      "generazione",
+      "affiliazioni: 1065 link DOM",
+      "SEO: 696 HTML, zero problemi",
+      "link interni: zero problemi",
+      "Ligabue: 3 percorsi, 6 collegamenti preservati",
+      "diff pulito"
+    ]
   }
 }
