@@ -4,7 +4,7 @@
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
-import { collegamentiContestuali } from './collegamenti-contestuali.mjs';
+import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './collegamenti-contestuali.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
 // collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
@@ -349,8 +349,11 @@ function conArticolo(dataLeggibileTesto) {
   return [1, 8, 11].includes(giorno) ? `l'${dataLeggibileTesto}` : `il ${dataLeggibileTesto}`;
 }
 
-function statoVerifica(data, r) {
+function statoVerifica(data, r, revisioneMirata) {
   const dove = `${r}metodo/#verifica`;
+  if (revisioneMirata) {
+    return `<p class="stato-verifica da-verificare">Revisione editoriale ${esc(conArticolo(dataLeggibile(revisioneMirata.data)))}. ${esc(revisioneMirata.nota)} <a href="${dove}">Come verifichiamo</a></p>`;
+  }
   if (data) {
     return `<p class="stato-verifica verificata">Verificata frase per frase ${esc(conArticolo(dataLeggibile(data)))}. <a href="${dove}">Che cosa vuol dire</a></p>`;
   }
@@ -678,9 +681,11 @@ export function paginaCanzone(c, ctx) {
   // distinzione senza trasformare la lettura in una scheda tecnica.
   const natura = verificaNatura(c.corpo, c.naturaCorpo);
   let usaNature = false;
+  const posizioneContestuale = COLLEGAMENTI_CONTESTUALI[c.slug]?.dopoParagrafo;
+  const inserisciPercorso = (html, i) => posizioneContestuale === i ? `${html}\n        ${percorsoContestuale}` : html;
   const corpoHtml = c.corpo
     .map((par, i) => {
-      if (!natura.ok) return `<p>${esc(par)}</p>`;
+      if (!natura.ok) return inserisciPercorso(`<p>${esc(par)}</p>`, i);
       const frasi = inFrasi(par);
       const segni = c.naturaCorpo[i];
       const dentro = frasi
@@ -692,7 +697,7 @@ export function paginaCanzone(c, ctx) {
           return `<span class="aff aff-${esc(k)}"><span class="aff-testo">${esc(f)}</span><span class="aff-nome"> — ${esc(n.nome)}</span></span>`;
         })
         .join(' ');
-      return `<p>${dentro}</p>`;
+      return inserisciPercorso(`<p>${dentro}</p>`, i);
     })
     .join('\n        ');
 
@@ -825,7 +830,7 @@ export function paginaCanzone(c, ctx) {
       <h2>La storia</h2>
       <div class="prosa">
         ${corpoHtml}
-${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale ? `\n        ${percorsoContestuale}` : ''}
+${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale && posizioneContestuale === undefined ? `\n        ${percorsoContestuale}` : ''}
       </div>
     </section>${amazonCompattoPerScheda(c)}
 
@@ -857,7 +862,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale ? `\n   
 
     <section class="blocco" id="fonti">
       <h2>Fonti</h2>
-      ${statoVerifica(c.ultimaVerifica, r)}
+      ${statoVerifica(c.ultimaVerifica, r, c.revisioneMirata)}
       ${c.fonti.length ? gruppiFonti(c.fonti) : `<p class="vuoto">Fonti da collegare.</p>`}
       <div class="azioni" style="margin-top:22px">
         <a class="bottone" href="${r}metodo/">Come verifichiamo</a>

@@ -19,5 +19,23 @@
       "luci-damerica",
       "riderai"
     ]
+  },
+  "e-ti-vengo-a-cercare": {
+    "artistaSlug": "franco-battiato",
+    "destinazioni": [
+      "la-cura"
+    ],
+    "prima": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con ",
+    "dopo": ".",
+    "dopoParagrafo": 1
+  },
+  "fuori-dal-tunnel": {
+    "artistaSlug": "caparezza",
+    "destinazioni": [
+      "vengo-dalla-luna"
+    ],
+    "prima": "Nello stesso album compare anche ",
+    "dopo": ", dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo.",
+    "dopoParagrafo": 0
   }
 }

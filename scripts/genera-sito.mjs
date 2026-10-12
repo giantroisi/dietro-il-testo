@@ -2,7 +2,7 @@
 // Genera il sito statico dai dati in dati/*.json.
 // Applica il P9 della Costituzione: ogni numero visibile nasce dai dati.
 //
-// Uso: node scripts/genera-sito.mjs [--out sito]
+// Uso: node scripts/genera-sito.mjs [--out sito] [--solo-canzoni slug,slug]
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -20,6 +20,11 @@ const argOut = process.argv.indexOf('--out');
 const OUT = join(ROOT, argOut > -1 ? process.argv[argOut + 1] : 'sito');
 
 const canzoni = JSON.parse(readFileSync(join(ROOT, 'dati', 'canzoni.json'), 'utf8'));
+const argSoloCanzoni = process.argv.indexOf('--solo-canzoni');
+const soloCanzoni = argSoloCanzoni < 0 ? null : (process.argv[argSoloCanzoni + 1] || '').split(',');
+if (soloCanzoni && (!soloCanzoni.length || soloCanzoni.some(slug => !/^[a-z0-9-]+$/.test(slug) || !canzoni.some(c => c.slug === slug)) || new Set(soloCanzoni).size !== soloCanzoni.length)) {
+  throw new Error('--solo-canzoni richiede slug esistenti, distinti e separati da virgola');
+}
 const artisti = JSON.parse(readFileSync(join(ROOT, 'dati', 'artisti.json'), 'utf8'));
 
 // ganci editoriali opzionali: { "slug-canzone": "una riga" }
@@ -380,7 +385,8 @@ function scrivi(percorsoRelativo, contenuto) {
   writeFileSync(completo, output, 'utf8');
 }
 
-rmSync(OUT, { recursive: true, force: true });
+// La generazione mirata conserva le pagine precedenti e non scrive sitemap.
+if (!soloCanzoni) rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 
 const oggi = new Date().toISOString().slice(0, 10);
@@ -488,6 +494,15 @@ function scriviConLastmod(percorsoFile, percorsoUrl, html) {
 // davvero cos'è ogni pagina — mai indovinate dallo script di controllo a
 // partire dall'URL, che potrebbe disallinearsi dalla struttura reale.
 const manifestoPagine = [];
+
+if (soloCanzoni) {
+  for (const slug of soloCanzoni) {
+    const c = canzoniPerSlug.get(slug);
+    scriviConLastmod(`canzone/${slug}/index.html`, `canzone/${slug}/`, paginaCanzone(c, ctx));
+  }
+  console.log(`Generazione mirata: ${soloCanzoni.length} canzoni. Sitemap e altre pagine preservate.`);
+  process.exit(0);
+}
 
 const htmlHome = paginaHome(ctx);
 const htmlArchivio = paginaArchivio(ctx);

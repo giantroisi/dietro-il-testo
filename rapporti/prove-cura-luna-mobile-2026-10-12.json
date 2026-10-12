@@ -1,0 +1,523 @@
+{
+  "gates": {
+    "check-bollino": {
+      "exitCode": 1,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-bollino.txt"
+    },
+    "check-garanti": {
+      "exitCode": 1,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-garanti.txt"
+    },
+    "check-seo": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-seo.txt"
+    },
+    "check-link": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-link.txt"
+    },
+    "check-affiliazioni": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-affiliazioni.txt"
+    },
+    "check-coerenza": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-coerenza.txt"
+    },
+    "check-nature": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-nature.txt"
+    },
+    "check-collegamenti-contestuali": {
+      "exitCode": 0,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/gates-check-collegamenti-contestuali.txt"
+    },
+    "bolliniNonIndipendenti": [
+      "0",
+      "24"
+    ],
+    "garantiNonRegistrati": [
+      "48"
+    ]
+  },
+  "baseline": {
+    "check-bollino": {
+      "exitCode": 1,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/baseline-check-bollino.txt"
+    },
+    "check-garanti": {
+      "exitCode": 1,
+      "logFile": "prove-cura-luna-mobile-2026-10-12/baseline-check-garanti.txt"
+    },
+    "bolliniNonIndipendenti": [
+      "0",
+      "24"
+    ],
+    "garantiNonRegistrati": [
+      "49"
+    ]
+  },
+  "metadati": {
+    "canzone/la-cura/index.html": {
+      "title": "invariato",
+      "description": "invariato",
+      "ogdescription": "invariato",
+      "canonical": "invariato",
+      "datePublished": "invariato",
+      "dateModified": "2026-10-12"
+    },
+    "canzone/vengo-dalla-luna/index.html": {
+      "title": "invariato",
+      "description": "invariato",
+      "ogdescription": "invariato",
+      "canonical": "invariato",
+      "datePublished": "invariato",
+      "dateModified": "2026-10-12"
+    },
+    "canzone/e-ti-vengo-a-cercare/index.html": {
+      "title": "invariato",
+      "description": "invariato",
+      "ogdescription": "invariato",
+      "canonical": "invariato",
+      "datePublished": "invariato",
+      "dateModified": "2026-10-12"
+    },
+    "canzone/fuori-dal-tunnel/index.html": {
+      "title": "invariato",
+      "description": "invariato",
+      "ogdescription": "invariato",
+      "canonical": "invariato",
+      "datePublished": "invariato",
+      "dateModified": "2026-10-12"
+    }
+  },
+  "sitemap": {
+    "sitemap-raccolte.xml": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "sitemap-album.xml": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "sitemap-canzoni.xml": "29fc453d1d901f478f386503f77bc76dc0313675d0960edf899af92cab4467f8",
+    "sitemap-artisti.xml": "978cd10e0ac44dfb94120f6182b1440958ec4a4368815a1d7cc83058c42b64ac",
+    "sitemap-pagine.xml": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "sitemap.xml": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  },
+  "modoMirato": {
+    "[]": "Respinto prima di scrivere; tutti i file sito invariati",
+    "['inesistente']": "Respinto prima di scrivere; tutti i file sito invariati",
+    "['la-cura,la-cura']": "Respinto prima di scrivere; tutti i file sito invariati"
+  },
+  "htmlAltri": "Tutti identici a HEAD",
+  "canzoniSoloDueVoci": [
+    "la-cura",
+    "vengo-dalla-luna"
+  ],
+  "browser": {
+    "layout": [
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 1280,
+        "grids": [
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          },
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/la-cura/",
+        "width": 1280
+      },
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 1280,
+        "grids": [
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          },
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/vengo-dalla-luna/",
+        "width": 1280
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+            "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé. — interpretazione accreditata",
+            "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+          }
+        ],
+        "docWidth": 1280,
+        "grids": [
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          },
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          }
+        ],
+        "h1": 1,
+        "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+        "url": "http://127.0.0.1:8786/canzone/e-ti-vengo-a-cercare/",
+        "width": 1280
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone. — dichiarato dall'artista",
+            "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia. — dichiarato dall'artista",
+            "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+          }
+        ],
+        "docWidth": 1280,
+        "grids": [
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          },
+          {
+            "client": 1118,
+            "clipped": 0,
+            "cols": "372px 372px 372px",
+            "scroll": 1118
+          }
+        ],
+        "h1": 1,
+        "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+        "url": "http://127.0.0.1:8786/canzone/fuori-dal-tunnel/",
+        "width": 1280
+      },
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 390,
+        "grids": [
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          },
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/la-cura/",
+        "width": 390
+      },
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 390,
+        "grids": [
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          },
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/vengo-dalla-luna/",
+        "width": 390
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+            "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé.\n— interpretazione accreditata",
+            "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+          }
+        ],
+        "docWidth": 390,
+        "grids": [
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          },
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          }
+        ],
+        "h1": 1,
+        "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+        "url": "http://127.0.0.1:8786/canzone/e-ti-vengo-a-cercare/",
+        "width": 390
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone.\n— dichiarato dall'artista",
+            "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia.\n— dichiarato dall'artista",
+            "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+          }
+        ],
+        "docWidth": 390,
+        "grids": [
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          },
+          {
+            "client": 340,
+            "clipped": 0,
+            "cols": "340px",
+            "scroll": 340
+          }
+        ],
+        "h1": 1,
+        "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+        "url": "http://127.0.0.1:8786/canzone/fuori-dal-tunnel/",
+        "width": 390
+      },
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 320,
+        "grids": [
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          },
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/la-cura/",
+        "width": 320
+      },
+      {
+        "broken": [],
+        "context": [],
+        "docWidth": 320,
+        "grids": [
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          },
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          }
+        ],
+        "h1": 1,
+        "review": "Revisione editoriale il 12 ottobre 2026. Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione. Come verifichiamo",
+        "url": "http://127.0.0.1:8786/canzone/vengo-dalla-luna/",
+        "width": 320
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In questa scheda le dichiarazioni dell'artista e le interpretazioni accreditate sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.",
+            "prev": "Il brano è stato inserito nel film \"Palombella rossa\" di Nanni Moretti, che lo canta di persona in una scena divenuta iconica della pellicola; lo stesso Battiato lo reincise nel 1996 in una nuova versione con i C.S.I., mentre nel 2020 ne è stata pubblicata una reinterpretazione di Tiziano Ferro. Pur restando in superficie una canzone d'amore, il brano è stato più volte letto — fra gli altri da Sky TG24 — come un manifesto della ricerca spirituale che attraversa gran parte della produzione di Battiato, dove l'incontro con l'altro diventa anche un modo per avvicinarsi a una dimensione più profonda di sé.\n— interpretazione accreditata",
+            "text": "Per confrontare le diverse letture dell’amore nella musica di Battiato, puoi proseguire con La cura."
+          }
+        ],
+        "docWidth": 320,
+        "grids": [
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          },
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          }
+        ],
+        "h1": 1,
+        "review": "Questa scheda non è ancora stata verificata frase per frase: le fonti sono elencate qui sotto, ma nessuno le ha ancora riaperte una per una. Perché te lo diciamo",
+        "url": "http://127.0.0.1:8786/canzone/e-ti-vengo-a-cercare/",
+        "width": 320
+      },
+      {
+        "broken": [],
+        "context": [
+          {
+            "next": "In un intervento sul proprio sito, riportato da Rockol, Caparezza criticò l'uso del pezzo nei locali che il brano prendeva di mira e in programmi televisivi. Nel 2022, secondo Rockol, raccontò dal palco di aver smesso di cantarlo per diversi anni e di averci quasi litigato, ma anche di essersi riconciliato con la canzone.\n— dichiarato dall'artista",
+            "prev": "Pubblicato come terzo singolo di \"Verità supposte\" (2003), \"Fuori dal tunnel\" portò Caparezza alla notorietà nazionale. Il suo bersaglio è la movida vissuta come divertimento obbligatorio: in un'intervista a OndaRock del 2018, l'artista la descrisse come una gabbia.\n— dichiarato dall'artista",
+            "text": "Nello stesso album compare anche Vengo dalla Luna, dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo."
+          }
+        ],
+        "docWidth": 320,
+        "grids": [
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          },
+          {
+            "client": 270,
+            "clipped": 0,
+            "cols": "270px",
+            "scroll": 270
+          }
+        ],
+        "h1": 1,
+        "review": "Verificata frase per frase il 22 settembre 2026. Che cosa vuol dire",
+        "url": "http://127.0.0.1:8786/canzone/fuori-dal-tunnel/",
+        "width": 320
+      }
+    ],
+    "paths": [
+      {
+        "h1": "Significato di La cura di Franco Battiato",
+        "scroll": 390,
+        "url": "http://127.0.0.1:8786/canzone/la-cura/",
+        "width": 390
+      },
+      {
+        "h1": "Significato di Vengo dalla Luna di Caparezza",
+        "scroll": 390,
+        "url": "http://127.0.0.1:8786/canzone/vengo-dalla-luna/",
+        "width": 390
+      },
+      {
+        "h1": "Significato di La cura di Franco Battiato",
+        "scroll": 1280,
+        "url": "http://127.0.0.1:8786/canzone/la-cura/",
+        "width": 1280
+      },
+      {
+        "h1": "Significato di Vengo dalla Luna di Caparezza",
+        "scroll": 1280,
+        "url": "http://127.0.0.1:8786/canzone/vengo-dalla-luna/",
+        "width": 1280
+      }
+    ],
+    "errors": []
+  },
+  "browserBaseline": [
+    {
+      "grids": [
+        {
+          "client": 1118,
+          "cols": "372px 372px 372px",
+          "scroll": 1118
+        },
+        {
+          "client": 1118,
+          "cols": "372px 372px 372px",
+          "scroll": 1118
+        }
+      ],
+      "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+      "width": 1280
+    },
+    {
+      "grids": [
+        {
+          "client": 340,
+          "cols": "340px",
+          "scroll": 340
+        },
+        {
+          "client": 340,
+          "cols": "340px",
+          "scroll": 340
+        }
+      ],
+      "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+      "width": 390
+    },
+    {
+      "grids": [
+        {
+          "client": 270,
+          "cols": "300px",
+          "scroll": 300
+        },
+        {
+          "client": 270,
+          "cols": "300px",
+          "scroll": 300
+        }
+      ],
+      "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+      "width": 320
+    }
+  ],
+  "base": "984d94f61418df667d5fba1eb84cf7125ac06e9b",
+  "branch": "codex/cura-luna-mobile-2026-10-12",
+  "copia": "/Users/gianmicheletroisi/.codex/worktrees/cura-luna-mobile-2026-10-12/dietro-il-testo",
+  "stato": "Preparato e verificato; non integrato, inviato o pubblicato.",
+  "deltaGaranti": {
+    "nuoveChiavi": 0,
+    "rimosse": 1,
+    "limite": "Il rilevatore usa un elenco di formule; le nuove attribuzioni sono controllate manualmente nella mappa del dossier."
+  },
+  "screenshot": {
+    "desktop.jpg": "46cd5fa091c039260048c2f085117b46035d77502673f09bb59c264413091659",
+    "mobile320-chiaro.jpg": "0dd2a69e5ba20d7508d9a3c4337804efb9c5568874f11d3c50871f7149369159",
+    "mobile320.jpg": "4711f8375e94c408770f9f686c9402844bf71977f2f1b6bf550ad711f9537551"
+  },
+  "nonTracciatiPreservati": {
+    "SEO-AFFILIAZIONE-FASE2.md": "e94005ed03b5c2ef6b948b7b87fdf8da972c95afacfadfecad454c5fd9a95593",
+    "SEO-LASTMOD-2026-09-21.md": "60c097924257c6c028c2ac2bbed8970fc73c8da25770cee2f03210c0eeeac45b"
+  }
+}

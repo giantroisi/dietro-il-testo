@@ -1712,20 +1712,39 @@
     "ascoltiTesto": "67,0 mln ascolti",
     "spotifyId": "3sc9YIcDSPCXsQ0zzX3JLW",
     "corpo": [
-      "Scritta insieme al filosofo Manlio Sgalambro per l'album L'imboscata, resta uno dei brani più discussi della discografia di Battiato proprio per l'ambiguità della sua interpretazione: c'è chi vi legge un canto d'amore assoluto e incondizionato verso una persona, e chi invece un dialogo tra l'uomo e il divino.",
-      "Il testo, molto poetico, promette protezione e cura totale di fronte alle ferite dell'anima. Fu giudicata \"Canzone italiana dell'anno\" al Premio italiano della musica del 22 marzo 1997."
+      "La cura è la terza traccia di L'imboscata, pubblicato da Polygram nell'autunno del 1996. Il brano è scritto da Franco Battiato insieme a Manlio Sgalambro: i crediti distinguono la musica di Battiato dal testo firmato da entrambi. La pagina ufficiale dell'album colloca questo lavoro nel consolidamento del sodalizio con il filosofo.",
+      "Fanpage propone più letture del brano: una promessa d'amore rivolta a una persona, un dialogo con il divino e una preghiera legata alla madre malata. Sono interpretazioni riportate dalla testata, non una dedica biografica dimostrata né una spiegazione univoca dichiarata da Battiato.",
+      "Il 22 aprile 1997 La cura fu premiata come canzone dell'anno al Premio Italiano della Musica: lo documenta l'intervista di Flavio Brighenti pubblicata su Repubblica il giorno successivo, che attribuisce il risultato ai voti dei lettori di Musica! e degli ascoltatori di Radio DeeJay.",
+      "Nella stessa intervista Battiato raccontò di aver riconosciuto il valore del brano già durante la composizione e lo accostò a E ti vengo a cercare per la zona emotiva in cui si muoveva. Precisò però che la canzone del 1988 era più ambigua, mentre La cura esprimeva quel sentimento in modo più aperto."
     ],
-    "fraseIconica": "Il momento più citato è la promessa, ribadita più volte fino alla fine del brano, di prendersi cura e proteggere la persona a cui ci si rivolge — una forma di devozione totale e assoluta. Scritta con il filosofo Manlio Sgalambro per l'album \"L'imboscata\", la canzone non ha un significato univoco: è stata letta come canzone d'amore romantico, come dialogo spirituale/religioso e, secondo alcune interpretazioni, come un riferimento ai sentimenti di Battiato per la malattia della madre. La critica la descrive generalmente come una meditazione su un amore redentore capace di andare oltre ogni singola interpretazione.",
+    "fraseIconica": "Il centro del brano è la promessa di proteggere e prendersi cura di chi viene interpellato. Fanpage ne propone una lettura amorosa, una spirituale e una legata alla madre malata: sono interpretazioni della testata, non la prova di un destinatario preciso dichiarato da Battiato.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/franco-battiato/la-cura/",
     "fonti": [
       {
-        "url": "https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)",
-        "nome": "Wikipedia"
+        "url": "https://www.battiato.it/limboscata/",
+        "nome": "Franco Battiato — L'imboscata, discografia ufficiale",
+        "ruolo": "album"
+      },
+      {
+        "url": "https://music.apple.com/us/song/la-cura/1478113333",
+        "nome": "Apple Music — crediti di La cura nella registrazione Torneremo ancora",
+        "ruolo": "crediti"
       },
       {
         "url": "https://music.fanpage.it/la-cura-di-franco-battiato-significato-storia-e-testo-della-canzone/",
-        "nome": "Fanpage"
+        "nome": "Fanpage — le diverse interpretazioni di La cura",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://ricerca.repubblica.it/repubblica/archivio/repubblica/1997/04/23/ho-ritrovato-il-gusto-per-il-rischio.html",
+        "nome": "Repubblica — intervista di Flavio Brighenti, 23 aprile 1997",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://it.wikipedia.org/wiki/La_cura_(singolo_Franco_Battiato)",
+        "nome": "Wikipedia — voce del singolo, riscontro dei crediti",
+        "ruolo": "crediti"
       },
       {
         "url": "https://kworb.net/spotify/",
@@ -1736,7 +1755,30 @@
     "testoFonte": "Letras",
     "temi": [
       "amore"
-    ]
+    ],
+    "descrizioneSeo": "Scritta insieme al filosofo Manlio Sgalambro per l'album L'imboscata.",
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "F"
+      ],
+      [
+        "I",
+        "I"
+      ],
+      [
+        "F"
+      ],
+      [
+        "D",
+        "D"
+      ]
+    ],
+    "revisioneMirata": {
+      "data": "2026-10-12",
+      "nota": "Fonti riaperte e affermazioni riviste. Questa revisione editoriale non sostituisce una verifica indipendente della nuova versione."
+    }
   },
   {
     "slug": "caruso",
@@ -12650,30 +12692,57 @@
     "ascoltiTesto": "37,3 mln ascolti",
     "spotifyId": "424BQDJzOJqfJCZusTvAZP",
     "corpo": [
-      "Scritta da Michele Salvemini (Caparezza) insieme a Diego Perrone, frontman dei I Medusa che presta la voce anche al brano, fu pubblicata il 6 maggio 2004 come quarto singolo estratto da Verità supposte, secondo album di Caparezza uscito nel 2003. Prodotta da Carlo U. Rossi, la canzone usa l'allegoria di un narratore che dichiara di venire dalla Luna per criticare i pregiudizi sociali verso chi proviene da un'origine diversa.",
-      "Il videoclip mostra Caparezza e la sua band inseguiti da uomini in nero in un'area di contenimento, per poi rivelare che gli inseguitori sono in realtà abitanti alieni del pianeta. Il brano, certificato disco di platino in Italia, è stato reinterpretato in chiave rock dai Måneskin, che secondo Wikipedia lo proposero ai bootcamp di X Factor 2017 (per Rockol la cover fu assegnata da Manuel Agnelli nel corso del programma), quando la band non era ancora affermata, e pubblicato nel loro EP \"Chosen\"."
+      "Vengo dalla Luna è la sesta traccia di Verità supposte, secondo album di Caparezza uscito nel 2003. Il sito ufficiale accredita la partecipazione vocale di Diego Perrone. I crediti digitali non sono uniformi: Qobuz indica Michele Salvemini come autore dell'originale, mentre per la cover dei Måneskin elenca anche Diego Perrone; questi due elenchi non permettono di sciogliere definitivamente l'attribuzione del testo.",
+      "OndaRock legge il brano come un inno contro il razzismo. La Scimmia Pensa interpreta il narratore proveniente dalla Luna come una figura attraverso cui denunciare i pregiudizi verso chi arriva da un'origine diversa. Questa lettura riguarda l'allegoria del brano, non una provenienza reale del cantante.",
+      "L'archivio FIMI documenta per la registrazione di Caparezza il disco di platino nella settimana 41 del 2019. Nel 2017 i Måneskin eseguirono la loro versione ai Bootcamp di X Factor: lo confermano il video del programma pubblicato da Sky e l'articolo di Sky TG24 del 19 dicembre 2017. La cover è poi inclusa nell'EP Chosen, come attestano la tracklist e la recensione di Rockol."
     ],
-    "fraseIconica": "Il narratore dichiara di venire dalla Luna, un'origine così estranea da rendere evidente quanto sia assurdo giudicare qualcuno solo per il posto da cui viene, trasformando l'alieno in una metafora di chi subisce il pregiudizio per la propria provenienza.",
+    "fraseIconica": "Nella lettura di Matteo Furina per La Scimmia Pensa, il narratore proveniente dalla Luna rappresenta chi subisce i pregiudizi legati alla propria origine. La provenienza extraterrestre rende evidente l’assurdità di giudicare una persona soltanto per il luogo da cui arriva.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/caparezza/413836/",
     "fonti": [
       {
-        "url": "https://www.rockol.it/recensioni-musicali/album/7642/maneskin-chosen",
-        "nome": "Rockol",
-        "ruolo": "storia"
+        "url": "https://www.caparezza.com/v2017/releases/verita-supposte/",
+        "nome": "Caparezza — Verità supposte, tracklist e featuring ufficiali",
+        "ruolo": "album"
       },
       {
-        "url": "https://www.ondarock.it/italia/caparezza.htm",
-        "nome": "OndaRock",
-        "ruolo": "storia"
+        "url": "https://www.qobuz.com/it-it/album/verita-supposte-caparezza/0724359003955",
+        "nome": "Qobuz — crediti EMI della registrazione originale",
+        "ruolo": "crediti"
       },
       {
-        "url": "https://it.wikipedia.org/wiki/Vengo_dalla_Luna",
-        "nome": "Wikipedia (voce del brano)"
+        "url": "https://www.qobuz.com/it-it/album/chosen-maneskin/o1t96aztw7rqp",
+        "nome": "Qobuz — crediti Sony della cover in Chosen",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.ondarock.it/monografie/caparezza/",
+        "nome": "OndaRock — monografia di Antonio Silvestri, sezione Verità supposte",
+        "ruolo": "storia"
       },
       {
         "url": "https://www.lascimmiapensa.com/2020/06/28/caparezza-vengo-dalla-luna-analisi-spiegazione-brano/",
-        "nome": "La Scimmia Pensa",
+        "nome": "La Scimmia Pensa — interpretazione di Matteo Furina, 28 giugno 2020",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.fimi.it/top-of-the-music/music/?artist=CAPAREZZA&title=VENGO+DALLA+LUNA",
+        "nome": "FIMI — archivio della registrazione di Caparezza",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://video.sky.it/xfactor/puntate/video/caparezza-secondo-i-maneskin-371069",
+        "nome": "Sky — video ufficiale di X Factor 2017",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://tg24.sky.it/spettacolo/musica/2017/12/19/x-factor-2017-ep-maneskin",
+        "nome": "Sky TG24 — la cover ai Bootcamp, 19 dicembre 2017",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.rockol.it/recensioni-musicali/album/7642/maneskin-chosen",
+        "nome": "Rockol — recensione di Chosen, 11 dicembre 2017",
         "ruolo": "storia"
       },
       {
@@ -12683,7 +12752,29 @@
       }
     ],
     "testoFonte": "Letras",
-    "temi": []
+    "temi": [],
+    "descrizioneSeo": "Scritta da Michele Salvemini (Caparezza) insieme a Diego Perrone, frontman dei I Medusa che presta la voce anche al brano.",
+    "naturaCorpo": [
+      [
+        "F",
+        "F",
+        "F"
+      ],
+      [
+        "I",
+        "I",
+        "I"
+      ],
+      [
+        "F",
+        "F",
+        "F"
+      ]
+    ],
+    "revisioneMirata": {
+      "data": "2026-10-12",
+      "nota": "Fonti riaperte. I crediti di originale e cover divergono sull’attribuzione agli autori, che resta da chiarire; questa revisione non sostituisce una verifica indipendente della nuova versione."
+    }
   },
   {
     "slug": "questa-e-la-mia-vita",

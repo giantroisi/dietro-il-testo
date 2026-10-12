@@ -22,5 +22,11 @@ export function collegamentiContestuali(c, canzoniPerSlug, radice) {
     visti.add(slug);
     return `<a href="${radice}canzone/${esc(slug)}/">${esc(destinazione.titolo)}</a>`;
   });
+  if (scelta.prima !== undefined || scelta.dopo !== undefined) {
+    if (link.length !== 1 || typeof scelta.prima !== 'string' || typeof scelta.dopo !== 'string' || !Number.isInteger(scelta.dopoParagrafo) || scelta.dopoParagrafo < 0 || scelta.dopoParagrafo >= c.corpo.length) {
+      throw new Error(`${c.slug}: contesto o posizione del collegamento non validi`);
+    }
+    return `<p class="collegamenti-contestuali">${esc(scelta.prima)}${link[0]}${esc(scelta.dopo)}</p>`;
+  }
   return `<p class="collegamenti-contestuali">Continua fra le canzoni di ${esc(c.artista)}: ${link.join(' e ')}.</p>`;
 }

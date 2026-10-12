@@ -4599,3 +4599,14 @@ Filone concluso: **AFFILIAZIONI / altre dieci canzoni**. Copia: `/private/tmp/di
 
 
 Pubblicazione del lotto §94 approvata specificamente dal proprietario e verificata: integrazione fast-forward del commit `0cfdf96c0`, origin/main aggiornato, deploy `dpl_HCcfgaU2LiWN6Be9brfcc56NWmxT` READY in produzione con SHA e alias www.dietroiltesto.it verificati. Build 16 secondi. Generazione, affiliazioni (1.065 link), SEO (696 HTML), link interni e collegamenti Ligabue ripetuti dopo integrazione: positivi. Le 18 pagine e tre sitemap HTTPS coincidono byte per byte con main. Dodici controlli browser live desktop/mobile positivi, percorso Disturbed → Immortalized → The Sound of Silence mobile effettuato; screenshot e prove aggiornati, zero errori console. Documenti SEO non tracciati e altra AI preservati; routine sospesa. Filone concluso: **AFFILIAZIONI / altre dieci canzoni pubblicate e verificate**.
+
+
+## 95. La cura, Vengo dalla Luna e due percorsi contestuali — 12 ottobre 2026, in revisione
+
+Lotto isolato: due corpi e momenti iconici rivisti sulle fonti riaperte; letture attribuite, premio La cura corretto al 22 aprile 1997 dalla Repubblica contemporanea, cover Vengo ai Bootcamp 2017 documentata direttamente da Sky. Crediti originali/cover discordanti dichiarati; non assegnato un bollino indipendente. Description congelate dal mandato: coautoria non qualificata nei metadati Vengo resta un limite esplicito.
+
+Due link contestuali: E ti vengo a cercare → La cura dopo il secondo paragrafo, Fuori dal tunnel → Vengo dalla Luna dopo il primo. Griglie corrette a 320 px nei soli quattro HTML coinvolti: colonne 270 px, misure 390/1280 invariate. Due OG aggiornate e controllate. Modalità mirata del generatore, niente rigenerazione generale o modifica delle sitemap. Title, description, canonical e datePublished invariati; dateModified dei quattro HTML al 12 ottobre.
+
+SEO, affiliazioni (1.065 link), link, coerenza, nature, contestuali (5 percorsi/8 link) e diff positivi. Dodici prove browser 1280/390/320, quattro percorsi completi da tastiera e zero errori console; screenshot mobile scuro/chiaro e desktop. Tre input negativi del generatore respinti senza scrivere. Gates globali già negativi: stessi 24 bollini non indipendenti; garanti non registrati 49 → 48, nessuna chiave nuova. Le nuove attribuzioni sono mappate manualmente nel dossier.
+
+Filone concluso nella copia: **revisione editoriale circoscritta, mobile e collegamenti contestuali**. Dossier `rapporti/cura-luna-mobile-2026-10-12.md`, prove JSON e screenshot omonimi. Copia `/Users/gianmicheletroisi/.codex/worktrees/cura-luna-mobile-2026-10-12/dietro-il-testo`, branch `codex/cura-luna-mobile-2026-10-12`, base 984d94f61. Main, documenti non tracciati, altra AI e proposte precedenti intatti; routine sospesa. Non integrato né pubblicato: autorizzazione specifica del proprietario da ottenere dopo presentazione del risultato.
