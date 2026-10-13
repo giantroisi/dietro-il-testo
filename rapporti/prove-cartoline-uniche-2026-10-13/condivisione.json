@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "hotel-california",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "hotel-california",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "hotel-california",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "hotel-california",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "hotel-california",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "caruso",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "caruso",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "caruso",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "caruso",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "caruso",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "azzurro",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "azzurro",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "azzurro",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "azzurro",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "azzurro",
+    "scenario": "loading",
+    "ok": true
+  }
+]

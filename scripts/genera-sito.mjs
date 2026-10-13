@@ -500,8 +500,8 @@ const pilloleDir = join(ROOT, 'pillole');
 if (existsSync(pilloleDir)) {
   mkdirSync(join(OUT, 'pillole'), { recursive: true });
   for (const nome of readdirSync(pilloleDir)) {
-    if (!/^[a-z0-9-]+-(chiaro|scuro)\.webp$/.test(nome)) throw new Error(`Asset pillola inatteso: ${nome}`);
-    const slug = nome.replace(/-(chiaro|scuro)\.webp$/, '');
+    if (!/^[a-z0-9-]+-((chiaro|scuro)\.webp|storia\.jpg)$/.test(nome)) throw new Error(`Asset pillola inatteso: ${nome}`);
+    const slug = nome.replace(/-((chiaro|scuro)\.webp|storia\.jpg)$/, '');
     if (!soloCanzoni || soloCanzoni.includes(slug)) copyFileSync(join(pilloleDir, nome), join(OUT, 'pillole', nome));
   }
 }

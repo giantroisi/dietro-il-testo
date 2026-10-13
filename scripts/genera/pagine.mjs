@@ -5,7 +5,7 @@ import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './collegamenti-contestuali.mjs';
-import { PILLOLE, pillolaEditoriale, STILE_PILLOLE } from './pillole.mjs';
+import { PILLOLE, pillolaEditoriale, urlPillola, STILE_PILLOLE } from './pillole.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
 // collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
@@ -783,6 +783,7 @@ export function paginaCanzone(c, ctx) {
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
           data-cartolina
+          ${pillola ? `data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
           data-titolo="${esc(c.titolo)}"
           data-artista="${esc(c.artista)}"
           data-anno="${esc(annoDi(c) || '')}"
@@ -911,7 +912,8 @@ ${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale && posiz
     descrizione: descr,
     identita: c.colore || undefined,
     identitaContrasto: c.colore ? suColore(c.colore) : undefined,
-    ogImage: `og/${c.slug}.png${c.ogVersione ? `?v=${c.ogVersione}` : ''}`,
+    ogImage: pillola ? urlPillola(c, '') : `og/${c.slug}.png${c.ogVersione ? `?v=${c.ogVersione}` : ''}`,
+    ...(pillola ? { ogImageWidth: 1080, ogImageHeight: 1920 } : {}),
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,

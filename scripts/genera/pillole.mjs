@@ -7,28 +7,23 @@ export const STILE_PILLOLE = `
 .pillola-editoriale { margin: 2.75rem 0; }
 .pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
 .pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
-.pillola-editoriale .pillola-scuro { display: none; }
-:root[data-theme="dark"] .pillola-chiaro { display: none; }
-:root[data-theme="dark"] .pillola-scuro { display: block; }
-@media (prefers-color-scheme: dark) {
-:root:not([data-theme="light"]) .pillola-chiaro { display: none; }
-:root:not([data-theme="light"]) .pillola-scuro { display: block; }
-}
 .pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
 @media print { .pillola-editoriale { display: none; } }
 `;
-export function pillolaEditoriale(c, r) {
+export function urlPillola(c, r) {
   const p = PILLOLE[c.slug];
   if (!p) return '';
-  if (p.artistaSlug !== c.artistaSlug || !p.testo || p.dopoParagrafo !== 0 || c.corpo.length < 2 || !c.fonti.some(f => f.url === p.fonte)) {
-    throw new Error(`Pillola non coerente con la scheda: ${c.slug}`);
+  if (p.artistaSlug !== c.artistaSlug || p.testo !== c.fraseIconica || p.dopoParagrafo !== 0 || c.corpo.length < 2 || !c.fonti.some(f => f.url === p.fonte) || p.file !== `${c.slug}-storia.jpg`) {
+    throw new Error(`Cartolina non coerente con la scheda: ${c.slug}`);
   }
-  const immagini = ['chiaro','scuro'].map(v => {
-    const nome = `${c.slug}-${v}.webp`;
-    const bytes = readFileSync(new URL(`../../pillole/${nome}`, import.meta.url));
-    const hash = createHash('sha256').update(bytes).digest('hex');
-    if (hash !== p.varianti[v]) throw new Error(`Immagine pillola modificata senza verifica: ${nome}`);
-    return `<img class="pillola-${v}" src="${r}pillole/${nome}?v=${hash.slice(0,12)}" width="1080" height="1920" loading="lazy" decoding="async" alt="${esc(`Pillola editoriale su ${c.titolo}: ${p.testo}`)}">`;
-  }).join('');
-  return `<figure class="pillola-editoriale"><div class="pillola-immagini">${immagini}</div><figcaption>Sintesi originale di Dietro il testo · <a href="${esc(p.fonte)}" target="_blank" rel="noopener noreferrer">${esc(p.nomeFonte)}</a></figcaption></figure>`;
+  const bytes = readFileSync(new URL(`../../pillole/${p.file}`, import.meta.url));
+  const hash = createHash('sha256').update(bytes).digest('hex');
+  if (hash !== p.sha256) throw new Error(`Cartolina modificata senza verifica: ${p.file}`);
+  return `${r}pillole/${p.file}?v=${hash.slice(0,12)}`;
+}
+export function pillolaEditoriale(c, r) {
+  const src = urlPillola(c,r);
+  if (!src) return '';
+  const p = PILLOLE[c.slug];
+  return `<figure class="pillola-editoriale"><div class="pillola-immagini"><img src="${src}" width="1080" height="1920" loading="lazy" decoding="async" alt="${esc(`Cartolina di condivisione di ${c.titolo}: ${p.testoGrafica}`)}"></div><figcaption>Momento iconico descritto con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>`;
 }

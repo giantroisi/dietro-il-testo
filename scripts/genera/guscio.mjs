@@ -210,8 +210,8 @@ ${o.noindex ? '' : `<meta property="og:url" content="${SITO.base}/${o.percorso |
 ${
   o.ogImage
     ? `<meta property="og:image" content="${SITO.base}/${o.ogImage}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="${o.ogImageWidth || 1200}">
+<meta property="og:image:height" content="${o.ogImageHeight || 630}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${SITO.base}/${o.ogImage}">`
     : `<meta name="twitter:card" content="summary">`

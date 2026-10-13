@@ -1,0 +1,20 @@
+# Immagini nelle pagine e condivisione — 13 ottobre 2026
+
+## Richiesta e risultato
+Il proprietario richiede la stessa immagine nella pagina e nella condivisione. Sostituite le tre grafiche del modello Sottolineature in Hotel California, Caruso e Azzurro con la cartolina Storia del renderer Instagram già vigente di Dietro il testo. Un solo JPEG1080×1920 per pagina: identico URL nell’immagine visibile, attributo data-cartolina-storia e metadati OG/Twitter. Il tema chiaro/scuro non cambia l’immagine; colori e contenuto appartengono alla cartolina condivisa. Posizione dopo il primo paragrafo e larghezze352/342/272px preservate.
+
+## Generazione e file
+scripts/pillole/render.cjs usa direttamente il renderer prodotto da generaRicerca, senza una seconda composizione; testo e attributi vengono dalla cartolina della stessa pagina. Fonte del testo: momento iconico già parafrasato della scheda, nessuna nuova ricerca editoriale o riproduzione di versi. La didascalia rimanda alle fonti visibili della scheda. Alt riproduce il testo effettivamente disegnato, incluso l’eventuale troncamento del formato originale. Nuove pillole/*-storia.jpg e nuova configurazione dati/pillole.json; le sei WebP e il modello del vecchio pilot restano come asset storici, non mostrati né collegati.
+
+Il pulsante Instagram/Storia precarica e passa lo stesso File JPEG alla condivisione nativa; fallback download allo stesso URL. Nessun await nel gesto del click: mantiene l’attivazione richiesta da iOS. Annullamento rispettato, attesa esplicita se non ancora caricato, nessun ridisegno alternativo. Post/Reel conservano i formati e i margini originali. I social possono ritagliare l’anteprima verticale o mantenere una cache: il sito fornisce comunque lo stesso file, URL versionato. Nessun caricamento o invio a un profilo social effettuato.
+
+## Ambito e date
+Copia /Users/gianmicheletroisi/.codex/worktrees/immagini-condivisione-2026-10-13/dietro-il-testo, ramo codex/immagini-condivisione-2026-10-13, base3f14c061e. R.E.M. approvata già online; prove successive nel ramo locale0a9178fda, intatto. 883 è una ricerca preliminare e una copia pulita, non un lotto fotografico completato.
+
+Letta protezione F40 prima del rendering: baseline statica tracciata, tre soli HTML canzone e ricerca.js. Nessun build generale, nessuna scrittura computati o cancellazione OUT. Title/description/H1/canonical/datePublished/dateModified preservati nelle tre schede, sei sitemap identiche e lastmod invariati (già13ottobre). Altri693HTML e tutti1065link affiliati intatti. Cambiano solo tre HTML, ricerca.js, tre asset e configurazione/template pertinenti; nessun dato canzone o artista modificato. Guscio usa dimensioniOG esplicite per il solo pilot, default1200×630 preservato altrove. La copia degli asset nel generatore accetta anche i tre JPEG per i render futuri.
+
+## Verifiche
+SEO696, link321/104, affiliazioni1065, coerenza e diff positivi. Nove controlli browser1280/390/320: una sola immagine,1080×1920 caricata, src identico a share e OG, zero overflow e errori console. Tema chiaro e collegamento Fonti da tastiera controllati su Azzurro. Quindici percorsi con il vero handler client in VM: tre file condivisi identici byte per byte, download stessoURL, cancellazione, caricamento e errore fetch. Il browser nativo apre il percorso di condivisione; non verificata la consegna a Instagram, che richiederebbe un invio reale. Immagini originali visionate; grafica e riduzioni controllate negli screenshot. Rerender deterministico e sintassi verificati prima del commit.
+
+## Stato e autorizzazioni
+Preparato e verificato, solo commit locale. Non integrato nel main, non inviato a GitHub, non pubblicato. Richiesta specifica del proprietario per integrazione/push/pubblicazione da ottenere. Main conserva i due documenti SEO non tracciati e l’altraAI è intatta. Registrazione app al limite100anche dopo tentativo attach: copia utilizzabile. Nessun GSC/IndexNow. Integrare la sola nuova sezione Roadmap§101, preservando le prove fotografiche su rami distinti. Filone concluso nella copia: immagini unificate tra pagina e condivisione, pilot tre schede.

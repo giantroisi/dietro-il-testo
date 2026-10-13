@@ -553,6 +553,25 @@ export function generaRicerca(ctx) {
 
     function dice(messaggio) { if (nota) nota.textContent = messaggio; }
 
+    // Il pilot mostra e condivide lo stesso JPEG, senza ridisegnarlo sul dispositivo.
+    var storiaUrl = cartolina.getAttribute('data-cartolina-storia');
+    var storiaFile = null;
+    var storiaErrore = false;
+    if (storiaUrl) {
+      try {
+        var storiaAssoluta = new URL(storiaUrl, location.href);
+        if (storiaAssoluta.origin !== location.origin) throw new Error('Origine inattesa');
+        fetch(storiaAssoluta.href).then(function (r) {
+          if (!r.ok) throw new Error('Immagine non disponibile');
+          return r.blob();
+        }).then(function (blob) {
+          if (blob.type !== 'image/jpeg') throw new Error('Formato immagine inatteso');
+          storiaFile = new File([blob], (cartolina.getAttribute('data-slug') || 'dietroiltesto') + '-storia.jpg', {type:'image/jpeg'});
+        }).catch(function () { storiaErrore = true; });
+      } catch (e) { storiaErrore = true; }
+    }
+
+
     function avvolgi(x, testo, largh) {
       var parole = String(testo || '').split(/\\s+/);
       var righe = [];
@@ -782,6 +801,23 @@ export function generaRicerca(ctx) {
       b.addEventListener('click', function () {
         var chiave = b.getAttribute('data-formato');
         if (!FORMATI[chiave]) return;
+        if (chiave === 'storia' && storiaUrl) {
+          if (storiaFile && navigator.canShare && navigator.share && navigator.canShare({files:[storiaFile]})) {
+            navigator.share({files:[storiaFile],title:cartolina.getAttribute('data-titolo') || ''}).then(function () {
+              dice('Fatto. In Instagram scegli Storia.');
+            }).catch(function () { dice('Condivisione annullata.'); });
+          } else if (!storiaFile && !storiaErrore) {
+            dice('Sto ancora caricando l’immagine: riprova fra un istante.');
+          } else {
+            var download = document.createElement('a');
+            download.href = storiaUrl;
+            download.download = (cartolina.getAttribute('data-slug') || 'dietroiltesto') + '-storia.jpg';
+            document.body.appendChild(download); download.click(); document.body.removeChild(download);
+            dice('Immagine Storia scaricata: è la stessa mostrata nella pagina.');
+          }
+          return;
+        }
+
         if (!logoPronto) { dice('Sto ancora caricando il logo: riprova fra un istante.'); return; }
         var cv;
         try { cv = disegna(chiave); } catch (e) { dice('Non sono riuscito a preparare l’immagine su questo browser.'); return; }

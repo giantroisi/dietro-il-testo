@@ -1,0 +1,48 @@
+{
+  "base": "3f14c061ef5263f1b634abcff2b2dd557beb5cbb",
+  "htmlModificati": [
+    "canzone/azzurro/index.html",
+    "canzone/caruso/index.html",
+    "canzone/hotel-california/index.html"
+  ],
+  "sitemapModificate": [],
+  "lastmodAttese": "nessuna variazione: tre URL già al 13 ottobre",
+  "controlli": [
+    {
+      "file": "canzone/azzurro/index.html",
+      "metadatiDatePreservati": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true,
+        "dateModified": true
+      },
+      "linkAmazonPreservati": true
+    },
+    {
+      "file": "canzone/caruso/index.html",
+      "metadatiDatePreservati": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true,
+        "dateModified": true
+      },
+      "linkAmazonPreservati": true
+    },
+    {
+      "file": "canzone/hotel-california/index.html",
+      "metadatiDatePreservati": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true,
+        "dateModified": true
+      },
+      "linkAmazonPreservati": true
+    }
+  ]
+}

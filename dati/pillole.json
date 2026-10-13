@@ -1,38 +1,41 @@
 {
   "hotel-california": {
-    "testo": "Per Don Henley, Hotel California racconta gli eccessi e il lato oscuro del sogno americano.",
+    "testo": "Quando Gayle King gli chiese di riassumere il significato in due frasi, Henley disse che non ci sarebbe riuscito: la canzone, spiegò, attraversa il lato oscuro del sogno americano e può avere molte interpretazioni. La sua risposta lascia aperto il racconto senza imporre una soluzione unica al mistero dell’hotel.",
     "fonte": "https://www.cbsnews.com/news/don-henley-the-eagles-glenn-frey-kennedy-center-honor-hotel-california/",
     "nomeFonte": "CBS News — intervista a Don Henley",
     "artistaSlug": "eagles",
     "dopoParagrafo": 0,
     "verificataIl": "2026-10-13",
-    "varianti": {
-      "chiaro": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360",
-      "scuro": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1"
-    }
+    "file": "hotel-california-storia.jpg",
+    "sha256": "a176cf4e727ef41fa082616ad8c18d03911873016efccbe847d38aeb17ee463a",
+    "testoGrafica": "Quando Gayle King gli chiese di riassumere il significato in due frasi, Henley disse che non ci sarebbe riuscito: la canzone, spiegò, attraversa il lato oscuro del sogno americano e può…",
+    "formato": "storia",
+    "modello": "scripts/genera/ricerca.mjs"
   },
   "caruso": {
-    "testo": "Caruso intreccia memoria e amore: il protagonista guarda alla propria vita attraverso ciò che sente per la persona amata.",
+    "testo": "Il ritornello più citato è quello in cui il narratore ripete più volte, con intensità crescente, il proprio amore per la donna accanto a lui, descrivendolo come un legame che sente scorrere nel sangue. Dalla scrisse il brano dopo essere rimasto bloccato a Sorrento per un guasto alla barca, alloggiando nella stessa stanza d'albergo dove il tenore Enrico Caruso aveva trascorso i suoi ultimi giorni. I proprietari dell'albergo gli raccontarono degli ultimi giorni di vita del tenore e della sua passione per una giovane a cui dava lezioni di canto — un aneddoto secondo altre fonti attribuito invece a un barista di Sorrento, che diceva di averlo saputo dalla zia, cameriera dello stesso albergo.",
     "fonte": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
     "nomeFonte": "Fanpage — lettura del brano",
     "artistaSlug": "lucio-dalla",
     "dopoParagrafo": 0,
     "verificataIl": "2026-10-13",
-    "varianti": {
-      "chiaro": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c",
-      "scuro": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0"
-    }
+    "file": "caruso-storia.jpg",
+    "sha256": "3de20dbe420c624cce2d21fb208bfc2af96897b534a3ddc8ed7b73bfbb7e3d29",
+    "testoGrafica": "Il ritornello più citato è quello in cui il narratore ripete più volte, con intensità crescente, il proprio amore per la donna accanto a lui, descrivendolo come un legame che sente scorrere nel sangue. Dalla scrisse il brano dopo essere rimasto bloccato a Sorrento per un guasto alla barca, alloggiando nella…",
+    "formato": "storia",
+    "modello": "scripts/genera/ricerca.mjs"
   },
   "azzurro": {
-    "testo": "La musica di Paolo Conte sceglie il passo di una marcetta: una scelta fuori moda che il pubblico fece propria.",
+    "testo": "Paolo Conte compose la musica e Vito Pallavicini scrisse il testo; l’arrangiamento della versione di Adriano Celentano fu di Nando De Luca. Conte ricordò che il ritmo di marcetta, allora controcorrente, suscitò inizialmente perplessità, prima del successo del brano.",
     "fonte": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
     "nomeFonte": "Rockol — storia di Azzurro",
     "artistaSlug": "adriano-celentano",
     "dopoParagrafo": 0,
     "verificataIl": "2026-10-13",
-    "varianti": {
-      "chiaro": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811",
-      "scuro": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3"
-    }
+    "file": "azzurro-storia.jpg",
+    "sha256": "840f6520e8af16b497f6f7874de315d89b02228d1a878b4ec6f722ca52a9232f",
+    "testoGrafica": "Paolo Conte compose la musica e Vito Pallavicini scrisse il testo; l’arrangiamento della versione di Adriano Celentano fu di Nando De Luca. Conte ricordò che il ritmo di marcetta, allora controcorrente, suscitò inizialmente perplessità, prima del successo del brano.",
+    "formato": "storia",
+    "modello": "scripts/genera/ricerca.mjs"
   }
 }
