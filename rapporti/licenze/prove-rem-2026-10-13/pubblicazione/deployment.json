@@ -1,0 +1,23 @@
+{
+  "commit": "3f14c061ef5263f1b634abcff2b2dd557beb5cbb",
+  "deployment": "dpl_6iA5jSUcuNjT81e37LMwf62DszKc",
+  "projectId": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+  "target": "production",
+  "state": "READY",
+  "alias": "www.dietroiltesto.it",
+  "buildingAt": 1791911343530,
+  "ready": 1791911358796,
+  "durataBuildSecondi": 15.266,
+  "githubVercel": "success",
+  "erroriConsoleBrowser": 0,
+  "autorizzazione": "Approvo R.E.M. 3f14c061e: integrazione, push e pubblicazione",
+  "integrazione": "fast-forward da 6d1e2c180",
+  "filePubbliciModificati": [
+    "artista/r-e-m/index.html",
+    "sitemap-artisti.xml"
+  ],
+  "vociPrecedentiRitrattiPreservate": 52,
+  "documentiSEONonTracciati": "hash invariati",
+  "lastmod": "solo /artista/r-e-m/ al 2026-10-13",
+  "osservabilita": "Nessuna scansione globale dei log runtime effettuata; controlli browser della singola pagina e stato CI/deployment."
+}

@@ -27,3 +27,12 @@ Altre candidate lette, non usate: vecchia RoyalAlbertHallwonker già scartata; S
 Copia /Users/gianmicheletroisi/.codex/worktrees/ritratto-rem-2026-10-13/dietro-il-testo; ramo codex/ritratto-rem-2026-10-13; base6d1e2c180ddc0ee567c5c492d1d5647e96d4d285. Main, due documenti SEO non tracciati, copia dell'altraAI e precedenti proposte intatti. Dodici vecchie copie Vediamo in timeout: lasciate intatte. Registrazione app al limite100allegati anche dopo tentativo attach; checkout disponibile. Nessun GSC/IndexNow, push, trasferimento o pubblicazione.
 
 Da approvare specificamente. Nell'integrazione unire solo la chiave r-e-m del JSON e la sezione Roadmap§100: eventuali altre voci di fotografie vanno mantenute; non sovrascrivere l'intero JSON o documento. Servono soltanto foto, HTMLartista e sua voce sitemap, dossier/prove. Filone concluso nella copia: IMMAGINI / R.E.M., proposta verificata.
+
+
+## Pubblicazione approvata e verificata — 13 ottobre 2026
+
+Approvazione diretta del proprietario per integrazione, push e pubblicazione del lotto3f14c061e. Main e remoto ancora su6d1e2c180; integrazione fast-forward del solo commit e push eseguiti. Deploy dpl_6iA5jSUcuNjT81e37LMwf62DszKc READY production: SHA3f14c061ef5263f1b634abcff2b2dd557beb5cbb, progetto e alias www.dietroiltesto.it verificati; build15secondi, GitHub Vercel success. Pagina, foto e sei sitemap HTTPS identiche byte per byte al lotto, TLS attivo.
+
+Ricontrollati696HTML e sei sitemap: modificati soltanto artista/r-e-m/index.html e la sua voce lastmod; tutte52voci precedenti del JSON preservate. Crediti/asset, SEO, link, affiliazioni1065, coerenza e diff positivi. Browser live1280/390/320: foto960×643 caricata, resa300×202/280×188, credito completo, zero overflow e zero errori console. Title/description/canonical/H1/datePublished invariati. Main conserva solo i due documenti SEO non tracciati con hash identici; altraAI e proposte intatte. Nessun GSC o IndexNow.
+
+Prove in prove-rem-2026-10-13/pubblicazione. Nessuna scansione globale dei log runtime dichiarata. Frontman MichaelStipe, non formazione completa: limite fotografico invariato. Filone concluso: IMMAGINI / R.E.M. pubblicata e verificata. Le prove successive alla pubblicazione restano in un ramo locale distinto, senza ulteriore push.

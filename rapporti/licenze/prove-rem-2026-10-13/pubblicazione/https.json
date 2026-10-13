@@ -1,0 +1,58 @@
+[
+  {
+    "file": "artista/r-e-m/index.html",
+    "url": "https://www.dietroiltesto.it/artista/r-e-m/",
+    "identico": true,
+    "bytes": 52903,
+    "sha256": "08a0c31817556dbeee54b9d1ec83105246661c61de12ab718a9893194306c367"
+  },
+  {
+    "file": "ritratti/r-e-m.jpg",
+    "url": "https://www.dietroiltesto.it/ritratti/r-e-m.jpg",
+    "identico": true,
+    "bytes": 186174,
+    "sha256": "bd7776267b170d26d2f497815588c877dc0d11ccfbb85fd2d0e9a7cd2a6861ba"
+  },
+  {
+    "file": "sitemap.xml",
+    "url": "https://www.dietroiltesto.it/sitemap.xml",
+    "identico": true,
+    "bytes": 525,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+    "identico": true,
+    "bytes": 10854,
+    "sha256": "5b48271eec73b46eacfa74c16d31cbc67c17952e2dfc76df6bb8af14ba77533d"
+  },
+  {
+    "file": "sitemap-album.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+    "identico": true,
+    "bytes": 15325,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+    "identico": true,
+    "bytes": 34080,
+    "sha256": "a8b09659c21b51a088b891f08c62c64571a34f0f6dfd750029588f2394d255bc"
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+    "identico": true,
+    "bytes": 955,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+    "identico": true,
+    "bytes": 750,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+  }
+]
