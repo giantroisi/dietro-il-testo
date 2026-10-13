@@ -1,0 +1,30 @@
+{
+  "base": "6d1e2c180ddc0ee567c5c492d1d5647e96d4d285",
+  "metadatiPreservati": {
+    "title": true,
+    "description": true,
+    "canonical": true,
+    "h1": true,
+    "datePublished": true
+  },
+  "dateModified": {
+    "prima": [
+      "2026-10-03"
+    ],
+    "dopo": [
+      "2026-10-13"
+    ]
+  },
+  "lastmod": {
+    "prima": "2026-10-03",
+    "dopo": "2026-10-13"
+  },
+  "originale": {
+    "bytes": 5068597,
+    "sha256": "275bec0bd05b987f6b14e62550bef1a000e29f543c2350dcb72ff6e11619e67f"
+  },
+  "modificatiPubblici": [
+    "artista/r-e-m/index.html",
+    "sitemap-artisti.xml"
+  ]
+}
