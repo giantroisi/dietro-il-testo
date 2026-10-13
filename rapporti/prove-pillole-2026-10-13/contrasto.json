@@ -1,0 +1,16 @@
+{
+  "chiaro": {
+    "fondo": "#f2f0eb",
+    "testo": "#211f1b",
+    "metadati": "#5b564d",
+    "contrastoTesto": 14.45,
+    "contrastoMetadati": 6.4
+  },
+  "scuro": {
+    "fondo": "#16191a",
+    "testo": "#ece7dd",
+    "metadati": "#a9a296",
+    "contrastoTesto": 14.34,
+    "contrastoMetadati": 6.98
+  }
+}

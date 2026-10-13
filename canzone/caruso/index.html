@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/caruso.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/caruso/#brano","name":"Caruso","byArtist":{"@type":"MusicGroup","name":"Lucio Dalla","url":"https://www.dietroiltesto.it/artista/lucio-dalla/"},"inAlbum":{"@type":"MusicAlbum","name":"DallAmeriCaruso"},"datePublished":"1986","url":"https://www.dietroiltesto.it/canzone/caruso/","description":"Nato per caso in un albergo di Sorrento dove decenni prima aveva soggiornato Enrico Caruso, il brano immagina gli ultimi giorni del tenore."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Caruso","item":"https://www.dietroiltesto.it/canzone/caruso/"}]},{"@type":"Article","headline":"Caruso","about":{"@id":"https://www.dietroiltesto.it/canzone/caruso/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/caruso/","dateModified":"2026-10-02"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/caruso/#brano","name":"Caruso","byArtist":{"@type":"MusicGroup","name":"Lucio Dalla","url":"https://www.dietroiltesto.it/artista/lucio-dalla/"},"inAlbum":{"@type":"MusicAlbum","name":"DallAmeriCaruso"},"datePublished":"1986","url":"https://www.dietroiltesto.it/canzone/caruso/","description":"Nato per caso in un albergo di Sorrento dove decenni prima aveva soggiornato Enrico Caruso, il brano immagina gli ultimi giorni del tenore."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Pop","item":"https://www.dietroiltesto.it/genere/pop/"},{"@type":"ListItem","position":3,"name":"Caruso","item":"https://www.dietroiltesto.it/canzone/caruso/"}]},{"@type":"Article","headline":"Caruso","about":{"@id":"https://www.dietroiltesto.it/canzone/caruso/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/caruso/","dateModified":"2026-10-13"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -880,6 +880,19 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
+
+.pillola-editoriale { margin: 2.75rem 0; }
+.pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
+.pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
+.pillola-editoriale .pillola-scuro { display: none; }
+:root[data-theme="dark"] .pillola-chiaro { display: none; }
+:root[data-theme="dark"] .pillola-scuro { display: block; }
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) .pillola-chiaro { display: none; }
+:root:not([data-theme="light"]) .pillola-scuro { display: block; }
+}
+.pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
+@media print { .pillola-editoriale { display: none; } }
 </style>
 <style>:root{--identita:#2E6480;--identita-testo:#2E6480;--identita-contrasto:#FFFFFF}</style>
 </head>
@@ -1006,6 +1019,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Nato per caso, dopo che un guasto alla barca costrinse Dalla a fermarsi in un albergo di Sorrento nella stessa stanza in cui, decenni prima, aveva soggiornato il tenore Enrico Caruso, il brano immagina gli ultimi giorni di vita del cantante lirico, sospeso tra i ricordi dei successi in America e la consapevolezza che solo l'amore sia stato realmente importante.</p>
+        <figure class="pillola-editoriale"><div class="pillola-immagini"><img class="pillola-chiaro" src="../../pillole/caruso-chiaro.webp?v=6da7c6d5d32d" width="1080" height="1920" loading="lazy" decoding="async" alt="Pillola editoriale su Caruso: Caruso intreccia memoria e amore: il protagonista guarda alla propria vita attraverso ciò che sente per la persona amata."><img class="pillola-scuro" src="../../pillole/caruso-scuro.webp?v=d492529cf532" width="1080" height="1920" loading="lazy" decoding="async" alt="Pillola editoriale su Caruso: Caruso intreccia memoria e amore: il protagonista guarda alla propria vita attraverso ciò che sente per la persona amata."></div><figcaption>Sintesi originale di Dietro il testo · <a href="https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/" target="_blank" rel="noopener noreferrer">Fanpage — lettura del brano</a></figcaption></figure>
         <p>Contenuto nell'album DallAmeriCaruso del 1986, è probabilmente la canzone italiana più reinterpretata al mondo, da Pavarotti a innumerevoli altri artisti internazionali.</p>
 
       </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "images": [
+      {
+        "loaded": true,
+        "nw": 1080,
+        "src": "http://127.0.0.1:8915/pillole/caruso-chiaro.webp?v=6da7c6d5d32d"
+      }
+    ],
+    "overflow": false,
+    "theme": "light",
+    "url": "/canzone/caruso/"
+  },
+  {
+    "images": [
+      {
+        "loaded": true,
+        "nw": 1080,
+        "src": "http://127.0.0.1:8915/pillole/azzurro-chiaro.webp?v=318b0f53a8e2"
+      }
+    ],
+    "overflow": false,
+    "theme": "light",
+    "url": "/canzone/azzurro/"
+  }
+]

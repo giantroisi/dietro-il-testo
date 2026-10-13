@@ -1,0 +1,117 @@
+{
+  "base": "4404e4098cc01de4a3b0a30979098c5708a88cc8",
+  "htmlSitemapModificati": [
+    "canzone/azzurro/index.html",
+    "canzone/caruso/index.html",
+    "canzone/hotel-california/index.html",
+    "sitemap-canzoni.xml"
+  ],
+  "metadati": [
+    {
+      "slug": "hotel-california",
+      "metadatiPreservati": {
+        "title": true,
+        "description": true,
+        "ogDescription": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true
+      },
+      "dateModified": {
+        "prima": [
+          "2026-10-11"
+        ],
+        "dopo": [
+          "2026-10-13"
+        ]
+      }
+    },
+    {
+      "slug": "caruso",
+      "metadatiPreservati": {
+        "title": true,
+        "description": true,
+        "ogDescription": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true
+      },
+      "dateModified": {
+        "prima": [
+          "2026-10-02"
+        ],
+        "dopo": [
+          "2026-10-13"
+        ]
+      }
+    },
+    {
+      "slug": "azzurro",
+      "metadatiPreservati": {
+        "title": true,
+        "description": true,
+        "ogDescription": true,
+        "canonical": true,
+        "h1": true,
+        "datePublished": true
+      },
+      "dateModified": {
+        "prima": [
+          "2026-10-02"
+        ],
+        "dopo": [
+          "2026-10-13"
+        ]
+      }
+    }
+  ],
+  "lastmod": [
+    {
+      "slug": "hotel-california",
+      "prima": "2026-10-11",
+      "dopo": "2026-10-13"
+    },
+    {
+      "slug": "caruso",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-13"
+    },
+    {
+      "slug": "azzurro",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-13"
+    }
+  ],
+  "asset": [
+    {
+      "file": "pillole/caruso-scuro.webp",
+      "bytes": 68630,
+      "sha256": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0"
+    },
+    {
+      "file": "pillole/azzurro-scuro.webp",
+      "bytes": 71166,
+      "sha256": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3"
+    },
+    {
+      "file": "pillole/hotel-california-chiaro.webp",
+      "bytes": 61074,
+      "sha256": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360"
+    },
+    {
+      "file": "pillole/hotel-california-scuro.webp",
+      "bytes": 66850,
+      "sha256": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1"
+    },
+    {
+      "file": "pillole/caruso-chiaro.webp",
+      "bytes": 63148,
+      "sha256": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c"
+    },
+    {
+      "file": "pillole/azzurro-chiaro.webp",
+      "bytes": 65486,
+      "sha256": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811"
+    }
+  ]
+}

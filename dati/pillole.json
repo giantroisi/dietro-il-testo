@@ -1,0 +1,38 @@
+{
+  "hotel-california": {
+    "testo": "Per Don Henley, Hotel California racconta gli eccessi e il lato oscuro del sogno americano.",
+    "fonte": "https://www.cbsnews.com/news/don-henley-the-eagles-glenn-frey-kennedy-center-honor-hotel-california/",
+    "nomeFonte": "CBS News — intervista a Don Henley",
+    "artistaSlug": "eagles",
+    "dopoParagrafo": 0,
+    "verificataIl": "2026-10-13",
+    "varianti": {
+      "chiaro": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360",
+      "scuro": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1"
+    }
+  },
+  "caruso": {
+    "testo": "Caruso intreccia memoria e amore: il protagonista guarda alla propria vita attraverso ciò che sente per la persona amata.",
+    "fonte": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
+    "nomeFonte": "Fanpage — lettura del brano",
+    "artistaSlug": "lucio-dalla",
+    "dopoParagrafo": 0,
+    "verificataIl": "2026-10-13",
+    "varianti": {
+      "chiaro": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c",
+      "scuro": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0"
+    }
+  },
+  "azzurro": {
+    "testo": "La musica di Paolo Conte sceglie il passo di una marcetta: una scelta fuori moda che il pubblico fece propria.",
+    "fonte": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
+    "nomeFonte": "Rockol — storia di Azzurro",
+    "artistaSlug": "adriano-celentano",
+    "dopoParagrafo": 0,
+    "verificataIl": "2026-10-13",
+    "varianti": {
+      "chiaro": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811",
+      "scuro": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3"
+    }
+  }
+}

@@ -495,6 +495,17 @@ function scriviConLastmod(percorsoFile, percorsoUrl, html) {
 // partire dall'URL, che potrebbe disallinearsi dalla struttura reale.
 const manifestoPagine = [];
 
+// Asset editoriali statici: nella modalità mirata si copiano solo quelli richiesti.
+const pilloleDir = join(ROOT, 'pillole');
+if (existsSync(pilloleDir)) {
+  mkdirSync(join(OUT, 'pillole'), { recursive: true });
+  for (const nome of readdirSync(pilloleDir)) {
+    if (!/^[a-z0-9-]+-(chiaro|scuro)\.webp$/.test(nome)) throw new Error(`Asset pillola inatteso: ${nome}`);
+    const slug = nome.replace(/-(chiaro|scuro)\.webp$/, '');
+    if (!soloCanzoni || soloCanzoni.includes(slug)) copyFileSync(join(pilloleDir, nome), join(OUT, 'pillole', nome));
+  }
+}
+
 if (soloCanzoni) {
   for (const slug of soloCanzoni) {
     const c = canzoniPerSlug.get(slug);

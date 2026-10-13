@@ -5,6 +5,7 @@ import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
 import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './collegamenti-contestuali.mjs';
+import { PILLOLE, pillolaEditoriale, STILE_PILLOLE } from './pillole.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
 // collegano il sito a un posto dove esiste anche fuori dal proprio dominio.
@@ -627,6 +628,7 @@ export function paginaCanzone(c, ctx) {
   const r = radice(2);
   const artista = ctx.artistiPerSlug.get(c.artistaSlug);
   const percorsoContestuale = collegamentiContestuali(c, ctx.canzoniPerSlug, r);
+  const pillola = pillolaEditoriale(c, r);
   // 8 settembre 2026. `altre` (altre canzoni dello stesso artista) e `collegate`
   // («continua da qui») pescavano dagli stessi brani: misurato sulle pagine
   // pubblicate, **226 schede su 282 ripetevano almeno una canzone nei due
@@ -682,7 +684,10 @@ export function paginaCanzone(c, ctx) {
   const natura = verificaNatura(c.corpo, c.naturaCorpo);
   let usaNature = false;
   const posizioneContestuale = COLLEGAMENTI_CONTESTUALI[c.slug]?.dopoParagrafo;
-  const inserisciPercorso = (html, i) => posizioneContestuale === i ? `${html}\n        ${percorsoContestuale}` : html;
+  const inserisciPercorso = (html, i) => {
+    const percorso = posizioneContestuale === i ? `${html}\n        ${percorsoContestuale}` : html;
+    return pillola && i === PILLOLE[c.slug].dopoParagrafo ? `${percorso}\n        ${pillola}` : percorso;
+  };
   const corpoHtml = c.corpo
     .map((par, i) => {
       if (!natura.ok) return inserisciPercorso(`<p>${esc(par)}</p>`, i);
@@ -910,7 +915,7 @@ ${legendaNature ? `        ${legendaNature}` : ''}${percorsoContestuale && posiz
     ogType: 'music.song',
     totali: ctx.totali,
     raccolte: ctx.raccolte,
-    stileExtra: (c.spotifyId ? STILE_PLAYER : '') + (amazonPerScheda(c) ? STILE_AMAZON_MOBILE : ''),
+    stileExtra: (c.spotifyId ? STILE_PLAYER : '') + (amazonPerScheda(c) ? STILE_AMAZON_MOBILE : '') + (pillola ? STILE_PILLOLE : ''),
     corpo,
     datiStrutturati: conBreadcrumb(
       {
