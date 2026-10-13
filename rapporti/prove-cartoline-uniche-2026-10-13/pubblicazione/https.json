@@ -1,0 +1,93 @@
+[
+  {
+    "file": "canzone/hotel-california/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/hotel-california/",
+    "identico": true,
+    "bytes": 66923,
+    "sha256": "79672d34cb3d15e175e69f26c8db79c590a0b31d67e060901a8446dbeabecdf6"
+  },
+  {
+    "file": "canzone/caruso/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/caruso/",
+    "identico": true,
+    "bytes": 58368,
+    "sha256": "bae4709ca9de98764c1b716b1333595713d9c62792d8ec41be33b9b9a3bb0562"
+  },
+  {
+    "file": "canzone/azzurro/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/azzurro/",
+    "identico": true,
+    "bytes": 60906,
+    "sha256": "15b900178ae1fdaac128f1936a6a00d1e72839e34b5f64ed611923b4c7627266"
+  },
+  {
+    "file": "pillole/hotel-california-storia.jpg",
+    "url": "https://www.dietroiltesto.it/pillole/hotel-california-storia.jpg",
+    "identico": true,
+    "bytes": 193811,
+    "sha256": "a176cf4e727ef41fa082616ad8c18d03911873016efccbe847d38aeb17ee463a"
+  },
+  {
+    "file": "pillole/caruso-storia.jpg",
+    "url": "https://www.dietroiltesto.it/pillole/caruso-storia.jpg",
+    "identico": true,
+    "bytes": 217863,
+    "sha256": "3de20dbe420c624cce2d21fb208bfc2af96897b534a3ddc8ed7b73bfbb7e3d29"
+  },
+  {
+    "file": "pillole/azzurro-storia.jpg",
+    "url": "https://www.dietroiltesto.it/pillole/azzurro-storia.jpg",
+    "identico": true,
+    "bytes": 211730,
+    "sha256": "840f6520e8af16b497f6f7874de315d89b02228d1a878b4ec6f722ca52a9232f"
+  },
+  {
+    "file": "ricerca.js",
+    "url": "https://www.dietroiltesto.it/ricerca.js",
+    "identico": true,
+    "bytes": 449586,
+    "sha256": "025d75550ea5f310847a635cbd77c2bf996ecc89f912d48730e54e55d49b6a55"
+  },
+  {
+    "file": "sitemap.xml",
+    "url": "https://www.dietroiltesto.it/sitemap.xml",
+    "identico": true,
+    "bytes": 525,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+    "identico": true,
+    "bytes": 10854,
+    "sha256": "5b48271eec73b46eacfa74c16d31cbc67c17952e2dfc76df6bb8af14ba77533d"
+  },
+  {
+    "file": "sitemap-album.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+    "identico": true,
+    "bytes": 15325,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+    "identico": true,
+    "bytes": 34080,
+    "sha256": "a8b09659c21b51a088b891f08c62c64571a34f0f6dfd750029588f2394d255bc"
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+    "identico": true,
+    "bytes": 955,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+    "identico": true,
+    "bytes": 750,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+  }
+]

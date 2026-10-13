@@ -1,0 +1,17 @@
+{
+  "commit": "783486b3b2f92ae6fc1e76be21736dab15ba2407",
+  "deployment": "dpl_29T9EhiTBuqh68TwZDmjN3Fb9rT1",
+  "projectId": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+  "state": "READY",
+  "target": "production",
+  "alias": "www.dietroiltesto.it",
+  "buildingAt": 1791912414370,
+  "ready": 1791912426711,
+  "durataBuildSecondi": 12.341,
+  "githubVercel": "success",
+  "autorizzazione": "Approvo 783486b3b: integrazione, push e pubblicazione",
+  "consoleErrors": 0,
+  "logsGlobali": "non esaminati",
+  "trasferimentoRealeInstagram": "non effettuato",
+  "statusMain": "due documenti SEO non tracciati preservati"
+}

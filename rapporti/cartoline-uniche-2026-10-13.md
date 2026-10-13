@@ -18,3 +18,12 @@ SEO696, link321/104, affiliazioni1065, coerenza e diff positivi. Nove controlli 
 
 ## Stato e autorizzazioni
 Preparato e verificato, solo commit locale. Non integrato nel main, non inviato a GitHub, non pubblicato. Richiesta specifica del proprietario per integrazione/push/pubblicazione da ottenere. Main conserva i due documenti SEO non tracciati e l’altraAI è intatta. Registrazione app al limite100anche dopo tentativo attach: copia utilizzabile. Nessun GSC/IndexNow. Integrare la sola nuova sezione Roadmap§101, preservando le prove fotografiche su rami distinti. Filone concluso nella copia: immagini unificate tra pagina e condivisione, pilot tre schede.
+
+
+## Pubblicazione approvata e verificata — 13 ottobre 2026
+
+Il proprietario approva nominativamente integrazione/push/pubblicazione del lotto783486b3b. Main e remoto ancora sulla base3f14c061e; integrazione fast-forward del solo lotto,30file identici alla copia e push eseguito. Deploy dpl_29T9EhiTBuqh68TwZDmjN3Fb9rT1 READY production: SHA783486b3b2f92ae6fc1e76be21736dab15ba2407, progetto e alias www.dietroiltesto.it verificati, build12secondi, GitHub Vercel success.
+
+13file HTTPS identici al lotto: tre pagine, tre JPEG, ricerca.js e sei sitemap; normali certificati TLS. Su696HTML e sei sitemap cambiano solo i tre HTML del pilot; date e sitemap preservate. Nove controlli browser1280/390/320: una sola immagine1080×1920, URL identico in pagina/share/OG, proporzioni corrette, zero overflow ed errori console. Caruso1280 inizialmente in caricamento (complete=false, naturalWidth1080); ricontrollo separato complete=true e immagine caricata. Percorso ricerca Caruso→Youngblood da tastiera e ritorno positivo, nessun overflow. Ripetuti15percorsi del vero handler client in VM con JPEG identico byte per byte e fallback/annullamento positivi. Nessun invio reale a Instagram e nessuna scansione globale dei log runtime dichiarati.
+
+Main/origin allineati a783486b3b, documenti SEO non tracciati con hash intatti. R.E.M./MichaelJackson, altraAI e proposta preliminare883 preservati. Nessun GSC/IndexNow. Limiti di ritaglio/cache delle piattaforme e Post/Reel nel dossier invariati. Prove nella sottocartella pubblicazione; archiviate solo in ramo locale successivo, senza ulteriore push. Filone concluso: immagini unificate pubblicate e verificate per Hotel California, Caruso e Azzurro.
