@@ -1,0 +1,44 @@
+[
+  {
+    "images": [
+      {
+        "loaded": true,
+        "nh": 1920,
+        "nw": 1080,
+        "src": "https://www.dietroiltesto.it/pillole/hotel-california-chiaro.webp?v=e71ea63653d6"
+      }
+    ],
+    "overflow": false,
+    "theme": "light",
+    "url": "/canzone/hotel-california/",
+    "width": 390
+  },
+  {
+    "images": [
+      {
+        "loaded": false,
+        "nh": 0,
+        "nw": 0,
+        "src": ""
+      }
+    ],
+    "overflow": false,
+    "theme": "light",
+    "url": "/canzone/caruso/",
+    "width": 390
+  },
+  {
+    "images": [
+      {
+        "loaded": true,
+        "nh": 1920,
+        "nw": 1080,
+        "src": "https://www.dietroiltesto.it/pillole/azzurro-chiaro.webp?v=318b0f53a8e2"
+      }
+    ],
+    "overflow": false,
+    "theme": "light",
+    "url": "/canzone/azzurro/",
+    "width": 390
+  }
+]

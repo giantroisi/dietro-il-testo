@@ -1,0 +1,30 @@
+{
+  "base": "f8ce08b0a18aeb0c66504c0edc46a169daa392c1",
+  "htmlEsaminati": 696,
+  "htmlModificati": [
+    "artista/michael-jackson/index.html"
+  ],
+  "sitemapEsaminate": 6,
+  "sitemapModificate": [
+    "sitemap-artisti.xml"
+  ],
+  "lastmodModificati": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/michael-jackson/",
+      "prima": "2026-10-11",
+      "dopo": "2026-10-13"
+    }
+  ],
+  "datePublishedInvariate": true,
+  "titleDescriptionCanonicalInvariati": true,
+  "riquadriAmazonIdentici": true,
+  "chiaviRitrattiAggiunte": [
+    "michael-jackson"
+  ],
+  "chiaviPreesistentiPreservate": 51,
+  "sha256Foto": "284c68ec9c86b95629f08f4428d884aebfabab386661fb0fb4b2d0cf6a1fff58",
+  "byteFoto": 151999,
+  "generazione": "Contesto e scriviConLastmod F40 estratti dal generatore vigente; nessuna cancellazione di OUT, nessuna scrittura dei computati; chiamata paginaArtista solo per michael-jackson. Baseline da file tracciati, nessun build generale.",
+  "sha256GeneratoreUsato": "dd2b92a9a54bd70be4b083c8f97191ad390d2ffbc951566a1e9dcfc48bdb3df7",
+  "cssMirato": "Nel solo HTML artista, griglia minmax(min(300px,100%),1fr), già presente nel template vigente. Nessuna modifica al template condiviso."
+}

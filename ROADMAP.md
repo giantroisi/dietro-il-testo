@@ -4617,6 +4617,19 @@ Lotto §95 approvato nominativamente dal proprietario con i limiti dichiarati: f
 Controlli ripetuti positivi sulla copia allineata a main. Il primo check contestuali in main aveva letto il vecchio sito/ ignorato: anteprima estranea lasciata intatta, 29 file tracciati confrontati e pubblico allineato. Lettura progetto/log Vercel 403, CLI assente; metadata del singolo deployment positivo, nessun controllo globale dei log dichiarato. DatePublished/metadati e sitemap invariati; dateModified delle quattro pagine al 12 ottobre. Limiti sui crediti e verifica indipendente dichiarati e approvati; file SEO non tracciati, altra AI e routine PAUSED preservati. Nessuna richiesta GSC o IndexNow. Filone concluso: **revisione editoriale circoscritta, mobile e due collegamenti pubblicati e verificati**.
 
 
+## 96. Michael Jackson — foto mancante, 13 ottobre 2026, proposta verificata
+
+Ripresa operativa autorizzata direttamente dal proprietario; routine già ACTIVE ogni 15 minuti, calendario invariato. Un solo artista: Michael Jackson, privo di ritratto nel main e senza proposta fotografica nei rami controllati. Le altre proposte restano isolate.
+
+Preparata foto di Zoran Veselinovic, CC BY-SA 2.0, senza modifiche locali: Commons e licenza ufficiale riaperte, soggetto controllato visivamente. Flickr originale 404; Commons conserva la verifica FlickreviewR del 28 maggio 2011. Titolo, autore, fonte, URL del file, licenza/obblighi, alt, credito visibile, data e pagina d’uso documentati. JPEG 393×600, 151.999 byte. Limite esplicito: risoluzione modesta e fonte Flickr non più raggiungibile.
+
+Nessun build generale: rendering mirato con F40. Su 696 HTML e sei sitemap, cambiano solo artista/michael-jackson/index.html e la sua voce sitemap-artisti.xml; dateModified/lastmod al 13 ottobre, datePublished/title/description/canonical invariati. La pagina riceve la griglia mobile già presente nel template; template condiviso intatto. Quattro riquadri Amazon identici, dati editoriali e 51 voci precedenti dei ritratti preservati.
+
+Crediti/asset, SEO, link e affiliazioni positivi; browser 1280/390/320 senza overflow o errori console, credito e foto leggibili. Fonte e licenza raggiunte da tastiera e ritorno positivo. Dossier: rapporti/licenze/ritratto-michael-jackson-2026-10-13.md; screenshot e misure nella cartella prove-michael-jackson-2026-10-13.
+
+Filone concluso nella copia: **IMMAGINI / Michael Jackson**. Copia /Users/gianmicheletroisi/.codex/worktrees/ritratto-michael-jackson-2026-10-13/dietro-il-testo, branch codex/ritratto-michael-jackson-2026-10-13, base f8ce08b0a. Registrazione app al limite di 100 allegati; checkout utilizzabile. Main, file non tracciati, altra AI e lotti pendenti intatti. Nessuna attività GSC. Proposta da revisionare; integrazione, push e pubblicazione richiedono approvazione specifica.
+
+
 ## 97. Youngblood — autori e parafrasi del ritornello, 13 ottobre 2026, proposta verificata
 
 Eccezione alla priorità immagini per due errori P1/P2 ancora online, segnalati dal rapporto 30 dell’altra AI e verificati nuovamente. Qobuz e Shazam riaperti: sei autori, incluso Louis Bell; testo del ritornello incompatibile con la vecchia descrizione. Aggiunto l’autore al corpo e ai metadati interessati, corretto il primo passaggio del momento iconico con parole originali e aggiunte due fonti visibili. Una sola OG rigenerata e controllata, URL con versione per la cache.
@@ -4638,3 +4651,20 @@ Approvazione diretta del proprietario per integrazione, push e pubblicazione di 
 Dopo Youngblood pubblicata e verificata, pilot Hotel California/Caruso/Azzurro: una figura per scheda dopo il primo paragrafo della storia. Modello canvas Sottolineature identificato e riusato in sola lettura, 1080×1920, due varianti WebP 61–71 KB, logo Dietro il testo e dicitura editoriale; nota musicale al posto delle virgolette. Tre sintesi originali su fonti riaperte, fonte visibile sotto ogni immagine; nessun verso o nuova verifica integrale. Rapporti 9:16, massimo352px, alt, width/height, lazy.
 
 Tre soli HTML e tre voci lastmod modificati; metadati/datePublished/CTA preservati, altri693HTML e cinque sitemap identici. Generazione mirata ripetuta identica; SEO, link, affiliazioni1065, coerenza, nature e tre prove negative positivi. Nove controlli browser1280/390/320 più tre tema chiaro390, zero overflow/errori. Corpo/metadati raster AA. Dossier rapporti/pillole-storia-pilot-2026-10-13.md e prove dedicate. Copia .codex/worktrees/pillole-storia-pilot-2026-10-13/dietro-il-testo, ramo codex/pillole-storia-pilot-2026-10-13, base4404e4098. Main, altra AI e Michael Jackson intatti. Nessun push/deploy/GSC/IndexNow: da approvare insieme al commit locale di documentazione Youngblood4404e4098 prima della pubblicazione. Filone concluso: pilot pillole editoriali preparato e verificato.
+
+
+## Pilot pubblicato e verificato, 13 ottobre 2026
+
+Approvazione diretta per pilot27a9cfabf e documentazione4404e4098. Integrazione fast-forward, push dei due commit approvati. Deploy dpl_BLX2LYyJCZ5sbA9AMLmoZGxXFDtP READY production: SHA27a9cfabfd2dd16de97bbc92ded648f8f15d38be, progetto e alias verificati. Tre pagine, sei immagini e sei sitemap HTTPS identici a main, TLS attivo. Nove prove online1280×900/390×844/320×568 positive: una figura, una variante visibile, proporzioni e date13ottobre, zero overflow/errori console. Verificate anche le tre varianti chiare a390: Caruso inizialmente fuori viewport e non caricata (lazy), poi ricaricata e confermata1080×1920; prova separata. Screenshot online Caruso e fonte visibile. Tutti28file integrati uguali alla copia; main e hash dei documenti SEO preservati. Nessun GSC/IndexNow. Filone concluso: pilot pillole pubblicato e verificato. Queste prove successive al deploy sono locali, da inviare solo con specifica approvazione.
+
+
+## 99. Ricontrollo Michael Jackson dopo il pilot — 13 ottobre 2026
+
+
+## Ricontrollo dopo il pilot — 13 ottobre 2026
+
+Il pilot è stato pubblicato e verificato prima di preparare questo ultimo passaggio. Fonte Commons e licenza Creative Commons riaperte; attribuzione Zoran Veselinovic/CC BY-SA2.0 e revisione FlickreviewR2011 ancora presenti. File originale scaricato con TLS e confrontato: identico byte per byte all'asset. Soggetto ricontrollato visivamente. Foto invariata, resa210×320 desktop e217×330 mobile, inferiore alla risoluzione393×600: nessun ingrandimento. Limite Flickr404 dichiarato nelle prove originali, non ricontrollato in questa ripetizione.
+
+Preparato in un ramo successivo della copia pilot, senza toccare l'originale017bad3e1. Base27a9cfabf; copia /Users/gianmicheletroisi/.codex/worktrees/pillole-storia-pilot-2026-10-13/dietro-il-testo, ramo codex/michael-jackson-integrazione-2026-10-13. Assenza di conflitti verificata confrontando i file pubblici/dati con la base originale prima di copiarli; nuova chiave ritratti soltanto michael-jackson, tutte51precedenti intatte. Unico HTML artista e unica voce sitemap cambiati; tre pillole e Youngblood preservati. Tre prove browser1280/390/320: foto e crediti caricati, zero overflow/errori. Crediti, SEO, link, affiliazioni1065, coerenza e diff positivi. Nessun build generale, datePublished/metadati e CTA preservati.
+
+Il lotto include anche le sole prove locali successive alla pubblicazione del pilot e il relativo aggiornamento Roadmap/dossier. Nessuna integrazione nel main, push o pubblicazione di questo lotto ancora eseguiti; richiedere approvazione specifica per il nuovo commit combinato.

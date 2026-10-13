@@ -1,0 +1,77 @@
+[
+  {
+    "file": "canzone/hotel-california/index.html",
+    "identico": true,
+    "sha256": "c3d37daf5ddb01b8b4d73457a79ee04070967d5b67ed5c867c926245d3f4a233"
+  },
+  {
+    "file": "canzone/caruso/index.html",
+    "identico": true,
+    "sha256": "851d0809d893b3cc4d56565311d3c223110ed55d103fbcfb75bcbf8d44ca8871"
+  },
+  {
+    "file": "canzone/azzurro/index.html",
+    "identico": true,
+    "sha256": "9d0990409b33c0e4b27819129ab8b472a2f68b29bfc72a3f2f7ab03a5446098b"
+  },
+  {
+    "file": "pillole/caruso-scuro.webp",
+    "identico": true,
+    "sha256": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0"
+  },
+  {
+    "file": "pillole/azzurro-scuro.webp",
+    "identico": true,
+    "sha256": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3"
+  },
+  {
+    "file": "pillole/hotel-california-chiaro.webp",
+    "identico": true,
+    "sha256": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360"
+  },
+  {
+    "file": "pillole/hotel-california-scuro.webp",
+    "identico": true,
+    "sha256": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1"
+  },
+  {
+    "file": "pillole/caruso-chiaro.webp",
+    "identico": true,
+    "sha256": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c"
+  },
+  {
+    "file": "pillole/azzurro-chiaro.webp",
+    "identico": true,
+    "sha256": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811"
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "identico": true,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+  },
+  {
+    "file": "sitemap-album.xml",
+    "identico": true,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "identico": true,
+    "sha256": "a8b09659c21b51a088b891f08c62c64571a34f0f6dfd750029588f2394d255bc"
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "identico": true,
+    "sha256": "978cd10e0ac44dfb94120f6182b1440958ec4a4368815a1d7cc83058c42b64ac"
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "identico": true,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+  },
+  {
+    "file": "sitemap.xml",
+    "identico": true,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  }
+]

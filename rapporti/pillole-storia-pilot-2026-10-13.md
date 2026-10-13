@@ -30,3 +30,8 @@ Copia /Users/gianmicheletroisi/.codex/worktrees/pillole-storia-pilot-2026-10-13/
 Per rigenerare, runtime Node con @napi-rs/canvas disponibile e font di sistema; passare prove/pillole-input.json a scripts/pillole/render.cjs. Se cambia un WebP aggiornare dati/pillole.json con SHA256 dopo controllo visivo; il generatore rifiuta hash diversi. Non cambiare i tre testi automaticamente.
 
 Filone concluso nella copia: pillole editoriali, pilot verificato; pubblicazione in attesa.
+
+
+## Pilot pubblicato e verificato, 13 ottobre 2026
+
+Approvazione diretta per pilot27a9cfabf e documentazione4404e4098. Integrazione fast-forward, push dei due commit approvati. Deploy dpl_BLX2LYyJCZ5sbA9AMLmoZGxXFDtP READY production: SHA27a9cfabfd2dd16de97bbc92ded648f8f15d38be, progetto e alias verificati. Tre pagine, sei immagini e sei sitemap HTTPS identici a main, TLS attivo. Nove prove online1280×900/390×844/320×568 positive: una figura, una variante visibile, proporzioni e date13ottobre, zero overflow/errori console. Verificate anche le tre varianti chiare a390: Caruso inizialmente fuori viewport e non caricata (lazy), poi ricaricata e confermata1080×1920; prova separata. Screenshot online Caruso e fonte visibile. Tutti28file integrati uguali alla copia; main e hash dei documenti SEO preservati. Nessun GSC/IndexNow. Filone concluso: pilot pillole pubblicato e verificato. Queste prove successive al deploy sono locali, da inviare solo con specifica approvazione.
