@@ -1205,5 +1205,44 @@
     "creditoVisibile": "Max Pezzali (883) · Foto di Moroboshi · Max Pezzali at Cartoomics 2013-1.jpg · CC BY-SA 3.0 · copia ridimensionata a 960 px; nessun ritaglio o ritocco locale",
     "notaVerifica": "Ritratto di Max Pezzali nel 2013, non immagine della formazione completa degli 883; originale e licenza riaperti il 13 ottobre 2026",
     "stessaImmagineCondivisione": true
+  },
+  "francesco-de-gregori": {
+    "file": "francesco-de-gregori.jpg",
+    "autore": "Iaconianni family",
+    "titolare": "Iaconianni family, attribuzione originale; autorizzazione del titolare confermata da Wikimedia VRT, ticket 2008042810014876",
+    "titoloOriginale": "Francesco De Gregori.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Francesco_De_Gregori.jpg",
+    "urlFile": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Francesco_De_Gregori.jpg",
+    "urlAsset": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Francesco_De_Gregori.jpg",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "dataVerifica": "2026-10-13",
+    "paginaUso": "/artista/francesco-de-gregori/",
+    "alt": "Francesco De Gregori al microfono con chitarra acustica, cappello scuro, occhiali e abito gessato",
+    "dimensioni": {
+      "larghezza": 318,
+      "altezza": 447
+    },
+    "modifiche": "File Commons 318×447 invariato, già indicato come ritaglio della foto Fotoguru; nessun ulteriore ritaglio, ridimensionamento del file o ritocco locale. Resa proporzionale via CSS.",
+    "obblighi": "Autore, titolo, fonte e licenza visibili; indicazione delle modifiche; derivati con stessa licenza o compatibile; nessuna restrizione aggiuntiva o implicazione di sostegno.",
+    "notaVerifica": "Soggetto visto e coerente con la pagina originale. Fonte Fotoguru.it, marzo 2008 come riportato su Commons; luogo non dichiarato. Autorizzazione documentata nella pagina Commons da VRT, ticket 2008042810014876; corrispondenza riservata ai volontari, non letta direttamente. File di risoluzione limitata, senza ingrandimento.",
+    "creditoParti": [
+      "Foto di Iaconianni family · ",
+      {
+        "testo": "Francesco De Gregori.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Francesco_De_Gregori.jpg"
+      },
+      " · Fotoguru.it · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      " · ritaglio Commons; nessuna modifica locale"
+    ],
+    "creditoVisibile": "Foto di Iaconianni family · Francesco De Gregori.jpg · Fotoguru.it · CC BY-SA 3.0 · ritaglio Commons; nessuna modifica locale",
+    "stessaImmagineCondivisione": true,
+    "permessoVRT": "2008042810014876",
+    "sha256": "436d8097137afb516e98e5bb477217a889a5125305ee329c4d5c066c877d5917",
+    "byte": 90447
   }
 }
