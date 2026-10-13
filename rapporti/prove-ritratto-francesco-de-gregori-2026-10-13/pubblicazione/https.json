@@ -1,0 +1,65 @@
+{
+  "timestampUTC": "2026-10-13T20:05:16.874485+00:00",
+  "commit": "5d61deae735c9a0804951e72738f02224490cecf",
+  "deployment": "dpl_5A57fsakERSw5YxToPrScMpXqqAg",
+  "status": "READY production Current",
+  "httpsTLS": "Verificato curl di sistema, nessun bypass",
+  "risorse": [
+    {
+      "path": "artista/francesco-de-gregori/index.html",
+      "url": "https://www.dietroiltesto.it/artista/francesco-de-gregori/",
+      "bytes": 54574,
+      "sha256": "f6c4744a8bb9c5e8a380c30d1ee556ce4fb12a778f8378c495dc489103a0a562",
+      "identicoMain": true
+    },
+    {
+      "path": "ritratti/francesco-de-gregori.jpg",
+      "url": "https://www.dietroiltesto.it/ritratti/francesco-de-gregori.jpg",
+      "bytes": 90447,
+      "sha256": "436d8097137afb516e98e5bb477217a889a5125305ee329c4d5c066c877d5917",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "bytes": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "bytes": 10854,
+      "sha256": "731dd13ecc6e9ed0c7497f477ad9f2b66f266c81284e8f35478f104da0e3f286",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "bytes": 34080,
+      "sha256": "daca06b2d111ca5e2b01f845bf0ccd7e828c404155386c28b27d771bee2bbe85",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "bytes": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "bytes": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "bytes": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identicoMain": true
+    }
+  ]
+}

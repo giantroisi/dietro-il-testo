@@ -39,3 +39,14 @@ Copia /Users/gianmicheletroisi/.codex/worktrees/ritratto-de-gregori-2026-10-13/d
 Limiti: file piccolo e già ritagliato alla fonte, usato senza ingrandimento. Autorizzazione basata sulla conferma VRT pubblica, non sulla lettura della corrispondenza privata. Nessuna nuova attestazione integrale della biografia.
 
 Solo commit locale dopo verifiche. Integrazione nel main, push e pubblicazione richiedono approvazione nominativa. Integrare sola chiave francesco-de-gregori e §108 della Roadmap; non sovrascrivere altri JSON o sezioni delle proposte.
+
+
+## Pubblicazione approvata e verificata — 13 ottobre 2026
+
+Approvazione diretta nominativa del proprietario: integrazione, push e pubblicazione di De Gregori 5d61deae7. Main aggiornato in fast-forward dalla base 53ce54c76; push del solo commit approvato 5d61deae735c9a0804951e72738f02224490cecf. Deploy dpl_5A57fsakERSw5YxToPrScMpXqqAg READY, Production Current e dominio www.dietroiltesto.it verificati nel pannello Vercel autenticato. Il connettore ha negato la lista deploy (403); verifica riuscita nel browser senza modificare impostazioni.
+
+Pagina artista, JPEG e sei sitemap HTTPS identici byte per byte a main; TLS attivo, nessun bypass. Browser online 1280×900, 390×844, 320×568: foto caricata 318×447, stessa sorgente in pagina/OG/Twitter, resa circa 228×320 desktop e 235×330 mobile, nessun ingrandimento, overflow o errore console. Credito completo letto e ispezionato nello screenshot desktop/mobile. Limiti della fonte e cache/ritagli delle piattaforme invariati.
+
+DatePublished preservata; unico lastmod/dateModified modificato: artista/francesco-de-gregori/, 13 ottobre 2026. Nessun build generale o nuova rigenerazione. Documenti SEO non tracciati e hash intatti; Finley e067af381, De André 7fb17c9a3 e prototipo cartolina 6f5d86e4b puliti e invariati. Altre 308 cartoline ferme. Nessuna attività GSC/IndexNow o Amazon.
+
+Prove successive al deploy archiviate in rapporti/prove-ritratto-francesco-de-gregori-2026-10-13/pubblicazione e ramo locale codex/de-gregori-prove-pubblicazione-2026-10-13, senza secondo push. L'approvazione era riferita al lotto 5d61deae7; eventuale invio delle sole prove successive richiede autorizzazione specifica. Il controllo di spazi del commit completo segnala solo l'HTML originale Commons salvato come prova: sorgente preservata senza alterazioni; controllo dei restanti file positivo. Filone concluso: De Gregori pubblicato e verificato.
