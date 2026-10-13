@@ -1,0 +1,16 @@
+{
+  "commit": "a98006977d723013da5035bc4b397b673fbf4220",
+  "deployment": "dpl_9waLAptf6qvnNqbKB3rqAbZ2iNpU",
+  "project": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+  "team": "team_5wnLmRfxPsCd8aEmcZUsfRKG",
+  "target": "production",
+  "state": "READY",
+  "url": "https://www.dietroiltesto.it",
+  "buildingAt": 1791913740771,
+  "ready": 1791913766374,
+  "buildSeconds": 25.603,
+  "approvazione": "Approvo integrazione, push e pubblicazione",
+  "vincoloDelProprietario": "ferma con quelle dieci",
+  "restanti308": "non preparate; nessuna estensione autorizzata",
+  "osservabilita": "Console del tab senza errori nella lettura finale; non eseguito un controllo globale dei log runtime"
+}
