@@ -1244,5 +1244,43 @@
     "permessoVRT": "2008042810014876",
     "sha256": "436d8097137afb516e98e5bb477217a889a5125305ee329c4d5c066c877d5917",
     "byte": 90447
+  },
+  "the-doors": {
+    "file": "the-doors-krieger-manzarek-2004.jpg",
+    "autore": "Daniel van Bloppoel",
+    "titolare": "Daniel van Bloppoel (DvB33), dichiarazione originale di titolarità e opera propria",
+    "titoloOriginale": "Robby Krieger and Ray manzarek.JPG",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Robby_Krieger_and_Ray_manzarek.JPG",
+    "urlFile": "https://upload.wikimedia.org/wikipedia/commons/3/39/Robby_Krieger_and_Ray_manzarek.JPG",
+    "urlAsset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Robby_Krieger_and_Ray_manzarek.JPG/960px-Robby_Krieger_and_Ray_manzarek.JPG",
+    "licenza": "CC BY-SA 3.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "dataVerifica": "2026-10-13",
+    "paginaUso": "/artista/the-doors/",
+    "alt": "Robby Krieger con chitarra a sinistra e Ray Manzarek a destra al Bospop di Weert nel 2004; due membri dei Doors, non la formazione completa",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 720
+    },
+    "modifiche": "Versione Wikimedia 960×720 proporzionale da originale2272×1704; nessun ritaglio o ritocco locale. Resa proporzionale CSS.",
+    "obblighi": "Autore, titolo, fonte e licenza visibili; indicazione modifiche; derivati stessa licenza o compatibile; nessuna restrizione aggiuntiva o implicazione di sostegno.",
+    "notaVerifica": "Pagina originale Commons e CC riaperte 13ottobre2026. Opera propria del fotografo Daniel van Bloppoel/DvB33, 8luglio2004 al Bospop Weert secondo la fonte. Soggetto controllato visivamente: Krieger con chitarra, Manzarek con occhiali. Foto dei due membri nel2004, non della formazione1965 né attuale; Morrison e Densmore non presenti.",
+    "creditoParti": [
+      "Robby Krieger e Ray Manzarek al Bospop, 2004 · Foto di Daniel van Bloppoel · ",
+      {
+        "testo": "Robby Krieger and Ray manzarek.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Robby_Krieger_and_Ray_manzarek.JPG"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      " · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale"
+    ],
+    "creditoVisibile": "Robby Krieger e Ray Manzarek al Bospop, 2004 · Foto di Daniel van Bloppoel · Robby Krieger and Ray manzarek.JPG · CC BY-SA 3.0 · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale",
+    "stessaImmagineCondivisione": true,
+    "sha256": "6eb76ace20b556340b2ec1513988a11e5b57483466cdedbcbf02eee24bfa0e8d",
+    "byte": 137040
   }
 }
