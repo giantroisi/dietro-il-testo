@@ -15,7 +15,13 @@ async function main(){
  }
  const logo=await loadImage(fs.readFileSync(path.join(root,'logo.png')));
  const registry=JSON.parse(fs.readFileSync(path.join(root,'dati/pillole.json')));const proof=[];
- for(const [slug,p] of Object.entries(registry)){
+ const slugsArg=process.argv.indexOf('--slugs-file');
+ const selected=slugsArg<0?Object.keys(registry):JSON.parse(fs.readFileSync(process.argv[slugsArg+1]));
+ if(!Array.isArray(selected)||selected.length===0||new Set(selected).size!==selected.length||selected.some(s=>!registry[s]))throw Error('Elenco cartoline non valido');
+ const proofArg=process.argv.indexOf('--prove-dir');
+ const proofDir=proofArg<0?'rapporti/prove-cartoline-uniche-2026-10-13':process.argv[proofArg+1];
+ for(const slug of selected){
+  const p=registry[slug];
   const html=fs.readFileSync(path.join(root,'canzone',slug,'index.html'),'utf8');
   const tag=html.match(/<div class="condividi"[\s\S]*?data-sito="[^"]*">/)[0];
   const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
@@ -25,12 +31,14 @@ async function main(){
   const image={naturalWidth:logo.width,naturalHeight:logo.height,_image:logo,set src(v){this.onload()}};
   const sandbox={cartolina:{getAttribute:k=>attrs[k],querySelector:()=>null},Image:function(){return image},document:{createElement:canvas}};
   vm.runInNewContext(model+';logoPronto=true;ritaglio=misuraRitaglio();var risultato=disegna("storia");',sandbox,{timeout:10000});
-  const result=sandbox.risultato,bytes=result.toBuffer('image/jpeg',92),file=slug+'-storia.jpg';
+  const result=sandbox.risultato;
+  if(result.width!==1080||result.height!==1920||text.some(t=>t.left<80||t.right>1000||t.top<330||t.bottom>1590))throw Error('Testo fuori dalla zona sicura: '+slug);
+  const bytes=result.toBuffer('image/jpeg',92),file=slug+'-storia.jpg';
   fs.writeFileSync(path.join(root,'pillole',file),bytes);
   p.file=file;p.sha256=crypto.createHash('sha256').update(bytes).digest('hex');p.testo=attrs['data-frase'];p.testoGrafica=text.filter(t=>t.font.startsWith('italic ')).map(t=>t.text).join(' ');p.formato='storia';p.modello='scripts/genera/ricerca.mjs';delete p.varianti;
   proof.push({slug,file,bytes:bytes.length,sha256:p.sha256,dimensioni:[result.width,result.height],testi:text,rendererSha256:crypto.createHash('sha256').update(model).digest('hex')});
  }
  fs.writeFileSync(path.join(root,'dati/pillole.json'),JSON.stringify(registry,null,2)+'\n');
- const out=path.join(root,'rapporti/prove-cartoline-uniche-2026-10-13');fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'render.json'),JSON.stringify(proof,null,2)+'\n');
+ const out=path.join(root,proofDir);fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'render.json'),JSON.stringify(proof,null,2)+'\n');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});

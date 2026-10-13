@@ -25,12 +25,12 @@
 <meta property="og:description" content="In un'intervista a Noisecreep del 2010, il bassista e autore del testo Geezer Butler ha raccontato che «War Pigs» si chiamava inizialmente «Walpurgis».">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/war-pigs/">
 <meta property="og:locale" content="it_IT">
-<meta property="og:image" content="https://www.dietroiltesto.it/og/war-pigs.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://www.dietroiltesto.it/pillole/war-pigs-storia.jpg?v=aaf196d26d1c">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1920">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.dietroiltesto.it/og/war-pigs.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/war-pigs/#brano","name":"War Pigs","byArtist":{"@type":"MusicGroup","name":"Black Sabbath","url":"https://www.dietroiltesto.it/artista/black-sabbath/"},"inAlbum":{"@type":"MusicAlbum","name":"Paranoid"},"datePublished":"1970","url":"https://www.dietroiltesto.it/canzone/war-pigs/","description":"In un'intervista a Noisecreep del 2010, il bassista e autore del testo Geezer Butler ha raccontato che «War Pigs» si chiamava inizialmente «Walpurgis»."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Metal","item":"https://www.dietroiltesto.it/genere/metal/"},{"@type":"ListItem","position":3,"name":"War Pigs","item":"https://www.dietroiltesto.it/canzone/war-pigs/"}]},{"@type":"Article","headline":"War Pigs","about":{"@id":"https://www.dietroiltesto.it/canzone/war-pigs/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/war-pigs/","dateModified":"2026-10-11"}]}</script>
+<meta name="twitter:image" content="https://www.dietroiltesto.it/pillole/war-pigs-storia.jpg?v=aaf196d26d1c">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/war-pigs/#brano","name":"War Pigs","byArtist":{"@type":"MusicGroup","name":"Black Sabbath","url":"https://www.dietroiltesto.it/artista/black-sabbath/"},"inAlbum":{"@type":"MusicAlbum","name":"Paranoid"},"datePublished":"1970","url":"https://www.dietroiltesto.it/canzone/war-pigs/","description":"In un'intervista a Noisecreep del 2010, il bassista e autore del testo Geezer Butler ha raccontato che «War Pigs» si chiamava inizialmente «Walpurgis»."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Metal","item":"https://www.dietroiltesto.it/genere/metal/"},{"@type":"ListItem","position":3,"name":"War Pigs","item":"https://www.dietroiltesto.it/canzone/war-pigs/"}]},{"@type":"Article","headline":"War Pigs","about":{"@id":"https://www.dietroiltesto.it/canzone/war-pigs/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/war-pigs/","dateModified":"2026-10-13"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -898,7 +898,13 @@ a { color: inherit; }
  .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
-}</style>
+}
+.pillola-editoriale { margin: 2.75rem 0; }
+.pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
+.pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
+.pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
+@media print { .pillola-editoriale { display: none; } }
+</style>
 <style>:root{--identita:#5C6B2E;--identita-testo:#5C6B2E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -989,6 +995,7 @@ a { color: inherit; }
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
           data-cartolina
+          data-cartolina-storia="../../pillole/war-pigs-storia.jpg?v=aaf196d26d1c"
           data-titolo="War Pigs"
           data-artista="Black Sabbath"
           data-anno="1970"
@@ -1043,6 +1050,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p><span class="aff aff-D"><span class="aff-testo">In un'intervista a Noisecreep del 2010, il bassista e autore del testo Geezer Butler ha raccontato che «War Pigs» si chiamava inizialmente «Walpurgis».</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">La casa discografica giudicò quel titolo troppo legato all'immaginario satanico: il gruppo lo cambiò, lasciando invariato il testo.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <figure class="pillola-editoriale"><div class="pillola-immagini"><img src="../../pillole/war-pigs-storia.jpg?v=aaf196d26d1c" width="1080" height="1920" loading="lazy" decoding="async" alt="Cartolina di condivisione di War Pigs: L'immaginario occulto del brano assume così, nel racconto di Butler, una funzione precisa: dare forma alla sua condanna della guerra. Il cambio di titolo non modificò il testo già scritto."></div><figcaption>Momento iconico descritto con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>
         <p><span class="aff aff-D"><span class="aff-testo">Butler ricordava che, alla fine degli anni Sessanta, lui e gli altri membri temevano un coinvolgimento britannico nella guerra del Vietnam.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Nella stessa intervista spiegò che, ai suoi occhi, la guerra rappresentava il male e che il richiamo alle streghe serviva a esprimere questa idea.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
         <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>

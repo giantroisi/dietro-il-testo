@@ -25,12 +25,12 @@
 <meta property="og:description" content="«Black» nacque da uno strumentale di Stone Gossard chiamato «E Ballad», inserito nel nastro di demo usato dal gruppo per cercare un cantante.">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/black-pearl-jam/">
 <meta property="og:locale" content="it_IT">
-<meta property="og:image" content="https://www.dietroiltesto.it/og/black-pearl-jam.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://www.dietroiltesto.it/pillole/black-pearl-jam-storia.jpg?v=bd28945c3366">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1920">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.dietroiltesto.it/og/black-pearl-jam.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/black-pearl-jam/#brano","name":"Black","byArtist":{"@type":"MusicGroup","name":"Pearl Jam","url":"https://www.dietroiltesto.it/artista/pearl-jam/"},"inAlbum":{"@type":"MusicAlbum","name":"Ten"},"datePublished":"1991","url":"https://www.dietroiltesto.it/canzone/black-pearl-jam/","description":"«Black» nacque da uno strumentale di Stone Gossard chiamato «E Ballad», inserito nel nastro di demo usato dal gruppo per cercare un cantante."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Black","item":"https://www.dietroiltesto.it/canzone/black-pearl-jam/"}]},{"@type":"Article","headline":"Black","about":{"@id":"https://www.dietroiltesto.it/canzone/black-pearl-jam/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/black-pearl-jam/","dateModified":"2026-10-11"}]}</script>
+<meta name="twitter:image" content="https://www.dietroiltesto.it/pillole/black-pearl-jam-storia.jpg?v=bd28945c3366">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/black-pearl-jam/#brano","name":"Black","byArtist":{"@type":"MusicGroup","name":"Pearl Jam","url":"https://www.dietroiltesto.it/artista/pearl-jam/"},"inAlbum":{"@type":"MusicAlbum","name":"Ten"},"datePublished":"1991","url":"https://www.dietroiltesto.it/canzone/black-pearl-jam/","description":"«Black» nacque da uno strumentale di Stone Gossard chiamato «E Ballad», inserito nel nastro di demo usato dal gruppo per cercare un cantante."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Black","item":"https://www.dietroiltesto.it/canzone/black-pearl-jam/"}]},{"@type":"Article","headline":"Black","about":{"@id":"https://www.dietroiltesto.it/canzone/black-pearl-jam/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/black-pearl-jam/","dateModified":"2026-10-13"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -898,7 +898,13 @@ a { color: inherit; }
  .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
-}</style>
+}
+.pillola-editoriale { margin: 2.75rem 0; }
+.pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
+.pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
+.pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
+@media print { .pillola-editoriale { display: none; } }
+</style>
 <style>:root{--identita:#2E5C4A;--identita-testo:#2E5C4A;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -989,6 +995,7 @@ a { color: inherit; }
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
           data-cartolina
+          data-cartolina-storia="../../pillole/black-pearl-jam-storia.jpg?v=bd28945c3366"
           data-titolo="Black"
           data-artista="Pearl Jam"
           data-anno="1991"
@@ -1043,6 +1050,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>«Black» nacque da uno strumentale di Stone Gossard chiamato «E Ballad», inserito nel nastro di demo usato dal gruppo per cercare un cantante. Jack Irons fece arrivare quel nastro a Eddie Vedder, che lavorava di giorno a San Diego e registrò la propria voce su tre brani prima di essere invitato a Seattle.</p>
+        <figure class="pillola-editoriale"><div class="pillola-immagini"><img src="../../pillole/black-pearl-jam-storia.jpg?v=bd28945c3366" width="1080" height="1920" loading="lazy" decoding="async" alt="Cartolina di condivisione di Black: La decisione sul video è parte della storia del brano: nell'intervista a Cameron Crowe, Vedder lo indicò come un esempio di canzone che voleva proteggere dalla sovraesposizione commerciale."></div><figcaption>Momento iconico descritto con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>
         <p>Nel 1993 Cameron Crowe raccontò su Rolling Stone che Vedder si oppose alla realizzazione di un video per «Black» e che gli altri Pearl Jam sostennero la scelta. <span class="aff aff-D"><span class="aff-testo">Vedder spiegò che alcune canzoni, per lui, perdevano qualcosa quando venivano spinte dentro la logica dei successi radiofonici.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
         <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>

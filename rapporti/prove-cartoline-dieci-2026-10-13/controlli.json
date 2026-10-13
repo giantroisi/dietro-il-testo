@@ -1,0 +1,23 @@
+{
+  "SEO": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "link": 1065,
+    "esito": "positivo"
+  },
+  "coerenza": "positiva",
+  "sintassi": "positiva",
+  "diff": "positivo",
+  "renderDeterministico": "10 JPEG e registro identici alla ripetizione; 3 precedenti preservati",
+  "CSS": "solo cartolina e min-width mobile già presente nel template",
+  "browser": "30 controlli, 7 caricamenti lazy ricontrollati positivamente",
+  "sharing": "50 percorsi con vero handler: share/download/cancel/loading/fetch-error",
+  "console": "nessun errore nella lettura finale del tab; non monitorata globalmente ogni pagina"
+}

@@ -25,12 +25,12 @@
 <meta property="og:description" content="Secondo American Songwriter, Layne Staley partì da un'idea sulla censura.">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/man-in-the-box/">
 <meta property="og:locale" content="it_IT">
-<meta property="og:image" content="https://www.dietroiltesto.it/og/man-in-the-box.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://www.dietroiltesto.it/pillole/man-in-the-box-storia.jpg?v=81f02c4f80ce">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1920">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.dietroiltesto.it/og/man-in-the-box.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/man-in-the-box/#brano","name":"Man in the Box","byArtist":{"@type":"MusicGroup","name":"Alice in Chains","url":"https://www.dietroiltesto.it/artista/alice-in-chains/"},"inAlbum":{"@type":"MusicAlbum","name":"Facelift"},"datePublished":"1990","url":"https://www.dietroiltesto.it/canzone/man-in-the-box/","description":"Secondo American Songwriter, Layne Staley partì da un'idea sulla censura."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Man in the Box","item":"https://www.dietroiltesto.it/canzone/man-in-the-box/"}]},{"@type":"Article","headline":"Man in the Box","about":{"@id":"https://www.dietroiltesto.it/canzone/man-in-the-box/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/man-in-the-box/","dateModified":"2026-10-11"}]}</script>
+<meta name="twitter:image" content="https://www.dietroiltesto.it/pillole/man-in-the-box-storia.jpg?v=81f02c4f80ce">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/man-in-the-box/#brano","name":"Man in the Box","byArtist":{"@type":"MusicGroup","name":"Alice in Chains","url":"https://www.dietroiltesto.it/artista/alice-in-chains/"},"inAlbum":{"@type":"MusicAlbum","name":"Facelift"},"datePublished":"1990","url":"https://www.dietroiltesto.it/canzone/man-in-the-box/","description":"Secondo American Songwriter, Layne Staley partì da un'idea sulla censura."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Man in the Box","item":"https://www.dietroiltesto.it/canzone/man-in-the-box/"}]},{"@type":"Article","headline":"Man in the Box","about":{"@id":"https://www.dietroiltesto.it/canzone/man-in-the-box/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/man-in-the-box/","dateModified":"2026-10-13"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -898,7 +898,13 @@ a { color: inherit; }
  .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
  .acquisto-mobile { display:flex !important; }
  .acquisto-desktop { display:none !important; }
-}</style>
+}
+.pillola-editoriale { margin: 2.75rem 0; }
+.pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
+.pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
+.pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
+@media print { .pillola-editoriale { display: none; } }
+</style>
 <style>:root{--identita:#2E2E2E;--identita-testo:#2E2E2E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -989,6 +995,7 @@ a { color: inherit; }
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
           data-cartolina
+          data-cartolina-storia="../../pillole/man-in-the-box-storia.jpg?v=81f02c4f80ce"
           data-titolo="Man in the Box"
           data-artista="Alice in Chains"
           data-anno="1990"
@@ -1043,6 +1050,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p><span class="aff aff-D"><span class="aff-testo">Secondo American Songwriter, Layne Staley partì da un'idea sulla censura.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span> <span class="aff aff-D"><span class="aff-testo">Durante una cena, alcune persone della Columbia Records, vegetariane, gli parlarono dei vitelli allevati in piccole casse: Staley collegò quell'immagine al tema da cui era partito.</span><span class="aff-nome"> — Dichiarato dall'artista</span></span></p>
+        <figure class="pillola-editoriale"><div class="pillola-immagini"><img src="../../pillole/man-in-the-box-storia.jpg?v=81f02c4f80ce" width="1080" height="1920" loading="lazy" decoding="async" alt="Cartolina di condivisione di Man in the Box: La scatola del titolo tiene insieme i due spunti che Staley ha raccontato: la censura e il trattamento dei vitelli. È una metafora di costrizione, senza che ogni sua immagine debba avere un solo…"></div><figcaption>Momento iconico descritto con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>
         <p>Il brano compare in «Facelift» (1990) e fu pubblicato come secondo singolo dell'album. La canzone contribuì a far conoscere il gruppo attraverso la programmazione su MTV.</p>
         <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>

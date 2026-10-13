@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "all-the-small-things",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "ho-messo-via",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "ho-messo-via",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "ho-messo-via",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "ho-messo-via",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "ho-messo-via",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "november-rain",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "november-rain",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "november-rain",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "november-rain",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "november-rain",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "man-in-the-box",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "man-in-the-box",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "man-in-the-box",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "man-in-the-box",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "man-in-the-box",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "war-pigs",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "war-pigs",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "war-pigs",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "war-pigs",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "war-pigs",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "loading",
+    "ok": true
+  }
+]

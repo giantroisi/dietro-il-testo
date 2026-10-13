@@ -1,4 +1,4 @@
-// Tre pillole editoriali scelte; nessuna generazione automatica di contenuti.
+// Cartoline ricavate dal momento iconico della scheda, identiche alla condivisione Storia.
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { esc } from './guscio.mjs';

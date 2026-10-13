@@ -25,12 +25,12 @@
 <meta property="og:description" content="Pubblicata nel 2008 nell'album &quot;Le dimensioni del mio caos&quot;, la canzone denuncia problemi sociali e ambientali della Puglia: le morti sul lavoro.">
 <meta property="og:url" content="https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/">
 <meta property="og:locale" content="it_IT">
-<meta property="og:image" content="https://www.dietroiltesto.it/og/vieni-a-ballare-in-puglia.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://www.dietroiltesto.it/pillole/vieni-a-ballare-in-puglia-storia.jpg?v=eb41796fb8e5">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1920">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.dietroiltesto.it/og/vieni-a-ballare-in-puglia.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/#brano","name":"Vieni a ballare in Puglia","byArtist":{"@type":"MusicGroup","name":"Caparezza","url":"https://www.dietroiltesto.it/artista/caparezza/"},"inAlbum":{"@type":"MusicAlbum","name":"Le dimensioni del mio caos"},"datePublished":"2008","url":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/","description":"Pubblicata nel 2008 nell'album \"Le dimensioni del mio caos\", la canzone denuncia problemi sociali e ambientali della Puglia: le morti sul lavoro."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Vieni a ballare in Puglia","item":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/"}]},{"@type":"Article","headline":"Vieni a ballare in Puglia","about":{"@id":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/","dateModified":"2026-10-02"}]}</script>
+<meta name="twitter:image" content="https://www.dietroiltesto.it/pillole/vieni-a-ballare-in-puglia-storia.jpg?v=eb41796fb8e5">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/#brano","name":"Vieni a ballare in Puglia","byArtist":{"@type":"MusicGroup","name":"Caparezza","url":"https://www.dietroiltesto.it/artista/caparezza/"},"inAlbum":{"@type":"MusicAlbum","name":"Le dimensioni del mio caos"},"datePublished":"2008","url":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/","description":"Pubblicata nel 2008 nell'album \"Le dimensioni del mio caos\", la canzone denuncia problemi sociali e ambientali della Puglia: le morti sul lavoro."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://www.dietroiltesto.it/archivio/"},{"@type":"ListItem","position":3,"name":"Vieni a ballare in Puglia","item":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/"}]},{"@type":"Article","headline":"Vieni a ballare in Puglia","about":{"@id":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/","dateModified":"2026-10-13"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -880,6 +880,12 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
+
+.pillola-editoriale { margin: 2.75rem 0; }
+.pillola-editoriale .pillola-immagini { width: min(100%, 22rem); margin: 0 auto; border-radius: 4px; overflow: hidden; }
+.pillola-editoriale img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; }
+.pillola-editoriale figcaption { margin: .85rem auto 0; max-width: 44ch; color: var(--text); text-align: center; font-size: 13px; line-height: 1.5; }
+@media print { .pillola-editoriale { display: none; } }
 </style>
 <style>:root{--identita:#1F6B8A;--identita-testo:#1F6B8A;--identita-contrasto:#FFFFFF}</style>
 </head>
@@ -958,6 +964,7 @@ a { color: inherit; }
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
           data-cartolina
+          data-cartolina-storia="../../pillole/vieni-a-ballare-in-puglia-storia.jpg?v=eb41796fb8e5"
           data-titolo="Vieni a ballare in Puglia"
           data-artista="Caparezza"
           data-anno="2008"
@@ -1006,6 +1013,7 @@ a { color: inherit; }
       <h2>La storia</h2>
       <div class="prosa">
         <p>Pubblicata nel 2008 nell'album &quot;Le dimensioni del mio caos&quot;, la canzone denuncia problemi sociali e ambientali della Puglia: le morti sul lavoro, gli incendi del Gargano del 2007, l'inquinamento nell'area di Taranto e lo sfruttamento dei lavoratori stranieri nei campi.</p>
+        <figure class="pillola-editoriale"><div class="pillola-immagini"><img src="../../pillole/vieni-a-ballare-in-puglia-storia.jpg?v=eb41796fb8e5" width="1080" height="1920" loading="lazy" decoding="async" alt="Cartolina di condivisione di Vieni a ballare in Puglia: L'invito del titolo cambia senso quando emerge la denuncia sociale. eHabitat…"></div><figcaption>Momento iconico descritto con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>
         <p>Nella versione uscita come singolo e nel video compare Al Bano, che canta l'introduzione. <span class="aff aff-I"><span class="aff-testo">Per eHabitat il brano ha gli ingredienti di una possibile hit estiva; Rockol descrive invece il ritmo come una taranta cupa, vicina a una marcia funebre.</span><span class="aff-nome"> — Interpretazione accreditata</span></span> <span class="aff aff-I"><span class="aff-testo">Le due letture mettono in evidenza il contrasto fra l'invito a ballare e i temi del brano.</span><span class="aff-nome"> — Interpretazione accreditata</span></span></p>
         <p class="legenda-nature">In questa scheda <b class="aff aff-D"><span class="aff-testo">le dichiarazioni dell'artista</span></b> e <b class="aff aff-I"><span class="aff-testo">le interpretazioni accreditate</span></b> sono segnate. Tutto il resto è fatto documentato dalle fonti in fondo alla pagina.</p>
       </div>
