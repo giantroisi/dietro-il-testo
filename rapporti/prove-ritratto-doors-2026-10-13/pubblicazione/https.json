@@ -1,0 +1,65 @@
+{
+  "timestampUTC": "2026-10-13T20:34:10.917343+00:00",
+  "commit": "36014659aac2146dc2c98c20493efb1878c5ebb9",
+  "deployment": "dpl_D4Nb197fcWtq2vG8xfVEeTMN6bEm",
+  "status": "READY production Current",
+  "httpsTLS": "Verificato curl di sistema, nessun bypass",
+  "risorse": [
+    {
+      "path": "artista/the-doors/index.html",
+      "url": "https://www.dietroiltesto.it/artista/the-doors/",
+      "bytes": 58823,
+      "sha256": "95fc3b843dcc325419fa4b9b4b7615ea19ee250148c6898c618b76c99576dd47",
+      "identicoMain": true
+    },
+    {
+      "path": "ritratti/the-doors-krieger-manzarek-2004.jpg",
+      "url": "https://www.dietroiltesto.it/ritratti/the-doors-krieger-manzarek-2004.jpg",
+      "bytes": 137040,
+      "sha256": "6eb76ace20b556340b2ec1513988a11e5b57483466cdedbcbf02eee24bfa0e8d",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "bytes": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "bytes": 10854,
+      "sha256": "3a13dc00ab0f51eda5c7e1bf673c47771dc8b87b7f7ecd9bf7c57a650aa5fd3c",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "bytes": 34080,
+      "sha256": "daca06b2d111ca5e2b01f845bf0ccd7e828c404155386c28b27d771bee2bbe85",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "bytes": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "bytes": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "bytes": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identicoMain": true
+    }
+  ]
+}
