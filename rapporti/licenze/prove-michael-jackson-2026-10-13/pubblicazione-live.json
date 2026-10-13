@@ -1,0 +1,62 @@
+[
+  {
+    "file": "artista/michael-jackson/index.html",
+    "identico": true,
+    "sha256": "3dc661d0ebf12a8374fed03b3cf6a9bbb6bceefc6676ba28a337d4260daeb409"
+  },
+  {
+    "file": "ritratti/michael-jackson.jpg",
+    "identico": true,
+    "sha256": "284c68ec9c86b95629f08f4428d884aebfabab386661fb0fb4b2d0cf6a1fff58"
+  },
+  {
+    "file": "canzone/youngblood/index.html",
+    "identico": true,
+    "sha256": "9378a8aea67ef472315e91bc40404ce60b3efdd08b5f05d45f2231ad62253696"
+  },
+  {
+    "file": "canzone/hotel-california/index.html",
+    "identico": true,
+    "sha256": "c3d37daf5ddb01b8b4d73457a79ee04070967d5b67ed5c867c926245d3f4a233"
+  },
+  {
+    "file": "canzone/caruso/index.html",
+    "identico": true,
+    "sha256": "851d0809d893b3cc4d56565311d3c223110ed55d103fbcfb75bcbf8d44ca8871"
+  },
+  {
+    "file": "canzone/azzurro/index.html",
+    "identico": true,
+    "sha256": "9d0990409b33c0e4b27819129ab8b472a2f68b29bfc72a3f2f7ab03a5446098b"
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "identico": true,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+  },
+  {
+    "file": "sitemap-album.xml",
+    "identico": true,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "identico": true,
+    "sha256": "a8b09659c21b51a088b891f08c62c64571a34f0f6dfd750029588f2394d255bc"
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "identico": true,
+    "sha256": "916f2fc61a9a4748c8ea82fe385370e1891568fd39cd552b9ad28a73014e520b"
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "identico": true,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+  },
+  {
+    "file": "sitemap.xml",
+    "identico": true,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  }
+]
