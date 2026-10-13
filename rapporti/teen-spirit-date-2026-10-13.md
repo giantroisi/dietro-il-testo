@@ -51,3 +51,10 @@ Precedenza circoscritta P1/P2 a un errore già online. Gli altri rilievi del rap
 Ricerca fotografica Nirvana soltanto preliminare: non è un lotto fotografico completato e nessun asset è stato acquisito. Proposta Eagles già presente lasciata intatta. Il prototipo curato What's My Age Again? 6f5d86e4b resta in revisione indipendente; le altre 308 cartoline restano ferme.
 
 Main e documenti non tracciati preservati. Nessun GSC/IndexNow. Nessuna integrazione, push o pubblicazione: occorre approvazione specifica del proprietario. Integrare solo questo record e i suoi estratti, senza sovrascrivere cartoline o altri lotti; aggiungere questa sezione Roadmap senza sostituire sezioni di proposte distinte.
+
+
+## Pubblicazione approvata e verificata — 13 ottobre 2026
+
+Approvazione diretta del proprietario per53ce54c76: integrazione, push e pubblicazione. Main verificato alla base4b7933706, remoto coincidente, file nontracciati preservati; fast-forward del solo lotto e push dello SHA approvato. Deploy dpl_ACDCaVG642Z6m15Nu5htTVVzussY Ready/Production/Current, progetto dietro-il-testo e alias www.dietroiltesto.it, commit53ce54c7612edb5d220d1d134114fc4cd9c5d8e8 verificati nel dashboard Chrome. Connettore Vercel403 e CLI assente: controllo concluso tramite browser autorizzato e HTTPS, nessuna modifica delle credenziali o impostazioni.
+
+Nove HTML e sei sitemap HTTPS identici al commit, TLS attivo. Browser1280/390/320: frase corretta,3fonti visibili, dateModified13ottobre, zero overflow/errori. Una sola voce lastmod cambiata, tutte le altre preservate. Main con soli2documentiSEO nontracciati e hash invariati; foto Finley e prototipo cartolina distinti non pubblicati. Nessun GSC/IndexNow. Prove e questo aggiornamento sono conservati in un commit locale distinto, senza secondo push non autorizzato. Filone concluso: correzione date TeenSpirit pubblicata e verificata; limiti editoriali originari invariati.
