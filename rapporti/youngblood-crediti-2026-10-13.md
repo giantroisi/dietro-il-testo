@@ -41,3 +41,8 @@ Non è una revisione integrale: restano fuori da questo lotto le citazioni dell�
 Per integrare dopo approvazione, unire solo i campi del record youngblood e la chiave OG nel JSON, i due file pubblici, la sola voce sitemap e la nuova sezione §97 della Roadmap. Non sovrascrivere documenti interi: §96 della proposta Michael Jackson resta separata e richiede la propria approvazione. Non trasferito nel main, nessun push o deploy. Servono autorizzazioni specifiche per queste azioni.
 
 Filone concluso: **correzione sostanziale circoscritta P1/P2**. Il successivo ciclo può riprendere la ricerca fotografica dei R.E.M.; nessun lotto fotografico R.E.M. è dichiarato concluso.
+
+
+## Pubblicazione approvata e verificata
+
+Approvazione diretta del proprietario per integrazione, push e pubblicazione di 4dca93460. Fast-forward dalla base f8ce08b0a e push del solo lotto. Deploy dpl_3rn59cDaX3cEQPaxZJdpgFZkPk2r READY production: SHA 4dca93460cd9141292fc754788ab05214a522f8d, progetto e alias www.dietroiltesto.it verificati. Pagina, OG e sei sitemap HTTPS identici a main; TLS attivo tramite curl di sistema. Python locale privo della CA corretta, nessuna verifica disabilitata. Browser 1280/390/320: Louis Bell, parafrasi, fonti e versione OG corretti; zero overflow ed errori console. Documenti non tracciati e hash preservati. Nessuna richiesta GSC o IndexNow. Limiti editoriali del dossier invariati. Filone concluso: Youngblood pubblicata e verificata. Prove archiviate localmente; il push del successivo commit di documentazione è stato rifiutato dalla revisione automatica e non è stato eseguito.

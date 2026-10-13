@@ -1,0 +1,42 @@
+[
+  {
+    "file": "canzone/youngblood/index.html",
+    "identico": true,
+    "sha256": "9378a8aea67ef472315e91bc40404ce60b3efdd08b5f05d45f2231ad62253696"
+  },
+  {
+    "file": "og/youngblood.png",
+    "identico": true,
+    "sha256": "f4b142e25ad7992eb1fc847e50d4389d8e783c335250cfb7c5738d5953d7f758"
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "identico": true,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+  },
+  {
+    "file": "sitemap-album.xml",
+    "identico": true,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "identico": true,
+    "sha256": "e16e0a13d1cc3491b3a45efa1b8f4e2b35990b20f662b756c6441c3e7baabb26"
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "identico": true,
+    "sha256": "978cd10e0ac44dfb94120f6182b1440958ec4a4368815a1d7cc83058c42b64ac"
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "identico": true,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+  },
+  {
+    "file": "sitemap.xml",
+    "identico": true,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+  }
+]
