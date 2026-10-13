@@ -1,0 +1,28 @@
+{
+  "base": "4b7933706ac51b8b8a2f4ba45a1557ba656b14ab",
+  "schedaCorretta": "canzone/teen-spirit/index.html",
+  "estrattiDerivatiCorretti": [
+    "album/nirvana/nevermind/index.html",
+    "anni/1990/index.html",
+    "archivio/index.html",
+    "artista/nirvana/index.html",
+    "canzone/come-as-you-are/index.html",
+    "canzone/nightswimming/index.html",
+    "canzone/under-the-bridge/index.html",
+    "genere/rock/index.html"
+  ],
+  "pagineProprie": 1,
+  "HTML": 9,
+  "lastmodModificati": {
+    "canzone/teen-spirit/": {
+      "prima": "2026-10-11",
+      "dopo": "2026-10-13"
+    }
+  },
+  "lastmodEstrattiDerivati": "invariati: sola anteprima di altro articolo, come F40",
+  "datePublished": "1991 invariata",
+  "datiCanzoni": "un record, solo corpo[0] e tre fonti",
+  "ricercaRitrattiCartolineAmazon": "invariati",
+  "altrePagine": "687 invariati",
+  "limiti": "Altri rilievi del rapporto41 non verificati né corretti; nessun bollino o verifica integrale"
+}

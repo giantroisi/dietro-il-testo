@@ -122,7 +122,7 @@
     "ascoltiTesto": "3,0 mld ascolti",
     "spotifyId": "1f3yAtsJtY87CTmM8RLnxf",
     "corpo": [
-      "Brano d'apertura e primo singolo di \"Nevermind\", uscito il 10 settembre 1991. In un'intervista a Rolling Stone del gennaio 1994, Kurt Cobain raccontò che stava provando a scrivere \"la canzone pop definitiva\", ammettendo apertamente di aver cercato di \"scopiazzare\" i Pixies: \"Quando li sentii per la prima volta mi ci ritrovai così tanto che avrei dovuto essere in quella band, o almeno in una cover band dei Pixies. Abbiamo preso in prestito il loro senso della dinamica, il passaggio da sommesso e quieto a esplosivo e duro\".",
+      "Il singolo uscì il 10 settembre 1991 e apre \"Nevermind\", pubblicato il 24 settembre 1991. In un'intervista a Rolling Stone del gennaio 1994, Kurt Cobain raccontò che stava provando a scrivere \"la canzone pop definitiva\", ammettendo apertamente di aver cercato di \"scopiazzare\" i Pixies: \"Quando li sentii per la prima volta mi ci ritrovai così tanto che avrei dovuto essere in quella band, o almeno in una cover band dei Pixies. Abbiamo preso in prestito il loro senso della dinamica, il passaggio da sommesso e quieto a esplosivo e duro\".",
       "Lo stesso Cobain ammise che il riff portante era \"talmente clichè\" da somigliare a un riff dei Boston o a \"Louie, Louie\": quando lo propose in sala prove, il bassista Krist Novoselic lo giudicò ridicolo, ma Cobain fece suonare la band per un'ora e mezza finché non lo accettarono. Sempre a Rolling Stone, Cobain rivelò che il verso più citato del ritornello, quello che rivendica il diritto a essere intrattenuti, nasceva da una frase che diceva davvero ogni volta che arrivava a una festa, per rompere il ghiaccio in situazioni che trovava noiose e imbarazzanti."
     ],
     "fraseIconica": "Il verso più citato è quello in cui si rivendica, quasi sarcasticamente, il diritto ad essere intrattenuti proprio ora — una frase che, come raccontò lo stesso Cobain a Rolling Stone nel 1994, era qualcosa che diceva davvero arrivando alle feste per rompere il ghiaccio, e che è stata letta come una frecciata all'apatia della sua generazione verso il consumo passivo di cultura e intrattenimento. Il titolo stesso nacque da un equivoco: l'attivista Kathleen Hanna scrisse sul muro di Cobain che \"puzzava di Teen Spirit\", riferendosi a un deodorante usato dalla sua allora fidanzata, ma Cobain lo interpretò come un complimento sul suo spirito ribelle e lo usò come titolo, pur senza che la frase comparisse mai nel testo.",
@@ -150,6 +150,21 @@
         "url": "https://kworb.net/spotify/",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://www.nirvana.com/timelines/",
+        "nome": "Nirvana — cronologia ufficiale, pubblicazione di Nevermind",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.history.com/this-day-in-history/september-10/nirvanas-smells-like-teen-spirit-is-released-as-a-single",
+        "nome": "HISTORY.com Editors — uscita del singolo, aggiornato il 27 maggio 2025",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.nirvana.com/releases-archive/nevermind/",
+        "nome": "Nirvana — tracklist ufficiale di Nevermind",
+        "ruolo": "album"
       }
     ],
     "testoFonte": "Letras",

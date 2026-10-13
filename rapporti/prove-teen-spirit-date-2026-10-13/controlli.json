@@ -1,0 +1,28 @@
+{
+  "SEO": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "link": 1065,
+    "problemi": 0
+  },
+  "link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "coerenza": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "browser": {
+    "scheda": 3,
+    "estratti": 16,
+    "overflow": false,
+    "erroriConsole": []
+  },
+  "ambito": "Una frase, tre fonti; otto estratti identici corretti. CSS e resto dei testi invariati. Un solo lastmod/dateModified. Nessun build generale.",
+  "stato": "Verificato localmente; nessuna integrazione, push o pubblicazione."
+}
