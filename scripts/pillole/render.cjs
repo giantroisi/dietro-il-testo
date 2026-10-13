@@ -1,4 +1,4 @@
-// Stesso renderer della condivisione Instagram, senza un secondo modello grafico.
+// Produce il JPEG unico che pagina e condivisione Storia usano senza ridisegnarlo.
 'use strict';
 const fs=require('node:fs'), path=require('node:path'), vm=require('node:vm'), crypto=require('node:crypto');
 const {createCanvas,loadImage,GlobalFonts}=require('@napi-rs/canvas');
@@ -13,6 +13,7 @@ async function main(){
   const candidates=['/System/Library/Fonts/Supplemental/'+file,'/System/Library/Fonts/'+file];
   const f=candidates.find(x=>fs.existsSync(x));if(!f||!GlobalFonts.registerFromPath(f,name))throw Error('Font mancante: '+file);
  }
+ if(!GlobalFonts.registerFromPath('/System/Library/Fonts/Helvetica.ttc','Helvetica'))throw Error('Font Helvetica mancante');
  const logo=await loadImage(fs.readFileSync(path.join(root,'logo.png')));
  const registry=JSON.parse(fs.readFileSync(path.join(root,'dati/pillole.json')));const proof=[];
  const slugsArg=process.argv.indexOf('--slugs-file');
@@ -22,6 +23,18 @@ async function main(){
  const proofDir=proofArg<0?'rapporti/prove-cartoline-uniche-2026-10-13':process.argv[proofArg+1];
  for(const slug of selected){
   const p=registry[slug];
+  if(p.cartolina){
+   const c=JSON.parse(fs.readFileSync(path.join(root,'dati/canzoni.json'))).find(c=>c.slug===slug);
+   if(!c || p.cartolina.sezioni.some(s=>!c.fonti.some(f=>f.url===s.fonte)) || p.cartolina.fontiAnagrafica.some(url=>!c.fonti.some(f=>f.url===url)))throw Error('Fonti cartolina non presenti nella scheda');
+   const result=require('./editoriale.cjs').renderEditoriale(c,p.cartolina,logo);
+   const bytes=result.canvas.toBuffer('image/jpeg',92);
+   p.file=slug+'-storia.jpg';p.sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+   p.testoGrafica=[c.artista,c.anno,'Album: '+c.album,...p.cartolina.sezioni.flatMap(s=>[s.titolo,s.testo]),'Fonti: '+p.cartolina.sezioni.map(s=>s.nomeFonte).concat(p.cartolina.nomiFontiAnagrafica).join(', ')].map(s=>s.replace(/[.]+$/, '')).join('. ')+'.';
+   p.modello=result.modello;
+   fs.writeFileSync(path.join(root,'pillole',p.file),bytes);
+   proof.push({slug,file:p.file,bytes:bytes.length,sha256:p.sha256,dimensioni:[1080,1920],testi:result.testi,sezioni:result.sezioni,titolo:result.titolo,rendererSha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(__dirname,'editoriale.cjs'))).digest('hex')});
+   continue;
+  }
   const html=fs.readFileSync(path.join(root,'canzone',slug,'index.html'),'utf8');
   const tag=html.match(/<div class="condividi"[\s\S]*?data-sito="[^"]*">/)[0];
   const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
