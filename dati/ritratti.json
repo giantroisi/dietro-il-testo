@@ -1087,5 +1087,41 @@
     },
     "byte": 293473,
     "sha256": "3c06692fb4cd5b296d0e85e654864da171066d29d983cddf4737a8d8821cc74d"
+  },
+  "michael-jackson": {
+    "file": "michael-jackson.jpg",
+    "autore": "Zoran Veselinovic",
+    "titolare": "Non indicato un titolare distinto dall’autore sulla pagina Commons",
+    "licenza": "CC BY-SA 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_in_1988.jpg",
+    "titoloOriginale": "Michael Jackson in 1988.jpg",
+    "urlFile": "https://upload.wikimedia.org/wikipedia/commons/3/31/Michael_Jackson_in_1988.jpg",
+    "fonteAutore": "https://www.flickr.com/photos/56492970@N07/5759638423",
+    "dataVerifica": "2026-10-13",
+    "paginaUso": "/artista/michael-jackson/",
+    "modifiche": "Nessun ritaglio, ritocco o ridimensionamento del file; sola visualizzazione proporzionale tramite CSS",
+    "obblighi": "Attribuire autore e titolo, collegare fonte e licenza; gli adattamenti devono conservare la medesima licenza compatibile; nessuna restrizione aggiuntiva",
+    "dimensioni": {
+      "larghezza": 393,
+      "altezza": 600
+    },
+    "alt": "Michael Jackson canta al microfono sul palco, indossando una giacca scura con decorazioni chiare",
+    "sha256": "284c68ec9c86b95629f08f4428d884aebfabab386661fb0fb4b2d0cf6a1fff58",
+    "creditoParti": [
+      "Foto di Zoran Veselinovic · ",
+      {
+        "testo": "Michael Jackson in 1988.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_in_1988.jpg"
+      },
+      " · ",
+      {
+        "testo": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      " · nessuna modifica locale"
+    ],
+    "creditoVisibile": "Foto di Zoran Veselinovic · Michael Jackson in 1988.jpg · CC BY-SA 2.0 · nessuna modifica locale",
+    "notaVerifica": "Commons: licenza Flickr verificata da FlickreviewR il 28 maggio 2011. Originale Flickr riaperto il 13 ottobre 2026: pagina 404; prova corrente dalla pagina originale del file Commons e dalla revisione della licenza registrata."
   }
 }
