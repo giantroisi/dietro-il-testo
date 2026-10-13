@@ -1,0 +1,24 @@
+{
+  "dataVerifica": "2026-10-13",
+  "segnalazione": "Copia read-only dell’altra AI: rapporti/orario/30-youngblood.md e DA-INTEGRARE.md",
+  "qobuz": {
+    "url": "https://www.qobuz.com/us-en/album/youngblood-5-seconds-of-summer/wt7yyw4b1r1vc",
+    "punto": "Traccia 1: sei ComposerLyricist, incluso Louis Bell; credits ℗ One Mode Productions / Universal Music Operations",
+    "affermazione": "Autori completi"
+  },
+  "shazam": {
+    "url": "https://www.shazam.com/en-us/song/1369109665/youngblood",
+    "punti": [
+      "COMPOSITION & LYRICS: sei Songwriter, incluso Louis Bell",
+      "Ritornello: alternanza fra separazione e bisogno dell’altra persona, resa con parole originali senza trascrizione"
+    ],
+    "affermazioni": [
+      "Autori completi",
+      "Parafrasi ritornello"
+    ]
+  },
+  "universal": {
+    "url": "https://www.universalmusic.it/popular-music/album/youngblood_32554123219/",
+    "nota": "Riaperta come fonte di contesto dei crediti; non contiene lista compositori usata per la correzione. Non aggiunta alla scheda."
+  }
+}

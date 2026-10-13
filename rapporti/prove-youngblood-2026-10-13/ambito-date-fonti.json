@@ -1,0 +1,34 @@
+{
+  "base": "f8ce08b0a18aeb0c66504c0edc46a169daa392c1",
+  "liveCoincideConBase": true,
+  "sha256Live": "207945c982e5a6c1309b3a136b7859119cc271d3d2c86da8764d2acc25e46822",
+  "recordModificati": [
+    [
+      "youngblood",
+      [
+        "fonti",
+        "fraseIconica",
+        "corpo"
+      ]
+    ]
+  ],
+  "htmlEsaminati": 696,
+  "htmlModificati": [
+    "canzone/youngblood/index.html"
+  ],
+  "lastmodModificati": [
+    {
+      "url": "https://www.dietroiltesto.it/canzone/youngblood/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-13"
+    }
+  ],
+  "datePublishedInvariate": true,
+  "titleCanonicalInvariati": true,
+  "descriptionCorrette": true,
+  "cartolinaHash": "f4b142e25ad7992eb1fc847e50d4389d8e783c335250cfb7c5738d5953d7f758",
+  "versioneOG": "f4b142e25ad7",
+  "statoVerificaPreservato": true,
+  "altriRilieviYoungblood": "Restano fuori da questo lotto: citazioni interview, distribuzione preorder, classifiche e record di ascolto. Non dichiarata una verifica completa.",
+  "css": "Solo HTML target riceve minmax(min(300px,100%),1fr) già nel template vigente, nessun CSS condiviso modificato."
+}

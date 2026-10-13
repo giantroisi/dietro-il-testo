@@ -9581,10 +9581,10 @@
     "ascoltiTesto": "2,2 mld ascolti",
     "spotifyId": "2iUXsYOEPhVqEBwsqP70rE",
     "corpo": [
-      "Scritta da Calum Hood, Ali Tamposi, Andrew Watt, Ashton Irwin e Luke Hemmings, fu pubblicata come singolo il 12 aprile 2018, traccia che dà il titolo al terzo album in studio della band, un deciso cambio di rotta verso il new wave e il synth-pop rispetto al pop punk delle origini. Presentandolo, il cantante Luke Hemmings ha spiegato che la band sentiva il bisogno di mettersi alla prova con un suono nuovo, definendolo un modo per «ricominciare tutto da capo, come una nuova band».",
+      "Scritta da Calum Hood, Ali Tamposi, Andrew Watt, Ashton Irwin, Luke Hemmings e Louis Bell, fu pubblicata come singolo il 12 aprile 2018, traccia che dà il titolo al terzo album in studio della band, un deciso cambio di rotta verso il new wave e il synth-pop rispetto al pop punk delle origini. Presentandolo, il cantante Luke Hemmings ha spiegato che la band sentiva il bisogno di mettersi alla prova con un suono nuovo, definendolo un modo per «ricominciare tutto da capo, come una nuova band».",
       "Il batterista Ashton Irwin ha aggiunto che il genere li attirava perché capace di essere insieme malinconico ed energico: «amavamo il fatto che il new wave potesse essere davvero malinconico, ma anche vivace. Aveva romanticismo e rabbia, ma anche energia e colore». Il brano vinse l'ARIA Award per la canzone dell'anno nel 2018, raggiunse il primo posto in Australia (dove restò per otto settimane consecutive) e in Nuova Zelanda, ed è diventato il brano più ascoltato della band su Spotify, superando i 2 miliardi di streaming."
     ],
-    "fraseIconica": "Il ritornello più citato invita ad allontanarsi mentre si è ancora giovani, prima che qualcosa vada storto — l'immagine che dà il titolo all'intero album, terzo della band. Fu pubblicata come secondo singolo il 12 aprile 2018, dopo essere stata inizialmente distribuita in anteprima solo a chi avesse prenotato l'album. Segnò per i 5 Seconds of Summer il primo numero uno nella classifica radiofonica Pop Airplay statunitense, ed è diventata il loro brano di maggior successo in assoluto.",
+    "fraseIconica": "Il ritornello mette in scena un legame instabile: il desiderio di separarsi si alterna al bisogno dell’altra persona. Fu pubblicata come secondo singolo il 12 aprile 2018, dopo essere stata inizialmente distribuita in anteprima solo a chi avesse prenotato l'album. Segnò per i 5 Seconds of Summer il primo numero uno nella classifica radiofonica Pop Airplay statunitense, ed è diventata il loro brano di maggior successo in assoluto.",
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/5-seconds-of-summer/youngblood/",
     "fonti": [
@@ -9596,6 +9596,16 @@
       {
         "url": "https://en.wikipedia.org/wiki/Youngblood_(5_Seconds_of_Summer_song)",
         "nome": "Wikipedia"
+      },
+      {
+        "url": "https://www.qobuz.com/us-en/album/youngblood-5-seconds-of-summer/wt7yyw4b1r1vc",
+        "nome": "Qobuz — Youngblood, crediti digitali della traccia 1",
+        "ruolo": "crediti"
+      },
+      {
+        "url": "https://www.shazam.com/en-us/song/1369109665/youngblood",
+        "nome": "Shazam — Youngblood, crediti e testo del brano",
+        "ruolo": "crediti"
       }
     ],
     "testoFonte": "Letras",
