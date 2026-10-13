@@ -1,0 +1,24 @@
+{
+  "crediti": "positivi, inclusi casi negativi",
+  "SEO": {
+    "HTML": 696,
+    "problemi": 0
+  },
+  "link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "link": 1065,
+    "esito": "positivo"
+  },
+  "coerenza": "positiva",
+  "sintassi": "positiva",
+  "diff": "positivo",
+  "browser": "1280/390/320, foto caricata, nessun overflow; tema chiaro320",
+  "OG": "stesso file della pagina, opzione attiva per un solo artista su104; tre record incompleti esclusi",
+  "rerender": "una pagina, identica byte per byte",
+  "copie": "35 registrate, 12 timeout3s preservati, una copia remota non presente",
+  "editoriale": "nessuna nuova verifica integrale; segnalazioni altraAI lette senza modifiche"
+}

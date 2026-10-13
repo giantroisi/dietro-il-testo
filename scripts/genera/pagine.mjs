@@ -1141,6 +1141,10 @@ export function paginaArtista(a, ctx) {
     identita: a.colore || undefined,
     identitaContrasto: a.colore ? suColore(a.colore) : undefined,
     ogType: 'profile',
+    ...(rt?.stessaImmagineCondivisione === true && rt.dimensioni?.larghezza > 0 && rt.dimensioni?.altezza > 0 && ritrattoArtista(a).pubblicata ? {
+      ogImage: `ritratti/${rt.file}`,
+      ogImageWidth: rt.dimensioni.larghezza, ogImageHeight: rt.dimensioni.altezza,
+    } : {}),
     totali: ctx.totali,
     raccolte: ctx.raccolte,
     // F52: senza storia e con meno di tre canzoni raccontate, la pagina resta
