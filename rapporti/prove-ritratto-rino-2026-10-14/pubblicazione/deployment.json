@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"result\": {\n    \"deployment\": {\n      \"id\": \"dpl_8gusBAW8Qng96RKUwYcFQkw53GRa\",\n      \"name\": \"dietro-il-testo\",\n      \"url\": \"dietro-il-testo-6v72c3dj6-giantroisi1.vercel.app\",\n      \"type\": \"LAMBDAS\",\n      \"state\": \"READY\",\n      \"createdAt\": 1791995850470,\n      \"creator\": {\n        \"uid\": \"VcYPlqffHId38bRolg25XhSC\",\n        \"username\": \"giantroisi\"\n      },\n      \"project\": {\n        \"id\": \"prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm\",\n        \"name\": \"dietro-il-testo\",\n        \"framework\": null\n      },\n      \"meta\": {\n        \"githubCommitRef\": \"main\",\n        \"githubCommitSha\": \"53ffeaf5245b45a895026cb58046bdf9a778afa1\",\n        \"githubCommitMessage\": \"Integra foto Rino Gaetano approvata, preservando Wonderwall\",\n        \"githubRepo\": \"dietro-il-testo\",\n        \"githubOrg\": \"giantroisi\"\n      },\n      \"alias\": [\n        \"www.dietroiltesto.it\",\n        \"dietro-il-testo.vercel.app\",\n        \"dietroiltesto.it\",\n        \"dietro-il-testo-giantroisi1.vercel.app\",\n        \"dietro-il-testo-git-main-giantroisi1.vercel.app\"\n      ],\n      \"target\": \"production\",\n      \"regions\": [\n        \"iad1\"\n      ],\n      \"buildingAt\": 1791995851816,\n      \"ready\": 1791995866534,\n      \"readyState\": \"READY\",\n      \"source\": \"git\",\n      \"aliasError\": null\n    }\n  }\n}"
+    }
+  ],
+  "isError": false
+}

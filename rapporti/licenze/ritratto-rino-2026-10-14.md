@@ -35,3 +35,14 @@ F40/protezioni rilette prima: generazione mirata con script temporaneo rimosso, 
 Copia /Users/gianmicheletroisi/.codex/worktrees/ritratto-rino-gaetano-2026-10-14/dietro-il-testo, ramo codex/ritratto-rino-gaetano-2026-10-14, base5ea40016d6e33e73a75477d58b61b225d7614f03. Creazione riuscita; registrazione/riaggancioapp falliti per limite100allegati, unico checkout.30copie controllate,12timeout e voce remota assente preservati. Main/nontracciati, altraAI/rapporti16–46 e tutte le proposte intatti; nessun rapporto nuovo. Wonderwallf7ade2bae nella distinta copia Mina lasciato intatto durante la preparazione fotografica, poi approvato dal proprietario. Prototipo6f5d86e4b e308cartoline fermi.
 
 Integrare soltanto nuova chiave rino-gaetano e§112; la§111 è riservata a Wonderwall sull'altro ramo. Non sostituire l'intero JSON o Roadmap. Un commit locale solo dopo verifica; main/push/pubblicazione di Rino richiedono approvazione specifica. Nessun GSC/IndexNow o nuovoAmazon. Limiti: originale piccolo e leggermente morbido, data dello scatto non verificata.
+
+
+## Pubblicazione approvata e verificata — 14 ottobre2026
+
+Il proprietario ha approvato nominativamente Rino8e07d7ed7: integrazione, push e pubblicazione. Proposta applicata sulla base Wonderwallf7ade2bae in commit53ffeaf5245b45a895026cb58046bdf9a778afa1: tutti i file della foto identici a8e07d7ed7; solo appendice Roadmap risolta conservando§111Wonderwall e§112Rino. Nessun contenuto o file di Wonderwall modificato. Main fast-forward e push del solo commit integrato.
+
+Vercel dpl_8gusBAW8Qng96RKUwYcFQkw53GRa READY, production/main e SHA53ffeaf5245b45a895026cb58046bdf9a778afa1, progetto dietro-il-testo/teamgiantroisi1; dominio www.dietroiltesto.it attivo senza aliasError. Pagina https://www.dietroiltesto.it/artista/rino-gaetano/, JPEG e sei sitemap confrontati via HTTPS con TLS attivo: byte identici al main approvato.
+
+Browser pubblico1280×900/390×844/320×568: immagine originale330×350 caricata, resa300×318desktop/280×297mobile senza ingrandimento, stessa URL figura/OG/Twitter, credito/limitazione della data visibili, nessun overflow/errori. Screenshot desktop/mobile visionati. Unico lastmod/dateModified Rino al14ottobre, altre date e datePublished preservate; nessun build generale/GSC/IndexNow.
+
+Prove in rapporti/prove-ritratto-rino-2026-10-14/pubblicazione/. Main/nontracciati SEO e copie/proposte preservati. Documentazione successiva conservata solo sul ramo locale codex/rino-prove-pubblicazione-2026-10-14, senza secondo push. Limiti invariati: file originale piccolo e data scatto non verificata; non nuova verifica integrale della biografia, cache/ritagli social dipendono dalle piattaforme.308cartoline ferme.
