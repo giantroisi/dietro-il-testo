@@ -4747,3 +4747,12 @@ Rapporto46 letto come segnalazione; errore già online confermato sul sito pubbl
 Un solo record/corpo[1]/fonte e HTMLWonderwall, unico dateModified/lastmod11→14ottobre. Altre697HTML e cinque sitemap identici, datePublished/metadati/CSS/immagini/Amazon preservati. F40 rilette, nessun build generale. SEO696/coerenza321-104/affiliazioni1065/diff e confronto scope positivi; browser1280/390/320, screenshot passaggio/fonte visionati, zero overflow/errori. Non verifica integrale né nuovo bollino; dati numerici Spotify e altri rilievi del rapporto46 non trattati.
 
 Copia ritratto-mina-2026-10-14/dietro-il-testo riusata pulita su nuovo ramo codex/wonderwall-miliardo-2026-10-14, base5ea40016d. Mina già pubblicata e proveb28c58184 locali intatte; main/nontracciati, altraAI e proposte preservati,308cartoline ferme.30copie controllate,12timeout e voce remota assente lasciati intatti. Dossier rapporti/wonderwall-miliardo-2026-10-14.md e prove dedicate. Unire solo Wonderwall/nuova fonte e§111; solo commit locale, integrazione/push/pubblicazione da approvare. Nessun GSC/indicizzazione. Prossimo ciclo: immagini mancanti indipendenti.
+
+
+## Pubblicazione approvata e verificata — 14 ottobre2026
+
+Il proprietario ha approvato nominativamente Wonderwallf7ade2bae: integrazione, push e pubblicazione. Main integrato fast-forward e inviato esclusivamente f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c, senza altri lotti. Vercel dpl_FfafZjSCvn134KHtAy2pM2JHHw2s READY, progetto dietro-il-testo/teamgiantroisi1, production/main e SHAesatto; alias www.dietroiltesto.it attivo, aliasErrornull.
+
+Pagina https://www.dietroiltesto.it/canzone/wonderwall/ e sei sitemap HTTPS con TLS attivo confrontati: byte identici al lotto approvato. Browser pubblico1280×900/390×844/320×568: ottobre2020 presente, vecchio2025 assente, fonteSony visibile e lastmod/dateModified14ottobre; screenshotdesktop/mobile/fonte320 visionati, zero overflow/errori. DatePublished1995 e altre date preservate; nessun build generale/GSC/IndexNow.
+
+Prove in rapporti/prove-wonderwall-miliardo-2026-10-14/pubblicazione/. Main conserva solo i due SEO nontracciati con hash invariati. Rino8e07d7ed7 e altre proposte intatte in copie/rami separati,308cartoline ferme. Documentazione successiva salvata sul ramo locale codex/wonderwall-prove-pubblicazione-2026-10-14, senza secondo push. Restano i limiti editoriali della correzione circoscritta, non verifica integrale.

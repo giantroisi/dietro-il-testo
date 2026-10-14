@@ -23,3 +23,12 @@ F40/protezioni rilette; sostituzione mirata, nessun build generale. Confronto st
 Riusata la copia pulita /Users/gianmicheletroisi/.codex/worktrees/ritratto-mina-2026-10-14/dietro-il-testo su nuovo ramo codex/wonderwall-miliardo-2026-10-14 dalla base main5ea40016d6e33e73a75477d58b61b225d7614f03. Prove Mina b28c58184 e ramo originale preservati. Main/nontracciati e altraAI intatti;30copie controllate,12timeout e voce remota assente lasciati intatti. Finley, DeAndré, prototipo What’s My Age Again? e altre proposte non sovrapposti;308cartoline ferme.
 
 Unire soltanto la modifica Wonderwall e la fonte Sony nel JSON, l'unica pagina/sitemap e Roadmap§111; non sovrascrivere altri record o sezioni. Un solo commit locale dopo verifica; integrazione nel main, push e pubblicazione richiedono l'approvazione specifica della routine. Nessun push/deploy/GSC/IndexNow eseguito. Alla ripresa ordinaria tornare alle immagini.
+
+
+## Pubblicazione approvata e verificata — 14 ottobre2026
+
+Il proprietario ha approvato nominativamente Wonderwallf7ade2bae: integrazione, push e pubblicazione. Main integrato fast-forward e inviato esclusivamente f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c, senza altri lotti. Vercel dpl_FfafZjSCvn134KHtAy2pM2JHHw2s READY, progetto dietro-il-testo/teamgiantroisi1, production/main e SHAesatto; alias www.dietroiltesto.it attivo, aliasErrornull.
+
+Pagina https://www.dietroiltesto.it/canzone/wonderwall/ e sei sitemap HTTPS con TLS attivo confrontati: byte identici al lotto approvato. Browser pubblico1280×900/390×844/320×568: ottobre2020 presente, vecchio2025 assente, fonteSony visibile e lastmod/dateModified14ottobre; screenshotdesktop/mobile/fonte320 visionati, zero overflow/errori. DatePublished1995 e altre date preservate; nessun build generale/GSC/IndexNow.
+
+Prove in rapporti/prove-wonderwall-miliardo-2026-10-14/pubblicazione/. Main conserva solo i due SEO nontracciati con hash invariati. Rino8e07d7ed7 e altre proposte intatte in copie/rami separati,308cartoline ferme. Documentazione successiva salvata sul ramo locale codex/wonderwall-prove-pubblicazione-2026-10-14, senza secondo push. Restano i limiti editoriali della correzione circoscritta, non verifica integrale.

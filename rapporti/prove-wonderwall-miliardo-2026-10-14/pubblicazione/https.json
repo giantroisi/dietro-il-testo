@@ -1,0 +1,57 @@
+{
+  "timestampUTC": "2026-10-14T16:21:31.371356+00:00",
+  "commit": "f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c",
+  "deployment": "dpl_FfafZjSCvn134KHtAy2pM2JHHw2s",
+  "httpsTLS": "Verificato curl di sistema; nessun bypass",
+  "risorse": [
+    {
+      "path": "canzone/wonderwall/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/wonderwall/",
+      "bytes": 67174,
+      "sha256": "e94d8c10dde67c21d0b2d7bea9464695877afb658dfaf19fc195bca7359711a9",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "bytes": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "bytes": 10854,
+      "sha256": "b586e1552c17de179670cdc5c33112f5fecd5a5f8b51144ed23a514da6e32571",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "bytes": 34080,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "bytes": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "bytes": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identicoMain": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "bytes": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identicoMain": true
+    }
+  ]
+}

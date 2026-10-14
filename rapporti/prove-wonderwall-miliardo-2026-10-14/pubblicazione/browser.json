@@ -1,0 +1,25 @@
+{
+  "prove": [
+    {
+      "correzionePresente": true,
+      "dateModified": "2026-10-14",
+      "fonteSony": "Sony Music Japan — un miliardo di ascolti su Spotify, 15 ottobre 2020",
+      "overflow": false,
+      "vecchiaFraseAssente": true,
+      "width": 1280
+    },
+    {
+      "correzionePresente": true,
+      "fonteSony": "Sony Music Japan — un miliardo di ascolti su Spotify, 15 ottobre 2020",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "correzionePresente": true,
+      "fonteSony": "Sony Music Japan — un miliardo di ascolti su Spotify, 15 ottobre 2020",
+      "overflow": false,
+      "width": 320
+    }
+  ],
+  "erroriConsole": []
+}

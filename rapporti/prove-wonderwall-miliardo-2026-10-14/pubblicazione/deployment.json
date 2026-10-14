@@ -1,0 +1,15 @@
+{
+  "id": "dpl_FfafZjSCvn134KHtAy2pM2JHHw2s",
+  "projectId": "prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm",
+  "projectName": "dietro-il-testo",
+  "teamId": "team_5wnLmRfxPsCd8aEmcZUsfRKG",
+  "readyState": "READY",
+  "target": "production",
+  "source": "git",
+  "githubCommitRef": "main",
+  "githubCommitSha": "f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c",
+  "url": "dietro-il-testo-e4tj36cug-giantroisi1.vercel.app",
+  "aliasError": null,
+  "alias": ["www.dietroiltesto.it", "dietroiltesto.it", "dietro-il-testo.vercel.app", "dietro-il-testo-giantroisi1.vercel.app", "dietro-il-testo-git-main-giantroisi1.vercel.app"],
+  "prova": "Metadati Vercel MCP get_deployment letti il 14 ottobre 2026"
+}
