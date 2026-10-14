@@ -1,0 +1,39 @@
+{
+  "storia": "Registro→HTML artista→foto e credito→OG/Twitter. Sito statico, nessuna API o credenziale coinvolta.",
+  "SEO": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "link": 1065,
+    "problemi": 0
+  },
+  "crediti": "positivi, negativi e hash superati",
+  "browser": "1280/390/320 scuro e320 chiaro; zero overflow/errori, nessun ingrandimento",
+  "ambito": {
+    "base": "36014659aac2146dc2c98c20493efb1878c5ebb9",
+    "HTMLTotali": 698,
+    "HTMLIntatti": 697,
+    "ritrattiPrecedentiIntatti": 56,
+    "lastmodPrima": "2026-09-17",
+    "lastmodDopo": "2026-10-14",
+    "dateModified": "2026-10-14",
+    "datePublishedTitoloDescrizioneH1CanonicalCTA": "preservati",
+    "CSS": "Solo griglia mobile già nel template corrente, sulla singola pagina",
+    "cartoline": "tutte intatte; prototipo6f5d86e4b in revisione e308ferme"
+  },
+  "file": {
+    "byte": 256144,
+    "sha256": "8cee009f9729d0a56f37c3bb74f0d3db54ec4cfd35b377c18ebb65041baf84a5",
+    "dimensioni": {
+      "larghezza": 960,
+      "altezza": 1054
+    }
+  },
+  "stato": "Proposta preparata e verificata; nessuna pubblicazione"
+}
