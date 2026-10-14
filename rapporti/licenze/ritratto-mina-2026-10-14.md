@@ -37,3 +37,12 @@ Copia /Users/gianmicheletroisi/.codex/worktrees/ritratto-mina-2026-10-14/dietro-
 Limiti: fotografia storica in bianco e nero con grana originale, performance con George Aghedo e non ritratto solitario. Data/luogo secondo dichiarazione del fotografo. Nessun ritocco o ricostruzione del volto. Le altre308cartoline restano ferme. Nessun GSC/IndexNow o nuovo Amazon.
 
 Solo commit locale dopo verifica. Main, push e pubblicazione richiedono approvazione specifica del proprietario. Integrare soltanto nuova chiave mina e§110 della Roadmap, preservando le distinte voci/sezioni degli altri lotti. Il piccolo hunk della griglia riguarda solo l’HTML Mina.
+
+
+## Pubblicazione approvata e verificata — 14 ottobre 2026
+
+Approvazione nominativa del proprietario: Mina 5ea40016d, integrazione nel main, push e pubblicazione. Integrato e inviato esclusivamente il commit 5ea40016d6e33e73a75477d58b61b225d7614f03. Vercel dpl_441C9pL6gS37AUKf6uvAREyEVU8R READY, ambiente production, ramo main e SHA esatto; alias www.dietroiltesto.it attivo senza errori.
+
+Pagina pubblica https://www.dietroiltesto.it/artista/mina/, JPEG e sei sitemap confrontati via HTTPS con TLS attivo: byte identici ai file approvati. Browser pubblico 1280×900, 390×844 e 320×568: foto caricata 960×1054, stessa URL in figura/OG/Twitter, credito Franco Ghetti/George Aghedo visibile, nessun overflow o errore console. Screenshot desktop e mobile visionati. Nessun build generale; unico lastmod/dateModified Mina al14ottobre, datePublished preservata.
+
+Prove in rapporti/prove-ritratto-mina-2026-10-14/pubblicazione/. Main e documenti SEO non tracciati preservati; altri lotti e copia dell'altra AI intatti, 308cartoline ferme. Questa documentazione successiva è conservata su ramo locale codex/mina-prove-pubblicazione-2026-10-14, senza secondo push. Limiti della foto storica e cache/ritagli social restano quelli dichiarati.
