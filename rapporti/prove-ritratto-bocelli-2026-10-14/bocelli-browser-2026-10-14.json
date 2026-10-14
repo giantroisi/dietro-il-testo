@@ -1,0 +1,123 @@
+{
+  "verifiche": [
+    {
+      "credit": "Il solo Andrea Bocelli, Poznań, 11 maggio 2019; Giorgia non raffigurata · Foto di Jakub Janecki · Andrea Bocelli 20190511 017-2.jpg · CC BY-SA 4.0 · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale",
+      "figure": {
+        "bottom": 439.7265625,
+        "height": 287.4140625,
+        "left": 900,
+        "right": 1200,
+        "top": 152.3125,
+        "width": 300,
+        "x": 900,
+        "y": 152.3125
+      },
+      "image": {
+        "alt": "Andrea Bocelli in giacca blu e papillon nero, sorridente accanto al microfono con una mano alzata; fotografia a colori durante un concerto",
+        "height": 200.6640625,
+        "naturalHeight": 640,
+        "naturalWidth": 960,
+        "src": "http://127.0.0.1:8933/ritratti/andrea-bocelli-poznan-2019.jpg",
+        "width": 299.9921875
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "scrollWidth": 1280,
+      "theme": "dark",
+      "twitter": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "url": "http://127.0.0.1:8933/artista/andrea-bocelli-e-giorgia/",
+      "viewport": 1280
+    },
+    {
+      "credit": "Il solo Andrea Bocelli, Poznań, 11 maggio 2019; Giorgia non raffigurata · Foto di Jakub Janecki · Andrea Bocelli 20190511 017-2.jpg · CC BY-SA 4.0 · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale",
+      "figure": {
+        "bottom": 668.1484375,
+        "height": 274.078125,
+        "left": 24,
+        "right": 366,
+        "top": 394.0703125,
+        "width": 342,
+        "x": 24,
+        "y": 394.0703125
+      },
+      "image": {
+        "alt": "Andrea Bocelli in giacca blu e papillon nero, sorridente accanto al microfono con una mano alzata; fotografia a colori durante un concerto",
+        "height": 187.328125,
+        "naturalHeight": 640,
+        "naturalWidth": 960,
+        "src": "http://127.0.0.1:8933/ritratti/andrea-bocelli-poznan-2019.jpg",
+        "width": 279.9921875
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "scrollWidth": 390,
+      "theme": "dark",
+      "twitter": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "url": "http://127.0.0.1:8933/artista/andrea-bocelli-e-giorgia/",
+      "viewport": 390
+    },
+    {
+      "credit": "Il solo Andrea Bocelli, Poznań, 11 maggio 2019; Giorgia non raffigurata · Foto di Jakub Janecki · Andrea Bocelli 20190511 017-2.jpg · CC BY-SA 4.0 · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale",
+      "figure": {
+        "bottom": 737.1875,
+        "height": 289.828125,
+        "left": 24,
+        "right": 304,
+        "top": 447.359375,
+        "width": 280,
+        "x": 24,
+        "y": 447.359375
+      },
+      "image": {
+        "alt": "Andrea Bocelli in giacca blu e papillon nero, sorridente accanto al microfono con una mano alzata; fotografia a colori durante un concerto",
+        "height": 187.328125,
+        "naturalHeight": 640,
+        "naturalWidth": 960,
+        "src": "http://127.0.0.1:8933/ritratti/andrea-bocelli-poznan-2019.jpg",
+        "width": 279.9921875
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "scrollWidth": 320,
+      "theme": "dark",
+      "twitter": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "url": "http://127.0.0.1:8933/artista/andrea-bocelli-e-giorgia/",
+      "viewport": 320
+    },
+    {
+      "credit": "Il solo Andrea Bocelli, Poznań, 11 maggio 2019; Giorgia non raffigurata · Foto di Jakub Janecki · Andrea Bocelli 20190511 017-2.jpg · CC BY-SA 4.0 · ridimensionamento Wikimedia; nessun ritaglio o ritocco locale",
+      "figure": {
+        "bottom": 339.6875,
+        "height": 289.828125,
+        "left": 24,
+        "right": 304,
+        "top": 49.859375,
+        "width": 280,
+        "x": 24,
+        "y": 49.859375
+      },
+      "image": {
+        "alt": "Andrea Bocelli in giacca blu e papillon nero, sorridente accanto al microfono con una mano alzata; fotografia a colori durante un concerto",
+        "height": 187.328125,
+        "naturalHeight": 640,
+        "naturalWidth": 960,
+        "src": "http://127.0.0.1:8933/ritratti/andrea-bocelli-poznan-2019.jpg",
+        "width": 279.9921875
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "scrollWidth": 320,
+      "theme": "light",
+      "twitter": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "url": "http://127.0.0.1:8933/artista/andrea-bocelli-e-giorgia/",
+      "viewport": 320
+    }
+  ],
+  "erroriLocali": [],
+  "erroriPaginaEsterna": [
+    {
+      "level": "error",
+      "message": "TypeError: Cannot read properties of null (reading 'classList')\n    at https://creativecommons.org/licenses/by-sa/4.0/:1025:9",
+      "timestamp": "2026-10-14T16:53:00.995Z",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "licenzaTastiera": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "ritorno": "http://127.0.0.1:8933/artista/andrea-bocelli-e-giorgia/"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "check": "check-seo",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "2e9305",
+      "wall_time_seconds": 0.607918083,
+      "exit_code": 0,
+      "original_token_count": 37,
+      "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+    }
+  },
+  {
+    "check": "check-coerenza",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "b50750",
+      "wall_time_seconds": 0.121574625,
+      "exit_code": 0,
+      "original_token_count": 18,
+      "output": "Canzoni controllate: 321\nArtisti controllati: 104\nProblemi trovati: 0\n"
+    }
+  },
+  {
+    "check": "check-affiliazioni",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "1ff263",
+      "wall_time_seconds": 0.58794575,
+      "exit_code": 0,
+      "original_token_count": 24,
+      "output": "OK: configurazione, dichiarazione, 1065 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+    }
+  },
+  {
+    "check": "prova-ritratto-credito",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "09e8a6",
+      "wall_time_seconds": 0.168082,
+      "exit_code": 0,
+      "original_token_count": 29,
+      "output": "OK: crediti approvati, file identici, alt e dimensioni; esclusione dei crediti incompleti e dei link eseguibili.\n"
+    }
+  },
+  {
+    "check": "check-link",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "78c4c6",
+      "wall_time_seconds": 0.130735,
+      "exit_code": 0,
+      "original_token_count": 27,
+      "output": "Canzoni: 321 — Artisti: 104\nProblemi trovati: 0\nNessun link interno rotto, nessun URL esterno malformato.\n"
+    }
+  }
+]
