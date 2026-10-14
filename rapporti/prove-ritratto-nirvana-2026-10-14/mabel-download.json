@@ -1,0 +1,30 @@
+[
+  {
+    "file": "mabel-originale-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Krist_Novoselic_15A.jpg",
+    "byte": 771976,
+    "sha256": "9127be782e9c2048573d93c25b13fc64b3a2c3298238391b9c4b3cdbfbdc54e1",
+    "dimensioni": "/private/tmp/nirvana-ricerca-2026-10-14/mabel-originale-1.jpg\n  pixelWidth: 1286\n  pixelHeight: 1726\n  format: jpeg\n"
+  },
+  {
+    "file": "mabel-originale-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Krist_Novoselic_15A.jpg",
+    "byte": 771976,
+    "sha256": "9127be782e9c2048573d93c25b13fc64b3a2c3298238391b9c4b3cdbfbdc54e1",
+    "dimensioni": "/private/tmp/nirvana-ricerca-2026-10-14/mabel-originale-2.jpg\n  pixelWidth: 1286\n  pixelHeight: 1726\n  format: jpeg\n"
+  },
+  {
+    "file": "mabel-asset-1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Krist_Novoselic_15A.jpg/500px-Krist_Novoselic_15A.jpg",
+    "byte": 79624,
+    "sha256": "614a68ce60fdc6ed9692949b6e74762c2cd0af37681b0ee34e3aaed5870dd21f",
+    "dimensioni": "/private/tmp/nirvana-ricerca-2026-10-14/mabel-asset-1.jpg\n  pixelWidth: 500\n  pixelHeight: 671\n  format: jpeg\n"
+  },
+  {
+    "file": "mabel-asset-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Krist_Novoselic_15A.jpg/500px-Krist_Novoselic_15A.jpg",
+    "byte": 79624,
+    "sha256": "614a68ce60fdc6ed9692949b6e74762c2cd0af37681b0ee34e3aaed5870dd21f",
+    "dimensioni": "/private/tmp/nirvana-ricerca-2026-10-14/mabel-asset-2.jpg\n  pixelWidth: 500\n  pixelHeight: 671\n  format: jpeg\n"
+  }
+]
