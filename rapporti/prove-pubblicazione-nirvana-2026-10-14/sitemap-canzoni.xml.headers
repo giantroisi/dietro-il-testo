@@ -1,0 +1,16 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="sitemap-canzoni.xml"
+content-type: application/xml
+date: Wed, 14 Oct 2026 18:28:12 GMT
+etag: "05bec4815b94772f1d2a876ac4f9cda7"
+last-modified: Wed, 14 Oct 2026 18:28:12 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: MISS
+x-vercel-id: fra1::klpxv-1792002491620-732be415f643
+content-length: 34080
+

@@ -1,0 +1,61 @@
+{
+  "TLS": "Verifica certificati attiva tramite curl di sistema.",
+  "risultati": [
+    {
+      "file": "artista/nirvana/index.html",
+      "url": "https://www.dietroiltesto.it/artista/nirvana/",
+      "byteIdentici": true,
+      "sha256": "6f67920c8ce7c5799eb2d743e8e283f129178830255458ea5d1c3dfa5e491f1b",
+      "bytes": 57274
+    },
+    {
+      "file": "ritratti/nirvana-krist-novoselic-2008.jpg",
+      "url": "https://www.dietroiltesto.it/ritratti/nirvana-krist-novoselic-2008.jpg",
+      "byteIdentici": true,
+      "sha256": "614a68ce60fdc6ed9692949b6e74762c2cd0af37681b0ee34e3aaed5870dd21f",
+      "bytes": 79624
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "byteIdentici": true,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "bytes": 15325
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "byteIdentici": true,
+      "sha256": "7255b7befcb76db1367a2ab0c607a10b1feadb933103b07cded5f32bb796fca9",
+      "bytes": 10854
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "byteIdentici": true,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "bytes": 34080
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "byteIdentici": true,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "bytes": 750
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "byteIdentici": true,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "bytes": 955
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "byteIdentici": true,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "bytes": 525
+    }
+  ]
+}

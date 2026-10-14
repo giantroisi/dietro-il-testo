@@ -1,0 +1,16 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="nirvana"
+content-type: text/html; charset=utf-8
+date: Wed, 14 Oct 2026 18:28:11 GMT
+etag: "1f7738bfb4eb2527128999759e04bfb8"
+last-modified: Wed, 14 Oct 2026 18:28:12 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: MISS
+x-vercel-id: fra1::lmvcl-1792002491613-5173aa8b4e9a
+content-length: 57274
+

@@ -1,0 +1,16 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="sitemap-artisti.xml"
+content-type: application/xml
+date: Wed, 14 Oct 2026 18:28:11 GMT
+etag: "0f237f55d25537664006c67bc6befbc9"
+last-modified: Wed, 14 Oct 2026 18:28:12 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: MISS
+x-vercel-id: fra1::f6qlk-1792002491611-f0a08be739c5
+content-length: 10854
+
