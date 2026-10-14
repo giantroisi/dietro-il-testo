@@ -1,0 +1,95 @@
+- link "Skip to content":
+  - /url: "#geist-skip-nav"
+- main:
+  - link "Back to Deployments":
+    - /url: /giantroisi1/ora-torna/deployments
+  - navigation "Breadcrumb":
+    - generic: ChA7JJJ9V
+  - button "Vercel Agent is available on Pro":
+  - link "Deployment":
+    - /url: /giantroisi1/ora-torna/ChA7JJJ9VW3TP7mdbGt9L27kD6iu
+  - link "Logs":
+    - /url: /giantroisi1/ora-torna/ChA7JJJ9VW3TP7mdbGt9L27kD6iu/logs
+  - link "Resources":
+    - /url: /giantroisi1/ora-torna/ChA7JJJ9VW3TP7mdbGt9L27kD6iu/resources
+  - link "Source":
+    - /url: /giantroisi1/ora-torna/ChA7JJJ9VW3TP7mdbGt9L27kD6iu/source
+  - link "Open Graph":
+    - /url: /giantroisi1/ora-torna/ChA7JJJ9VW3TP7mdbGt9L27kD6iu/og
+  - heading "Build Canceled" [level=3]
+  - separator
+  - generic: The deployment was canceled through the Vercel API.
+  - button "Share":
+    - generic: Share
+  - button "Visit" [disabled]:
+    - generic: Visit
+  - button "Deployment Actions":
+  - generic: Created
+  - img "github/giantroisi":
+    - img "github/giantroisi"
+  - generic: giantroisi
+  - generic: 32m ago
+  - generic: Status
+  - generic "This deployment was canceled.":
+    - generic: Canceled
+    - link "Stale":
+      - /url: /giantroisi1/ora-torna/deployments?filterBranch=codex%2Fora-torna-routine-20261005
+  - generic: Duration
+  - generic "14 ott 2026, 19:52:15 CEST":
+    - generic: 31m 31s
+    - generic: Just now
+  - generic: Environment
+  - link "Preview":
+    - /url: /giantroisi1/ora-torna/settings/environments/preview
+  - generic: Domains
+  - link "ora-torna-git-codex-ora-torna-routine-20261005-giantroisi1.vercel.app":
+    - /url: https://ora-torna-git-codex-ora-torna-routine-20261005-giantroisi1.vercel.app
+    - generic: ora-torna-git-codex-ora-torna-routine-20261005-giantroisi1.vercel.app
+  - link "ora-torna-dihxyfmuv-giantroisi1.vercel.app":
+    - /url: https://ora-torna-dihxyfmuv-giantroisi1.vercel.app
+    - generic: ora-torna-dihxyfmuv-giantroisi1.vercel.app
+  - generic: Source
+  - link "codex/ora-torna-routine-20261005":
+    - /url: https://github.com/giantroisi/ora-torna/tree/codex/ora-torna-routine-20261005
+  - link "1d44964 Registra la pubblicazione Amazon di Harry Potter":
+    - /url: https://github.com/giantroisi/ora-torna/commit/1d44964f2cba7f59fe2725bd263970f3f021662f
+    - generic: 1d44964
+    - generic "Registra la pubblicazione Amazon di Harry Potter"
+  - button "Deployment Settings":
+    - generic: Deployment Settings
+  - heading "Build Logs 31m 30s" [level=2]:
+    - generic: Build Logs
+    - generic: 31m 30s
+  - heading "Summary" [level=2]:
+    - generic: Summary
+  - heading "Checks" [level=2]:
+    - generic: Checks
+  - heading "Assigning Custom Domains" [level=2]:
+    - generic: Assigning Custom Domains
+  - link "Runtime Logs View and debug runtime logs & errors":
+    - /url: /giantroisi1/ora-torna/logs
+    - paragraph: Runtime Logs
+    - paragraph: View and debug runtime logs & errors
+  - link "Observability Monitor app health & performance":
+    - /url: /giantroisi1/ora-torna/observability/serverless-functions
+    - paragraph: Observability
+    - paragraph: Monitor app health & performance
+  - link "Speed Insights Not Enabled Performance metrics from real users":
+    - /url: /giantroisi1/ora-torna/speed-insights
+    - paragraph: Speed Insights
+    - generic: Not Enabled
+    - paragraph: Performance metrics from real users
+  - link "Web Analytics Not Enabled Analyze visitors & traffic in real-time":
+    - /url: /giantroisi1/ora-torna/analytics
+    - paragraph: Web Analytics
+    - generic: Not Enabled
+    - paragraph: Analyze visitors & traffic in real-time
+  - button "Find":
+    - generic: Find
+  - separator
+  - button:
+- alert: Deployments
+- status:
+  - generic: "success:"
+  - generic: The deployment has been successfully canceled.
+  - button "Dismiss toast":

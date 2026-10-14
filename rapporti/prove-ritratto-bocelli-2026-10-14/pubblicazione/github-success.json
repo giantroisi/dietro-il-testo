@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "statuses": [
+      {
+        "context": "Vercel",
+        "state": "success",
+        "target_url": "https://vercel.com/giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2"
+      }
+    ]
+  },
+  "isError": false
+}

@@ -37,3 +37,18 @@ Browser: 1280×900, 390×844 e 320×568 in tema scuro; 320 anche chiaro. Nessun 
 Copia riusata dopo la pubblicazione verificata di Rino: /Users/gianmicheletroisi/.codex/worktrees/ritratto-rino-gaetano-2026-10-14/dietro-il-testo. Nuovo ramo codex/ritratto-bocelli-giorgia-2026-10-14, base 53ffeaf5245b45a895026cb58046bdf9a778afa1. Main e non tracciati preservati; copia dell’altra AI e rapporti 16–46 lasciati intatti, senza nuovi rapporti. Finley, De André e prototipo What’s My Age Again? restano sui propri rami in revisione; 308 cartoline ferme. Registri delle copie e timeout conservati nelle prove. Nessuna nuova copia o modifica alle copie non accessibili.
 
 Nirvana lasciata alla ricerca proposta all’altra AI; non è arrivato un nuovo rapporto. Unire soltanto la nuova chiave Bocelli/Giorgia e §113 senza sostituire l’intero JSON o ROADMAP. Commit locale dopo verifiche; integrazione nel main, push e pubblicazione richiedono approvazione specifica. Nessun GSC, indicizzazione o nuovo Amazon. Limite principale: il soggetto è il solo Bocelli in concerto nel 2019, non il duetto.
+
+
+## Pubblicazione approvata e verificata — 14 ottobre 2026
+
+Approvazione nominativa del proprietario: «Approvo Bocelli 132ab77dc: integrazione, push e pubblicazione». Main avanzato direttamente da 53ffeaf52 all’esatto commit 132ab77dc5833fb1f66449dfe05c130734c248eb; push riuscito. Nessuna modifica ulteriore al sito o alle date.
+
+Il deployment di produzione 5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2 è READY/Current su www.dietroiltesto.it, sorgente main e commit 132ab77dc. Concluso il 14 ottobre 2026 alle 19:52:35 CEST, durata 19 secondi. URL tecnico dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app; controllo GitHub Vercel success. Il connettore Vercel negava l’accesso; la verifica del pannello è stata completata tramite browser dopo il login effettuato dal proprietario.
+
+Attesa dovuta a un vecchio build di preview Ora torna, ChA7JJJ9VW3TP7mdbGt9L27kD6iu, 1d44964, segnato Stale. Dopo autorizzazione specifica «Annulla solo il vecchio build di anteprima», annullato e verificato Canceled alle 19:52:15 CEST. Non modificati nuovi deployment, codice, produzione o piano dell’altro progetto. Sblocco della coda seguito da conclusione automatica di Bocelli, senza altro push o deployment.
+
+Pagina HTML, JPEG e sei sitemap effettive confrontati byte per byte sul dominio pubblico tramite HTTPS con verifica TLS attiva: tutti identici al lotto approvato. Unico lastmod artista al 14 ottobre già previsto nel lotto, cinque sitemap precedenti e altre date preservate. Il controllo iniziale aveva interrogato due nomi sitemap non presenti nel repository: corretti usando l’elenco reale, non una regressione del sito. Python non disponeva dell’emittente CA locale: usato curl di sistema, senza insecure.
+
+Browser online 1280×900, 390×844, 320×568: JPEG caricato 960×640, nessun ingrandimento o overflow orizzontale, alt e credito presenti, stessa immagine figura/OG/Twitter, zero errori o avvisi. Screenshot desktop e mobile visionati. Le precedenti prove locali includono anche tema chiaro e licenza da tastiera. Limite invariato e dichiarato: solo Bocelli, senza Giorgia.
+
+Prove aggiunte soltanto su ramo locale codex/bocelli-prove-pubblicazione-2026-10-14, senza un secondo push. Main e origin/main restano 132ab77dc, file non tracciati con hash originali, altra AI e proposte preservati. Pubblicazione fotografica completata; nessuna autorizzazione residua per questo lotto.

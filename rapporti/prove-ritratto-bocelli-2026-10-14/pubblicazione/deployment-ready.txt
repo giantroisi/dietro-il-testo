@@ -1,0 +1,97 @@
+- link "Skip to content":
+  - /url: "#geist-skip-nav"
+- main:
+  - link "Back to Deployments":
+    - /url: /giantroisi1/dietro-il-testo/deployments
+  - navigation "Breadcrumb":
+    - generic: 5sVt5vNp7
+  - button "Vercel Agent is available on Pro":
+  - link "Deployment":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2
+  - link "Logs":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2/logs
+  - link "Resources":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2/resources
+  - link "Source":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2/source
+  - link "Open Graph":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2/og
+  - link "Visit Deployment":
+    - /url: https://dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app
+  - button "Share":
+    - generic: Share
+  - link "Visit":
+    - /url: https://dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app
+    - generic: Visit
+  - button "Visit with":
+  - button "Deployment Actions":
+  - generic: Created
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - generic: giantroisi
+  - generic: 30m ago
+  - generic: Status
+  - generic "This deployment is ready.":
+    - generic: Ready
+    - link "Latest":
+      - /url: /giantroisi1/dietro-il-testo/deployments?filterBranch=main
+  - generic: Duration
+  - generic "14 ott 2026, 19:52:35 CEST":
+    - generic: 19s
+    - generic: Just now
+  - generic: Environment
+  - link "Production":
+    - /url: /giantroisi1/dietro-il-testo/settings/environments/production
+  - generic: Current
+  - generic: Domains
+  - link "www.dietroiltesto.it":
+    - /url: https://www.dietroiltesto.it
+    - generic: www.dietroiltesto.it
+  - generic: "+2"
+  - link "dietro-il-testo-git-main-giantroisi1.vercel.app":
+    - /url: https://dietro-il-testo-git-main-giantroisi1.vercel.app
+    - generic: dietro-il-testo-git-main-giantroisi1.vercel.app
+  - link "dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app":
+    - /url: https://dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app
+    - generic: dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app
+  - generic: Source
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+  - link "132ab77 Prepara foto Bocelli con licenza e prove responsive":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/132ab77dc5833fb1f66449dfe05c130734c248eb
+    - generic: 132ab77
+    - generic "Prepara foto Bocelli con licenza e prove responsive"
+  - button "Deployment Settings":
+    - generic: Deployment Settings
+  - heading "Deploy Logs 19s" [level=2]:
+    - generic: Deploy Logs
+    - generic: 19s
+  - heading "Summary" [level=2]:
+    - generic: Summary
+  - heading "Checks" [level=2]:
+    - generic: Checks
+  - heading "Assigning Custom Domains" [level=2]:
+    - generic: Assigning Custom Domains
+  - link "Runtime Logs View and debug runtime logs & errors":
+    - /url: /giantroisi1/dietro-il-testo/logs
+    - paragraph: Runtime Logs
+    - paragraph: View and debug runtime logs & errors
+  - link "Observability Monitor app health & performance":
+    - /url: /giantroisi1/dietro-il-testo/observability/serverless-functions
+    - paragraph: Observability
+    - paragraph: Monitor app health & performance
+  - link "Speed Insights Not Enabled Performance metrics from real users":
+    - /url: /giantroisi1/dietro-il-testo/speed-insights
+    - paragraph: Speed Insights
+    - generic: Not Enabled
+    - paragraph: Performance metrics from real users
+  - link "Web Analytics Not Enabled Analyze visitors & traffic in real-time":
+    - /url: /giantroisi1/dietro-il-testo/analytics
+    - paragraph: Web Analytics
+    - generic: Not Enabled
+    - paragraph: Analyze visitors & traffic in real-time
+  - button "Find":
+    - generic: Find
+  - separator
+  - button:
+- alert

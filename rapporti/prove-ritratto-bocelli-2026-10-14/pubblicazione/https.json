@@ -1,0 +1,61 @@
+{
+  "TLS": "Verifica certificati attiva tramite curl di sistema; Python non ha il certificato locale, non usato con verifica disattivata.",
+  "risultati": [
+    {
+      "file": "artista/andrea-bocelli-e-giorgia/index.html",
+      "url": "https://www.dietroiltesto.it/artista/andrea-bocelli-e-giorgia/",
+      "byteIdentici": true,
+      "sha256": "2589739d5687f0c7d429a473ab4e4ae628eee2927fce7f41a12cffece6eb9c55",
+      "bytes": 49918
+    },
+    {
+      "file": "ritratti/andrea-bocelli-poznan-2019.jpg",
+      "url": "https://www.dietroiltesto.it/ritratti/andrea-bocelli-poznan-2019.jpg",
+      "byteIdentici": true,
+      "sha256": "e2007a3540131c86de99fd9dc56b5aaeade974fa0eacc5563eb204a9bd996472",
+      "bytes": 102766
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "byteIdentici": true,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "bytes": 15325
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "byteIdentici": true,
+      "sha256": "46e8e650c463a33bba1abfe2d777ede215d8502e310d609791524f8120a80036",
+      "bytes": 10854
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "byteIdentici": true,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "bytes": 34080
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "byteIdentici": true,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "bytes": 750
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "byteIdentici": true,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "bytes": 955
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "byteIdentici": true,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "bytes": 525
+    }
+  ]
+}
