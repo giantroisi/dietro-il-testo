@@ -1,0 +1,38 @@
+{
+  "base": "5ea40016d6e33e73a75477d58b61b225d7614f03",
+  "recordsModificati": [
+    "wonderwall"
+  ],
+  "campiModificati": [
+    "corpo[1]",
+    "fonti nuova Sony"
+  ],
+  "htmlModificati": [
+    "canzone/wonderwall/index.html"
+  ],
+  "htmlIntatti": 697,
+  "sitemapModificate": [
+    "sitemap-canzoni.xml"
+  ],
+  "variazioniLastmod": {
+    "wonderwall": [
+      "2026-10-11",
+      "2026-10-14"
+    ]
+  },
+  "datePublishedMetadatiCSSAmazonPreservati": true,
+  "buildGeneraleEseguito": false,
+  "SEO": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "coerenza": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "link": 1065,
+    "problemi": 0
+  }
+}
