@@ -1320,5 +1320,43 @@
     "stessaImmagineCondivisione": true,
     "sha256": "8cee009f9729d0a56f37c3bb74f0d3db54ec4cfd35b377c18ebb65041baf84a5",
     "byte": 256144
+  },
+  "rino-gaetano": {
+    "file": "rino-gaetano-microfono.jpg",
+    "autore": "obbino",
+    "titolare": "Account licenziante obbino su Flickr; identità civile e distinta titolarità non dichiarate nella pagina",
+    "titoloOriginale": "RINO GAETANO 1981_2006",
+    "fonte": "https://www.flickr.com/photos/therebel68/221761998/",
+    "urlFile": "https://live.staticflickr.com/90/221761998_5259aea0ae_o.jpg",
+    "urlAsset": "https://live.staticflickr.com/90/221761998_5259aea0ae_o.jpg",
+    "licenza": "CC BY 2.0",
+    "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "dataVerifica": "2026-10-14",
+    "paginaUso": "/artista/rino-gaetano/",
+    "alt": "Rino Gaetano con capelli mossi e una sciarpa rossa, mentre canta in un microfono tenuto nella mano sinistra; fotografia a colori su fondo scuro",
+    "dimensioni": {
+      "larghezza": 330,
+      "altezza": 350
+    },
+    "modifiche": "Nessuna modifica: byte originali Flickr330×350. Resa proporzionale CSS senza ingrandimento, ritaglio o ritocco.",
+    "obblighi": "Attribuzione obbino, titolo, fonte e licenza visibili; dichiarazione modifiche; nessuna restrizione aggiuntiva o implicazione di sostegno. Uso commerciale e adattamenti consentiti dalla CC BY2.0.",
+    "notaVerifica": "Pagina Flickr e pagina tutte le dimensioni riaperte il14ottobre2026: CC BY2.0 esplicita, originale330×350. Commons documenta attribuzione obbino e controllo licenza FrancoGG30marzo2007; usato il file primario Flickr, non la versione624×662 aggiunta su Commons nel2012. Soggetto visto su Flickr e JPEG scaricato: Rino al microfono e sciarpa rossa. Titolo1981_2006 e data digitale2006 non usati come data dello scatto; Commons ha data sconosciuta. Nessun testo della descrizione Flickr, contenente versi, riprodotto. Nessuna nuova verifica editoriale della biografia.",
+    "creditoParti": [
+      "Rino Gaetano al microfono · Foto di obbino · ",
+      {
+        "testo": "RINO GAETANO 1981_2006",
+        "url": "https://www.flickr.com/photos/therebel68/221761998/"
+      },
+      " · ",
+      {
+        "testo": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      " · originale Flickr, nessuna modifica locale; data dello scatto non verificata"
+    ],
+    "creditoVisibile": "Rino Gaetano al microfono · Foto di obbino · RINO GAETANO 1981_2006 · CC BY 2.0 · originale Flickr, nessuna modifica locale; data dello scatto non verificata",
+    "stessaImmagineCondivisione": true,
+    "sha256": "43d10cd9832b8acc15b4ac978ccce1df3e639757e6a1c3c328b3079d5f49a4a9",
+    "byte": 28531
   }
 }
