@@ -1,0 +1,25 @@
+{
+  "base": "ec6a2ae9a9c1d5662ae3b49fab6289d2c5b4ac12",
+  "registroSoloChiave": [
+    "all-the-small-things"
+  ],
+  "altre12CartolineIdentiche": true,
+  "seiSitemapIdentiche": true,
+  "dateEArticoloFuoriFiguraIdentici": true,
+  "stessoFilePaginaStoriaOGTwitter": true,
+  "sha256": "ea11f33169cdcd3108518353221786a806a266e783cc6b3b43286b35112e0b87",
+  "seo": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "coerenzaLink": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "affiliazioni": {
+    "collegamenti": 1065,
+    "problemi": 0
+  },
+  "buildGenerale": false
+}

@@ -40,17 +40,45 @@
   },
   "all-the-small-things": {
     "testo": "L’episodio delle rose sulle scale venne da un gesto di Jennifer Jenkins, che le lasciò lì una sera in cui DeLonge era rimasto a registrare fino a tardi. Anche i cori hanno un riferimento preciso: l’omaggio ai Ramones.",
-    "fonte": "https://en.wikipedia.org/wiki/All_the_Small_Things",
-    "nomeFonte": "Wikipedia",
+    "fonte": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
+    "nomeFonte": "American Songwriter — Catherine Walthall, 16 agosto 2022",
     "artistaSlug": "blink-182",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "all-the-small-things-storia.jpg",
-    "sha256": "308a2bcbff3d458d5ca67ac536b7f9bc528120bac4629045ff34c03e97ff14ed",
-    "testoGrafica": "L’episodio delle rose sulle scale venne da un gesto di Jennifer Jenkins, che le…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "ea11f33169cdcd3108518353221786a806a266e783cc6b3b43286b35112e0b87",
+    "testoGrafica": "Blink-182. 1999. Album: Enema of the State. Le rose sulle scale. Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone. Un omaggio ai Ramones. I cori senza parole omaggiano i Ramones, tra le band preferite di DeLonge. Il musicista cercava un ritornello adatto alla radio.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "IL GESTO REALE",
+          "titolo": "Le rose sulle scale",
+          "testo": "Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone.",
+          "fonte": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
+          "nomeFonte": "American Songwriter",
+          "natura": "Ricostruzione di Catherine Walthall, con riscontro sul gesto in Louder"
+        },
+        {
+          "etichetta": "DIETRO IL RITORNELLO",
+          "titolo": "Un omaggio ai Ramones",
+          "testo": "I cori senza parole omaggiano i Ramones, tra le band preferite di DeLonge. Il musicista cercava un ritornello adatto alla radio.",
+          "fonte": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
+          "nomeFonte": "American Songwriter",
+          "natura": "Ricostruzione di Catherine Walthall; influenza dei Ramones riscontrata anche in Louder"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.loudersound.com/features/how-blink-182-wrote-their-biggest-ever-hit"
+      ],
+      "nomiFontiAnagrafica": [
+        "Louder"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   },
   "whats-my-age-again": {
     "testo": "Il regista Marcos Siega ideò il video dopo aver visto il filmato di uno streaker. Per parte delle riprese a Los Angeles, i musicisti indossarono slip color carne per evitare problemi legali.",

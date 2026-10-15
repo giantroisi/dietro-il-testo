@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "all-the-small-things",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "all-the-small-things",
+    "scenario": "loading",
+    "ok": true
+  }
+]

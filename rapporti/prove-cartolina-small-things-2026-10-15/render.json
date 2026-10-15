@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "all-the-small-things",
+    "file": "all-the-small-things-storia.jpg",
+    "bytes": 238894,
+    "sha256": "ea11f33169cdcd3108518353221786a806a266e783cc6b3b43286b35112e0b87",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Blink-182",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 271.42999267578125,
+        "alto": 318,
+        "basso": 351
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1999",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "All the Small Things",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 835.489990234375,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Enema of the State",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 552.7000122070312,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / IL GESTO REALE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 419.7300109863281,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Le rose sulle scale",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 505.8800048828125,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Jennifer Jenkins lasciò delle",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 835.0700073242188,
+        "alto": 727,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "rose sulle scale a Tom DeLonge",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 940.739990234375,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "mentre lui registrava fino a tardi.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 945.0499877929688,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Quel gesto entrò nella canzone.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 935.239990234375,
+        "alto": 960,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO IL RITORNELLO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 524.489990234375,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un omaggio ai Ramones",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 654.0599975585938,
+        "alto": 1165,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "I cori senza parole omaggiano i",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 921.8200073242188,
+        "alto": 1238,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Ramones, tra le band preferite",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 898.4400024414062,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "di DeLonge. Il musicista cercava",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 951.72998046875,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "un ritornello adatto alla radio.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 861.8200073242188,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Le rose sulle scale",
+        "righe": 4,
+        "testoCompleto": "Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone."
+      },
+      {
+        "titolo": "Un omaggio ai Ramones",
+        "righe": 4,
+        "testoCompleto": "I cori senza parole omaggiano i Ramones, tra le band preferite di DeLonge. Il musicista cercava un ritornello adatto alla radio."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "82444d72c1071e7998bfeb027b13e8d8406e2cb4313224b742320d33bc9557d0"
+  }
+]

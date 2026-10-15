@@ -1,0 +1,54 @@
+{
+  "commit": "ec6a2ae9a9c1d5662ae3b49fab6289d2c5b4ac12",
+  "data": "2026-10-15T09:40:00.484273+00:00",
+  "checks": [
+    {
+      "file": "canzone/whats-my-age-again/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+      "sha256": "ca9e68b5a5651e70aee2337701ec19698a907254003211811fa4657a982c709b",
+      "identico": true
+    },
+    {
+      "file": "pillole/whats-my-age-again-storia.jpg",
+      "url": "https://www.dietroiltesto.it/pillole/whats-my-age-again-storia.jpg",
+      "sha256": "b22d456980f6af8e715b44ed7953aaff423f1376ebbdb58efc7f0f09a8a01bbc",
+      "identico": true
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identico": true
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identico": true
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "identico": true
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+      "identico": true
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identico": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identico": true
+    }
+  ]
+}

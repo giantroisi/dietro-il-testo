@@ -4851,3 +4851,16 @@ Ripreso 6f5d86e4b su richiesta diretta. Titolo a 82 px su una riga, corpo a 60 p
 Una pagina/JPEG/voce pillole, renderer dedicato e validazioni recuperate dal prototipo. Fuori figura e URL versione, articolo e date identici; altre dodici cartoline, sei sitemap, ricerca.js, affiliazioni e 104 foto preservati. Nessun build generale. SEO 696, coerenza/link 321/104, affiliazioni 1065, determinismo, contrasto AA e rifiuto testi troppo lunghi positivi. Browser 1280/390/320 senza overflow/errori, cinque percorsi di condivisione con JPEG identico, screenshot osservati.
 
 Copia ritratto-nin-2026-10-15, ramo codex/cartolina-age-anteprima-2026-10-15 dalla base ee6da2d85. Dossier rapporti/cartolina-age-anteprima-2026-10-15.md e prove dedicate. Prototipo precedente e prove pubblicazione su rami distinti intatti; main/non tracciati e altra AI preservati. Commit solo locale; nessuna pubblicazione prima della valutazione del proprietario. 308 cartoline ferme, nessun GSC o indicizzazione.
+
+
+### Esito §119 — pubblicata con approvazione, 15 ottobre 2026
+
+Il proprietario approva esplicitamente questa versione. Integrato e inviato ec6a2ae9a; Vercel Production Ready/Current 2cTa4BCng2FWDnYD9qfrrDUpZEB2, 11:37:40 CEST. Pagina, JPEG e sei sitemap pubbliche confrontati byte per byte; stessa immagine figura/Storia/OG/Twitter, browser senza overflow/errori. Date e lastmod preservati. Prove e screenshot in rapporti/prove-pubblicazione-cartolina-age-2026-10-15/ e rapporto dedicato. Nessuna nuova azione sui social.
+
+## 120. All the Small Things — seconda cartolina in anteprima, 15 ottobre 2026
+
+Preparata una sola nuova anteprima su richiesta diretta. Stesso impianto approvato: titolo proporzionato su una riga, anno/artista/album, due racconti completi e spazi curati. Rose di Jennifer Jenkins e omaggio ai Ramones verificati riaprendo American Songwriter e Louder, già fonti della scheda. Nessun verso, nessuna fonte nel raster; riferimenti nella pagina e nei dati. JPEG identico figura/Storia/OG/Twitter.
+
+Sola chiave all-the-small-things, JPEG e HTML della canzone, prove e documentazione. Renderer invariato; datePublished/dateModified/lastmod, sei sitemap e altre dodici cartoline preservati. Nessun build generale. SEO696, coerenza/link321-104, affiliazioni1065, contrasto/determinismo/assenza sovrapposizioni/casi negativi e cinque percorsi condivisione positivi. Desktop1280 e mobile390/320 senza overflow o errori locali, screenshot osservati. Dossier rapporti/cartolina-small-things-anteprima-2026-10-15.md.
+
+Copia ritratto-nin-2026-10-15, ramo codex/cartolina-small-things-anteprima-2026-10-15, base ec6a2ae9a pubblicata. Solo commit locale dopo verifiche: integrazione/push/pubblicazione della nuova cartolina da approvare. Incluse separatamente le prove della precedente pubblicazione Age. Main/nontracciati, altra AI, proposte e 308cartoline preservati. Nessun GSC o nuovo Amazon; automazione fotografica già conclusa e non riattivata. Limite: cache e ritagli esterni non controllabili; Post/Reel invariati.
