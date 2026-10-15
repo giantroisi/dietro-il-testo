@@ -1,0 +1,23 @@
+{
+  "base": "7b01ee0e00dcc05a31c721926f22445dc448fbec",
+  "pagine": [
+    "artista/deep-purple/index.html",
+    "artista/disturbed/index.html",
+    "artista/eagles/index.html",
+    "artista/edoardo-bennato/index.html",
+    "artista/electric-callboy/index.html"
+  ],
+  "nuoveChiavi": [
+    "deep-purple",
+    "disturbed",
+    "eagles",
+    "edoardo-bennato",
+    "electric-callboy"
+  ],
+  "precedentiChiaviPreservate": 67,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}

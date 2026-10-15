@@ -4801,3 +4801,7 @@ Il proprietario autorizza esplicitamente la pubblicazione delle41proposte e il r
 ### Gruppo 1 — preparato e verificato
 
 adriano-celentano, al-bano-e-romina-power, bon-jovi, claudio-baglioni, daft-punk. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-1-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
+
+### Gruppo 2 — preparato e verificato
+
+deep-purple, disturbed, eagles, edoardo-bennato, electric-callboy. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-2-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
