@@ -1,0 +1,23 @@
+{
+  "base": "1297f5ed0e8d45eeddb40400b45181f26c4075b9",
+  "pagine": [
+    "artista/the-cranberries/index.html",
+    "artista/the-rolling-stones/index.html",
+    "artista/the-white-stripes/index.html",
+    "artista/toto/index.html",
+    "artista/tracy-chapman/index.html"
+  ],
+  "nuoveChiavi": [
+    "the-cranberries",
+    "the-rolling-stones",
+    "the-white-stripes",
+    "toto",
+    "tracy-chapman"
+  ],
+  "precedentiChiaviPreservate": 97,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}

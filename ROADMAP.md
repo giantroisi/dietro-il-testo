@@ -4825,3 +4825,7 @@ ozzy-osbourne, pinguini-tattici-nucleari, pink-floyd, pino-daniele, prince. Font
 ### Gruppo 7 — preparato e verificato
 
 queen, rammstein, renato-zero, simon-garfunkel, soundgarden. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-7-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
+
+### Gruppo 8 — preparato e verificato
+
+the-cranberries, the-rolling-stones, the-white-stripes, toto, tracy-chapman. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-8-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
