@@ -223,15 +223,43 @@
   "black-pearl-jam": {
     "testo": "La decisione sul video è parte della storia del brano: nell'intervista a Cameron Crowe, Vedder lo indicò come un esempio di canzone che voleva proteggere dalla sovraesposizione commerciale.",
     "fonte": "https://www.fivehorizons.com/archive/articles/rs102893.shtml",
-    "nomeFonte": "Rolling Stone — Cameron Crowe, 28 ottobre 1993 (copia d’archivio)",
+    "nomeFonte": "Rolling Stone — Cameron Crowe, 28 ottobre 1993 (copia d’archivio Five Horizons)",
     "artistaSlug": "pearl-jam",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "black-pearl-jam-storia.jpg",
-    "sha256": "bd28945c33662f9a0098dd40ec2ecda334f06553c1d6b84bb154cae739de53ad",
-    "testoGrafica": "La decisione sul video è parte della storia del brano: nell'intervista a Cameron Crowe, Vedder lo indicò come un esempio di canzone che voleva proteggere dalla sovraesposizione commerciale.",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "e728c28e1bf1d78524370efccb1690be6be030d5059cc0da63ada6a5a051cc7e",
+    "testoGrafica": "Pearl Jam. 1991. Album: Ten. L’ombra di Stevie Ray. Per le sue parti, Mike McCready si ispirò a Stevie Ray Vaughan. Stone Gossard gli lasciò libertà sulla chitarra. Il video che non volle. Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "DIETRO LA CHITARRA",
+          "titolo": "L’ombra di Stevie Ray",
+          "testo": "Per le sue parti, Mike McCready si ispirò a Stevie Ray Vaughan. Stone Gossard gli lasciò libertà sulla chitarra.",
+          "fonte": "https://www.guitarworld.com/features/pearl-jam-ten",
+          "nomeFonte": "Guitar World",
+          "natura": "Racconto diretto di Mike McCready a Jeff Gilbert, ripreso da Nina Pearlman"
+        },
+        {
+          "etichetta": "LA SCELTA DELLA BAND",
+          "titolo": "Il video che non volle",
+          "testo": "Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne.",
+          "fonte": "https://www.fivehorizons.com/archive/articles/rs102893.shtml",
+          "nomeFonte": "Rolling Stone — Cameron Crowe",
+          "natura": "Reportage e intervista diretta del 28 ottobre 1993, copia d’archivio Five Horizons"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.guitarworld.com/features/pearl-jam-ten"
+      ],
+      "nomiFontiAnagrafica": [
+        "Guitar World — Ten, 27 agosto 1991"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   }
 }

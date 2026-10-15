@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "black-pearl-jam",
+    "scenario": "loading",
+    "ok": true
+  }
+]

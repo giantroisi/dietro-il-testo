@@ -4864,3 +4864,16 @@ Preparata una sola nuova anteprima su richiesta diretta. Stesso impianto approva
 Sola chiave all-the-small-things, JPEG e HTML della canzone, prove e documentazione. Renderer invariato; datePublished/dateModified/lastmod, sei sitemap e altre dodici cartoline preservati. Nessun build generale. SEO696, coerenza/link321-104, affiliazioni1065, contrasto/determinismo/assenza sovrapposizioni/casi negativi e cinque percorsi condivisione positivi. Desktop1280 e mobile390/320 senza overflow o errori locali, screenshot osservati. Dossier rapporti/cartolina-small-things-anteprima-2026-10-15.md.
 
 Copia ritratto-nin-2026-10-15, ramo codex/cartolina-small-things-anteprima-2026-10-15, base ec6a2ae9a pubblicata. Solo commit locale dopo verifiche: integrazione/push/pubblicazione della nuova cartolina da approvare. Incluse separatamente le prove della precedente pubblicazione Age. Main/nontracciati, altra AI, proposte e 308cartoline preservati. Nessun GSC o nuovo Amazon; automazione fotografica già conclusa e non riattivata. Limite: cache e ritagli esterni non controllabili; Post/Reel invariati.
+
+
+### Esito §120 — All the Small Things pubblicata, 15 ottobre 2026
+
+Approvazione diretta del proprietario. Integrato/push36d1b015b; Vercel6pAMv1scuY3CNRZ34i2mWPZzUnH9 Ready/Latest/Current/Production alle11:49:53CEST,14secondi. Pagina/JPEG e sei sitemap pubblici identici al commit. Browser conferma stessa immagine figura/Storia/OG/Twitter, caricata senza overflow/errori. Date/lastmod intatti; prove e screenshot in rapporti/prove-pubblicazione-cartolina-small-things-2026-10-15/ e rapporto dedicato.
+
+## 121. Black — cartolina in anteprima, 15 ottobre 2026
+
+Una nuova cartolina richiesta dal proprietario, senza pubblicazione. Due sintesi originali: influenza di Stevie Ray Vaughan sulle parti di McCready e libertà lasciata da Gossard; rifiuto del video da parte di Vedder e sostegno della band. Fonti Guitar World e intervista/reportage di Cameron Crowe su Rolling Stone, copia Five Horizons, riaperti prima della scrittura e già presenti nella scheda. Nessun verso o fonte nel raster, fonti conservate nella pagina/dati. Stesso JPEG figura/Storia/OG/Twitter.
+
+Solo chiave black-pearl-jam, JPEG, unico HTML e documentazione. Renderer invariato, titolo proporzionato, paragrafi completi; prima bozza accorciata dopo rifiuto automatico della lunghezza. DatePublished/dateModified/lastmod e articolo fuori figura/URL versione intatti, sei sitemap e altre dodici cartoline identiche. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrasto/assenza sovrapposizioni, casi negativi e cinque percorsi di condivisione positivi. Browser1280/390/320 senza overflow/errori, screenshot osservati.
+
+Copia ritratto-nin-2026-10-15, ramo codex/cartolina-black-anteprima-2026-10-15, base36d1b015b pubblicata. Dossier rapporti/cartolina-black-anteprima-2026-10-15.md. Solo commit locale dopo verifica, nuova cartolina da valutare prima di integrazione/push/pubblicazione. Main/nontracciati, altra AI, proposte e308cartoline preservati. Nessun GSC/indicizzazione/nuovoAmazon; routine fotografica conclusa non riattivata. Limiti: Post/Reel invariati e cache/ritagli social non controllabili. Incluse separatamente le prove della pubblicazione Small Things approvata.
