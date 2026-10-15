@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "doomed",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "doomed",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "doomed",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "doomed",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "doomed",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "crawling",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "crawling",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "crawling",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "crawling",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "crawling",
+    "scenario": "loading",
+    "ok": true
+  }
+]

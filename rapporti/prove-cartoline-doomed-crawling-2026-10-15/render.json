@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "doomed",
+    "file": "doomed-storia.jpg",
+    "bytes": 222650,
+    "sha256": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2015",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Doomed",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 400.5799865722656,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · That's the Spirit",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 489.5199890136719,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Cercare luce nel buio",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 576.489990234375,
+        "alto": 653,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Sykes, il cuore dell’album",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 875,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "era cercare luce nell’oscurità.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 868.3499755859375,
+        "alto": 805,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Doomed apre That’s the Spirit",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 882.9400024414062,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "dentro questo contrasto.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 735.0800170898438,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / LA LAVORAZIONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 419.7300109863281,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Prima scritta, ultima finita",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 697.27001953125,
+        "alto": 1164,
+        "basso": 1215
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Doomed fu la prima canzone",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 855.0800170898438,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "scritta per l’album, ma l’ultima",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 878.219970703125,
+        "alto": 1316,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "completata. Alla fine divenne",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.8599853515625,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "la porta d’ingresso del disco.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 848.4299926757812,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Cercare luce nel buio",
+        "righe": 4,
+        "testoCompleto": "Per Sykes, il cuore dell’album era cercare luce nell’oscurità. Doomed apre That’s the Spirit dentro questo contrasto."
+      },
+      {
+        "titolo": "Prima scritta, ultima finita",
+        "righe": 4,
+        "testoCompleto": "Doomed fu la prima canzone scritta per l’album, ma l’ultima completata. Alla fine divenne la porta d’ingresso del disco."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "crawling",
+    "file": "crawling-storia.jpg",
+    "bytes": 226075,
+    "sha256": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Linkin Park",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.6600036621094,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2000 / 2001",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Crawling",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 419.44000244140625,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Hybrid Theory",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 465.3500061035156,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Quando perdi il controllo",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 675.7899780273438,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Chester Bennington collegò",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 825.1699829101562,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Crawling alla dipendenza da",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 841.8400268554688,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "droghe e alcol: al centro c’è la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 885.1400146484375,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "perdita di controllo su di sé.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 818.4000244140625,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Una melodia salvata da Blue",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 741.9099731445312,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Blue fu scartata, ma il suo",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 778.3200073242188,
+        "alto": 1237,
+        "basso": 1290
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "finale vocale rimase. Shinoda",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.780029296875,
+        "alto": 1315,
+        "basso": 1361
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "e Bennington lo ripresero con",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.8400268554688,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "nuove parole e nuovi accordi.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.8400268554688,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Quando perdi il controllo",
+        "righe": 4,
+        "testoCompleto": "Chester Bennington collegò Crawling alla dipendenza da droghe e alcol: al centro c’è la perdita di controllo su di sé."
+      },
+      {
+        "titolo": "Una melodia salvata da Blue",
+        "righe": 4,
+        "testoCompleto": "Blue fu scartata, ma il suo finale vocale rimase. Shinoda e Bennington lo ripresero con nuove parole e nuovi accordi."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  }
+]

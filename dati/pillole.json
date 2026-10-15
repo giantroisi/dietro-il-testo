@@ -719,5 +719,89 @@
     "sha256": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
     "testoGrafica": "Linkin Park. 2000 / 2001. Album: Hybrid Theory. Il peso di non avere risposte. Il ritornello dà voce all’impotenza. Per Shinoda, il brano affronta il tempo che passa e lascia domande senza una risposta. Chester non la odiava. Per Shinoda, Chester amava i brani più pesanti. Non odiava In the End: semplicemente non l’avrebbe scelta come singolo.",
     "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "doomed": {
+    "testo": "Il momento più discusso è quella malinconia di fondo che persiste anche quando, in apparenza, le cose vanno bene — un contrasto che Jordan Fish ha descritto come strofe trattenute seguite da ritornelli che esplodono. L'intero album \"That's the Spirit\", ha raccontato Sykes a Loudwire, racconta proprio questo: trovare la luce nel buio, senza negare il buio stesso.",
+    "fonte": "https://loudwire.com/bring-me-the-horizon-thats-the-spirit-songs/",
+    "nomeFonte": "Loudwire — Spencer Kaufman",
+    "artistaSlug": "bring-me-the-horizon",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per la cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Cercare luce nel buio",
+          "testo": "Per Sykes, il cuore dell’album era cercare luce nell’oscurità. Doomed apre That’s the Spirit dentro questo contrasto.",
+          "fonte": "https://loudwire.com/bring-me-the-horizon-thats-the-spirit-songs/",
+          "nomeFonte": "Loudwire — Spencer Kaufman",
+          "natura": "Dichiarazione di Sykes sul tema dell’album, intervista originale Loudwire"
+        },
+        {
+          "etichetta": "LA LAVORAZIONE",
+          "titolo": "Prima scritta, ultima finita",
+          "testo": "Doomed fu la prima canzone scritta per l’album, ma l’ultima completata. Alla fine divenne la porta d’ingresso del disco.",
+          "fonte": "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)",
+          "nomeFonte": "Wikipedia",
+          "natura": "Ricostruzione Wikipedia, con rinvio al commento traccia per traccia di Sykes su Spotify"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Doomed_(Bring_Me_the_Horizon_song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "doomed-storia.jpg",
+    "sha256": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
+    "testoGrafica": "Bring Me the Horizon. 2015. Album: That's the Spirit. Cercare luce nel buio. Per Sykes, il cuore dell’album era cercare luce nell’oscurità. Doomed apre That’s the Spirit dentro questo contrasto. Prima scritta, ultima finita. Doomed fu la prima canzone scritta per l’album, ma l’ultima completata. Alla fine divenne la porta d’ingresso del disco.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "crawling": {
+    "testo": "Il ritornello più citato descrive la sensazione fisica di qualcosa che striscia sotto la pelle, un'immagine che richiama gli effetti della metanfetamina e che Chester Bennington ha definito il testo più letterale mai scritto per i Linkin Park. In un'intervista del luglio 2009 a SPIN il cantante ha collegato esplicitamente il brano alla sensazione di non avere alcun controllo su se stesso a causa di droghe e alcol; nel 2001 aveva invece descritto il brano come incentrato sulla mancanza di autostima e sul sentirsi giudicati.",
+    "fonte": "https://www.spin.com/2009/07/linkin-parks-bennington-discusses-his-drug-addiction/",
+    "nomeFonte": "SPIN, 17 luglio 2009, di Anna Hyclak",
+    "artistaSlug": "linkin-park",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per la cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Quando perdi il controllo",
+          "testo": "Chester Bennington collegò Crawling alla dipendenza da droghe e alcol: al centro c’è la perdita di controllo su di sé.",
+          "fonte": "https://www.spin.com/2009/07/linkin-parks-bennington-discusses-his-drug-addiction/",
+          "nomeFonte": "SPIN, 17 luglio 2009, di Anna Hyclak",
+          "natura": "Dichiarazione Bennington/Noisecreep riportata da SPIN"
+        },
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "Una melodia salvata da Blue",
+          "testo": "Blue fu scartata, ma il suo finale vocale rimase. Shinoda e Bennington lo ripresero con nuove parole e nuovi accordi.",
+          "fonte": "https://linkinpedia.com/wiki/Blue",
+          "nomeFonte": "Linkinpedia (raccoglie le note di copertina di Mike Shinoda per LP Underground Eleven e suoi commenti in altre occasioni)",
+          "natura": "Note di copertina Shinoda LP Underground Eleven trascritte da Linkinpedia"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Crawling_(song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "crawling-storia.jpg",
+    "sha256": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
+    "testoGrafica": "Linkin Park. 2000 / 2001. Album: Hybrid Theory. Quando perdi il controllo. Chester Bennington collegò Crawling alla dipendenza da droghe e alcol: al centro c’è la perdita di controllo su di sé. Una melodia salvata da Blue. Blue fu scartata, ma il suo finale vocale rimase. Shinoda e Bennington lo ripresero con nuove parole e nuovi accordi.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }

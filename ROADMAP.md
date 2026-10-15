@@ -4923,3 +4923,16 @@ Su richiesta del proprietario aggiornate le15 cartoline precedenti; MANTRA/In th
 15chiavi/JPEG/HTML, minima opzione renderer52–82px. Articolo fuori figura/URL versione, dati canonici, ricerca, datePublished/dateModified/lastmod e sei sitemap invariati. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo17/contrastoAA/margini/casi negativi,75scenari condivisione e browser45viste1280/390/320 positivi. Raster osservati, screenshot/prove in rapporti/prove-cartoline-iconico-2026-10-15/; dossier rapporti/cartoline-online-momento-iconico-2026-10-15.md.
 
 Copia separata ritratto-nin, ramo codex/cartoline-online-momento-iconico-2026-10-15, base376c1ee3a. Main/nontracciati/altraAI/revisioni intatti,308cartoline ferme e due nuove solo in anteprima. Pubblicazione delle15 già richiesta esplicitamente dal proprietario; esito online da registrare dopo il rilascio. Limiti: Post/Reel/cache/ritagli esterni. Nessun GSC o nuovo Amazon.
+
+
+### Esito §124 — quindici cartoline aggiornate e pubblicate, 15 ottobre 2026
+
+Richiesta diretta del proprietario. Integrato/push4c899a2be; VercelGnKf33vuusMnxgg6kVnGtUJLoiEE Ready/Latest/Current/Production,12:37:36CEST,16secondi. 36file pubblici identici al commit:15HTML,15JPEG e sei sitemap. Insieme a MANTRA/In the End, tutte17cartoline pubblicate hanno il momento iconico per primo. Browser pubblico conferma MANTRA/In the End/Numb caricate e identiche pagina/Storia/OG/Twitter; date/lastmod preservati. Prove conservate nel lotto anteprime successivo, nessuna pubblicazione social reale.
+
+## 125. Doomed e Crawling — due nuove anteprime, 15 ottobre 2026
+
+Prosegue il mandato con una BMTH e una Linkin Park. Primo blocco momento iconico, secondo curiosità: Doomed tema luce/buio e lavorazione; Crawling dichiarazione Bennington sulla perdita di controllo e recupero della melodia di Blue. Fonti Loudwire/Wikipedia/SPIN/Linkinpedia riaperte, attribuzioni indirette e limiti nel dossier. SPIN consultato sul dominio attuale spinmagazine.com. Nessun verso/traduzione o fonte nel raster; stessa immagine pagina/Storia/OG/Twitter, layout approvato invariato.
+
+Due nuove chiavi/JPEG/HTML e documentazione. Dati canonici, ricerca, renderer,17cartoline online, datePublished/dateModified/lastmod e sei sitemap intatti. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,10percorsi condivisione e6viste browser1280/390/320 positivi. Screenshot e prove in rapporti/prove-cartoline-doomed-crawling-2026-10-15/; dossier rapporti/cartoline-doomed-crawling-anteprima-2026-10-15.md.
+
+Copia ritratto-nin, ramo codex/cartoline-doomed-crawling-anteprima-2026-10-15, base4c899a2be pubblicata. Commit solo locale dopo verifica; due immagini da mostrare al proprietario prima di pubblicare. Main/nontracciati/altraAI/revisioni preservati;308cartoline ferme, nessun GSC/nuovoAmazon/riattivazione routine. Limiti: prima/ultima Doomed riscontrata su fonte secondaria con rinvio all’audio originale, non consultato; note Shinoda trascritte da archivio fan; non è verifica integrale delle pagine; Post/Reel/cache/ritagli esterni invariati. Prove della pubblicazione precedente conservate separatamente.
