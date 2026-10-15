@@ -1,0 +1,57 @@
+{
+  "commit": "18778a5e42416c3090883ef6981ab6d28f98e029",
+  "date": "2026-10-15T07:54:23.310537+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-beatles/",
+      "bytes": 61095,
+      "sha256": "8096d73c252633a51b1256b295c99973fd99b476bc1d43a3a76a6da521a7d0c9",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "bytes": 219226,
+      "sha256": "2f5e27ac68288274978562e7d58bd0940607e5a94448d556fdbac9c60f0bb83a",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "bytes": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "bytes": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "bytes": 34080,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "bytes": 10854,
+      "sha256": "47eac97ab581f358706717f06b422f8e999a3bcc97badadc6aba31e663c81197",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "bytes": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "bytes": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identical": true
+    }
+  ],
+  "artistPages": 104,
+  "withPhoto": 62,
+  "missing": 42
+}

@@ -1,0 +1,45 @@
+{
+  "desktop": {
+    "credit": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale",
+    "image": {
+      "alt": "Jimmy Nicol, Paul McCartney, George Harrison e John Lennon seduti davanti ai microfoni a Schiphol nel 1964; Ringo Starr non è raffigurato. Fotografia in bianco e nero",
+      "complete": true,
+      "natural": [
+        1516,
+        1000
+      ],
+      "render": [
+        298,
+        197
+      ],
+      "src": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg"
+    },
+    "og": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+    "overflow": false,
+    "twitter": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+    "viewport": [
+      1280,
+      900
+    ]
+  },
+  "mobile": {
+    "credit": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale",
+    "image": {
+      "complete": true,
+      "natural": [
+        1516,
+        1000
+      ],
+      "render": [
+        278,
+        183
+      ]
+    },
+    "overflow": false,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "console": []
+}
