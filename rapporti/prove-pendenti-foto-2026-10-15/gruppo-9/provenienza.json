@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "zucchero",
+    "branch": "codex/revisione-ritratto-zucchero-2026-10-04",
+    "commit": "46d9ec441ec942e2c6334d79cb2d9eb2c1ce355f",
+    "portrait": {
+      "file": "zucchero-konstanz-2023.jpg",
+      "autore": "Karsten Meyer (Meyer-Konstanz)",
+      "titolareDichiarato": "Meyer-Konstanz si dichiara titolare dei diritti sulla pagina Wikimedia Commons; i metadati identificano l'autore come Karsten Meyer",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:2023-07-08_066_KN_Sommerkonzerte_-_Zucchero_a.jpg",
+      "titoloOriginale": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg",
+      "dataScatto": "2023-07-08",
+      "dataVerifica": "2026-10-04",
+      "paginaUso": "/artista/zucchero/",
+      "alt": "Zucchero canta a braccia aperte sul palco a Costanza nel 2023",
+      "modifiche": "La pagina Wikimedia Commons usa un originale che segnala ritaglio e ritocco dell'autore nei metadati; miniatura 960 × 640 px ridimensionata da Commons dall'originale 3560 × 2373 px. Nessun ritaglio o ritocco locale.",
+      "creditoVisibile": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg · Foto di Karsten Meyer (Meyer-Konstanz) · CC BY-SA 4.0 · ritaglio e ritocco precedenti all'upload segnalati nei metadati; miniatura Commons, nessun intervento locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 640
+      },
+      "byte": 85087,
+      "sha256": "572e7d8c595f0a0867269a3cc0fd2cb0b0dd24be12f801eff8651dd8b80cacb7",
+      "creditoParti": [
+        {
+          "testo": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-07-08_066_KN_Sommerkonzerte_-_Zucchero_a.jpg"
+        },
+        " · Foto di Karsten Meyer (Meyer-Konstanz) · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        " · ritaglio e ritocco precedenti all'upload segnalati nei metadati; miniatura Commons, nessun intervento locale"
+      ]
+    },
+    "reports": [
+      "rapporti/revisione-ritratto-zucchero-2026-10-04.md"
+    ],
+    "portraitFinale": {
+      "file": "zucchero-konstanz-2023.jpg",
+      "autore": "Karsten Meyer (Meyer-Konstanz)",
+      "titolareDichiarato": "Meyer-Konstanz si dichiara titolare dei diritti sulla pagina Wikimedia Commons; i metadati identificano l'autore come Karsten Meyer",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:2023-07-08_066_KN_Sommerkonzerte_-_Zucchero_a.jpg",
+      "titoloOriginale": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg",
+      "dataScatto": "2023-07-08",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/zucchero/",
+      "alt": "Zucchero canta a braccia aperte sul palco a Costanza nel 2023",
+      "modifiche": "La pagina Wikimedia Commons usa un originale che segnala ritaglio e ritocco dell'autore nei metadati; miniatura 960 × 640 px ridimensionata da Commons dall'originale 3560 × 2373 px. Nessun ritaglio o ritocco locale.",
+      "creditoVisibile": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg · Foto di Karsten Meyer (Meyer-Konstanz) · CC BY-SA 4.0 · ritaglio e ritocco precedenti all'upload segnalati nei metadati; miniatura Commons, nessun intervento locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 640
+      },
+      "byte": 85087,
+      "sha256": "572e7d8c595f0a0867269a3cc0fd2cb0b0dd24be12f801eff8651dd8b80cacb7",
+      "creditoParti": [
+        {
+          "testo": "2023-07-08 066 KN Sommerkonzerte - Zucchero a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-07-08_066_KN_Sommerkonzerte_-_Zucchero_a.jpg"
+        },
+        " · Foto di Karsten Meyer (Meyer-Konstanz) · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        " · ritaglio e ritocco precedenti all'upload segnalati nei metadati; miniatura Commons, nessun intervento locale"
+      ],
+      "dataVerificaPrecedente": "2026-10-04",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/0/03/2023-07-08_066_KN_Sommerkonzerte_-_Zucchero_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Mantenere autore, titolo ove fornito, fonte e link alla licenza; indicare modifiche e non implicare sostegno del licenziante. Adattamenti con stessa licenza o compatibile. Nessuna restrizione aggiuntiva.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  }
+]
