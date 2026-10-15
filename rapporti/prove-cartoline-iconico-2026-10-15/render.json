@@ -1,0 +1,2732 @@
+[
+  {
+    "slug": "hotel-california",
+    "file": "hotel-california-storia.jpg",
+    "bytes": 226631,
+    "sha256": "bec49b1e61fafc4239b168552f7b8d146a0012cb8af76270ec9b3ab075f18f7d",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Eagles",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 222.5399932861328,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1976 / 1977",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Hotel California",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 675.25,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Hotel California",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 487.1700134277344,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Un sogno pieno di ombre",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 677.1599731445312,
+        "alto": 653,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Henley descrive gli eccessi",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 808.2899780273438,
+        "alto": 728,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "del sogno americano. L’hotel",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.8900146484375,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "conserva più significati,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 708.2999877929688,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "senza una soluzione unica.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 811.8400268554688,
+        "alto": 962,
+        "basso": 1006
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Il Grammy del 1978",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 550.3099975585938,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Hotel California vinse il Grammy",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 944.9000244140625,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "come Record of the Year nel",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 845.1799926757812,
+        "alto": 1315,
+        "basso": 1360
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "1978. Tra i crediti del premio",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 845.0900268554688,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "figura il produttore Bill Szymczyk.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 971.6199951171875,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Un sogno pieno di ombre",
+        "righe": 4,
+        "testoCompleto": "Henley descrive gli eccessi del sogno americano. L’hotel conserva più significati, senza una soluzione unica."
+      },
+      {
+        "titolo": "Il Grammy del 1978",
+        "righe": 4,
+        "testoCompleto": "Hotel California vinse il Grammy come Record of the Year nel 1978. Tra i crediti del premio figura il produttore Bill Szymczyk."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "caruso",
+    "file": "caruso-storia.jpg",
+    "bytes": 216165,
+    "sha256": "599fa9ad3fc1c812c2786d4b92123b1cdb887898e8e08037a9ba5731ee72275d",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Lucio Dalla",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.67999267578125,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1986",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Caruso",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 347.0899963378906,
+        "alto": 386,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · DallAmeriCaruso",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 514.5700073242188,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "L’amore davanti alla perdita",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 724.5900268554688,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "La nostra lettura: amore e",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 775.0399780273438,
+        "alto": 728,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "malinconia convivono. Il",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 725,
+        "alto": 806,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "sentimento offre una risposta",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 860.7100219726562,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "alla solitudine e alla perdita.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 828.47998046875,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Una sosta a Sorrento",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 571.510009765625,
+        "alto": 1167,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Secondo un racconto, il guasto",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.8900146484375,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "alla barca portò Dalla a",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 705.02001953125,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Sorrento. La sosta divenne",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 805.1300048828125,
+        "alto": 1393,
+        "basso": 1439
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "l’occasione per scrivere Caruso.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 941.6799926757812,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "L’amore davanti alla perdita",
+        "righe": 4,
+        "testoCompleto": "La nostra lettura: amore e malinconia convivono. Il sentimento offre una risposta alla solitudine e alla perdita."
+      },
+      {
+        "titolo": "Una sosta a Sorrento",
+        "righe": 4,
+        "testoCompleto": "Secondo un racconto, il guasto alla barca portò Dalla a Sorrento. La sosta divenne l’occasione per scrivere Caruso."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "azzurro",
+    "file": "azzurro-storia.jpg",
+    "bytes": 223483,
+    "sha256": "615a67cf0e22e2114f4743b0d04451c45cf2fe2a24081ff65b34350d1b0735e1",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Adriano Celentano",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 452.4800109863281,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1968",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Azzurro",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 382.010009765625,
+        "alto": 388,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Azzurro / Una carezza in un pugno",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 810.4099731445312,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Una marcetta controcorrente",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 757.4199829101562,
+        "alto": 657,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Conte ricordò i dubbi iniziali sul",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 915.0800170898438,
+        "alto": 727,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "ritmo di marcetta: sembrava",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 831.5499877929688,
+        "alto": 806,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "fuori moda. Il successo premiò",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 901.6599731445312,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "quella scelta insolita.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 641.6500244140625,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Tre firme, una canzone",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 613.8400268554688,
+        "alto": 1164,
+        "basso": 1215
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Musica di Conte, testo di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 744.97998046875,
+        "alto": 1237,
+        "basso": 1290
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Pallavicini: l’arrangiamento di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 865.0399780273438,
+        "alto": 1316,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Nando De Luca diede forma",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 838.469970703125,
+        "alto": 1393,
+        "basso": 1438
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "alla versione di Celentano.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 795.1099853515625,
+        "alto": 1471,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Una marcetta controcorrente",
+        "righe": 4,
+        "testoCompleto": "Conte ricordò i dubbi iniziali sul ritmo di marcetta: sembrava fuori moda. Il successo premiò quella scelta insolita."
+      },
+      {
+        "titolo": "Tre firme, una canzone",
+        "righe": 4,
+        "testoCompleto": "Musica di Conte, testo di Pallavicini: l’arrangiamento di Nando De Luca diede forma alla versione di Celentano."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "all-the-small-things",
+    "file": "all-the-small-things-storia.jpg",
+    "bytes": 239444,
+    "sha256": "94d2e1faae5caedf4bd18e1baec61096ba09ed8cf1fc9b88881f55e3283f134b",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Blink-182",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 271.42999267578125,
+        "alto": 318,
+        "basso": 351
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1999",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "All the Small Things",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 835.489990234375,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Enema of the State",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 552.7000122070312,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Le rose sulle scale",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 505.8800048828125,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Jennifer Jenkins lasciò delle",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 835.0700073242188,
+        "alto": 727,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "rose sulle scale a Tom DeLonge",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 940.739990234375,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "mentre lui registrava fino a tardi.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 945.0499877929688,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Quel gesto entrò nella canzone.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 935.239990234375,
+        "alto": 960,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO IL RITORNELLO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 524.489990234375,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un omaggio ai Ramones",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 654.0599975585938,
+        "alto": 1165,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "I cori senza parole omaggiano i",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 921.8200073242188,
+        "alto": 1238,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Ramones, tra le band preferite",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 898.4400024414062,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "di DeLonge. Il musicista cercava",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 951.72998046875,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "un ritornello adatto alla radio.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 861.8200073242188,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Le rose sulle scale",
+        "righe": 4,
+        "testoCompleto": "Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone."
+      },
+      {
+        "titolo": "Un omaggio ai Ramones",
+        "righe": 4,
+        "testoCompleto": "I cori senza parole omaggiano i Ramones, tra le band preferite di DeLonge. Il musicista cercava un ritornello adatto alla radio."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "whats-my-age-again",
+    "file": "whats-my-age-again-storia.jpg",
+    "bytes": 241699,
+    "sha256": "4643bf2aa58d601e7df041848c09d377171105775229d92eda898529a1f1082b",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Blink-182",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 271.42999267578125,
+        "alto": 318,
+        "basso": 351
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1999",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "What's My Age Again?",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 916.4099731445312,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Enema of the State",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 552.7000122070312,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "La corsa a Los Angeles",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 612.77001953125,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Marcos Siega ideò il video dopo",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.52001953125,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "un filmato di un uomo che correva",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 991.8099975585938,
+        "alto": 805,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "nudo. Per parte delle riprese, la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 925.1599731445312,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "band indossò slip color carne.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 881.7999877929688,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un riff nato per errore",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 602.9500122070312,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Mark Hoppus sbagliò l’intro di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 875.030029296875,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "basso di «J.A.R.» dei Green Day",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 961.780029296875,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "mentre la provava alla chitarra.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.7100219726562,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Da quell’errore nacque il riff.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 837.2999877929688,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "La corsa a Los Angeles",
+        "righe": 4,
+        "testoCompleto": "Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne."
+      },
+      {
+        "titolo": "Un riff nato per errore",
+        "righe": 4,
+        "testoCompleto": "Mark Hoppus sbagliò l’intro di basso di «J.A.R.» dei Green Day mentre la provava alla chitarra. Da quell’errore nacque il riff."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "ho-messo-via",
+    "file": "ho-messo-via-storia.jpg",
+    "bytes": 215992,
+    "sha256": "5af1f05a5bc6fc383482d0cca937a58f28a5d70898372b010fd02b51418ed4ad",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Ligabue",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 244.60000610351562,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1993",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Ho messo via",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 577.8399963378906,
+        "alto": 386,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Sopravvissuti e sopravviventi",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 717.3800048828125,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Il ricordo che rimane",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 571.2300109863281,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "La nostra lettura: fare ordine",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 841.780029296875,
+        "alto": 727,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "nel passato non cancella ogni",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 878.5800170898438,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "legame. Una persona resta,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 828.4199829101562,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "anche quando il resto passa.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 855.2000122070312,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "La voce della tromba",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 567.1199951171875,
+        "alto": 1163,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Piano di Fornaciari e",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 638.280029296875,
+        "alto": 1238,
+        "basso": 1282
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "chitarra di Cottafavi: fra",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 708.239990234375,
+        "alto": 1315,
+        "basso": 1360
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "questi suoni trova spazio la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 811.75,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "tromba di Demo Morselli.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 754.8599853515625,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Il ricordo che rimane",
+        "righe": 4,
+        "testoCompleto": "La nostra lettura: fare ordine nel passato non cancella ogni legame. Una persona resta, anche quando il resto passa."
+      },
+      {
+        "titolo": "La voce della tromba",
+        "righe": 4,
+        "testoCompleto": "Piano di Fornaciari e chitarra di Cottafavi: fra questi suoni trova spazio la tromba di Demo Morselli."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "vieni-a-ballare-in-puglia",
+    "file": "vieni-a-ballare-in-puglia-storia.jpg",
+    "bytes": 226314,
+    "sha256": "27cbe485f9a88972c6ae20f6c21d314c76869c7b56f28d625629b57c84849882",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Caparezza",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 300.7799987792969,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2008",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Vieni a ballare in Puglia",
+        "font": "700 78px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 911.489990234375,
+        "alto": 386,
+        "basso": 470
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Le dimensioni del mio caos",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 685.739990234375,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "L’invito cambia significato",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 687.1199951171875,
+        "alto": 653,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "La nostra lettura: l’invito",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 721.6599731445312,
+        "alto": 728,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "alla festa è satirico. Dietro il",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 821.6199951171875,
+        "alto": 805,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "turismo emergono morti sul",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 814.9099731445312,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "lavoro e danni all’ambiente.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 818.4600219726562,
+        "alto": 962,
+        "basso": 1006
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "La sorpresa all’inizio",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 567.0700073242188,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Nell’introduzione canta Al",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 761.77001953125,
+        "alto": 1238,
+        "basso": 1282
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Bano. La sua presenza",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 705.1099853515625,
+        "alto": 1316,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "accosta la tradizione italiana",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 841.780029296875,
+        "alto": 1394,
+        "basso": 1438
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "alla satira di Caparezza.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 731.6500244140625,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "L’invito cambia significato",
+        "righe": 4,
+        "testoCompleto": "La nostra lettura: l’invito alla festa è satirico. Dietro il turismo emergono morti sul lavoro e danni all’ambiente."
+      },
+      {
+        "titolo": "La sorpresa all’inizio",
+        "righe": 4,
+        "testoCompleto": "Nell’introduzione canta Al Bano. La sua presenza accosta la tradizione italiana alla satira di Caparezza."
+      }
+    ],
+    "titolo": {
+      "dimensione": 78,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "dont-look-back-in-anger",
+    "file": "dont-look-back-in-anger-storia.jpg",
+    "bytes": 237018,
+    "sha256": "d5350be06cc889c02ef1f7e1fedfe25579a331f498ec5b5b56f7b34d07482687",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Oasis",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 200.47000122070312,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1995",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Don't Look Back in Anger",
+        "font": "700 72px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 913.9299926757812,
+        "alto": 391,
+        "basso": 468
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · (What's the Story) Morning Glory?",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 800.5900268554688,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Una voce diventa un coro",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 676.280029296875,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Dopo il silenzio per le vittime di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.6799926757812,
+        "alto": 728,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Manchester, nel 2017 partì un",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 881.8900146484375,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "canto collettivo. Noel vide la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 831.72998046875,
+        "alto": 884,
+        "basso": 928
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "sua canzone unire le persone.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 891.8800048828125,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Da sfida a inno",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 434.7099914550781,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Noel raccontò che il brano",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 785.0599975585938,
+        "alto": 1237,
+        "basso": 1282
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "nacque come gesto di sfida. Col",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 941.8300170898438,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "tempo lo sentì diventare una",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 845.1500244140625,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "celebrazione, poi quasi un inno.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 931.9299926757812,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Una voce diventa un coro",
+        "righe": 4,
+        "testoCompleto": "Dopo il silenzio per le vittime di Manchester, nel 2017 partì un canto collettivo. Noel vide la sua canzone unire le persone."
+      },
+      {
+        "titolo": "Da sfida a inno",
+        "righe": 4,
+        "testoCompleto": "Noel raccontò che il brano nacque come gesto di sfida. Col tempo lo sentì diventare una celebrazione, poi quasi un inno."
+      }
+    ],
+    "titolo": {
+      "dimensione": 72,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "november-rain",
+    "file": "november-rain-storia.jpg",
+    "bytes": 220569,
+    "sha256": "c25014f23112d5729e4c7f2913565402fbab47616c4ba018936609fcfeb46d95",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Guns N' Roses",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 382.510009765625,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1991",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "November Rain",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 660.1199951171875,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Use Your Illusion I",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 531.5899963378906,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Dalle nozze al lutto",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 538.1799926757812,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Il video passa dalle nozze",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 775.0999755859375,
+        "alto": 728,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "al funerale. La nostra",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 651.7000122070312,
+        "alto": 805,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "lettura: la felicità si rivela",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 741.5800170898438,
+        "alto": 883,
+        "basso": 928
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "fragile, esposta alla perdita.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 821.77001953125,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Prima del grande arrangiamento",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 831.489990234375,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Nel 1986, alle sessioni Sound",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 878.52001953125,
+        "alto": 1237,
+        "basso": 1290
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "City, c’era già una demo di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 793.9400024414062,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "dieci minuti: piano e voce",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 761.7100219726562,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "delineavano la canzone.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 735.1699829101562,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Dalle nozze al lutto",
+        "righe": 4,
+        "testoCompleto": "Il video passa dalle nozze al funerale. La nostra lettura: la felicità si rivela fragile, esposta alla perdita."
+      },
+      {
+        "titolo": "Prima del grande arrangiamento",
+        "righe": 4,
+        "testoCompleto": "Nel 1986, alle sessioni Sound City, c’era già una demo di dieci minuti: piano e voce delineavano la canzone."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "man-in-the-box",
+    "file": "man-in-the-box-storia.jpg",
+    "bytes": 216641,
+    "sha256": "d9af70ff37eb88ef59619d660546083296a01d68af25704e7e5780fe70509d8e",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Alice in Chains",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 379.0299987792969,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1990",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Man in the Box",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 647.7100219726562,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Facelift",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 349.8599853515625,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "La scatola della censura",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 633.7000122070312,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Staley collegò il brano alla",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 785.0900268554688,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "censura dei media. La scatola",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 885.1400146484375,
+        "alto": 806,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "rende visibile una percezione",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 865.1599731445312,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "limitata del mondo.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 591.5799865722656,
+        "alto": 962,
+        "basso": 1006
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un’idea nata a cena",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 540.2099914550781,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "A cena con vegetariani della",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 838.5599975585938,
+        "alto": 1238,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Columbia, Staley sentì parlare",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 891.72998046875,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "di vitelli allevati in gabbia:",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 765.0499877929688,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "un’altra origine del brano.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 765.1099853515625,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "La scatola della censura",
+        "righe": 4,
+        "testoCompleto": "Staley collegò il brano alla censura dei media. La scatola rende visibile una percezione limitata del mondo."
+      },
+      {
+        "titolo": "Un’idea nata a cena",
+        "righe": 4,
+        "testoCompleto": "A cena con vegetariani della Columbia, Staley sentì parlare di vitelli allevati in gabbia: un’altra origine del brano."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "war-pigs",
+    "file": "war-pigs-storia.jpg",
+    "bytes": 224385,
+    "sha256": "c10c5f068c73a232191341763ca78b051654eae03cdeb0f0687c0353f928271d",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Black Sabbath",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 371.739990234375,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1970",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "War Pigs",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 410.6700134277344,
+        "alto": 386,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Paranoid",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 379.489990234375,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "La guerra come male",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 569.7099914550781,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Geezer Butler, la guerra era",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4600219726562,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "il grande male. Le immagini",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 821.6799926757812,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "occulte servivano a denunciarla",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 928.5,
+        "alto": 884,
+        "basso": 928
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "attraverso un’analogia.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 695.0599975585938,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Prima si chiamava Walpurgis",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 755.9000244140625,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "L’etichetta trovò Walpurgis",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 789.510009765625,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "troppo satanico. Butler raccontò",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 935.1500244140625,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "che cambiò il titolo in War Pigs,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 919.4500122070312,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "lasciando intatto il testo.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 728.3699951171875,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "La guerra come male",
+        "righe": 4,
+        "testoCompleto": "Per Geezer Butler, la guerra era il grande male. Le immagini occulte servivano a denunciarla attraverso un’analogia."
+      },
+      {
+        "titolo": "Prima si chiamava Walpurgis",
+        "righe": 4,
+        "testoCompleto": "L’etichetta trovò Walpurgis troppo satanico. Butler raccontò che cambiò il titolo in War Pigs, lasciando intatto il testo."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "wake-me-up-when-september-ends",
+    "file": "wake-me-up-when-september-ends-storia.jpg",
+    "bytes": 233585,
+    "sha256": "7f9c49d93a1f2b49c4736416b7972ae108a4c97d4a8ed47a4105152a54f68279",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Green Day",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 300.75999450683594,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2004",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Wake Me Up When September Ends",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 931.8300170898438,
+        "alto": 406,
+        "basso": 462
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · American Idiot",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 468.19000244140625,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Il mese di una perdita",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 591.9299926757812,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Billie Joe Armstrong legò il brano",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 961.8099975585938,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "al ricordo del padre. Settembre",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.77001953125,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "riapre un lutto personale, che la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 928.530029296875,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "canzone prova a custodire.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 808.4400024414062,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CANZONE",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 472.1099853515625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Il tempo di poterne cantare",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 716.75,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Armstrong evitò per anni di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 805.010009765625,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "scrivere del padre. Arrivare a",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 855.02001953125,
+        "alto": 1316,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "cantarne, spiegò, fu un",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 698.4299926757812,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "modo per rendergli omaggio.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 855.1099853515625,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Il mese di una perdita",
+        "righe": 4,
+        "testoCompleto": "Billie Joe Armstrong legò il brano al ricordo del padre. Settembre riapre un lutto personale, che la canzone prova a custodire."
+      },
+      {
+        "titolo": "Il tempo di poterne cantare",
+        "righe": 4,
+        "testoCompleto": "Armstrong evitò per anni di scrivere del padre. Arrivare a cantarne, spiegò, fu un modo per rendergli omaggio."
+      }
+    ],
+    "titolo": {
+      "dimensione": 52,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "black-pearl-jam",
+    "file": "black-pearl-jam-storia.jpg",
+    "bytes": 213593,
+    "sha256": "499c0bd19ca38ff6ced500e51be1ead7bb8efad4f64c19cee8b212ef1b58503b",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Pearl Jam",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 286.05999755859375,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "1991",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Black",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 283.7899932861328,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Ten",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 287.97999572753906,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Il video che non volle",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 581.2099914550781,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Vedder rifiutò un video per Black.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 968.5499877929688,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Temeva che la promozione",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 805.0399780273438,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "commerciale danneggiasse la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 881.77001953125,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "canzone. La band lo sostenne.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 905.2899780273438,
+        "alto": 962,
+        "basso": 1006
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO LA CHITARRA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 489.57000732421875,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "L’ombra di Stevie Ray",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 584.4400024414062,
+        "alto": 1163,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Per le sue parti, Mike",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 651.5499877929688,
+        "alto": 1238,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "McCready si ispirò a Stevie",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 814.9099731445312,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Ray Vaughan. Stone Gossard",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 880.739990234375,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "gli lasciò libertà sulla chitarra.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.6599731445312,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Il video che non volle",
+        "righe": 4,
+        "testoCompleto": "Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne."
+      },
+      {
+        "titolo": "L’ombra di Stevie Ray",
+        "righe": 4,
+        "testoCompleto": "Per le sue parti, Mike McCready si ispirò a Stevie Ray Vaughan. Stone Gossard gli lasciò libertà sulla chitarra."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "throne",
+    "file": "throne-storia.jpg",
+    "bytes": 226410,
+    "sha256": "9444d6640bbb48ece2c69be171a3aa78522bd9031e80555be4caee0e56196156",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2015",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Throne",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 352.82000732421875,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · That's the Spirit",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 489.5199890136719,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Melodie in primo piano",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 631.510009765625,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Jordan Fish, Throne era tra",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 923.989990234375,
+        "alto": 728,
+        "basso": 780
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "i brani più semplici e diretti della",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4000244140625,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "band: ritmo veloce, melodie forti",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4000244140625,
+        "alto": 883,
+        "basso": 936
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "e un’energia immediata.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 728.3699951171875,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / L’INFLUENZA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1118,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Una porta verso il metal",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 647.3800048828125,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Sykes raccontò che i Linkin Park",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 955.0700073242188,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "lo avevano avvicinato alla musica",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 978.47998046875,
+        "alto": 1316,
+        "basso": 1360
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "pesante. Voleva che anche i",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 838.5900268554688,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Bring potessero fare da ponte.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 895.1900024414062,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Melodie in primo piano",
+        "righe": 4,
+        "testoCompleto": "Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata."
+      },
+      {
+        "titolo": "Una porta verso il metal",
+        "righe": 4,
+        "testoCompleto": "Sykes raccontò che i Linkin Park lo avevano avvicinato alla musica pesante. Voleva che anche i Bring potessero fare da ponte."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "numb",
+    "file": "numb-storia.jpg",
+    "bytes": 218434,
+    "sha256": "389e66e638e42e0b98d6f0e96d4f79dd700f9cf35b9a591e814fbc691183ca6a",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Linkin Park",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.6600036621094,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2003",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Numb",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 320.22999572753906,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Meteora",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 366.7799987792969,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Quando non senti più nulla",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 725.030029296875,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Shinoda parlò di vuoto emotivo",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.8599853515625,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "e indifferenza. Li collegò alla",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 844.0900268554688,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "stanchezza provata dalla band",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 901.9000244140625,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "dopo il tour di Hybrid Theory.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 852.8800048828125,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un riff di tastiera",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 486.989990234375,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Numb prese forma attorno al",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.6799926757812,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "riff iniziale di tastiera. Fu tra gli",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 897.239990234375,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "ultimi brani scritti per Meteora,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 891.5800170898438,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "poco prima delle registrazioni.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 885.0499877929688,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Quando non senti più nulla",
+        "righe": 4,
+        "testoCompleto": "Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory."
+      },
+      {
+        "titolo": "Un riff di tastiera",
+        "righe": 4,
+        "testoCompleto": "Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  }
+]

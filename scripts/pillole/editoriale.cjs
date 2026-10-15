@@ -55,7 +55,9 @@ function renderEditoriale(canzone, contenuto, logo) {
   ctx.drawImage(mark, x, 220);
   gruppo = 'artista'; scrivi(canzone.artista, 350, '44px ' + SANS, C.accento);
   gruppo = 'anno'; ctx.font = '36px ' + MONO; scrivi(canzone.anno, 350, ctx.font, C.secondo, 992 - ctx.measureText(canzone.anno).width);
-  gruppo = 'titolo'; const fontTitolo = '700 82px ' + SERIF;
+  const titoloPx = contenuto.titoloPx ?? 82;
+  if (!Number.isInteger(titoloPx) || titoloPx < 52 || titoloPx > 82) throw Error('Dimensione titolo non valida');
+  gruppo = 'titolo'; const fontTitolo = '700 ' + titoloPx + 'px ' + SERIF;
   ctx.font = fontTitolo;
   if (ctx.measureText(canzone.titolo).width > w) throw Error('Titolo da impaginare individualmente');
   scrivi(canzone.titolo, 448, fontTitolo);
@@ -76,6 +78,6 @@ function renderEditoriale(canzone, contenuto, logo) {
   }
   linea(1585, .28);
   gruppo = 'sito'; scrivi('dietroiltesto.it', 1640, '32px ' + MONO, C.accento);
-  return { canvas, testi, sezioni, titolo: { dimensione: 82, righe: 1 }, modello: 'scripts/pillole/editoriale.cjs' };
+  return { canvas, testi, sezioni, titolo: { dimensione: titoloPx, righe: 1 }, modello: 'scripts/pillole/editoriale.cjs' };
 }
 module.exports = { renderEditoriale };

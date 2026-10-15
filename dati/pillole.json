@@ -5,12 +5,43 @@
     "nomeFonte": "CBS News — intervista a Don Henley",
     "artistaSlug": "eagles",
     "dopoParagrafo": 0,
-    "verificataIl": "2026-10-13",
+    "verificataIl": "2026-10-15",
     "file": "hotel-california-storia.jpg",
-    "sha256": "a176cf4e727ef41fa082616ad8c18d03911873016efccbe847d38aeb17ee463a",
-    "testoGrafica": "Quando Gayle King gli chiese di riassumere il significato in due frasi, Henley disse che non ci sarebbe riuscito: la canzone, spiegò, attraversa il lato oscuro del sogno americano e può…",
+    "sha256": "bec49b1e61fafc4239b168552f7b8d146a0012cb8af76270ec9b3ab075f18f7d",
+    "testoGrafica": "Eagles. 1976 / 1977. Album: Hotel California. Un sogno pieno di ombre. Henley descrive gli eccessi del sogno americano. L’hotel conserva più significati, senza una soluzione unica. Il Grammy del 1978. Hotel California vinse il Grammy come Record of the Year nel 1978. Tra i crediti del premio figura il produttore Bill Szymczyk.",
     "formato": "storia",
-    "modello": "scripts/genera/ricerca.mjs"
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Un sogno pieno di ombre",
+          "testo": "Henley descrive gli eccessi del sogno americano. L’hotel conserva più significati, senza una soluzione unica.",
+          "fonte": "https://www.cbsnews.com/news/don-henley-the-eagles-glenn-frey-kennedy-center-honor-hotel-california/",
+          "nomeFonte": "CBS News — CBS Mornings",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Il Grammy del 1978",
+          "testo": "Hotel California vinse il Grammy come Record of the Year nel 1978. Tra i crediti del premio figura il produttore Bill Szymczyk.",
+          "fonte": "https://www.grammy.com/awards/categories/record-of-the-year/1978/",
+          "nomeFonte": "Recording Academy",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.cbsnews.com/news/don-henley-the-eagles-glenn-frey-kennedy-center-honor-hotel-california/",
+        "https://www.grammy.com/awards/categories/record-of-the-year/1978/"
+      ],
+      "nomiFontiAnagrafica": [
+        "CBS News — CBS Mornings",
+        "Recording Academy"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda"
   },
   "caruso": {
     "testo": "Il ritornello più citato è quello in cui il narratore ripete più volte, con intensità crescente, il proprio amore per la donna accanto a lui, descrivendolo come un legame che sente scorrere nel sangue. Dalla scrisse il brano dopo essere rimasto bloccato a Sorrento per un guasto alla barca, alloggiando nella stessa stanza d'albergo dove il tenore Enrico Caruso aveva trascorso i suoi ultimi giorni. I proprietari dell'albergo gli raccontarono degli ultimi giorni di vita del tenore e della sua passione per una giovane a cui dava lezioni di canto — un aneddoto secondo altre fonti attribuito invece a un barista di Sorrento, che diceva di averlo saputo dalla zia, cameriera dello stesso albergo.",
@@ -18,12 +49,41 @@
     "nomeFonte": "Fanpage — lettura del brano",
     "artistaSlug": "lucio-dalla",
     "dopoParagrafo": 0,
-    "verificataIl": "2026-10-13",
+    "verificataIl": "2026-10-15",
     "file": "caruso-storia.jpg",
-    "sha256": "3de20dbe420c624cce2d21fb208bfc2af96897b534a3ddc8ed7b73bfbb7e3d29",
-    "testoGrafica": "Il ritornello più citato è quello in cui il narratore ripete più volte, con intensità crescente, il proprio amore per la donna accanto a lui, descrivendolo come un legame che sente scorrere nel sangue. Dalla scrisse il brano dopo essere rimasto bloccato a Sorrento per un guasto alla barca, alloggiando nella…",
+    "sha256": "599fa9ad3fc1c812c2786d4b92123b1cdb887898e8e08037a9ba5731ee72275d",
+    "testoGrafica": "Lucio Dalla. 1986. Album: DallAmeriCaruso. L’amore davanti alla perdita. La nostra lettura: amore e malinconia convivono. Il sentimento offre una risposta alla solitudine e alla perdita. Una sosta a Sorrento. Secondo un racconto, il guasto alla barca portò Dalla a Sorrento. La sosta divenne l’occasione per scrivere Caruso.",
     "formato": "storia",
-    "modello": "scripts/genera/ricerca.mjs"
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "L’amore davanti alla perdita",
+          "testo": "La nostra lettura: amore e malinconia convivono. Il sentimento offre una risposta alla solitudine e alla perdita.",
+          "fonte": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
+          "nomeFonte": "Fanpage",
+          "natura": "Lettura della testata, non dichiarazione diretta dell’autore"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Una sosta a Sorrento",
+          "testo": "Secondo un racconto, il guasto alla barca portò Dalla a Sorrento. La sosta divenne l’occasione per scrivere Caruso.",
+          "fonte": "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/",
+          "nomeFonte": "Fanpage",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.fanpage.it/cultura/caruso-di-lucio-dalla-il-significato-e-il-testo-della-canzone-sulle-forti-passioni/"
+      ],
+      "nomiFontiAnagrafica": [
+        "Fanpage"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda"
   },
   "azzurro": {
     "testo": "Paolo Conte compose la musica e Vito Pallavicini scrisse il testo; l’arrangiamento della versione di Adriano Celentano fu di Nando De Luca. Conte ricordò che il ritmo di marcetta, allora controcorrente, suscitò inizialmente perplessità, prima del successo del brano.",
@@ -31,12 +91,41 @@
     "nomeFonte": "Rockol — storia di Azzurro",
     "artistaSlug": "adriano-celentano",
     "dopoParagrafo": 0,
-    "verificataIl": "2026-10-13",
+    "verificataIl": "2026-10-15",
     "file": "azzurro-storia.jpg",
-    "sha256": "840f6520e8af16b497f6f7874de315d89b02228d1a878b4ec6f722ca52a9232f",
-    "testoGrafica": "Paolo Conte compose la musica e Vito Pallavicini scrisse il testo; l’arrangiamento della versione di Adriano Celentano fu di Nando De Luca. Conte ricordò che il ritmo di marcetta, allora controcorrente, suscitò inizialmente perplessità, prima del successo del brano.",
+    "sha256": "615a67cf0e22e2114f4743b0d04451c45cf2fe2a24081ff65b34350d1b0735e1",
+    "testoGrafica": "Adriano Celentano. 1968. Album: Azzurro / Una carezza in un pugno. Una marcetta controcorrente. Conte ricordò i dubbi iniziali sul ritmo di marcetta: sembrava fuori moda. Il successo premiò quella scelta insolita. Tre firme, una canzone. Musica di Conte, testo di Pallavicini: l’arrangiamento di Nando De Luca diede forma alla versione di Celentano.",
     "formato": "storia",
-    "modello": "scripts/genera/ricerca.mjs"
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Una marcetta controcorrente",
+          "testo": "Conte ricordò i dubbi iniziali sul ritmo di marcetta: sembrava fuori moda. Il successo premiò quella scelta insolita.",
+          "fonte": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
+          "nomeFonte": "Rockol",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Tre firme, una canzone",
+          "testo": "Musica di Conte, testo di Pallavicini: l’arrangiamento di Nando De Luca diede forma alla versione di Celentano.",
+          "fonte": "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro",
+          "nomeFonte": "Rockol",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.rockol.it/news-715123/adriano-celentano-paolo-conte-la-storia-della-canzone-azzurro"
+      ],
+      "nomiFontiAnagrafica": [
+        "Rockol"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda"
   },
   "all-the-small-things": {
     "testo": "L’episodio delle rose sulle scale venne da un gesto di Jennifer Jenkins, che le lasciò lì una sera in cui DeLonge era rimasto a registrare fino a tardi. Anche i cori hanno un riferimento preciso: l’omaggio ai Ramones.",
@@ -48,14 +137,14 @@
     "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "all-the-small-things-storia.jpg",
-    "sha256": "ea11f33169cdcd3108518353221786a806a266e783cc6b3b43286b35112e0b87",
+    "sha256": "94d2e1faae5caedf4bd18e1baec61096ba09ed8cf1fc9b88881f55e3283f134b",
     "testoGrafica": "Blink-182. 1999. Album: Enema of the State. Le rose sulle scale. Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone. Un omaggio ai Ramones. I cori senza parole omaggiano i Ramones, tra le band preferite di DeLonge. Il musicista cercava un ritornello adatto alla radio.",
     "modello": "scripts/pillole/editoriale.cjs",
     "cartolina": {
       "versione": 2,
       "sezioni": [
         {
-          "etichetta": "IL GESTO REALE",
+          "etichetta": "MOMENTO ICONICO",
           "titolo": "Le rose sulle scale",
           "testo": "Jennifer Jenkins lasciò delle rose sulle scale a Tom DeLonge mentre lui registrava fino a tardi. Quel gesto entrò nella canzone.",
           "fonte": "https://americansongwriter.com/meaning-all-the-small-things-blink-182-song-lyrics/",
@@ -90,12 +179,20 @@
     "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "whats-my-age-again-storia.jpg",
-    "sha256": "b22d456980f6af8e715b44ed7953aaff423f1376ebbdb58efc7f0f09a8a01bbc",
-    "testoGrafica": "Blink-182. 1999. Album: Enema of the State. Un riff nato per errore. Mark Hoppus sbagliò l’intro di basso di «J.A.R.» dei Green Day mentre la provava alla chitarra. Da quell’errore nacque il riff. La corsa a Los Angeles. Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne.",
+    "sha256": "4643bf2aa58d601e7df041848c09d377171105775229d92eda898529a1f1082b",
+    "testoGrafica": "Blink-182. 1999. Album: Enema of the State. La corsa a Los Angeles. Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne. Un riff nato per errore. Mark Hoppus sbagliò l’intro di basso di «J.A.R.» dei Green Day mentre la provava alla chitarra. Da quell’errore nacque il riff.",
     "modello": "scripts/pillole/editoriale.cjs",
     "cartolina": {
       "versione": 2,
       "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "La corsa a Los Angeles",
+          "testo": "Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne.",
+          "fonte": "https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state",
+          "nomeFonte": "The Ringer",
+          "natura": "Racconto del regista Marcos Siega intervistato da The Ringer"
+        },
         {
           "etichetta": "COME È NATO",
           "titolo": "Un riff nato per errore",
@@ -103,14 +200,6 @@
           "fonte": "https://www.iheart.com/content/2020-10-20-mark-hoppus-says-whats-my-age-again-riff-was-inspired-by-green-day/",
           "nomeFonte": "iHeart",
           "natura": "Dichiarazione di Mark Hoppus riportata da iHeart"
-        },
-        {
-          "etichetta": "DIETRO IL VIDEO",
-          "titolo": "La corsa a Los Angeles",
-          "testo": "Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne.",
-          "fonte": "https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state",
-          "nomeFonte": "The Ringer",
-          "natura": "Racconto del regista Marcos Siega intervistato da The Ringer"
         }
       ],
       "fontiAnagrafica": [
@@ -128,13 +217,43 @@
     "nomeFonte": "Wikipedia",
     "artistaSlug": "ligabue",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "ho-messo-via-storia.jpg",
-    "sha256": "5a8ede35c90665ffb684cc52afe3563cdbe0a61cd8c8186b591bf1080af46434",
-    "testoGrafica": "Il nucleo del testo è l’ammissione di non riuscire a spiegarsi perché, pur avendo messo da parte tanti aspetti della propria vita, non si riesca a fare lo stesso con una persona in particolare, mai…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "5af1f05a5bc6fc383482d0cca937a58f28a5d70898372b010fd02b51418ed4ad",
+    "testoGrafica": "Ligabue. 1993. Album: Sopravvissuti e sopravviventi. Il ricordo che rimane. La nostra lettura: fare ordine nel passato non cancella ogni legame. Una persona resta, anche quando il resto passa. La voce della tromba. Piano di Fornaciari e chitarra di Cottafavi: fra questi suoni trova spazio la tromba di Demo Morselli.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Il ricordo che rimane",
+          "testo": "La nostra lettura: fare ordine nel passato non cancella ogni legame. Una persona resta, anche quando il resto passa.",
+          "fonte": "https://it.wikipedia.org/wiki/Ho_messo_via",
+          "nomeFonte": "Wikipedia",
+          "natura": "Lettura editoriale originale del tema, coerente con la descrizione della scheda"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "La voce della tromba",
+          "testo": "Piano di Fornaciari e chitarra di Cottafavi: fra questi suoni trova spazio la tromba di Demo Morselli.",
+          "fonte": "https://www.ondarock.it/monografie/ligabue/",
+          "nomeFonte": "OndaRock",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://it.wikipedia.org/wiki/Ho_messo_via",
+        "https://www.ondarock.it/monografie/ligabue/"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia",
+        "OndaRock"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   },
   "vieni-a-ballare-in-puglia": {
     "testo": "L'invito del titolo cambia senso quando emerge la denuncia sociale. eHabitat interpreta il ballo come allusione alla morte; Rockol legge nell'invito uno scherno rivolto al turista che vede soltanto una Puglia idealizzata. Le due letture danno al titolo un'ambiguità che accompagna la denuncia.",
@@ -142,13 +261,42 @@
     "nomeFonte": "Wikipedia",
     "artistaSlug": "caparezza",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "vieni-a-ballare-in-puglia-storia.jpg",
-    "sha256": "eb41796fb8e56f7d4290f01abc4ae01f1edb61f7a213c375fbe987171ca80cf9",
-    "testoGrafica": "L'invito del titolo cambia senso quando emerge la denuncia sociale. eHabitat…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "27cbe485f9a88972c6ae20f6c21d314c76869c7b56f28d625629b57c84849882",
+    "testoGrafica": "Caparezza. 2008. Album: Le dimensioni del mio caos. L’invito cambia significato. La nostra lettura: l’invito alla festa è satirico. Dietro il turismo emergono morti sul lavoro e danni all’ambiente. La sorpresa all’inizio. Nell’introduzione canta Al Bano. La sua presenza accosta la tradizione italiana alla satira di Caparezza.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "L’invito cambia significato",
+          "testo": "La nostra lettura: l’invito alla festa è satirico. Dietro il turismo emergono morti sul lavoro e danni all’ambiente.",
+          "fonte": "https://www.rockol.it/news-714124/canzoni-italiane-da-2000-al-2020-storia-vieni-ballare-puglia-caparezza",
+          "nomeFonte": "Rockol — Vincenzo Rossini (da «Unadimille», Arcana)",
+          "natura": "Lettura attribuita a Rockol"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "La sorpresa all’inizio",
+          "testo": "Nell’introduzione canta Al Bano. La sua presenza accosta la tradizione italiana alla satira di Caparezza.",
+          "fonte": "https://www.rockol.it/news-714124/canzoni-italiane-da-2000-al-2020-storia-vieni-ballare-puglia-caparezza",
+          "nomeFonte": "Rockol — Vincenzo Rossini (da «Unadimille», Arcana)",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.rockol.it/news-714124/canzoni-italiane-da-2000-al-2020-storia-vieni-ballare-puglia-caparezza"
+      ],
+      "nomiFontiAnagrafica": [
+        "Rockol — Vincenzo Rossini (da «Unadimille», Arcana)"
+      ],
+      "verificataIl": "2026-10-15",
+      "titoloPx": 78
+    }
   },
   "dont-look-back-in-anger": {
     "testo": "Nel 2018, parlando con NPR World Cafe, Gallagher ricordò il momento in cui una folla cantò il brano dopo la commemorazione delle vittime dell’attentato alla Manchester Arena. Disse che quella scena gli mostrò quanto una canzone possa aiutare le persone a condividere un’esperienza: il brano, nato come sfida, era diventato per lui quasi un inno.",
@@ -156,13 +304,42 @@
     "nomeFonte": "NPR World Cafe, intervista a Noel Gallagher, 15 marzo 2018",
     "artistaSlug": "oasis",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "dont-look-back-in-anger-storia.jpg",
-    "sha256": "bbda4092ff1faa94b39806c7bb842e01fda0b3c388b2766eb23ca87fdd7719ff",
-    "testoGrafica": "Nel 2018, parlando con NPR World Cafe, Gallagher ricordò il momento in…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "d5350be06cc889c02ef1f7e1fedfe25579a331f498ec5b5b56f7b34d07482687",
+    "testoGrafica": "Oasis. 1995. Album: (What's the Story) Morning Glory?. Una voce diventa un coro. Dopo il silenzio per le vittime di Manchester, nel 2017 partì un canto collettivo. Noel vide la sua canzone unire le persone. Da sfida a inno. Noel raccontò che il brano nacque come gesto di sfida. Col tempo lo sentì diventare una celebrazione, poi quasi un inno.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Una voce diventa un coro",
+          "testo": "Dopo il silenzio per le vittime di Manchester, nel 2017 partì un canto collettivo. Noel vide la sua canzone unire le persone.",
+          "fonte": "https://www.weos.org/2018-03-15/noel-gallagher-on-world-cafe",
+          "nomeFonte": "World Cafe, trascrizione dell’intervista a Noel Gallagher",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Da sfida a inno",
+          "testo": "Noel raccontò che il brano nacque come gesto di sfida. Col tempo lo sentì diventare una celebrazione, poi quasi un inno.",
+          "fonte": "https://www.weos.org/2018-03-15/noel-gallagher-on-world-cafe",
+          "nomeFonte": "World Cafe, trascrizione dell’intervista a Noel Gallagher",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.weos.org/2018-03-15/noel-gallagher-on-world-cafe"
+      ],
+      "nomiFontiAnagrafica": [
+        "World Cafe, trascrizione dell’intervista a Noel Gallagher"
+      ],
+      "verificataIl": "2026-10-15",
+      "titoloPx": 72
+    }
   },
   "november-rain": {
     "testo": "Il videoclip diretto da Andy Morahan passa da un matrimonio a un funerale: due scene che guidano il racconto visivo della ballata.",
@@ -170,13 +347,41 @@
     "nomeFonte": "MusicRadar — Amit Sharma",
     "artistaSlug": "guns-n-roses",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "november-rain-storia.jpg",
-    "sha256": "0b3c87d389b9a2cca7d5e8181cca677aebc8e1b20bd73c012d096468bc6a87b1",
-    "testoGrafica": "Il videoclip diretto da Andy Morahan passa da un matrimonio a un funerale: due scene che guidano il racconto visivo della ballata.",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "c25014f23112d5729e4c7f2913565402fbab47616c4ba018936609fcfeb46d95",
+    "testoGrafica": "Guns N' Roses. 1991. Album: Use Your Illusion I. Dalle nozze al lutto. Il video passa dalle nozze al funerale. La nostra lettura: la felicità si rivela fragile, esposta alla perdita. Prima del grande arrangiamento. Nel 1986, alle sessioni Sound City, c’era già una demo di dieci minuti: piano e voce delineavano la canzone.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Dalle nozze al lutto",
+          "testo": "Il video passa dalle nozze al funerale. La nostra lettura: la felicità si rivela fragile, esposta alla perdita.",
+          "fonte": "https://www.latimes.com/entertainment-arts/tv/story/2022-06-07/novemeber-rain-guns-n-roses-music-video-making-of-30th-anniversary",
+          "nomeFonte": "Los Angeles Times",
+          "natura": "Descrizione del video (meno di 25 parole con il titolo) e lettura editoriale originale"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Prima del grande arrangiamento",
+          "testo": "Nel 1986, alle sessioni Sound City, c’era già una demo di dieci minuti: piano e voce delineavano la canzone.",
+          "fonte": "https://www.udiscovermusic.com/stories/november-rain-story-guns-n-roses/",
+          "nomeFonte": "uDiscoverMusic — Jason Draper",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.udiscovermusic.com/stories/november-rain-story-guns-n-roses/"
+      ],
+      "nomiFontiAnagrafica": [
+        "uDiscoverMusic — Jason Draper"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   },
   "man-in-the-box": {
     "testo": "La scatola del titolo tiene insieme i due spunti che Staley ha raccontato: la censura e il trattamento dei vitelli. È una metafora di costrizione, senza che ogni sua immagine debba avere un solo significato.",
@@ -184,13 +389,41 @@
     "nomeFonte": "Rolling Stone — intervista a Layne Staley, 1992 (copia d’archivio)",
     "artistaSlug": "alice-in-chains",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "man-in-the-box-storia.jpg",
-    "sha256": "81f02c4f80ce2181d579e6c475b1b5aca706de296ffcb3f04308efe3dadbd6ed",
-    "testoGrafica": "La scatola del titolo tiene insieme i due spunti che Staley ha raccontato: la censura e il trattamento dei vitelli. È una metafora di costrizione, senza che ogni sua immagine debba avere un solo…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "d9af70ff37eb88ef59619d660546083296a01d68af25704e7e5780fe70509d8e",
+    "testoGrafica": "Alice in Chains. 1990. Album: Facelift. La scatola della censura. Staley collegò il brano alla censura dei media. La scatola rende visibile una percezione limitata del mondo. Un’idea nata a cena. A cena con vegetariani della Columbia, Staley sentì parlare di vitelli allevati in gabbia: un’altra origine del brano.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "La scatola della censura",
+          "testo": "Staley collegò il brano alla censura dei media. La scatola rende visibile una percezione limitata del mondo.",
+          "fonte": "https://americansongwriter.com/the-peta-approved-meaning-behind-alice-in-chains-man-in-the-box/",
+          "nomeFonte": "American Songwriter — ricostruzione del brano",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Un’idea nata a cena",
+          "testo": "A cena con vegetariani della Columbia, Staley sentì parlare di vitelli allevati in gabbia: un’altra origine del brano.",
+          "fonte": "https://americansongwriter.com/the-peta-approved-meaning-behind-alice-in-chains-man-in-the-box/",
+          "nomeFonte": "American Songwriter — ricostruzione del brano",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://americansongwriter.com/the-peta-approved-meaning-behind-alice-in-chains-man-in-the-box/"
+      ],
+      "nomiFontiAnagrafica": [
+        "American Songwriter — ricostruzione del brano"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   },
   "war-pigs": {
     "testo": "L'immaginario occulto del brano assume così, nel racconto di Butler, una funzione precisa: dare forma alla sua condanna della guerra. Il cambio di titolo non modificò il testo già scritto.",
@@ -198,13 +431,41 @@
     "nomeFonte": "Noisecreep — intervista a Geezer Butler, 30 luglio 2010",
     "artistaSlug": "black-sabbath",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "war-pigs-storia.jpg",
-    "sha256": "aaf196d26d1cc443ce0ed64e427508855053ac47077ae6a0dfab64c0f9bb3a8a",
-    "testoGrafica": "L'immaginario occulto del brano assume così, nel racconto di Butler, una funzione precisa: dare forma alla sua condanna della guerra. Il cambio di titolo non modificò il testo già scritto.",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "c10c5f068c73a232191341763ca78b051654eae03cdeb0f0687c0353f928271d",
+    "testoGrafica": "Black Sabbath. 1970. Album: Paranoid. La guerra come male. Per Geezer Butler, la guerra era il grande male. Le immagini occulte servivano a denunciarla attraverso un’analogia. Prima si chiamava Walpurgis. L’etichetta trovò Walpurgis troppo satanico. Butler raccontò che cambiò il titolo in War Pigs, lasciando intatto il testo.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "La guerra come male",
+          "testo": "Per Geezer Butler, la guerra era il grande male. Le immagini occulte servivano a denunciarla attraverso un’analogia.",
+          "fonte": "https://noisecreep.com/black-sabbath-bassist-geezer-butler-gets-paranoid/",
+          "nomeFonte": "Noisecreep — intervista a Geezer Butler, 30 luglio 2010",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Prima si chiamava Walpurgis",
+          "testo": "L’etichetta trovò Walpurgis troppo satanico. Butler raccontò che cambiò il titolo in War Pigs, lasciando intatto il testo.",
+          "fonte": "https://noisecreep.com/black-sabbath-bassist-geezer-butler-gets-paranoid/",
+          "nomeFonte": "Noisecreep — intervista a Geezer Butler, 30 luglio 2010",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://noisecreep.com/black-sabbath-bassist-geezer-butler-gets-paranoid/"
+      ],
+      "nomiFontiAnagrafica": [
+        "Noisecreep — intervista a Geezer Butler, 30 luglio 2010"
+      ],
+      "verificataIl": "2026-10-15"
+    }
   },
   "wake-me-up-when-september-ends": {
     "testo": "Secondo il racconto riportato da American Songwriter, il titolo riprende la risposta che Armstrong diede alla madre dopo il funerale del padre.",
@@ -212,13 +473,42 @@
     "nomeFonte": "American Songwriter",
     "artistaSlug": "green-day",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "wake-me-up-when-september-ends-storia.jpg",
-    "sha256": "1378e94defaeaf5314d45acf2438150c9f8f179fd99de67f8528275ab1dc80a2",
-    "testoGrafica": "Secondo il racconto riportato da American Songwriter, il titolo riprende la risposta che Armstrong diede alla madre dopo il funerale del padre.",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "7f9c49d93a1f2b49c4736416b7972ae108a4c97d4a8ed47a4105152a54f68279",
+    "testoGrafica": "Green Day. 2004. Album: American Idiot. Il mese di una perdita. Billie Joe Armstrong legò il brano al ricordo del padre. Settembre riapre un lutto personale, che la canzone prova a custodire. Il tempo di poterne cantare. Armstrong evitò per anni di scrivere del padre. Arrivare a cantarne, spiegò, fu un modo per rendergli omaggio.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Il mese di una perdita",
+          "testo": "Billie Joe Armstrong legò il brano al ricordo del padre. Settembre riapre un lutto personale, che la canzone prova a custodire.",
+          "fonte": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/",
+          "nomeFonte": "American Songwriter",
+          "natura": "Sintesi originale del contenuto documentato"
+        },
+        {
+          "etichetta": "DIETRO LA CANZONE",
+          "titolo": "Il tempo di poterne cantare",
+          "testo": "Armstrong evitò per anni di scrivere del padre. Arrivare a cantarne, spiegò, fu un modo per rendergli omaggio.",
+          "fonte": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/",
+          "nomeFonte": "American Songwriter",
+          "natura": "Curiosità documentata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day/"
+      ],
+      "nomiFontiAnagrafica": [
+        "American Songwriter"
+      ],
+      "verificataIl": "2026-10-15",
+      "titoloPx": 52
+    }
   },
   "black-pearl-jam": {
     "testo": "La decisione sul video è parte della storia del brano: nell'intervista a Cameron Crowe, Vedder lo indicò come un esempio di canzone che voleva proteggere dalla sovraesposizione commerciale.",
@@ -230,12 +520,20 @@
     "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "black-pearl-jam-storia.jpg",
-    "sha256": "e728c28e1bf1d78524370efccb1690be6be030d5059cc0da63ada6a5a051cc7e",
-    "testoGrafica": "Pearl Jam. 1991. Album: Ten. L’ombra di Stevie Ray. Per le sue parti, Mike McCready si ispirò a Stevie Ray Vaughan. Stone Gossard gli lasciò libertà sulla chitarra. Il video che non volle. Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne.",
+    "sha256": "499c0bd19ca38ff6ced500e51be1ead7bb8efad4f64c19cee8b212ef1b58503b",
+    "testoGrafica": "Pearl Jam. 1991. Album: Ten. Il video che non volle. Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne. L’ombra di Stevie Ray. Per le sue parti, Mike McCready si ispirò a Stevie Ray Vaughan. Stone Gossard gli lasciò libertà sulla chitarra.",
     "modello": "scripts/pillole/editoriale.cjs",
     "cartolina": {
       "versione": 2,
       "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Il video che non volle",
+          "testo": "Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne.",
+          "fonte": "https://www.fivehorizons.com/archive/articles/rs102893.shtml",
+          "nomeFonte": "Rolling Stone — Cameron Crowe",
+          "natura": "Reportage e intervista diretta del 28 ottobre 1993, copia d’archivio Five Horizons"
+        },
         {
           "etichetta": "DIETRO LA CHITARRA",
           "titolo": "L’ombra di Stevie Ray",
@@ -243,14 +541,6 @@
           "fonte": "https://www.guitarworld.com/features/pearl-jam-ten",
           "nomeFonte": "Guitar World",
           "natura": "Racconto diretto di Mike McCready a Jeff Gilbert, ripreso da Nina Pearlman"
-        },
-        {
-          "etichetta": "LA SCELTA DELLA BAND",
-          "titolo": "Il video che non volle",
-          "testo": "Vedder rifiutò un video per Black. Temeva che la promozione commerciale danneggiasse la canzone. La band lo sostenne.",
-          "fonte": "https://www.fivehorizons.com/archive/articles/rs102893.shtml",
-          "nomeFonte": "Rolling Stone — Cameron Crowe",
-          "natura": "Reportage e intervista diretta del 28 ottobre 1993, copia d’archivio Five Horizons"
         }
       ],
       "fontiAnagrafica": [
@@ -275,7 +565,7 @@
       "versione": 2,
       "sezioni": [
         {
-          "etichetta": "LA SCELTA DEL SUONO",
+          "etichetta": "MOMENTO ICONICO",
           "titolo": "Melodie in primo piano",
           "testo": "Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata.",
           "fonte": "https://www.gigwise.com/news/101823/bring-me-the-horizon-new-song-throne-from-thats-the-spirit---listen",
@@ -300,7 +590,7 @@
       "verificataIl": "2026-10-15"
     },
     "file": "throne-storia.jpg",
-    "sha256": "7f7027034bd5fdfd030a4a696728c19654f08490fb9dd0907be938476826fa82",
+    "sha256": "9444d6640bbb48ece2c69be171a3aa78522bd9031e80555be4caee0e56196156",
     "testoGrafica": "Bring Me the Horizon. 2015. Album: That's the Spirit. Melodie in primo piano. Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata. Una porta verso il metal. Sykes raccontò che i Linkin Park lo avevano avvicinato alla musica pesante. Voleva che anche i Bring potessero fare da ponte.",
     "modello": "scripts/pillole/editoriale.cjs"
   },
@@ -317,20 +607,20 @@
       "versione": 2,
       "sezioni": [
         {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Quando non senti più nulla",
+          "testo": "Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
+          "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
+          "nomeFonte": "Metal Hammer — intervista Shoutweb",
+          "natura": "Dichiarazione di Mike Shinoda a Shoutweb nel marzo2003, ripresa e attribuita da Metal Hammer"
+        },
+        {
           "etichetta": "COME È NATA",
           "titolo": "Un riff di tastiera",
           "testo": "Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni.",
           "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
           "nomeFonte": "Metal Hammer — Dannii Leivers",
           "natura": "Ricostruzione della scrittura, con dichiarazione della band riportata da Metal Hammer"
-        },
-        {
-          "etichetta": "IL SIGNIFICATO",
-          "titolo": "Quando non senti più nulla",
-          "testo": "Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
-          "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
-          "nomeFonte": "Metal Hammer — intervista Shoutweb",
-          "natura": "Dichiarazione di Mike Shinoda a Shoutweb nel marzo2003, ripresa e attribuita da Metal Hammer"
         }
       ],
       "fontiAnagrafica": [
@@ -342,8 +632,8 @@
       "verificataIl": "2026-10-15"
     },
     "file": "numb-storia.jpg",
-    "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee",
-    "testoGrafica": "Linkin Park. 2003. Album: Meteora. Un riff di tastiera. Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni. Quando non senti più nulla. Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
+    "sha256": "389e66e638e42e0b98d6f0e96d4f79dd700f9cf35b9a591e814fbc691183ca6a",
+    "testoGrafica": "Linkin Park. 2003. Album: Meteora. Quando non senti più nulla. Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory. Un riff di tastiera. Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni.",
     "modello": "scripts/pillole/editoriale.cjs"
   },
   "mantra": {

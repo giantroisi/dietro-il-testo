@@ -4910,3 +4910,16 @@ Richiesta diretta: nuova canzone BMTH e nuova Linkin Park. Riscontro in corso d�
 Due nuove chiavi, JPEG e due HTML con componente esistente. Renderer/dati canonici invariati, quindici cartoline e sei sitemap identiche, datePublished/dateModified/lastmod preservati e articolo fuori inserimenti intatto. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065 positivi; determinismo/contrasto/assenza sovrapposizioni/casi negativi e cinque scenari condivisione per ciascuna. Versione definitiva ricontrollata390/320/1280 con dimensioni effettive osservate, zero overflow/errori; prove e screenshot conservati.
 
 Copia ritratto-nin-2026-10-15, ramo codex/cartoline-mantra-in-the-end-anteprima-2026-10-15, base d457e0534 pubblicata. Dossier rapporti/cartoline-mantra-in-the-end-anteprima-2026-10-15.md. Solo commit locale dopo verifica, nuove immagini da valutare prima di integrazione/push/pubblicazione. Nessuna sostituzione automatica delle immagini già online. Main/nontracciati, altraAI e revisioni preservati; estensione di massa ferma, nessun GSC/nuovoAmazon/riattivazione routine. Variazioni attese lastmod del nuovo lotto: zero. Post/Reel e cache/ritagli esterni restano i limiti dichiarati. Prove della pubblicazione approvata Throne/Numb conservate separatamente.
+
+
+### Esito §123 — MANTRA e In the End pubblicate, 15 ottobre 2026
+
+Approvazione diretta nel mandato corrente. Integrato/push376c1ee3a; VercelFUCTKP4Smug1dzdYxrv5tcUTR2ue Ready/Production,12:23:38CEST,15secondi. Due HTML/JPEG e sei sitemap pubblici identici al commit. Date preservate, stessa immagine pagina/Storia/OG/Twitter; prove conservate nel lotto successivo. Nessuna azione social reale.
+
+## 124. Momento iconico sulle cartoline già pubblicate — 15 ottobre 2026
+
+Su richiesta del proprietario aggiornate le15 cartoline precedenti; MANTRA/In the End già allineate e preservate. Primo blocco «Momento iconico», secondo curiosità; dieci vecchie immagini portate al layout curato con sintesi complete e fonti riaperte. Nessun verso/fonte nel raster. Titoli adattati individualmente per tre casi lunghi, corpo60px invariato, nessuna ellissi. Registro mantiene fonte nominata e natura delle letture/aneddoti. Stesso JPEG pagina/Storia/OG/Twitter.
+
+15chiavi/JPEG/HTML, minima opzione renderer52–82px. Articolo fuori figura/URL versione, dati canonici, ricerca, datePublished/dateModified/lastmod e sei sitemap invariati. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo17/contrastoAA/margini/casi negativi,75scenari condivisione e browser45viste1280/390/320 positivi. Raster osservati, screenshot/prove in rapporti/prove-cartoline-iconico-2026-10-15/; dossier rapporti/cartoline-online-momento-iconico-2026-10-15.md.
+
+Copia separata ritratto-nin, ramo codex/cartoline-online-momento-iconico-2026-10-15, base376c1ee3a. Main/nontracciati/altraAI/revisioni intatti,308cartoline ferme e due nuove solo in anteprima. Pubblicazione delle15 già richiesta esplicitamente dal proprietario; esito online da registrare dopo il rilascio. Limiti: Post/Reel/cache/ritagli esterni. Nessun GSC o nuovo Amazon.

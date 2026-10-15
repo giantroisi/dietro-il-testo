@@ -1,0 +1,52 @@
+[
+  {
+    "file": "canzone/mantra/index.html",
+    "sha256": "a22eae6ba8236bdb617f8ffa60ea1467185f4499634119334518bd26bae9b2f8",
+    "identico": true
+  },
+  {
+    "file": "canzone/in-the-end/index.html",
+    "sha256": "5722f06ae78427a54ea92d27f50c3b5e0cbf5c366079fb16cb7851e09d34e42d",
+    "identico": true
+  },
+  {
+    "file": "pillole/mantra-storia.jpg",
+    "sha256": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
+    "identico": true
+  },
+  {
+    "file": "pillole/in-the-end-storia.jpg",
+    "sha256": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
+    "identico": true
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-album.xml",
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "identico": true
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "sha256": "b2c88ab18c60724b1a1d8594f348c81a5d66a9e3d65658257cecb17edd7f5c3e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "identico": true
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "identico": true
+  },
+  {
+    "file": "sitemap.xml",
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]

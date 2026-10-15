@@ -1,0 +1,180 @@
+{
+  "proof": [
+    {
+      "slug": "hotel-california",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "caruso",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "azzurro",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "all-the-small-things",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "whats-my-age-again",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "ho-messo-via",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "vieni-a-ballare-in-puglia",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 78,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "dont-look-back-in-anger",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 72,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "november-rain",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "man-in-the-box",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "war-pigs",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "wake-me-up-when-september-ends",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 52,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "black-pearl-jam",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "throne",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "numb",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "mantra",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    },
+    {
+      "slug": "in-the-end",
+      "deterministico": true,
+      "momentoIconico": true,
+      "nessunaSovrapposizione": true,
+      "titolo": {
+        "dimensione": 82,
+        "righe": 1
+      }
+    }
+  ],
+  "contrasto": {
+    "#F8F4EB": 10.758817616107793,
+    "#C7D6CD": 7.833034448486451,
+    "#B7D7C4": 7.609284485913638
+  },
+  "casiNegativi": true
+}
