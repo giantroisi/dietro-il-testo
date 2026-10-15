@@ -1,0 +1,52 @@
+[
+  {
+    "file": "canzone/doomed/index.html",
+    "sha256": "c41f5ec86bc9f744b828305a9e33fc7ed787d2439344707667fbb8646ba96d50",
+    "identico": true
+  },
+  {
+    "file": "canzone/crawling/index.html",
+    "sha256": "1cdf9e509128c2e025a918f558fe784b4d5165ebef407a604ed485f6af2846f9",
+    "identico": true
+  },
+  {
+    "file": "pillole/doomed-storia.jpg",
+    "sha256": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
+    "identico": true
+  },
+  {
+    "file": "pillole/crawling-storia.jpg",
+    "sha256": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
+    "identico": true
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-album.xml",
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "identico": true
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "sha256": "b2c88ab18c60724b1a1d8594f348c81a5d66a9e3d65658257cecb17edd7f5c3e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "identico": true
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "identico": true
+  },
+  {
+    "file": "sitemap.xml",
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "happy-song",
+    "file": "happy-song-storia.jpg",
+    "bytes": 223455,
+    "sha256": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2015",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Happy Song",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 526.75,
+        "alto": 388,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · That's the Spirit",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 489.5199890136719,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Il tavolo dei Coldplay",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 580.3500061035156,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Agli NME Awards 2016,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 717.27001953125,
+        "alto": 728,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "durante Happy Song, Sykes",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 835.1300048828125,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "salì sul tavolo dei Coldplay e",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 848.4299926757812,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "rovesciò bottiglie e bicchieri.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 838.3499755859375,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DOPO IL CONCERTO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 454.6499938964844,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Non era una protesta",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 577.8599853515625,
+        "alto": 1166,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Sykes negò di aver preso di",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 828.4199829101562,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "mira i Coldplay. Chris Martin",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 837.0900268554688,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "reagì con entusiasmo: per lui,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 875.0900268554688,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "il gesto era puro rock’n’roll.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 804.97998046875,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Il tavolo dei Coldplay",
+        "righe": 4,
+        "testoCompleto": "Agli NME Awards 2016, durante Happy Song, Sykes salì sul tavolo dei Coldplay e rovesciò bottiglie e bicchieri."
+      },
+      {
+        "titolo": "Non era una protesta",
+        "righe": 4,
+        "testoCompleto": "Sykes negò di aver preso di mira i Coldplay. Chris Martin reagì con entusiasmo: per lui, il gesto era puro rock’n’roll."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "one-step-closer",
+    "file": "one-step-closer-storia.jpg",
+    "bytes": 230206,
+    "sha256": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Linkin Park",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.6600036621094,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2000",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "One Step Closer",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 682.3800048828125,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Hybrid Theory",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 465.3500061035156,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Lo sfogo diventa musica",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 647.1500244140625,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Chester scrisse uno sfogo in",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 845.030029296875,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "studio. A Mike piacque: divenne",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 928.6199951171875,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "il bridge, registrato senza",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 758.3400268554688,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "anticiparne le parole a Gilmore.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 921.760009765625,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un riff in un parcheggio",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 643.1900024414062,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Brad Delson trovò il riff mentre",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 897.239990234375,
+        "alto": 1237,
+        "basso": 1282
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "la band faceva foto nel garage",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 895.280029296875,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "di Joe Hahn. Shinoda lo sentì",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.8699951171875,
+        "alto": 1393,
+        "basso": 1439
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "e gli chiese di registrarlo.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 751.6300048828125,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Lo sfogo diventa musica",
+        "righe": 4,
+        "testoCompleto": "Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore."
+      },
+      {
+        "titolo": "Un riff in un parcheggio",
+        "righe": 4,
+        "testoCompleto": "Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  }
+]

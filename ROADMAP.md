@@ -4943,3 +4943,16 @@ Copia ritratto-nin, ramo codex/cartoline-doomed-crawling-anteprima-2026-10-15, b
 Durante la preparazione della prossima cartolina, riaperto l’estratto di Jason Lipshutz/The Ringer. Corretto errore preesistente P1/P2: Chester autore dello sfogo, Mike ne propone l’uso, sezione bridge. Nessun verso riprodotto. Solo fraseIconica, due occorrenze HTML e due estratti client; corpo intatto. Unico dateModified/lastmod11→15ottobre di One Step Closer; datePublished/altre date/altre sitemap intatte. F40 letta, nessun build generale.
 
 SEO696/coerenza321/104 e confronto ambito positivi; browser desktop/320 senza overflow, testo e screenshot verificati. Rapporto rapporti/one-step-closer-attribuzione-2026-10-15.md. Copia ritratto-nin, ramo codex/one-step-closer-attribuzione-2026-10-15, base467a4d3d7. Commit locale isolato; correzione segnalata al proprietario e da valutare insieme alla prossima anteprima, nessuna pubblicazione. Main/nontracciati/altraAI/proposte preservati.
+
+
+### Esito §125 — Doomed e Crawling pubblicate, 15 ottobre 2026
+
+Approvazione diretta «pubblica e procedi». Integrato/push467a4d3d7; VercelE8myRU99unuVgpnvrjAkygjERi7p Ready/Latest/Current/Production,12:47:16CEST,15secondi. DueHTML/JPEG e sei sitemap pubblici identici al commit; browser conferma caricamento e stessa immagine pagina/Storia/OG/Twitter, nessun overflow. Date preservate. Prove conservate nel lotto successivo.
+
+## 127. Happy Song e One Step Closer — nuove anteprime, 15 ottobre 2026
+
+Una BMTH e una Linkin Park su mandato «procedi». Primo blocco momento iconico, secondo curiosità: episodio/reazioni NMEAwards per Happy Song; sfogo di Chester e origine del riff per One Step Closer. Fonti NME/TheRinger/Wikipedia riaperte; nessun verso/traduzione o fonte nel raster. Stesso JPEG pagina/Storia/OG/Twitter, renderer invariato. L’anteprima include la correzione isolata6efa89907 già segnalata.
+
+Due nuove chiavi/JPEG/HTML, fontiHappySong aggiornate e sua sola data11→15ottobre; rispetto alla produzione cambia anche la dataOneStepCloser nel commit separato della correzione. DatePublished/altre date/altri dati/19cartoline/cinque altre sitemap invariati. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,10scenari condivisione e6viste effettive1280/390/320 positivi. Raster e screenshot osservati, prove/dossier dedicati.
+
+Ramo codex/cartoline-happy-song-one-step-closer-anteprima-2026-10-15 dalla correzione locale6efa89907, copia ritratto-nin. Solo commit locale dopo verifica: nuove immagini, correzione e fonti da valutare prima di integrazione/push/pubblicazione. Main/nontracciati/altraAI/proposte preservati, estensione di massa ferma. Revisione automatica ha negato permessoSongfacts: accesso non eseguito, anagrafica verificata tramiteWikipedia pubblica e fonte aggiunta. Nessun GSC/nuovoAmazon/riattivazione routine. Limiti: non è revisione integrale; Post/Reel/cache/ritagli esterni invariati. Prove della pubblicazione precedente conservate separatamente.

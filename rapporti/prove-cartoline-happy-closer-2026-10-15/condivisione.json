@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "happy-song",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "happy-song",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "happy-song",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "happy-song",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "happy-song",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "one-step-closer",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "one-step-closer",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "one-step-closer",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "one-step-closer",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "one-step-closer",
+    "scenario": "loading",
+    "ok": true
+  }
+]

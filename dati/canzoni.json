@@ -5810,8 +5810,8 @@
     "testoUrl": "https://www.letras.com/bring-me-the-horizon/happy-song/",
     "fonti": [
       {
-        "url": "https://www.nme.com/news/bring-me-the-horizon/91597",
-        "nome": "NME, 18 febbraio 2016 (episodio Coldplay)",
+        "url": "https://www.nme.com/news/music/bring-me-the-horizon-6-1199064",
+        "nome": "NME — David Renshaw, 17 febbraio 2016 (episodio Coldplay)",
         "ruolo": "storia"
       },
       {
@@ -5822,6 +5822,11 @@
         "url": "https://kworb.net/spotify/artist/1Ffb6ejR6Fe5IamqA5oRUF_songs.html",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)",
+        "nome": "Wikipedia — anagrafica di Happy Song",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",

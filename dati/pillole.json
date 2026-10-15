@@ -803,5 +803,89 @@
     "sha256": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
     "testoGrafica": "Linkin Park. 2000 / 2001. Album: Hybrid Theory. Quando perdi il controllo. Chester Bennington collegò Crawling alla dipendenza da droghe e alcol: al centro c’è la perdita di controllo su di sé. Una melodia salvata da Blue. Blue fu scartata, ma il suo finale vocale rimase. Shinoda e Bennington lo ripresero con nuove parole e nuovi accordi.",
     "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "happy-song": {
+    "testo": "Il momento più celebre legato al brano non riguarda il testo ma un concerto: agli NME Awards del 17 febbraio 2016, durante l'esecuzione dal vivo di \"Happy Song\", Oliver Sykes saltò sul tavolo dei Coldplay, vincitori del premio Godlike Genius, facendolo crollare. Sykes smentì che si trattasse di una protesta contro la band, e lo stesso Chris Martin commentò l'episodio con apprezzamento, definendolo \"very rock n roll\".",
+    "fonte": "https://www.nme.com/news/music/bring-me-the-horizon-6-1199064",
+    "nomeFonte": "NME — David Renshaw, 17 febbraio 2016 (episodio Coldplay)",
+    "artistaSlug": "bring-me-the-horizon",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Il tavolo dei Coldplay",
+          "testo": "Agli NME Awards 2016, durante Happy Song, Sykes salì sul tavolo dei Coldplay e rovesciò bottiglie e bicchieri.",
+          "fonte": "https://www.nme.com/news/music/bring-me-the-horizon-6-1199064",
+          "nomeFonte": "NME — David Renshaw, 17 febbraio 2016 (episodio Coldplay)",
+          "natura": "Resoconto originale degli NME Awards, testimonianze dirette"
+        },
+        {
+          "etichetta": "DOPO IL CONCERTO",
+          "titolo": "Non era una protesta",
+          "testo": "Sykes negò di aver preso di mira i Coldplay. Chris Martin reagì con entusiasmo: per lui, il gesto era puro rock’n’roll.",
+          "fonte": "https://www.nme.com/news/music/bring-me-the-horizon-6-1199064",
+          "nomeFonte": "NME — David Renshaw, 17 febbraio 2016 (episodio Coldplay)",
+          "natura": "Dichiarazioni dirette di Sykes e Chris Martin a NME"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Happy_Song_(Bring_Me_the_Horizon_song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia — anagrafica di Happy Song"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "happy-song-storia.jpg",
+    "sha256": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
+    "testoGrafica": "Bring Me the Horizon. 2015. Album: That's the Spirit. Il tavolo dei Coldplay. Agli NME Awards 2016, durante Happy Song, Sykes salì sul tavolo dei Coldplay e rovesciò bottiglie e bicchieri. Non era una protesta. Sykes negò di aver preso di mira i Coldplay. Chris Martin reagì con entusiasmo: per lui, il gesto era puro rock’n’roll.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "one-step-closer": {
+    "testo": "Il bridge nacque da uno sfogo di Chester Bennington durante le riscritture chieste dal produttore Don Gilmore. Mike Shinoda propose di usarlo nel brano: lo registrarono senza anticiparne le parole a Gilmore. Il racconto è riportato da Jason Lipshutz in «It Starts With One».",
+    "fonte": "https://www.theringer.com/2024/10/01/music/one-step-closer-linkin-park-it-starts-with-one-jason-lipshutz",
+    "nomeFonte": "The Ringer — Jason Lipshutz (estratto dal libro \"It Starts With One\", Hachette Books)",
+    "artistaSlug": "linkin-park",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Lo sfogo diventa musica",
+          "testo": "Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore.",
+          "fonte": "https://www.theringer.com/2024/10/01/music/one-step-closer-linkin-park-it-starts-with-one-jason-lipshutz",
+          "nomeFonte": "The Ringer — Jason Lipshutz (estratto dal libro \"It Starts With One\", Hachette Books)",
+          "natura": "Ricostruzione di Jason Lipshutz con testimonianza di Mike Shinoda"
+        },
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "Un riff in un parcheggio",
+          "testo": "Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo.",
+          "fonte": "https://www.theringer.com/2024/10/01/music/one-step-closer-linkin-park-it-starts-with-one-jason-lipshutz",
+          "nomeFonte": "The Ringer — Jason Lipshutz (estratto dal libro \"It Starts With One\", Hachette Books)",
+          "natura": "Ricostruzione di Jason Lipshutz con testimonianza di Mike Shinoda"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/One_Step_Closer_(Linkin_Park_song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "one-step-closer-storia.jpg",
+    "sha256": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
+    "testoGrafica": "Linkin Park. 2000. Album: Hybrid Theory. Lo sfogo diventa musica. Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore. Un riff in un parcheggio. Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }
