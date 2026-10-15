@@ -1,0 +1,23 @@
+{
+  "base": "0cc5ebb8a29b4f0ff32cf673129ed5d8130b2a0f",
+  "pagine": [
+    "artista/laura-pausini/index.html",
+    "artista/led-zeppelin/index.html",
+    "artista/limp-bizkit/index.html",
+    "artista/lynyrd-skynyrd/index.html",
+    "artista/oasis/index.html"
+  ],
+  "nuoveChiavi": [
+    "laura-pausini",
+    "led-zeppelin",
+    "limp-bizkit",
+    "lynyrd-skynyrd",
+    "oasis"
+  ],
+  "precedentiChiaviPreservate": 82,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}

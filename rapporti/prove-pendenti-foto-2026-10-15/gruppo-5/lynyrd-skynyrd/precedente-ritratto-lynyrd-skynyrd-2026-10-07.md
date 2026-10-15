@@ -1,0 +1,16 @@
+# Foto Lynyrd Skynyrd — verifica del 7 ottobre 2026
+
+- **Pagina d'uso proposta:** `/artista/lynyrd-skynyrd/`.
+- **Opera e soggetto:** [«Ronnie Van Zant of Lynyrd Skynyrd performing “Free Bird” at Soldier Field in Chicago»](https://commons.wikimedia.org/wiki/File:Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg). La pagina Commons descrive Ronnie Van Zant sul palco di Chicago il 10 luglio 1977. Il file è stato aperto e confrontato visivamente: mostra un cantante col microfono e un chitarrista parzialmente visibile. La pagina artista e il contesto della band consentono di identificarlo come Ronnie Van Zant; la fotografia non mostra la formazione completa.
+- **Autore e titolare dichiarato:** la pagina originale indica «Jimmy Barnes Photography», fonte «Own work» e dichiarazione del titolare che rilascia il file sotto la licenza indicata. Il caricamento è dell'utente `Jimmyrush2112`; la pagina non documenta un titolare diverso. Trattare l'attribuzione come dichiarazione del caricatore, non come verifica indipendente dell'identità civile.
+- **Licenza:** la [pagina originale Commons](https://commons.wikimedia.org/wiki/File:Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg) offre CC BY-SA 4.0, fra le licenze alternative. La [pagina ufficiale CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) conferma copia e adattamento anche commerciale, con credito, link alla licenza, indicazione delle modifiche e condivisione degli adattamenti alla stessa licenza. Non si inferisce consenso del soggetto per pubblicità o patrocinio.
+- **URL del file originale:** https://upload.wikimedia.org/wikipedia/commons/2/2a/Ronnie_Van_Zant_of_Lynyrd_Skynyrd_performing_%22Free_Bird%22_at_Soldier_Field_in_Chicago.jpg
+- **File usato:** l'originale Commons, 514 × 720 px, 59.920 byte, SHA-256 `c55bdc0505df388f7f22652836863ad1e81a980ee8f064a382fa4923790e36c8`.
+- **Modifiche:** nessun ritaglio, ritocco o ricompressione locale. Il CSS modifica soltanto la dimensione visualizzata.
+- **Credito visibile:** «Foto di Jimmy Barnes Photography · Ronnie Van Zant dei Lynyrd Skynyrd, 1977 · CC BY-SA 4.0 · nessun ritocco locale», con collegamenti alla pagina originale e alla licenza.
+- **Alt:** «Ronnie Van Zant dei Lynyrd Skynyrd canta sul palco con il microfono durante un concerto del 1977».
+- **Limiti:** fotografia storica a risoluzione moderata; mostra il cantante del 1977, non la formazione attuale. Evitare di descrivere il brano effettivamente eseguito come fatto ricavato dall'immagine.
+
+**Verifiche locali:** generazione completata (695 pagine più 404, 48 ritratti); passano `prova-ritratto-credito`, `check-seo` (696 HTML), `check-coerenza` (321 canzoni e 104 artisti), `check-link`, confronto byte per byte della pagina generata e pubblicabile e `git diff --check`. Nel browser a 1280 e 390 px la foto si carica (larghezza naturale 514 px), credito e alt sono presenti, la canonical è `https://www.dietroiltesto.it/artista/lynyrd-skynyrd/`, non c'è scorrimento orizzontale né errore di console. Il volto è riconoscibile anche nell'anteprima mobile.
+
+Stato: proposta isolata e verificata; nessuna integrazione nel `main`, push o pubblicazione.

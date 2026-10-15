@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "oasis",
+    "index": 0,
+    "url": "https://commons.wikimedia.org/wiki/File:Oasis_Noel_and_Liam_WF.jpg",
+    "exit": 0,
+    "error": "",
+    "size": 126357,
+    "licenses": [],
+    "title": [
+      "File:Oasis Noel and Liam WF.jpg - Wikimedia Commons"
+    ],
+    "flickrLicense": []
+  },
+  {
+    "slug": "oasis",
+    "index": 1,
+    "url": "https://www.flickr.com/photos/freschwill/44256675/",
+    "exit": 0,
+    "error": "",
+    "size": 513835,
+    "licenses": [
+      "http://creativecommons.org/ns#",
+      "https://creativecommons.org/licenses/by-sa/2.0/",
+      "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc-nd\\/2.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc-nd\\/4.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc-sa\\/2.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc-sa\\/4.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc\\/2.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nc\\/4.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nd\\/2.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-nd\\/4.0\\/",
+      "https:\\/\\/creativecommons.org\\/licenses\\/by-sa\\/2.0\\/"
+    ],
+    "title": [
+      "oasis.gallagher.bros.001 | freschwill | Flickr"
+    ],
+    "flickrLicense": [
+      "\"license\":5",
+      "\"license\":5"
+    ]
+  }
+]
