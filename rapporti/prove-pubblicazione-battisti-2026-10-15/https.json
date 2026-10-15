@@ -1,0 +1,62 @@
+{
+  "commit": "ee6da2d8570c3440484055d824d06c9c5c14cd7e",
+  "controlli": [
+    {
+      "file": "artista/lucio-battisti/index.html",
+      "url": "https://www.dietroiltesto.it/artista/lucio-battisti/",
+      "byte": 53916,
+      "sha256": "a8ecb5585001d997f234f2d4b6f01a7129bf3b628b45aa13a529162451dc6954",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "ritratti/lucio-battisti-sanremo-1969.jpg",
+      "url": "https://www.dietroiltesto.it/ritratti/lucio-battisti-sanremo-1969.jpg",
+      "byte": 28700,
+      "sha256": "6c290f8c98154a11a922f6f312c67a68ea55c291fa387891c997564549c965f1",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "byte": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "byte": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "byte": 34080,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "byte": 10854,
+      "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "byte": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identicoAlCommit": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "byte": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identicoAlCommit": true
+    }
+  ],
+  "dataVerifica": "2026-10-15T09:14:27.910895+00:00"
+}

@@ -4842,3 +4842,8 @@ Ricerca riaperta dal proprietario; foto mostrata e preparazione autorizzata con 
 Sola nuova chiave lucio-battisti, JPEG, HTML artista e relativa voce sitemap; dateModified/lastmod solo di Battisti al 15 ottobre, datePublished e altri HTML/sitemap/103 ritratti/editoriale/CTA intatti. Nessun build generale; sola figura dal componente corrente e griglia mobile corrente sulla pagina. SEO 696, coerenza/link 321/104, affiliazioni 1065, crediti/hash/casi negativi e confronto ambito positivi. Browser 1280/390/320 senza overflow o ingrandimento, foto/credito/alt/OG verificati, zero errori locali; screenshot osservati.
 
 Copia ritratto-nin-2026-10-15 riusata pulita, ramo codex/ritratto-battisti-2026-10-15 dalla base 600ffc4bb; prove precedenti 8000133f1 su ramo distinto preservate. Dossier rapporti/licenze/ritratto-battisti-2026-10-15.md e prove dedicate. Commit solo locale dopo i controlli; integrazione/main/push/pubblicazione da approvare specificamente. Unire solo la chiave del registro e §118. Main/non tracciati, altra AI, revisioni e 308 cartoline intatti; nessun GSC o nuovo Amazon.
+
+
+### Esito pubblicazione Battisti — 15 ottobre 2026
+
+Dopo approvazione nominativa del proprietario, ee6da2d85 integrato nel main e inviato a GitHub. Vercel produzione Ready/Current, deployment 2X2Zno92A6a8mLXGWbt2dBeHbSio, 11:13:36 CEST, 15 secondi. Verificati sul dominio pubblico HTML Battisti, JPEG e sei sitemap identici al commit; browser con foto caricata, credito, stesso file in pagina e OG/Twitter, nessun overflow o errore del sito. Registro completo: 104 foto / 104 artisti. Dossier rapporti/pubblicazione-battisti-2026-10-15.md e prove online; documentazione locale distinta, nessun secondo rilascio.
