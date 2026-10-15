@@ -1,0 +1,38 @@
+- link "Overslaan en naar de inhoud gaan":
+  - /url: "#main-content"
+- main:
+  - navigation:
+    - button "Ga naar de fotocollectie"
+    - button "Draai rechtsom"
+    - button "Draai linksom"
+    - button "Spiegelen"
+    - button "Kleuraanpassingen tonen/verbergen"
+    - button "Uitzoomen"
+    - button "Inzoomen"
+    - button "Volledig scherm in-/uitschakelen"
+    - link "nationaal archief":
+      - /url: /
+  - navigation:
+    - list:
+      - link "Metagegevens":
+        - /url: "?tab=metadata"
+      - link "Download" [active]:
+        - /url: "?tab=download"
+      - link "Commentaren":
+        - /url: "?tab=comment"
+  - heading "Download" [level=2]
+  - generic: Download afbeelding
+  - list:
+    - link "Download origineel formaat - 2406 x 3648 px":
+      - /url: https://service.archief.nl/gaf/api/file/v1/render/962c10f0-508c-4c51-9f45-9722c58475d7
+    - link "Download klein formaat - 1000 x 1516 px":
+      - /url: https://service.archief.nl/gaf/api/file/v1/img/962c10f0-508c-4c51-9f45-9722c58475d7?h=1000
+    - link "Download origineel bestand - 2406 x 3648 px":
+      - /url: https://service.archief.nl/gaf/api/file/v1/original/962c10f0-508c-4c51-9f45-9722c58475d7
+  - heading "Wat mag ik met deze afbeelding doen?" [level=2]
+  - paragraph: U kunt deze afbeelding rechtenvrij en gratis (her)gebruiken.
+  - paragraph:
+    - link "Gebruik van scans van foto's, kaarten en documenten.":
+      - /url: /onderzoeken/gebruik-van-scans-van-fotos-kaarten-en-documenten
+  - link "tab sluiten":
+    - /url: "?"

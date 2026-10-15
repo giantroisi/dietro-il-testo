@@ -1,0 +1,108 @@
+{
+  "views": [
+    {
+      "view": "desktop-dark",
+      "credit": {
+        "left": 900,
+        "right": 1200,
+        "text": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale"
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "photo": {
+        "left": 900,
+        "loaded": true,
+        "natural": [
+          1516,
+          1000
+        ],
+        "right": 1199.984375,
+        "size": [
+          299.984375,
+          198.5625
+        ]
+      },
+      "scroll": 1280,
+      "twitter": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "width": 1280
+    },
+    {
+      "view": "mobile390-dark",
+      "credit": {
+        "left": 24,
+        "right": 344,
+        "text": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale"
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "photo": {
+        "left": 24,
+        "loaded": true,
+        "natural": [
+          1516,
+          1000
+        ],
+        "right": 303.9921875,
+        "size": [
+          279.9921875,
+          185.375
+        ]
+      },
+      "scroll": 390,
+      "twitter": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "width": 390
+    },
+    {
+      "view": "mobile320-dark",
+      "credit": {
+        "left": 24,
+        "right": 296,
+        "text": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale"
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "photo": {
+        "left": 24,
+        "loaded": true,
+        "natural": [
+          1516,
+          1000
+        ],
+        "right": 303.9921875,
+        "size": [
+          279.9921875,
+          185.375
+        ]
+      },
+      "scroll": 320,
+      "twitter": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "width": 320
+    },
+    {
+      "view": "mobile320-light",
+      "credit": {
+        "left": 24,
+        "right": 296,
+        "text": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale"
+      },
+      "og": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "photo": {
+        "left": 24,
+        "loaded": true,
+        "natural": [
+          1516,
+          1000
+        ],
+        "right": 303.9921875,
+        "size": [
+          279.9921875,
+          185.375
+        ]
+      },
+      "scroll": 320,
+      "twitter": "https://www.dietroiltesto.it/ritratti/the-beatles-schiphol-1964.jpg",
+      "width": 320
+    }
+  ],
+  "logs": [],
+  "licenzaTastiera": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "ritornoVerificato": true,
+  "viewportRipristinato": true
+}

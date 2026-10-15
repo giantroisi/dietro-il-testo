@@ -1,0 +1,14 @@
+{
+  "originale": {
+    "url": "https://service.archief.nl/gaf/api/file/v1/render/962c10f0-508c-4c51-9f45-9722c58475d7",
+    "bytes": 985577,
+    "sha256": "0272dfc291626b0f7f4733c22d084ca4b731e522e895e5d3e6d6f634bfbe85c1",
+    "dimensioni": "/private/tmp/beatles-ricerca-2026-10-15/originale-1.jpg\n  pixelWidth: 3648\n  pixelHeight: 2406\n"
+  },
+  "asset": {
+    "url": "https://service.archief.nl/gaf/api/file/v1/img/962c10f0-508c-4c51-9f45-9722c58475d7?h=1000",
+    "bytes": 219226,
+    "sha256": "2f5e27ac68288274978562e7d58bd0940607e5a94448d556fdbac9c60f0bb83a",
+    "dimensioni": "/private/tmp/beatles-ricerca-2026-10-15/asset-1.jpg\n  pixelWidth: 1516\n  pixelHeight: 1000\n"
+  }
+}

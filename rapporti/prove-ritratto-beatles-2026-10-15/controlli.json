@@ -1,0 +1,57 @@
+[
+  {
+    "check": "check-seo",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "83528d",
+      "wall_time_seconds": 0.639055291,
+      "exit_code": 0,
+      "original_token_count": 37,
+      "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+    }
+  },
+  {
+    "check": "check-coerenza",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "4645dd",
+      "wall_time_seconds": 0.097518333,
+      "exit_code": 0,
+      "original_token_count": 18,
+      "output": "Canzoni controllate: 321\nArtisti controllati: 104\nProblemi trovati: 0\n"
+    }
+  },
+  {
+    "check": "check-link",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "04205a",
+      "wall_time_seconds": 0.09990525,
+      "exit_code": 0,
+      "original_token_count": 27,
+      "output": "Canzoni: 321 — Artisti: 104\nProblemi trovati: 0\nNessun link interno rotto, nessun URL esterno malformato.\n"
+    }
+  },
+  {
+    "check": "check-affiliazioni",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "66f69f",
+      "wall_time_seconds": 0.74297325,
+      "exit_code": 0,
+      "original_token_count": 24,
+      "output": "OK: configurazione, dichiarazione, 1065 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+    }
+  },
+  {
+    "check": "prova-ritratto-credito",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "51b176",
+      "wall_time_seconds": 0.131604667,
+      "exit_code": 0,
+      "original_token_count": 29,
+      "output": "OK: crediti approvati, file identici, alt e dimensioni; esclusione dei crediti incompleti e dei link eseguibili.\n"
+    }
+  }
+]

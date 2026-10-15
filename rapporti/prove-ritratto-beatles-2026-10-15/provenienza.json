@@ -1,0 +1,38 @@
+{
+  "file": "the-beatles-schiphol-1964.jpg",
+  "autore": "Harry Pot / Anefo",
+  "titolare": "Nationaal Archief, dichiarazione CC0 sulla pagina originale",
+  "titoloOriginale": "Aankomst Beatles op Schiphol, de Beatles tijdens persconferentie. Vlnr Jimmy Nicol, vervanger van Ringo Starr, Paul McCartney, George Harrison, John Lennon",
+  "fonte": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/aa6c0234-d0b4-102d-bcf8-003048976d84",
+  "urlFile": "https://service.archief.nl/gaf/api/file/v1/render/962c10f0-508c-4c51-9f45-9722c58475d7",
+  "urlAsset": "https://service.archief.nl/gaf/api/file/v1/img/962c10f0-508c-4c51-9f45-9722c58475d7?h=1000",
+  "licenza": "CC0 1.0",
+  "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "dataVerifica": "2026-10-15",
+  "paginaUso": "/artista/the-beatles/",
+  "alt": "Jimmy Nicol, Paul McCartney, George Harrison e John Lennon seduti davanti ai microfoni a Schiphol nel 1964; Ringo Starr non è raffigurato. Fotografia in bianco e nero",
+  "dimensioni": {
+    "larghezza": 1516,
+    "altezza": 1000
+  },
+  "modifiche": "Ridimensionamento proporzionale effettuato dal Nationaal Archief, da 3648×2406 a 1516×1000; nessun ritaglio, ritocco o conversione locale. Dimensioni effettive verificate: le etichette del download sul sito riportano gli assi in ordine invertito. Resa CSS senza ingrandimento.",
+  "obblighi": "CC0 1.0 consente copia, commerciale e adattamenti senza obbligo di attribuzione. Il Nationaal Archief chiede cortesemente autore e fonte: entrambi visibili, con licenza e modifiche. Nessuna implicazione di sostegno; CC0 non modifica eventuali diritti della personalità o marchi.",
+  "notaVerifica": "Pagina originale del titolare riaperta il 15 ottobre 2026, dopo manutenzione del 14 ottobre: autore Harry Pot/Anefo, Nationaal Archief CC0, data5giugno1964, Schiphol, inventario2.24.01.05,916-5130. Download libero esplicito e politica riuso del titolare riaperta; CC0 riaperta. File originale e asset scaricati due volte identici e osservati. Da sinistra Jimmy Nicol sostituto di Ringo, Paul, George, John, come fonte. Segni e graffi originali conservati; non la formazione con Ringo. Nessuna verifica integrale della biografia.",
+  "creditoParti": [
+    "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · ",
+    {
+      "testo": "Nationaal Archief, 916-5130",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/aa6c0234-d0b4-102d-bcf8-003048976d84"
+    },
+    " · ",
+    {
+      "testo": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    " · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale"
+  ],
+  "creditoVisibile": "Schiphol, 5 giugno 1964: Jimmy Nicol al posto di Ringo Starr, Paul McCartney, George Harrison e John Lennon · Foto di Harry Pot / Anefo · Nationaal Archief, 916-5130 · CC0 1.0 · ridimensionamento dell’archivio; nessun ritaglio o ritocco locale",
+  "stessaImmagineCondivisione": true,
+  "sha256": "2f5e27ac68288274978562e7d58bd0940607e5a94448d556fdbac9c60f0bb83a",
+  "byte": 219226
+}
