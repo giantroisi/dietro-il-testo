@@ -887,5 +887,90 @@
     "sha256": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
     "testoGrafica": "Linkin Park. 2000. Album: Hybrid Theory. Lo sfogo diventa musica. Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore. Un riff in un parcheggio. Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo.",
     "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "can-you-feel-my-heart": {
+    "testo": "Il verso più citato è quello sull'impossibilità di sfuggire ai propri demoni interiori, capaci di inseguirlo tanto quanto lui è capace di correre. Oli Sykes ha detto che il brano, che apre \"Sempiternal\" (2013), racconta il primo passo della guarigione: ammettere di avere un problema. In un discorso di accettazione premio ha poi rivelato pubblicamente la propria dipendenza: \"Ero un tossicodipendente. Ero dipendente da una droga chiamata ketamina. Ne facevo uso da anni.\"",
+    "fonte": "https://web.archive.org/web/20130609072721/http://www.artistdirect.com/entertainment-news/article/oli-sykes-of-bring-me-the-horizon-talks-sempiternal-movies-and-more/10565341",
+    "nomeFonte": "ARTISTdirect — Rick Florino, intervista a Oli Sykes (20 maggio 2013, archivio)",
+    "artistaSlug": "bring-me-the-horizon",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Ammettere il problema",
+          "testo": "Per Sykes, il brano apre il viaggio di Sempiternal: ammettere che qualcosa non va è il primo passo per andare avanti.",
+          "fonte": "https://web.archive.org/web/20130609072721/http://www.artistdirect.com/entertainment-news/article/oli-sykes-of-bring-me-the-horizon-talks-sempiternal-movies-and-more/10565341",
+          "nomeFonte": "ARTISTdirect — Rick Florino, intervista a Oli Sykes (20 maggio 2013, archivio)",
+          "natura": "Dichiarazione diretta di Oli Sykes a Rick Florino"
+        },
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "La voce diventa synth",
+          "testo": "La melodia vocale di Sykes passò alle tastiere del ritornello. Fu la svolta: la band capì che avrebbe aperto il disco.",
+          "fonte": "https://web.archive.org/web/20130217033554/http://www.metalhammer.co.uk/features/bring-me-the-horizons-full-track-by-track-guide-to-sempiternal",
+          "nomeFonte": "Metal Hammer — guida a Sempiternal con Sykes e Fish (febbraio 2013, archivio)",
+          "natura": "Dichiarazioni dirette di Sykes e Fish a Metal Hammer"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Can_You_Feel_My_Heart"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15",
+      "titoloPx": 72
+    },
+    "file": "can-you-feel-my-heart-storia.jpg",
+    "sha256": "4efbf6e55b71d010fa59a2cd3117dc5a51a0fd6be945299b74b0f80f5563736e",
+    "testoGrafica": "Bring Me the Horizon. 2013. Album: Sempiternal. Ammettere il problema. Per Sykes, il brano apre il viaggio di Sempiternal: ammettere che qualcosa non va è il primo passo per andare avanti. La voce diventa synth. La melodia vocale di Sykes passò alle tastiere del ritornello. Fu la svolta: la band capì che avrebbe aperto il disco.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "follow-you": {
+    "testo": "Il testo più citato è la dichiarazione d'amore con cui il narratore riconosce apertamente gli errori commessi nella relazione, senza nasconderli. Oliver Sykes l'ha descritta come una dedica alla sua compagna, un promemoria che anche nei momenti più bui resta sempre spazio per il cambiamento.",
+    "fonte": "https://www.loudersound.com/features/bring-me-the-horizon-s-oli-sykes-i-didn-t-care-if-i-lived-or-died",
+    "nomeFonte": "Metal Hammer / Louder — Luke Morton, intervista a Oli Sykes",
+    "artistaSlug": "bring-me-the-horizon",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Un legame difficile",
+          "testo": "Sykes raccontò un amore difficile: i problemi della compagna diventano anche i suoi, ma l’idea di separarsi pesa di più.",
+          "fonte": "https://www.loudersound.com/features/bring-me-the-horizon-s-oli-sykes-i-didn-t-care-if-i-lived-or-died",
+          "nomeFonte": "Metal Hammer / Louder — Luke Morton, intervista a Oli Sykes",
+          "natura": "Sintesi della dichiarazione diretta, riferita al contesto storico dell’intervista"
+        },
+        {
+          "etichetta": "NEL VIDEO",
+          "titolo": "L’amore in mezzo al caos",
+          "testo": "Nel video un ragazzo ascolta il brano e cammina fra caos e violenza. Mentre il mondo crolla, lui raggiunge la persona amata.",
+          "fonte": "https://loudwire.com/bring-me-the-horizon-follow-you-video/",
+          "nomeFonte": "Loudwire — Joe DiVita, il videoclip di Follow You (16 marzo 2016)",
+          "natura": "Resoconto del videoclip di Joe DiVita, fonte secondaria nominata"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Follow_You_(Bring_Me_the_Horizon_song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "follow-you-storia.jpg",
+    "sha256": "5e35180eaf4acb57b366e18d1b2e08dd6bc379e317b1f0ba3242f81c68ff3b26",
+    "testoGrafica": "Bring Me the Horizon. 2015 / 2016. Album: That's the Spirit. Un legame difficile. Sykes raccontò un amore difficile: i problemi della compagna diventano anche i suoi, ma l’idea di separarsi pesa di più. L’amore in mezzo al caos. Nel video un ragazzo ascolta il brano e cammina fra caos e violenza. Mentre il mondo crolla, lui raggiunge la persona amata.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "deterministico": true,
+  "testiSenzaSovrapposizione": true,
+  "titolo": {
+    "dimensione": 72,
+    "righe": 1
+  },
+  "testiLunghiRifiutati": true,
+  "contrastiMinimi": {
+    "#F8F4EB": 10.758817616107793,
+    "#C7D6CD": 7.833034448486451,
+    "#B7D7C4": 7.609284485913638
+  }
+}

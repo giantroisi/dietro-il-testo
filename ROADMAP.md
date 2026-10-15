@@ -4956,3 +4956,14 @@ Una BMTH e una Linkin Park su mandato «procedi». Primo blocco momento iconico,
 Due nuove chiavi/JPEG/HTML, fontiHappySong aggiornate e sua sola data11→15ottobre; rispetto alla produzione cambia anche la dataOneStepCloser nel commit separato della correzione. DatePublished/altre date/altri dati/19cartoline/cinque altre sitemap invariati. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,10scenari condivisione e6viste effettive1280/390/320 positivi. Raster e screenshot osservati, prove/dossier dedicati.
 
 Ramo codex/cartoline-happy-song-one-step-closer-anteprima-2026-10-15 dalla correzione locale6efa89907, copia ritratto-nin. Solo commit locale dopo verifica: nuove immagini, correzione e fonti da valutare prima di integrazione/push/pubblicazione. Main/nontracciati/altraAI/proposte preservati, estensione di massa ferma. Revisione automatica ha negato permessoSongfacts: accesso non eseguito, anagrafica verificata tramiteWikipedia pubblica e fonte aggiunta. Nessun GSC/nuovoAmazon/riattivazione routine. Limiti: non è revisione integrale; Post/Reel/cache/ritagli esterni invariati. Prove della pubblicazione precedente conservate separatamente.
+
+
+### Esito §127 — Happy Song e One Step Closer pubblicate, 15 ottobre 2026
+
+Approvazione diretta del proprietario, compresa la correzione6efa89907. Integrato/push5c87bfbd1; Vercel6jtkX8E48HwSFNMK5f2dVa5cgLXg Ready/Latest/Current/Production,13:16:57CEST,18secondi. Undici file pubblici identici: dueHTML/JPEG,ricerca e sei sitemap. Browser conferma correzione, caricamento e identità pagina/Storia/OG/Twitter. DatePublished preservate; due soli lastmod/dateModifiedHappySong/OneStepCloser11→15ottobre come approvato. Prove in rapporti/prove-pubblicazione-happy-closer-2026-10-15/.
+
+## 128. Can You Feel My Heart e Follow You — bozze locali conservate, 15 ottobre 2026
+
+Due anteprime preparate e verificate, nessuna pubblicazione. Fonti dirette ARTISTdirect/MetalHammer e resoconto Loudwire riaperti, primo blocco momento iconico, secondo curiosità. Nessun verso/fonte nel raster, stesso JPEG pagina/Storia/OG/Twitter. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini,dieci percorsi condivisione e sei viste effettive390/320/1280 superati. Tre fonti aggiunte e soli due dateModified/lastmod aggiornati per contenuto realmente aggiunto;21cartoline precedenti, altre date/renderer/ricerca/cinque sitemap invariati. Nessun build generale.
+
+Ramo codex/cartoline-heart-follow-you-anteprima-2026-10-15 dalla base5c87bfbd1, copia ritratto-nin. Dossier rapporti/cartoline-heart-follow-bozze-2026-10-15.md. Conservare come bozze: la proposta ricevuta dall’altra chat indica Chop Suey! e Mr. Brightside come prossima coppia da mostrare. Preparazione di queste due su ramo distinto, senza includere le bozze correnti. Nessuna nuova attività fotografica, GSC o Amazon.

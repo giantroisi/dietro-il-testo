@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "can-you-feel-my-heart",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "can-you-feel-my-heart",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "can-you-feel-my-heart",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "can-you-feel-my-heart",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "can-you-feel-my-heart",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "follow-you",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "follow-you",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "follow-you",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "follow-you",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "follow-you",
+    "scenario": "loading",
+    "ok": true
+  }
+]

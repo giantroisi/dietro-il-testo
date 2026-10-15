@@ -1,0 +1,52 @@
+[
+  {
+    "file": "canzone/happy-song/index.html",
+    "sha256": "71cffd9b97c7f9f3a45daacb1997619f8d548de9b552574c8b9a5f0577254713",
+    "identico": true
+  },
+  {
+    "file": "canzone/one-step-closer/index.html",
+    "sha256": "9127c2ee2a117a5e84c4229fff6b4d564de7476ad49a5f65ff3318c9de49f3e3",
+    "identico": true
+  },
+  {
+    "file": "pillole/happy-song-storia.jpg",
+    "sha256": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
+    "identico": true
+  },
+  {
+    "file": "pillole/one-step-closer-storia.jpg",
+    "sha256": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
+    "identico": true
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-album.xml",
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "identico": true
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "sha256": "78903a1a1e4cb00307c4b343229da7e02086d173996734fd7b3d59b24c4ffa28",
+    "identico": true
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "identico": true
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "identico": true
+  },
+  {
+    "file": "sitemap.xml",
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]

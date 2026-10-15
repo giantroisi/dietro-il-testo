@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "can-you-feel-my-heart",
+    "file": "can-you-feel-my-heart-storia.jpg",
+    "bytes": 229481,
+    "sha256": "4efbf6e55b71d010fa59a2cd3117dc5a51a0fd6be945299b74b0f80f5563736e",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2013",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Can You Feel My Heart",
+        "font": "700 72px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 829.02001953125,
+        "alto": 391,
+        "basso": 469
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Sempiternal",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 430.1499938964844,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Ammettere il problema",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 628.6699829101562,
+        "alto": 653,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Sykes, il brano apre il viaggio",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 978.4500122070312,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "di Sempiternal: ammettere che",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 905.030029296875,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "qualcosa non va è il primo passo",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 961.8400268554688,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "per andare avanti.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 571.6600036621094,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "La voce diventa synth",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 587.3299865722656,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "La melodia vocale di Sykes",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 815.0599975585938,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "passò alle tastiere del ritornello.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 931.780029296875,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Fu la svolta: la band capì che",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 868.469970703125,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "avrebbe aperto il disco.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 708.3599853515625,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Ammettere il problema",
+        "righe": 4,
+        "testoCompleto": "Per Sykes, il brano apre il viaggio di Sempiternal: ammettere che qualcosa non va è il primo passo per andare avanti."
+      },
+      {
+        "titolo": "La voce diventa synth",
+        "righe": 4,
+        "testoCompleto": "La melodia vocale di Sykes passò alle tastiere del ritornello. Fu la svolta: la band capì che avrebbe aperto il disco."
+      }
+    ],
+    "titolo": {
+      "dimensione": 72,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "follow-you",
+    "file": "follow-you-storia.jpg",
+    "bytes": 228850,
+    "sha256": "5e35180eaf4acb57b366e18d1b2e08dd6bc379e317b1f0ba3242f81c68ff3b26",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2015 / 2016",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Follow You",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 495.6000061035156,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · That's the Spirit",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 489.5199890136719,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Un legame difficile",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 521.7200012207031,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Sykes raccontò un amore difficile:",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 985.0700073242188,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "i problemi della compagna",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 788.4000244140625,
+        "alto": 806,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "diventano anche i suoi, ma l’idea",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 958.5599975585938,
+        "alto": 884,
+        "basso": 936
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "di separarsi pesa di più.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 721.6900024414062,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / NEL VIDEO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 332.42999267578125,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "L’amore in mezzo al caos",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 660.9600219726562,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Nel video un ragazzo ascolta il",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 901.780029296875,
+        "alto": 1238,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "brano e cammina fra caos e",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 831.7000122070312,
+        "alto": 1315,
+        "basso": 1360
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "violenza. Mentre il mondo crolla,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 948.3900146484375,
+        "alto": 1394,
+        "basso": 1446
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "lui raggiunge la persona amata.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 928.5599975585938,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Un legame difficile",
+        "righe": 4,
+        "testoCompleto": "Sykes raccontò un amore difficile: i problemi della compagna diventano anche i suoi, ma l’idea di separarsi pesa di più."
+      },
+      {
+        "titolo": "L’amore in mezzo al caos",
+        "righe": 4,
+        "testoCompleto": "Nel video un ragazzo ascolta il brano e cammina fra caos e violenza. Mentre il mondo crolla, lui raggiunge la persona amata."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  }
+]

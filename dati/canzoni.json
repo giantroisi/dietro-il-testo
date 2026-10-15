@@ -4016,6 +4016,16 @@
         "url": "https://kworb.net/spotify/artist/1Ffb6ejR6Fe5IamqA5oRUF_songs.html",
         "nome": "kworb.net (ascolti Spotify)",
         "ruolo": "ascolti"
+      },
+      {
+        "url": "https://web.archive.org/web/20130609072721/http://www.artistdirect.com/entertainment-news/article/oli-sykes-of-bring-me-the-horizon-talks-sempiternal-movies-and-more/10565341",
+        "nome": "ARTISTdirect — Rick Florino, intervista a Oli Sykes (20 maggio 2013, archivio)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://web.archive.org/web/20130217033554/http://www.metalhammer.co.uk/features/bring-me-the-horizons-full-track-by-track-guide-to-sempiternal",
+        "nome": "Metal Hammer — guida a Sempiternal con Sykes e Fish (febbraio 2013, archivio)",
+        "ruolo": "storia"
       }
     ],
     "testoFonte": "Letras",
@@ -4388,6 +4398,11 @@
       {
         "url": "https://www.loudersound.com/features/bring-me-the-horizon-s-oli-sykes-i-didn-t-care-if-i-lived-or-died",
         "nome": "Metal Hammer / Louder — intervista a Oliver Sykes",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://loudwire.com/bring-me-the-horizon-follow-you-video/",
+        "nome": "Loudwire — Joe DiVita, il videoclip di Follow You (16 marzo 2016)",
         "ruolo": "storia"
       }
     ],
