@@ -1,0 +1,119 @@
+{
+  "gruppo": 4,
+  "commit": "0cc5ebb8a29b4f0ff32cf673129ed5d8130b2a0f",
+  "dataUTC": "2026-10-15T08:45:54.826785+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/fleetwood-mac/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "ca9b0df6f030206ca06c23faf81265cca5718aa6558336a5734db8ec1ff92720",
+      "byte": 60760
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/fleetwood-mac-sacramento-2014.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "3b196afb65c08828279f09b99a3dfa1d4dd6de21c61fe5fa101ea98e026123c8",
+      "byte": 647977
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/franco-battiato/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7cd1474793b4d20601e8f7e6974d623ed4cffe718f7f9084dfab7549e4ba0d66",
+      "byte": 67357
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/franco-battiato-perugia-2016.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c184e51948d3c378f53867d18a78d67c34270f3b1bc7b92fc6ca6a08e8eaa6f7",
+      "byte": 338340
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/gianna-nannini/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "af9a70c2aaf212cba4d993ffe28258bae09b5542b6098db6be67650067569af7",
+      "byte": 53709
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/gianna-nannini-live-2017.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8ce252e8fde25865b2a46c7e86d266d8498b234ed9962f3a21ddbb55a3265330",
+      "byte": 373827
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/guns-n-roses/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c86362ab3cbdda560be011e35745a108a3384de54441cb8d2dbe933f0c51bbd9",
+      "byte": 60349
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/guns-n-roses-londra-2017.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7cccc1bcd098044d7c04b0d766c5bcd1c544efe8f39c6dc94acbe7474ded9068",
+      "byte": 258003
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/john-lennon/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "39c31c81f4198b3d8a7e5251a88f31bb917e65347c0ef5d07f714fb38cb27080",
+      "byte": 50782
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/john-lennon-1969.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c220f7bf48995f050bb23eaf3113a741240a6c47259400d919fd94b204438832",
+      "byte": 284759
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "af01daf50ac83398e3dcd8c6784a1b9a7966e5bed87319cdb5132dc065eea5ee",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

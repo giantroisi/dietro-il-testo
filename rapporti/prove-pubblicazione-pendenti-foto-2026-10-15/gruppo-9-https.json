@@ -1,0 +1,63 @@
+{
+  "gruppo": 9,
+  "commit": "600ffc4bb77b2ad70d794dfb95802d82aa63ccb8",
+  "dataUTC": "2026-10-15T08:53:49.761416+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/zucchero/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7bb1ae5c8b22c14a17983004c777b4b3b2dc95b5e21de9703b001642ad8a1522",
+      "byte": 52248
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/zucchero-konstanz-2023.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "572e7d8c595f0a0867269a3cc0fd2cb0b0dd24be12f801eff8651dd8b80cacb7",
+      "byte": 85087
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c24ec09f681dea7e095c439d6b86abb6adec96fab2a9202135f81703a7530db7",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

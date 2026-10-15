@@ -1,0 +1,119 @@
+{
+  "gruppo": 7,
+  "commit": "1297f5ed0e8d45eeddb40400b45181f26c4075b9",
+  "dataUTC": "2026-10-15T08:50:40.777229+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/queen/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "6582dbf102650dcfdf0b97d8ad8a1a1f4ff0bb1b5a8e07d85707e9852b6b4af8",
+      "byte": 59830
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/queen-frankfurt-1984.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1446a1fbeb98736f1bb0aa27afc8d2976c825496f62164b468ba6128d86efe9f",
+      "byte": 625991
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/rammstein/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "d66648b91c36020d8bdb28a341e4f81e1868f502868e1f739c72f919855aa83b",
+      "byte": 58946
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/rammstein-cantante-2011.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "4cb44f206334d5c38756cfcb6540b036235b47255304b422d8ba1d6ec9085186",
+      "byte": 379825
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/renato-zero/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "fbac1adb38ed34ba1b61205983a0ca75162cf9077e289ddbe3b12fdfb7ac500b",
+      "byte": 55721
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/renato-zero-2013.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "17bcddae25deef2096efdfea927fecf0cd3a44fef79ff33f8e808805fefdbfa1",
+      "byte": 1280130
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/simon-garfunkel/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "e35b542b4cd5742105c0ddff0975d6069c05f9bb2d233f95acf33cb07d490fa5",
+      "byte": 50679
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/simon-garfunkel-jazz-fest-2010.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "653c8154c297df3bb8e446a8dbdf2bb936ae99e7e18bdf5854fe6bc759d3ddb1",
+      "byte": 433881
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/soundgarden/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1d51d6c6b6c49c615473d42c91ae7976641e8388e319b41be86695d12cdcbd49",
+      "byte": 50996
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/soundgarden.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c8a9fcf02becf34794b43107e003456883439a514f615719559f3cab1dd58ac3",
+      "byte": 272225
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "190a253e008050adf485e47fe329a9b41f6931a854e16b141d416d445dd1e994",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

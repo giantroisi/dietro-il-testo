@@ -1,0 +1,119 @@
+{
+  "gruppo": 3,
+  "commit": "38149421cf21bb1585d167bfa98b1e4534009570",
+  "dataUTC": "2026-10-15T08:43:00.299558+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/eminem/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "94135f1d0dc3ff321af8d83d1d5d25eddbf600d0244ddf19a78efa1ebcef11a5",
+      "byte": 51835
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/eminem-concert-for-valor-2014.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "4bb3b949498f7284831da25115ce442510590603cec5416274075de3935cba11",
+      "byte": 991831
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/eros-ramazzotti/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "bab42fa1d9d1b131a2348c8c541b8bf0519b21c92b2f73b02e72f58a6d0f4564",
+      "byte": 52639
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/eros-ramazzotti-2022.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "42a37561c1ff8eaa940bf65ac3320de80757e77cad84771f8e42758284b9e406",
+      "byte": 238206
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/evanescence/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "571d986d718752f5b0866b2265bdccf2e53af33573d3db71d89520b2d1bee803",
+      "byte": 57645
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/evanescence-wiltern-2015.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "23b1b2c96e5e11acdc312e603774fd479cdd3ca1cbe84253baec9a1a4621e8d4",
+      "byte": 172073
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/fabrizio-de-andre/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "950ee79351a5413d7ac06476837846c5bdec6f22499781235642e230b836e0ef",
+      "byte": 52863
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/fabrizio-de-andre.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "74b445e37858e4a27bc58cc90bf5ed08d53e0c7dbbc3e0c0354982c80a98c060",
+      "byte": 15131
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/finley/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "db0a2cde273ba8b4c6adae41ab491796c71c2102f46c936d3a9f5bb94eacf0e0",
+      "byte": 50362
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/finley.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1acb8c1a6d80f5b29bf33a62288dae3ca4406b77e7605df3821e13b4b498d988",
+      "byte": 218136
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "f7389f96c0d5d43d1a3c7b7a4530fbbe196013a1117d2bbba7f487db84614b60",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

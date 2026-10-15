@@ -1,0 +1,119 @@
+{
+  "gruppo": 1,
+  "commit": "7b01ee0e00dcc05a31c721926f22445dc448fbec",
+  "dataUTC": "2026-10-15T08:39:06.292417+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/adriano-celentano/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "78439985e06d4be2969c630718b95b74b6f867fa01e4d581ababad7bf6a276fe",
+      "byte": 71382
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/adriano-celentano-2008.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c21d098454fd9ab6eacd8edd6c5e9323a32936b205dd56b7402d51321dbbc31c",
+      "byte": 63662
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/al-bano-e-romina-power/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "f673587ed8a04cfae1168ea1ccd6f2ba1408ebfb176468651f72e2ea081e0cbf",
+      "byte": 52600
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/al-bano-romina-eurovision-1976.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "ed1c7b54e7dbafa0a40fbb2a14b414bf84a03298e7be98664232ddce75671c3f",
+      "byte": 319383
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/bon-jovi/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7152d793730561298dab82653a5ec3c235388d4aa4f90837b0189b4060ed9023",
+      "byte": 60079
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/bon-jovi-hyde-park-2013.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "fa4d997bc08ef7094591cb254394cd283c6cc8599bdf691fdce233046a866b79",
+      "byte": 201475
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/claudio-baglioni/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "d5b7688806c5325a464ffb6676fb5a2acb79b75c1bc6ef57a01e3eb278ec9901",
+      "byte": 52901
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/claudio-baglioni-venaria-2009.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "981501861dfd512bd421859098421aa7927ad689386162e83ff399eadd862a06",
+      "byte": 305445
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/daft-punk/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8cefb5e86f0b88e8603428856465f61cce7ee36f687954a0113439fa1e28fa83",
+      "byte": 49827
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/daft-punk-sydney-2007.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "79e67155d71a3eb92aeeefd7ca4c024a77f91570639106509978339f5ed6e9d7",
+      "byte": 382828
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2b45cd9b17f789f041aae469bfbf579a5c94e5832ecd227a974c7a8411941d9c",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+- link "Skip to content":
+  - /url: "#geist-skip-nav"
+- main:
+  - link "giantroisi Hobby":
+    - /url: /giantroisi1
+    - generic: giantroisi
+    - generic: Hobby
+  - button:
+  - button "Find F":
+    - generic: Find
+    - generic: F
+  - navigation:
+    - link "Overview":
+      - /url: /giantroisi1/dietro-il-testo
+      - generic: Overview
+    - link "Deployments":
+      - /url: /giantroisi1/dietro-il-testo/deployments
+      - generic: Deployments
+    - link "Logs":
+      - /url: /giantroisi1/dietro-il-testo/logs
+      - generic: Logs
+    - link "Analytics":
+      - /url: /giantroisi1/dietro-il-testo/analytics
+      - generic: Analytics
+    - link "Speed Insights":
+      - /url: /giantroisi1/dietro-il-testo/speed-insights
+      - generic: Speed Insights
+    - link "Observability":
+      - /url: /giantroisi1/dietro-il-testo/observability
+      - generic: Observability
+    - link "Firewall":
+      - /url: /giantroisi1/dietro-il-testo/firewall
+      - generic: Firewall
+    - link "CDN":
+      - /url: /giantroisi1/dietro-il-testo/cdn
+      - generic: CDN
+    - separator
+    - link "Environment Variables":
+      - /url: /giantroisi1/dietro-il-testo/settings/environment-variables
+      - generic: Environment Variables
+    - link "Domains":
+      - /url: /giantroisi1/dietro-il-testo/settings/domains
+      - generic: Domains
+    - link "Connect":
+      - /url: /giantroisi1/dietro-il-testo/connect
+      - generic: Connect
+    - link "Integrations":
+      - /url: /giantroisi1/dietro-il-testo/settings/integrations
+      - generic: Integrations
+    - link "Storage":
+      - /url: /giantroisi1/dietro-il-testo/stores
+      - generic: Storage
+    - link "Flags":
+      - /url: /giantroisi1/dietro-il-testo/flags
+      - generic: Flags
+    - link "Agent":
+      - /url: /giantroisi1/dietro-il-testo/agent
+      - generic: Agent
+    - link "AI Gateway":
+      - /url: /giantroisi1/dietro-il-testo/ai-gateway
+      - generic: AI Gateway
+    - link "Sandboxes":
+      - /url: /giantroisi1/dietro-il-testo/sandboxes
+      - generic: Sandboxes
+    - link "Workflows":
+      - /url: /giantroisi1/dietro-il-testo/workflows
+      - generic: Workflows
+    - link "Images":
+      - /url: /giantroisi1/dietro-il-testo/images
+      - generic: Images
+    - separator
+    - link "Usage":
+      - /url: /giantroisi1/dietro-il-testo/usage
+      - generic: Usage
+    - link "Support":
+      - /url: /giantroisi1/dietro-il-testo/support
+      - generic: Support
+    - link "Settings":
+      - /url: /giantroisi1/dietro-il-testo/settings
+      - generic: Settings
+  - button "Avatar for giantroisi giantroisi":
+    - img "Avatar for giantroisi":
+      - img "Avatar for giantroisi"
+    - generic: giantroisi
+  - button "8 unseen notifications":
+  - button:
+  - link "dietro-il-testo":
+    - /url: /giantroisi1/dietro-il-testo
+    - generic: dietro-il-testo
+  - button:
+  - link "Back to team view":
+    - /url: /giantroisi1/~/deployments
+  - navigation "Breadcrumb"
+  - button "Vercel Agent is available on Pro":
+    - generic: Agent
+  - heading "Deployments" [level=1]
+  - button "Deployments actions":
+  - button "Add Filter":
+    - generic: Add Filter
+  - button "Author giantroisi":
+    - generic: Author
+    - generic: giantroisi
+  - button "Environment Production":
+    - generic: Environment
+    - generic: Production
+  - button "Status Error":
+    - generic: Status
+    - generic: Error
+  - link "View deployment dietro-il-testo-5jlr9wwj9-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/G1ajZyz9tTFrKo7GHfCN1aVfcSiu
+  - link "Pubblica gruppo 9 verificato di 1 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/G1ajZyz9tTFrKo7GHfCN1aVfcSiu
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:53:06 CEST":
+    - generic: 16s
+  - link "Production":
+    - /url: https://dietro-il-testo-5jlr9wwj9-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/G1ajZyz9tTFrKo7GHfCN1aVfcSiu
+  - link "600ffc4":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/600ffc4bb77b2ad70d794dfb95802d82aa63ccb8
+    - generic: 600ffc4
+  - 'button "Filter by Commit: 600ffc4bb77b2ad70d794dfb95802d82aa63ccb8"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/G1ajZyz9tTFrKo7GHfCN1aVfcSiu
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 1m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-fp8nwl8g5-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/Ei7XcXV5hPm3CfLZ5WT32kxUoRyW
+  - link "Pubblica gruppo 8 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/Ei7XcXV5hPm3CfLZ5WT32kxUoRyW
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:51:46 CEST":
+    - generic: 15s
+  - link "Production":
+    - /url: https://dietro-il-testo-fp8nwl8g5-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/Ei7XcXV5hPm3CfLZ5WT32kxUoRyW
+  - link "0c54853":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/0c54853ab0e0fdd215377f1a83413a5180eb1688
+    - generic: 0c54853
+  - 'button "Filter by Commit: 0c54853ab0e0fdd215377f1a83413a5180eb1688"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/Ei7XcXV5hPm3CfLZ5WT32kxUoRyW
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 3m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-lfrncregg-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/5HjSrbvpMiAd8eiDzuKiHTraYH2s
+  - link "Pubblica gruppo 7 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/5HjSrbvpMiAd8eiDzuKiHTraYH2s
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:50:09 CEST":
+    - generic: 15s
+  - link "Production":
+    - /url: https://dietro-il-testo-lfrncregg-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5HjSrbvpMiAd8eiDzuKiHTraYH2s
+  - link "1297f5e":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/1297f5ed0e8d45eeddb40400b45181f26c4075b9
+    - generic: 1297f5e
+  - 'button "Filter by Commit: 1297f5ed0e8d45eeddb40400b45181f26c4075b9"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5HjSrbvpMiAd8eiDzuKiHTraYH2s
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 4m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-axn96xhiq-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/3joCT1iQFMuiCo5m4wQT49qCqM1b
+  - link "Pubblica gruppo 6 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/3joCT1iQFMuiCo5m4wQT49qCqM1b
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:48:12 CEST":
+    - generic: 14s
+  - link "Production":
+    - /url: https://dietro-il-testo-axn96xhiq-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/3joCT1iQFMuiCo5m4wQT49qCqM1b
+  - link "c0cfae8":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/c0cfae863b0d197b852308df1e981f976e1ed23b
+    - generic: c0cfae8
+  - 'button "Filter by Commit: c0cfae863b0d197b852308df1e981f976e1ed23b"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/3joCT1iQFMuiCo5m4wQT49qCqM1b
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 6m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-b127uo0gf-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/9USCL4wiRLSB9tZ1PQgyinMYhdQh
+  - link "Pubblica gruppo 5 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/9USCL4wiRLSB9tZ1PQgyinMYhdQh
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:46:53 CEST":
+    - generic: 15s
+  - link "Production":
+    - /url: https://dietro-il-testo-b127uo0gf-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9USCL4wiRLSB9tZ1PQgyinMYhdQh
+  - link "12729f8":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/12729f8a0ff87bf097c95ea88f5f5fee988ac42e
+    - generic: 12729f8
+  - 'button "Filter by Commit: 12729f8a0ff87bf097c95ea88f5f5fee988ac42e"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9USCL4wiRLSB9tZ1PQgyinMYhdQh
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 8m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-d45ydcqr6-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/AFKkszsFfJYuxyqNN19yfXUfCK7j
+  - link "Pubblica gruppo 4 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/AFKkszsFfJYuxyqNN19yfXUfCK7j
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:45:05 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-d45ydcqr6-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/AFKkszsFfJYuxyqNN19yfXUfCK7j
+  - link "0cc5ebb":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/0cc5ebb8a29b4f0ff32cf673129ed5d8130b2a0f
+    - generic: 0cc5ebb
+  - 'button "Filter by Commit: 0cc5ebb8a29b4f0ff32cf673129ed5d8130b2a0f"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/AFKkszsFfJYuxyqNN19yfXUfCK7j
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 9m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-3erlq257k-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/9AwP8mJZLy63zTitpXeMVn9Aoz5e
+  - link "Pubblica gruppo 3 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/9AwP8mJZLy63zTitpXeMVn9Aoz5e
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:41:50 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-3erlq257k-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9AwP8mJZLy63zTitpXeMVn9Aoz5e
+  - link "3814942":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/38149421cf21bb1585d167bfa98b1e4534009570
+    - generic: "3814942"
+  - 'button "Filter by Commit: 38149421cf21bb1585d167bfa98b1e4534009570"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9AwP8mJZLy63zTitpXeMVn9Aoz5e
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 13m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-hv1rmuycv-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/7gDKeRveiH6cqkWrAVJG2tDzCF9Q
+  - link "Pubblica gruppo 2 verificato di 5 foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/7gDKeRveiH6cqkWrAVJG2tDzCF9Q
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:40:23 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-hv1rmuycv-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/7gDKeRveiH6cqkWrAVJG2tDzCF9Q
+  - link "b161c6d":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/b161c6db1f6a3ea33ba6ed9fbc4d3774dddce184
+    - generic: b161c6d
+  - 'button "Filter by Commit: b161c6db1f6a3ea33ba6ed9fbc4d3774dddce184"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/7gDKeRveiH6cqkWrAVJG2tDzCF9Q
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 14m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-an8oivie9-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/HRTKHVczkFPjcEc5qctedzf4CmqF
+  - link "Pubblica primo gruppo verificato di cinque foto pendenti":
+    - /url: /giantroisi1/dietro-il-testo/HRTKHVczkFPjcEc5qctedzf4CmqF
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 10:38:45 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-an8oivie9-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/HRTKHVczkFPjcEc5qctedzf4CmqF
+  - link "7b01ee0":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/7b01ee0e00dcc05a31c721926f22445dc448fbec
+    - generic: 7b01ee0
+  - 'button "Filter by Commit: 7b01ee0e00dcc05a31c721926f22445dc448fbec"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/HRTKHVczkFPjcEc5qctedzf4CmqF
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 16m ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-e7xsa4xu5-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/2qQZyKq3xvPiQrywHjPkrargfQYj
+  - link "Integra foto Beatles approvata preservando Nine Inch Nails":
+    - /url: /giantroisi1/dietro-il-testo/2qQZyKq3xvPiQrywHjPkrargfQYj
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 9:53:31 CEST":
+    - generic: 17s
+  - link "Production":
+    - /url: https://dietro-il-testo-e7xsa4xu5-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/2qQZyKq3xvPiQrywHjPkrargfQYj
+  - link "18778a5":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/18778a5e42416c3090883ef6981ab6d28f98e029
+    - generic: 18778a5
+  - 'button "Filter by Commit: 18778a5e42416c3090883ef6981ab6d28f98e029"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/2qQZyKq3xvPiQrywHjPkrargfQYj
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 1h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-kc2tyeaob-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/3caZTiTtAcfhQ5DqcvDq5WKvZQGq
+  - link "Prepara ritratto Nine Inch Nails di Fiona Bowie con prove e licenza":
+    - /url: /giantroisi1/dietro-il-testo/3caZTiTtAcfhQ5DqcvDq5WKvZQGq
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "15 ott 2026, 9:42:27 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-kc2tyeaob-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/3caZTiTtAcfhQ5DqcvDq5WKvZQGq
+  - link "a136503":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/a13650303fadf20301c629e1734af4142c03728f
+    - generic: a136503
+  - 'button "Filter by Commit: a13650303fadf20301c629e1734af4142c03728f"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/3caZTiTtAcfhQ5DqcvDq5WKvZQGq
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 1h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-dxsou4bx1-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/9ouTKpTiw1HfdM1J6ViT6fd6LuKa
+  - link "Prepara ritratto Nirvana di Krist Novoselic con licenza e prove":
+    - /url: /giantroisi1/dietro-il-testo/9ouTKpTiw1HfdM1J6ViT6fd6LuKa
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "14 ott 2026, 20:27:39 CEST":
+    - generic: 31s
+  - link "Production":
+    - /url: https://dietro-il-testo-dxsou4bx1-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9ouTKpTiw1HfdM1J6ViT6fd6LuKa
+  - link "6f675aa":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/6f675aa65de55bba1e25d0f583bf53c7fe0bf4ee
+    - generic: 6f675aa
+  - 'button "Filter by Commit: 6f675aa65de55bba1e25d0f583bf53c7fe0bf4ee"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/9ouTKpTiw1HfdM1J6ViT6fd6LuKa
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 14h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2
+  - link "Prepara foto Bocelli con licenza e prove responsive":
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "14 ott 2026, 19:52:35 CEST":
+    - generic: 19s
+  - link "Production":
+    - /url: https://dietro-il-testo-pnc2wqnmt-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2
+  - link "132ab77":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/132ab77dc5833fb1f66449dfe05c130734c248eb
+    - generic: 132ab77
+  - 'button "Filter by Commit: 132ab77dc5833fb1f66449dfe05c130734c248eb"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5sVt5vNp7ghH3Y4HTjC8jZWpKuJ2
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 16h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-6v72c3dj6-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/8gusBAW8Qng96RKUwYcFQkw53GRa
+  - link "Integra foto Rino Gaetano approvata, preservando Wonderwall":
+    - /url: /giantroisi1/dietro-il-testo/8gusBAW8Qng96RKUwYcFQkw53GRa
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "14 ott 2026, 18:37:46 CEST":
+    - generic: 15s
+  - link "Production":
+    - /url: https://dietro-il-testo-6v72c3dj6-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/8gusBAW8Qng96RKUwYcFQkw53GRa
+  - link "53ffeaf":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/53ffeaf5245b45a895026cb58046bdf9a778afa1
+    - generic: 53ffeaf
+  - 'button "Filter by Commit: 53ffeaf5245b45a895026cb58046bdf9a778afa1"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/8gusBAW8Qng96RKUwYcFQkw53GRa
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 16h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-e4tj36cug-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/FfafZjSCvn134KHtAy2pM2JHHw2s
+  - link "Corregge a ottobre 2020 il miliardo Spotify di Wonderwall":
+    - /url: /giantroisi1/dietro-il-testo/FfafZjSCvn134KHtAy2pM2JHHw2s
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "14 ott 2026, 18:20:46 CEST":
+    - generic: 14s
+  - link "Production":
+    - /url: https://dietro-il-testo-e4tj36cug-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/FfafZjSCvn134KHtAy2pM2JHHw2s
+  - link "f7ade2b":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c
+    - generic: f7ade2b
+  - 'button "Filter by Commit: f7ade2bae4241ea8ba7c28b5bb162dd5a686ca1c"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/FfafZjSCvn134KHtAy2pM2JHHw2s
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 17h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-339ve49rr-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/441C9pL6gS37AUKf6uvAREyEVU8R
+  - link "Prepara foto licenziata di Mina a Bussoladomani nel 1978":
+    - /url: /giantroisi1/dietro-il-testo/441C9pL6gS37AUKf6uvAREyEVU8R
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "14 ott 2026, 17:49:20 CEST":
+    - generic: 13s
+  - link "Production":
+    - /url: https://dietro-il-testo-339ve49rr-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/441C9pL6gS37AUKf6uvAREyEVU8R
+  - link "5ea4001":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/5ea40016d6e33e73a75477d58b61b225d7614f03
+    - generic: 5ea4001
+  - 'button "Filter by Commit: 5ea40016d6e33e73a75477d58b61b225d7614f03"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/441C9pL6gS37AUKf6uvAREyEVU8R
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 17h ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-pbm6su064-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/D4Nb197fcWtq2vG8xfVEeTMN6bEm
+  - link "Prepara foto licenziata Krieger e Manzarek per The Doors":
+    - /url: /giantroisi1/dietro-il-testo/D4Nb197fcWtq2vG8xfVEeTMN6bEm
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "13 ott 2026, 22:33:43 CEST":
+    - generic: 23s
+  - link "Production":
+    - /url: https://dietro-il-testo-pbm6su064-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/D4Nb197fcWtq2vG8xfVEeTMN6bEm
+  - link "3601465":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/36014659aac2146dc2c98c20493efb1878c5ebb9
+    - generic: "3601465"
+  - 'button "Filter by Commit: 36014659aac2146dc2c98c20493efb1878c5ebb9"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/D4Nb197fcWtq2vG8xfVEeTMN6bEm
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 2d ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-1ynwvucu3-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/5A57fsakERSw5YxToPrScMpXqqAg
+  - link "Prepara ritratto licenziato di Francesco De Gregori":
+    - /url: /giantroisi1/dietro-il-testo/5A57fsakERSw5YxToPrScMpXqqAg
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "13 ott 2026, 22:01:43 CEST":
+    - generic: 14s
+  - link "Production":
+    - /url: https://dietro-il-testo-1ynwvucu3-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5A57fsakERSw5YxToPrScMpXqqAg
+  - link "5d61dea":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/5d61deae735c9a0804951e72738f02224490cecf
+    - generic: 5d61dea
+  - 'button "Filter by Commit: 5d61deae735c9a0804951e72738f02224490cecf"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/5A57fsakERSw5YxToPrScMpXqqAg
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 2d ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-bcuoepc0v-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/ACDCaVG642Z6m15Nu5htTVVzussY
+  - link "Corregge le date distinte di singolo e album per Teen Spirit":
+    - /url: /giantroisi1/dietro-il-testo/ACDCaVG642Z6m15Nu5htTVVzussY
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "13 ott 2026, 21:13:33 CEST":
+    - generic: 14s
+  - link "Production":
+    - /url: https://dietro-il-testo-bcuoepc0v-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/ACDCaVG642Z6m15Nu5htTVVzussY
+  - link "53ce54c":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/53ce54c7612edb5d220d1d134114fc4cd9c5d8e8
+    - generic: 53ce54c
+  - 'button "Filter by Commit: 53ce54c7612edb5d220d1d134114fc4cd9c5d8e8"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/ACDCaVG642Z6m15Nu5htTVVzussY
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 2d ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - link "View deployment dietro-il-testo-3lmgg4ia0-giantroisi1.vercel.app":
+    - /url: /giantroisi1/dietro-il-testo/64SPtZG4NqvTDKrQBnBmzhUUYmCw
+  - link "Prepara ritratto Max Pezzali per883 con foto identica nella condivisione":
+    - /url: /giantroisi1/dietro-il-testo/64SPtZG4NqvTDKrQBnBmzhUUYmCw
+  - generic "This deployment is ready.":
+    - generic: Ready
+  - generic "13 ott 2026, 20:05:39 CEST":
+    - generic: 20s
+  - link "Production":
+    - /url: https://dietro-il-testo-3lmgg4ia0-giantroisi1.vercel.app
+    - text: Production
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/64SPtZG4NqvTDKrQBnBmzhUUYmCw
+  - link "4b79337":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/4b7933706ac51b8b8a2f4ba45a1557ba656b14ab
+    - generic: 4b79337
+  - 'button "Filter by Commit: 4b7933706ac51b8b8a2f4ba45a1557ba656b14ab"':
+  - link:
+    - /url: /giantroisi1/dietro-il-testo/64SPtZG4NqvTDKrQBnBmzhUUYmCw
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+    - generic: main
+  - 'button "Filter by Branch: main"':
+  - generic: 2d ago
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - button "Deployment Actions":
+  - button "Load More":
+    - generic: Load More
+  - paragraph:
+    - text: Deployment Retention is enabled for this project — some deployments will be deleted after a set time period.
+    - link "Learn more":
+      - /url: /docs/security/deployment-retention
+      - text: Learn more
+  - button "View Recently Deleted":
+    - generic: View Recently Deleted
+- alert

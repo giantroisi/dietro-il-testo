@@ -1,0 +1,119 @@
+{
+  "gruppo": 6,
+  "commit": "c0cfae863b0d197b852308df1e981f976e1ed23b",
+  "dataUTC": "2026-10-15T08:48:36.093429+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/ozzy-osbourne/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "37b0ea33eeaa855efb0e6678d652531ac5bc448d610ab11d93f5514f6b427378",
+      "byte": 53072
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/ozzy-osbourne-philadelphia-2010.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "e626756f3391076b2bc39a56572d5ebaaa8ebb3c2fa339cac68d661a0cd5c267",
+      "byte": 380108
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/pinguini-tattici-nucleari/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "d29c88efc561d5fb630e1d253a458efb6e74341bf062c702b46f5655b3c31033",
+      "byte": 62894
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/pinguini-tattici-nucleari-assago.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "bd75e99c9129ff6ef8dfe21583091db891024f2fccdee174c0805fe33459ec8b",
+      "byte": 85579
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/pink-floyd/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "e189c9bea38386fb5d00c00786c3429a4c6ec5d54da520895bf5cc9dd41ad115",
+      "byte": 60453
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/pink-floyd.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8aab0d77d22308860a808e7e24a7d9eb5e152a68ceb8638cf6797644f2719763",
+      "byte": 168863
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/pino-daniele/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "e556223c0a4edbf28c39e5ab808f0b0bc83e41fb948052fc4d558b8b970af873",
+      "byte": 61623
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/pino-daniele-2009.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "078232cae5326536451edd3d9ba36bbe1000b38926af600f1b9a6cc9b83fc1fb",
+      "byte": 52900
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/prince/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "869591d99cd9b3e7b569e75391cf4cdd5490aca47ec20350773c36307c13a929",
+      "byte": 57596
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/prince.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "939e47dca0228f026e52d739364d86d2fc1b39c00d6268e823daa6169fdce851",
+      "byte": 81070
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "9f2e1d23ec6d6faef1ae9dcb43687d12e187bf1ae06a0c0b3ba452fe9bbff2ee",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

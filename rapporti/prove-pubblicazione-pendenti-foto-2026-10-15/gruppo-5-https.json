@@ -1,0 +1,119 @@
+{
+  "gruppo": 5,
+  "commit": "12729f8a0ff87bf097c95ea88f5f5fee988ac42e",
+  "dataUTC": "2026-10-15T08:47:09.264434+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/laura-pausini/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "253c6089673766e0033637c4532ae5678a44c321d52e7a31eea9a1480dde5e75",
+      "byte": 52290
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/laura-pausini-bercy-2012.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "f009755ac03851e9d765b00f35a4145d729fb7e8426bfd8b9cd59cf7947fb707",
+      "byte": 229326
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "b0a2260df5b9384f742a930ec505855d97561be69975f2e4ec6732c772d157dc",
+      "byte": 58965
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/led-zeppelin.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "4cdbd8c54c1e87cd2722e1857112145e7af2baf68139a173ec4105dc84f8df55",
+      "byte": 508831
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/limp-bizkit/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "79635d008eeae4ecec659903690a299361df0026e92967eacd7333950da52a98",
+      "byte": 58636
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/limp-bizkit.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "dceaa2eeb426b76ae8e453cfe8d593d46a5e3018e4c5294d89cb1d1d5de02a9d",
+      "byte": 201301
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/lynyrd-skynyrd/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "b29cd9eacb3f368121fe9843eccec2e243a1bbf20278cbc3e307246ffceabd83",
+      "byte": 51964
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/lynyrd-skynyrd.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "c55bdc0505df388f7f22652836863ad1e81a980ee8f064a382fa4923790e36c8",
+      "byte": 59920
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/oasis/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "350d225e4116eb2cf0c7f29448fab106e53c8d1d3931f41de3a56abe2f507454",
+      "byte": 61614
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/oasis-gallagher-2005.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a9454a2ab1302ef8db660f0c5034a972d9fe24a414ab15adc5dbba0080b337e2",
+      "byte": 299620
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "cf61e0110354bb41638b46960913630ce2db85091c35fca21e412ea74fddc819",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

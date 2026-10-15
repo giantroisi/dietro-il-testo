@@ -1,0 +1,119 @@
+{
+  "gruppo": 2,
+  "commit": "b161c6db1f6a3ea33ba6ed9fbc4d3774dddce184",
+  "dataUTC": "2026-10-15T08:40:45.452641+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/deep-purple/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1303e970b30042efd28e81b1b908e30cf2f79d70da3237b1301d3543c7c831d4",
+      "byte": 61679
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/deep-purple-oslo-2009.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "534949a8cfd5f15aafa43b4f11e7656cfae93c5cbd0d49fc581f7289221bfdbb",
+      "byte": 75538
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/disturbed/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "3648bffa357d7b1741faf61ced7ff90d95fe40f5c7f3cedc1c9335df81baf0b9",
+      "byte": 58806
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/disturbed-nova-rock-2016.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "fbdaeb29859e07edccceb98bf5d542b75c1f968e12555b6e3bd3b203a686bdb0",
+      "byte": 175566
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/eagles/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "319e7cf5e95b94b43a53734f005f51705eb85aab20bb6ae40536fec3ab904cef",
+      "byte": 60083
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/eagles-live-2008.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "b36b79557023b55e586981f6e8fe288510577d41b7ec7e1c0cfad8cb751c6069",
+      "byte": 346305
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/edoardo-bennato/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "ba1ea525c4f73b2983bd6e8670a7b55ea0f950700d7532d94f6b5d28ff5c9b50",
+      "byte": 54193
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/edoardo-bennato-2007.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d097aaf7143be7ba1618c99f5cc473487389830f7c56c49334a4a4f3caf52be",
+      "byte": 179029
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/electric-callboy/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "cbc5b99bc0a0c100c911ca2ec5cba1369c223d2852e2e2d696ff186440136fcb",
+      "byte": 50818
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/electric-callboy-ilosaarirock-2024.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "50b9cd013bc51f32cf7bdc321d07ef18958e69cf7b0d6eedec80af4da1352057",
+      "byte": 340569
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "0b69cba6c3d149ef4341e36bf48279c3c13eec97d966000fe35a175fbeb619e4",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "gruppo": 8,
+  "commit": "0c54853ab0e0fdd215377f1a83413a5180eb1688",
+  "dataUTC": "2026-10-15T08:52:07.645560+00:00",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-cranberries/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "d8784ae90513251f8fc213a3c670a150b6c4031b4b12a04b466fac3430b1e1a1",
+      "byte": 50678
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/cranberries-dolores-2010.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "edda5aa2847b9d4a2ba7cfe4bd41875acc4beda39042d48f097033521e51d069",
+      "byte": 66677
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-rolling-stones/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "f5d20167f227dcdd13ab0d48f0cccf0ba98281a1c1ce00354baa0be4af61f852",
+      "byte": 55821
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/rolling-stones-londra-2018.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "f30795dbcea695a4f9168500716b3dd2f60dfb289cea95735f561693d0150ff2",
+      "byte": 153446
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-white-stripes/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "43113a87349bc08b9b7b30f5fc69531c4592251612b5af342bc781bfed94f161",
+      "byte": 50933
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/white-stripes-primavera-2007.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1efd2888844d36edc957c5352df12b4936167069ec3072296e39dc7cae7d578a",
+      "byte": 104942
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/toto/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8848f30a62c2c100a855acf0723654bded414b957a7ab8212ca2592f7495f8de",
+      "byte": 52840
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/toto-town-hall-2016.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "056fe02b67a7242b9e85cece889ecf7863f1b75d855c6856cf4ce6d030df5211",
+      "byte": 280253
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/tracy-chapman/",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2f33b5ea1053c7e2dc2c0f8ae027e70d0b83c6c958300c8b9032273984de376e",
+      "byte": 51089
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/tracy-chapman-cactus-2009.jpg",
+      "identico": true,
+      "exit": 0,
+      "sha256": "79c19a3e9bcc9eee762ef8e3a1b61a9e56eccd1f0912191f08a7c3cc5a765d3d",
+      "byte": 152935
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "byte": 955
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "byte": 15325
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "byte": 34080
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "1fc02bfae412fbac956716318179065073b48e1832dc2f84e7a53824780d4f91",
+      "byte": 10854
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "byte": 750
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "exit": 0,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "byte": 525
+    }
+  ]
+}
