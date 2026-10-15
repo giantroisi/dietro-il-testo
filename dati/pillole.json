@@ -887,5 +887,89 @@
     "sha256": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
     "testoGrafica": "Linkin Park. 2000. Album: Hybrid Theory. Lo sfogo diventa musica. Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore. Un riff in un parcheggio. Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo.",
     "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "chop-suey": {
+    "testo": "L'apertura, rielaborata da Serj Tankian, incalza con la voce. Le strofe ritmiche e spigolose cedono poi a un ritornello melodico: due registri nello stesso brano.",
+    "fonte": "https://www.loudersound.com/music/tracks-singles/the-story-of-chop-suey-system-of-a-down",
+    "nomeFonte": "Metal Hammer (via Louder) — Dave Everley",
+    "artistaSlug": "system-of-a-down",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Dal rap alla melodia",
+          "testo": "Tankian rielaborò l’apertura. Dalle strofe incalzanti si passa al ritornello melodico: un contrasto che rende il brano riconoscibile.",
+          "fonte": "https://www.loudersound.com/music/tracks-singles/the-story-of-chop-suey-system-of-a-down",
+          "nomeFonte": "Metal Hammer (via Louder) — Dave Everley",
+          "natura": "Descrizione musicale originale dal racconto di Dave Everley, con dichiarazioni di Daron Malakian"
+        },
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "Una chitarra nel camper",
+          "testo": "Malakian la iniziò sul letto in fondo al camper della band. Era in tour per il primo album e aveva con sé una chitarra acustica.",
+          "fonte": "https://www.loudersound.com/music/tracks-singles/the-story-of-chop-suey-system-of-a-down",
+          "nomeFonte": "Metal Hammer (via Louder) — Dave Everley",
+          "natura": "Dichiarazione diretta di Daron Malakian a Dave Everley"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Chop_Suey!"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia (scheda del singolo)"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "chop-suey-storia.jpg",
+    "sha256": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
+    "testoGrafica": "System of a Down. 2001. Album: Toxicity. Dal rap alla melodia. Tankian rielaborò l’apertura. Dalle strofe incalzanti si passa al ritornello melodico: un contrasto che rende il brano riconoscibile. Una chitarra nel camper. Malakian la iniziò sul letto in fondo al camper della band. Era in tour per il primo album e aveva con sé una chitarra acustica.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "mr-brightside": {
+    "testo": "Il verso più discusso paragona la gelosia a una forza capace di trasformare persino le persone più pure in un mare in tempesta di emozioni contrastanti. Secondo Songfacts, la metafora racconta il crollo mentale del narratore, intrappolato nell'immaginare a ripetizione un tradimento mai davvero confermato: il nucleo ossessivo di un testo che Brandon Flowers scrisse a poco più di vent'anni, subito dopo aver sorpreso la propria ragazza dell'epoca in un locale di Las Vegas in compagnia di un altro uomo.",
+    "fonte": "https://rollingstoneindia.com/killers-wrote-mr-brightside/",
+    "nomeFonte": "Rolling Stone India — Kory Grow, intervista a Brandon Flowers (1 ottobre 2018)",
+    "artistaSlug": "the-killers",
+    "dopoParagrafo": 0,
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "La strofa che ritorna",
+          "testo": "Flowers non aveva scritto una seconda strofa: ripeté la prima, cambiando solo poche parole e il modo di cantarla.",
+          "fonte": "https://rollingstoneindia.com/killers-wrote-mr-brightside/",
+          "nomeFonte": "Rolling Stone India — Kory Grow, intervista a Brandon Flowers (1 ottobre 2018)",
+          "natura": "Dichiarazione diretta di Brandon Flowers a Kory Grow"
+        },
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "Un dolore personale",
+          "testo": "Alla fine della sua prima relazione seria, Flowers mise in musica il dolore della rottura. Aveva appena diciannove o vent’anni.",
+          "fonte": "https://rollingstoneindia.com/killers-wrote-mr-brightside/",
+          "nomeFonte": "Rolling Stone India — Kory Grow, intervista a Brandon Flowers (1 ottobre 2018)",
+          "natura": "Racconto di Kory Grow e testimonianza diretta di Brandon Flowers"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Mr._Brightside"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "mr-brightside-storia.jpg",
+    "sha256": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
+    "testoGrafica": "The Killers. 2003 / 2004. Album: Hot Fuss. La strofa che ritorna. Flowers non aveva scritto una seconda strofa: ripeté la prima, cambiando solo poche parole e il modo di cantarla. Un dolore personale. Alla fine della sua prima relazione seria, Flowers mise in musica il dolore della rottura. Aveva appena diciannove o vent’anni.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }

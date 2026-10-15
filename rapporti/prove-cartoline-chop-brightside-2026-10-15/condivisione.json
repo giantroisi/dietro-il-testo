@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "chop-suey",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "chop-suey",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "chop-suey",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "chop-suey",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "chop-suey",
+    "scenario": "loading",
+    "ok": true
+  },
+  {
+    "slug": "mr-brightside",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "mr-brightside",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "mr-brightside",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "mr-brightside",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "mr-brightside",
+    "scenario": "loading",
+    "ok": true
+  }
+]

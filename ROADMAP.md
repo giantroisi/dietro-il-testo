@@ -4956,3 +4956,18 @@ Una BMTH e una Linkin Park su mandato «procedi». Primo blocco momento iconico,
 Due nuove chiavi/JPEG/HTML, fontiHappySong aggiornate e sua sola data11→15ottobre; rispetto alla produzione cambia anche la dataOneStepCloser nel commit separato della correzione. DatePublished/altre date/altri dati/19cartoline/cinque altre sitemap invariati. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,10scenari condivisione e6viste effettive1280/390/320 positivi. Raster e screenshot osservati, prove/dossier dedicati.
 
 Ramo codex/cartoline-happy-song-one-step-closer-anteprima-2026-10-15 dalla correzione locale6efa89907, copia ritratto-nin. Solo commit locale dopo verifica: nuove immagini, correzione e fonti da valutare prima di integrazione/push/pubblicazione. Main/nontracciati/altraAI/proposte preservati, estensione di massa ferma. Revisione automatica ha negato permessoSongfacts: accesso non eseguito, anagrafica verificata tramiteWikipedia pubblica e fonte aggiunta. Nessun GSC/nuovoAmazon/riattivazione routine. Limiti: non è revisione integrale; Post/Reel/cache/ritagli esterni invariati. Prove della pubblicazione precedente conservate separatamente.
+
+
+### Esito §127 — Happy Song e One Step Closer pubblicate, 15 ottobre 2026
+
+Approvazione diretta del proprietario, compresa la correzione6efa89907. Integrato/push5c87bfbd1; Vercel6jtkX8E48HwSFNMK5f2dVa5cgLXg Ready/Latest/Current/Production,13:16:57CEST,18secondi. Undici file pubblici identici: dueHTML/JPEG,ricerca e sei sitemap. Browser conferma correzione, caricamento e identità pagina/Storia/OG/Twitter. DatePublished preservate; due soli lastmod/dateModifiedHappySong/OneStepCloser11→15ottobre come approvato. Prove in rapporti/prove-pubblicazione-happy-closer-2026-10-15/.
+
+## 128. Chop Suey! e Mr. Brightside — due anteprime finali, 15 ottobre 2026
+
+Richiesta diretta di altre due anteprime; scelta suggerita dall’altra chat per diversificare gli artisti. Bozze CanYouFeelMyHeart/FollowYou conservate esclusivamente nel ramo codex/cartoline-heart-follow-you-anteprima-2026-10-15, commit11d30787a, non incluse né pubblicate. Nessuna motivazioneGSC verificata o richiesta di indicizzazione.
+
+Due sintesi originali per immagine: momento iconico e curiosità. ChopSuey! passaggio strofe/ritornello e chitarra acustica nel camper; MrBrightside strofa ripetuta e prima rottura sentimentale. Fonti MetalHammer/DaveEverley e intervista KoryGrow/BrandonFlowers su RollingStoneIndia riaperte prima della scrittura, anagraficaWikipedia ricontrollata. Nessun verso/traduzione/fonte nel raster, fonti nominate in pagina/dati; stesso JPEG pagina/Storia/OG/Twitter.
+
+Due nuove chiavi/JPEG/HTML, una fonte aggiunta a MrBrightside e suo unico dateModified/lastmod11→15ottobre per modifica editoriale reale. DatePublished/altre date/cinque sitemap, ricerca, renderer e21cartoline precedenti intatti. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,dieci percorsi condivisione e sei viste effettive390/320/1280 superati. Raster e screenshot osservati. Prove/dossier dedicati.
+
+Copia ritratto-nin, ramo codex/cartoline-chop-suey-mr-brightside-anteprima-2026-10-15, base5c87bfbd1. Commit solo locale dopo verifica. Mostrare al proprietario, attendere approvazione per integrazione/push/pubblicazione; poi nessuna ulteriore espansione cartoline automatica. Main/nontracciati/altraAI/proposte preservati, nessun GSC/nuovoAmazon/ricerca ritratti. Limiti: non è verifica integrale delle schede; Post/Reel/cache/ritagli esterni invariati. Prove pubblicazione precedente conservate separatamente.

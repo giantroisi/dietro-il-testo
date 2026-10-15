@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "chop-suey",
+    "file": "chop-suey-storia.jpg",
+    "bytes": 228204,
+    "sha256": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "System of a Down",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 445.0299987792969,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2001",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Chop Suey!",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 507.92999267578125,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Toxicity",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 351.2900085449219,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Dal rap alla melodia",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 551.5599975585938,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Tankian rielaborò l’apertura.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 828.4199829101562,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Dalle strofe incalzanti si passa al",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 958.4099731445312,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "ritornello melodico: un contrasto",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4299926757812,
+        "alto": 884,
+        "basso": 928
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "che rende il brano riconoscibile.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 931.8099975585938,
+        "alto": 962,
+        "basso": 1006
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Una chitarra nel camper",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 645.780029296875,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Malakian la iniziò sul letto in",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 831.7000122070312,
+        "alto": 1237,
+        "basso": 1282
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "fondo al camper della band. Era",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.5499877929688,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "in tour per il primo album e aveva",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 975.0800170898438,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "con sé una chitarra acustica.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.739990234375,
+        "alto": 1471,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Dal rap alla melodia",
+        "righe": 4,
+        "testoCompleto": "Tankian rielaborò l’apertura. Dalle strofe incalzanti si passa al ritornello melodico: un contrasto che rende il brano riconoscibile."
+      },
+      {
+        "titolo": "Una chitarra nel camper",
+        "righe": 4,
+        "testoCompleto": "Malakian la iniziò sul letto in fondo al camper della band. Era in tour per il primo album e aveva con sé una chitarra acustica."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  },
+  {
+    "slug": "mr-brightside",
+    "file": "mr-brightside-storia.jpg",
+    "bytes": 223188,
+    "sha256": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "The Killers",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 295.8399963378906,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2003 / 2004",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Mr. Brightside",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 607.469970703125,
+        "alto": 383,
+        "basso": 471
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Hot Fuss",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 379.4200134277344,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "La strofa che ritorna",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 557.1700134277344,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Flowers non aveva scritto",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 768.27001953125,
+        "alto": 728,
+        "basso": 772
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "una seconda strofa: ripeté la",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 845.1500244140625,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "prima, cambiando solo poche",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 871.780029296875,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "parole e il modo di cantarla.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 825.0800170898438,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1113,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Un dolore personale",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 557.8999938964844,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Alla fine della sua prima relazione",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 985.1599731445312,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "seria, Flowers mise in musica il",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 918.1900024414062,
+        "alto": 1316,
+        "basso": 1368
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "dolore della rottura. Aveva",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 784.0599975585938,
+        "alto": 1394,
+        "basso": 1438
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "appena diciannove o vent’anni.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 915.3099975585938,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "La strofa che ritorna",
+        "righe": 4,
+        "testoCompleto": "Flowers non aveva scritto una seconda strofa: ripeté la prima, cambiando solo poche parole e il modo di cantarla."
+      },
+      {
+        "titolo": "Un dolore personale",
+        "righe": 4,
+        "testoCompleto": "Alla fine della sua prima relazione seria, Flowers mise in musica il dolore della rottura. Aveva appena diciannove o vent’anni."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "9a339a1243e2d5f223b0483ef9beebc131065906f093ce58d9031ac5236801f3"
+  }
+]
