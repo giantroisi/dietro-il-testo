@@ -4792,3 +4792,12 @@ Il proprietario chiede di lasciare Battisti e scegliere un altro artista, preser
 Stesso JPEG figura/OG/Twitter; sola nuova chiave nine-inch-nails e asset, unico HTMLartista e lastmod/dateModified17settembre→15ottobre. Altri697HTML,60ritratti e cinque sitemap intatti; editoriale/metadati/CTA/datePublished e generatori/computati/Amazon/cartoline preservati. Sola griglia mobile corrente sulla pagina. F40 letta, rendering mirato senza build generale e helper rimosso. SEO696,coerenza/link321-104,affiliazioni1065 e crediti/hash/casi negativi positivi. Browser1280/390/320scuro e320chiaro, zero overflow/errori, nessun ingrandimento, foto214×320desktop/221×330mobile. Tab raggiunge la licenza; tema e viewport ripristinati. Dossier rapporti/licenze/ritratto-nin-2026-10-15.md e prove dedicate.
 
 Copia nuova ritratto-nin-2026-10-15/dietro-il-testo, base6f675aa65. Aggancio app limite100fallito anche al ritentativo, unico checkout. Audit30copie con12timeout e voce remota assente preservati; main/nontracciati, altraAI e proposte intatti, Battisti sospeso e308cartoline ferme. §115 resta riservata a Beatlesb96fe9d4a. Solo commit locale dopo verifica; integrazione/main/push/pubblicazione da approvare. Unire sola chiave NIN e§116 senza sovrascrivere le altre voci del JSON/sezioni ROADMAP. Nessun GSC o nuovoAmazon. Limiti: solo il frontman, data dello scatto non risolta.
+
+
+## 117. Foto pendenti — pubblicazione autorizzata in piccoli gruppi, 15 ottobre 2026
+
+Il proprietario autorizza esplicitamente la pubblicazione delle41proposte e il ricontrollo. L’operazione unica41è stata rifiutata dalla revisione automatica per ampiezza: alternativa sicura, gruppi di massimo5pagine, ciascuno verificato e pubblicato prima del successivo. Originali dei lotti intatti, nessuna nuova foto Battisti o cartolina.
+
+### Gruppo 1 — preparato e verificato
+
+adriano-celentano, al-bano-e-romina-power, bon-jovi, claudio-baglioni, daft-punk. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-1-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.

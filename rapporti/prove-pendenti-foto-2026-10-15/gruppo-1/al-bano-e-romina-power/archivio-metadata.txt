@@ -1,0 +1,52 @@
+- link "Overslaan en naar de inhoud gaan":
+  - /url: "#main-content"
+- main:
+  - navigation:
+    - button "Ga naar de fotocollectie"
+    - button "Draai rechtsom"
+    - button "Draai linksom"
+    - button "Spiegelen"
+    - button "Kleuraanpassingen tonen/verbergen"
+    - button "Uitzoomen"
+    - button "Inzoomen"
+    - button "Volledig scherm in-/uitschakelen"
+    - link "nationaal archief":
+      - /url: /
+  - navigation:
+    - list:
+      - link "Metagegevens":
+        - /url: "?tab=metadata"
+      - link "Download":
+        - /url: "?tab=download"
+      - link "Commentaren":
+        - /url: "?tab=comment"
+  - heading "Informatie" [level=2]
+  - list:
+    - heading "Collectie / Archief" [level=3]
+    - generic: Fotocollectie Anefo
+    - heading "Beschrijving" [level=3]
+    - generic: Eurovisie Songfestival 76 Den Haag ; Albano en Romina (Italie)
+    - heading "Datum" [level=3]
+    - generic: 1976-04-03
+    - heading "Locatie" [level=3]
+    - generic: Italië
+    - generic: Den Haag
+    - heading "Trefwoorden" [level=3]
+    - generic: songfestivals
+    - heading "Fotograaf" [level=3]
+    - generic: Mieremet, Rob / Anefo
+    - heading "Auteursrechthebbende" [level=3]
+    - generic: Nationaal Archief, CC0
+    - heading "Materiaalsoort" [level=3]
+    - generic: Negatief (zwart/wit)
+    - heading "Nummer toegang" [level=3]
+    - generic: 2.24.01.05
+    - heading "Bestanddeelnummer" [level=3]
+    - generic: 928-5023
+    - heading "Permanente url" [level=3]
+    - link "http://hdl.handle.net/10648/ac80b056-d0b4-102d-bcf8-003048976d84":
+      - /url: http://hdl.handle.net/10648/ac80b056-d0b4-102d-bcf8-003048976d84
+    - heading "Volgnummer" [level=3]
+    - generic: "1"
+  - link "tab sluiten":
+    - /url: "?"

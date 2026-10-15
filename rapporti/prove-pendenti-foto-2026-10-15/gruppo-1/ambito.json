@@ -1,0 +1,23 @@
+{
+  "base": "18778a5e42416c3090883ef6981ab6d28f98e029",
+  "pagine": [
+    "artista/adriano-celentano/index.html",
+    "artista/al-bano-e-romina-power/index.html",
+    "artista/bon-jovi/index.html",
+    "artista/claudio-baglioni/index.html",
+    "artista/daft-punk/index.html"
+  ],
+  "nuoveChiavi": [
+    "adriano-celentano",
+    "al-bano-e-romina-power",
+    "bon-jovi",
+    "claudio-baglioni",
+    "daft-punk"
+  ],
+  "precedentiChiaviPreservate": 62,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}
