@@ -4971,3 +4971,10 @@ Due sintesi originali per immagine: momento iconico e curiosità. ChopSuey! pass
 Due nuove chiavi/JPEG/HTML, una fonte aggiunta a MrBrightside e suo unico dateModified/lastmod11→15ottobre per modifica editoriale reale. DatePublished/altre date/cinque sitemap, ricerca, renderer e21cartoline precedenti intatti. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,dieci percorsi condivisione e sei viste effettive390/320/1280 superati. Raster e screenshot osservati. Prove/dossier dedicati.
 
 Copia ritratto-nin, ramo codex/cartoline-chop-suey-mr-brightside-anteprima-2026-10-15, base5c87bfbd1. Commit solo locale dopo verifica. Mostrare al proprietario, attendere approvazione per integrazione/push/pubblicazione; poi nessuna ulteriore espansione cartoline automatica. Main/nontracciati/altraAI/proposte preservati, nessun GSC/nuovoAmazon/ricerca ritratti. Limiti: non è verifica integrale delle schede; Post/Reel/cache/ritagli esterni invariati. Prove pubblicazione precedente conservate separatamente.
+
+
+### Esito §128 — pubblicazione conclusa e cartoline ferme, 15 ottobre 2026
+
+Approvazione diretta «pubblica Chop Suey! e Mr. Brightside, uguali nella pagina e nella condivisione. Poi fermati con le cartoline». Integrato/push04e6f98a0; Vercel7MJyQuYDstGC9wPAK9yysSwY7h4n Ready/Latest/Current/Production,13:36:48CEST,17secondi. Dieci file pubblici identici al commit: dueHTML/JPEG e sei sitemap. Browser conferma caricamento, nessun overflow, stesso JPEG figura/Storia/OG/Twitter. Prove e screenshot pubblici in rapporti/prove-pubblicazione-chop-brightside-2026-10-15/; rapporto dedicato.
+
+Unico dateModified/lastmod MrBrightside11→15ottobre per fonte aggiunta; datePublished/altre date preservate. Questa chiusura è sola documentazione, nessun build generale. **Filone cartoline fermato su richiesta del proprietario: non preparare né pubblicare altre cartoline.** Le bozze CanYouFeelMyHeart/FollowYou restano isolate in11d30787a, senza autorizzazione al rilascio. Nessuna estensione automatica o altra attività avviata. Main/nontracciati/altraAI/proposte preservati.

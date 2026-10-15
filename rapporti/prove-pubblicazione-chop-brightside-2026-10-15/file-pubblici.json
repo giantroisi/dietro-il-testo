@@ -1,0 +1,52 @@
+[
+  {
+    "file": "canzone/chop-suey/index.html",
+    "sha256": "c89549c08d626cc825200a25fb902db8358fb63e6b9bc298cddf6f63177d53e2",
+    "identico": true
+  },
+  {
+    "file": "canzone/mr-brightside/index.html",
+    "sha256": "5d32f9cdd0c9937b7f6b5079e489181e003fabb6a89f2920889ab3cf28589dff",
+    "identico": true
+  },
+  {
+    "file": "pillole/chop-suey-storia.jpg",
+    "sha256": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
+    "identico": true
+  },
+  {
+    "file": "pillole/mr-brightside-storia.jpg",
+    "sha256": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
+    "identico": true
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "identico": true
+  },
+  {
+    "file": "sitemap-album.xml",
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "identico": true
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "sha256": "420579f5d2621483614dc6b4fb31a057db0422c1c8fd6b85db0c77de9b87bed5",
+    "identico": true
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "identico": true
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "identico": true
+  },
+  {
+    "file": "sitemap.xml",
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]
