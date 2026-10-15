@@ -1,0 +1,27 @@
+{
+  "percorsi": [
+    {
+      "destinazione": "/canzone/the-sound-of-silence/",
+      "h1": "Significato di The Sound of Silence",
+      "overflow": false,
+      "w": 390
+    },
+    {
+      "overflow": false,
+      "ritorno": "/canzone/sound-of-silence-disturbed/",
+      "w": 390
+    },
+    {
+      "destinazione": "/canzone/killing-in-the-name/",
+      "h1": "Significato di Killing in the Name",
+      "overflow": false,
+      "w": 390
+    },
+    {
+      "overflow": false,
+      "ritorno": "/canzone/one-step-closer/",
+      "w": 390
+    }
+  ],
+  "note": "Il clic automatico su testo distribuito su due righe non ha navigato. Completato il percorso tramite clic sul rettangolo visibile del testo."
+}

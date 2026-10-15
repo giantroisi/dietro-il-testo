@@ -4989,3 +4989,8 @@ CSV storici con stato al4ottobre: sorgenti indicizzate, destinazioni rilevate/es
 SEO696/coerenza-link321-104/affiliazioni1065/contestuali7percorsi10link positivi; confronto698HTML,668paragrafi non selezionati byte-identici, casi negativi, sei percorsi browser1280/390/320 con clic/ritorno/scroll/focus positivi. Accesso locale specificamente autorizzato dal proprietario. Dossier rapporti/consolidamento-link-2026-10-15.md; diff e prove in rapporti/prove-consolidamento-link-2026-10-15/.
 
 Copia ritratto-nin, ramo codex/consolidamento-link-contestuali-2026-10-15, basee97f3d673. Commit solo locale dopo controlli; mostrare piano/diff e attendere approvazione prima di integrazione, push e pubblicazione. Main/nontracciati/altraAI/revisioni intatti. Cartoline ferme; nessun altro lotto avviato. Limiti: baseline storica, nessuna garanzia di indicizzazione, verifica delle sole relazioni e non revisione integrale.
+
+
+### Esito §129 — due collegamenti pubblicati, 15 ottobre 2026
+
+Approvazione diretta e specifica del proprietario. Integrato/push9a60430ac; Vercel63uhMNDmXsvvDFJ7xKLZMmgYnZU2 Ready/Latest/Current/Production,14:04:13CEST,17secondi. Dieci file pubblici identici al commit: quattroHTML e sei sitemap. Browser390 conferma clic effettivo verso Killing in the Name/originale Sound of Silence e ritorno, nessun overflow. Prove e rapporto di pubblicazione dedicati. Unico dateModified/lastmod Disturbed12→15ottobre già previsto, altre date/parole/immagini intatte; nessun build generale né richiestaGSC/IndexNow. Questa chiusura è sola documentazione. Main/nontracciati/altraAI/revisioni preservati. Cartoline ferme e nessun altro lotto avviato.

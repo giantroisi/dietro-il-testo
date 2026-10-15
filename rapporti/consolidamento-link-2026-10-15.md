@@ -1,6 +1,8 @@
 # Due collegamenti nella prosa — lotto isolato del 15 ottobre 2026
 
-**Stato: preparato e verificato, solo locale; da approvare prima di integrazione, push e pubblicazione.**
+**Stato: approvato dal proprietario, integrato e pubblicato il 15 ottobre 2026.**
+
+Vercel `63uhMNDmXsvvDFJ7xKLZMmgYnZU2`, Ready/Latest/Current/Production, 14:04:13 CEST, 17 secondi; commit `9a60430ac68f8acd4dd38460bbf5be099717b70e`. Le sezioni seguenti documentano la preparazione precedente all’approvazione. Esito e prove: [chiusura](pubblicazione-consolidamento-link-2026-10-15.md).
 
 Copia: `/Users/gianmicheletroisi/.codex/worktrees/ritratto-nin-2026-10-15/dietro-il-testo`
 Ramo: `codex/consolidamento-link-contestuali-2026-10-15`
