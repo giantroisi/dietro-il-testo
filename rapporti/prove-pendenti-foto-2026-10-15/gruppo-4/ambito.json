@@ -1,0 +1,23 @@
+{
+  "base": "38149421cf21bb1585d167bfa98b1e4534009570",
+  "pagine": [
+    "artista/fleetwood-mac/index.html",
+    "artista/franco-battiato/index.html",
+    "artista/gianna-nannini/index.html",
+    "artista/guns-n-roses/index.html",
+    "artista/john-lennon/index.html"
+  ],
+  "nuoveChiavi": [
+    "fleetwood-mac",
+    "franco-battiato",
+    "gianna-nannini",
+    "guns-n-roses",
+    "john-lennon"
+  ],
+  "precedentiChiaviPreservate": 77,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}

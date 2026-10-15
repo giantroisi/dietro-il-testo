@@ -1,0 +1,431 @@
+[
+  {
+    "slug": "fleetwood-mac",
+    "branch": "codex/ritratto-fleetwood-mac-2026-10-06",
+    "commit": "62d224eb49bbdf17bb09960b9cc015c07f215c99",
+    "portrait": {
+      "file": "fleetwood-mac-sacramento-2014.jpg",
+      "autore": "Steffane Lui (Steff su Flickr)",
+      "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY 2.0 esposta sull'account Flickr di Steffane Lui",
+      "licenza": "CC BY 2.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "fonte": "https://www.flickr.com/photos/steffanelui/15883204261/",
+      "paginaCommons": "https://commons.wikimedia.org/wiki/File:Fleetwood_Mac_November_2014.jpg",
+      "titoloOriginale": "Fleetwood Mac",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Fleetwood_Mac_November_2014.jpg",
+      "dataScatto": "2014-11-24",
+      "dataVerifica": "2026-10-06",
+      "paginaUso": "/artista/fleetwood-mac/",
+      "alt": "I Fleetwood Mac si esibiscono sul palco a Sacramento nel 2014",
+      "modifiche": "File originale Wikimedia Commons derivato dalla foto Flickr di Steffane Lui; nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+      "creditoVisibile": "Foto di Steffane Lui (Steff su Flickr) · Fleetwood Mac · CC BY 2.0 · originale Commons senza modifiche locali",
+      "dimensioni": {
+        "larghezza": 1607,
+        "altezza": 894
+      },
+      "byte": 647977,
+      "sha256": "3b196afb65c08828279f09b99a3dfa1d4dd6de21c61fe5fa101ea98e026123c8",
+      "creditoParti": [
+        "Foto di Steffane Lui (Steff su Flickr) · ",
+        {
+          "testo": "Fleetwood Mac",
+          "url": "https://www.flickr.com/photos/steffanelui/15883204261/"
+        },
+        " · ",
+        {
+          "testo": "CC BY 2.0",
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        " · originale Commons senza modifiche locali"
+      ]
+    },
+    "reports": [
+      "rapporti/licenze/ritratto-fleetwood-mac-2026-10-06.md"
+    ],
+    "portraitFinale": {
+      "file": "fleetwood-mac-sacramento-2014.jpg",
+      "autore": "Steffane Lui (Steff su Flickr)",
+      "titolareDichiarato": "Non indicato separatamente dall'autore; licenza CC BY 2.0 esposta sull'account Flickr di Steffane Lui",
+      "licenza": "CC BY 2.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "fonte": "https://www.flickr.com/photos/steffanelui/15883204261/",
+      "paginaCommons": "https://commons.wikimedia.org/wiki/File:Fleetwood_Mac_November_2014.jpg",
+      "titoloOriginale": "Fleetwood Mac",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Fleetwood_Mac_November_2014.jpg",
+      "dataScatto": "2014-11-24",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/fleetwood-mac/",
+      "alt": "I Fleetwood Mac si esibiscono sul palco a Sacramento nel 2014",
+      "modifiche": "File originale Wikimedia Commons derivato dalla foto Flickr di Steffane Lui; nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+      "creditoVisibile": "Foto di Steffane Lui (Steff su Flickr) · Fleetwood Mac · CC BY 2.0 · originale Commons senza modifiche locali",
+      "dimensioni": {
+        "larghezza": 1607,
+        "altezza": 894
+      },
+      "byte": 647977,
+      "sha256": "3b196afb65c08828279f09b99a3dfa1d4dd6de21c61fe5fa101ea98e026123c8",
+      "creditoParti": [
+        "Foto di Steffane Lui (Steff su Flickr) · ",
+        {
+          "testo": "Fleetwood Mac",
+          "url": "https://www.flickr.com/photos/steffanelui/15883204261/"
+        },
+        " · ",
+        {
+          "testo": "CC BY 2.0",
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        " · originale Commons senza modifiche locali"
+      ],
+      "dataVerificaPrecedente": "2026-10-06",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/8/83/Fleetwood_Mac_November_2014.jpg",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Mantenere autore, titolo ove fornito, fonte e link alla licenza; indicare modifiche e non implicare sostegno del licenziante. Nessuna restrizione aggiuntiva.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  },
+  {
+    "slug": "franco-battiato",
+    "branch": "codex/ritratto-franco-battiato-2026-10-07",
+    "commit": "1be59652f342be5c6414bb916b1323b2f33bce5d",
+    "portrait": {
+      "file": "franco-battiato-perugia-2016.jpg",
+      "autore": "SurrealReplicant",
+      "titolareDichiarato": "SurrealReplicant, secondo la dichiarazione di opera propria sulla pagina originale",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg",
+      "titoloOriginale": "Franco Battiato.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Franco_Battiato.jpg",
+      "dataScatto": "2016-04-30",
+      "dataVerifica": "2026-10-07",
+      "paginaUso": "/artista/franco-battiato/",
+      "alt": "Franco Battiato al microfono durante un concerto a Perugia nel 2016",
+      "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+      "creditoVisibile": "Foto di SurrealReplicant · Franco Battiato.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+      "dimensioni": {
+        "larghezza": 798,
+        "altezza": 1417
+      },
+      "byte": 338340,
+      "sha256": "c184e51948d3c378f53867d18a78d67c34270f3b1bc7b92fc6ca6a08e8eaa6f7",
+      "creditoParti": [
+        "Foto di SurrealReplicant · ",
+        {
+          "testo": "Franco Battiato.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg"
+        },
+        " · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+        },
+        " · originale senza modifiche locali"
+      ]
+    },
+    "reports": [
+      "rapporti/licenze/ritratto-franco-battiato-2026-10-07.md"
+    ],
+    "portraitFinale": {
+      "file": "franco-battiato-perugia-2016.jpg",
+      "autore": "SurrealReplicant",
+      "titolareDichiarato": "SurrealReplicant, secondo la dichiarazione di opera propria sulla pagina originale",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg",
+      "titoloOriginale": "Franco Battiato.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Franco_Battiato.jpg",
+      "dataScatto": "2016-04-30",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/franco-battiato/",
+      "alt": "Franco Battiato al microfono durante un concerto a Perugia nel 2016",
+      "modifiche": "File originale Wikimedia Commons, nessun ritaglio, ridimensionamento o ritocco locale; sola scala CSS.",
+      "creditoVisibile": "Foto di SurrealReplicant · Franco Battiato.jpg · CC BY-SA 4.0 · originale senza modifiche locali",
+      "dimensioni": {
+        "larghezza": 798,
+        "altezza": 1417
+      },
+      "byte": 338340,
+      "sha256": "c184e51948d3c378f53867d18a78d67c34270f3b1bc7b92fc6ca6a08e8eaa6f7",
+      "creditoParti": [
+        "Foto di SurrealReplicant · ",
+        {
+          "testo": "Franco Battiato.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Franco_Battiato.jpg"
+        },
+        " · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+        },
+        " · originale senza modifiche locali"
+      ],
+      "dataVerificaPrecedente": "2026-10-07",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/7/73/Franco_Battiato.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Mantenere autore, titolo ove fornito, fonte e link alla licenza; indicare modifiche e non implicare sostegno del licenziante. Adattamenti con stessa licenza o compatibile. Nessuna restrizione aggiuntiva.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  },
+  {
+    "slug": "gianna-nannini",
+    "branch": "codex/ritratto-gianna-nannini-2026-10-06",
+    "commit": "5929b67eb2fdd22ff15e19a4971aa414769549a0",
+    "portrait": {
+      "file": "gianna-nannini-live-2017.jpg",
+      "autore": "Stefan Brending",
+      "titolareDichiarato": "Stefan Brending / www.2eight.de, come indicato nei metadati Commons",
+      "licenza": "CC BY-SA 3.0 DE",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode",
+      "fonte": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+      "titoloOriginale": "2017 Gianna Nannini - by 2eight - DSC3431.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg/960px-2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+      "dataScatto": "2017-04-02",
+      "dataVerifica": "2026-10-06",
+      "paginaUso": "/artista/gianna-nannini/",
+      "alt": "Gianna Nannini canta al microfono durante un concerto a Norimberga nel 2017",
+      "modifiche": "Versione web da 960 × 1442 px generata da Wikimedia Commons dall’originale 1363 × 2048 px; nessun ritaglio o ritocco locale. Il CSS la scala senza tagli.",
+      "creditoVisibile": "Foto: Stefan Brending · 2017 Gianna Nannini - by 2eight - DSC3431 · CC BY-SA 3.0 DE · versione web Commons, nessun ritocco locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 1442
+      },
+      "byte": 373827,
+      "sha256": "8ce252e8fde25865b2a46c7e86d266d8498b234ed9962f3a21ddbb55a3265330",
+      "creditoParti": [
+        "Foto: Stefan Brending · ",
+        {
+          "testo": "2017 Gianna Nannini - by 2eight - DSC3431",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg"
+        },
+        " · ",
+        {
+          "testo": "CC BY-SA 3.0 DE",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode"
+        },
+        " · versione web Commons, nessun ritocco locale"
+      ]
+    },
+    "reports": [
+      "rapporti/licenze/ritratto-gianna-nannini-2026-10-06.md"
+    ],
+    "portraitFinale": {
+      "file": "gianna-nannini-live-2017.jpg",
+      "autore": "Stefan Brending",
+      "titolareDichiarato": "Stefan Brending / www.2eight.de, come indicato nei metadati Commons",
+      "licenza": "CC BY-SA 3.0 DE",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode",
+      "fonte": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+      "titoloOriginale": "2017 Gianna Nannini - by 2eight - DSC3431.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg/960px-2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg",
+      "dataScatto": "2017-04-02",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/gianna-nannini/",
+      "alt": "Gianna Nannini canta al microfono durante un concerto a Norimberga nel 2017",
+      "modifiche": "Versione web da 960 × 1442 px generata da Wikimedia Commons dall’originale 1363 × 2048 px; nessun ritaglio o ritocco locale. Il CSS la scala senza tagli.",
+      "creditoVisibile": "Foto: Stefan Brending · 2017 Gianna Nannini - by 2eight - DSC3431.jpg · Lizenz: Creative Commons CC-BY-SA-3.0 de · versione web Commons, nessun ritocco locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 1442
+      },
+      "byte": 373827,
+      "sha256": "8ce252e8fde25865b2a46c7e86d266d8498b234ed9962f3a21ddbb55a3265330",
+      "creditoParti": [
+        "Foto: Stefan Brending · ",
+        {
+          "testo": "2017 Gianna Nannini - by 2eight - DSC3431.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg"
+        },
+        " · Lizenz: ",
+        {
+          "testo": "Creative Commons CC-BY-SA-3.0 de",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode"
+        },
+        " · versione web Commons, nessun ritocco locale"
+      ],
+      "dataVerificaPrecedente": "2026-10-06",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2017_Gianna_Nannini_-_by_2eight_-_DSC3431.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Mantenere autore, titolo ove fornito, fonte e link alla licenza; indicare modifiche e non implicare sostegno del licenziante. Adattamenti con stessa licenza o compatibile. Nessuna restrizione aggiuntiva.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  },
+  {
+    "slug": "guns-n-roses",
+    "branch": "codex/ritratto-guns-n-roses-2026-10-06",
+    "commit": "9feec494a15975e472bf9e0021ebc8a11d10406e",
+    "portrait": {
+      "file": "guns-n-roses-londra-2017.jpg",
+      "autore": "Mermin Sven",
+      "titolareDichiarato": "Mermin Sven dichiara sulla pagina Commons di essere il titolare del copyright e pubblica l'opera con CC BY-SA 4.0",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+      "titoloOriginale": "Reformation des Guns N' Roses , photo exceptionnelle des trois précurseurs du groupe mythique.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg/960px-Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+      "dataScatto": "2017-06-17",
+      "dataVerifica": "2026-10-06",
+      "paginaUso": "/artista/guns-n-roses/",
+      "alt": "Axl Rose, Slash e Duff McKagan dei Guns N’ Roses sul palco a Londra nel 2017",
+      "modifiche": "Versione web da 960 × 1200 px generata da Wikimedia Commons; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina. La cronologia Commons registra una precedente versione ritagliata nel 2021 e il ripristino delle dimensioni originali nel 2026.",
+      "creditoVisibile": "Foto di Mermin Sven · Guns N’ Roses a Londra, 2017 · CC BY-SA 4.0 · versione web Commons, nessun ritocco locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 1200
+      },
+      "byte": 258003,
+      "sha256": "7cccc1bcd098044d7c04b0d766c5bcd1c544efe8f39c6dc94acbe7474ded9068",
+      "creditoParti": [
+        "Foto di Mermin Sven · ",
+        {
+          "testo": "Guns N’ Roses a Londra, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg"
+        },
+        " · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        " · versione web Commons, nessun ritocco locale"
+      ]
+    },
+    "reports": [
+      "rapporti/licenze/ritratto-guns-n-roses-2026-10-06.md"
+    ],
+    "portraitFinale": {
+      "file": "guns-n-roses-londra-2017.jpg",
+      "autore": "Mermin Sven",
+      "titolareDichiarato": "Mermin Sven dichiara sulla pagina Commons di essere il titolare del copyright e pubblica l'opera con CC BY-SA 4.0",
+      "licenza": "CC BY-SA 4.0",
+      "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+      "titoloOriginale": "Reformation des Guns N' Roses , photo exceptionnelle des trois précurseurs du groupe mythique.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg/960px-Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg",
+      "dataScatto": "2017-06-17",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/guns-n-roses/",
+      "alt": "Axl Rose, Slash e Duff McKagan dei Guns N’ Roses sul palco a Londra nel 2017",
+      "modifiche": "Versione web da 960 × 1200 px generata da Wikimedia Commons; nessun ritaglio o ritocco locale. Il CSS la ridimensiona per la pagina. La cronologia Commons registra una precedente versione ritagliata nel 2021 e il ripristino delle dimensioni originali nel 2026.",
+      "creditoVisibile": "Foto di Mermin Sven · Guns N’ Roses a Londra, 2017 · CC BY-SA 4.0 · versione web Commons, nessun ritocco locale",
+      "dimensioni": {
+        "larghezza": 960,
+        "altezza": 1200
+      },
+      "byte": 258003,
+      "sha256": "7cccc1bcd098044d7c04b0d766c5bcd1c544efe8f39c6dc94acbe7474ded9068",
+      "creditoParti": [
+        "Foto di Mermin Sven · ",
+        {
+          "testo": "Guns N’ Roses a Londra, 2017",
+          "url": "https://commons.wikimedia.org/wiki/File:Reformation_des_Guns_N%27_Roses_,_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg"
+        },
+        " · ",
+        {
+          "testo": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        " · versione web Commons, nessun ritocco locale"
+      ],
+      "dataVerificaPrecedente": "2026-10-06",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/8/88/Reformation_des_Guns_N%27_Roses_%2C_photo_exceptionnelle_des_trois_pr%C3%A9curseurs_du_groupe_mythique.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Mantenere autore, titolo ove fornito, fonte e link alla licenza; indicare modifiche e non implicare sostegno del licenziante. Adattamenti con stessa licenza o compatibile. Nessuna restrizione aggiuntiva.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  },
+  {
+    "slug": "john-lennon",
+    "branch": "codex/ritratto-john-lennon-2026-10-07",
+    "commit": "a42b968ccdd66ff316d9885d7b5f704c1147fba1",
+    "portrait": {
+      "file": "john-lennon-1969.jpg",
+      "autore": "Joost Evers / Anefo",
+      "titolareDichiarato": "Nationaal Archief (indicato come titolare e CC0 nella scheda originale)",
+      "licenza": "CC0 1.0",
+      "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg",
+      "archivioOriginale": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84",
+      "titoloOriginale": "John Lennon 1969 (cropped).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/John_Lennon_1969_%28cropped%29.jpg",
+      "dataScatto": "1969-03-31",
+      "dataVerifica": "2026-10-07",
+      "paginaUso": "/artista/john-lennon/",
+      "alt": "Primo piano in bianco e nero di John Lennon con barba e occhiali nel 1969",
+      "modifiche": "Ritaglio archivistico già presente su Wikimedia Commons; file Commons copiato senza ulteriori ritagli, ridimensionamenti o ritocchi locali. Sola scala CSS.",
+      "creditoVisibile": "John Lennon, 1969 · foto di Joost Evers / Anefo · Nationaal Archief · CC0 1.0 · ritaglio archivistico",
+      "dimensioni": {
+        "larghezza": 612,
+        "altezza": 883
+      },
+      "byte": 284759,
+      "sha256": "c220f7bf48995f050bb23eaf3113a741240a6c47259400d919fd94b204438832",
+      "creditoParti": [
+        "John Lennon, 1969 · foto di ",
+        {
+          "testo": "Joost Evers / Anefo",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg"
+        },
+        " · ",
+        {
+          "testo": "Nationaal Archief",
+          "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84"
+        },
+        " · ",
+        {
+          "testo": "CC0 1.0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        " · ritaglio archivistico"
+      ]
+    },
+    "reports": [
+      "rapporti/licenze/ritratto-john-lennon-2026-10-07.md"
+    ],
+    "portraitFinale": {
+      "file": "john-lennon-1969.jpg",
+      "autore": "Joost Evers / Anefo",
+      "titolareDichiarato": "Nationaal Archief (indicato come titolare e CC0 nella scheda originale)",
+      "licenza": "CC0 1.0",
+      "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "fonte": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg",
+      "archivioOriginale": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84",
+      "titoloOriginale": "John Lennon 1969 (cropped).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/John_Lennon_1969_%28cropped%29.jpg",
+      "dataScatto": "1969-03-31",
+      "dataVerifica": "2026-10-15",
+      "paginaUso": "/artista/john-lennon/",
+      "alt": "Primo piano in bianco e nero di John Lennon con barba e occhiali nel 1969",
+      "modifiche": "Ritaglio archivistico già presente su Wikimedia Commons; file Commons copiato senza ulteriori ritagli, ridimensionamenti o ritocchi locali. Sola scala CSS.",
+      "creditoVisibile": "John Lennon, 1969 · foto di Joost Evers / Anefo · Nationaal Archief · CC0 1.0 · ritaglio archivistico",
+      "dimensioni": {
+        "larghezza": 612,
+        "altezza": 883
+      },
+      "byte": 284759,
+      "sha256": "c220f7bf48995f050bb23eaf3113a741240a6c47259400d919fd94b204438832",
+      "creditoParti": [
+        "John Lennon, 1969 · foto di ",
+        {
+          "testo": "Joost Evers / Anefo",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Lennon_1969_(cropped).jpg"
+        },
+        " · ",
+        {
+          "testo": "Nationaal Archief",
+          "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84"
+        },
+        " · ",
+        {
+          "testo": "CC0 1.0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        " · ritaglio archivistico"
+      ],
+      "dataVerificaPrecedente": "2026-10-07",
+      "stessaImmagineCondivisione": true,
+      "urlFile": "https://upload.wikimedia.org/wikipedia/commons/8/85/John_Lennon_1969_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "obblighi": "Riuso commerciale e modifiche consentiti. Pubblico dominio: nessun obbligo di attribuzione per copyright; credito e fonte conservati per trasparenza.",
+      "ricontrollo20261015": "Fonte originale e atto della licenza riaperti il15ottobre2026; file e soggetto osservati nelle tavole salvate. Nessun nuovo intervento sui pixel; stessa immagine in pagina e OG/Twitter. Dossier originale conservato con i limiti dichiarati. Nessuna nuova verifica editoriale della biografia."
+    }
+  }
+]

@@ -1,0 +1,59 @@
+- link "Overslaan en naar de inhoud gaan":
+  - /url: "#main-content"
+- main:
+  - navigation:
+    - button "Ga naar de fotocollectie"
+    - button "Draai rechtsom"
+    - button "Draai linksom"
+    - button "Spiegelen"
+    - button "Kleuraanpassingen tonen/verbergen"
+    - button "Uitzoomen"
+    - button "Inzoomen"
+    - button "Volledig scherm in-/uitschakelen"
+    - link "nationaal archief":
+      - /url: /
+  - navigation:
+    - list:
+      - link "Metagegevens":
+        - /url: "?tab=metadata"
+      - link "Download":
+        - /url: "?tab=download"
+      - link "Commentaren":
+        - /url: "?tab=comment"
+  - heading "Informatie" [level=2]
+  - list:
+    - heading "Collectie / Archief" [level=3]
+    - generic: Fotocollectie Anefo
+    - heading "Beschrijving" [level=3]
+    - generic: John Lennon en echtgenote Yoko Ono vertrekken van Schiphol naar Wenen in de vertrekhal, John Lennon en Yoko Ono op een KLM wagentje
+    - heading "Datum" [level=3]
+    - generic: 1969-03-31
+    - heading "Locatie" [level=3]
+    - generic: Noord-Holland
+    - generic: Schiphol
+    - heading "Trefwoorden" [level=3]
+    - generic: aankomst- en vertrekhallen
+    - generic: musici
+    - generic: echtparen
+    - generic: vliegvelden
+    - generic: aankomst en vertrek
+    - heading "Persoonsnamen" [level=3]
+    - generic: Lennon, John
+    - generic: Ono, Yoko
+    - heading "Fotograaf" [level=3]
+    - generic: Evers, Joost / Anefo
+    - heading "Auteursrechthebbende" [level=3]
+    - generic: Nationaal Archief, CC0
+    - heading "Materiaalsoort" [level=3]
+    - generic: Negatief (zwart/wit)
+    - heading "Nummer toegang" [level=3]
+    - generic: 2.24.01.05
+    - heading "Bestanddeelnummer" [level=3]
+    - generic: 922-2494
+    - heading "Permanente url" [level=3]
+    - link "http://hdl.handle.net/10648/ab63fd72-d0b4-102d-bcf8-003048976d84":
+      - /url: http://hdl.handle.net/10648/ab63fd72-d0b4-102d-bcf8-003048976d84
+    - heading "Volgnummer" [level=3]
+    - generic: "1"
+  - link "tab sluiten":
+    - /url: "?"
