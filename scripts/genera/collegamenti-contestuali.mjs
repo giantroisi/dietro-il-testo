@@ -10,6 +10,11 @@ export const COLLEGAMENTI_CONTESTUALI = JSON.parse(readFileSync(
 export function collegamentiContestuali(c, canzoniPerSlug, radice) {
   const scelta = COLLEGAMENTI_CONTESTUALI[c.slug];
   if (!scelta) return '';
+  if (scelta.nelTesto) {
+    const i = scelta.nelTesto.paragrafo;
+    collegamentoNelTesto(c, c.corpo[i], i, canzoniPerSlug, radice);
+    return '';
+  }
   if (scelta.artistaSlug !== c.artistaSlug || !scelta.destinazioni?.length) {
     throw new Error(`${c.slug}: collegamenti contestuali senza artista coerente o destinazioni`);
   }
@@ -29,4 +34,24 @@ export function collegamentiContestuali(c, canzoniPerSlug, radice) {
     return `<p class="collegamenti-contestuali">${esc(scelta.prima)}${link[0]}${esc(scelta.dopo)}</p>`;
   }
   return `<p class="collegamenti-contestuali">Continua fra le canzoni di ${esc(c.artista)}: ${link.join(' e ')}.</p>`;
+}
+
+// Trasforma un titolo già presente nella prosa in un link, senza cambiare le parole.
+// Le scelte fra artisti diversi dichiarano e verificano anche l’artista destinatario.
+export function collegamentoNelTesto(c, testo, indice, canzoniPerSlug, radice) {
+  const scelta = COLLEGAMENTI_CONTESTUALI[c.slug];
+  const dato = scelta?.nelTesto;
+  if (!dato) return esc(testo);
+  const destinazione = canzoniPerSlug.get(scelta.destinazioni?.[0]);
+  if (scelta.artistaSlug !== c.artistaSlug || scelta.destinazioni?.length !== 1 ||
+      !Number.isInteger(dato.paragrafo) || dato.paragrafo < 0 || dato.paragrafo >= c.corpo.length ||
+      !destinazione || destinazione.slug === c.slug ||
+      destinazione.artistaSlug !== dato.artistaDestinazioneSlug ||
+      dato.anchor !== destinazione.titolo || c.naturaCorpo?.length) {
+    throw new Error(`${c.slug}: collegamento nel testo non coerente`);
+  }
+  if (indice !== dato.paragrafo) return esc(testo);
+  const parti = testo.split(dato.anchor);
+  if (parti.length !== 2) throw new Error(`${c.slug}: titolo nel paragrafo assente o ambiguo`);
+  return `${esc(parti[0])}<a href="${radice}canzone/${esc(destinazione.slug)}/">${esc(dato.anchor)}</a>${esc(parti[1])}`;
 }

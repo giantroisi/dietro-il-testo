@@ -4978,3 +4978,14 @@ Copia ritratto-nin, ramo codex/cartoline-chop-suey-mr-brightside-anteprima-2026-
 Approvazione diretta «pubblica Chop Suey! e Mr. Brightside, uguali nella pagina e nella condivisione. Poi fermati con le cartoline». Integrato/push04e6f98a0; Vercel7MJyQuYDstGC9wPAK9yysSwY7h4n Ready/Latest/Current/Production,13:36:48CEST,17secondi. Dieci file pubblici identici al commit: dueHTML/JPEG e sei sitemap. Browser conferma caricamento, nessun overflow, stesso JPEG figura/Storia/OG/Twitter. Prove e screenshot pubblici in rapporti/prove-pubblicazione-chop-brightside-2026-10-15/; rapporto dedicato.
 
 Unico dateModified/lastmod MrBrightside11→15ottobre per fonte aggiunta; datePublished/altre date preservate. Questa chiusura è sola documentazione, nessun build generale. **Filone cartoline fermato su richiesta del proprietario: non preparare né pubblicare altre cartoline.** Le bozze CanYouFeelMyHeart/FollowYou restano isolate in11d30787a, senza autorizzazione al rilascio. Nessuna estensione automatica o altra attività avviata. Main/nontracciati/altraAI/proposte preservati.
+
+
+## 129. Due collegamenti nella prosa — preparati e verificati, 15 ottobre 2026
+
+Primo lotto isolato di consolidamento: One Step Closer → Killing in the Name e versione Disturbed → originale Simon & Garfunkel di The Sound of Silence. Due titoli già presenti diventano cliccabili, senza cambiare parole. Cluster Hot Fuss/Toxicity/Rumours/Hotel California già collegati; nessun brano del catalogo per Come è profondo il mare, nessun link forzato. Grafo 698HTML: pagine entranti10→11 e8→9, due soli nuovi archi.
+
+CSV storici con stato al4ottobre: sorgenti indicizzate, destinazioni rilevate/escluse da indicizzate e scansionate; registro riletto e richieste ultimi14giorni escluse. Nessun accessoGSC live/richiesta/IndexNow. Fonti TheRinger e intervista MusicFeeds riaperte. Registro contestuale esteso con due sole voci e renderer/check per titoli nella prosa. DueHTML, tre script, JSON e sitemap-canzoni; unica dataModified/lastmod Disturbed12→15ottobre, altre date/titoli/description/canonical/dati/immagini intatti. Nessun build generale.
+
+SEO696/coerenza-link321-104/affiliazioni1065/contestuali7percorsi10link positivi; confronto698HTML,668paragrafi non selezionati byte-identici, casi negativi, sei percorsi browser1280/390/320 con clic/ritorno/scroll/focus positivi. Accesso locale specificamente autorizzato dal proprietario. Dossier rapporti/consolidamento-link-2026-10-15.md; diff e prove in rapporti/prove-consolidamento-link-2026-10-15/.
+
+Copia ritratto-nin, ramo codex/consolidamento-link-contestuali-2026-10-15, basee97f3d673. Commit solo locale dopo controlli; mostrare piano/diff e attendere approvazione prima di integrazione, push e pubblicazione. Main/nontracciati/altraAI/revisioni intatti. Cartoline ferme; nessun altro lotto avviato. Limiti: baseline storica, nessuna garanzia di indicizzazione, verifica delle sole relazioni e non revisione integrale.

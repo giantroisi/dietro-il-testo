@@ -1,0 +1,174 @@
+diff --git a/canzone/one-step-closer/index.html b/canzone/one-step-closer/index.html
+index 997b245ba..a515c6b67 100644
+--- a/canzone/one-step-closer/index.html
++++ b/canzone/one-step-closer/index.html
+@@ -1052,7 +1052,7 @@ a { color: inherit; }
+       <div class="prosa">
+         <p>Nato durante le session di registrazione di &quot;Hybrid Theory&quot; (2000) ai NRG Recording Studios di North Hollywood, con il titolo di lavorazione &quot;Plaster&quot;. Come racconta il libro &quot;It Starts With One&quot; di Jason Lipshutz, il produttore Don Gilmore — scelto nonostante fosse un veterano del rock alternativo digiuno di hip hop, come ammise lui stesso alla band fin dal primo incontro — continuava a chiedere revisioni ai testi, mentre anche l'etichetta Warner Bros. spingeva per ridurre le parti rappate e gli scratch, gli elementi più originali del sound della band. Chester Bennington e Mike Shinoda scrissero il pezzo quasi come una risposta rabbiosa a quelle pressioni, in un clima di tensione crescente.</p>
+         <figure class="pillola-editoriale"><div class="pillola-immagini"><img src="../../pillole/one-step-closer-storia.jpg?v=bb77e0da7acb" width="1080" height="1920" loading="lazy" decoding="async" alt="Cartolina di condivisione di One Step Closer: Linkin Park. 2000. Album: Hybrid Theory. Lo sfogo diventa musica. Chester scrisse uno sfogo in studio. A Mike piacque: divenne il bridge, registrato senza anticiparne le parole a Gilmore. Un riff in un parcheggio. Brad Delson trovò il riff mentre la band faceva foto nel garage di Joe Hahn. Shinoda lo sentì e gli chiese di registrarlo."></div><figcaption>Storia e curiosità raccontate con parole nostre · <a href="#fonti">Fonti della scheda</a></figcaption></figure>
+-        <p>Mancava però ancora il bridge del brano: Mike Shinoda immaginava qualcosa nello spirito del breakdown di &quot;Killing in the Name&quot; dei Rage Against the Machine, ma non riusciva a trovare le parole giuste, e Gilmore continuava a chiedere altri tentativi. Esasperato, Chester scrisse di getto due parole per sfogarsi in privato; a Mike piacquero subito, e i due entrarono in studio senza dire a Gilmore cosa stessero per registrare, chiedendogli solo di far partire la traccia. Il grido che ne uscì, urlato da Bennington in un'unica esplosione di rabbia accumulata, divenne il bridge definitivo del brano e uno dei momenti più iconici della sua carriera.</p>
++        <p>Mancava però ancora il bridge del brano: Mike Shinoda immaginava qualcosa nello spirito del breakdown di &quot;<a href="../../canzone/killing-in-the-name/">Killing in the Name</a>&quot; dei Rage Against the Machine, ma non riusciva a trovare le parole giuste, e Gilmore continuava a chiedere altri tentativi. Esasperato, Chester scrisse di getto due parole per sfogarsi in privato; a Mike piacquero subito, e i due entrarono in studio senza dire a Gilmore cosa stessero per registrare, chiedendogli solo di far partire la traccia. Il grido che ne uscì, urlato da Bennington in un'unica esplosione di rabbia accumulata, divenne il bridge definitivo del brano e uno dei momenti più iconici della sua carriera.</p>
+ 
+       </div>
+     </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Hybrid Theory su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+diff --git a/canzone/sound-of-silence-disturbed/index.html b/canzone/sound-of-silence-disturbed/index.html
+index 307cb170f..8f22613e0 100644
+--- a/canzone/sound-of-silence-disturbed/index.html
++++ b/canzone/sound-of-silence-disturbed/index.html
+@@ -30,7 +30,7 @@
+ <meta property="og:image:height" content="630">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:image" content="https://www.dietroiltesto.it/og/sound-of-silence-disturbed.png?v=daaf2b558ccd">
+-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/#brano","name":"The Sound of Silence","byArtist":{"@type":"MusicGroup","name":"Disturbed","url":"https://www.dietroiltesto.it/artista/disturbed/"},"inAlbum":{"@type":"MusicAlbum","name":"Immortalized"},"datePublished":"2015","url":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/","description":"Nell'album \"Immortalized\" del 2015, i Disturbed reinterpretano \"The Sound of Silence\" di Simon & Garfunkel, scritta da Paul Simon nel 1964."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Metal","item":"https://www.dietroiltesto.it/genere/metal/"},{"@type":"ListItem","position":3,"name":"The Sound of Silence","item":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/"}]},{"@type":"Article","headline":"The Sound of Silence","about":{"@id":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/","dateModified":"2026-10-12"}]}</script>
++<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/#brano","name":"The Sound of Silence","byArtist":{"@type":"MusicGroup","name":"Disturbed","url":"https://www.dietroiltesto.it/artista/disturbed/"},"inAlbum":{"@type":"MusicAlbum","name":"Immortalized"},"datePublished":"2015","url":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/","description":"Nell'album \"Immortalized\" del 2015, i Disturbed reinterpretano \"The Sound of Silence\" di Simon & Garfunkel, scritta da Paul Simon nel 1964."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Metal","item":"https://www.dietroiltesto.it/genere/metal/"},{"@type":"ListItem","position":3,"name":"The Sound of Silence","item":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/"}]},{"@type":"Article","headline":"The Sound of Silence","about":{"@id":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/","dateModified":"2026-10-15"}]}</script>
+ <style>
+ :root {
+   --bg: #FDFCFF;
+@@ -1042,7 +1042,7 @@ a { color: inherit; }
+     <section class="blocco" id="storia">
+       <h2>La storia</h2>
+       <div class="prosa">
+-        <p>Nell'album &quot;Immortalized&quot; del 2015, i Disturbed reinterpretano &quot;The Sound of Silence&quot; di Simon &amp; Garfunkel, scritta da Paul Simon nel 1964. In un'intervista a Music Feeds, David Draiman raccontò che il gruppo scelse un arrangiamento acustico e orchestrale invece di una versione più aggressiva. Il produttore Kevin Churko ideò la linea di pianoforte iniziale.</p>
++        <p>Nell'album &quot;Immortalized&quot; del 2015, i Disturbed reinterpretano &quot;<a href="../../canzone/the-sound-of-silence/">The Sound of Silence</a>&quot; di Simon &amp; Garfunkel, scritta da Paul Simon nel 1964. In un'intervista a Music Feeds, David Draiman raccontò che il gruppo scelse un arrangiamento acustico e orchestrale invece di una versione più aggressiva. Il produttore Kevin Churko ideò la linea di pianoforte iniziale.</p>
+         <p>Il 28 marzo 2016 i Disturbed eseguirono la cover a &quot;Conan&quot;. Dopo aver visto la performance, Paul Simon scrisse a David Draiman per complimentarsi; il cantante condivise l'email e la propria risposta sulla pagina Facebook del gruppo.</p>
+ 
+       </div>
+diff --git a/dati/collegamenti-contestuali.json b/dati/collegamenti-contestuali.json
+index a126228f9..91f1436e6 100644
+--- a/dati/collegamenti-contestuali.json
++++ b/dati/collegamenti-contestuali.json
+@@ -37,5 +37,27 @@
+     "prima": "Nello stesso album compare anche ",
+     "dopo": ", dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo.",
+     "dopoParagrafo": 0
++  },
++  "one-step-closer": {
++    "artistaSlug": "linkin-park",
++    "destinazioni": [
++      "killing-in-the-name"
++    ],
++    "nelTesto": {
++      "paragrafo": 1,
++      "anchor": "Killing in the Name",
++      "artistaDestinazioneSlug": "rage-against-the-machine"
++    }
++  },
++  "sound-of-silence-disturbed": {
++    "artistaSlug": "disturbed",
++    "destinazioni": [
++      "the-sound-of-silence"
++    ],
++    "nelTesto": {
++      "paragrafo": 0,
++      "anchor": "The Sound of Silence",
++      "artistaDestinazioneSlug": "simon-garfunkel"
++    }
+   }
+ }
+diff --git a/scripts/check-collegamenti-contestuali.mjs b/scripts/check-collegamenti-contestuali.mjs
+index 09dab5500..6b2912235 100644
+--- a/scripts/check-collegamenti-contestuali.mjs
++++ b/scripts/check-collegamenti-contestuali.mjs
+@@ -2,7 +2,7 @@
+ // Verifica i percorsi scelti nei dati e il loro posizionamento nell'HTML.
+ import { readFileSync } from 'node:fs';
+ import assert from 'node:assert/strict';
+-import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './genera/collegamenti-contestuali.mjs';
++import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali, collegamentoNelTesto } from './genera/collegamenti-contestuali.mjs';
+ const root = new URL('../', import.meta.url);
+ const songs = JSON.parse(readFileSync(new URL('dati/canzoni.json', root), 'utf8'));
+ const bySlug = new Map(songs.map(c => [c.slug, c]));
+@@ -13,8 +13,16 @@ for (const slug of Object.keys(COLLEGAMENTI_CONTESTUALI)) {
+   const paragraph = collegamentiContestuali(c, bySlug, '../../');
+   const html = readFileSync(new URL(`sito/canzone/${slug}/index.html`, root), 'utf8');
+   const story = html.match(/<section class="blocco" id="storia">[\s\S]*?<\/section>/)?.[0];
+-  assert(story?.includes(paragraph), `${slug}: percorso assente dalla storia`);
+-  assert.equal((html.match(/class="collegamenti-contestuali"/g) || []).length, 1, `${slug}: percorso duplicato`);
++  const scelta = COLLEGAMENTI_CONTESTUALI[slug];
++  if (scelta.nelTesto) {
++    const i = scelta.nelTesto.paragrafo;
++    const testo = collegamentoNelTesto(c, c.corpo[i], i, bySlug, '../../');
++    assert(story?.includes(`<p>${testo}</p>`), `${slug}: collegamento assente dalla prosa`);
++    assert.equal(paragraph, '', `${slug}: paragrafo duplicato`);
++  } else {
++    assert(story?.includes(paragraph), `${slug}: percorso assente dalla storia`);
++    assert.equal((html.match(/class="collegamenti-contestuali"/g) || []).length, 1, `${slug}: percorso duplicato`);
++  }
+   for (const target of COLLEGAMENTI_CONTESTUALI[slug].destinazioni) {
+     readFileSync(new URL(`sito/canzone/${target}/index.html`, root));
+     links++;
+diff --git a/scripts/genera/collegamenti-contestuali.mjs b/scripts/genera/collegamenti-contestuali.mjs
+index 5e8a37b85..e436910b1 100644
+--- a/scripts/genera/collegamenti-contestuali.mjs
++++ b/scripts/genera/collegamenti-contestuali.mjs
+@@ -10,6 +10,11 @@ export const COLLEGAMENTI_CONTESTUALI = JSON.parse(readFileSync(
+ export function collegamentiContestuali(c, canzoniPerSlug, radice) {
+   const scelta = COLLEGAMENTI_CONTESTUALI[c.slug];
+   if (!scelta) return '';
++  if (scelta.nelTesto) {
++    const i = scelta.nelTesto.paragrafo;
++    collegamentoNelTesto(c, c.corpo[i], i, canzoniPerSlug, radice);
++    return '';
++  }
+   if (scelta.artistaSlug !== c.artistaSlug || !scelta.destinazioni?.length) {
+     throw new Error(`${c.slug}: collegamenti contestuali senza artista coerente o destinazioni`);
+   }
+@@ -30,3 +35,23 @@ export function collegamentiContestuali(c, canzoniPerSlug, radice) {
+   }
+   return `<p class="collegamenti-contestuali">Continua fra le canzoni di ${esc(c.artista)}: ${link.join(' e ')}.</p>`;
+ }
++
++// Trasforma un titolo già presente nella prosa in un link, senza cambiare le parole.
++// Le scelte fra artisti diversi dichiarano e verificano anche l’artista destinatario.
++export function collegamentoNelTesto(c, testo, indice, canzoniPerSlug, radice) {
++  const scelta = COLLEGAMENTI_CONTESTUALI[c.slug];
++  const dato = scelta?.nelTesto;
++  if (!dato) return esc(testo);
++  const destinazione = canzoniPerSlug.get(scelta.destinazioni?.[0]);
++  if (scelta.artistaSlug !== c.artistaSlug || scelta.destinazioni?.length !== 1 ||
++      !Number.isInteger(dato.paragrafo) || dato.paragrafo < 0 || dato.paragrafo >= c.corpo.length ||
++      !destinazione || destinazione.slug === c.slug ||
++      destinazione.artistaSlug !== dato.artistaDestinazioneSlug ||
++      dato.anchor !== destinazione.titolo || c.naturaCorpo?.length) {
++    throw new Error(`${c.slug}: collegamento nel testo non coerente`);
++  }
++  if (indice !== dato.paragrafo) return esc(testo);
++  const parti = testo.split(dato.anchor);
++  if (parti.length !== 2) throw new Error(`${c.slug}: titolo nel paragrafo assente o ambiguo`);
++  return `${esc(parti[0])}<a href="${radice}canzone/${esc(destinazione.slug)}/">${esc(dato.anchor)}</a>${esc(parti[1])}`;
++}
+diff --git a/scripts/genera/pagine.mjs b/scripts/genera/pagine.mjs
+index 30e611928..00530091a 100644
+--- a/scripts/genera/pagine.mjs
++++ b/scripts/genera/pagine.mjs
+@@ -4,7 +4,7 @@
+ import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
+ import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
+ import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
+-import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './collegamenti-contestuali.mjs';
++import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali, collegamentoNelTesto } from './collegamenti-contestuali.mjs';
+ import { PILLOLE, pillolaEditoriale, urlPillola, STILE_PILLOLE } from './pillole.mjs';
+ 
+ // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
+@@ -690,7 +690,7 @@ export function paginaCanzone(c, ctx) {
+   };
+   const corpoHtml = c.corpo
+     .map((par, i) => {
+-      if (!natura.ok) return inserisciPercorso(`<p>${esc(par)}</p>`, i);
++      if (!natura.ok) return inserisciPercorso(`<p>${collegamentoNelTesto(c, par, i, ctx.canzoniPerSlug, r)}</p>`, i);
+       const frasi = inFrasi(par);
+       const segni = c.naturaCorpo[i];
+       const dentro = frasi
+diff --git a/sitemap-canzoni.xml b/sitemap-canzoni.xml
+index c181cb82d..acc2c6d5c 100644
+--- a/sitemap-canzoni.xml
++++ b/sitemap-canzoni.xml
+@@ -156,7 +156,7 @@
+   <url><loc>https://www.dietroiltesto.it/canzone/bulls-on-parade/</loc><lastmod>2026-10-11</lastmod></url>
+   <url><loc>https://www.dietroiltesto.it/canzone/alive/</loc><lastmod>2026-10-11</lastmod></url>
+   <url><loc>https://www.dietroiltesto.it/canzone/man-in-the-box/</loc><lastmod>2026-10-13</lastmod></url>
+-  <url><loc>https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/</loc><lastmod>2026-10-12</lastmod></url>
++  <url><loc>https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/</loc><lastmod>2026-10-15</lastmod></url>
+   <url><loc>https://www.dietroiltesto.it/canzone/war-pigs/</loc><lastmod>2026-10-13</lastmod></url>
+   <url><loc>https://www.dietroiltesto.it/canzone/number-of-the-beast/</loc><lastmod>2026-10-12</lastmod></url>
+   <url><loc>https://www.dietroiltesto.it/canzone/fade-to-black/</loc><lastmod>2026-10-11</lastmod></url>

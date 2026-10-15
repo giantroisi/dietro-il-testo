@@ -4,7 +4,7 @@
 import { pagina, esc, radice, SITO, AUTORE, RITRATTI } from './guscio.mjs';
 import { TRACKING_ID_AMAZON, DICHIARAZIONE_AMAZON, amazonPerScheda, informativaAmazonPerScheda, amazonMobilePerScheda, amazonCompattoPerScheda, amazonPerArtista, STILE_AMAZON_MOBILE } from './affiliazioni.mjs';
 import { inFrasi, verificaNatura, NATURE } from './frasi.mjs';
-import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali } from './collegamenti-contestuali.mjs';
+import { COLLEGAMENTI_CONTESTUALI, collegamentiContestuali, collegamentoNelTesto } from './collegamenti-contestuali.mjs';
 import { PILLOLE, pillolaEditoriale, urlPillola, STILE_PILLOLE } from './pillole.mjs';
 
 // Profili ufficiali dell'editore, usati come `sameAs` nello schema Organization:
@@ -690,7 +690,7 @@ export function paginaCanzone(c, ctx) {
   };
   const corpoHtml = c.corpo
     .map((par, i) => {
-      if (!natura.ok) return inserisciPercorso(`<p>${esc(par)}</p>`, i);
+      if (!natura.ok) return inserisciPercorso(`<p>${collegamentoNelTesto(c, par, i, ctx.canzoniPerSlug, r)}</p>`, i);
       const frasi = inFrasi(par);
       const segni = c.naturaCorpo[i];
       const dentro = frasi

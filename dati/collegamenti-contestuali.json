@@ -37,5 +37,27 @@
     "prima": "Nello stesso album compare anche ",
     "dopo": ", dove il narratore alieno porta il discorso sui pregiudizi verso chi viene da un altro luogo.",
     "dopoParagrafo": 0
+  },
+  "one-step-closer": {
+    "artistaSlug": "linkin-park",
+    "destinazioni": [
+      "killing-in-the-name"
+    ],
+    "nelTesto": {
+      "paragrafo": 1,
+      "anchor": "Killing in the Name",
+      "artistaDestinazioneSlug": "rage-against-the-machine"
+    }
+  },
+  "sound-of-silence-disturbed": {
+    "artistaSlug": "disturbed",
+    "destinazioni": [
+      "the-sound-of-silence"
+    ],
+    "nelTesto": {
+      "paragrafo": 0,
+      "anchor": "The Sound of Silence",
+      "artistaDestinazioneSlug": "simon-garfunkel"
+    }
   }
 }

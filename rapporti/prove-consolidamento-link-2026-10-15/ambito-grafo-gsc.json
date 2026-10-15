@@ -1,0 +1,61 @@
+{
+  "base": "e97f3d673",
+  "pagineHTML": 698,
+  "sorgenti": {
+    "one-step-closer": "killing-in-the-name",
+    "sound-of-silence-disturbed": "the-sound-of-silence"
+  },
+  "linkEntranti": {
+    "killing-in-the-name": {
+      "prima": 10,
+      "dopo": 11
+    },
+    "the-sound-of-silence": {
+      "prima": 8,
+      "dopo": 9
+    }
+  },
+  "linkDOMPrima": 22765,
+  "linkDOMDopo": 22767,
+  "nuoveCoppie": [
+    [
+      "canzone/one-step-closer/index.html",
+      "https://www.dietroiltesto.it/canzone/killing-in-the-name/"
+    ],
+    [
+      "canzone/sound-of-silence-disturbed/index.html",
+      "https://www.dietroiltesto.it/canzone/the-sound-of-silence/"
+    ]
+  ],
+  "rimossi": 0,
+  "datePublishedPreservate": true,
+  "unicoDateModifiedLastmod": "sound-of-silence-disturbed: 2026-10-12 → 2026-10-15",
+  "altreCinqueSitemapIdentiche": true,
+  "paroleCorpoInvariate": true,
+  "cartolineInvariate": true,
+  "datiGSC": {
+    "indicizzazione/dietroiltesto-pagine-indicizzate.csv": {
+      "file": "/Users/gianmicheletroisi/Documents/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/indicizzazione/dietroiltesto-pagine-indicizzate.csv",
+      "sha256": "f8acaa12a6f65e379545a7947a82d0154a2f8f2129665d89f101875b3e32d1ec",
+      "righe": 100
+    },
+    "indicizzazione/dietroiltesto-rilevata-non-indicizzata.csv": {
+      "file": "/Users/gianmicheletroisi/Documents/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/indicizzazione/dietroiltesto-rilevata-non-indicizzata.csv",
+      "sha256": "a20cd1723654c1ad504b94abd87f52a5118f34610ee9e08c2a9733d190570443",
+      "righe": 405
+    },
+    "indicizzazione/dietroiltesto-scansionata-non-indicizzata.csv": {
+      "file": "/Users/gianmicheletroisi/Documents/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/indicizzazione/dietroiltesto-scansionata-non-indicizzata.csv",
+      "sha256": "e899d25f2faa8fb0e615851fb96e8e4948771de86ae3fcee4f3645c03b53c6fa",
+      "righe": 62
+    },
+    "registro-indicizzazione-3siti.csv": {
+      "file": "/Users/gianmicheletroisi/Documents/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/registro-indicizzazione-3siti.csv",
+      "sha256": "15674adca11f4f9a2750dc27572fe47f14e066b2192a63dd7d9195033d3b291a",
+      "righe": 137
+    }
+  },
+  "datoIndicizzazioneAggiornatoAl": "2026-10-04",
+  "nessunAccessoLive": true,
+  "nessunaRichiesta": true
+}

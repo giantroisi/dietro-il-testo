@@ -1,0 +1,29 @@
+{
+  "eseguiti": "2026-10-15",
+  "check-seo": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "check-coerenza": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "check-link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "check-affiliazioni": {
+    "link": 1065,
+    "problemi": 0
+  },
+  "check-collegamenti-contestuali": {
+    "percorsi": 7,
+    "link": 10,
+    "problemi": 0
+  },
+  "git diff --check": "superato",
+  "buildGeneraleEseguito": false,
+  "nota": "Esiti dei controlli eseguiti dopo le modifiche; misure di ambito e browser nei JSON dedicati."
+}
