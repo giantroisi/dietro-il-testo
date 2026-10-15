@@ -4833,3 +4833,12 @@ the-cranberries, the-rolling-stones, the-white-stripes, toto, tracy-chapman. Fon
 ### Gruppo 9 — preparato e verificato
 
 zucchero. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 1soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 3viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-9-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
+
+
+## 118. Lucio Battisti — foto Sanremo 1969 preparata e verificata, 15 ottobre 2026
+
+Ricerca riaperta dal proprietario; foto mostrata e preparazione autorizzata con «procedi». Originale Commons con attribuzione Archivio Rai, PD-Italy e PD-1996 riaperti; contesto Sanremo riscontrato su Rai Teche. File 472×597 conservato identico, nessun ingrandimento, stessa foto in pagina e OG/Twitter. Limite: fotografo individuale e inventario Rai non indicati nella scheda; attribuzione archivistica dichiarata, senza aggiunte.
+
+Sola nuova chiave lucio-battisti, JPEG, HTML artista e relativa voce sitemap; dateModified/lastmod solo di Battisti al 15 ottobre, datePublished e altri HTML/sitemap/103 ritratti/editoriale/CTA intatti. Nessun build generale; sola figura dal componente corrente e griglia mobile corrente sulla pagina. SEO 696, coerenza/link 321/104, affiliazioni 1065, crediti/hash/casi negativi e confronto ambito positivi. Browser 1280/390/320 senza overflow o ingrandimento, foto/credito/alt/OG verificati, zero errori locali; screenshot osservati.
+
+Copia ritratto-nin-2026-10-15 riusata pulita, ramo codex/ritratto-battisti-2026-10-15 dalla base 600ffc4bb; prove precedenti 8000133f1 su ramo distinto preservate. Dossier rapporti/licenze/ritratto-battisti-2026-10-15.md e prove dedicate. Commit solo locale dopo i controlli; integrazione/main/push/pubblicazione da approvare specificamente. Unire solo la chiave del registro e §118. Main/non tracciati, altra AI, revisioni e 308 cartoline intatti; nessun GSC o nuovo Amazon.
