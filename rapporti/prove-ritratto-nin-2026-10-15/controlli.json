@@ -1,0 +1,57 @@
+[
+  {
+    "name": "check-seo.mjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "f172d0",
+      "wall_time_seconds": 0.9062405,
+      "exit_code": 0,
+      "original_token_count": 37,
+      "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+    }
+  },
+  {
+    "name": "check-coerenza.mjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "7fdea9",
+      "wall_time_seconds": 0.207011583,
+      "exit_code": 0,
+      "original_token_count": 18,
+      "output": "Canzoni controllate: 321\nArtisti controllati: 104\nProblemi trovati: 0\n"
+    }
+  },
+  {
+    "name": "check-link.mjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "6a6954",
+      "wall_time_seconds": 0.213178333,
+      "exit_code": 0,
+      "original_token_count": 27,
+      "output": "Canzoni: 321 — Artisti: 104\nProblemi trovati: 0\nNessun link interno rotto, nessun URL esterno malformato.\n"
+    }
+  },
+  {
+    "name": "check-affiliazioni.mjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "18e73c",
+      "wall_time_seconds": 0.887002542,
+      "exit_code": 0,
+      "original_token_count": 24,
+      "output": "OK: configurazione, dichiarazione, 1065 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+    }
+  },
+  {
+    "name": "prova-ritratto-credito.mjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "b73742",
+      "wall_time_seconds": 0.25889725,
+      "exit_code": 0,
+      "original_token_count": 29,
+      "output": "OK: crediti approvati, file identici, alt e dimensioni; esclusione dei crediti incompleti e dei link eseguibili.\n"
+    }
+  }
+]

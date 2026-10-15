@@ -1,0 +1,14 @@
+{
+  "originale": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Trent_Reznor_with_Nine_Inch_Nails_--_California%2C_21_May_2009.jpg",
+    "bytes": 5868195,
+    "sha256": "296da2ef1bd5ae3a1624fe71f6a05c95b64118da93348c4ec5400db233de68c9",
+    "dims": "/private/tmp/nin-ricerca-2026-10-15/originale.jpg\n  pixelWidth: 2336\n  pixelHeight: 3504\n"
+  },
+  "asset": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Trent_Reznor_with_Nine_Inch_Nails_--_California%2C_21_May_2009.jpg/960px-Trent_Reznor_with_Nine_Inch_Nails_--_California%2C_21_May_2009.jpg",
+    "bytes": 306671,
+    "sha256": "b1ff9e2decba9affc3e31db01a508805e2b63c977cd03253380032a0b21a81b6",
+    "dims": "/private/tmp/nin-ricerca-2026-10-15/asset.jpg\n  pixelWidth: 960\n  pixelHeight: 1440\n"
+  }
+}

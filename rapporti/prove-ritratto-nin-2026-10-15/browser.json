@@ -1,0 +1,90 @@
+{
+  "views": [
+    {
+      "label": "desktop-dark",
+      "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+      "height": 900,
+      "og": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "photo": {
+        "loaded": true,
+        "natural": [
+          960,
+          1440
+        ],
+        "size": [
+          214,
+          320
+        ],
+        "src": "../../ritratti/nine-inch-nails-trent-reznor.jpg"
+      },
+      "scroll": 1280,
+      "twitter": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "width": 1280
+    },
+    {
+      "label": "mobile-dark",
+      "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+      "height": 844,
+      "og": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "photo": {
+        "loaded": true,
+        "natural": [
+          960,
+          1440
+        ],
+        "size": [
+          220.6640625,
+          330
+        ],
+        "src": "../../ritratti/nine-inch-nails-trent-reznor.jpg"
+      },
+      "scroll": 390,
+      "twitter": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "width": 390
+    },
+    {
+      "label": "mobile-320-dark",
+      "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+      "height": 568,
+      "og": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "photo": {
+        "loaded": true,
+        "natural": [
+          960,
+          1440
+        ],
+        "size": [
+          220.6640625,
+          330
+        ],
+        "src": "../../ritratti/nine-inch-nails-trent-reznor.jpg"
+      },
+      "scroll": 320,
+      "twitter": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "width": 320
+    },
+    {
+      "label": "mobile-320-light",
+      "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+      "height": 568,
+      "og": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "photo": {
+        "loaded": true,
+        "natural": [
+          960,
+          1440
+        ],
+        "size": [
+          220.6640625,
+          330
+        ],
+        "src": "../../ritratti/nine-inch-nails-trent-reznor.jpg"
+      },
+      "scroll": 320,
+      "twitter": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "width": 320
+    }
+  ],
+  "logs": [],
+  "keyboard": "Tab da Fonte originale raggiunge il link CC BY-SA4.0; href corretto"
+}
