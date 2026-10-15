@@ -1,0 +1,23 @@
+{
+  "base": "c0cfae863b0d197b852308df1e981f976e1ed23b",
+  "pagine": [
+    "artista/queen/index.html",
+    "artista/rammstein/index.html",
+    "artista/renato-zero/index.html",
+    "artista/simon-garfunkel/index.html",
+    "artista/soundgarden/index.html"
+  ],
+  "nuoveChiavi": [
+    "queen",
+    "rammstein",
+    "renato-zero",
+    "simon-garfunkel",
+    "soundgarden"
+  ],
+  "precedentiChiaviPreservate": 92,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}
