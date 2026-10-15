@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "whats-my-age-again",
+    "scenario": "loading",
+    "ok": true
+  }
+]

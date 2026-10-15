@@ -4842,3 +4842,12 @@ Ricerca riaperta dal proprietario; foto mostrata e preparazione autorizzata con 
 Sola nuova chiave lucio-battisti, JPEG, HTML artista e relativa voce sitemap; dateModified/lastmod solo di Battisti al 15 ottobre, datePublished e altri HTML/sitemap/103 ritratti/editoriale/CTA intatti. Nessun build generale; sola figura dal componente corrente e griglia mobile corrente sulla pagina. SEO 696, coerenza/link 321/104, affiliazioni 1065, crediti/hash/casi negativi e confronto ambito positivi. Browser 1280/390/320 senza overflow o ingrandimento, foto/credito/alt/OG verificati, zero errori locali; screenshot osservati.
 
 Copia ritratto-nin-2026-10-15 riusata pulita, ramo codex/ritratto-battisti-2026-10-15 dalla base 600ffc4bb; prove precedenti 8000133f1 su ramo distinto preservate. Dossier rapporti/licenze/ritratto-battisti-2026-10-15.md e prove dedicate. Commit solo locale dopo i controlli; integrazione/main/push/pubblicazione da approvare specificamente. Unire solo la chiave del registro e §118. Main/non tracciati, altra AI, revisioni e 308 cartoline intatti; nessun GSC o nuovo Amazon.
+
+
+## 119. What’s My Age Again? — nuova anteprima curata, 15 ottobre 2026
+
+Ripreso 6f5d86e4b su richiesta diretta. Titolo a 82 px su una riga, corpo a 60 px, logo ridotto, artista/anno/album e due racconti completi di quattro righe. Dopo il riscontro «molto meglio», ottimizzati ancora margini e interlinea; fonti escluse dal raster e relativo alt, conservate nei dati e nella pagina. Un JPEG 1080×1920 identico in figura, Storia e OG/Twitter; Post/Reel invariati. Fonti iHeart, The Ringer e discografia ufficiale riaperte; nessun verso o nuovo dato di ascolti.
+
+Una pagina/JPEG/voce pillole, renderer dedicato e validazioni recuperate dal prototipo. Fuori figura e URL versione, articolo e date identici; altre dodici cartoline, sei sitemap, ricerca.js, affiliazioni e 104 foto preservati. Nessun build generale. SEO 696, coerenza/link 321/104, affiliazioni 1065, determinismo, contrasto AA e rifiuto testi troppo lunghi positivi. Browser 1280/390/320 senza overflow/errori, cinque percorsi di condivisione con JPEG identico, screenshot osservati.
+
+Copia ritratto-nin-2026-10-15, ramo codex/cartolina-age-anteprima-2026-10-15 dalla base ee6da2d85. Dossier rapporti/cartolina-age-anteprima-2026-10-15.md e prove dedicate. Prototipo precedente e prove pubblicazione su rami distinti intatti; main/non tracciati e altra AI preservati. Commit solo locale; nessuna pubblicazione prima della valutazione del proprietario. 308 cartoline ferme, nessun GSC o indicizzazione.

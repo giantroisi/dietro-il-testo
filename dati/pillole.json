@@ -54,17 +54,45 @@
   },
   "whats-my-age-again": {
     "testo": "Il regista Marcos Siega ideò il video dopo aver visto il filmato di uno streaker. Per parte delle riprese a Los Angeles, i musicisti indossarono slip color carne per evitare problemi legali.",
-    "fonte": "https://www.nme.com/news/music/mark-hoppus-green-day-inspired-intro-to-blink-182-whats-my-age-again-2793676",
-    "nomeFonte": "NME",
+    "fonte": "https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state",
+    "nomeFonte": "The Ringer — intervista a Marcos Siega",
     "artistaSlug": "blink-182",
     "dopoParagrafo": 0,
-    "origineContenuto": "Momento iconico già presente nella condivisione della pagina; nessuna nuova verifica editoriale",
-    "verificataIl": null,
+    "origineContenuto": "Momento iconico e due sintesi ricontrollati per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
     "formato": "storia",
     "file": "whats-my-age-again-storia.jpg",
-    "sha256": "1a0071d423e3cfda2b1b9667e28226830d17ab297fea3550ff59b91be72408f9",
-    "testoGrafica": "Il regista Marcos Siega ideò il video dopo aver visto il filmato di uno streaker…",
-    "modello": "scripts/genera/ricerca.mjs"
+    "sha256": "b22d456980f6af8e715b44ed7953aaff423f1376ebbdb58efc7f0f09a8a01bbc",
+    "testoGrafica": "Blink-182. 1999. Album: Enema of the State. Un riff nato per errore. Mark Hoppus sbagliò l’intro di basso di «J.A.R.» dei Green Day mentre la provava alla chitarra. Da quell’errore nacque il riff. La corsa a Los Angeles. Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne.",
+    "modello": "scripts/pillole/editoriale.cjs",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "COME È NATO",
+          "titolo": "Un riff nato per errore",
+          "testo": "Mark Hoppus sbagliò l’intro di basso di «J.A.R.» dei Green Day mentre la provava alla chitarra. Da quell’errore nacque il riff.",
+          "fonte": "https://www.iheart.com/content/2020-10-20-mark-hoppus-says-whats-my-age-again-riff-was-inspired-by-green-day/",
+          "nomeFonte": "iHeart",
+          "natura": "Dichiarazione di Mark Hoppus riportata da iHeart"
+        },
+        {
+          "etichetta": "DIETRO IL VIDEO",
+          "titolo": "La corsa a Los Angeles",
+          "testo": "Marcos Siega ideò il video dopo un filmato di un uomo che correva nudo. Per parte delle riprese, la band indossò slip color carne.",
+          "fonte": "https://www.theringer.com/2019/07/31/music/blink-182-enema-of-the-state",
+          "nomeFonte": "The Ringer",
+          "natura": "Racconto del regista Marcos Siega intervistato da The Ringer"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.blink182.com/pages/discography"
+      ],
+      "verificataIl": "2026-10-15",
+      "nomiFontiAnagrafica": [
+        "blink-182"
+      ]
+    }
   },
   "ho-messo-via": {
     "testo": "Il nucleo del testo è l’ammissione di non riuscire a spiegarsi perché, pur avendo messo da parte tanti aspetti della propria vita, non si riesca a fare lo stesso con una persona in particolare, mai nominata esplicitamente nel testo.",

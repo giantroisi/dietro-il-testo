@@ -1,0 +1,34 @@
+[
+  {
+    "name": "check-seo",
+    "chunk_id": "a096b3",
+    "wall_time_seconds": 0.97235775,
+    "exit_code": 0,
+    "original_token_count": 37,
+    "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+  },
+  {
+    "name": "check-coerenza",
+    "chunk_id": "c9a90f",
+    "wall_time_seconds": 0.157320208,
+    "exit_code": 0,
+    "original_token_count": 18,
+    "output": "Canzoni controllate: 321\nArtisti controllati: 104\nProblemi trovati: 0\n"
+  },
+  {
+    "name": "check-link",
+    "chunk_id": "827f93",
+    "wall_time_seconds": 0.155923458,
+    "exit_code": 0,
+    "original_token_count": 27,
+    "output": "Canzoni: 321 — Artisti: 104\nProblemi trovati: 0\nNessun link interno rotto, nessun URL esterno malformato.\n"
+  },
+  {
+    "name": "check-affiliazioni",
+    "chunk_id": "4df24f",
+    "wall_time_seconds": 0.995451958,
+    "exit_code": 0,
+    "original_token_count": 24,
+    "output": "OK: configurazione, dichiarazione, 1065 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+  }
+]
