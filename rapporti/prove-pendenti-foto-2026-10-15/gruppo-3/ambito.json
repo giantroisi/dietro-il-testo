@@ -1,0 +1,23 @@
+{
+  "base": "b161c6db1f6a3ea33ba6ed9fbc4d3774dddce184",
+  "pagine": [
+    "artista/eminem/index.html",
+    "artista/eros-ramazzotti/index.html",
+    "artista/evanescence/index.html",
+    "artista/fabrizio-de-andre/index.html",
+    "artista/finley/index.html"
+  ],
+  "nuoveChiavi": [
+    "eminem",
+    "eros-ramazzotti",
+    "evanescence",
+    "fabrizio-de-andre",
+    "finley"
+  ],
+  "precedentiChiaviPreservate": 72,
+  "sitemap": "solo sitemap-artisti.xml",
+  "lastmodModificati": 5,
+  "dateModified": "2026-10-15",
+  "datePublished": "tutte preservate",
+  "generatore": "nessun build generale; solo componente figura corrente"
+}
