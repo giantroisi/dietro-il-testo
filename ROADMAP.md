@@ -4936,3 +4936,10 @@ Prosegue il mandato con una BMTH e una Linkin Park. Primo blocco momento iconico
 Due nuove chiavi/JPEG/HTML e documentazione. Dati canonici, ricerca, renderer,17cartoline online, datePublished/dateModified/lastmod e sei sitemap intatti. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrastoAA/margini/casi negativi,10percorsi condivisione e6viste browser1280/390/320 positivi. Screenshot e prove in rapporti/prove-cartoline-doomed-crawling-2026-10-15/; dossier rapporti/cartoline-doomed-crawling-anteprima-2026-10-15.md.
 
 Copia ritratto-nin, ramo codex/cartoline-doomed-crawling-anteprima-2026-10-15, base4c899a2be pubblicata. Commit solo locale dopo verifica; due immagini da mostrare al proprietario prima di pubblicare. Main/nontracciati/altraAI/revisioni preservati;308cartoline ferme, nessun GSC/nuovoAmazon/riattivazione routine. Limiti: prima/ultima Doomed riscontrata su fonte secondaria con rinvio all’audio originale, non consultato; note Shinoda trascritte da archivio fan; non è verifica integrale delle pagine; Post/Reel/cache/ritagli esterni invariati. Prove della pubblicazione precedente conservate separatamente.
+
+
+## 126. One Step Closer — attribuzione corretta nella copia separata, 15 ottobre 2026
+
+Durante la preparazione della prossima cartolina, riaperto l’estratto di Jason Lipshutz/The Ringer. Corretto errore preesistente P1/P2: Chester autore dello sfogo, Mike ne propone l’uso, sezione bridge. Nessun verso riprodotto. Solo fraseIconica, due occorrenze HTML e due estratti client; corpo intatto. Unico dateModified/lastmod11→15ottobre di One Step Closer; datePublished/altre date/altre sitemap intatte. F40 letta, nessun build generale.
+
+SEO696/coerenza321/104 e confronto ambito positivi; browser desktop/320 senza overflow, testo e screenshot verificati. Rapporto rapporti/one-step-closer-attribuzione-2026-10-15.md. Copia ritratto-nin, ramo codex/one-step-closer-attribuzione-2026-10-15, base467a4d3d7. Commit locale isolato; correzione segnalata al proprietario e da valutare insieme alla prossima anteprima, nessuna pubblicazione. Main/nontracciati/altraAI/proposte preservati.
