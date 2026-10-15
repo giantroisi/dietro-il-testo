@@ -4817,3 +4817,7 @@ fleetwood-mac, franco-battiato, gianna-nannini, guns-n-roses, john-lennon. Fonti
 ### Gruppo 5 — preparato e verificato
 
 laura-pausini, led-zeppelin, limp-bizkit, lynyrd-skynyrd, oasis. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-5-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
+
+### Gruppo 6 — preparato e verificato
+
+ozzy-osbourne, pinguini-tattici-nucleari, pink-floyd, pino-daniele, prince. Fonti/licenze riaperte, file e soggetti osservati, crediti/alt completi e stesso JPEG in pagina e condivisione. 5soliHTMLartista e relativi lastmod/dateModified15ottobre; datePublished e altre pagine preservati. Nessun build generale. ControlliSEO/link/coerenza/affiliazioni/crediti positivi; 15viste1280/390/320 senza overflow,errori o ingrandimento. Dossier rapporti/pendenti-foto-gruppo-6-2026-10-15.md e prove dedicate. Copia ritratto-nin-2026-10-15, ramo codex/pubblicazione-pendenti-foto-2026-10-15; pubblicazione richiesta dal proprietario.
