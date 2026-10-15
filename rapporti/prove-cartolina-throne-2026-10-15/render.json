@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "throne",
+    "file": "throne-storia.jpg",
+    "bytes": 226789,
+    "sha256": "7f7027034bd5fdfd030a4a696728c19654f08490fb9dd0907be938476826fa82",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2015",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Throne",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 352.82000732421875,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · That's the Spirit",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 489.5199890136719,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / LA SCELTA DEL SUONO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 507.0299987792969,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Melodie in primo piano",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 631.510009765625,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Jordan Fish, Throne era tra",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 923.989990234375,
+        "alto": 728,
+        "basso": 780
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "i brani più semplici e diretti della",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4000244140625,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "band: ritmo veloce, melodie forti",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 938.4000244140625,
+        "alto": 883,
+        "basso": 936
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "e un’energia immediata.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 728.3699951171875,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / L’INFLUENZA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 1118,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Una porta verso il metal",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 647.3800048828125,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Sykes raccontò che i Linkin Park",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 955.0700073242188,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "lo avevano avvicinato alla musica",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 978.47998046875,
+        "alto": 1316,
+        "basso": 1360
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "pesante. Voleva che anche i",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 838.5900268554688,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Bring potessero fare da ponte.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 895.1900024414062,
+        "alto": 1471,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Melodie in primo piano",
+        "righe": 4,
+        "testoCompleto": "Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata."
+      },
+      {
+        "titolo": "Una porta verso il metal",
+        "righe": 4,
+        "testoCompleto": "Sykes raccontò che i Linkin Park lo avevano avvicinato alla musica pesante. Voleva che anche i Bring potessero fare da ponte."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "82444d72c1071e7998bfeb027b13e8d8406e2cb4313224b742320d33bc9557d0"
+  }
+]

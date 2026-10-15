@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "throne",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "throne",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "throne",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "throne",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "throne",
+    "scenario": "loading",
+    "ok": true
+  }
+]

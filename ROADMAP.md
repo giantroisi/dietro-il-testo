@@ -4877,3 +4877,18 @@ Una nuova cartolina richiesta dal proprietario, senza pubblicazione. Due sintesi
 Solo chiave black-pearl-jam, JPEG, unico HTML e documentazione. Renderer invariato, titolo proporzionato, paragrafi completi; prima bozza accorciata dopo rifiuto automatico della lunghezza. DatePublished/dateModified/lastmod e articolo fuori figura/URL versione intatti, sei sitemap e altre dodici cartoline identiche. Nessun build generale. SEO696/coerenza-link321-104/affiliazioni1065, determinismo/contrasto/assenza sovrapposizioni, casi negativi e cinque percorsi di condivisione positivi. Browser1280/390/320 senza overflow/errori, screenshot osservati.
 
 Copia ritratto-nin-2026-10-15, ramo codex/cartolina-black-anteprima-2026-10-15, base36d1b015b pubblicata. Dossier rapporti/cartolina-black-anteprima-2026-10-15.md. Solo commit locale dopo verifica, nuova cartolina da valutare prima di integrazione/push/pubblicazione. Main/nontracciati, altra AI, proposte e308cartoline preservati. Nessun GSC/indicizzazione/nuovoAmazon; routine fotografica conclusa non riattivata. Limiti: Post/Reel invariati e cache/ritagli social non controllabili. Incluse separatamente le prove della pubblicazione Small Things approvata.
+
+
+### Esito §121 — Black pubblicata, 15 ottobre 2026
+
+Approvazione esplicita del proprietario. Integrato/push617cde919; VercelDf8JMwTwhLicjaAZmwmiUfK7xx5B Ready/Latest/Current/Production,11:55:48CEST,13secondi. Pagina/JPEG e sei sitemap pubblici identici al commit; stessa immagine figura/Storia/OG/Twitter, browser senza overflow/errori. Date e lastmod intatti. Prove in rapporti/prove-pubblicazione-cartolina-black-2026-10-15/ e rapporto dedicato.
+
+## 122. Throne e Numb — due anteprime richieste, 15 ottobre 2026
+
+Richiesta diretta di una cartolina BMTH e una Linkin Park. Scelte Throne e Numb. Fonti Gigwise e Metal Hammer riaperte prima della scrittura, due sintesi originali per ciascuna immagine; attribuzioni indirette dichiarate. Fonti/anagrafica documentate nel dossier, nessun verso o fonte nel raster. Titoli proporzionati e quattro righe complete per racconto, renderer approvato invariato. Stesso JPEG figura/Storia/OG/Twitter.
+
+Due nuove chiavi pillole, JPEG e soli due HTML con figura/CSS del componente esistente. Dati canzoni, tredici cartoline preesistenti, articolo fuori inserimenti, datePublished/dateModified/lastmod e sei sitemap preservati. Nessun build generale. SEO696,coerenza/link321-104,affiliazioni1065 positivi. Determinismo/contrasto/assenza sovrapposizioni/casi negativi e cinque percorsi condivisione per ciascuna; browser1280/390/320 senza overflow/errori, screenshot osservati.
+
+Copia ritratto-nin-2026-10-15, ramo codex/cartoline-bring-linkin-anteprima-2026-10-15, base617cde919 pubblicata. Solo commit locale dopo verifica; nuove immagini da valutare, non inviate né pubblicate. Dossier rapporti/cartoline-bring-linkin-anteprima-2026-10-15.md. Main/nontracciati, altraAI e proposte intatti;308cartoline ferme salvo queste due richieste, nessun GSC/nuovoAmazon o riattivazione routine. Prove Black già autorizzata conservate separatamente.
+
+Rilievo reale nella scheda Throne preesistente: momento iconico/prosa troppo vicini al ritornello (P3) e attribuzione Fish/Gigwise da correggere. Nuova immagine priva di versi e con attribuzione documentata. Segnalato al proprietario: prima del rilascio di Throne serve correzione isolata e verifica estratti; nessuna nuova pubblicazione nel frattempo. Date attese per le sole anteprime: nessuna variazione. Limiti: Post/Reel invariati e cache/ritagli social esterni fuori controllo.

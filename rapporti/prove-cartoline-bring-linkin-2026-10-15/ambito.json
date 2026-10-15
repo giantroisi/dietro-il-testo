@@ -1,0 +1,28 @@
+{
+  "base": "617cde919e0552878747a1d73e76bab0caa4f3a5",
+  "nuoveChiavi": [
+    {
+      "slug": "throne",
+      "sha256": "7f7027034bd5fdfd030a4a696728c19654f08490fb9dd0907be938476826fa82",
+      "dateEArticoloFuoriFiguraIdentici": true
+    },
+    {
+      "slug": "numb",
+      "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee",
+      "dateEArticoloFuoriFiguraIdentici": true
+    }
+  ],
+  "13CartolinePreesistentiIdentiche": true,
+  "seiSitemapIdentiche": true,
+  "rendererInvariato": true,
+  "datiCanzoniInvariati": true,
+  "buildGenerale": false,
+  "seoPagine": 696,
+  "coerenzaLink": [
+    321,
+    104
+  ],
+  "affiliazioni": 1065,
+  "problemiControlliAutomatici": 0,
+  "dateModificate": []
+}

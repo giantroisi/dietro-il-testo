@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "numb",
+    "file": "numb-storia.jpg",
+    "bytes": 218377,
+    "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Linkin Park",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.6600036621094,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2003",
+        "font": "36px Menlo, monospace",
+        "sinistra": 905.3000030517578,
+        "destra": 992,
+        "alto": 324,
+        "basso": 351
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "Numb",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 320.22999572753906,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Meteora",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 366.7799987792969,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / COME È NATA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 367.3500061035156,
+        "alto": 603,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Un riff di tastiera",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 486.989990234375,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Numb prese forma attorno al",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.6799926757812,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "riff iniziale di tastiera. Fu tra gli",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 897.239990234375,
+        "alto": 805,
+        "basso": 861
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "ultimi brani scritti per Meteora,",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 891.5800170898438,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "poco prima delle registrazioni.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 885.0499877929688,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / IL SIGNIFICATO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 419.7300109863281,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Quando non senti più nulla",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 725.030029296875,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Shinoda parlò di vuoto emotivo",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 911.8599853515625,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "e indifferenza. Li collegò alla",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 844.0900268554688,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "stanchezza provata dalla band",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 901.9000244140625,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "dopo il tour di Hybrid Theory.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 852.8800048828125,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Un riff di tastiera",
+        "righe": 4,
+        "testoCompleto": "Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni."
+      },
+      {
+        "titolo": "Quando non senti più nulla",
+        "righe": 4,
+        "testoCompleto": "Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "82444d72c1071e7998bfeb027b13e8d8406e2cb4313224b742320d33bc9557d0"
+  }
+]

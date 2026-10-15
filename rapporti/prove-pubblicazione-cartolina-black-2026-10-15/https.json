@@ -1,0 +1,54 @@
+{
+  "commit": "617cde919e0552878747a1d73e76bab0caa4f3a5",
+  "data": "2026-10-15T09:58:25.587240+00:00",
+  "checks": [
+    {
+      "file": "canzone/black-pearl-jam/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/black-pearl-jam/",
+      "identico": true,
+      "sha256": "283661e1b29e350809d3ea57812be85a580a8f69742c572ebfb71d0a8b041390"
+    },
+    {
+      "file": "pillole/black-pearl-jam-storia.jpg",
+      "url": "https://www.dietroiltesto.it/pillole/black-pearl-jam-storia.jpg",
+      "identico": true,
+      "sha256": "e728c28e1bf1d78524370efccb1690be6be030d5059cc0da63ada6a5a051cc7e"
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467"
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87"
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+    }
+  ]
+}

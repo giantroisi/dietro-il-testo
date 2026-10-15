@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "numb",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "numb",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "numb",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "numb",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "numb",
+    "scenario": "loading",
+    "ok": true
+  }
+]

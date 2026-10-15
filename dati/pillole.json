@@ -261,5 +261,89 @@
       ],
       "verificataIl": "2026-10-15"
     }
+  },
+  "throne": {
+    "artistaSlug": "bring-me-the-horizon",
+    "testo": "Il verso più citato del ritornello afferma che ogni ferita lo plasmerà e ogni cicatrice costruirà il suo trono: l'immagine di chi viene gettato in pasto ai lupi e torna il giorno dopo a capo del branco, che secondo Sykes riassume il tema della canzone, la trasformazione degli aspetti peggiori di un'esperienza in qualcosa di prezioso.",
+    "dopoParagrafo": 0,
+    "fonte": "https://www.gigwise.com/news/101823/bring-me-the-horizon-new-song-throne-from-thats-the-spirit---listen",
+    "nomeFonte": "Gigwise — Andrew Trendell, 24 luglio 2015",
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "LA SCELTA DEL SUONO",
+          "titolo": "Melodie in primo piano",
+          "testo": "Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata.",
+          "fonte": "https://www.gigwise.com/news/101823/bring-me-the-horizon-new-song-throne-from-thats-the-spirit---listen",
+          "nomeFonte": "Gigwise — Andrew Trendell",
+          "natura": "Dichiarazione di Jordan Fish riportata da Gigwise, con attribuzione alla conversazione con Rolling Stone"
+        },
+        {
+          "etichetta": "L’INFLUENZA",
+          "titolo": "Una porta verso il metal",
+          "testo": "Sykes raccontò che i Linkin Park lo avevano avvicinato alla musica pesante. Voleva che anche i Bring potessero fare da ponte.",
+          "fonte": "https://www.gigwise.com/news/101823/bring-me-the-horizon-new-song-throne-from-thats-the-spirit---listen",
+          "nomeFonte": "Gigwise — intervista a Oli Sykes",
+          "natura": "Intervista diretta di Gigwise a Oli Sykes, richiamata e incorporata nel pezzo su Throne"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.gigwise.com/news/101823/bring-me-the-horizon-new-song-throne-from-thats-the-spirit---listen"
+      ],
+      "nomiFontiAnagrafica": [
+        "Gigwise"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "throne-storia.jpg",
+    "sha256": "7f7027034bd5fdfd030a4a696728c19654f08490fb9dd0907be938476826fa82",
+    "testoGrafica": "Bring Me the Horizon. 2015. Album: That's the Spirit. Melodie in primo piano. Per Jordan Fish, Throne era tra i brani più semplici e diretti della band: ritmo veloce, melodie forti e un’energia immediata. Una porta verso il metal. Sykes raccontò che i Linkin Park lo avevano avvicinato alla musica pesante. Voleva che anche i Bring potessero fare da ponte.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "numb": {
+    "artistaSlug": "linkin-park",
+    "testo": "Il verso più citato è quello del ritornello in cui il narratore afferma che la pressione costante lo ha reso incapace di sentire ancora la presenza dell'altra persona. Il co-autore Mike Shinoda ha descritto il brano come una riflessione sui momenti di vuoto emotivo o indifferenza; il testo è ampiamente letto come un confronto con le aspettative di una figura genitoriale o autoritaria, con l'insensibilità che funziona come difesa psicologica contro un giudizio costante.",
+    "dopoParagrafo": 0,
+    "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
+    "nomeFonte": "Metal Hammer (via Louder) — Dannii Leivers",
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "COME È NATA",
+          "titolo": "Un riff di tastiera",
+          "testo": "Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni.",
+          "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
+          "nomeFonte": "Metal Hammer — Dannii Leivers",
+          "natura": "Ricostruzione della scrittura, con dichiarazione della band riportata da Metal Hammer"
+        },
+        {
+          "etichetta": "IL SIGNIFICATO",
+          "titolo": "Quando non senti più nulla",
+          "testo": "Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
+          "fonte": "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park",
+          "nomeFonte": "Metal Hammer — intervista Shoutweb",
+          "natura": "Dichiarazione di Mike Shinoda a Shoutweb nel marzo2003, ripresa e attribuita da Metal Hammer"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://www.loudersound.com/bands-artists/the-story-of-numb-by-linkin-park"
+      ],
+      "nomiFontiAnagrafica": [
+        "Metal Hammer"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "numb-storia.jpg",
+    "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee",
+    "testoGrafica": "Linkin Park. 2003. Album: Meteora. Un riff di tastiera. Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni. Quando non senti più nulla. Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }
