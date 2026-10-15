@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "in-the-end",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "in-the-end",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "in-the-end",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "in-the-end",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "in-the-end",
+    "scenario": "loading",
+    "ok": true
+  }
+]

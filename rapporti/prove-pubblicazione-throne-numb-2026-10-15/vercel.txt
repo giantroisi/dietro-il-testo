@@ -1,0 +1,195 @@
+- link "Skip to content":
+  - /url: "#geist-skip-nav"
+- main:
+  - link "giantroisi Hobby":
+    - /url: /giantroisi1
+    - generic: giantroisi
+    - generic: Hobby
+  - button:
+  - button "Find F":
+    - generic: Find
+    - generic: F
+  - navigation:
+    - link "Overview":
+      - /url: /giantroisi1/dietro-il-testo
+      - generic: Overview
+    - link "Deployments":
+      - /url: /giantroisi1/dietro-il-testo/deployments
+      - generic: Deployments
+    - link "Logs":
+      - /url: /giantroisi1/dietro-il-testo/logs
+      - generic: Logs
+    - link "Analytics":
+      - /url: /giantroisi1/dietro-il-testo/analytics
+      - generic: Analytics
+    - link "Speed Insights":
+      - /url: /giantroisi1/dietro-il-testo/speed-insights
+      - generic: Speed Insights
+    - link "Observability":
+      - /url: /giantroisi1/dietro-il-testo/observability
+      - generic: Observability
+    - link "Firewall":
+      - /url: /giantroisi1/dietro-il-testo/firewall
+      - generic: Firewall
+    - link "CDN":
+      - /url: /giantroisi1/dietro-il-testo/cdn
+      - generic: CDN
+    - separator
+    - link "Environment Variables":
+      - /url: /giantroisi1/dietro-il-testo/settings/environment-variables
+      - generic: Environment Variables
+    - link "Domains":
+      - /url: /giantroisi1/dietro-il-testo/settings/domains
+      - generic: Domains
+    - link "Connect":
+      - /url: /giantroisi1/dietro-il-testo/connect
+      - generic: Connect
+    - link "Integrations":
+      - /url: /giantroisi1/dietro-il-testo/settings/integrations
+      - generic: Integrations
+    - link "Storage":
+      - /url: /giantroisi1/dietro-il-testo/stores
+      - generic: Storage
+    - link "Flags":
+      - /url: /giantroisi1/dietro-il-testo/flags
+      - generic: Flags
+    - link "Agent":
+      - /url: /giantroisi1/dietro-il-testo/agent
+      - generic: Agent
+    - link "AI Gateway":
+      - /url: /giantroisi1/dietro-il-testo/ai-gateway
+      - generic: AI Gateway
+    - link "Sandboxes":
+      - /url: /giantroisi1/dietro-il-testo/sandboxes
+      - generic: Sandboxes
+    - link "Workflows":
+      - /url: /giantroisi1/dietro-il-testo/workflows
+      - generic: Workflows
+    - link "Images":
+      - /url: /giantroisi1/dietro-il-testo/images
+      - generic: Images
+    - separator
+    - link "Usage":
+      - /url: /giantroisi1/dietro-il-testo/usage
+      - generic: Usage
+    - link "Support":
+      - /url: /giantroisi1/dietro-il-testo/support
+      - generic: Support
+    - link "Settings":
+      - /url: /giantroisi1/dietro-il-testo/settings
+      - generic: Settings
+  - button "Avatar for giantroisi giantroisi":
+    - img "Avatar for giantroisi":
+      - img "Avatar for giantroisi"
+    - generic: giantroisi
+  - button "8 unseen notifications":
+  - button:
+  - link "dietro-il-testo":
+    - /url: /giantroisi1/dietro-il-testo
+    - generic: dietro-il-testo
+  - button:
+  - link "Back to team view":
+    - /url: /giantroisi1/~/deployments
+  - navigation "Breadcrumb":
+    - link "Deployments":
+      - /url: /giantroisi1/dietro-il-testo/deployments
+      - generic: Deployments
+    - generic: H8FhgxP3e
+    - button "Copy ID":
+  - button "Vercel Agent is available on Pro":
+    - generic: Agent
+  - link "Deployment":
+    - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ
+  - link "Logs":
+    - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ/logs
+  - link "Resources":
+    - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ/resources
+  - link "Source":
+    - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ/source
+  - link "Open Graph":
+    - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ/og
+  - heading "Deployment Details" [level=3]
+  - button "Share":
+    - generic: Share
+  - link "Logs":
+    - /url: /giantroisi1/dietro-il-testo/logs?deploymentIds=dpl_H8FhgxP3eGUGr7ZPqZnTct1G54AJ
+    - generic: Logs
+  - link "Visit":
+    - /url: https://dietro-il-testo-fjqntsyib-giantroisi1.vercel.app
+    - generic: Visit
+  - button "Visit with":
+  - button "Deployment Actions":
+  - link "Visit Deployment":
+    - /url: https://dietro-il-testo-fjqntsyib-giantroisi1.vercel.app
+  - generic: Created
+  - img "giantroisi Avatar":
+    - img "giantroisi Avatar"
+  - generic: giantroisi
+  - generic: 3m ago
+  - generic: Status
+  - generic "This deployment is ready.":
+    - generic: Ready
+    - link "Latest":
+      - /url: /giantroisi1/dietro-il-testo/deployments?filterBranch=main
+  - generic: Duration
+  - generic "15 ott 2026, 12:08:53 CEST":
+    - generic: 15s
+    - generic: 2m ago
+  - generic: Environment
+  - link "Production":
+    - /url: /giantroisi1/dietro-il-testo/settings/environments/production
+  - generic: Current
+  - generic: Domains
+  - link "www.dietroiltesto.it":
+    - /url: https://www.dietroiltesto.it
+    - generic: www.dietroiltesto.it
+  - generic: "+2"
+  - link "dietro-il-testo-git-main-giantroisi1.vercel.app":
+    - /url: https://dietro-il-testo-git-main-giantroisi1.vercel.app
+    - generic: dietro-il-testo-git-main-giantroisi1.vercel.app
+  - link "dietro-il-testo-fjqntsyib-giantroisi1.vercel.app":
+    - /url: https://dietro-il-testo-fjqntsyib-giantroisi1.vercel.app
+    - generic: dietro-il-testo-fjqntsyib-giantroisi1.vercel.app
+  - generic: Source
+  - link "main":
+    - /url: https://github.com/giantroisi/dietro-il-testo/tree/main
+  - link "d457e05 Corregge parafrasi e attribuzione di Throne prima della pubblicazione":
+    - /url: https://github.com/giantroisi/dietro-il-testo/commit/d457e05342297bdae9e16b9e05cb7c1114c4d6fa
+    - generic: d457e05
+    - generic "Corregge parafrasi e attribuzione di Throne prima della pubblicazione"
+  - button "Deployment Settings 2 Recommendations":
+    - generic: Deployment Settings
+    - generic: 2 Recommendations
+  - heading "Deploy Logs 1 15s" [level=2]:
+    - generic: Deploy Logs
+    - button "1":
+      - generic: "1"
+    - generic: 15s
+  - heading "Deployment Summary Resources" [level=2]:
+    - generic: Deployment Summary
+    - link "Resources":
+      - /url: /giantroisi1/dietro-il-testo/H8FhgxP3eGUGr7ZPqZnTct1G54AJ/resources
+      - generic: Resources
+  - heading "Deployment Checks" [level=2]:
+    - generic: Deployment Checks
+  - heading "Assigning Custom Domains" [level=2]:
+    - generic: Assigning Custom Domains
+  - link "Runtime Logs View and debug runtime logs & errors":
+    - /url: /giantroisi1/dietro-il-testo/logs
+    - paragraph: Runtime Logs
+    - paragraph: View and debug runtime logs & errors
+  - link "Observability Monitor app health & performance":
+    - /url: /giantroisi1/dietro-il-testo/observability/serverless-functions
+    - paragraph: Observability
+    - paragraph: Monitor app health & performance
+  - link "Speed Insights Not Enabled Performance metrics from real users":
+    - /url: /giantroisi1/dietro-il-testo/speed-insights
+    - paragraph: Speed Insights
+    - generic: Not Enabled
+    - paragraph: Performance metrics from real users
+  - link "Web Analytics Not Enabled Analyze visitors & traffic in real-time":
+    - /url: /giantroisi1/dietro-il-testo/analytics
+    - paragraph: Web Analytics
+    - generic: Not Enabled
+    - paragraph: Analyze visitors & traffic in real-time
+- alert: dietro-il-testo – Deployment Overview – Vercel

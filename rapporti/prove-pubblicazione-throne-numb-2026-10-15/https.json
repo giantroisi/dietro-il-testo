@@ -1,0 +1,72 @@
+{
+  "commit": "d457e05342297bdae9e16b9e05cb7c1114c4d6fa",
+  "data": "2026-10-15T10:10:57.466273+00:00",
+  "checks": [
+    {
+      "file": "canzone/throne/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/throne/",
+      "identico": true,
+      "sha256": "a465b023776c74d69c36a93225a8039a8e6f72e3eea84875d2ec3979910710f0"
+    },
+    {
+      "file": "canzone/numb/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/numb/",
+      "identico": true,
+      "sha256": "fee840b8526d39eaaebb680032b29273799088e57d4f64164dda8e98de5f493e"
+    },
+    {
+      "file": "pillole/throne-storia.jpg",
+      "url": "https://www.dietroiltesto.it/pillole/throne-storia.jpg",
+      "identico": true,
+      "sha256": "7f7027034bd5fdfd030a4a696728c19654f08490fb9dd0907be938476826fa82"
+    },
+    {
+      "file": "pillole/numb-storia.jpg",
+      "url": "https://www.dietroiltesto.it/pillole/numb-storia.jpg",
+      "identico": true,
+      "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee"
+    },
+    {
+      "file": "ricerca.js",
+      "url": "https://www.dietroiltesto.it/ricerca.js",
+      "identico": true,
+      "sha256": "c6cb84ba0de8c9ed05089b1e8e77bf4b2d5f61ad8bb07f441ef2bfed994bab36"
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "identico": true,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "identico": true,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "identico": true,
+      "sha256": "b2c88ab18c60724b1a1d8594f348c81a5d66a9e3d65658257cecb17edd7f5c3e"
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "identico": true,
+      "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87"
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "identico": true,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "identico": true,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "mantra",
+    "scenario": "share",
+    "ok": true
+  },
+  {
+    "slug": "mantra",
+    "scenario": "download",
+    "ok": true
+  },
+  {
+    "slug": "mantra",
+    "scenario": "cancel",
+    "ok": true
+  },
+  {
+    "slug": "mantra",
+    "scenario": "fetch-error",
+    "ok": true
+  },
+  {
+    "slug": "mantra",
+    "scenario": "loading",
+    "ok": true
+  }
+]

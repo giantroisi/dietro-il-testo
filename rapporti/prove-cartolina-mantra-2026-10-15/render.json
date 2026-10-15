@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "mantra",
+    "file": "mantra-storia.jpg",
+    "bytes": 227631,
+    "sha256": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Bring Me the Horizon",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 501.2900085449219,
+        "alto": 318,
+        "basso": 359
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2018 / 2019",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "MANTRA",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 456.7200012207031,
+        "alto": 387,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · amo",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 301.3000030517578,
+        "alto": 485,
+        "basso": 514
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Amore e fiducia cieca",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 580.7300109863281,
+        "alto": 654,
+        "basso": 697
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Sykes usa l’idea del culto per",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 865.0999755859375,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "raccontare una relazione",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 748.4099731445312,
+        "alto": 806,
+        "basso": 850
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "totalizzante: fidarsi di qualcuno",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 908.489990234375,
+        "alto": 883,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "fino a ignorare i propri dubbi.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 851.7999877929688,
+        "alto": 961,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / DIETRO IL SUONO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Pantera, ma in chiave pop",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 682.27001953125,
+        "alto": 1164,
+        "basso": 1219
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Sykes immaginava un incrocio",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 898.3499755859375,
+        "alto": 1237,
+        "basso": 1293
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "fra Pantera in chiave pop, Tame",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 934.0900268554688,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Impala e Radiohead: influenze",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 898.5599975585938,
+        "alto": 1393,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "diverse dentro lo stesso brano.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 908.4600219726562,
+        "alto": 1472,
+        "basso": 1516
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Amore e fiducia cieca",
+        "righe": 4,
+        "testoCompleto": "Sykes usa l’idea del culto per raccontare una relazione totalizzante: fidarsi di qualcuno fino a ignorare i propri dubbi."
+      },
+      {
+        "titolo": "Pantera, ma in chiave pop",
+        "righe": 4,
+        "testoCompleto": "Sykes immaginava un incrocio fra Pantera in chiave pop, Tame Impala e Radiohead: influenze diverse dentro lo stesso brano."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "82444d72c1071e7998bfeb027b13e8d8406e2cb4313224b742320d33bc9557d0"
+  }
+]

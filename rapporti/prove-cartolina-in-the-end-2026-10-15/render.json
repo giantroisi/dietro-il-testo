@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "in-the-end",
+    "file": "in-the-end-storia.jpg",
+    "bytes": 232416,
+    "sha256": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
+    "dimensioni": [
+      1080,
+      1920
+    ],
+    "testi": [
+      {
+        "gruppo": "artista",
+        "testo": "Linkin Park",
+        "font": "44px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 305.6600036621094,
+        "alto": 318,
+        "basso": 352
+      },
+      {
+        "gruppo": "anno",
+        "testo": "2000 / 2001",
+        "font": "36px Menlo, monospace",
+        "sinistra": 753.5899963378906,
+        "destra": 992,
+        "alto": 324,
+        "basso": 354
+      },
+      {
+        "gruppo": "titolo",
+        "testo": "In the End",
+        "font": "700 82px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 472.82000732421875,
+        "alto": 383,
+        "basso": 451
+      },
+      {
+        "gruppo": "album",
+        "testo": "Album · Hybrid Theory",
+        "font": "38px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 465.3500061035156,
+        "alto": 485,
+        "basso": 521
+      },
+      {
+        "gruppo": "sezione-0-etichetta",
+        "testo": "01 / MOMENTO ICONICO",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 437.19000244140625,
+        "alto": 609,
+        "basso": 633
+      },
+      {
+        "gruppo": "sezione-0-titolo",
+        "testo": "Il peso di non avere risposte",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 738.47998046875,
+        "alto": 654,
+        "basso": 709
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Il ritornello dà voce all’impotenza.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 975.1099853515625,
+        "alto": 727,
+        "basso": 783
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "Per Shinoda, il brano affronta il",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 910.77001953125,
+        "alto": 805,
+        "basso": 858
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "tempo che passa e lascia",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 765.0499877929688,
+        "alto": 884,
+        "basso": 939
+      },
+      {
+        "gruppo": "sezione-0-testo",
+        "testo": "domande senza una risposta.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 875.1799926757812,
+        "alto": 962,
+        "basso": 1017
+      },
+      {
+        "gruppo": "sezione-1-etichetta",
+        "testo": "02 / IL RACCONTO DI SHINODA",
+        "font": "29px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 559.4100036621094,
+        "alto": 1119,
+        "basso": 1143
+      },
+      {
+        "gruppo": "sezione-1-titolo",
+        "testo": "Chester non la odiava",
+        "font": "700 52px \"Iowan Old Style\", Georgia, serif",
+        "sinistra": 88,
+        "destra": 589.7699890136719,
+        "alto": 1164,
+        "basso": 1207
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "Per Shinoda, Chester amava i",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 888.4199829101562,
+        "alto": 1237,
+        "basso": 1290
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "brani più pesanti. Non odiava",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 865.1900024414062,
+        "alto": 1315,
+        "basso": 1371
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "In the End: semplicemente non",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 915.1699829101562,
+        "alto": 1394,
+        "basso": 1449
+      },
+      {
+        "gruppo": "sezione-1-testo",
+        "testo": "l’avrebbe scelta come singolo.",
+        "font": "60px \"Helvetica\", Arial, sans-serif",
+        "sinistra": 88,
+        "destra": 891.760009765625,
+        "alto": 1472,
+        "basso": 1527
+      },
+      {
+        "gruppo": "sito",
+        "testo": "dietroiltesto.it",
+        "font": "32px Menlo, monospace",
+        "sinistra": 88,
+        "destra": 396.25,
+        "alto": 1616,
+        "basso": 1640
+      }
+    ],
+    "sezioni": [
+      {
+        "titolo": "Il peso di non avere risposte",
+        "righe": 4,
+        "testoCompleto": "Il ritornello dà voce all’impotenza. Per Shinoda, il brano affronta il tempo che passa e lascia domande senza una risposta."
+      },
+      {
+        "titolo": "Chester non la odiava",
+        "righe": 4,
+        "testoCompleto": "Per Shinoda, Chester amava i brani più pesanti. Non odiava In the End: semplicemente non l’avrebbe scelta come singolo."
+      }
+    ],
+    "titolo": {
+      "dimensione": 82,
+      "righe": 1
+    },
+    "rendererSha256": "82444d72c1071e7998bfeb027b13e8d8406e2cb4313224b742320d33bc9557d0"
+  }
+]

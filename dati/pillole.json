@@ -345,5 +345,89 @@
     "sha256": "bbba5d057119c38e8dd738526740b18852524421ad2962b908b4c733a90a44ee",
     "testoGrafica": "Linkin Park. 2003. Album: Meteora. Un riff di tastiera. Numb prese forma attorno al riff iniziale di tastiera. Fu tra gli ultimi brani scritti per Meteora, poco prima delle registrazioni. Quando non senti più nulla. Shinoda parlò di vuoto emotivo e indifferenza. Li collegò alla stanchezza provata dalla band dopo il tour di Hybrid Theory.",
     "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "mantra": {
+    "artistaSlug": "bring-me-the-horizon",
+    "testo": "Il verso più citato è l'invito a fondare insieme una setta. Oli Sykes ha raccontato che il brano fu ispirato direttamente dal documentario Netflix \"Wild Wild Country\", sulla setta di Osho trasferitasi dall'India all'Oregon. Sykes ha raccontato di aver tracciato un parallelo tra la resa di sé richiesta per entrare in una setta e quella richiesta per impegnarsi in una relazione o in un matrimonio — \"devi consegnarti a una persona, fidarti di lei e amarla senza condizioni\" — usando l'immaginario da setta anche come critica più ampia alla disponibilità delle persone a seguire ciecamente sistemi di credenze che non comprendono davvero.",
+    "dopoParagrafo": 0,
+    "fonte": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra",
+    "nomeFonte": "Metal Hammer — Luke Morton",
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Amore e fiducia cieca",
+          "testo": "Sykes usa l’idea del culto per raccontare una relazione totalizzante: fidarsi di qualcuno fino a ignorare i propri dubbi.",
+          "fonte": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra",
+          "nomeFonte": "Metal Hammer — Luke Morton",
+          "natura": "Spiegazione diretta di Oli Sykes dell’immagine centrale del brano, riformulata con parole originali"
+        },
+        {
+          "etichetta": "DIETRO IL SUONO",
+          "titolo": "Pantera, ma in chiave pop",
+          "testo": "Sykes immaginava un incrocio fra Pantera in chiave pop, Tame Impala e Radiohead: influenze diverse dentro lo stesso brano.",
+          "fonte": "https://www.loudersound.com/features/the-story-behind-bring-me-the-horizons-new-song-mantra",
+          "nomeFonte": "Metal Hammer — Luke Morton",
+          "natura": "Descrizione diretta di Oli Sykes del suono cercato per MANTRA"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/Mantra_(Bring_Me_the_Horizon_song)"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia — anagrafica, incrociata con interviste e album"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "mantra-storia.jpg",
+    "sha256": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
+    "testoGrafica": "Bring Me the Horizon. 2018 / 2019. Album: amo. Amore e fiducia cieca. Sykes usa l’idea del culto per raccontare una relazione totalizzante: fidarsi di qualcuno fino a ignorare i propri dubbi. Pantera, ma in chiave pop. Sykes immaginava un incrocio fra Pantera in chiave pop, Tame Impala e Radiohead: influenze diverse dentro lo stesso brano.",
+    "modello": "scripts/pillole/editoriale.cjs"
+  },
+  "in-the-end": {
+    "artistaSlug": "linkin-park",
+    "testo": "Un ritornello segnato dall'impotenza, il tema che Shinoda riconosce nel brano. Alla Hollywood Bowl, il 27 ottobre 2017, Shinoda invitò il pubblico a cantare le parti di Bennington.",
+    "dopoParagrafo": 0,
+    "fonte": "https://blabbermouth.net/news/linkin-parks-mike-shinoda-discusses-writing-in-the-end-video/",
+    "nomeFonte": "Rock Sound TV tramite Blabbermouth",
+    "origineContenuto": "Due sintesi originali ricontrollate per questa cartolina; nessuna nuova verifica integrale della scheda",
+    "verificataIl": "2026-10-15",
+    "formato": "storia",
+    "cartolina": {
+      "versione": 2,
+      "sezioni": [
+        {
+          "etichetta": "MOMENTO ICONICO",
+          "titolo": "Il peso di non avere risposte",
+          "testo": "Il ritornello dà voce all’impotenza. Per Shinoda, il brano affronta il tempo che passa e lascia domande senza una risposta.",
+          "fonte": "https://blabbermouth.net/news/linkin-parks-mike-shinoda-discusses-writing-in-the-end-video/",
+          "nomeFonte": "Rock Sound TV tramite Blabbermouth",
+          "natura": "Tema centrale spiegato direttamente da Mike Shinoda a Rock Sound TV, ripreso da Blabbermouth; sintesi originale senza versi"
+        },
+        {
+          "etichetta": "IL RACCONTO DI SHINODA",
+          "titolo": "Chester non la odiava",
+          "testo": "Per Shinoda, Chester amava i brani più pesanti. Non odiava In the End: semplicemente non l’avrebbe scelta come singolo.",
+          "fonte": "https://loudwire.com/linkin-park-chester-bennington-in-the-end-mike-shinoda/",
+          "nomeFonte": "Loudwire — intervista Howard Stern",
+          "natura": "Dichiarazione di Mike Shinoda a Howard Stern nel febbraio2023, riportata da Jordan Blum"
+        }
+      ],
+      "fontiAnagrafica": [
+        "https://en.wikipedia.org/wiki/In_the_End"
+      ],
+      "nomiFontiAnagrafica": [
+        "Wikipedia — anagrafica, incrociata con interviste e album"
+      ],
+      "verificataIl": "2026-10-15"
+    },
+    "file": "in-the-end-storia.jpg",
+    "sha256": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
+    "testoGrafica": "Linkin Park. 2000 / 2001. Album: Hybrid Theory. Il peso di non avere risposte. Il ritornello dà voce all’impotenza. Per Shinoda, il brano affronta il tempo che passa e lascia domande senza una risposta. Chester non la odiava. Per Shinoda, Chester amava i brani più pesanti. Non odiava In the End: semplicemente non l’avrebbe scelta come singolo.",
+    "modello": "scripts/pillole/editoriale.cjs"
   }
 }
