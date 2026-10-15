@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-15T07:43:24.047006+00:00",
+  "commit": "a13650303fadf20301c629e1734af4142c03728f",
+  "checks": [
+    {
+      "url": "https://www.dietroiltesto.it/artista/nine-inch-nails/",
+      "curlExit": 0,
+      "bytes": 51718,
+      "sha256": "c300e7a2137463c72f5d47514b0df9bbf22e8ae079020152ee9d1d4dd665629f",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+      "curlExit": 0,
+      "bytes": 306671,
+      "sha256": "b1ff9e2decba9affc3e31db01a508805e2b63c977cd03253380032a0b21a81b6",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "curlExit": 0,
+      "bytes": 955,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "curlExit": 0,
+      "bytes": 15325,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "curlExit": 0,
+      "bytes": 34080,
+      "sha256": "7c69e5fef86772a2d0bc3ade416ca1f13ad6391d9fa6fd349150343f7307f467",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "curlExit": 0,
+      "bytes": 10854,
+      "sha256": "e776bbafe261eda72ec249f32fcf27fe8ff59a63f98ee33cad0775305c960f36",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "curlExit": 0,
+      "bytes": 750,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "identical": true
+    },
+    {
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "curlExit": 0,
+      "bytes": 525,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "identical": true
+    }
+  ]
+}

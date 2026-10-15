@@ -1,0 +1,47 @@
+{
+  "desktop": {
+    "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+    "image": {
+      "alt": "Trent Reznor dei Nine Inch Nails sul palco, con camicia verde e un braccio alzato davanti alle luci; è raffigurato il solo cantante.",
+      "complete": true,
+      "natural": [
+        960,
+        1440
+      ],
+      "render": [
+        212,
+        318
+      ],
+      "src": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg"
+    },
+    "og": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+    "overflow": false,
+    "twitter": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg",
+    "url": "https://www.dietroiltesto.it/artista/nine-inch-nails/",
+    "viewport": [
+      1280,
+      900
+    ]
+  },
+  "mobile": {
+    "credit": "Trent Reznor in concerto (solo membro raffigurato) · Foto di Fiona Bowie (Gebgdc) · Fonte originale · CC BY-SA 4.0 · ridimensionata da Wikimedia Commons; nessun ritaglio o ritocco locale",
+    "image": {
+      "complete": true,
+      "natural": [
+        960,
+        1440
+      ],
+      "render": [
+        219,
+        328
+      ],
+      "src": "https://www.dietroiltesto.it/ritratti/nine-inch-nails-trent-reznor.jpg"
+    },
+    "overflow": false,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "console": []
+}
