@@ -1,0 +1,22 @@
+{
+  "commit": "c21c74ffdbaef01232d4cc6005b9c45c606b752b",
+  "deployment": "CQx55opLTk3o6vhXgDYCRwzjk1K3",
+  "stato": "Ready/Latest/Current/Production",
+  "oraCEST": "2026-10-19 18:20:47",
+  "durataSecondi": 18,
+  "filePubbliciConfrontati": 15,
+  "sitemapPrimaDopoIdentiche": 6,
+  "datePreservate": true,
+  "visteBrowser": 18,
+  "schermi": [
+    {
+      "w": 1280,
+      "h": 900
+    },
+    {
+      "w": 390,
+      "h": 844
+    }
+  ],
+  "soloDocumentazioneNellaChiusura": true
+}

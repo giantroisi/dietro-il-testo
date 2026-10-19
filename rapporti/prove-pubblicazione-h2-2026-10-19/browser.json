@@ -1,0 +1,221 @@
+{
+  "viste": [
+    {
+      "h1": "Canzoni rock",
+      "h1Count": 1,
+      "h2": "Brani rock raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 801.3671875
+      },
+      "overflow": false,
+      "path": "/genere/rock/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni pop",
+      "h1Count": 1,
+      "h2": "Brani pop raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 777.3125
+      },
+      "overflow": false,
+      "path": "/genere/pop/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni metal",
+      "h1Count": 1,
+      "h2": "Brani metal raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 804.8671875
+      },
+      "overflow": false,
+      "path": "/genere/metal/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni punk",
+      "h1Count": 1,
+      "h2": "Brani punk raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 747.7578125
+      },
+      "overflow": false,
+      "path": "/genere/punk/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni degli anni Settanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Settanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 805.8671875
+      },
+      "overflow": false,
+      "path": "/anni/1970/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni degli anni Ottanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Ottanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 748.7578125
+      },
+      "overflow": false,
+      "path": "/anni/1980/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni degli anni Novanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Novanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 776.3125
+      },
+      "overflow": false,
+      "path": "/anni/1990/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni degli anni Duemila",
+      "h1Count": 1,
+      "h2": "Brani degli anni Duemila raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 804.8671875
+      },
+      "overflow": false,
+      "path": "/anni/2000/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni degli anni Duemiladieci",
+      "h1Count": 1,
+      "h2": "Brani degli anni Duemiladieci raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 777.3125
+      },
+      "overflow": false,
+      "path": "/anni/2010/",
+      "w": 1280
+    },
+    {
+      "h1": "Canzoni rock",
+      "h1Count": 1,
+      "h2": "Brani rock raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1238.5625
+      },
+      "overflow": false,
+      "path": "/genere/rock/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni pop",
+      "h1Count": 1,
+      "h2": "Brani pop raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1181.453125
+      },
+      "overflow": false,
+      "path": "/genere/pop/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni metal",
+      "h1Count": 1,
+      "h2": "Brani metal raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1237.5625
+      },
+      "overflow": false,
+      "path": "/genere/metal/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni punk",
+      "h1Count": 1,
+      "h2": "Brani punk raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1124.34375
+      },
+      "overflow": false,
+      "path": "/genere/punk/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni degli anni Settanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Settanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1301.8125
+      },
+      "overflow": false,
+      "path": "/anni/1970/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni degli anni Ottanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Ottanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1217.1484375
+      },
+      "overflow": false,
+      "path": "/anni/1980/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni degli anni Novanta",
+      "h1Count": 1,
+      "h2": "Brani degli anni Novanta raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1216.1484375
+      },
+      "overflow": false,
+      "path": "/anni/1990/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni degli anni Duemila",
+      "h1Count": 1,
+      "h2": "Brani degli anni Duemila raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1274.2578125
+      },
+      "overflow": false,
+      "path": "/anni/2000/",
+      "w": 390
+    },
+    {
+      "h1": "Canzoni degli anni Duemiladieci",
+      "h1Count": 1,
+      "h2": "Brani degli anni Duemiladieci raccontati",
+      "h2Rect": {
+        "height": 17.59375,
+        "y": 1244.703125
+      },
+      "overflow": false,
+      "path": "/anni/2010/",
+      "w": 390
+    }
+  ],
+  "erroriConsole": []
+}

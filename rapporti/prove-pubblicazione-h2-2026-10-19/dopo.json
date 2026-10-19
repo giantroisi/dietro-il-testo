@@ -1,0 +1,97 @@
+{
+  "fase": "dopo",
+  "commit": "c21c74ffdbaef01232d4cc6005b9c45c606b752b",
+  "verificaUTC": "2026-10-19T16:21:24.199508+00:00",
+  "file": [
+    {
+      "file": "genere/rock/index.html",
+      "url": "https://www.dietroiltesto.it/genere/rock/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "b6d3c0a887df2ed77090258258aa84ef2fd74ce0afd7eaf176f035e56507ce45"
+    },
+    {
+      "file": "genere/pop/index.html",
+      "url": "https://www.dietroiltesto.it/genere/pop/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "16abce0850cfb0f5db4d605d5c00f1c196c4c3f350475cc26c083e618e9ebc4b"
+    },
+    {
+      "file": "genere/metal/index.html",
+      "url": "https://www.dietroiltesto.it/genere/metal/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "b7344352950de8d9a0c0f2ed7f062a008f7719ad73c8e89b00aeadc3eda2c4e7"
+    },
+    {
+      "file": "genere/punk/index.html",
+      "url": "https://www.dietroiltesto.it/genere/punk/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "45221e139628d258cb536252cb5fc6925bece8408955f8d6c5987d81e51dfd12"
+    },
+    {
+      "file": "anni/1970/index.html",
+      "url": "https://www.dietroiltesto.it/anni/1970/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "cfdd3b61f29b70172d3fb5fbe79d97a8d32b2ec5e00c7ccb3cb2addb345c2ab3"
+    },
+    {
+      "file": "anni/1980/index.html",
+      "url": "https://www.dietroiltesto.it/anni/1980/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "f2aa401d5e158ccb0d3a257d52281d69eae6ccca5de059103f1150cee755b0f4"
+    },
+    {
+      "file": "anni/1990/index.html",
+      "url": "https://www.dietroiltesto.it/anni/1990/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "9a9d69db5535ff45a22bbba9a64880eb3f8b12c206eb3fe03771c43c68157f93"
+    },
+    {
+      "file": "anni/2000/index.html",
+      "url": "https://www.dietroiltesto.it/anni/2000/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "5a9a71a4fc9c328479a25233754596acb86f2c1e21feed5427ae5b5ef3bd35aa"
+    },
+    {
+      "file": "anni/2010/index.html",
+      "url": "https://www.dietroiltesto.it/anni/2010/",
+      "byteIdenticiAlCommit": true,
+      "sha256": "258b50d4527acae31656c51aaba14ae8d497035830910fa46edd046f7130f5a2"
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e"
+    },
+    {
+      "file": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa"
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "092a8d3b6a0e334a9e258184c1bfd0ab3cbba963a10f0cda7c524dcd98043a4c"
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87"
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "byteIdenticiAlCommit": true,
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad"
+    }
+  ]
+}
