@@ -1,0 +1,82 @@
+{
+  "base": "79253acd2b436cc2d9777ba733c424fe09171271",
+  "htmlTracciati": 698,
+  "htmlModificati": 9,
+  "modifiche": [
+    {
+      "file": "genere/rock/index.html",
+      "riga": 920,
+      "h1": "Canzoni rock",
+      "h2": "Brani rock raccontati"
+    },
+    {
+      "file": "genere/pop/index.html",
+      "riga": 920,
+      "h1": "Canzoni pop",
+      "h2": "Brani pop raccontati"
+    },
+    {
+      "file": "genere/metal/index.html",
+      "riga": 920,
+      "h1": "Canzoni metal",
+      "h2": "Brani metal raccontati"
+    },
+    {
+      "file": "genere/punk/index.html",
+      "riga": 920,
+      "h1": "Canzoni punk",
+      "h2": "Brani punk raccontati"
+    },
+    {
+      "file": "anni/1970/index.html",
+      "riga": 920,
+      "h1": "Canzoni degli anni Settanta",
+      "h2": "Brani degli anni Settanta raccontati"
+    },
+    {
+      "file": "anni/1980/index.html",
+      "riga": 920,
+      "h1": "Canzoni degli anni Ottanta",
+      "h2": "Brani degli anni Ottanta raccontati"
+    },
+    {
+      "file": "anni/1990/index.html",
+      "riga": 920,
+      "h1": "Canzoni degli anni Novanta",
+      "h2": "Brani degli anni Novanta raccontati"
+    },
+    {
+      "file": "anni/2000/index.html",
+      "riga": 920,
+      "h1": "Canzoni degli anni Duemila",
+      "h2": "Brani degli anni Duemila raccontati"
+    },
+    {
+      "file": "anni/2010/index.html",
+      "riga": 920,
+      "h1": "Canzoni degli anni Duemiladieci",
+      "h2": "Brani degli anni Duemiladieci raccontati"
+    }
+  ],
+  "altriHTMLIdentici": 689,
+  "metadatiEDatePreservati": true,
+  "sitemapIdentiche": 6,
+  "guardrailOriginaleInvariato": true,
+  "renderMirati": 18,
+  "dateDuePassaggiIdentiche": {
+    "genere/rock/": "2026-10-04",
+    "genere/pop/": "2026-10-04",
+    "genere/metal/": "2026-09-22",
+    "genere/punk/": "2026-09-21",
+    "anni/1970/": "2026-09-22",
+    "anni/1980/": "2026-09-17",
+    "anni/1990/": "2026-10-03",
+    "anni/2000/": "2026-10-04",
+    "anni/2010/": "2026-09-21"
+  },
+  "guardiaMassiva": "160/321 non bloccate; 161/321 bloccate",
+  "URLInSitemap": 571,
+  "H1Uniche": 571,
+  "H1RipetuteComeH2": 0,
+  "nessunBuildGenerale": true
+}

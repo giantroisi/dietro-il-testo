@@ -1357,7 +1357,7 @@ export function paginaRaccolta(rac, ctx) {
     </section>
 
     <section class="blocco" id="canzoni">
-      <h2>${esc(rac.titoloH1)}</h2>
+      <h2>${esc(`Brani ${rac.titoloH1.replace(/^Canzoni /, '')} raccontati`)}</h2>
       <div class="griglia">
         ${ordinate.map((b) => schedaCanzone(b, r)).join('\n        ')}
       </div>

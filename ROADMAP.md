@@ -4994,3 +4994,12 @@ Copia ritratto-nin, ramo codex/consolidamento-link-contestuali-2026-10-15, basee
 ### Esito §129 — due collegamenti pubblicati, 15 ottobre 2026
 
 Approvazione diretta e specifica del proprietario. Integrato/push9a60430ac; Vercel63uhMNDmXsvvDFJ7xKLZMmgYnZU2 Ready/Latest/Current/Production,14:04:13CEST,17secondi. Dieci file pubblici identici al commit: quattroHTML e sei sitemap. Browser390 conferma clic effettivo verso Killing in the Name/originale Sound of Silence e ritorno, nessun overflow. Prove e rapporto di pubblicazione dedicati. Unico dateModified/lastmod Disturbed12→15ottobre già previsto, altre date/parole/immagini intatte; nessun build generale né richiestaGSC/IndexNow. Questa chiusura è sola documentazione. Main/nontracciati/altraAI/revisioni preservati. Cartoline ferme e nessun altro lotto avviato.
+
+
+## 130. Nove H2 delle raccolte ricostruiti — 19 ottobre 2026
+
+Mandato diretto del proprietario dopo scomparsa della precedente copia non committata. Nove H2 identici all’H1 sostituiti da «Brani … raccontati» sulle quattro pagine genere e cinque decenni; H1 invariati. Una riga del modello raccolte e nove righe HTML, tutte alla riga920. Ramo codex/h2-raccolte-2026-10-19, copia separata omonima, base79253acd2.
+
+Confronto698HTML: nove soli H2 diversi,689HTML intatti; sei sitemap byte-identiche. DatePublished/dateModified/lastmod, title/description/canonical/URL/dati/link/immagini/Amazon invariati. Doppio rendering mirato delle nove raccolte con date identiche; F40 originale preservato e guardia161/321 bloccata,160/321 non bloccata. Nessun build generale. SEO696, link/coerenza321-104 senza problemi; audit571URL con H1 uniche e zero ripetizioni H1/H2 dopo la correzione. Verifica browser non eseguita: manca il permesso specifico al nuovo origin locale, già negato in precedenza.
+
+Dossier rapporti/h2-raccolte-2026-10-19.md, diff/prove dedicati e proposta futura separata su quattro album con sola baselineGSC storica, non applicata. Commit soltanto locale dopo verifica, mostrare al proprietario prima di integrazione/push/pubblicazione. Main/nontracciati/altraAI/revisioni preservati, cartoline ferme. Limite dell’interfaccia100allegati impedisce il collegamento della copia, che esiste regolarmente; conservare il commit e il diff per il recupero.

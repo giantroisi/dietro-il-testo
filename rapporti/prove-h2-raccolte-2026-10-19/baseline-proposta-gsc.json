@@ -1,0 +1,37 @@
+{
+  "file": "/Users/gianmicheletroisi/Documents/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-dietroiltesto-album-performance-2026-10-08/Pagine.csv",
+  "sha256": "96ec2e227d8242a308250ccfaa6eb4e904b95157ac4e4b39142189004efda13d",
+  "export": "2026-10-08",
+  "periodo": "Ultimi 3 mesi",
+  "stato": "storico, non attuale",
+  "righe": [
+    {
+      "Pagine principali": "https://www.dietroiltesto.it/album/the-killers/hot-fuss/",
+      "Clic": "1",
+      "Impressioni": "23",
+      "CTR": "4.35%",
+      "Posizione": "24.09"
+    },
+    {
+      "Pagine principali": "https://www.dietroiltesto.it/album/fleetwood-mac/rumours/",
+      "Clic": "0",
+      "Impressioni": "43",
+      "CTR": "0%",
+      "Posizione": "12.88"
+    },
+    {
+      "Pagine principali": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+      "Clic": "0",
+      "Impressioni": "24",
+      "CTR": "0%",
+      "Posizione": "32.38"
+    },
+    {
+      "Pagine principali": "https://www.dietroiltesto.it/album/system-of-a-down/toxicity/",
+      "Clic": "0",
+      "Impressioni": "17",
+      "CTR": "0%",
+      "Posizione": "11.76"
+    }
+  ]
+}

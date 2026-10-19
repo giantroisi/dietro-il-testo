@@ -1,0 +1,17 @@
+{
+  "check-seo": {
+    "pagine": 696,
+    "problemi": 0
+  },
+  "check-link": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "check-coerenza": {
+    "canzoni": 321,
+    "artisti": 104,
+    "problemi": 0
+  },
+  "browser": "Non eseguito; confronto HTML e doppio rendering mirato effettuati. Il precedente permesso browser per il nuovo origin locale era stato negato, senza autorizzazione successiva."
+}

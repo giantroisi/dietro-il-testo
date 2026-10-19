@@ -1,0 +1,130 @@
+diff --git a/anni/1970/index.html b/anni/1970/index.html
+index 31fa12915..6baf0e11e 100644
+--- a/anni/1970/index.html
++++ b/anni/1970/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni degli anni Settanta</h2>
++      <h2>Brani degli anni Settanta raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/il-forestiero/" style="--identita:#8A6E3E">
+           <span class="sopra">Il forestiero <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1970</span>
+diff --git a/anni/1980/index.html b/anni/1980/index.html
+index 8bb7fdb0f..d1e6d2df8 100644
+--- a/anni/1980/index.html
++++ b/anni/1980/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni degli anni Ottanta</h2>
++      <h2>Brani degli anni Ottanta raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/ace-of-spades/" style="--identita:#1A1A1A">
+           <span class="sopra">Ace of Spades <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1980</span>
+diff --git a/anni/1990/index.html b/anni/1990/index.html
+index e7005fee9..c6f0a704b 100644
+--- a/anni/1990/index.html
++++ b/anni/1990/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni degli anni Novanta</h2>
++      <h2>Brani degli anni Novanta raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/balliamo-sul-mondo/" style="--identita:#3E2E1F">
+           <span class="sopra">Ligabue <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1990</span>
+diff --git a/anni/2000/index.html b/anni/2000/index.html
+index da9007737..e48457e58 100644
+--- a/anni/2000/index.html
++++ b/anni/2000/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni degli anni Duemila</h2>
++      <h2>Brani degli anni Duemila raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/crawling/" style="--identita:#4A1F4A">
+           <span class="sopra">Hybrid Theory <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2000</span>
+diff --git a/anni/2010/index.html b/anni/2010/index.html
+index 7bcff7d10..f52324a11 100644
+--- a/anni/2010/index.html
++++ b/anni/2010/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni degli anni Duemiladieci</h2>
++      <h2>Brani degli anni Duemiladieci raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/un-colpo-allanima/" style="--identita:#3E2E2E">
+           <span class="sopra">Arrivederci, mostro! <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2010</span>
+diff --git a/genere/metal/index.html b/genere/metal/index.html
+index d9290769e..768041463 100644
+--- a/genere/metal/index.html
++++ b/genere/metal/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni metal</h2>
++      <h2>Brani metal raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/ace-of-spades/" style="--identita:#1A1A1A">
+           <span class="sopra">Ace of Spades <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1980</span>
+diff --git a/genere/pop/index.html b/genere/pop/index.html
+index 94d032f2f..7dc0a822c 100644
+--- a/genere/pop/index.html
++++ b/genere/pop/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni pop</h2>
++      <h2>Brani pop raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/4-marzo-1943/" style="--identita:#3E5A8A">
+           <span class="sopra">Storie di casa mia <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1971</span>
+diff --git a/genere/punk/index.html b/genere/punk/index.html
+index 4db16afd7..d04fdd628 100644
+--- a/genere/punk/index.html
++++ b/genere/punk/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni punk</h2>
++      <h2>Brani punk raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/21-guns/" style="--identita:#2E2E2E">
+           <span class="sopra">21st Century Breakdown <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
+diff --git a/genere/rock/index.html b/genere/rock/index.html
+index d55b4bf78..ab0728751 100644
+--- a/genere/rock/index.html
++++ b/genere/rock/index.html
+@@ -917,7 +917,7 @@ a { color: inherit; }
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>Canzoni rock</h2>
++      <h2>Brani rock raccontati</h2>
+       <div class="griglia">
+         <a class="scheda" href="../../canzone/21-guns/" style="--identita:#2E2E2E">
+           <span class="sopra">21st Century Breakdown <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 2009</span>
+diff --git a/scripts/genera/pagine.mjs b/scripts/genera/pagine.mjs
+index 00530091a..7b0b6e6d3 100644
+--- a/scripts/genera/pagine.mjs
++++ b/scripts/genera/pagine.mjs
+@@ -1357,7 +1357,7 @@ export function paginaRaccolta(rac, ctx) {
+     </section>
+ 
+     <section class="blocco" id="canzoni">
+-      <h2>${esc(rac.titoloH1)}</h2>
++      <h2>${esc(`Brani ${rac.titoloH1.replace(/^Canzoni /, '')} raccontati`)}</h2>
+       <div class="griglia">
+         ${ordinate.map((b) => schedaCanzone(b, r)).join('\n        ')}
+       </div>
