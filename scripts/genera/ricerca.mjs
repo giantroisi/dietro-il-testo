@@ -48,12 +48,8 @@ export function generaRicerca(ctx) {
     g: x.tipo === 'genere' ? 0 : 1,
   }));
 
-  // F36: la pillola del giorno ruota nel browser, non in fase di build — la
-  // formula (giorno % candidate.length) resta identica a quella server-side
-  // in pagine.mjs, così la scelta del giorno corrente coincide con quella già
-  // renderizzata e non "salta" al primo caricamento. Stesso ordine dei
-  // candidati di paginaHome (ctx.canzoni con fraseIconica), stesso motivo per
-  // cui l'estratto è già troncato qui: mai testo non parafrasato al client.
+  // Pool stabile ricavato dai dati; la rotazione avviene soltanto nel browser.
+  // Nessun seed temporale nella generazione o nel caricamento client.
   function primaFraseBuild(testo, max) {
     if (!testo) return '';
     const t = String(testo).trim();
@@ -346,13 +342,14 @@ export function generaRicerca(ctx) {
       if (artistaLink) { artistaLink.href = RADICE + 'artista/' + p.a + '/'; artistaLink.textContent = p.n; }
     };
 
-    // F37: prima era la canzone del giorno, uguale per tutti fino a mezzanotte.
-    // Ora cambia a ogni caricamento. Nell'HTML resta scritta la scelta del
-    // giorno, che e' quella che vedono i motori e chi non ha JavaScript: qui la
-    // si sostituisce subito, e si evita di ripescare proprio quella.
+    // Evita la selezione iniziale effettivamente presente nell'HTML.
+    var linkIniziale = elementoPillola.querySelector('[data-pillola-link]');
+    var percorsoIniziale = linkIniziale ? linkIniziale.getAttribute('href') : '';
+    var indiceIniziale = PILLOLE.findIndex(function (p) {
+      return percorsoIniziale === RADICE + 'canzone/' + p.s + '/';
+    });
     var primaScelta = Math.floor(Math.random() * PILLOLE.length);
-    var giroDelGiorno = Math.floor(Date.now() / 86400000) % PILLOLE.length;
-    if (PILLOLE.length > 1 && primaScelta === giroDelGiorno) {
+    if (PILLOLE.length > 1 && primaScelta === indiceIniziale) {
       primaScelta = (primaScelta + 1) % PILLOLE.length;
     }
     mostraPillola(primaScelta);

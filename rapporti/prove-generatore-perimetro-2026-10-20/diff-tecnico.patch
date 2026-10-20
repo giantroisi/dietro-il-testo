@@ -1,0 +1,653 @@
+diff --git a/dati/baseline-generatore.json b/dati/baseline-generatore.json
+new file mode 100644
+index 000000000..eca49418b
+--- /dev/null
++++ b/dati/baseline-generatore.json
+@@ -0,0 +1,231 @@
++{
++  "versione": 1,
++  "ereditate": {
++    "/album/5-seconds-of-summer/youngblood/": {
++      "pubblicata": "6170de0514f7e49dd7425a72b6cb115fa3b4a712bbc98f6e07b00b7c959010ab",
++      "generata": "54e61e9b087fd5ea4c010e2b79bb66ee61895b18f469c9ecd5e3d4590197dbc0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/album/caparezza/verita-supposte/": {
++      "pubblicata": "a641c7c9bdcbda04ad20c2d4541404aac356ab68e94f6736abf850e0397c1940",
++      "generata": "b826725bab41de52af8bbefc11fd03cbb30b498c11ac6d844c3a485d74ee31bf",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/album/franco-battiato/limboscata/": {
++      "pubblicata": "7d7bc777a08832d205bac2106dbe1f0966f7c05f9cb36b6d5e6ce783ad2d248c",
++      "generata": "aee8f600438b55e96d22fc6fa8c1c399c75b008164e8ef50ecc8f9091e01bc50",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/1990/": {
++      "pubblicata": "e3e9d679f9e43c60b590f4266a52f5449ed7848de7e8403c150cc1285f020331",
++      "generata": "f95d63e38a4923e21366b9fe62bf3326a29247a21a8e9e3417668c2e0cdbc48c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/2000/": {
++      "pubblicata": "f121ece97d7771adc51f3c6130494dea177f85c530c9a6e6d8632b2fa794ec7e",
++      "generata": "1644f65b709ceecaf0a799919306544037ddad899c098bcf64ddb189c4fd7157",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/2010/": {
++      "pubblicata": "9b704f603fe99032971cc8641dc3fc30a7290da89b2470c87a6523e530d25710",
++      "generata": "f7631c288e3e975f61beb9a9e0c061c4c6c6b3dd35acada0ab428ec5e7f78cc9",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/archivio/": {
++      "pubblicata": "388fd69c354bc0ae92d9bc3235f5505c2c8e0db624ac96f95c62f948ab7ad7f8",
++      "generata": "3fee183f2f96dd9f6bda87e57d0625fadc8e52cffc7b360ff33d261c6780f072",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/5-seconds-of-summer/": {
++      "pubblicata": "f87b3841e5906bcc47cdda586565cb13588b90f11419c892758ba09dd9a1ed06",
++      "generata": "8909635d1287fca71200c2158fdd6da823737442b7c7a60eee330d12af6a7b86",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/caparezza/": {
++      "pubblicata": "1880448bc5cb17f6f63eb0aaaecf471b591241575127bdf2ed09fa4dff931f61",
++      "generata": "ceb3b064533669ee48598eb5fcc0197d75729273c3da9d47b3c03e27eee04468",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/franco-battiato/": {
++      "pubblicata": "9e148ee4f1b83af2beeca4527ff103cd852a46b6d4814d9eba0a548fc5316761",
++      "generata": "369046af2c54bfdae6fb30734c0d8a02ea1d73178ece6e1fe1d8a3c75f9a2859",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/amnesia-5sos/": {
++      "pubblicata": "c0a0b19ae6b6b2d6e827f6bdedd4d69c76d013460151c80516a6f2d543f0e777",
++      "generata": "3a0eddbecf8c17b422d81e614b11f1725f9f2011a709a285d3e0b36f64e5bf6d",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/bandiera-bianca/": {
++      "pubblicata": "5c8def24de583f443b5e71cbe425385b07f73b4438816fb6273637c79d12fa18",
++      "generata": "8d0d3f212fe985fe365d7288559e1e77aba9402e6901ddf15917defed0f42f6e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/centro-di-gravita-permanente/": {
++      "pubblicata": "83a8c9e0a214828c64b442e66bac932f067dcfe8ac25b59cf2b705f344fa7db5",
++      "generata": "04acb296e73743b203fabe6b51d98a93fa8ecb58741fc4361b79bdf396f00a2c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/complete-mess/": {
++      "pubblicata": "d2cef1c8611f3e876656a8406e116b822dba6bb37a582ecbb42111d439f69a3c",
++      "generata": "aad1a161108fe4543213b0ba8676bf496b99889c0ac77a23c284de4d4e12273c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/easier/": {
++      "pubblicata": "338faf2c2ad8e4ef86694a85dd21c41afe5707ba8217609302b76819ad1d9e44",
++      "generata": "785add41b948933239d90e3e7df6e0967d0b9c2252675ca00975aea5425d3a65",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/eroe-storia-di-luigi-delle-bicocche/": {
++      "pubblicata": "38023c81b9e2fcc1163f956031b2b0b7bd797effc56a1768dcc366f796154b70",
++      "generata": "b7cc94e0470f2d823e48fd8b2b9509ceee74093511c49662169c55e6a0822ae8",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/exuvia/": {
++      "pubblicata": "0e8dd725469d81aee2757bd7a62c5c9ef54c86595d0cedc7d54022733286d2a8",
++      "generata": "75cb6f92f3903ab7c96942b810695da9706b57ce4ff5e2bcb8292f9bee644438",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/goodbye-malinconia/": {
++      "pubblicata": "de3b769f5cf3c3dd59684ba0fa4b4a345210cc1cce3163a52091fc8043c9ce68",
++      "generata": "a85153e96409153848c28186524b50b129cfa40c6f090b7e95a9372fa6bb9c45",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/l-era-del-cinghiale-bianco/": {
++      "pubblicata": "5501cc64e7f685b792bfe305e11546a46b56963cf4596d06887da19fa9d25118",
++      "generata": "358f81bd7c6362231d039d26bbb6fa2980cc73abd5f553ce67d8f1ba8afb1519",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/la-mia-parte-intollerante/": {
++      "pubblicata": "998d8f448d01b5c4f3d3d1ae449ff91f1dcbcb4b975ed5cf9f28b1dc640a15e3",
++      "generata": "5b66737676d0dab810a943477d7169767145d8abd9bf5cd567171f2fdcb62152",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/legalize-the-premier/": {
++      "pubblicata": "87b988f582852b84376c73c4fdebb12e55747615ce9075bb05aad071c27e74a8",
++      "generata": "a9caaf3be61ca161671a91ddc9b9836e64280f3f7e3a4e5a7bf7b1daa2a8afd0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/lose-yourself/": {
++      "pubblicata": "104e856c691faa0a75d909d3e8e471a2fc48707fde87e3066c57590f1d806045",
++      "generata": "cb5532c309c9dd92523df91b051058c36a4cac018cfc4c36d51029a24003a7a7",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/non-me-lo-posso-permettere/": {
++      "pubblicata": "164af038a4e0c731acf2a006a2bb45456bf4ca49c1531b65c4e53303cef095d0",
++      "generata": "84e712eae0c5950bf72d78b56f53496c3c9e9f04c5d3f729fc5f89873d72e471",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/not-ok/": {
++      "pubblicata": "5edaad72f8e67234f288d3198e10e1692d3a81cb2fff9f0c10c5edf402624ab5",
++      "generata": "d071104db6fac6b1498a1bb72130b5749a59b1a0acd86d2855151143ab5941b0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/piu-bella-cosa/": {
++      "pubblicata": "33cfdb974b2d90d3a58a1ec3306115a4a6454628bbfccdd74da56e6396051f52",
++      "generata": "cf5016c9ca8e6a6e4fd783a01e28815792ee1c1cda9a426cd11fdb93ed1bec24",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/povera-patria/": {
++      "pubblicata": "a6bc5bac10ae4b9e10b5b669fed2d8db176be3e89dfe90aa7457f4234ca14cd3",
++      "generata": "952d55fcaac12a0d0e83fe7124bd7d884d240dfd732ccb9b50eb718b36710d92",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/prisoner-709/": {
++      "pubblicata": "a89b8efc0cc72e078289a0a28e1251dc9b1599574020d69cf5442ac5bb856410",
++      "generata": "041c46cc03a4c7d86e80321e04723e06890bcce849ad538ae1d1c1cbafcffca9",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/prospettiva-nevski/": {
++      "pubblicata": "86d1288891fa2a44b5a7da7de13945ce534ad651a679b76b280db283bb7f00fa",
++      "generata": "390dd1027198bfb89cd55fe7aa0fdf17a67ccecb9390c2287e1edf989f907a4e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/she-looks-so-perfect/": {
++      "pubblicata": "05f0b000b1ce56833d0c784058f3a76a48f0eefd28f51826b6c9311f439822ed",
++      "generata": "19cdb0b5f57878643d91a70504ea77584e3040dc4b684beb196b9bc19e6dd25f",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/shes-kinda-hot/": {
++      "pubblicata": "0e15e0a85f782db08290958235f5d21eb29e70f690b858d13417221e846b2e0b",
++      "generata": "2438830227427a372c6e37f2571281c851408c66643ed75a346dda6d8d36eb2c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/vieni-a-ballare-in-puglia/": {
++      "pubblicata": "44c27ea1134eae857cf63fe2ebc08e6043c6955d9fd5b17b909948536ce2ba4a",
++      "generata": "f4cf5bc0eb0f207a92234c8cabecabf1b2572a307e1c60767d0527432c35071a",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/genere/pop/": {
++      "pubblicata": "4c0afa7959e1e89d8b984813a58178ad1bf32294c1ad8b51affe40c0f6e6000f",
++      "generata": "11564168e3eeca926467f841887b7993c1acd7247c88f0f4a41d29fe7f132b4e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/genere/rock/": {
++      "pubblicata": "62a14aaa38ee6442c04b8a27486c38866ca62c08aca3c3a28b975d3c1f2f5626",
++      "generata": "dacda2f4a3c39b1bea9288792f1dc304096555cddfae9ba68c71667d3da5b544",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/r-e-m/": {
++      "pubblicata": "b95b3575cf5a29d7d5535b5c5142fcffc0e3c2c0e4a2ac85c6efbe7d40a8d57f",
++      "generata": "285cfcc97d0ac58fa192c6fff02bcc62ba2f07e940a4454a5252f7b4480649b6",
++      "motivo": "righe vuote pregresse"
++    }
++  },
++  "cartoline": {
++    "hotel-california": "1bf5ee07ae420ac5461da0d46d08086bf1652a98b53c9cd0a78436407462e183",
++    "caruso": "4287fc115548dcc4d48b8220a8791cc93aef9ee43dfe65a015ec37cb9b79da37",
++    "azzurro": "908a7e5800198307e2fe5eb56db6304b576706dd12b01b770736668293909f38",
++    "all-the-small-things": "55efac92558947f0bb46f30d809a57e152f3379b9962fb1629f54fb791544631",
++    "whats-my-age-again": "4ee82bd006d68ea4eda0ae2043d7f15b049e560763927de39494607cf57141e3",
++    "ho-messo-via": "b199e3098e79b5b3f6feae0b21c356698cebd2a5b822694b4066dcd19c578f7e",
++    "vieni-a-ballare-in-puglia": "03414c3626f3f84d0e82c424bb2426bcc1eb59eb14e1819af2dfdf5762300b21",
++    "dont-look-back-in-anger": "0943b14114dd912aff76e3091e6c69db1ca576de121bb53364d3a90c65bf93bc",
++    "november-rain": "be24b3a6b9996b1581b9c1543d22f1e1155c9c8e2a98917b40224ece6f361e34",
++    "man-in-the-box": "fe8b5bbcb3cbcce5c763a5082d55882b5386779f924081cb3c20c3f0825d3b2a",
++    "war-pigs": "2333c4e2516c6ecf7df995d19704fb957624c066793a3843fd514c45738dab2f",
++    "wake-me-up-when-september-ends": "80ec0365b6868293809d5639dac0fbbd3455e578e12c841bf190809041c8e471",
++    "black-pearl-jam": "438c1460d557b72f30c07f0958c66856e33264a257b6006c05e3794bbc83a281",
++    "throne": "94d37151f0e7bf78d06fc5ca01b61bf56eed44240230ba011a61a2cf6211f66c",
++    "numb": "a4bc75e364c8f7430a877709388174536621ab76f32c88dd1216f2b3a49423ec",
++    "mantra": "1e94383c50ffd590460d0a74c3cfa9f677a022a0419c0ee7507415cf7eb923af",
++    "in-the-end": "74d0804c54287cd623f203a95ac217b2a20bfff098a06ebaed6fa88918d0d3c9",
++    "doomed": "9383b293a09415470e300c99947ac26197edd9ce953b6aef6da6c2101a588de4",
++    "crawling": "82d8dbfe46e1af79978d2da2c56f913880a95499d4c9cc445e34d75712724360",
++    "happy-song": "0e0575a082a2f338320831208fb926b82147e5a81ccc9d54e75aac915dc48325",
++    "one-step-closer": "a78ba6b187ee4e5dc1a27a10926a76982a531396426f6349185d3685357f818d",
++    "chop-suey": "97c77c4531f927511ef0cb53ccb6b24e2fdddcdac9424ef01749e692c26e5f66",
++    "mr-brightside": "0ca0f6883eb60848e24f71dd9a781c9fe290bbb05282156d2b5e09b37ebba5ad"
++  },
++  "immagini": {
++    "pillole/all-the-small-things-storia.jpg": "94d2e1faae5caedf4bd18e1baec61096ba09ed8cf1fc9b88881f55e3283f134b",
++    "pillole/azzurro-chiaro.webp": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811",
++    "pillole/azzurro-scuro.webp": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3",
++    "pillole/azzurro-storia.jpg": "615a67cf0e22e2114f4743b0d04451c45cf2fe2a24081ff65b34350d1b0735e1",
++    "pillole/black-pearl-jam-storia.jpg": "499c0bd19ca38ff6ced500e51be1ead7bb8efad4f64c19cee8b212ef1b58503b",
++    "pillole/caruso-chiaro.webp": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c",
++    "pillole/caruso-scuro.webp": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0",
++    "pillole/caruso-storia.jpg": "599fa9ad3fc1c812c2786d4b92123b1cdb887898e8e08037a9ba5731ee72275d",
++    "pillole/chop-suey-storia.jpg": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
++    "pillole/crawling-storia.jpg": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
++    "pillole/dont-look-back-in-anger-storia.jpg": "d5350be06cc889c02ef1f7e1fedfe25579a331f498ec5b5b56f7b34d07482687",
++    "pillole/doomed-storia.jpg": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
++    "pillole/happy-song-storia.jpg": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
++    "pillole/ho-messo-via-storia.jpg": "5af1f05a5bc6fc383482d0cca937a58f28a5d70898372b010fd02b51418ed4ad",
++    "pillole/hotel-california-chiaro.webp": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360",
++    "pillole/hotel-california-scuro.webp": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1",
++    "pillole/hotel-california-storia.jpg": "bec49b1e61fafc4239b168552f7b8d146a0012cb8af76270ec9b3ab075f18f7d",
++    "pillole/in-the-end-storia.jpg": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
++    "pillole/man-in-the-box-storia.jpg": "d9af70ff37eb88ef59619d660546083296a01d68af25704e7e5780fe70509d8e",
++    "pillole/mantra-storia.jpg": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
++    "pillole/mr-brightside-storia.jpg": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
++    "pillole/november-rain-storia.jpg": "c25014f23112d5729e4c7f2913565402fbab47616c4ba018936609fcfeb46d95",
++    "pillole/numb-storia.jpg": "389e66e638e42e0b98d6f0e96d4f79dd700f9cf35b9a591e814fbc691183ca6a",
++    "pillole/one-step-closer-storia.jpg": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
++    "pillole/throne-storia.jpg": "9444d6640bbb48ece2c69be171a3aa78522bd9031e80555be4caee0e56196156",
++    "pillole/vieni-a-ballare-in-puglia-storia.jpg": "27cbe485f9a88972c6ae20f6c21d314c76869c7b56f28d625629b57c84849882",
++    "pillole/wake-me-up-when-september-ends-storia.jpg": "7f9c49d93a1f2b49c4736416b7972ae108a4c97d4a8ed47a4105152a54f68279",
++    "pillole/war-pigs-storia.jpg": "c10c5f068c73a232191341763ca78b051654eae03cdeb0f0687c0353f928271d",
++    "pillole/whats-my-age-again-storia.jpg": "4643bf2aa58d601e7df041848c09d377171105775229d92eda898529a1f1082b"
++  }
++}
+diff --git a/dati/evidenza-home.json b/dati/evidenza-home.json
+new file mode 100644
+index 000000000..ecb75e62d
+--- /dev/null
++++ b/dati/evidenza-home.json
+@@ -0,0 +1,3 @@
++{
++  "iniziale": "my-immortal"
++}
+diff --git a/scripts/genera-sito.mjs b/scripts/genera-sito.mjs
+index b0341efa2..2d17efc84 100644
+--- a/scripts/genera-sito.mjs
++++ b/scripts/genera-sito.mjs
+@@ -12,6 +12,7 @@ import { basename, dirname, join } from 'node:path';
+ import { RITRATTI, SITO } from './genera/guscio.mjs';
+ import { ritrattoArtista, paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaAffiliazioni, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
+ import { generaRicerca } from './genera/ricerca.mjs';
++import { creaPerimetro } from './genera/perimetro.mjs';
+ 
+ const __dirname = dirname(fileURLToPath(import.meta.url));
+ const ROOT = join(__dirname, '..');
+@@ -372,6 +373,7 @@ const ctx = {
+   albumPerSlug,
+   albumPerArtista,
+   dataRevisione,
++  evidenzaHome: JSON.parse(readFileSync(join(ROOT, 'dati', 'evidenza-home.json'), 'utf8')),
+   totali: { canzoni: canzoni.length, artisti: artisti.length, album: album.length },
+ };
+ 
+@@ -407,7 +409,7 @@ const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-
+ const ATTR_ESITI_RICERCA = /(<div class="esiti" hidden data-esiti) role="[^"]+" aria-label="[^"]+"/g;
+ const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
+ const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
+-const normalizza = (html) => html
++const normalizzaPerimetro = (html) => html
+   .replace(RIGA_REVISIONE, '')
+   .replace(RIGA_DATA_MODIFICA, '')
+   .replace(BLOCCO_STILE, '')
+@@ -415,8 +417,12 @@ const normalizza = (html) => html
+   .replace(ATTR_PULSANTE_TEMA, '$1')
+   .replace(ATTR_ESITI_RICERCA, '$1')
+   .replace(TOTALI_PIEDE, '$1{totali}')
+-  .replace(GANCI_CORRELATI, '$1{anteprima}$2')
+   .replace(/^[ \t]+$/gm, '');
++const normalizza = html => normalizzaPerimetro(html).replace(GANCI_CORRELATI, '$1{anteprima}$2');
++const argLotto = process.argv.indexOf('--lotto');
++if (process.argv.some(a => a.startsWith('--impatto-atteso'))) throw new Error('Deroga quantitativa non ammessa: dichiarare un lotto entro il limite ordinario');
++if (argLotto >= 0 && (!process.argv[argLotto + 1] || process.argv[argLotto + 1].startsWith('--'))) throw new Error('--lotto richiede un file JSON');
++const perimetro = creaPerimetro({ root: ROOT, normalizza: normalizzaPerimetro, manifesto: argLotto >= 0 ? process.argv[argLotto + 1] : null });
+ // Cattura (non rimuove) il dateModified già scritto in una pagina — serve da
+ // F65/C3 in poi: una pagina "esiste" ma non "indicizzabile" (F50, nCanzoni
+ // 1-2, senza copertina) non entra mai in nessuna sitemap, quindi il lastmod
+@@ -486,6 +492,8 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
+ // sostituisce nella stringa già in memoria prima di scriverla — mai due
+ // generazioni della stessa pagina, un solo confronto, la stessa identica data.
+ function scriviConLastmod(percorsoFile, percorsoUrl, html) {
++  const precedente = join(ROOT, percorsoFile);
++  html = perimetro.prepara(percorsoUrl, existsSync(precedente) ? readFileSync(precedente, 'utf8') : null, html);
+   const lastmod = lastmodDi(percorsoFile, percorsoUrl, html);
+   const finale = html.includes(SEGNAPOSTO_DATA_MODIFICA) ? html.replaceAll(SEGNAPOSTO_DATA_MODIFICA, lastmod) : html;
+   scrivi(percorsoFile, finale);
+@@ -513,6 +521,7 @@ if (soloCanzoni) {
+     const c = canzoniPerSlug.get(slug);
+     scriviConLastmod(`canzone/${slug}/index.html`, `canzone/${slug}/`, paginaCanzone(c, ctx));
+   }
++  verificaLotto();
+   console.log(`Generazione mirata: ${soloCanzoni.length} canzoni. Sitemap e altre pagine preservate.`);
+   process.exit(0);
+ }
+@@ -530,7 +539,7 @@ const lastmodChiSiamo = scriviConLastmod('chi-siamo/index.html', 'chi-siamo/', p
+ const lastmodPrivacy = scriviConLastmod('privacy/index.html', 'privacy/', paginaPrivacy(ctx)).lastmod;
+ const lastmodAffiliazioni = scriviConLastmod('affiliazioni/index.html', 'affiliazioni/', paginaAffiliazioni(ctx)).lastmod;
+ const lastmodNoteLegali = scriviConLastmod('note-legali/index.html', 'note-legali/', paginaNoteLegali(ctx)).lastmod;
+-scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
++scrivi('404.html', perimetro.prepara('404.html', readFileSync(join(ROOT, '404.html'), 'utf8'), paginaErrore404(ctx))); // F43: 404 del sito invece di quella generica di Vercel
+ manifestoPagine.push(
+   { percorso: '', categoria: 'servizio', indicizzabile: true },
+   // L'archivio raccoglie sempre tutte le canzoni: la massa non è mai il problema.
+@@ -590,26 +599,20 @@ for (const rac of raccolte) {
+   });
+ }
+ 
+-// SEO safety gate. Il limite ordinario e' il piu' severo fra 50 pagine e il
+-// 10% del catalogo editoriale. Un intervento piu' ampio e' possibile soltanto
+-// dichiarando a monte il numero ESATTO atteso con --impatto-atteso=N: in tal
+-// modo una routine non puo' approvare alla cieca un effetto globale inatteso.
+-const totaleEditoriale = canzoni.length + artisti.length + album.length + raccolte.length;
+-const limiteOrdinario = Math.max(1, Math.min(50, Math.floor(totaleEditoriale * 0.10)));
+-const argImpatto = process.argv.find((arg) => arg.startsWith('--impatto-atteso='));
+-const impattoAtteso = argImpatto ? Number(argImpatto.split('=')[1]) : null;
+-if (argImpatto && (!Number.isInteger(impattoAtteso) || impattoAtteso < 0)) {
+-  throw new Error('--impatto-atteso richiede un numero intero non negativo.');
+-}
+-if (pagineCambiate.length > limiteOrdinario && pagineCambiate.length !== impattoAtteso) {
+-  console.error(`ERRORE SEO: ${pagineCambiate.length} pagine editoriali esistenti risultano modificate (limite ordinario ${limiteOrdinario}).`);
+-  for (const { percorsoUrl, differenza } of pagineCambiate.slice(0, 5)) {
+-    console.error(`  /${percorsoUrl} — ${differenza}`);
++// Il limite quantitativo rimane attivo anche con un manifesto esatto.
++// La stessa chiusura vale per la generazione mirata: nessun'uscita anticipata.
++function verificaLotto() {
++  const totaleEditoriale = canzoni.length + artisti.length + album.length + raccolte.length;
++  const limiteOrdinario = Math.max(1, Math.min(50, Math.floor(totaleEditoriale * 0.10)));
++  const impatto = perimetro.verifica();
++  const numeroPagine = Math.max(pagineCambiate.length, impatto.pagine.length);
++  if (numeroPagine > limiteOrdinario) {
++    throw new Error(`Variazione massiva del catalogo: ${numeroPagine} pagine, limite ${limiteOrdinario}; sitemap non scritte`);
+   }
+-  console.error(`Se l'intervento e' davvero intenzionale, rieseguire solo dopo revisione con --impatto-atteso=${pagineCambiate.length}.`);
+-  throw new Error('Variazione massiva del catalogo bloccata prima delle sitemap.');
++  console.log(`Impatto SEO: ${pagineCambiate.length} pagine editoriali esistenti modificate (limite ordinario ${limiteOrdinario}).`);
++  console.log(`Perimetro verificato: ${JSON.stringify(impatto)}`);
+ }
+-console.log(`Impatto SEO: ${pagineCambiate.length} pagine editoriali esistenti modificate (limite ordinario ${limiteOrdinario}).`);
++verificaLotto();
+ writeFileSync(join(ROOT, 'dati', 'pagine-seo.json'), JSON.stringify(manifestoPagine, null, 2) + '\n', 'utf8');
+ 
+ scrivi('ricerca.js', generaRicerca(ctx));
+diff --git a/scripts/genera/pagine.mjs b/scripts/genera/pagine.mjs
+index 7b0b6e6d3..4666ed7bf 100644
+--- a/scripts/genera/pagine.mjs
++++ b/scripts/genera/pagine.mjs
+@@ -782,8 +782,7 @@ export function paginaCanzone(c, ctx) {
+              fatto nel browser (ricerca.js) a partire da questi dati, quindi
+              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+         <div class="condividi"
+-          data-cartolina
+-          ${pillola ? `data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
++          data-cartolina${pillola ? `\n          data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
+           data-titolo="${esc(c.titolo)}"
+           data-artista="${esc(c.artista)}"
+           data-anno="${esc(annoDi(c) || '')}"
+@@ -998,6 +997,7 @@ export function paginaArtista(a, ctx) {
+   const acquistoStoria = amazonPerArtista(a.slug, 'storia');
+   const acquistoAlbum = amazonPerArtista(a.slug, 'album');
+   const acquistoCanzoni = amazonPerArtista(a.slug, 'canzoni');
++  const informativaArtista = informativaAmazonPerScheda(`artista/${a.slug}`, r);
+   const rt = a.ritratto || RITRATTI[a.slug];
+   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
+   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
+@@ -1070,8 +1070,7 @@ export function paginaArtista(a, ctx) {
+       <div class="griglia">
+         ${brani.map((b) => schedaCanzone(b, r)).join('\n        ')}
+       </div>
+-    </section>
+-    ${acquistoCanzoni}
++    </section>${acquistoCanzoni ? `\n    ${acquistoCanzoni}` : ''}
+ 
+     ${
+       albumVeri.length
+@@ -1094,8 +1093,7 @@ export function paginaArtista(a, ctx) {
+       ${riconoscimenti.length ? `<p class="vuoto" style="margin-top:18px">${riconoscimenti.map((n) => esc(n)).join(` ${SEGNO} `)}</p>` : ''}
+     </section>`
+         : ''
+-    }
+-    ${acquistoAlbum}
++    }${acquistoAlbum ? `\n    ${acquistoAlbum}` : ''}
+ 
+     ${
+       a.storia
+@@ -1119,16 +1117,14 @@ export function paginaArtista(a, ctx) {
+       <h2>La storia del gruppo</h2>
+       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
+     </section>`
+-    }
+-    ${acquistoStoria}
++    }${acquistoStoria ? `\n    ${acquistoStoria}` : ''}
+ 
+     <section class="blocco">
+       <div class="azioni">
+         <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
+         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
+       </div>
+-    </section>
+-    ${informativaAmazonPerScheda(`artista/${a.slug}`, r)}
++    </section>${informativaArtista ? `\n    ${informativaArtista}` : ''}
+   </div>`;
+ 
+   return pagina({
+@@ -1429,11 +1425,11 @@ export function paginaHome(ctx) {
+   // a mezzanotte. Su richiesta dell'autore diventa "canzone in evidenza" e cambia
+   // a ogni caricamento (lato client) o col bottone. Il nome cambia INSIEME al
+   // comportamento, non per gusto: "al giorno" sarebbe diventata una frase falsa.
+-  // Questa scelta resta deterministica perché è quella scritta nell'HTML, cioè
+-  // quella che vedono i motori e chi ha JavaScript disattivato.
+-  const giorno = Math.floor(Date.now() / 86400000);
+-  const candidate = canzoni.filter((c) => c.fraseIconica);
+-  const inEvidenza = candidate[giorno % candidate.length];
++  // La scelta HTML resta stabile anche tra build eseguiti in giorni diversi.
++  // Scelta iniziale esplicita e stabile, identica all'HTML già pubblicato.
++  // La rotazione rimane nel browser e non modifica i segnali di aggiornamento.
++  const inEvidenza = canzoni.find(c => c.slug === ctx.evidenzaHome.iniziale && c.fraseIconica);
++  if (!inEvidenza) throw new Error('Canzone iniziale della home assente o senza sintesi');
+ 
+   const artistiRicchi = [...artisti]
+     .filter((a) => a.storia)
+diff --git a/scripts/genera/perimetro.mjs b/scripts/genera/perimetro.mjs
+new file mode 100644
+index 000000000..18df14835
+--- /dev/null
++++ b/scripts/genera/perimetro.mjs
+@@ -0,0 +1,73 @@
++// Il manifesto del lotto dichiara il perimetro; non autorizza la pubblicazione.
++import { readFileSync, existsSync, readdirSync } from 'node:fs';
++import { join } from 'node:path';
++import { createHash } from 'node:crypto';
++export const impronta = value => createHash('sha256').update(value).digest('hex');
++const stessoInsieme = (a, b) => a.size === b.size && [...a].every(x => b.has(x));
++
++export function creaPerimetro({ root, normalizza, manifesto }) {
++  const baseline = JSON.parse(readFileSync(join(root, 'dati', 'baseline-generatore.json'), 'utf8'));
++  const lotto = manifesto ? JSON.parse(readFileSync(manifesto, 'utf8')) : { versione: 1, pagine: [], cartoline: [] };
++  if (lotto.versione !== 1 || !Array.isArray(lotto.pagine) || !Array.isArray(lotto.cartoline) ||
++      Object.keys(lotto).some(k => !['versione', 'pagine', 'cartoline'].includes(k))) {
++    throw new Error('Manifesto lotto non valido: servono versione, pagine e cartoline');
++  }
++  const attese = new Set(lotto.pagine);
++  if (attese.size !== lotto.pagine.length || lotto.pagine.some(p => typeof p !== 'string' ||
++      !(p === '/404.html' || /^\/(?:[a-z0-9-]+\/)*$/.test(p)) || !existsSync(p === '/404.html' ? join(root, '404.html') : join(root, p.slice(1), 'index.html')))) {
++    throw new Error('Il lotto richiede URL canonici esistenti, distinti e con slash finale');
++  }
++  const modificate = new Set();
++  const conservate = [];
++
++  // Controlla ogni voce del registro e ogni immagine, anche se un rendering
++  // mirato non arriverebbe a leggere la cartolina fuori dal perimetro.
++  const dati = JSON.parse(readFileSync(join(root, 'dati', 'pillole.json'), 'utf8'));
++  const immagini = Object.fromEntries(readdirSync(join(root, 'pillole')).map(n => [
++    'pillole/' + n, impronta(readFileSync(join(root, 'pillole', n)))
++  ]));
++  const dichiarate = new Map();
++  for (const c of lotto.cartoline) {
++    if (!c || !/^[a-z0-9-]+$/.test(c.slug || '') || dichiarate.has(c.slug) ||
++        c.dato !== `dati/pillole.json#${c.slug}` || c.immagine !== `pillole/${c.slug}-storia.jpg` ||
++        !attese.has(`/canzone/${c.slug}/`) || Object.keys(c).some(k => !['slug','dato','immagine'].includes(k))) {
++      throw new Error('Cartolina senza canzone, dato e immagine coerenti nel lotto');
++    }
++    dichiarate.set(c.slug, c);
++  }
++  const cambiDati = new Set([...new Set([...Object.keys(baseline.cartoline), ...Object.keys(dati)])]
++    .filter(s => baseline.cartoline[s] !== (dati[s] ? impronta(JSON.stringify(dati[s])) : undefined)));
++  const cambiImmagini = new Set([...new Set([...Object.keys(baseline.immagini), ...Object.keys(immagini)])]
++    .filter(n => baseline.immagini[n] !== immagini[n]));
++  for (const s of cambiDati) if (!dichiarate.has(s)) throw new Error(`Dato cartolina fuori lotto: ${s}`);
++  for (const n of cambiImmagini) if (![...dichiarate.values()].some(c => c.immagine === n)) throw new Error(`Immagine cartolina fuori lotto: ${n}`);
++  for (const c of dichiarate.values()) if (!dati[c.slug] || dati[c.slug].file !== `${c.slug}-storia.jpg` ||
++      !cambiDati.has(c.slug) && !cambiImmagini.has(c.immagine)) throw new Error(`Cartolina dichiarata ma non modificata: ${c.slug}`);
++
++  return {
++    prepara(percorso, vecchio, nuovo) {
++      const url = '/' + percorso;
++      if (vecchio === null) throw new Error(`Pagina nuova fuori dal catalogo autorizzato: ${url}`);
++      const a = normalizza(vecchio), b = normalizza(nuovo);
++      // Conserva integralmente l'artefatto se cambia soltanto la parte tecnica.
++      if (a === b) return vecchio;
++      // Compatibilità puntuale e chiusa con gli scarti ereditati censiti:
++      // non ignora nuovi scarti e non permette di pubblicare i vecchi derivati.
++      const ereditato = baseline.ereditate[url];
++      if (ereditato && impronta(a) === ereditato.pubblicata && impronta(b) === ereditato.generata) {
++        conservate.push(url);
++        return vecchio;
++      }
++      modificate.add(url);
++      if (!attese.has(url)) throw new Error(`Pagina fuori lotto: ${url}`);
++      return nuovo;
++    },
++    verifica() {
++      if (!stessoInsieme(modificate, attese)) {
++        throw new Error(`Perimetro lotto non esatto; attese non modificate: ${[...attese].filter(x => !modificate.has(x)).join(', ')}`);
++      }
++      return { pagine: [...modificate].sort(), ereditateConservate: conservate.sort(),
++        datiCartoline: [...cambiDati].sort(), immaginiCartoline: [...cambiImmagini].sort() };
++    }
++  };
++}
+diff --git a/scripts/genera/ricerca.mjs b/scripts/genera/ricerca.mjs
+index c4f5acaac..00f73f393 100644
+--- a/scripts/genera/ricerca.mjs
++++ b/scripts/genera/ricerca.mjs
+@@ -48,12 +48,8 @@ export function generaRicerca(ctx) {
+     g: x.tipo === 'genere' ? 0 : 1,
+   }));
+ 
+-  // F36: la pillola del giorno ruota nel browser, non in fase di build — la
+-  // formula (giorno % candidate.length) resta identica a quella server-side
+-  // in pagine.mjs, così la scelta del giorno corrente coincide con quella già
+-  // renderizzata e non "salta" al primo caricamento. Stesso ordine dei
+-  // candidati di paginaHome (ctx.canzoni con fraseIconica), stesso motivo per
+-  // cui l'estratto è già troncato qui: mai testo non parafrasato al client.
++  // Pool stabile ricavato dai dati; la rotazione avviene soltanto nel browser.
++  // Nessun seed temporale nella generazione o nel caricamento client.
+   function primaFraseBuild(testo, max) {
+     if (!testo) return '';
+     const t = String(testo).trim();
+@@ -346,13 +342,14 @@ export function generaRicerca(ctx) {
+       if (artistaLink) { artistaLink.href = RADICE + 'artista/' + p.a + '/'; artistaLink.textContent = p.n; }
+     };
+ 
+-    // F37: prima era la canzone del giorno, uguale per tutti fino a mezzanotte.
+-    // Ora cambia a ogni caricamento. Nell'HTML resta scritta la scelta del
+-    // giorno, che e' quella che vedono i motori e chi non ha JavaScript: qui la
+-    // si sostituisce subito, e si evita di ripescare proprio quella.
++    // Evita la selezione iniziale effettivamente presente nell'HTML.
++    var linkIniziale = elementoPillola.querySelector('[data-pillola-link]');
++    var percorsoIniziale = linkIniziale ? linkIniziale.getAttribute('href') : '';
++    var indiceIniziale = PILLOLE.findIndex(function (p) {
++      return percorsoIniziale === RADICE + 'canzone/' + p.s + '/';
++    });
+     var primaScelta = Math.floor(Math.random() * PILLOLE.length);
+-    var giroDelGiorno = Math.floor(Date.now() / 86400000) % PILLOLE.length;
+-    if (PILLOLE.length > 1 && primaScelta === giroDelGiorno) {
++    if (PILLOLE.length > 1 && primaScelta === indiceIniziale) {
+       primaScelta = (primaScelta + 1) % PILLOLE.length;
+     }
+     mostraPillola(primaScelta);
+diff --git a/scripts/test-generatore-perimetro.mjs b/scripts/test-generatore-perimetro.mjs
+new file mode 100644
+index 000000000..d242ec333
+--- /dev/null
++++ b/scripts/test-generatore-perimetro.mjs
+@@ -0,0 +1,96 @@
++#!/usr/bin/env node
++// Integrazione offline: tutte le modifiche editoriali e le immagini sono fixture
++// in una cartella temporanea, mai proposte né artefatti pubblicabili.
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import os from 'node:os';
++import path from 'node:path';
++import { fileURLToPath } from 'node:url';
++import { spawnSync } from 'node:child_process';
++import { createHash } from 'node:crypto';
++import vm from 'node:vm';
++const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
++const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'dit-perimetro-'));
++const work = path.join(temp, 'workspace');fs.mkdirSync(work);
++const hash = b => createHash('sha256').update(b).digest('hex');
++const report = { casi: [], dateSimulate: ['2026-10-20T12:00:00Z', '2030-01-01T12:00:00Z'] };
++const arg = process.argv.indexOf('--prove');
++const evidence = arg >= 0 ? path.resolve(process.argv[arg + 1]) : null;
++if (evidence) fs.mkdirSync(evidence, { recursive: true });
++const json = (n, v) => fs.writeFileSync(path.join(work, n), JSON.stringify(v, null, 2) + '\n');
++const read = n => fs.readFileSync(path.join(work, n), 'utf8');
++const source = n => fs.readFileSync(path.join(root, n), 'utf8');
++const routes = [...new Set(JSON.parse(source('dati/pagine-seo.json')).map(x => x.percorso.endsWith('.html') ? x.percorso : x.percorso + 'index.html'))];
++const clock = path.join(temp, 'clock.mjs');
++fs.writeFileSync(clock, `const D=Date;const e=D.parse(process.env.DIT_TEST_DATE);globalThis.Date=class extends D{constructor(...a){super(...(a.length?a:[e]));}static now(){return e;}};`);
++function inventory(dir) {
++  const entries = [];
++  function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
++    const n = path.join(d, e.name);if (e.isDirectory()) walk(n);else entries.push([path.relative(dir, n), hash(fs.readFileSync(n))]);
++  }}walk(dir);return entries.sort((a,b) => a[0].localeCompare(b[0]));
++}
++function reset() {
++  for (const n of ['canzoni.json','pillole.json','collegamenti-contestuali.json']) fs.copyFileSync(path.join(root,'dati',n),path.join(work,'dati',n));
++  fs.rmSync(path.join(work,'pillole'),{recursive:true,force:true});fs.cpSync(path.join(root,'pillole'),path.join(work,'pillole'),{recursive:true});
++}
++function run(name, { pages=[], cards=[], fail=null, targeted=false, noManifest=false, extra=[], date=report.dateSimulate[1] } = {}) {
++  json('lotto-test.json', {versione:1,pagine:pages,cartoline:cards});
++  const args=['--import',clock,'scripts/genera-sito.mjs','--out','sito'];
++  if(!noManifest) args.push('--lotto',path.join(work,'lotto-test.json'));
++  if(targeted) args.push('--solo-canzoni','21-guns');
++  args.push(...extra);
++  // Elimina soltanto l'output della fixture, così nessun residuo può simulare
++  // sitemap riuscite dopo un caso che deve essere bloccato.
++  fs.rmSync(path.join(work,'sito'),{recursive:true,force:true});
++  const result=spawnSync(process.execPath,args,{cwd:work,encoding:'utf8',env:{...process.env,DIT_TEST_DATE:date},maxBuffer:8*1024*1024});
++  const output=(result.stdout||'')+(result.stderr||'');
++  if(evidence) fs.writeFileSync(path.join(evidence,name+'.log'),output);
++  if(fail){assert.notEqual(result.status,0,name+': fallimento atteso');assert.match(output,fail,name);assert(!fs.existsSync(path.join(work,'sito/sitemap-canzoni.xml')),name+': sitemap scritta prima del blocco');}
++  else assert.equal(result.status,0,name+'\n'+output);
++  report.casi.push({nome:name,esito:'passato',uscita:result.status,bloccato:!!fail});
++  return output;
++}
++function changedPages() { return routes.filter(n => read('sito/'+n)!==source(n)); }
++function modifiedDates() { return routes.filter(n => JSON.stringify([...read('sito/'+n).matchAll(/"dateModified":"([^"]+)"/g)].map(x=>x[1]))!==JSON.stringify([...source(n).matchAll(/"dateModified":"([^"]+)"/g)].map(x=>x[1]))); }
++function lastmods(xml) {return [...xml.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)].map(x=>[x[1],x[2]]);}
++const maps=fs.readdirSync(root).filter(n=>/^sitemap.*\.xml$/.test(n));
++function assertOnlySong(slug) {
++  const file='canzone/'+slug+'/index.html';assert.deepEqual(changedPages(),[file]);assert.deepEqual(modifiedDates(),[file]);
++  for(const n of routes){assert.deepEqual([...read('sito/'+n).matchAll(/"datePublished":"([^"]+)"/g)].map(x=>x[1]),[...source(n).matchAll(/"datePublished":"([^"]+)"/g)].map(x=>x[1]));assert.equal(read('sito/'+n).match(/<link rel="canonical"[^>]*>/)?.[0],source(n).match(/<link rel="canonical"[^>]*>/)?.[0]);}
++  for(const n of maps){const a=lastmods(source(n)),b=lastmods(read('sito/'+n));assert.deepEqual(a.map(x=>x[0]),b.map(x=>x[0]));const delta=a.filter((x,i)=>x[1]!==b[i][1]);assert.equal(delta.length,n==='sitemap-canzoni.xml'?1:0);if(delta.length)assert.equal(delta[0][0],'https://www.dietroiltesto.it/canzone/'+slug+'/');}
++}
++try {
++  for(const n of ['scripts','dati','pillole']) fs.cpSync(path.join(root,n),path.join(work,n),{recursive:true});
++  for(const n of [...routes,...maps]){const q=path.join(work,n);fs.mkdirSync(path.dirname(q),{recursive:true});fs.copyFileSync(path.join(root,n),q);}
++  for(const n of ['og','ritratti']) fs.symlinkSync(path.join(root,n),path.join(work,n),'dir');
++  run('01-generazione-invariata',{date:report.dateSimulate[0]});assert.deepEqual(changedPages(),[]);for(const n of maps) assert.equal(read('sito/'+n),source(n));const first=inventory(path.join(work,'sito'));
++  run('02-generazione-giorno-diverso');assert.deepEqual(changedPages(),[]);for(const n of maps) assert.equal(read('sito/'+n),source(n));assert.deepEqual(inventory(path.join(work,'sito')),first);
++  report.determinismo={file:first.length,html:routes.length,htmlModificati:0,datePublished:0,dateModified:0,lastmod:0,canonical:0,urlSitemap:0,sitemapByteIdentiche:maps.length};
++  // Una cartolina sintetica: riusa bytes di una JPEG esistente esclusivamente
++  // per provare il perimetro. Non è un'immagine nuova né un contenuto approvato.
++  const songs=JSON.parse(read('dati/canzoni.json')),song=songs.find(c=>c.slug==='21-guns');
++  const makeCard=()=>{const registry=JSON.parse(read('dati/pillole.json'));const bytes=fs.readFileSync(path.join(work,'pillole',Object.values(registry)[0].file));fs.writeFileSync(path.join(work,'pillole/21-guns-storia.jpg'),bytes);registry['21-guns']={artistaSlug:song.artistaSlug,testo:song.fraseIconica,dopoParagrafo:0,fonte:song.fonti[0].url,file:'21-guns-storia.jpg',sha256:hash(bytes),testoGrafica:'Fixture tecnica temporanea'};json('dati/pillole.json',registry);};
++  const card={slug:'21-guns',dato:'dati/pillole.json#21-guns',immagine:'pillole/21-guns-storia.jpg'};
++  makeCard();run('03-cartolina-prevista',{pages:['/canzone/21-guns/'],cards:[card]});assertOnlySong('21-guns');
++  run('04-cartolina-senza-mandato',{fail:/Dato cartolina fuori lotto/});
++  fs.appendFileSync(path.join(work,'pillole/mantra-storia.jpg'),'fixture');run('05-immagine-estranea-anche-mirato',{pages:['/canzone/21-guns/'],cards:[card],targeted:true,fail:/Immagine cartolina fuori lotto/});reset();
++  makeCard();const registry=JSON.parse(read('dati/pillole.json'));registry.mantra.testoGrafica+=' fixture';json('dati/pillole.json',registry);run('06-dato-cartolina-estraneo',{pages:['/canzone/21-guns/'],cards:[card],fail:/Dato cartolina fuori lotto: mantra/});reset();
++  const links=JSON.parse(read('dati/collegamenti-contestuali.json'));links['21-guns']={artistaSlug:song.artistaSlug,destinazioni:['basket-case'],prima:'Fixture di collegamento: ',dopo:'.',dopoParagrafo:0};json('dati/collegamenti-contestuali.json',links);
++  run('07-collegamento-previsto',{pages:['/canzone/21-guns/']});assertOnlySong('21-guns');assert(read('sito/canzone/21-guns/index.html').includes('href="../../canzone/basket-case/"'));
++  run('08-collegamento-senza-perimetro',{noManifest:true,fail:/Pagina fuori lotto: \/canzone\/21-guns\//});
++  links['billie-jean']={artistaSlug:'michael-jackson',destinazioni:['beat-it'],prima:'Fixture di collegamento: ',dopo:'.',dopoParagrafo:0};json('dati/collegamenti-contestuali.json',links);run('09-seconda-sorgente-non-dichiarata',{pages:['/canzone/21-guns/'],fail:/Pagina fuori lotto: \/canzone\/billie-jean\//});reset();
++  const changed=JSON.parse(read('dati/canzoni.json'));changed.find(c=>c.slug==='youngblood').corpo[0]='Fixture tecnica diversa. '+changed.find(c=>c.slug==='youngblood').corpo[0];json('dati/canzoni.json',changed);run('10-effetto-derivato-non-dichiarato',{pages:['/canzone/youngblood/'],fail:/Pagina fuori lotto: \/(?!canzone\/youngblood\/)/});reset();
++  run('11-perimetro-sovradichiarato',{pages:['/canzone/21-guns/'],fail:/Perimetro lotto non esatto/});
++  const many=JSON.parse(read('dati/canzoni.json'));const selected=many.filter(c=>c.fraseIconica).slice(0,51);for(const c of selected)c.corpo[c.corpo.length-1]+=' Fixture tecnica del limite.';json('dati/canzoni.json',many);run('12-limite-51-anche-con-lista-esatta',{pages:selected.map(c=>'/canzone/'+c.slug+'/'),fail:/Variazione massiva del catalogo: 51 pagine, limite 50/});reset();
++  run('13-deroga-numerica-rifiutata',{extra:['--impatto-atteso=353'],fail:/Deroga quantitativa non ammessa/});
++  // Esegue solo i due frammenti puri delle guardie, mai lo script IndexNow,
++  // né le parti che leggono chiave, inviano richieste o aggiornano registri.
++  const ix=source('scripts/indexnow.mjs');const logs=[];const box={process:{argv:['node','fixture','--tutti'],exit:n=>{throw new Error('EXIT:'+n);}},console:{error:s=>logs.push(s)}};vm.createContext(box);
++  assert.throws(()=>vm.runInContext(ix.slice(ix.indexOf('const tutti'),ix.indexOf('// La chiave sta')),box),/EXIT:1/);assert(logs.some(s=>s.includes('disabilitato')));
++  const box2={indirizzi:Array(51).fill('fixture'),process:{exit:n=>{throw new Error('EXIT:'+n);}},console:{error:s=>logs.push(s)}};vm.createContext(box2);assert.throws(()=>vm.runInContext(ix.slice(ix.indexOf('const LIMITE_URL'),ix.indexOf('console.log(`Indirizzi')),box2),/EXIT:1/);
++  report.casi.push({nome:'14-guardie-indexnow-isolate',esito:'passato',nessunaEsecuzioneIndexNow:true,nessunaRete:true});
++  console.log(JSON.stringify(report,null,2));
++} finally {
++  fs.rmSync(temp,{recursive:true,force:true});report.outputTemporaneiRimossi=!fs.existsSync(temp);
++  if(evidence)fs.writeFileSync(path.join(evidence,'risultati.json'),JSON.stringify(report,null,2)+'\n');
++}
