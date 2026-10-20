@@ -1,0 +1,231 @@
+{
+  "versione": 1,
+  "ereditate": {
+    "/album/5-seconds-of-summer/youngblood/": {
+      "pubblicata": "6170de0514f7e49dd7425a72b6cb115fa3b4a712bbc98f6e07b00b7c959010ab",
+      "generata": "54e61e9b087fd5ea4c010e2b79bb66ee61895b18f469c9ecd5e3d4590197dbc0",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/album/caparezza/verita-supposte/": {
+      "pubblicata": "a641c7c9bdcbda04ad20c2d4541404aac356ab68e94f6736abf850e0397c1940",
+      "generata": "b826725bab41de52af8bbefc11fd03cbb30b498c11ac6d844c3a485d74ee31bf",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/album/franco-battiato/limboscata/": {
+      "pubblicata": "7d7bc777a08832d205bac2106dbe1f0966f7c05f9cb36b6d5e6ce783ad2d248c",
+      "generata": "aee8f600438b55e96d22fc6fa8c1c399c75b008164e8ef50ecc8f9091e01bc50",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/anni/1990/": {
+      "pubblicata": "e3e9d679f9e43c60b590f4266a52f5449ed7848de7e8403c150cc1285f020331",
+      "generata": "f95d63e38a4923e21366b9fe62bf3326a29247a21a8e9e3417668c2e0cdbc48c",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/anni/2000/": {
+      "pubblicata": "f121ece97d7771adc51f3c6130494dea177f85c530c9a6e6d8632b2fa794ec7e",
+      "generata": "1644f65b709ceecaf0a799919306544037ddad899c098bcf64ddb189c4fd7157",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/anni/2010/": {
+      "pubblicata": "9b704f603fe99032971cc8641dc3fc30a7290da89b2470c87a6523e530d25710",
+      "generata": "f7631c288e3e975f61beb9a9e0c061c4c6c6b3dd35acada0ab428ec5e7f78cc9",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/archivio/": {
+      "pubblicata": "388fd69c354bc0ae92d9bc3235f5505c2c8e0db624ac96f95c62f948ab7ad7f8",
+      "generata": "3fee183f2f96dd9f6bda87e57d0625fadc8e52cffc7b360ff33d261c6780f072",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/artista/5-seconds-of-summer/": {
+      "pubblicata": "f87b3841e5906bcc47cdda586565cb13588b90f11419c892758ba09dd9a1ed06",
+      "generata": "8909635d1287fca71200c2158fdd6da823737442b7c7a60eee330d12af6a7b86",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/artista/caparezza/": {
+      "pubblicata": "1880448bc5cb17f6f63eb0aaaecf471b591241575127bdf2ed09fa4dff931f61",
+      "generata": "ceb3b064533669ee48598eb5fcc0197d75729273c3da9d47b3c03e27eee04468",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/artista/franco-battiato/": {
+      "pubblicata": "9e148ee4f1b83af2beeca4527ff103cd852a46b6d4814d9eba0a548fc5316761",
+      "generata": "369046af2c54bfdae6fb30734c0d8a02ea1d73178ece6e1fe1d8a3c75f9a2859",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/amnesia-5sos/": {
+      "pubblicata": "c0a0b19ae6b6b2d6e827f6bdedd4d69c76d013460151c80516a6f2d543f0e777",
+      "generata": "3a0eddbecf8c17b422d81e614b11f1725f9f2011a709a285d3e0b36f64e5bf6d",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/bandiera-bianca/": {
+      "pubblicata": "5c8def24de583f443b5e71cbe425385b07f73b4438816fb6273637c79d12fa18",
+      "generata": "8d0d3f212fe985fe365d7288559e1e77aba9402e6901ddf15917defed0f42f6e",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/centro-di-gravita-permanente/": {
+      "pubblicata": "83a8c9e0a214828c64b442e66bac932f067dcfe8ac25b59cf2b705f344fa7db5",
+      "generata": "04acb296e73743b203fabe6b51d98a93fa8ecb58741fc4361b79bdf396f00a2c",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/complete-mess/": {
+      "pubblicata": "d2cef1c8611f3e876656a8406e116b822dba6bb37a582ecbb42111d439f69a3c",
+      "generata": "aad1a161108fe4543213b0ba8676bf496b99889c0ac77a23c284de4d4e12273c",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/easier/": {
+      "pubblicata": "338faf2c2ad8e4ef86694a85dd21c41afe5707ba8217609302b76819ad1d9e44",
+      "generata": "785add41b948933239d90e3e7df6e0967d0b9c2252675ca00975aea5425d3a65",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/eroe-storia-di-luigi-delle-bicocche/": {
+      "pubblicata": "38023c81b9e2fcc1163f956031b2b0b7bd797effc56a1768dcc366f796154b70",
+      "generata": "b7cc94e0470f2d823e48fd8b2b9509ceee74093511c49662169c55e6a0822ae8",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/exuvia/": {
+      "pubblicata": "0e8dd725469d81aee2757bd7a62c5c9ef54c86595d0cedc7d54022733286d2a8",
+      "generata": "75cb6f92f3903ab7c96942b810695da9706b57ce4ff5e2bcb8292f9bee644438",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/goodbye-malinconia/": {
+      "pubblicata": "de3b769f5cf3c3dd59684ba0fa4b4a345210cc1cce3163a52091fc8043c9ce68",
+      "generata": "a85153e96409153848c28186524b50b129cfa40c6f090b7e95a9372fa6bb9c45",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/l-era-del-cinghiale-bianco/": {
+      "pubblicata": "5501cc64e7f685b792bfe305e11546a46b56963cf4596d06887da19fa9d25118",
+      "generata": "358f81bd7c6362231d039d26bbb6fa2980cc73abd5f553ce67d8f1ba8afb1519",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/la-mia-parte-intollerante/": {
+      "pubblicata": "998d8f448d01b5c4f3d3d1ae449ff91f1dcbcb4b975ed5cf9f28b1dc640a15e3",
+      "generata": "5b66737676d0dab810a943477d7169767145d8abd9bf5cd567171f2fdcb62152",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/legalize-the-premier/": {
+      "pubblicata": "87b988f582852b84376c73c4fdebb12e55747615ce9075bb05aad071c27e74a8",
+      "generata": "a9caaf3be61ca161671a91ddc9b9836e64280f3f7e3a4e5a7bf7b1daa2a8afd0",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/lose-yourself/": {
+      "pubblicata": "104e856c691faa0a75d909d3e8e471a2fc48707fde87e3066c57590f1d806045",
+      "generata": "cb5532c309c9dd92523df91b051058c36a4cac018cfc4c36d51029a24003a7a7",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/non-me-lo-posso-permettere/": {
+      "pubblicata": "164af038a4e0c731acf2a006a2bb45456bf4ca49c1531b65c4e53303cef095d0",
+      "generata": "84e712eae0c5950bf72d78b56f53496c3c9e9f04c5d3f729fc5f89873d72e471",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/not-ok/": {
+      "pubblicata": "5edaad72f8e67234f288d3198e10e1692d3a81cb2fff9f0c10c5edf402624ab5",
+      "generata": "d071104db6fac6b1498a1bb72130b5749a59b1a0acd86d2855151143ab5941b0",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/piu-bella-cosa/": {
+      "pubblicata": "33cfdb974b2d90d3a58a1ec3306115a4a6454628bbfccdd74da56e6396051f52",
+      "generata": "cf5016c9ca8e6a6e4fd783a01e28815792ee1c1cda9a426cd11fdb93ed1bec24",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/povera-patria/": {
+      "pubblicata": "a6bc5bac10ae4b9e10b5b669fed2d8db176be3e89dfe90aa7457f4234ca14cd3",
+      "generata": "952d55fcaac12a0d0e83fe7124bd7d884d240dfd732ccb9b50eb718b36710d92",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/prisoner-709/": {
+      "pubblicata": "a89b8efc0cc72e078289a0a28e1251dc9b1599574020d69cf5442ac5bb856410",
+      "generata": "041c46cc03a4c7d86e80321e04723e06890bcce849ad538ae1d1c1cbafcffca9",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/prospettiva-nevski/": {
+      "pubblicata": "86d1288891fa2a44b5a7da7de13945ce534ad651a679b76b280db283bb7f00fa",
+      "generata": "390dd1027198bfb89cd55fe7aa0fdf17a67ccecb9390c2287e1edf989f907a4e",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/she-looks-so-perfect/": {
+      "pubblicata": "05f0b000b1ce56833d0c784058f3a76a48f0eefd28f51826b6c9311f439822ed",
+      "generata": "19cdb0b5f57878643d91a70504ea77584e3040dc4b684beb196b9bc19e6dd25f",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/shes-kinda-hot/": {
+      "pubblicata": "0e15e0a85f782db08290958235f5d21eb29e70f690b858d13417221e846b2e0b",
+      "generata": "2438830227427a372c6e37f2571281c851408c66643ed75a346dda6d8d36eb2c",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/canzone/vieni-a-ballare-in-puglia/": {
+      "pubblicata": "44c27ea1134eae857cf63fe2ebc08e6043c6955d9fd5b17b909948536ce2ba4a",
+      "generata": "f4cf5bc0eb0f207a92234c8cabecabf1b2572a307e1c60767d0527432c35071a",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/genere/pop/": {
+      "pubblicata": "4c0afa7959e1e89d8b984813a58178ad1bf32294c1ad8b51affe40c0f6e6000f",
+      "generata": "11564168e3eeca926467f841887b7993c1acd7247c88f0f4a41d29fe7f132b4e",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/genere/rock/": {
+      "pubblicata": "62a14aaa38ee6442c04b8a27486c38866ca62c08aca3c3a28b975d3c1f2f5626",
+      "generata": "dacda2f4a3c39b1bea9288792f1dc304096555cddfae9ba68c71667d3da5b544",
+      "motivo": "anteprima correlata pregressa"
+    },
+    "/artista/r-e-m/": {
+      "pubblicata": "b95b3575cf5a29d7d5535b5c5142fcffc0e3c2c0e4a2ac85c6efbe7d40a8d57f",
+      "generata": "285cfcc97d0ac58fa192c6fff02bcc62ba2f07e940a4454a5252f7b4480649b6",
+      "motivo": "righe vuote pregresse"
+    }
+  },
+  "cartoline": {
+    "hotel-california": "1bf5ee07ae420ac5461da0d46d08086bf1652a98b53c9cd0a78436407462e183",
+    "caruso": "4287fc115548dcc4d48b8220a8791cc93aef9ee43dfe65a015ec37cb9b79da37",
+    "azzurro": "908a7e5800198307e2fe5eb56db6304b576706dd12b01b770736668293909f38",
+    "all-the-small-things": "55efac92558947f0bb46f30d809a57e152f3379b9962fb1629f54fb791544631",
+    "whats-my-age-again": "4ee82bd006d68ea4eda0ae2043d7f15b049e560763927de39494607cf57141e3",
+    "ho-messo-via": "b199e3098e79b5b3f6feae0b21c356698cebd2a5b822694b4066dcd19c578f7e",
+    "vieni-a-ballare-in-puglia": "03414c3626f3f84d0e82c424bb2426bcc1eb59eb14e1819af2dfdf5762300b21",
+    "dont-look-back-in-anger": "0943b14114dd912aff76e3091e6c69db1ca576de121bb53364d3a90c65bf93bc",
+    "november-rain": "be24b3a6b9996b1581b9c1543d22f1e1155c9c8e2a98917b40224ece6f361e34",
+    "man-in-the-box": "fe8b5bbcb3cbcce5c763a5082d55882b5386779f924081cb3c20c3f0825d3b2a",
+    "war-pigs": "2333c4e2516c6ecf7df995d19704fb957624c066793a3843fd514c45738dab2f",
+    "wake-me-up-when-september-ends": "80ec0365b6868293809d5639dac0fbbd3455e578e12c841bf190809041c8e471",
+    "black-pearl-jam": "438c1460d557b72f30c07f0958c66856e33264a257b6006c05e3794bbc83a281",
+    "throne": "94d37151f0e7bf78d06fc5ca01b61bf56eed44240230ba011a61a2cf6211f66c",
+    "numb": "a4bc75e364c8f7430a877709388174536621ab76f32c88dd1216f2b3a49423ec",
+    "mantra": "1e94383c50ffd590460d0a74c3cfa9f677a022a0419c0ee7507415cf7eb923af",
+    "in-the-end": "74d0804c54287cd623f203a95ac217b2a20bfff098a06ebaed6fa88918d0d3c9",
+    "doomed": "9383b293a09415470e300c99947ac26197edd9ce953b6aef6da6c2101a588de4",
+    "crawling": "82d8dbfe46e1af79978d2da2c56f913880a95499d4c9cc445e34d75712724360",
+    "happy-song": "0e0575a082a2f338320831208fb926b82147e5a81ccc9d54e75aac915dc48325",
+    "one-step-closer": "a78ba6b187ee4e5dc1a27a10926a76982a531396426f6349185d3685357f818d",
+    "chop-suey": "97c77c4531f927511ef0cb53ccb6b24e2fdddcdac9424ef01749e692c26e5f66",
+    "mr-brightside": "0ca0f6883eb60848e24f71dd9a781c9fe290bbb05282156d2b5e09b37ebba5ad"
+  },
+  "immagini": {
+    "pillole/all-the-small-things-storia.jpg": "94d2e1faae5caedf4bd18e1baec61096ba09ed8cf1fc9b88881f55e3283f134b",
+    "pillole/azzurro-chiaro.webp": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811",
+    "pillole/azzurro-scuro.webp": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3",
+    "pillole/azzurro-storia.jpg": "615a67cf0e22e2114f4743b0d04451c45cf2fe2a24081ff65b34350d1b0735e1",
+    "pillole/black-pearl-jam-storia.jpg": "499c0bd19ca38ff6ced500e51be1ead7bb8efad4f64c19cee8b212ef1b58503b",
+    "pillole/caruso-chiaro.webp": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c",
+    "pillole/caruso-scuro.webp": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0",
+    "pillole/caruso-storia.jpg": "599fa9ad3fc1c812c2786d4b92123b1cdb887898e8e08037a9ba5731ee72275d",
+    "pillole/chop-suey-storia.jpg": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
+    "pillole/crawling-storia.jpg": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
+    "pillole/dont-look-back-in-anger-storia.jpg": "d5350be06cc889c02ef1f7e1fedfe25579a331f498ec5b5b56f7b34d07482687",
+    "pillole/doomed-storia.jpg": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
+    "pillole/happy-song-storia.jpg": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
+    "pillole/ho-messo-via-storia.jpg": "5af1f05a5bc6fc383482d0cca937a58f28a5d70898372b010fd02b51418ed4ad",
+    "pillole/hotel-california-chiaro.webp": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360",
+    "pillole/hotel-california-scuro.webp": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1",
+    "pillole/hotel-california-storia.jpg": "bec49b1e61fafc4239b168552f7b8d146a0012cb8af76270ec9b3ab075f18f7d",
+    "pillole/in-the-end-storia.jpg": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
+    "pillole/man-in-the-box-storia.jpg": "d9af70ff37eb88ef59619d660546083296a01d68af25704e7e5780fe70509d8e",
+    "pillole/mantra-storia.jpg": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
+    "pillole/mr-brightside-storia.jpg": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
+    "pillole/november-rain-storia.jpg": "c25014f23112d5729e4c7f2913565402fbab47616c4ba018936609fcfeb46d95",
+    "pillole/numb-storia.jpg": "389e66e638e42e0b98d6f0e96d4f79dd700f9cf35b9a591e814fbc691183ca6a",
+    "pillole/one-step-closer-storia.jpg": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
+    "pillole/throne-storia.jpg": "9444d6640bbb48ece2c69be171a3aa78522bd9031e80555be4caee0e56196156",
+    "pillole/vieni-a-ballare-in-puglia-storia.jpg": "27cbe485f9a88972c6ae20f6c21d314c76869c7b56f28d625629b57c84849882",
+    "pillole/wake-me-up-when-september-ends-storia.jpg": "7f9c49d93a1f2b49c4736416b7972ae108a4c97d4a8ed47a4105152a54f68279",
+    "pillole/war-pigs-storia.jpg": "c10c5f068c73a232191341763ca78b051654eae03cdeb0f0687c0353f928271d",
+    "pillole/whats-my-age-again-storia.jpg": "4643bf2aa58d601e7df041848c09d377171105775229d92eda898529a1f1082b"
+  }
+}

@@ -782,8 +782,7 @@ export function paginaCanzone(c, ctx) {
              fatto nel browser (ricerca.js) a partire da questi dati, quindi
              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
         <div class="condividi"
-          data-cartolina
-          ${pillola ? `data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
+          data-cartolina${pillola ? `\n          data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
           data-titolo="${esc(c.titolo)}"
           data-artista="${esc(c.artista)}"
           data-anno="${esc(annoDi(c) || '')}"
@@ -998,6 +997,7 @@ export function paginaArtista(a, ctx) {
   const acquistoStoria = amazonPerArtista(a.slug, 'storia');
   const acquistoAlbum = amazonPerArtista(a.slug, 'album');
   const acquistoCanzoni = amazonPerArtista(a.slug, 'canzoni');
+  const informativaArtista = informativaAmazonPerScheda(`artista/${a.slug}`, r);
   const rt = a.ritratto || RITRATTI[a.slug];
   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
@@ -1070,8 +1070,7 @@ export function paginaArtista(a, ctx) {
       <div class="griglia">
         ${brani.map((b) => schedaCanzone(b, r)).join('\n        ')}
       </div>
-    </section>
-    ${acquistoCanzoni}
+    </section>${acquistoCanzoni ? `\n    ${acquistoCanzoni}` : ''}
 
     ${
       albumVeri.length
@@ -1094,8 +1093,7 @@ export function paginaArtista(a, ctx) {
       ${riconoscimenti.length ? `<p class="vuoto" style="margin-top:18px">${riconoscimenti.map((n) => esc(n)).join(` ${SEGNO} `)}</p>` : ''}
     </section>`
         : ''
-    }
-    ${acquistoAlbum}
+    }${acquistoAlbum ? `\n    ${acquistoAlbum}` : ''}
 
     ${
       a.storia
@@ -1119,16 +1117,14 @@ export function paginaArtista(a, ctx) {
       <h2>La storia del gruppo</h2>
       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
     </section>`
-    }
-    ${acquistoStoria}
+    }${acquistoStoria ? `\n    ${acquistoStoria}` : ''}
 
     <section class="blocco">
       <div class="azioni">
         <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
       </div>
-    </section>
-    ${informativaAmazonPerScheda(`artista/${a.slug}`, r)}
+    </section>${informativaArtista ? `\n    ${informativaArtista}` : ''}
   </div>`;
 
   return pagina({
@@ -1429,11 +1425,11 @@ export function paginaHome(ctx) {
   // a mezzanotte. Su richiesta dell'autore diventa "canzone in evidenza" e cambia
   // a ogni caricamento (lato client) o col bottone. Il nome cambia INSIEME al
   // comportamento, non per gusto: "al giorno" sarebbe diventata una frase falsa.
-  // Questa scelta resta deterministica perché è quella scritta nell'HTML, cioè
-  // quella che vedono i motori e chi ha JavaScript disattivato.
-  const giorno = Math.floor(Date.now() / 86400000);
-  const candidate = canzoni.filter((c) => c.fraseIconica);
-  const inEvidenza = candidate[giorno % candidate.length];
+  // La scelta HTML resta stabile anche tra build eseguiti in giorni diversi.
+  // Scelta iniziale esplicita e stabile, identica all'HTML già pubblicato.
+  // La rotazione rimane nel browser e non modifica i segnali di aggiornamento.
+  const inEvidenza = canzoni.find(c => c.slug === ctx.evidenzaHome.iniziale && c.fraseIconica);
+  if (!inEvidenza) throw new Error('Canzone iniziale della home assente o senza sintesi');
 
   const artistiRicchi = [...artisti]
     .filter((a) => a.storia)

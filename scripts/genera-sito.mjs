@@ -12,6 +12,7 @@ import { basename, dirname, join } from 'node:path';
 import { RITRATTI, SITO } from './genera/guscio.mjs';
 import { ritrattoArtista, paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaAffiliazioni, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
 import { generaRicerca } from './genera/ricerca.mjs';
+import { creaPerimetro } from './genera/perimetro.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -372,6 +373,7 @@ const ctx = {
   albumPerSlug,
   albumPerArtista,
   dataRevisione,
+  evidenzaHome: JSON.parse(readFileSync(join(ROOT, 'dati', 'evidenza-home.json'), 'utf8')),
   totali: { canzoni: canzoni.length, artisti: artisti.length, album: album.length },
 };
 
@@ -407,7 +409,7 @@ const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-
 const ATTR_ESITI_RICERCA = /(<div class="esiti" hidden data-esiti) role="[^"]+" aria-label="[^"]+"/g;
 const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
 const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
-const normalizza = (html) => html
+const normalizzaPerimetro = (html) => html
   .replace(RIGA_REVISIONE, '')
   .replace(RIGA_DATA_MODIFICA, '')
   .replace(BLOCCO_STILE, '')
@@ -415,8 +417,12 @@ const normalizza = (html) => html
   .replace(ATTR_PULSANTE_TEMA, '$1')
   .replace(ATTR_ESITI_RICERCA, '$1')
   .replace(TOTALI_PIEDE, '$1{totali}')
-  .replace(GANCI_CORRELATI, '$1{anteprima}$2')
   .replace(/^[ \t]+$/gm, '');
+const normalizza = html => normalizzaPerimetro(html).replace(GANCI_CORRELATI, '$1{anteprima}$2');
+const argLotto = process.argv.indexOf('--lotto');
+if (process.argv.some(a => a.startsWith('--impatto-atteso'))) throw new Error('Deroga quantitativa non ammessa: dichiarare un lotto entro il limite ordinario');
+if (argLotto >= 0 && (!process.argv[argLotto + 1] || process.argv[argLotto + 1].startsWith('--'))) throw new Error('--lotto richiede un file JSON');
+const perimetro = creaPerimetro({ root: ROOT, normalizza: normalizzaPerimetro, manifesto: argLotto >= 0 ? process.argv[argLotto + 1] : null });
 // Cattura (non rimuove) il dateModified già scritto in una pagina — serve da
 // F65/C3 in poi: una pagina "esiste" ma non "indicizzabile" (F50, nCanzoni
 // 1-2, senza copertina) non entra mai in nessuna sitemap, quindi il lastmod
@@ -441,7 +447,11 @@ for (const nome of existsSync(ROOT) ? readdirSync(ROOT) : []) {
   }
 }
 
-const canzoniCambiate = [];
+// Una piccola modifica editoriale non deve mai trasformarsi, senza che nessuno
+// se ne accorga, in una riscrittura del catalogo. Conserviamo l'elenco di tutte
+// le pagine editoriali esistenti il cui contenuto normalizzato e' cambiato; il
+// budget viene controllato prima di scrivere sitemap e segnali di scansione.
+const pagineCambiate = [];
 
 function primaDifferenza(vecchio, nuovo) {
   const righeVecchie = vecchio.split('\n');
@@ -469,11 +479,9 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
     if (vecchioNormalizzato === nuovoNormalizzato) {
       const precedente = vecchiLastmod.get(percorsoUrl) || contenutoVecchio.match(DATA_MODIFICA_CATTURA)?.[1];
       if (precedente) return precedente;
-    } else if (percorsoUrl.startsWith('canzone/')) {
-      canzoniCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
+    } else if (/^(?:canzone|artista|album|genere|anni)\//.test(percorsoUrl)) {
+      pagineCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
     }
-  } else if (percorsoUrl.startsWith('canzone/')) {
-    canzoniCambiate.push({ percorsoUrl, differenza: 'pagina precedente assente' });
   }
   return oggi;
 }
@@ -484,6 +492,8 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
 // sostituisce nella stringa già in memoria prima di scriverla — mai due
 // generazioni della stessa pagina, un solo confronto, la stessa identica data.
 function scriviConLastmod(percorsoFile, percorsoUrl, html) {
+  const precedente = join(ROOT, percorsoFile);
+  html = perimetro.prepara(percorsoUrl, existsSync(precedente) ? readFileSync(precedente, 'utf8') : null, html);
   const lastmod = lastmodDi(percorsoFile, percorsoUrl, html);
   const finale = html.includes(SEGNAPOSTO_DATA_MODIFICA) ? html.replaceAll(SEGNAPOSTO_DATA_MODIFICA, lastmod) : html;
   scrivi(percorsoFile, finale);
@@ -511,6 +521,7 @@ if (soloCanzoni) {
     const c = canzoniPerSlug.get(slug);
     scriviConLastmod(`canzone/${slug}/index.html`, `canzone/${slug}/`, paginaCanzone(c, ctx));
   }
+  verificaLotto();
   console.log(`Generazione mirata: ${soloCanzoni.length} canzoni. Sitemap e altre pagine preservate.`);
   process.exit(0);
 }
@@ -528,7 +539,7 @@ const lastmodChiSiamo = scriviConLastmod('chi-siamo/index.html', 'chi-siamo/', p
 const lastmodPrivacy = scriviConLastmod('privacy/index.html', 'privacy/', paginaPrivacy(ctx)).lastmod;
 const lastmodAffiliazioni = scriviConLastmod('affiliazioni/index.html', 'affiliazioni/', paginaAffiliazioni(ctx)).lastmod;
 const lastmodNoteLegali = scriviConLastmod('note-legali/index.html', 'note-legali/', paginaNoteLegali(ctx)).lastmod;
-scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
+scrivi('404.html', perimetro.prepara('404.html', readFileSync(join(ROOT, '404.html'), 'utf8'), paginaErrore404(ctx))); // F43: 404 del sito invece di quella generica di Vercel
 manifestoPagine.push(
   { percorso: '', categoria: 'servizio', indicizzabile: true },
   // L'archivio raccoglie sempre tutte le canzoni: la massa non è mai il problema.
@@ -547,13 +558,6 @@ for (const c of canzoni) {
   const { lastmod } = scriviConLastmod(`canzone/${c.slug}/index.html`, `canzone/${c.slug}/`, html);
   lastmodCanzoni.set(c.slug, lastmod);
   manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
-}
-if (canzoniCambiate.length > canzoni.length / 2) {
-  console.error(`ERRORE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. La generazione viene interrotta per proteggere i lastmod.`);
-  for (const { percorsoUrl, differenza } of canzoniCambiate.slice(0, 5)) {
-    console.error(`  /${percorsoUrl} — ${differenza}`);
-  }
-  throw new Error('Variazione massiva dei lastmod: controllare le differenze prima di pubblicare.');
 }
 const lastmodArtisti = new Map();
 for (const a of artisti) {
@@ -594,6 +598,21 @@ for (const rac of raccolte) {
     haTestoEditoriale: Boolean(rac.introduzione),
   });
 }
+
+// Il limite quantitativo rimane attivo anche con un manifesto esatto.
+// La stessa chiusura vale per la generazione mirata: nessun'uscita anticipata.
+function verificaLotto() {
+  const totaleEditoriale = canzoni.length + artisti.length + album.length + raccolte.length;
+  const limiteOrdinario = Math.max(1, Math.min(50, Math.floor(totaleEditoriale * 0.10)));
+  const impatto = perimetro.verifica();
+  const numeroPagine = Math.max(pagineCambiate.length, impatto.pagine.length);
+  if (numeroPagine > limiteOrdinario) {
+    throw new Error(`Variazione massiva del catalogo: ${numeroPagine} pagine, limite ${limiteOrdinario}; sitemap non scritte`);
+  }
+  console.log(`Impatto SEO: ${pagineCambiate.length} pagine editoriali esistenti modificate (limite ordinario ${limiteOrdinario}).`);
+  console.log(`Perimetro verificato: ${JSON.stringify(impatto)}`);
+}
+verificaLotto();
 writeFileSync(join(ROOT, 'dati', 'pagine-seo.json'), JSON.stringify(manifestoPagine, null, 2) + '\n', 'utf8');
 
 scrivi('ricerca.js', generaRicerca(ctx));
