@@ -1,0 +1,1202 @@
+diff --git a/AGENTS.md b/AGENTS.md
+new file mode 100644
+index 000000000..36bc1478f
+--- /dev/null
++++ b/AGENTS.md
+@@ -0,0 +1,23 @@
++# Dietro il Testo — protezione dei lotti
++
++Leggere COSTITUZIONE.md e ROADMAP.md. Preservare modifiche concorrenti e lotti in revisione.
++
++## Percorso fidato sul Mac
++
++Build e promozione dei lotti operativi devono passare dal controller installato fuori dal repository:
++
++/Users/gianmicheletroisi/.local/lib/dietro-il-testo/controller/0f4bd0dec29273845723a6cfc91ebdc9a3a3b17b/lotto-sicuro
++
++Argomenti: --repo <copia separata pulita> --base <SHA completo> --out <nuova cartella esterna>; per un lotto usare --lotto lotti/<digest>.json e --sigilla, poi --promuovi soltanto con approvazione precedente specifica. Le anteprime dirette non autorizzano un rilascio. Prima di push/pubblicazione verificare la storia con il controller installato e l'esatto diff.
++
++Non installare o sostituire controller, ancora, runtime o stato dalla copia del lotto. Non rimuovere permessi/flag immutabili esterni e non scegliere una nuova base di fiducia. Un loro aggiornamento richiede un bootstrap distinto autorizzato dal proprietario.
++
++La chiave privata resta esclusivamente sul Mac, fuori dal repository. Non leggerla, copiarla o usarla per altri lotti senza nuova autorizzazione esplicita del proprietario; il mandato del 20 ottobre vale soltanto per il manifesto tecnico dichiarato nel rapporto di bootstrap. Non inserire segreti in log, chat, variabili di build, GitHub o Vercel.
++
++Nessun IndexNow o GSC dal ciclo di build/pubblicazione. IndexNow è disabilitato di default: per un eventuale invio futuro serve consenso firmato separato, successivo alla pubblicazione, con URL esatti e nonce monouso. Mai selezionare tutti i lastmod odierni.
++
++Nel lotto tecnico iniziale contenuti, tutti gli HTML pubblicati, homepage/client, immagini, prodotti/CTA Amazon, date e sei sitemap restano byte-identici. Le 34 coppie storiche della baseline non si ricalcolano per fare passare un errore. Un nuovo lotto deve avere un proprio manifesto e approvazione precedenti; niente autoapprovazione e niente merge non revisionate.
++
++## Limite della protezione
++
++Il controller e l'ancora sono esterni con permessi minimi e flag macOS uchg; il launcher usa ambiente ridotto e verifica l'impronta del runtime. Questo separa i lotti dalla radice di fiducia. Non è isolamento da un amministratore o da codice arbitrario eseguito con i pieni privilegi del proprietario: i percorsi esterni e le credenziali di pubblicazione restano sotto il suo controllo.
+diff --git a/dati/baseline-generatore.json b/dati/baseline-generatore.json
+new file mode 100644
+index 000000000..eca49418b
+--- /dev/null
++++ b/dati/baseline-generatore.json
+@@ -0,0 +1,231 @@
++{
++  "versione": 1,
++  "ereditate": {
++    "/album/5-seconds-of-summer/youngblood/": {
++      "pubblicata": "6170de0514f7e49dd7425a72b6cb115fa3b4a712bbc98f6e07b00b7c959010ab",
++      "generata": "54e61e9b087fd5ea4c010e2b79bb66ee61895b18f469c9ecd5e3d4590197dbc0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/album/caparezza/verita-supposte/": {
++      "pubblicata": "a641c7c9bdcbda04ad20c2d4541404aac356ab68e94f6736abf850e0397c1940",
++      "generata": "b826725bab41de52af8bbefc11fd03cbb30b498c11ac6d844c3a485d74ee31bf",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/album/franco-battiato/limboscata/": {
++      "pubblicata": "7d7bc777a08832d205bac2106dbe1f0966f7c05f9cb36b6d5e6ce783ad2d248c",
++      "generata": "aee8f600438b55e96d22fc6fa8c1c399c75b008164e8ef50ecc8f9091e01bc50",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/1990/": {
++      "pubblicata": "e3e9d679f9e43c60b590f4266a52f5449ed7848de7e8403c150cc1285f020331",
++      "generata": "f95d63e38a4923e21366b9fe62bf3326a29247a21a8e9e3417668c2e0cdbc48c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/2000/": {
++      "pubblicata": "f121ece97d7771adc51f3c6130494dea177f85c530c9a6e6d8632b2fa794ec7e",
++      "generata": "1644f65b709ceecaf0a799919306544037ddad899c098bcf64ddb189c4fd7157",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/anni/2010/": {
++      "pubblicata": "9b704f603fe99032971cc8641dc3fc30a7290da89b2470c87a6523e530d25710",
++      "generata": "f7631c288e3e975f61beb9a9e0c061c4c6c6b3dd35acada0ab428ec5e7f78cc9",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/archivio/": {
++      "pubblicata": "388fd69c354bc0ae92d9bc3235f5505c2c8e0db624ac96f95c62f948ab7ad7f8",
++      "generata": "3fee183f2f96dd9f6bda87e57d0625fadc8e52cffc7b360ff33d261c6780f072",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/5-seconds-of-summer/": {
++      "pubblicata": "f87b3841e5906bcc47cdda586565cb13588b90f11419c892758ba09dd9a1ed06",
++      "generata": "8909635d1287fca71200c2158fdd6da823737442b7c7a60eee330d12af6a7b86",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/caparezza/": {
++      "pubblicata": "1880448bc5cb17f6f63eb0aaaecf471b591241575127bdf2ed09fa4dff931f61",
++      "generata": "ceb3b064533669ee48598eb5fcc0197d75729273c3da9d47b3c03e27eee04468",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/franco-battiato/": {
++      "pubblicata": "9e148ee4f1b83af2beeca4527ff103cd852a46b6d4814d9eba0a548fc5316761",
++      "generata": "369046af2c54bfdae6fb30734c0d8a02ea1d73178ece6e1fe1d8a3c75f9a2859",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/amnesia-5sos/": {
++      "pubblicata": "c0a0b19ae6b6b2d6e827f6bdedd4d69c76d013460151c80516a6f2d543f0e777",
++      "generata": "3a0eddbecf8c17b422d81e614b11f1725f9f2011a709a285d3e0b36f64e5bf6d",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/bandiera-bianca/": {
++      "pubblicata": "5c8def24de583f443b5e71cbe425385b07f73b4438816fb6273637c79d12fa18",
++      "generata": "8d0d3f212fe985fe365d7288559e1e77aba9402e6901ddf15917defed0f42f6e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/centro-di-gravita-permanente/": {
++      "pubblicata": "83a8c9e0a214828c64b442e66bac932f067dcfe8ac25b59cf2b705f344fa7db5",
++      "generata": "04acb296e73743b203fabe6b51d98a93fa8ecb58741fc4361b79bdf396f00a2c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/complete-mess/": {
++      "pubblicata": "d2cef1c8611f3e876656a8406e116b822dba6bb37a582ecbb42111d439f69a3c",
++      "generata": "aad1a161108fe4543213b0ba8676bf496b99889c0ac77a23c284de4d4e12273c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/easier/": {
++      "pubblicata": "338faf2c2ad8e4ef86694a85dd21c41afe5707ba8217609302b76819ad1d9e44",
++      "generata": "785add41b948933239d90e3e7df6e0967d0b9c2252675ca00975aea5425d3a65",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/eroe-storia-di-luigi-delle-bicocche/": {
++      "pubblicata": "38023c81b9e2fcc1163f956031b2b0b7bd797effc56a1768dcc366f796154b70",
++      "generata": "b7cc94e0470f2d823e48fd8b2b9509ceee74093511c49662169c55e6a0822ae8",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/exuvia/": {
++      "pubblicata": "0e8dd725469d81aee2757bd7a62c5c9ef54c86595d0cedc7d54022733286d2a8",
++      "generata": "75cb6f92f3903ab7c96942b810695da9706b57ce4ff5e2bcb8292f9bee644438",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/goodbye-malinconia/": {
++      "pubblicata": "de3b769f5cf3c3dd59684ba0fa4b4a345210cc1cce3163a52091fc8043c9ce68",
++      "generata": "a85153e96409153848c28186524b50b129cfa40c6f090b7e95a9372fa6bb9c45",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/l-era-del-cinghiale-bianco/": {
++      "pubblicata": "5501cc64e7f685b792bfe305e11546a46b56963cf4596d06887da19fa9d25118",
++      "generata": "358f81bd7c6362231d039d26bbb6fa2980cc73abd5f553ce67d8f1ba8afb1519",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/la-mia-parte-intollerante/": {
++      "pubblicata": "998d8f448d01b5c4f3d3d1ae449ff91f1dcbcb4b975ed5cf9f28b1dc640a15e3",
++      "generata": "5b66737676d0dab810a943477d7169767145d8abd9bf5cd567171f2fdcb62152",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/legalize-the-premier/": {
++      "pubblicata": "87b988f582852b84376c73c4fdebb12e55747615ce9075bb05aad071c27e74a8",
++      "generata": "a9caaf3be61ca161671a91ddc9b9836e64280f3f7e3a4e5a7bf7b1daa2a8afd0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/lose-yourself/": {
++      "pubblicata": "104e856c691faa0a75d909d3e8e471a2fc48707fde87e3066c57590f1d806045",
++      "generata": "cb5532c309c9dd92523df91b051058c36a4cac018cfc4c36d51029a24003a7a7",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/non-me-lo-posso-permettere/": {
++      "pubblicata": "164af038a4e0c731acf2a006a2bb45456bf4ca49c1531b65c4e53303cef095d0",
++      "generata": "84e712eae0c5950bf72d78b56f53496c3c9e9f04c5d3f729fc5f89873d72e471",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/not-ok/": {
++      "pubblicata": "5edaad72f8e67234f288d3198e10e1692d3a81cb2fff9f0c10c5edf402624ab5",
++      "generata": "d071104db6fac6b1498a1bb72130b5749a59b1a0acd86d2855151143ab5941b0",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/piu-bella-cosa/": {
++      "pubblicata": "33cfdb974b2d90d3a58a1ec3306115a4a6454628bbfccdd74da56e6396051f52",
++      "generata": "cf5016c9ca8e6a6e4fd783a01e28815792ee1c1cda9a426cd11fdb93ed1bec24",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/povera-patria/": {
++      "pubblicata": "a6bc5bac10ae4b9e10b5b669fed2d8db176be3e89dfe90aa7457f4234ca14cd3",
++      "generata": "952d55fcaac12a0d0e83fe7124bd7d884d240dfd732ccb9b50eb718b36710d92",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/prisoner-709/": {
++      "pubblicata": "a89b8efc0cc72e078289a0a28e1251dc9b1599574020d69cf5442ac5bb856410",
++      "generata": "041c46cc03a4c7d86e80321e04723e06890bcce849ad538ae1d1c1cbafcffca9",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/prospettiva-nevski/": {
++      "pubblicata": "86d1288891fa2a44b5a7da7de13945ce534ad651a679b76b280db283bb7f00fa",
++      "generata": "390dd1027198bfb89cd55fe7aa0fdf17a67ccecb9390c2287e1edf989f907a4e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/she-looks-so-perfect/": {
++      "pubblicata": "05f0b000b1ce56833d0c784058f3a76a48f0eefd28f51826b6c9311f439822ed",
++      "generata": "19cdb0b5f57878643d91a70504ea77584e3040dc4b684beb196b9bc19e6dd25f",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/shes-kinda-hot/": {
++      "pubblicata": "0e15e0a85f782db08290958235f5d21eb29e70f690b858d13417221e846b2e0b",
++      "generata": "2438830227427a372c6e37f2571281c851408c66643ed75a346dda6d8d36eb2c",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/canzone/vieni-a-ballare-in-puglia/": {
++      "pubblicata": "44c27ea1134eae857cf63fe2ebc08e6043c6955d9fd5b17b909948536ce2ba4a",
++      "generata": "f4cf5bc0eb0f207a92234c8cabecabf1b2572a307e1c60767d0527432c35071a",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/genere/pop/": {
++      "pubblicata": "4c0afa7959e1e89d8b984813a58178ad1bf32294c1ad8b51affe40c0f6e6000f",
++      "generata": "11564168e3eeca926467f841887b7993c1acd7247c88f0f4a41d29fe7f132b4e",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/genere/rock/": {
++      "pubblicata": "62a14aaa38ee6442c04b8a27486c38866ca62c08aca3c3a28b975d3c1f2f5626",
++      "generata": "dacda2f4a3c39b1bea9288792f1dc304096555cddfae9ba68c71667d3da5b544",
++      "motivo": "anteprima correlata pregressa"
++    },
++    "/artista/r-e-m/": {
++      "pubblicata": "b95b3575cf5a29d7d5535b5c5142fcffc0e3c2c0e4a2ac85c6efbe7d40a8d57f",
++      "generata": "285cfcc97d0ac58fa192c6fff02bcc62ba2f07e940a4454a5252f7b4480649b6",
++      "motivo": "righe vuote pregresse"
++    }
++  },
++  "cartoline": {
++    "hotel-california": "1bf5ee07ae420ac5461da0d46d08086bf1652a98b53c9cd0a78436407462e183",
++    "caruso": "4287fc115548dcc4d48b8220a8791cc93aef9ee43dfe65a015ec37cb9b79da37",
++    "azzurro": "908a7e5800198307e2fe5eb56db6304b576706dd12b01b770736668293909f38",
++    "all-the-small-things": "55efac92558947f0bb46f30d809a57e152f3379b9962fb1629f54fb791544631",
++    "whats-my-age-again": "4ee82bd006d68ea4eda0ae2043d7f15b049e560763927de39494607cf57141e3",
++    "ho-messo-via": "b199e3098e79b5b3f6feae0b21c356698cebd2a5b822694b4066dcd19c578f7e",
++    "vieni-a-ballare-in-puglia": "03414c3626f3f84d0e82c424bb2426bcc1eb59eb14e1819af2dfdf5762300b21",
++    "dont-look-back-in-anger": "0943b14114dd912aff76e3091e6c69db1ca576de121bb53364d3a90c65bf93bc",
++    "november-rain": "be24b3a6b9996b1581b9c1543d22f1e1155c9c8e2a98917b40224ece6f361e34",
++    "man-in-the-box": "fe8b5bbcb3cbcce5c763a5082d55882b5386779f924081cb3c20c3f0825d3b2a",
++    "war-pigs": "2333c4e2516c6ecf7df995d19704fb957624c066793a3843fd514c45738dab2f",
++    "wake-me-up-when-september-ends": "80ec0365b6868293809d5639dac0fbbd3455e578e12c841bf190809041c8e471",
++    "black-pearl-jam": "438c1460d557b72f30c07f0958c66856e33264a257b6006c05e3794bbc83a281",
++    "throne": "94d37151f0e7bf78d06fc5ca01b61bf56eed44240230ba011a61a2cf6211f66c",
++    "numb": "a4bc75e364c8f7430a877709388174536621ab76f32c88dd1216f2b3a49423ec",
++    "mantra": "1e94383c50ffd590460d0a74c3cfa9f677a022a0419c0ee7507415cf7eb923af",
++    "in-the-end": "74d0804c54287cd623f203a95ac217b2a20bfff098a06ebaed6fa88918d0d3c9",
++    "doomed": "9383b293a09415470e300c99947ac26197edd9ce953b6aef6da6c2101a588de4",
++    "crawling": "82d8dbfe46e1af79978d2da2c56f913880a95499d4c9cc445e34d75712724360",
++    "happy-song": "0e0575a082a2f338320831208fb926b82147e5a81ccc9d54e75aac915dc48325",
++    "one-step-closer": "a78ba6b187ee4e5dc1a27a10926a76982a531396426f6349185d3685357f818d",
++    "chop-suey": "97c77c4531f927511ef0cb53ccb6b24e2fdddcdac9424ef01749e692c26e5f66",
++    "mr-brightside": "0ca0f6883eb60848e24f71dd9a781c9fe290bbb05282156d2b5e09b37ebba5ad"
++  },
++  "immagini": {
++    "pillole/all-the-small-things-storia.jpg": "94d2e1faae5caedf4bd18e1baec61096ba09ed8cf1fc9b88881f55e3283f134b",
++    "pillole/azzurro-chiaro.webp": "318b0f53a8e27408083e57955e7ab3d0b0c74f4980670723a06569a19c327811",
++    "pillole/azzurro-scuro.webp": "6f69faab29f2fe446396426568dd39c8ed6c6e77722f5fff6f81ddfb6223c5f3",
++    "pillole/azzurro-storia.jpg": "615a67cf0e22e2114f4743b0d04451c45cf2fe2a24081ff65b34350d1b0735e1",
++    "pillole/black-pearl-jam-storia.jpg": "499c0bd19ca38ff6ced500e51be1ead7bb8efad4f64c19cee8b212ef1b58503b",
++    "pillole/caruso-chiaro.webp": "6da7c6d5d32de83ec97110695e2428f3e1f528e28ca009bbc6c766dbad9ed65c",
++    "pillole/caruso-scuro.webp": "d492529cf5329b1343f1259de2d524a38f8e876ff25dd36d82f188fd2f6723e0",
++    "pillole/caruso-storia.jpg": "599fa9ad3fc1c812c2786d4b92123b1cdb887898e8e08037a9ba5731ee72275d",
++    "pillole/chop-suey-storia.jpg": "04881158c4649c61ffd74d41236e311e3a9a19ba4af6713ff52527278594f9c8",
++    "pillole/crawling-storia.jpg": "65a1038e8cfadecdcd4dd16ea763567da2ee855802e67b807d92d41a5c363a9a",
++    "pillole/dont-look-back-in-anger-storia.jpg": "d5350be06cc889c02ef1f7e1fedfe25579a331f498ec5b5b56f7b34d07482687",
++    "pillole/doomed-storia.jpg": "929d9c26ebc2218412851821e9ec94fdb14be186d41a6b35b6f1687f81564428",
++    "pillole/happy-song-storia.jpg": "c4613c06fd3d170b954f1e3115ce8b1c54e03a97d8529205b93b70669f83afc9",
++    "pillole/ho-messo-via-storia.jpg": "5af1f05a5bc6fc383482d0cca937a58f28a5d70898372b010fd02b51418ed4ad",
++    "pillole/hotel-california-chiaro.webp": "e71ea63653d6245bdfc46f02359345a9ebb67121821abf10e523927abb794360",
++    "pillole/hotel-california-scuro.webp": "3ad89dc8b6930ef9f91dcd9c2620a33e4b6c8b79451afc966916365235a7e0f1",
++    "pillole/hotel-california-storia.jpg": "bec49b1e61fafc4239b168552f7b8d146a0012cb8af76270ec9b3ab075f18f7d",
++    "pillole/in-the-end-storia.jpg": "875c1a7048a3cd794134f9979261d66fd9752a272f1d6a79c29098dc4d99af0f",
++    "pillole/man-in-the-box-storia.jpg": "d9af70ff37eb88ef59619d660546083296a01d68af25704e7e5780fe70509d8e",
++    "pillole/mantra-storia.jpg": "16c36f573e1db7a116124d1f08b499f4d020f7bf7e4b7979c643b501fc42d421",
++    "pillole/mr-brightside-storia.jpg": "159e610263020a1406efe02bb53882e2fcb2f93b7c40fee9afa74a8bf49ecf90",
++    "pillole/november-rain-storia.jpg": "c25014f23112d5729e4c7f2913565402fbab47616c4ba018936609fcfeb46d95",
++    "pillole/numb-storia.jpg": "389e66e638e42e0b98d6f0e96d4f79dd700f9cf35b9a591e814fbc691183ca6a",
++    "pillole/one-step-closer-storia.jpg": "bb77e0da7acbdac69243e76483fd66214ea8e33e3374ac7e95751e214d73eb16",
++    "pillole/throne-storia.jpg": "9444d6640bbb48ece2c69be171a3aa78522bd9031e80555be4caee0e56196156",
++    "pillole/vieni-a-ballare-in-puglia-storia.jpg": "27cbe485f9a88972c6ae20f6c21d314c76869c7b56f28d625629b57c84849882",
++    "pillole/wake-me-up-when-september-ends-storia.jpg": "7f9c49d93a1f2b49c4736416b7972ae108a4c97d4a8ed47a4105152a54f68279",
++    "pillole/war-pigs-storia.jpg": "c10c5f068c73a232191341763ca78b051654eae03cdeb0f0687c0353f928271d",
++    "pillole/whats-my-age-again-storia.jpg": "4643bf2aa58d601e7df041848c09d377171105775229d92eda898529a1f1082b"
++  }
++}
+diff --git a/dati/evidenza-home.json b/dati/evidenza-home.json
+new file mode 100644
+index 000000000..ecb75e62d
+--- /dev/null
++++ b/dati/evidenza-home.json
+@@ -0,0 +1,3 @@
++{
++  "iniziale": "my-immortal"
++}
+diff --git a/dati/policy-lotti.json b/dati/policy-lotti.json
+new file mode 100644
+index 000000000..5cb931ace
+--- /dev/null
++++ b/dati/policy-lotti.json
+@@ -0,0 +1,51 @@
++{
++  "versione": 1,
++  "protetti": [
++    "scripts/",
++    "dati/baseline-generatore.json",
++    "dati/policy-lotti.json",
++    "lotti/",
++    "approvazioni-lotti/",
++    "consensi-indexnow/",
++    "stato-lotti/",
++    ".github/",
++    "vercel.json",
++    ".gitignore",
++    ".gitattributes",
++    ".gitmodules",
++    "package.json",
++    "package-lock.json",
++    "pnpm-lock.yaml",
++    "yarn.lock",
++    "AGENTS.md",
++    "COSTITUZIONE.md",
++    ".codex/",
++    "index.html",
++    "404.html",
++    "canzone/",
++    "artista/",
++    "album/",
++    "genere/",
++    "anni/",
++    "archivio/",
++    "metodo/",
++    "chi-siamo/",
++    "privacy/",
++    "affiliazioni/",
++    "note-legali/",
++    "sitemap.xml",
++    "sitemap-pagine.xml",
++    "sitemap-canzoni.xml",
++    "sitemap-artisti.xml",
++    "sitemap-album.xml",
++    "sitemap-raccolte.xml",
++    "ricerca.js",
++    "og/",
++    "ritratti/",
++    "dati/indexnow.json"
++  ],
++  "documentazione": [
++    "ROADMAP.md",
++    "rapporti/"
++  ]
++}
+diff --git a/scripts/genera-sito.mjs b/scripts/genera-sito.mjs
+index bc1494602..2d17efc84 100644
+--- a/scripts/genera-sito.mjs
++++ b/scripts/genera-sito.mjs
+@@ -12,6 +12,7 @@ import { basename, dirname, join } from 'node:path';
+ import { RITRATTI, SITO } from './genera/guscio.mjs';
+ import { ritrattoArtista, paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaAffiliazioni, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
+ import { generaRicerca } from './genera/ricerca.mjs';
++import { creaPerimetro } from './genera/perimetro.mjs';
+ 
+ const __dirname = dirname(fileURLToPath(import.meta.url));
+ const ROOT = join(__dirname, '..');
+@@ -372,6 +373,7 @@ const ctx = {
+   albumPerSlug,
+   albumPerArtista,
+   dataRevisione,
++  evidenzaHome: JSON.parse(readFileSync(join(ROOT, 'dati', 'evidenza-home.json'), 'utf8')),
+   totali: { canzoni: canzoni.length, artisti: artisti.length, album: album.length },
+ };
+ 
+@@ -407,7 +409,7 @@ const ATTR_PULSANTE_TEMA = /(<button class="tema" type="button") data-(?:cambia-
+ const ATTR_ESITI_RICERCA = /(<div class="esiti" hidden data-esiti) role="[^"]+" aria-label="[^"]+"/g;
+ const TOTALI_PIEDE = /(<\/strong>\s*— )\d+ canzoni, \d+ artisti\./;
+ const GANCI_CORRELATI = /(<span class="gancio">)[\s\S]*?(<\/span>)/g;
+-const normalizza = (html) => html
++const normalizzaPerimetro = (html) => html
+   .replace(RIGA_REVISIONE, '')
+   .replace(RIGA_DATA_MODIFICA, '')
+   .replace(BLOCCO_STILE, '')
+@@ -415,8 +417,12 @@ const normalizza = (html) => html
+   .replace(ATTR_PULSANTE_TEMA, '$1')
+   .replace(ATTR_ESITI_RICERCA, '$1')
+   .replace(TOTALI_PIEDE, '$1{totali}')
+-  .replace(GANCI_CORRELATI, '$1{anteprima}$2')
+   .replace(/^[ \t]+$/gm, '');
++const normalizza = html => normalizzaPerimetro(html).replace(GANCI_CORRELATI, '$1{anteprima}$2');
++const argLotto = process.argv.indexOf('--lotto');
++if (process.argv.some(a => a.startsWith('--impatto-atteso'))) throw new Error('Deroga quantitativa non ammessa: dichiarare un lotto entro il limite ordinario');
++if (argLotto >= 0 && (!process.argv[argLotto + 1] || process.argv[argLotto + 1].startsWith('--'))) throw new Error('--lotto richiede un file JSON');
++const perimetro = creaPerimetro({ root: ROOT, normalizza: normalizzaPerimetro, manifesto: argLotto >= 0 ? process.argv[argLotto + 1] : null });
+ // Cattura (non rimuove) il dateModified già scritto in una pagina — serve da
+ // F65/C3 in poi: una pagina "esiste" ma non "indicizzabile" (F50, nCanzoni
+ // 1-2, senza copertina) non entra mai in nessuna sitemap, quindi il lastmod
+@@ -441,7 +447,11 @@ for (const nome of existsSync(ROOT) ? readdirSync(ROOT) : []) {
+   }
+ }
+ 
+-const canzoniCambiate = [];
++// Una piccola modifica editoriale non deve mai trasformarsi, senza che nessuno
++// se ne accorga, in una riscrittura del catalogo. Conserviamo l'elenco di tutte
++// le pagine editoriali esistenti il cui contenuto normalizzato e' cambiato; il
++// budget viene controllato prima di scrivere sitemap e segnali di scansione.
++const pagineCambiate = [];
+ 
+ function primaDifferenza(vecchio, nuovo) {
+   const righeVecchie = vecchio.split('\n');
+@@ -469,11 +479,9 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
+     if (vecchioNormalizzato === nuovoNormalizzato) {
+       const precedente = vecchiLastmod.get(percorsoUrl) || contenutoVecchio.match(DATA_MODIFICA_CATTURA)?.[1];
+       if (precedente) return precedente;
+-    } else if (percorsoUrl.startsWith('canzone/')) {
+-      canzoniCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
++    } else if (/^(?:canzone|artista|album|genere|anni)\//.test(percorsoUrl)) {
++      pagineCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
+     }
+-  } else if (percorsoUrl.startsWith('canzone/')) {
+-    canzoniCambiate.push({ percorsoUrl, differenza: 'pagina precedente assente' });
+   }
+   return oggi;
+ }
+@@ -484,6 +492,8 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
+ // sostituisce nella stringa già in memoria prima di scriverla — mai due
+ // generazioni della stessa pagina, un solo confronto, la stessa identica data.
+ function scriviConLastmod(percorsoFile, percorsoUrl, html) {
++  const precedente = join(ROOT, percorsoFile);
++  html = perimetro.prepara(percorsoUrl, existsSync(precedente) ? readFileSync(precedente, 'utf8') : null, html);
+   const lastmod = lastmodDi(percorsoFile, percorsoUrl, html);
+   const finale = html.includes(SEGNAPOSTO_DATA_MODIFICA) ? html.replaceAll(SEGNAPOSTO_DATA_MODIFICA, lastmod) : html;
+   scrivi(percorsoFile, finale);
+@@ -511,6 +521,7 @@ if (soloCanzoni) {
+     const c = canzoniPerSlug.get(slug);
+     scriviConLastmod(`canzone/${slug}/index.html`, `canzone/${slug}/`, paginaCanzone(c, ctx));
+   }
++  verificaLotto();
+   console.log(`Generazione mirata: ${soloCanzoni.length} canzoni. Sitemap e altre pagine preservate.`);
+   process.exit(0);
+ }
+@@ -528,7 +539,7 @@ const lastmodChiSiamo = scriviConLastmod('chi-siamo/index.html', 'chi-siamo/', p
+ const lastmodPrivacy = scriviConLastmod('privacy/index.html', 'privacy/', paginaPrivacy(ctx)).lastmod;
+ const lastmodAffiliazioni = scriviConLastmod('affiliazioni/index.html', 'affiliazioni/', paginaAffiliazioni(ctx)).lastmod;
+ const lastmodNoteLegali = scriviConLastmod('note-legali/index.html', 'note-legali/', paginaNoteLegali(ctx)).lastmod;
+-scrivi('404.html', paginaErrore404(ctx)); // F43: 404 del sito invece di quella generica di Vercel
++scrivi('404.html', perimetro.prepara('404.html', readFileSync(join(ROOT, '404.html'), 'utf8'), paginaErrore404(ctx))); // F43: 404 del sito invece di quella generica di Vercel
+ manifestoPagine.push(
+   { percorso: '', categoria: 'servizio', indicizzabile: true },
+   // L'archivio raccoglie sempre tutte le canzoni: la massa non è mai il problema.
+@@ -548,13 +559,6 @@ for (const c of canzoni) {
+   lastmodCanzoni.set(c.slug, lastmod);
+   manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
+ }
+-if (canzoniCambiate.length > canzoni.length / 2) {
+-  console.error(`ERRORE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. La generazione viene interrotta per proteggere i lastmod.`);
+-  for (const { percorsoUrl, differenza } of canzoniCambiate.slice(0, 5)) {
+-    console.error(`  /${percorsoUrl} — ${differenza}`);
+-  }
+-  throw new Error('Variazione massiva dei lastmod: controllare le differenze prima di pubblicare.');
+-}
+ const lastmodArtisti = new Map();
+ for (const a of artisti) {
+   const html = paginaArtista(a, ctx);
+@@ -594,6 +598,21 @@ for (const rac of raccolte) {
+     haTestoEditoriale: Boolean(rac.introduzione),
+   });
+ }
++
++// Il limite quantitativo rimane attivo anche con un manifesto esatto.
++// La stessa chiusura vale per la generazione mirata: nessun'uscita anticipata.
++function verificaLotto() {
++  const totaleEditoriale = canzoni.length + artisti.length + album.length + raccolte.length;
++  const limiteOrdinario = Math.max(1, Math.min(50, Math.floor(totaleEditoriale * 0.10)));
++  const impatto = perimetro.verifica();
++  const numeroPagine = Math.max(pagineCambiate.length, impatto.pagine.length);
++  if (numeroPagine > limiteOrdinario) {
++    throw new Error(`Variazione massiva del catalogo: ${numeroPagine} pagine, limite ${limiteOrdinario}; sitemap non scritte`);
++  }
++  console.log(`Impatto SEO: ${pagineCambiate.length} pagine editoriali esistenti modificate (limite ordinario ${limiteOrdinario}).`);
++  console.log(`Perimetro verificato: ${JSON.stringify(impatto)}`);
++}
++verificaLotto();
+ writeFileSync(join(ROOT, 'dati', 'pagine-seo.json'), JSON.stringify(manifestoPagine, null, 2) + '\n', 'utf8');
+ 
+ scrivi('ricerca.js', generaRicerca(ctx));
+diff --git a/scripts/genera/autorita.mjs b/scripts/genera/autorita.mjs
+new file mode 100644
+index 000000000..8d014b771
+--- /dev/null
++++ b/scripts/genera/autorita.mjs
+@@ -0,0 +1,228 @@
++// Questa libreria va eseguita dalla copia fidata installata dal proprietario,
++// non caricata dal ramo che deve verificare. Nessuna chiave privata nel repo.
++import fs from 'node:fs';
++import path from 'node:path';
++import { userInfo, tmpdir } from 'node:os';
++import { createHash, verify } from 'node:crypto';
++import { execFileSync, spawnSync } from 'node:child_process';
++export const sha = bytes => createHash('sha256').update(bytes).digest('hex');
++const jbytes = x => JSON.stringify(x, null, 2) + '\n';
++const uguali = (a,b) => JSON.stringify(Object.entries(a).sort()) === JSON.stringify(Object.entries(b).sort());
++const valido = p => typeof p === 'string' && p && !path.isAbsolute(p) && !p.split('/').some(s=>!s||s==='.'||s==='..'||s==='.git');
++const prefisso = (p, v) => v.some(s=>s.endsWith('/')?p.startsWith(s):p===s);
++const lettura = p => fs.existsSync(p) ? fs.readFileSync(p) : null;
++const digest = p => {const b=lettura(p);return b===null?null:sha(b);};
++const ordina = o => Object.fromEntries(Object.entries(o).sort());
++function fileSicuro(root,p) {
++  if(!valido(p))throw new Error('Percorso lotto non valido');
++  const f=path.join(root,p);let q=f;
++  while(!fs.existsSync(q))q=path.dirname(q);
++  const reale=fs.realpathSync(q);
++  if(reale!==root&&!reale.startsWith(root+path.sep))throw new Error('Symlink fuori dal repository');
++  return f;
++}
++export function leggiAncoraInstallata() {
++  // userInfo legge il profilo del sistema: HOME e variabili del manifesto non
++  // scelgono né il percorso né la chiave dell'autorità.
++  const file=path.join(userInfo().homedir,'.config','dietro-il-testo','autorita.json');
++  if(!fs.existsSync(file))throw new Error('Autorità non installata dal proprietario: nessuna operazione autorizzata');
++  return JSON.parse(fs.readFileSync(file,'utf8'));
++}
++export function creaAutorita({root,ancora}) {
++  root=fs.realpathSync(root);
++  const gitEnv={PATH:'/usr/bin:/bin:/usr/sbin:/sbin',LANG:'C.UTF-8',TZ:'UTC',GIT_NO_REPLACE_OBJECTS:'1',GIT_CONFIG_NOSYSTEM:'1',GIT_CONFIG_GLOBAL:'/dev/null'};
++  const gitBytes=(...a)=>execFileSync('/usr/bin/git',['--no-replace-objects','-C',root,...a],{env:gitEnv,stdio:['ignore','pipe','pipe']});
++  const git=(...a)=>gitBytes(...a).toString().trim();
++  const blob=(ref,p)=>{try{return gitBytes('show',`${ref}:${p}`);}catch{return null;}};
++  const parent=c=>git('rev-parse',`${c}^`);
++  const ancestor=(a,b)=>{try{git('merge-base','--is-ancestor',a,b);return true;}catch{return false;}};
++  if(ancora?.versione!==1||!/^[a-f0-9]{40}$/.test(ancora.commit||'')||!ancora.chiavePubblica)throw new Error('Ancora di fiducia non valida');
++  if(!ancestor(ancora.commit,git('rev-parse','HEAD')))throw new Error('Checkout fuori dalla storia fidata');
++  const policyBlob=blob(ancora.commit,'dati/policy-lotti.json');if(!policyBlob)throw new Error('Policy assente nel commit fidato');
++  const policy=JSON.parse(policyBlob);const protetto=p=>prefisso(p,policy.protetti);
++  const documentazione=p=>!protetto(p)&&prefisso(p,policy.documentazione);
++  const files=(a,b)=>git('diff','--no-ext-diff','--no-textconv','--name-only','-z',a,...(b?[b]:[])).split('\0').filter(Boolean);
++  const checkFirma=record=>{
++    if(!record?.firma||!record.payload||!verify(null,Buffer.from(JSON.stringify(record.payload)),ancora.chiavePubblica,Buffer.from(record.firma,'base64')))throw new Error('Firma del proprietario assente o non valida');
++    return record.payload;
++  };
++  const caricaApprovazione=(base,manifesto)=>{
++    if(!/^lotti\/[a-f0-9]{64}\.json$/.test(manifesto))throw new Error('Manifesto del gate non valido');
++    const raw=blob(base,manifesto);if(!raw)throw new Error('Manifesto assente nel commit-base');
++    const id=sha(raw);if(manifesto!==`lotti/${id}.json`)throw new Error('Digest del manifesto discordante');
++    const approval=`approvazioni-lotti/${id}.json`;const bytes=blob(base,approval);
++    if(!bytes)throw new Error('Approvazione non presente nel commit-base');
++    const record=JSON.parse(bytes);const p=checkFirma(record);
++    const introdotta=git('log','--diff-filter=A','--format=%H',base,'--',approval).split('\n')[0];
++    if(!introdotta||!ancestor(introdotta,base)||parent(introdotta)!==p.parent||p.versione!==1||p.manifesto!==id||!Array.isArray(p.azioni))throw new Error('Approvazione non legata alla base e al manifesto');
++    if(!blob(introdotta,approval)?.equals(bytes)||!blob(introdotta,manifesto)?.equals(raw))throw new Error('Approvazione o manifesto riscritti');
++    const aggiunte=files(p.parent,introdotta).filter(p=>!documentazione(p)).sort();
++    if(JSON.stringify(aggiunte)!==JSON.stringify([approval,manifesto].sort()))throw new Error('Il medesimo lotto non può creare la propria approvazione');
++    const m=JSON.parse(raw);
++    if(m.versione!==2||!m.contenuti||m.contenuti.versione!==1||!m.files||!m.strutturali||Object.keys(m).some(k=>!['versione','id','contenuti','files','strutturali','promozione'].includes(k)))throw new Error('Schema manifesto firmato non valido');
++    if(!Array.isArray(m.contenuti.pagine)||!Array.isArray(m.contenuti.cartoline)||new Set(m.contenuti.pagine).size!==m.contenuti.pagine.length||m.contenuti.pagine.length>50||m.contenuti.pagine.some(p=>typeof p!=='string'||!(p==='/404.html'||/^\/(?:[a-z0-9-]+\/)*$/.test(p))))throw new Error('URL del manifesto firmato non validi');
++    for(const [n,h] of Object.entries({...m.files,...m.strutturali,...m.promozione?.files}))if(!valido(n)||h!==null&&!/^[a-f0-9]{64}$/.test(h))throw new Error('Impronta o percorso non valido nel manifesto');
++    return {m,id,manifesto,record,commitApprovazione:introdotta,base};
++  };
++  const richiedi=(a,azione)=>{if(!a.record.payload.azioni.includes(azione))throw new Error(`Consenso ${azione} assente`);};
++  function verificaStoria(ref) {
++    if(!ancestor(ancora.commit,ref))throw new Error('Base non discendente dall’ancora fidata');
++    const commits=git('rev-list','--reverse',`${ancora.commit}..${ref}`).split('\n').filter(Boolean);
++    for(const c of commits){
++      if(git('rev-list','--parents','-n','1',c).split(' ').length!==2)throw new Error('Merge strutturale da revisionare separatamente');
++      const prev=parent(c), changed=files(prev,c).filter(n=>!documentazione(n));if(!changed.length)continue;
++      const approvals=changed.filter(n=>n.startsWith('approvazioni-lotti/'));
++      if(approvals.length){for(const n of approvals)caricaApprovazione(c,`lotti/${n.split('/').pop()}`);continue;}
++      const invii=changed.filter(n=>n.startsWith('consensi-indexnow/'));
++      if(invii.length){if(changed.length!==1)throw new Error('Il consenso IndexNow deve precedere ed essere distinto dall’invio');verificaConsenso(c,invii[0]);continue;}
++      const receipts=changed.filter(n=>/^stato-lotti\/(preparato|promosso)-[a-f0-9]{64}\.json$/.test(n));
++      if(receipts.length!==1)throw new Error(`Modifica non autorizzata a baseline/gate/policy o contenuti: ${c}`);
++      const receipt=JSON.parse(blob(c,receipts[0]));const a=caricaApprovazione(prev,receipt.manifesto);
++      if(receipt.digest!==a.id)throw new Error('Ricevuta di lotto discordante');
++      const promossa=receipts[0].includes('/promosso-');richiedi(a,promossa?'promuovi':'build');
++      const expected=promossa?a.m.promozione?.files:a.m.files;
++      if(!expected)throw new Error('Promozione non approvata');
++      const actual=Object.fromEntries(changed.filter(n=>n!==receipts[0]).map(n=>[n,blob(c,n)?sha(blob(c,n)):null]));
++      if(!uguali(actual,expected))throw new Error('Commit fuori dal manifesto approvato');
++      if(!promossa)for(const n of Object.keys(actual))if(protetto(n)&&(!a.record.payload.azioni.includes('struttura')||a.m.strutturali[n]!==actual[n]))throw new Error('Modifica strutturale senza consenso precedente');
++    }
++  }
++  function modificheAttuali(base) {
++    // Il contenuto è confrontato con gli oggetti Git, non con lo status:
++    // assume-unchanged, skip-worktree o un indice alternativo non sono consenso.
++    const entries=gitBytes('ls-tree','-r','-z','--full-tree',base).toString().split('\0').filter(Boolean);
++    const expected=new Map(entries.map(s=>{const i=s.indexOf('\t'),[mode,type,oid]=s.slice(0,i).split(' ');return[s.slice(i+1),{mode,type,oid}];}));
++    const names=new Set([...expected.keys(),...gitBytes('ls-files','--cached','--others','--exclude-standard','-z').toString().split('\0').filter(Boolean)]);
++    const scan=d=>{if(!fs.existsSync(d))return;if(fs.lstatSync(d).isSymbolicLink())throw new Error('Symlink nella policy del gate non ammesso');for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=path.join(d,e.name);if(e.isDirectory())scan(f);else names.add(path.relative(root,f));}};
++    for(const p of policy.protetti)if(p.endsWith('/'))scan(path.join(root,p));else names.add(p);
++    const changes=[];
++    for(const n of names){
++      if(documentazione(n))continue;
++      const file=path.join(root,n);let data=null,mode=null;
++      {
++        let stat;try{stat=fs.lstatSync(file);}catch{}
++        if(stat){if(stat.isSymbolicLink()){if(protetto(n))throw new Error('Symlink nel gate non ammesso');mode='120000';data=Buffer.from(fs.readlinkSync(file));}else if(stat.isFile()){mode=(stat.mode&0o111)?'100755':'100644';data=fs.readFileSync(file);}else continue;}
++      }
++      const object=data===null?null:createHash('sha1').update(Buffer.from(`blob ${data.length}\0`)).update(data).digest('hex');
++      const e=expected.get(n);if(!e&&data===null)continue;if(!e||e.oid!==object||e.mode!==mode)changes.push(n);
++    }
++    return changes;
++  }
++  function verifica(base,manifesto,azione='build') {
++    if(!/^[a-f0-9]{40}$/.test(base||''))throw new Error('Serve il digest completo del commit-base');
++    const head=git('rev-parse','HEAD');verificaStoria(head);
++    if(!ancestor(base,head))throw new Error('Commit-base non precedente al lotto');
++    const changes=modificheAttuali(base);
++    if(!manifesto){if(changes.length)throw new Error('Modifiche senza manifesto approvato');return null;}
++    const a=caricaApprovazione(base,manifesto);richiedi(a,azione);
++    if(!blob(base,manifesto)?.equals(lettura(fileSicuro(root,manifesto))))throw new Error('Manifesto modificato rispetto al commit-base');
++    const prep=`stato-lotti/preparato-${a.id}.json`;
++    const current=Object.fromEntries(changes.filter(n=>n!==prep).map(n=>[n,digest(fileSicuro(root,n))]));
++    if(!uguali(current,a.m.files))throw new Error('File del lotto diversi dalle impronte approvate');
++    for(const [n,h]of Object.entries(current))if(protetto(n)&&(!a.record.payload.azioni.includes('struttura')||a.m.strutturali[n]!==h))throw new Error('Gate/baseline/policy richiedono approvazione strutturale nel commit-base');
++    return a;
++  }
++  function build({base,manifesto,out}) {
++    const a=verifica(base,manifesto);
++    const target=path.join(fs.realpathSync(path.dirname(path.resolve(out))),path.basename(out));
++    if(fs.existsSync(target))throw new Error('Output già esistente: usare una cartella temporanea nuova');
++    if(target===root||target.startsWith(root+path.sep))throw new Error('Il runner fidato genera soltanto fuori dal checkout');
++    // Esegue soltanto una fotografia immutabile della base e dei bytes
++    // approvati: il renderer non viene caricato dal checkout modificabile.
++    const scratch=fs.mkdtempSync(path.join(tmpdir(),'dit-build-fidato-'));
++    const snapshot=path.join(scratch,'base');fs.mkdirSync(snapshot);const sourceRoot=fs.realpathSync(snapshot);
++    try{
++      const tree=gitBytes('ls-tree','-r','-z','--full-tree',base).toString().split('\0').filter(Boolean);
++      const selected=[];
++      for(const item of tree){const i=item.indexOf('\t'),[mode,type]=item.slice(0,i).split(' '),n=item.slice(i+1);
++        if(!/^(scripts|dati|pillole|og|ritratti)\//.test(n)&&!n.endsWith('.html')&&!/^sitemap.*\.xml$/.test(n)&&n!=='ricerca.js'&&!/^[^/]+\.(png|ico|txt)$/.test(n))continue;
++        if(!valido(n)||type!=='blob'||mode==='120000')throw new Error('Input di build non regolare nella base fidata');selected.push(n);
++      }
++      const archive=execFileSync('/usr/bin/git',['--no-replace-objects','-C',root,'archive','--format=tar',base,'--',...selected],{env:gitEnv,maxBuffer:256*1024*1024,stdio:['ignore','pipe','pipe']});
++      const unpack=spawnSync('/usr/bin/tar',['-xf','-','-C',snapshot],{input:archive,encoding:'utf8'});if(unpack.status!==0)throw new Error('Snapshot fidato non disponibile');
++      for(const [n,h]of Object.entries(a?.m.files||{})){
++        const content=lettura(fileSicuro(root,n));if((content===null?null:sha(content))!==h)throw new Error('Input cambiato dopo la verifica');
++        const dest=path.join(snapshot,n);if(content===null)fs.rmSync(dest,{force:true});else{fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,content);}
++      }
++      const manifestTemp=path.join(scratch,'lotto.json');if(a)fs.writeFileSync(manifestTemp,jbytes(a.m.contenuti),{flag:'wx',mode:0o600});
++      const env={PATH:'/usr/bin:/bin:/usr/sbin:/sbin',LANG:'C.UTF-8',TZ:'UTC'};
++      const child=spawnSync(process.execPath,['scripts/genera-sito.mjs','--out',path.relative(sourceRoot,target),...(a?['--lotto',manifestTemp]:[])],{cwd:sourceRoot,encoding:'utf8',env,maxBuffer:16*1024*1024});
++      if(child.status!==0)throw new Error(`Build bloccato: ${child.stderr||child.stdout}`);
++      return {approvazione:a,stdout:child.stdout};
++    }finally{fs.rmSync(scratch,{recursive:true,force:true});}
++  }
++  function sigillaPreparazione({base,manifesto,out}) {
++    const a=verifica(base,manifesto);const candidate=propostaPromozione({root,out,contenuti:a.m.contenuti});
++    if(!uguali(candidate.files,a.m.promozione?.files||{}))throw new Error('Promozione generata diversa da quella approvata');
++    const name=`stato-lotti/preparato-${a.id}.json`;fs.mkdirSync(path.join(root,'stato-lotti'),{recursive:true});fs.writeFileSync(path.join(root,name),jbytes({versione:1,manifesto,digest:a.id}));return name;
++  }
++  function promuovi({base,manifesto,out}) {
++    const a=verifica(base,manifesto,'promuovi');
++    if(!fs.existsSync(path.join(root,`stato-lotti/preparato-${a.id}.json`)))throw new Error('Preparazione verificata assente');
++    const candidate=propostaPromozione({root,out,contenuti:a.m.contenuti});
++    if(!uguali(candidate.files,a.m.promozione?.files||{}))throw new Error('Promozione fuori dalle impronte approvate');
++    // Tutto validato prima della prima scrittura; nessuna baseline da un errore.
++    for(const [n,h]of Object.entries(candidate.files)){
++      const bytes=n==='dati/baseline-generatore.json'?Buffer.from(candidate.baseline):fs.readFileSync(path.join(out,n));
++      if(sha(bytes)!==h)throw new Error('Output cambiato durante la promozione');
++    }
++    for(const n of Object.keys(candidate.files)){
++      const dest=fileSicuro(root,n);fs.mkdirSync(path.dirname(dest),{recursive:true});
++      if(n==='dati/baseline-generatore.json')fs.writeFileSync(dest,candidate.baseline);else fs.copyFileSync(path.join(out,n),dest);
++    }
++    const receipt=`stato-lotti/promosso-${a.id}.json`;fs.writeFileSync(path.join(root,receipt),jbytes({versione:1,manifesto,digest:a.id}));return receipt;
++  }
++  function verificaConsenso(base,nome) {
++    if(!/^consensi-indexnow\/[a-z0-9-]+\.json$/.test(nome))throw new Error('Consenso IndexNow non valido');
++    const bytes=blob(base,nome);if(!bytes)throw new Error('Consenso IndexNow assente nel commit-base');const p=checkFirma(JSON.parse(bytes));
++    if(p.versione!==1||p.azione!=='indexnow'||p.host!=='www.dietroiltesto.it'||!/^[a-z0-9-]{12,80}$/.test(p.nonce||'')||!ancestor(p.commitPubblicato,parent(base)))throw new Error('Pubblicazione o consenso IndexNow non valido');
++    const a=caricaApprovazione(p.commitPubblicato,p.manifesto);const receipt=blob(p.commitPubblicato,`stato-lotti/promosso-${a.id}.json`);
++    if(!receipt||JSON.parse(receipt).digest!==a.id||p.digest!==a.id)throw new Error('Lotto non promosso/pubblicato');
++    const urls=a.m.contenuti.pagine.map(p=>'https://www.dietroiltesto.it'+p).sort();
++    if(p.urlDigest!==sha(JSON.stringify(urls))||!urls.length||urls.length>50)throw new Error('URL diversi dal lotto approvato');
++    return {payload:p,urls};
++  }
++  return {root,verifica,verificaStoria,build,sigillaPreparazione,promuovi,verificaConsenso,caricaApprovazione};
++}
++export function propostaPromozione({root,out,contenuti}) {
++  // Funzione pura: produce una proposta da un output completo, non scrive la
++  // baseline e non costituisce approvazione. Le 34 coppie non cambiano.
++  root=fs.realpathSync(root);out=fs.realpathSync(out);
++  const baseline=JSON.parse(fs.readFileSync(path.join(root,'dati/baseline-generatore.json')));
++  const oldEred=JSON.stringify(baseline.ereditate);const registry=JSON.parse(fs.readFileSync(path.join(root,'dati/pillole.json')));
++  for(const c of contenuti.cartoline){baseline.cartoline[c.slug]=sha(JSON.stringify(registry[c.slug]));baseline.immagini[c.immagine]=sha(fs.readFileSync(fileSicuro(root,c.immagine)));}
++  if(JSON.stringify(baseline.ereditate)!==oldEred)throw new Error('Sigillo storico alterato');
++  const baselineText=jbytes(baseline),files={};
++  const routes=JSON.parse(fs.readFileSync(path.join(root,'dati/pagine-seo.json'))).map(x=>x.percorso.endsWith('.html')?x.percorso:x.percorso+'index.html');
++  const maps=fs.readdirSync(root).filter(n=>/^sitemap.*\.xml$/.test(n));
++  if(maps.length!==6)throw new Error('Sitemap incomplete');
++  const actualPages=[];
++  for(const n of [...routes,...maps,'ricerca.js']){
++    const before=fs.readFileSync(fileSicuro(root,n)),after=fs.readFileSync(path.join(out,n));
++    if(before.equals(after))continue;files[n]=sha(after);
++    if(routes.includes(n)){
++      const a=before.toString(),b=after.toString();
++      for(const re of [/"datePublished":"[^"]*"/g,/<link rel="canonical"[^>]*>/g])if(JSON.stringify(a.match(re))!==JSON.stringify(b.match(re)))throw new Error('datePublished/canonical non modificabili');
++      actualPages.push('/'+n.replace(/index.html$/,''));
++    }else if(n.startsWith('sitemap')){
++      const a=[...before.toString().matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)],b=[...after.toString().matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)];
++      if(JSON.stringify(a.map(x=>x[1]))!==JSON.stringify(b.map(x=>x[1])))throw new Error('Inventario sitemap modificato');
++      for(let i=0;i<a.length;i++)if(a[i][2]!==b[i][2]&&!contenuti.pagine.includes(new URL(a[i][1]).pathname))throw new Error('lastmod fuori dal lotto');
++    }
++  }
++  if(JSON.stringify(actualPages.sort())!==JSON.stringify([...contenuti.pagine].sort()))throw new Error('Pagine da promuovere diverse dal lotto');
++  if(sha(baselineText)!==digest(path.join(root,'dati/baseline-generatore.json')))files['dati/baseline-generatore.json']=sha(baselineText);
++  return {files:ordina(files),baseline:baselineText};
++}
++export async function inviaIndexNow({autorita,base,consenso,invia=false,stato,fetchImpl=globalThis.fetch}) {
++  if(!invia)return {rete:false,stato:'disabilitato'};
++  if(!autorita||!base||!consenso)throw new Error('Invio richiede consenso del proprietario già committato e pubblicazione attestata');
++  autorita.verifica(base,null);const a=autorita.verificaConsenso(base,consenso);
++  const dir=stato||path.join(userInfo().homedir,'.local','state','dietro-il-testo','indexnow');fs.mkdirSync(dir,{recursive:true});
++  const claim=path.join(dir,a.payload.nonce);const fd=fs.openSync(claim,'wx',0o600);fs.closeSync(fd);
++  const config=JSON.parse(fs.readFileSync(path.join(autorita.root,'dati/indexnow.json')));const key=config.indexnow;
++  if(!key||!fs.existsSync(path.join(autorita.root,`${key}.txt`)))throw new Error('Chiave IndexNow o prova proprietà assente');
++  const response=await fetchImpl('https://api.indexnow.org/indexnow',{method:'POST',headers:{'Content-Type':'application/json; charset=utf-8'},body:JSON.stringify({host:'www.dietroiltesto.it',key,keyLocation:`https://www.dietroiltesto.it/${key}.txt`,urlList:a.urls})});
++  if(![200,202].includes(response.status))throw new Error(`IndexNow HTTP ${response.status}: consenso consumato, nessun retry automatico`);
++  return {rete:true,urls:a.urls,status:response.status};
++}
+diff --git a/scripts/genera/pagine.mjs b/scripts/genera/pagine.mjs
+index 7b0b6e6d3..4666ed7bf 100644
+--- a/scripts/genera/pagine.mjs
++++ b/scripts/genera/pagine.mjs
+@@ -782,8 +782,7 @@ export function paginaCanzone(c, ctx) {
+              fatto nel browser (ricerca.js) a partire da questi dati, quindi
+              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+         <div class="condividi"
+-          data-cartolina
+-          ${pillola ? `data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
++          data-cartolina${pillola ? `\n          data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
+           data-titolo="${esc(c.titolo)}"
+           data-artista="${esc(c.artista)}"
+           data-anno="${esc(annoDi(c) || '')}"
+@@ -998,6 +997,7 @@ export function paginaArtista(a, ctx) {
+   const acquistoStoria = amazonPerArtista(a.slug, 'storia');
+   const acquistoAlbum = amazonPerArtista(a.slug, 'album');
+   const acquistoCanzoni = amazonPerArtista(a.slug, 'canzoni');
++  const informativaArtista = informativaAmazonPerScheda(`artista/${a.slug}`, r);
+   const rt = a.ritratto || RITRATTI[a.slug];
+   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
+   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
+@@ -1070,8 +1070,7 @@ export function paginaArtista(a, ctx) {
+       <div class="griglia">
+         ${brani.map((b) => schedaCanzone(b, r)).join('\n        ')}
+       </div>
+-    </section>
+-    ${acquistoCanzoni}
++    </section>${acquistoCanzoni ? `\n    ${acquistoCanzoni}` : ''}
+ 
+     ${
+       albumVeri.length
+@@ -1094,8 +1093,7 @@ export function paginaArtista(a, ctx) {
+       ${riconoscimenti.length ? `<p class="vuoto" style="margin-top:18px">${riconoscimenti.map((n) => esc(n)).join(` ${SEGNO} `)}</p>` : ''}
+     </section>`
+         : ''
+-    }
+-    ${acquistoAlbum}
++    }${acquistoAlbum ? `\n    ${acquistoAlbum}` : ''}
+ 
+     ${
+       a.storia
+@@ -1119,16 +1117,14 @@ export function paginaArtista(a, ctx) {
+       <h2>La storia del gruppo</h2>
+       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
+     </section>`
+-    }
+-    ${acquistoStoria}
++    }${acquistoStoria ? `\n    ${acquistoStoria}` : ''}
+ 
+     <section class="blocco">
+       <div class="azioni">
+         <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
+         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
+       </div>
+-    </section>
+-    ${informativaAmazonPerScheda(`artista/${a.slug}`, r)}
++    </section>${informativaArtista ? `\n    ${informativaArtista}` : ''}
+   </div>`;
+ 
+   return pagina({
+@@ -1429,11 +1425,11 @@ export function paginaHome(ctx) {
+   // a mezzanotte. Su richiesta dell'autore diventa "canzone in evidenza" e cambia
+   // a ogni caricamento (lato client) o col bottone. Il nome cambia INSIEME al
+   // comportamento, non per gusto: "al giorno" sarebbe diventata una frase falsa.
+-  // Questa scelta resta deterministica perché è quella scritta nell'HTML, cioè
+-  // quella che vedono i motori e chi ha JavaScript disattivato.
+-  const giorno = Math.floor(Date.now() / 86400000);
+-  const candidate = canzoni.filter((c) => c.fraseIconica);
+-  const inEvidenza = candidate[giorno % candidate.length];
++  // La scelta HTML resta stabile anche tra build eseguiti in giorni diversi.
++  // Scelta iniziale esplicita e stabile, identica all'HTML già pubblicato.
++  // La rotazione rimane nel browser e non modifica i segnali di aggiornamento.
++  const inEvidenza = canzoni.find(c => c.slug === ctx.evidenzaHome.iniziale && c.fraseIconica);
++  if (!inEvidenza) throw new Error('Canzone iniziale della home assente o senza sintesi');
+ 
+   const artistiRicchi = [...artisti]
+     .filter((a) => a.storia)
+diff --git a/scripts/genera/perimetro.mjs b/scripts/genera/perimetro.mjs
+new file mode 100644
+index 000000000..18df14835
+--- /dev/null
++++ b/scripts/genera/perimetro.mjs
+@@ -0,0 +1,73 @@
++// Il manifesto del lotto dichiara il perimetro; non autorizza la pubblicazione.
++import { readFileSync, existsSync, readdirSync } from 'node:fs';
++import { join } from 'node:path';
++import { createHash } from 'node:crypto';
++export const impronta = value => createHash('sha256').update(value).digest('hex');
++const stessoInsieme = (a, b) => a.size === b.size && [...a].every(x => b.has(x));
++
++export function creaPerimetro({ root, normalizza, manifesto }) {
++  const baseline = JSON.parse(readFileSync(join(root, 'dati', 'baseline-generatore.json'), 'utf8'));
++  const lotto = manifesto ? JSON.parse(readFileSync(manifesto, 'utf8')) : { versione: 1, pagine: [], cartoline: [] };
++  if (lotto.versione !== 1 || !Array.isArray(lotto.pagine) || !Array.isArray(lotto.cartoline) ||
++      Object.keys(lotto).some(k => !['versione', 'pagine', 'cartoline'].includes(k))) {
++    throw new Error('Manifesto lotto non valido: servono versione, pagine e cartoline');
++  }
++  const attese = new Set(lotto.pagine);
++  if (attese.size !== lotto.pagine.length || lotto.pagine.some(p => typeof p !== 'string' ||
++      !(p === '/404.html' || /^\/(?:[a-z0-9-]+\/)*$/.test(p)) || !existsSync(p === '/404.html' ? join(root, '404.html') : join(root, p.slice(1), 'index.html')))) {
++    throw new Error('Il lotto richiede URL canonici esistenti, distinti e con slash finale');
++  }
++  const modificate = new Set();
++  const conservate = [];
++
++  // Controlla ogni voce del registro e ogni immagine, anche se un rendering
++  // mirato non arriverebbe a leggere la cartolina fuori dal perimetro.
++  const dati = JSON.parse(readFileSync(join(root, 'dati', 'pillole.json'), 'utf8'));
++  const immagini = Object.fromEntries(readdirSync(join(root, 'pillole')).map(n => [
++    'pillole/' + n, impronta(readFileSync(join(root, 'pillole', n)))
++  ]));
++  const dichiarate = new Map();
++  for (const c of lotto.cartoline) {
++    if (!c || !/^[a-z0-9-]+$/.test(c.slug || '') || dichiarate.has(c.slug) ||
++        c.dato !== `dati/pillole.json#${c.slug}` || c.immagine !== `pillole/${c.slug}-storia.jpg` ||
++        !attese.has(`/canzone/${c.slug}/`) || Object.keys(c).some(k => !['slug','dato','immagine'].includes(k))) {
++      throw new Error('Cartolina senza canzone, dato e immagine coerenti nel lotto');
++    }
++    dichiarate.set(c.slug, c);
++  }
++  const cambiDati = new Set([...new Set([...Object.keys(baseline.cartoline), ...Object.keys(dati)])]
++    .filter(s => baseline.cartoline[s] !== (dati[s] ? impronta(JSON.stringify(dati[s])) : undefined)));
++  const cambiImmagini = new Set([...new Set([...Object.keys(baseline.immagini), ...Object.keys(immagini)])]
++    .filter(n => baseline.immagini[n] !== immagini[n]));
++  for (const s of cambiDati) if (!dichiarate.has(s)) throw new Error(`Dato cartolina fuori lotto: ${s}`);
++  for (const n of cambiImmagini) if (![...dichiarate.values()].some(c => c.immagine === n)) throw new Error(`Immagine cartolina fuori lotto: ${n}`);
++  for (const c of dichiarate.values()) if (!dati[c.slug] || dati[c.slug].file !== `${c.slug}-storia.jpg` ||
++      !cambiDati.has(c.slug) && !cambiImmagini.has(c.immagine)) throw new Error(`Cartolina dichiarata ma non modificata: ${c.slug}`);
++
++  return {
++    prepara(percorso, vecchio, nuovo) {
++      const url = '/' + percorso;
++      if (vecchio === null) throw new Error(`Pagina nuova fuori dal catalogo autorizzato: ${url}`);
++      const a = normalizza(vecchio), b = normalizza(nuovo);
++      // Conserva integralmente l'artefatto se cambia soltanto la parte tecnica.
++      if (a === b) return vecchio;
++      // Compatibilità puntuale e chiusa con gli scarti ereditati censiti:
++      // non ignora nuovi scarti e non permette di pubblicare i vecchi derivati.
++      const ereditato = baseline.ereditate[url];
++      if (ereditato && impronta(a) === ereditato.pubblicata && impronta(b) === ereditato.generata) {
++        conservate.push(url);
++        return vecchio;
++      }
++      modificate.add(url);
++      if (!attese.has(url)) throw new Error(`Pagina fuori lotto: ${url}`);
++      return nuovo;
++    },
++    verifica() {
++      if (!stessoInsieme(modificate, attese)) {
++        throw new Error(`Perimetro lotto non esatto; attese non modificate: ${[...attese].filter(x => !modificate.has(x)).join(', ')}`);
++      }
++      return { pagine: [...modificate].sort(), ereditateConservate: conservate.sort(),
++        datiCartoline: [...cambiDati].sort(), immaginiCartoline: [...cambiImmagini].sort() };
++    }
++  };
++}
+diff --git a/scripts/indexnow.mjs b/scripts/indexnow.mjs
+index a488e31be..864ed653a 100644
+--- a/scripts/indexnow.mjs
++++ b/scripts/indexnow.mjs
+@@ -1,113 +1,16 @@
+ #!/usr/bin/env node
+-// F68 — Segnala a IndexNow (Bing, Yandex, Seznam, Naver) gli indirizzi cambiati.
+-//
+-// Google NON usa IndexNow: per Google restano sitemap e Search Console. Questo
+-// script serve a farsi indicizzare in ore invece che in settimane sugli altri
+-// motori — e Bing alimenta anche gli assistenti che rispondono citando fonti.
+-//
+-// Va lanciato DOPO la pubblicazione, non prima: IndexNow verifica che gli
+-// indirizzi segnalati rispondano davvero, e segnalarne uno non ancora online
+-// è un errore che costa credibilità al dominio.
+-//
+-// Uso:
+-//   node scripts/indexnow.mjs            solo gli indirizzi con lastmod di oggi
+-//   node scripts/indexnow.mjs --tutti    tutti gli indirizzi (primo invio)
+-//   node scripts/indexnow.mjs --prova    mostra cosa invierebbe, senza inviare
+-
+-import { readFileSync, existsSync } from 'node:fs';
+-import { fileURLToPath } from 'node:url';
+-import { dirname, join } from 'node:path';
+-
+-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+-const BASE = 'https://www.dietroiltesto.it';
+-const HOST = 'www.dietroiltesto.it';
+-
+-const tutti = process.argv.includes('--tutti');
+-const prova = process.argv.includes('--prova');
+-
+-// La chiave sta in un posto solo (P9): di lì nasce sia il file pubblicato sia
+-// questa segnalazione, così non possono divergere.
+-const percorsoChiave = join(ROOT, 'dati', 'indexnow.json');
+-if (!existsSync(percorsoChiave)) {
+-  console.error('Manca dati/indexnow.json: nessuna chiave IndexNow configurata.');
+-  process.exit(1);
+-}
+-const chiave = JSON.parse(readFileSync(percorsoChiave, 'utf8')).indexnow;
+-if (!chiave) {
+-  console.error('dati/indexnow.json non contiene nessuna chiave.');
+-  process.exit(1);
+-}
+-
+-// Il file di proprietà deve esistere nella radice pubblicata, altrimenti la
+-// segnalazione viene rifiutata: meglio accorgersene qui che dal registro di Bing.
+-if (!existsSync(join(ROOT, `${chiave}.txt`))) {
+-  console.error(`Manca ${chiave}.txt nella radice del sito: rigenera e ripubblica prima di segnalare.`);
+-  process.exit(1);
+-}
+-
+-const SITEMAP = ['sitemap-pagine.xml', 'sitemap-canzoni.xml', 'sitemap-artisti.xml', 'sitemap-album.xml', 'sitemap-raccolte.xml'];
+-const oggi = new Date().toISOString().slice(0, 10);
+-
+-const indirizzi = [];
+-for (const nome of SITEMAP) {
+-  const percorso = join(ROOT, nome);
+-  if (!existsSync(percorso)) {
+-    console.error(`Manca ${nome} nella radice: pubblica prima di segnalare.`);
+-    process.exit(1);
++// Eseguire la copia fidata installata dal proprietario. Nessun invio di default.
++import path from 'node:path';
++import { creaAutorita,leggiAncoraInstallata,inviaIndexNow } from './genera/autorita.mjs';
++const args=process.argv.slice(2);const take=n=>{const i=args.indexOf(n);return i<0?null:args[i+1];};
++try{
++  if(args.includes('--prova')&&args.includes('--invia'))throw new Error('--prova e --invia sono incompatibili: nessuna rete');
++  if(args.includes('--tutti'))throw new Error('--tutti è vietato');
++  if(!args.includes('--invia')){console.log('IndexNow disabilitato: nessuna rete, nessuna chiave letta.');}
++  else{
++    const root=take('--repo'),base=take('--base'),consenso=take('--consenso');
++    if(!root||!base||!consenso)throw new Error('Invio richiede repository, base e consenso firmato del proprietario');
++    const authority=creaAutorita({root:path.resolve(root),ancora:leggiAncoraInstallata()});
++    const result=await inviaIndexNow({autorita:authority,base,consenso,invia:true});console.log(`IndexNow: ${result.urls.length} URL esatti, HTTP ${result.status}`);
+   }
+-  const xml = readFileSync(percorso, 'utf8');
+-  for (const m of xml.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)) {
+-    if (tutti || m[2].trim() === oggi) indirizzi.push(m[1].trim());
+-  }
+-}
+-
+-if (indirizzi.length === 0) {
+-  console.log(`Nessun indirizzo con lastmod ${oggi}: niente da segnalare.`);
+-  console.log('(Usa --tutti per il primo invio, quando nessuna pagina è ancora nota ai motori.)');
+-  process.exit(0);
+-}
+-
+-console.log(`Indirizzi da segnalare: ${indirizzi.length}${tutti ? ' (tutti)' : ` (modificati il ${oggi})`}`);
+-console.log(`Chiave: ${chiave}`);
+-console.log(`Primi cinque:\n  ${indirizzi.slice(0, 5).join('\n  ')}`);
+-
+-if (prova) {
+-  console.log('\n--prova: nessuna richiesta inviata.');
+-  process.exit(0);
+-}
+-
+-// IndexNow accetta fino a 10.000 indirizzi per richiesta; restiamo sotto con
+-// lotti da 1.000, che è anche più facile da leggere in caso di errore.
+-const LOTTO = 1000;
+-let inviati = 0;
+-for (let i = 0; i < indirizzi.length; i += LOTTO) {
+-  const urlList = indirizzi.slice(i, i + LOTTO);
+-  const risposta = await fetch('https://api.indexnow.org/indexnow', {
+-    method: 'POST',
+-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
+-    body: JSON.stringify({ host: HOST, key: chiave, keyLocation: `${BASE}/${chiave}.txt`, urlList }),
+-  });
+-  // 200 = accettati, 202 = accettati ma chiave ancora da verificare: entrambi
+-  // vanno bene. Qualunque altro codice è un problema da leggere, non da ignorare.
+-  if (risposta.status === 200 || risposta.status === 202) {
+-    inviati += urlList.length;
+-    console.log(`  lotto ${i / LOTTO + 1}: ${urlList.length} indirizzi accettati (HTTP ${risposta.status})`);
+-  } else {
+-    const corpo = await risposta.text();
+-    // 403 SiteVerificationNotCompleted non è un fallimento: è IndexNow che non
+-    // ha ancora letto il file della chiave sul sito. Succede sempre al primo
+-    // invio con una chiave appena pubblicata, e si risolve da solo aspettando.
+-    // Trattarlo come errore secco farebbe pensare a un problema che non c'è.
+-    if (risposta.status === 403 && corpo.includes('SiteVerificationNotCompleted')) {
+-      console.log('');
+-      console.log('IndexNow non ha ancora verificato la chiave sul sito.');
+-      console.log(`Il file esiste (${BASE}/${chiave}.txt): manca solo che IndexNow vada a leggerlo.`);
+-      console.log('Succede sempre al primo invio con una chiave appena pubblicata.');
+-      console.log('Non c\'è niente da correggere: riprova fra un\'ora con lo stesso comando.');
+-      process.exit(0);
+-    }
+-    console.error(`  lotto ${i / LOTTO + 1}: RIFIUTATO — HTTP ${risposta.status} ${corpo}`);
+-    process.exit(1);
+-  }
+-}
+-console.log(`\nSegnalati ${inviati} indirizzi a IndexNow.`);
++}catch(e){console.error(e.message);process.exitCode=1;}
+diff --git a/scripts/lotto-sicuro.mjs b/scripts/lotto-sicuro.mjs
+new file mode 100644
+index 000000000..0bec09988
+--- /dev/null
++++ b/scripts/lotto-sicuro.mjs
+@@ -0,0 +1,12 @@
++#!/usr/bin/env node
++// Entrypoint della copia fidata, installata fuori dal checkout modificabile.
++import path from 'node:path';
++import { creaAutorita,leggiAncoraInstallata } from './genera/autorita.mjs';
++const args=process.argv.slice(2);const take=n=>{const i=args.indexOf(n);return i<0?null:args[i+1];};
++try{
++  const root=take('--repo'),base=take('--base'),out=take('--out'),manifesto=take('--lotto');
++  if(!root||!base)throw new Error('Servono --repo e --base; nessuna autorità dal manifesto o dall’ambiente');
++  const authority=creaAutorita({root:path.resolve(root),ancora:leggiAncoraInstallata()});
++  if(args.includes('--promuovi')){if(!out||!manifesto)throw new Error('Promozione richiede output e manifesto');console.log(authority.promuovi({base,manifesto,out:path.resolve(out)}));}
++  else{if(!out)throw new Error('Serve output temporaneo esterno');console.log(authority.build({base,manifesto,out:path.resolve(out)}).stdout);if(args.includes('--sigilla'))console.log(authority.sigillaPreparazione({base,manifesto,out:path.resolve(out)}));}
++}catch(e){console.error(e.message);process.exitCode=1;}
+diff --git a/scripts/test-autorita-lotti.mjs b/scripts/test-autorita-lotti.mjs
+new file mode 100644
+index 000000000..d06d0e119
+--- /dev/null
++++ b/scripts/test-autorita-lotti.mjs
+@@ -0,0 +1,89 @@
++#!/usr/bin/env node
++// E2E in repository effimeri: firme e pubblicazioni sono SOLO fixture.
++// Il controller è importato da fuori il checkout attaccabile.
++import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
++import assert from 'node:assert/strict';import {execFileSync,spawnSync} from 'node:child_process';
++import {generateKeyPairSync,sign} from 'node:crypto';import {fileURLToPath} from 'node:url';
++import {creaAutorita,propostaPromozione,inviaIndexNow,sha} from './genera/autorita.mjs';
++const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),temp=fs.mkdtempSync(path.join(os.tmpdir(),'dit-fiducia-'));
++let repo=path.join(temp,'repo');fs.mkdirSync(repo);const evidence=process.argv.includes('--prove')?path.resolve(process.argv[process.argv.indexOf('--prove')+1]):null;
++if(evidence)fs.mkdirSync(evidence,{recursive:true});const report={casi:[],firme:'solo chiavi effimere di test',reteReale:0};
++const json=x=>JSON.stringify(x,null,2)+'\n';const bytes=n=>fs.readFileSync(path.join(repo,n));const read=n=>bytes(n).toString();const write=(n,b)=>{const f=path.join(repo,n);fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,b);};
++const git=(...a)=>execFileSync('git',['-C',repo,...a],{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
++const commit=message=>{git('add','-A');git('-c','user.name=Fixture','-c','user.email=fixture@example.invalid','commit','-m',message);return git('rev-parse','HEAD');};
++const {publicKey,privateKey}=generateKeyPairSync('ed25519');const pem=publicKey.export({type:'spki',format:'pem'});let anchor;
++const authority=()=>creaAutorita({root:repo,ancora:anchor});
++const ok=(nome,detail={})=>report.casi.push({nome,esito:'passato',...detail});
++const checked=(fn,pattern)=>assert.throws(fn,pattern);
++const routeFiles=()=>JSON.parse(read('dati/pagine-seo.json')).map(x=>x.percorso.endsWith('.html')?x.percorso:x.percorso+'index.html');
++const emptyContents=()=>({versione:1,pagine:[],cartoline:[]});
++function rawBuild(contents,tag){
++ const f=path.join(temp,'draft-'+tag+'.json'),out=path.join(temp,'output-'+tag);fs.writeFileSync(f,json(contents));
++ const child=spawnSync(process.execPath,['scripts/genera-sito.mjs','--out',path.relative(repo,out),'--lotto',f],{cwd:repo,encoding:'utf8',maxBuffer:16*1024*1024});assert.equal(child.status,0,child.stderr||child.stdout);return out;
++}
++function approve(m,{sameCommit=false,mutate=null,key=privateKey,actions=['build','promuovi']}={}){
++ const prev=git('rev-parse','HEAD'),raw=json(m),id=sha(raw),file=`lotti/${id}.json`;
++ const payload={versione:1,parent:prev,manifesto:id,azioni:actions};const record={payload,firma:sign(null,Buffer.from(JSON.stringify(payload)),key).toString('base64')};
++ write(file,raw);write(`approvazioni-lotti/${id}.json`,json(record));if(mutate)mutate();const base=commit(sameCommit?'fixture self approval':'fixture approvazione precedente');return{base,file,id};
++}
++function prepareDraft(contents,inputNames,tag){
++ const out=rawBuild(contents,tag),proposal=propostaPromozione({root:repo,out,contenuti:contents});
++ const data=Object.fromEntries(inputNames.map(n=>[n,bytes(n)]));
++ const m={versione:2,id:tag,contenuti:contents,files:Object.fromEntries(inputNames.map(n=>[n,sha(data[n])])),strutturali:{},promozione:{files:proposal.files}};
++ return {out,m,data};
++}
++function restore(names,base){for(const n of names){let old;try{old=execFileSync('git',['-C',repo,'show',`${base}:${n}`],{stdio:['ignore','pipe','pipe']});}catch{}if(old)write(n,old);else fs.rmSync(path.join(repo,n),{force:true});}}
++function cycle(draft,approval,tag){
++ for(const[n,b]of Object.entries(draft.data))write(n,b);
++ const out=path.join(temp,'trusted-'+tag);const a=authority();a.build({base:approval.base,manifesto:approval.file,out});a.sigillaPreparazione({base:approval.base,manifesto:approval.file,out});
++ const prepared=commit('fixture lotto preparato '+tag);a.promuovi({base:approval.base,manifesto:approval.file,out});const promoted=commit('fixture promozione autorizzata '+tag);
++ assert.equal(git('status','--porcelain'),'');return{prepared,promoted,out};
++}
++function emptyBuild(base,tag){const out=path.join(temp,'empty-'+tag);authority().build({base,out});for(const n of [...routeFiles(),...fs.readdirSync(repo).filter(n=>/^sitemap.*\.xml$/.test(n))])assert.deepEqual(fs.readFileSync(path.join(out,n)),bytes(n));assert.equal(git('status','--porcelain'),'');return out;}
++try{
++ for(const d of ['scripts','dati','pillole'])fs.cpSync(path.join(root,d),path.join(repo,d),{recursive:true});
++ const manifest=JSON.parse(fs.readFileSync(path.join(root,'dati/pagine-seo.json')));
++ for(const n of [...manifest.map(x=>x.percorso.endsWith('.html')?x.percorso:x.percorso+'index.html'),...fs.readdirSync(root).filter(n=>/^sitemap.*\.xml$/.test(n)),'ricerca.js'])write(n,fs.readFileSync(path.join(root,n)));
++ for(const d of ['og','ritratti'])fs.cpSync(path.join(root,d),path.join(repo,d),{recursive:true});
++ write('.gitignore','/sito\n');write('dati/indexnow.json',json({indexnow:'fixture-public-key'}));write('fixture-public-key.txt','fixture-public-key');
++ const initialOut=rawBuild(emptyContents(),'bootstrap');write('ricerca.js',fs.readFileSync(path.join(initialOut,'ricerca.js')));
++ git('init');const trusted=commit('fixture installazione proprietario');anchor={versione:1,commit:trusted,chiavePubblica:pem};
++ emptyBuild(trusted,'iniziale');ok('base fidata pulita');
++ // Cartolina solo per il test: bytes riusati, nessuna creazione editoriale.
++ const songs=JSON.parse(read('dati/canzoni.json')),c=songs.find(x=>x.slug==='21-guns'),reg=JSON.parse(read('dati/pillole.json'));
++ const image=bytes('pillole/'+Object.values(reg)[0].file);write('pillole/21-guns-storia.jpg',image);reg['21-guns']={artistaSlug:c.artistaSlug,testo:c.fraseIconica,dopoParagrafo:0,fonte:c.fonti[0].url,file:'21-guns-storia.jpg',sha256:sha(image),testoGrafica:'Fixture di promozione'};write('dati/pillole.json',json(reg));
++ const contents={versione:1,pagine:['/canzone/21-guns/'],cartoline:[{slug:'21-guns',dato:'dati/pillole.json#21-guns',immagine:'pillole/21-guns-storia.jpg'}]};
++ const d1=prepareDraft(contents,['dati/pillole.json','pillole/21-guns-storia.jpg'],'cartolina');restore(Object.keys(d1.data),trusted);
++ // Nessun errore trasforma da solo questa proposta in approvazione.
++ checked(()=>authority().promuovi({base:trusted,manifesto:'lotti/'+sha(json(d1.m))+'.json',out:d1.out}),/Manifesto assente/);ok('promozione senza approvazione bloccata');
++ const a1=approve(d1.m),p1=cycle(d1,a1,'cartolina');ok('cartolina approvata e baseline promossa',{commitPreparato:p1.prepared,commitPromosso:p1.promoted});
++ const clone=path.join(temp,'checkout-pulito');execFileSync('git',['clone','--quiet','--no-local',repo,clone],{stdio:['ignore','pipe','pipe']});repo=clone;
++ emptyBuild(p1.promoted,'clone');ok('checkout pulito dopo promozione: lotto vuoto riuscito');
++ // Nuovo lotto ordinario di soli link, nessuna approvazione strutturale globale.
++ const links=JSON.parse(read('dati/collegamenti-contestuali.json'));links['basket-case']={artistaSlug:'green-day',destinazioni:['21-guns'],prima:'Fixture: ',dopo:'.',dopoParagrafo:0};write('dati/collegamenti-contestuali.json',json(links));
++ const inner={versione:1,pagine:['/canzone/basket-case/'],cartoline:[]};const d2=prepareDraft(inner,['dati/collegamenti-contestuali.json'],'link');restore(Object.keys(d2.data),p1.promoted);const a2=approve(d2.m);assert.deepEqual(a2&&d2.m.strutturali,{});const p2=cycle(d2,a2,'link');emptyBuild(p2.promoted,'secondo');ok('nuovo link dopo commit pulito, nessun residuo cartolina o consenso globale');
++ for(const n of ['dati/baseline-generatore.json','scripts/genera/perimetro.mjs','scripts/genera-sito.mjs','scripts/test-generatore-perimetro.mjs','dati/policy-lotti.json']){
++  const old=bytes(n);write(n,Buffer.concat([old,Buffer.from('\nfixture manomissione\n')]));const out=path.join(temp,'vietato-'+sha(n));checked(()=>authority().build({base:p2.promoted,out}),/Modifiche senza manifesto/);assert(!fs.existsSync(out));write(n,old);ok('manomissione non autorizzata bloccata: '+n);
++ }
++ const hidden='scripts/genera/perimetro.mjs',hiddenBytes=bytes(hidden);git('update-index','--assume-unchanged',hidden);write(hidden,Buffer.concat([hiddenBytes,Buffer.from('\n// nascosto\n')]));checked(()=>authority().build({base:p2.promoted,out:path.join(temp,'hidden')}),/Modifiche senza manifesto/);write(hidden,hiddenBytes);git('update-index','--no-assume-unchanged',hidden);ok('assume-unchanged non nasconde una modifica al gate');
++ const mfile=a2.file,oldManifest=bytes(mfile);write(mfile,Buffer.concat([oldManifest,Buffer.from(' ')]));checked(()=>authority().verifica(p2.promoted,mfile),/Manifesto modificato/);write(mfile,oldManifest);ok('digest esatto del manifesto protetto');
++ const victim='scripts/test-generatore-perimetro.mjs',newCode=Buffer.concat([bytes(victim),Buffer.from('\n// fixture struttura\n')]);
++ const structural={versione:2,id:'self',contenuti:emptyContents(),files:{[victim]:sha(newCode)},strutturali:{[victim]:sha(newCode)},promozione:{files:{}}};
++ const same=approve(structural,{sameCommit:true,mutate:()=>write(victim,newCode),actions:['build','promuovi','struttura']});checked(()=>authority().build({base:same.base,manifesto:same.file,out:path.join(temp,'self')}),/medesimo lotto/);ok('approvazione nel medesimo lotto bloccata anche con firma di fixture valida');git('checkout','--detach',p2.promoted);
++ const stranger=generateKeyPairSync('ed25519');const wrong=approve({...structural,id:'chiave-falsa'},{key:stranger.privateKey,actions:['build','promuovi','struttura']});checked(()=>authority().build({base:wrong.base,manifesto:wrong.file,out:path.join(temp,'fake')}),/Firma del proprietario/);ok('chiave sostituita o consenso inventato nel manifesto non sufficienti');git('checkout','--detach',p2.promoted);
++ const noStructure=approve({...structural,id:'senza-consenso-strutturale',strutturali:{}},{actions:['build','promuovi']});write(victim,newCode);checked(()=>authority().build({base:noStructure.base,manifesto:noStructure.file,out:path.join(temp,'no-structure')}),/approvazione strutturale/);restore([victim],noStructure.base);git('checkout','--detach',p2.promoted);ok('consenso editoriale non autorizza modifiche strutturali anche se il file è dichiarato');
++ const validStructure=approve({...structural,id:'struttura-preapprovata'},{actions:['build','promuovi','struttura']});write(victim,newCode);const so=path.join(temp,'structure-ok');authority().build({base:validStructure.base,manifesto:validStructure.file,out:so});authority().sigillaPreparazione({base:validStructure.base,manifesto:validStructure.file,out:so});const sc=commit('fixture modifica strutturale con approvazione precedente');emptyBuild(sc,'struttura');ok('struttura con firma precedente valida, poi checkout pulito');git('checkout','--detach',p2.promoted);
++ // Anche una promozione già approvata non autorizza rete.
++ let calls=0,payload;const fakeFetch=async(url,request)=>{calls++;payload=JSON.parse(request.body);return{status:200};};
++ assert.deepEqual(await inviaIndexNow({invia:false,fetchImpl:fakeFetch}),{rete:false,stato:'disabilitato'});
++ await assert.rejects(inviaIndexNow({autorita:authority(),base:p2.promoted,invia:true,fetchImpl:fakeFetch}),/consenso/);assert.equal(calls,0);
++ const cli=spawnSync(process.execPath,['scripts/indexnow.mjs'],{cwd:repo,encoding:'utf8'});assert.equal(cli.status,0);assert(cli.stdout.includes('nessuna rete'));assert(!cli.stdout.includes('fixture-public-key'));
++ const all=spawnSync(process.execPath,['scripts/indexnow.mjs','--tutti'],{cwd:repo,encoding:'utf8'});assert.notEqual(all.status,0);ok('IndexNow default e senza consenso: zero rete e nessuna chiave mostrata');
++ const urls=['https://www.dietroiltesto.it/canzone/basket-case/'],nonce='fixture-invio-approvato-0001';
++ const consentPayload={versione:1,azione:'indexnow',manifesto:a2.file,digest:a2.id,commitPubblicato:p2.promoted,host:'www.dietroiltesto.it',urlDigest:sha(JSON.stringify(urls)),nonce};
++ const consent={payload:consentPayload,firma:sign(null,Buffer.from(JSON.stringify(consentPayload)),privateKey).toString('base64')};const consentFile=`consensi-indexnow/${nonce}.json`;write(consentFile,json(consent));const withConsent=commit('fixture proprietario attesta pubblicazione e autorizza invio');
++ await inviaIndexNow({autorita:authority(),base:withConsent,consenso:consentFile,invia:true,stato:path.join(temp,'stato'),fetchImpl:fakeFetch});assert.equal(calls,1);assert.deepEqual(payload.urlList,urls);assert(!payload.urlList.includes('https://www.dietroiltesto.it/canzone/21-guns/'));ok('invio simulato solo URL del secondo lotto, non tutti i lastmod odierni',{urlList:payload.urlList});
++ await assert.rejects(inviaIndexNow({autorita:authority(),base:withConsent,consenso:consentFile,invia:true,stato:path.join(temp,'stato'),fetchImpl:fakeFetch}),/EEXIST/);assert.equal(calls,1);ok('consenso monouso, nessun reinvio autonomo');
++ const protectedFile='dati/policy-lotti.json',before=bytes(protectedFile);write(protectedFile,Buffer.concat([before,Buffer.from(' ')]));await assert.rejects(inviaIndexNow({autorita:authority(),base:withConsent,consenso:consentFile,invia:true,stato:path.join(temp,'stato2'),fetchImpl:fakeFetch}),/Modifiche senza manifesto/);write(protectedFile,before);assert.equal(calls,1);ok('rete bloccata anche con consenso se checkout manomesso');
++ report.controller='modulo fidato esterno al checkout della fixture';report.checkoutFinalePulito=git('status','--porcelain')==='';assert(report.checkoutFinalePulito);console.log(JSON.stringify(report,null,2));
++}catch(e){report.errore=e.stack;throw e;}finally{fs.rmSync(temp,{recursive:true,force:true});report.fixtureRimosse=!fs.existsSync(temp);if(evidence)fs.writeFileSync(path.join(evidence,'risultati-autorita.json'),json(report));}
+diff --git a/scripts/test-generatore-perimetro.mjs b/scripts/test-generatore-perimetro.mjs
+new file mode 100644
+index 000000000..c890522d8
+--- /dev/null
++++ b/scripts/test-generatore-perimetro.mjs
+@@ -0,0 +1,96 @@
++#!/usr/bin/env node
++// Integrazione offline: tutte le modifiche editoriali e le immagini sono fixture
++// in una cartella temporanea, mai proposte né artefatti pubblicabili.
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import os from 'node:os';
++import path from 'node:path';
++import { fileURLToPath } from 'node:url';
++import { spawnSync } from 'node:child_process';
++import { createHash } from 'node:crypto';
++import { inviaIndexNow } from './genera/autorita.mjs';
++const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
++const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'dit-perimetro-'));
++const work = path.join(temp, 'workspace');fs.mkdirSync(work);
++const hash = b => createHash('sha256').update(b).digest('hex');
++const report = { casi: [], dateSimulate: ['2026-10-20T12:00:00Z', '2030-01-01T12:00:00Z'] };
++const arg = process.argv.indexOf('--prove');
++const evidence = arg >= 0 ? path.resolve(process.argv[arg + 1]) : null;
++if (evidence) fs.mkdirSync(evidence, { recursive: true });
++const json = (n, v) => fs.writeFileSync(path.join(work, n), JSON.stringify(v, null, 2) + '\n');
++const read = n => fs.readFileSync(path.join(work, n), 'utf8');
++const source = n => fs.readFileSync(path.join(root, n), 'utf8');
++const routes = [...new Set(JSON.parse(source('dati/pagine-seo.json')).map(x => x.percorso.endsWith('.html') ? x.percorso : x.percorso + 'index.html'))];
++const clock = path.join(temp, 'clock.mjs');
++fs.writeFileSync(clock, `const D=Date;const e=D.parse(process.env.DIT_TEST_DATE);globalThis.Date=class extends D{constructor(...a){super(...(a.length?a:[e]));}static now(){return e;}};`);
++function inventory(dir) {
++  const entries = [];
++  function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
++    const n = path.join(d, e.name);if (e.isDirectory()) walk(n);else entries.push([path.relative(dir, n), hash(fs.readFileSync(n))]);
++  }}walk(dir);return entries.sort((a,b) => a[0].localeCompare(b[0]));
++}
++function reset() {
++  for (const n of ['canzoni.json','pillole.json','collegamenti-contestuali.json']) fs.copyFileSync(path.join(root,'dati',n),path.join(work,'dati',n));
++  fs.rmSync(path.join(work,'pillole'),{recursive:true,force:true});fs.cpSync(path.join(root,'pillole'),path.join(work,'pillole'),{recursive:true});
++}
++function run(name, { pages=[], cards=[], fail=null, targeted=false, noManifest=false, extra=[], date=report.dateSimulate[1] } = {}) {
++  json('lotto-test.json', {versione:1,pagine:pages,cartoline:cards});
++  const args=['--import',clock,'scripts/genera-sito.mjs','--out','sito'];
++  if(!noManifest) args.push('--lotto',path.join(work,'lotto-test.json'));
++  if(targeted) args.push('--solo-canzoni','21-guns');
++  args.push(...extra);
++  // Elimina soltanto l'output della fixture, così nessun residuo può simulare
++  // sitemap riuscite dopo un caso che deve essere bloccato.
++  fs.rmSync(path.join(work,'sito'),{recursive:true,force:true});
++  const result=spawnSync(process.execPath,args,{cwd:work,encoding:'utf8',env:{...process.env,DIT_TEST_DATE:date},maxBuffer:8*1024*1024});
++  const output=(result.stdout||'')+(result.stderr||'');
++  if(evidence) fs.writeFileSync(path.join(evidence,name+'.log'),output);
++  if(fail){assert.notEqual(result.status,0,name+': fallimento atteso');assert.match(output,fail,name);assert(!fs.existsSync(path.join(work,'sito/sitemap-canzoni.xml')),name+': sitemap scritta prima del blocco');}
++  else assert.equal(result.status,0,name+'\n'+output);
++  report.casi.push({nome:name,esito:'passato',uscita:result.status,bloccato:!!fail});
++  return output;
++}
++function changedPages() { return routes.filter(n => read('sito/'+n)!==source(n)); }
++function modifiedDates() { return routes.filter(n => JSON.stringify([...read('sito/'+n).matchAll(/"dateModified":"([^"]+)"/g)].map(x=>x[1]))!==JSON.stringify([...source(n).matchAll(/"dateModified":"([^"]+)"/g)].map(x=>x[1]))); }
++function lastmods(xml) {return [...xml.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)].map(x=>[x[1],x[2]]);}
++const maps=fs.readdirSync(root).filter(n=>/^sitemap.*\.xml$/.test(n));
++function assertOnlySong(slug) {
++  const file='canzone/'+slug+'/index.html';assert.deepEqual(changedPages(),[file]);assert.deepEqual(modifiedDates(),[file]);
++  for(const n of routes){assert.deepEqual([...read('sito/'+n).matchAll(/"datePublished":"([^"]+)"/g)].map(x=>x[1]),[...source(n).matchAll(/"datePublished":"([^"]+)"/g)].map(x=>x[1]));assert.equal(read('sito/'+n).match(/<link rel="canonical"[^>]*>/)?.[0],source(n).match(/<link rel="canonical"[^>]*>/)?.[0]);}
++  for(const n of maps){const a=lastmods(source(n)),b=lastmods(read('sito/'+n));assert.deepEqual(a.map(x=>x[0]),b.map(x=>x[0]));const delta=a.filter((x,i)=>x[1]!==b[i][1]);assert.equal(delta.length,n==='sitemap-canzoni.xml'?1:0);if(delta.length)assert.equal(delta[0][0],'https://www.dietroiltesto.it/canzone/'+slug+'/');}
++}
++try {
++  for(const n of ['scripts','dati','pillole']) fs.cpSync(path.join(root,n),path.join(work,n),{recursive:true});
++  for(const n of [...routes,...maps]){const q=path.join(work,n);fs.mkdirSync(path.dirname(q),{recursive:true});fs.copyFileSync(path.join(root,n),q);}
++  for(const n of ['og','ritratti']) fs.symlinkSync(path.join(root,n),path.join(work,n),'dir');
++  run('01-generazione-invariata',{date:report.dateSimulate[0]});assert.deepEqual(changedPages(),[]);for(const n of maps) assert.equal(read('sito/'+n),source(n));const first=inventory(path.join(work,'sito'));
++  run('02-generazione-giorno-diverso');assert.deepEqual(changedPages(),[]);for(const n of maps) assert.equal(read('sito/'+n),source(n));assert.deepEqual(inventory(path.join(work,'sito')),first);
++  report.determinismo={file:first.length,html:routes.length,htmlModificati:0,datePublished:0,dateModified:0,lastmod:0,canonical:0,urlSitemap:0,sitemapByteIdentiche:maps.length};
++  // Una cartolina sintetica: riusa bytes di una JPEG esistente esclusivamente
++  // per provare il perimetro. Non è un'immagine nuova né un contenuto approvato.
++  const songs=JSON.parse(read('dati/canzoni.json')),song=songs.find(c=>c.slug==='21-guns');
++  const makeCard=()=>{const registry=JSON.parse(read('dati/pillole.json'));const bytes=fs.readFileSync(path.join(work,'pillole',Object.values(registry)[0].file));fs.writeFileSync(path.join(work,'pillole/21-guns-storia.jpg'),bytes);registry['21-guns']={artistaSlug:song.artistaSlug,testo:song.fraseIconica,dopoParagrafo:0,fonte:song.fonti[0].url,file:'21-guns-storia.jpg',sha256:hash(bytes),testoGrafica:'Fixture tecnica temporanea'};json('dati/pillole.json',registry);};
++  const card={slug:'21-guns',dato:'dati/pillole.json#21-guns',immagine:'pillole/21-guns-storia.jpg'};
++  makeCard();run('03-cartolina-prevista',{pages:['/canzone/21-guns/'],cards:[card]});assertOnlySong('21-guns');
++  run('04-cartolina-senza-mandato',{fail:/Dato cartolina fuori lotto/});
++  fs.appendFileSync(path.join(work,'pillole/mantra-storia.jpg'),'fixture');run('05-immagine-estranea-anche-mirato',{pages:['/canzone/21-guns/'],cards:[card],targeted:true,fail:/Immagine cartolina fuori lotto/});reset();
++  makeCard();const registry=JSON.parse(read('dati/pillole.json'));registry.mantra.testoGrafica+=' fixture';json('dati/pillole.json',registry);run('06-dato-cartolina-estraneo',{pages:['/canzone/21-guns/'],cards:[card],fail:/Dato cartolina fuori lotto: mantra/});reset();
++  const links=JSON.parse(read('dati/collegamenti-contestuali.json'));links['21-guns']={artistaSlug:song.artistaSlug,destinazioni:['basket-case'],prima:'Fixture di collegamento: ',dopo:'.',dopoParagrafo:0};json('dati/collegamenti-contestuali.json',links);
++  run('07-collegamento-previsto',{pages:['/canzone/21-guns/']});assertOnlySong('21-guns');assert(read('sito/canzone/21-guns/index.html').includes('href="../../canzone/basket-case/"'));
++  run('08-collegamento-senza-perimetro',{noManifest:true,fail:/Pagina fuori lotto: \/canzone\/21-guns\//});
++  links['billie-jean']={artistaSlug:'michael-jackson',destinazioni:['beat-it'],prima:'Fixture di collegamento: ',dopo:'.',dopoParagrafo:0};json('dati/collegamenti-contestuali.json',links);run('09-seconda-sorgente-non-dichiarata',{pages:['/canzone/21-guns/'],fail:/Pagina fuori lotto: \/canzone\/billie-jean\//});reset();
++  const changed=JSON.parse(read('dati/canzoni.json'));changed.find(c=>c.slug==='youngblood').corpo[0]='Fixture tecnica diversa. '+changed.find(c=>c.slug==='youngblood').corpo[0];json('dati/canzoni.json',changed);run('10-effetto-derivato-non-dichiarato',{pages:['/canzone/youngblood/'],fail:/Pagina fuori lotto: \/(?!canzone\/youngblood\/)/});reset();
++  run('11-perimetro-sovradichiarato',{pages:['/canzone/21-guns/'],fail:/Perimetro lotto non esatto/});
++  const many=JSON.parse(read('dati/canzoni.json'));const selected=many.filter(c=>c.fraseIconica).slice(0,51);for(const c of selected)c.corpo[c.corpo.length-1]+=' Fixture tecnica del limite.';json('dati/canzoni.json',many);run('12-limite-51-anche-con-lista-esatta',{pages:selected.map(c=>'/canzone/'+c.slug+'/'),fail:/Variazione massiva del catalogo: 51 pagine, limite 50/});reset();
++  run('13-deroga-numerica-rifiutata',{extra:['--impatto-atteso=353'],fail:/Deroga quantitativa non ammessa/});
++  // API pura, trasporto simulato: nessuno script IndexNow reale eseguito.
++  let rete=0;const fintoFetch=async()=>{rete++;return {status:200};};
++  assert.deepEqual(await inviaIndexNow({invia:false,fetchImpl:fintoFetch}),{rete:false,stato:'disabilitato'});
++  await assert.rejects(inviaIndexNow({invia:true,fetchImpl:fintoFetch}),/consenso/);
++  assert.equal(rete,0);
++  report.casi.push({nome:'14-indexnow-disabilitato-senza-consenso',esito:'passato',nessunaEsecuzioneIndexNow:true,nessunaRete:true});
++  console.log(JSON.stringify(report,null,2));
++} finally {
++  fs.rmSync(temp,{recursive:true,force:true});report.outputTemporaneiRimossi=!fs.existsSync(temp);
++  if(evidence)fs.writeFileSync(path.join(evidence,'risultati.json'),JSON.stringify(report,null,2)+'\n');
++}

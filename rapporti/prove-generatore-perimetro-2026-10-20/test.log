@@ -1,0 +1,103 @@
+{
+  "casi": [
+    {
+      "nome": "01-generazione-invariata",
+      "esito": "passato",
+      "uscita": 0,
+      "bloccato": false
+    },
+    {
+      "nome": "02-generazione-giorno-diverso",
+      "esito": "passato",
+      "uscita": 0,
+      "bloccato": false
+    },
+    {
+      "nome": "03-cartolina-prevista",
+      "esito": "passato",
+      "uscita": 0,
+      "bloccato": false
+    },
+    {
+      "nome": "04-cartolina-senza-mandato",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "05-immagine-estranea-anche-mirato",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "06-dato-cartolina-estraneo",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "07-collegamento-previsto",
+      "esito": "passato",
+      "uscita": 0,
+      "bloccato": false
+    },
+    {
+      "nome": "08-collegamento-senza-perimetro",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "09-seconda-sorgente-non-dichiarata",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "10-effetto-derivato-non-dichiarato",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "11-perimetro-sovradichiarato",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "12-limite-51-anche-con-lista-esatta",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "13-deroga-numerica-rifiutata",
+      "esito": "passato",
+      "uscita": 1,
+      "bloccato": true
+    },
+    {
+      "nome": "14-guardie-indexnow-isolate",
+      "esito": "passato",
+      "nessunaEsecuzioneIndexNow": true,
+      "nessunaRete": true
+    }
+  ],
+  "dateSimulate": [
+    "2026-10-20T12:00:00Z",
+    "2030-01-01T12:00:00Z"
+  ],
+  "determinismo": {
+    "file": 1124,
+    "html": 696,
+    "htmlModificati": 0,
+    "datePublished": 0,
+    "dateModified": 0,
+    "lastmod": 0,
+    "canonical": 0,
+    "urlSitemap": 0,
+    "sitemapByteIdentiche": 6
+  }
+}

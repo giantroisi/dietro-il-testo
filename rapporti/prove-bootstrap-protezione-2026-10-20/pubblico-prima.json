@@ -1,0 +1,147 @@
+[
+  {
+    "file": "album/blink-182/enema-of-the-state/index.html",
+    "url": "https://www.dietroiltesto.it/album/blink-182/enema-of-the-state/",
+    "status": 200,
+    "sha256": "698e874fe45216b04bf45a549c204da1c16cf24e6f45eb8476493d56d1e65715",
+    "sha256Locale": "698e874fe45216b04bf45a549c204da1c16cf24e6f45eb8476493d56d1e65715",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/album/blink-182/enema-of-the-state/\">"
+  },
+  {
+    "file": "artista/nirvana/index.html",
+    "url": "https://www.dietroiltesto.it/artista/nirvana/",
+    "status": 200,
+    "sha256": "6f67920c8ce7c5799eb2d743e8e283f129178830255458ea5d1c3dfa5e491f1b",
+    "sha256Locale": "6f67920c8ce7c5799eb2d743e8e283f129178830255458ea5d1c3dfa5e491f1b",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/artista/nirvana/\">"
+  },
+  {
+    "file": "artista/the-beatles/index.html",
+    "url": "https://www.dietroiltesto.it/artista/the-beatles/",
+    "status": 200,
+    "sha256": "8096d73c252633a51b1256b295c99973fd99b476bc1d43a3a76a6da521a7d0c9",
+    "sha256Locale": "8096d73c252633a51b1256b295c99973fd99b476bc1d43a3a76a6da521a7d0c9",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/artista/the-beatles/\">"
+  },
+  {
+    "file": "canzone/hotel-california/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/hotel-california/",
+    "status": 200,
+    "sha256": "c1960069b03ffc8e4ab73866dae7b25b9c6246bc9dacf8bc9840bf67b7d0e9c5",
+    "sha256Locale": "c1960069b03ffc8e4ab73866dae7b25b9c6246bc9dacf8bc9840bf67b7d0e9c5",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/canzone/hotel-california/\">"
+  },
+  {
+    "file": "canzone/numb/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/numb/",
+    "status": 200,
+    "sha256": "55f7add8fd422497751d6e2a477a4d5cae0344d268abcf701712eb617b4e05a7",
+    "sha256Locale": "55f7add8fd422497751d6e2a477a4d5cae0344d268abcf701712eb617b4e05a7",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/canzone/numb/\">"
+  },
+  {
+    "file": "canzone/one-step-closer/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/one-step-closer/",
+    "status": 200,
+    "sha256": "1346419cc87934bd7f8cfd66f05c7bec58e4ffc4a94ca96efa8dc298eff57b90",
+    "sha256Locale": "1346419cc87934bd7f8cfd66f05c7bec58e4ffc4a94ca96efa8dc298eff57b90",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/canzone/one-step-closer/\">"
+  },
+  {
+    "file": "canzone/whats-my-age-again/index.html",
+    "url": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+    "status": 200,
+    "sha256": "febb6bbd4bb9d6b0eb6e0655dc4f182d8a9537f730b93a0a1104302ef13ded3e",
+    "sha256Locale": "febb6bbd4bb9d6b0eb6e0655dc4f182d8a9537f730b93a0a1104302ef13ded3e",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/canzone/whats-my-age-again/\">"
+  },
+  {
+    "file": "genere/rock/index.html",
+    "url": "https://www.dietroiltesto.it/genere/rock/",
+    "status": 200,
+    "sha256": "b6d3c0a887df2ed77090258258aa84ef2fd74ce0afd7eaf176f035e56507ce45",
+    "sha256Locale": "b6d3c0a887df2ed77090258258aa84ef2fd74ce0afd7eaf176f035e56507ce45",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/genere/rock/\">"
+  },
+  {
+    "file": "index.html",
+    "url": "https://www.dietroiltesto.it/",
+    "status": 200,
+    "sha256": "197e5008dac395a3a17dca55b6d4f9f5fe9ddd46a20adaf05bcce4250c4e7f8a",
+    "sha256Locale": "197e5008dac395a3a17dca55b6d4f9f5fe9ddd46a20adaf05bcce4250c4e7f8a",
+    "identico": true,
+    "canonical": "<link rel=\"canonical\" href=\"https://www.dietroiltesto.it/\">"
+  },
+  {
+    "file": "ricerca.js",
+    "url": "https://www.dietroiltesto.it/ricerca.js",
+    "status": 200,
+    "sha256": "f5a8706255c0d4658dd145035f654078e632017c1bfbc25d5b39345185554087",
+    "sha256Locale": "f5a8706255c0d4658dd145035f654078e632017c1bfbc25d5b39345185554087",
+    "identico": true
+  },
+  {
+    "file": "robots.txt",
+    "url": "https://www.dietroiltesto.it/robots.txt",
+    "status": 200,
+    "sha256": "edd06e4dc0ef760932884b66da5b526f7c67185817604cd42dea126fec796af0",
+    "sha256Locale": "edd06e4dc0ef760932884b66da5b526f7c67185817604cd42dea126fec796af0",
+    "identico": true
+  },
+  {
+    "file": "sitemap-album.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+    "status": 200,
+    "sha256": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "sha256Locale": "a4303852a675f8de1abd4ff5c97084eba1d469895cc8deda3a2a027f69100ffa",
+    "identico": true
+  },
+  {
+    "file": "sitemap-artisti.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+    "status": 200,
+    "sha256": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "sha256Locale": "d18bee562dd49f789c78d36c378606789691ae0de34efb2ad3f5694dccb87c87",
+    "identico": true
+  },
+  {
+    "file": "sitemap-canzoni.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+    "status": 200,
+    "sha256": "092a8d3b6a0e334a9e258184c1bfd0ab3cbba963a10f0cda7c524dcd98043a4c",
+    "sha256Locale": "092a8d3b6a0e334a9e258184c1bfd0ab3cbba963a10f0cda7c524dcd98043a4c",
+    "identico": true
+  },
+  {
+    "file": "sitemap-pagine.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+    "status": 200,
+    "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "sha256Locale": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+    "identico": true
+  },
+  {
+    "file": "sitemap-raccolte.xml",
+    "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+    "status": 200,
+    "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "sha256Locale": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+    "identico": true
+  },
+  {
+    "file": "sitemap.xml",
+    "url": "https://www.dietroiltesto.it/sitemap.xml",
+    "status": 200,
+    "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "sha256Locale": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+    "identico": true
+  }
+]

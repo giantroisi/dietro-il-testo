@@ -1,0 +1,23 @@
+{
+  "base": "97af497b3",
+  "mainHead": "ad9091a5101f1b50228583217aa3b90257a9d966",
+  "fileMainControllati": 2507,
+  "fileMainModificati": [],
+  "provePreesistentiIntatte": true,
+  "sigilliStorici": 34,
+  "homepageEModello97Intatti": true,
+  "testAutorita": 20,
+  "testRegressione": 14,
+  "reteReale": 0,
+  "approvazioniRealiCreate": 0,
+  "installazioneAutoritaEffettuata": false,
+  "inputProvati": {
+    "scripts/genera/autorita.mjs": "364dbac0a66696206a958fd9feef6866c6671469b023f58f7820c200a4002ad8",
+    "scripts/lotto-sicuro.mjs": "3f57241630424a9918279cacd2bd96bf793aff0ad46511121140ea06b8ffc681",
+    "scripts/indexnow.mjs": "ae7902d7735789dbcb5bd52b0e242ea63192083e479b2e627c00b980065f9c84",
+    "scripts/test-generatore-perimetro.mjs": "56c580d32a51142642bccc6fc7a73001ce973330ff57a70fa7d7e5d8b2dd093b",
+    "scripts/test-autorita-lotti.mjs": "3ad56eeb972d63c34b71281237ee3b1dfa339fcc072e1977131e25661a76bb02",
+    "dati/policy-lotti.json": "83261f6000ed18db5a2d2eacbd9265985b98b6bdbc279c01aa7c07d98b292fc8"
+  },
+  "artefattiPubblicatiProtetti": true
+}

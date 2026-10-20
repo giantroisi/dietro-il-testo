@@ -1,0 +1,12 @@
+file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-qZTvAq/workspace/scripts/genera/perimetro.mjs:42
+  for (const s of cambiDati) if (!dichiarate.has(s)) throw new Error(`Dato cartolina fuori lotto: ${s}`);
+                                                           ^
+
+Error: Dato cartolina fuori lotto: 21-guns
+    at creaPerimetro (file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-qZTvAq/workspace/scripts/genera/perimetro.mjs:42:60)
+    at file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-qZTvAq/workspace/scripts/genera-sito.mjs:425:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+
+Node.js v22.14.0

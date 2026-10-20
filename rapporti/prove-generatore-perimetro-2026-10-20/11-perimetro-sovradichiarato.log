@@ -1,0 +1,13 @@
+file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-b4jP3F/workspace/scripts/genera/perimetro.mjs:67
+        throw new Error(`Perimetro lotto non esatto; attese non modificate: ${[...attese].filter(x => !modificate.has(x)).join(', ')}`);
+              ^
+
+Error: Perimetro lotto non esatto; attese non modificate: /canzone/21-guns/
+    at Object.verifica (file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-b4jP3F/workspace/scripts/genera/perimetro.mjs:67:15)
+    at verificaLotto (file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-b4jP3F/workspace/scripts/genera-sito.mjs:607:29)
+    at file:///private/var/folders/g0/skqw9bd91s7drzt4h2v1rydw0000gn/T/dit-perimetro-b4jP3F/workspace/scripts/genera-sito.mjs:615:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+
+Node.js v22.14.0

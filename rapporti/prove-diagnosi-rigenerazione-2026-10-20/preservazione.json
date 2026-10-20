@@ -1,0 +1,25 @@
+{
+  "baselineHead": "ad9091a5101f1b50228583217aa3b90257a9d966",
+  "statusBefore": " M scripts/genera-sito.mjs\n M scripts/indexnow.mjs\n?? SEO-AFFILIAZIONE-FASE2.md\n?? SEO-LASTMOD-2026-09-21.md\n",
+  "trackedAndPreexistingUntrackedFilesChecked": 2492,
+  "changesBeforeDocumentation": [],
+  "sourceHashes": {
+    "scripts/genera-sito.mjs": "41e6032b57cc8a07fa77161d42f7d92b52a1417050496000b1107796fced44b6",
+    "scripts/indexnow.mjs": "e9ef5265a257b62901b6166a0d0f1047e1067f3e3067e402f5277827e691062f",
+    "ROADMAP.md": "29984cd26fd1b99e26d7ed05e9e8a205425152d5a0f9a7f64e7d4488fffc8849"
+  },
+  "noPublicFilesChanged": true,
+  "buildExitCode": 1,
+  "gateCount": 353,
+  "gateThreshold": 50,
+  "generatedSitemaps": [],
+  "temporaryDirectoryToRemove": "/private/tmp/dit-diagnosi-2026-10-20",
+  "allRawDifferencesClassified": true,
+  "rawChanged": 663,
+  "normalizedChanged": 354,
+  "onlyBlankLineEditorialChanges": 353,
+  "unchangedExistingFilesExceptRoadmap": true,
+  "htmlRouteSetsEqual": true,
+  "statusAfterDocumentation": " M ROADMAP.md\n M scripts/genera-sito.mjs\n M scripts/indexnow.mjs\n?? SEO-AFFILIAZIONE-FASE2.md\n?? SEO-LASTMOD-2026-09-21.md\n?? rapporti/diagnosi-rigenerazione-2026-10-20.md\n?? rapporti/prove-diagnosi-rigenerazione-2026-10-20/\n",
+  "temporaryOutputsRemoved": true
+}

@@ -1,0 +1,18 @@
+ERRORE SEO: 353 pagine editoriali esistenti risultano modificate (limite ordinario 50).
+  /canzone/bohemian-rhapsody/ — riga 126, colonna 1: "          data-titolo=\"Bohemian Rhapsody\"" → ""
+  /canzone/teen-spirit/ — riga 126, colonna 1: "          data-titolo=\"Smells Like Teen Spirit\"" → ""
+  /canzone/billie-jean/ — riga 126, colonna 1: "          data-titolo=\"Billie Jean\"" → ""
+  /canzone/sweet-child/ — riga 126, colonna 1: "          data-titolo=\"Sweet Child O' Mine\"" → ""
+  /canzone/creep/ — riga 126, colonna 1: "          data-titolo=\"Creep\"" → ""
+Se l'intervento e' davvero intenzionale, rieseguire solo dopo revisione con --impatto-atteso=353.
+file:///private/tmp/dit-diagnosi-2026-10-20/workspace/scripts/genera-sito.mjs:610
+  throw new Error('Variazione massiva del catalogo bloccata prima delle sitemap.');
+        ^
+
+Error: Variazione massiva del catalogo bloccata prima delle sitemap.
+    at file:///private/tmp/dit-diagnosi-2026-10-20/workspace/scripts/genera-sito.mjs:610:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+
+Node.js v22.14.0

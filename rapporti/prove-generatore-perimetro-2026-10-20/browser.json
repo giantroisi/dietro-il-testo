@@ -1,0 +1,29 @@
+[
+  {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "before": "./canzone/can-you-feel-my-heart/",
+    "after": "./canzone/shot-in-the-dark/",
+    "rotationWorks": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "before": "./canzone/can-you-feel-my-heart/",
+    "after": "./canzone/shot-in-the-dark/",
+    "rotationWorks": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "javaScript": false,
+    "initial": "My Immortal",
+    "preserved": true
+  }
+]

@@ -5008,3 +5008,41 @@ Dossier rapporti/h2-raccolte-2026-10-19.md, diff/prove dedicati e proposta futur
 ### Esito §130 — nove H2 pubblicati con date e sitemap invariate, 19 ottobre 2026
 
 Approvazione diretta del proprietario per c21c74ffd. Integrato/push soltanto il lotto verificato; VercelCQx55opLTk3o6vhXgDYCRwzjk1K3 Ready/Latest/Current/Production,18:20:47CEST,18secondi. Prima/dopo15file pubblici identici ai rispettivi commit: noveHTML e sei sitemap; hash delle sei sitemap invariati. DatePublished/dateModified/lastmod e metadati preservati. Browser18viste1280×900/390×844 conferma nuoviH2, unaH1 e assenza overflow; prova desktop osservata. Nessun build generale. Rapporto/prove pubblicazione dedicati; questa chiusura è sola documentazione. Main/nontracciati/altraAI/revisioni intatti, test futuro non applicato, cartoline ferme.
+
+
+## 131. Diagnosi delle 353 variazioni del generatore — 20 ottobre 2026
+
+Solo diagnosi su mandato diretto trasmesso dalla chat centrale, nessuna correzione o pubblicazione. Build nella copia temporanea con generatore concorrente invariato: blocco353/50 riprodotto prima delle sitemap, senza deroghe o modifiche ai controlli. Confronto696HTML/F40:298canzoni con una riga vuota e55artisti con quattro righe vuote; righe non vuote identiche in tutte353. Ulteriore scarto home dovuto alla rotazione giornaliera preesistente, fuori dal conteggio del gate. Tecnici sovrapposti:625regole griglia,10ricollocazioni stili cartolina,33pagine con36anteprime correlate da tre correzioni già approvate. Nessun nuovo contenuto preparato.
+
+Impatto diagnostico:353dateModified ingiustificati;354lastmod candidati includendo home. DatePublished/canonical invariati;571URL sitemap identici, nessuna sitemap generata dopo il blocco e nessuna data pubblica toccata. **Rigenerazione generale non pubblicabile.** Referto rapporti/diagnosi-rigenerazione-2026-10-20.md e prove dedicate; solo proposta diff non applicata per evitare newline nei rami opzionali vuoti del modello. Prossimo passo soggetto ad approvazione: sola correzione isolata del modello, con output pubblico fermo e gestione home separata; poi verifiche determinismo/date/caso negativo.
+
+HEAD/main, due script concorrenti e due SEO non tracciati preservati; modificati soltanto documentazione diagnostica e questa sezione. Nessun commit/push/deploy/GSC/IndexNow/Amazon/immagine/cartolina. Output temporanei propri rimossi dopo salvataggio delle prove. Nessun altro lotto avviato.
+
+
+## 132. Generatore con perimetro esatto — preparato, 20 ottobre 2026
+
+Mandato diretto trasmesso dalla chat centrale dopo diagnosi353. Copia separata generatore-perimetro-2026-10-20, base pubblicataad9091a51; dipendenze concorrenti/diagnosi conservate nel solo commit locale8eda33649. Cinque interpolazioni corrette, perimetro esatto URL e dato/immagine cartolina, limite50non derogabile anche con lista esatta; controllo valido anche nel rendering mirato. Artefatti semanticamente invariati conservati byte per byte;34coppie di impronte chiuse preservano33vecchi estratti e la formattazione pregressaR.E.M., senza ignorare nuovi effetti derivati. Home inizialeMyImmortal preservata, rotazione client indipendente daDate.now; nessuna nuova selezione visibile.
+
+14casi offline superati, comprese cartolina/link positivi (unica sorgente e suo dateModified/lastmod), dato/immagine/seconda sorgente/effetto derivato fuori perimetro, lista eccessiva,51pagine con lista esatta e deroga numerica rifiutate. Due generazioni con orologi2026/2030:1124file byte-identici,696HTML e sei sitemap identici alla base;datePublished/dateModified/lastmod/canonical/571URL invariati. GuardieIndexNow verificate solo come frammenti isolati, nessuna esecuzione o richiesta. SEO696/coerenza321-104/affiliazioni1065/contestuali7percorsi10link positivi. Browser1280×900/390×844, rotazione e nessun overflow/errori; senzaJSMyImmortal.
+
+Dossier rapporti/generatore-perimetro-2026-10-20.md, diff/prove dedicati. Solo preparazione recuperabile nella copia separata; nessun artefatto pubblico rigenerato nel main, nessuna integrazione/push/deploy/GSC/IndexNow/Amazon/immagine/cartolina. Main e tutti i file concorrenti/nontracciati preservati. Attendere approvazione prima dell’integrazione e dell’eventuale rilascio del solo client verificato; nessun altro lotto avviato. Limiti: compatibilità storica sigillata, impronte non aggiornate automaticamente; modifiche tecniche condivise richiedono piano distinto. Collegamento copia all’app impedito dal limite100allegati; cartella/commit presenti.
+
+
+## 133. Ciclo baseline e autorità dei lotti — preparato, 20 ottobre 2026
+
+Estensione di97af497b3sullo stesso ramo isolato su richiesta successiva della chat centrale. Promozione della baseline solo su impronte esatte già approvate, con ricevute e nuovo checkout pulito; secondo lotto ordinario senza residui. FirmeEd25519sul digest del manifesto già nel commit-base; modifica strutturale richiede consenso precedente specifico. Controller da installare fuori dal ramo modificabile, chiave pubblica/ancora/stato esterni protetti: **bootstrap reale non eseguito e nessuna approvazione del proprietario inventata**. Controllo della storia, dei file reali anche conassume-unchanged e build da snapshot fidato; policy diCI/gate/manifesti protetta.
+
+IndexNowsenza rete né lettura chiave di default;--tutti vietato, invio solo esplicito con consenso firmato separato che attestaPpubblicato, listaURLesatta e nonce monouso. Nessuna selezione perlastmododierno o invio dal controller di build.20E2E/14regressioni passati, incluse manomissioni, autoapprovazione, struttura legittima, clonepulito, secondo lotto e invio esclusivamente simulato.1124file deterministici,696HTML/date/canonical/571URL e sei sitemap invariati.34sigilli, home e prove precedenti intatti.
+
+Dossier rapporti/autorita-lotti-2026-10-20.md, diff e prove nuove dedicati, procedura di integrazione/bootstrapping esplicita. Solo commit locale dopo verifica; main/concorrenti/nontracciati preservati. Nessuna integrazione/push/deploy/installazione/reteIndexNow/GSC. Fermarsi per nuova approvazione e configurazione autentica del proprietario. La barriera richiede runner/ambiente/stato realmente protetti: eseguire codice arbitrario col medesimo account proprietario non è una radice di fiducia.
+
+
+## 134. Bootstrap reale e integrazione della protezione tecnica — 20 ottobre 2026
+
+Autorizzazione diretta del proprietario in questa chat per chiave locale, bootstrap, firma del solo manifesto tecnico derivato da0f4bd0dec, controller esterno e rilascio dopo verifiche. Copia separata bootstrap-protezione-2026-10-20, main/nontracciati/altreAI/proposte preservati. B7ca2a3667policy iniziale distinta; A15f73c8fcfirma precedente del manifesto238d744606f26100d946b2ab7f53991b8d78c0d96f41710094f6b620a0653a28; C7b3df62fbundici file tecnici; Pbe4730855sola ricevuta, zero artefatti pubblici promossi.
+
+Chiave Ed25519 esclusivamente sul Mac fuori dal repository, impronta pubblica0451b1b4adc20ded5e726419e36709676d81dbd2b2b7d6804fee3d824822e176; controller originale0f4/ancora e launcher esterni con permessi minimi/uchg, ambiente ridotto e runtime root verificato. Aperture in scrittura bloccate dal sistema. Nessuna chiave privata nei file pubblicabili e nessun altro lotto firmabile senza nuova autorizzazione. Limite esplicito: non è isolamento da amministratore/pieni privilegi del proprietario. AGENTS prescrive il percorso fidato per build/promozione/rilascio.
+
+20E2E+14regressioni ripetuti, clone pulito/secondo lotto ordinario di fixture positivi, basi/manomissioni/autoapprovazione bloccate;1124file deterministici,696HTML/571URL/date/canonical/sei sitemap e34sigilli invariati, tutti696HTML tracciati intatti. Home/client e relativo renderer ricerca esclusi dalle modifiche: restano byte-identici. SEO696/zero problemi, Amazon1065 e contestuali7percorsi/10link positivi.17file HTTP prima del rilascio identici. IndexNow simulato soltanto nei test, rete reale0/GSC0.
+
+Dossier rapporti/bootstrap-protezione-2026-10-20.md e prove dedicate, inclusi soli percorsi esterni e impronte pubbliche. Pubblicazione tecnica autorizzata, da concludere dopo ultimo controllo controller/storia e riscontro Vercel/browser; nessuna crescita o nuovo intervento avviato.

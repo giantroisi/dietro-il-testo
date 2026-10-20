@@ -1,0 +1,59 @@
+--- a/scripts/genera/pagine.mjs
++++ b/scripts/genera/pagine.mjs
+@@ -782,8 +782,7 @@
+              fatto nel browser (ricerca.js) a partire da questi dati, quindi
+              funziona anche sulle schede per cui og/<slug>.png non esiste. -->
+         <div class="condividi"
+-          data-cartolina
+-          ${pillola ? `data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
++          data-cartolina${pillola ? `\n          data-cartolina-storia="${esc(urlPillola(c,r))}"` : ''}
+           data-titolo="${esc(c.titolo)}"
+           data-artista="${esc(c.artista)}"
+           data-anno="${esc(annoDi(c) || '')}"
+@@ -998,6 +997,7 @@
+   const acquistoStoria = amazonPerArtista(a.slug, 'storia');
+   const acquistoAlbum = amazonPerArtista(a.slug, 'album');
+   const acquistoCanzoni = amazonPerArtista(a.slug, 'canzoni');
++  const informativaArtista = informativaAmazonPerScheda(`artista/${a.slug}`, r);
+   const rt = a.ritratto || RITRATTI[a.slug];
+   const ritrattoPanoramico = rt?.dimensioni?.larghezza / rt?.dimensioni?.altezza > 2;
+   const brani = a.canzoni.map((s) => ctx.canzoniPerSlug.get(s)).filter(Boolean);
+@@ -1070,8 +1070,7 @@
+       <div class="griglia">
+         ${brani.map((b) => schedaCanzone(b, r)).join('\n        ')}
+       </div>
+-    </section>
+-    ${acquistoCanzoni}
++    </section>${acquistoCanzoni ? `\n    ${acquistoCanzoni}` : ''}
+ 
+     ${
+       albumVeri.length
+@@ -1094,8 +1093,7 @@
+       ${riconoscimenti.length ? `<p class="vuoto" style="margin-top:18px">${riconoscimenti.map((n) => esc(n)).join(` ${SEGNO} `)}</p>` : ''}
+     </section>`
+         : ''
+-    }
+-    ${acquistoAlbum}
++    }${acquistoAlbum ? `\n    ${acquistoAlbum}` : ''}
+ 
+     ${
+       a.storia
+@@ -1119,16 +1117,14 @@
+       <h2>La storia del gruppo</h2>
+       <p class="vuoto">Non abbiamo ancora una storia verificata per ${esc(a.nome)}: preferiamo lasciarla vuota piuttosto che riempirla con notizie non controllate.</p>
+     </section>`
+-    }
+-    ${acquistoStoria}
++    }${acquistoStoria ? `\n    ${acquistoStoria}` : ''}
+ 
+     <section class="blocco">
+       <div class="azioni">
+         <a class="bottone" href="${r}archivio/">Sfoglia tutto l'archivio</a>
+         <a class="bottone" href="mailto:${esc(AUTORE.email)}?subject=${encodeURIComponent(`Dietro il testo — ${a.nome}`)}">Segnala un errore</a>
+       </div>
+-    </section>
+-    ${informativaAmazonPerScheda(`artista/${a.slug}`, r)}
++    </section>${informativaArtista ? `\n    ${informativaArtista}` : ''}
+   </div>`;
+ 
+   return pagina({

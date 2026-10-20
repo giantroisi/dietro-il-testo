@@ -1,0 +1,30 @@
+[
+  {
+    "prova": "base non autorizzata 0000000000000000000000000000000000000000",
+    "bloccata": true,
+    "motivo": "Commit-base non precedente al lotto"
+  },
+  {
+    "prova": "base non autorizzata ad9091a5101f1b50228583217aa3b90257a9d966",
+    "bloccata": true,
+    "motivo": "Manifesto assente nel commit-base"
+  },
+  {
+    "prova": "scrittura controller/ancora dal lotto",
+    "file": "/Users/gianmicheletroisi/.config/dietro-il-testo/autorita.json",
+    "bloccata": true,
+    "protezione": "macOS uchg"
+  },
+  {
+    "prova": "scrittura controller/ancora dal lotto",
+    "file": "/Users/gianmicheletroisi/.local/lib/dietro-il-testo/controller/0f4bd0dec29273845723a6cfc91ebdc9a3a3b17b/scripts/genera/autorita.mjs",
+    "bloccata": true,
+    "protezione": "macOS uchg"
+  },
+  {
+    "prova": "scrittura controller/ancora dal lotto",
+    "file": "/Users/gianmicheletroisi/.local/lib/dietro-il-testo/controller/0f4bd0dec29273845723a6cfc91ebdc9a3a3b17b/lotto-sicuro",
+    "bloccata": true,
+    "protezione": "macOS uchg"
+  }
+]

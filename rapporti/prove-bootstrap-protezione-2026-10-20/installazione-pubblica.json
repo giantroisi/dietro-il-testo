@@ -1,0 +1,21 @@
+{
+  "versione": 1,
+  "sorgente": "0f4bd0dec29273845723a6cfc91ebdc9a3a3b17b",
+  "bootstrap": "7ca2a36671836dbe8466a4f3adb456baa23d290f",
+  "chiavePubblicaFingerprintSHA256": "0451b1b4adc20ded5e726419e36709676d81dbd2b2b7d6804fee3d824822e176",
+  "chiavePrivataPercorso": "/Users/gianmicheletroisi/.local/share/dietro-il-testo/proprietario/ed25519-privata.pem",
+  "ancora": "/Users/gianmicheletroisi/.config/dietro-il-testo/autorita.json",
+  "controller": "/Users/gianmicheletroisi/.local/lib/dietro-il-testo/controller/0f4bd0dec29273845723a6cfc91ebdc9a3a3b17b",
+  "runtime": {
+    "percorso": "/usr/local/bin/node",
+    "sha256": "c583851fc85e4618b2374cda13399d59d373ad7cebfc4b55160820b88dcce67b"
+  },
+  "files": {
+    "scripts/lotto-sicuro.mjs": "3f57241630424a9918279cacd2bd96bf793aff0ad46511121140ea06b8ffc681",
+    "scripts/genera/autorita.mjs": "364dbac0a66696206a958fd9feef6866c6671469b023f58f7820c200a4002ad8",
+    "scripts/indexnow.mjs": "ae7902d7735789dbcb5bd52b0e242ea63192083e479b2e627c00b980065f9c84",
+    "lotto-sicuro": "a906e34642bd0bc95ae6d1297fa8ab5f14ee9d3b36ec25a479961169ffcf7987"
+  },
+  "data": "2026-10-20T11:34:12.400Z",
+  "mandato": "Autorizzazione diretta in questa chat: generazione e custodia locale, bootstrap e firma del solo manifesto tecnico derivato da 0f4bd0dec. Nessun altro consenso delegato."
+}
