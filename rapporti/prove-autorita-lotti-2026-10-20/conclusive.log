@@ -1,0 +1,93 @@
+{
+  "casi": [
+    {
+      "nome": "base fidata pulita",
+      "esito": "passato"
+    },
+    {
+      "nome": "promozione senza approvazione bloccata",
+      "esito": "passato"
+    },
+    {
+      "nome": "cartolina approvata e baseline promossa",
+      "esito": "passato",
+      "commitPreparato": "ba2efb7638d9fad21f992cb0bc8d5d63ac9f7890",
+      "commitPromosso": "5b24a1e613c0b258691d5593d3614d086b07dfda"
+    },
+    {
+      "nome": "checkout pulito dopo promozione: lotto vuoto riuscito",
+      "esito": "passato"
+    },
+    {
+      "nome": "nuovo link dopo commit pulito, nessun residuo cartolina o consenso globale",
+      "esito": "passato"
+    },
+    {
+      "nome": "manomissione non autorizzata bloccata: dati/baseline-generatore.json",
+      "esito": "passato"
+    },
+    {
+      "nome": "manomissione non autorizzata bloccata: scripts/genera/perimetro.mjs",
+      "esito": "passato"
+    },
+    {
+      "nome": "manomissione non autorizzata bloccata: scripts/genera-sito.mjs",
+      "esito": "passato"
+    },
+    {
+      "nome": "manomissione non autorizzata bloccata: scripts/test-generatore-perimetro.mjs",
+      "esito": "passato"
+    },
+    {
+      "nome": "manomissione non autorizzata bloccata: dati/policy-lotti.json",
+      "esito": "passato"
+    },
+    {
+      "nome": "assume-unchanged non nasconde una modifica al gate",
+      "esito": "passato"
+    },
+    {
+      "nome": "digest esatto del manifesto protetto",
+      "esito": "passato"
+    },
+    {
+      "nome": "approvazione nel medesimo lotto bloccata anche con firma di fixture valida",
+      "esito": "passato"
+    },
+    {
+      "nome": "chiave sostituita o consenso inventato nel manifesto non sufficienti",
+      "esito": "passato"
+    },
+    {
+      "nome": "consenso editoriale non autorizza modifiche strutturali anche se il file è dichiarato",
+      "esito": "passato"
+    },
+    {
+      "nome": "struttura con firma precedente valida, poi checkout pulito",
+      "esito": "passato"
+    },
+    {
+      "nome": "IndexNow default e senza consenso: zero rete e nessuna chiave mostrata",
+      "esito": "passato"
+    },
+    {
+      "nome": "invio simulato solo URL del secondo lotto, non tutti i lastmod odierni",
+      "esito": "passato",
+      "urlList": [
+        "https://www.dietroiltesto.it/canzone/basket-case/"
+      ]
+    },
+    {
+      "nome": "consenso monouso, nessun reinvio autonomo",
+      "esito": "passato"
+    },
+    {
+      "nome": "rete bloccata anche con consenso se checkout manomesso",
+      "esito": "passato"
+    }
+  ],
+  "firme": "solo chiavi effimere di test",
+  "reteReale": 0,
+  "controller": "modulo fidato esterno al checkout della fixture",
+  "checkoutFinalePulito": true
+}

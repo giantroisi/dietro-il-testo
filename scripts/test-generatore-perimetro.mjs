@@ -8,7 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import vm from 'node:vm';
+import { inviaIndexNow } from './genera/autorita.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'dit-perimetro-'));
 const work = path.join(temp, 'workspace');fs.mkdirSync(work);
@@ -83,12 +83,12 @@ try {
   run('11-perimetro-sovradichiarato',{pages:['/canzone/21-guns/'],fail:/Perimetro lotto non esatto/});
   const many=JSON.parse(read('dati/canzoni.json'));const selected=many.filter(c=>c.fraseIconica).slice(0,51);for(const c of selected)c.corpo[c.corpo.length-1]+=' Fixture tecnica del limite.';json('dati/canzoni.json',many);run('12-limite-51-anche-con-lista-esatta',{pages:selected.map(c=>'/canzone/'+c.slug+'/'),fail:/Variazione massiva del catalogo: 51 pagine, limite 50/});reset();
   run('13-deroga-numerica-rifiutata',{extra:['--impatto-atteso=353'],fail:/Deroga quantitativa non ammessa/});
-  // Esegue solo i due frammenti puri delle guardie, mai lo script IndexNow,
-  // né le parti che leggono chiave, inviano richieste o aggiornano registri.
-  const ix=source('scripts/indexnow.mjs');const logs=[];const box={process:{argv:['node','fixture','--tutti'],exit:n=>{throw new Error('EXIT:'+n);}},console:{error:s=>logs.push(s)}};vm.createContext(box);
-  assert.throws(()=>vm.runInContext(ix.slice(ix.indexOf('const tutti'),ix.indexOf('// La chiave sta')),box),/EXIT:1/);assert(logs.some(s=>s.includes('disabilitato')));
-  const box2={indirizzi:Array(51).fill('fixture'),process:{exit:n=>{throw new Error('EXIT:'+n);}},console:{error:s=>logs.push(s)}};vm.createContext(box2);assert.throws(()=>vm.runInContext(ix.slice(ix.indexOf('const LIMITE_URL'),ix.indexOf('console.log(`Indirizzi')),box2),/EXIT:1/);
-  report.casi.push({nome:'14-guardie-indexnow-isolate',esito:'passato',nessunaEsecuzioneIndexNow:true,nessunaRete:true});
+  // API pura, trasporto simulato: nessuno script IndexNow reale eseguito.
+  let rete=0;const fintoFetch=async()=>{rete++;return {status:200};};
+  assert.deepEqual(await inviaIndexNow({invia:false,fetchImpl:fintoFetch}),{rete:false,stato:'disabilitato'});
+  await assert.rejects(inviaIndexNow({invia:true,fetchImpl:fintoFetch}),/consenso/);
+  assert.equal(rete,0);
+  report.casi.push({nome:'14-indexnow-disabilitato-senza-consenso',esito:'passato',nessunaEsecuzioneIndexNow:true,nessunaRete:true});
   console.log(JSON.stringify(report,null,2));
 } finally {
   fs.rmSync(temp,{recursive:true,force:true});report.outputTemporaneiRimossi=!fs.existsSync(temp);
