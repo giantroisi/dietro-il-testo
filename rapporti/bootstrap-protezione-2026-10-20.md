@@ -42,3 +42,14 @@ Il lotto non può sostituire controller/ancora/policy con una propria approvazio
 Autorizzata dal mandato diretto, da eseguire solo dopo il controllo finale della storia dal controller esterno. Vercel: team `team_5wnLmRfxPsCd8aEmcZUsfRKG`, progetto `prj_wpklj5eOzmkjNB97wQMvoaTV2Uvm`, preset Other/statico, radice `.`, nessuna rigenerazione di pagine come build di rilascio. Connettore elenco deployment nega accesso; CLI già autenticata funziona e viene usata sul medesimo progetto. Deployment prima del rilascio `dpl_9qzTzekgdpnpxdkxuHMYTKYKJS8s`, Ready/production, commit ad9091a51.
 
 Esito definitivo, commit pubblicato e riscontri desktop/mobile verranno aggiunti dopo il rilascio. Nessun IndexNow/GSC, modifica editoriale, homepage/date/sitemap o nuovo prodotto Amazon autorizzati da questo lotto.
+
+
+## Esito — protezione tecnica pubblicata e verificata
+
+Push lineare sul main ufficiale `a43bf9b4d7c9100b2228a98e3ec0956de472d366`, dal checkout separato; nessun force push o riallineamento del checkout principale sporco. Produzione https://www.dietroiltesto.it/, deployment `dpl_EvpKAVb3QeTZSKj5e3q4h7kxWAG3` (https://dietro-il-testo-dhctk3arj-giantroisi1.vercel.app), **READY**, domini assegnati senza errori. Ready `2026-10-20T13:43:45.597000+02:00`, build 20.6 secondi.
+
+Dopo Ready: 17/17 file pubblici byte-identici al commit (homepage, canzoni, artisti, album/raccolta, ricerca, robots e tutte le sei sitemap). Tre file tecnici online coincidono con le nuove impronte: AGENTS, IndexNow e manifesto firmato. Ricerca «Hotel California» restituisce canzone e album; Invio apre la canzone. Otto viste distinte su1280×900/390×844 di home/canzone/artista/album, piu un ricontrollo del ritratto mobile dopo caricamento: unaH1, nessun overflow, immagini/alt e pulsanti Amazon presenti. Nessun clic Amazon o avvio audio. Console browser: zero errori; viewport temporaneo ripristinato. Screenshot osservati e conservati.
+
+Log di rilascio senza errori. Avvisi Vercel sul middleware preesistente (edge deprecato, compilazione ESM/CommonJS), file non modificato da questo lotto; nessuna correzione aggiunta. Il build Vercel distribuisce gli artefatti esistenti e compila il middleware, non esegue il generatore editoriale. Questo esito aggiunge soltanto documentazione e prove; nessuna nuova firma, nessun artefatto pubblico cambiato, nessuna attività successiva avviata.
+
+**Conclusione:** bootstrap autentico e firma precedente distinti dall’integrazione, percorso esterno installato e verificato, protezione tecnica online; 696HTML, home/client, contenuti/immagini/prodotti Amazon, date/canonical/571URL/sei sitemap invariati. IndexNow reale0, GSC0. La chiave privata resta soltanto nel percorso protetto locale indicato sopra; nessun uso autorizzato per altri manifesti.

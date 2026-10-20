@@ -1,0 +1,18 @@
+Vercel CLI 64.5.0
+Fetching deployment "dietro-il-testo-dhctk3arj-giantroisi1.vercel.app" in giantroisi1
+2026-10-20T11:43:24.550Z  Running build in Washington, D.C., USA (East) – iad1
+2026-10-20T11:43:24.552Z  Build machine configuration: 2 cores, 8 GB
+2026-10-20T11:43:24.808Z  Cloning github.com/giantroisi/dietro-il-testo (Branch: main, Commit: a43bf9b)
+2026-10-20T11:43:24.811Z  Previous build caches not available.
+2026-10-20T11:43:32.315Z  Cloning completed: 7.505s
+2026-10-20T11:43:33.452Z  Running "vercel build"
+2026-10-20T11:43:33.470Z  Vercel CLI 64.3.1
+2026-10-20T11:43:35.339Z  Warning: middleware.js uses the deprecated "edge" runtime. Migrate to the Node.js runtime for better performance and reliability by exporting `const config = { runtime: 'nodejs' }`. Learn more: https://vercel.com/docs/routing-middleware#runtime-options
+2026-10-20T11:43:35.526Z  Warning: Node.js functions are compiled from ESM to CommonJS. If this is not intended, add "type": "module" to your package.json file.
+2026-10-20T11:43:35.526Z  Compiling "middleware.js" from ESM to CommonJS...
+2026-10-20T11:43:39.192Z  Build Completed in /vercel/output [4s]
+2026-10-20T11:43:39.241Z  Deploying outputs...
+2026-10-20T11:43:45.874Z  Deployment completed
+2026-10-20T11:43:45.891Z  Creating build cache...
+2026-10-20T11:43:47.183Z  Skipping cache upload because no files were prepared
+status	● Ready

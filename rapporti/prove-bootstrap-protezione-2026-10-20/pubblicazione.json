@@ -1,0 +1,22 @@
+{
+  "id": "dpl_EvpKAVb3QeTZSKj5e3q4h7kxWAG3",
+  "url": "dietro-il-testo-dhctk3arj-giantroisi1.vercel.app",
+  "readyState": "READY",
+  "target": "production",
+  "gitSource": {
+    "ref": "main",
+    "repoId": 1318530899,
+    "sha": "a43bf9b4d7c9100b2228a98e3ec0956de472d366",
+    "type": "github",
+    "prId": null
+  },
+  "aliasAssigned": true,
+  "aliasError": null,
+  "ready": 1792496625597,
+  "createdAt": 1792496603052,
+  "buildingAt": 1792496605008,
+  "durataBuildSecondi": 20.6,
+  "dataReadyEuropeRome": "2026-10-20T13:43:45.597000+02:00",
+  "erroriConsoleBrowser": 0,
+  "noteLog": "Build completato senza errori. Due avvisi Vercel sul middleware gia presente: runtime edge deprecato e compilazione ESM/CommonJS; middleware non modificato."
+}

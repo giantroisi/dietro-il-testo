@@ -1,0 +1,17 @@
+[
+  {
+    "file": "AGENTS.md",
+    "status": 200,
+    "improntaAttesa": true
+  },
+  {
+    "file": "scripts/indexnow.mjs",
+    "status": 200,
+    "improntaAttesa": true
+  },
+  {
+    "file": "lotti/238d744606f26100d946b2ab7f53991b8d78c0d96f41710094f6b620a0653a28.json",
+    "status": 200,
+    "improntaAttesa": true
+  }
+]

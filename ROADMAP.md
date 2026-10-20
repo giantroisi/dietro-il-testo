@@ -5046,3 +5046,10 @@ Chiave Ed25519 esclusivamente sul Mac fuori dal repository, impronta pubblica045
 20E2E+14regressioni ripetuti, clone pulito/secondo lotto ordinario di fixture positivi, basi/manomissioni/autoapprovazione bloccate;1124file deterministici,696HTML/571URL/date/canonical/sei sitemap e34sigilli invariati, tutti696HTML tracciati intatti. Home/client e relativo renderer ricerca esclusi dalle modifiche: restano byte-identici. SEO696/zero problemi, Amazon1065 e contestuali7percorsi/10link positivi.17file HTTP prima del rilascio identici. IndexNow simulato soltanto nei test, rete reale0/GSC0.
 
 Dossier rapporti/bootstrap-protezione-2026-10-20.md e prove dedicate, inclusi soli percorsi esterni e impronte pubbliche. Pubblicazione tecnica autorizzata, da concludere dopo ultimo controllo controller/storia e riscontro Vercel/browser; nessuna crescita o nuovo intervento avviato.
+
+
+### Esito §134 — protezione tecnica pubblicata e sito invariato
+
+Push maina43bf9b4d, Verceldpl_EvpKAVb3QeTZSKj5e3q4h7kxWAG3Ready/production/domìni assegnati, 2026-10-20T13:43:45.597000+02:00, 20.6secondi.17file pubblici prima/dopo byte-identici, tre file tecnici online con impronte corrette. Browserotto viste distinte1280/390 e ricontrollo caricamento ritratto: ricerca/Invio, H1, assenza overflow, immagini e CTA Amazon positivi; consolezeroerrori, nessun clic Amazon/audio, viewport ripristinato. Logbuildsenzaerrori, soli avvisi sul middleware preesistente e invariato.
+
+Prove/screenshot/reportpubblicazione in rapporti/prove-bootstrap-protezione-2026-10-20/.696HTML/571URL/date/home/client/sitemap e34sigilli intatti; contenuti e Amazon intatti, main sporco conservato. Solo documentazione conclusiva dopo il rilascio; nessun nuovo lotto, nessun’altra firma/IndexNow/GSC. Controller e chiave privata restano esclusivamente sul Mac nei percorsi protetti documentati. Il checkout principale rimane alla revisione originaria per preservare le sue modifiche concorrenti: usare la copia pulita pubblicata per il successivo lavoro autorizzato.
