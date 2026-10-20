@@ -1,0 +1,38 @@
+{
+  "versione": 2,
+  "id": "protezione-tecnica-0f4bd0dec-2026-10-20",
+  "contenuti": {
+    "versione": 1,
+    "pagine": [],
+    "cartoline": []
+  },
+  "files": {
+    "AGENTS.md": "63526b7b14ec1053c3e7dba20dea1aac460b060cf751752833658a318674ee0b",
+    "dati/baseline-generatore.json": "8d5db63e18bded63380ff29d24bfff45626eb1b8a17021f3021dd159222c3825",
+    "dati/evidenza-home.json": "05e4f134af70d1c2ed87b5cd038c8c891e7ab00594975615b61311fde926c70b",
+    "scripts/genera-sito.mjs": "a1cf549c15c3ca14437e8b264bf86d424a11f2acad20b05925c6090ced595521",
+    "scripts/genera/autorita.mjs": "364dbac0a66696206a958fd9feef6866c6671469b023f58f7820c200a4002ad8",
+    "scripts/genera/pagine.mjs": "46ee22ca5aaa0296cddd8275102149b1b6496b30d0c64370df3248a9d6b1a6e6",
+    "scripts/genera/perimetro.mjs": "3562801dfa83e494a6698c9809583fc4f4edce3c678f1584eb862ac4996b6a11",
+    "scripts/indexnow.mjs": "ae7902d7735789dbcb5bd52b0e242ea63192083e479b2e627c00b980065f9c84",
+    "scripts/lotto-sicuro.mjs": "3f57241630424a9918279cacd2bd96bf793aff0ad46511121140ea06b8ffc681",
+    "scripts/test-autorita-lotti.mjs": "3ad56eeb972d63c34b71281237ee3b1dfa339fcc072e1977131e25661a76bb02",
+    "scripts/test-generatore-perimetro.mjs": "56c580d32a51142642bccc6fc7a73001ce973330ff57a70fa7d7e5d8b2dd093b"
+  },
+  "strutturali": {
+    "AGENTS.md": "63526b7b14ec1053c3e7dba20dea1aac460b060cf751752833658a318674ee0b",
+    "dati/baseline-generatore.json": "8d5db63e18bded63380ff29d24bfff45626eb1b8a17021f3021dd159222c3825",
+    "dati/evidenza-home.json": "05e4f134af70d1c2ed87b5cd038c8c891e7ab00594975615b61311fde926c70b",
+    "scripts/genera-sito.mjs": "a1cf549c15c3ca14437e8b264bf86d424a11f2acad20b05925c6090ced595521",
+    "scripts/genera/autorita.mjs": "364dbac0a66696206a958fd9feef6866c6671469b023f58f7820c200a4002ad8",
+    "scripts/genera/pagine.mjs": "46ee22ca5aaa0296cddd8275102149b1b6496b30d0c64370df3248a9d6b1a6e6",
+    "scripts/genera/perimetro.mjs": "3562801dfa83e494a6698c9809583fc4f4edce3c678f1584eb862ac4996b6a11",
+    "scripts/indexnow.mjs": "ae7902d7735789dbcb5bd52b0e242ea63192083e479b2e627c00b980065f9c84",
+    "scripts/lotto-sicuro.mjs": "3f57241630424a9918279cacd2bd96bf793aff0ad46511121140ea06b8ffc681",
+    "scripts/test-autorita-lotti.mjs": "3ad56eeb972d63c34b71281237ee3b1dfa339fcc072e1977131e25661a76bb02",
+    "scripts/test-generatore-perimetro.mjs": "56c580d32a51142642bccc6fc7a73001ce973330ff57a70fa7d7e5d8b2dd093b"
+  },
+  "promozione": {
+    "files": {}
+  }
+}

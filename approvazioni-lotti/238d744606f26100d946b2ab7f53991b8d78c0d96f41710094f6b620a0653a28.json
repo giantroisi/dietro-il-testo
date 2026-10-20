@@ -1,0 +1,13 @@
+{
+  "payload": {
+    "versione": 1,
+    "parent": "7ca2a36671836dbe8466a4f3adb456baa23d290f",
+    "manifesto": "238d744606f26100d946b2ab7f53991b8d78c0d96f41710094f6b620a0653a28",
+    "azioni": [
+      "build",
+      "promuovi",
+      "struttura"
+    ]
+  },
+  "firma": "nka1R5+4EG48c1fgH0Mv4gdiIQjcU7Vkv/0kd9f8E7X6cWZNqXjYf9rCqumnT3XUkDDOUwlbudo41jdG4POiCA=="
+}
