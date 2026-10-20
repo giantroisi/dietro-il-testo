@@ -25,6 +25,14 @@ const HOST = 'www.dietroiltesto.it';
 const tutti = process.argv.includes('--tutti');
 const prova = process.argv.includes('--prova');
 
+// Il primo invio globale e' gia' avvenuto. Lasciare ancora disponibile
+// --tutti renderebbe troppo facile segnalare nuovamente l'intero catalogo per
+// una modifica locale, proprio l'incidente che questo controllo deve evitare.
+if (tutti) {
+  console.error('ERRORE: --tutti e\' disabilitato su un sito gia\' avviato. IndexNow accetta solo URL realmente modificati.');
+  process.exit(1);
+}
+
 // La chiave sta in un posto solo (P9): di lì nasce sia il file pubblicato sia
 // questa segnalazione, così non possono divergere.
 const percorsoChiave = join(ROOT, 'dati', 'indexnow.json');
@@ -65,6 +73,13 @@ if (indirizzi.length === 0) {
   console.log(`Nessun indirizzo con lastmod ${oggi}: niente da segnalare.`);
   console.log('(Usa --tutti per il primo invio, quando nessuna pagina è ancora nota ai motori.)');
   process.exit(0);
+}
+
+const LIMITE_URL = 50;
+if (indirizzi.length > LIMITE_URL) {
+  console.error(`ERRORE SEO: ${indirizzi.length} URL sarebbero segnalati a IndexNow (limite ${LIMITE_URL}).`);
+  console.error('Controllare i lastmod: una modifica locale non deve diventare una segnalazione di massa.');
+  process.exit(1);
 }
 
 console.log(`Indirizzi da segnalare: ${indirizzi.length}${tutti ? ' (tutti)' : ` (modificati il ${oggi})`}`);

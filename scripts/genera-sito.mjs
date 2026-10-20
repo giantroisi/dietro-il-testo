@@ -441,7 +441,11 @@ for (const nome of existsSync(ROOT) ? readdirSync(ROOT) : []) {
   }
 }
 
-const canzoniCambiate = [];
+// Una piccola modifica editoriale non deve mai trasformarsi, senza che nessuno
+// se ne accorga, in una riscrittura del catalogo. Conserviamo l'elenco di tutte
+// le pagine editoriali esistenti il cui contenuto normalizzato e' cambiato; il
+// budget viene controllato prima di scrivere sitemap e segnali di scansione.
+const pagineCambiate = [];
 
 function primaDifferenza(vecchio, nuovo) {
   const righeVecchie = vecchio.split('\n');
@@ -469,11 +473,9 @@ function lastmodDi(percorsoFile, percorsoUrl, contenutoNuovo) {
     if (vecchioNormalizzato === nuovoNormalizzato) {
       const precedente = vecchiLastmod.get(percorsoUrl) || contenutoVecchio.match(DATA_MODIFICA_CATTURA)?.[1];
       if (precedente) return precedente;
-    } else if (percorsoUrl.startsWith('canzone/')) {
-      canzoniCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
+    } else if (/^(?:canzone|artista|album|genere|anni)\//.test(percorsoUrl)) {
+      pagineCambiate.push({ percorsoUrl, differenza: primaDifferenza(vecchioNormalizzato, nuovoNormalizzato) });
     }
-  } else if (percorsoUrl.startsWith('canzone/')) {
-    canzoniCambiate.push({ percorsoUrl, differenza: 'pagina precedente assente' });
   }
   return oggi;
 }
@@ -548,13 +550,6 @@ for (const c of canzoni) {
   lastmodCanzoni.set(c.slug, lastmod);
   manifestoPagine.push({ percorso: `canzone/${c.slug}/`, categoria: 'articolo', indicizzabile: true });
 }
-if (canzoniCambiate.length > canzoni.length / 2) {
-  console.error(`ERRORE: ${canzoniCambiate.length} schede su ${canzoni.length} risultano modificate in una sola generazione. La generazione viene interrotta per proteggere i lastmod.`);
-  for (const { percorsoUrl, differenza } of canzoniCambiate.slice(0, 5)) {
-    console.error(`  /${percorsoUrl} — ${differenza}`);
-  }
-  throw new Error('Variazione massiva dei lastmod: controllare le differenze prima di pubblicare.');
-}
 const lastmodArtisti = new Map();
 for (const a of artisti) {
   const html = paginaArtista(a, ctx);
@@ -594,6 +589,27 @@ for (const rac of raccolte) {
     haTestoEditoriale: Boolean(rac.introduzione),
   });
 }
+
+// SEO safety gate. Il limite ordinario e' il piu' severo fra 50 pagine e il
+// 10% del catalogo editoriale. Un intervento piu' ampio e' possibile soltanto
+// dichiarando a monte il numero ESATTO atteso con --impatto-atteso=N: in tal
+// modo una routine non puo' approvare alla cieca un effetto globale inatteso.
+const totaleEditoriale = canzoni.length + artisti.length + album.length + raccolte.length;
+const limiteOrdinario = Math.max(1, Math.min(50, Math.floor(totaleEditoriale * 0.10)));
+const argImpatto = process.argv.find((arg) => arg.startsWith('--impatto-atteso='));
+const impattoAtteso = argImpatto ? Number(argImpatto.split('=')[1]) : null;
+if (argImpatto && (!Number.isInteger(impattoAtteso) || impattoAtteso < 0)) {
+  throw new Error('--impatto-atteso richiede un numero intero non negativo.');
+}
+if (pagineCambiate.length > limiteOrdinario && pagineCambiate.length !== impattoAtteso) {
+  console.error(`ERRORE SEO: ${pagineCambiate.length} pagine editoriali esistenti risultano modificate (limite ordinario ${limiteOrdinario}).`);
+  for (const { percorsoUrl, differenza } of pagineCambiate.slice(0, 5)) {
+    console.error(`  /${percorsoUrl} — ${differenza}`);
+  }
+  console.error(`Se l'intervento e' davvero intenzionale, rieseguire solo dopo revisione con --impatto-atteso=${pagineCambiate.length}.`);
+  throw new Error('Variazione massiva del catalogo bloccata prima delle sitemap.');
+}
+console.log(`Impatto SEO: ${pagineCambiate.length} pagine editoriali esistenti modificate (limite ordinario ${limiteOrdinario}).`);
 writeFileSync(join(ROOT, 'dati', 'pagine-seo.json'), JSON.stringify(manifestoPagine, null, 2) + '\n', 'utf8');
 
 scrivi('ricerca.js', generaRicerca(ctx));

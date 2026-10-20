@@ -5008,3 +5008,12 @@ Dossier rapporti/h2-raccolte-2026-10-19.md, diff/prove dedicati e proposta futur
 ### Esito §130 — nove H2 pubblicati con date e sitemap invariate, 19 ottobre 2026
 
 Approvazione diretta del proprietario per c21c74ffd. Integrato/push soltanto il lotto verificato; VercelCQx55opLTk3o6vhXgDYCRwzjk1K3 Ready/Latest/Current/Production,18:20:47CEST,18secondi. Prima/dopo15file pubblici identici ai rispettivi commit: noveHTML e sei sitemap; hash delle sei sitemap invariati. DatePublished/dateModified/lastmod e metadati preservati. Browser18viste1280×900/390×844 conferma nuoviH2, unaH1 e assenza overflow; prova desktop osservata. Nessun build generale. Rapporto/prove pubblicazione dedicati; questa chiusura è sola documentazione. Main/nontracciati/altraAI/revisioni intatti, test futuro non applicato, cartoline ferme.
+
+
+## 131. Diagnosi delle 353 variazioni del generatore — 20 ottobre 2026
+
+Solo diagnosi su mandato diretto trasmesso dalla chat centrale, nessuna correzione o pubblicazione. Build nella copia temporanea con generatore concorrente invariato: blocco353/50 riprodotto prima delle sitemap, senza deroghe o modifiche ai controlli. Confronto696HTML/F40:298canzoni con una riga vuota e55artisti con quattro righe vuote; righe non vuote identiche in tutte353. Ulteriore scarto home dovuto alla rotazione giornaliera preesistente, fuori dal conteggio del gate. Tecnici sovrapposti:625regole griglia,10ricollocazioni stili cartolina,33pagine con36anteprime correlate da tre correzioni già approvate. Nessun nuovo contenuto preparato.
+
+Impatto diagnostico:353dateModified ingiustificati;354lastmod candidati includendo home. DatePublished/canonical invariati;571URL sitemap identici, nessuna sitemap generata dopo il blocco e nessuna data pubblica toccata. **Rigenerazione generale non pubblicabile.** Referto rapporti/diagnosi-rigenerazione-2026-10-20.md e prove dedicate; solo proposta diff non applicata per evitare newline nei rami opzionali vuoti del modello. Prossimo passo soggetto ad approvazione: sola correzione isolata del modello, con output pubblico fermo e gestione home separata; poi verifiche determinismo/date/caso negativo.
+
+HEAD/main, due script concorrenti e due SEO non tracciati preservati; modificati soltanto documentazione diagnostica e questa sezione. Nessun commit/push/deploy/GSC/IndexNow/Amazon/immagine/cartolina. Output temporanei propri rimossi dopo salvataggio delle prove. Nessun altro lotto avviato.
