@@ -5064,3 +5064,12 @@ Richiesta diretta tramite rapporto allegato. Basecd6c01c57, copia amazon-sei-alb
 SEO696/zero, affiliazioni1127, contestuali7percorsi/10link,34vistebrowser1280/390 e navigazione canzone→band→album→canzone superati;3riquadri visibili canzone/album,4artista, informativa unica,zerooverflow/console,tag/formati/CTA corretti. Prove e screenshot in rapporti/prove-amazon-sei-album-2026-10-21/, dossier dedicato. Manifesto proposto829123754efe22338f166691f85afc4d57349f11ca140ed33da56f820088641e, non firmato e fuori dai percorsi operativi riconosciuti dal controller.
 
 Da mostrare e approvare espressamente prima di firma del nuovo manifesto, inserimento operativo, integrazione/push/pubblicazione. Il mandato alla chiave del20ottobre valeva solo per il bootstrap tecnico. Mainsporco/nontracciati/altreAI/revisioni preservati, nessun IndexNow/GSC o nuovo lotto avviato. Anteprima locale8951; artefatti proposti recuperabili nel dossier.
+
+
+### Approvazione e rilascio protetto — 21 ottobre 2026
+
+Il proprietario ha approvato in questa chat firma e pubblicazione di questo esatto lotto, inclusi quattro vinili Prime, due CD Prime dopo ricerca vinile, 17 pagine e i 15 soli lastmod. Usata la chiave esistente esclusivamente per il manifesto 829123754efe22338f166691f85afc4d57349f11ca140ed33da56f820088641e; nessuna chiave privata è presente nei file Git o destinata a GitHub/Vercel. Approvazione precedente A e4b426d1c, preparazione C 049083566, promozione P 08235dd8f, mediante controller esterno originale.
+
+Tutti i venti artefatti corrispondono alle impronte dell’anteprima approvata. Controlli sul risultato protetto: 696 pagine SEO/zero problemi, 1127 link Amazon, 7 percorsi/10 collegamenti contestuali; testi editoriali, metadati e datePublished preservati. 17 dateModified e 15 lastmod autorizzati, nessun URL aggiunto; 679 HTML, homepage, ricerca, renderer e baseline storica invariati. Nuovo checkout pulito del commit P, generazione protetta senza lotto: 1129 file identici al risultato approvato, date e sitemap stabili; checkout rimasto pulito. Prove verifica-pubblicazione.json e base-pulita.json.
+
+Main e tutti i venti hash dei file concorrenti ancora identici. Integrazione lineare e pubblicazione già autorizzate, da riscontrare su Vercel e dominio pubblico prima di dichiarare il lavoro concluso. Nessun IndexNow o GSC.

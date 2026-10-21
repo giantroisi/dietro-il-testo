@@ -1,0 +1,130 @@
+{
+  "base": "cd6c01c57071672afd115cdaa25a4e520c5eeec1",
+  "manifesto": "lotti/829123754efe22338f166691f85afc4d57349f11ca140ed33da56f820088641e.json",
+  "improntePromozioneConformi": 20,
+  "HTMLModificati": 17,
+  "HTMLInvariati": 679,
+  "dateModified": 17,
+  "lastmodModificati": [
+    {
+      "url": "https://www.dietroiltesto.it/album/adele/21/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/the-police/synchronicity/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/the-white-stripes/elephant/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/toto/toto-iv/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/someone-like-you/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/africa/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/zombie-cranberries/",
+      "prima": "2026-10-03",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/seven-nation-army/",
+      "prima": "2026-10-04",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/every-breath-you-take/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/thunderstruck/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/adele/",
+      "prima": "2026-10-06",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-cranberries/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-police/",
+      "prima": "2026-10-06",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-white-stripes/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/toto/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    }
+  ],
+  "sitemap": {
+    "sitemap-raccolte.xml": {
+      "invariata": true,
+      "lastmod": 0
+    },
+    "sitemap-album.xml": {
+      "invariata": false,
+      "lastmod": 4
+    },
+    "sitemap-canzoni.xml": {
+      "invariata": false,
+      "lastmod": 6
+    },
+    "sitemap-artisti.xml": {
+      "invariata": false,
+      "lastmod": 5
+    },
+    "sitemap-pagine.xml": {
+      "invariata": true,
+      "lastmod": 0
+    },
+    "sitemap.xml": {
+      "invariata": true,
+      "lastmod": 0
+    }
+  },
+  "testiEditorialiMetadatiDatePublishedPreservati": true,
+  "homeClientRendererBaselineIntatti": true,
+  "chiaviPrivateNeiFileGit": false,
+  "check": {
+    "check-seo.mjs": {
+      "exit": 0,
+      "esito": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito."
+    },
+    "check-affiliazioni.mjs": {
+      "exit": 0,
+      "esito": "OK: configurazione, dichiarazione, 1127 link verificati, avvisi, rel e nessuna risorsa Amazon."
+    },
+    "check-collegamenti-contestuali.mjs": {
+      "exit": 0,
+      "esito": "7 percorsi contestuali, 10 collegamenti: dati, destinazioni e posizione corretti."
+    }
+  },
+  "QA": "/private/tmp/dit-amazon-checks-ietbgnjg",
+  "IndexNowGSC": 0
+}

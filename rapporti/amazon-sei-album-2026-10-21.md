@@ -60,3 +60,12 @@ Copia: `/Users/gianmicheletroisi/.codex/worktrees/amazon-sei-album-2026-10-21/di
 Mostrare al proprietario questa proposta prima di inserimento operativo/firma/integrazione/push/pubblicazione. Chiedere approvazione esplicita per il manifesto esatto, i due CD dopo ricerca dei vinili, le17pagine e le sole15variazioni lastmod. La vecchia autorizzazione alla firma del solo bootstrap tecnico non si estende a questo lotto. In caso di approvazione in una data diversa, ricontrollare Prime e ricalcolare l’eventuale differenza delle date/impronte prima di firmare: non riutilizzare una firma per bytes diversi.
 
 Nessun push, pubblicazione, IndexNow, GSC o aggiornamento della routine. Non avviare un altro lotto mentre questa proposta è in revisione.
+
+
+### Approvazione e rilascio protetto — 21 ottobre 2026
+
+Il proprietario ha approvato in questa chat firma e pubblicazione di questo esatto lotto, inclusi quattro vinili Prime, due CD Prime dopo ricerca vinile, 17 pagine e i 15 soli lastmod. Usata la chiave esistente esclusivamente per il manifesto 829123754efe22338f166691f85afc4d57349f11ca140ed33da56f820088641e; nessuna chiave privata è presente nei file Git o destinata a GitHub/Vercel. Approvazione precedente A e4b426d1c, preparazione C 049083566, promozione P 08235dd8f, mediante controller esterno originale.
+
+Tutti i venti artefatti corrispondono alle impronte dell’anteprima approvata. Controlli sul risultato protetto: 696 pagine SEO/zero problemi, 1127 link Amazon, 7 percorsi/10 collegamenti contestuali; testi editoriali, metadati e datePublished preservati. 17 dateModified e 15 lastmod autorizzati, nessun URL aggiunto; 679 HTML, homepage, ricerca, renderer e baseline storica invariati. Nuovo checkout pulito del commit P, generazione protetta senza lotto: 1129 file identici al risultato approvato, date e sitemap stabili; checkout rimasto pulito. Prove verifica-pubblicazione.json e base-pulita.json.
+
+Main e tutti i venti hash dei file concorrenti ancora identici. Integrazione lineare e pubblicazione già autorizzate, da riscontrare su Vercel e dominio pubblico prima di dichiarare il lavoro concluso. Nessun IndexNow o GSC.
