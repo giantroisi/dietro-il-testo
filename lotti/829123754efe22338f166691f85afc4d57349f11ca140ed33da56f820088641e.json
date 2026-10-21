@@ -1,0 +1,56 @@
+{
+  "versione": 2,
+  "id": "amazon-sei-album-2026-10-21",
+  "contenuti": {
+    "versione": 1,
+    "pagine": [
+      "/album/ac-dc/the-razors-edge/",
+      "/album/adele/21/",
+      "/album/the-cranberries/no-need-to-argue/",
+      "/album/the-police/synchronicity/",
+      "/album/the-white-stripes/elephant/",
+      "/album/toto/toto-iv/",
+      "/artista/adele/",
+      "/artista/the-cranberries/",
+      "/artista/the-police/",
+      "/artista/the-white-stripes/",
+      "/artista/toto/",
+      "/canzone/africa/",
+      "/canzone/every-breath-you-take/",
+      "/canzone/seven-nation-army/",
+      "/canzone/someone-like-you/",
+      "/canzone/thunderstruck/",
+      "/canzone/zombie-cranberries/"
+    ],
+    "cartoline": []
+  },
+  "files": {
+    "dati/affiliazioni-prodotti.json": "46c7fb7ef20dae62e51ba1c0aab2e9e76870a0afdbc6ad418881ab1907acf61e",
+    "dati/affiliazioni-artisti.json": "97312a8d92302914cc5bea0c61f305d63d12e2c46dadbab7114ece2a88e2d32f"
+  },
+  "strutturali": {},
+  "promozione": {
+    "files": {
+      "album/ac-dc/the-razors-edge/index.html": "c64b35cae72d03e0884ed5d6de1df2d89b355b14a57dc5c5eb3e9a7efba3bbca",
+      "album/adele/21/index.html": "be4f0904b36d347cb2a683ee61c01ecc6f606cfd067103386629b1417e25b6c1",
+      "album/the-cranberries/no-need-to-argue/index.html": "219e6cfed16ef8ed4f004ba1e1602258fe457b68697c14f57c3101385ba4cdcd",
+      "album/the-police/synchronicity/index.html": "fdd38d009c6a271dc673f0cb3b7912ea26a3c8b6d8e907f5905de370973d978d",
+      "album/the-white-stripes/elephant/index.html": "776e6a3900727fe96651225435cb2d459c0b76be7b9a6abd06b5ee8a80255977",
+      "album/toto/toto-iv/index.html": "8c0e56203d57159e50977dd2b568863df4a84e6f37561ce2db97afa33fd203da",
+      "artista/adele/index.html": "c153bc1b58603a237e0f2f183c2cfb1dbcc2d6d30e45221377ef2dd70ed59081",
+      "artista/the-cranberries/index.html": "7f07567dd8c512925353a8b5140fc753b0ec7393a95413ac3d4e2404ecc7c75d",
+      "artista/the-police/index.html": "233f3c368c7e25da6f027b8b455d3cf9568eb2df5e47ede8044d20bcb0e7d057",
+      "artista/the-white-stripes/index.html": "0d5da6c2ed9f9eca2cebe245fc31f925c011d4ff7deb2e0f368a8aac5466e435",
+      "artista/toto/index.html": "c6e512d4a73855bc198eca7c223a17f75774cad5943d9c658967aa1af4367dcf",
+      "canzone/africa/index.html": "07cc9aa50c1361e7ffe8498769f812994a589faa890a6aa38bfd88e5cf085dad",
+      "canzone/every-breath-you-take/index.html": "7f9ee2e12d32aaea54c5ef36dc891308aac72ce847cd494bf6c84d52eec7c75e",
+      "canzone/seven-nation-army/index.html": "4bb3be7aebd38d796825de195b017f89158ba7e8b3e1a67787720790f1dd8c9d",
+      "canzone/someone-like-you/index.html": "c4498cbb3b82aa93489a337552607365c6c90b58c970c4c6ab6f90de6368c3d4",
+      "canzone/thunderstruck/index.html": "4397e4662cfbb094cab523f0fbd9899a1ca6632948d99900fea2df4521531750",
+      "canzone/zombie-cranberries/index.html": "5c327b86bba76bdc07e8c98e8a85ea7cc89d10ebcaf87db2a32283ecf0ab7b1d",
+      "sitemap-album.xml": "b101c436f8cfaeb1db249904c7c341c7785cfd4124033ecfb7c8301881987989",
+      "sitemap-artisti.xml": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "sitemap-canzoni.xml": "24a7196d825ea7ffd3c5545aa608a1ea2bb276467efeeabba797b70335321e5c"
+    }
+  }
+}
