@@ -1,0 +1,355 @@
+# Amazon — schema reale del repository e nuovo lotto di prodotti
+
+**Data:** 21 ottobre 2026 · **Tracking ID:** `dietroiltesto-21`
+**Vincoli rispettati:** nessun prodotto inserito, nessun file del progetto modificato, nessuna pubblicazione, nessuna data/sitemap/metadato toccato. Nessun prezzo nei record. Nessun dato Google Search Console usato.
+
+---
+
+## Parte 1 — Che cosa vuole davvero il codice
+
+Ho letto `dati/affiliazioni.json`, `dati/affiliazioni-prodotti.json`, `dati/affiliazioni-artisti.json`, `scripts/genera/affiliazioni.mjs` e `scripts/check-affiliazioni.mjs`. Il catalogo oggi ha **102 prodotti**; lo schema non è più quello del brief `SEO-AFFILIAZIONE-FASE2.md` dell'8 ottobre.
+
+### 1.1 La chiave non è la scheda, è l'album
+
+```
+album/<artistaSlug>/<albumSlug>
+```
+
+Le canzoni **ereditano** il prodotto del disco: `prodottoAmazonPerScheda` risolve `album/${c.artistaSlug}/${c._albumSlugPagina || c.albumSlug}`. Un prodotto per album, mai uno per canzone. `check-affiliazioni.mjs` rifiuta qualunque chiave che non corrisponda a `^album/[^/]+/[^/]+$` e qualunque album non presente in `dati/album-computati.json`.
+
+### 1.2 Nei contenuti va l'URL **completo di tag**, non il tag aggiunto al momento
+
+Questa era la domanda da sciogliere, e il codice risponde senza ambiguità. `collegamentoAmazon` **non aggiunge niente**: legge l'`href` così com'è e lo *verifica*.
+
+```js
+if (url.searchParams.getAll('tag').length !== 1 || url.searchParams.get('tag') !== TRACKING_ID_AMAZON) {
+  throw new Error('Tracking ID del link Amazon non corrispondente alla configurazione');
+}
+```
+
+Il Tracking ID è centralizzato **come valore di confronto** in `dati/affiliazioni.json`, non come pezzo di URL da concatenare. Quindi: **l'`href` salvato nei dati deve già contenere `?tag=dietroiltesto-21`.**
+
+### 1.3 Il formato URL del brief iniziale **viene rifiutato dal progetto**
+
+Il brief chiedeva `https://www.amazon.it/dp/ASIN/?tag=dietroiltesto-21`. Il codice ammette solo due forme, scelte dal campo `origine`:
+
+| `origine` | forma ammessa |
+|---|---|
+| `strumento-ufficiale-amazon` | qualunque URL copiato da SiteStripe, purché HTTPS su `www.amazon.it` con **un solo** `tag` uguale al Tracking ID (87 prodotti su 102) |
+| `formato-documentato-amazon` | **esattamente** `https://www.amazon.it/dp/<ASIN>/ref=nosim?tag=dietroiltesto-21` (15 prodotti) |
+
+Il vincolo è letterale: `/^\/dp\/[A-Z0-9]{10}\/ref=nosim$/` sul percorso e `?tag=dietroiltesto-21` esatto sulla query, senza frammento.
+
+**Prova, eseguendo il codice del progetto:**
+
+| URL provato | esito reale |
+|---|---|
+| `…/dp/B0106US03M/?tag=dietroiltesto-21` — *il formato del brief* | **RIFIUTATO** — «Formato Amazon documentato o verifica Controllo Link assente» |
+| `…/dp/B0106US03M?tag=dietroiltesto-21` | **RIFIUTATO** — stesso errore |
+| `…/dp/B0106US03M/ref=nosim?tag=dietroiltesto-21` | **ACCETTATO** |
+| lo stesso URL, ma senza i tre campi del Controllo Link | **RIFIUTATO** |
+
+Ho quindi usato `ref=nosim`, non il formato del brief. Non per preferenza: perché l'altro non passa.
+
+### 1.4 I tre campi che accompagnano il formato documentato
+
+Con `origine: "formato-documentato-amazon"` il componente pretende anche, con valori esatti:
+
+- `documentazioneLink` === `https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC`
+- `verificaTracking` nella forma `AAAA-MM-GG`
+- `esitoControlloLink` === `Operazione riuscita: il link è stato associato a un tag o sub-tag valido per il tuo ID Affiliazione.`
+
+Sono la traccia dello strumento **Controllo Link** del pannello Affiliazione. Richiedono una sessione Associates attiva.
+
+### 1.5 Campi obbligatori, letti dal codice e non dedotti
+
+Presenti in tutti i 102 prodotti e imposti dai controlli:
+
+| Campo | Chi lo impone |
+|---|---|
+| `href`, `testo`, `origine`, `titolo`, `artista`, `formato` | `collegamentoAmazon` |
+| `prodotto`, `dataVerifica`, `prova` | `check-affiliazioni.mjs` — «provenienza della verifica incompleta» |
+| `fonte` | `check-affiliazioni.mjs`, per la coerenza dell'ASIN |
+| **`primeVerificato`, `provaPrime`** | `check-affiliazioni.mjs` — «verifica Prime assente» |
+
+Campi condizionati:
+
+- `formato` può essere **solo** `Vinile` o `CD`.
+- Se `formato === "CD"`, diventano obbligatori **`fonteRicercaVinile` e `provaRicercaVinile`**: va documentato di aver cercato prima il vinile.
+- `soloArtista: true` serve **solo** se l'album non ha una pagina propria, e in quel caso il prodotto deve comparire in `dati/affiliazioni-artisti.json`.
+- L'ASIN deve coincidere in tre punti: dentro `prodotto` nella forma `ASIN XXXXXXXXXX`, nel percorso di `href` e nel percorso di `fonte`.
+
+### 1.6 Che cosa il controllo vieta nei contenuti
+
+Dentro il blocco renderizzato, `check-affiliazioni.mjs` fallisce se trova `€`, `EUR`, `Prime`, `stelle` o `disponibil`. Prezzi, disponibilità e valutazioni **non possono** entrare nelle pagine: coerente con la richiesta. Vietate anche le risorse ospitate da Amazon (immagini, script, iframe).
+
+### 1.7 Quanti riquadri per pagina
+
+Non è libero: `check-affiliazioni.mjs` conta i blocchi e fallisce se il numero non corrisponde.
+
+| Pagina | Riquadri attesi |
+|---|---|
+| `album/<artista>/<album>/` | 3 |
+| `canzone/<slug>/` | **4** se la scheda ha `spotifyId`, altrimenti 3 |
+| `artista/<slug>/` | 4, uno per posizione: immagine, storia, album, canzoni |
+
+---
+
+## Parte 2 — Priorità, senza ricominciare la ricerca
+
+Stato del catalogo: **321 canzoni, 102 prodotti, 174 schede canzone ancora scoperte** su 155 album.
+
+Sulla priorità va detta una cosa netta: **non ho dati Google Search Console** e non li ho cercati. Ho usato due indicatori interni al repository e li dichiaro per quello che sono — indicatori, non impressioni:
+
+1. `lastmod` in `sitemap-canzoni.xml` — da quanto la pagina è stabile e inviata;
+2. `ascolti` in `dati/canzoni.json` — domanda di ricerca attesa.
+
+Le prime pagine scoperte per ascolti (escluse Blink-182 e Hotel California, di Codex):
+
+| Ascolti | Scheda | Album scoperto |
+|---|---|---|
+| 3,7 mld | `canzone/every-breath-you-take/` | The Police — *Synchronicity* |
+| 2,7 mld | `canzone/someone-like-you/` | Adele — *21* |
+| 2,5 mld | `canzone/easy-on-me/` | Adele — *30* |
+| 2,36 mld | `canzone/thunderstruck/` | AC/DC — *The Razors Edge* |
+| 2,3 mld | `canzone/seven-nation-army/` | The White Stripes — *Elephant* |
+| 2,2 mld | `canzone/youngblood/` | 5 Seconds of Summer — *Youngblood* |
+| 2,1 mld | `canzone/africa/` | Toto — *Toto IV* |
+| 1,8 mld | `canzone/zombie-cranberries/` | The Cranberries — *No Need to Argue* |
+| 1,7 mld | `canzone/sweet-home-alabama/` | Lynyrd Skynyrd — *Second Helping* |
+| 1,6 mld | `canzone/should-i-stay/` | The Clash — *Combat Rock* |
+
+Ho lavorato sulle prime sei realizzabili. Tutte e sei hanno la pagina album esistente (`esiste: true`), quindi **nessuna** richiede `soloArtista`.
+
+---
+
+## Parte 3 — Il limite che decide la classificazione
+
+**La sessione Amazon non è collegata, e senza sessione il riquadro d'acquisto non esiste.** Non è una supposizione: è una prova di controllo.
+
+Sulla pagina `B0CXLJFQ4J` (Synchronicity), a sessione scollegata:
+
+```
+#nav-link-accountList  →  "Ciao, accedi"
+#desktop_buybox esiste →  true
+testo del buybox       →  "Consegna a Gubbio 06024: aggiorna luogo ·
+                           Visualizza tutte le opzioni di acquisto · Aggiungi alla Lista"
+icone .a-icon-prime in tutta la pagina  →  0
+#add-to-cart-button    →  assente
+```
+
+Il riquadro c'è ma **non ha un'offerta selezionata**: niente venditore, niente disponibilità, niente distintivo Prime, nemmeno il pulsante del carrello. È la stessa trappola dell'8 ottobre, quando stavo per riferire che Sempiternal non aveva offerte Prime: era la pagina a non renderle.
+
+L'estensione Chrome non risponde («Browser extension is not connected»), quindi non ho potuto ripetere il metodo di allora.
+
+**Conseguenza onesta:** tre campi obbligatori non sono compilabili oggi — `primeVerificato`, `provaPrime` e, per il formato documentato, `verificaTracking` + `esitoControlloLink`. Perciò **nessuno dei sei prodotti è "verificato e pronto"**. Tutti e sei stanno nei dubbi, con il dubbio nominato con precisione.
+
+---
+
+## Parte 4 — Tabella di controllo
+
+Formato verificato sulla pagina: tutti **Vinile**, quindi la ricerca preventiva del vinile non si applica.
+
+| # | Pagine del sito servite | Artista | Album | Prodotto scelto | Formato | ASIN | URL Amazon pulito | URL con tag (forma del repository) |
+|---|---|---|---|---|---|---|---|---|
+| 1 | `/canzone/every-breath-you-take/` · `/album/the-police/synchronicity/` | The Police | Synchronicity | Synchronicity — vinile Polydor, rif. 5582171, 1 disco | Vinile | `B0CXLJFQ4J` | `https://www.amazon.it/Synchronicity-Police/dp/B0CXLJFQ4J` | `https://www.amazon.it/dp/B0CXLJFQ4J/ref=nosim?tag=dietroiltesto-21` |
+| 2 | `/canzone/someone-like-you/` · `/album/adele/21/` | Adele | 21 | Adele - 21 — vinile XL Recordings, rif. XLLP520, 1 disco, origine Italia | Vinile | `B004C6QDCW` | `https://www.amazon.it/21-Adele/dp/B004C6QDCW` | `https://www.amazon.it/dp/B004C6QDCW/ref=nosim?tag=dietroiltesto-21` |
+| 3 | `/canzone/thunderstruck/` · `/album/ac-dc/the-razors-edge/` | AC/DC | The Razors Edge | Razors Edge — vinile Epic, mod. 2724475911613, 1 disco | Vinile | `B0000CDLKX` | `https://www.amazon.it/Razors-Edge-Ac-Dc/dp/B0000CDLKX` | `https://www.amazon.it/dp/B0000CDLKX/ref=nosim?tag=dietroiltesto-21` |
+| 4 | `/canzone/seven-nation-army/` · `/album/the-white-stripes/elephant/` | The White Stripes | Elephant | Elephant (Limited Edition 20th Anniversary) — vinile Third Man/Legacy, 2 dischi | Vinile | `B0BX7CJ8M1` | `https://www.amazon.it/Elephant-Limited-20th-Anniversary-Vinyl/dp/B0BX7CJ8M1` | `https://www.amazon.it/dp/B0BX7CJ8M1/ref=nosim?tag=dietroiltesto-21` |
+| 5 | `/canzone/africa/` · `/album/toto/toto-iv/` | Toto | Toto IV | Toto Iv — vinile Sony Music, mod. HC 47728, 1 disco, origine Italia | Vinile | `B08DSYRT3F` | `https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F` | `https://www.amazon.it/dp/B08DSYRT3F/ref=nosim?tag=dietroiltesto-21` |
+| 6 | `/canzone/zombie-cranberries/` · `/album/the-cranberries/no-need-to-argue/` | The Cranberries | No Need to Argue | No Need To Argue — vinile Island Records, mod. 7591475, 1 disco, origine Rep. Ceca | Vinile | `B0F1ZYHXC3` | `https://www.amazon.it/No-Need-Argue-Cranberries/dp/B0F1ZYHXC3` | `https://www.amazon.it/dp/B0F1ZYHXC3/ref=nosim?tag=dietroiltesto-21` |
+
+### Motivazione e dubbi, uno per uno
+
+**1 · The Police — Synchronicity.** *Every Breath You Take* è la traccia d'apertura del lato B di *Synchronicity* (1983): l'album giusto, non una raccolta. Pagina verificata: byline «The Police (Artista) Formato: Vinile», Polydor, 1 disco, canonico coerente.
+*Dubbi:* la pagina mostra la sola variante vinile, nessun CD affiancato — non c'è rischio di agganciare il formato sbagliato, ma nemmeno un'alternativa se il vinile sparisce. Prime non verificato.
+
+**2 · Adele — 21.** *Someone Like You* chiude *21* (2011). La pagina ha quattro varianti (Streaming, MP3, CD audio, Vinile) e l'ASIN `B004C6QDCW` è **la variante vinile**, confermata dal byline. Etichetta XL Recordings, riferimento XLLP520 coerente con l'edizione originale.
+*Dubbi:* su pagine multivariante l'ASIN del CD è diverso; se un giorno il vinile uscisse di catalogo, il link potrebbe ricadere su un'altra variante. Da ricontrollare alla pubblicazione. Prime non verificato.
+
+**3 · AC/DC — The Razors Edge.** *Thunderstruck* apre *The Razors Edge* (1990). L'ASIN appartiene alla stessa serie Epic dei dodici prodotti AC/DC già in catalogo (`B0000CDLKT` Highway to Hell, `B0000CDLKZ` For Those About to Rock, `B0000CDLL5` Flick of the Switch): coerenza editoriale oltre che tecnica.
+*Dubbi:* il titolo del prodotto è «Razors Edge» senza articolo, mentre la pagina e la discografia dicono «The Razors Edge» — ho usato il titolo della discografia nel campo `titolo` e segnalato la differenza nella `prova`. **Scartate due inserzioni bundle** (`B0HBKSZ4Q8` «The Razors Edge / Back In Black 2 Vinyl Bundle» e `B0HGN2KG4K` «4Pack»): contengono più album e non corrispondono alla pagina. Prime non verificato.
+
+**4 · The White Stripes — Elephant.** *Seven Nation Army* apre *Elephant* (2003). Edizione identificata senza ambiguità: 20th Anniversary, Third Man Records/Legacy, 2 dischi.
+*Dubbi, il più serio del lotto:* è un'edizione limitata **molto costosa** rispetto alla ristampa comune, mentre sulla stessa pagina CD audio e MP3 costano una frazione. Come consiglio d'acquisto può essere una scelta discutibile. L'alternativa trovata, `B0F78PC7GQ` «White Stripes - Elephant [Vinyl]», è un'inserzione generica senza edizione dichiarata: l'ho esclusa per la regola sulle inserzioni ambigue, ma vale la pena riaprirle entrambe a sessione collegata prima di decidere. Prime non verificato.
+
+**5 · Toto — Toto IV.** *Africa* è su *Toto IV* (1982). Pagina con sei varianti; l'ASIN `B08DSYRT3F` è quella vinile, Sony Music, 1 disco, origine Italia.
+*Dubbi:* stessa riserva delle pagine multivariante del punto 2. Prime non verificato.
+
+**6 · The Cranberries — No Need to Argue.** *Zombie* è la traccia più nota di *No Need to Argue* (1994). Scelto `B0F1ZYHXC3` (Island Records) perché **ha una posizione in classifica Bestseller**, segno che l'inserzione è viva.
+*Dubbi:* **scartato `B078FFX8X2`** (Plain Recordings): il selettore mostra «Vinile —» senza prezzo, cioè variante non acquistabile. Scartato anche `B08BTVN1GV` (Deluxe Edt. Remastered), edizione diversa da quella standard della scheda. Prime non verificato.
+
+### Venditore e disponibilità
+
+**Non leggibili in questa sessione, per nessuno dei sei.** Il riquadro d'acquisto non rende l'offerta selezionata a sessione scollegata (prova nella Parte 3). Vanno letti e registrati alla pubblicazione, come chiede la regola 7.
+
+---
+
+## Parte 5 — Le quattro liste richieste
+
+### A. Prodotti verificati e pronti
+
+**Nessuno.** E non per prudenza: per il codice del progetto. `check-affiliazioni.mjs` fallisce con «verifica Prime assente» su qualunque prodotto privo di `primeVerificato` e `provaPrime`, e quei due campi non sono compilabili senza sessione Amazon collegata.
+
+### B. Prodotti dubbi — tutti e sei, con il dubbio nominato
+
+| Prodotto | Che cosa è verificato | Che cosa manca |
+|---|---|---|
+| Synchronicity `B0CXLJFQ4J` | titolo, artista, formato, etichetta, dischi, ASIN, canonico, corrispondenza con la scheda | Prime, venditore, disponibilità, Controllo Link |
+| 21 `B004C6QDCW` | idem + variante vinile distinta dalle altre | idem |
+| The Razors Edge `B0000CDLKX` | idem + esclusione dei bundle | idem, più la differenza di titolo «Razors Edge» / «The Razors Edge» |
+| Elephant `B0BX7CJ8M1` | idem, edizione dichiarata | idem, più il dubbio editoriale sul prezzo dell'edizione limitata |
+| Toto IV `B08DSYRT3F` | idem + variante vinile distinta | idem |
+| No Need to Argue `B0F1ZYHXC3` | idem + inserzione viva in classifica | idem |
+
+### C. Prodotti scartati, con il motivo
+
+| ASIN | Album | Perché |
+|---|---|---|
+| `B0HBKSZ4Q8` | The Razors Edge / Back In Black | bundle di due album: non corrisponde a una sola pagina |
+| `B0HGN2KG4K` | Let There Be Rock + Highway To Hell + Back In Black + The Razors Edge | cofanetto di quattro album |
+| `B00Z1DPLNM` | «Isstadion Stockholm 22.3.91 … PICTURE DISC» | registrazione dal vivo non ufficiale, non l'album in studio |
+| `B078FFX8X2` | No Need to Argue (Plain Recordings) | variante Vinile senza prezzo: inserzione non acquistabile |
+| `B08BTVN1GV` | No Need to Argue (Deluxe Edt. Remastered) | edizione diversa da quella di riferimento della scheda |
+| `B0F78PC7GQ` | «White Stripes - Elephant [Vinyl]» | inserzione generica, edizione non dichiarata |
+| `B083C51Z7L`, `B0B15MPKCD` | «Adele: Complete Vinyl Studio Album Discography» | cofanetti di discografia, non l'album |
+| `1458413225`, `1458402231`, `1705160824` | spartiti Adele | libri, non dischi |
+| `B0D3SYPS9V` | Riccardo Sinigallia | risultato estraneo comparso in due ricerche |
+| maglietta `B0G269W6VX`, `B0G3QLRPXL`, `B0DZJ4XZYX` | abbigliamento | non sono dischi |
+
+### D. Record tecnici, pronti per lo schema reale
+
+Conformi a `album/<artista>/<album>`, con `ref=nosim`, ASIN coerente su `prodotto`/`href`/`fonte`, tutti `Vinile` (nessuna ricerca vinile richiesta), nessun `soloArtista` (le pagine album esistono), nessun prezzo.
+
+I tre campi non verificabili oggi sono lasciati con il segnaposto **`DA-FARE`**: sono i soli da sostituire.
+
+**Verifica eseguita con il codice del progetto** (`collegamentoAmazon` importato da `scripts/genera/affiliazioni.mjs`):
+
+| Record | Così com'è | Con `verificaTracking` e `esitoControlloLink` reali | ASIN coerente |
+|---|---|---|---|
+| tutti e sei | **BLOCCA** — «Formato Amazon documentato o verifica Controllo Link assente» | **PASSA** | sì |
+
+```json
+{
+  "album/the-police/synchronicity": {
+    "href": "https://www.amazon.it/dp/B0CXLJFQ4J/ref=nosim?tag=dietroiltesto-21",
+    "testo": "Synchronicity dei The Police in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "Synchronicity — The Police — Vinile — ASIN B0CXLJFQ4J",
+    "titolo": "Synchronicity",
+    "artista": "The Police",
+    "formato": "Vinile",
+    "edizione": "Vinile Polydor, riferimento 5582171, 1 disco",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo Synchronicity, artista The Police, byline «Formato: Vinile», etichetta POLYDOR, numero modello 5582171, 1 disco, ASIN B0CXLJFQ4J, canonico https://www.amazon.it/Synchronicity-Police/dp/B0CXLJFQ4J.",
+    "fonte": "https://www.amazon.it/Synchronicity-Police/dp/B0CXLJFQ4J",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  },
+  "album/adele/21": {
+    "href": "https://www.amazon.it/dp/B004C6QDCW/ref=nosim?tag=dietroiltesto-21",
+    "testo": "21 di Adele in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "21 — Adele — Vinile — ASIN B004C6QDCW",
+    "titolo": "21",
+    "artista": "Adele",
+    "formato": "Vinile",
+    "edizione": "Vinile XL Recordings, riferimento XLLP520, 1 disco, paese di origine Italia",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo «Adele - 21», artista Adele, byline «Formato: Vinile», etichetta Bb (Xl Rec.), riferimento XLLP520, 1 disco, ASIN B004C6QDCW, canonico https://www.amazon.it/21-Adele/dp/B004C6QDCW. Variante Vinile distinta da CD audio e MP3 presenti sulla stessa pagina.",
+    "fonte": "https://www.amazon.it/21-Adele/dp/B004C6QDCW",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  },
+  "album/ac-dc/the-razors-edge": {
+    "href": "https://www.amazon.it/dp/B0000CDLKX/ref=nosim?tag=dietroiltesto-21",
+    "testo": "The Razors Edge degli AC/DC in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "The Razors Edge — AC/DC — Vinile — ASIN B0000CDLKX",
+    "titolo": "The Razors Edge",
+    "artista": "AC/DC",
+    "formato": "Vinile",
+    "edizione": "Vinile Epic, numero modello 2724475911613, 1 disco",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo del prodotto «Razors Edge», titolo della pagina «The Razors Edge», artista Ac/Dc, byline «Formato: Vinile», etichetta Epic, 1 disco, ASIN B0000CDLKX, canonico https://www.amazon.it/Razors-Edge-Ac-Dc/dp/B0000CDLKX. Escluse le inserzioni bundle B0HBKSZ4Q8 e B0HGN2KG4K, che contengono piu album.",
+    "fonte": "https://www.amazon.it/Razors-Edge-Ac-Dc/dp/B0000CDLKX",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  },
+  "album/the-white-stripes/elephant": {
+    "href": "https://www.amazon.it/dp/B0BX7CJ8M1/ref=nosim?tag=dietroiltesto-21",
+    "testo": "Elephant dei The White Stripes in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "Elephant — The White Stripes — Vinile — ASIN B0BX7CJ8M1",
+    "titolo": "Elephant",
+    "artista": "The White Stripes",
+    "formato": "Vinile",
+    "edizione": "Vinile Third Man Records/Legacy, Limited Edition 20th Anniversary, riferimento EVP-810074421577, 2 dischi",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo «Elephant (Limited Edition 20th Anniversary», artista The White Stripes, byline «Formato: Vinile», etichetta Third Man Records/Legacy, 2 dischi, ASIN B0BX7CJ8M1, canonico https://www.amazon.it/Elephant-Limited-20th-Anniversary-Vinyl/dp/B0BX7CJ8M1.",
+    "fonte": "https://www.amazon.it/Elephant-Limited-20th-Anniversary-Vinyl/dp/B0BX7CJ8M1",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  },
+  "album/toto/toto-iv": {
+    "href": "https://www.amazon.it/dp/B08DSYRT3F/ref=nosim?tag=dietroiltesto-21",
+    "testo": "Toto IV dei Toto in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "Toto IV — Toto — Vinile — ASIN B08DSYRT3F",
+    "titolo": "Toto IV",
+    "artista": "Toto",
+    "formato": "Vinile",
+    "edizione": "Vinile Sony Music, numero modello HC 47728, 1 disco, paese di origine Italia",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo «Toto Iv», artista Toto, byline «Formato: Vinile», etichetta Sony Music, 1 disco, ASIN B08DSYRT3F, canonico https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F. Variante Vinile distinta da CD audio, MP3, cassetta e copertina in PVC presenti sulla stessa pagina.",
+    "fonte": "https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  },
+  "album/the-cranberries/no-need-to-argue": {
+    "href": "https://www.amazon.it/dp/B0F1ZYHXC3/ref=nosim?tag=dietroiltesto-21",
+    "testo": "No Need to Argue dei The Cranberries in vinile su Amazon",
+    "origine": "formato-documentato-amazon",
+    "prodotto": "No Need to Argue — The Cranberries — Vinile — ASIN B0F1ZYHXC3",
+    "titolo": "No Need to Argue",
+    "artista": "The Cranberries",
+    "formato": "Vinile",
+    "edizione": "Vinile Island Records, numero modello 7591475, 1 disco, paese di origine Repubblica Ceca",
+    "dataVerifica": "2026-10-21",
+    "prova": "Pagina Amazon.it riaperta: titolo No Need To Argue, artista The Cranberries, byline «Formato: Vinile», etichetta ISLAND RECORDS, 1 disco, ASIN B0F1ZYHXC3, canonico https://www.amazon.it/No-Need-Argue-Cranberries/dp/B0F1ZYHXC3. Scartato B078FFX8X2 (Plain Recordings): la variante Vinile non mostra prezzo.",
+    "fonte": "https://www.amazon.it/No-Need-Argue-Cranberries/dp/B0F1ZYHXC3",
+    "documentazioneLink": "https://programma-affiliazione.amazon.it/help/node/topic/GP38PJ6EUR6PFBEC",
+    "verificaTracking": "DA-FARE",
+    "esitoControlloLink": "DA-FARE",
+    "primeVerificato": "DA-FARE",
+    "provaPrime": "DA-FARE"
+  }
+}
+```
+
+---
+
+## Che cosa serve da te per chiudere
+
+Con la sessione Amazon collegata (account **e** pannello Affiliazione), per ciascuno dei sei bastano tre passaggi:
+
+1. riaprire la pagina del prodotto, controllare che il distintivo Prime sia **dentro il riquadro d'acquisto** su un'offerta **nuova** (non «Seconda mano»), e registrare `primeVerificato` + `provaPrime` con venditore e disponibilità del momento;
+2. passare l'URL `ref=nosim` nel **Controllo Link** del pannello e riportare la data in `verificaTracking` e l'esito in `esitoControlloLink`;
+3. rieseguire `node scripts/check-affiliazioni.mjs` dopo la rigenerazione.
+
+Finché i segnaposto `DA-FARE` restano, è il progetto stesso a rifiutare l'inserimento. Com'è giusto.

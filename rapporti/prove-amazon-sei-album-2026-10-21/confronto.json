@@ -1,0 +1,158 @@
+{
+  "base": "cd6c01c57071672afd115cdaa25a4e520c5eeec1",
+  "prodottiVerificati": 6,
+  "viniliPrime": 4,
+  "cdPrimeDopoRicercaVinile": 2,
+  "prodottiTotaliPrevisti": 108,
+  "paginePreviste": [
+    "/album/ac-dc/the-razors-edge/",
+    "/album/adele/21/",
+    "/album/the-cranberries/no-need-to-argue/",
+    "/album/the-police/synchronicity/",
+    "/album/the-white-stripes/elephant/",
+    "/album/toto/toto-iv/",
+    "/artista/adele/",
+    "/artista/the-cranberries/",
+    "/artista/the-police/",
+    "/artista/the-white-stripes/",
+    "/artista/toto/",
+    "/canzone/africa/",
+    "/canzone/every-breath-you-take/",
+    "/canzone/seven-nation-army/",
+    "/canzone/someone-like-you/",
+    "/canzone/thunderstruck/",
+    "/canzone/zombie-cranberries/"
+  ],
+  "HTMLInvariati": 679,
+  "HTMLModificati": 17,
+  "testoEditorialeModificato": [],
+  "metadatiTitleDescriptionCanonicalODatePublishedModificati": [],
+  "dateModifiedModificati": [
+    "/canzone/someone-like-you/",
+    "/canzone/africa/",
+    "/canzone/zombie-cranberries/",
+    "/canzone/seven-nation-army/",
+    "/canzone/every-breath-you-take/",
+    "/canzone/thunderstruck/",
+    "/artista/adele/",
+    "/artista/the-cranberries/",
+    "/artista/the-police/",
+    "/artista/the-white-stripes/",
+    "/artista/toto/",
+    "/album/ac-dc/the-razors-edge/",
+    "/album/adele/21/",
+    "/album/the-cranberries/no-need-to-argue/",
+    "/album/the-police/synchronicity/",
+    "/album/the-white-stripes/elephant/",
+    "/album/toto/toto-iv/"
+  ],
+  "lastmodModificati": [
+    {
+      "url": "https://www.dietroiltesto.it/album/adele/21/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/the-police/synchronicity/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/the-white-stripes/elephant/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/toto/toto-iv/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/someone-like-you/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/africa/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/zombie-cranberries/",
+      "prima": "2026-10-03",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/seven-nation-army/",
+      "prima": "2026-10-04",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/every-breath-you-take/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/thunderstruck/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/adele/",
+      "prima": "2026-10-06",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-cranberries/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-police/",
+      "prima": "2026-10-06",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/the-white-stripes/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/artista/toto/",
+      "prima": "2026-10-15",
+      "dopo": "2026-10-21"
+    }
+  ],
+  "sitemap": {
+    "sitemap-raccolte.xml": {
+      "identica": true,
+      "lastmodCambiati": 0
+    },
+    "sitemap-album.xml": {
+      "identica": false,
+      "lastmodCambiati": 4
+    },
+    "sitemap-canzoni.xml": {
+      "identica": false,
+      "lastmodCambiati": 6
+    },
+    "sitemap-artisti.xml": {
+      "identica": false,
+      "lastmodCambiati": 5
+    },
+    "sitemap-pagine.xml": {
+      "identica": true,
+      "lastmodCambiati": 0
+    },
+    "sitemap.xml": {
+      "identica": true,
+      "lastmodCambiati": 0
+    }
+  },
+  "homepageERicercaInvariate": true,
+  "nessunInvioIndexNowGSC": true,
+  "manifestoProposto": "829123754efe22338f166691f85afc4d57349f11ca140ed33da56f820088641e",
+  "firmaPresente": false,
+  "catalogoOperativoInvariato": true,
+  "ACDCartista": "Quattro vinili preesistenti preservati; precedenza del vinile sul nuovo CD. Il CD è proposto soltanto per album e Thunderstruck."
+}

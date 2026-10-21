@@ -1,0 +1,320 @@
+{
+  "eagles": [
+    "album/eagles/hotel-california",
+    "album/eagles/hotel-california",
+    "album/eagles/hotel-california",
+    "album/eagles/hotel-california"
+  ],
+  "blink-182": [
+    "album/blink-182/enema-of-the-state",
+    "album/blink-182/nine",
+    "album/blink-182/take-off-your-pants-and-jacket",
+    "album/blink-182/dude-ranch"
+  ],
+  "bring-me-the-horizon": [
+    "album/bring-me-the-horizon/sempiternal",
+    "album/bring-me-the-horizon/post-human-nex-gen",
+    "album/bring-me-the-horizon/thats-the-spirit",
+    "album/bring-me-the-horizon/amo"
+  ],
+  "oasis": [
+    "album/oasis/heathen-chemistry",
+    "album/oasis/dont-believe-the-truth",
+    "album/oasis/whats-the-story-morning-glory",
+    "album/oasis/definitely-maybe"
+  ],
+  "alice-in-chains": [
+    "album/alice-in-chains/facelift",
+    "album/alice-in-chains/dirt",
+    "album/alice-in-chains/facelift",
+    "album/alice-in-chains/dirt"
+  ],
+  "caparezza": [
+    "album/caparezza/il-sogno-eretico",
+    "album/caparezza/verita-supposte",
+    "album/caparezza/il-sogno-eretico",
+    "album/caparezza/il-sogno-eretico"
+  ],
+  "cesare-cremonini": [
+    "album/cesare-cremonini/possibili-scenari",
+    "album/cesare-cremonini/il-primo-bacio-sulla-luna",
+    "album/cesare-cremonini/bagus",
+    "album/cesare-cremonini/possibili-scenari"
+  ],
+  "883": [
+    "album/883/la-dura-legge-del-gol",
+    "album/883/la-dura-legge-del-gol",
+    "album/883/la-dura-legge-del-gol",
+    "album/883/la-dura-legge-del-gol"
+  ],
+  "limp-bizkit": [
+    "album/limp-bizkit/significant-other",
+    "album/limp-bizkit/significant-other",
+    "album/limp-bizkit/significant-other",
+    "album/limp-bizkit/significant-other"
+  ],
+  "franco-battiato": [
+    "album/franco-battiato/patriots",
+    "album/franco-battiato/fisiognomica",
+    "album/franco-battiato/patriots",
+    "album/franco-battiato/l-era-del-cinghiale-bianco"
+  ],
+  "ac-dc": [
+    "album/ac-dc/highway-to-hell",
+    "album/ac-dc/back-in-black",
+    "album/ac-dc/let-there-be-rock",
+    "album/ac-dc/power-up"
+  ],
+  "pinguini-tattici-nucleari": [
+    "album/pinguini-tattici-nucleari/fake-news",
+    "album/pinguini-tattici-nucleari/hello-world",
+    "album/pinguini-tattici-nucleari/sanremo-2020-fuori-dallhype",
+    "album/pinguini-tattici-nucleari/fake-news"
+  ],
+  "michael-jackson": [
+    "album/michael-jackson/thriller",
+    "album/michael-jackson/bad",
+    "album/michael-jackson/off-the-wall",
+    "album/michael-jackson/thriller"
+  ],
+  "the-killers": [
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss",
+    "album/the-killers/hot-fuss"
+  ],
+  "coldplay": [
+    "album/coldplay/a-rush-of-blood-to-the-head",
+    "album/coldplay/viva-la-vida-or-death-and-all-his-friends",
+    "album/coldplay/parachutes",
+    "album/coldplay/viva-la-vida-or-death-and-all-his-friends"
+  ],
+  "the-beatles": [
+    "album/the-beatles/abbey-road",
+    "album/the-beatles/help",
+    "album/the-beatles/abbey-road",
+    "album/the-beatles/help"
+  ],
+  "evanescence": [
+    "album/evanescence/fallen",
+    "album/evanescence/fallen",
+    "album/evanescence/fallen",
+    "album/evanescence/fallen"
+  ],
+  "a-ha": [
+    "album/a-ha/hunting-high-and-low",
+    "album/a-ha/true-north",
+    "album/a-ha/minor-earth-major-sky",
+    "album/a-ha/true-north"
+  ],
+  "adriano-celentano": [
+    "album/adriano-celentano/il-ragazzo-della-via-gluck",
+    "album/adriano-celentano/svalutation",
+    "album/adriano-celentano/yuppi-du",
+    "album/adriano-celentano/il-ragazzo-della-via-gluck"
+  ],
+  "queen": [
+    "album/queen/a-night-at-the-opera",
+    "album/queen/the-game",
+    "album/queen/a-night-at-the-opera",
+    "album/queen/the-game"
+  ],
+  "metallica": [
+    "album/metallica/master-of-puppets",
+    "album/metallica/ride-the-lightning",
+    "album/metallica/metallica-black-album",
+    "album/metallica/master-of-puppets"
+  ],
+  "guns-n-roses": [
+    "album/guns-n-roses/appetite-for-destruction",
+    "album/guns-n-roses/use-your-illusion-ii",
+    "album/guns-n-roses/use-your-illusion-i",
+    "album/guns-n-roses/use-your-illusion-ii"
+  ],
+  "ed-sheeran": [
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide",
+    "album/ed-sheeran/divide"
+  ],
+  "linkin-park": [
+    "album/linkin-park/hybrid-theory",
+    "album/linkin-park/minutes-to-midnight",
+    "album/linkin-park/meteora",
+    "album/linkin-park/hybrid-theory"
+  ],
+  "green-day": [
+    "album/green-day/dookie",
+    "album/green-day/american-idiot",
+    "album/green-day/dookie",
+    "album/green-day/american-idiot"
+  ],
+  "muse": [
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations",
+    "album/muse/black-holes-and-revelations"
+  ],
+  "nirvana": [
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind",
+    "album/nirvana/nevermind"
+  ],
+  "pink-floyd": [
+    "album/pink-floyd/the-wall",
+    "album/pink-floyd/wish-you-were-here",
+    "album/pink-floyd/the-wall",
+    "album/pink-floyd/wish-you-were-here"
+  ],
+  "red-hot-chili-peppers": [
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik",
+    "album/red-hot-chili-peppers/blood-sugar-sex-magik"
+  ],
+  "foo-fighters": [
+    "album/foo-fighters/the-colour-and-the-shape",
+    "album/foo-fighters/wasting-light",
+    "album/foo-fighters/the-colour-and-the-shape",
+    "album/foo-fighters/wasting-light"
+  ],
+  "led-zeppelin": [
+    "album/led-zeppelin/physical-graffiti",
+    "album/led-zeppelin/led-zeppelin-iii",
+    "album/led-zeppelin/led-zeppelin-iv",
+    "album/led-zeppelin/led-zeppelin-iii"
+  ],
+  "pearl-jam": [
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten",
+    "album/pearl-jam/ten"
+  ],
+  "the-doors": [
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman",
+    "album/the-doors/l-a-woman"
+  ],
+  "rage-against-the-machine": [
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire",
+    "album/rage-against-the-machine/evil-empire"
+  ],
+  "ligabue": [
+    "album/ligabue/miss-mondo",
+    "album/ligabue/miss-mondo",
+    "album/ligabue/miss-mondo",
+    "album/ligabue/miss-mondo"
+  ],
+  "pino-daniele": [
+    "album/pino-daniele/vai-mo",
+    "album/pino-daniele/vai-mo",
+    "album/pino-daniele/vai-mo",
+    "album/pino-daniele/vai-mo"
+  ],
+  "rammstein": [
+    "album/rammstein/mutter",
+    "album/rammstein/mutter",
+    "album/rammstein/mutter",
+    "album/rammstein/mutter"
+  ],
+  "black-sabbath": [
+    "album/black-sabbath/paranoid",
+    "album/black-sabbath/paranoid",
+    "album/black-sabbath/paranoid",
+    "album/black-sabbath/paranoid"
+  ],
+  "bon-jovi": [
+    "album/bon-jovi/slippery-when-wet",
+    "album/bon-jovi/slippery-when-wet",
+    "album/bon-jovi/slippery-when-wet",
+    "album/bon-jovi/slippery-when-wet"
+  ],
+  "depeche-mode": [
+    "album/depeche-mode/violator",
+    "album/depeche-mode/violator",
+    "album/depeche-mode/violator",
+    "album/depeche-mode/violator"
+  ],
+  "system-of-a-down": [
+    "album/system-of-a-down/toxicity",
+    "album/system-of-a-down/toxicity",
+    "album/system-of-a-down/toxicity",
+    "album/system-of-a-down/toxicity"
+  ],
+  "iron-maiden": [
+    "album/iron-maiden/the-number-of-the-beast",
+    "album/iron-maiden/the-number-of-the-beast",
+    "album/iron-maiden/the-number-of-the-beast",
+    "album/iron-maiden/the-number-of-the-beast"
+  ],
+  "slayer": [
+    "album/slayer/reign-in-blood",
+    "album/slayer/reign-in-blood",
+    "album/slayer/reign-in-blood",
+    "album/slayer/reign-in-blood"
+  ],
+  "radiohead": [
+    "album/radiohead/pablo-honey",
+    "album/radiohead/pablo-honey",
+    "album/radiohead/pablo-honey",
+    "album/radiohead/pablo-honey"
+  ],
+  "deep-purple": [
+    "album/deep-purple/machine-head",
+    "album/deep-purple/machine-head",
+    "album/deep-purple/machine-head",
+    "album/deep-purple/machine-head"
+  ],
+  "sum-41": [
+    "album/sum-41/all-killer-no-filler",
+    "album/sum-41/all-killer-no-filler",
+    "album/sum-41/all-killer-no-filler",
+    "album/sum-41/all-killer-no-filler"
+  ],
+  "fleetwood-mac": [
+    "album/fleetwood-mac/rumours",
+    "album/fleetwood-mac/rumours",
+    "album/fleetwood-mac/rumours",
+    "album/fleetwood-mac/rumours"
+  ],
+  "disturbed": [
+    "album/disturbed/immortalized",
+    "album/disturbed/immortalized",
+    "album/disturbed/immortalized",
+    "album/disturbed/immortalized"
+  ],
+  "the-police": [
+    "album/the-police/synchronicity",
+    "album/the-police/synchronicity",
+    "album/the-police/synchronicity",
+    "album/the-police/synchronicity"
+  ],
+  "adele": [
+    "album/adele/21",
+    "album/adele/21",
+    "album/adele/21",
+    "album/adele/21"
+  ],
+  "the-white-stripes": [
+    "album/the-white-stripes/elephant",
+    "album/the-white-stripes/elephant",
+    "album/the-white-stripes/elephant",
+    "album/the-white-stripes/elephant"
+  ],
+  "toto": [
+    "album/toto/toto-iv",
+    "album/toto/toto-iv",
+    "album/toto/toto-iv",
+    "album/toto/toto-iv"
+  ],
+  "the-cranberries": [
+    "album/the-cranberries/no-need-to-argue",
+    "album/the-cranberries/no-need-to-argue",
+    "album/the-cranberries/no-need-to-argue",
+    "album/the-cranberries/no-need-to-argue"
+  ]
+}
