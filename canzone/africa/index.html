@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.dietroiltesto.it/og/africa.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/africa/#brano","name":"Africa","byArtist":{"@type":"MusicGroup","name":"Toto","url":"https://www.dietroiltesto.it/artista/toto/"},"inAlbum":{"@type":"MusicAlbum","name":"Toto IV"},"datePublished":"1982","url":"https://www.dietroiltesto.it/canzone/africa/","description":"Ultimo brano di \"Toto IV\", quarto album della band, uscito nel 1982: come ha raccontato il tastierista David Paich a MusicRadar."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Africa","item":"https://www.dietroiltesto.it/canzone/africa/"}]},{"@type":"Article","headline":"Africa","about":{"@id":"https://www.dietroiltesto.it/canzone/africa/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/africa/","dateModified":"2026-10-02"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicRecording","@id":"https://www.dietroiltesto.it/canzone/africa/#brano","name":"Africa","byArtist":{"@type":"MusicGroup","name":"Toto","url":"https://www.dietroiltesto.it/artista/toto/"},"inAlbum":{"@type":"MusicAlbum","name":"Toto IV"},"datePublished":"1982","url":"https://www.dietroiltesto.it/canzone/africa/","description":"Ultimo brano di \"Toto IV\", quarto album della band, uscito nel 1982: come ha raccontato il tastierista David Paich a MusicRadar."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"Rock","item":"https://www.dietroiltesto.it/genere/rock/"},{"@type":"ListItem","position":3,"name":"Africa","item":"https://www.dietroiltesto.it/canzone/africa/"}]},{"@type":"Article","headline":"Africa","about":{"@id":"https://www.dietroiltesto.it/canzone/africa/#brano"},"isPartOf":{"@id":"https://www.dietroiltesto.it/#sito"},"author":{"@type":"Organization","@id":"https://www.dietroiltesto.it/#editore","name":"Dietro il testo","url":"https://www.dietroiltesto.it/","sameAs":["https://www.instagram.com/dietroiltesto.it/"]},"publisher":{"@id":"https://www.dietroiltesto.it/#editore"},"url":"https://www.dietroiltesto.it/canzone/africa/","dateModified":"2026-10-21"}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -441,7 +441,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -880,7 +880,25 @@ a { color: inherit; }
   text-align: center; color: var(--text);
 }
 .player-esterno:hover { color: var(--sistema); }
-</style>
+.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}</style>
 <style>:root{--identita:#C2822E;--identita-testo:#C2822E;--identita-contrasto:#000000}</style>
 </head>
 <body>
@@ -930,11 +948,24 @@ a { color: inherit; }
              estesa include l'artista; il generatore ne misura la larghezza e la
              usa solo se sta in due righe su telefono, perche' ogni riga in piu'
              del titolo spinge giu' il momento iconico, che F85 ha portato a 483px. -->
-        <h1>Significato di Africa dei Toto</h1>
+        <h1>Significato di Africa dei Toto</h1><aside class="acquisto-affiliato" aria-label="Toto IV su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Toto IV</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Toto <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=feec4fb61d0c90e6d8ff3c9a433684d1&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Toto IV — Toto — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="player-intestazione">
         <iframe src="https://open.spotify.com/embed/track/1aTAR21kFePsDBHnc74Hli?utm_source=generator" width="100%" height="152" title="Africa su Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>
-        <a class="player-esterno" href="https://open.spotify.com/track/1aTAR21kFePsDBHnc74Hli" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a>
+        <a class="player-esterno" href="https://open.spotify.com/track/1aTAR21kFePsDBHnc74Hli" target="_blank" rel="noopener noreferrer">Apri il brano su Spotify ↗</a><aside class="acquisto-affiliato acquisto-mobile" data-acquisto-compatto aria-label="Toto IV su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Toto IV</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Toto <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=feec4fb61d0c90e6d8ff3c9a433684d1&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Toto IV — Toto — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
       </div>
       <div class="testa-contorno">
         <div class="suggerimenti">
@@ -997,7 +1028,13 @@ a { color: inherit; }
         <p>Il verso più citato è quello in cui il narratore dice di benedire le piogge sull'Africa. Il tastierista David Paich, che scrisse gran parte del brano senza mai essere stato in Africa, si ispirò a un documentario televisivo notturno sulle difficoltà del continente e ai ricordi d'infanzia di insegnanti missionari che raccontavano di benedire villaggi, raccolti e libri. La frase sulla benedizione della pioggia non va letta come un riferimento meteorologico letterale, ma come un legame spirituale con la terra, con la pioggia simbolo di rinascita dopo la siccità.</p>
         <span class="cautela">Descritto con parole nostre: non riproduciamo il testo della canzone.</span>
       </figure>
-      </section>
+      <aside class="acquisto-affiliato acquisto-desktop" data-acquisto-compatto aria-label="Toto IV su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Toto IV</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Toto <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=feec4fb61d0c90e6d8ff3c9a433684d1&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Toto IV — Toto — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside></section>
     </header>
 
 
@@ -1009,7 +1046,13 @@ a { color: inherit; }
         <p>Paich non era mai stato in Africa: l'ispirazione venne da un documentario televisivo notturno sulle difficoltà del continente, visto da adulto, e dai ricordi d'infanzia nella scuola cattolica in cui aveva frequentato da ragazzo, dove i missionari raccontavano dei loro viaggi e di come benedicessero ogni cosa sul posto — la gente, le Bibbie, i raccolti, la pioggia. Il brano, che secondo Paich decollò prima nei club da ballo di New York, divenne l'unico numero 1 della band nella Billboard Hot 100, raggiunto nel febbraio 1983.</p>
 
       </div>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Toto IV su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Toto IV</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">Toto <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Toto-Iv/dp/B08DSYRT3F?&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=feec4fb61d0c90e6d8ff3c9a433684d1&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Toto IV — Toto — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
 
 
@@ -1069,7 +1112,7 @@ a { color: inherit; }
       </div>
     </section>
 
-
+    <p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 

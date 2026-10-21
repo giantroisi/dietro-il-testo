@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://www.dietroiltesto.it/album/the-police/synchronicity/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicAlbum","name":"Synchronicity","byArtist":{"@type":"MusicGroup","name":"The Police","url":"https://www.dietroiltesto.it/artista/the-police/"},"datePublished":"1983","url":"https://www.dietroiltesto.it/album/the-police/synchronicity/","dateModified":"2026-09-29"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"The Police","item":"https://www.dietroiltesto.it/artista/the-police/"},{"@type":"ListItem","position":3,"name":"Synchronicity","item":"https://www.dietroiltesto.it/album/the-police/synchronicity/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MusicAlbum","name":"Synchronicity","byArtist":{"@type":"MusicGroup","name":"The Police","url":"https://www.dietroiltesto.it/artista/the-police/"},"datePublished":"1983","url":"https://www.dietroiltesto.it/album/the-police/synchronicity/","dateModified":"2026-10-21"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.dietroiltesto.it/"},{"@type":"ListItem","position":2,"name":"The Police","item":"https://www.dietroiltesto.it/artista/the-police/"},{"@type":"ListItem","position":3,"name":"Synchronicity","item":"https://www.dietroiltesto.it/album/the-police/synchronicity/"}]}]}</script>
 <style>
 :root {
   --bg: #FDFCFF;
@@ -437,7 +437,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
@@ -891,7 +891,25 @@ a { color: inherit; }
 .visivo-album-testa span { opacity: .55; }
 .visivo-album-piede span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .visivo-album-piede span:last-child { flex: 0 0 auto; }
-</style>
+.acquisto-affiliato .bottone {
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ font-family:var(--font-body);font-size:16px;line-height:1.25;text-transform:none;letter-spacing:0;
+ color:#111;background:linear-gradient(#f7dfa5,#f0c14b);border:1px solid #a88734;border-radius:5px;
+ padding:12px 18px;text-decoration:none;
+}
+.acquisto-affiliato .bottone:hover { color:#111;border-color:#846a29;background:linear-gradient(#f5d78e,#eeb933);opacity:1; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:14px;padding:10px 14px;gap:8px;white-space:nowrap; }
+.acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:18px;height:18px;flex:none; }
+.acquisto-mobile { display:none !important; }
+.acquisto-desktop { display:flex !important; }
+@media (max-width:760px) {
+ .acquisto-affiliato[data-acquisto-compatto] .bottone { font-size:12px;padding:8px 10px;gap:6px; }
+ .acquisto-affiliato[data-acquisto-compatto] .bottone svg { width:16px;height:16px; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p:first-child { font-size:16px !important; }
+ .acquisto-affiliato[data-acquisto-compatto] > div > p + p { font-size:12px !important;margin-top:5px !important; }
+ .acquisto-mobile { display:flex !important; }
+ .acquisto-desktop { display:none !important; }
+}</style>
 <style>:root{--identita:#4A5E3E;--identita-testo:#4A5E3E;--identita-contrasto:#FFFFFF}</style>
 </head>
 <body>
@@ -933,7 +951,14 @@ a { color: inherit; }
     <header class="intestazione testa-doppia">
       <div>
         <p class="sopratitolo">The Police <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> 1983 <svg class="segno" viewBox="0 0 11 13" aria-hidden="true"><path d="M2 11.5 4.3 1.8M6.7 11.5 9 1.8"/></svg> Album in studio</p>
-        <h1>Synchronicity</h1>
+        <h1>Synchronicity</h1><aside class="acquisto-affiliato" aria-label="Synchronicity su Amazon" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:18px 24px;padding:20px 22px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:20px">
+    <div style="flex:1 1 100%;min-width:0">
+      <p style="margin:0 0 6px;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)">Il disco</p>
+      <p style="margin:0;font-family:var(--font-display);font-size:24px;line-height:1.2;font-style:italic">Synchronicity</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Police <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone pieno" href="https://www.amazon.it/Synchronicity-Remastered-Police/dp/B07WYZ86HJ?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.lTRnVw6BVwc2Djhox6FmgrnRL5UpxIkHl4fOfekfvU09QYfAn3RHmA1sc4zCmQezzLZK_2L8eQckrP53hG9FSFFowsRnHiRjl-Zbrl9jXKuym7PB3wd6Nth5DY20ncLSyYvitVaAigKos-ZFO7aQifoD1BF2PM2s_DGpfKHG2iaT-Kl_-E2QiNCPnJrKU6ZE.s3zPNO-593oVp9xEebqt1UwYhQ5sa5P9ZbTSdReXtkE&amp;dib_tag=se&amp;keywords=The+Police+Synchronicity+vinile&amp;qid=1792597748&amp;s=music&amp;sr=1-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=cb4caab6ad532afe043ceb7d3fbffc64&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Synchronicity — The Police — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
         <div class="affidabilita">
           <span class="bollo">Copertina documentata</span>
@@ -950,7 +975,13 @@ a { color: inherit; }
     <section class="blocco" id="copertina" style="border-top:0;padding-top:0">
       <h2>La copertina</h2>
       <figure class="momento"><span class="etichetta">Cosa raffigura</span><p>Consiste in una serie di fotografie della band, scattate da Duane Michals, sovrapposte a strisce orizzontali semitrasparenti di blu, rosso e giallo; il design, di Jeff Ayeroff e Norman Moore, fu prodotto in 36 varianti diverse. Nella versione più diffusa Sting è ritratto mentre legge il libro &quot;Sincronicità&quot; di Carl Gustav Jung, da cui l'album prende il titolo, con il retro che mostra un'immagine ravvicinata, capovolta e speculare dello stesso libro.</p></figure>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Synchronicity su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Synchronicity</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Police <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Synchronicity-Remastered-Police/dp/B07WYZ86HJ?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.lTRnVw6BVwc2Djhox6FmgrnRL5UpxIkHl4fOfekfvU09QYfAn3RHmA1sc4zCmQezzLZK_2L8eQckrP53hG9FSFFowsRnHiRjl-Zbrl9jXKuym7PB3wd6Nth5DY20ncLSyYvitVaAigKos-ZFO7aQifoD1BF2PM2s_DGpfKHG2iaT-Kl_-E2QiNCPnJrKU6ZE.s3zPNO-593oVp9xEebqt1UwYhQ5sa5P9ZbTSdReXtkE&amp;dib_tag=se&amp;keywords=The+Police+Synchronicity+vinile&amp;qid=1792597748&amp;s=music&amp;sr=1-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=cb4caab6ad532afe043ceb7d3fbffc64&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Synchronicity — The Police — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="tracce">
       <h2>Una canzone raccontata da questo album</h2>
@@ -961,7 +992,13 @@ a { color: inherit; }
           <span class="gancio">Scritta da Sting nel 1982, nacque in una notte insonne in Giamaica, composta al pianoforte in pochi minuti nella…</span>
         </a>
       </div>
-    </section>
+    </section><aside class="acquisto-affiliato" data-acquisto-compatto aria-label="Synchronicity su Amazon" style="display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);margin-top:12px">
+    <div style="flex:1 1 0;min-width:0">
+      <p style="margin:0;font-family:var(--font-display);font-size:18px;line-height:1.2;font-style:italic">Synchronicity</p>
+      <p style="margin:7px 0 0;font-size:14px;color:var(--text-muted)">The Police <span aria-hidden="true">·</span> Vinile</p>
+    </div>
+    <a class="bottone" href="https://www.amazon.it/Synchronicity-Remastered-Police/dp/B07WYZ86HJ?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.lTRnVw6BVwc2Djhox6FmgrnRL5UpxIkHl4fOfekfvU09QYfAn3RHmA1sc4zCmQezzLZK_2L8eQckrP53hG9FSFFowsRnHiRjl-Zbrl9jXKuym7PB3wd6Nth5DY20ncLSyYvitVaAigKos-ZFO7aQifoD1BF2PM2s_DGpfKHG2iaT-Kl_-E2QiNCPnJrKU6ZE.s3zPNO-593oVp9xEebqt1UwYhQ5sa5P9ZbTSdReXtkE&amp;dib_tag=se&amp;keywords=The+Police+Synchronicity+vinile&amp;qid=1792597748&amp;s=music&amp;sr=1-1&amp;linkCode=ll2&amp;tag=dietroiltesto-21&amp;linkId=cb4caab6ad532afe043ceb7d3fbffc64&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" aria-label="Acquista su Amazon — Synchronicity — The Police — Vinile su Amazon" target="_blank" rel="sponsored nofollow noopener" style="flex:none"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2 3h3l2.4 12.2a2 2 0 0 0 2 1.6H19v-2H9.4l-.4-2h9.8L22 6H6.7l-.6-3H2z"/><circle cx="10" cy="20" r="1.8"/><circle cx="18" cy="20" r="1.8"/></svg>Acquista su Amazon</a>
+  </aside>
 
     <section class="blocco" id="altri-album">
       <h2>Altri album di The Police</h2>
@@ -978,7 +1015,7 @@ a { color: inherit; }
         <a class="bottone pieno" href="../../../artista/the-police/">Torna a The Police</a>
         <a class="bottone" href="mailto:dietroiltesto@outlook.it?subject=Dietro%20il%20testo%20%E2%80%94%20Synchronicity">Segnala un errore</a>
       </div>
-    </section>
+    </section><p class="nota-affiliazioni">In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei. Link affiliato: potremmo ricevere una commissione senza costi aggiuntivi per te. <a href="../../../affiliazioni/">Informazioni sulle affiliazioni</a>.</p>
   </div>
 </main>
 
