@@ -1,0 +1,26 @@
+{
+  "partenza": "http://127.0.0.1:8952/canzone/vita-spericolata/",
+  "schede": [
+    {
+      "id": "2",
+      "url": "http://127.0.0.1:8952/canzone/vita-spericolata/",
+      "title": "Significato di Vita spericolata – Vasco Rossi"
+    },
+    {
+      "id": "3",
+      "url": "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "title": "BOLLICINE 40^Rplay : Vasco Rossi: Amazon.it: CD e Vinili}"
+    },
+    {
+      "id": "4",
+      "url": "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "title": "BOLLICINE 40^Rplay : Vasco Rossi: Amazon.it: CD e Vinili}"
+    }
+  ],
+  "destinazione": {
+    "artistaFormato": "Vasco Rossi (Artista)  Formato: Vinile",
+    "titolo": "BOLLICINE 40^Rplay (LP)",
+    "url": "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21"
+  },
+  "nessunAcquisto": true
+}

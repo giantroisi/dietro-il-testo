@@ -1,0 +1,18 @@
+{
+  "versione": 2,
+  "id": "allineamento-sorgente-griglia-2026-10-26",
+  "contenuti": {
+    "versione": 1,
+    "pagine": [],
+    "cartoline": []
+  },
+  "files": {
+    "scripts/genera/stile.mjs": "6ceaf37d9d65f752b5f33ed935ae16729ef7bd8dde3706d2ad0883a712f9d1cb"
+  },
+  "strutturali": {
+    "scripts/genera/stile.mjs": "6ceaf37d9d65f752b5f33ed935ae16729ef7bd8dde3706d2ad0883a712f9d1cb"
+  },
+  "promozione": {
+    "files": {}
+  }
+}

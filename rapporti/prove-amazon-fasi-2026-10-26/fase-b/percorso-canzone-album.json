@@ -1,0 +1,20 @@
+{
+  "album": {
+    "asin": [
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21"
+    ],
+    "brano": "../../../canzone/vita-spericolata/",
+    "url": "/album/vasco-rossi/bollicine/"
+  },
+  "canzone": {
+    "asin": [
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21",
+      "https://www.amazon.it/dp/B0C1P5J8MQ/ref=nosim?tag=dietroiltesto-21"
+    ],
+    "url": "/canzone/vita-spericolata/"
+  }
+}

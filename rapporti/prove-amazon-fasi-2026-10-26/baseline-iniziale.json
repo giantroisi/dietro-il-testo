@@ -1,0 +1,2505 @@
+{
+  "worktree": "/Users/gianmicheletroisi/.codex/worktrees/amazon-cinque-2026-10-25/dietro-il-testo",
+  "tmp": "/private/tmp/dit-amazon-cinque-preparazione-n0nmu54f",
+  "base": "e8258f0ef1e6e0acae4169ab68e08522b27e10d9",
+  "pagine": [
+    "/album/ac-dc/powerage/",
+    "/album/franco-battiato/limboscata/",
+    "/album/megadeth/peace-sells-but-whos-buying/",
+    "/album/pino-daniele/pino-daniele/",
+    "/album/vasco-rossi/bollicine/",
+    "/canzone/je-so-pazzo/",
+    "/canzone/la-cura/",
+    "/canzone/peace-sells/",
+    "/canzone/rock-n-roll-damnation/",
+    "/canzone/vita-spericolata/"
+  ],
+  "catalogoProdotti": 108,
+  "sitemap": {
+    "sitemap-raccolte.xml": {
+      "hash": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "tipo": "urlset",
+      "voci": 9,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/genere/rock/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/genere/pop/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/genere/metal/",
+          "lastmod": "2026-09-22"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/genere/punk/",
+          "lastmod": "2026-09-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/anni/1970/",
+          "lastmod": "2026-09-22"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/anni/1980/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/anni/1990/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/anni/2000/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/anni/2010/",
+          "lastmod": "2026-09-21"
+        }
+      ]
+    },
+    "sitemap-album.xml": {
+      "hash": "b101c436f8cfaeb1db249904c7c341c7785cfd4124033ecfb7c8301881987989",
+      "tipo": "urlset",
+      "voci": 130,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/album/883/la-donna-il-sogno-e-il-grande-incubo/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/883/grazie-mille/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/a-ha/hunting-high-and-low/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/dirty-deeds-done-dirt-cheap/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/highway-to-hell/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/back-in-black/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/for-those-about-to-rock-we-salute-you/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/flick-of-the-switch/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/fly-on-the-wall/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/rock-or-bust/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ac-dc/power-up/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adele/21/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adriano-celentano/azzurro-una-carezza-in-un-pugno/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adriano-celentano/il-forestiero/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adriano-celentano/er-piu-storia-d-amore-e-di-coltello/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adriano-celentano/i-mali-del-secolo/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/adriano-celentano/nostalrock/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/alice-in-chains/facelift/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/avicii/stories/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/black-sabbath/paranoid/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/blink-182/enema-of-the-state/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bon-jovi/slippery-when-wet/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bring-me-the-horizon/sempiternal/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bring-me-the-horizon/thats-the-spirit/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bring-me-the-horizon/amo/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-survival-horror/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/bring-me-the-horizon/post-human-nex-gen/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/caparezza/le-dimensioni-del-mio-caos/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/caparezza/museica/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/caparezza/prisoner-709/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/caparezza/exuvia/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/bagus/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/maggese/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/il-primo-bacio-sulla-luna/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/la-teoria-dei-colori/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/logico/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/possibili-scenari/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/cesare-cremonini/alaska-baby/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/coldplay/parachutes/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/daft-punk/random-access-memories/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/david-bowie/heroes/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/deep-purple/machine-head/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/depeche-mode/violator/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/eagles/hotel-california/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/elton-john/honky-chateau/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/fall-out-boy/from-under-the-cork-tree/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/fleetwood-mac/rumours/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/foo-fighters/the-colour-and-the-shape/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/francesco-de-gregori/rimmel/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/francesco-de-gregori/de-gregori/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/francesco-de-gregori/pezzi/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/franco-battiato/limboscata/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/green-day/dookie/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/green-day/american-idiot/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/green-day/21st-century-breakdown/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/guns-n-roses/appetite-for-destruction/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/guns-n-roses/use-your-illusion-i/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/iron-maiden/the-number-of-the-beast/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/iron-maiden/piece-of-mind/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/john-lennon/imagine/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/judas-priest/british-steel/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/judas-priest/screaming-for-vengeance/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/korn/korn/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/korn/follow-the-leader/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/led-zeppelin/led-zeppelin-iv/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ligabue/nome-e-cognome/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ligabue/arrivederci-mostro/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ligabue/mondovisione/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ligabue/made-in-italy/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ligabue/start/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/limp-bizkit/significant-other/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/linkin-park/hybrid-theory/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/linkin-park/meteora/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/lucio-battisti/il-mio-canto-libero/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/lucio-dalla/come-e-profondo-il-mare/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/lynyrd-skynyrd/second-helping/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/megadeth/peace-sells-but-whos-buying/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/metallica/ride-the-lightning/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/metallica/master-of-puppets/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/metallica/and-justice-for-all/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/metallica/metallica-black-album/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/michael-jackson/off-the-wall/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/michael-jackson/thriller/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/motorhead/ace-of-spades/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/muse/black-holes-and-revelations/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/muse/the-resistance/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/muse/drones/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/my-chemical-romance/the-black-parade/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/naska/la-mia-stanza/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/nine-inch-nails/the-downward-spiral/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/nirvana/nevermind/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/oasis/definitely-maybe/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/oasis/whats-the-story-morning-glory/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ozzy-osbourne/blizzard-of-ozz/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/ozzy-osbourne/bark-at-the-moon/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pantera/cowboys-from-hell/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pantera/vulgar-display-of-power/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pearl-jam/ten/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/gioventu-brucata/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/fake-news/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pinguini-tattici-nucleari/hello-world/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/pink-floyd/wish-you-were-here/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/prince/purple-rain-colonna-sonora/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/queen/a-night-at-the-opera/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/radiohead/pablo-honey/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/rage-against-the-machine/rage-against-the-machine/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/rage-against-the-machine/evil-empire/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/rammstein/sehnsucht/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/rammstein/mutter/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/simon-garfunkel/wednesday-morning-3-a-m-sounds-of-silence/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/slayer/reign-in-blood/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/slipknot/all-hope-is-gone/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/soundgarden/superunknown/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/sum-41/all-killer-no-filler/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/sum-41/chuck/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/system-of-a-down/toxicity/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-beatles/singolo-poi-in-hey-jude-1970/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-clash/combat-rock/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-doors/l-a-woman/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-killers/hot-fuss/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-police/synchronicity/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-rolling-stones/aftermath/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/the-white-stripes/elephant/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/tool/undertow/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/toto/toto-iv/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/tracy-chapman/tracy-chapman/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/vasco-rossi/non-siamo-mica-gli-americani/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/vasco-rossi/bollicine/",
+          "lastmod": "2026-09-29"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/album/zucchero/blues/",
+          "lastmod": "2026-09-29"
+        }
+      ]
+    },
+    "sitemap-canzoni.xml": {
+      "hash": "24a7196d825ea7ffd3c5545aa608a1ea2bb276467efeeabba797b70335321e5c",
+      "tipo": "urlset",
+      "voci": 321,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bohemian-rhapsody/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/in-the-end/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/teen-spirit/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/billie-jean/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sweet-child/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/creep/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/someone-like-you/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/highway-to-hell/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hotel-california/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/enter-sandman/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/chop-suey/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/paranoid/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/nothing-else-matters/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stairway-to-heaven/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/killing-in-the-name/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wonderwall/",
+          "lastmod": "2026-10-14"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/lose-yourself/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/thriller/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/du-hast/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/freak-on-a-leash/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/imagine/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hey-jude/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/walk/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/run-to-the-hills/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/breaking-the-law/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/raining-blood/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/darkside/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/solitudine/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/albachiara/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/certe-notti/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/volare/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/cielo-blu/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/azzurro/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/canto-libero/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-cura/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/caruso/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bello-impossibile/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/marinella/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/numb/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/africa/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bring-me-to-life/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sweet-home-alabama/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/basket-case/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/master-of-puppets/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/litaliano/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sally/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/generale/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/cielo-stanza/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/zombie-cranberries/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/livin-on-a-prayer/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/smoke-on-the-water/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/crazy-train/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/seven-nation-army/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/piccolo-grande-amore/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/felicita/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/4-marzo-1943/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/black-hole-sun/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/iron-man/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/should-i-stay/",
+          "lastmod": "2026-10-08"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/rimmel/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/vivo-per-lei/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/purple-rain/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wish-you-were-here/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hurt/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/take-on-me/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dreams/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/heroes/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/senza-una-donna/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/under-the-bridge/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/every-breath-you-take/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fast-car/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/losing-my-religion/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/i-will-always-love-you/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/yes-i-know-my-way/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/the-sound-of-silence/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/paint-it-black/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/piu-bella-cosa/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/rocket-man/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/yellow/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-carrozzone/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/can-you-feel-my-heart/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/drown/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/throne/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/mantra/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sleepwalking/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/antivist/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/chelsea-smile/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/doomed/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/follow-you/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/parasite-eve/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/lost/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/die4u/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/riders-on-the-storm/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/personal-jesus/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sono-solo-canzonette/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/shadow-moses/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wonderful-life/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/nihilist-blues/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/one/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ace-of-spades/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/psychosocial/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/symphony-of-destruction/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sober/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/square-hammer/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/american-idiot/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/boulevard-of-broken-dreams/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fat-lip/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/in-too-deep/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/crawling/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/one-step-closer/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/uprising/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/starlight/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/all-the-small-things/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/i-miss-you/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/she-looks-so-perfect/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/still-waiting/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/happy-song/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ho-messo-via/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hanno-ucciso-luomo-ragno/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wake-me-up/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hypa-hypa/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/diventerai-una-star/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/vieni-a-ballare-in-puglia/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/marmellata-25/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/get-lucky/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/shape-of-you/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sugar-were-goin-down/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ragu/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/21-guns/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/mr-brightside/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/cattiva/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/break-stuff/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/my-exs-best-friend/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/welcome-to-the-black-parade/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/supermassive-black-hole/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dont-look-back-in-anger/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ringo-starr/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/everlong/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/the-trooper/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/angel-of-death/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/cowboys-from-hell/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/byob/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wait-and-bleed/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sonne/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/youve-got-another-thing-comin/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/overkill/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/peace-sells/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/november-rain/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/highway-star/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/closer/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/blind/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bark-at-the-moon/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bulls-on-parade/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/alive/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/man-in-the-box/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sound-of-silence-disturbed/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/war-pigs/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/number-of-the-beast/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fade-to-black/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/jeremy/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/paradise-city/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/toxicity/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/adams-song/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/space-truckin/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wake-me-up-when-september-ends/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/welcome-to-the-jungle/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hallowed-be-thy-name/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sad-but-true/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/beat-it/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/knights-of-cydonia/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/piggy/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/champagne-supernova/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/black-pearl-jam/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/postmortem/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/motivation/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/aerials/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/amnesia-5sos/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/con-un-deca/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sharazan/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hey-brother/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/feeling-this/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/porta-portese/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/the-light-disturbed/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/castle-on-the-hill/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/isola-che-non-ce/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/laurora/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/my-immortal/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-guerra-di-piero/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/tutto-e-possibile/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/profumo-nannini/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/faget/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/non-ce/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/shes-kinda-hot/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/youngblood/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/easier/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/complete-mess/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/nord-sud-ovest-est/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/tieni-il-tempo/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-regola-dell-amico/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/grazie-mille/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/irene/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fuori-dall-hype/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/giovani-wannabe/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/islanda/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fuori-dal-tunnel/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-mia-parte-intollerante/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/goodbye-malinconia/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/non-me-lo-posso-permettere/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/waiting-for-love/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sos-avicii/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/prisoner-709/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/exuvia/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bella-vera/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bagatelle/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/not-ok/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ive-been-losing-you/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stay-on-these-roads/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/crying-in-the-rain/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dark-is-the-night-for-all/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/summer-moved-on/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/forever-not-yours/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/analogue-all-i-want/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/foot-of-the-mountain/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/under-the-makeup/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/you-have-what-it-takes/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/its-a-long-way-to-the-top/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dirty-deeds-done-dirt-cheap/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/let-there-be-rock/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/rock-n-roll-damnation/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/back-in-black/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/for-those-about-to-rock/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/flick-of-the-switch/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/danger-acdc/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/heatseeker/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/thunderstruck/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hard-as-a-rock/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stiff-upper-lip/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/rock-n-roll-train/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/rock-or-bust/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/shot-in-the-dark/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/chasing-pavements/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/hello/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/easy-on-me/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-ragazzo-della-via-gluck/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/svalutation/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/gli-uomini-e-le-donne-sono-uguali/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/balliamo-sul-mondo/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/django/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/legalize-the-premier/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/urlando-contro-il-cielo/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dicono-di-me/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ridere/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/eroe-storia-di-luigi-delle-bicocche/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/a-che-ora-e-la-fine-del-mondo/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-comico-sai-che-risate/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sashimi/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/una-vita-da-mediano/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/logico-1/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/vengo-dalla-luna/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/questa-e-la-mia-vita/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/poetica/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-ragazza-del-futuro/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/ora-che-non-ho-piu-te/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-giorno-dei-giorni/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/un-colpo-allanima/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-sale-della-terra/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/made-in-italy/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/luci-damerica/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-ragazza-dei-tuoi-sogni/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/riderai/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-tuo-bacio-e-come-un-rock/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/peppermint-twist-celentano/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/24000-baci/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stai-lontana-da-me/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/chi-era-lui/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/il-forestiero/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sotto-le-lenzuola/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/un-albero-di-trenta-piani/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/prisencolinensinainciusol/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/yuppi-du/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/preghero/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/everybody-hurts/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/enjoy-the-silence/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/la-canzone-del-sole/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/another-one-bites-the-dust/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/life-on-mars/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/take-it-easy/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/vita-spericolata/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/kashmir/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/man-in-the-mirror/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bocca-di-rosa/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/your-song/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/sympathy-for-the-devil/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/go-your-own-way/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/roxanne/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/when-doves-cry/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/come-as-you-are/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/l-era-del-cinghiale-bianco/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/bandiera-bianca/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/prospettiva-nevski/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/povera-patria/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/would/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/nutshell/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/live-forever/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stop-crying-your-heart-out/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/je-so-pazzo/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/first-date/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/fell-in-love-with-a-girl/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/somebody-told-me/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dubbi-non-ho/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/stand-by-me/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/dammit/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/nightswimming/",
+          "lastmod": "2026-10-03"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/yesterday/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/here-comes-the-sun/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/canzone/the-scientist/",
+          "lastmod": "2026-10-11"
+        }
+      ]
+    },
+    "sitemap-artisti.xml": {
+      "hash": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "tipo": "urlset",
+      "voci": 104,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/artista/5-seconds-of-summer/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/883/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/a-ha/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/ac-dc/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/adele/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/adriano-celentano/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/al-bano-e-romina-power/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/alice-in-chains/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/andrea-bocelli-e-giorgia/",
+          "lastmod": "2026-10-14"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/avicii/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/black-sabbath/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/blink-182/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/bon-jovi/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/bring-me-the-horizon/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/caparezza/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/cesare-cremonini/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/claudio-baglioni/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/coldplay/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/daft-punk/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/david-bowie/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/deep-purple/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/depeche-mode/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/disturbed/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/domenico-modugno/",
+          "lastmod": "2026-10-08"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/eagles/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/ed-sheeran/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/edoardo-bennato/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/electric-callboy/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/elton-john/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/eminem/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/eros-ramazzotti/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/evanescence/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/fabrizio-de-andre/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/fall-out-boy/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/finley/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/fleetwood-mac/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/foo-fighters/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/francesco-de-gregori/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/franco-battiato/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/fulminacci/",
+          "lastmod": "2026-10-08"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/ghost/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/gianna-nannini/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/green-day/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/guns-n-roses/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/iron-maiden/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/john-lennon/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/judas-priest/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/korn/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/laura-pausini/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/led-zeppelin/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/ligabue/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/limp-bizkit/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/linkin-park/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/lucio-battisti/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/lucio-dalla/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/lynyrd-skynyrd/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/machine-gun-kelly/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/megadeth/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/metallica/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/michael-jackson/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/mina/",
+          "lastmod": "2026-10-14"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/motorhead/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/muse/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/my-chemical-romance/",
+          "lastmod": "2026-10-02"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/naska/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/nine-inch-nails/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/nirvana/",
+          "lastmod": "2026-10-14"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/oasis/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/ozzy-osbourne/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/pantera/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/pearl-jam/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/pinguini-tattici-nucleari/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/pink-floyd/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/pino-daniele/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/prince/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/queen/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/r-e-m/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/radiohead/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/rage-against-the-machine/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/rammstein/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/red-hot-chili-peppers/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/renato-zero/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/rino-gaetano/",
+          "lastmod": "2026-10-14"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/simon-garfunkel/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/slayer/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/slipknot/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/soundgarden/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/sum-41/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/system-of-a-down/",
+          "lastmod": "2026-10-12"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-beatles/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-clash/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-cranberries/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-doors/",
+          "lastmod": "2026-10-13"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-killers/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-police/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-rolling-stones/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/the-white-stripes/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/tool/",
+          "lastmod": "2026-10-07"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/toto/",
+          "lastmod": "2026-10-21"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/toto-cutugno/",
+          "lastmod": "2026-10-08"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/tracy-chapman/",
+          "lastmod": "2026-10-15"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/vasco-rossi/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/whitney-houston/",
+          "lastmod": "2026-10-06"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/artista/zucchero/",
+          "lastmod": "2026-10-15"
+        }
+      ]
+    },
+    "sitemap-pagine.xml": {
+      "hash": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "tipo": "urlset",
+      "voci": 7,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/",
+          "lastmod": "2026-10-05"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/archivio/",
+          "lastmod": "2026-10-04"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/metodo/",
+          "lastmod": "2026-09-17"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/chi-siamo/",
+          "lastmod": "2026-10-08"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/privacy/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/affiliazioni/",
+          "lastmod": "2026-10-11"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/note-legali/",
+          "lastmod": "2026-10-11"
+        }
+      ]
+    },
+    "sitemap.xml": {
+      "hash": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "tipo": "sitemapindex",
+      "voci": 5,
+      "url": [
+        {
+          "loc": "https://www.dietroiltesto.it/sitemap-pagine.xml"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/sitemap-canzoni.xml"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/sitemap-artisti.xml"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/sitemap-album.xml"
+        },
+        {
+          "loc": "https://www.dietroiltesto.it/sitemap-raccolte.xml"
+        }
+      ]
+    }
+  },
+  "pagineBaseline": {
+    "/canzone/vita-spericolata/": {
+      "file": "canzone/vita-spericolata/index.html",
+      "hash": "117bbcd64901490ee773c5da247b877ff913f7813e30c11eb4749c6fcb5ca3e6",
+      "datePublished": [
+        "1983"
+      ],
+      "dateModified": [
+        "2026-10-02"
+      ]
+    },
+    "/album/vasco-rossi/bollicine/": {
+      "file": "album/vasco-rossi/bollicine/index.html",
+      "hash": "70daa00f42d29d85e7cc7731eef2244eb81a277198fc38049b868986ab8767f0",
+      "datePublished": [
+        "1983"
+      ],
+      "dateModified": [
+        "2026-09-29"
+      ]
+    },
+    "/canzone/je-so-pazzo/": {
+      "file": "canzone/je-so-pazzo/index.html",
+      "hash": "8389cc03e1f85e69fb691c82def8906afad0f86c258dc151d73b488e7f5faeaf",
+      "datePublished": [
+        "1979"
+      ],
+      "dateModified": [
+        "2026-10-02"
+      ]
+    },
+    "/album/pino-daniele/pino-daniele/": {
+      "file": "album/pino-daniele/pino-daniele/index.html",
+      "hash": "ad95b027cc62c04e59bb0444cac6531abbdbf3c7ca1171d1a84955a6a93c8025",
+      "datePublished": [
+        "1979"
+      ],
+      "dateModified": [
+        "2026-09-29"
+      ]
+    },
+    "/canzone/la-cura/": {
+      "file": "canzone/la-cura/index.html",
+      "hash": "205c51e635cc57577df2010ac5f17f0968fd3ee4c392a5964d0fb46938618bdd",
+      "datePublished": [
+        "1996"
+      ],
+      "dateModified": [
+        "2026-10-12"
+      ]
+    },
+    "/album/franco-battiato/limboscata/": {
+      "file": "album/franco-battiato/limboscata/index.html",
+      "hash": "ccfd60f91ee14f2a7c23699cafd10b30f1c6b6267b884b20f90a4f32ca3135e6",
+      "datePublished": [
+        "1996"
+      ],
+      "dateModified": [
+        "2026-09-29"
+      ]
+    },
+    "/canzone/peace-sells/": {
+      "file": "canzone/peace-sells/index.html",
+      "hash": "9ff600dd53f6987455066d4052a9bfa8745ab82894bf165d12b69e519f4fb21c",
+      "datePublished": [
+        "1986"
+      ],
+      "dateModified": [
+        "2026-10-02"
+      ]
+    },
+    "/album/megadeth/peace-sells-but-whos-buying/": {
+      "file": "album/megadeth/peace-sells-but-whos-buying/index.html",
+      "hash": "ba39b5351cd305d52c0915cc69c7c36dcf97247ddc06e2fc65c2c14d0f0c4b69",
+      "datePublished": [
+        "1986"
+      ],
+      "dateModified": [
+        "2026-09-29"
+      ]
+    },
+    "/canzone/rock-n-roll-damnation/": {
+      "file": "canzone/rock-n-roll-damnation/index.html",
+      "hash": "b8b9351e9d3ca40055896c6818e9af00d5194d1b3d95bc6636afa22e5a5e08ed",
+      "datePublished": [
+        "1978"
+      ],
+      "dateModified": [
+        "2026-10-02"
+      ]
+    },
+    "/album/ac-dc/powerage/": {
+      "file": "album/ac-dc/powerage/index.html",
+      "hash": "68d302ec2883af735bb27656ce8b2785e1e39f2d27d2ace608b9f8c8f75a6570",
+      "datePublished": [
+        "1978"
+      ],
+      "dateModified": [
+        "2026-09-29"
+      ]
+    }
+  },
+  "dossierHash": "dc880e97cb56be2c21ca06a19065c0c0ccf41be18d41a66caa9b99101acb99da",
+  "preservazione": {
+    "/Users/gianmicheletroisi/.codex/worktrees/amazon-cinque-2026-10-25/dietro-il-testo": {
+      "head": "e8258f0ef1e6e0acae4169ab68e08522b27e10d9",
+      "status": "",
+      "files": {}
+    },
+    "/Users/gianmicheletroisi/Claude/dietro-il-testo": {
+      "head": "ad9091a5101f1b50228583217aa3b90257a9d966",
+      "status": " M ROADMAP.md\u0000 M scripts/genera-sito.mjs\u0000 M scripts/indexnow.mjs\u0000?? SEO-AFFILIAZIONE-FASE2.md\u0000?? SEO-LASTMOD-2026-09-21.md\u0000?? rapporti/diagnosi-rigenerazione-2026-10-20.md\u0000?? rapporti/preflight-amazon-cinque-2026-10-25.md\u0000?? rapporti/prove-diagnosi-rigenerazione-2026-10-20/\u0000?? rapporti/prove-preflight-amazon-cinque-2026-10-25/\u0000",
+      "files": {
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/confronto-iniziale.json": "5ab5806c269b3ef6eaf22242869f8a632438f819785681a1e4b12f0ab3d43726",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/proposta-non-applicata.patch": "02175d36a060d853e630512e82e11cd1520242a6d9f29b6f37db4137158bd997",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/preservazione.json": "aae6f9ca83ca82563324614bc8125ead14dfa9b04fa7a90c4b01c177ce740ba4",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/date.mjs": "92f241fc6e11d882ac9ca2b9d2029e94e56c59429fdbbd9a3e79f6ef91b15b19",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/sorgenti-esaminati/scripts/genera/stile.mjs": "2d7e6fca7a144f146a5896d0a5f6f2ceefd9314afb28c1f85715257cdd2a496f",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/prepara.py": "10ee3129aece66c3a043e1afc92d479d9b09fac55a98d1455548aa1a2a1565e2",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/date-candidate.json": "152a35df6f6feee4caea9f3eaaeaec13f9df43426dff14f31dd8ebdf7b74e0df",
+        "rapporti/preflight-amazon-cinque-2026-10-25.md": "d69fccaec149843f328290ad064176657fb0921a85f6852be2174f908f5c2d06",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/stato-iniziale.json": "2c0cca77884a3af69f7a363250dbb894144e27575cd3630c5d8b5e606dc6987d",
+        "rapporti/prove-preflight-amazon-cinque-2026-10-25/baseline.json": "3d7de9053ed338d4412487cdebb6cd8997676f7736a0b5b6bd5e87bf4c75e83f",
+        "rapporti/diagnosi-rigenerazione-2026-10-20.md": "7bf3de2abfb1d05574f94d653414332133587fca1edfd179c3eba1faf0e864f7",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/normalizza.mjs": "67cb0246f6b3b1b3e70f169a3ea3dd0465195a77346ce8a56c452ca504ba8afe",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/analisi.py": "81233d5ac5a102a1ca6c63d9100c25aba3b3f1281adfbe8b05cd4ab78443be21",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/sorgenti-esaminati/scripts/genera/pagine.mjs": "b8a5ae94b58e8d8741958a853ccac6d40e339257851f9a9773425b44a9ab5501",
+        "SEO-LASTMOD-2026-09-21.md": "60c097924257c6c028c2ac2bbed8970fc73c8da25770cee2f03210c0eeeac45b",
+        "scripts/indexnow.mjs": "e9ef5265a257b62901b6166a0d0f1047e1067f3e3067e402f5277827e691062f",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/diagnosi.json": "34e433ec0583c55185d926b7d12b49ac49f58c4a71a3f0f71aaa87be2b398c6f",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/generazione.log": "d14aa777506d3fcb85643f51dd1b84003e0461d1bd925d7714ff91a9b768ab2c",
+        "scripts/genera-sito.mjs": "41e6032b57cc8a07fa77161d42f7d92b52a1417050496000b1107796fced44b6",
+        "SEO-AFFILIAZIONE-FASE2.md": "e94005ed03b5c2ef6b948b7b87fdf8da972c95afacfadfecad454c5fd9a95593",
+        "ROADMAP.md": "7efbb1541a6fb6a3959ade2af986ec70bd49bf06e3fb7deadfa02989a6fb8930",
+        "rapporti/prove-diagnosi-rigenerazione-2026-10-20/sorgenti-esaminati/scripts/genera-sito.mjs": "41e6032b57cc8a07fa77161d42f7d92b52a1417050496000b1107796fced44b6"
+      }
+    },
+    "/Users/gianmicheletroisi/.codex/worktrees/amazon-sei-album-2026-10-21/dietro-il-testo": {
+      "head": "e8258f0ef1e6e0acae4169ab68e08522b27e10d9",
+      "status": "",
+      "files": {}
+    }
+  },
+  "worktreeInventory": "worktree /Users/gianmicheletroisi/Claude/dietro-il-testo\nHEAD ad9091a5101f1b50228583217aa3b90257a9d966\nbranch refs/heads/main\n\nworktree /sessions/rcw-01atadwugmtyuwul9apxmqxx/mnt/dietroiltestoseo/dietro-il-testo-amazon-bmth\nHEAD e40b6e1a0f613a08e7678aed68074e557e1a7533\nbranch refs/heads/opus/amazon-bmth-2026-10-08\nprunable gitdir file points to non-existent location\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/amazon-cinque-2026-10-25/dietro-il-testo\nHEAD e8258f0ef1e6e0acae4169ab68e08522b27e10d9\ndetached\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/amazon-sei-album-2026-10-21/dietro-il-testo\nHEAD e8258f0ef1e6e0acae4169ab68e08522b27e10d9\nbranch refs/heads/codex/amazon-sei-album-2026-10-21\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/ritratto-tracy-chapman-2026-09-25/dietro-il-testo\nHEAD 3ab22e3a1dc996978d887136cccb574e20d940d4\nbranch refs/heads/codex/ritratto-tracy-chapman-2026-09-25\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/ritratto-whitney-houston-2026-10-06/dietro-il-testo\nHEAD e16fe0abd884546bcdcf3ff070f1d459eb1d536e\nbranch refs/heads/codex/ritratto-whitney-houston-2026-10-06\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/ritratto-zucchero-2026-09-25/dietro-il-testo\nHEAD bd134cb438374db3e124f9348145814b32d2ed70\nbranch refs/heads/codex/ritratto-zucchero-2026-09-25\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-blackbird-2026-10-05/dietro-il-testo\nHEAD 499e33ad8f169a9de293068ae915684240daf714\nbranch refs/heads/codex/scheda-blackbird-2026-10-05\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-galway-girl-2026-09-24/dietro-il-testo\nHEAD 01fe7803353436ae1d325d6512579d647fb436c2\nbranch refs/heads/codex/scheda-galway-girl-2026-09-24\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-here-comes-the-sun-2026-10-02/dietro-il-testo\nHEAD 2a7e5ae40a99f53041a473af83b49fed2ed99c26\nbranch refs/heads/codex/scheda-here-comes-the-sun-2026-10-02\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-nightswimming-2026-10-02/dietro-il-testo\nHEAD d881bc32c51472fdd0b1024749d554ea0c86684a\nbranch refs/heads/codex/scheda-nightswimming-2026-10-02\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-the-scientist-2026-10-02/dietro-il-testo\nHEAD 7ab52baf6456805669e75da1e3c5e51e725585c6\nbranch refs/heads/codex/scheda-the-scientist-2026-10-02\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/scheda-yesterday-2026-10-02/dietro-il-testo\nHEAD 39ad0224a372ebe694787c1e9eddff82c26cee16\nbranch refs/heads/codex/scheda-yesterday-2026-10-02\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/spotify-caricamento-2026-10-02/dietro-il-testo\nHEAD a99af86824ee8444b851467f78f2249eeb979c8a\nbranch refs/heads/codex/spotify-caricamento-2026-10-02\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/verifica-creep-2026-10-05/dietro-il-testo\nHEAD 3e3859663acc030b62d0b7157c314a84d956755f\nbranch refs/heads/codex/verifica-creep-2026-10-05\n\nworktree /Users/gianmicheletroisi/.codex/worktrees/youngblood-crediti-2026-10-13/dietro-il-testo\nHEAD b259b2ab85f26f8e75ca9cf325fac3cc2f5ad5f1\nbranch refs/heads/codex/beatles-prove-pubblicazione-2026-10-15\n\nworktree /Users/gianmicheletroisi/Claude/dit-verifica-venti\nHEAD 0e9e9f0d3c4f5c8a85633c8bc247d71059a0269a\nbranch refs/heads/verifica/venti-schede-2026-09-21\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-accessibilita-mobile\nHEAD 0a703abe5d4ae61bb323ccdc24e8707c6b0849b6\nbranch refs/heads/codex/accessibilita-mobile-2026-09-21\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-integrazione-revisione\nHEAD 6f294a6ddb541b259e6e250ac3951e88c190b37c\nbranch refs/heads/codex/integrazione-revisione-2026-09-21\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-beatles-coldplay\nHEAD 0bbcb9d2a34f397cb8031f1178e06ded56964d0a\ndetached\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-nine-inch-nails\nHEAD 9cb173a332cf25dbade539275ac239b77f926378\nbranch refs/heads/codex/revisione-ritratto-nine-inch-nails-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-oasis\nHEAD 881ece296f751b798aa316a0aa3244bff34ff608\nbranch refs/heads/codex/revisione-ritratto-oasis-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-pearl-jam\nHEAD 532c8f0409d5d292d637010cf88b5f46cb478ae3\nbranch refs/heads/codex/revisione-ritratto-pearl-jam-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-pinguini\nHEAD ae9cde8b804562d29e53d399d7c52a2337711d78\nbranch refs/heads/codex/revisione-ritratto-pinguini-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-pino-daniele\nHEAD 0e4c5674893cbc481b9fa1e6b815964d04fd13b3\nbranch refs/heads/codex/revisione-ritratto-pino-daniele-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-tracy-chapman\nHEAD abac999b8495072d20e259ffc178dc3a95de1355\nbranch refs/heads/codex/revisione-ritratto-tracy-chapman-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-revisione-zucchero\nHEAD 46d9ec441ec942e2c6334d79cb2d9eb2c1ce355f\nbranch refs/heads/codex/revisione-ritratto-zucchero-2026-10-04\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-ux-ricerca-album\nHEAD ede07a3cc9de740c2b1e1d74873c9f459562ec2a\nbranch refs/heads/codex/ux-ricerca-album-2026-09-22\n\nworktree /Users/gianmicheletroisi/Documents/ChatGPT/Vediamo/dietro-il-testo-verifica-primo-lotto\nHEAD 7f67e8f32d111c7423bb19c3d923ecb02812d50b\nbranch refs/heads/codex/verifica-20-primo-lotto-2026-09-21\n\n"
+}

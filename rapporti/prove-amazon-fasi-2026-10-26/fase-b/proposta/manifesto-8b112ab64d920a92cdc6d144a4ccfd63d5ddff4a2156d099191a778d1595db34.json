@@ -1,0 +1,36 @@
+{
+  "versione": 2,
+  "id": "amazon-quattro-album-2026-10-26",
+  "contenuti": {
+    "versione": 1,
+    "pagine": [
+      "/album/ac-dc/powerage/",
+      "/album/megadeth/peace-sells-but-whos-buying/",
+      "/album/pino-daniele/pino-daniele/",
+      "/album/vasco-rossi/bollicine/",
+      "/canzone/je-so-pazzo/",
+      "/canzone/peace-sells/",
+      "/canzone/rock-n-roll-damnation/",
+      "/canzone/vita-spericolata/"
+    ],
+    "cartoline": []
+  },
+  "files": {
+    "dati/affiliazioni-prodotti.json": "b7c9736675a74b91688f20b2c2f51ef6b3a829a36a70005aeb38bac91709eded"
+  },
+  "strutturali": {},
+  "promozione": {
+    "files": {
+      "album/ac-dc/powerage/index.html": "7ba3dff58d1c30c60a13dafeb0011b6f199e02de108575133e16b874fc217f07",
+      "album/megadeth/peace-sells-but-whos-buying/index.html": "ab412df78673d6d665d5c614b9fb4112bc53bdf3adf1622513b906541b54d526",
+      "album/pino-daniele/pino-daniele/index.html": "85339875cf7a6e9878b9693e084047625101fb6a5782ca6a0ae4f969ecf228be",
+      "album/vasco-rossi/bollicine/index.html": "24bfb90ca5d9d992a13ff8d1b4005024158718a59fdbd219f42914188f0d285d",
+      "canzone/je-so-pazzo/index.html": "d7addcd95467c6e587d35f01d4ad93eaf8cda468a60329c0fe05dee7f1fa5fbf",
+      "canzone/peace-sells/index.html": "0dfaf42798e2ae69c0a76235519e841c23ae92f179b4bb9833ff44f6d5456618",
+      "canzone/rock-n-roll-damnation/index.html": "e616ed21ddf1d7b6d2dab30b4d6fdd41eb07ad628903fb37b8fda86d7dae18e5",
+      "canzone/vita-spericolata/index.html": "69e751f1089bb72e4629679177bdb6736de4eb95b82e3bab70684c718ea2891d",
+      "sitemap-album.xml": "ae4b5aafd075e67802a8457515551fda700a4f4c37dafc814398d272f269c050",
+      "sitemap-canzoni.xml": "222b65f344e4c6f40bfe1484e39d9afe8c09a24310c8497acf1ad6c562912905"
+    }
+  }
+}

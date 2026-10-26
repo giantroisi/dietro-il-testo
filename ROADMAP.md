@@ -5073,3 +5073,23 @@ Il proprietario ha approvato in questa chat firma e pubblicazione di questo esat
 Tutti i venti artefatti corrispondono alle impronte dell’anteprima approvata. Controlli sul risultato protetto: 696 pagine SEO/zero problemi, 1127 link Amazon, 7 percorsi/10 collegamenti contestuali; testi editoriali, metadati e datePublished preservati. 17 dateModified e 15 lastmod autorizzati, nessun URL aggiunto; 679 HTML, homepage, ricerca, renderer e baseline storica invariati. Nuovo checkout pulito del commit P, generazione protetta senza lotto: 1129 file identici al risultato approvato, date e sitemap stabili; checkout rimasto pulito. Prove verifica-pubblicazione.json e base-pulita.json.
 
 Main e tutti i venti hash dei file concorrenti ancora identici. Integrazione lineare e pubblicazione già autorizzate, da riscontrare su Vercel e dominio pubblico prima di dichiarare il lavoro concluso. Nessun IndexNow o GSC.
+
+
+## 136. Quattro prodotti Amazon — anteprima verificata, blocco CSS finale; 26 ottobre 2026
+
+Nuova copia pulita amazon-cinque-2026-10-25 dalla produzione e8258f0ef, ramo codex/amazon-cinque-2026-10-25. Main concorrente e lotto precedente lasciati intatti. Mandato ridotto a Bollicine, PinoDaniele, PeaceSells e Powerage, otto URL; esclusi LaCura/L’imboscata e il CD B000006SS1. Prove del drift editoriale e tentativo ganci.json→Archivio conservati, nessun allineamento adottato.
+
+Base con controller esterno impattozero; anteprima da snapshot immutabile impatto8/50, senza deroghe.1129file identici in due generazioni,688HTML invariati, testi/metadati/datePublished/home/ricerca/artisti/baseline preservati. Otto dateModified e sei lastmod candidati, conteggiURL intatti; quattro sitemap identiche. Affiliazioni1155,SEO696/zero e contestuali positivi.16viste1280/390, treCTA, disclosure unica, zerooverflow/console; percorso canzone–album e nuova scheda Amazon verificati.
+
+**Non pubblicabile con il mandato attuale:** il confronto HTML stretto trova su tutte e otto le pagine una regola generale della griglia diversa, già nel renderer ma non negli artefatti pubblicati. Rimosso il solo CSS Amazon atteso, resta minmax(300px,1fr)→minmax(min(300px,100%),1fr). Nessuna nuova riga CSS scritta o patch manuale HTML, nessuna baseline allargata. Fermato prima dell’applicazione.
+
+Rapporto rapporti/amazon-quattro-2026-10-26.md e prove dedicate; catalogo108→112 e manifesto candidato conservati soltanto sotto rapporti/proposta-non-pubblicabile. Catalogo operativo, HTML, date e sitemap intatti. Firma/chiave privata non usate; nessun push/deploy/IndexNow/GSC. Serve decisione sul driftCSS o intervento tecnico separato, poi nuovo manifesto corretto e approvazione del proprietario. Nessun altro prodotto/lavoro avviato.
+
+
+## 137. Due fasi proposte e verificate: sorgente CSS, poi quattro album Amazon — 26 ottobre 2026
+
+Mandato successivo di separare la riconciliazione tecnica dalla proposta commerciale. Fase A: sola riga415di scripts/genera/stile.mjs riportata alla regola degli artefatti, soltanto nella proposta/snapshot. Amazon invariato. Due build complete impatto0/50,1129file pubblici identici byte per byte alla produzione e8258f0ef, comprese date/sei sitemap/asset. Nessun’altra differenza, patchHTML, baseline o componente cambiato. Manifesto proposto 11c0c24cad7cbc7ec16390b2a39970e02a981c23c3e7c55c2daddbe186b619a9.
+
+Solo dopo questo esito fase B ricostruita con quattroprodotti/ottoURL: impatto8/50,688HTML intatti; confronto stretto positivo anche fuori da CSSAmazon/disclosure/date, zero drift generale. Due build1129file identici;8dateModified e6lastmod candidati, conteggiURL intatti, quattro sitemap identiche. Dati108→112solo proposti, TrackingID invariato. Affiliazioni1155/SEO696zero/contestuali positivi; nuova verifica16viste1280/390 senzaoverflow/errori, treCTA e informativa unica. Manifesto proposto 8b112ab64d920a92cdc6d144a4ccfd63d5ddff4a2156d099191a778d1595db34, dipendente dalla futura faseAautorizzata. LaCura/L’imboscata/B000006SS1 esclusi e invariati.
+
+Rapporto finale rapporti/amazon-fasi-2026-10-26.md e prove con directory/diff/manifesti separati fase-a e fase-b. Le proposte precedenti bloccate restano prove storiche non adottate. Sorgenti/dati/HTML/date/sitemap operativi non toccati: solo documentazione locale nella copia nuova. Main/precedente copia intatti. Nessun uso chiave/firma/push/deploy/IndexNow/GSC; attendere approvazione specifica del proprietario su entrambe le fasi, poi percorso controller protetto e finestre di sicurezza prima del rilascio.

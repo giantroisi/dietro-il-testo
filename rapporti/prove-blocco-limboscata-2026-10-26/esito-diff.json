@@ -1,0 +1,212 @@
+{
+  "esito": "BLOCCATO: estratto editoriale non autorizzato nel solo album L’imboscata",
+  "base": "e8258f0ef1e6e0acae4169ab68e08522b27e10d9",
+  "HTMLModificati": 10,
+  "HTMLInvariati": 686,
+  "pagine": [
+    "/canzone/la-cura/",
+    "/canzone/peace-sells/",
+    "/canzone/rock-n-roll-damnation/",
+    "/canzone/vita-spericolata/",
+    "/canzone/je-so-pazzo/",
+    "/album/ac-dc/powerage/",
+    "/album/franco-battiato/limboscata/",
+    "/album/megadeth/peace-sells-but-whos-buying/",
+    "/album/pino-daniele/pino-daniele/",
+    "/album/vasco-rossi/bollicine/"
+  ],
+  "dateModified": [
+    {
+      "pagina": "/canzone/la-cura/",
+      "prima": [
+        "2026-10-12"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/canzone/peace-sells/",
+      "prima": [
+        "2026-10-02"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/canzone/rock-n-roll-damnation/",
+      "prima": [
+        "2026-10-02"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/canzone/vita-spericolata/",
+      "prima": [
+        "2026-10-02"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/canzone/je-so-pazzo/",
+      "prima": [
+        "2026-10-02"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/album/ac-dc/powerage/",
+      "prima": [
+        "2026-09-29"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/album/franco-battiato/limboscata/",
+      "prima": [
+        "2026-09-29"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/album/megadeth/peace-sells-but-whos-buying/",
+      "prima": [
+        "2026-09-29"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/album/pino-daniele/pino-daniele/",
+      "prima": [
+        "2026-09-29"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    },
+    {
+      "pagina": "/album/vasco-rossi/bollicine/",
+      "prima": [
+        "2026-09-29"
+      ],
+      "dopo": [
+        "2026-10-26"
+      ]
+    }
+  ],
+  "lastmod": [
+    {
+      "url": "https://www.dietroiltesto.it/album/franco-battiato/limboscata/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/megadeth/peace-sells-but-whos-buying/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/album/vasco-rossi/bollicine/",
+      "prima": "2026-09-29",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/la-cura/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/peace-sells/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/rock-n-roll-damnation/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/vita-spericolata/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-26"
+    },
+    {
+      "url": "https://www.dietroiltesto.it/canzone/je-so-pazzo/",
+      "prima": "2026-10-02",
+      "dopo": "2026-10-26"
+    }
+  ],
+  "sitemap": {
+    "sitemap-raccolte.xml": {
+      "conteggioPrima": 9,
+      "conteggioDopo": 9,
+      "hashPrima": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "hashDopo": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "variazioniLastmod": 0
+    },
+    "sitemap-album.xml": {
+      "conteggioPrima": 130,
+      "conteggioDopo": 130,
+      "hashPrima": "b101c436f8cfaeb1db249904c7c341c7785cfd4124033ecfb7c8301881987989",
+      "hashDopo": "cfb97986a662d36c9a83cfa80d4dfe96668c3d22efc634ca3220940e16ee2e79",
+      "variazioniLastmod": 3
+    },
+    "sitemap-canzoni.xml": {
+      "conteggioPrima": 321,
+      "conteggioDopo": 321,
+      "hashPrima": "24a7196d825ea7ffd3c5545aa608a1ea2bb276467efeeabba797b70335321e5c",
+      "hashDopo": "7c2c91c1b930fb071557cc28a2e855ce7bcb196b1998cc7fd20a8e7d018d4a7b",
+      "variazioniLastmod": 5
+    },
+    "sitemap-artisti.xml": {
+      "conteggioPrima": 104,
+      "conteggioDopo": 104,
+      "hashPrima": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "hashDopo": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "variazioniLastmod": 0
+    },
+    "sitemap-pagine.xml": {
+      "conteggioPrima": 7,
+      "conteggioDopo": 7,
+      "hashPrima": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "hashDopo": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "variazioniLastmod": 0
+    },
+    "sitemap.xml": {
+      "conteggioPrima": 5,
+      "conteggioDopo": 5,
+      "hashPrima": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "hashDopo": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "variazioniLastmod": 0
+    }
+  },
+  "variazioniMetadatiEDatePublished": [],
+  "homepageInvariata": true,
+  "ricercaInvariata": true,
+  "baselineInvariata": true,
+  "precedenteScartoEreditatoDiLimboscata": {
+    "pubblicata": "7d7bc777a08832d205bac2106dbe1f0966f7c05f9cb36b6d5e6ce783ad2d248c",
+    "generata": "aee8f600438b55e96d22fc6fa8c1c399c75b008164e8ef50ecc8f9091e01bc50",
+    "motivo": "anteprima correlata pregressa"
+  },
+  "primoConfineRotto": "Dati → HTML editoriale: il nuovo prodotto impedisce di conservare l’artefatto ereditato byte-identico e riproduce anche l’estratto diverso già censito nella baseline.",
+  "nessunaDerogaQuantitativa": true,
+  "chiavePrivataUsata": false,
+  "prodottiOperativiInvariati": true,
+  "HTMLPubbliciLocaliInvariati": true,
+  "verificheUlteriori": "Fermate al primo controllo fallito: nessun validatore affiliazioni o controllo browser dichiarato superato sul lotto non pubblicabile.",
+  "IndexNowGSC": 0
+}

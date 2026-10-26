@@ -1,0 +1,72 @@
+--- base/album/ac-dc/powerage/index.html
++++ anteprima-non-pubblicabile/album/ac-dc/powerage/index.html
+@@ -413,5 +413,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/album/megadeth/peace-sells-but-whos-buying/index.html
++++ anteprima-non-pubblicabile/album/megadeth/peace-sells-but-whos-buying/index.html
+@@ -412,5 +412,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/album/pino-daniele/pino-daniele/index.html
++++ anteprima-non-pubblicabile/album/pino-daniele/pino-daniele/index.html
+@@ -413,5 +413,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/album/vasco-rossi/bollicine/index.html
++++ anteprima-non-pubblicabile/album/vasco-rossi/bollicine/index.html
+@@ -412,5 +412,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/canzone/je-so-pazzo/index.html
++++ anteprima-non-pubblicabile/canzone/je-so-pazzo/index.html
+@@ -416,5 +416,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/canzone/peace-sells/index.html
++++ anteprima-non-pubblicabile/canzone/peace-sells/index.html
+@@ -416,5 +416,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/canzone/rock-n-roll-damnation/index.html
++++ anteprima-non-pubblicabile/canzone/rock-n-roll-damnation/index.html
+@@ -416,5 +416,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {
+--- base/canzone/vita-spericolata/index.html
++++ anteprima-non-pubblicabile/canzone/vita-spericolata/index.html
+@@ -416,5 +416,5 @@
+   display: grid; gap: 1px; background: var(--border);
+   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
++  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+ }
+ .scheda {

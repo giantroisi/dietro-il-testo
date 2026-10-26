@@ -1,0 +1,13 @@
+file:///private/tmp/dit-amazon-cinque-preparazione-n0nmu54f/repo/scripts/genera/perimetro.mjs:62
+      if (!attese.has(url)) throw new Error(`Pagina fuori lotto: ${url}`);
+                                  ^
+
+Error: Pagina fuori lotto: /archivio/
+    at Object.prepara (file:///private/tmp/dit-amazon-cinque-preparazione-n0nmu54f/repo/scripts/genera/perimetro.mjs:62:35)
+    at scriviConLastmod (file:///private/tmp/dit-amazon-cinque-preparazione-n0nmu54f/repo/scripts/genera-sito.mjs:496:20)
+    at file:///private/tmp/dit-amazon-cinque-preparazione-n0nmu54f/repo/scripts/genera-sito.mjs:533:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+
+Node.js v22.14.0
