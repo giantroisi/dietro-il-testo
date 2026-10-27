@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-10-27T14:20:39.261025+00:00",
+  "commit": "71c639c985f07d109d577682a6baea091df6accc",
+  "files": [
+    {
+      "file": "album/ac-dc/powerage/index.html",
+      "http": "200 https://www.dietroiltesto.it/album/ac-dc/powerage/",
+      "hash": "08b563dca3901d178faa12a579e2289d30fb05e840a2df8f567e40459035f29a",
+      "expected": "08b563dca3901d178faa12a579e2289d30fb05e840a2df8f567e40459035f29a",
+      "ok": true
+    },
+    {
+      "file": "album/megadeth/peace-sells-but-whos-buying/index.html",
+      "http": "200 https://www.dietroiltesto.it/album/megadeth/peace-sells-but-whos-buying/",
+      "hash": "63dbdb67c272f29ad977abfc64595327cbb6307cc2f85eadf2ce072fdf1ff1f2",
+      "expected": "63dbdb67c272f29ad977abfc64595327cbb6307cc2f85eadf2ce072fdf1ff1f2",
+      "ok": true
+    },
+    {
+      "file": "album/pino-daniele/pino-daniele/index.html",
+      "http": "200 https://www.dietroiltesto.it/album/pino-daniele/pino-daniele/",
+      "hash": "77810aeeb0c7ed39491ec7a78c355b8bb349f59d076a800053f4c3e5017d3e65",
+      "expected": "77810aeeb0c7ed39491ec7a78c355b8bb349f59d076a800053f4c3e5017d3e65",
+      "ok": true
+    },
+    {
+      "file": "album/vasco-rossi/bollicine/index.html",
+      "http": "200 https://www.dietroiltesto.it/album/vasco-rossi/bollicine/",
+      "hash": "53e92c3e9cb5f173707f359d8e3d4f98ca06b51358ca7ae00aca0ed29ef2324a",
+      "expected": "53e92c3e9cb5f173707f359d8e3d4f98ca06b51358ca7ae00aca0ed29ef2324a",
+      "ok": true
+    },
+    {
+      "file": "canzone/je-so-pazzo/index.html",
+      "http": "200 https://www.dietroiltesto.it/canzone/je-so-pazzo/",
+      "hash": "4f885be08f1a7e2021197fc9a7efdee54c6b20bd3ffa71f1937dff5017e11f55",
+      "expected": "4f885be08f1a7e2021197fc9a7efdee54c6b20bd3ffa71f1937dff5017e11f55",
+      "ok": true
+    },
+    {
+      "file": "canzone/peace-sells/index.html",
+      "http": "200 https://www.dietroiltesto.it/canzone/peace-sells/",
+      "hash": "744bbefd71078ed600cae3b6afe8bfe59e91bf05ec5d03e5b5a591bc12c7742e",
+      "expected": "744bbefd71078ed600cae3b6afe8bfe59e91bf05ec5d03e5b5a591bc12c7742e",
+      "ok": true
+    },
+    {
+      "file": "canzone/rock-n-roll-damnation/index.html",
+      "http": "200 https://www.dietroiltesto.it/canzone/rock-n-roll-damnation/",
+      "hash": "b124c531810318104d7236183b9f085331aeffd0da77b69df8af9027e29ff75e",
+      "expected": "b124c531810318104d7236183b9f085331aeffd0da77b69df8af9027e29ff75e",
+      "ok": true
+    },
+    {
+      "file": "canzone/vita-spericolata/index.html",
+      "http": "200 https://www.dietroiltesto.it/canzone/vita-spericolata/",
+      "hash": "a47ff5faae59d4fcde5b95965fc98296a14c7cc8a3aadcb4a029d11617e7b102",
+      "expected": "a47ff5faae59d4fcde5b95965fc98296a14c7cc8a3aadcb4a029d11617e7b102",
+      "ok": true
+    },
+    {
+      "file": "sitemap-album.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap-album.xml",
+      "hash": "73c7a8ffc5f667f0395564dcdf318d1420eb848cd38c0e110f875e11bcaf2822",
+      "expected": "73c7a8ffc5f667f0395564dcdf318d1420eb848cd38c0e110f875e11bcaf2822",
+      "ok": true
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "hash": "d77709150e0c2b228ffbf4b82e7624b2e128ecaea60d133e653504f225ba3457",
+      "expected": "d77709150e0c2b228ffbf4b82e7624b2e128ecaea60d133e653504f225ba3457",
+      "ok": true
+    },
+    {
+      "file": "sitemap-raccolte.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "hash": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "expected": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "ok": true
+    },
+    {
+      "file": "sitemap-artisti.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "hash": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "expected": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "ok": true
+    },
+    {
+      "file": "sitemap-pagine.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "hash": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "expected": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "ok": true
+    },
+    {
+      "file": "sitemap.xml",
+      "http": "200 https://www.dietroiltesto.it/sitemap.xml",
+      "hash": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "expected": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "ok": true
+    },
+    {
+      "file": "index.html",
+      "http": "200 https://www.dietroiltesto.it/",
+      "hash": "197e5008dac395a3a17dca55b6d4f9f5fe9ddd46a20adaf05bcce4250c4e7f8a",
+      "expected": "197e5008dac395a3a17dca55b6d4f9f5fe9ddd46a20adaf05bcce4250c4e7f8a",
+      "ok": true
+    },
+    {
+      "file": "ricerca.js",
+      "http": "200 https://www.dietroiltesto.it/ricerca.js",
+      "hash": "f5a8706255c0d4658dd145035f654078e632017c1bfbc25d5b39345185554087",
+      "expected": "f5a8706255c0d4658dd145035f654078e632017c1bfbc25d5b39345185554087",
+      "ok": true
+    },
+    {
+      "file": "canzone/la-cura/index.html",
+      "http": "200 https://www.dietroiltesto.it/canzone/la-cura/",
+      "hash": "205c51e635cc57577df2010ac5f17f0968fd3ee4c392a5964d0fb46938618bdd",
+      "expected": "205c51e635cc57577df2010ac5f17f0968fd3ee4c392a5964d0fb46938618bdd",
+      "ok": true
+    },
+    {
+      "file": "album/franco-battiato/limboscata/index.html",
+      "http": "200 https://www.dietroiltesto.it/album/franco-battiato/limboscata/",
+      "hash": "ccfd60f91ee14f2a7c23699cafd10b30f1c6b6267b884b20f90a4f32ca3135e6",
+      "expected": "ccfd60f91ee14f2a7c23699cafd10b30f1c6b6267b884b20f90a4f32ca3135e6",
+      "ok": true
+    }
+  ]
+}

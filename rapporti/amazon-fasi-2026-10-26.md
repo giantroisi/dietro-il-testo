@@ -70,3 +70,8 @@ Manifesto proposto fase B: **8b112ab64d920a92cdc6d144a4ccfd63d5ddff4a2156d099191
 Solo documentazione locale, nessuna chiave privata letta/usata, nessuna firma o approvazione operativa A→C→P creata, nessun push, deploy, pubblicazione, IndexNow o GSC. Attendere l’approvazione specifica del proprietario per **entrambi** i manifesti e il nuovo uso circoscritto della chiave. Prima di pubblicare riaprire le offerte, considerare la data della futura generazione e le finestre di sicurezza previste dalle routine; non riutilizzare una firma su byte/digest diversi.
 
 Il lotto L’imboscata resta separato. Nessun altro prodotto, immagine, URL o intervento avviato.
+
+
+## Esito successivo — 27 ottobre 2026
+
+Entrambe le fasi pubblicate dopo approvazione umana, firme esatte e controller protetto. Per la faseB il proprietario ha approvato il digest448efb81484a36710e74c8a88f76ff3cbd03e7aa1275d26ecfba775afe76fee1 con le sole date effettive27ottobre. Tutti i dettagli, hash, sequenze, verifiche pubbliche e finestre sono in [amazon-pubblicazione-2026-10-27.md](amazon-pubblicazione-2026-10-27.md). Le proposte obsolete restano prove storiche non adottate.

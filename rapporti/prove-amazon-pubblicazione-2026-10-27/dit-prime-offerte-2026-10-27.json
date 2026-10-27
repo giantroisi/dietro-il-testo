@@ -1,0 +1,56 @@
+{
+  "dataControllo": "2026-10-27",
+  "metodo": "Pagine pubbliche Amazon, badge nella offerta selezionata; nessun account, ordine o carrello aperto",
+  "offerte": [
+    {
+      "artistaFormato": "Daniele Pino (Artista)  Formato: Vinile",
+      "badgeRect": {
+        "height": 15,
+        "width": 53,
+        "x": 1037,
+        "y": 387.5
+      },
+      "disponibilita": "Disponibilità immediata",
+      "primeOfferta": true,
+      "titolo": "Pino Daniele",
+      "url": "https://www.amazon.it/dp/B00USIGLOI",
+      "venditore": "Speditore / Venditore\nAmazon"
+    },
+    {
+      "artistaFormato": "Vasco Rossi (Artista)  Formato: Vinile",
+      "disponibilita": "Disponibilità immediata",
+      "primeOfferta": true,
+      "titolo": "BOLLICINE 40^Rplay (LP)",
+      "url": "https://www.amazon.it/dp/B0C1P5J8MQ",
+      "venditore": "Speditore / Venditore Amazon"
+    },
+    {
+      "artistaFormato": "Megadeth (Artista)  Formato: Audio CD",
+      "badgeRect": {
+        "height": 15,
+        "width": 53,
+        "x": 1037,
+        "y": 417.5
+      },
+      "disponibilita": "Disponibilità immediata",
+      "primeOfferta": true,
+      "titolo": "Peace Sells But explicit_lyrics",
+      "url": "https://www.amazon.it/dp/B0002EXH54",
+      "venditore": "Speditore / Venditore Amazon"
+    },
+    {
+      "artistaFormato": "Ac/Dc (Artista)  Formato: Vinile",
+      "badgeRect": {
+        "height": 15,
+        "width": 53,
+        "x": 1037,
+        "y": 387.5
+      },
+      "disponibilita": "Disponibilità immediata",
+      "primeOfferta": true,
+      "titolo": "Powerage",
+      "url": "https://www.amazon.it/dp/B0000CDLL0",
+      "venditore": "Speditore / Venditore Amazon"
+    }
+  ]
+}

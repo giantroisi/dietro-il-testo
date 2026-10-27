@@ -1,0 +1,63 @@
+{
+  "filePubblici": 1129,
+  "fileCambiati": [
+    "sitemap-album.xml",
+    "sitemap-canzoni.xml",
+    "album/ac-dc/powerage/index.html",
+    "album/megadeth/peace-sells-but-whos-buying/index.html",
+    "album/vasco-rossi/bollicine/index.html",
+    "album/pino-daniele/pino-daniele/index.html",
+    "canzone/rock-n-roll-damnation/index.html",
+    "canzone/peace-sells/index.html",
+    "canzone/vita-spericolata/index.html",
+    "canzone/je-so-pazzo/index.html"
+  ],
+  "dateModifiedCambiati": [
+    "album/ac-dc/powerage/index.html",
+    "album/megadeth/peace-sells-but-whos-buying/index.html",
+    "album/vasco-rossi/bollicine/index.html",
+    "album/pino-daniele/pino-daniele/index.html",
+    "canzone/rock-n-roll-damnation/index.html",
+    "canzone/peace-sells/index.html",
+    "canzone/vita-spericolata/index.html",
+    "canzone/je-so-pazzo/index.html"
+  ],
+  "sitemaps": {
+    "sitemap-raccolte.xml": {
+      "conteggio": 9,
+      "lastmodCambiati": []
+    },
+    "sitemap-album.xml": {
+      "conteggio": 130,
+      "lastmodCambiati": [
+        "https://www.dietroiltesto.it/album/megadeth/peace-sells-but-whos-buying/",
+        "https://www.dietroiltesto.it/album/vasco-rossi/bollicine/"
+      ]
+    },
+    "sitemap-canzoni.xml": {
+      "conteggio": 321,
+      "lastmodCambiati": [
+        "https://www.dietroiltesto.it/canzone/peace-sells/",
+        "https://www.dietroiltesto.it/canzone/rock-n-roll-damnation/",
+        "https://www.dietroiltesto.it/canzone/vita-spericolata/",
+        "https://www.dietroiltesto.it/canzone/je-so-pazzo/"
+      ]
+    },
+    "sitemap-artisti.xml": {
+      "conteggio": 104,
+      "lastmodCambiati": []
+    },
+    "sitemap-pagine.xml": {
+      "conteggio": 7,
+      "lastmodCambiati": []
+    },
+    "sitemap.xml": {
+      "conteggio": 5,
+      "lastmodCambiati": []
+    }
+  },
+  "vecchiProdottiIdentici": 108,
+  "nuoviProdotti": 4,
+  "nessunaDifferenzaFuoriPerimetro": true,
+  "faseAFileIdentici": 1129
+}

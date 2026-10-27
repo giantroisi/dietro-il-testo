@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-10-27",
+  "base": "d0a50ac3b9b4d51fee13443b02b1ab13c6e9a3d4",
+  "previewSoltanto": true,
+  "firma": false,
+  "buildExitCode": 0,
+  "log": "/private/tmp/dit-verifica-ripresa-2026-10-27-k53ch15a/build.log",
+  "confronti": [
+    {
+      "file": "album/ac-dc/powerage/index.html",
+      "hashApprovato": "7ba3dff58d1c30c60a13dafeb0011b6f199e02de108575133e16b874fc217f07",
+      "hashOdierno": "08b563dca3901d178faa12a579e2289d30fb05e840a2df8f567e40459035f29a",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "album/megadeth/peace-sells-but-whos-buying/index.html",
+      "hashApprovato": "ab412df78673d6d665d5c614b9fb4112bc53bdf3adf1622513b906541b54d526",
+      "hashOdierno": "63dbdb67c272f29ad977abfc64595327cbb6307cc2f85eadf2ce072fdf1ff1f2",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "album/pino-daniele/pino-daniele/index.html",
+      "hashApprovato": "85339875cf7a6e9878b9693e084047625101fb6a5782ca6a0ae4f969ecf228be",
+      "hashOdierno": "77810aeeb0c7ed39491ec7a78c355b8bb349f59d076a800053f4c3e5017d3e65",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "album/vasco-rossi/bollicine/index.html",
+      "hashApprovato": "24bfb90ca5d9d992a13ff8d1b4005024158718a59fdbd219f42914188f0d285d",
+      "hashOdierno": "53e92c3e9cb5f173707f359d8e3d4f98ca06b51358ca7ae00aca0ed29ef2324a",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "canzone/je-so-pazzo/index.html",
+      "hashApprovato": "d7addcd95467c6e587d35f01d4ad93eaf8cda468a60329c0fe05dee7f1fa5fbf",
+      "hashOdierno": "4f885be08f1a7e2021197fc9a7efdee54c6b20bd3ffa71f1937dff5017e11f55",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "canzone/peace-sells/index.html",
+      "hashApprovato": "0dfaf42798e2ae69c0a76235519e841c23ae92f179b4bb9833ff44f6d5456618",
+      "hashOdierno": "744bbefd71078ed600cae3b6afe8bfe59e91bf05ec5d03e5b5a591bc12c7742e",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "canzone/rock-n-roll-damnation/index.html",
+      "hashApprovato": "e616ed21ddf1d7b6d2dab30b4d6fdd41eb07ad628903fb37b8fda86d7dae18e5",
+      "hashOdierno": "b124c531810318104d7236183b9f085331aeffd0da77b69df8af9027e29ff75e",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "canzone/vita-spericolata/index.html",
+      "hashApprovato": "69e751f1089bb72e4629679177bdb6736de4eb95b82e3bab70684c718ea2891d",
+      "hashOdierno": "a47ff5faae59d4fcde5b95965fc98296a14c7cc8a3aadcb4a029d11617e7b102",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "sitemap-album.xml",
+      "hashApprovato": "ae4b5aafd075e67802a8457515551fda700a4f4c37dafc814398d272f269c050",
+      "hashOdierno": "73c7a8ffc5f667f0395564dcdf318d1420eb848cd38c0e110f875e11bcaf2822",
+      "identico": false,
+      "soloData26a27": true
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "hashApprovato": "222b65f344e4c6f40bfe1484e39d9afe8c09a24310c8497acf1ad6c562912905",
+      "hashOdierno": "d77709150e0c2b228ffbf4b82e7624b2e128ecaea60d133e653504f225ba3457",
+      "identico": false,
+      "soloData26a27": true
+    }
+  ],
+  "fuoriPerimetroDiversi": []
+}
