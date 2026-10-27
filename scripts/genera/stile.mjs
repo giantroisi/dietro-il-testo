@@ -412,7 +412,7 @@ a { color: inherit; }
 .griglia {
   display: grid; gap: 1px; background: var(--border);
   border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .scheda {
   display: flex; flex-direction: column; gap: 7px;
