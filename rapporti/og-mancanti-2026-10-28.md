@@ -88,3 +88,18 @@ La base è stata verificata tramite il controller esterno originale. La sua funz
 Finestre registrate dal rilascio precedente:48ore almeno fino29ottobre15:27:17ora italiana;7giorni per interventi strutturali/estesi almeno fino3novembre15:27:17. Questo lotto modifica il generatore per introdurre verifiche e quindi richiede, se pubblicato prima, un’eccezione esplicita del proprietario; non dedotta dal mandato di sola preparazione. Non avviato un secondo lotto. Nessun push, deploy, IndexNow, GSC, chiave privata o nuova affiliazione.
 
 Prove: baseline.json; verifica-live-39.json; prima-check-og/URL; build1/2; determinismo-perimetro.json; buildnegativi;18fixture; testSEO/Amazon/contestuali; hash39PNG; inputrender; tre tavole; proposta esatta e preservazione concorrenti.
+
+
+## Esito — rilascio autorizzato e verificato il 28 ottobre 2026
+
+Il proprietario ha approvato esplicitamente firma, rilascio ed eccezione alle due pause per questo solo lotto. Manifesto c0243a42d4de1bcb7e7203d8d6577a44a85ef189ac2ec51de2cbed2dcaf72bf5 firmato esclusivamente sul Mac con la chiave esistente, senza trasferimento della chiave. Sequenza protetta: A `c16bd5c09d6e439da59a6e4fcb9447342f8e6c44`, C `e2c458806d4df1880aa496e4a74591736755e414`, P `30e6c074120c03aa2daefa0b555351dc4d7fcd2f`. Controller/ancora/runtime invariati; promozione senza HTML o sitemap. Integrazione lineare diretta sul ramo remoto, senza modificare il main locale divergente.
+
+Build protetta del commit P pulito: impatto SEO **0/50**, 1168 file. Confronto con la baseline pubblicata: tutti **1129 file preesistenti identici**, solo39PNGnuovi con impronte esatte;696HTML e6sitemap identici, dunque datePublished/dateModified/lastmod e conteggi invariati. Dati/Amazon/home/client/baseline invariati. Ripetuti18test e controlliSEO696/zero, affiliazioni1155 e contestuali7percorsi/10link. Il controller ha verificato la storia firmata; checkout pulito prima del push. Le22impronte dei file concorrenti e la copia precedente sono identiche alla baseline.
+
+Vercel `dpl_GKKLeYhA6yHYYq7kkvTZYTSaEqgK`, production **READY**, commit P esatto, dominio www assegnato; pronto alle **23:19:20 CET** (22:19:20.717UTC), durata14,75secondi. Sul dominio pubblico verificati86file: **39/39 PNG con HTTP200, image/png,1200×630 e SHA256 esatto**;39schede interessate più homepage,6sitemap e ricerca identiche alla baseline. Zero404 negli asset interessati. Elenco completo URL/esiti/impronte in `prove-og-mancanti-2026-10-28/rilascio/verifica-pubblica.json`.
+
+Audit collegamenti: zerooriginiHTTP o dominio senzaWWW in tutti696HTML; nelle sorgenti scripts/dati le6occorrenze residue sono esclusivamente fixture negative del test. Non sono link di navigazione né canonical/redirect da correggere. Le fonti esterne e la configurazione del dominio non sono state modificate. Nessun secondo lotto o sostituzione URL.
+
+Limite della verificaUI: il browser CUA non è partito per una radice di lavoro con componente symlink non supportata. Non modificata la configurazione del Mac e nessun controllo desktop/mobile nuovo dichiarato. Il risultato pubblicato è verificato tramite byte/hash/tipo/dimensioni; tutti gli HTML restano identici e le39immagini erano già state osservate nella preparazione.
+
+**Blocco tecnico completato.** Nessun GSC, IndexNow, nuova immagine oltre39, contenuto, affiliazione o data modificati. Prove di rilascio nella sottocartella `rilascio/`. Per prudenza, le nuove finestre ripartono dal successivo Ready della sola documentazione conclusiva, da registrare nel riscontro finale:48ore solo monitoraggio/regressioni;7giorni senza altri interventi estesi.

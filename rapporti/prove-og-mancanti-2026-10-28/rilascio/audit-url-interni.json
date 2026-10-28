@@ -1,0 +1,43 @@
+{
+  "htmlScanned": 696,
+  "badOriginsInPublishedHtml": [],
+  "sourceOccurrences": [
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 39,
+      "origin": "http://dietroiltesto.it",
+      "context": "for (const origin of ['http://dietroiltesto.it', 'http://www.dietroiltesto.it', 'https://dietroiltesto.it', 'HTTP://WWW.DIETROILTESTO.IT']) {"
+    },
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 39,
+      "origin": "http://www.dietroiltesto.it",
+      "context": "for (const origin of ['http://dietroiltesto.it', 'http://www.dietroiltesto.it', 'https://dietroiltesto.it', 'HTTP://WWW.DIETROILTESTO.IT']) {"
+    },
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 39,
+      "origin": "https://dietroiltesto.it",
+      "context": "for (const origin of ['http://dietroiltesto.it', 'http://www.dietroiltesto.it', 'https://dietroiltesto.it', 'HTTP://WWW.DIETROILTESTO.IT']) {"
+    },
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 39,
+      "origin": "HTTP://WWW.DIETROILTESTO.IT",
+      "context": "for (const origin of ['http://dietroiltesto.it', 'http://www.dietroiltesto.it', 'https://dietroiltesto.it', 'HTTP://WWW.DIETROILTESTO.IT']) {"
+    },
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 47,
+      "origin": "https://dietroiltesto.it",
+      "context": "test('URL non canonico in dati strutturati fallisce', () => fixture('<script type=\"application/ld+json\">{\"url\":\"https://dietroiltesto.it/\"}</script>', root => {"
+    },
+    {
+      "file": "scripts/test-integrita-output.mjs",
+      "line": 55,
+      "origin": "http://dietroiltesto.it",
+      "context": "writeFileSync(join(root, 'canzone', 'index.html'), '<meta property=\"og:image\" content=\"/manca.png\"><a href=\"http://dietroiltesto.it/\">Home</a>');"
+    }
+  ],
+  "scope": "fonti scripts/dati, esclusi documenti storici; nessuna sostituzione effettuata"
+}

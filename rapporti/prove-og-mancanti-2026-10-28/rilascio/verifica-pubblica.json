@@ -1,0 +1,943 @@
+{
+  "timestamp": "2026-10-28T22:20:04.971784+00:00",
+  "commit": "30e6c074120c03aa2daefa0b555351dc4d7fcd2f",
+  "deployment": "dpl_GKKLeYhA6yHYYq7kkvTZYTSaEqgK",
+  "verified": 86,
+  "png": 39,
+  "html": 40,
+  "sitemaps": 6,
+  "client": 1,
+  "errors": 0,
+  "results": [
+    {
+      "path": "og/another-one-bites-the-dust.png",
+      "url": "https://www.dietroiltesto.it/og/another-one-bites-the-dust.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/another-one-bites-the-dust.png",
+      "sha256": "b85ad44c1238264f4661863f6f5bd22bc662a576737e02e122f139d5b0a3abbe",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/bandiera-bianca.png",
+      "url": "https://www.dietroiltesto.it/og/bandiera-bianca.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/bandiera-bianca.png",
+      "sha256": "e1761f56fe3d2edfd09708dc86b40851436eb1257f746bd943507bde853bae23",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/bocca-di-rosa.png",
+      "url": "https://www.dietroiltesto.it/og/bocca-di-rosa.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/bocca-di-rosa.png",
+      "sha256": "fc0fb0b279e8ca1f7b08b5323987308dc4da235ce497616d898d8a335c20d017",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/centro-di-gravita-permanente.png",
+      "url": "https://www.dietroiltesto.it/og/centro-di-gravita-permanente.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/centro-di-gravita-permanente.png",
+      "sha256": "f462decde7c2b71baf59efa00aea5ca92b00ff32fed5cf8d51f8bb6c6fb1a58c",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/come-as-you-are.png",
+      "url": "https://www.dietroiltesto.it/og/come-as-you-are.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/come-as-you-are.png",
+      "sha256": "e7d681ae6762fc75b96acb66c3500f1cda4735d8e72ca4bf703e3c6c485a3cfc",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/comfortably-numb.png",
+      "url": "https://www.dietroiltesto.it/og/comfortably-numb.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/comfortably-numb.png",
+      "sha256": "d348439187ce31441dc8a3b918d707645105dee6c07740715e015aed0bd0bc37",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/dammit.png",
+      "url": "https://www.dietroiltesto.it/og/dammit.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/dammit.png",
+      "sha256": "92fe3ca93df35d7777f4856f82e82ed6a1196b3ae1b8d25f336c666b06ea2649",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/dubbi-non-ho.png",
+      "url": "https://www.dietroiltesto.it/og/dubbi-non-ho.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/dubbi-non-ho.png",
+      "sha256": "546268befa4d100e9b85d955a51d984a3b0b5ab77f215ddc12b5024fd98acae3",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/e-ti-vengo-a-cercare.png",
+      "url": "https://www.dietroiltesto.it/og/e-ti-vengo-a-cercare.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/e-ti-vengo-a-cercare.png",
+      "sha256": "1add9f0863ef3afec8531255f7e50ed43c46f63b274668e8d2d2f474377f1bb2",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/enjoy-the-silence.png",
+      "url": "https://www.dietroiltesto.it/og/enjoy-the-silence.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/enjoy-the-silence.png",
+      "sha256": "17edc42b9246fdfcf443d970500ce0a8ae5b61ecf0b52a0746292d4d56865a6f",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/everybody-hurts.png",
+      "url": "https://www.dietroiltesto.it/og/everybody-hurts.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/everybody-hurts.png",
+      "sha256": "2fb689989c4c01599b1036f92b3d80907118648fc922a4e574dc480143b46bdc",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/fell-in-love-with-a-girl.png",
+      "url": "https://www.dietroiltesto.it/og/fell-in-love-with-a-girl.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/fell-in-love-with-a-girl.png",
+      "sha256": "69c4737b9389d9a607f0e363710e789badc242ca51e3ea256c6db32c59369e04",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/first-date.png",
+      "url": "https://www.dietroiltesto.it/og/first-date.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/first-date.png",
+      "sha256": "24b0463c921f039554cb9a7f0edbb4091ae759a99d833c9e0ace8f585c3fdea8",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/go-your-own-way.png",
+      "url": "https://www.dietroiltesto.it/og/go-your-own-way.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/go-your-own-way.png",
+      "sha256": "e349a7fa427af02af7e122a73eb9da0737e6fdffc9e00b079ba08d66312b0a85",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/here-comes-the-sun.png",
+      "url": "https://www.dietroiltesto.it/og/here-comes-the-sun.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/here-comes-the-sun.png",
+      "sha256": "72ba1c8e544d01143bf1b141e32ddbf0d0c3b53424279958c328dbc49c9eaca2",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/je-so-pazzo.png",
+      "url": "https://www.dietroiltesto.it/og/je-so-pazzo.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/je-so-pazzo.png",
+      "sha256": "d436ba6ab6251b84c3d437b9be0467b30f00175c4c193b1cac46d17a1cd08ad6",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/kashmir.png",
+      "url": "https://www.dietroiltesto.it/og/kashmir.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/kashmir.png",
+      "sha256": "f108f54b6a6d4659bcad0b83ed8031e843a5df7f5fcbd61e4726ba737e4816b7",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/l-era-del-cinghiale-bianco.png",
+      "url": "https://www.dietroiltesto.it/og/l-era-del-cinghiale-bianco.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/l-era-del-cinghiale-bianco.png",
+      "sha256": "33b5e595dba72779efc35ea0494d29e40060a6610559282796b841d1805e4526",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/la-canzone-del-sole.png",
+      "url": "https://www.dietroiltesto.it/og/la-canzone-del-sole.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/la-canzone-del-sole.png",
+      "sha256": "bbab72d151a9a05332cc71a3b91912386065def35855d3c7ddcb2a1970a8f496",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/life-on-mars.png",
+      "url": "https://www.dietroiltesto.it/og/life-on-mars.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/life-on-mars.png",
+      "sha256": "ecf25419569c0b88648c51b51a579dbab0b72c1547d25e08609dadf5ae116678",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/live-forever.png",
+      "url": "https://www.dietroiltesto.it/og/live-forever.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/live-forever.png",
+      "sha256": "dd3225fe9b8067419251b4185da91645748d9af2e03521c4058bc77c506c0162",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/man-in-the-mirror.png",
+      "url": "https://www.dietroiltesto.it/og/man-in-the-mirror.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/man-in-the-mirror.png",
+      "sha256": "91fb8e7d844c59966309837dc497a750278e1c1c00d13976ce695bd037e0dc53",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/nightswimming.png",
+      "url": "https://www.dietroiltesto.it/og/nightswimming.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/nightswimming.png",
+      "sha256": "161f0cf01190980f290454cebe1187ec2bd06dfd1224e3b8840b7892c6fc79ac",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/nutshell.png",
+      "url": "https://www.dietroiltesto.it/og/nutshell.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/nutshell.png",
+      "sha256": "5dfe22303cc8e4c571bad0fe0c5454cb8601b157252f19946a89e45a2a1ad7be",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/povera-patria.png",
+      "url": "https://www.dietroiltesto.it/og/povera-patria.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/povera-patria.png",
+      "sha256": "6af1ce6795cfd7035b8c5f70e7cd4e82073873bea56aca6c3fc547f0bd81d5e2",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/prospettiva-nevski.png",
+      "url": "https://www.dietroiltesto.it/og/prospettiva-nevski.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/prospettiva-nevski.png",
+      "sha256": "2336da8cf0a34aadc3b91255d985a82bc75ab14175ea7645d5576907b1cc0ae9",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/roxanne.png",
+      "url": "https://www.dietroiltesto.it/og/roxanne.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/roxanne.png",
+      "sha256": "98a2e37c91b05daaa9d993e9336f0163e9b882e6557d92f63701f525717b9bea",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/somebody-told-me.png",
+      "url": "https://www.dietroiltesto.it/og/somebody-told-me.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/somebody-told-me.png",
+      "sha256": "625e4d65c8952f4d28a4e32a5e86975feb0f557903cfae90c9de5017fb134f4c",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/stand-by-me.png",
+      "url": "https://www.dietroiltesto.it/og/stand-by-me.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/stand-by-me.png",
+      "sha256": "b9c53db50984ac866e4c8b1d55e127d3566f0f9c375f2f02c7841c7cfa1d82f4",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/stop-crying-your-heart-out.png",
+      "url": "https://www.dietroiltesto.it/og/stop-crying-your-heart-out.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/stop-crying-your-heart-out.png",
+      "sha256": "d1036368b2d250bf8e5800eb2eeae8d51d3e5614ed9a0ae4f116aa6a026c768e",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/sympathy-for-the-devil.png",
+      "url": "https://www.dietroiltesto.it/og/sympathy-for-the-devil.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/sympathy-for-the-devil.png",
+      "sha256": "7a882c3280143d3666d2839a95e1fd997cda87f1743785727617a10a7544d30f",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/take-it-easy.png",
+      "url": "https://www.dietroiltesto.it/og/take-it-easy.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/take-it-easy.png",
+      "sha256": "de211de74aecf6113ee12c69085810b3864f3ccd05e2d27d78f2b4508576f09c",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/the-scientist.png",
+      "url": "https://www.dietroiltesto.it/og/the-scientist.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/the-scientist.png",
+      "sha256": "b6b2f8563b6b8668bfe603f5198ccdd676a2295c1456036f328c634c9f93360f",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/vita-spericolata.png",
+      "url": "https://www.dietroiltesto.it/og/vita-spericolata.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/vita-spericolata.png",
+      "sha256": "6e8b8708dafdccb4846f81a8d695de4d42b7e1bf8c5a39ddb71844cb44c6a2ef",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/wanted-dead-or-alive.png",
+      "url": "https://www.dietroiltesto.it/og/wanted-dead-or-alive.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/wanted-dead-or-alive.png",
+      "sha256": "f08b0803d3f68e854efc8fde651e5fb16245c425de049278afffdfbc59e1b5f4",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/when-doves-cry.png",
+      "url": "https://www.dietroiltesto.it/og/when-doves-cry.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/when-doves-cry.png",
+      "sha256": "ac8a0aa30130cb62255de249c73da62a6e75853eee02a9f2ec9ddf1fbdf2f977",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/would.png",
+      "url": "https://www.dietroiltesto.it/og/would.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/would.png",
+      "sha256": "afa75053a7d178eb5637d42bd9cfe999dceaf13969a9365c609cadef5112bbc1",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/yesterday.png",
+      "url": "https://www.dietroiltesto.it/og/yesterday.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/yesterday.png",
+      "sha256": "53e7a523cc163f10a001f5cfb2d82e4589c67d8391fa20dff2cbbb44bb17d30b",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "og/your-song.png",
+      "url": "https://www.dietroiltesto.it/og/your-song.png",
+      "status": 200,
+      "contentType": "image/png",
+      "effectiveUrl": "https://www.dietroiltesto.it/og/your-song.png",
+      "sha256": "1363c8caa7a0d4f04d882c3d58713342f619f7cfb51539ace0f0cb7dcf635ad6",
+      "expectedMatch": true,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "path": "canzone/another-one-bites-the-dust/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/another-one-bites-the-dust/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/another-one-bites-the-dust/",
+      "sha256": "abe9a47659516e09f80ccb0103734c591f43b4a8e5905d1662b298863acd24f0",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/bandiera-bianca/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/bandiera-bianca/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/bandiera-bianca/",
+      "sha256": "54ddf3234e1f2142d36c912f64ade544c7213bfc9beddf411c67d5bcf6ebfb45",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/bocca-di-rosa/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/bocca-di-rosa/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/bocca-di-rosa/",
+      "sha256": "b5f10b940127dcc98faa13e438bdf353329f7b078530b3a6e1e44755b7d8eff1",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/centro-di-gravita-permanente/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/centro-di-gravita-permanente/",
+      "sha256": "c8479c0aa459f4899e5e1aba8341315326ef34586d63b0a194789b20821d9994",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/come-as-you-are/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/come-as-you-are/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/come-as-you-are/",
+      "sha256": "40d8d3a9e2944d28a3029077bb097e470e801292d5c00665900946906dcf71ba",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/comfortably-numb/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/comfortably-numb/",
+      "sha256": "2e89b82d30b7ad2616ccb4bc1ad1119d632f73344e200511881584c3e4220f78",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/dammit/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/dammit/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/dammit/",
+      "sha256": "cd2f07849c995e070caf0a5ddcbc7cea526a1274883f2e80c48ccca76ae5de24",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/dubbi-non-ho/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/dubbi-non-ho/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/dubbi-non-ho/",
+      "sha256": "cf541be26dbf44c432fd21a99b30dc41680187135a039d9791b16b8b3bb67d36",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/e-ti-vengo-a-cercare/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/e-ti-vengo-a-cercare/",
+      "sha256": "55eca44b8f7376bb0b31fbe89fff8325b8efd865f1b6b6bc9fa714b552c4896f",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/enjoy-the-silence/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/enjoy-the-silence/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/enjoy-the-silence/",
+      "sha256": "5d64fc836fcc77fb0b6ce8473897eca0e74391d52e7ed0ed552e7797c2cb58d9",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/everybody-hurts/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/everybody-hurts/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/everybody-hurts/",
+      "sha256": "e26f166080baab3e228fbbff2ab097e53d1a1185b750298e7b90d1c165ed2ad4",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/fell-in-love-with-a-girl/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/fell-in-love-with-a-girl/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/fell-in-love-with-a-girl/",
+      "sha256": "21e119aa11a89fb5b1855ac98cd30bc5fa11106ea15a3680fff37f256c496921",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/first-date/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/first-date/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/first-date/",
+      "sha256": "b02ef7986d2e6a5630dfdb0df8819350c1751f77a50222934665e5a9b0640305",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/go-your-own-way/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/go-your-own-way/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/go-your-own-way/",
+      "sha256": "7944573fdb21f9a0bcc3de6cb49e259924461504335dbe101876f36d754168b8",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/here-comes-the-sun/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/here-comes-the-sun/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/here-comes-the-sun/",
+      "sha256": "449ff15f4e76c590af989534d9fc51b2347ff8d6820f1de0fe70af8127af373f",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/je-so-pazzo/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/je-so-pazzo/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/je-so-pazzo/",
+      "sha256": "4f885be08f1a7e2021197fc9a7efdee54c6b20bd3ffa71f1937dff5017e11f55",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/kashmir/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/kashmir/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/kashmir/",
+      "sha256": "04901d63c417571517b42b5db3fb4d5032ebba62fc77902264c89c8d9f756f8d",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/l-era-del-cinghiale-bianco/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/l-era-del-cinghiale-bianco/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/l-era-del-cinghiale-bianco/",
+      "sha256": "3713c821d8dd8bccddf2eeac955396b2a17e283358875421b785b221d08971cd",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/la-canzone-del-sole/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/la-canzone-del-sole/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/la-canzone-del-sole/",
+      "sha256": "0da481e9b2a1c6979bb6c1171477fbf0786ace74a4e3ffe845fa60382f9d99a2",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/life-on-mars/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/life-on-mars/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/life-on-mars/",
+      "sha256": "b65d3179d6998a189c5ecc36d88e882d3664ae4cc581a7bbc593e81ff657311d",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/live-forever/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/live-forever/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/live-forever/",
+      "sha256": "2d09e2038215f66d349dc51023da633d8dbe33a932526887270649c5e375ff82",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/man-in-the-mirror/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/man-in-the-mirror/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/man-in-the-mirror/",
+      "sha256": "59774132e17e34d9d2fcef9ea8a7f681dcc1e726d93c853fd99cf20d8a3c79d2",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/nightswimming/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/nightswimming/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/nightswimming/",
+      "sha256": "e2f1aeee4c438af9e684593ef6f018b0279db5a5c34b12c18149d4163f962cd0",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/nutshell/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/nutshell/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/nutshell/",
+      "sha256": "41e0c72879ebdc575ca7de609f9be65fcf6490c3922a540b16a65ec45c0bdc98",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/povera-patria/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/povera-patria/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/povera-patria/",
+      "sha256": "5ec76c355d964adec38797c28519283ea7b4e4dc7c756b325eee0ab6ce4ccd21",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/prospettiva-nevski/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/prospettiva-nevski/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/prospettiva-nevski/",
+      "sha256": "12fb2197f96708c075eac8880990c04095a1deadbf260c5a8c2ffe0d339d1b0d",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/roxanne/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/roxanne/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/roxanne/",
+      "sha256": "ed2594ec96b0617074b4107a16773c4e278042dabffc7a32668f356d0ca543c3",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/somebody-told-me/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/somebody-told-me/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/somebody-told-me/",
+      "sha256": "fe3ffa5f5d5ee66ee881c10a4753d6dd7be0d62ca5301465f821ca80620ca8ba",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/stand-by-me/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/stand-by-me/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/stand-by-me/",
+      "sha256": "bbddef9973aa12e83455b6c5381555fbb49271b72da6bbfa7d6907d6bf929eb7",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/stop-crying-your-heart-out/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/stop-crying-your-heart-out/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/stop-crying-your-heart-out/",
+      "sha256": "b03414ce3f753ac095c8e1818858ae31a780b7eea56538d9c55558adebd14915",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/sympathy-for-the-devil/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/sympathy-for-the-devil/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/sympathy-for-the-devil/",
+      "sha256": "847011b0e557c63f67aa3cbbf16b7c51ddb5d56c93efa8dd567a9ac97fd12316",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/take-it-easy/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/take-it-easy/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/take-it-easy/",
+      "sha256": "3db6d4f0526c6748a3b1137de631e56484d734905984e6e71174ad5e2dce2d0a",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/the-scientist/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/the-scientist/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/the-scientist/",
+      "sha256": "486426636bb56fa550356a4d097bcef279af928004e90483637bee75d22e62f0",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/vita-spericolata/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/vita-spericolata/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/vita-spericolata/",
+      "sha256": "a47ff5faae59d4fcde5b95965fc98296a14c7cc8a3aadcb4a029d11617e7b102",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/wanted-dead-or-alive/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/wanted-dead-or-alive/",
+      "sha256": "586c48350b41cb189346c7edd95d70df9f40b6687efec80348db675018a9816d",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/when-doves-cry/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/when-doves-cry/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/when-doves-cry/",
+      "sha256": "ede326150c7daa764c3855491eaa89574a454a819483e6dd3af0b45f85f398a0",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/would/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/would/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/would/",
+      "sha256": "c756f5a25c3064cc116976841329ec40150f85aef1cddbbac039b2cdd1de81f3",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/yesterday/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/yesterday/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/yesterday/",
+      "sha256": "a19ea43b3de04c5ac24f8954e22f1076db4913d9468a20198564e1f2b9d700fc",
+      "expectedMatch": true
+    },
+    {
+      "path": "canzone/your-song/index.html",
+      "url": "https://www.dietroiltesto.it/canzone/your-song/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/canzone/your-song/",
+      "sha256": "9cd5caa1dcf2d6356741220cb2123146ae10500571b6ffdb47ec9decb890a90f",
+      "expectedMatch": true
+    },
+    {
+      "path": "index.html",
+      "url": "https://www.dietroiltesto.it/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/",
+      "sha256": "197e5008dac395a3a17dca55b6d4f9f5fe9ddd46a20adaf05bcce4250c4e7f8a",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap-raccolte.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap-raccolte.xml",
+      "sha256": "2c8f75f6428bef6c8ce7db8ab4e011e8ab8bce277901d2c6579e67ca75502e9e",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap-album.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap-album.xml",
+      "sha256": "73c7a8ffc5f667f0395564dcdf318d1420eb848cd38c0e110f875e11bcaf2822",
+      "expectedMatch": true
+    },
+    {
+      "path": "ricerca.js",
+      "url": "https://www.dietroiltesto.it/ricerca.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "effectiveUrl": "https://www.dietroiltesto.it/ricerca.js",
+      "sha256": "f5a8706255c0d4658dd145035f654078e632017c1bfbc25d5b39345185554087",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap-canzoni.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap-canzoni.xml",
+      "sha256": "d77709150e0c2b228ffbf4b82e7624b2e128ecaea60d133e653504f225ba3457",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap-artisti.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap-artisti.xml",
+      "sha256": "fd03054d55b67b88755ed4c96df6757c20c14d4b96a966e708dc747b08bef6e4",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap-pagine.xml",
+      "url": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap-pagine.xml",
+      "sha256": "a1fdc0f6c147c8455c603a7087efaadde9a9029968d5f6999df76b7c7913bc14",
+      "expectedMatch": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://www.dietroiltesto.it/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "effectiveUrl": "https://www.dietroiltesto.it/sitemap.xml",
+      "sha256": "8d516b6f7e18227419158769a0c6fee8f8b88f4158785c13846b98f391c6d9ad",
+      "expectedMatch": true
+    }
+  ]
+}

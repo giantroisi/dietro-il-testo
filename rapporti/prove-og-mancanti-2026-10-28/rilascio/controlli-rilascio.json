@@ -1,0 +1,22 @@
+[
+  {
+    "check": "test-integrita-output.mjs",
+    "exit": 0,
+    "tail": "simili passano\n  ---\n  duration_ms: 0.933584\n  ...\n# Subtest: URL non canonico in dati strutturati fallisce\nok 16 - URL non canonico in dati strutturati fallisce\n  ---\n  duration_ms: 1.021416\n  ...\n# Subtest: URL con entit\u00e0 numerica fallisce\nok 17 - URL con entit\u00e0 numerica fallisce\n  ---\n  duration_ms: 0.759208\n  ...\n# Subtest: Una sottopagina non viene ignorata\nok 18 - Una sottopagina non viene ignorata\n  ---\n  duration_ms: 1.583459\n  ...\n1..18\n# tests 18\n# suites 0\n# pass 18\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 41.998292\n"
+  },
+  {
+    "check": "check-seo.mjs",
+    "exit": 0,
+    "tail": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+  },
+  {
+    "check": "check-affiliazioni.mjs",
+    "exit": 0,
+    "tail": "OK: configurazione, dichiarazione, 1155 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+  },
+  {
+    "check": "check-collegamenti-contestuali.mjs",
+    "exit": 0,
+    "tail": "7 percorsi contestuali, 10 collegamenti: dati, destinazioni e posizione corretti.\n"
+  }
+]
