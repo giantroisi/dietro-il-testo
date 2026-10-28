@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: OG esistente: https://www.dietroiltesto.it/og/valida.png?v=123&amp;x=1\#foto
+ok 1 - OG esistente: https://www.dietroiltesto.it/og/valida.png?v=123&amp;x=1\#foto
+  ---
+  duration_ms: 28.653417
+  ...
+# Subtest: OG esistente: /og/valida.png
+ok 2 - OG esistente: /og/valida.png
+  ---
+  duration_ms: 1.804875
+  ...
+# Subtest: OG esistente: og/valida.png
+ok 3 - OG esistente: og/valida.png
+  ---
+  duration_ms: 1.56325
+  ...
+# Subtest: OG rifiutata: /og/mancante.png
+ok 4 - OG rifiutata: /og/mancante.png
+  ---
+  duration_ms: 1.40725
+  ...
+# Subtest: OG rifiutata: /og/valida%ZZ.png
+ok 5 - OG rifiutata: /og/valida%ZZ.png
+  ---
+  duration_ms: 2.534917
+  ...
+# Subtest: OG rifiutata: 
+ok 6 - OG rifiutata: 
+  ---
+  duration_ms: 1.066375
+  ...
+# Subtest: OG rifiutata: /og/
+ok 7 - OG rifiutata: /og/
+  ---
+  duration_ms: 1.07875
+  ...
+# Subtest: OG esterna e commento non sono file locali
+ok 8 - OG esterna e commento non sono file locali
+  ---
+  duration_ms: 0.852167
+  ...
+# Subtest: OG: un file vuoto fallisce
+ok 9 - OG: un file vuoto fallisce
+  ---
+  duration_ms: 1.805542
+  ...
+# Subtest: OG: symlink esterno fallisce
+ok 10 - OG: symlink esterno fallisce
+  ---
+  duration_ms: 1.616291
+  ...
+# Subtest: URL non canonico: http://dietroiltesto.it
+ok 11 - URL non canonico: http://dietroiltesto.it
+  ---
+  duration_ms: 1.169375
+  ...
+# Subtest: URL non canonico: http://www.dietroiltesto.it
+ok 12 - URL non canonico: http://www.dietroiltesto.it
+  ---
+  duration_ms: 0.930709
+  ...
+# Subtest: URL non canonico: https://dietroiltesto.it
+ok 13 - URL non canonico: https://dietroiltesto.it
+  ---
+  duration_ms: 0.838333
+  ...
+# Subtest: URL non canonico: HTTP://WWW.DIETROILTESTO.IT
+ok 14 - URL non canonico: HTTP://WWW.DIETROILTESTO.IT
+  ---
+  duration_ms: 0.767458
+  ...
+# Subtest: URL canonici, relativi, esterni e nomi simili passano
+ok 15 - URL canonici, relativi, esterni e nomi simili passano
+  ---
+  duration_ms: 0.639
+  ...
+# Subtest: URL non canonico in dati strutturati fallisce
+ok 16 - URL non canonico in dati strutturati fallisce
+  ---
+  duration_ms: 0.825041
+  ...
+# Subtest: URL con entità numerica fallisce
+ok 17 - URL con entità numerica fallisce
+  ---
+  duration_ms: 0.687
+  ...
+# Subtest: Una sottopagina non viene ignorata
+ok 18 - Una sottopagina non viene ignorata
+  ---
+  duration_ms: 1.283083
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 113.757542

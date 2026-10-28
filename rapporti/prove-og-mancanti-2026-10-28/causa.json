@@ -1,0 +1,12 @@
+{
+  "renderOriginale": "scripts/genera-og.py",
+  "rootMetadata": "scripts/genera/pagine.mjs:914",
+  "copiaAsset": "scripts/genera-sito.mjs:667-690",
+  "assetOGPubblicatiNellaBase": 285,
+  "mancanti": 39,
+  "metadatiCostruitiSenzaControlloFile": true,
+  "generazioneOGSeparataManuale": true,
+  "buildPrecedenteAccettaFileMancanti": true,
+  "registroOgVersioniInvariato": true,
+  "nomi39CorrispondonoAlMandato": true
+}

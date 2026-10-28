@@ -1,0 +1,21 @@
+Impatto SEO: 0 pagine editoriali esistenti modificate (limite ordinario 50).
+Perimetro verificato: {"pagine":[],"ereditateConservate":["/album/5-seconds-of-summer/youngblood/","/album/caparezza/verita-supposte/","/album/franco-battiato/limboscata/","/anni/1990/","/anni/2000/","/anni/2010/","/archivio/","/artista/5-seconds-of-summer/","/artista/caparezza/","/artista/franco-battiato/","/artista/r-e-m/","/canzone/amnesia-5sos/","/canzone/bandiera-bianca/","/canzone/centro-di-gravita-permanente/","/canzone/complete-mess/","/canzone/easier/","/canzone/eroe-storia-di-luigi-delle-bicocche/","/canzone/exuvia/","/canzone/goodbye-malinconia/","/canzone/l-era-del-cinghiale-bianco/","/canzone/la-mia-parte-intollerante/","/canzone/legalize-the-premier/","/canzone/lose-yourself/","/canzone/non-me-lo-posso-permettere/","/canzone/not-ok/","/canzone/piu-bella-cosa/","/canzone/povera-patria/","/canzone/prisoner-709/","/canzone/prospettiva-nevski/","/canzone/she-looks-so-perfect/","/canzone/shes-kinda-hot/","/canzone/vieni-a-ballare-in-puglia/","/genere/pop/","/genere/rock/"],"datiCartoline":[],"immaginiCartoline":[]}
+Ritratti copiati:  104
+file:///private/tmp/dit-og-assets-2026-10-28-2g58jxn1/preview/scripts/genera/integrita-output.mjs:46
+  const error = new Error(`${titolo}: ${problemi.length} problemi\n${problemi.join('\n')}`);
+                ^
+
+Error: Immagini Open Graph mancanti o non valide: 1 problemi
+canzone/vita-spericolata/index.html: https://www.dietroiltesto.it/og/vita-spericolata.png — ENOENT: no such file or directory, lstat '/private/tmp/dit-og-assets-2026-10-28-2g58jxn1/negativo-og/og/vita-spericolata.png'
+    at fallisci (file:///private/tmp/dit-og-assets-2026-10-28-2g58jxn1/preview/scripts/genera/integrita-output.mjs:46:17)
+    at controllaImmaginiOG (file:///private/tmp/dit-og-assets-2026-10-28-2g58jxn1/preview/scripts/check-og.mjs:30:3)
+    at file:///private/tmp/dit-og-assets-2026-10-28-2g58jxn1/preview/scripts/genera-sito.mjs:797:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  problemi: [
+    "canzone/vita-spericolata/index.html: https://www.dietroiltesto.it/og/vita-spericolata.png — ENOENT: no such file or directory, lstat '/private/tmp/dit-og-assets-2026-10-28-2g58jxn1/negativo-og/og/vita-spericolata.png'"
+  ]
+}
+
+Node.js v22.14.0

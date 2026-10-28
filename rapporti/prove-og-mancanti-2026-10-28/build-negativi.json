@@ -1,0 +1,12 @@
+[
+  {
+    "caso": "PNG sorgente mancante",
+    "exit": 1,
+    "buildBloccata": true
+  },
+  {
+    "caso": "URL http in HTML generato da fixture",
+    "exit": 1,
+    "buildBloccata": true
+  }
+]

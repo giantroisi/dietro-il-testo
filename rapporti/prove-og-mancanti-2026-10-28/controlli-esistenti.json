@@ -1,0 +1,17 @@
+[
+  {
+    "check": "check-seo.mjs",
+    "exit": 0,
+    "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito.\n"
+  },
+  {
+    "check": "check-affiliazioni.mjs",
+    "exit": 0,
+    "output": "OK: configurazione, dichiarazione, 1155 link verificati, avvisi, rel e nessuna risorsa Amazon.\n"
+  },
+  {
+    "check": "check-collegamenti-contestuali.mjs",
+    "exit": 0,
+    "output": "7 percorsi contestuali, 10 collegamenti: dati, destinazioni e posizione corretti.\n"
+  }
+]

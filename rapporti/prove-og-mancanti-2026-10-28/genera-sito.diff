@@ -1,0 +1,36 @@
+diff --git a/Users/gianmicheletroisi/.codex/worktrees/og-assets-integrita-2026-10-27/dietro-il-testo/scripts/genera-sito.mjs b/Users/gianmicheletroisi/.codex/worktrees/og-assets-integrita-2026-10-27/dietro-il-testo/rapporti/prove-og-mancanti-2026-10-28/proposta/scripts/genera-sito.mjs
+index 2d17efc84..be4d32ac7 100644
+--- a/Users/gianmicheletroisi/.codex/worktrees/og-assets-integrita-2026-10-27/dietro-il-testo/scripts/genera-sito.mjs
++++ b/Users/gianmicheletroisi/.codex/worktrees/og-assets-integrita-2026-10-27/dietro-il-testo/rapporti/prove-og-mancanti-2026-10-28/proposta/scripts/genera-sito.mjs
+@@ -13,6 +13,8 @@ import { RITRATTI, SITO } from './genera/guscio.mjs';
+ import { ritrattoArtista, paginaCanzone, paginaArtista, paginaAlbum, paginaRaccolta, paginaHome, paginaArchivio, paginaMetodo, paginaChiSiamo, paginaPrivacy, paginaAffiliazioni, paginaNoteLegali, paginaErrore404, nomeGenere, NOMI_DECENNIO, SEGNAPOSTO_DATA_MODIFICA } from './genera/pagine.mjs';
+ import { generaRicerca } from './genera/ricerca.mjs';
+ import { creaPerimetro } from './genera/perimetro.mjs';
++import { controllaImmaginiOG } from './check-og.mjs';
++import { controllaURLInterni } from './check-url-interni.mjs';
+ 
+ const __dirname = dirname(fileURLToPath(import.meta.url));
+ const ROOT = join(__dirname, '..');
+@@ -670,8 +672,8 @@ if (existsSync(join(ROOT, 'ritratti'))) {
+ // restava a meta' senza che l'errore dicesse che era solo la copia delle
+ // anteprime. cpSync prova a replicare permessi e date del sorgente, che su quel
+ // filesystem non e' permesso; copiare i file uno per uno non lo fa e funziona.
+-// Un passaggio accessorio non deve poter fermare tutto il resto: se anche
+-// questo fallisse, ora avvisa e prosegue, come gia' fa la copia dei ritratti.
++// La copia segnala l'errore; i controlli finali fermano la build se una
++// og:image dichiarata nell'HTML risulta assente dall'output.
+ function copiaCartella(da, a) {
+   mkdirSync(a, { recursive: true });
+   for (const voce of readdirSync(da, { withFileTypes: true })) {
+@@ -790,6 +792,11 @@ const vercelJson = {
+ };
+ scrivi('vercel.json', JSON.stringify(vercelJson, null, 2) + '\n');
+ 
++// Due controlli indipendenti, dopo aver scritto tutti i file pubblici.
++// Un esito negativo impedisce al controller di sigillare o promuovere il lotto.
++console.log('Integrità anteprime:', JSON.stringify(controllaImmaginiOG(OUT)));
++console.log('Integrità URL interni:', JSON.stringify(controllaURLInterni(OUT)));
++
+ // -------------------------------------------------------------- riepilogo
+ 
+ const conGancio = canzoni.filter((c) => c.gancio).length;
