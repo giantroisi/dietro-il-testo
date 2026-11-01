@@ -1,0 +1,1285 @@
+{
+  "dietroiltesto-url-stato-ultima-scansione-2026-10-28.csv": {
+    "file": "/Users/gianmicheletroisi/Developer/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/audit-gsc-2026-10-28/dietroiltesto-url-stato-ultima-scansione-2026-10-28.csv",
+    "sha256": "8127b137610b89aa75a5e2aad6001a89866c2949d7359fe7caa72b0e6af4a8f3",
+    "rows": [
+      {
+        "URL": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+        "stato": "scansionata, ma attualmente non indicizzata",
+        "data_ultima_scansione": "2026-09-04"
+      },
+      {
+        "URL": "https://www.dietroiltesto.it/canzone/marmellata-25/",
+        "stato": "scansionata, ma attualmente non indicizzata",
+        "data_ultima_scansione": "2026-09-11"
+      },
+      {
+        "URL": "https://www.dietroiltesto.it/canzone/dont-look-back-in-anger/",
+        "stato": "scansionata, ma attualmente non indicizzata",
+        "data_ultima_scansione": "2026-10-01"
+      }
+    ]
+  },
+  "dietroiltesto/rendimento-3mesi/Pagine.csv": {
+    "file": "/Users/gianmicheletroisi/Developer/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/audit-gsc-2026-10-28/dietroiltesto/rendimento-3mesi/Pagine.csv",
+    "sha256": "58f012ac2887d5997c092df93d7b7e40251031b8f4717b7051f9e75cf5d0bc4c",
+    "rows": [
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+        "Clic": "2",
+        "Impressioni": "572",
+        "CTR": "0.35%",
+        "Posizione": "9.8"
+      },
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/dont-look-back-in-anger/",
+        "Clic": "2",
+        "Impressioni": "239",
+        "CTR": "0.84%",
+        "Posizione": "11.4"
+      },
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/marmellata-25/",
+        "Clic": "1",
+        "Impressioni": "370",
+        "CTR": "0.27%",
+        "Posizione": "8.95"
+      }
+    ]
+  },
+  "dietroiltesto/rendimento-28g-confronto/Pagine.csv": {
+    "file": "/Users/gianmicheletroisi/Developer/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/audit-gsc-2026-10-28/dietroiltesto/rendimento-28g-confronto/Pagine.csv",
+    "sha256": "c17250ec1924cfdcc2d689ae7fd202513901d4726c7379944aad3b22b91d0193",
+    "rows": [
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/whats-my-age-again/",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "2",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "567",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0.35%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.79"
+      },
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/marmellata-25/",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "1",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "370",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0.27%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.95"
+      },
+      {
+        "Pagine principali": "https://www.dietroiltesto.it/canzone/dont-look-back-in-anger/",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "1",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "187",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0.53%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "11.9"
+      }
+    ]
+  },
+  "dietroiltesto/rendimento-3mesi/Query.csv": {
+    "file": "/Users/gianmicheletroisi/Developer/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/audit-gsc-2026-10-28/dietroiltesto/rendimento-3mesi/Query.csv",
+    "sha256": "93b3323481b5f1dd0e37a6fb03673b7bfa57a8044b867d108618e4114db084f1",
+    "rows": [
+      {
+        "Query più frequenti": "what's my age again significato canzone",
+        "Clic": "1",
+        "Impressioni": "41",
+        "CTR": "2.44%",
+        "Posizione": "7.34"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato",
+        "Clic": "1",
+        "Impressioni": "20",
+        "CTR": "5%",
+        "Posizione": "8.95"
+      },
+      {
+        "Query più frequenti": "whats my age again traduzione",
+        "Clic": "0",
+        "Impressioni": "177",
+        "CTR": "0%",
+        "Posizione": "10.58"
+      },
+      {
+        "Query più frequenti": "what's my age again significato",
+        "Clic": "0",
+        "Impressioni": "62",
+        "CTR": "0%",
+        "Posizione": "9.44"
+      },
+      {
+        "Query più frequenti": "marmellata 25 significato",
+        "Clic": "0",
+        "Impressioni": "60",
+        "CTR": "0%",
+        "Posizione": "8.88"
+      },
+      {
+        "Query più frequenti": "whats my age again significato",
+        "Clic": "0",
+        "Impressioni": "42",
+        "CTR": "0%",
+        "Posizione": "8.98"
+      },
+      {
+        "Query più frequenti": "marmellata cremonini significato",
+        "Clic": "0",
+        "Impressioni": "24",
+        "CTR": "0%",
+        "Posizione": "9.04"
+      },
+      {
+        "Query più frequenti": "marmellata #25 significato",
+        "Clic": "0",
+        "Impressioni": "19",
+        "CTR": "0%",
+        "Posizione": "9.37"
+      },
+      {
+        "Query più frequenti": "cremonini marmellata significato",
+        "Clic": "0",
+        "Impressioni": "18",
+        "CTR": "0%",
+        "Posizione": "9.39"
+      },
+      {
+        "Query più frequenti": "dont look back in anger significato",
+        "Clic": "0",
+        "Impressioni": "15",
+        "CTR": "0%",
+        "Posizione": "10.67"
+      },
+      {
+        "Query più frequenti": "significato marmellata 25",
+        "Clic": "0",
+        "Impressioni": "12",
+        "CTR": "0%",
+        "Posizione": "8.92"
+      },
+      {
+        "Query più frequenti": "significato what's my age again",
+        "Clic": "0",
+        "Impressioni": "12",
+        "CTR": "0%",
+        "Posizione": "9.17"
+      },
+      {
+        "Query più frequenti": "significato canzone marmellata 25",
+        "Clic": "0",
+        "Impressioni": "12",
+        "CTR": "0%",
+        "Posizione": "10"
+      },
+      {
+        "Query più frequenti": "significato whats my age again",
+        "Clic": "0",
+        "Impressioni": "11",
+        "CTR": "0%",
+        "Posizione": "8.45"
+      },
+      {
+        "Query più frequenti": "testi cesare cremonini marmellata #25 significato",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "8.5"
+      },
+      {
+        "Query più frequenti": "marmellata cesare cremonini significato",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "8.62"
+      },
+      {
+        "Query più frequenti": "marmellata 25 significato canzone",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "8.75"
+      },
+      {
+        "Query più frequenti": "di cosa parla don't look back in anger",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "9.38"
+      },
+      {
+        "Query più frequenti": "blink 182 what's my age again significato",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "10.38"
+      },
+      {
+        "Query più frequenti": "oasis don't look back in anger significato",
+        "Clic": "0",
+        "Impressioni": "8",
+        "CTR": "0%",
+        "Posizione": "19.62"
+      },
+      {
+        "Query più frequenti": "marmellata 25 di cosa parla",
+        "Clic": "0",
+        "Impressioni": "7",
+        "CTR": "0%",
+        "Posizione": "8.57"
+      },
+      {
+        "Query più frequenti": "whats my age again testo",
+        "Clic": "0",
+        "Impressioni": "6",
+        "CTR": "0%",
+        "Posizione": "12"
+      },
+      {
+        "Query più frequenti": "significato marmellata cremonini",
+        "Clic": "0",
+        "Impressioni": "5",
+        "CTR": "0%",
+        "Posizione": "9"
+      },
+      {
+        "Query più frequenti": "what's my age again",
+        "Clic": "0",
+        "Impressioni": "5",
+        "CTR": "0%",
+        "Posizione": "18.8"
+      },
+      {
+        "Query più frequenti": "dont look back in anger di cosa parla",
+        "Clic": "0",
+        "Impressioni": "4",
+        "CTR": "0%",
+        "Posizione": "6"
+      },
+      {
+        "Query più frequenti": "di che parla don't look back in anger",
+        "Clic": "0",
+        "Impressioni": "4",
+        "CTR": "0%",
+        "Posizione": "8"
+      },
+      {
+        "Query più frequenti": "don't look back in anger di cosa parla",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "8"
+      },
+      {
+        "Query più frequenti": "di cosa parla marmellata 25",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "8.67"
+      },
+      {
+        "Query più frequenti": "marmellata canzone significato",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "9"
+      },
+      {
+        "Query più frequenti": "don t look back in anger significato",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "10.67"
+      },
+      {
+        "Query più frequenti": "what my age again",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "12"
+      },
+      {
+        "Query più frequenti": "what my age again traduzione",
+        "Clic": "0",
+        "Impressioni": "3",
+        "CTR": "0%",
+        "Posizione": "34"
+      },
+      {
+        "Query più frequenti": "cosa significa don't look back in anger",
+        "Clic": "0",
+        "Impressioni": "2",
+        "CTR": "0%",
+        "Posizione": "7"
+      },
+      {
+        "Query più frequenti": "oasis don't look back in anger testo",
+        "Clic": "0",
+        "Impressioni": "2",
+        "CTR": "0%",
+        "Posizione": "63.5"
+      },
+      {
+        "Query più frequenti": "whats my age again blink 182 meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "4"
+      },
+      {
+        "Query più frequenti": "cosa vuol dire don't look back in anger",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "7"
+      },
+      {
+        "Query più frequenti": "dont look back in anger significato canzone",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "7"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato canzone",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "8"
+      },
+      {
+        "Query più frequenti": "marmellata 25 perché si chiama così",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "8"
+      },
+      {
+        "Query più frequenti": "a chi è dedicata marmellata 25",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "9"
+      },
+      {
+        "Query più frequenti": "marmellata 25 a chi è dedicata",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "9"
+      },
+      {
+        "Query più frequenti": "di cosa parla la canzone don't look back in anger",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "10"
+      },
+      {
+        "Query più frequenti": "don t look back in anger significato canzone",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "10"
+      },
+      {
+        "Query più frequenti": "marmellata #25 a chi è dedicata",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "10"
+      },
+      {
+        "Query più frequenti": "whats my age again meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "11"
+      },
+      {
+        "Query più frequenti": "what s my age again",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "14"
+      },
+      {
+        "Query più frequenti": "blink 182 what's my age again testo",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "17"
+      },
+      {
+        "Query più frequenti": "significato dont look back in anger",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "19"
+      },
+      {
+        "Query più frequenti": "what's my age again traduzione",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "20"
+      },
+      {
+        "Query più frequenti": "testo what's my age again",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "24"
+      },
+      {
+        "Query più frequenti": "blink-182 what's my age again?",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "25"
+      },
+      {
+        "Query più frequenti": "don't look back in anger con testo",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "25"
+      },
+      {
+        "Query più frequenti": "oasis don t look back in anger significato",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "27"
+      },
+      {
+        "Query più frequenti": "don't look back in anger traduzione significato",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "37"
+      },
+      {
+        "Query più frequenti": "whats my age again",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "37"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato yahoo",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "40"
+      },
+      {
+        "Query più frequenti": "my age again",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "42"
+      },
+      {
+        "Query più frequenti": "what's my age again testo",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "42"
+      },
+      {
+        "Query più frequenti": "don't look back in anger testo e traduzione",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "46"
+      },
+      {
+        "Query più frequenti": "don't look back in anger meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "48"
+      },
+      {
+        "Query più frequenti": "don't look back in anger traduzione",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "49"
+      },
+      {
+        "Query più frequenti": "never look back traduzione",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "51"
+      },
+      {
+        "Query più frequenti": "don t look back in anger meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "53"
+      },
+      {
+        "Query più frequenti": "don't look back in anger testo",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "54"
+      },
+      {
+        "Query più frequenti": "what's my age again blink 182 meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "59"
+      },
+      {
+        "Query più frequenti": "whats my age again lyrics meaning",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "64"
+      },
+      {
+        "Query più frequenti": "don't look back traduzione",
+        "Clic": "0",
+        "Impressioni": "1",
+        "CTR": "0%",
+        "Posizione": "91"
+      }
+    ]
+  },
+  "dietroiltesto/rendimento-28g-confronto/Query.csv": {
+    "file": "/Users/gianmicheletroisi/Developer/Codex/2026-10-08/quali-sono-le-pagine-piu-cliccate/gsc-scansioni-2026-10-12/audit-gsc-2026-10-28/dietroiltesto/rendimento-28g-confronto/Query.csv",
+    "sha256": "1d6c2cd10337ac796d9637a501d27dca9304cc340a57b768e0ab8fc45aa412c7",
+    "rows": [
+      {
+        "Query più frequenti": "what's my age again significato canzone",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "1",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "40",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "2.5%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "7.28"
+      },
+      {
+        "Query più frequenti": "whats my age again traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "177",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "10.58"
+      },
+      {
+        "Query più frequenti": "what's my age again significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "61",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.41"
+      },
+      {
+        "Query più frequenti": "marmellata 25 significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "60",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.88"
+      },
+      {
+        "Query più frequenti": "whats my age again significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "41",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.95"
+      },
+      {
+        "Query più frequenti": "marmellata cremonini significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "24",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.04"
+      },
+      {
+        "Query più frequenti": "marmellata #25 significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "19",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.37"
+      },
+      {
+        "Query più frequenti": "cremonini marmellata significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "18",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.39"
+      },
+      {
+        "Query più frequenti": "significato marmellata 25",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "12",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.92"
+      },
+      {
+        "Query più frequenti": "significato canzone marmellata 25",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "12",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "10"
+      },
+      {
+        "Query più frequenti": "significato whats my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "11",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.45"
+      },
+      {
+        "Query più frequenti": "significato what's my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "10",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.9"
+      },
+      {
+        "Query più frequenti": "testi cesare cremonini marmellata #25 significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "8",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.5"
+      },
+      {
+        "Query più frequenti": "marmellata cesare cremonini significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "8",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.62"
+      },
+      {
+        "Query più frequenti": "marmellata 25 significato canzone",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "8",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.75"
+      },
+      {
+        "Query più frequenti": "di cosa parla don't look back in anger",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "8",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.38"
+      },
+      {
+        "Query più frequenti": "blink 182 what's my age again significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "8",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "10.38"
+      },
+      {
+        "Query più frequenti": "marmellata 25 di cosa parla",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "7",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.57"
+      },
+      {
+        "Query più frequenti": "whats my age again testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "6",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "12"
+      },
+      {
+        "Query più frequenti": "oasis don't look back in anger significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "6",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "22.83"
+      },
+      {
+        "Query più frequenti": "significato marmellata cremonini",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "5",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9"
+      },
+      {
+        "Query più frequenti": "dont look back in anger significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "5",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "14.8"
+      },
+      {
+        "Query più frequenti": "what's my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "5",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "18.8"
+      },
+      {
+        "Query più frequenti": "dont look back in anger di cosa parla",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "6"
+      },
+      {
+        "Query più frequenti": "di che parla don't look back in anger",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8"
+      },
+      {
+        "Query più frequenti": "di cosa parla marmellata 25",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8.67"
+      },
+      {
+        "Query più frequenti": "marmellata canzone significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9.33"
+      },
+      {
+        "Query più frequenti": "what my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "12"
+      },
+      {
+        "Query più frequenti": "what my age again traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "3",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "34"
+      },
+      {
+        "Query più frequenti": "don't look back in anger di cosa parla",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "2",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "7.5"
+      },
+      {
+        "Query più frequenti": "whats my age again blink 182 meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "4"
+      },
+      {
+        "Query più frequenti": "cosa significa don't look back in anger",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "7"
+      },
+      {
+        "Query più frequenti": "cosa vuol dire don't look back in anger",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "7"
+      },
+      {
+        "Query più frequenti": "dont look back in anger significato canzone",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "7"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato canzone",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8"
+      },
+      {
+        "Query più frequenti": "marmellata 25 perché si chiama così",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "8"
+      },
+      {
+        "Query più frequenti": "a chi è dedicata marmellata 25",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9"
+      },
+      {
+        "Query più frequenti": "marmellata 25 a chi è dedicata",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "9"
+      },
+      {
+        "Query più frequenti": "don t look back in anger significato canzone",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "10"
+      },
+      {
+        "Query più frequenti": "marmellata #25 a chi è dedicata",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "10"
+      },
+      {
+        "Query più frequenti": "whats my age again meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "11"
+      },
+      {
+        "Query più frequenti": "what s my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "14"
+      },
+      {
+        "Query più frequenti": "blink 182 what's my age again testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "17"
+      },
+      {
+        "Query più frequenti": "significato dont look back in anger",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "19"
+      },
+      {
+        "Query più frequenti": "what's my age again traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "20"
+      },
+      {
+        "Query più frequenti": "testo what's my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "24"
+      },
+      {
+        "Query più frequenti": "blink-182 what's my age again?",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "25"
+      },
+      {
+        "Query più frequenti": "don't look back in anger con testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "25"
+      },
+      {
+        "Query più frequenti": "oasis don t look back in anger significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "27"
+      },
+      {
+        "Query più frequenti": "don't look back in anger traduzione significato",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "37"
+      },
+      {
+        "Query più frequenti": "whats my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "37"
+      },
+      {
+        "Query più frequenti": "don't look back in anger significato yahoo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "40"
+      },
+      {
+        "Query più frequenti": "my age again",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "42"
+      },
+      {
+        "Query più frequenti": "what's my age again testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "42"
+      },
+      {
+        "Query più frequenti": "don't look back in anger testo e traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "46"
+      },
+      {
+        "Query più frequenti": "don't look back in anger meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "48"
+      },
+      {
+        "Query più frequenti": "don't look back in anger traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "49"
+      },
+      {
+        "Query più frequenti": "never look back traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "51"
+      },
+      {
+        "Query più frequenti": "don t look back in anger meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "53"
+      },
+      {
+        "Query più frequenti": "don't look back in anger testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "54"
+      },
+      {
+        "Query più frequenti": "what's my age again blink 182 meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "59"
+      },
+      {
+        "Query più frequenti": "oasis don't look back in anger testo",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "60"
+      },
+      {
+        "Query più frequenti": "whats my age again lyrics meaning",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "64"
+      },
+      {
+        "Query più frequenti": "don't look back traduzione",
+        "Ultimi 28 giorni Clic": "0",
+        "28 giorni precedenti Clic": "0",
+        "Ultimi 28 giorni Impressioni": "0",
+        "28 giorni precedenti Impressioni": "1",
+        "Ultimi 28 giorni CTR": "0%",
+        "28 giorni precedenti CTR": "0%",
+        "Ultimi 28 giorni Posizione": "0",
+        "28 giorni precedenti Posizione": "91"
+      }
+    ]
+  }
+}

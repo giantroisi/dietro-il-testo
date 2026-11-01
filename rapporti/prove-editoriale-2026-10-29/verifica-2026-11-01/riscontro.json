@@ -1,0 +1,37 @@
+{
+  "recoverySnapshot": "a71462d4e44ad1e3f94ad1cdae5a01830ebfe03b",
+  "originalBase": "c1a1116f04f652e0cd2772cab5cdcc46ad55c564",
+  "worktree": "/Users/gianmicheletroisi/.codex/worktrees/editoriale-ripresa-2026-11-01/dietro-il-testo",
+  "sourceReopened": "2026-11-01",
+  "mode": "proposal only; no signature, operational application, push or deploy",
+  "dateModified": {
+    "whats-my-age-again": {
+      "before": [
+        "2026-10-13"
+      ],
+      "after": [
+        "2026-11-01"
+      ]
+    },
+    "dont-look-back-in-anger": {
+      "before": [
+        "2026-10-13"
+      ],
+      "after": [
+        "2026-11-01"
+      ]
+    }
+  },
+  "preserved": [
+    "title",
+    "description",
+    "datePublished",
+    "canonical",
+    "H1",
+    "images",
+    "AmazonMarkup",
+    "other694HTML",
+    "ricerca.js",
+    "Marmellata #25"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "check": "check-seo.mjs",
+      "exit": 0,
+      "output": "Pagine controllate: 696\nProblemi trovati: 0\nTitoli, descrizioni, H1, canonical, sitemap, collegamenti, soglie di contenuto e JSON-LD: tutto pulito."
+    },
+    {
+      "check": "check-affiliazioni.mjs",
+      "exit": 0,
+      "output": "OK: configurazione, dichiarazione, 1155 link verificati, avvisi, rel e nessuna risorsa Amazon."
+    },
+    {
+      "check": "check-collegamenti-contestuali.mjs",
+      "exit": 0,
+      "output": "7 percorsi contestuali, 10 collegamenti: dati, destinazioni e posizione corretti."
+    }
+  ],
+  "preserved": {
+    "/Users/gianmicheletroisi/Claude/dietro-il-testo": {
+      "head": "ad9091a5101f1b50228583217aa3b90257a9d966",
+      "hashesIdentical": 22,
+      "statusIdentical": true
+    },
+    "/Users/gianmicheletroisi/.codex/worktrees/og-assets-integrita-2026-10-27/dietro-il-testo": {
+      "head": "c1a1116f04f652e0cd2772cab5cdcc46ad55c564",
+      "hashesIdentical": 0,
+      "statusIdentical": true
+    }
+  }
+}
