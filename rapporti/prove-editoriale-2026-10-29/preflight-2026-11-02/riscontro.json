@@ -1,0 +1,37 @@
+{
+  "approvedDigest": "809f7e0e0491fd863265cd5747147003b75aa48c5cd7552f57c9219b1be46b4e",
+  "candidateDigest": "22e5fd515afc945d9f3a35407fafb9f1934204eced3755b89d1a521719fd4ae1",
+  "differences": [
+    {
+      "file": "canzone/dont-look-back-in-anger/index.html",
+      "expected": "1340eae7c29b57cd0863d5eeed3297f340d6205355e65f33a67dbc809937cdfd",
+      "actual": "adbe1b82be7152adfb5b2d7db4646be825d04f2461b44e56f5836ac1d305183c",
+      "onlyDateDifference": true,
+      "dateFields": 1,
+      "before": "2026-11-01",
+      "after": "2026-11-02"
+    },
+    {
+      "file": "canzone/whats-my-age-again/index.html",
+      "expected": "c5ce6f45c52012358dc505f5d4b1900d65f5bebcbd3d53833b8f45f009412866",
+      "actual": "e922db40edd058c5031073eaccc56581c641bd8633250491fe04904ad455a777",
+      "onlyDateDifference": true,
+      "dateFields": 1,
+      "before": "2026-11-01",
+      "after": "2026-11-02"
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "expected": "3bc9ad76ee199346c2cf9b08529ad67f87745e8a621e9fc37d56aa6130bdca2e",
+      "actual": "24170ee2508960868df87ada372e2fc02274a2e811993e09b5b1cb03a3538fc5",
+      "onlyDateDifference": true,
+      "dateFields": 2,
+      "before": "2026-11-01",
+      "after": "2026-11-02"
+    }
+  ],
+  "keyRead": false,
+  "signed": false,
+  "pushed": false,
+  "deployed": false
+}
