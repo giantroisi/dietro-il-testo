@@ -5136,3 +5136,10 @@ Solo ROADMAP/rapporti/proposta locali, nessuna applicazione operativa o pubblica
 ### Preflight §140 — 2 novembre 2026, stop prima della firma
 
 Consenso umano verificato per809f7e0e…; input/digest/8a7e2d179 e origin/mainc1a1116f coincidono. Build odierna2/50 e gatepositivi, ma le tre impronte derivate differiscono per i soli dueDM/dueLM1→2novembre. Verifica in memoria dei quattro valori riproduce gli hash approvati, senza alterare output/orologio. Rispettato l’ordine di fermarsi davanti a mancata corrispondenza: chiave non letta, nessuna firma/applicazione/push/deploy. Manifesto candidato22e5fd515afc945d9f3a35407fafb9f1934204eced3755b89d1a521719fd4ae1 salvato soltanto come prova; richiede consenso specifico. Fonte/diff/perimetro identici,nessun altro lavoro. Report editoriale-preflight-2026-11-02; proposta8a e manifesto precedente conservati.
+
+
+### Rilascio §140 — sequenza protetta completata, 4 novembre 2026
+
+Consenso umano diretto per22e5fd51…; A7af79887d firmato2novembre, input e ricevuta di preparazione esistenti validati4novembre dopo interruzione per quota della revisione automatica. Nessuna nuova firma o lettura chiave. Output temporaneo perso nella pulizia: recupero dei soli byte approvati da diff/prove con hash esattamente firmati, promozione tramite controller esterno. C971e8d715, P5cbebb31c. Build pulita con data reale4novembre0/50/1168file identici al risultato firmato; dateDM/LM2novembre della modifica/preparazione effettiva stabili.
+
+Solo dueHTML e dueLM in sitemap-canzoni;1165file/694HTML e5sitemap invariati, inventari/altredate/DP/metadati/immagini/pillole/Amazon/Marmellata/home/ricerca/baseline intatti. SEO696zero/1155Amazon/contestuali7-10positivi. Copie concorrenti/22hash preservati. Unico push/deploy autorizzato da riscontrare sul dominio, poi48ore osservazione. Report editoriale-rilascio-2026-11-04 e prove dedicate; resoconto postdeploy solo locale per evitare secondo deployment. Nessun GSC/IndexNow o altro lotto.

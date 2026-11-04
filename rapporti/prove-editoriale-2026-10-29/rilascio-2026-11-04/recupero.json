@@ -1,0 +1,24 @@
+{
+  "manifest": "22e5fd515afc945d9f3a35407fafb9f1934204eced3755b89d1a521719fd4ae1",
+  "originalPreparation": "2026-11-02",
+  "baseFilesIdentical": 1168,
+  "restored": [
+    {
+      "file": "canzone/whats-my-age-again/index.html",
+      "sha256": "e922db40edd058c5031073eaccc56581c641bd8633250491fe04904ad455a777",
+      "exactSignedBytes": true
+    },
+    {
+      "file": "canzone/dont-look-back-in-anger/index.html",
+      "sha256": "adbe1b82be7152adfb5b2d7db4646be825d04f2461b44e56f5836ac1d305183c",
+      "exactSignedBytes": true
+    },
+    {
+      "file": "sitemap-canzoni.xml",
+      "sha256": "24170ee2508960868df87ada372e2fc02274a2e811993e09b5b1cb03a3538fc5",
+      "exactSignedBytes": true
+    }
+  ],
+  "clockChanged": false,
+  "privateKeyReadAgain": false
+}
