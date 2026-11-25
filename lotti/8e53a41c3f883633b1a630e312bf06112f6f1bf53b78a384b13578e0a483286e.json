@@ -1,0 +1,22 @@
+{
+  "versione": 2,
+  "id": "marmellata-25-editoriale-2026-11-25",
+  "contenuti": {
+    "versione": 1,
+    "pagine": [
+      "/canzone/marmellata-25/"
+    ],
+    "cartoline": []
+  },
+  "files": {
+    "dati/canzoni.json": "1537e1068788cea6c77d1af1d20a4e6d8b304eff8039c4568b7c843d7bc0b25d"
+  },
+  "strutturali": {},
+  "promozione": {
+    "files": {
+      "canzone/marmellata-25/index.html": "446cf117f05f8f536af40dcce416139794ed127abb096a5fae89448cdb50750d",
+      "ricerca.js": "5575d94beeb093816551185208a4aadad8b061afe47083ee8221c0c321954cd8",
+      "sitemap-canzoni.xml": "bcfcec5deb56e38ad85d9e4b4714b3981b97c69e15e4da28d8489b4813bca006"
+    }
+  }
+}
