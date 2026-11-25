@@ -6177,21 +6177,54 @@
     "ascoltiTesto": null,
     "spotifyId": "1b8tFExEyHyxTzrrlQAsu4",
     "corpo": [
-      "Primo singolo dell'album \"Maggese\", uscito il 16 maggio 2005, nacque da una rottura sentimentale: la relazione con una ragazza, Erica, partita per New York. Cremonini ha raccontato di averla scritta a notte fonda, in un momento di sconforto, con una chitarra tra le mani, osservando gli oggetti lasciati in casa dalla ex dopo la fine della relazione — \"la mia casa era così piena di ricordi che potevo vederla ancora muoversi di fianco a me, letteralmente\". Il titolo richiama i suoi 25 anni al momento della scrittura: \"l'età conta, in amore, eccome\", ha detto.",
-      "VelvetMag legge la metafora della marmellata — simbolo di dolcezza e conforto — come un invito ad accettare i ricordi della solitudine che segue un abbandono non più come fonte di sofferenza, ma come compagni di un percorso di crescita."
+      "Primo singolo dell'album \"Maggese\", uscito il 16 maggio 2005, nacque da una rottura sentimentale: la relazione con Erica era finita.",
+      "A Radio Italia, nel novembre 2019, Cremonini ha ricordato di aver registrato di notte a Bologna una prima versione in cui si rivolgeva ancora a Erica, la ragazza che era andata via. La registrazione domestica è stata pubblicata nella raccolta «2C2C» del 2019.",
+      "La ricostruzione di VelvetMag lega il numero del titolo ai 25 anni di Cremonini. In un ricordo ripreso da Mediaset nel 2021, il cantante dice invece che aveva 24 anni quando nacque il brano.",
+      "A Radio Italia Cremonini ha spiegato che le immagini sportive del ritornello esprimono la malinconia dei rapporti umani. Alla Gazzetta dello Sport, nel 2026, ha raccontato che la partenza di Roberto Baggio dal Bologna rappresenta nella canzone il suo addio all’adolescenza. La fine di un amore e la sensazione che sia finita un’epoca si incontrano così nello stesso ritornello."
     ],
-    "fraseIconica": "Il testo racconta la solitudine che segue un abbandono, circondati solo dagli oggetti lasciati in casa da chi se n'è andato: attraverso la metafora della marmellata, simbolo di dolcezza e conforto, il brano — secondo la lettura di VelvetMag — invita ad accettare i ricordi non più come fonte di sofferenza ma come compagni di un percorso di crescita. Cesare Cremonini ha raccontato di averlo scritto a notte fonda, dopo la fine della relazione con Erica, partita per New York; il titolo richiama i suoi 25 anni al momento della scrittura.",
+    "fraseIconica": "Baggio e Senna danno una forma riconoscibile alla perdita raccontata nel ritornello. Per Cremonini, la partenza di Baggio dal Bologna rappresenta anche un addio all’adolescenza.",
+    "naturaCorpo": [
+      ["F"],
+      ["D", "F"],
+      ["I", "D"],
+      ["D", "D", "I"]
+    ],
     "sezioniExtra": [],
     "testoUrl": "https://www.letras.com/cesare-cremonini/marmellata-25/",
     "fonti": [
       {
-        "url": "https://www.rockol.it/news-70849/si-intitola-marmellata-25-il-singolo-del-ritorno-di-cesare-cremonini",
-        "nome": "Rockol",
+        "url": "https://www.capital.it/articoli/15-canzoni-piu-belle-cremonini/",
+        "nome": "Radio Capital — data di uscita del singolo",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://shop.universalmusic.it/products/cesare-cremonini-maggese-doppio-vinile",
+        "nome": "Universal Music Italia — scheda ufficiale di Maggese",
         "ruolo": "storia"
       },
       {
         "url": "https://velvetmag.it/2021/02/19/cesare-cremonini-marmellata25-significato-la-domenica-e-le-winston-blu/",
         "nome": "VelvetMag (Chiara Del Zanno)",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.radioitalia.it/news/cesare-cremonini-il-best-e-un-racconto-in-musica-della-mia-storia--468267",
+        "nome": "Radio Italia — intervista a Cesare Cremonini, 27 novembre 2019",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.universalmusic.it/popular-music/album/2c2c_33628889057/",
+        "nome": "Universal Music Italia — tracklist di 2C2C e registrazione originale",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://mediasetinfinity.mediaset.it/news/mediasetinfinity/verissimo/cesare-cremonini-compleanno_SE000000000023_tn21233",
+        "nome": "Mediaset Infinity — dichiarazione di Cremonini riportata nel 2021",
+        "ruolo": "storia"
+      },
+      {
+        "url": "https://www.gazzetta.it/Calcio/Serie-A/Bologna/04-08-2026/cesare-cremonini-intervista-vorrei-velasco-sulla-panchina-della-nazionale.shtml",
+        "nome": "La Gazzetta dello Sport — intervista a Cesare Cremonini, 4 agosto 2026",
         "ruolo": "storia"
       }
     ],
